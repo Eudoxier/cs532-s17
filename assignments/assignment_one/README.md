@@ -2,7 +2,7 @@
 
 For when google hacking is not enough.
 
-*   Python 2 and 3 compatible, run either of the following to install version dependancies.
+*   Python 2 and 3 compatible, run either of the following to install version dependencies.
 
     * `sudo pip install -r requirements.txt`
     * `sudo pip3 install -r requirements.txt`
