@@ -6,7 +6,7 @@ The course assignments and materials for CS 532 Spring 17 at ODU.
 
 Contents:
 
-*   Assignment One
+*   [Assignment One](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_one)
 
     *   Demonstrate `curl` proficiency
     *   Python script to find all PDF links on a web page
