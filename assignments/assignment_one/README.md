@@ -1,6 +1,9 @@
 # Common House Spider
 
-Assignment #1
+To install dependencies run `sudo pip install -r requirements.txt`.
+To see usage information run `common_house.py -h`.
+
+## Assignment #1
 
 CS 432/532 Web Science
 Spring 2017
