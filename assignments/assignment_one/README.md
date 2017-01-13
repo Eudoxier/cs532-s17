@@ -21,7 +21,7 @@ take a screen shot.
 
 3.  Consider the "bow-tie" graph in the Broder et al. paper (fig 9): [http://www9.org/w9cdrom/160/160.html](http://www9.org/w9cdrom/160/160.html)
 
-    Now consider the following graph:
+Now consider the following graph:
 
     A --> B
     B --> C
@@ -40,7 +40,7 @@ take a screen shot.
     O --> A
     P --> G 
     
-    For the above graph, give the values for:
+For the above graph, give the values for:
 
     IN: 
     SCC: 
