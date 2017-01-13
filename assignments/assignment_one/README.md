@@ -1,8 +1,11 @@
+# Common House Spider
+
+Assignment #1
+
 CS 432/532 Web Science
 Spring 2017
 http://phonedude.github.io/cs532-s17/
 
-Assignment #1
 Due: 11:59pm Sept 26
 
 1.  Demonstrate that you know how to use "curl" well enough to
