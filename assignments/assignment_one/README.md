@@ -7,7 +7,7 @@ For when google hacking is not enough.
     * `sudo pip install -r requirements.txt`
     * `sudo pip3 install -r requirements.txt`
 
-*   To see usage information run `common_house.py -h`.
+*   To see usage information run `common_house_spider/cli.py -h`.
 
 ## Assignment #1
 
