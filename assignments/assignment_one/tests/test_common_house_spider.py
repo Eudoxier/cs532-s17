@@ -207,24 +207,3 @@ class TestCrawler:
 
         for link, size in data_carhacking:
             assert link, size in out
-
-
-    def test_crawler_carhacking_exclusive(self, capfd, data_carhacking):
-        """ Test that all URLs in output match actual PDF links
-
-        """
-        carhacking = "http://www.nostarch.com/carhacking"
-        sweeper([carhacking], 1)
-        out, err = capfd.readouterr()
-
-        output_urls = out.rstrip().split('\n')
-
-        output_data = []
-        for line in output_urls:
-            line = line.strip()
-            if line.startswith('http://') or line.startswith('https://'):
-                url, size = line.split()
-                output_data.append((url, size))
-
-        for link, size in output_data:
-            assert link, size in data_carhacking
