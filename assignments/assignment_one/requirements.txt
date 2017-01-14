@@ -4,3 +4,5 @@ future
 tabulate
 setuptools
 pytest
+validators
+python-magic
