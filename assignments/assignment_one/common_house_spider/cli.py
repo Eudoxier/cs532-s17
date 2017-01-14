@@ -12,8 +12,6 @@ import argparse
 import sys
 import logging
 import time
-import doctest
-
 
 from crawler import sweeper
 
@@ -33,13 +31,16 @@ def main(args):
 
     addresses = []
     if args.addresses is not None:
-        addresses.append(args.addresses)
+        for url in args.addresses:
+            addresses.append(url.strip())
 
     if args.infile:
         for address in args.infile:
             addresses.append(address.strip())
 
-    print("[*] Crawling pages: {}".format(addresses))
+    print("[*] Crawling pages:")
+    for page in addresses:
+        print(page)
 
     try:
         sweeper(addresses, args.threads)
@@ -84,7 +85,7 @@ def parse_args(args):
         action='store'),
     parser.add_argument(
         'addresses',
-        nargs='?',
+        nargs='*',
         type=str,
         help="Webpage addresses")
 
