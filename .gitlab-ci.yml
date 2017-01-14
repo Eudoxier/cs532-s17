@@ -30,11 +30,12 @@ stages:
 # Test #
 ########
 
-image: debian
-stage: test_assignment_one
-script:
-    - cd assignments/assignment_one/
-    - python setup.py test
-    - python3 setup.py test
-tags:
-    - docker
+test:
+    image: debian
+    stage: test_assignment_one
+    script:
+        - cd assignments/assignment_one/
+        - python setup.py test
+        - python3 setup.py test
+    tags:
+        - docker
