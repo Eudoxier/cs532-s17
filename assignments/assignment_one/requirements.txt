@@ -2,3 +2,5 @@ bs4
 requests
 future
 tabulate
+setuptools
+pytest
