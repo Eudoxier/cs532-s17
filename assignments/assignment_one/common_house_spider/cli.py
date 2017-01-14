@@ -30,7 +30,10 @@ def main(args):
     _logger.debug("Starting main()")
 
     args = parse_args(args)
-    addresses = args.addresses 
+
+    addresses = []
+    if args.addresses is not None:
+        addresses.append(args.addresses)
 
     if args.infile:
         for address in args.infile:
@@ -81,7 +84,7 @@ def parse_args(args):
         action='store'),
     parser.add_argument(
         'addresses',
-        nargs='+',
+        nargs='?',
         type=str,
         help="Webpage addresses")
 
