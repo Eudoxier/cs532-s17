@@ -15,6 +15,7 @@ import requests
 
 from threading import Thread
 from queue import Queue
+from tabulate import tabulate
 
 
 try:
@@ -36,6 +37,7 @@ def crawl(thread, q):
     while True:
 
         pdf_links = []
+        sizes = []
         address = q.get()
 
         try:
@@ -48,18 +50,20 @@ def crawl(thread, q):
                 url = "http://" + url
                 response = requests.get(url)
                 content_type = response.headers.get('content-type')
+                size = response.headers.get('content-length')
                 if 'application/pdf' in content_type:
                     pdf_links.append(tag['href'])
+                    sizes.append(size)
 
         except requests.exceptions.RequestException as e:
 
             print("[*] Request Error for {}: {}: ".format(url, e))
 
-        print("[*] Thread {} discovered {} PDF links for {}"\
+        print("[*] Thread {} discovered {} PDF links for {}\n"\
                 .format(thread, len(pdf_links), address))
 
-        for pdf_link in pdf_links:
-            print(pdf_link)
+        print_data = zip(pdf_links, sizes)
+        print("{}\n".format(tabulate(print_data, headers=['PDF link', 'size: bytes'])))
 
         q.task_done()
 
