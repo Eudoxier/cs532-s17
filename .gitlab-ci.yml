@@ -31,7 +31,7 @@ stages:
 ########
 
 test:
-    image: debian
+    image: python 
     stage: test_assignment_one
     script:
         - cd assignments/assignment_one/
