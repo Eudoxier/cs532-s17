@@ -1,0 +1,40 @@
+# Docker Hub has a rich database of pre-built images that can be used
+# Docker Hub: hub.docker.com
+
+stages:
+    #    - docs 
+    - test_assignment_one
+
+#########
+# LaTeX #
+#########
+# use docker image with latex preinstalled
+# there is no official latex image
+
+#pages:
+#    image: datenstrom/debian-latex
+#    stage: docs
+#    script:
+#        - apt-get --yes update && apt-get --yes install texlive-latex-extra
+#        - apt-get --yes install build-essential
+#        - pdflatex --version
+#        - make -k
+#    tags:
+#        - docker
+#    artifacts:
+#        paths:
+#        - public
+
+
+########
+# Test #
+########
+
+image: debian
+stage: test_assignment_one
+script:
+    - cd assignments/assignment_one/
+    - python setup.py test
+    - python3 setup.py test
+tags:
+    - docker
