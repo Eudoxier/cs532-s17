@@ -35,6 +35,8 @@ test:
     stage: test_assignment_one
     script:
         - cd assignments/assignment_one/
+        - pip install -r requirements.txt
+        - pip3 install -r requirements.txt
         - python setup.py test
         - python3 setup.py test
     tags:
