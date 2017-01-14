@@ -8,6 +8,7 @@ For when google hacking is not enough.
     * `sudo pip3 install -r requirements.txt`
 
 *   To see usage information run `common_house_spider/cli.py -h`.
+*   To run tests: `python setup.py test`
 
 ## Assignment #1
 
