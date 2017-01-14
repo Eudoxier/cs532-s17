@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """ crawl.py
 
@@ -66,6 +66,8 @@ def crawl(thread, q):
         print("{}\n".format(tabulate(print_data, headers=['PDF link', 'size: bytes'])))
 
         q.task_done()
+
+        return (print_data, len(pdf_links), len(sizes))
 
 
 def sweeper(addresses, threads):
