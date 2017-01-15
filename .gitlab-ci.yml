@@ -20,7 +20,8 @@ build_assignment_one:
         - python setup.py sdist bdist_wheel
     artifacts:
         name: "${CI_PROJECT_NAME}_${CI_PIPELINE_ID}"
-        - dist/
+        paths:
+            - dist/
         
 
 test_assignment_one:
