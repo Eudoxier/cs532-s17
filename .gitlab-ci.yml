@@ -22,7 +22,7 @@ build_assignment_one:
     artifacts:
         name: "${CI_PROJECT_NAME}_${CI_PIPELINE_ID}"
         paths:
-            - dist/*
+            - assignments/assignment_one/dist/
         
 
 test_assignment_one:
