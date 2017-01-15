@@ -14,7 +14,7 @@ stages:
 
 build_assignment_one:
     image: python 
-    stage: test
+    stage: build 
     script:
         - cd assignments/assignment_one/
         - python setup.py sdist bdist_wheel
@@ -24,7 +24,7 @@ build_assignment_one:
         
 
 test_assignment_one:
-    image: python 
+    image: python
     stage: test
     script:
         - cd assignments/assignment_one/
