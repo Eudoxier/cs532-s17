@@ -17,6 +17,7 @@ build_assignment_one:
     stage: build 
     script:
         - cd assignments/assignment_one/
+        - pip install -r requirements.txt
         - 'python setup.py sdist bdist_wheel'
     artifacts:
         name: "${CI_PROJECT_NAME}_${CI_PIPELINE_ID}"
