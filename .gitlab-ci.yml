@@ -6,6 +6,10 @@ stages:
     - test
     - deploy
 
+cache:
+    paths:
+        - pelican/pdfs
+
 ##################
 # Assignment One #
 ##################
@@ -58,3 +62,25 @@ pages:
             - public
     only:
         - master
+        - site
+
+
+########
+# Site #
+########
+
+pages:
+    image: python
+    stage: deploy
+    script:
+        - cd pelican
+        - pip install -r requirements.txt
+        - /usr/bin/fab build
+    tags:
+        - docker
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
+        - site
