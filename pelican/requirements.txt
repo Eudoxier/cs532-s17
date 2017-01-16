@@ -1,0 +1,4 @@
+markdown
+pelican
+fabric
+pyasn1 >= 0.1.8
