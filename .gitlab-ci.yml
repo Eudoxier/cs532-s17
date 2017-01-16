@@ -46,7 +46,7 @@ pages:
     image: datenstrom/debian-latex
     stage: build
     script:
-        - apt-get --yes update && apt-get --yes install texlive-latex-extra
+        - apt-get --yes update && apt-get --yes install texlive-latex-extra python-pygments
         - apt-get --yes install build-essential
         - pdflatex --version
         - cd assignments/assignment_one/docs/
