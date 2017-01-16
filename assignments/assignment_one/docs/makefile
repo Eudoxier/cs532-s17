@@ -1,6 +1,6 @@
 PROJECT=assignment_one
 BIBTEX=bibtex
-OUTDIR = ../../../public/pdfs/
+OUTDIR = ../../../pelican/pdfs/
 TEXDIR = .
 
 # Pygment files
