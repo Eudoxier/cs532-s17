@@ -73,8 +73,10 @@ pages:
     image: python
     stage: deploy
     script:
-        - cd pelican
         - pip install -r requirements.txt
+        - cd pelican/pelican-themes
+        - git clone https://github.com/alexandrevicenzi/Flex.git
+        - cd ../
         - /usr/bin/fab build
     tags:
         - docker
