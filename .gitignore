@@ -1,5 +1,6 @@
-# GitLab CI pages
+# GitLab CI pelican pages
 public/
+output/
 
 # Log files
 *.log
