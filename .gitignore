@@ -1,6 +1,7 @@
 # GitLab CI pelican pages
 public/
 output/
+Flex/
 
 # Log files
 *.log
