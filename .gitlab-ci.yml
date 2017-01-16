@@ -23,6 +23,8 @@ build_assignment_one:
         name: "${CI_PROJECT_NAME}_${CI_PIPELINE_ID}"
         paths:
             - assignments/assignment_one/dist/
+    only:
+        - master
         
 
 test_assignment_one:
@@ -40,16 +42,19 @@ test_assignment_one:
 
 # LaTeX
 
-#pages:
-#    image: datenstrom/debian-latex
-#    stage: docs
-#    script:
-#        - apt-get --yes update && apt-get --yes install texlive-latex-extra
-#        - apt-get --yes install build-essential
-#        - pdflatex --version
-#        - make -k
-#    tags:
-#        - docker
-#    artifacts:
-#        paths:
-#        - public
+pages:
+    image: datenstrom/debian-latex
+    stage: build
+    script:
+        - apt-get --yes update && apt-get --yes install texlive-latex-extra
+        - apt-get --yes install build-essential
+        - pdflatex --version
+        - cd assignments/assignment_one/docs/
+        - make -k
+    tags:
+        - docker
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
