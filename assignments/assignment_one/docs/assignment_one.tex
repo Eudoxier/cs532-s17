@@ -1,0 +1,64 @@
+% Add `ngerman` to documentclass for German docs
+\documentclass[12pt, a4paper]{article}
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{minted}
+
+% Uncomment for German
+%\usepackage[ngerman]{babel}
+
+% For generating template dummy text
+\usepackage{lipsum}
+
+\usepackage{myColors}
+\usepackage{myFooter}
+\usepackage{myTitle}
+\project{CS 432 Web Science}
+\author{Derek Goddeau}
+\title{Assignment One}
+\supervisor{Michael L. Nelson}
+
+\doublespace
+\pagestyle{hacker}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+\section{Lorem}
+\lipsum[1-4]
+
+\begin{minipage}{\linewidth} % prevent spliting between pages
+    \vspace{2em}
+    \begin{minted}[mathescape,
+                   linenos,
+                   firstnumber=0,
+                   numbersep=5pt,
+                   gobble=1,
+                   frame=lines,
+                   framesep=2mm]{c}
+    /**
+     * Recursively calculate the factorial of n
+     *
+     * Only works for small numbers, meant to be a compact and
+     * clear function very close to the mathematical definition.
+     */
+    uintmax_t factorial(uintmax_t n) {
+        if(n == 1) return 1;
+        return(n * factorial(n - 1));
+    }
+    \end{minted}
+    \vspace{2em}
+\end{minipage}
+
+\lipsum[5-8]
+
+\section{Mauris}
+\lipsum[9-14]
+
+\end{document}
