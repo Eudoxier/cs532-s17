@@ -2,6 +2,7 @@
 public/
 output/
 Flex/
+cache/
 
 # Log files
 *.log
