@@ -1,0 +1,48 @@
+*           text=auto
+
+# These files are text and should be normalized (convert crlf to lf)
+*.sh        text
+*.rb        text
+*.test      text
+*.c         text
+*.cpp       text
+*.h         text
+*.txt       text
+*.dat       text
+*.yml       text
+*.s79       text
+*.bat       text
+*.xcl       text
+*.inc       text
+*.info      text
+*.md        text
+*.rst       text
+*.py        text
+*.py3       text
+*.pyw       text
+*.pyx       text
+*.pxd       text
+makefile    text
+rakefile    text
+
+
+#These files are binary and should not be normalized
+*.db        binary
+*.p         binary
+*.pkl       binary
+*.pyc       binary
+*.pyd       binary
+*.pyo       binary
+*.doc       binary
+*.odt       binary
+*.pdf       binary
+*.ewd       binary
+*.eww       binary
+*.dni       binary
+*.wsdt      binary
+*.dbgdt     binary
+*.mac       binary
+*.png       binary
+*.gif       binary
+*.jpg       binary
+*.bmp       binary
