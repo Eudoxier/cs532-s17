@@ -46,7 +46,7 @@ test_assignment_one:
 
 # LaTeX
 
-pages:
+build_assignment_one_report:
     image: datenstrom/debian-latex
     stage: build
     script:
@@ -59,7 +59,7 @@ pages:
         - docker
     artifacts:
         paths:
-            - public
+            - assignments/assignment_one/docs/assignment_one.pdf
     only:
         - master
         - site
@@ -73,10 +73,10 @@ pages:
     image: python
     stage: deploy
     script:
-        - pip install -r requirements.txt
         - cd pelican/pelican-themes
         - git clone https://github.com/alexandrevicenzi/Flex.git
         - cd ../
+        - pip install -r requirements.txt
         - /usr/bin/fab build
     tags:
         - docker
