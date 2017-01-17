@@ -38,8 +38,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['sitemap', 'post_stats']
+#PLUGIN_PATHS = ['pelican-plugins']
+#PLUGINS = ['sitemap', 'post_stats']
 
 STATIC_PATHS = ['images', 'pdfs', 'pages']
 
