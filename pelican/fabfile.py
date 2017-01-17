@@ -7,8 +7,6 @@ import SocketServer
 
 #from pelican.server import ComplexHTTPRequestHandler
 
-pdfs = [ '../assignments/assignment_one/docs/assignment_one.pdf' ]
-
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = '../public'
 env.theme_path = 'pelican-themes'
@@ -34,14 +32,13 @@ def clean():
     """Remove generated files"""
     if os.path.isdir(DEPLOY_PATH):
         shutil.rmtree(DEPLOY_PATH)
-        os.makedirs(DEPLOY_PATH + '/pdfs')
-        for pdf in pdfs:
-            shutil.copy(pdf, DEPLOY_PATH + '/pdfs')
+        os.makedirs(DEPLOY_PATH)
 
 def build():
     """Build local version of site"""
     local('pelican -s pelicanconf.py content --verbose')
-    collectstatic()
+    os.makedirs(DEPLOY_PATH + '/pdfs')
+    collectsite()
 
 def rebuild():
     """`build` with the delete switch"""
@@ -99,8 +96,10 @@ def gh_pages():
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path} -p".format(**env))
 
-def collectstatic():
+def collectsite():
   if os.path.isdir(DEPLOY_PATH):
     local('cp -rf output/* {deploy_path}'.format(**env))
+    local('cp -rf pdfs {deploy_path}'.format(**env))
     local('cp -rf images {deploy_path}'.format(**env))
+    local('cp -rf pages {deploy_path}'.format(**env))
     local('cp -rf images/profile.png {deploy_path}/theme/img/profile.png'.format(**env))
