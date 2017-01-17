@@ -76,7 +76,11 @@ pages:
         - cd pelican/pelican-themes
         - git clone https://github.com/alexandrevicenzi/Flex.git
         - cd ../
-        - pip2 install -r requirements.txt
+        - apt-get --yes update && apt-get install python-pip
+        - which pip
+        - which pip2
+        - which pip3
+        - pip install -r requirements.txt
         - which fab
         - fab build
     tags:
