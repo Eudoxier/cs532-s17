@@ -101,5 +101,5 @@ def collectsite():
     local('cp -rf output/* {deploy_path}'.format(**env))
     local('cp -rf pdfs {deploy_path}'.format(**env))
     local('cp -rf images {deploy_path}'.format(**env))
-    local('cp -rf pages {deploy_path}'.format(**env))
-    local('cp -rf images/profile.png {deploy_path}/theme/img/profile.png'.format(**env))
+#    local('cp -rf pages {deploy_path}'.format(**env))
+#    local('cp -rf images/profile.png {deploy_path}/theme/img/profile.png'.format(**env))
