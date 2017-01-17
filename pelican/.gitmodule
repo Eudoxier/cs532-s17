@@ -1,3 +1,0 @@
-[submodule "Flex"]
-    path = pelican/pelican-themes
-    url = https://github.com/alexandrevicenzi/Flex.git
