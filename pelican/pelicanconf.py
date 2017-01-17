@@ -60,8 +60,8 @@ SITEMAP = {
 
 
 # Blogroll
-LINKS = (('Assignment One', SITEURL + '/pdfs/assignment-one.pdf'),
-         ('Assignment Two', SITEURL + '/pdfs/assignment-two.pdf'))
+LINKS = (('Assignment One', SITEURL + '/pdfs/assignment_one.pdf'),
+         ('Assignment Two', SITEURL + '/pdfs/assignment_two.pdf'))
 
 # Social widget
 SOCIAL = (('gitlab', 'https://gitlab.com/datenstrom'),
