@@ -75,6 +75,8 @@ pages:
     script:
         - cd pelican/pelican-themes
         - git clone https://github.com/alexandrevicenzi/Flex.git
+        - cd ../pelican-plugins
+        - git clone https://github.com/getpelican/pelican-plugins.git
         - cd ../
         - pip -V
         - pip install -r requirements.txt
