@@ -77,11 +77,8 @@ pages:
         - git clone https://github.com/alexandrevicenzi/Flex.git
         - cd ../
         - apt-get --yes update && apt-get --yes install python-pip
-        - which pip
-        - which pip2
-        - which pip3
-        - pip install -r requirements.txt
-        - which fab
+        - pip -V
+        - /usr/bin/pip2 install -r requirements.txt
         - fab build
     tags:
         - docker
