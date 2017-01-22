@@ -70,10 +70,20 @@ def crawl(thread, q):
             except requests.exceptions.RequestException as e:
                 continue
 
-        print("[*] Thread {} discovered {} PDF links for {}\n"\
-                .format(thread, len(pdf_links), address))
-
+        num_pdfs = len(pdf_links)
         print_data = list(set(zip(pdf_links, sizes)))
+        num_duplicates = num_pdfs - len(print_data)
+
+        print("[*] Thread {} discovered {} PDF links for {}"\
+                .format(thread, num_pdfs, address))
+        if num_duplicates > 1 or num_duplicates == 0:
+            print("[*] Thread {} removed {} duplicate PDF files\n"\
+                    .format(thread, num_duplicates, address))
+        else:
+            print("[*] Thread {} removed {} duplicate PDF file\n"\
+                    .format(thread, num_duplicates, address))
+
+
         print("{}\n".format(tabulate(print_data, headers=['PDF link', 'size: bytes'], tablefmt="rst")))
 
         q.task_done()
