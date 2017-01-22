@@ -84,7 +84,12 @@ def sweeper(addresses, threads):
 
     """
     q = Queue()
-    print("[*] Spinning up with {} threads\n".format(threads))
+
+    if threads > 1:
+        print("[*] Spinning up with {} threads\n".format(threads))
+    else:
+        print("[*] Spinning up with {} thread\n".format(threads))
+
     for thread_id in range(threads):
         worker = Thread(target=crawl, args=(thread_id, q))
         worker.setDaemon(True)
