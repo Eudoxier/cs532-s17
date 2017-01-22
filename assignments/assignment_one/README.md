@@ -10,6 +10,11 @@ For when google hacking is not enough.
 *   To see usage information run `common_house_spider/cli.py -h`.
 *   To run tests: `python setup.py test`
 
+# Curl
+
+The `curl_post.sh` script searches [nostarch.com](nostarch.com) for the
+given command line argument.
+
 ## Assignment #1
 
 CS 432/532 Web Science
