@@ -21,9 +21,15 @@ given command line argument.
 
 ## Graph Structure
 
-Note that for some reason the graphviz package was not in python PATH
-without installing via `apt-get install graphviz` in my environment
-for some reason.
+Installation and config problems:
+
+*   Debian systems need: `apt-get install libfreetype6-dev`
+*   Must run `python3 -m ipykernel install` to make Python 3 kernel available
+*   Note that for some reason the graphviz package was not in python `PATH` without installing via `apt-get install graphviz` in my environment for some reason.
+*   Numpy must be installed before Matplotlib, there is no real solution to this but this works.
+
+    cat notebook-requirements.txt | xargs -n 1 -L 1 pip install
+
 
 ## Assignment Description
 
