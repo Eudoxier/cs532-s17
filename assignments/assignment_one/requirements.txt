@@ -8,3 +8,5 @@ pytest
 validators
 python-magic
 wheel
+graphviz
+pydotplus

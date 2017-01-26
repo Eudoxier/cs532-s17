@@ -1,4 +1,8 @@
-# Common House Spider
+# Assignment One
+
+-------------------------------
+
+## Common House Spider
 
 For when google hacking is not enough.
 
@@ -10,12 +14,18 @@ For when google hacking is not enough.
 *   To see usage information run `common_house_spider/cli.py -h`.
 *   To run tests: `python setup.py test`
 
-# Curl
+## Curl
 
 The `curl_post.sh` script searches [nostarch.com](nostarch.com) for the
 given command line argument.
 
-## Assignment #1
+## Graph Structure
+
+Note that for some reason the graphviz package was not in python PATH
+without installing via `apt-get install graphviz` in my environment
+for some reason.
+
+## Assignment Description
 
 CS 432/532 Web Science
 Spring 2017
