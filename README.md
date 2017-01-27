@@ -16,3 +16,7 @@ is updated hourly but the primary repository can be accessed at
     *   Demonstrate `curl` proficiency
     *   Python script to find all PDF links on a web page
     *   Demonstrate understanding of the "bow-tie" graph structure
+
+## Direct links to reports
+
+*   [Assignment One Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)

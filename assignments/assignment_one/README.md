@@ -1,5 +1,7 @@
 # Assignment One
 
+[Assignment one report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
+
 -------------------------------
 
 ## Common House Spider
