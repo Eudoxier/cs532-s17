@@ -43,7 +43,7 @@ def main(args):
         print(page)
 
     try:
-        sweeper(addresses, args.threads)
+        sweeper(addresses, args.threads, args.ugly)
     except KeyboardInterrupt:
         sys.exit(2)
 
@@ -75,6 +75,12 @@ def parse_args(args):
         const=1,
         help="Number of threads to use",
         action='store'),
+    parser.add_argument(
+        '-u',
+        '--ugly',
+        default=False,
+        help="Print ugly output",
+        action='store_true'),
     parser.add_argument(
         '-f',
         '--infile',
