@@ -4,17 +4,15 @@ The course assignments and materials for CS 532 Spring 17 at ODU.
 
 &nbsp;
 
-Contents:
+The primary repository is hosted on GitLab, if you are reaching this
+on GitHub it may not be the most recent version. It is a mirror that
+is updated hourly but the primary repository can be accessed at
+[https://gitlab.com/datenstrom/cs532-s17](https://gitlab.com/datenstrom/cs532-s17).
+
+## Contents:
 
 *   [Assignment One](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_one)
 
     *   Demonstrate `curl` proficiency
     *   Python script to find all PDF links on a web page
     *   Demonstrate understanding of the "bow-tie" graph structure
-
-## Note
-
-The primary repository is hosted on GitLab, if you are reaching this
-on GitHub it may not be the most recent version. It is a mirror that
-is updated hourly but the primary repository can be accessed at
-[https://gitlab.com/datenstrom/cs532-s17](https://gitlab.com/datenstrom/cs532-s17).
