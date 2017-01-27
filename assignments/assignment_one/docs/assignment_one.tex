@@ -101,12 +101,12 @@ The \href{https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assign
 optionaly from a specified file with the \code{-f} flag, and use
 multiple threads using the \code{-t} flag.
 It outputs all PDF URIs on the page and the PDF size as reported
-by the server.
+by the server. Note that the \code{-u} or \code{--ugly} parameter must be
+passed to print first and last URI.
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
 \vspace{2em}
 \begin{minted}[fontsize=\scriptsize]{bash}
-datenstrom@redacted$ python cli.py -t 2 www.nostarch.com/carhacking https://www.nostarch.com/blackhatpython
+datenstrom@redacted$ python cli.py -t 2 www.nostarch.com/carhacking https://www.nostarch.com/blackhatpython -u
 [*] Crawling pages:
 www.nostarch.com/carhacking
 https://www.nostarch.com/blackhatpython
@@ -114,98 +114,112 @@ https://www.nostarch.com/blackhatpython
 [*] Thread 1 discovered 3 PDF links for https://www.nostarch.com/blackhatpython
 [*] Thread 1 removed 0 duplicate PDF files
 
-=========================================================  =============
-PDF link                                                     size: bytes
-=========================================================  =============
-http://www.nostarch.com/download/BlackHatPython_ch07.pdf           88339
-http://www.nostarch.com/download/BlackHatPython_Index.pdf         116530
-http://www.nostarch.com/download/BlackHatPython_dTOC.pdf           54377
-=========================================================  =============
+First link: http://www.nostarch.com/download/BlackHatPython_ch07.pdf
+Last link: https://www.nostarch.com/download/BlackHatPython_ch07.pdf
+PDF size: 88339
+
+First link: http://www.nostarch.com/download/BlackHatPython_dTOC.pdf
+Last link: https://www.nostarch.com/download/BlackHatPython_dTOC.pdf
+PDF size: 54377
+
+First link: http://www.nostarch.com/download/BlackHatPython_Index.pdf
+Last link: https://www.nostarch.com/download/BlackHatPython_Index.pdf
+PDF size: 116530
 
 [*] Thread 0 discovered 5 PDF links for www.nostarch.com/carhacking
 [*] Thread 0 removed 1 duplicate PDF file
 
-==============================================================================  =============
-PDF link                                                                          size: bytes
-==============================================================================  =============
-http://www.nostarch.com/download/Car Hackers Handbook_sample_dTOC.pdf                  594880
-https://www.usenix.org/system/files/login/articles/login_summer16_19_books.pdf          81289
-http://www.nostarch.com/download/Car Hackers Handbook_sample_index.pdf                 660045
-http://www.nostarch.com/download/Car Hackers Handbook_sample_Chapter5.pdf             1713557
-==============================================================================  =============
+First link: http://www.nostarch.com/download/Car Hackers Handbook_sample_Chapter5.pdf
+Last link: https://www.nostarch.com/download/Car%20Hackers%20Handbook_sample_Chapter5.pdf
+PDF size: 1713557
+
+First link: http://www.nostarch.com/download/Car Hackers Handbook_sample_Chapter5.pdf
+Last link: https://www.nostarch.com/download/Car%20Hackers%20Handbook_sample_Chapter5.pdf
+PDF size: 1713557
+
+First link: http://www.nostarch.com/download/Car Hackers Handbook_sample_dTOC.pdf
+Last link: https://www.nostarch.com/download/Car%20Hackers%20Handbook_sample_dTOC.pdf
+PDF size: 594880
+
+First link: http://www.nostarch.com/download/Car Hackers Handbook_sample_index.pdf
+Last link: https://www.nostarch.com/download/Car%20Hackers%20Handbook_sample_index.pdf
+PDF size: 660045
+
+First link: https://www.usenix.org/system/files/login/articles/login_summer16_19_books.pdf
+Last link: https://www.usenix.org/system/files/login/articles/login_summer16_19_books.pdf
+PDF size: 81289
 
 [*] PDF links discovered in 20.1669859409 seconds
 \end{minted}
-\vspace{2em}
-\end{minipage}
+\vspace{1em}
 
 
 %%%%%%%%%%%%%%%%
 % Required URI %
 %%%%%%%%%%%%%%%%
-\newpage
 It is also both Python 2.6+ and Python 3 compatible:
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
+\vspace{1em}
 \begin{minted}[fontsize=\scriptsize]{bash}
 
-datenstrom@redacted$ python3 cli.py http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html
+datenstrom@redacted$ python3 cli.py http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html -u
 [*] Crawling pages:
 http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html
 [*] Spinning up with 1 thread
 [*] Thread 0 discovered 11 PDF links for http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html
 [*] Thread 0 removed 0 duplicate PDF files
 
+[*] Thread 0 discovered 11 PDF links for http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html
+[*] Thread 0 removed 0 duplicate PDF files
 
-==============================================================================  =============
-PDF link                                                                          size: bytes
-==============================================================================  =============
-http://arxiv.org/pdf/1512.06195                                                       1748961
-http://bit.ly/1ZDatNK                                                                  720476
-http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf                          1254605
-http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf                    622981
-http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf                     4308768
-http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf                   709420
-http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf                       1274604
-http://www.cs.odu.edu/~mln/pubs/jcdl-2014/jcdl-2014-brunelle-damage.pdf               2205546
-http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf                      639001
-http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf                    2350603
-http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf        2184076
-==============================================================================  =============
+First link: http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf
+PDF size: 2184076
+
+First link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-annotations.pdf
+PDF size: 622981
+
+First link: http://arxiv.org/pdf/1512.06195
+Last link: https://arxiv.org/pdf/1512.06195.pdf
+PDF size: 1748961
+
+First link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-off-topic.pdf
+PDF size: 4308768
+
+First link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-stories.pdf
+PDF size: 1274604
+
+First link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/tpdl-2015/tpdl-2015-profiling.pdf
+PDF size: 639001
+
+First link: http://www.cs.odu.edu/~mln/pubs/jcdl-2014/jcdl-2014-brunelle-damage.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/jcdl-2014/jcdl-2014-brunelle-damage.pdf
+PDF size: 2205546
+
+First link: http://bit.ly/1ZDatNK
+Last link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-temporal-intention.pdf
+PDF size: 720476
+
+First link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-mink.pdf
+PDF size: 1254605
+
+First link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-arabic-sites.pdf
+PDF size: 709420
+
+First link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf
+Last link: http://www.cs.odu.edu/~mln/pubs/jcdl-2015/jcdl-2015-dictionary.pdf
+PDF size: 2350603
 
 [*] PDF links discovered in 14.306671047210693 seconds
 
 \end{minted}
 \vspace{2em}
-\end{minipage}
-
-
-%\begin{minipage}{\linewidth} % prevent splitting between pages
-%    \vspace{2em}
-%    \begin{minted}[mathescape,
-%                   linenos,
-%                   firstnumber=0,
-%                   numbersep=5pt,
-%                   gobble=1,
-%                   frame=lines,
-%                   framesep=2mm]{c}
-%    /**
-%     * Recursively calculate the factorial of n
-%     *
-%     * Only works for small numbers, meant to be a compact and
-%     * clear function very close to the mathematical definition.
-%     */
-%    uintmax_t factorial(uintmax_t n) {
-%        if(n == 1) return 1;
-%        return(n * factorial(n - 1));
-%    }
-%    \end{minted}
-%    \vspace{2em}
-%\end{minipage}
-
-%                         Bowite                                      %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
 \section{Graph Structure}
