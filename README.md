@@ -13,6 +13,7 @@ is updated hourly but the primary repository can be accessed at
 
 *   [Assignment One](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_one)
 
+    *   Tagged `0.1`
     *   Demonstrate `curl` proficiency
     *   Python script to find all PDF links on a web page
     *   Demonstrate understanding of the "bow-tie" graph structure
