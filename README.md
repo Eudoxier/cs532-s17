@@ -21,3 +21,7 @@ is updated hourly but the primary repository can be accessed at
 ## Direct links to reports
 
 *   [Assignment One Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
+
+## Direct links to Jupyter Notebooks
+
+*   [Bow-Tie Graph Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
