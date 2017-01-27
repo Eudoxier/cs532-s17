@@ -1,5 +1,5 @@
-# Jupyter Notebook
 jupyter
 jupyterthemes
+numpy
 networkx
 matplotlib
