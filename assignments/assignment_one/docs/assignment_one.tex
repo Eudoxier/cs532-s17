@@ -208,6 +208,41 @@ http://www.cs.odu.edu/~mln/pubs/ht-2015/hypertext-2015-temporal-violations.pdf  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
-\section{Bowtie}
+\section{Graph Structure}
+
+The sample graph below is the dataset that will be used to demonstrate the
+\code{SCC}, \code{IN}, \code{OUT}, \code{DISCONNECTED}, \code{TUBES}, and
+\code{TENDRILS} components. The heatmaping in figure one is based on the
+degree for each node. Using this directed graph the single \code{SCC}
+component can be found, it contains all of the nodes which are reachable
+from eachother. In this sample graph these nodes are \code{A},
+\code{B}, \code{C}, and \code{G} which are color coded red in figure 2.
+
+Once the \code{SCC} has been discovered, the \code{IN} and \code{OUT} components
+can be found. These consist of the nodes that link only into or out of the
+\code{SCC} respectively. The \code{IN} component consists of nodes
+\code{O}, \code{M}, and \code{P} which are colored green in figure 2.
+The \code{OUT} components are \code{H} and \code{D}, yellow in figure 2.
+
+\begin{figure}[h]
+    \centering
+    \caption{Graph heatmap by node degree}
+    \includegraphics[width=0.75\textwidth]{dia/graph_heatmap.png}
+\end{figure}
+
+The \code{DISCONNECTED} component contains all nodes unreachable from
+the other components, which are the grey nodes \code{F} and \code{E}.
+\code{TUBES} are nodes which connect \code{IN} and \code{OUT} nodes,
+there is only one node in this example \code{N} colored purple.
+Finally the \code{TENDRILS} are the blue nodes \code{I}, \code{K},
+and \code{L} which shoot off of the \code{IN} and \code{OUT}
+components but do not directly interact with the \code{SCC}.
+
+\begin{figure}[h]
+    \centering
+    \caption{Graph components}
+    \includegraphics[width=0.75\textwidth]{dia/graph_components.png}
+\end{figure}
+
 
 \end{document}
