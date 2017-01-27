@@ -80,7 +80,12 @@ pages:
         - cd ../
         - pip -V
         - pip install -r requirements.txt
-        - fab build
+        - fab build                             # End Pelican
+        - cd ../                                # Begin Jupyter Notebooks
+        - cat assignments/assignment_one/notebook-requirements.txt | xargs -n 1 -L 1 pip install
+        - jupyter nbconvert --to html assignments/assignment_one/graph_structure/graph_structure.ipynb
+        - mkdir -p public/notebooks/
+        - cp assignments/assignment_one/graph_structure/graph_structure.html public/notebooks
     tags:
         - docker
     artifacts:

@@ -241,9 +241,10 @@ The \code{OUT} components are \code{H} and \code{D}, yellow in figure 2.
 \begin{figure}[h]
     \centering
     \caption{Graph heatmap by node degree}
-    \includegraphics[width=0.75\textwidth]{dia/graph_heatmap.png}
+    \includegraphics[width=0.70\textwidth]{dia/graph_heatmap.png}
 \end{figure}
 
+\newpage
 The \code{DISCONNECTED} component contains all nodes unreachable from
 the other components, which are the grey nodes \code{F} and \code{E}.
 \code{TUBES} are nodes which connect \code{IN} and \code{OUT} nodes,
@@ -252,10 +253,24 @@ Finally the \code{TENDRILS} are the blue nodes \code{I}, \code{K},
 and \code{L} which shoot off of the \code{IN} and \code{OUT}
 components but do not directly interact with the \code{SCC}.
 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Component    & Color  & Nodes \\ \hline
+        SCC          & red    & 4     \\ \hline
+        IN           & green  & 3     \\ \hline
+        OUT          & yellow & 2     \\ \hline
+        TENDRILS     & blue   & 3     \\ \hline
+        TUBES        & purple & 1     \\ \hline
+        DISCONNECTED & grey   & 2     \\ \hline
+    \end{tabular}
+\end{table}
+
 \begin{figure}[h]
     \centering
     \caption{Graph components}
-    \includegraphics[width=0.75\textwidth]{dia/graph_components.png}
+    \includegraphics[width=0.70\textwidth]{dia/graph_components.png}
 \end{figure}
 
 
