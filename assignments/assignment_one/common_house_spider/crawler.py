@@ -30,7 +30,7 @@ __author__ = "Derek Goddeau"
 _logger = logging.getLogger(__name__)
 
 
-def crawl(thread, q):
+def crawl(thread, q, ugly):
     """ Crawl a page for PDF links
 
     """
@@ -38,6 +38,7 @@ def crawl(thread, q):
 
         address = q.get()
         pdf_links = []
+        final_redirects = []
         sizes = []
 
         try:
@@ -65,6 +66,7 @@ def crawl(thread, q):
 
                 if 'application/pdf' in content_type or 'PDF' in mime_type:
                     pdf_links.append(tag['href'])
+                    final_redirects.append(response.url)
                     sizes.append(size)
 
             except requests.exceptions.RequestException as e:
@@ -84,12 +86,24 @@ def crawl(thread, q):
                     .format(thread, num_duplicates, address))
 
 
-        print("{}\n".format(tabulate(print_data, headers=['PDF link', 'size: bytes'], tablefmt="rst")))
+        if not ugly:
+            print("{}\n".format(tabulate(print_data, headers=['PDF link', 'size: bytes'], tablefmt="rst")))
+        else:
+
+            first_last = []
+            for first, last, size in zip(pdf_links, final_redirects, sizes):
+                first_last.append("First link: {}".format(first) + \
+                        "\nLast link: {}".format(last) + \
+                        "\nPDF size: {}\n".format(size))
+
+            for pdf in first_last:
+                print(pdf)
+
 
         q.task_done()
 
 
-def sweeper(addresses, threads):
+def sweeper(addresses, threads, ugly):
     """ Start threads, put addresses in queue
 
     """
@@ -101,7 +115,7 @@ def sweeper(addresses, threads):
         print("[*] Spinning up with {} thread\n".format(threads))
 
     for thread_id in range(threads):
-        worker = Thread(target=crawl, args=(thread_id, q))
+        worker = Thread(target=crawl, args=(thread_id, q, ugly))
         worker.setDaemon(True)
         worker.start()
     for address in addresses:
