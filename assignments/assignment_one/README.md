@@ -1,6 +1,14 @@
 # Assignment One
 
+&nbsp;
+
 [Assignment one report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
+
+&nbsp;
+
+[Assignment one graph analysis Jupyter notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
+
+&nbsp;
 
 -------------------------------
 
