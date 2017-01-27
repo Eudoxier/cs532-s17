@@ -69,7 +69,7 @@ class TestCrawler:
 
         """
         odu_spring_17 = "http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html"
-        sweeper([odu_spring_17], 1)
+        sweeper([odu_spring_17], 1, False)
         out, err = capfd.readouterr()
 
         for link, size in data_17:
@@ -82,7 +82,7 @@ class TestCrawler:
 
         """
         odu_spring_17 = "http://www.cs.odu.edu/~mln/teaching/cs532-s17/test/pdfs.html"
-        sweeper([odu_spring_17], 1)
+        sweeper([odu_spring_17], 1, False)
         out, err = capfd.readouterr()
 
         output_urls = out.rstrip().split('\n')
@@ -103,7 +103,7 @@ class TestCrawler:
 
         """
         odu_spring_16 = "http://www.cs.odu.edu/~mln/teaching/cs532-s16/test/pdfs.html"
-        sweeper([odu_spring_16], 1)
+        sweeper([odu_spring_16], 1, False)
         out, err = capfd.readouterr()
 
         for link, size in data_16:
@@ -115,7 +115,7 @@ class TestCrawler:
 
         """
         odu_spring_16 = "http://www.cs.odu.edu/~mln/teaching/cs532-s16/test/pdfs.html"
-        sweeper([odu_spring_16], 1)
+        sweeper([odu_spring_16], 1, False)
         out, err = capfd.readouterr()
 
         output_urls = out.rstrip().split('\n')
@@ -136,7 +136,7 @@ class TestCrawler:
 
         """
         blackhat = "https://www.nostarch.com/blackhatpython"
-        sweeper([blackhat], 1)
+        sweeper([blackhat], 1, False)
         out, err = capfd.readouterr()
 
         for link, size in data_blackhat:
@@ -148,7 +148,7 @@ class TestCrawler:
 
         """
         blackhat = "https://www.nostarch.com/blackhatpython"
-        sweeper([blackhat], 1)
+        sweeper([blackhat], 1, False)
         out, err = capfd.readouterr()
 
         output_urls = out.rstrip().split('\n')
@@ -169,7 +169,7 @@ class TestCrawler:
 
         """
         stats = "www.nostarch.com/statsdonewrong"
-        sweeper([stats], 1)
+        sweeper([stats], 1, False)
         out, err = capfd.readouterr()
 
         for link, size in data_stats:
@@ -181,7 +181,7 @@ class TestCrawler:
 
         """
         stats = "www.nostarch.com/statsdonewrong"
-        sweeper([stats], 1)
+        sweeper([stats], 1, False)
         out, err = capfd.readouterr()
 
         output_urls = out.rstrip().split('\n')
@@ -202,7 +202,7 @@ class TestCrawler:
 
         """
         carhacking = "http://www.nostarch.com/carhacking"
-        sweeper([carhacking], 1)
+        sweeper([carhacking], 1, False)
         out, err = capfd.readouterr()
 
         for link, size in data_carhacking:
