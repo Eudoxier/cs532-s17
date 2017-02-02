@@ -16,7 +16,8 @@
 
 Carbon Date is dockerized by gitlab continuous integration using the
 `.gitlab-ci.yml` file in the project root directory and pushed to 
-this repositories registery.
+this repositories registery. The script in the `carbondate`
+directory demonstrates its use.
 
 ## Assignment Description
 
