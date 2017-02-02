@@ -89,7 +89,7 @@ build_carbon_date:
         - docker
     only:
         - master
-        - assignment2
+        - assignment-2
 
 release_carbon_date:
     image: docker:git
@@ -104,7 +104,7 @@ release_carbon_date:
         - docker
     only:
         - master
-        - assignment2
+        - assignment-2
 
 
 ########
