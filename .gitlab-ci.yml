@@ -4,11 +4,17 @@
 stages:
     - build
     - test
+    - release
     - deploy
 
 cache:
     paths:
         - pelican/pdfs
+
+variables:
+    CONTAINER_TEST_IMAGE: carbon-date:$CI_BUILD_REF_NAME
+    CONTAINER_RELEASE_IMAGE: carbon-date:latest
+
 
 ##################
 # Assignment One #
@@ -63,6 +69,42 @@ build_assignment_one_report:
     only:
         - master
         - site
+
+############################
+# Carbon Date Docker Image #
+############################
+
+build_carbon_date:
+    image: docker:git
+    services:
+        - docker:dind
+    stage: build
+    script:
+        - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+        - git clone https://github.com/oduwsdl/CarbonDate.git
+        - cd CarbonDate
+        - docker build -t $CONTAINER_TEST_IMAGE .
+        - docker push $CONTAINER_TEST_IMAGE
+    tags:
+        - docker
+    only:
+        - master
+        - assignment2
+
+release_carbon_date:
+    image: docker:git
+    services:
+        - docker:dind
+    stage: release
+    script:
+        - docker pull $CONTAINER_TEST_IMAGE
+        - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
+        - docker push $CONTAINER_RELEASE_IMAGE
+    tags:
+        - docker
+    only:
+        - master
+        - assignment2
 
 
 ########
