@@ -14,6 +14,10 @@
 
 ## Estimate the age of the URIs with "Carbon Date"
 
+Carbon Date is dockerized by gitlab continuous integration using the
+`.gitlab-ci.yml` file in the project root directory and pushed to 
+this repositories registery.
+
 ## Assignment Description
 
 CS 432/532 Web Science
