@@ -13,7 +13,7 @@ cache:
 
 variables:
     CONTAINER_TEST_IMAGE: registry.gitlab.com/datenstrom/cs532-s17:$CI_BUILD_REF_NAME
-    CONTAINER_RELEASE_IMAGE: registry.gitlab.com/datenstrom/cs532-s17
+    CONTAINER_RELEASE_IMAGE: registry.gitlab.com/datenstrom/cs532-s17:latest
 
 
 ##################
@@ -97,6 +97,7 @@ release_carbon_date:
         - docker:dind
     stage: release
     script:
+        - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
         - docker pull $CONTAINER_TEST_IMAGE
         - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
         - docker push $CONTAINER_RELEASE_IMAGE
