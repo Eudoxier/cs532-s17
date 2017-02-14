@@ -1,0 +1,15 @@
+plotly
+pandoc
+pandas
+scipy
+rpy2
+python-Levenshtein
+appdirs
+jsonschema
+backports_abc
+pyzmq
+markupsafe
+packaging
+jupyter
+jupyterthemes
+fuzzywuzzy
