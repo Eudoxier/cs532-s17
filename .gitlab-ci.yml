@@ -4,11 +4,17 @@
 stages:
     - build
     - test
+    - release
     - deploy
 
 cache:
     paths:
         - pelican/pdfs
+
+variables:
+    CONTAINER_TEST_IMAGE: registry.gitlab.com/datenstrom/cs532-s17:$CI_BUILD_REF_NAME
+    CONTAINER_RELEASE_IMAGE: registry.gitlab.com/datenstrom/cs532-s17:latest
+
 
 ##################
 # Assignment One #
@@ -64,6 +70,69 @@ build_assignment_one_report:
         - master
         - site
 
+##################
+# Assignment Two #
+##################
+
+# Paper
+
+build_assignment_two_report:
+    image: datenstrom/debian-latex
+    stage: build
+    script:
+        - apt-get --yes update && apt-get --yes install texlive-latex-extra python-pygments
+        - apt-get --yes install build-essential
+        - pdflatex --version
+        - cd assignments/assignment_two/docs/
+        - make -k
+    tags:
+        - docker
+    artifacts:
+        paths:
+            - assignments/assignment_two/docs/assignment_two.pdf
+    only:
+        - master
+        - site
+
+# Carbon date docker image
+
+build_carbon_date:
+    image: docker:git
+    services:
+        - docker:dind
+    stage: build
+    script:
+        - mkdir -p docker/
+        - cd docker
+        - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+        - git clone https://github.com/oduwsdl/CarbonDate.git
+        - cd CarbonDate
+        - docker build -t $CONTAINER_TEST_IMAGE .
+        - docker push $CONTAINER_TEST_IMAGE
+    tags:
+        - docker
+    only:
+        - master
+        - assignment-2
+
+release_carbon_date:
+    image: docker:git
+    services:
+        - docker:dind
+    stage: release
+    script:
+        - mkdir -p docker/
+        - cd docker
+        - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+        - docker pull $CONTAINER_TEST_IMAGE
+        - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
+        - docker push $CONTAINER_RELEASE_IMAGE
+    tags:
+        - docker
+    only:
+        - master
+
+
 
 ########
 # Site #
@@ -82,10 +151,16 @@ pages:
         - pip install -r requirements.txt
         - fab build                             # End Pelican
         - cd ../                                # Begin Jupyter Notebooks
-        - cat assignments/assignment_one/notebook-requirements.txt | xargs -n 1 -L 1 pip install
-        - jupyter nbconvert --to html assignments/assignment_one/graph_structure/graph_structure.ipynb
+        - apt-get --yes update && apt-get --yes install texlive pandoc
+        - pip install jupyter nbconvert
+          #        - cat assignments/assignment_one/notebook-requirements.txt | xargs -n 1 -L 1 pip install
+          #        - cat assignments/assignment_two/notebook-requirements.txt | xargs -n 1 -L 1 pip install
+        - jupyter nbconvert -y --to html assignments/assignment_one/graph_structure/graph_structure.ipynb
+        - jupyter nbconvert -y --to html --template assignments/assignment_two/notebooks/toggle toggle assignments/assignment_two/notebooks/*.ipynb
         - mkdir -p public/notebooks/
         - cp assignments/assignment_one/graph_structure/graph_structure.html public/notebooks
+        - cp assignments/assignment_two/notebooks/*.html public/notebooks
+        - cp assignments/assignment_two/notebooks/*.png public/notebooks
     tags:
         - docker
     artifacts:
