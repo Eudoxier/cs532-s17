@@ -156,7 +156,7 @@ pages:
           #        - cat assignments/assignment_one/notebook-requirements.txt | xargs -n 1 -L 1 pip install
           #        - cat assignments/assignment_two/notebook-requirements.txt | xargs -n 1 -L 1 pip install
         - jupyter nbconvert -y --to html assignments/assignment_one/graph_structure/graph_structure.ipynb
-        - jupyter nbconvert -y --to html --template assignments/assignment_two/notebooks/toggle toggle assignments/assignment_two/notebooks/*.ipynb
+        - jupyter nbconvert -y --to html assignments/assignment_two/notebooks/*.ipynb
         - mkdir -p public/notebooks/
         - cp assignments/assignment_one/graph_structure/graph_structure.html public/notebooks
         - cp assignments/assignment_two/notebooks/*.html public/notebooks
