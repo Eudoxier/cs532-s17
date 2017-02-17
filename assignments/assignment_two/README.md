@@ -1,19 +1,13 @@
 # Assignment Two
 &nbsp;
 
-[Assignment Two Report PDF](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
-
-&nbsp;
-## Interactive Graphs
-
-*   [Frequency of occurrence vs Number of Mementos (Histogram)](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
-*   [Mementos vs Time (Scatterplot)](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
-
-&nbsp;
-## Jupyter Notebooks
-
-*   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
-*   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
+*   [Assignment Two Report PDF](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
+*   Interactive Graphs
+    *   [Frequency of occurrence vs Number of Mementos (Histogram)](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
+    *   [Mementos vs Time (Scatterplot)](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
+*   Jupyter Notebooks
+    *   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
+    *   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
 
 &nbsp;
 -------------------------------
@@ -27,6 +21,7 @@ Verifies that both the final redirect are unique and valid.
 ### Usage
 
 &nbsp;
+
     usage: cli.py [-h] [-f INFILE] [-c COUNT] [-q] [-k KEYS]
                   keywords [keywords ...]
 
@@ -61,20 +56,24 @@ Detailed debugging information is also logged to `main.log`.
 To install the jupyter notebook requirements:
 
 &nbsp;
+
     cat notebook-requirements.txt | xargs -n 1 -L 1 pip install
     sudo apt-get update
     sudo apt-get install libzmq3-dev r-base r-base-dev libatlas3-base \
         libopenblas-base libssh2-1-dev libcurl4-openssl-dev libxml2-dev \
         libxslt-dev libssl-dev
     sudo R
+
 &nbsp;
 
 Now using the R terminal:
 
 &nbsp;
+
     > install.packages(c('crayon', 'pbdZMQ', 'devtools'))
     > devtools::install_github(paste0('IRkernel/', c('httr', 'repr', 'IRdisplay', 'IRkernel')))
     > q()
+
 &nbsp;
 
 Other R packages:
@@ -94,24 +93,29 @@ Currently there is a version dependant bug affecting the install
 of the kernel, if errors try adding:
 
 &nbsp;
+
     sudo echo "deb http://cran.rstudio.com/bin/linux/debian jessie-cran3/" >> /etc/apt/sources.list
     sudo apt-key adv --keyserver keys.gnupg.net --recv-key 6212B7B7931C4BB16280BA1306F90DE5381BA480
     sudo apt-get update && sudo apt-get install r-base/jessie-cran3 r-base-dev/jessie-cran3
+
 &nbsp;
 
 Pin the repsoitory by creating the file `/etc/apt/preferences.d/prefer-r-cran.pref`
 with:
 
 &nbsp;
+
     Package: *
     Pin: release a=jessie-cran3
     Pin-Priority: 900
+
 &nbsp;
 
 See [the CRAN documentation](https://cran.r-project.org/bin/linux/debian/)
 about installing on Debian for more detailed information.
 
 &nbsp;
+
     > options(repos='http://cran.rstudio.com/')
     > install.packages("devtools")
     > install.packages(c('repr', 'pbdZMQ', 'devtools'))
@@ -120,11 +124,13 @@ about installing on Debian for more detailed information.
     > devtools::install_github(c('IRkernel/IRdisplay', 'IRkernel/IRkernel'))
     > IRkernel::installspec()
     > q()
+
 &nbsp;
 
 To use R magic also install:
 
 &nbsp;
+
     > install.packages('httr', 'RJSONIO')
 
 &nbsp;
@@ -133,13 +139,17 @@ To use R magic also install:
 Only for the user:
 
 &nbsp;
+
     > IRkernel::installspec()
+
 &nbsp;
 
 System wide:
 
 &nbsp;
+
     > IRkernel::installspec(user = FALSE)
+
 &nbsp;
 
 Jupyter notebook can now be started with `jupyter notebook` and
@@ -186,12 +196,14 @@ different shortened URIs for www.cnn.com (t.co, bit.ly, goo.gl,
 etc.).  For example:
 
 &nbsp;
+
     $ curl -IL --silent https://t.co/DpO767Md1v | egrep -i "(HTTP/1.1|^location:)"
     HTTP/1.1 301 Moved Permanently
     location: https://goo.gl/40yQo2
     HTTP/1.1 301 Moved Permanently
     Location: https://soundcloud.com/roanoketimes/ep-95-talking-hokies-recruiting-one-week-before-signing-day
     HTTP/1.1 200 OK
+
 &nbsp;
 
 You might want to use the search feature to find URIs, or you can
@@ -209,11 +221,13 @@ later throughout the semester.
 We'll use the ODU Memento Aggregator, so for example:
 
 &nbsp;
+
     URI-R = http://www.cs.odu.edu/
 
     URI-T = http://memgator.cs.odu.edu/timemap/link/http://www.cs.odu.edu/
 
     URI-T = http://memgator.cs.odu.edu/timemap/json/http://www.cs.odu.edu/
+
 &nbsp;
 
 (depending on which format you'd prefer to parse)
@@ -252,6 +266,7 @@ estimated creation date.  Show how many fall into either categories.
 For example,
 
 &nbsp;
+
     total URIs:         1000
     no mementos:         137  
     no date estimate:    212
