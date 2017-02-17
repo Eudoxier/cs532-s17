@@ -70,9 +70,31 @@ build_assignment_one_report:
         - master
         - site
 
-############################
-# Carbon Date Docker Image #
-############################
+##################
+# Assignment Two #
+##################
+
+# Paper
+
+build_assignment_two_report:
+    image: datenstrom/debian-latex
+    stage: build
+    script:
+        - apt-get --yes update && apt-get --yes install texlive-latex-extra python-pygments
+        - apt-get --yes install build-essential
+        - pdflatex --version
+        - cd assignments/assignment_two/docs/
+        - make -k
+    tags:
+        - docker
+    artifacts:
+        paths:
+            - assignments/assignment_two/docs/assignment_two.pdf
+    only:
+        - master
+        - site
+
+# Carbon date docker image
 
 build_carbon_date:
     image: docker:git
@@ -80,6 +102,8 @@ build_carbon_date:
         - docker:dind
     stage: build
     script:
+        - mkdir -p docker/
+        - cd docker
         - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
         - git clone https://github.com/oduwsdl/CarbonDate.git
         - cd CarbonDate
@@ -97,6 +121,8 @@ release_carbon_date:
         - docker:dind
     stage: release
     script:
+        - mkdir -p docker/
+        - cd docker
         - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
         - docker pull $CONTAINER_TEST_IMAGE
         - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
@@ -105,6 +131,7 @@ release_carbon_date:
         - docker
     only:
         - master
+
 
 
 ########
