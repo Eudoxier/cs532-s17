@@ -1,32 +1,30 @@
 # Assignment Two
-
 &nbsp;
 
-[Assignment Two PDF](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
+[Assignment Two Report PDF](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
 
 &nbsp;
-
 ## Interactive Graphs
 
 *   [Frequency of occurrence vs Number of Mementos (Histogram)](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
 *   [Mementos vs Time (Scatterplot)](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
 
 &nbsp;
-
 ## Jupyter Notebooks
 
 *   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
 *   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
 
 &nbsp;
-
 -------------------------------
+&nbsp;
 
 ## Benxihu
 
 A program to extract unique links from twitter filtered by keyword.
 Verifies that both the final redirect are unique and valid.
 
+&nbsp;
 ### Usage
 
     usage: cli.py [-h] [-f INFILE] [-c COUNT] [-q] [-k KEYS]
@@ -46,6 +44,7 @@ Verifies that both the final redirect are unique and valid.
       -q, --quiet           Suppress output.
       -k KEYS, --keys KEYS  File containing OAuth twitter credentials.
 
+&nbsp;
 ### Output
 
 Tweets containing links will be written one per line to the file
@@ -56,6 +55,7 @@ link will be written to the corresponding line number in the file
 `data/{basename}_links_{unix_time}.dat`.
 Detailed debugging information is also logged to `main.log`.
 
+&nbsp;
 ## Download and display the TimeMaps for each of the 1000 target URIs
 
 To install the jupyter notebook requirements:
@@ -75,14 +75,15 @@ Now using the R terminal:
 
 Other R packages:
 
-    *   plotly
-    *   ggplot2
-    *   scales
-    *   grid
-    *   RColorBrewer
-    *   anytime
-    *   webshot
+*   plotly
+*   ggplot2
+*   scales
+*   grid
+*   RColorBrewer
+*   anytime
+*   webshot
 
+&nbsp;
 ### If install errors
 
 Currently there is a version dependant bug affecting the install
@@ -115,6 +116,7 @@ To use R magic also install:
 
     > install.packages('httr', 'RJSONIO')
 
+&nbsp;
 ### Make the kernel available in Jupyter
 
 Only for the user:
@@ -128,6 +130,7 @@ System wide:
 Jupyter notebook can now be started with `jupyter notebook` and
 the R kernel will be available for use.
 
+&nbsp;
 ## Estimate the age of the URIs with "Carbon Date"
 
 Carbon Date is dockerized by gitlab continuous integration using the
@@ -135,6 +138,7 @@ Carbon Date is dockerized by gitlab continuous integration using the
 this repositories registery. The script in the `carbondate`
 directory demonstrates its use.
 
+&nbsp;
 ## Assignment Description
 
 CS 432/532 Web Science
@@ -144,16 +148,17 @@ http://phonedude.github.io/cs532-s17/
 Assignment #2
 Due: 11:59pm February 9
 
-1.  Write a Python program that extracts 1000 unique links from
-Twitter.  You might want to take a look at:
+### Write a Python program that extracts 1000 unique links from Twitter.
 
-http://adilmoujahid.com/posts/2014/07/twitter-analytics/
+You might want to take a look at:
+
+*   http://adilmoujahid.com/posts/2014/07/twitter-analytics/
 
 see also:
 
-http://docs.tweepy.org/en/v3.5.0/index.html
-https://github.com/bear/python-twitter
-https://dev.twitter.com/rest/public
+*   http://docs.tweepy.org/en/v3.5.0/index.html
+*   https://github.com/bear/python-twitter
+*   https://dev.twitter.com/rest/public
 
 But there are many other similar resources available on the web.
 Note that only Twitter API 1.1 is currently available; version 1
@@ -164,12 +169,12 @@ the one that responds with a 200) is unique.  You could have many
 different shortened URIs for www.cnn.com (t.co, bit.ly, goo.gl,
 etc.).  For example:
 
-$ curl -IL --silent https://t.co/DpO767Md1v | egrep -i "(HTTP/1.1|^location:)"
-HTTP/1.1 301 Moved Permanently
-location: https://goo.gl/40yQo2
-HTTP/1.1 301 Moved Permanently
-Location: https://soundcloud.com/roanoketimes/ep-95-talking-hokies-recruiting-one-week-before-signing-day
-HTTP/1.1 200 OK
+    $ curl -IL --silent https://t.co/DpO767Md1v | egrep -i "(HTTP/1.1|^location:)"
+    HTTP/1.1 301 Moved Permanently
+    location: https://goo.gl/40yQo2
+    HTTP/1.1 301 Moved Permanently
+    Location: https://soundcloud.com/roanoketimes/ep-95-talking-hokies-recruiting-one-week-before-signing-day
+    HTTP/1.1 200 OK
 
 You might want to use the search feature to find URIs, or you can
 pull them from the feed of someone famous (e.g., Tim O'Reilly).  If
@@ -180,16 +185,15 @@ were shared via Twitter.
 Hold on to this collection and upload it to github -- we'll use it
 later throughout the semester.
 
-2.  Download the TimeMaps for each of the target URIs.  We'll use the ODU 
-Memento Aggregator, so for example:
+### Download the TimeMaps for each of the target URIs.
 
-URI-R = http://www.cs.odu.edu/
+We'll use the ODU Memento Aggregator, so for example:
 
-URI-T = http://memgator.cs.odu.edu/timemap/link/http://www.cs.odu.edu/
+    URI-R = http://www.cs.odu.edu/
 
-or:
+    URI-T = http://memgator.cs.odu.edu/timemap/link/http://www.cs.odu.edu/
 
-URI-T = http://memgator.cs.odu.edu/timemap/json/http://www.cs.odu.edu/
+    URI-T = http://memgator.cs.odu.edu/timemap/json/http://www.cs.odu.edu/
 
 (depending on which format you'd prefer to parse)
 
@@ -199,21 +203,20 @@ URIs with 1 Memento, 400 URIs with 2 Mementos, etc.  The x-axis
 will have the number of mementos, and the y-axis will have the
 frequency of occurence.
 
-* = https://en.wikipedia.org/wiki/Histogram
+*   https://en.wikipedia.org/wiki/Histogram
 
 What's a TimeMap?  
 See: http://www.mementoweb.org/guide/quick-intro/
 And the week 4 lecture.  
 
-3.  Estimate the age of each of the 1000 URIs using the "Carbon
-Date" tool:
+###  Estimate the age of each of the 1000 URIs using the "Carbon Date" tool
 
-http://ws-dl.blogspot.com/2016/09/2016-09-20-carbon-dating-web-version-30.html
+*   http://ws-dl.blogspot.com/2016/09/2016-09-20-carbon-dating-web-version-30.html
 
 Note: you should use "docker" and install it locally.  You can do
 it like this:
 
-http://cd.cs.odu.edu/cd?url=http://www.cs.odu.edu/
+*   http://cd.cs.odu.edu/cd?url=http://www.cs.odu.edu/
 
 But it will inevitably crash when everyone tries to use it at the
 last minute.
@@ -226,6 +229,6 @@ Not all URIs will have Mementos, and not all URIs will have an
 estimated creation date.  Show how many fall into either categories.
 For example,
 
-total URIs:         1000
-no mementos:         137  
-no date estimate:    212
+    total URIs:         1000
+    no mementos:         137  
+    no date estimate:    212
