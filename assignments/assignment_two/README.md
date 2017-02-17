@@ -164,7 +164,7 @@ this repositories registery. The script in the `carbondate`
 directory demonstrates its use.
 
 &nbsp;
-## Assignment Description
+# Assignment Description
 
 CS 432/532 Web Science
 Spring 2017
@@ -174,7 +174,7 @@ Assignment #2
 Due: 11:59pm February 9
 
 &nbsp;
-### Write a Python program that extracts 1000 unique links from Twitter.
+## Write a Python program that extracts 1000 unique links from Twitter.
 
 You might want to take a look at:
 
@@ -215,7 +215,7 @@ were shared via Twitter. Hold on to this collection and upload it to github -- w
 later throughout the semester.
 
 &nbsp;
-### Download the TimeMaps for each of the target URIs.
+## Download the TimeMaps for each of the target URIs.
 
 We'll use the ODU Memento Aggregator, so for example:
 
@@ -248,7 +248,7 @@ See: http://www.mementoweb.org/guide/quick-intro/
 And the week 4 lecture.  
 
 &nbsp;
-###  Estimate the age of each of the 1000 URIs using the "Carbon Date" tool
+##  Estimate the age of each of the 1000 URIs using the "Carbon Date" tool
 
 &nbsp;
 
