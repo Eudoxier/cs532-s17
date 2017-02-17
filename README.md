@@ -22,6 +22,7 @@ is updated hourly but the primary repository can be accessed at
 
 *   [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
 
+    *   Tagged `0.2`
     *   A Python program to extract unique URIs from Twitter
     *   Download the TimeMaps for 1000 URIs and display the data using a histogram
     *   Estimate the age of the URIs and display the data using a scatter plot
