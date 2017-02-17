@@ -143,10 +143,8 @@ pages:
     stage: deploy
     script:
         - cd pelican/pelican-themes
-        - rm -rf Flex
         - git clone https://github.com/alexandrevicenzi/Flex.git
         - cd ../pelican-plugins
-        - rm -rf *
         - git clone https://github.com/getpelican/pelican-plugins.git
         - cd ../
         - pip -V
