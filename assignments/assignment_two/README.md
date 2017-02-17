@@ -180,17 +180,18 @@ You might want to take a look at:
 
 *   http://adilmoujahid.com/posts/2014/07/twitter-analytics/
 
+&nbsp;
 see also:
 
 *   http://docs.tweepy.org/en/v3.5.0/index.html
 *   https://github.com/bear/python-twitter
 *   https://dev.twitter.com/rest/public
 
+&nbsp;
+
 But there are many other similar resources available on the web.
 Note that only Twitter API 1.1 is currently available; version 1
-code will no longer work.
-
-Also note that you need to verify that the final target URI (i.e.,
+code will no longer work. Also note that you need to verify that the final target URI (i.e.,
 the one that responds with a 200) is unique.  You could have many
 different shortened URIs for www.cnn.com (t.co, bit.ly, goo.gl,
 etc.).  For example:
@@ -210,9 +211,7 @@ You might want to use the search feature to find URIs, or you can
 pull them from the feed of someone famous (e.g., Tim O'Reilly).  If
 you find something inappropriate for any reason you see fit, just
 discard it and get some more links.  We just want 1000 links that
-were shared via Twitter.
-
-Hold on to this collection and upload it to github -- we'll use it
+were shared via Twitter. Hold on to this collection and upload it to github -- we'll use it
 later throughout the semester.
 
 &nbsp;
@@ -238,7 +237,11 @@ URIs with 1 Memento, 400 URIs with 2 Mementos, etc.  The x-axis
 will have the number of mementos, and the y-axis will have the
 frequency of occurence.
 
+&nbsp;
+
 *   https://en.wikipedia.org/wiki/Histogram
+
+&nbsp;
 
 What's a TimeMap?  
 See: http://www.mementoweb.org/guide/quick-intro/
@@ -247,21 +250,25 @@ And the week 4 lecture.
 &nbsp;
 ###  Estimate the age of each of the 1000 URIs using the "Carbon Date" tool
 
+&nbsp;
+
 *   http://ws-dl.blogspot.com/2016/09/2016-09-20-carbon-dating-web-version-30.html
+
+&nbsp;
 
 Note: you should use "docker" and install it locally.  You can do
 it like this:
 
+&nbsp;
+
 *   http://cd.cs.odu.edu/cd?url=http://www.cs.odu.edu/
 
+&nbsp;
+
 But it will inevitably crash when everyone tries to use it at the
-last minute.
-
-For URIs that have > 0 Mementos and an estimated creation date,
+last minute. For URIs that have > 0 Mementos and an estimated creation date,
 create a graph with age (in days) on the x-axis and number of
-mementos on the y-axis.
-
-Not all URIs will have Mementos, and not all URIs will have an
+mementos on the y-axis. Not all URIs will have Mementos, and not all URIs will have an
 estimated creation date.  Show how many fall into either categories.
 For example,
 
