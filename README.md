@@ -26,8 +26,8 @@ is updated hourly but the primary repository can be accessed at
 
 ## Direct links to reports
 
-*   [Assignment One Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
-*   [Assignment Two Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
+*   [Assignment One PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
+*   [Assignment Two PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
 
 ## Direct links to interactive graphs
 
@@ -38,4 +38,4 @@ is updated hourly but the primary repository can be accessed at
 
 *   [Bow-Tie Graph Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
 *   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
-*   [Carbon Dating: Mementos vs Time](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
+*   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)

@@ -2,7 +2,21 @@
 
 &nbsp;
 
-[Assignment two report PDF](#)
+[Assignment Two PDF](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
+
+&nbsp;
+
+## Interactive Graphs
+
+*   [Frequency of occurrence vs Number of Mementos (Histogram)](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
+*   [Mementos vs Time (Scatterplot)](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
+
+&nbsp;
+
+## Jupyter Notebooks
+
+*   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
+*   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
 
 &nbsp;
 
