@@ -152,7 +152,7 @@ pages:
         - fab build                             # End Pelican
         - cd ../                                # Begin Jupyter Notebooks
         - apt-get --yes update && apt-get --yes install texlive pandoc
-        - pip install nbconvert
+        - pip install jupyter nbconvert
           #        - cat assignments/assignment_one/notebook-requirements.txt | xargs -n 1 -L 1 pip install
           #        - cat assignments/assignment_two/notebook-requirements.txt | xargs -n 1 -L 1 pip install
         - jupyter nbconvert -y --to html assignments/assignment_one/graph_structure/graph_structure.ipynb
