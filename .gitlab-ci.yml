@@ -139,13 +139,15 @@ release_carbon_date:
 ########
 
 pages:
-    image: python:2
+    image: python
     stage: deploy
     script:
+        - apt-get --yes install git
+        - apt-get --yes install libffi-dev libssl-dev # for python crypto
         - cd pelican/pelican-themes
         - git clone https://github.com/alexandrevicenzi/Flex.git
         - cd ../pelican-plugins
-        - git clone https://github.com/getpelican/pelican-plugins.git
+        - git clone --recursive https://github.com/getpelican/pelican-plugins.git
         - cd ../
         - pip -V
         - pip install -r requirements.txt
