@@ -31,8 +31,8 @@ is updated hourly but the primary repository can be accessed at
 
 ## Direct links to interactive graphs
 
-*   [Mementos vs Time Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
-*   [Mementos vs Time Scatterplot](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
+*   [Frequency of occurrence vs Number of Mementos (Histogram)](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
+*   [Mementos vs Time (Scatterplot)](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
 
 ## Direct links to Jupyter Notebooks
 
