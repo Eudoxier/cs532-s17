@@ -1,7 +1,7 @@
 # Assignment Two
 &nbsp;
 
-*   [Assignment Two Report PDF](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
+*   [Assignment Two PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
 *   Interactive Graphs
     *   [Frequency of occurrence vs Number of Mementos (Histogram)](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
     *   [Mementos vs Time (Scatterplot)](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
