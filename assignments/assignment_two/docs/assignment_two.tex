@@ -169,7 +169,9 @@ languages to create the graph.
 
 \begin{figure}[h]
     \centering
+    \href{http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html}{
     \includegraphics[width=\textwidth]{dia/timemap.png}
+    }
 \end{figure}
 
 %%%%%%%%%%%
@@ -195,7 +197,6 @@ unless using private runners. I build the docker container and
 upload it to my repositories registry with the following in my
 \href{https://gitlab.com/datenstrom/cs532-s17/blob/master/.gitlab-ci.yml}{\code{.gitlab-ci.yml}}.
 
-\href{https://gitlab.com/datenstrom/cs532-s17/blob/master/.gitlab-ci.yml}{
 \begin{minipage}{\linewidth} % prevent splitting between pages
 \vspace{2em}
 \begin{minted}[fontfamily=tt]{yaml}
@@ -217,7 +218,6 @@ build_carbon_date:
 \end{minted}
 \vspace{2em}
 \end{minipage}
-}
 
 \newpage
 In the process of generating, filtering, and graphing in the
@@ -313,7 +313,9 @@ p <- plot_ly(df, x = ~creation_date, y = ~X.memento,
 
 \begin{figure}[h]
     \centering
+    \href{http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html}{
     \includegraphics[width=\textwidth]{dia/scatter.png}
+    }
 \end{figure}
 
 \end{document}
