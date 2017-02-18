@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<script type="text/javascript">
+	var doc = document.documentElement;
+	doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" href="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/style.css?1481092965" type="text/css" media="screen, projection" />
+<!--[if lte IE 9]>
+	<link rel="stylesheet" href="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/lib/css/ie.css" type="text/css" media="screen" />
+<![endif]-->
+<link rel="pingback" href="https://threatpost.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/lib/js/html5.js" type="text/javascript"></script>
+
+<![endif]-->
+<link rel="icon" href="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/favicon.ico" type="image/x-icon">
+
+<title>Threatpost | The first stop for security news</title>
+<!-- JM Twitter Cards by Julien Maury 7.6.0 -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@threatpost">
+<meta name="twitter:site" content="@threatpost">
+<meta name="twitter:title" content="Home">
+<meta name="twitter:description" content="Threatpost, is an independent news site which is a leading source of information about IT and business security for hundreds of thousands of professionals worldwide.">
+<meta name="twitter:image" content="https://kasperskycontenthub.com/threatpost/files/2015/01/threatpost-logo.jpg">
+<!-- /JM Twitter Cards by Julien Maury 7.6.0 -->
+
+<!-- All in One SEO Pack 2.3.11.4 by Michael Torbert of Semper Fi Web Design[1125,1218] -->
+<meta name="description"  content="Threatpost, is an independent news site which is a leading source of information about IT and business security for hundreds of thousands of professionals" />
+
+<link rel="canonical" href="https://threatpost.com/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Threatpost | The first stop for security news &raquo; Feed" href="https://threatpost.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Threatpost | The first stop for security news &raquo; Comments Feed" href="https://threatpost.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Threatpost | The first stop for security news &raquo; Home Comments Feed" href="https://threatpost.com/home/feed/" />
+<link rel='stylesheet' id='trending-authors-group-css' href='https://trtpost-wpengine.netdna-ssl.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/wds-kaspersky-widgets/css/trending-authors.css,wp-content/plugins/wds-rss-builder/includes/css/select2.min.css,wp-content/plugins/wds-rss-builder/includes/css/wds-rss.css,wp-content/plugins/honeypot-comments/public/assets/css/public.css,wp-content/plugins/kspr_twitter_pullquote/css/style.css,wp-content/plugins/pullquote-shortcode/css/pullquote-shortcode.css,wp-content/plugins/WDS-ColorBox-WordPress-Plugin/colorbox/example3/colorbox.css,wp-content/plugins/kaspersky-social-sharing/assets/css/style.css,wp-content/plugins/kaspersky-social-sharing/assets/css/custom.css,wp-content/plugins/jetpack/css/jetpack.css&#038;ver=1487362963' type='text/css' media='all' />
+<script type='text/javascript' src='https://trtpost-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var kss = {"twitter_account":"threatpost"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://trtpost-wpengine.netdna-ssl.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/honeypot-comments/public/assets/js/public.js,wp-content/plugins/kspr_twitter_pullquote/js/kaspersky-twitter-pullquote.js,wp-content/themes/threatpost/lib/js/doubletaptogo.min.js,wp-content/themes/threatpost/lib/js/jquery.expander.min.js,wp-content/plugins/WDS-ColorBox-WordPress-Plugin/colorbox/colorbox/jquery.colorbox.js,wp-content/themes/threatpost/lib/js/post-tabs.js,wp-content/themes/threatpost/lib/js/threatpost.js,wp-content/plugins/kaspersky-social-sharing/assets/js/social-share.js&#038;ver=1487362963'></script>
+<link rel='https://api.w.org/' href='https://threatpost.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://threatpost.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://threatpost.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://wp.me/P3AjUX-pZ0' />
+<link rel="alternate" type="application/json+oembed" href="https://threatpost.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthreatpost.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://threatpost.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthreatpost.com%2F&#038;format=xml" />
+<script src='https://kasperskycontenthub.com/?dm=ed1f9e435dc885292eab65620c51f3fb&amp;action=load&amp;blogid=31&amp;siteid=1&amp;t=1783839684&amp;back=https%3A%2F%2Fthreatpost.com%2F' type='text/javascript'></script><!-- Facebook Conversion Code for https://threatpost.com/ -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6037454883809', {'value':'0.00','currency':'RUB'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6037454883809&amp;cd[value]=0.00&amp;cd[currency]=RUB&amp;noscript=1" /></noscript><!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','//connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '839281392784015');
+	fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=839281392784015&amp;ev=PageView&amp;noscript=1" /></noscript>
+<!-- End Facebook Pixel Code -->
+                    <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-35676203-21', 'threatpost.com');
+                ga('set', 'anonymizeIp', true);
+                
+                                    
+                    ga('send', 'pageview');
+                    
+                
+            </script>
+            
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<style type='text/css'>img#wpstats{display:none}</style><meta name="google-site-verification" content="QqZgIj90Yu48EDqCQInft_Ze3RXSU9g_nWcWNIcUPxw" />	<script>
+		jQuery(document).ready(function($){
+			// Setup the video popover
+			$(".video-pop").colorbox({inline:true});
+
+							$.featureList(
+					$("#post-tabs li a"),
+					$("#output li"), {
+						start_item:	0,
+						transition_interval: 9999999,
+						pause_on_hover: true,
+					}
+				);
+					});
+	</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Threatpost | The first stop for security news" />
+<meta property="og:description" content="The First Stop For Security News" />
+<meta property="og:url" content="https://threatpost.com/" />
+<meta property="og:site_name" content="Threatpost | The first stop for security news" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<link rel="icon" href="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/images/site-icon.png" sizes="32x32" />
+<link rel="icon" href="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/images/site-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://trtpost-wpengine.netdna-ssl.com/wp-content/themes/threatpost/images/site-icon.png" />
+<meta name="msapplication-TileImage" content="https://threatpost.com/wp-content/themes/threatpost/images/site-icon.png" />
+			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="https://threatpost.com/?custom-css=72ff2a985d" />
+		
+</head>
+
+<body class="home page-template page-template-homepage page-template-homepage-php page page-id-99882 desktop chrome">
+		<div id="wrap" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
+
+		
+		<h1 class="site-title"><a href="https://threatpost.com/" title="Threatpost | The first stop for security news" rel="home">Threatpost | The first stop for security news</a></h1>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="nav-menu"><li id="menu-item-37433" class="first-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-37433"><a href="#">Categories</a>
+<ul class="sub-menu">
+	<li id="menu-item-100087" class="category-list menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-100087"><a href="#">Category List</a>
+	<ul class="sub-menu">
+		<li id="menu-item-100092" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100092"><a href="https://threatpost.com/category/cloud-security/">Cloud Security</a></li>
+		<li id="menu-item-100094" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100094"><a href="https://threatpost.com/category/critical-infrastructure/">Critical Infrastructure</a></li>
+		<li id="menu-item-100095" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100095"><a href="https://threatpost.com/category/cryptography/">Cryptography</a></li>
+		<li id="menu-item-100096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100096"><a href="https://threatpost.com/category/government/">Government</a></li>
+	</ul>
+</li>
+	<li id="menu-item-100088" class="category-list menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-100088"><a href="#">Category List</a>
+	<ul class="sub-menu">
+		<li id="menu-item-100097" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100097"><a href="https://threatpost.com/category/hacks/">Hacks</a></li>
+		<li id="menu-item-100098" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100098"><a href="https://threatpost.com/category/malware-2/">Malware</a></li>
+		<li id="menu-item-100100" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100100"><a href="https://threatpost.com/category/mobile-security/">Mobile Security</a></li>
+		<li id="menu-item-100101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100101"><a href="https://threatpost.com/category/privacy/">Privacy</a></li>
+	</ul>
+</li>
+	<li id="menu-item-100089" class="category-list menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-100089"><a href="#">Category List</a>
+	<ul class="sub-menu">
+		<li id="menu-item-111019" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111019"><a title="Security Analyst Summit" href="https://threatpost.com/category/sas/">SAS</a></li>
+		<li id="menu-item-100105" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100105"><a href="https://threatpost.com/category/vulnerabilities/">Vulnerabilities</a></li>
+		<li id="menu-item-100106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100106"><a href="https://threatpost.com/category/web-security/">Web Security</a></li>
+	</ul>
+</li>
+	<li id="menu-item-100090" class="author-list menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-100090"><a href="#">Authors</a>
+	<ul class="sub-menu">
+		<li id="menu-item-100107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100107"><a href="http://threatpost.com/author/michael">Michael Mimoso</a></li>
+		<li id="menu-item-100108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100108"><a href="http://threatpost.com/author/christopher">Christopher Brook</a></li>
+	</ul>
+</li>
+	<li id="menu-item-100113" class="additional-categories menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-100113"><a href="#">Additional Categories</a>
+	<ul class="sub-menu">
+		<li id="menu-item-101691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101691"><a href="/slide-shows">Slideshows</a></li>
+	</ul>
+</li>
+	<li id="menu-item-100117" class="credit menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-99882 current_page_item menu-item-100117"><a href="https://threatpost.com/">The Kaspersky Lab News Service</a></li>
+</ul>
+</li>
+<li id="menu-item-99719" class="featured-posts menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children menu-item-99719"><a href="https://threatpost.com/category/featured/">Featured</a>
+<ul class="sub-menu">
+	<li id="menu-item-100119" class="author-list menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-100119"><a href="#">Authors</a>
+	<ul class="sub-menu">
+		<li id="menu-item-100120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100120"><a href="http://threatpost.com/author/michael">Michael Mimoso</a></li>
+		<li id="menu-item-100121" class="last-menu-item menu-item menu-item-type-custom menu-item-object-custom menu-item-100121"><a href="http://threatpost.com/author/christopher">Christopher Brook</a></li>
+	</ul>
+</li>
+	<li id="menu-item-100125" class="credit menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-99882 current_page_item menu-item-100125"><a href="https://threatpost.com/">The Kaspersky Lab News Service</a></li>
+</ul>
+<div class="sub-menu"><div class="recent-posts"><div class="recent-posts-wrap">
+				<h2 class="alignleft">Featured Posts</h2>
+				<span class="alignright read-more button"><a href="https://threatpost.com/category/featured">All</a></span>
+				<div class="posts-wrap"><article id="post-123730" class="post"><a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" title="Schneier Brings Campaign for IoT Regulation to RSA"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/schneier-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" title="Schneier Brings Campaign for IoT Regulation to RSA">Schneier Brings Campaign for IoT Regulation… </a>
+					</article><article id="post-123720" class="post"><a href="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/" title="Adobe Patches 13 Code Execution Vulnerabilities in Flash"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/flashpatch-680x400-120x65.jpg" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/" title="Adobe Patches 13 Code Execution Vulnerabilities in Flash">Adobe Patches 13 Code Execution Vulnerabilities… </a>
+					</article><article id="post-123711" class="last"><a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" title="Nation States Distancing Themselves from APTs"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/Regin-APT-Attacks-Among-the-Most-Sophisticated-Ever-Analyzed-1-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" title="Nation States Distancing Themselves from APTs">Nation States Distancing Themselves from APTs</a>
+					</article> <div class="sep"></div></div><!-- .recent-posts --></div><!-- .recent-posts-wrap --></div></div></li>
+<li id="menu-item-99720" class="featured-other menu-item menu-item-type-taxonomy menu-item-object-category menu-item-99720"><a href="https://threatpost.com/category/podcasts/">Podcasts</a><div class="sub-menu"><div class="recent-posts"><div class="recent-posts-wrap">
+				<h2 class="alignleft">Latest Podcasts</h2>
+				<span class="alignright read-more button"><a href="https://threatpost.com/category/podcasts">All</a></span>
+				<div class="posts-wrap"><article id="post-123769" class="post"><a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="Cris Thomas on Cyberwar Rhetoric"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2015/04/microphone-120x65.jpg" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="Cris Thomas on Cyberwar Rhetoric">Cris Thomas on Cyberwar Rhetoric</a>
+					</article><article id="post-123683" class="post"><a href="https://threatpost.com/threatpost-news-wrap-february-13-2017/123683/" title="Threatpost News Wrap, February 13, 2017"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/threatpost_feb_13_news_wrap-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/threatpost-news-wrap-february-13-2017/123683/" title="Threatpost News Wrap, February 13, 2017">Threatpost News Wrap, February 13, 2017</a>
+					</article><article id="post-123665" class="last"><a href="https://threatpost.com/dino-dai-zovi-on-securing-linux-in-modern-workloads/123665/" title="Dino Dai Zovi on Securing Linux in Modern Workloads"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/dino_dai_zovi-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/dino-dai-zovi-on-securing-linux-in-modern-workloads/123665/" title="Dino Dai Zovi on Securing Linux in Modern Workloads">Dino Dai Zovi on Securing Linux… </a>
+					</article> <div class="sep"></div><article id="post-123553" class="post"><a href="https://threatpost.com/threatpost-news-wrap-february-3-2017/123553/" title="Threatpost News Wrap, February 3, 2017"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/news_wrap_feb_3-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/threatpost-news-wrap-february-3-2017/123553/" title="Threatpost News Wrap, February 3, 2017">Threatpost News Wrap, February 3, 2017</a>
+					</article><article id="post-123477" class="post"><a href="https://threatpost.com/nicolas-brulez-on-malware-reverse-engineering-tips-and-tricks/123477/" title="Nicolas Brulez on Malware Reverse Engineering Tips and Tricks"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/01/5861284431_ecf4c59fc9_o-120x65.jpg" class="latest-post wp-post-image" alt="nicolas_brulez" /></a>
+					<a href="https://threatpost.com/nicolas-brulez-on-malware-reverse-engineering-tips-and-tricks/123477/" title="Nicolas Brulez on Malware Reverse Engineering Tips and Tricks">Nicolas Brulez on Malware Reverse Engineering… </a>
+					</article><article id="post-123398" class="last"><a href="https://threatpost.com/123398-2/123398/" title="Threatpost News Wrap, January 27, 2017"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/01/threatpost_news_wrap_jan_27-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/123398-2/123398/" title="Threatpost News Wrap, January 27, 2017">Threatpost News Wrap, January 27, 2017</a>
+					</article></div><!-- .recent-posts --></div><!-- .recent-posts-wrap --></div>
+			<div class="recent-posts-list">
+			<h2 class="alignleft">Recommended</h2></div>
+			<div class="credit"><a href="https://threatpost.com">The Kaspersky Lab Security News Service</a></div></div></li>
+<li id="menu-item-99721" class="featured-other menu-item menu-item-type-taxonomy menu-item-object-category menu-item-99721"><a href="https://threatpost.com/category/videos/">Videos</a><div class="sub-menu"><div class="recent-posts"><div class="recent-posts-wrap">
+				<h2 class="alignleft">Latest Videos</h2>
+				<span class="alignright read-more button"><a href="https://threatpost.com/category/videos">All</a></span>
+				<div class="posts-wrap"><article id="post-122033" class="post"><a href="https://threatpost.com/ios-10-passcode-bypass-can-access-photos-contacts/122033/" title="iOS 10 Passcode Bypass Can Access Photos, Contacts"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2013/09/ios_7_passcode-120x65.jpg" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/ios-10-passcode-bypass-can-access-photos-contacts/122033/" title="iOS 10 Passcode Bypass Can Access Photos, Contacts">iOS 10 Passcode Bypass Can Access… </a>
+					</article><article id="post-120230" class="post"><a href="https://threatpost.com/bashlite-family-of-malware-infects-1-million-iot-devices/120230/" title="BASHLITE Family Of Malware Infects 1 Million IoT Devices"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2016/07/iot-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/bashlite-family-of-malware-infects-1-million-iot-devices/120230/" title="BASHLITE Family Of Malware Infects 1 Million IoT Devices">BASHLITE Family Of Malware Infects 1… </a>
+					</article><article id="post-120221" class="last"><a href="https://threatpost.com/how-to-leak-data-from-air-gapped-computers-with-a-usb-device/120221/" title="How to Leak Data From Air-Gapped Computers With a USB Device"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2016/08/bengurion_usb_data_exfiltration-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/how-to-leak-data-from-air-gapped-computers-with-a-usb-device/120221/" title="How to Leak Data From Air-Gapped Computers With a USB Device">How to Leak Data From Air-Gapped… </a>
+					</article> <div class="sep"></div><article id="post-116946" class="post"><a href="https://threatpost.com/bruce-schneier-on-the-integration-of-privacy-and-security/116946/" title="Bruce Schneier on the Integration of Privacy and Security"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2014/01/bruce_schneier-120x65.jpg" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/bruce-schneier-on-the-integration-of-privacy-and-security/116946/" title="Bruce Schneier on the Integration of Privacy and Security">Bruce Schneier on the Integration of… </a>
+					</article><article id="post-116763" class="post"><a href="https://threatpost.com/chris-valasek-talks-car-hacking-and-more/116763/" title="Chris Valasek Talks Car Hacking, IoT, at RSA"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2015/07/valasek-120x65.jpg" class="latest-post wp-post-image" alt="Chris Valasek" /></a>
+					<a href="https://threatpost.com/chris-valasek-talks-car-hacking-and-more/116763/" title="Chris Valasek Talks Car Hacking, IoT, at RSA">Chris Valasek Talks Car Hacking, IoT,… </a>
+					</article><article id="post-116746" class="last"><a href="https://threatpost.com/patrick-wardle-on-os-x-malware-with-a-possible-hacking-team-connection/116746/" title="Patrick Wardle on OS X Malware With a Possible Hacking Team Connection"><img width="120" height="65" src="https://trtpost-wpengine.netdna-ssl.com/files/2016/03/patrick_wardle-120x65.png" class="latest-post wp-post-image" alt="" /></a>
+					<a href="https://threatpost.com/patrick-wardle-on-os-x-malware-with-a-possible-hacking-team-connection/116746/" title="Patrick Wardle on OS X Malware With a Possible Hacking Team Connection">Patrick Wardle on OS X Malware… </a>
+					</article></div><!-- .recent-posts --></div><!-- .recent-posts-wrap --></div>
+			<div class="recent-posts-list">
+			<h2 class="alignleft">Recommended</h2></div>
+			<div class="credit"><a href="https://threatpost.com">The Kaspersky Lab Security News Service</a></div></div></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+		<div class="sidebar-search">
+			
+<form role="search" method="get" id="searchform" action="https://threatpost.com/">
+    <div>
+        <input type="text" value="" name="s" id="s" />
+        <input type="submit" id="searchsubmit" value="Search" />
+    </div>
+</form>		</div><!-- .sidebar-search -->
+
+		
+		<div id="graybox">
+							<div id="header-sidebar" class="aligncenter" role="complementary">
+					<aside id="threatpost_social-2" class="widget threatpost_social widget_text">
+    <div class="social-links alignleft">
+      <ul id="social-header">
+        <li><a href="http://twitter.com/threatpost/" class="twitter" target="blank">Twitter</a></li><li><a href="http://www.facebook.com/Threatpost/" class="facebook" target="blank">Facebook</a></li><li><a href="https://plus.google.com/103973344735603121561/posts" class="google" target="blank">Google</a></li><li><a href="http://www.linkedin.com/groups?gid=1843931" class="linkedin" target="blank">LinkedIn</a></li><li><a href="http://www.youtube.com/user/threatpost" class="youtube" target="blank">YouTube</a></li><li><a href="http://threatpost.com/feed" class="rss" target="blank">RSS</a></li>      </ul>
+    </div><!-- .social-links -->
+
+    </aside><aside id="threatpost_tweets-3" class="widget threatpost_tweets widget_text"></aside><aside id="threatpost_flags-2" class="widget threatpost_flags widget_text">
+    <div class="flags alignright">
+      <ul id="flag-list">
+<li class="us-uk"><a href="http://threatpost.com"><img class="en" src="https://kasperskycontenthub.com/global/files/2013/04/english.png" alt="Blog in English" title=" Blog in English " /></a></li>
+<li class="russia"><a href="http://threatpost.ru"><img src="https://kasperskycontenthub.com/global/files/2013/04/russia.png" alt="Блог на русском" title="Блог на русском" /></a></li>
+</ul>    </div><!-- .flags -->
+
+    </aside>				</div><!-- #header-sidebar -->
+					</div><!-- #graybox -->
+	</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+
+
+<div id="content-sidebar-wrap">
+	<div id="content" role="main" itemscope itemtype="http://schema.org/Blog">
+
+	<!-- STICKY POST-->
+		<article id="post-123748" class="featured-post post-123748 post type-post status-publish format-standard has-post-thumbnail hentry category-web-security tag-beyondcorp tag-firewall-0 tag-google tag-heather-adkins tag-mobile-security-2 tag-network-perimeter tag-rory-ward tag-rsa-conference-2017 tag-trusted-access tag-vpn" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+		<div class="featured-image-wrap">
+		<a href="https://threatpost.com/no-firewalls-no-problem-for-google/123748/" title="No Firewalls, No Problem for Google"><img width="460" height="340" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/threatpost_heather-adkins-Google-460x340.jpg" class="attachment-featured-post size-featured-post wp-post-image" alt="" itemprop="image" /></a><a href="https://threatpost.com/no-firewalls-no-problem-for-google/123748/" itemprop="url" title="No Firewalls, No Problem for Google"><h1 class="entry-title" itemprop="name">No Firewalls, No Problem for Google</h1></a>		</div>
+		<div class="post-info">
+			<span class="author alignleft">by <span itemprop="author"><a href="https://threatpost.com/author/michael/" title="Posts by Michael Mimoso" rel="author">Michael Mimoso</a></span></span>
+			<span class="date alignright"><time itemprop="datePublished" datetime="2017-02-15">February 15, 2017 , 7:00 am</time></span>
+		</div>
+		<span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/web-security/" title="View all posts in Web Security">Web Security</a></span><!-- .categories -->		<div class="social-likes social-likes_notext" data-title="No Firewalls, No Problem for Google" data-url="https://threatpost.com/no-firewalls-no-problem-for-google/123748/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/no-firewalls-no-problem-for-google/123748/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>			<div itemprop="description"><p>Google secures its perimeter with explicit trust in what it knows about users and the devices connecting to its corporate services. </p>
+</div>
+				<span class="read-more button"><a href="https://threatpost.com/no-firewalls-no-problem-for-google/123748/" title="Permalink to No Firewalls, No Problem for Google" rel="bookmark" class="read-more">read more...</a></span>
+	</article><!-- #post -->
+	
+
+	<!--LATEST POSTS-->
+	<div id="latest-posts">
+		<h2>Latest posts</h2>
+		
+		<article id="post-123788" class="secondary-post  post-123788 post type-post status-publish format-standard has-post-thumbnail hentry category-critical-infrastructure category-government tag-critical-infrasdtructure tag-marcus-sachs tag-nerc tag-north-american-electric-grid tag-north-american-electric-reliability-corporation tag-rsa-conference" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+			<div class="image-wrap">
+				<a href="https://threatpost.com/squirrels-not-hackers-pose-biggest-threat-to-electric-grid/123788/" itemprop="url" title="Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid"><img width="182" height="142" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/Threatpost_RSA_Sachs-182x142.jpg" class="alignleft secondary-post wp-post-image" alt="" itemprop="image" /></a>				<div class="social-likes social-likes_notext" data-title="Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid" data-url="https://threatpost.com/squirrels-not-hackers-pose-biggest-threat-to-electric-grid/123788/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/squirrels-not-hackers-pose-biggest-threat-to-electric-grid/123788/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>			</div>
+
+			<div class="post-info">
+				<span class="date"><time itemprop="datePublished" datetime="2017-02-17">February 17, 2017 , 12:30 pm</time></span>
+			</div>
+
+			<h3 class="entry-title" itemprop="name">
+				<a href="https://threatpost.com/squirrels-not-hackers-pose-biggest-threat-to-electric-grid/123788/" title="Permalink to Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid" rel="bookmark">Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid</a>
+			</h3>
+
+			<div class="post-info">
+				<span class="author">by <span itemprop="author"><a href="https://threatpost.com/author/thomas/" title="Posts by Tom Spring" rel="author">Tom Spring</a></span></span>
+			</div>
+
+			<div class="categories">
+				<span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/critical-infrastructure/" title="View all posts in Critical Infrastructure">Critical Infrastructure</a>,  <a href="https://threatpost.com/category/government/" title="View all posts in Government">Government</a></span><!-- .categories -->			</div>
+
+			<div itemprop="description"><p>According to Marcus Sachs, CSO with the North American Electric Reliability Corporation, doomsday fears of a cyberattack against the U.S. electric grid are overblown.</p>
+</div>
+			<p class="alignright"><a href="https://threatpost.com/squirrels-not-hackers-pose-biggest-threat-to-electric-grid/123788/" title="Permalink to Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid" rel="bookmark" class="read-more">Read more...</a></p>
+		</article><!-- #post -->
+		
+		<article id="post-123789" class="secondary-post  post-123789 post type-post status-publish format-standard has-post-thumbnail hentry category-web-security tag-certificate-pinning tag-dkim tag-dmarc tag-elie-bursztein tag-email-encryption tag-email-security tag-gmail-security tag-google tag-impersonation-attacks tag-malware tag-phishing tag-rsa-conference tag-smtp-strict-transport-security tag-spam tag-spf" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+			<div class="image-wrap">
+				<a href="https://threatpost.com/smtp-strict-transport-security-coming-soon-to-gmail-other-webmail-providers/123789/" itemprop="url" title="SMTP Strict Transport Security Coming Soon to Gmail, Other Webmail Providers"><img width="182" height="142" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/threatpost_google-gmail-elie-bursztein-182x142.jpg" class="alignleft secondary-post wp-post-image" alt="" itemprop="image" /></a>				<div class="social-likes social-likes_notext" data-title="SMTP Strict Transport Security Coming Soon to Gmail, Other Webmail Providers" data-url="https://threatpost.com/smtp-strict-transport-security-coming-soon-to-gmail-other-webmail-providers/123789/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/smtp-strict-transport-security-coming-soon-to-gmail-other-webmail-providers/123789/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>			</div>
+
+			<div class="post-info">
+				<span class="date"><time itemprop="datePublished" datetime="2017-02-17">February 17, 2017 , 10:00 am</time></span>
+			</div>
+
+			<h3 class="entry-title" itemprop="name">
+				<a href="https://threatpost.com/smtp-strict-transport-security-coming-soon-to-gmail-other-webmail-providers/123789/" title="Permalink to SMTP Strict Transport Security Coming Soon to Gmail, Other Webmail Providers" rel="bookmark">SMTP Strict Transport Security Coming Soon to Gmail, Other Webmail Providers</a>
+			</h3>
+
+			<div class="post-info">
+				<span class="author">by <span itemprop="author"><a href="https://threatpost.com/author/michael/" title="Posts by Michael Mimoso" rel="author">Michael Mimoso</a></span></span>
+			</div>
+
+			<div class="categories">
+				<span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/web-security/" title="View all posts in Web Security">Web Security</a></span><!-- .categories -->			</div>
+
+			<div itemprop="description"><p>SMTP Strict Transport Security is coming to major webmail providers this year, a Google engineer said at RSA Conference</p>
+</div>
+			<p class="alignright"><a href="https://threatpost.com/smtp-strict-transport-security-coming-soon-to-gmail-other-webmail-providers/123789/" title="Permalink to SMTP Strict Transport Security Coming Soon to Gmail, Other Webmail Providers" rel="bookmark" class="read-more">Read more...</a></p>
+		</article><!-- #post -->
+		
+		<article id="post-123779" class="secondary-post  post-123779 post type-post status-publish format-standard has-post-thumbnail hentry category-hacks category-mobile-security tag-android tag-android-sandboxing tag-emm tag-enterprise-mobility-management tag-google-android-flaw tag-google-android-for-work tag-malicious-android-apps tag-rsa-conference" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+			<div class="image-wrap">
+				<a href="https://threatpost.com/divide-between-work-personal-data-on-android-breached/123779/" itemprop="url" title="Divide Between Work, Personal Data on Android Breached"><img width="182" height="142" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/Threatpost_RSA_android-for-work-182x142.jpg" class="alignleft secondary-post wp-post-image" alt="" itemprop="image" /></a>				<div class="social-likes social-likes_notext" data-title="Divide Between Work, Personal Data on Android Breached" data-url="https://threatpost.com/divide-between-work-personal-data-on-android-breached/123779/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/divide-between-work-personal-data-on-android-breached/123779/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>			</div>
+
+			<div class="post-info">
+				<span class="date"><time itemprop="datePublished" datetime="2017-02-16">February 16, 2017 , 1:50 pm</time></span>
+			</div>
+
+			<h3 class="entry-title" itemprop="name">
+				<a href="https://threatpost.com/divide-between-work-personal-data-on-android-breached/123779/" title="Permalink to Divide Between Work, Personal Data on Android Breached" rel="bookmark">Divide Between Work, Personal Data on Android Breached</a>
+			</h3>
+
+			<div class="post-info">
+				<span class="author">by <span itemprop="author"><a href="https://threatpost.com/author/thomas/" title="Posts by Tom Spring" rel="author">Tom Spring</a></span></span>
+			</div>
+
+			<div class="categories">
+				<span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/hacks/" title="View all posts in Hacks">Hacks</a>,  <a href="https://threatpost.com/category/mobile-security/" title="View all posts in Mobile Security">Mobile Security</a></span><!-- .categories -->			</div>
+
+			<div itemprop="description"><p>Researchers demonstrate how malicious apps can break into secure Android work containers on EMM managed phones. </p>
+</div>
+			<p class="alignright"><a href="https://threatpost.com/divide-between-work-personal-data-on-android-breached/123779/" title="Permalink to Divide Between Work, Personal Data on Android Breached" rel="bookmark" class="read-more">Read more...</a></p>
+		</article><!-- #post -->
+		
+		<article id="post-123769" class="secondary-post  post-123769 post type-post status-publish format-standard has-post-thumbnail hentry category-government category-hacks category-podcasts tag-cyberwar tag-hacking tag-l0pht tag-mike-mimoso tag-rsa tag-rsa-conference tag-spacerogue tag-tenable-networks" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+			<div class="image-wrap">
+				<a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" itemprop="url" title="Cris Thomas on Cyberwar Rhetoric"><img width="182" height="142" src="https://trtpost-wpengine.netdna-ssl.com/files/2015/04/microphone-182x142.jpg" class="alignleft secondary-post wp-post-image" alt="" itemprop="image" /></a>				<div class="social-likes social-likes_notext" data-title="Cris Thomas on Cyberwar Rhetoric" data-url="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>			</div>
+
+			<div class="post-info">
+				<span class="date"><time itemprop="datePublished" datetime="2017-02-16">February 16, 2017 , 9:00 am</time></span>
+			</div>
+
+			<h3 class="entry-title" itemprop="name">
+				<a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="Permalink to Cris Thomas on Cyberwar Rhetoric" rel="bookmark">Cris Thomas on Cyberwar Rhetoric</a>
+			</h3>
+
+			<div class="post-info">
+				<span class="author">by <span itemprop="author"><a href="https://threatpost.com/author/christopher/" title="Posts by Chris Brook" rel="author">Chris Brook</a></span></span>
+			</div>
+
+			<div class="categories">
+				<span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/government/" title="View all posts in Government">Government</a>,  <a href="https://threatpost.com/category/hacks/" title="View all posts in Hacks">Hacks</a>,  <a href="https://threatpost.com/category/podcasts/" title="View all posts in Podcasts">Podcasts</a></span><!-- .categories -->			</div>
+
+			<div itemprop="description"><p>Cris Thomas of Tenable Networks, aka Space Rogue of the L0pht, talks to Mike Mimoso during RSA Conference about the rhetoric and hype surrounding cyberwar, as well as a quick trip down memory lane with the L0pht and its famous 1998 testimony before Congress.</p>
+</div>
+			<p class="alignright"><a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="Permalink to Cris Thomas on Cyberwar Rhetoric" rel="bookmark" class="read-more">Read more...</a></p>
+		</article><!-- #post -->
+		
+		<div style="font-weight: bold; font-size: 18px;" align="center"><a href="https://threatpost.com/blog">More Stories</a></div>
+
+	</div><!-- #latest-posts -->
+
+			<div id="latest-podcasts-wrap">
+			<div class="latest-podcasts-headline">
+				<h2 class="alignleft">Latest podcasts and webcasts</h2>
+				<span class="alignright read-more button"><a href="https://threatpost.com/category/podcasts">All</a></span>
+			</div>
+			<div class="latest-podcasts">
+									<article id="post-123769" class="latest-podcasts  post-123769 post type-post status-publish format-standard has-post-thumbnail hentry category-government category-hacks category-podcasts tag-cyberwar tag-hacking tag-l0pht tag-mike-mimoso tag-rsa tag-rsa-conference tag-spacerogue tag-tenable-networks">
+						<div class="video-wrap">
+							<a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="Cris Thomas on Cyberwar Rhetoric"><img width="140" height="80" src="https://trtpost-wpengine.netdna-ssl.com/files/2015/04/microphone-140x80.jpg" class="latest-podcasts wp-post-image" alt="" /></a><div class="play"><a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/">Read More</a></div>						</div>
+							<a href="https://threatpost.com/cris-thomas-on-cyberwar-rhetoric/123769/" title="Cris Thomas on Cyberwar Rhetoric">Cris Thomas on Cyberwar Rhetoric</a>					</article>
+									<article id="post-123683" class="latest-podcasts  post-123683 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-government category-malware-2 category-mobile-security category-podcasts category-privacy category-vulnerabilities tag-apple-2 tag-apple-security tag-federal-trade-commission tag-ftc tag-ios-0 tag-mac tag-mac-security tag-macos tag-macro-malware tag-malware tag-open-source-software tag-privacy tag-rsa tag-settlements tag-ssh tag-ssh-keys tag-tls tag-tls-interception tag-uber tag-uber-engineering-team tag-vizio">
+						<div class="video-wrap">
+							<a href="https://threatpost.com/threatpost-news-wrap-february-13-2017/123683/" title="Threatpost News Wrap, February 13, 2017"><img width="140" height="80" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/threatpost_feb_13_news_wrap-140x80.png" class="latest-podcasts wp-post-image" alt="" /></a><div class="play"><a href="https://threatpost.com/threatpost-news-wrap-february-13-2017/123683/" title="https://threatpost.com/threatpost-news-wrap-february-13-2017/123683/">Read More</a></div>						</div>
+							<a href="https://threatpost.com/threatpost-news-wrap-february-13-2017/123683/" title="Threatpost News Wrap, February 13, 2017">Threatpost News Wrap, February 13, 2017</a>					</article>
+									<article id="post-123665" class="latest-podcasts last post-123665 post type-post status-publish format-standard has-post-thumbnail hentry category-podcasts category-vulnerabilities tag-bug-bounties tag-capsule8 tag-cloud-0 tag-dino-dai-zovi tag-enterprise tag-linux tag-linux-security tag-linux-threats tag-no-more-free-bugs tag-pwn2own tag-securing-linux">
+						<div class="video-wrap">
+							<a href="https://threatpost.com/dino-dai-zovi-on-securing-linux-in-modern-workloads/123665/" title="Dino Dai Zovi on Securing Linux in Modern Workloads"><img width="140" height="80" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/dino_dai_zovi-140x80.png" class="latest-podcasts wp-post-image" alt="" /></a><div class="play"><a href="https://threatpost.com/dino-dai-zovi-on-securing-linux-in-modern-workloads/123665/" title="https://threatpost.com/dino-dai-zovi-on-securing-linux-in-modern-workloads/123665/">Read More</a></div>						</div>
+							<a href="https://threatpost.com/dino-dai-zovi-on-securing-linux-in-modern-workloads/123665/" title="Dino Dai Zovi on Securing Linux in Modern Workloads">Dino Dai Zovi on Securing Linux in Modern… </a>					</article>
+									<article id="post-123553" class="latest-podcasts  post-123553 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-podcasts category-privacy category-vulnerabilities category-web-security tag-0day tag-facebook tag-google tag-https tag-lets-encrypt tag-microsoft tag-netgear tag-netgear-router tag-router-vulnerabilities tag-security-keys tag-smb tag-yubico tag-yubikey tag-zero-day">
+						<div class="video-wrap">
+							<a href="https://threatpost.com/threatpost-news-wrap-february-3-2017/123553/" title="Threatpost News Wrap, February 3, 2017"><img width="140" height="80" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/news_wrap_feb_3-140x80.png" class="latest-podcasts wp-post-image" alt="" /></a><div class="play"><a href="https://threatpost.com/threatpost-news-wrap-february-3-2017/123553/" title="https://threatpost.com/threatpost-news-wrap-february-3-2017/123553/">Read More</a></div>						</div>
+							<a href="https://threatpost.com/threatpost-news-wrap-february-3-2017/123553/" title="Threatpost News Wrap, February 3, 2017">Threatpost News Wrap, February 3, 2017</a>					</article>
+									<article id="post-123477" class="latest-podcasts  post-123477 post type-post status-publish format-standard has-post-thumbnail hentry category-malware-2 category-podcasts category-sas tag-malware tag-malware-research tag-nico-brulez tag-nicolas-brulez tag-reverse-engineering tag-ryan-naraine tag-security-analyst-summit tag-thesas2017">
+						<div class="video-wrap">
+							<a href="https://threatpost.com/nicolas-brulez-on-malware-reverse-engineering-tips-and-tricks/123477/" title="Nicolas Brulez on Malware Reverse Engineering Tips and Tricks"><img width="140" height="80" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/01/5861284431_ecf4c59fc9_o-140x80.jpg" class="latest-podcasts wp-post-image" alt="nicolas_brulez" /></a><div class="play"><a href="https://threatpost.com/nicolas-brulez-on-malware-reverse-engineering-tips-and-tricks/123477/" title="https://threatpost.com/nicolas-brulez-on-malware-reverse-engineering-tips-and-tricks/123477/">Read More</a></div>						</div>
+							<a href="https://threatpost.com/nicolas-brulez-on-malware-reverse-engineering-tips-and-tricks/123477/" title="Nicolas Brulez on Malware Reverse Engineering Tips and Tricks">Nicolas Brulez on Malware Reverse Engineering Tips and… </a>					</article>
+									<article id="post-123398" class="latest-podcasts last post-123398 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-malware-2 category-podcasts category-privacy category-vulnerabilities category-web-security tag-botnet tag-chrome-plugin tag-cisco tag-ladar-levison tag-lavabit tag-ransomware tag-st-louis tag-st-louis-library tag-star-wars tag-twitter tag-webex tag-webex-vulnerability">
+						<div class="video-wrap">
+							<a href="https://threatpost.com/123398-2/123398/" title="Threatpost News Wrap, January 27, 2017"><img width="140" height="80" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/01/threatpost_news_wrap_jan_27-140x80.png" class="latest-podcasts wp-post-image" alt="" /></a><div class="play"><a href="https://threatpost.com/123398-2/123398/" title="https://threatpost.com/123398-2/123398/">Read More</a></div>						</div>
+							<a href="https://threatpost.com/123398-2/123398/" title="Threatpost News Wrap, January 27, 2017">Threatpost News Wrap, January 27, 2017</a>					</article>
+							</div><!-- .latest-podcasts -->
+		</div><!-- #latest-podcasts-wrap -->
+		</div><!-- #content -->
+
+		<div id="primary" class="home-left-sidebar" role="complementary">
+		<aside id="threatpost_featured_posts-2" class="widget threatpost_featured_posts widget_text">        <article id="post-123730" class="home-left  post-123730 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-government category-iot tag-bruce-schneier tag-internet-of-things tag-iot tag-rsa tag-rsa-2017 tag-rsa-conference">
+          <h3 class="entry-title">
+            <a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" title="Permalink to Schneier Brings Campaign for IoT Regulation to RSA" rel="bookmark">Schneier Brings Campaign for IoT Regulation to RSA</a>
+          </h3>
+          <div class="post-info">
+            <span class="author">by <a href="https://threatpost.com/author/christopher/" title="Posts by Chris Brook" rel="author">Chris Brook</a></span>
+            <span class="date">February 14, 2017 , 6:36 pm</span>
+          </div>
+		  <div class="social-likes social-likes_notext" data-title="Schneier Brings Campaign for IoT Regulation to RSA" data-url="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>          <div class="categories">
+            <span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/featured/" title="View all posts in Featured">Featured</a>,  <a href="https://threatpost.com/category/government/" title="View all posts in Government">Government</a>,  <a href="https://threatpost.com/category/iot/" title="View all posts in IoT">IoT</a></span><!-- .categories -->          </div>
+          <a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" title="Schneier Brings Campaign for IoT Regulation to RSA"><img width="180" height="140" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/schneier-180x140.png" class="home-left wp-post-image" alt="" /></a><p>Citing IoT insecurity, Bruce Schneier called on technologists to get involved with IoT policy at RSA.</p>
+          <p><a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" title="Permalink to Schneier Brings Campaign for IoT Regulation to RSA" rel="bookmark" class="read-more">Read more...</a></p>
+        </article><!-- #post -->
+              <article id="post-123720" class="home-left  post-123720 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-vulnerabilities category-web-security tag-adobe tag-adobe-campaign tag-adobe-digital-editions tag-adobe-patches tag-flash-patches tag-flash-vulnerabilities tag-vulnerabilities-2">
+          <h3 class="entry-title">
+            <a href="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/" title="Permalink to Adobe Patches 13 Code Execution Vulnerabilities in Flash" rel="bookmark">Adobe Patches 13 Code Execution Vulnerabilities in Flash</a>
+          </h3>
+          <div class="post-info">
+            <span class="author">by <a href="https://threatpost.com/author/michael/" title="Posts by Michael Mimoso" rel="author">Michael Mimoso</a></span>
+            <span class="date">February 14, 2017 , 11:38 am</span>
+          </div>
+		  <div class="social-likes social-likes_notext" data-title="Adobe Patches 13 Code Execution Vulnerabilities in Flash" data-url="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>          <div class="categories">
+            <span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/featured/" title="View all posts in Featured">Featured</a>,  <a href="https://threatpost.com/category/vulnerabilities/" title="View all posts in Vulnerabilities">Vulnerabilities</a>,  <a href="https://threatpost.com/category/web-security/" title="View all posts in Web Security">Web Security</a></span><!-- .categories -->          </div>
+          <a href="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/" title="Adobe Patches 13 Code Execution Vulnerabilities in Flash"><img width="180" height="140" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/flashpatch-680x400-180x140.jpg" class="home-left wp-post-image" alt="" /></a><p>Adobe patched 13 code execution vulnerabilities in Flash Player today as part of its regular patch update cycle.</p>
+          <p><a href="https://threatpost.com/adobe-patches-13-code-execution-vulnerabilities-in-flash/123720/" title="Permalink to Adobe Patches 13 Code Execution Vulnerabilities in Flash" rel="bookmark" class="read-more">Read more...</a></p>
+        </article><!-- #post -->
+              <article id="post-123711" class="home-left last post-123711 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-government category-hacks category-malware-2 tag-advanced-persistent-attack tag-apt tag-apt-attacks tag-apt-group tag-china-hackers tag-nation-state-attack tag-pla-hacking-unit tag-rsa-conference-2017">
+          <h3 class="entry-title">
+            <a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" title="Permalink to Nation States Distancing Themselves from APTs" rel="bookmark">Nation States Distancing Themselves from APTs</a>
+          </h3>
+          <div class="post-info">
+            <span class="author">by <a href="https://threatpost.com/author/thomas/" title="Posts by Tom Spring" rel="author">Tom Spring</a></span>
+            <span class="date">February 14, 2017 , 10:42 am</span>
+          </div>
+		  <div class="social-likes social-likes_notext" data-title="Nation States Distancing Themselves from APTs" data-url="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>          <div class="categories">
+            <span class="categories alignleft">Categories:  <a href="https://threatpost.com/category/featured/" title="View all posts in Featured">Featured</a>,  <a href="https://threatpost.com/category/government/" title="View all posts in Government">Government</a>,  <a href="https://threatpost.com/category/hacks/" title="View all posts in Hacks">Hacks</a>,  <a href="https://threatpost.com/category/malware-2/" title="View all posts in Malware">Malware</a></span><!-- .categories -->          </div>
+          <a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" title="Nation States Distancing Themselves from APTs"><img width="180" height="140" src="https://trtpost-wpengine.netdna-ssl.com/files/2017/02/Regin-APT-Attacks-Among-the-Most-Sophisticated-Ever-Analyzed-1-180x140.png" class="home-left wp-post-image" alt="" /></a><p>Increasingly, governments are outsourcing state-sponsored attacks to mitigate risk and maximize intelligence.</p>
+          <p><a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" title="Permalink to Nation States Distancing Themselves from APTs" rel="bookmark" class="read-more">Read more...</a></p>
+        </article><!-- #post -->
+      </aside>	</div><!-- #secondary -->
+
+			<div id="slideshow">
+			<h2 class="alignleft">Featured slideshow</h2>
+			<span class="alignright read-more button"><a href="https://threatpost.com/slide-shows">All</a></span>
+							<article id="post-122633" class="featured-slideshow post-122633 slide_shows type-slide_shows status-publish has-post-thumbnail hentry">
+					<div class="featured-image-wrap">
+						<a href="https://threatpost.com/slide-shows/top-threatpost-stories-of-2016/" title="Top Threatpost Stories of 2016"><img width="680" height="390" src="https://trtpost-wpengine.netdna-ssl.com/files/2016/12/01_intro_2016-2-680x390.png" class="featured-slideshow wp-post-image" alt="" /></a><div class="title-wrap"><span class="days-ago">2 months ago</span><a href="https://threatpost.com/slide-shows/top-threatpost-stories-of-2016/" title="Top Threatpost Stories of 2016"><h1 class="entry-title">Top Threatpost Stories of 2016</h1></a></div>					</div>
+					<div class="post-info">
+						<span class="author alignleft">by <a href="https://threatpost.com/author/christopher/" title="Posts by Chris Brook" rel="author">Chris Brook</a></span>
+						<span class="date alignright">December 30, 2016, 7:00AM</span>
+					</div>
+					<div class="social-likes social-likes_notext" data-title="Top Threatpost Stories of 2016" data-url="https://threatpost.com/slide-shows/top-threatpost-stories-of-2016/" data-counters="yes" data-zeroes="yes"><div class="facebook" title="Share via Facebook"></div>
+<div class="plusone" title="Share via Google"></div>
+<div class="linkedin" title="Share via LinkedIn"></div>
+<div class="reddit" title="Share via Reddit"></div>
+<div class="twitter" title="Share via Twitter"></div><div class="social-likes__widget social-likes__widget_comments"><a href="https://threatpost.com/slide-shows/top-threatpost-stories-of-2016/#respond"><span class="social-likes__button social-likes__button_comments"><span class="social-likes__icon social-likes__icon_comments"></span></span><span class="social-likes__counter social-likes__counter_comments">0</span></a></div></div>					<p>2016 was a year to forget on many fronts, and security was certainly no exception. The most well-read stories on Threatpost reflect the ups and downs of the year, from critical vulnerabilities, to important policy debates, and some breakthroughs on the research front.</p>
+					<span class="read-more button"><a href="https://threatpost.com/slide-shows/top-threatpost-stories-of-2016/" title="Permalink to Top Threatpost Stories of 2016" rel="bookmark" class="read-more">read more...</a></span>
+				</article><!-- #post -->
+					</div><!-- #slideshow -->
+	</div><!-- #content-sidebar-wrap -->
+
+
+	<div id="secondary" class="home-right-sidebar" role="complementary">
+		<aside id="threatpost_more_posts-4" class="widget threatpost_more_posts widget_text"><div class="more-posts"><h2 class="widget-title alignleft">More posts</h2>        <article id="post-123706" class="home-left  post-123706 post type-post status-publish format-standard has-post-thumbnail hentry category-privacy category-web-security tag-awareness-training tag-bec tag-bes tag-business-email-compromise tag-business-email-spoofing tag-cybercrime tag-dell-secure-works tag-fraud tag-james-bettke tag-joe-stewart tag-nigerian-419-scam tag-nigerian-scam tag-phishing tag-rsa-conference-2017 tag-scams tag-seun tag-social-engineering-2 tag-spearphishing">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/turning-tables-on-nigerian-business-email-scammers/123706/" title="Permalink to Turning Tables on Nigerian Business Email Scammers" rel="bookmark">Turning Tables on Nigerian Business Email Scammers</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 15, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123750" class="home-left  post-123750 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-malware-2 category-mobile-security category-vulnerabilities tag-android-device-manager tag-android-security tag-android-security-team tag-antivirus tag-apis-0 tag-google tag-google-play tag-ios-security tag-sensor-network tag-verify-apps">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/google-touts-progress-in-android-security-in-2016/123750/" title="Permalink to Google Touts Progress in Android Security in 2016" rel="bookmark">Google Touts Progress in Android Security in 2016</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 15, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123739" class="home-left  post-123739 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud-security category-critical-infrastructure category-cryptography category-government category-web-security tag-critical-infrastructure-2 tag-cybersecurity tag-department-homeland-security tag-dhs tag-dnc tag-encryption">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/dhs-chairman-paints-bleak-us-cybersecurity-picture/123739/" title="Permalink to DHS Chairman Paints Bleak US Cybersecurity Picture" rel="bookmark">DHS Chairman Paints Bleak US Cybersecurity Picture</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 14, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123702" class="home-left  post-123702 post type-post status-publish format-standard has-post-thumbnail hentry category-vulnerabilities category-web-security tag-denial-service tag-pierre-kim tag-remote-code-execution tag-router tag-router-vulnerabilities tag-tp-link-patch tag-tp-link-routers tag-tp-link-updated-firmware tag-tp-link-vulnerabilities">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/updated-firmware-due-for-serious-tp-link-router-vulnerabilities/123702/" title="Permalink to Updated Firmware Due for Serious TP-Link Router Vulnerabilities" rel="bookmark">Updated Firmware Due for Serious TP-Link Router Vulnerabilities</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 13, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123677" class="home-left  post-123677 post type-post status-publish format-standard has-post-thumbnail hentry category-vulnerabilities tag-bind tag-bind-domain-name-system tag-dns64 tag-insist-assertion-failure tag-internet-systems-consortium tag-isc tag-null-pointer tag-rpz">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/high-severity-bind-vulnerability-can-lead-to-a-crash/123677/" title="Permalink to High Severity BIND Vulnerability Can Lead to A Crash" rel="bookmark">High Severity BIND Vulnerability Can Lead to A Crash</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 9, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123671" class="home-left  post-123671 post type-post status-publish format-standard has-post-thumbnail hentry category-malware-2 tag-brad-duncan tag-cryptoshield-ransomware tag-exploit-kits tag-kafeine tag-malvertising tag-malware tag-ransomware tag-rig-exploit-kit tag-sans-internet-storm-center tag-sans-isc">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/cryptoshield-infections-from-rig-ek-picking-up/123671/" title="Permalink to CryptoShield Infections from RIG EK Picking Up" rel="bookmark">CryptoShield Infections from RIG EK Picking Up</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 9, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123652" class="home-left  post-123652 post type-post status-publish format-standard has-post-thumbnail hentry category-malware-2 category-sas tag-carbanak tag-fileless-malware tag-gcman tag-kaspersky-lab tag-memory-based-malware tag-sas-2017 tag-security-analyst-summit tag-thesas2017">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/fileless-memory-based-malware-plagues-140-banks-enterprises/123652/" title="Permalink to Fileless Memory-Based Malware Plagues 140 Banks, Enterprises" rel="bookmark">Fileless Memory-Based Malware Plagues 140 Banks, Enterprises</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 8, 2017</span>
+          </div>
+        </article><!-- #post -->
+              <article id="post-123647" class="home-left last post-123647 post type-post status-publish format-standard has-post-thumbnail hentry category-privacy category-vulnerabilities tag-cross-site-scripting-vulnerability-0 tag-gaming tag-gaming-security tag-santiago-pontiroli tag-security-research tag-steam tag-steam-patch tag-steam-stealer-malware tag-steam-vulnerability tag-valve">
+          <h4 class="entry-title">
+            <a href="https://threatpost.com/valve-patches-trivial-xss-bug-in-steam/123647/" title="Permalink to Valve Patches Trivial XSS Bug in Steam" rel="bookmark">Valve Patches Trivial XSS Bug in Steam</a>
+          </h4>
+          <div class="post-info">
+            <span class="date">February 8, 2017</span>
+          </div>
+        </article><!-- #post -->
+      </div></aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"></div>
+		</aside><aside id="threatpost_post_tabs-4" class="widget threatpost_post_tabs widget_text">
+    <div id="post-tabs">
+      <ul id="post-tabs-list">
+        <li class="tab-button tab-1 active"><a href="javascript:;">Popular</a></li>
+        <li class="tab-button tab-2"><a href="javascript:;">Trend</a></li>
+        <li class="tab-button tab-3"><a href="javascript:;">Comments</a></li>
+        <li class="tab-button tab-4"><a href="javascript:;">Tags</a></li>
+      </ul><!-- #tabs -->
+
+    <ul id="output">
+      <li class="popular">
+                    <article id="post-123779" class="home-left  post-123779 post type-post status-publish format-standard has-post-thumbnail hentry category-hacks category-mobile-security tag-android tag-android-sandboxing tag-emm tag-enterprise-mobility-management tag-google-android-flaw tag-google-android-for-work tag-malicious-android-apps tag-rsa-conference">
+            <h4 class="entry-title"><a href="https://threatpost.com/divide-between-work-personal-data-on-android-breached/123779/" title="Permalink to Divide Between Work, Personal Data on Android Breached" rel="bookmark">Divide Between Work, Personal Data on Android Breached</a></h4><div class="post-info"><span class="date">February 16, 2017 ,1:50 pm</span></div></article><!-- #post -->            <article id="post-123730" class="home-left  post-123730 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-government category-iot tag-bruce-schneier tag-internet-of-things tag-iot tag-rsa tag-rsa-2017 tag-rsa-conference">
+            <h4 class="entry-title"><a href="https://threatpost.com/schneier-brings-campaign-for-iot-regulation-to-rsa/123730/" title="Permalink to Schneier Brings Campaign for IoT Regulation to RSA" rel="bookmark">Schneier Brings Campaign for IoT Regulation to RSA</a></h4><div class="post-info"><span class="date">February 14, 2017 ,6:36 pm</span></div></article><!-- #post -->            <article id="post-123761" class="home-left  post-123761 post type-post status-publish format-standard has-post-thumbnail hentry category-critical-infrastructure category-cryptography category-government category-hacks category-malware-2 category-vulnerabilities tag-commodity-malware tag-cyberattacks tag-cyberwarfare tag-metasploits tag-nation-state-attacks tag-rsa-conference tag-rsa-conference-2017 tag-stuxnet-1">
+            <h4 class="entry-title"><a href="https://threatpost.com/setting-expectations-between-states-on-cyberwar/123761/" title="Permalink to Setting Expectations Between States on Cyberwar" rel="bookmark">Setting Expectations Between States on Cyberwar</a></h4><div class="post-info"><span class="date">February 15, 2017 ,7:30 pm</span></div></article><!-- #post -->            <article id="post-123750" class="home-left  post-123750 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-malware-2 category-mobile-security category-vulnerabilities tag-android-device-manager tag-android-security tag-android-security-team tag-antivirus tag-apis-0 tag-google tag-google-play tag-ios-security tag-sensor-network tag-verify-apps">
+            <h4 class="entry-title"><a href="https://threatpost.com/google-touts-progress-in-android-security-in-2016/123750/" title="Permalink to Google Touts Progress in Android Security in 2016" rel="bookmark">Google Touts Progress in Android Security in 2016</a></h4><div class="post-info"><span class="date">February 15, 2017 ,10:50 am</span></div></article><!-- #post -->            <article id="post-123748" class="home-left last post-123748 post type-post status-publish format-standard has-post-thumbnail hentry category-web-security tag-beyondcorp tag-firewall-0 tag-google tag-heather-adkins tag-mobile-security-2 tag-network-perimeter tag-rory-ward tag-rsa-conference-2017 tag-trusted-access tag-vpn">
+            <h4 class="entry-title"><a href="https://threatpost.com/no-firewalls-no-problem-for-google/123748/" title="Permalink to No Firewalls, No Problem for Google" rel="bookmark">No Firewalls, No Problem for Google</a></h4><div class="post-info"><span class="date">February 15, 2017 ,7:00 am</span></div></article><!-- #post --><span class="read-more button"><a class="read-more" href="https://threatpost.com/popular-posts">More Posts</a></span>      </li>
+      <li class="popular">
+							<article id="post-123750" class="home-left  post-123750 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography category-malware-2 category-mobile-security category-vulnerabilities tag-android-device-manager tag-android-security tag-android-security-team tag-antivirus tag-apis-0 tag-google tag-google-play tag-ios-security tag-sensor-network tag-verify-apps">
+						<h4 class="entry-title"><a href="https://threatpost.com/google-touts-progress-in-android-security-in-2016/123750/" title="Google Touts Progress in Android Security in 2016">Google Touts Progress in Android Security in 2016</a></h4>
+						<div class="post-info">
+							<span class="date">
+								February 15, 2017 ,
+								10:50 am							</span>
+						</div>
+					</article>
+									<article id="post-123723" class="home-left  post-123723 post type-post status-publish format-standard has-post-thumbnail hentry category-cryptography tag-adi-shamir tag-artificial-intelligence tag-cryptographers-panel tag-cryptographers tag-quantum-computing tag-ron-rivest tag-rsa tag-rsa-conference tag-susan-landau">
+						<h4 class="entry-title"><a href="https://threatpost.com/cryptographers-dismiss-ai-quantum-computing-threats/123723/" title="Cryptographers Dismiss AI, Quantum Computing Threats">Cryptographers Dismiss AI, Quantum Computing Threats</a></h4>
+						<div class="post-info">
+							<span class="date">
+								February 14, 2017 ,
+								3:44 pm							</span>
+						</div>
+					</article>
+									<article id="post-123788" class="home-left  post-123788 post type-post status-publish format-standard has-post-thumbnail hentry category-critical-infrastructure category-government tag-critical-infrasdtructure tag-marcus-sachs tag-nerc tag-north-american-electric-grid tag-north-american-electric-reliability-corporation tag-rsa-conference">
+						<h4 class="entry-title"><a href="https://threatpost.com/squirrels-not-hackers-pose-biggest-threat-to-electric-grid/123788/" title="Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid">Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid</a></h4>
+						<div class="post-info">
+							<span class="date">
+								February 17, 2017 ,
+								12:30 pm							</span>
+						</div>
+					</article>
+									<article id="post-123702" class="home-left  post-123702 post type-post status-publish format-standard has-post-thumbnail hentry category-vulnerabilities category-web-security tag-denial-service tag-pierre-kim tag-remote-code-execution tag-router tag-router-vulnerabilities tag-tp-link-patch tag-tp-link-routers tag-tp-link-updated-firmware tag-tp-link-vulnerabilities">
+						<h4 class="entry-title"><a href="https://threatpost.com/updated-firmware-due-for-serious-tp-link-router-vulnerabilities/123702/" title="Updated Firmware Due for Serious TP-Link Router Vulnerabilities">Updated Firmware Due for Serious TP-Link Router Vulnerabilities</a></h4>
+						<div class="post-info">
+							<span class="date">
+								February 13, 2017 ,
+								12:02 pm							</span>
+						</div>
+					</article>
+									<article id="post-123711" class="home-left last post-123711 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-government category-hacks category-malware-2 tag-advanced-persistent-attack tag-apt tag-apt-attacks tag-apt-group tag-china-hackers tag-nation-state-attack tag-pla-hacking-unit tag-rsa-conference-2017">
+						<h4 class="entry-title"><a href="https://threatpost.com/nation-states-distancing-themselves-from-apts/123711/" title="Nation States Distancing Themselves from APTs">Nation States Distancing Themselves from APTs</a></h4>
+						<div class="post-info">
+							<span class="date">
+								February 14, 2017 ,
+								10:42 am							</span>
+						</div>
+					</article>
+				<span class="read-more button"><a class="read-more" href="https://threatpost.com/trending-posts">More Posts</a></span>      </li>
+      <li class="comments">
+        <article id="post-533060" class="comment "><div class="entry-title"><a href="https://threatpost.com/google-touts-progress-in-android-security-in-2016/123750/#li-comment-533060" title="Permalink to Google Touts Progress in Android Security in 2016" rel="bookmark">Excellent article users participation is ultimately the right solution. Manufacturers need feedback for the industry to progress. The rewards system is a good step in the right direction.
+Reaction to viruses or malware after the fact, costly. Proactive approach is better. CEO must combine efforts with a shared commitment. Human habits are inherently lazy or denial only hurt all members in an open network.
+The industry needs tools that can be proactive against the darker half that is bent on ego driven, profiteering, nation-state motivated vectors. Manufacturers need support from our own governments supporting policies with backing of three branches: Legislative, Judicial and Executive. 
+Anything less is a recipe for disaster. 
+Encrytption, cooperation (trust) and acceptance of policies among other things are needed for the bad actor to become less effective, less profitable. Collectively it's doable.</a></div><div class="post-info"><span>by Nelson on February 15, 2017, 11:51PM</span><span><a href="https://threatpost.com/google-touts-progress-in-android-security-in-2016/123750/#li-comment-533060" title="Permalink to Google Touts Progress in Android Security in 2016">Google Touts Progress in Android Security in 2016</a></span></div></article><!-- #post --><article id="post-532954" class="comment "><div class="entry-title"><a href="https://threatpost.com/1-5m-unpatched-wordpress-sites-hacked-following-vulnerability-disclosure/123691/#li-comment-532954" title="Permalink to 1.5M Unpatched WordPress Sites Hacked Following Vulnerability Disclosure" rel="bookmark">I used wordfence in past, but got hacked again. Now, I've been using WPHackedHelp.com. My site hasn't been hacked since I started using them. They claim to have patent pending solution, and I'm assuming they do since it worked for me.</a></div><div class="post-info"><span>by Dan Rath on February 15, 2017, 2:41AM</span><span><a href="https://threatpost.com/1-5m-unpatched-wordpress-sites-hacked-following-vulnerability-disclosure/123691/#li-comment-532954" title="Permalink to 1.5M Unpatched WordPress Sites Hacked Following Vulnerability Disclosure">1.5M Unpatched WordPress Sites Hacked Following Vulnerability Disclosure</a></span></div></article><!-- #post --><article id="post-532921" class="comment "><div class="entry-title"><a href="https://threatpost.com/cryptographers-dismiss-ai-quantum-computing-threats/123723/#li-comment-532921" title="Permalink to Cryptographers Dismiss AI, Quantum Computing Threats" rel="bookmark">Yes,it's the governments' responsibility to secure this nation from interior and exterior threats and invasion to preserve the growth and posterity of our nation.</a></div><div class="post-info"><span>by leonardjckson1 on February 14, 2017, 9:18PM</span><span><a href="https://threatpost.com/cryptographers-dismiss-ai-quantum-computing-threats/123723/#li-comment-532921" title="Permalink to Cryptographers Dismiss AI, Quantum Computing Threats">Cryptographers Dismiss AI, Quantum Computing Threats</a></span></div></article><!-- #post --><article id="post-532909" class="comment "><div class="entry-title"><a href="https://threatpost.com/smart-tv-manufacturer-vizio-fined-2-2m-for-tracking-customers/123597/#li-comment-532909" title="Permalink to Smart TV Manufacturer Vizio Fined $2.2M for Tracking Customers" rel="bookmark">Watching my tv or is it watching me .NGHFB</a></div><div class="post-info"><span>by Pablo on February 14, 2017, 4:54PM</span><span><a href="https://threatpost.com/smart-tv-manufacturer-vizio-fined-2-2m-for-tracking-customers/123597/#li-comment-532909" title="Permalink to Smart TV Manufacturer Vizio Fined $2.2M for Tracking Customers">Smart TV Manufacturer Vizio Fined $2.2M for Tracking Customers</a></span></div></article><!-- #post --><article id="post-532866" class="comment last"><div class="entry-title"><a href="https://threatpost.com/sha-1-end-times-have-arrived/123061/#li-comment-532866" title="Permalink to SHA-1 End Times Have Arrived" rel="bookmark">The logistics behind a collision attack is that it would take $75,000 measured against the computational and electrical power required to generate the forged certificates. When have cyber criminals EVER fronted that much cash on buying their own hardware? They don't have to. They can simply create a botnet large enough to do it for them. Buying a high-end PC costs upwards of $1,000 but botnets are bought for $5 per zombie on average. This attack is completely feasible if you consider that the most common botnets number in at least 100 systems, though organized cybercriminals have 500, even 1000 zombies under their control. If you believe that just because it has a high price-tag on the hardware necessary to generate a SHA-1 collision that cyber criminals won't try, you're fooling yourself.
+
+The reality is that app vendors and third-parties should have been pushing SHA-2 for years and because they procrastinated this long, it is up to the end-users and organizations that own the assets to make that decision.</a></div><div class="post-info"><span>by Michael Piece on February 14, 2017, 11:59AM</span><span><a href="https://threatpost.com/sha-1-end-times-have-arrived/123061/#li-comment-532866" title="Permalink to SHA-1 End Times Have Arrived">SHA-1 End Times Have Arrived</a></span></div></article><!-- #post -->      </li>
+      <li class="tags">
+        <article id="post-40928" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/malware/" title="Permalink to malware" rel="bookmark">malware</a></h4><div class="post-info"><span>1359 posts</span></div></article><!-- #post --><article id="post-41123" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/vulnerabilities-2/" title="Permalink to vulnerabilities" rel="bookmark">vulnerabilities</a></h4><div class="post-info"><span>985 posts</span></div></article><!-- #post --><article id="post-52304" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/microsoft/" title="Permalink to Microsoft" rel="bookmark">Microsoft</a></h4><div class="post-info"><span>795 posts</span></div></article><!-- #post --><article id="post-52308" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/privacy/" title="Permalink to Privacy" rel="bookmark">Privacy</a></h4><div class="post-info"><span>724 posts</span></div></article><!-- #post --><article id="post-40915" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/google/" title="Permalink to google" rel="bookmark">google</a></h4><div class="post-info"><span>710 posts</span></div></article><!-- #post --><article id="post-40948" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/apple-2/" title="Permalink to apple" rel="bookmark">apple</a></h4><div class="post-info"><span>467 posts</span></div></article><!-- #post --><article id="post-41188" class="tag "><h4 class="entry-title"><a href="https://threatpost.com/tag/mobile-security-2/" title="Permalink to Mobile security" rel="bookmark">Mobile security</a></h4><div class="post-info"><span>391 posts</span></div></article><!-- #post --><article id="post-41087" class="tag last"><h4 class="entry-title"><a href="https://threatpost.com/tag/hacking/" title="Permalink to Hacking" rel="bookmark">Hacking</a></h4><div class="post-info"><span>386 posts</span></div></article><!-- #post -->      </li>
+    </ul><!-- #output -->
+
+    </div><!-- #post-tabs -->
+    </aside>	</div><!-- #secondary -->
+
+					<div id="final-say" class="final-say-sidebar" role="complementary">
+				<h2 class="alignleft">The Final Say</h2> <span class="subtitle">From Kaspersky Blogs</span>
+				<div class="clear"></div>
+									<article class="final-say final-say-first">
+
+
+
+					<div class="featured-image-wrap">
+						<a href="https://eugene.kaspersky.com/2017/02/17/phwoahxphwoah-in-the-desert/">
+															<img src="https://trtpost-wpengine.netdna-ssl.com/files/2013/08/icon_Eugene-230x230.png" class="final-say wp-post-image" width="180" height="180" alt="PhwoahxPhwoah in the Desert...." />
+													</a>
+						<h4 class="entry-title"><a href="https://eugene.kaspersky.com/2017/02/17/phwoahxphwoah-in-the-desert/">PhwoahxPhwoah in the Desert....</a></h4>
+					</div>
+
+					<p>Ever driven across a desert – I mean, off-road – actually on the sand? Probably not – it generally can&#8217;t be done by all and sundry; only specially-trained, experienced drivers are permitted. But...</p>
+					<p class="read-more"><a href="https://eugene.kaspersky.com/2017/02/17/phwoahxphwoah-in-the-desert/" rel="bookmark" class="read-more" title="Permalink to PhwoahxPhwoah in the Desert....">Read more&hellip;</a></p>
+
+					</article>
+											<article class="final-say final-say-first">
+
+
+
+					<div class="featured-image-wrap">
+						<a href="https://securelist.com/blog/sas/77604/dissecting-malware/">
+															<img src="https://trtpost-wpengine.netdna-ssl.com/files/2013/08/icon_Securelist-230x230.png" class="final-say wp-post-image" width="180" height="180" alt="Dissecting Malware..." />
+													</a>
+						<h4 class="entry-title"><a href="https://securelist.com/blog/sas/77604/dissecting-malware/">Dissecting Malware...</a></h4>
+					</div>
+
+					<p>From March 30 through April 2, 2017, one of them — Principal Security Researcher at Kaspersky Lab Nicolas Brulez — will deliver a course on the subject he has been training people around the world on ...</p>
+					<p class="read-more"><a href="https://securelist.com/blog/sas/77604/dissecting-malware/" rel="bookmark" class="read-more" title="Permalink to Dissecting Malware...">Read more&hellip;</a></p>
+
+					</article>
+											<article class="final-say final-say-first">
+
+
+
+					<div class="featured-image-wrap">
+						<a href="https://blog.kaspersky.com/rsa-connected-cars/14060/">
+															<img src="https://trtpost-wpengine.netdna-ssl.com/files/2013/08/icon_Daily-230x230.png" class="final-say wp-post-image" width="180" height="180" alt="Android for cars: Secure connection?" />
+													</a>
+						<h4 class="entry-title"><a href="https://blog.kaspersky.com/rsa-connected-cars/14060/">Android for cars: Secure connection?</a></h4>
+					</div>
+
+					<p>Kaspersky Lab researchers disclose vulnerabilities in connected car apps.</p>
+					<p class="read-more"><a href="https://blog.kaspersky.com/rsa-connected-cars/14060/" rel="bookmark" class="read-more" title="Permalink to Android for cars: Secure connection?">Read more&hellip;</a></p>
+
+					</article>
+											<article class="final-say final-say-first">
+
+
+
+					<div class="featured-image-wrap">
+						<a href="https://business.kaspersky.com/rsa-2017-threat-landscape/6534/">
+															<img src="https://trtpost-wpengine.netdna-ssl.com/files/2013/08/icon_Business2-230x230.png" class="final-say wp-post-image" width="180" height="180" alt="RSA 2017: A thorough look into the threat landscap..." />
+													</a>
+						<h4 class="entry-title"><a href="https://business.kaspersky.com/rsa-2017-threat-landscape/6534/">RSA 2017: A thorough look into the threat landscap...</a></h4>
+					</div>
+
+					<p>We shared our general vision of today's threat landscape at Kaspersky Lab's RSA booth....</p>
+					<p class="read-more"><a href="https://business.kaspersky.com/rsa-2017-threat-landscape/6534/" rel="bookmark" class="read-more" title="Permalink to RSA 2017: A thorough look into the threat landscap...">Read more&hellip;</a></p>
+
+					</article>
+											<article class="final-say">
+
+
+
+					<div class="featured-image-wrap">
+						<a href="https://academy.kaspersky.com/ic3-2016/">
+															<img src="https://trtpost-wpengine.netdna-ssl.com/files/2013/08/icon_Academy1-230x230.png" class="final-say wp-post-image" width="180" height="180" alt="Kaspersky Academy attended MIT (IC)3 Annual Confer..." />
+													</a>
+						<h4 class="entry-title"><a href="https://academy.kaspersky.com/ic3-2016/">Kaspersky Academy attended MIT (IC)3 Annual Confer...</a></h4>
+					</div>
+
+					<p>72 guests, among them a global security lead Gordon Morrison, attended the MIT (IC)3 Annual Conference to share the latest insights into the industry. Educational programs manager Christel Gampig-Avil...</p>
+					<p class="read-more"><a href="https://academy.kaspersky.com/ic3-2016/" rel="bookmark" class="read-more" title="Permalink to Kaspersky Academy attended MIT (IC)3 Annual Confer...">Read more&hellip;</a></p>
+
+					</article>
+									</div><!-- #secondary -->
+		
+	</div><!-- #wrap -->
+</div><!-- #main .wrapper -->
+
+<footer id="footer">
+		<div id="footer-widgets" class="clear">
+		<div id="footer-left" class="alignleft">
+			<div class="company-info">
+				<a href="https://threatpost.com" title="Threatpost | The first stop for security news" class="footer-logo">Threatpost | The first stop for security news</a>
+				<span class="subtitle">The Kaspersky Lab Security News Service</span>
+			</div><!-- .company-info -->
+
+			<div class="category-list">
+				<div class="categories"><span class="title">Categories</span><a href="https://threatpost.com/category/bh/" title="View all posts in Black Hat">Black Hat</a> | <a href="https://threatpost.com/category/cloud-security/" title="View all posts in Cloud Security">Cloud Security</a> | <a href="https://threatpost.com/category/critical-infrastructure/" title="View all posts in Critical Infrastructure">Critical Infrastructure</a> | <a href="https://threatpost.com/category/cryptography/" title="View all posts in Cryptography">Cryptography</a> | <a href="https://threatpost.com/category/featured/" title="View all posts in Featured">Featured</a> | <a href="https://threatpost.com/category/government/" title="View all posts in Government">Government</a> | <a href="https://threatpost.com/category/hacks/" title="View all posts in Hacks">Hacks</a> | <a href="https://threatpost.com/category/iot/" title="View all posts in IoT">IoT</a> | <a href="https://threatpost.com/category/malware-2/" title="View all posts in Malware">Malware</a> | <a href="https://threatpost.com/category/mobile-security/" title="View all posts in Mobile Security">Mobile Security</a> | <a href="https://threatpost.com/category/podcasts/" title="View all posts in Podcasts">Podcasts</a> | <a href="https://threatpost.com/category/privacy/" title="View all posts in Privacy">Privacy</a> | <a href="https://threatpost.com/category/sas/" title="View all posts in Security Analyst Summit">Security Analyst Summit</a> | <a href="https://threatpost.com/category/slideshow/" title="View all posts in Slideshow">Slideshow</a> | <a href="https://threatpost.com/category/uncategorized/" title="View all posts in Uncategorized">Uncategorized</a> | <a href="https://threatpost.com/category/videos/" title="View all posts in Videos">Videos</a> | <a href="https://threatpost.com/category/vulnerabilities/" title="View all posts in Vulnerabilities">Vulnerabilities</a> | <a href="https://threatpost.com/category/web-security/" title="View all posts in Web Security">Web Security</a></div>			</div><!-- .category-list -->
+
+			<div class="footer-menu">
+				<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="footer-nav"><li id="menu-item-86410" class="first-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-86410"><a href="https://threatpost.com/rss-feeds/">RSS Feeds</a></li>
+<li id="menu-item-37426" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-37426"><a href="/">Home</a></li>
+<li id="menu-item-86470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86470"><a href="https://threatpost.com/about-threatpost/">About Us</a></li>
+<li id="menu-item-86471" class="last-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-86471"><a href="https://threatpost.com/contact-us/">Contact Us</a></li>
+</ul></div>			</div><!-- .footer-menu -->
+
+		</div><!-- #footer-left -->
+		<div id="footer-right" class="alignright">
+							<div id="footer-sidebar" class="widget-area" role="complementary">
+					<aside id="text-2" class="widget widget_text"><h3 class="widget-title">Authors</h3>			<div class="textwidget"><p>
+<a href="/author/michael/">Michael Mimoso</a><br />
+<a href="/author/thomas/">Tom Spring</a><br />
+<a href="/author/christopher/">Christopher Brook</a><br />
+
+</div>
+		</aside>				</div><!-- #footer-sidebar -->
+					</div><!-- #footer-right -->
+	</div><!-- #footer-widgets -->
+	<div class="site-info-wrap">
+		<div class="site-info">
+			Copyright &copy; 2017 <a href="https://threatpost.com" title="Threatpost | The first stop for security news">Threatpost | The first stop for security news</a> <div class="menu-footer-sub-menu-container"><ul id="menu-footer-sub-menu" class="footer-sub"><li id="menu-item-86472" class="first-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-86472"> | <a href="https://threatpost.com/kaspersky-lab-threatpost-terms-service/">Terms of Service</a></li>
+<li id="menu-item-86473" class="last-menu-item menu-item menu-item-type-post_type menu-item-object-page menu-item-86473"> | <a href="https://threatpost.com/privacy-policy/">Privacy</a></li>
+</ul></div>		</div><!-- .site-info -->
+	</div><!-- .site-info-wrap -->
+</footer><!-- #footer -->
+
+		<script async type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('ntt0j', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=ntt0j&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=ntt0j&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>	<div style="display:none">
+	</div>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201707'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2017Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://trtpost-wpengine.netdna-ssl.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/jetpack/modules/wpgroho.js,wp-content/plugins/jetpack/modules/widgets/milestone/milestone.js,wp-content/plugins/kaspersky-tracking/js/external-tracking.js,wp-includes/js/wp-embed.min.js&#038;ver=1487362963'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201707.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.6',blog:'52985383',post:'99882',tz:'-5',srv:'threatpost.com'} ]);
+	_stq.push([ 'clickTrackerInit', '52985383', '99882' ]);
+</script>
+
+
+<!-- Powered by Whitelist IP For Limit Login Attempts | URL: http://club.orbisius.com/products/wordpress-plugins/whitelist-ip-for-limit-login-attempts/ -->
+
+
+</body>
+</html>

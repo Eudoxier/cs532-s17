@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwIGUFdSGwoAVFVRDwY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),s.xhrWrappable&&t(9),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),c=t(7),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(17)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),c=t(16),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),f.setCurrentRouteName=o(d+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!l.aborted){t&&t(n,r,o);for(var i=e(o),a=h(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){v[t]=h(t).concat(e)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var v={},y={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(15),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=d.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(v,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=d.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(15),f=t("ee"),u=window,d=u.document,l="addEventListener",p="attachEvent",h=u.XMLHttpRequest,m=h&&h.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:h,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(12);var w=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},y=h&&m&&m[l]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:w,features:{},xhrWrappable:y};d[l]?(d[l]("DOMContentLoaded",i,!1),u[l]("load",r,!1)):(d[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,10,4,3]);</script>
+    <title>Lisas fighting cancer fund by Lisa Starsinic Gilmore - GoFundMe</title>
+    <link href="//funds.gofundme.com/favicon/4.ico" rel="shortcut icon" type="image/x-icon">
+    <meta name="description" content="Lisas fighting cancer fund by Lisa Starsinic Gilmore - GO FUND ME On December 14, 2016, my wife was diagnosed with breast cancer. She had gone into the hospital because of an obstructed bowel and due to an x-ray, they found a spot on her breast. We hadn’t had healthcare or any “extra” money that wasn’t going to food or utilities for years, so she had...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        
+
+<meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+
+    <link rel="canonical" href="https://www.gofundme.com/lisas-fighting-cancer-fund"/>
+    <meta property="og:site_name" content="gofundme.com"/>
+    <meta property="og:url" content="https://www.gofundme.com/lisas-fighting-cancer-fund"/>
+    <meta property="og:image"
+          content="https://d2g8igdw686xgo.cloudfront.net/17838468_fb_1485729796.8744_funds.jpg"/>
+    <meta property="og:image:secure_url" content="https://d2g8igdw686xgo.cloudfront.net/17838468_fb_1485729796.8744_funds.jpg"/>
+    
+    <meta property="og:title" content="Click here to support Lisas fighting cancer fund by Lisa Starsinic Gilmore"/>
+    <meta property="og:description" content="GO FUND ME On December 14, 2016, my wife was diagnosed with breast cancer. She had gone into the hospital because of an obstructed bowel and due to an x-ray, they found a spot on her breast. We hadn’t had healthcare or any “extra” money that wasn’t going to food or utilities for years, so she had...">
+<meta property="og:type" content="gofundme:campaign">
+<meta property="fb:app_id" content="407682420960">
+    <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@gofundme" />
+<meta name="twitter:image" content="https://d2g8igdw686xgo.cloudfront.net/17838468_fb_1485729796.8744_funds.jpg" />
+<meta name="twitter:title" content="Lisas fighting cancer fund" />
+<meta name="twitter:description" content="GO FUND ME On December 14, 2016, my wife was diagnosed with breast cancer. She had gone into the hospital because of an obstructed bowel and due to an x-ray, they found a spot on her breast. We had...">
+
+            <link rel="stylesheet" href="https://funds.gofundme.com/css/campaign/app.min.css?v=16.35&url=1" type="text/css" media="all">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
+
+    <script>
+    GFM_DOMAIN = "gofundme.com";
+    FACEBOOK_APP_ID = "407682420960";
+</script>    <!-- Load jQuery from Google CDN, fall back with local version -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="//funds.' + GFM_DOMAIN + '/node_modules/jquery/dist/jquery.min.js">\x3C/script>')
+</script>
+
+<!-- If production, don't show JQMigrate logging -->
+    <script src="https://code.jquery.com/jquery-migrate-1.4.0.min.js" integrity="sha256-nxdiQ4FdTm28eUNNQIJz5JodTMCF5/l32g5LwfUwZUo=" crossorigin="anonymous"></script>
+    <!-- Start Analytics -->
+
+<script>
+    var GFM = GFM || {};
+    GFM.components = GFM.components || {};
+    GFM.components.visitorCookieStrings = {
+        privacyLine: 'By continuing to use the website, you will be agreeing to our <a href="//www.gofundme.com/privacy#cookies">Use of Cookies.</a>',
+        responsivePrivacyLine: 'By continuing to use the website,</div><div class="disp-ib">&nbsp;you agree to our <a href="//www.gofundme.com/privacy#cookies">Use of Cookies</a>'
+    }
+</script>
+
+<script src="//funds.gofundme.com/js/build/headerIncludes.min.js?v=16.35"></script>
+
+    <!-- THE COMMENT BELOW (EMITJS_SECTION) IS REPLACED TO GET UNIQUE ANALYTICS -->
+    <!-- Analytics Rendered 18th February 2017 15:46:46 --><script type="text/javascript">
+try {
+
+    try {
+        mixpanel.default.identify($.cookie('gdid'));
+        mixpanel.impression.identify($.cookie('gdid'));
+    } catch(e) {
+    }
+
+var allowDebug = false;
+GFM.analytics.data.clickstream=false;GFM.analytics.setData("u", "");
+GFM.analytics.setData("p", "");
+GFM.analytics.setData("fud", "f8bec063405e41f5915bc447c7fbc355");
+GFM.analytics.setData("flw", {"DONATION":"d_ab_c1h"});
+GFM.analytics.setData("a", "8066571144494c71a7e393e99f8ac0a9");
+GFM.analytics.setData("pcd", "");
+GFM.analytics.setData("vri", "e6ac7361543643bea8f1283aa6d23f56");
+GFM.analytics.setData("lang", "");
+GFM.analytics.setData('fn', 'Lisas fighting cancer fund');
+GFM.analytics.setData('fu', 'lisas-fighting-cancer-fund');
+GFM.analytics.setData('fi', '17838468');
+GFM.analytics.setData('fc', 'US');
+GFM.analytics.setData('orc', {"82323c45442046efa2861f224d6426bb":{"captured_at":"2017-02-18T21:46:46.12935","sender_type_id":4,"messagetype_id":13,"channel_id":2,"fund_id":"17838468","rcid":"82323c45442046efa2861f224d6426bb"},"cp_fb":{"captured_at":"2017-02-18T21:46:46.13145","sender_type_id":2,"messagetype_id":1,"channel_id":1,"subchannel_id":2,"rcid":"ec381ec45c194fc3815fabd60ea20686"}});
+GFM.analytics.setData('vi', 'pg_donate_index');
+GFM.analytics.setData('ra', $.now());
+GFM.analytics.setData("gfm", {"os":"Other","browser":"Other","platform":"desktop","country":"US","lat":47.541999816895,"long":-122.31230163574});
+GFM.Planout.addExperiment("Grow522", {"flow":"d_d_g522_a_v2","show_desktop_exit_pledge_cta":true,"pledge_options":[25,50,150]}, {"experiment":{"time":1487454406,"params":{"flow":"d_d_g522_a_v2"}}});
+
+package = GFM.analytics.getPackage();
+mixpanel.default.register(package);
+mixpanel.impression.register(package);
+
+    GFM.analytics.track_event('mp_page_view', package, false);
+
+} catch(e) {
+    if (window.console) {
+        window.console.log("Broken load: " + e);
+    }
+} // begun immediately after <script>
+
+</script>
+
+<!-- End Analytics -->
+</head>
+
+<body class="theme-gfmgreen sticky-header lang-en_US">
+<script>
+window.dataLayer = window.dataLayer || [ ];
+try {
+    dataLayer.push(GFM.analytics.getGaDataLayer());
+} catch(e) {}
+
+</script>
+
+<!-- GO Tag Manager -->
+<noscript><iframe src="https://www.google-analytics.com/gtm/ns?id=GTM-KJFLHK"
+style="display:none;visibility:hidden" height="0" width="0"></iframe>
+</noscript><script>(function(p,a,l,i,n,d,r,o,m,e){r={id:'GTM-KJFLHK',l:'dataLayer',m:'sync'};
+if(!r.gac){o=/;((__utma=)|([^;=]+=GAX?\d+\.))[^;]*/g;m=l.cookie.replace(
+/^|(; +)/g,';').match(o);if(m)r.gac=m.sort().join('').substring(1)};e=
+'https://www.google-analytics.com/gtm/js?';r.m=='sync'||(p['event']='gtm.js');
+for(d in r)if(r.hasOwnProperty(d))e+=n(d)+'='+n(r[d])+'&';a[r.l]=a[r.l]||[];
+a[r.l].push(p);if(r.m=='sync'){l.write('<'+i+' src="'+e+'"><\/'+i+'>');}else{
+j=l.createElement(i);j.async=!0;j.src=e;f=l.getElementsByTagName(i)[0];
+f.parentNode.insertBefore(j,f);}})({'gtm.start':1*new Date()},window,document,
+'script',encodeURIComponent);</script>
+<!-- End GO Tag Manager -->
+
+<!-- Production Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TDTFTZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>try{(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TDTFTZ');} catch (ignore) {}</script>
+<!-- End Production Google Tag Manager -->
+
+
+
+
+
+<!-- Add a class of .global-nav-simple to remove all buttons and links -->
+<div class="fixed-container ">
+    <div class="reveal-overlay reveal-overlay--global-nav js-nav-reveal-overlay"></div>
+    <nav class="top-bar" id="nav-menu">
+
+        <!-- TOP BAR -->
+        <div class="row small-collapse large-uncollapse">
+            <div class="column position-relative">
+
+                <a href="/" class="logo-single" data-gfm-analytics-element="btn_nav_gfm_logo">GoFundMe</a>
+
+                <!-- MENU ICON -->
+                <button id="nav-menu-hamburger-icon"
+                        type="button"
+                        class="tcon tcon-menu--xcross top-bar-nav-icon top-bar-nav-icon--hamburger"
+                        aria-label="Toggle Menu"
+                        data-gfm-analytics-element="btn_nav_hamburger_icon">
+                    <span class="tcon-menu__lines" aria-hidden="true"></span>
+                </button>
+
+                <!-- HAMBURGER DROPDOWN MENU -->
+                <div id="nav-menu-hamburger-dropdown" class="row top-bar-menu  nav-menu-hamburger-dropdown" style="display:none;">
+                    
+                                            <div class="column small-12 layer-primary hide-for-large">
+                            <p class="menu-header">Raise money for any cause</p>
+                            <a class="button secondary expanded mb20"
+                               href="/sign-up"
+                               data-gfm-analytics-element="link_nav_start_campaign">Start a Campaign</a>
+                        </div>
+                                        <div class="column small-12 mt20">
+                        <ul class="no-bullet">
+                                                                <li class="hide-for-large">
+                                        <a href="/sign-up"
+                                           data-gfm-analytics-element="link_nav_sign_up"
+                                           data-open-modal=""
+                                        >Sign Up</a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="/tour"
+                                           data-gfm-analytics-element="link_nav_tour"
+                                           data-open-modal=""
+                                        >How It Works</a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="/contact"
+                                           data-gfm-analytics-element="link_nav_help"
+                                           data-open-modal=""
+                                        >Help</a>
+                                    </li>
+                                                                    <li class="">
+                                        <a href="/sign-in"
+                                           data-gfm-analytics-element="link_nav_sign_in"
+                                           data-open-modal=""
+                                        >Sign In</a>
+                                    </li>
+                                                        </ul>
+                    </div>
+                </div> <!-- END HAMBURGER DROPDOWN MENU (CHEESE) -->
+
+
+                <!-- DESKTOP SEARCH AND LEFT LINKS -->
+                <ul id="nav-left-links-contain-large" class="menu-divided menu horizontal ml float-left show-for-large">
+                    <li id="nav-search-input-contain-large" class="hide-when-search-disabled">
+                        <div class="search-with-icon search-with-icon--green js-search-nav-contain-large ml">
+                            <input id="global-nav-search" type="text" class="js-search-nav-bar-large top-bar-search" placeholder="Search">
+                        </div>
+                        <ul class="search-drop js-search-nav-drop-large hide"></ul>
+                    </li>
+                                                <li class="js-hide-desktop-nav-search">
+                                <a href="/sign-up"
+                                   data-gfm-analytics-element="link_nav_start_fundraiser"
+                                   data-open-modal=""
+                                >Start a Fundraiser</a>
+                            </li>
+                                        </ul>
+
+                <!-- DESKTOP SHARE BUTTONS -->
+                                    <div class="menu-divider-line float-right js-hide-desktop-nav-search" style="top:13px"></div>
+                    <div class="action-buttons-contain show-for-large js-hide-desktop-nav-search">
+                        <!-- This button is hidden via CSS for non-English users on Tablet width -->
+                        
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button small fb-blue"
+       data-pc="fb_dn_cpgntopnavlarge_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_topnavsharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp;Share
+    </a>
+
+                                                    <a class="button small tw-blue js-share-twitter show-for-xlarge"
+                                data-rcid="aa3176c1626d4748900da7b36c5c537e"
+                                href="https://twitter.com/intent/tweet?text=Lisas+fighting+cancer+fund&url=https%3A%2F%2Fwww.gofundme.com%2Flisas-fighting-cancer-fund%26rcid%3Daa3176c1626d4748900da7b36c5c537e"
+                                data-gfm-analytics-element="btn_donate_topnavsharetwitter">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;Tweet                            </a>
+                                                <a href="https://www.gofundme.com/lisas-fighting-cancer-fund/donate"
+                           data-gfm-analytics-element="btn_donate_topnavdonate"
+                           class="button small primary js-main-donate-btn">
+                                <i class="fa fa-check" aria-hidden="true"></i> &nbsp;Donate                        </a>
+                    </div>
+                
+                <!-- SEARCH ICON -->
+                <button id="nav-menu-search-icon"
+                        type="button"
+                        class="tcon tcon-search--xcross top-bar-nav-icon top-bar-nav-icon--search hide-for-large float-right"
+                        aria-label="Toggle Search"
+                        data-gfm-analytics-element="btn_nav_search_icon">
+                    <span class="tcon-search__item" aria-hidden="true"></span>
+                </button>
+
+                <!-- SEARCH DROPDOWN MENU -->
+                <div id="nav-menu-search-dropdown" class="top-bar-menu top-bar-menu--full row" style="display:none;">
+                    <div class="hide-for-large column small-12">
+                        <div class="search-with-icon js-search-nav-contain-small mt20">
+                            <input type="search" class="js-search-nav-bar-small search-full" placeholder="Search GoFundMe">
+                            <ul class="search-drop js-search-nav-drop-small hide"></ul>
+                        </div>
+                    </div>
+                    <div class="hide-for-large column small-12">
+                        <div class="light-gray js-search-prompt mb10" style="display:none;">
+                            <i class="light-gray fa fa-info-circle" aria-hidden="true"></i>&nbsp; Try searching for locations, campaign titles and names                        </div>
+                    </div>
+
+                    <div class="column small-12 js-nav-recommended-campaigns">
+    <h4 class="mt10 underline js-rec-funds-title">Recommended</h4>
+    <i class="mt50 mb50 big-loady-guy fa fa-circle-o-notch fa-spin js-nav-loady-guy" style='display:none'></i>
+    <div class="position-relative">
+        <div class="carousel-arrow carousel-arrow--left show-for-large js-carousel-left" style="display:none;"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+        <div class="carousel-arrow carousel-arrow--right show-for-large js-carousel-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+        <div class="nav-recommendations-contain js-carousel-contain">
+                    </div>
+    </div>
+    <a class="hide-for-large button secondary expanded mb20 js-more-rec-funds"
+       style="display:none;"
+       data-gfm-analytics-element="btn_nav_more_rec_funds_small">+ See More</a>
+</div>
+                </div>
+
+            </div><!--/.column-->
+        </div><!--/.row-->
+    </nav>
+
+            <!-- MOBILE FIXED DONATE BUTTON -->
+        <div class="sticky-btn-contain row hide-for-large js-main-cta-contain">
+            <div class="column small-6">
+                <a href="https://www.gofundme.com/lisas-fighting-cancer-fund/donate"
+                   class="button primary medium expanded js-main-donate-btn"
+                   data-gfm-analytics-element="btn_donate_donatestickytop">Donate</a>
+            </div>
+            <div class="column small-6">
+                
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button medium expanded fb-blue mb10"
+       data-pc="fb_dn_cpgntopstickysmall_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_fbsharestickytop"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-official"></i>&nbsp;Share
+    </a>
+            </div>
+        </div>
+    
+</div>
+<!-- <link rel="stylesheet" href="https://funds.gofundme.com/css/campaign/print.css" type="text/css" media="print"> -->
+<div class="row small-collapse large-uncollapse">
+    <!-- LEFT COLUMN -->
+    <div class="main-column column small-12 large-7 small-collapse large-uncollapse">
+        <div id="campaignStateBannerMobileThroughAjax" style="display:none"></div>        <!-- Title & Photo -->
+        <div class="campaign-img-contain">
+
+            <img class="campaign-img" alt="" src="https://d2g8igdw686xgo.cloudfront.net/17838468_fb_1485729796.8744_funds.jpg">            <a href='#' id='heart-17838468' data-content-id='17838468' data-content-type='fund' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='fund' class='js-heart fave-contain' title='Click here to like this'><input class='fave-raw' type='hidden' value='38'><div class='campaign-sp campaign-sp--heart fave-num'>38</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>38</div></a>
+        </div>
+        <h1 class="campaign-title">Lisas fighting cancer fund</h1>
+        <div class="dotted-line mr ml"></div>
+        <!-- Goal for Mobile -->
+        <div class="layer-white hide-for-large mb10">
+            <h2 class="goal">
+            <strong>$3,715</strong><span class="smaller">
+ of $25k goal</span>
+    </h2>
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="15" aria-valuetext="15 percent" class="progress large-12" role="progressbar" tabindex="0">
+    <div class="progress-meter" style="width: 15%"></div>
+</div>
+<div class="campaign-status text-small">
+
+    Raised by <span>37</span> people in 19 days
+</div>
+            <!-- static CTA buttons -->
+            <div class="static-btn-contain js-static-cta-contain">
+                <a class="button primary large expanded js-main-donate-btn" data-gfm-analytics-element="btn_donate_donatestaticmain" href="https://www.gofundme.com/lisas-fighting-cancer-fund/donate">Donate Now</a>
+                
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button mb10 medium primary expanded"
+       data-pc="fb_dn_cpgnstaticsmall_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_fbsharestaticmain"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-official"></i>&nbsp;Share on Facebook
+    </a>
+            </div>
+            <!-- Friends faces Donated -->
+            <div class="overflow-hidden js-donated-friends-contain-small mt20" style="display: none">
+            </div>
+        </div><!--/.layer-white-->
+        <div class="mb20 layer-white">
+
+            <!-- Share bar for Tablet/Desktop -->
+            <!-- Share bar for Tablet/Desktop -->
+<div class="share-contain share-bar show-for-large js-share-contain">
+    <div class="column small-4 pr0">
+        
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button expanded fb-blue"
+       data-pc="fb_dn_cpgnsharebartop_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_sharebartopfb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-20 fa-facebook-official"></i><span class="show-for-large">&nbsp;Share</span>
+    </a>
+    </div>
+            <div class="column small-4">
+            <a class="button tw-blue expanded js-share-twitter" data-gfm-analytics-element="btn_donate_sharebartoptwitter" data-rcid="aa3176c1626d4748900da7b36c5c537e" href="https://twitter.com/intent/tweet?text=Lisas+fighting+cancer+fund&url=https%3A%2F%2Fwww.gofundme.com%2Flisas-fighting-cancer-fund%26rcid%3Daa3176c1626d4748900da7b36c5c537e">
+                <i class="fa fa-20 fa-twitter"></i><span class="show-for-large">&nbsp; Tweet</span>
+            </a>
+        </div>
+        <div class="column small-4 share-text pl0">
+                    <div>
+                <div class="campaign-sp campaign-sp--chart"></div>
+                <strong class="js-share-count-text">
+                     245                </strong>
+
+                shares
+            </div>
+            </div>
+</div>
+
+            <div class="dotted-line mb10 show-for-large"></div>
+                        <ul class="story-updates tabs mb" data-tabs="" id="campaignStoryContent">
+                <li class="tabs-title small-6 is-active" data-gfm-analytics-element="btn_donate_switchtab" data-gfm-analytics-meta="story">
+                    <a aria-selected="true" href="#story">Story</a>
+                </li>
+                <li class="tabs-title small-6 " data-gfm-analytics-element="btn_donate_switchtab" data-gfm-analytics-meta="updates">
+                    <a href="#updates">Updates   <span class="badge">4</span></a>
+                </li>
+            </ul>
+            <div class="tabs-content" data-tabs-content="campaignStoryContent">
+                
+                <!-- DESCRIPTION TAB -->
+                <div class="tabs-panel is-active" id="story">
+                    <div class="co-info hide-for-large">
+                                                    <div class="avatar-contain">
+                                <img class="media-round thumbnail" src="https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/16299117_10207746779099160_2993243844555675414_n.jpg?oh=d7831fc951d648b38a768002d9e43c60&oe=59316A0C" alt="">
+                            </div>
+                                                <div class="co-details">
+
+                            Lisa Starsinic Gilmore
+                            
+                            <!-- show FB friends count in X00+ -->
+                            
+                            
+                                                            <a href="https://www.gofundme.com/search/us/brick-nj-fundraising" class="icon-link     location-name">
+                                    <i class="fa fa-map-marker"></i>&nbsp;BRICK, NJ                                </a>
+                                                    </div>
+                    </div>
+                    <div class="dotted-line row column mt mb hide-for-large"></div>
+                    <div class="co-story truncate-text truncate-text--description js-truncate">
+
+                        <img class="not-resizable" src="https://d2g8igdw686xgo.cloudfront.net/17838468_1485730165.3052_funddescription.jpg" alt="" width="100%" /><br /><img class="not-resizable" src="https://d2g8igdw686xgo.cloudfront.net/17838468_fb_1485730232.011_funddescription.jpg" alt="" width="100%" /><br /><img class="not-resizable" src="https://d2g8igdw686xgo.cloudfront.net/17838468_1485730413.4111_funddescription.jpg" alt="" width="100%" /><br /><img class="not-resizable" src="https://d2g8igdw686xgo.cloudfront.net/17838468_1485730443.9348_funddescription.jpg" alt="" width="100%" /><br /><br /><br /><br /><br /><br />GO FUND ME<br /><br /><br />On December 14, 2016, my wife was diagnosed with breast cancer. She had gone into the hospital because of an obstructed bowel and due to an x-ray, they found a spot on her breast. We hadn’t had healthcare or any “extra” money that wasn’t going to food or utilities for years, so she hadn’t had the chance to get annual mammograms. Less than a month later, due to a PET scan, the diagnosis grew from stage 2 breast cancer to stage 4 breast and bone cancer.  After several MRIs and a PET scan, the doctors accessed that she will need a mastectomy after months of chemotherapy.<br /><br />Lisa and I have been struggling financially for years, but have always seemed to get by. Unfortunately, we now need help. She signed up for Obamacare/ACA, but it won’t start until March. The premiums are a bit too high for us, as well, but we will have healthcare for her after March 1, 2017. Since the premium is so high, we won’t be able to eat one week out of every month. <br /><br />As a Social Worker, Lisa has dedicated her whole 30 year career to helping people from abused/neglected children to mentally ill and developmentally disabled, just to name a few. Now, my wife needs the help. With any extra monies we may have left from your generous donations (after medical care and household bills), we pledge to donate to Domestic Violence victims. That has been my wife’s passion for years. Finally, we will donate any additional funding to cancer patients who don’t have healthcare themselves.<br /><br />I have never been one to ask for monies, I’ve worked hard to get by for my whole life. I don’t really even know how to say “help me”, but I guess it’s time to learn. I just need to help my wife, my family.
+                    </div>
+                    <a class="read-more" href="#">+ Read More</a>
+
+                    <!-- Read Latest Update btn -->
+                                            <div class="row">
+                            <div class="column small-12 large-6 large-offset-3">
+                                <a class="button secondary expanded js-select-updates" data-gfm-analytics-element="btn_donate_latestupdate">Read Latest Update</a>
+                                <a class="button secondary expanded js-select-updates is-loading hide" href="#">
+                                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    <div class="spread-the-word">Help spread the word!</div>
+                    <div class="dotted-line mb mt5"></div>
+                    <div class="share-contain row js-share-contain">
+                        <div class="column small-4 pr0">
+    
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button expanded fb-blue"
+       data-pc="fb_dn_cpgnsharemore_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_sharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-20 fa-facebook-official"></i><span class="show-for-large">&nbsp;Share</span>
+    </a>
+</div>
+    <div class="column small-4">
+        <a class="button tw-blue expanded js-share-twitter" data-gfm-analytics-element="btn_donate_sharetwitter" data-rcid="aa3176c1626d4748900da7b36c5c537e" href="https://twitter.com/intent/tweet?text=Lisas+fighting+cancer+fund&url=https%3A%2F%2Fwww.gofundme.com%2Flisas-fighting-cancer-fund%26rcid%3Daa3176c1626d4748900da7b36c5c537e">
+            <i class="fa fa-20 fa-twitter"></i>
+            <span class="show-for-large">&nbsp; Tweet</span>
+        </a>
+    </div>
+<div class="column small-4 pl0">
+    <a class="button secondary expanded js-share-more-ways" data-gfm-analytics-element="btn_donate_sharemore" data-open-modal="more-ways-to-share-modal">
+        <i class="fa fa-20 fa-plus" style="margin-top:1px;"></i>
+    </a>
+</div>
+                    </div>
+                                            <div>
+                            <div class="campaign-sp campaign-sp--chart"></div>
+                            <strong class="js-share-count-text">
+                                 245                            </strong>
+
+                            shares on Facebook
+                        </div>
+                    
+                </div>
+        
+
+                <!-- UPDATES TAB-->
+                <div class="tabs-panel updates-contain " id="updates">
+                    <div class="js-pagination-content">
+    
+    
+
+<div class="js-pagination-panel " data-offset="0" data-update-id="12765110">
+    <div class="row collapse">
+        <div class="column small-10 medium-11">
+
+            <div class="supporter-amount">Update 4</div>
+            <div class="supporter-name">
+                Posted by Lisa Starsinic Gilmore            </div>
+            <div class="supporter-time">7 days ago</div>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text update-share text-fb-blue"
+       data-pc="fb_dn_shareupdate_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/update/fb_dn_shareupdate_r/12765110"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_updatesharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-square fb-blue mr5" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Share
+    </a>
+        </div>
+        <div class="heart column small-2 medium-1">
+            <a href='#' id='heart-12765110' data-content-id='12765110' data-content-type='update' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='update' class='js-heart fave-contain' title='Click here to like this'><input class='fave-raw' type='hidden' value='1'><div class='campaign-sp campaign-sp--heart fave-num'>1</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>1</div></a>        </div>
+    </div>
+    <div class="dotted-line row column mt mb"></div>
+    
+    <div class="co-update">
+        <div class="truncate-text truncate-text--update js-truncate">
+            <!-- TODO: Style text and media -->
+            <div class="update-text">Today, I got a call that due to having cancer, my healthcare has been given to me retroactively from February 1 instead of having to wait until March.</div>
+
+            
+        </div>
+        <a class="read-more" href="#">+ Read More</a>
+    </div>
+</div>
+
+
+<div class="js-pagination-panel hide" data-offset="1" data-update-id="12751572">
+    <div class="row collapse">
+        <div class="column small-10 medium-11">
+
+            <div class="supporter-amount">Update 3</div>
+            <div class="supporter-name">
+                Posted by Lisa Starsinic Gilmore            </div>
+            <div class="supporter-time">8 days ago</div>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text update-share text-fb-blue"
+       data-pc="fb_dn_shareupdate_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/update/fb_dn_shareupdate_r/12751572"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_updatesharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-square fb-blue mr5" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Share
+    </a>
+        </div>
+        <div class="heart column small-2 medium-1">
+            <a href='#' id='heart-12751572' data-content-id='12751572' data-content-type='update' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='update' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>        </div>
+    </div>
+    <div class="dotted-line row column mt mb"></div>
+    
+    <div class="co-update">
+        <div class="truncate-text truncate-text--update js-truncate">
+            <!-- TODO: Style text and media -->
+            <div class="update-text">My Social Worker is finally back from vacation, so I finally have a medical oncologist. <br />
+<br />
+<br />
+I'm waiting for my first appointment with my medical oncologist.<br />
+<br />
+Finally met my medical oncologist. I may not need chemo, but I'm going to need further testing to confirm.</div>
+
+            
+        </div>
+        <a class="read-more" href="#">+ Read More</a>
+    </div>
+</div>
+
+
+<div class="js-pagination-panel hide" data-offset="2" data-update-id="12727620">
+    <div class="row collapse">
+        <div class="column small-10 medium-11">
+
+            <div class="supporter-amount">Update 2</div>
+            <div class="supporter-name">
+                Posted by Lisa Starsinic Gilmore            </div>
+            <div class="supporter-time">10 days ago</div>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text update-share text-fb-blue"
+       data-pc="fb_dn_shareupdate_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/update/fb_dn_shareupdate_r/12727620"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_updatesharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-square fb-blue mr5" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Share
+    </a>
+        </div>
+        <div class="heart column small-2 medium-1">
+            <a href='#' id='heart-12727620' data-content-id='12727620' data-content-type='update' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='update' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>        </div>
+    </div>
+    <div class="dotted-line row column mt mb"></div>
+    
+    <div class="co-update">
+        <div class="truncate-text truncate-text--update js-truncate">
+            <!-- TODO: Style text and media -->
+            <div class="update-text">My Social Worker is finally back from vacation, so I finally have a medical oncologist. <br />
+<br />
+<br />
+I'm waiting for my first appointment with my medical oncologist.</div>
+
+            
+        </div>
+        <a class="read-more" href="#">+ Read More</a>
+    </div>
+</div>
+
+
+<div class="js-pagination-panel hide" data-offset="3" data-update-id="12588534">
+    <div class="row collapse">
+        <div class="column small-10 medium-11">
+
+            <div class="supporter-amount">Update 1</div>
+            <div class="supporter-name">
+                Posted by Lisa Starsinic Gilmore            </div>
+            <div class="supporter-time">19 days ago</div>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text update-share text-fb-blue"
+       data-pc="fb_dn_shareupdate_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/update/fb_dn_shareupdate_r/12588534"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_updatesharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-square fb-blue mr5" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Share
+    </a>
+        </div>
+        <div class="heart column small-2 medium-1">
+            <a href='#' id='heart-12588534' data-content-id='12588534' data-content-type='update' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='update' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>        </div>
+    </div>
+    <div class="dotted-line row column mt mb"></div>
+    
+    <div class="co-update">
+        <div class="truncate-text truncate-text--update js-truncate">
+            <!-- TODO: Style text and media -->
+            <div class="update-text">My Social Worker is finally back from vacation, so I finally have a medical oncologist.</div>
+
+            
+        </div>
+        <a class="read-more" href="#">+ Read More</a>
+    </div>
+</div>
+
+</div><!-- .js-pagination-content -->
+                    <div class="spread-the-word">Help spread the word!</div>
+                    <div class="dotted-line mb mt5"></div>
+                    <div class="share-contain row js-share-contain">
+                        <div class="column small-4 pr0">
+    
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button expanded fb-blue"
+       data-pc="fb_dn_cpgnsharemore_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_sharefb"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-20 fa-facebook-official"></i><span class="show-for-large">&nbsp;Share</span>
+    </a>
+</div>
+    <div class="column small-4">
+        <a class="button tw-blue expanded js-share-twitter" data-gfm-analytics-element="btn_donate_sharetwitter" data-rcid="aa3176c1626d4748900da7b36c5c537e" href="https://twitter.com/intent/tweet?text=Lisas+fighting+cancer+fund&url=https%3A%2F%2Fwww.gofundme.com%2Flisas-fighting-cancer-fund%26rcid%3Daa3176c1626d4748900da7b36c5c537e">
+            <i class="fa fa-20 fa-twitter"></i>
+            <span class="show-for-large">&nbsp; Tweet</span>
+        </a>
+    </div>
+<div class="column small-4 pl0">
+    <a class="button secondary expanded js-share-more-ways" data-gfm-analytics-element="btn_donate_sharemore" data-open-modal="more-ways-to-share-modal">
+        <i class="fa fa-20 fa-plus" style="margin-top:1px;"></i>
+    </a>
+</div>
+                    </div>
+                                            <div>
+                            <div class="campaign-sp campaign-sp--chart"></div>
+                            <strong class="js-share-count-text">
+                                 245                            </strong>
+
+                            shares on Facebook
+                        </div>
+                    
+                    
+    
+    <!-- Read a previous update button -->
+        <a class="button secondary expanded js-pagination-reveal mt" data-gfm-analytics-element="btn_donate_prevupdates">Read a Previous Update</a>
+    
+    <!-- Pagination buttons -->
+    <div aria-label="Pagination" class="row pages pages-contain mt hide" role="navigation">
+        <div class="column small-3 pages-previous js-pagination-prev-link hide">
+            <a aria-label="Next page" class="btn-page" href="#">
+                <i class="fa fa-chevron-left"></i>
+                <span class="show-for-sr">Previous update</span>
+            </a>
+        </div>
+
+        <!-- TODO: dynamically create these buttons with JS to save page load time? -->
+                    <div class="column small-3 js-pagination-link current  "
+                 data-gfm-analytics-element="btn_donate_pagenumber"
+                 data-gfm-analytics-meta="4"
+                 data-page-index="0">
+                <a aria-label="Update 4" class="btn-page" href="#">
+                                            <span class="show-for-sr">
+                            You're on update                        </span>
+                                        4                </a>
+            </div>
+                    <div class="column small-3 js-pagination-link   "
+                 data-gfm-analytics-element="btn_donate_pagenumber"
+                 data-gfm-analytics-meta="3"
+                 data-page-index="1">
+                <a aria-label="Update 3" class="btn-page" href="#">
+                                        3                </a>
+            </div>
+                    <div class="column small-3 js-pagination-link   "
+                 data-gfm-analytics-element="btn_donate_pagenumber"
+                 data-gfm-analytics-meta="2"
+                 data-page-index="2">
+                <a aria-label="Update 2" class="btn-page" href="#">
+                                        2                </a>
+            </div>
+                    <div class="column small-3 js-pagination-link  end "
+                 data-gfm-analytics-element="btn_donate_pagenumber"
+                 data-gfm-analytics-meta="1"
+                 data-page-index="3">
+                <a aria-label="Update 1" class="btn-page" href="#">
+                                        1                </a>
+            </div>
+        
+
+
+            </div>
+                </div>
+            </div>
+        
+
+            
+        </div><!--/.layer-white-->
+        <div class="ml mr row">
+            <a class="hollow button expanded js-subscribe-to-updates" data-gfm-analytics-element="btn_donate_subscribeupdates" data-open-modal="subscribe-updates-modal">
+
+                Subscribe to Updates
+            </a>
+        </div>
+        <div class="show-for-large js-comments-column-contain">
+            <!-- COMMENTS -->
+            
+    <div class="dropdown-container js-dropdown-comments">
+        <div class="link-bar">
+
+            Comments
+        </div>
+    </div><!--/.dropdown-container-->
+<div class="row column js-comment-entry-contain" fid="F0zpqXjCgeTpjtwJRHb2MqUFIrAeSK24eyfB7vXk3NRW9P9DBZTrwjDgJrHMniEFXJlD02BOTAN0u7IZptf61w==" fid2="0j3aJzF3/+J+r0jrPI0nNBtqj9gntQ1NFXRN1bb2oShW9P9DBZTrwjDgJrHMniEFXJlD02BOTAN0u7IZptf61w==">
+    <!-- Leave a comment -->
+    <div class="row hide js-comment-input-contain">
+        <div class="column small-12">
+            <div class="callout alert js-comment-error mb row" data-closable="" style="display:none;">
+                <p class="column small-11">There was an error with your comment. Please try again.</p>
+                <button aria-label="Dismiss alert" class="close-button" data-close="" type="button">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+        <div class="column leave-a-comment">
+            <div class="avatar-contain text-center">
+                <img class="thumbnail media-round js-comment-entry-pic" src="#">
+                <a class="fb-avatar-caption js-fb-logout" href="#">Log out</a>
+            </div>
+            <div class="supporter-info">
+                <textarea class="leave-comment js-comment-input" placeholder="Leave a Comment..."></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="mr mb10 ml">
+        <a class="fb-assoc button secondary expanded js-show-comment-trigger" data-gfm-analytics-viewid="fb_comment_login"
+           data-gfm-analytics-element="btn_donate_showcommentinput">
+            <i class="fa fa-facebook-official"></i>
+            &nbsp; Leave a Comment        </a>
+        <a class="fb-assoc button secondary expanded js-post-comment hide" data-gfm-analytics-element="btn_donate_postcomment">
+            <i class="fa fa-facebook-official"></i>
+              Post Comment
+        </a>
+        <a class="button secondary expanded is-loading hide">
+            <i class="fa fa-circle-o-notch fa-spin"></i>
+        </a>
+    </div>
+            <div class="mb ml mr">
+
+            Be the first to leave a comment on this campaign.
+        </div>
+    </div><!--/.row-->
+<div class="row js-comments-contain">
+    </div>
+            <div class="row large-uncollapse">
+    <div class="column small-12 large-6">
+        <a href="/contact"
+           class="hollow button expanded js-faq-link"
+           data-gfm-analytics-element="btn_donate_faqlink">
+            Ask GoFundMe a Question        </a>
+    </div>
+    <div class="column small-12 large-6">
+        <a href="//www.gofundme.com/contact?t=donation_page_report&url=lisas-fighting-cancer-fund"
+           class="hollow button expanded js-report-campaign"
+           data-gfm-analytics-element="btn_donate_reportcampaign">
+            Report Campaign        </a>
+    </div>
+</div>
+        </div>
+    </div><!--/ Left Column -->
+    <!-- RIGHT COLUMN -->
+    <div class="side-column column small-12 large-5">
+        <div id="campaignStateBannerDesktopThroughAjax" style="display:none"></div>        <!-- Goal for Tablet & Desktop -->
+        <div class="layer-white show-for-large mb">
+            <h2 class="goal">
+            <strong>$3,715</strong><span class="smaller">
+ of $25k goal</span>
+    </h2>
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="15" aria-valuetext="15 percent" class="progress large-12" role="progressbar" tabindex="0">
+    <div class="progress-meter" style="width: 15%"></div>
+</div>
+<div class="campaign-status text-small">
+
+    Raised by <span>37</span> people in 19 days
+</div>
+            <!-- Friends faces Donated -->
+            <div class="overflow-hidden js-donated-friends-contain-large pb" style="display: none">
+            </div>
+            <div class="primary-ctas show-for-large js-large-cta-contain">
+                <a class="button primary large expanded js-xl-donate-button" data-gfm-analytics-element="btn_donate_donatexlarge" href="https://www.gofundme.com/lisas-fighting-cancer-fund/donate">Donate Now</a>
+                
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook button expanded medium primary"
+       data-pc="fb_dn_cpgnstaticxlarge_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_sharefbxlarge"
+       data-gfm-analytics-meta=''
+                    >
+        <i class="fa fa-facebook-official"></i>&nbsp;Share on Facebook
+    </a>
+            </div>
+        </div><!--/.layer-white-->
+
+        <!-- CO info -->
+<div class="created-date">Created January 29, 2017</div>
+<div class="dotted-line mt5 mb10 mr ml"></div>
+<div class="co-info mb30 ml">
+            <div class="avatar-contain">
+            <img class="media-round thumbnail" src="https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/16299117_10207746779099160_2993243844555675414_n.jpg?oh=d7831fc951d648b38a768002d9e43c60&oe=59316A0C" alt="">
+        </div>
+        <div class="co-details">
+
+        Lisa Starsinic Gilmore  
+        <i class="fa fa-envelope js-contact-organizer-open" data-gfm-analytics-element="btn_donate_contactorganizer" data-open-modal="contact-organizer-modal"></i>
+                        <div class="pills-contain">
+                        <a href="https://www.gofundme.com/medical-fundraising/"
+           class="icon-link category-link-name js-category-link"
+           data-gfm-analytics-element="btn_donate_cocategorylink"
+           data-gfm-analytics-meta="Medical">
+            <i class="fa fa-tag fa--fixed-width"></i>&nbsp; <span class="text-small" style="color:#666;">Medical</span>
+        </a>
+                <a href="https://www.gofundme.com/search/us/brick-nj-fundraising" class="icon-link location-name js-location-link">
+            <i class="fa fa-map-marker fa--fixed-width"></i>&nbsp; BRICK, NJ        </a>
+            </div>
+    </div>
+</div>
+
+        
+        
+        
+        <div class="donations-column-contain js-donations-column-contain">
+            <!-- DONATIONS-->
+            
+    <div class="dropdown-container row js-dropdown-donations">
+        <a class="link-bar js-show-sort-menu" data-dropdown-sort-type="recent" data-dropdown-type="donations" data-route="donate/pagingDonationsFoundation" href="#">
+
+            Recent Donations  
+            <i class="fa fa-caret-down"></i>
+        </a>
+        <ul class="dropdown hide js-sort-menu">
+            <li>
+                <a class="dropdown-link js-sort-link hide"
+                   data-gfm-analytics-element="btn_donate_sortdonations"
+                   data-gfm-analytics-meta="recent"
+                   data-sort-type="recent"
+                   data-selected-text="Recent Donations"
+                   href="#">Recent</a>
+            </li>
+            <li>
+                <a class="dropdown-link js-sort-link"
+                   data-gfm-analytics-element="btn_donate_sortdonations"
+                   data-gfm-analytics-meta="liked"
+                   data-sort-type="hearts"
+                   data-selected-text="Most Liked Donations"
+                   href="#">Most Liked</a>
+            </li>
+            <li>
+                <a class="dropdown-link js-sort-link"
+                   data-gfm-analytics-element="btn_donate_sortdonations"
+                   data-gfm-analytics-meta="highest"
+                   data-sort-type="highest"
+                   data-selected-text="Highest Donations"
+                   href="#">Highest</a>
+            </li>
+        </ul>
+    </div><!--/.row-->
+
+<div class="row js-donations-contain collapse">
+            <div class="column showcontrol-donations">
+    
+    <div class="supporters-list">
+        
+
+<div class="supporter js-donation-content " data-id="143472194">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                GW            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$50</div>
+                <div class="supporter-name">Georg Weinand</div>
+                <div class="supporter-time">7 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-143472194' data-content-id='143472194' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>Wir wünschen dir, dass du schnell wieder gesund wirst.  Georg und Angelika.</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/143472194"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="143472194"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="143076754">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                KP            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$50</div>
+                <div class="supporter-name">Kathy Phillips</div>
+                <div class="supporter-time">9 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-143076754' data-content-id='143076754' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>My thoughts and prayers are with you as you tackle this!  Stay strong...you got this!!! ❤❤❤</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/143076754"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="143076754"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="142936310">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                TP            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$50</div>
+                <div class="supporter-name">Toni Pozzanghera</div>
+                <div class="supporter-time">9 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-142936310' data-content-id='142936310' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/142936310"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":false}'
+                    data-donation="142936310"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="142903910">
+    <div class="avatar-contain">
+                    <img class="thumbnail media-round" src="https://scontent.xx.fbcdn.net/v/t1.0-1/c0.13.50.50/p50x50/1795542_10202223237480649_266002119_n.jpg?oh=ebe180505571c69965d34b21b3bded65&oe=5947F75F" alt="">
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$200</div>
+                <div class="supporter-name">terry Krelle</div>
+                <div class="supporter-time">9 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-142903910' data-content-id='142903910' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>My thoughts are with you .Terry</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/142903910"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="142903910"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="142870726">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                RS            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$25</div>
+                <div class="supporter-name">Rita Mehegan Smith</div>
+                <div class="supporter-time">10 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-142870726' data-content-id='142870726' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>Prayers, thoughts, and a hug for Lisa.  Can't believe she was my student in 1984!</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/142870726"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="142870726"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="142241310">
+    <div class="avatar-contain">
+                    <img class="thumbnail media-round" src="https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/12650936_567434196759472_9117881572561979878_n.jpg?oh=5c878c897456e6f6ad035d89dd8123ad&oe=5942D605" alt="">
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$25</div>
+                <div class="supporter-name">Susan Kaye Daigneault</div>
+                <div class="supporter-time">13 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-142241310' data-content-id='142241310' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>paying it forward, healing thoughts for you and your family</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/142241310"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="142241310"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="142042352">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                SS            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$50</div>
+                <div class="supporter-name">Stephanie Santoro</div>
+                <div class="supporter-time">14 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-142042352' data-content-id='142042352' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>Lisa, you're in my thoughts and prayers.  
+Be cancer's cancer!</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/142042352"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="142042352"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="141964158">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                <i class="fa fa-user"></i>
+            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$50</div>
+                <div class="supporter-name">Anonymous</div>
+                <div class="supporter-time">15 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-141964158' data-content-id='141964158' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/141964158"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":true,"showsComment":false}'
+                    data-donation="141964158"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="141804848">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                SS            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$50</div>
+                <div class="supporter-name">Stephanie Santoro</div>
+                <div class="supporter-time">15 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-141804848' data-content-id='141804848' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                                    <p>This is on my fridge and I read it every day.
+"Be Cancer's Cancer" I know you can be too.  Lisa you are in my thought and prayers. <3</p>
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/141804848"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":true}'
+                    data-donation="141804848"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+
+
+<div class="supporter js-donation-content " data-id="141778126">
+    <div class="avatar-contain">
+                    <div class="avatar-no-pic media-round thumbnail">
+                LG            </div>
+            </div><!--/.avatar-contain-->
+    <div class="supporter-info">
+        <div class="row collapse">
+            <div class="column small-11">
+                <div class="supporter-amount">$100</div>
+                <div class="supporter-name">Lori Gilmore</div>
+                <div class="supporter-time">15 days ago </div>
+            </div>
+            <div class="heart column small-1">
+
+                <a href='#' id='heart-141778126' data-content-id='141778126' data-content-type='donation' data-gfm-analytics-element='btn_donate_heart' data-gfm-analytics-meta='donation' class='js-heart fave-contain' title='Be the first to like this'><input class='fave-raw' type='hidden' value='0'><div class='campaign-sp campaign-sp--heart fave-num'>&nbsp;</div><div class='campaign-sp campaign-sp--heart fave-num-short'><i class='fa fa-heart'></i>&nbsp;</div></a>
+            </div>
+        </div>
+        <div class="row column">
+            <div class="truncate-text truncate-text--comment js-truncate">
+                            </div>
+        </div>
+        <div class="row column toolbar">
+            <a href="#" class="read-more">
+                <i class="fa fa-plus" aria-hidden="true"></i>More
+            </a>
+            
+    <a href="#"
+       class="js-share-to-facebook js-share-facebook small fb-share actionable-text"
+       data-pc="fb_dn_cpgndonationshare_r"
+       data-area="donationpage"
+       data-rcid="cp_fb"
+       data-shareurl="https://www.gofundme.com/lisas-fighting-cancer-fund/share/donation/fb_dn_cpgndonationshare_r/141778126"
+       data-platform="0"
+       data-gfm-analytics-element="btn_donate_donationsharefb"
+       data-gfm-analytics-meta='{"isAnonymous":false,"showsComment":false}'
+                    data-donation="141778126"
+                    >
+        <i class="fa fa-facebook-square fb-blue" aria-hidden="true"></i>&nbsp;Share
+    </a>
+        </div>
+    </div><!--/.supporter-info-->
+</div>
+    </div>
+    <div class="donations-control-footer">
+                    <a class="button secondary expanded js-load-more" data-gfm-analytics-element="btn_donate_moredonations" data-idx="10">
+                <i class="fa fa-plus fa-plus-sm"></i>
+                  See More
+            </a>
+            <a class="button secondary expanded is-loading hide">
+                <i class="fa fa-circle-o-notch fa-spin"></i>
+            </a>
+        
+                    <div class="text-small row text-center mb">
+
+                Viewing <span class="js-donation-count">10</span> of 37 Donations
+            </div>
+            </div>
+</div>
+
+    </div><!--/.row-->
+        </div>
+        <div class="hide-for-large js-comments-column-contain">
+            <!-- COMMENTS -->
+            
+    <div class="dropdown-container js-dropdown-comments">
+        <div class="link-bar">
+
+            Comments
+        </div>
+    </div><!--/.dropdown-container-->
+<div class="row column js-comment-entry-contain" fid="F0zpqXjCgeTpjtwJRHb2MqUFIrAeSK24eyfB7vXk3NRW9P9DBZTrwjDgJrHMniEFXJlD02BOTAN0u7IZptf61w==" fid2="0j3aJzF3/+J+r0jrPI0nNBtqj9gntQ1NFXRN1bb2oShW9P9DBZTrwjDgJrHMniEFXJlD02BOTAN0u7IZptf61w==">
+    <!-- Leave a comment -->
+    <div class="row hide js-comment-input-contain">
+        <div class="column small-12">
+            <div class="callout alert js-comment-error mb row" data-closable="" style="display:none;">
+                <p class="column small-11">There was an error with your comment. Please try again.</p>
+                <button aria-label="Dismiss alert" class="close-button" data-close="" type="button">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+        </div>
+        <div class="column leave-a-comment">
+            <div class="avatar-contain text-center">
+                <img class="thumbnail media-round js-comment-entry-pic" src="#">
+                <a class="fb-avatar-caption js-fb-logout" href="#">Log out</a>
+            </div>
+            <div class="supporter-info">
+                <textarea class="leave-comment js-comment-input" placeholder="Leave a Comment..."></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="mr mb10 ml">
+        <a class="fb-assoc button secondary expanded js-show-comment-trigger" data-gfm-analytics-viewid="fb_comment_login"
+           data-gfm-analytics-element="btn_donate_showcommentinput">
+            <i class="fa fa-facebook-official"></i>
+            &nbsp; Leave a Comment        </a>
+        <a class="fb-assoc button secondary expanded js-post-comment hide" data-gfm-analytics-element="btn_donate_postcomment">
+            <i class="fa fa-facebook-official"></i>
+              Post Comment
+        </a>
+        <a class="button secondary expanded is-loading hide">
+            <i class="fa fa-circle-o-notch fa-spin"></i>
+        </a>
+    </div>
+            <div class="mb ml mr">
+
+            Be the first to leave a comment on this campaign.
+        </div>
+    </div><!--/.row-->
+<div class="row js-comments-contain">
+    </div>
+            <div class="row large-uncollapse">
+    <div class="column small-12 large-6">
+        <a href="/contact"
+           class="hollow button expanded js-faq-link"
+           data-gfm-analytics-element="btn_donate_faqlink">
+            Ask GoFundMe a Question        </a>
+    </div>
+    <div class="column small-12 large-6">
+        <a href="//www.gofundme.com/contact?t=donation_page_report&url=lisas-fighting-cancer-fund"
+           class="hollow button expanded js-report-campaign"
+           data-gfm-analytics-element="btn_donate_reportcampaign">
+            Report Campaign        </a>
+    </div>
+</div>
+        </div>
+
+    </div> <!--/ Right Column -->
+</div>
+
+<!-- Categories Horizontal Scroll -->
+
+
+
+<footer class="js-under-overlay">
+    <div class="footer-contain row small-collapse large-uncollapse">
+        <div class="column small-12">
+            <div class="layer-white pl0 pr0">
+                <div class="gfm-guarantee-footer value-props row column">
+                    <div class="prop small-12 large-4 column">
+    <div class="prop-icon ico-guarantee-sp ico-guarantee-sp--trophy"></div>
+    <div class="prop-content">
+        <h4>#1 Fundraising Platform</h4>
+        <div>
+            People have raised more money on GoFundMe than anywhere else.        </div>
+        <div>
+            <a href="//www.gofundme.com/tour" class="read-more">How It Works</a>
+        </div>
+    </div>
+</div>
+<div class="prop small-12 large-4 column">
+    <div class="prop-icon ico-guarantee-sp ico-guarantee-sp--secure"></div>
+    <div class="prop-content">
+        <h4>GoFundMe Guarantee</h4>
+        <div>
+            Your donation is protected. If anything is not right, we’ll give you a full refund.        </div>
+        <div>
+            <a href="//www.gofundme.com/guarantee" class="read-more">Learn More</a>
+        </div>
+    </div>
+</div>
+<div class="prop small-12 large-4 column">
+    <div class="prop-icon ico-guarantee-sp ico-guarantee-sp--clock"></div>
+    <div class="prop-content">
+        <h4>5-Minute Support</h4>
+        <div>
+            Contact us with your questions and we'll reply in 5 minutes&mdash;24/7.        </div>
+        <div>
+            <a href="//www.gofundme.com//www.gofundme.com/contact?t=donation_page_question&url=lisas-fighting-cancer-fund" class="read-more">Get Help</a>
+        </div>
+    </div>
+</div>
+                </div>
+                <div class="dotted-line ml mr"></div>
+
+                <!-- Mobile Footer links -->
+                <div class="row small-12 column">
+    				<ul class="footer-menu vertical menu hide-for-large mb0" data-accordion-menu>
+    			            			            <li class="footer-link">
+    			                <a href="#">Get Started</a>
+    			                <ul class="menu vertical nested">
+    			                                                                			                        <li class=""><a href="/tour">How It Works</a></li>
+    			                                                                			                        <li class=""><a href="/pricing">Pricing and Fees</a></li>
+    			                                                                			                        <li class=""><a href="/questions">Common Questions</a></li>
+    			                                                                			                        <li class=""><a href="/success">Success Stories</a></li>
+    			                                                                			                        <li class=""><a href="/sign-up?mobdon_ft_mm">Sign Up Now</a></li>
+    			                        			                </ul>
+    			            </li>
+    			            			            <li class="footer-link">
+    			                <a href="#">Learn More</a>
+    			                <ul class="menu vertical nested">
+    			                                                                			                        <li class=""><a href="/about-us">About Us</a></li>
+    			                                                                			                        <li class="hide-non-en_US"><a href="/blog">The GoFundMe Blog</a></li>
+    			                                                                			                        <li class=""><a href="/press">Press</a></li>
+    			                                                                			                        <li class="hide-non-en_US"><a href="/fundraiser-success-tips">Fundraiser Toolkit</a></li>
+    			                                                                			                        <li class=""><a href="/jobs">We're Hiring!</a></li>
+    			                        			                </ul>
+    			            </li>
+    			            			            <li class="footer-link">
+    			                <a href="#">Get Support</a>
+    			                <ul class="menu vertical nested">
+    			                                                                			                        <li class=""><a href="/contact">Ask a Question</a></li>
+    			                                                                			                        <li class=""><a href="http://support.gofundme.com/hc/en-us">Help Center</a></li>
+    			                                                                			                        <li class=""><a href="https://support.gofundme.com/hc/en-us/articles/203604044-Is-my-country-supported-">Supported Countries &amp; Currencies</a></li>
+    			                        			                </ul>
+    			            </li>
+    			            			    </ul><!--/.vertical .menu-->
+
+
+    			    <div class="small-12 large-4 column">
+                		<div class="show-for-large">
+                			<div class="logo-large mb30"></div>
+                                            		</div>
+                        <div class="select-contain-width">
+    <select class='js-locale-select form-text form-select'>
+                    <option value="en_US">English</option>
+                    <option value="es_ES">Español</option>
+                    <option value="fr_FR">Français</option>
+            </select>
+</div>
+                	</div>
+
+                	<div class="footer-col-adjust large-8 column large-uncollapse show-for-large">
+    	                    	                    <div class="column large-4">
+    	                        <div class="list-heading">Get Started</div>
+    	                        <ul class="list-links">
+    	                                                                        	                                <li class=""><a href="/tour">How It Works</a></li>
+    	                                                                        	                                <li class=""><a href="/pricing">Pricing and Fees</a></li>
+    	                                                                        	                                <li class=""><a href="/questions">Common Questions</a></li>
+    	                                                                        	                                <li class=""><a href="/success">Success Stories</a></li>
+    	                                                                        	                                <li class=""><a href="/sign-up?mobdon_ft_mm">Sign Up Now</a></li>
+    	                                	                        </ul>
+    	                    </div>
+    	                    	                    <div class="column large-4">
+    	                        <div class="list-heading">Learn More</div>
+    	                        <ul class="list-links">
+    	                                                                        	                                <li class=""><a href="/about-us">About Us</a></li>
+    	                                                                        	                                <li class="hide-non-en_US"><a href="/blog">The GoFundMe Blog</a></li>
+    	                                                                        	                                <li class=""><a href="/press">Press</a></li>
+    	                                                                        	                                <li class="hide-non-en_US"><a href="/fundraiser-success-tips">Fundraiser Toolkit</a></li>
+    	                                                                        	                                <li class=""><a href="/jobs">We're Hiring!</a></li>
+    	                                	                        </ul>
+    	                    </div>
+    	                    	                    <div class="column large-4">
+    	                        <div class="list-heading">Get Support</div>
+    	                        <ul class="list-links">
+    	                                                                        	                                <li class=""><a href="/contact">Ask a Question</a></li>
+    	                                                                        	                                <li class=""><a href="http://support.gofundme.com/hc/en-us">Help Center</a></li>
+    	                                                                        	                                <li class=""><a href="https://support.gofundme.com/hc/en-us/articles/203604044-Is-my-country-supported-">Supported Countries &amp; Currencies</a></li>
+    	                                	                        </ul>
+    	                    </div>
+    	                
+                	</div>
+                </div><!--/.row-->
+
+            </div><!--/.layer-white-->
+        </div><!--/.column-->
+    </div><!--/.row-->
+
+    <!-- GFM footer, TOS, privacy policy links -->
+    <div class="site-info row">
+        <div class="column small-12 text-center text-small">
+
+        	<!-- MOBILE -->
+        	<div class="menu-centered hide-for-large">
+	            <ul class="menu">
+	                <li><a href="/terms">Terms</a></li>
+	                <li><a href="/privacy">Privacy</a></li>
+	                <li><a href="/legal">Legal</a></li>
+	            </ul>
+	            <div>&copy; 2010-2016 GoFundMe</div>
+	            <ul class="menu social-links">
+	                <li><a href="https://www.facebook.com/gofundme"><i class="fa fa-facebook-official fb-blue" aria-hidden="true"></i></a></li>
+	                <li><a href="https://twitter.com/gofundme"><i class="fa fa-twitter tw-blue" aria-hidden="true"></i></a></li>
+	                <li><a href="https://www.instagram.com/gofundme/"><i class="fa fa-instagram text-black" aria-hidden="true"></i></a></li>
+	            </ul>
+        	</div>
+
+        	<!-- DESKTOP -->
+        	<div class="row show-for-large">
+	        	<div class="large-6 column">
+		            <ul class="menu pl">
+		                <li>&copy; 2010-2016 GoFundMe</li>
+		                <li><a href="/terms">Terms</a></li>
+		                <li><a href="/privacy">Privacy</a></li>
+		                <li><a href="/legal">Legal</a></li>
+		            </ul>
+	        	</div>
+	        	<div class="large-6 column">
+		            <ul class="social-links align-right menu">
+		                <li><a href="https://www.instagram.com/gofundme/"><i class="fa fa-instagram text-black" aria-hidden="true"></i></a></li>
+						<li><a href="https://twitter.com/gofundme"><i class="fa fa-twitter tw-blue" aria-hidden="true"></i></a></li>
+		                <li><a href="https://www.facebook.com/gofundme"><i class="fa fa-facebook-official fb-blue" aria-hidden="true"></i></a></li>
+		            </ul>
+	        	</div>
+			</div>
+
+
+        </div><!--/.column-->
+    </div><!--/.row-->
+</footer>
+
+<input id="_token" name="_token" type="hidden" value="1d8559b30676003109f201370930f778"/>
+<script type="text/javascript">
+
+    // first visit to a donation page. Being recorded in the signuplb stats event as of March 2016
+    (function() {
+        try {
+            if (!Date.now) Date.now = function() {return (new Date()).getTime();}
+            var v = '{"t":'+Math.floor(Date.now()/1000)+',"fid":17838468}';
+            if (!document.cookie || document.cookie.indexOf('fv=')<0) {
+                var cs = "fv="+v+"; expires=Wed, 01-Jan-2025 00:00:00 GMT; domain=.gofundme.com; path=/";
+                document.cookie = cs;
+            }
+        } catch (ignore) {}
+    })();
+</script>
+
+<!-- facebook retargeting pixels -->
+
+             <!-- Facebook Pixel Code -->
+            <script>
+            if(typeof fbq === 'undefined') {
+                !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+                n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                document,'script','https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '819737484732040', {});
+                fbq('track', 'PageView');
+            }
+            fbq('track', 'ViewContent', {"fund_id":"17838468","content_ids":["17838468"],"content_type":"product"});
+            </script>
+            <noscript>
+                <img height='1' width='1' alt='' style='display:none' src='https://www.facebook.com/tr?id=819737484732040&ev=ViewContent&cd%5Bfund_id%5D=17838468&cd%5Bcontent_ids%5D%5B0%5D=17838468&cd%5Bcontent_type%5D=product&noscript=1' />
+            </noscript>
+
+<script>
+    GFM = GFM || {};
+
+    
+    GFM.donateVariables = {"flow":"d_ab_c1h","fundId":"17838468","fundUrl":"lisas-fighting-cancer-fund","shareUrl":"https:\/\/www.gofundme.com\/lisas-fighting-cancer-fund","limitUpdateDisplayed":4,"countUpdates":4,"fetchSocialCounts":1,"campaignShares":245,"showShareUpsellModal":true,"enablePostShareConnect":false,"showStopStateModal":null,"showSharesInFeed":false,"fundOwnerUserId":"16926762","currentLoginUserId":"","addBirthdayPermission":null,"selectedUpdateId":null,"exptG396RcidBannerEnabled":null,"lastShareRcid":"","fbAuthed":false,"exptG414SeeFriendsDonationsEnabled":false,"wasAskedForPostShareConnect":false,"recurringId":null};
+
+    GFM.isMobile = false;
+
+</script>
+<div class="reveal gfm-modal" data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="like-login-modal"
+data-gfm-analytics-viewid="like-login-modal"> <!-- Height fix for iPhone 4 -->
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+
+        Like This <span class="js-like-type">Campaign</span>?
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+        <div class="modal-text-med show-for-large mt10 mb10">
+
+            Please use your Facebook account or email address
+        </div>
+    </div>
+    <div class="callout alert email-invalid-error" style="display:none">
+
+        Your email didn't look right. Please try again.
+    </div>
+    <div class="row column column-narrow text-center large-9 mt30">
+        <div class="modal-text-lg mb30 hide-for-large">
+
+            Please use your Facebook<br>account or email address <br>        </div>
+        <div class="fb-login-button mb text-center"
+             data-auto-logout-link="false"
+             data-onlogin="heartFbLoginCallback"
+             data-use-continue-as="true"
+             data-max-rows="1"
+             data-size="large"
+             data-show-faces="false"
+             data-scope="email,user_friends"
+             data-gfm-analytics-element="btn_donate_likefb"
+             id="js-fb-favorite"></div>
+
+        <a class="button expanded fb-blue is-loading hide" id="js-fb-favorite-loading"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+        <div class="text-divider row mt ml mr mb hide-for-large">
+            <div class="dotted-line column small-5"></div>
+            <div class="text-small column small-2">or</div>
+            <div class="dotted-line column small-5 "></div>
+        </div>
+        <div class="text-small show-for-large mb">Or, use your email…</div>
+        <input class="mb" id="txt-email-favorite" placeholder="Email Address" type="text">
+        <a class="expanded button primary" data-gfm-analytics-element="btn_donate_likeemail" id="js-email-favorite">Use My Email Address</a>
+        <a class="expanded button primary is-loading hide" id="js-email-favorite-loading"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+    </div>
+    <div class="row column text-center">
+        <div class="text-small mb">
+
+            By continuing, you agree with the GoFundMe            <br><a href="/terms">terms</a>
+            and <a href="/privacy">privacy policy</a>
+            <br>
+        </div>
+            </div>
+</div>
+<div class="modal-more-ways-to-share reveal gfm-modal" id="more-ways-to-share-modal" data-reveal data-animation-in="modal-slide-in" data-animation-out="modal-slide-out">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close="" id="close-more-ways-to-share"><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column mb30" id="spread-the-word">
+
+        Help spread the word!
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="row column large-11 text-center">
+        <div class="text-left" id="copy-link">
+            <div class="modal-text">
+                <strong>Campaign Link</strong>
+            </div>
+            <div class="mb mt">
+                <input class="js-click-to-copy" readonly="" type="text" value="https://www.gofundme.com/lisas-fighting-cancer-fund">
+            </div>
+            <div class="mb">
+                <a class="primary show-for-large"
+                   data-gfm-analytics-element="btn_donate_embedwidget"
+                   id="embed-widget">
+                    Add an embeddable widget                </a>
+            </div>
+            <div class="mb30">
+                <a  class="primary show-for-large js-print-campaign-sign"
+                    data-gfm-analytics-element="btn_donate_printcampaignsign"
+                    href="https://funds.gofundme.com/index.php?route=printmedia/donationposter&print=1&url=lisas-fighting-cancer-fund"
+                    target="_blank">
+                    Print a campaign sign                </a>
+            </div>
+        </div>
+        <div class="row column show-for-large text-center" id="widget-modal-body" style="display:none !important;">
+          <div class="mt mb text-left">
+              <strong>Embed</strong>
+          </div>
+          <input class="js-click-to-copy" type="text" style="font-size:1rem;" id="embed-code" readonly value="">
+          <div class="switch-contain text-left">
+              <div class="switch small">
+                  <input class="switch-input" id="widget-show-image" type="checkbox" name="widget-show-image" checked>
+                  <label class="switch-paddle" for="widget-show-image">
+                      <span class="show-for-sr"> Campaign Image</span>
+                  </label>
+              </div>
+              <label class="switch-label" for="widget-show-image">Show Campaign Image</label>
+          </div>
+          <div class="switch-contain text-left">
+              <div class="switch small">
+                  <input class="switch-input" id="widget-show-coinfo" type="checkbox" name="widget-show-coinfo" checked>
+                  <label class="switch-paddle" for="widget-show-coinfo">
+                      <span class="show-for-sr">Show Organizer Info</span>
+                  </label>
+              </div>
+              <label class="switch-label" for="widget-show-coinfo">Show Organizer Info</label>
+          </div>
+
+          <div class="widget-preview-wrapper mb50" style="height:484px;">
+            <!-- TODO: this width/height should be in CSS -Christy -->
+            <iframe id="widget-preview" src="" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
+        <div class="text-divider row mb hide-for-large">
+            <div class="dotted-line column small-5"></div>
+            <div class="text-small column small-2">or</div>
+            <div class="dotted-line column small-5 "></div>
+        </div>
+        <a class="text-msg expanded button secondary hide-for-large js-share-sms" data-gfm-analytics-element="btn_donate_sharetext" href="sms:?body=Hey%2C%20I%27m%20supporting%20this%20fundraiser%2C%20please%20have%20a%20look%20-%20%27Lisas%20fighting%20cancer%20fund%27%20https%3A%2F%2Fdm2.gofund.me%2Flisas-fighting-cancer-fund">
+            <i class="fa fa-mobile"></i>
+             Send a Text Message
+        </a>
+    </div>
+</div>
+<div class="reveal gfm-modal " data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="subscribe-updates-modal">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+        Subscribe to Updates        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+        <div class="show-for-large modal-text-med mt10 mb5">
+            <span class="js-subscribe-enter-text">Connect to Facebook to follow this campaign</span>
+            <span class="js-subscribe-success-text" style="display:none;">We will notify you of campaign updates</span>
+        </div>
+
+    </div>
+    <div class="row column large-9 text-center orbit fast mt30" data-options="autoPlay:false; accessible:false; swipe:false; animInFromRight:modal-slide-left-in; animOutToLeft:modal-slide-left-out" data-orbit="" id="js-subscribe-to-updates-orbit" role="region">
+        <ul class="orbit-container no-bullet">
+            <li class="is-active orbit-slide">
+                <div class="modal-text-lg hide-for-large mb30">Connect to Facebook to<br>follow this campaign<br></div>
+                <a class="expanded button fb-blue" data-gfm-analytics-element="btn_donate_subscribeupdatesconfirm" id="js-fb-follow-campaign">
+                    <i class="fa fa-facebook-official"></i>
+                      Follow Campaign
+                </a>
+                <a class="expanded button fb-blue is-loading hide"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+                <p></p>
+                <div class="text-small">We will never post without your permission</div>
+            </li>
+            <li class="orbit-slide js-success-panel-contain" id="done-with-facebook">
+                <div class="modal-text-lg hide-for-large mb30">We will notify you of<br>campaign updates<br></div>
+                <div class="success-check float-center">
+                    <i class="fa fa-check"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="modal-contact-organizer reveal gfm-modal " data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="contact-organizer-modal">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+
+        Contact the Organizer        <div class="modal-text-med show-for-large mt10 mb5 js-co-success-text" style="display:none;">
+            Your message has been sent!        </div>
+
+        <a aria-label="Close modal" class="close-button hide-for-large" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="callout alert email-invalid-error" style="display:none">
+
+        Your email didn't look right. Please try again.
+    </div>
+    <div class="row column large-9 orbit fast mt20 mb30" data-options="autoPlay:false; accessible:false; swipe:false; animInFromRight:modal-slide-left-in; animOutToLeft:modal-slide-left-out" data-orbit="" id="js-contact-organizer-orbit" role="region">
+        <ul class="orbit-container ml0 js-co-orbit-container">
+            <li class="is-active orbit-slide">
+                <div class="mb20">
+                    <div class="co-info">
+                        <div class="avatar-contain">
+                                                            <img class="media-round thumbnail" src="https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/16299117_10207746779099160_2993243844555675414_n.jpg?oh=d7831fc951d648b38a768002d9e43c60&oe=59316A0C" alt="">
+                                                    </div>
+                        <div class="co-details">
+                            <strong>Lisa Starsinic Gilmore</strong><br>
+                            <div class="text-small">Campaign Organizer</div>
+                                                            <div class="text-small">86 Facebook Friends</div>
+                                                        <br></div>
+                    </div>
+                </div>
+                <form class="contact-organizer-form" name="contactOrganizer">
+                    <input name="Contact[firstname]" placeholder="Your Name" type="text">
+                    <input name="Contact[email]" placeholder="Your Email" type="text">
+                    <textarea id="txt-contact-organizer-message" name="Contact[message]" placeholder="Your Message" style="height:100px; resize:none;"></textarea>
+                    <input class="client-browser autofill_browser" name="Users[browser]" type="hidden">
+                    <input class="client-os autofill_os" name="Users[os]" type="hidden">
+                    <input id="contact_type_value" name="Contact[type]" type="hidden" value="owner">
+                </form>
+                <a class="expanded button primary js-contact-organizer-send" data-gfm-analytics-element="btn_donate_contactorganizersend" tabindex="0">
+
+                    Send Message
+                </a>
+                <a class="expanded button primary is-loading hide" id="js-contact-organizer-send-loading"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+            </li>
+            <li class="modal-text-lg text-center orbit-slide js-success-panel-contain" id="done-with-contact">
+                <div class="hide-for-large mb30">Your message has been sent!</div>
+                <div class="success-check float-center">
+                    <i class="fa fa-check"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="reveal gfm-modal modal-not-accepting " id="stop-state-modal" data-reveal data-animation-in="modal-slide-in" data-animation-out="modal-slide-out">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="headline-long layer-white modal-header row column mb20">
+        <div class="hide-for-large">Donations are Complete!</div>
+        <div class="show-for-large">Lisas fighting cancer fund is no longer<br>accepting donations.</div>
+        <a class="close-button" data-close aria-label="Close modal"><i class="fa fa-times"></i></a>
+    </div>
+    <div class="row column large-11 text-center">
+        <div class="hide-for-large text-center mb20">Lisas fighting cancer fund is no longer<br>accepting donations.</div>
+
+        <div class="js-stop-state-recommended-campaigns-contain">
+        </div>
+    </div>
+</div>
+<div class="reveal gfm-modal " data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="notready-state-modal">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column mb30">
+
+        Campaign Not Ready
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="row column large-9">
+
+        There's an issue with this Campaign Organizer's account. Our team has contacted them with the solution! Please ask them to sign in to GoFundMe and check their account. <a class="expanded button primary mt30" data-close="">Return to Campaign</a>
+    </div>
+</div>
+<div class="reveal gfm-modal " data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="make-anonymous-state-modal">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+
+        Manage your Donation
+        <div class="modal-text-med show-for-large mt10 mb10">
+<span class="js-make-anonymous-enter-text">
+    Your donation is currently <strong>public</strong></span>
+<span class="js-make-anonymous-success-text" style="display:none;">
+    Your donation is currently <strong>public</strong></span>
+        </div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="callout alert anonymity-error" style="display:none">
+
+        We could not change how your donation is displayed. Please try again.
+    </div>
+    <div class="orbit fast mt30" data-options="autoPlay:false; accessible:false; swipe:false; animInFromRight:modal-slide-left-in; animOutToLeft:modal-slide-left-out" data-orbit="" id="js-manage-anonymity-orbit" role="region">
+        <ul class="row column orbit-container">
+            <li class="is-active orbit-slide text-center">
+                <div class="modal-text-lg hide-for-large">Manage your Donation</div>
+                <div class="dotted-line small-offset-3 small-6 hide-for-large mt mb"></div>
+                <div class="mb hide-for-large" id="current-status">
+                    Your donation is currently <strong>public</strong>
+                </div>
+                <a class="expanded button primary mb" data-encrypted-id="" data-gfm-analytics-element="btn_donate_changeanonymity" data-gfm-analytics-meta="anonymous" data-value="1" id="js-manage-anonymity-submit">
+
+                    Make Anonymous
+                </a>
+                <a class="expanded button secondary" data-close="">Cancel</a>
+            </li>
+            <li class="orbit-slide modal-text-lg text-center js-success-panel-contain" id="done-with-anonymity">
+                <div class="hide-for-large mb30">Your donation is now <strong>anonymous</strong></div>
+                <div class="success-check float-center">
+                    <i class="fa fa-check"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="reveal gfm-modal " data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="cancel-recurring-state-modal">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+        <div class="hide-for-large">Cancel Monthly Donation</div>
+        <div class="show-for-large">Edit Monthly Donation</div>
+        <div class="modal-text-med show-for-large mt10 mb10">
+            <span class="js-cancel-recurring-enter-text">
+
+                Your monthly donation of $0.00 is <strong>active</strong>.
+            </span>
+            <span class="js-cancel-recurring-success-text" style="display:none;">
+
+                Your monthly donation<br>of $0.00 is now canceled. <br>            </span>
+        </div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="callout alert cancel-recurring-error" style="display:none">
+
+        We could not cancel your recurring donation. Please try again.
+    </div>
+    <div class="orbit fast mt30" data-options="autoPlay:false; accessible:false; swipe:false; animInFromRight:modal-slide-left-in; animOutToLeft:modal-slide-left-out" data-orbit="" id="js-cancel-recurring-orbit" role="region">
+        <ul class="row column orbit-container">
+            <li class="is-active orbit-slide text-center">
+                <div class="modal-text-lg hide-for-large">Edit monthly donation</div>
+                <div class="dotted-line small-offset-3 small-6 hide-for-large mt mb"></div>
+                <div class="mb hide-for-large">
+
+                    Your monthly donation of $0.00 is <strong>active</strong>.
+                </div>
+                <a class="expanded button primary" data-amount="$0.00" data-gfm-analytics-element="btn_donate_recurringcancel" id="js-cancel-recurring-submit">
+
+                    Cancel Monthly Donations
+                </a>
+                <a class="expanded button secondary" data-close="" data-gfm-analytics-element="btn_donate_recurringcontinue" href="#" id="js-continue-recurring-submit">
+
+                    Continue Monthly Donations
+                </a>
+            </li>
+            <li class="orbit-slide modal-text-lg text-center js-success-panel-contain" id="done-with-cancel">
+                <div class="hide-for-large">Your monthly donation<br>of $0.00 is now canceled.<br></div>
+                <div class="success-check float-center">
+                    <i class="fa fa-check"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="reveal gfm-modal " data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-ecdid="" data-ecfid="" data-reveal="" id="edit-comment-state-modal">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+
+        Edit Comment
+        <div class="modal-text-med show-for-large">
+<span class="js-edit-comment-success-text" style="display:none;">
+<div class="modal-text-med show-for-large mt10 mb10">Your comment has been edited.</div>
+</span>
+        </div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="callout alert edit-comment-error" style="display:none">
+
+        We could not edit your comment. Please try again.
+    </div>
+    <div class="orbit fast row column large-9 mt30" data-options="autoPlay:false; accessible:false; swipe:false; animInFromRight:modal-slide-left-in; animOutToLeft:modal-slide-left-out" data-orbit="" id="js-edit-comment-orbit" role="region">
+        <ul class="orbit-container ml0">
+            <li class="is-active orbit-slide">
+                <textarea id="edit-comment-text" style="height:150px; resize:none;"></textarea>
+                <a class="expanded button primary" data-gfm-analytics-element="btn_donate_editcommentsubmit" id="js-save-comment">Edit Comment</a>
+            </li>
+            <li class="orbit-slide modal-text-lg text-center js-success-panel-contain" id="done-with-edit-comment">
+                <div class="hide-for-large mb30">Your comment has been edited.</div>
+                <div class="success-check float-center">
+                    <i class="fa fa-check"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <p></p>
+</div>
+<div class="reveal gfm-modal" id="verified-beneficiary-modal" data-reveal data-animation-in="modal-slide-in" data-animation-out="modal-slide-out">
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column mb30">
+
+        What does verified mean? <div class="modal-text-med show-for-large mt10 mb10">GoFundMe has verified that the funds raised will go directly to the intended recipient.</div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="modal-text-lg row column large-9 text-center">
+        <div class="hide-for-large mb30">GoFundMe has verified that the funds raised will go directly to the intended recipient.</div>
+        <div class="success-check float-center show-for-large mt30 mb50">
+            <i class="fa fa-check"></i>
+        </div>
+        <a aria-label="Close modal" class="expanded button primary" data-close="">Close</a>
+    </div>
+</div>
+<div class="reveal gfm-modal  share-upsell"
+     data-animation-in="modal-slide-in"
+     data-animation-out="modal-slide-out"
+     data-reveal=""
+     id="share-upsell-modal"
+     style="height: 36rem !important;">
+    <div id="upsell-main">
+        <div class="logo-header show-for-large">
+            <div class="campaign-sp campaign-sp--logo"></div>
+                        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+                    </div>
+        <div class="layer-white modal-header row column show-for-large">
+
+            Thank you for sharing.
+            <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+            <div class="modal-text-med show-for-large mt10 mb10">
+
+                Are you ready for the next step?                <br>
+                Even a <strong>$5</strong> donation can help!
+            </div>
+        </div>
+        <div class="layer-white modal-header row column hide-for-large">
+
+            Donate Now?
+            <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+            <div class="modal-text-med show-for-large mt10 mb10">
+
+                Give today to help this campaign reach this goal.
+            </div>
+        </div>
+        <div class="row column text-center large-7 mt30">
+            <div class="modal-text-lg mb20 hide-for-large">
+
+                Thank you for sharing.
+            </div>
+            <div class="text-small hide-for-large mb30">
+
+                Are you ready for the next step?                <br>
+                Even a $5 donation can help!
+            </div>
+            <div class="campaign-img-contain mb30">
+
+                <img class="campaign-img" alt="" src="https://d2g8igdw686xgo.cloudfront.net/17838468_fb_1485729796.8744_funds.jpg">
+            </div>
+            <a class="expanded button primary" data-gfm-analytics-element="btn_donate_shareupselldonate" href="https://www.gofundme.com/lisas-fighting-cancer-fund/donate/?upsell=cpgn_share" id="js-upsell-donate-btn">
+
+                Donate Now
+            </a>
+                    </div>
+    </div>
+    <div id="upsell-connect" style="display: none">
+        <div class="logo-header show-for-large">
+            <div class="campaign-sp campaign-sp--logo"></div>
+            <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+        </div>
+        <div class="layer-white modal-header row column">
+
+            Want to track your impact?
+            <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+            <div class="modal-text-med show-for-large mt10 mb10" style="margin-left: 15px; margin-right: 15px;">
+
+                Connect on Facebook to keep track of how many donations your share brings.
+            </div>
+        </div>
+
+        <div class="row column text-center mt30 mb10 hide-for-large">
+            Connect on Facebook to keep track of how many donations your share brings.        </div>
+
+        <div class="row column column-narrow text-center large-9 mt30">
+            <div class="modal-text-lg mb30 hide-for-large">
+
+            </div>
+            <div class="fb-login-button mb text-center"
+                 data-auto-logout-link="false"
+                 data-onlogin="postShareConnectCallback"
+                 data-use-continue-as="true"
+                 data-max-rows="1"
+                 data-size="large"
+                 data-show-faces="false"
+                 data-scope="email,user_friends,user_birthday"
+                 data-gfm-analytics-element="btn_post_share_connect"
+                 id="btn-post-share-connect"></div>
+
+            <a class="button expanded fb-blue is-loading hide" id="js-fb-favorite-loading"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+
+        </div>
+        <div class="row column text-center">
+            <div class="text-small mb">
+
+                We will never post on Facebook without your permission.                <br>
+            </div>
+                    </div>
+    </div>
+</div>
+
+    <div class="reveal gfm-modal gfm-modal--wide campaign-exit-modal"
+         id="exit-modal"
+         data-reveal data-animation-in="modal-slide-in"
+         data-animation-out="modal-slide-out"
+         data-gfm-analytics-viewid="ol_donate_exitmodalfb_desktop_a"
+         data-exit-modal-type="pledge"
+         data-experiment-identifier="g522-a-25,50,150">
+        <div class="top">
+            <a class="close-button" data-close aria-label="Close modal"><i class="fa fa-times"></i></a>
+        </div>
+        <h1 class="mb25 text-center">
+            <div class="line1">Pledge now, give later.</div>
+        </h1>
+        <div class="row collapse pledge-amount">
+                            <div class="column small-4">
+                    <a class="button expanded primary"
+                       data-amount="25">
+                        $25                    </a>
+                </div>
+                            <div class="column small-4">
+                    <a class="button expanded primary"
+                       data-amount="50">
+                        $50                    </a>
+                </div>
+                            <div class="column small-4">
+                    <a class="button expanded primary"
+                       data-amount="150">
+                        $150                    </a>
+                </div>
+                    </div>
+        <input type="text" name="pledgeName" placeholder="Your name..." spellcheck="true" autocomplete="true" maxlength="50">
+        <input type="email" name="pledgeEmail" placeholder="Email address..." spellcheck="false" autocomplete="false">
+        <a class="button expanded primary js-pledge-now pledge-now disabled" data-gfm-analytics-element="btn_exitmodal_pledge_desktop_a" data-rcid="82323c45442046efa2861f224d6426bb">Pledge Now</a>
+        <div>
+            You won't be charged for this pledge.  We'll let Lisa know that you have pledged support.        </div>
+        <div class="thankyou">
+            <div class="success-check">
+                <i class="fa fa-check"></i>
+            </div>
+            <div>Thank you!</div>
+        </div>
+    </div>
+
+<div class="reveal gfm-modal" data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-reveal="" id="post-share-connect">
+
+    <div class="logo-header show-for-large">
+        <div class="campaign-sp campaign-sp--logo"></div>
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+    </div>
+    <div class="layer-white modal-header row column">
+
+        Want to track your impact?
+        <a aria-label="Close modal" class="close-button" data-close=""><i class="fa fa-times"></i></a>
+        <div class="modal-text-med show-for-large mt10 mb10" style="margin-left: 15px; margin-right: 15px;">
+
+            Connect on Facebook to keep track of how many donations your share brings.
+        </div>
+    </div>
+
+    <div class="row column text-center mt30 mb10 hide-for-large">
+        Connect on Facebook to keep track of how many donations your share brings.    </div>
+
+    <div class="row column column-narrow text-center large-9 mt30">
+        <div class="modal-text-lg mb30 hide-for-large">
+
+        </div>
+        <div class="fb-login-button mb text-center"
+             data-auto-logout-link="false"
+             data-onlogin="postShareConnectCallback"
+             data-use-continue-as="true"
+             data-max-rows="1"
+             data-size="large"
+             data-show-faces="false"
+             data-scope="email,user_friends,user_birthday"
+             data-gfm-analytics-element="btn_post_share_connect"
+             id="btn-post-share-connect"></div>
+
+        <a class="button expanded fb-blue is-loading hide" id="js-fb-favorite-loading"><i class="fa fa-circle-o-notch fa-spin"></i></a>
+
+    </div>
+    <div class="row column text-center">
+        <div class="text-small mb">
+
+            We will never post on Facebook without your permission.
+
+            <br>
+        </div>
+            </div>
+</div><div class="modal--signup reveal" id="signup-card-modal" data-reveal data-animation-in="modal-slide-in" data-animation-out="modal-slide-out" data-close-on-click="false" data-close-on-esc="false">
+    <div class="row column small-9 ">
+            <h1 class="card-title">  </h1>
+            <!-- alert flash messages -->
+            <div class="callout alert row text-left js-flash-error hide">
+                <div class="small-1 column">
+                    <i class="fa fa-exclamation" aria-hidden="true"></i>
+                </div>
+                <div class="small-10 column js-custom-description">
+
+                </div>
+                <button class="close-button" aria-label="Close alert" type="button">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+                        <div class="js-fb-connect-container">
+                                <div class="row">
+                    <div class="column large-9 large-centered small-12 text-center">
+                        <a class="button fb-blue medium expanded js-use-fb" data-gfm-analytics-element="btn_sign_up_facebook" href="#">
+                            <i aria-hidden="true" class="fa fa-facebook-official"></i>
+                              Continue                        </a>
+                        <div class="button fb-blue medium expanded bt-loadingbt-loading hide">
+                            <i class="fa fa-circle-o-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="js-account-detected-container" style="display: none;">
+                <!-- Account Detected -->
+                <div class="text-center mb10">Account Detected</div>
+                <div class="text-center mb20">
+                    We're signing you in to your GoFundMe account now.                </div>
+                <div class="row mb20">
+                    <div class="column large-9 large-centered small-12 ">
+                        <div class="button medium primary expanded">
+                            <i class="fa fa-circle-o-notch fa-spin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- confirm email container !-->
+            <div class="row js-confirm-email-container" style="display: none;">
+                <div class="column large-9 large-centered small-12 ">
+                    <div class="text-center mb10">Confirm Your Email</div>
+                    <div class="mb10">This is my primary email address</div>
+                    <div class="input-with-error">
+                        <input type="text" class="mb10" value="" id="facebookEmailConfirm"/>
+                        <div class="input-error is-error js-input-error hide">
+                            <i aria-hidden="true" class="fa fa-exclamation-circle"></i>
+                            <span class="error-msg">
+                                Oops, something went wrong.                            </span>
+                        </div>
+                    </div>
+                    <div class="mb10"> Email address for <span id="facebookNameConfirm">Firstname Lastname</span>.                        <a href="#" class="link inline js-fb-logout"> Not <span id="facebookFirstName">Firstname</span>?</a></div>
+                    <!-- todo(dhuang): make sure this works for AU, CA and GB when productionize -->
+                    
+                    <a class="button button--override-theme medium expanded is_notloading js-fb-confirm-email" data-gfm-analytics-element="btn_fb_confirm_email_submit" href="#">
+                          My Email Looks Good                    </a>
+                    <div class="button button--override-theme medium expanded is_loading" style="display: none;">
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                    </div>
+                </div>
+            </div> <!-- js-confirm-email-container: end -->
+
+            <div class="row">
+                <form action="/iapi/index.php?route=edit2/postsignup" method="post" id="modal-sign-up-form" data-error="signupsubmiterror" class="js-email-signup-container column large-9 large-centered small-12" style="display:none">
+                    <!-- js-email-signup-container: start -->
+                    <!-- fingerprint hidden field -->
+                    <input type="hidden" class="gfm_idcode" name="gfm_idcode" value=""/>
+                    <input type="hidden" class="fingerprints" name="fingerprints" value=""/>
+
+                    <input type="hidden" value="2" name="version"/>
+                    <input type="hidden" value="s_d" name="flow"/>
+                    <input type="hidden" value="0" name="Funds[projecttype]"/>
+                    <input type="hidden" value="1" name="Stats[type]"/>
+                    <input type="hidden" value="0" name="Stats[statid]"/>
+                    <input type="hidden" value="" name="FBLogin[uid]"/>
+                    <input type="hidden" value="" name="FBLogin[token]"/>
+                    <input type="hidden" value="" name="FBLogin[email]" id="fbEmailOverride"/>
+                    <input type="hidden" value="1" name="confirm-signup"/>
+                                        
+                    
+                    <input type="hidden" value="" name="charity_uuid"/>
+                    
+                    
+                    <input type="hidden" value="" name="Team[id]"/>
+                                            <input type="hidden" id="currencyfield" value=""
+                               name="Organizations[currencycode]"/>
+                                        <!-- hidden fields: end -->
+
+                    <div class="word-line-break js-line-break mb20"> <span>or</span> </div>
+                    <div class="input-with-error">
+                        <input type="text" id="id_firstname" name="Users1[name]" data-gfm-analytics-element="input_first_name" placeholder="First Name">
+                        <div class="input-error is-error js-input-error hide">
+                            <i aria-hidden="true" class="fa fa-exclamation-circle"></i>
+                            <span class="error-msg">
+                                Oops, something went wrong.                            </span>
+                        </div>
+                    </div>
+
+                    <div class="input-with-error">
+                        <input type="text" id="id_lastname" name="Users1[lastname]" placeholder="Last Name" >
+                        <div class="input-error is-error js-input-error hide">
+                            <i aria-hidden="true" class="fa fa-exclamation-circle"></i>
+                                <span class="error-msg">
+                                    Oops, something went wrong.                                </span>
+                        </div>
+                    </div>
+
+                    <div class="input-with-error">
+                        <input type="email" id="id_email" name="Users[email]" data-gfm-analytics-element="input_email" placeholder="Email" >
+                        <div class="input-error is-error js-input-error hide">
+                            <i aria-hidden="true" class="fa fa-exclamation-circle"></i>
+                                <span class="error-msg">
+                                    Oops, something went wrong.                                </span>
+                        </div>
+                    </div>
+
+                    <div class="input-with-error">
+                        <input type="email" id="id_confirmemail" name="confirm-email" data-gfm-analytics-element="input_email_confirm" placeholder="Confirm Email" >
+                        <div class="input-error is-error js-input-error hide">
+                            <i aria-hidden="true" class="fa fa-exclamation-circle"></i>
+                                <span class="error-msg">
+                                    Oops, something went wrong.                                </span>
+                        </div>
+                    </div>
+
+                    <div class="input-with-error">
+                        <input type="password" class="mb10" id="id_password" name="Users[password]" data-gfm-analytics-element="input_password" placeholder="Password" >
+                        <div class="input-error is-error js-input-error hide">
+                            <i aria-hidden="true" class="fa fa-exclamation-circle"></i>
+                                <span class="error-msg">
+                                    Oops, something went wrong.                                </span>
+                        </div>
+                    </div>
+
+                    <a id="signup_next_button" href="#" class="js-signup-email-submit button button--override-theme medium expanded is_notloading" data-gfm-analytics-element="btn_sign_up_submit">Sign Up</a>
+                    <a class="button button--override-theme expanded is_loading" style="display: none;" href="#">
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                    </a>
+                    <div class="button" style="display: none;"></div>
+
+                </form>
+            </div>
+        <!-- BOTTOM LINK -->
+        <div class="bottom-link mt0 mb20 row column js-use-email-container">
+            <a class="js-email-signup " data-gfm-analytics-element="btn_sign_up_email" href="#">Use Email Address</a>
+        </div>
+
+                    <div class="row">  <!-- GFM will never post w/o permission -->
+                <div class="column large-9 large-centered small-12 terms-description">
+                    <small>
+                        GoFundMe’s fee is 5% per donation, and our payment processor’s fee is 2.9% + $0.30 per donation. GoFundMe will <strong>never</strong> post without your permission. By continuing, you agree with the GoFundMe <a href="//www.gofundme.com/terms" target="_blank" class="tm">terms</a> and <a href="//www.gofundme.com/privacy" target="_blank" class="tm"> privacy policy</a>.                    </small>
+                </div>
+            </div>
+                <div class="bbb-logo mt20"></div>
+        <div class="bottom-link row column goto-login-container">
+            <a class="js-goto-signin" data-gfm-analytics-element="btn_goto_signin" href="//www.gofundme.com/sign-in">Already have an account? Sign in.</a>
+        </div>
+    </div> <!-- .row.column -->
+</div>
+
+
+<script src="https://platform.twitter.com/widgets.js"></script>
+
+
+
+<script src="//funds.gofundme.com/js/build/gfmResponsiveCampaignPage.min.js?v=16.35"></script>
+
+
+<script type="text/javascript">
+    if (typeof(_gat) == 'object')
+    {
+        var pageTracker = _gat._getTracker("");
+
+                    pageTracker._trackPageview();
+        
+    }
+</script>
+<script type="text/javascript">
+
+    
+
+
+    var _sf_async_config={uid:10613,domain:"gofundme.com",useCanonical:true
+        ,sections:"Campaign,Medical"        ,title:"Lisas fighting cancer fund by Lisa Starsinic Gilmore  | 3715 / 25000 | BRICK, NJ"
+    };
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+
+</script>
+<!--script>
+    window.intercomSettings = {
+        app_id: "yps4hvnc"
+    };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/oqir6j0k';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script-->
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"313ceb8fb7","applicationID":"9004387","transactionName":"MQMDMBcAWRdQV0RYCQhJIhEWFVgJHlBfXwcSA04NCwVSHA==","queueTime":0,"applicationTime":97,"atts":"HUQARl8aShk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- cache-miss-v2 18th February 2017 15:46:46 -->

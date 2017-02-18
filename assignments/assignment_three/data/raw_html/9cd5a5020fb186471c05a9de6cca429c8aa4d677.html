@@ -1,0 +1,209 @@
+<html lang="nl">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+<title>Vacatures  - Laboray</title>
+<meta http-equiv="Content-Language" content="nl"/>
+<meta http-equiv="imagetoolbar" content="no"/>
+<meta name="MSSmartTagsPreventParsing" content="true"/>
+<meta name="description" content=" vacatures. Dé site met alle vacatures uit de vacaturebanken en meer dan 100.000 werkgever sites."/>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LaborayNL" />
+<meta name="twitter:title" content="Vacatures  - Laboray" />
+<meta name="twitter:description" content=" vacatures. Dé site met alle vacatures uit de vacaturebanken en meer dan 100.000 werkgever sites." />
+<meta name="twitter:image" content="http://www.laboray.nl/css/laboray.png" />
+<style type="text/css">    
+h1 {margin: 0;padding: 0;float: left;color: #0083c7;margin-top: 50px;padding-left: 120px;}
+
+ body {font-family:arial,sans-serif; font-size:small;text-align: left; margin: 10; padding: 10; color:#545454; }
+.r {margin: 15px 5px 10px 5px; }        
+a {text-decoration: none; color #1a0dab;line-height: 20px;} 
+label {line-height: 25px;}
+#sidebar-a {float: right;width: 200px;margin-top: 20px;}
+#sidebar-b {float: left;width: 200px;margin-top: 20px;}
+#headleft{float: left;width: 200px;background-repeat: no-repeat;}
+#search {margin-left: 200px;padding: 5px;}
+#content {margin-left: 200px;margin-right: 200px;}
+#page-container {width: 960px;margin: auto;text-align: left;}
+#footer {clear: both;height: 66px;font-family: Tahoma, Arial, Helvetica, Sans-serif;font-size: 10px;color: #c9c9c9;border-top: 1px solid #efefef;padding: 13px 25px;line-height: 18px;}
+#footer #copyright {padding-top: 13px;}
+#footer a {color: #c9c9c9;text-decoration: none;font-size: 10px;line-height: 12px;}
+#footer a:hover {color: #db6d16;}
+.dropbtn {-webkit-appearance: button; border: none;
+    outline: 0;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #f7f7f7;font-family: inherit;
+    text-align: left; 
+   
+    cursor: pointer;text-transform: none;overflow: visible; color: #0059a5; border-top: 1px solid #dce7ef;}
+.btnselect {width: 100%; background-color: #f7f7f7;}
+#search-more {font-size: 12px; line-height: 14px; background-color: #f7f7f7;}
+.menu_label {width: 100%; cursor: pointer; display: block; color: #001f24;}
+.menu_label:hover, label:active {background-color: #dce7ef;}
+.menucount {float:right; padding-right:10px; font-size: 11px; color:#888}
+.suggestion {line-height: 25px;}
+.submit_form {border-top: 2px solid #0059a5; background-color: #dce7ef; padding: 12px;margin-top: 4px;}
+.save:visited {color:#D3D3D3; text-decoration:none;}
+.save {text-decoration: none;}
+#next {text-decoration:bold}
+
+a:link{color:#00c;}
+a:visited{color:#551a8b;}
+a:hover {text-decoration: underline;}
+#content .padding {padding: 25px;}
+.padding {padding: 25px;}
+#content h2 {margin: 0;padding: 0;padding-bottom: 15px;}
+.countspan {color: red; font-size: 10px;}
+
+.pagenav {text-align:center; font-size:14px;}
+.suggestionline {display: block; margin-top: 0.5em;margin-bottom: 0.5em;margin-left: auto;margin-right: auto;border-style: inset;border-width: 1px;border-height: 1px;}
+.vac_company {color:#093; font-size:14px;}
+.vac_sub {color:#808080;}
+.vac_title {font-size: 18px; font-weight:normal;line-height:20px;margin:0;zoom: 1;white-space: nowrap;}
+.vac_content {line-height: 1.4; word-wrap: break-word;}
+</style>
+
+<script type="text/javascript">var timerServed = 1487457506;    
+var timerStart = Date.now();
+var timerReady = 0;
+var timerLoaded = 0;
+function getloc(){
+    if (window.location.protocol == "https:" && navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }else{
+        loadjs('/location.php?fromip=1&v=1.0&type=js&i=1757977133');
+    }
+}
+function showPosition(position){
+loadjs('/location.php?lat='+position.coords.latitude+'&lon='+position.coords.longitude+'&v=1.0&type=js');
+}
+
+function attach_suggest(check){
+    //alert('ready');
+if (typeof jQuery == 'undefined') {
+    check++;
+    if (check < 10){
+        setTimeout(function() { attach_suggest(check) }, 250*check);
+    }
+    return;
+}
+$(document).ready(function() {    
+    timerReady=Date.now();
+    //console.log("Time until DOMready: ", Date.now()-timerStart);
+     });
+ $(window).load(function() {
+    timerLoaded=Date.now();
+    //console.log("Time until everything loaded: ", Date.now()-timerStart);
+     });
+ 
+
+//var vselected=0;
+$(function() {
+$( "#vacaturesuggest" ).autocomplete(
+{
+    source:'/vacaturesuggest.php',
+    open: function (result) {
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+            $('.ui-autocomplete').off('menufocus hover mouseover');
+        }
+    },
+    //select: function (suggestion) {this.value=suggestion; vselected=1}
+    //close: function (event, ui) { SaveData(); }
+    //select: function () {document.forms[0].citysuggest.focus(); document.forms[0].citysuggest.selectionStart = document.forms[0].citysuggest.selectionEnd = document.forms[0].citysuggest.value.length;}
+})
+});
+}
+function SaveData(){
+if (document.forms[0].citysuggest.value == ''){
+    document.forms[0].citysuggest.focus();        
+}else{
+    search_submit('');
+}
+}
+attach_suggest(0);
+function search_submit(setshow){
+    if (setshow !== 'undefined' && setshow != ''){
+        document.forms[0].show.value=setshow;
+    }
+    document.forms[0].submit();
+}
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" defer></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" defer></script>
+<script src="/js/cities.js?v=3" defer></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-79747686-1', 'auto');
+  
+  ga('send', 'pageview');</script></head>
+<body class="about">
+<div style="float: right;"> <a href="https://www.laboray.nl/account-login/?next=%2F" rel="nofollow">Inloggen</a> -  <a href="https://www.laboray.nl/account-register/?next=%2F" rel="nofollow">Registreer</a>  &nbsp; </div><div id="page-container">   
+    <br/><div id="head"><div id="headleft"><a href="https://www.laboray.nl/"><img src="/css/laboray.png" width="104" height="54" alt="Laboray - Vacature zoekmachine"></a></div>                          
+
+
+</div><div style="clear:both;margin:0px;overflow:hidden"></div>	<div id="sidebar-b">
+        </div>
+
+	<div id="sidebar-a">
+                    </div>
+
+	<div id="content">
+	<div class="padding">
+    <form method="GET" action="/" id="searchform"><table border="0">    <tr><td>&nbsp;<b>Vacature / Wat:</b></td><td>&nbsp;<b>Waar:</b><span style="float: right"><a href="javascript:void(0);" onclick="getloc();" title="Huidige locatie"><img src="/css/geo.jpg" width="14" height="14" alt="Huidige locatie"></a>&nbsp; </span></td><td><b>Afstand:</b></td><td></td>
+    </tr>    
+    <tr>
+        <td><input type="search" name="vacatures" size="25" value="" id="vacaturesuggest" placeholder="functie, expertise of bedrijf" /></td>
+        <td><input type="search" name="regio" size="15" value="" id="citysuggest" placeholder="plaats of postcode"/>        
+        </td>
+        <td>
+ <select name="km" onChange="search_submit('')"><option value='5'>5 km</option><option value='10'>10 km</option><option value='15'>15 km</option><option value='20'>20 km</option><option  selected="selected"value='25'>25 km</option><option value='30'>30 km</option><option value='40'>40 km</option><option value='50'>50 km</option><option value='75'>75 km</option><option value='100'>100 km</option><option value='150'>150 km</option></select></td><td><input type="submit" value="zoeken"></td></tr><tr><td></td><td>&nbsp;<a href="javascript:getloc();"><small>huidige locatie</small></a></td><td></td></tr></table></form><script>getloc();</script><br/><div class="r"><p><b>1.521.173 vacatures, stages, freelance/interim opdrachten en vrijwilligers functies</b></p><br/>
+</div></div></div>    
+	<div id="footer">
+	<div id="copyright">
+
+	Copyright &copy; Laboray &nbsp; &nbsp;
+
+        <a href="/">Home</a> - 
+        <a href="/bladeren-regio/">Per regio</a> - <a href="/bladeren-vacatures/">Populair</a> - <a href="/bladeren-recent/">Recent</a> - <a href="/werkgevers-info/">Vacature aanmelden</a>        
+	</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+function loadjs( ) {
+for ( var i = 0; i < arguments.length; i++ ) {
+var url = arguments[i];
+(function() {
+var cl = document.getElementsByTagName("script")[0];
+var js = document.createElement("script");
+js.async = true;
+js.src = url;
+cl.parentNode.insertBefore(js, cl);
+})();
+}
+}
+function do_log(){
+    if (timerStart > 0 && timerLoaded > timerStart){
+        var timeloaded=timerLoaded-timerStart;
+    }else{
+        var timeloaded=0;
+    }
+    if (timerStart > 0 && timerReady > timerStart){
+        var timeready=timerReady-timerStart;
+    }else{
+        var timeready=0;
+    }
+    if (timerStart > 0){
+        timerStart=Math.round(timerStart/1000)-1454281200; //-145428120 1454281200000
+    }
+    var logurl='/log.php?resultcount=-1&groupcount=0&qtime=-1&km=25&datum=0&loaded=33176306&nu=1&pagestart='+timerStart+'&tready='+timeready+'&tloaded='+timeloaded;
+    loadjs(logurl);
+}
+setTimeout(function() { do_log() }, 3000);</script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css"/>
+</body>
+</html>
+

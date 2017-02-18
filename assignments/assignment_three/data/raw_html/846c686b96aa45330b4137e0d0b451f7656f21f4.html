@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+			
+		<link rel="pingback" href="https://www.proxyserver.com/xmlrpc.php" />
+		<!--[if lt IE 9]>
+	<script src="https://www.proxyserver.com/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+<link rel="alternate" href="https://www.proxyserver.com" hreflang="x-default" />
+	<title>Free Proxy &amp; Proxy Server Pro - ProxyServer.com</title>
+
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=257888,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+<!-- This site is optimized with the Yoast SEO plugin v4.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Proxy Server securely unblocks the websites you need. Use our free proxy or download Proxy Server Pro to unblock over 99% of all sites at ProxyServer.com."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.proxyserver.com/" />
+<link rel="publisher" href="https://plus.google.com/+Proxyservercom"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Free Proxy &amp; Proxy Server Pro - ProxyServer.com" />
+<meta property="og:description" content="Proxy Server securely unblocks the websites you need. Use our free proxy or download Proxy Server Pro to unblock over 99% of all sites at ProxyServer.com." />
+<meta property="og:url" content="https://www.proxyserver.com/" />
+<meta property="og:site_name" content="Free Proxy &amp; Proxy Server Pro - ProxyServer.com" />
+<meta property="fb:app_id" content="947412805283195" />
+<meta property="og:image" content="https://wp.proxyserver.com/2016/11/10224155/proxyserver_logo_white_ogimage.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Proxy Server securely unblocks the websites you need. Use our free proxy or download Proxy Server Pro to unblock over 99% of all sites at ProxyServer.com." />
+<meta name="twitter:title" content="Free Proxy &amp; Proxy Server Pro - ProxyServer.com" />
+<meta name="twitter:site" content="@proxyservervpn" />
+<meta name="twitter:image" content="https://wp.proxyserver.com/2016/11/04143315/michael_gargiulo_ceo-150x150.jpg" />
+<meta name="twitter:creator" content="@proxyservervpn" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.proxyserver.com\/","name":"Free Proxy &amp; Proxy Server Pro - ProxyServer.com","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.proxyserver.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.proxyserver.com\/","sameAs":["https:\/\/www.facebook.com\/proxyservers\/","https:\/\/www.linkedin.com\/company\/proxyserver.com","https:\/\/plus.google.com\/+Proxyservercom","http:\/\/www.youtube.com\/c\/Proxyservercom","https:\/\/twitter.com\/proxyservervpn"],"@id":"#organization","name":"Proxy Server","logo":"https:\/\/wp.proxyserver.com\/2016\/11\/10224155\/proxyserver_logo_white_ogimage.jpg"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Free Proxy &amp; Proxy Server Pro - ProxyServer.com &raquo; Feed" href="https://www.proxyserver.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Free Proxy &amp; Proxy Server Pro - ProxyServer.com &raquo; Comments Feed" href="https://www.proxyserver.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.proxyserver.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<meta content="Proxy Server v.1.2" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-weglot-css-css'  href='https://www.proxyserver.com/wp-content/plugins/weglot/resources/wp-weglot-css.css' type='text/css' media='' />
+<link rel='stylesheet' id='custom-404-pro-css'  href='https://www.proxyserver.com/wp-content/plugins/custom-404-pro/public/css/custom-404-pro-public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-lato-css'  href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='https://www.proxyserver.com/wp-content/themes/ProxyServer/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='https://www.proxyserver.com/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-responsive-css-css'  href='https://www.proxyserver.com/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/styles/magnific_popup.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/plugins/weglot/resources/wp-weglot-js.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/plugins/custom-404-pro/public/js/custom-404-pro-public.js'></script>
+<link rel='https://api.w.org/' href='https://www.proxyserver.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.proxyserver.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.proxyserver.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="alternate" type="application/json+oembed" href="https://www.proxyserver.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.proxyserver.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.proxyserver.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.proxyserver.com%2F&#038;format=xml" />
+
+<script>
+var _prum = [['id', '57f7d6ad3bb60421d4210329'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+</script>
+
+<link rel="alternate" hreflang="en" href="https://www.proxyserver.com/" />
+<link rel="alternate" hreflang="es" href="https://www.proxyserver.com/es/" />
+<link rel="alternate" hreflang="fr" href="https://www.proxyserver.com/fr/" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />		<style id="theme-customizer-css">
+							body { color: #333333; }
+								h1, h2, h3, h4, h5, h6 { color: #2483c4; }
+										.woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce-message, .woocommerce-error, .woocommerce-info { background: #2483c4 !important; }
+			#et_search_icon:hover, .mobile_menu_bar:before, .mobile_menu_bar:after, .et_toggle_slide_menu:after, .et-social-icon a:hover, .et_pb_sum, .et_pb_pricing li a, .et_pb_pricing_table_button, .et_overlay:before, .entry-summary p.price ins, .woocommerce div.product span.price, .woocommerce-page div.product span.price, .woocommerce #content div.product span.price, .woocommerce-page #content div.product span.price, .woocommerce div.product p.price, .woocommerce-page div.product p.price, .woocommerce #content div.product p.price, .woocommerce-page #content div.product p.price, .et_pb_member_social_links a:hover, .woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before, .et_pb_widget li a:hover, .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active, .et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active, .et_pb_gallery .et_pb_gallery_pagination ul li a.active, .wp-pagenavi span.current, .wp-pagenavi a:hover, .nav-single a, .posted_in a { color: #2483c4; }
+			.et_pb_contact_submit, .et_password_protected_form .et_submit_button, .et_pb_bg_layout_light .et_pb_newsletter_button, .comment-reply-link, .form-submit .et_pb_button, .et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button { color: #2483c4; }
+			.footer-widget h4 { color: #2483c4; }
+			.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, .et_pb_pricing li:before, blockquote { border-color: #2483c4; }
+			.et_pb_counter_amount, .et_pb_featured_table .et_pb_pricing_heading, .et_quote_content, .et_link_content, .et_audio_content, .et_pb_post_slider.et_pb_bg_layout_dark, .et_slide_in_menu_container { background-color: #2483c4; }
+									a { color: #2483c4; }
+													#top-header, #et-secondary-nav li ul { background-color: #2483c4; }
+													.et_header_style_centered .mobile_nav .select_page, .et_header_style_split .mobile_nav .select_page, .et_nav_text_color_light #top-menu > li > a, .et_nav_text_color_dark #top-menu > li > a, #top-menu a, .et_mobile_menu li a, .et_nav_text_color_light .et_mobile_menu li a, .et_nav_text_color_dark .et_mobile_menu li a, #et_search_icon:before, .et_search_form_container input, span.et_close_search_field:after, #et-top-navigation .et-cart-info { color: #333333; }
+			.et_search_form_container input::-moz-placeholder { color: #333333; }
+			.et_search_form_container input::-webkit-input-placeholder { color: #333333; }
+			.et_search_form_container input:-ms-input-placeholder { color: #333333; }
+											#top-menu li a { font-size: 16px; }
+			body.et_vertical_nav .container.et_search_form_container .et-search-form input { font-size: 16px !important; }
+		
+		
+					#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a,
+			.et_color_scheme_red #top-menu li.current-menu-ancestor > a, .et_color_scheme_red #top-menu li.current-menu-item > a,
+			.et_color_scheme_pink #top-menu li.current-menu-ancestor > a, .et_color_scheme_pink #top-menu li.current-menu-item > a,
+			.et_color_scheme_orange #top-menu li.current-menu-ancestor > a, .et_color_scheme_orange #top-menu li.current-menu-item > a,
+			.et_color_scheme_green #top-menu li.current-menu-ancestor > a, .et_color_scheme_green #top-menu li.current-menu-item > a { color: #2483c4; }
+							#main-footer { background-color: #2483c4; }
+											#main-footer .footer-widget h4 { color: #2483c4; }
+							.footer-widget li:before { border-color: #2483c4; }
+						#et-footer-nav { background-color: #2483c4; }.bottom-nav, .bottom-nav a, .bottom-nav li.current-menu-item a { color: rgba(255,255,255,0.5); }#et-footer-nav .bottom-nav li.current-menu-item a { color: #ffffff; }.bottom-nav, .bottom-nav a { font-size: 16px ; }#footer-bottom { background-color: #2483c4; }#footer-info, #footer-info a { color: rgba(255,255,255,0.5); }#footer-bottom .et-social-icon a { color: rgba(255,255,255,0.5); }									body .et_pb_button,
+			.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt,
+			.woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce-message a.button.wc-forward
+			{
+									 font-size: 18px;
+													background: #2483c4;
+																	border-color: #2483c4;
+													border-radius: 4px;
+															}
+			body.et_pb_button_helper_class .et_pb_button,
+			.woocommerce.et_pb_button_helper_class a.button.alt, .woocommerce-page.et_pb_button_helper_class a.button.alt, .woocommerce.et_pb_button_helper_class button.button.alt, .woocommerce-page.et_pb_button_helper_class button.button.alt, .woocommerce.et_pb_button_helper_class input.button.alt, .woocommerce-page.et_pb_button_helper_class input.button.alt, .woocommerce.et_pb_button_helper_class #respond input#submit.alt, .woocommerce-page.et_pb_button_helper_class #respond input#submit.alt, .woocommerce.et_pb_button_helper_class #content input.button.alt, .woocommerce-page.et_pb_button_helper_class #content input.button.alt,
+			.woocommerce.et_pb_button_helper_class a.button, .woocommerce-page.et_pb_button_helper_class a.button, .woocommerce.et_pb_button_helper_class button.button, .woocommerce-page.et_pb_button_helper_class button.button, .woocommerce.et_pb_button_helper_class input.button, .woocommerce-page.et_pb_button_helper_class input.button, .woocommerce.et_pb_button_helper_class #respond input#submit, .woocommerce-page.et_pb_button_helper_class #respond input#submit, .woocommerce.et_pb_button_helper_class #content input.button, .woocommerce-page.et_pb_button_helper_class #content input.button {
+							}
+							body .et_pb_button:after,
+			.woocommerce a.button.alt:after, .woocommerce-page a.button.alt:after, .woocommerce button.button.alt:after, .woocommerce-page button.button.alt:after, .woocommerce input.button.alt:after, .woocommerce-page input.button.alt:after, .woocommerce #respond input#submit.alt:after, .woocommerce-page #respond input#submit.alt:after, .woocommerce #content input.button.alt:after, .woocommerce-page #content input.button.alt:after,
+			.woocommerce a.button:after, .woocommerce-page a.button:after, .woocommerce button.button:after, .woocommerce-page button.button:after, .woocommerce input.button:after, .woocommerce-page input.button:after, .woocommerce #respond input#submit:after, .woocommerce-page #respond input#submit:after, .woocommerce #content input.button:after, .woocommerce-page #content input.button:after
+			{
+									font-size: 28.8px;
+											}
+							body .et_pb_button:hover,
+			.woocommerce a.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page #content input.button.alt:hover,
+			.woocommerce a.button:hover, .woocommerce-page a.button:hover, .woocommerce button.button:hover, .woocommerce-page button.button:hover, .woocommerce input.button:hover, .woocommerce-page input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce-page #respond input#submit:hover, .woocommerce #content input.button:hover, .woocommerce-page #content input.button:hover
+			{
+									 color: #0075c4 !important;
+																	border-color: #333333 !important;
+													border-radius: 4px;
+											}
+		
+						h1, h2, h3, h4, h5, h6, .et_quote_content blockquote p, .et_pb_slide_description .et_pb_slide_title {
+											font-weight: bold; font-style: normal; text-transform: none; text-decoration: none; 										
+									}
+		
+																														
+		@media only screen and ( min-width: 981px ) {
+																				h1 { font-size: 40px; }
+					h2, .product .related h2, .et_pb_column_1_2 .et_quote_content blockquote p { font-size: 34px; }
+					h3 { font-size: 29px; }
+					h4, .et_pb_circle_counter h3, .et_pb_number_counter h3, .et_pb_column_1_3 .et_pb_post h2, .et_pb_column_1_4 .et_pb_post h2, .et_pb_blog_grid h2, .et_pb_column_1_3 .et_quote_content blockquote p, .et_pb_column_3_8 .et_quote_content blockquote p, .et_pb_column_1_4 .et_quote_content blockquote p, .et_pb_blog_grid .et_quote_content blockquote p, .et_pb_column_1_3 .et_link_content h2, .et_pb_column_3_8 .et_link_content h2, .et_pb_column_1_4 .et_link_content h2, .et_pb_blog_grid .et_link_content h2, .et_pb_column_1_3 .et_audio_content h2, .et_pb_column_3_8 .et_audio_content h2, .et_pb_column_1_4 .et_audio_content h2, .et_pb_blog_grid .et_audio_content h2, .et_pb_column_3_8 .et_pb_audio_module_content h2, .et_pb_column_1_3 .et_pb_audio_module_content h2, .et_pb_gallery_grid .et_pb_gallery_item h3, .et_pb_portfolio_grid .et_pb_portfolio_item h2, .et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2 { font-size: 24px; }
+					h5 { font-size: 21px; }
+					h6 { font-size: 18px; }
+					.et_pb_slide_description .et_pb_slide_title { font-size: 61px; }
+					.woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3, .et_pb_gallery_grid .et_pb_gallery_item h3, .et_pb_portfolio_grid .et_pb_portfolio_item h2, .et_pb_filterable_portfolio_grid .et_pb_portfolio_item h2, .et_pb_column_1_4 .et_pb_audio_module_content h2 { font-size: 21px; }
+																	.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation  { padding: 23px 0 0 0; }
+				.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a { padding-bottom: 23px; }
+				.et_header_style_split .centered-inline-logo-wrap { width: 45px; margin: -45px 0; }
+				.et_header_style_split .centered-inline-logo-wrap #logo { max-height: 45px; }
+				.et_pb_svg_logo.et_header_style_split .centered-inline-logo-wrap #logo { height: 45px; }
+				.et_header_style_centered #top-menu > li > a { padding-bottom: 8px; }
+				.et_header_style_slide #et-top-navigation, .et_header_style_fullscreen #et-top-navigation { padding: 14px 0 14px 0 !important; }
+									.et_header_style_centered #main-header .logo_container { height: 45px; }
+														#logo { max-height: 60%; }
+				.et_pb_svg_logo #logo { height: 60%; }
+																			.et_header_style_centered.et_hide_primary_logo #main-header:not(.et-fixed-header) .logo_container, .et_header_style_centered.et_hide_fixed_logo #main-header.et-fixed-header .logo_container { height: 8.1px; }
+																.et-fixed-header#top-header, .et-fixed-header#top-header #et-secondary-nav li ul { background-color: #2483c4; }
+													.et-fixed-header #top-menu li a { font-size: 16px; }
+										.et-fixed-header #top-menu a, .et-fixed-header #et_search_icon:before, .et-fixed-header #et_top_search .et-search-form input, .et-fixed-header .et_search_form_container input, .et-fixed-header .et_close_search_field:after, .et-fixed-header #et-top-navigation .et-cart-info { color: #333333 !important; }
+				.et-fixed-header .et_search_form_container input::-moz-placeholder { color: #333333 !important; }
+				.et-fixed-header .et_search_form_container input::-webkit-input-placeholder { color: #333333 !important; }
+				.et-fixed-header .et_search_form_container input:-ms-input-placeholder { color: #333333 !important; }
+										.et-fixed-header #top-menu li.current-menu-ancestor > a,
+				.et-fixed-header #top-menu li.current-menu-item > a { color: #2483c4 !important; }
+						
+					}
+					@media only screen and ( min-width: 1350px) {
+				.et_pb_row { padding: 27px 0; }
+				.et_pb_section { padding: 54px 0; }
+				.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper { padding-top: 81px; }
+				.et_pb_section.et_pb_section_first { padding-top: inherit; }
+				.et_pb_fullwidth_section { padding: 0; }
+			}
+		
+		@media only screen and ( max-width: 980px ) {
+																				}
+		@media only screen and ( max-width: 767px ) {
+													.et_pb_section { padding: 30px 0; }
+				.et_pb_section.et_pb_section_first { padding-top: inherit; }
+				.et_pb_section.et_pb_fullwidth_section { padding: 0; }
+								}
+	</style>
+
+	
+					<style class="et_heading_font">
+				h1, h2, h3, h4, h5, h6 {
+					font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;				}
+				</style>
+							<style class="et_body_font">
+				body, input, textarea, select {
+					font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;				}
+				</style>
+							<style class="et_all_buttons_font">
+				.et_pb_button {
+					font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;				}
+				</style>
+							<style class="et_primary_nav_font">
+				#main-header,
+				#et-top-navigation {
+					font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;				}
+				</style>
+			
+	
+	<style id="module-customizer-css">
+		.et_pb_pricing_heading h2 { font-size: 20px; }
+.et_pb_pricing_heading h2 { font-weight: bold; font-style: normal; text-transform: none; text-decoration: none;  }
+	</style>
+
+	<link rel="shortcut icon" href="https://wp.proxyserver.com/wp-content/uploads/2016/06/22142738/cropped-proxy_fav.png" /><link rel="icon" href="https://wp.proxyserver.com/wp-content/uploads/2016/06/22142738/cropped-proxy_fav-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://wp.proxyserver.com/wp-content/uploads/2016/06/22142738/cropped-proxy_fav-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://wp.proxyserver.com/wp-content/uploads/2016/06/22142738/cropped-proxy_fav-180x180.png" />
+<meta name="msapplication-TileImage" content="https://wp.proxyserver.com/wp-content/uploads/2016/06/22142738/cropped-proxy_fav-270x270.png" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7NSHQ');</script>
+<script type="text/javascript">
+//Temporary ChargeBee dataLayer handoff
+	jQuery(function($){
+		"use strict";
+		var ctaButtonClass = $('.cta_button, .et_pb_pricing_table_button');
+		if(ctaButtonClass.length) {
+		ctaButtonClass.click( function() {
+		var ctaButtonHref = this.getAttribute('href');
+			if (ctaButtonHref.indexOf('?plan=') )	{
+				var planId = ctaButtonHref.split('?plan=')[1];
+			if (planId='5year-v4') {var planPrice ='249', planCat='VPN/5 Year', planQty='1'}
+			else if (planId='3year-v4') {var planPrice ='200', planCat='VPN/3 Year', planQty='1'}
+			else if (planId='1year-v4') {var planPrice ='100', planCat='VPN/1 Year', planQty='1'}
+			else {
+				//Throw an exception if we can't match
+				if (planId = '') {
+			  throw 'No plan data';
+					}
+				else {
+					throw 'Unmatched Plan Id:' + planId;
+				}
+			}
+		window.dataLayer = window.dataLayer || [];
+		window.dataLayer.push({
+	  'event' : 'addToCart',
+	  'ecommerce': { 
+		'add': {
+		  'products': [{ 
+			'name' : planId,
+			'price' : planPrice,
+			'category' : planCat,
+			'quantity' : planQty 
+		  }] 
+	   } 
+	}
+	});
+	
+		}//endif
+		});
+		}//endif
+					  
+		
+	});
+	
+	</script>
+</head>
+	
+<body class="home page-template-default page page-id-440 et_pb_button_helper_class et_fullwidth_nav et_non_fixed_nav et_show_nav et_cover_background et_pb_gutter linux et_pb_gutters3 et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_left et_pb_pagebuilder_layout et_right_sidebar et_divi_theme unknown">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N7NSHQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+	<div id="page-container">
+
+	
+	
+		<header id="main-header" data-height-onload="45">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://www.proxyserver.com/">
+						<img src="https://wp.proxyserver.com/2016/10/27141444/proxy_server_logo.png" alt="Free Proxy &amp; Proxy Server Pro - ProxyServer.com" id="logo" data-height-percentage="60" />
+					</a>
+				</div>
+				<div id="et-top-navigation" data-height="45" data-fixed-height="40">
+					                        
+
+						<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-5245" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5245"><a href="https://www.proxyserver.com/#product">Product</a></li>
+<li id="menu-item-6107" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6107"><a href="https://www.proxyserver.com/#pricing">Pricing</a></li>
+<li id="menu-item-5243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5243"><a href="https://www.proxyserver.com/download/">Download</a></li>
+<li id="menu-item-3795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3795"><a href="https://clients.proxyserver.com">Login</a></li>
+<li id="menu-item-4444" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4444"><a href="https://clients.proxyserver.com/signup">Sign Up</a></li>
+</ul>						</nav>
+					
+					
+					
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://www.proxyserver.com/">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header> <!-- #main-header -->
+
+		<div id="et-main-area">
+
+<div id="main-content">
+
+
+			
+				<article id="post-440" class="post-440 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et_pb_section et_pb_fullwidth_section homepage_block et_pb_section_0 et_section_regular">
+				
+				
+					
+					<div id="hero_home" class="et_pb_module et_pb_slider et_pb_slider_no_arrows et_pb_slider_no_pagination et_pb_slider_no_shadow  et_pb_fullwidth_slider_0">
+				<div class="et_pb_slides">
+					
+<div class="et_pb_slide et_pb_bg_layout_dark et_pb_slider_with_overlay et_pb_media_alignment_center et_pb_slide_0 et-pb-active-slide" style='background-color:#2483c4;background-image:url(https://wp.proxyserver.com/2015/10/12185806/hero_home.jpg);'>
+				
+				<div class="et_pb_slide_overlay_container"></div>
+				<div class="et_pb_container clearfix">
+					
+					<div class="et_pb_slide_description">
+						<h1 class="et_pb_slide_title">Unblock any site or video, privately.</h1>
+						<div class="et_pb_slide_content">
+<h2>Proxy Server Pro unblocks more sites than a free proxy.</h2>
+<p><a href="https://clients.proxyserver.com/signup?plan=5year-v4" class="et_pb_button et_pb_more_button cta_button">Sign Up</a></p>
+<form method="post" action="//newyork.proxyserver.com/index.php" class="forward_proxy_url"><input placeholder="Enter URL or search to browse in proxy" id="exampleInputAmount" name="url" type="text"><input value="U" name="Go" type="submit"></form>
+</div>
+						
+					</div> <!-- .et_pb_slide_description -->
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
+			
+
+				</div> <!-- .et_pb_slides -->
+			</div> <!-- .et_pb_slider -->
+			
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section landingpage_block et_pb_section_2 et_section_regular">
+				
+				
+					
+					<div class=" et_pb_row et_pb_row_0">
+				
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_0">
+				
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_0">
+				
+
+<a name="product"></a>
+<h2>Why Go Pro?</h2>
+<p>See why over 10,000 users have made the switch to Proxy Server Pro.</p>
+
+
+			</div> <!-- .et_pb_text --><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center compare_package clear et_pb_text_1">
+				
+
+<a href="https://clients.proxyserver.com" class="table_link">
+<ul>
+<li>&nbsp;</li>
+<li><span>Unblock Any Site</span></li>
+<li><span>Unblock Any Video</span></li>
+<li><span>Change Your IP</span></li>
+<li><span>VPN</span></li>
+<li><span>No Broken Pages</span></li>
+<li><span>Encrypted Connection</span></li>
+<li><span>Browsing Locations</span></li>
+<li><span>Browser Tabs</span></li>
+<li><span>Speed</span></li>
+</ul>
+<ul>
+<li><h3><span>Proxy Server</span> Pro</h3></li>
+<li><div class="check">N</div></li>
+<li><div class="check">N</div></li>
+<li><div class="check">N</div></li>
+<li><div class="check">N</div></li>
+<li><div class="check">N</div></li>
+<li><div class="check">N</div></li>
+<li><span>25+</span></li>
+<li><span>Unlimited</span></li>
+<li><span>1 GBPS+</span></li>
+</ul>
+<ul>
+<li><h3>Free <span>Proxy</span></h3></li>
+<li><div class="nix">M</div><span class="ast">*</span></li>
+<li><div class="nix">M</div><span class="ast">*</span></li>
+<li><div class="check">N</div></li>
+<li><div class="nix">M</div></li>
+<li><div class="nix">M</div></li>
+<li><div class="nix">M</div></li>
+<li><span>1</span></li>
+<li><span>1</span></li>
+<li><span>100 MBPS</span></li>
+</ul>
+<p><span>* Unblocks some sites and videos</span></p>
+</a>
+
+
+			</div> <!-- .et_pb_text --><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_2">
+				
+
+<p><a href="https://clients.proxyserver.com/signup?plan=5year-v4" class="et_pb_button et_pb_more_button cta_button">Sign Up</a></p>
+
+
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+					
+			</div> <!-- .et_pb_row --><div class=" et_pb_row et_pb_row_1">
+				
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_1">
+				
+				<div class="et_pb_module et_pb_space et_pb_divider et_pb_divider_0 et_pb_divider_position_center"></div><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_3">
+				
+
+<h2>Never Use a Free Proxy Again</h2>
+<p>Browse from 25+ locations. Connect in 1 click.</p>
+
+
+			</div> <!-- .et_pb_text --><div class="et_pb_module et-waypoint et_pb_image et_pb_animation_off et_pb_image_0 et_always_center_on_mobile">
+				<img src="https://wp.proxyserver.com/2016/11/23174407/Windows.gif" alt="" />
+			
+			</div><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center try_proxy et_pb_text_4">
+				
+
+<p>Ready to try?</p>
+<a href="https://clients.proxyserver.com/signup?plan=5year-v4" class="et_pb_button et_pb_more_button cta_button">Sign Up</a>
+
+
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+					
+			</div> <!-- .et_pb_row --><div class=" et_pb_row et_pb_row_2">
+				
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_2">
+				
+				<div class="et_pb_module et_pb_space et_pb_divider clear et_pb_divider_1 et_pb_divider_position_center"></div><div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_5">
+				
+
+<h2>Simple Pricing</h2>
+<p>All plans come with a 7 Day Money Back Guarantee.</p>
+<a name="pricing"></a>
+
+
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_pricing clearfix et_pb_pricing_3 proxy_pricing clear et_pb_pricing_tables_0 et_pb_centered_pricing_items">
+				
+
+<div class="et_pb_pricing_table et_pb_pricing_table_0">
+				<div class="et_pb_pricing_heading">
+					<h2 class="et_pb_pricing_title">5 Years</h2>
+					
+				</div> <!-- .et_pb_pricing_heading -->
+				<div class="et_pb_pricing_content_top">
+					<span class="et_pb_et_price"><span class="et_pb_dollar_sign">$</span><span class="et_pb_sum">4.15</span><span class="et_pb_frequency">/mo</span></span>
+				</div> <!-- .et_pb_pricing_content_top -->
+				<div class="et_pb_pricing_content">
+					<ul class="et_pb_pricing">
+						<li><span><u>$249 for 5 years</u></span></li><li><span>Unblock Any Site or Video</span></li><li><span>Change Your IP &amp; Location</span></li><li><span>100% Encrypted Connection</span></li>
+					</ul>
+				</div> <!-- .et_pb_pricing_content -->
+				<a class="et_pb_pricing_table_button et_pb_button" href="https://clients.proxyserver.com/signup?plan=5year-v4">Sign Up</a>
+			</div><div class="et_pb_pricing_table et_pb_pricing_table_1">
+				<div class="et_pb_pricing_heading">
+					<h2 class="et_pb_pricing_title">3 Years</h2>
+					
+				</div> <!-- .et_pb_pricing_heading -->
+				<div class="et_pb_pricing_content_top">
+					<span class="et_pb_et_price"><span class="et_pb_dollar_sign">$</span><span class="et_pb_sum">5.55</span><span class="et_pb_frequency">/mo</span></span>
+				</div> <!-- .et_pb_pricing_content_top -->
+				<div class="et_pb_pricing_content">
+					<ul class="et_pb_pricing">
+						<li><span><u>$200 for 3 years</u></span></li><li><span>Unblock Any Site or Video</span></li><li><span>Change Your IP &amp; Location</span></li><li><span>100% Encrypted Connection</span></li>
+					</ul>
+				</div> <!-- .et_pb_pricing_content -->
+				<a class="et_pb_pricing_table_button et_pb_button" href="https://clients.proxyserver.com/signup?plan=3year-v4">Sign Up</a>
+			</div><div class="et_pb_pricing_table et_pb_pricing_table_2">
+				<div class="et_pb_pricing_heading">
+					<h2 class="et_pb_pricing_title">1 Year</h2>
+					
+				</div> <!-- .et_pb_pricing_heading -->
+				<div class="et_pb_pricing_content_top">
+					<span class="et_pb_et_price"><span class="et_pb_dollar_sign">$</span><span class="et_pb_sum">8.33</span><span class="et_pb_frequency">/mo</span></span>
+				</div> <!-- .et_pb_pricing_content_top -->
+				<div class="et_pb_pricing_content">
+					<ul class="et_pb_pricing">
+						<li><span><u>$99 for 1 year</u></span></li><li><span>Unblock Any Site or Video</span></li><li><span>Change Your IP &amp; Location</span></li><li><span>100% Encrypted Connection</span></li>
+					</ul>
+				</div> <!-- .et_pb_pricing_content -->
+				<a class="et_pb_pricing_table_button et_pb_button" href="https://clients.proxyserver.com/signup?plan=1year-v4">Sign Up</a>
+			</div>
+
+
+			</div>
+			</div> <!-- .et_pb_column -->
+					
+			</div> <!-- .et_pb_row -->
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section homepage_block et_pb_section_3 et_pb_with_background et_section_regular">
+				
+				
+					
+					<div class=" et_pb_row et_pb_row_3">
+				
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_3">
+				
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_6">
+				
+<h2>Thoughts from Our Founder &amp; CEO</h2>
+
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+					
+			</div> <!-- .et_pb_row --><div class=" et_pb_row et_pb_row_4 et_pb_row_fullwidth">
+				
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_4">
+				
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left ceo_letter et_pb_text_7">
+				
+<p>Hello there! </p>
+<p>Thank you for visiting our site and taking the time to read my note to you. My name is Michael Gargiulo and I am the CEO of Proxy Server. </p>
+<p>In 2007, I was constantly using free proxy servers to access blocked sites like MySpace and Facebook at school. Eventually, I got fed up with searching for the best free proxy servers, so I started building my own proxies for fun and for my friends.</p>
+<p>In 2012, I rounded up my savings and purchased ProxyServer.com for $9,700 USD.  My dream was to build the best proxy server on the web because I was tired of the ads, slow speeds, blocked sites and broken pages most proxies have.</p>
+<p>In just three years, Proxy Server has served over 9,000,000 visitors from more than 170 countries. Needless to say, we’ve been humbled at how many individuals we’ve helped access free, fast, open, and secure internet around the world.</p>
+<p>In 2015, we released our best product yet, Proxy Server Pro for Windows and Mac computers. Proxy Server Pro gives you the fastest speeds we offer, access to any site online, and most importantly, security on every Wi-Fi in the world. With just one click, Proxy Server Pro encrypts and secures all of your data so you don’t have to worry about using public Wi-Fi ever again.</p>
+<p>All of us at Proxy Server strive to give you the most fast, secure and personal experience possible. Whether it’s using our site, desktop application, or mobile app (coming in 2017), all of us have worked hard to make it easy for you to quickly and safely access any website, no matter where you are. </p>
+<p>Finally, I would love to hear any feedback, suggestions, or comments you have as continue to make it possible to explore our world online more quickly, freely, and securely. Without users like you, none of this would be possible. Feel free to drop us a line with your thoughts at <a href="mailto:support@proxyserver.com">support@proxyserver.com</a> and I will get back to you as soon as I can!</p>
+<p>Thank you,</p>
+<blockquote class="ceosig"><p><img src="https://wp.proxyserver.com/2016/11/04143315/michael_gargiulo_ceo-150x150.jpg" alt="" width="70" height="70" class="alignleft size-thumbnail"></p>
+<div class="job-info"><strong>Michael Gargiulo</strong><br /><em>CEO at Proxy Server</em></div>
+</blockquote>
+
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+					
+			</div> <!-- .et_pb_row -->
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section homepage_block et_pb_section_4 et_section_regular">
+				
+				
+					
+					<div class=" et_pb_row et_pb_row_6">
+				
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_5">
+				
+				<div class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_center  et_pb_text_8">
+				
+
+<h2>Simple Pricing</h2>
+<p>All plans come with a 7 Day Money Back Guarantee.</p>
+
+
+			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_pricing clearfix et_pb_pricing_3 proxy_pricing clear et_pb_pricing_tables_1 et_pb_centered_pricing_items">
+				
+
+<div class="et_pb_pricing_table et_pb_pricing_table_3">
+				<div class="et_pb_pricing_heading">
+					<h2 class="et_pb_pricing_title">5 Years</h2>
+					
+				</div> <!-- .et_pb_pricing_heading -->
+				<div class="et_pb_pricing_content_top">
+					<span class="et_pb_et_price"><span class="et_pb_dollar_sign">$</span><span class="et_pb_sum">4.15</span><span class="et_pb_frequency">/mo</span></span>
+				</div> <!-- .et_pb_pricing_content_top -->
+				<div class="et_pb_pricing_content">
+					<ul class="et_pb_pricing">
+						<li><span><u>$249 for 5 years</u></span></li><li><span>Unblock Any Site or Video</span></li><li><span>Change Your IP &amp; Location</span></li><li><span>100% Encrypted Connection</span></li>
+					</ul>
+				</div> <!-- .et_pb_pricing_content -->
+				<a class="et_pb_pricing_table_button et_pb_button" href="https://clients.proxyserver.com/signup?plan=5year-v4">Sign Up</a>
+			</div><div class="et_pb_pricing_table et_pb_pricing_table_4">
+				<div class="et_pb_pricing_heading">
+					<h2 class="et_pb_pricing_title">3 Years</h2>
+					
+				</div> <!-- .et_pb_pricing_heading -->
+				<div class="et_pb_pricing_content_top">
+					<span class="et_pb_et_price"><span class="et_pb_dollar_sign">$</span><span class="et_pb_sum">5.55</span><span class="et_pb_frequency">/mo</span></span>
+				</div> <!-- .et_pb_pricing_content_top -->
+				<div class="et_pb_pricing_content">
+					<ul class="et_pb_pricing">
+						<li><span><u>$200 for 3 Years</u></span></li><li><span>Unblock Any Site or Video</span></li><li><span>Change Your IP &amp; Location</span></li><li><span>100% Encrypted Connection</span></li>
+					</ul>
+				</div> <!-- .et_pb_pricing_content -->
+				<a class="et_pb_pricing_table_button et_pb_button" href="https://clients.proxyserver.com/signup?plan=3year-v4">Sign Up</a>
+			</div><div class="et_pb_pricing_table et_pb_pricing_table_5">
+				<div class="et_pb_pricing_heading">
+					<h2 class="et_pb_pricing_title">1 Year</h2>
+					
+				</div> <!-- .et_pb_pricing_heading -->
+				<div class="et_pb_pricing_content_top">
+					<span class="et_pb_et_price"><span class="et_pb_dollar_sign">$</span><span class="et_pb_sum">8.33</span><span class="et_pb_frequency">/mo</span></span>
+				</div> <!-- .et_pb_pricing_content_top -->
+				<div class="et_pb_pricing_content">
+					<ul class="et_pb_pricing">
+						<li><span><u>$100 for 1 year</u></span></li><li><span>Unblock Any Site or Video</span></li><li><span>Change Your IP &amp; Location</span></li><li><span>100% Encrypted Connection</span></li>
+					</ul>
+				</div> <!-- .et_pb_pricing_content -->
+				<a class="et_pb_pricing_table_button et_pb_button" href="https://clients.proxyserver.com/signup?plan=1year-v4">Sign Up</a>
+			</div>
+
+
+			</div>
+			</div> <!-- .et_pb_column -->
+					
+			</div> <!-- .et_pb_row -->
+				
+			</div> <!-- .et_pb_section -->
+					</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+	<span class="et_pb_scroll_top et-pb-icon"></span>
+
+
+			<footer id="main-footer">
+				<!-- Added some sections for aligning the footer widgets as desired. 
+				These are functioning as the bottom nav --> 
+				<div class="widget_row">
+					<div class="widget_block">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+	<div class="footer-widget"><div id="nav_menu-3" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Learn More</h4><div class="menu-learn-more-container"><ul id="menu-learn-more" class="menu"><li id="menu-item-5729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-440 current_page_item menu-item-5729"><a href="https://www.proxyserver.com/">Proxy Server Home</a></li>
+<li id="menu-item-6112" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6112"><a href="https://www.proxyserver.com/#pricing">Pricing</a></li>
+<li id="menu-item-6111" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6111"><a href="https://www.proxyserver.com/#product">Product</a></li>
+<li id="menu-item-6049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6049"><a href="https://www.proxyserver.com/articles/">Articles</a></li>
+<li id="menu-item-5731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5731"><a href="https://www.proxyserver.com/blog/">Blog</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"><div id="nav_menu-4" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Service</h4><div class="menu-service-container"><ul id="menu-service" class="menu"><li id="menu-item-5732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5732"><a href="https://clients.proxyserver.com/signup">Sign Up</a></li>
+<li id="menu-item-5733" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5733"><a href="https://clients.proxyserver.com/">Login</a></li>
+<li id="menu-item-6114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6114"><a href="https://www.proxyserver.com/pro-windows-demo/">Demo</a></li>
+<li id="menu-item-5734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5734"><a href="https://www.proxyserver.com/download/">Download</a></li>
+<li id="menu-item-5735" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5735"><a href="https://status.proxyserver.com/">Status</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"><div id="nav_menu-5" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">About</h4><div class="menu-about-container"><ul id="menu-about" class="menu"><li id="menu-item-5736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5736"><a href="https://www.proxyserver.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-5737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5737"><a target="_blank" href="http://support.proxyserver.com/">Support</a></li>
+<li id="menu-item-5739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5739"><a href="https://www.proxyserver.com/terms-conditions/">Terms of Service</a></li>
+<li id="menu-item-5738" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5738"><a target="_blank" href="https://www.iubenda.com/privacy-policy/7974982/legal">Privacy Policy</a></li>
+<li id="menu-item-5843" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5843"><a href="https://www.proxyserver.com/sitemap.xml">Sitemap</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget last"><div id="nav_menu-6" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Follow Us</h4><div class="menu-social-container"><ul id="menu-social" class="menu"><li id="menu-item-5747" class="fwidget_facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-5747"><a href="https://www.facebook.com/proxyservers">Facebook</a></li>
+<li id="menu-item-5749" class="fwidget_twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-5749"><a href="https://twitter.com/proxyservervpn">Twitter</a></li>
+<li id="menu-item-5748" class="fwidget_gplus menu-item menu-item-type-custom menu-item-object-custom menu-item-5748"><a href="https://plus.google.com/+Proxyservercom">Google+</a></li>
+<li id="menu-item-5746" class="fwidget_youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-5746"><a href="http://www.youtube.com/c/Proxyservercom">YouTube</a></li>
+<li id="menu-item-6113" class="fwidget_linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-6113"><a href="https://www.linkedin.com/company/proxyserver.com">LinkedIn</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget -->	</div> <!-- #footer-widgets -->
+</div>	<!-- .container -->					</div>
+
+
+				</div>
+
+			
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+						<div id="footer-info">
+						<div class="proxy_lang">
+							<!--Weglot 1.4.3--><aside data-wg-notranslate class="wg-drop country-selector closed" onclick="openClose(this);" ><div data-wg-notranslate class="wgcurrent wg-li en"><a href="javascript:void(0);" >English</a></div><ul><li class="wg-li es"><a data-wg-notranslate href="/es/">Español</a></li><li class="wg-li fr"><a data-wg-notranslate href="/fr/">Français</a></li></ul></aside>
+						</div>
+
+							<div class="proxy_luv"> Made with &hearts; by <a href="https://www.proxyserver.com">PS</div>&copy; 2017 Free Proxy &amp; Proxy Server Pro - <a href="https://www.proxyserver.com" title="Proxy Server Pro">ProxyServer.com</a>.  All Rights Reserved.</div>
+					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+<style type="text/css" id="et-builder-advanced-style">
+				
+.et_pb_section_0.et_pb_section { padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; }
+.et_pb_slide_0.et_pb_slide .et_pb_slide_overlay_container { background-color: rgba(36,131,196,0.65); }
+.et_pb_slide_0.et_pb_slider_with_text_overlay h2.et_pb_slide_title { -webkit-border-top-left-radius: 3px;
+					-webkit-border-top-right-radius: 3px;
+					-moz-border-radius-topleft: 3px;
+					-moz-border-radius-topright: 3px;
+					border-top-left-radius: 3px;
+					border-top-right-radius: 3px; }
+.et_pb_slide_0.et_pb_slider_with_text_overlay .et_pb_slide_content { -webkit-border-bottom-right-radius: 3px;
+					-webkit-border-bottom-left-radius: 3px;
+					-moz-border-radius-bottomright: 3px;
+					-moz-border-radius-bottomleft: 3px;
+					border-bottom-right-radius: 3px;
+					border-bottom-left-radius: 3px; }
+.et_pb_divider_0:before { border-top-color: #ffbe4a; border-top-width: 2px; }
+.et_pb_divider_0 { height: 60px; }
+.et_pb_image_0 { text-align: center; }
+.et_pb_divider_1:before { border-top-color: #ffbe4a; border-top-width: 2px; }
+.et_pb_divider_1 { height: 60px; }
+.et_pb_section_3.et_pb_section { background-color:#f5f5f5 !important; }
+
+@media only screen and ( max-width: 980px ) {
+	.et_pb_text_7 { max-width: 85%; }
+}
+
+@media only screen and ( max-width: 767px ) {
+	.et_pb_text_7 { max-width: 100%; }
+}
+			</style><style type="text/css" id="et-builder-page-custom-style">
+				 .et_pb_bg_layout_dark { color: #ffffff !important; } .page.et_pb_pagebuilder_layout #main-content { background-color: rgba(255,255,255,0); } .et_pb_section { background-color: #ffffff; }
+			</style><script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/scripts/frontend-builder-global-functions.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/scripts/jquery.mobile.custom.min.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/js/custom.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/scripts/jquery.fitvids.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/scripts/waypoints.min.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/scripts/jquery.magnific-popup.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_pb_custom = {"ajaxurl":"https:\/\/www.proxyserver.com\/wp-admin\/admin-ajax.php","images_uri":"https:\/\/www.proxyserver.com\/wp-content\/themes\/Divi\/images","builder_images_uri":"https:\/\/www.proxyserver.com\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"54c85b234b","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"c14ff1c60a","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","is_builder_plugin_used":"","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","is_ab_testing_active":"","page_id":"440","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-content/themes/Divi/includes/builder/scripts/frontend-builder-scripts.js'></script>
+<script type='text/javascript' src='https://www.proxyserver.com/wp-includes/js/wp-embed.min.js'></script>
+
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c19757bc2d","applicationID":"18768826","transactionName":"ZVdTZUVYWkoHVBIMWlwdcFJDUFtXSUcHAlA=","queueTime":0,"applicationTime":192,"atts":"SRBQEw1CSUQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>    	
+</html>
+

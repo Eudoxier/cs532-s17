@@ -1,0 +1,2086 @@
+<!DOCTYPE html> 
+<html class="no-js" itemscope itemtype="http://schema.org/WebPage" lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"30b3ffac80","applicationID":"29725091","transactionName":"dAwPFRELDlhUFBpDQkRMEQAEAREbQg5aQ21WERUIAAgH","queueTime":0,"applicationTime":3198,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="HandheldFriendly" content="True"/>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta name="google-site-verification" content="w0yfDtmtJUxS4EcGFRjxi89tyJ_8gzywxym4JmF5AF8" />
+	<title>Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK | V3</title>
+
+	<meta name="description" content="Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware" />
+
+	<meta name="keywords" content="Public Sector,Security ,cloud,Kaspersky,malware,security" />
+
+
+
+<!--Dont change the position of this file -->
+<meta name="DCSext.topics" content="cloud;kaspersky;malware;security"/>
+<link rel="canonical" href="" />
+<link rel="syndication-source" href="" />
+<link rel="original-source" href="" />
+
+
+
+<meta property="article:modified_time" content="2017-02-09T15:50:43+00:00" />
+<meta property="article:published_time" content="2017-02-09T15:50:43+00:00" />
+<meta name="news_keywords" content="Public Sector,Security ,cloud,Kaspersky,malware,security"/>
+
+<meta name="apple-itunes-app" content="app-id=1033559990">
+<meta http-equiv="Set-Cookie" content="last_page_viewed=http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk;path=/;expires=2017-02-18 22:27:10 UTC;domain=.v3.co.uk;"/>
+<meta http-equiv="Set-Cookie" content="last_visited_page=/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk;path=/;expires=2017-02-18 22:27:10 UTC;domain=.v3.co.uk;">
+
+
+
+<link href="http://www.v3.co.uk/images/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="57x57">
+<link href="http://www.v3.co.uk/images/favicons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+<link href="http://www.v3.co.uk/images/favicons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+<link href="http://www.v3.co.uk/images/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+<link href="http://www.v3.co.uk/images/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+<link href="http://www.v3.co.uk/images/favicons/icon-hires.png" rel="icon" sizes="192x192">
+<link href="http://www.v3.co.uk/images/favicons/icon-normal.png" rel="icon" sizes="128x128">
+<link href="http://www.v3.co.uk/images/favicons/32x32.ico" rel="shortcut icon" type="image/png">
+
+<meta name="msapplication-TileImage" content="http://www.v3.co.uk/images/favicons/mstile-144x144.png">
+	<meta name="msapplication-TileColor" content="#0066cc">
+
+<meta property="og:title" content="Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK "/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk"/>
+<meta property="og:image" content="http://www.v3.co.uk/w-images/6cd8d10c-b59a-4789-8f5d-366a992de013/1/dangerousfingershacking-370x229.jpg"/>
+<meta property="og:site_name" content="http://www.v3.co.uk"/>
+<meta property="og:description" content="Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware,Public Sector,Security ,cloud,Kaspersky,malware,security""/>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="V3_co_uk"/>
+<meta name="twitter:domain" content="http://www.v3.co.uk/">
+<meta property="twitter:creator" content="@graemeburton"/>
+<meta property="twitter:url" content="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk"/>
+<meta property="twitter:image" content="http://www.v3.co.uk/w-images/6cd8d10c-b59a-4789-8f5d-366a992de013/1/dangerousfingershacking-370x229.jpg"/>
+<meta property="twitter:description" content="Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware"/>
+<link href="https://plus.google.com/+V3CoUk" rel="publisher"/>
+<meta itemprop="name" content="Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK"/>
+<meta itemprop="description" content="Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware,Public Sector,Security ,cloud,Kaspersky,malware,security"/>
+<meta itemprop="image" content="http://www.v3.co.uk/w-images/6cd8d10c-b59a-4789-8f5d-366a992de013/1/dangerousfingershacking-370x229.jpg"/>
+
+
+		
+		<link href="http://assets.v3.co.uk/cdn/v3/styles/styles.css" media="all" rel="stylesheet" type="text/css">
+
+		<!--[if lt IE 9]>
+		<script src="http://assets.v3.co.uk/cdn/global/scripts/html5shiv.js"></script>
+		<link href="http://assets.v3.co.uk/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+		<link href="/images/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+		<![endif]-->
+		
+		<!--[if lt IE 9]>
+        	<script src="http://assets.v3.co.uk/cdn/global/scripts/respond.js"></script>
+           	<script src="/javascripts/respond.proxy.js"></script>
+		<![endif]-->
+
+
+		<script src="http://assets.v3.co.uk/cdn/global/scripts/jquery_1-11-2.min.js"></script>
+		<script type="text/javascript">
+(function(){window._r3z=window._r3z||{};_r3z.cid="AAB/www.v3.co.uk";_r3z.jq=window.jQuery?jQuery:0;if(!_r3z.jq)return;ldJS=function(e,r){var t=document.head||document.getElementsByTagName("head")[0],n=document.createElement("script"),i=0;if(n.addEventListener){n.addEventListener("load",function(){if(!i){i=1;if(r)r()}},false)}else if(n.readyState){n.onreadystatechange=function(){if(!i&&(n.readyState=="loaded"||n.readyState=="complete")){i=1;if(r)r()}}}n.src=e;t.insertBefore(n,t.firstChild)};function e(e,r,t,n){var i,a;a=t?"; expires="+t.toUTCString():"";i="; path="+(n||"/");document.cookie=e+"="+r+a+i}function r(e){var r=e+"=";var t=document.cookie.split(";");for(var n=0;n<t.length;n++){var i=t[n];while(i.charAt(0)==" ")i=i.substring(1);if(i.indexOf(r)==0)return i.substring(r.length,i.length)}return""}function t(e){e=e||_r3z.pub.pix.gnc;var r=e;for(var t=0;t<r.length;t++){_r3z.pub.pxi.push(new Image);try{_r3z.pub.pxi[_r3z.pub.pxi.length-1].src=decodeURIComponent(r[t])}catch(n){console.log("Bad URL: "+src)}}}function n(e){return _r3z.jq.trim(e.replace(/[^\w']/gi," ")).split(/\s+/).length}function i(e){_r3z.jq(e).contents().filter(function(){return this.nodeType==3}).wrap("<p></p>").end().filter("br").remove()}function a(e){for(var r=0;r<e.length;r++){if(_r3z.jq(e[r]).html().search(/<br>\s*<br>/)==-1)continue;_r3z.jq(e[r]).after("<p>"+_r3z.jq(e[r]).html().replace(/<br>\s*<br>/g,"</p><p>")+"</p>");_r3z.jq(e[r]).remove()}}function s(e){var r=document.head||document.getElementsByTagName("head")[0],t=document.createElement("style"),n;t.type="text/css";n=e.replace(/}/g,"}\n");n=n.replace(/\[CDN\]/g,_r3z.cdn);if(t.styleSheet)t.styleSheet.cssText=n;else t.appendChild(document.createTextNode(n));r.appendChild(t)}function o(e,r){function t(e,r){var t=[function(e,r){var t=r%2==0?2:1;return e<r/2?r-2*e-t:2*e+(t-1)-r},function(e,r){var t=r%2==0?1:0;return e%2==0?(r-t-1-e)/2:(r-t+e)/2}];var n,i=e.length;var a=new Array(i);for(n=0;n<i;n++)a[t[r](n,i)]=e[n];return a.join("")}if(e.nodeType==3){var n=e.nodeValue;if(r){if(n.substring(0,2)==""&&n.substring(n.length-2)=="")e.nodeValue=t(n.substring(2,n.length-2),r)}else e.nodeValue=""+t(n,r)+""}else{for(var i=0;i<e.childNodes.length;i++)o(e.childNodes[i],r)}}function d(){var e=_r3z.jq("#r3z-inst-bot"),r=_r3z.jq("#r3z-ifrm"),t=_r3z.jq("#r3z-quest"),n=_r3z.jq("#r3z-addoor");if(!(_r3z.prg&&_r3z.prg.flg.vis))return;e.outerWidth(n.outerWidth());var i=r.offset().top+r.outerHeight();var a=_r3z.jq(window).scrollTop();var s=t.offset().top;if(a>=i&&!_r3z.jq(".r3z-stick").length){e.width(e.width());e.addClass("r3z-stick")}else if(a<=s&&_r3z.jq(".r3z-stick").length)e.removeClass("r3z-stick")}_r3z.pub={pid:location.hostname,abm:1,rzl:1,cke:1,pre:0,dom:1,stk:1,pix:{gnc:["http://ib.adnxs.com/seg?add=4878442&t=1"],abp:["http://ib.adnxs.com/seg?add=4878592&t=1"],wld:["http://ib.adnxs.com/seg?add=4878598&t=1"]},pxi:[],fns:{sho:0,ins:0,rev:0,abt:0,pbk:0,evt:{imp:0,ivw:0,ulk:0,clk:0,vst:0,v25:0,v50:0,v75:0,ven:0}},cap:{pmx:1,prs:3600*24*30,oix:0,ifm:0,frs:3600*24},htm:{pre:"",pst:"",ins:""},blk:{tmo:5,rev:0,msg:""},ero:{mvs:100,mer:.1}};_r3z.pub.htm.ins='<div id="r3z-inst-top" class="r3z-inst"><span>&#9660;</span><p id="r3z-inst">[r3z-ad-inst] to reveal the rest of the article. You\'ll only have to answer one question a month.</p><span>&#9660;</span></div>';_r3z.pub.blk.msg='<p id="r3z-blkmsg">It looks like we can’t show you adverts on this page, which may be caused by ad blocker software on your device.<br><br>Because we rely on advertising to fund our journalism, please disable any ad blockers from running on V3, then reload the page to see the rest of this content. You can find more information about this <a href="http://www.v3.co.uk/static/using-ad-blocker-on-v3couk" target="_blank">here</a>.</p><p></p>';ldJS("https://d3vuqzsqy1r5zj.cloudfront.net/"+"Pub/"+_r3z.cid+"/ad.js");ldJS("https://e43e8e18e725ae6b22e0-f0fde0bbc5469096ab6f7c4eba4934a9.ssl.cf3.rackcdn.com/"+"Pub/"+_r3z.cid+"/ad.js");_r3z.pub.fns.ins=function(){var i='<div id="r3z-wait">'+'<img id="r3z-wait-img" src="https://assets.incisivemedia.com/rezonance_fonts/WaitAnim800.gif">'+"</div>"+'<div id="r3z-addoor" style="display:none"></div>'+'<div id="r3z-response" style="display:none"></div>';var a='<div id="r3z-kicker" style="display:none"></div>';var l="@font-face{font-family:'redacted_scriptbold';src:url('https://assets.incisivemedia.com/rezonance_fonts/redacted-script-bold.eot');src:url('https://assets.incisivemedia.com/rezonance_fonts/redacted-script-bold.eot?#iefix') format('embedded-opentype'),url('https://assets.incisivemedia.com/rezonance_fonts/redacted-script-bold.woff2') format('woff2'),url('https://assets.incisivemedia.com/rezonance_fonts/redacted-script-bold.woff') format('woff'),url('https://assets.incisivemedia.com/rezonance_fonts/redacted-script-bold.ttf') format('truetype'),url('https://assets.incisivemedia.com/rezonance_fonts/redacted-script-bold.svg#redacted_scriptbold') format('svg');font-weight:normal;font-style:normal}.r3z-inst{display:table;color:white!important;background:#246FD4;margin:10px 0;padding:10px 5px;box-sizing:border-box;width:100%}.r3z-inst span{display:table-cell;width:5%;color:white!important;font-size:20px;text-align:center;vertical-align:middle}.r3z-inst p{display:table-cell;width:90%;color:white!important;text-align:center;vertical-align:middle}#r3z-inst-bot{z-index:1000}#r3z-blkmsg{display:block;font-weight:bold;color:black;text-align:center;border:3px solid #246FD4;margin:10px 0;padding:10px 5px}#r3z-wait{display:block;width:100%;margin:0;padding:0;border:0;outline:0}#r3z-wait-img{width:100%;height:auto;margin:0;padding:0;border:0;outline:0}.r3z-hide,.r3z-hide *{color:lightgrey!important;text-decoration:none!important;font-family:redacted_scriptbold!important}iframe.r3z-hide,.r3z-hide iframe{opacity:0.1!important}img.r3z-hide,.r3z-hide img{opacity:0.1!important}#r3z-response iframe,#r3z-kicker iframe{margin-left:0}.r3z-stick{position:fixed;top:33%}#r3z-img,#r3z-rimg,#r3z-kimg{display:block!important}";var c=200;var p=2;var u=50;var z=".article-page-body-content p";if(_r3z.jq("#r3z-addoor").length||_r3z.prg&&_r3z.prg.flg.rev)return;var f=_r3z.jq(z);if(f.length<=p||n(f.text())<=c)return;while(n(_r3z.jq(f.slice(0,p)).text())<u)p++;if(_r3z.pub.abm){var h;setTimeout(function(){document.getElementById("r3z-wait").innerHTML=_r3z.pub.blk.msg;_r3z.pub.blk.rev=1;if(_r3z.pub.fns.abt&&_r3z.pub.fns.abt()){h=new Date;h.setTime(h.getTime()+10*60*1e3);e("r3z.abd",1,h);t(_r3z.pub.pix.abp)}},_r3z.pub.blk.tmo*1e3)}s(l);_r3z.jq(f[p-1]).after(i);_r3z.jq("#r3z-response").nextAll().addClass("r3z-hide");_r3z.jq(".r3z-hide").last().after(a);var v=_r3z.jq(".r3z-hide");for(var b=0;b<v.length;b++)o(v[b],0);_r3z.pub.fns.rev=function(){var n=_r3z.jq(".r3z-hide");for(var i=0;i<n.length;i++)o(n[i],1);_r3z.jq(".r3z-hide").removeClass("r3z-hide");var a=r("r3z.abd");if(a){t(_r3z.pub.pix.wld);e("r3z.abd","",new Date(0))}};if(_r3z.pub.stk){_r3z.pub.htm.pst='<a href="#r3z-addoor"><div id="r3z-inst-bot" class="r3z-inst"><span>&#9650;</span><p>Please answer the question above to reveal the rest of the article.</p><span>&#9650;</span></div></a>';_r3z.jq(window).scroll(d);_r3z.jq(window).resize(d)}};if(_r3z.pub.abm){if(_r3z.pub.dom)_r3z.jq(document).ready(_r3z.pub.fns.ins);else _r3z.pub.fns.ins()}t();(function(){_r3z.jq.get("http://assets.incisivemedia.com/rezonance_fonts/kill_switch/v3/TestKillSwitch.json",function(e){}).done(function(e){if(e.blockContent=="false"){var r=setInterval(function(){try{if(_r3z.jq(".r3z-hide").length){_r3z.jq("#r3z-wait").hide();_r3z.pub.fns.rev();clearInterval(r)}}catch(e){}},100)}})})()})();
+</script>
+              <script type="text/javascript" language="Javascript">
+universal_variable_string = '{ "content": { "article":"news", "source":"V3", "author":"graeme-burton", "medium":"text", "published":"2017-02-09T15:50:43+00:00", "tag":["cloud","kaspersky","malware","security"], "image":"/w-images/6cd8d10c-b59a-4789-8f5d-366a992de013/1/dangerousfingershacking-185x114.jpg", "restriction":"default", "barrier":"free"}, "page": { "url": "http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk", "title": "Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK", "description": "Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware", "type": "article", "category": "public-sector", "parentcategory": "strategy", "id": "3004349", "environment": "", "site":"v3.co.uk", "platform":""} }';
+</script>
+
+
+
+		<!-- Start: GIT head script -->
+                       <script type="text/javascript" src='//assets.v3.co.uk/javascript/live/v3/javascript-v3.head.min.js'></script>
+               <!-- End: GIT head script -->
+		<!-- QUBIT OpenTag Start -->
+		<!-- (1:V9:IW: investmentweek.co.uk (Investment Week)) , loads V9:All and 0:Global as dependancies -->
+		<script src='//d3c3cq33003psk.cloudfront.net/opentag-53775-238465.js' async defer></script>
+		<!-- QUBIT OpenTag End -->
+		<script>
+		(function(H){H.className=H.className.replace(/\bno-js\b/,'')})(document.documentElement);
+		 !function(){"use strict";function e(e,t,s){e.addEventListener?e.addEventListener(t,s,!1):e.attachEvent&&e.attachEvent("on"+t,s)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function s(){if(window.localStorage&&window.XMLHttpRequest)if(t(n))c(localStorage.font_css_cache);else{var e=new XMLHttpRequest;e.open("GET",n,!0),e.onreadystatechange=function(){4===e.readyState&&200===e.status&&(c(e.responseText),localStorage.font_css_cache=e.responseText,localStorage.font_css_cache_file=n)},e.send()}else{var s=document.createElement("link");s.href=n,s.rel="stylesheet",s.type="text/css",document.getElementsByTagName("head")[0].appendChild(s),document.cookie="font_css_cache"}}function c(e){var t=document.createElement("style");t.setAttribute("type","text/css"),document.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var n="http://assets.v3.co.uk/cdn/v3/styles/fonts/sourcesanspro.css?ver=1";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?s():e(window,"load",s)}();
+		</script>
+	</head>
+			<body class="article v3-uk">
+	<div id="rdm-overlay" class="ad-slot-overlay"></div>
+	<div id="rdm-wallpaper" class="ad-slot-wallpaper"></div>
+			<div class="container">
+				<aside class="content">
+	<div class="content-inner content-full-width">
+		<div class="main-content">
+				<div id="rdm-above-header" class="ad-slot-full"></div>
+		</div>
+	</div>
+</aside>
+
+				<div class="menu-sidebar">
+	<div class="menu-sidebar-inner">
+		<div class="search-3 header-search-holder blur">
+				<input type="submit" value="" aria-labelledby="Search" />
+				<span>
+					 <input id="search_header" type="search" name="query" value="" required="" placeholder="Search here..." aria-labelledby="Search here">
+				</span>
+				<input type="hidden" name="per_page" id="per_page" value="24" class="hidden_style" />
+				<input type="hidden" name="sort" id="sort" value="relevance1" class="hidden_style" />
+				<input type="hidden" name="date" id="date" value="this_year" class="hidden_style" />
+		</div>
+	</div>
+	<nav class="mobile-nav">
+	<ul class="mobile-nav-ul">
+		<li class="active">
+		    <div class="mobile-menu-title">
+		        <a title="Home" href="/">Home</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="News" href="/type/news">News</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Reviews" href="/type/review">Reviews</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Digital technology" href="/tag/digital-technology">Digital technology</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Cloud" href="/category/cloud-computing">Cloud</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Data analytics" href="/tag/big-data">Data analytics</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Digital leaders" href="/tag/digital-leaders">Digital leaders</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="IoT" href="/tag/internet-of-things">IoT</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Opinion" href="/type/opinion">Opinion</a>
+		    </div>
+		</li>
+  </ul>
+</nav>
+<div class="menu-sidebar-inner">
+    <ul class="sidebar-list">
+		        <li>
+		        	<a href="/events" target="_blank">Events</a>
+		        </li>
+
+
+			        <li>
+			        	<a href="http://www.computing.co.uk/static/resources" target="_blank">Resources</a>
+			        </li>
+		        <li>
+		        	<a href="http://www.v3.co.uk/v3-uk/special/2430132/smb-spotlight">SMB Spotlight</a>
+		        </li>
+
+
+
+
+			<li class="nav-tools newsletters">
+				<a href="http://email.v3.co.uk/k/Incisive-Media/v3_sign_up_form" target="_blank">Newsletters</a>
+			</li>
+        <li class="nav-tools login-icon menu-login-trigger"><a href="">Sign in</a></li>
+    </ul>
+</div>
+
+</div>
+
+<nav class="main-top-nav">
+	<ul class="main-top-content main-top-menu content-width">
+			<li class="main-top-title main-top-tab-panel main-top-events" id="events">
+				<a href="/events" target="_blank">Events</a>
+				<ul class="menu-top-panel">
+					<li>
+						<!-- ::::::::::::::::::::: events panel content start  ::::::::::::::::::::: -->
+						<div class="section group content">
+							
+							<div class="col-lrg span-lrg_1_of_5">
+		<header>
+			<div class="menu-top-panel-heading">
+				Follow V3 Events
+			</div>
+		</header>
+		<article>
+			<div class="newsletter-box">
+				<div class="newsletter-box-inner">
+					<p>Sign up to receive email alerts about our events</p><a class="btn event-newsletter" href="http://newsletters.incisivemedia.com/incisive_newsletters/v3/newsletter_signup.html" target="_blank">Sign up</a>
+				</div>
+			</div>
+		</article>
+</div>
+						</div>
+						<!-- ::::::::::::::::::::: events panel content end  ::::::::::::::::::::: -->
+					</li>
+				</ul>
+			</li>
+
+			<li class="main-top-title main-top-tab-panel main-top-hound" id="hound">
+				   <a href="http://www.computing.co.uk/static/resources" target="_blank">Resources</a>
+				<ul class="menu-top-panel">
+					<li>
+						<!-- ::::::::::::::::::::: hound panel content start  ::::::::::::::::::::: -->
+						<div class="section group content">
+							<div class="col span-lrg_4_of_5">
+								<section class="top-panel-paper">
+	<div class="image-text-group-a">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1526&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/0cc2988a-1b33-4c8e-a8a0-3d9751262575/1/v3resources-120x194.jpeg" alt="V3resources 120x194" /></a>
+	</div>
+	<div class="image-text-group-b">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1526&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"> Small business, big data: how SMEs can unlock big data&#39;s advantages</a>
+		<p>The SME space is changing, and emerging leaders are utilising affordable, flexible and scalable big data and analytics tools. SMEs are confident about their ability to innovate, but much less certain about their ability to use big data and advanced analytics to do so...&nbsp;</p>
+		<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1526&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+	</div>
+</section>
+	                            <section class="top-panel-paper">
+	<div class="image-text-group-a">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1649&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/70308f97-eb0b-4b9d-92f0-24ed63d07734/1/v3resources-120x194.jpeg" alt="V3resources 120x194" /></a>
+	</div>
+	<div class="image-text-group-b">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1649&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">10 ways to increase productivity with managed Office 365</a>
+		<p>For businesses large and small, relying on a cloud-based collaboration and productivity suite such as Microsoft Office 365 is becoming the norm. Enhancing productivity in your organisation is vital to get ahead in 2017 - and using Office 365 can help, if it's used right...</p>
+		<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1649&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+	</div>
+</section>
+							</div>
+							
+<div class="col span-lrg_1_of_5">
+	<section class="hound-search">
+		<header>
+			<div class="menu-top-panel-heading">Find resources</div>
+			<div class="menu-top-panel-subheading">Search by title or subject area</div>
+		</header>
+		<aside>
+			<form target="_blank" name="multi" method="get" id="hound-search" enctype="multipart/form-data" action="http://www.computing.co.uk/static/resources-search-results">
+				<input type="search" id="search-hound" placeholder="Search papers here" tabindex="1" required="" name="wpSearch">
+					<input type="hidden" value="v3" name="publisher">
+				<input type="submit" class="btn search-hound">
+			</form>		
+		</aside>
+	</section>
+	<div class="panel-section-footer">
+		<div class="more-holder">
+			<a class="more-link" href="http://www.computing.co.uk/static/resources" target="_blank">
+				<svg class="more-icon arrow-right" x="0" y="0" width="0.438em" height="0.938em">
+					<polygon points="0,3.553 3.947,7.5 0,11.447 0,14.5 7,7.5 0,0.5 "></polygon>
+				</svg> 
+				View all resources
+			</a>
+		</div>
+	</div>
+</div>
+
+						</div>
+						<!-- ::::::::::::::::::::: hound panel content end  ::::::::::::::::::::::: -->
+					</li>
+				</ul>
+			</li>
+
+					<li class="main-top-title main-top-tab-link main-top-industry-voice" id="industryvoice">
+					    <a href="http://www.v3.co.uk/v3-uk/special/2430132/smb-spotlight">SMB Spotlight</a>
+					</li>
+
+
+
+		<li class="main-top-title main-top-align-right main-top-tab-infobox main-top-login" id="login" style="display:none;">	
+	<a href="/userlogin">Sign in</a>
+</li>
+<li class="main-top-title main-top-align-right main-top-tab-infobox main-top-user" id="user" style="display: none;">
+	<a href="/home/manage_account" class="user-info"></a>
+	
+<div id="rdm-above-corp-menu">&nbsp;</div>
+<ul class="header-tools-content institutional" style="display: none;">
+<li><aside>
+<div class="error login_error_message" id="login_error_message_header">&nbsp;</div>
+<div class="user-menu">
+<p>You are currently accessing V3 .co.uk via your Enterprise account.</p>
+<p>Personalise your on site experience</p>
+<p>Download and use the apps</p>
+<p>Access your subscription from outside of the office</p>
+<p>Get relevant news and insight straight to your inbox</p>
+<p><button class="register">Request account</button></p>
+</div>
+<ul class="user-menu">
+<li><a href="http://www.v3.co.uk/userlogin" title="Sign in" class="sign-in-user-link">Sign in</a></li>
+</ul>
+</aside></li>
+</ul>
+	
+<div id="rdm-above-user-menu">&nbsp;</div>
+<ul class="header-tools-content individual" style="display: none;">
+<li>
+<ul class="user-menu"><!-- <li><a href="http://www.v3.co.uk/home/manage_account" title="Saved articles" class="saved-articles-user-link">Saved articles</a></li> -->
+<li><a href="http://newsletters.incisivemedia.com/incisive_newsletters/v3/newsletter_signup.html" title="Newsletters" class="newsletters-user-link">Newsletters</a></li>
+<li><a href="http://www.v3.co.uk/static/apps" title="Apps" class="apps-user-link">Apps</a></li>
+<li><a href="http://www.v3.co.uk/home/manage_account#myaccount" title="Account details" class="account-user-link">Account details</a></li>
+<li><a href="http://www.v3.co.uk/home/manage_account#contact" title="Contact support" class="contact-user-link">Contact support</a></li>
+<li><a href="http://www.v3.co.uk/home/logout" title="Sign out" class="sign-out-user-link">Sign out</a></li>
+</ul>
+</li>
+</ul>
+<div id="rdm-below-user-menu">&nbsp;</div>
+</li>	
+		<li class="main-top-title main-top-align-right main-top-tab-infobox main-top-sociallinks" id="follow" style="display:none;">
+			<a href="#">Follow us</a>
+			<ul class="header-tools-content">
+				<li>
+	<div class="nav-tools rss-icon">
+		<a href="http://www.v3.co.uk/static/rss" target="_blank">RSS</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools twitter-icon">
+		<a href="http://twitter.com/V3_co_uk" target="_blank">Twitter</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools newsletters">
+		<a href="http://email.v3.co.uk/k/Incisive-Media/v3_sign_up_form" target="_blank">Newsletters</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools facebook-icon">
+		<a href="http://www.facebook.com/pages/V3couk/117466641415?ref=ts" target="_blank">Facebook</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools youtube">
+		<a href="http://www.youtube.com/v3" target="_blank">YouTube</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools apps">
+		<a href="http://www.v3.co.uk/static/apps" target="_blank">Apps</a>
+	</div>
+</li>
+
+			</ul>
+		</li>
+			<li class="main-top-title main-top-align-right main-top-tab-link main-top-register" id="register" style="display:none;">
+		<a href="http://reg.incisive.managemyaccount.co.uk/V3/page0.php" target="_blank">Register</a>
+	</li>
+<li class="main-top-title main-top-align-right main-top-user-status" id="rdm_header_user_status_link"></li>
+        
+
+
+	</ul>
+</nav>
+
+
+<nav class="nav">
+	<div class="holder">
+		<div class="hamburger-style" id="nav-toggle" aria-label="Menu">
+			<span></span>
+		</div>
+		<div class="clicker4" aria-label="Login"></div>
+		<script type="text/conditional-html" id="tablet-conditional-navigation">
+				<nav class="article-nav nav-colour02">
+		<div class="main-menu content-width">
+				<div class="home-icon"><a href="/" title="Return to homepage"></a></div>
+				<ul class="tools-container">
+	<li>
+		<div title="Tweet" class="article-tools twitter-icon icons pos1">
+			<span title="Tweet" class="screen-reader-text">Tweet</span>
+			<a href="http://twitter.com/share?text=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+		</div>
+	</li>
+	<li>
+		<div title="Facebook" class="article-tools facebook-icon icons pos2">
+			<span class="screen-reader-text">Facebook</span>
+			<a href="http://www.facebook.com/sharer.php?u=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+		</div>
+	</li>
+
+
+	<li>
+	   <div data-social-tracking="added" title="Reddit" class="article-tools reddit-icon icons pos4">
+				<a href="http://reddit.com/submit?url=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+	   </div>
+	</li>
+
+	<li>	
+	  <div data-social-tracking="added" title="Stumbleupon" class="article-tools stumbleupon-icon icons pos5">	  
+			<a href="http://www.stumbleupon.com/submit?url=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+	  </div>
+	</li>
+
+
+	<!--<li>
+		<div title="Save article" class="article-sticky-tools save-icon icons pos5">
+			<span class="screen-reader-text">Save this article</span>
+			<a onclick="savedArticleStatus(); return false;" href="#">&nbsp;</a>
+		</div>
+	</li> -->
+		<li>
+			<div title="Send to" class="article-tools email-icon icons pos6">
+				<span class="screen-reader-text">Send to</span>
+				<a target="_blank" rel="nofollow" href="mailto:?subject=Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK&amp;body=%0D%0A%0D%0Ahttp%3A%2F%2Fwww.v3.co.uk%2F3004349">&nbsp;</a>
+			</div>
+		</li>
+</ul>
+			<!-- tools end -->
+			<div class="search-3 header-search-holder blur">
+				<form id="search_form" action="/search" accept-charset="UTF-8" method="get">
+					<input type="submit" value="" aria-labelledby="Search" />
+					<span>
+						<input id="search_header" type="search" name="query" value="" required="" placeholder="Search here..." aria-labelledby="Search here">
+					</span>
+					<input type="hidden" name="per_page" id="per_page" value="24" class="hidden_style" />
+					<input type="hidden" name="sort" id="sort" value="relevance1" class="hidden_style" />
+					<input type="hidden" name="date" id="date" value="this_year" class="hidden_style" />
+</form>			</div>
+			<ul class="tools-container tools-container-2">
+			   <li>
+				<div class="article-sticky-tools print-icon icons pos7" title="Print">
+					<span class="screen-reader-text">Print this page</span>
+					<a onclick="window.print();return false" href="#">&nbsp;</a>
+				</div>
+			   </li>
+			   <li>
+				  <div class="article-sticky-tools comments-icon icons pos9" title="Comment">
+					 <span class="screen-reader-text">Comment</span>
+					 <a href="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk#disqus_thread" rel="nofollow">&nbsp;</a>
+				  </div>
+			   </li>
+			   <li class="article-meta-numbers">
+					 <div class="comment-count">
+					 	<a href="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk#disqus_thread"><span class="comment-total">0</span> comments</a>
+			         </div>
+				 	<div class="social-count">
+				 		<a href="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk"><span class="share-total"></span></a>
+				 	</div>
+			   	</li>
+			</ul>
+		</div><!-- main-top-content end -->
+	</nav>	
+
+			<nav class="primary-nav nav-colour01" role="navigation" aria-label="Primary">
+				<div class="nav-branding"></div>
+				<ul class="main-menu main-top-content content-width">
+					<li class="menu-title site-logo" itemscope="" itemtype="http://schema.org/Organization">
+   <div itemprop="name" class="screen-reader-text">
+      V3.co.uk
+   </div>
+   <a href="/" title="Return to homepage" alt="V3.co.uk"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="V3.co.uk">
+   </a>
+</li>  
+						<li class="menu-title">
+						   <a title="News" href="/type/news">News</a>
+							<ul class="menu-content">
+								<li>
+								    <<<<<<< HEAD
+=======
+>>>>>>> 2eeac8ff59364a761d02b8ff4f3a6613f9bc3186
+<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004898/iot-101-getting-started-in-home-automation"><img title="Internet of Things" alt="Internet of Things" src="/w-images/d7216488-e5c0-4b69-bb14-a31f803f83ef/1/internetofthings2-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="IoT 101: Getting started in home automation" href="/v3-uk/news/3004898/iot-101-getting-started-in-home-automation">IoT 101: Getting started in home automation</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004891/google-x-uses-ai-to-reduce-number-of-balloons-needed-for-sky-high-wifi-coverage"><img title="Project Loon" alt="Project Loon" src="/w-images/85c2bd07-a5b1-4a71-ae39-d29da430dbe5/2/FewerofthesemaybeneedtomakeProjectLoonasuccess-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Google X uses AI to reduce number of balloons needed for sky-high WiFi coverage" href="/v3-uk/news/3004891/google-x-uses-ai-to-reduce-number-of-balloons-needed-for-sky-high-wifi-coverage">Google X uses AI to reduce number of balloons needed for sky-high WiFi coverage</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004863/microsoft-gives-its-office-for-mac-suite-support-for-macbook-pro-touch-bar"><img title="TouchBar will support Office for Mac suite" alt="TouchBar will support Office for Mac suite" src="/w-images/b7ab2b56-4c58-48b5-b6c5-70c811fe2c6f/1/macbook2016-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar" href="/v3-uk/news/3004863/microsoft-gives-its-office-for-mac-suite-support-for-macbook-pro-touch-bar">Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004858/enterprisedb-aims-at-the-digital-enterprise-with-postgres-platform-2017"><img title="" alt="" src="/w-images/5ad53900-5483-4561-88b7-28926318e20c/1/googledatacentertech21-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="EnterpriseDB aims at the digital enterprise with Postgres Platform 2017" href="/v3-uk/news/3004858/enterprisedb-aims-at-the-digital-enterprise-with-postgres-platform-2017">EnterpriseDB aims at the digital enterprise with Postgres Platform 2017</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004855/gbp11m-funding-for-cyber-101-scheme-to-help-uk-security-start-ups"><img title="UK govt wants to help boost cyber security offerings" alt="UK govt wants to help boost cyber security offerings" src="/w-images/f30214e2-9328-4e76-b3da-cf0fa2fa2298/0/fingerprintsecurity-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="£1.1m funding for Cyber 101 scheme to help UK security start-ups" href="/v3-uk/news/3004855/gbp11m-funding-for-cyber-101-scheme-to-help-uk-security-start-ups">£1.1m funding for Cyber 101 scheme to help UK security start-ups</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="Reviews" href="/type/review">Reviews</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/review/3004829/samsung-galaxy-a5-2017-vs-oneplus-3t-head-to-head-review"><img title="" alt="" src="/w-images/ce3862b8-e664-49b2-9b8e-aa4b162000ca/2/3ta5-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Samsung Galaxy A5 (2017) vs OnePlus 3T: head to head review" href="/v3-uk/review/3004829/samsung-galaxy-a5-2017-vs-oneplus-3t-head-to-head-review">Samsung Galaxy A5 (2017) vs OnePlus 3T: head to head review</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/review/3004620/samsung-galaxy-a5-2017-review"><img title="This premium-looking mid-ranger is a great start to Samsung&#39;s year" alt="This premium-looking mid-ranger is a great start to Samsung&#39;s year" src="/w-images/27b1def2-812e-418e-94e8-f605d0f63a13/2/IMG20170214122931-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Samsung Galaxy A5 (2017) review" href="/v3-uk/review/3004620/samsung-galaxy-a5-2017-review">Samsung Galaxy A5 (2017) review</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/review/3004454/wileyfox-swift-2-x-review"><img title="Is &#39;the Wiliest phone yet&#39; worth its £219 price tag?" alt="Is &#39;the Wiliest phone yet&#39; worth its £219 price tag?" src="/w-images/10470bf9-0f6f-495f-9424-234ec1dc7272/2/wileyfoxmain-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Wileyfox Swift 2 X review" href="/v3-uk/review/3004454/wileyfox-swift-2-x-review">Wileyfox Swift 2 X review</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/review/3004431/chuwi-lapbook-141-review"><img title="" alt="" src="/w-images/fd90c122-89e3-43ee-9fb9-db5ca57d8dc9/2/chuwilaptoppicture2-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Chuwi LapBook 14.1 review" href="/v3-uk/review/3004431/chuwi-lapbook-141-review">Chuwi LapBook 14.1 review</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/review/3003314/iphone-7-vs-honor-6x-which-one-should-you-buy"><img title="iPhone 7 vs Honor 6X: which should you buy?" alt="iPhone 7 vs Honor 6X: which should you buy?" src="/w-images/2ff48b4b-4954-4c4f-9d0c-9e11eadfeff8/2/iPhone7vsHonor6X-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="iPhone 7 vs Honor 6X: which one should you buy?" href="/v3-uk/review/3003314/iphone-7-vs-honor-6x-which-one-should-you-buy">iPhone 7 vs Honor 6X: which one should you buy?</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="Digital technology" href="/tag/digital-technology">Digital technology</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3002873/hmrc-to-let-customers-use-their-voice-to-prove-identity"><img title="VoiceID biometric security coming to HMRC customers" alt="VoiceID biometric security coming to HMRC customers" src="/w-images/4f393df8-618e-40c2-9d5b-adc9ca115de5/0/hmrc2-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="HMRC to let customers use their voice to prove identity" href="/v3-uk/news/3002873/hmrc-to-let-customers-use-their-voice-to-prove-identity">HMRC to let customers use their voice to prove identity</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3002417/learndirect-expands-outsourced-it-deal-with-trustmarque"><img title="" alt="" src="/w-images/12d24aaf-8f92-4e37-8445-c39d6afb63e5/0/learndirectlogo-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Learndirect expands outsourced IT deal with Trustmarque" href="/v3-uk/news/3002417/learndirect-expands-outsourced-it-deal-with-trustmarque">Learndirect expands outsourced IT deal with Trustmarque</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/interview/2479296/hp-inc-rules-out-smartphone-plans-as-it-puts-its-faith-in-printers"><img title="HP logo" alt="HP logo" src="/w-images/1d07fec5-423e-40f0-bb01-3bca363b3e02/1/hplogo2015-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="HP Inc rules out smartphone plans as it puts its faith in printers" href="/v3-uk/interview/2479296/hp-inc-rules-out-smartphone-plans-as-it-puts-its-faith-in-printers">HP Inc rules out smartphone plans as it puts its faith in printers</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/2477423/g4s-cio-says-devops-shift-requires-full-business-buy-in-not-just-from-it-team"><img title="G4S security van" alt="G4S security van" src="/w-images/c5049891-bcdd-4455-95bd-2bd89cacf24a/1/g4ssecurityvan-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="G4S CIO says DevOps shift requires full business buy-in, not just from IT team" href="/v3-uk/news/2477423/g4s-cio-says-devops-shift-requires-full-business-buy-in-not-just-from-it-team">G4S CIO says DevOps shift requires full business buy-in, not just from IT team</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/2473652/former-zurich-cdo-appointed-as-group-cdo-at-rsa"><img title="rsa-building-580x358" alt="rsa-building-580x358" src="/w-images/39a2c800-39ab-49d5-9623-919230d268b7/1/rsabuilding580x358-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Former Zurich CDO appointed as group CDO at RSA" href="/v3-uk/news/2473652/former-zurich-cdo-appointed-as-group-cdo-at-rsa">Former Zurich CDO appointed as group CDO at RSA</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="Cloud" href="/category/cloud-computing">Cloud</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004863/microsoft-gives-its-office-for-mac-suite-support-for-macbook-pro-touch-bar"><img title="TouchBar will support Office for Mac suite" alt="TouchBar will support Office for Mac suite" src="/w-images/b7ab2b56-4c58-48b5-b6c5-70c811fe2c6f/1/macbook2016-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar" href="/v3-uk/news/3004863/microsoft-gives-its-office-for-mac-suite-support-for-macbook-pro-touch-bar">Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004658/donald-trump-faces-questions-over-use-of-unsecure-android-smartphone-for-presidential-business"><img title="Pressure mounts on Trump" alt="Pressure mounts on Trump" src="/w-images/d6879b64-9037-485c-8bf0-0df1ed039a11/1/donaldtrump1711-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Donald Trump faces questions over use of unsecure Android smartphone for presidential business" href="/v3-uk/news/3004658/donald-trump-faces-questions-over-use-of-unsecure-android-smartphone-for-presidential-business">Donald Trump faces questions over use of unsecure Android smartphone for presidential business</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004590/uks-national-cyber-security-centre-finally-opens"><img title="UK cyber security centre opens" alt="UK cyber security centre opens" src="/w-images/ee4108e5-6b49-4583-bd28-960995fe440e/1/cyberdefencessecurity-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="UK&#39;s National Cyber Security Centre finally opens" href="/v3-uk/news/3004590/uks-national-cyber-security-centre-finally-opens">UK&#39;s National Cyber Security Centre finally opens</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004576/is-the-coo-role-about-to-be-absorbed-by-cios"><img title="" alt="" src="/w-images/8f4f4c55-b837-46d8-a464-8b80461b1682/1/johnlinwood-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Is the COO role about to be absorbed by CIOs?" href="/v3-uk/news/3004576/is-the-coo-role-about-to-be-absorbed-by-cios">Is the COO role about to be absorbed by CIOs?</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004489/the-top-spectrum-games-available-on-your-mobile"><img title="" alt="" src="/w-images/ff6540c6-5073-41e8-a99f-4cf7a6c8bcec/1/zxspectrum-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The top Spectrum games available on your mobile" href="/v3-uk/news/3004489/the-top-spectrum-games-available-on-your-mobile">The top Spectrum games available on your mobile</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="Data analytics" href="/tag/big-data">Data analytics</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/3004440/beyond-fitbit-how-iot-and-big-data-are-giving-us-control-over-our-health"><img title="Healthcare search results" alt="Healthcare search results" src="/w-images/2f03c475-c03c-4e6b-a763-575d7e047ff1/1/healthcaresearchresults-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Beyond Fitbit: How IoT and big data are giving us control over our health" href="/v3-uk/opinion/3004440/beyond-fitbit-how-iot-and-big-data-are-giving-us-control-over-our-health">Beyond Fitbit: How IoT and big data are giving us control over our health</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3001472/labour-party-wants-tech-firms-to-open-up-their-algorithms-to-scrutiny"><img title="Labour Party to call for regulation of technology companies’ algorithms" alt="Labour Party to call for regulation of technology companies’ algorithms" src="/w-images/f3728ee9-4a19-44ca-b693-e5b923157c40/1/chionwurah-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Labour Party wants tech firms to open up their algorithms to scrutiny" href="/v3-uk/news/3001472/labour-party-wants-tech-firms-to-open-up-their-algorithms-to-scrutiny">Labour Party wants tech firms to open up their algorithms to scrutiny</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/2479243/the-1984-about-face-is-our-data-sharing-obsession-progressive-or-dangerous"><img title="Peter Cochrane" alt="Peter Cochrane" src="/w-images/60525649-d5bf-4b4c-8fd3-165713185651/1/petercochraneprofile-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The &#39;1984 about-face&#39;: Is our data sharing obsession progressive or dangerous?" href="/v3-uk/opinion/2479243/the-1984-about-face-is-our-data-sharing-obsession-progressive-or-dangerous">The &#39;1984 about-face&#39;: Is our data sharing obsession progressive or dangerous?</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/2478074/making-big-data-work-for-small-business"><img title="Big data" alt="Big data" src="/w-images/31c7ab4b-65ad-4d01-a6f9-4bc41173f092/1/bigdataspiral-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Making Big Data work for small business" href="/v3-uk/opinion/2478074/making-big-data-work-for-small-business">Making Big Data work for small business</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/feature/2475338/raspberry-pi-and-bbc-micro-bit-are-helping-rekindle-kids-interest-in-maths-says-hannah-fry"><img title="Raspberry Pi 3" alt="Raspberry Pi 3" src="/w-images/f82f3c4f-101c-42be-92ff-e6339e57245e/1/raspberrypi3box-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Raspberry Pi and BBC micro:bit are helping rekindle kids&#39; interest in maths says Hannah Fry" href="/v3-uk/feature/2475338/raspberry-pi-and-bbc-micro-bit-are-helping-rekindle-kids-interest-in-maths-says-hannah-fry">Raspberry Pi and BBC micro:bit are helping rekindle kids&#39; interest in maths says Hannah Fry</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="Digital leaders" href="/tag/digital-leaders">Digital leaders</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3004184/announcing-the-top-100-it-leaders-of-2017"><img title="" alt="" src="/w-images/6d4de393-ac48-4db1-b107-2d02b505345a/1/champagne-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Announcing the Top 100 IT leaders of 2017" href="/v3-uk/news/3004184/announcing-the-top-100-it-leaders-of-2017">Announcing the Top 100 IT leaders of 2017</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/2479300/news-uk-cto-cdo-role-has-a-finite-lifespan"><img title="christina-scott-ft-cio" alt="christina-scott-ft-cio" src="/w-images/a4ec22d6-ad93-47fc-955b-c2f9cf59cbfc/1/christinascottftcio-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="News UK CTO: CDO role has a finite lifespan" href="/v3-uk/news/2479300/news-uk-cto-cdo-role-has-a-finite-lifespan">News UK CTO: CDO role has a finite lifespan</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/interview/2472986/barnardos-tackles-it-estate-sprawl-preps-for-windows-10-and-considers-the-cloud"><img title="Barnardos is a UK-based charity for children and families in need" alt="Barnardos is a UK-based charity for children and families in need" src="/w-images/8bb08940-9018-4ac5-ba3a-32541fff7c86/1/barnardoscharitylogo-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Barnardo&#39;s tackles IT estate sprawl, preps for Windows 10 and considers the cloud" href="/v3-uk/interview/2472986/barnardos-tackles-it-estate-sprawl-preps-for-windows-10-and-considers-the-cloud">Barnardo&#39;s tackles IT estate sprawl, preps for Windows 10 and considers the cloud</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/interview/2472669/gumtree-cto-explains-why-giving-digital-teams-freedom-is-reaping-rewards"><img title="Staff working together at Gumtree" alt="Staff working together at Gumtree" src="/w-images/c4718bb8-5f0a-4a73-8304-933d82f03fdf/1/gumtreeofficecollaborationitstaffboard-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Gumtree CTO explains why giving digital teams freedom is reaping rewards" href="/v3-uk/interview/2472669/gumtree-cto-explains-why-giving-digital-teams-freedom-is-reaping-rewards">Gumtree CTO explains why giving digital teams freedom is reaping rewards</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/feature/2470669/cdo-interview-how-philips-blake-cahill-drove-digital-worldwide"><img title="blake-cahill-philips-02" alt="blake-cahill-philips-02" src="/w-images/04d05737-2364-4b11-b2a1-b6c39b45bc43/0/blakecahillphilips02-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="CDO interview: How Philips&#39; Blake Cahill drove digital worldwide" href="/v3-uk/feature/2470669/cdo-interview-how-philips-blake-cahill-drove-digital-worldwide">CDO interview: How Philips&#39; Blake Cahill drove digital worldwide</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="IoT" href="/tag/internet-of-things">IoT</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3003888/hpe-buys-niara-for-machine-learning-network-security"><img title="HPE acquired Niara for machine-learning network security " alt="HPE acquired Niara for machine-learning network security " src="/w-images/eeae927e-7b05-4726-906a-3696e58a92f2/3/Niara-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="HPE buys Niara for machine-learning network security " href="/v3-uk/news/3003888/hpe-buys-niara-for-machine-learning-network-security">HPE buys Niara for machine-learning network security </a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/feature/3003386/bt-opens-doors-on-r-d-centre-as-it-considers-iot-3d-printing-and-lifi-for-military-use"><img title="Adastral Park, home of BT&#39;s research and development teams" alt="Adastral Park, home of BT&#39;s research and development teams" src="/w-images/17e97ab5-bc43-44f1-abda-2f3532bb2bfb/2/BTAdastralPark-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="BT opens doors on R&amp;D centre as it considers IoT, 3D printing and LiFi for military use" href="/v3-uk/feature/3003386/bt-opens-doors-on-r-d-centre-as-it-considers-iot-3d-printing-and-lifi-for-military-use">BT opens doors on R&amp;D centre as it considers IoT, 3D printing and LiFi for military use</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3002062/ofgem-energy-companies-wont-be-allowed-to-backslide-on-their-smart-meter-roll-out-commitments"><img title="Ofgem: Energy companies won’t be allowed to backslide on their smart meter roll-out commitments" alt="Ofgem: Energy companies won’t be allowed to backslide on their smart meter roll-out commitments" src="/w-images/cbf66a8d-87e4-4a0c-be0d-fab853313402/1/smartmetergeneric-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Ofgem: Energy companies won&#39;t be allowed to backslide on their smart meter roll-out commitments" href="/v3-uk/news/3002062/ofgem-energy-companies-wont-be-allowed-to-backslide-on-their-smart-meter-roll-out-commitments">Ofgem: Energy companies won&#39;t be allowed to backslide on their smart meter roll-out commitments</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/news/3002060/ftc-sues-d-link-over-router-and-ip-camera-security-flaws"><img title="FTC sues D-Link over router and IP camera security flaws" alt="FTC sues D-Link over router and IP camera security flaws" src="/w-images/0283f9dc-083b-483c-9606-266809104e71/3/DLinkwebcam-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="FTC sues D-Link over router and IP camera security flaws" href="/v3-uk/news/3002060/ftc-sues-d-link-over-router-and-ip-camera-security-flaws">FTC sues D-Link over router and IP camera security flaws</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/feature/3001809/material-world-rfid-tags-help-bernedsen-turn-iot-to-its-advantage"><img title="IoT helps Berendsen track millions of garments a day" alt="IoT helps Berendsen track millions of garments a day" src="/w-images/67334ce9-5a99-41c6-9420-07bd07994d81/2/Millionsofpiecesoflinenarriveanddepartitswarehouseseveryday-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Material world: RFID tags help Berendsen turn IoT to its advantage " href="/v3-uk/feature/3001809/material-world-rfid-tags-help-bernedsen-turn-iot-to-its-advantage">Material world: RFID tags help Berendsen turn IoT to its advantage </a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+						<li class="menu-title">
+						   <a title="Opinion" href="/type/opinion">Opinion</a>
+							<ul class="menu-content">
+								<li>
+								    <div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/3004720/why-oracle-must-not-prevail-in-its-java-google-vendetta"><img title="Java is at the heart of the row between the tech golitaths" alt="Java is at the heart of the row between the tech golitaths" src="/w-images/cf682fb4-3c2f-425e-9fad-a043f7b58b2b/1/oraclesuesgoogleoverjava300x225-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Why Oracle must not prevail in its Java Google vendetta" href="/v3-uk/opinion/3004720/why-oracle-must-not-prevail-in-its-java-google-vendetta">Why Oracle must not prevail in its Java Google vendetta</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/3004440/beyond-fitbit-how-iot-and-big-data-are-giving-us-control-over-our-health"><img title="Healthcare search results" alt="Healthcare search results" src="/w-images/2f03c475-c03c-4e6b-a763-575d7e047ff1/1/healthcaresearchresults-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Beyond Fitbit: How IoT and big data are giving us control over our health" href="/v3-uk/opinion/3004440/beyond-fitbit-how-iot-and-big-data-are-giving-us-control-over-our-health">Beyond Fitbit: How IoT and big data are giving us control over our health</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/3004338/the-rise-of-robot-dystopia-in-fiction-could-soon-be-reality"><img title="It&#39;s all fun on TV, but the robot revolution may not be so pleasent" alt="It&#39;s all fun on TV, but the robot revolution may not be so pleasent" src="/w-images/2bbe92f3-2a4e-48b2-8e34-15a82d702bc0/3/creepyrobot-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The rise of robot dystopia in fiction could soon be reality" href="/v3-uk/opinion/3004338/the-rise-of-robot-dystopia-in-fiction-could-soon-be-reality">The rise of robot dystopia in fiction could soon be reality</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/3004115/trump-s-absurd-rule-as-president-will-stifle-world-s-development"><img title="Trump is not the man to lead the US, and the world, into the future" alt="Trump is not the man to lead the US, and the world, into the future" src="/w-images/da48da5c-7cf4-48af-bfe5-5eb39e1455cd/1/donaldtrumpnew2016-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Trump&#39;s absurd rule as president will stifle world&#39;s development" href="/v3-uk/opinion/3004115/trump-s-absurd-rule-as-president-will-stifle-world-s-development">Trump&#39;s absurd rule as president will stifle world&#39;s development</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/v3-uk/opinion/3004006/apple-s-silence-on-vr-should-have-microsoft-google-and-the-rest-worried"><img title="Apple is likely biding its time with VR" alt="Apple is likely biding its time with VR" src="/w-images/0e10ec2a-e4e3-4e99-aa2d-27c2fc62bc2b/1/virtualrealityvrheadset-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Apple&#39;s silence on VR and AR should have Microsoft, Google and the rest worried" href="/v3-uk/opinion/3004006/apple-s-silence-on-vr-should-have-microsoft-google-and-the-rest-worried">Apple&#39;s silence on VR and AR should have Microsoft, Google and the rest worried</a>
+			</div>
+	</article>
+</article>
+</div>
+	
+								</li>
+							</ul>
+						</li>
+					<li class="menu-title">
+	<a href="#" class="more-panel"><span></span>All sections</a>
+	<ul class="menu-content more-panel navigation-all-sections">
+		<li>
+			<div class="section group content">
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-1">
+						
+<section>
+<div class="navigation-all-sections-subheading">Register</div>
+<ul>
+<li><a href="http://reg.incisive.managemyaccount.co.uk/V3/page0.php" target="_blank">Register for free access</a></li>
+<li><a href="http://email.v3.co.uk/k/Incisive-Media/v3_sign_up_form" target="_blank">Sign-up for email alerts</a></li>
+<li><a href="http://www.v3.co.uk/static/apps" target="_blank">Download our app</a></li>
+</ul>
+</section><section>
+<div class="navigation-all-sections-subheading">Connect with us</div>
+<ul>
+<li><a href="http://www.v3.co.uk/static/about-us">Contact us</a></li>
+<li><a href="https://twitter.com/V3_co_uk">Twitter</a></li>
+<li><a href="https://www.facebook.com/V3.co.uk/">Facebook</a></li>
+<li><a href="https://www.youtube.com/user/V3">Youtube</a></li>
+</ul>
+</section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-2">
+						
+<section>
+<div class="navigation-all-sections-subheading">Authors</div>
+<ul>
+<li><a href="http://www.v3.co.uk/author/1523/dan-worth">Dan Worth</a></li>
+<li><a href="http://www.v3.co.uk/author/3968/matt-farrington-smith">Matt Farrington-Smith</a></li>
+<li><a href="http://www.v3.co.uk/author/1484/stuart-sumner">Stuart Sumner</a></li>
+<li><a href="http://www.v3.co.uk/author/170/john-leonard">John Leonard</a></li>
+<li><a href="http://www.v3.co.uk/author/2354/graeme-burton">Graeme Burton</a></li>
+<li><a href="http://www.v3.co.uk/author/2384/peter-gothard">Peter Gothard</a></li>
+<li><a href="http://www.v3.co.uk/author/2353/carly-page">Carly Page</a></li>
+</ul>
+</section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-3">
+						
+<section>
+<div class="navigation-all-sections-subheading">Most popular content</div>
+<ul>
+<li><a href="http://www.v3.co.uk/type/analysis">Analysis</a></li>
+<li><a href="http://www.v3.co.uk/type/download-review">Downloads</a></li>
+<li><a href="http://www.v3.co.uk/type/feature">Features</a></li>
+<li><a href="http://www.v3.co.uk/type/interview">Interviews</a></li>
+<li><a href="http://www.v3.co.uk/category/security">Security</a></li>
+<li><a href="http://www.v3.co.uk/tag/apple">Apple</a></li>
+<li><a href="http://www.v3.co.uk/tag/google">Google</a></li>
+<li><a href="http://www.v3.co.uk/tag/internet-of-things">IoT</a></li>
+<li><a href="http://www.v3.co.uk/tag/big-data">Big data</a></li>
+<li><a href="http://www.v3.co.uk/tag/top-10">Top 10s</a></li>
+</ul>
+</section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-4">
+						
+<section>
+<div class="navigation-all-sections-subheading">Events</div>
+<p><a href="http://www.enterpriseitevents.com/">Our portfolio of enterprise IT brands produce high-calibre conferences, web-seminars, awards and events for IT professionals</a></p>
+</section><section>
+<div class="navigation-all-sections-subheading">RSS</div>
+<p><a href="http://www.v3.co.uk/static/rss">These RSS feeds are provided for personal use. Re-publication of V3 articles via RSS on another website is a breach of copyright and is prohibited.&nbsp;If in doubt please </a><a href="mailto:tom.wright@incisivemedia.com">contact us</a><a href="http://www.v3.co.uk/static/rss">.</a></p>
+</section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-5">
+						
+<section>
+<div class="navigation-all-sections-subheading">Related websites</div>
+<ul>
+<li><a href="http://www.computing.co.uk">Computing</a></li>
+<li><a href="http://www.theinquirer.net">The Inquirer</a></li>
+<li><a href="http://www.enterpriseitevents.com/">Enterprise IT events</a></li>
+<li><a href="http://www.incisivemedia.com/our-story/">About Incisive Media</a></li>
+<li><a href="http://www.incisivemedia.com/terms-and-conditions/">Terms and Conditions</a></li>
+<li><a href="http://www.incisivemedia.com/privacy-policy/">Privacy and cookie policy</a></li>
+<li><a href="http://www.v3.co.uk/static/using-ad-blocker-on-v3couk">FAQs on our anti-ad blocker</a></li>
+</ul>
+</section>
+					</div>
+			</div>
+		</li>
+	</ul>
+</li>
+					<!-- !PRODUCTION : Ommitted div.search-2 header-search-holder --->
+
+					<li class="search-panel">
+					   <div class="header-search-holder search-1 blur">
+							<form action="/search" id="search_form_bottom" method="get">
+							   <input aria-labelledby="Search" class="submit_style" type="submit" value="" />
+							   <span>
+							   <input id="search_header" type="search" name="query" value="" required="" placeholder="Search" aria-labelledby="Search">
+							   </span>
+							   <input class="hidden_style" id="per_page" name="per_page" type="hidden" value="24" />
+							   <input class="hidden_style" id="sort" name="sort" type="hidden" value="relevance1" />
+							   <input class="hidden_style" id="date" name="date" type="hidden" value="this_year" />
+							   <input class="hidden_style" name="home_search" type="hidden" value="homepage" />
+							</form>
+					   </div>
+					</li>
+					
+				</ul>
+			</nav>
+		</script>
+		<div id="conditional-navigation" class="" >
+			<!-- no script default fall back -->
+			<nav class="primary-nav nav-colour01" role="navigation" aria-label="Primary">
+				<ul class="main-menu main-top-content content-width">
+						<li class="menu-title">
+							
+						</li>
+						<li class="menu-title">
+							<a title="News" href="/type/news">News</a>
+						</li>
+						<li class="menu-title">
+							<a title="Reviews" href="/type/review">Reviews</a>
+						</li>
+						<li class="menu-title">
+							<a title="Digital technology" href="/tag/digital-technology">Digital technology</a>
+						</li>
+						<li class="menu-title">
+							<a title="Cloud" href="/category/cloud-computing">Cloud</a>
+						</li>
+						<li class="menu-title">
+							<a title="Data analytics" href="/tag/big-data">Data analytics</a>
+						</li>
+						<li class="menu-title">
+							<a title="Digital leaders" href="/tag/digital-leaders">Digital leaders</a>
+						</li>
+						<li class="menu-title">
+							<a title="IoT" href="/tag/internet-of-things">IoT</a>
+						</li>
+						<li class="menu-title">
+							<a title="Opinion" href="/type/opinion">Opinion</a>
+						</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="mobile-branding"><a href="/" class="mobile-branding-link" alt="V3.co.uk" ></a></div> 
+	</div>
+	<div class="mask">
+	<div class="menu4">
+		<div>
+			<a href="/home/manage_account" class="user-info"></a>
+			
+<div id="rdm-above-corp-menu">&nbsp;</div>
+<ul class="header-tools-content institutional" style="display: none;">
+<li><aside>
+<div class="error login_error_message" id="login_error_message_header">&nbsp;</div>
+<div class="user-menu">
+<p>You are currently accessing V3 .co.uk via your Enterprise account.</p>
+<p>Personalise your on site experience</p>
+<p>Download and use the apps</p>
+<p>Access your subscription from outside of the office</p>
+<p>Get relevant news and insight straight to your inbox</p>
+<p><button class="register">Request account</button></p>
+</div>
+<ul class="user-menu">
+<li><a href="http://www.v3.co.uk/userlogin" title="Sign in" class="sign-in-user-link">Sign in</a></li>
+</ul>
+</aside></li>
+</ul>
+
+<div id="rdm-above-user-menu">&nbsp;</div>
+<ul class="header-tools-content individual" style="display: none;">
+<li>
+<ul class="user-menu"><!-- <li><a href="http://www.v3.co.uk/home/manage_account" title="Saved articles" class="saved-articles-user-link">Saved articles</a></li> -->
+<li><a href="http://newsletters.incisivemedia.com/incisive_newsletters/v3/newsletter_signup.html" title="Newsletters" class="newsletters-user-link">Newsletters</a></li>
+<li><a href="http://www.v3.co.uk/static/apps" title="Apps" class="apps-user-link">Apps</a></li>
+<li><a href="http://www.v3.co.uk/home/manage_account#myaccount" title="Account details" class="account-user-link">Account details</a></li>
+<li><a href="http://www.v3.co.uk/home/manage_account#contact" title="Contact support" class="contact-user-link">Contact support</a></li>
+<li><a href="http://www.v3.co.uk/home/logout" title="Sign out" class="sign-out-user-link">Sign out</a></li>
+</ul>
+</li>
+</ul>
+<div id="rdm-below-user-menu">&nbsp;</div>
+		</div>
+	</div>
+</div>
+</nav>
+
+<aside class="content">
+	<div class="content-inner content-full-width">
+		<div class="main-content">
+				<div id="rdm-below-header" class="ad-slot-full"></div>
+		</div>
+	</div>
+</aside>
+
+
+				<div class="page-content ajax_search">
+						<header class="article-header">
+	<div class="content">
+		<div class="content-inner">
+			<div class="main-content">
+				<div class="section group">
+					<div class="col span_1_of_5">
+						<img class="print-branding" src="http://assets.incisivemedia.com/cdn/iw/images/site-logo.png" alt="V3.co.uk">
+						<nav>
+							<ul class="meta-taxonomy-list breadcrumb">
+									<li>
+										<a href="/category/strategy/public-sector/">Public Sector</a>
+									</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col span_4_of_5">
+						<h1 itemprop="name" class="article-title">Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK</h1>
+							<h2 class="article-sub-title">Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware</h2>
+					</div>
+				</div>
+			</div><!--  end main-content -->
+		</div><!-- content-inner end  -->
+	</div><!-- content end -->
+</header>
+<div class="content">
+	<main role="main" class="content-inner">
+		<div class="main-content">
+				<article class="section group article"> 
+		<div class="col span_1_of_5"></div>
+		<div class="col span_4_of_5 article-col">
+						<figure class="main">
+				<img alt="Banks and governments hit by sophisticated malware attacks, including seven in UK" title="Banks and governments hit by sophisticated malware attacks, including seven in UK" src="/w-images/6cd8d10c-b59a-4789-8f5d-366a992de013/1/dangerousfingershacking-580x358.jpg" />
+
+				<figcaption>
+					<div class="caption-text">
+						Banks and governments hit by sophisticated malware attacks, including seven in UK 
+					</div>
+				</figcaption>
+			</figure>
+
+			<div class="article-meta-container group">
+					<ul class="meta-taxonomy-list author-dateline  author-dateline-no-image">
+			<li class="author-dateline-name">
+				<a href="/author/profile/2354/graeme-burton">Graeme Burton</a>
+			</li>
+			<li class="author-dateline-social">
+				<div class="meta-twitter">
+					<a class="twitter-follow" target="_blank" data-component="meta-twitter-handle" data-link-name="twitter-handle" href="http://twitter.com/@graemeburton">
+						<svg viewBox="0 0 15 12" height="0.813em" width="0.938em" y="0" x="0" class="twitter-icon">
+							<path d="M15,1.422c-0.541,0.241-1.128,0.404-1.74,0.477c0.625-0.376,1.106-0.969,1.331-1.678
+							c-0.584,0.347-1.235,0.602-1.924,0.737c-0.555-0.59-1.342-0.956-2.21-0.956c-1.675,0-3.03,1.354-3.03,3.028
+							c0,0.236,0.027,0.468,0.077,0.692C4.986,3.594,2.756,2.39,1.262,0.556C1.001,1.002,0.851,1.522,0.851,2.078
+							c0,1.051,0.536,1.977,1.348,2.521C1.702,4.582,1.237,4.446,0.828,4.222c0,0.013,0,0.025,0,0.037c0,1.467,1.043,2.691,2.429,2.971
+							C3.003,7.297,2.735,7.334,2.459,7.334c-0.196,0-0.387-0.018-0.57-0.052c0.384,1.204,1.502,2.078,2.83,2.102
+							c-1.035,0.813-2.343,1.299-3.76,1.299c-0.247,0-0.487-0.015-0.726-0.044C1.574,11.498,3.167,12,4.879,12
+							c5.571,0,8.616-4.616,8.616-8.618c0-0.13,0-0.263-0.006-0.393C14.08,2.562,14.592,2.031,15,1.422z"/>
+						</svg> 
+							<div class="contact">
+								@graemeburton
+							</div> 
+				    </a>
+				</div>
+			</li>
+			<li class="author-dateline-time">
+				<time datetime="2017-02-09" itemprop="datePublished">
+					09 February 2017
+				</time>
+			</li>
+	</ul>
+
+				<div class="tools-meta-outer">
+	<ul class="tools-container">
+		<li>
+			<div title="Tweet" class="article-tools twitter-icon icons pos1">
+				<span title="Tweet" class="screen-reader-text">Tweet</span>
+				<a href="http://twitter.com/share?text=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+			</div>
+		</li>
+		<li>
+			<div title="Facebook" class="article-tools facebook-icon icons pos2">
+				<span class="screen-reader-text">Facebook</span>
+				<a href="http://www.facebook.com/sharer.php?u=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+			</div>
+		</li>
+
+
+			<li>
+			   <div data-social-tracking="added" title="Reddit" class="article-tools reddit-icon icons pos4">
+						<a href="http://reddit.com/submit?url=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+			   </div>
+			</li>
+
+			<li>	
+			  <div data-social-tracking="added" title="Stumbleupon" class="article-tools stumbleupon-icon icons pos5">	  
+					<a href="http://www.stumbleupon.com/submit?url=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+			  </div>
+			</li>
+
+
+		<!-- <li>
+			<div title="Save article" class="article-sticky-tools save-icon icons pos5">
+				<span class="screen-reader-text">Save this article</span>
+				<a onclick="savedArticleStatus(); return false;" href="#">&nbsp;</a>
+			</div>
+		</li> -->
+		<li>
+			<div title="Send to" class="article-tools email-icon icons pos6">
+				<span class="screen-reader-text">Send to</span>
+				<a target="_blank" rel="nofollow" href="mailto:?subject=Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK&amp;body=%0D%0A%0D%0Ahttp%3A%2F%2Fwww.v3.co.uk%2F3004349">&nbsp;</a>
+			</div>
+		</li>
+	</ul>
+	<!-- tools end -->
+	<div class="article-meta-numbers">      
+	    <div class="comment-count">
+	    	<a href="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk#disqus_thread">0 Comments</a>
+	    </div>
+	    <div class="social-count">
+	        <a href="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk"><span class="share-total"></span></a>
+	    </div>
+	</div>
+</div><!-- tools-meta-outer end -->
+			</div>
+			
+			<div id="rdm-below-summary"></div>
+			<div class="article-page-body-content">
+				<!-- <div class="article-content"> -->
+					 
+
+	
+	
+	<p>Governments and the global banking system are being targeted by sophisticated in-memory malware that, security researchers claim, is almost undetectible using conventional security techniques.</p>
+<p>According to security software company Kaspersky, more than 140 major organisations in 40 countries, particularly banks, but also telecoms companies and governmental organisations, have been affected.</p>
+	
+	<div id="rdm-above-related"></div>
+	
+	
+<p>Kaspersky claims to have identified seven organisations in the UK that have been affected, and ten in France. But the US appears to be the most targeted, with 21 organisations affected. Peculiarly, perhaps, Germany and China, according to Kaspersky's data, haven't been affected.</p>
+	
+	
+	
+<p>"The attackers, who may be connected to the GCMAN and Carbanak groups, aren't using signature-based malware to carry out their attackers, instead they're using fileless malware hidden in the memory of the affected servers," <a href="https://threatpost.com/fileless-memory-based-malware-plagues-140-banks-enterprises/123652/" target="_blank" title="Threatpost">claims Chris Brook</a>, writing for Kaspersky's <em>Threat Post</em> website.</p>
+<p>"Researchers uncovered the attacks after banks in the Commonwealth of Independent States [former Soviet Union] found <a href="https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/" target="_blank" title="Offensive Security - Meterpeter Basics ">Meterpreter</a>, an extensible payload component used by Metasploit, inside the physical memory of a domain controller. Researchers with Kaspersky Lab found the software had been combined with PowerShell scripts in order to invisibly siphon up the passwords of system administrators," continued Brook.</p>
+<p>Meterpreter is a legitimate penetration testing tool that Kaskersky has previously seen used maliciously by a group it calls <a href="https://blog.kaspersky.com/metel-gcman-carbanak/11236/" target="_blank" title="Kaspersky blog">GCMan</a>.</p>
+<p>This gave the attackers remote access to the machines, "who also used Microsoft's command-line scripting utility NETSH to funnel traffic from the victim's host to the attacker's command and control system", according to Brook.</p>
+<p>Kaspersky believes that the attackers also used <a href="https://www.offensive-security.com/metasploit-unleashed/Mimikatz/" target="_blank" title="Offensive Security">Mimikatz</a>, an open-source &lsquo;post exploitation' utility, to acquire credentials for administrative level accounts.</p>
+<p>According to Kaspersky, the attackers follow a fairly straighforward process. They gain initial entry by using a known exploit for an unpatched server vulnerability. Then, they use Meterpreter and PowerShell scripts to infect targeted computers.</p>
+<p>Third, their malware is hidden in memory, typically the Windows registry, to evade detection. At this stage, they are able to gather credentials and other valuable information. Standard utilities, such as NETSH, is used to exfiltrate compromised information.</p>
+<p>According to Kaspersky, nearly all traces of the malware will disappear on reboot and, because the malware leaves little trace behind it isn't detected by conventional anti-virus and other security software.</p>
+<p>The company hasn't been able to definitively identify a group behind the wave of attacks, but claim that the techniques deployed resemble groups such as GCMan and Carbanak, a gang also known as Anunak that Kaspersky claims has stolen as much as $1bn from up to 100 banks.&nbsp;</p>
+<p>It re-emerged towards the end of last year in a string of attacks targeting call centres in the hospitality sector with the ultimate aim of compromising point-of-sale retail systems.&nbsp;</p>
+<p>The claims from Kaspersky follows a year of disclosures over malicious attacks on banks targeting their payments systems. In one, on the central bank of Bangladesh, <a href="http://www.computing.co.uk/ctg/analysis/2465701/bangladesh-bank-cyber-heist-stopped-by-just-one-word" target="_blank" title="Computing - Bangladesh Bank $951m cyber heist: Stopped by just one word">the attackers came close to executing transfers of $951m</a>, but were thwarted by their own spelling mistakes.</p>
+	
+
+				<!-- </div> -->
+				
+
+
+
+				
+				<!-- <footer> -->
+				<div id="rdm-below-article-body"></div>
+<ul class="tools-container">
+	<li>
+		<div title="Tweet" class="article-tools twitter-icon icons pos1">
+			<span title="Tweet" class="screen-reader-text">Tweet</span>
+			<a href="http://twitter.com/share?text=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+		</div>
+	</li>
+	<li>
+		<div title="Facebook" class="article-tools facebook-icon icons pos2">
+			<span class="screen-reader-text">Facebook</span>
+			<a href="http://www.facebook.com/sharer.php?u=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+		</div>
+	</li>
+
+
+	<li>
+	   <div data-social-tracking="added" title="Reddit" class="article-tools reddit-icon icons pos4">
+				<a href="http://reddit.com/submit?url=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+	   </div>
+	</li>
+
+	<li>	
+	  <div data-social-tracking="added" title="Stumbleupon" class="article-tools stumbleupon-icon icons pos5">	  
+			<a href="http://www.stumbleupon.com/submit?url=Banks+and+governments+hit+by+sophisticated+malware+attacks%2C+with+seven+targets+hit+in+UK&amp;url=http://www.v3.co.uk/3004349" rel="nofollow" target="_blank">&nbsp;</a>
+	  </div>
+	</li>
+
+
+	
+	
+	<!-- <li>
+		<div title="Save article" class="article-sticky-tools save-icon icons pos5">
+			<span class="screen-reader-text">Save this article</span>
+			<a onclick="savedArticleStatus(); return false;" href="#">&nbsp;</a>
+		</div>
+	</li> -->
+	
+	
+	<li>
+		<div title="Send to" class="article-tools email-icon icons pos6">
+			<span class="screen-reader-text">Send to</span>
+			<a target="_blank" rel="nofollow" href="mailto:?subject=Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK&amp;body=%0D%0A%0D%0Ahttp%3A%2F%2Fwww.v3.co.uk%2F3004349">&nbsp;</a>
+		</div>
+	</li>
+	
+</ul>
+				<!-- tools end -->
+				<ul class="meta-taxonomy-list related-links">
+	<li>
+		Topics
+	</li>
+	<li>
+		<a href="/category/strategy/public-sector/">Public Sector</a>
+	</li>
+	<li>
+		<a href="/category/security/">Security</a>
+	</li>
+	<li>
+		<a href="/tag/cloud/">cloud</a>
+	</li>
+	<li>
+		<a href="/tag/kaspersky/">Kaspersky</a>
+	</li>
+	<li>
+		<a href="/tag/malware/">malware</a>
+	</li>
+	<li>
+		<a href="/tag/security/">security</a>
+	</li>
+</ul>
+
+				<!-- about author start -->
+				
+				<!-- about author end -->
+			</div>
+		</div>
+	</article>
+	<!-- article chunk end  -->
+	<div id="rdm-above-series-blog"></div>
+	<div id="rdm-above-more-news"></div>
+		<section class="news-articles">
+	<header class="related-listings-header">
+		<h4 itemprop="name">V3 Latest</h4>
+	</header>
+	<div class="section group">
+		<article class="col span_2_of_4 first-element">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3004898/iot-101-getting-started-in-home-automation"><img title="Internet of Things" alt="Internet of Things" src="/w-images/d7216488-e5c0-4b69-bb14-a31f803f83ef/1/internetofthings2-230x142.jpg" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				     <h5 class="listings-article-title"><a title="IoT 101: Getting started in home automation" href="/v3-uk/news/3004898/iot-101-getting-started-in-home-automation">IoT 101: Getting started in home automation</a></h5>
+
+				<p class="section-story">
+					The most important gadgets to make your home work for you
+
+				</p>
+				<ul class="article-meta-details" >
+	<li>
+		<a class="v3-uk-link" href="/category/software/">Software</a>
+	</li>
+	<li>
+		<time datetime="2017-02-17" itemprop="datePublished">
+			17 February 2017
+		</time>
+	</li>
+</ul>
+			</div>
+		</article>
+		<article class="col span_2_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3004891/google-x-uses-ai-to-reduce-number-of-balloons-needed-for-sky-high-wifi-coverage"><img title="Project Loon" alt="Project Loon" src="/w-images/85c2bd07-a5b1-4a71-ae39-d29da430dbe5/2/FewerofthesemaybeneedtomakeProjectLoonasuccess-230x142.jpeg" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				     <h5 class="listings-article-title"><a title="Google X uses AI to reduce number of balloons needed for sky-high WiFi coverage" href="/v3-uk/news/3004891/google-x-uses-ai-to-reduce-number-of-balloons-needed-for-sky-high-wifi-coverage">Google X uses AI to reduce number of balloons needed for sky-high WiFi coverage</a></h5>
+
+				<p class="section-story">
+					Plans could cut number of balloons needed by 90 per cent
+
+				</p>
+				<ul class="article-meta-details" >
+	<li>
+		<a class="v3-uk-link" href="/category/communications/telecoms/">Telecoms</a>
+	</li>
+	<li>
+		<time datetime="2017-02-17" itemprop="datePublished">
+			17 February 2017
+		</time>
+	</li>
+</ul>
+			</div>
+		</article>
+		<article class="col span_2_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3004863/microsoft-gives-its-office-for-mac-suite-support-for-macbook-pro-touch-bar"><img title="TouchBar will support Office for Mac suite" alt="TouchBar will support Office for Mac suite" src="/w-images/b7ab2b56-4c58-48b5-b6c5-70c811fe2c6f/1/macbook2016-230x142.png" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				     <h5 class="listings-article-title"><a title="Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar" href="/v3-uk/news/3004863/microsoft-gives-its-office-for-mac-suite-support-for-macbook-pro-touch-bar">Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar</a></h5>
+
+				<p class="section-story">
+					Microsoft quick to adapt software to new tools
+
+				</p>
+				<ul class="article-meta-details" >
+	<li>
+		<a class="v3-uk-link" href="/category/software/developer/">Developer</a>
+	</li>
+	<li>
+		<time datetime="2017-02-17" itemprop="datePublished">
+			17 February 2017
+		</time>
+	</li>
+</ul>
+			</div>
+		</article>
+		<article class="col span_2_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3004858/enterprisedb-aims-at-the-digital-enterprise-with-postgres-platform-2017"><img title="" alt="" src="/w-images/5ad53900-5483-4561-88b7-28926318e20c/1/googledatacentertech21-230x142.jpg" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				     <h5 class="listings-article-title"><a title="EnterpriseDB aims at the digital enterprise with Postgres Platform 2017" href="/v3-uk/news/3004858/enterprisedb-aims-at-the-digital-enterprise-with-postgres-platform-2017">EnterpriseDB aims at the digital enterprise with Postgres Platform 2017</a></h5>
+
+				<p class="section-story">
+					New features to improve connectivity and integration
+
+				</p>
+				<ul class="article-meta-details" >
+	<li>
+		<a class="v3-uk-link" href="/category/software/databases/">Databases</a>
+	</li>
+	<li>
+		<time datetime="2017-02-17" itemprop="datePublished">
+			17 February 2017
+		</time>
+	</li>
+</ul>
+			</div>
+		</article>
+	</div>
+</section>
+<!-- end more news -->
+
+	<!-- end more news articles  -->
+		<div id="rdm-above-comments"></div>
+			<section class="comment">
+	<div>
+		<button style="" class="btn comments centerize">
+			<span class="font-nada" style="float:right; text-align:left; margin-right:30px;">Add a comment</span>
+			<div>
+				<a href="http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk">Add a comment</a>
+			</div>
+		</button>
+		<div class="list-holder">
+			<div class="list-inner">
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'v3-live';
+					// required: replace example with your forum short name
+					var disqus_developer = 0;
+					var disqus_identifier = '/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk';
+					var disqus_title = "Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK";
+					var disqus_url = "http://www.v3.co.uk/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk";
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+					 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					 dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+					 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					 })();
+				</script>
+				<noscript>
+					Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+				</noscript>
+				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+			</div>
+		</div>
+		<!-- comment holder end -->
+	</div>
+</section>
+
+	<div class="scrollup">
+		Back to Top
+	</div>
+
+		</div><!--  end main-content -->
+		<div role="complementary" class="sidebar">
+			<div id="rdm-rhc-top" class="ad-slot"></div>
+ 	<!-- popular-articles - start -->
+<section class="popular-articles">
+	<header class="related-listings-header">
+		<h4 itemprop="name">Most read</h4>
+	</header>
+	<div class="section group">
+		<article class="col span_1_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3003457/hundreds-of-it-jobs-to-go-at-aecom-as-it-outsources-to-ibm"><img title="" alt="" src="/w-images/719f6184-43de-43c2-8a70-661b88135125/1/axecutsredundancies370x229-140x87.jpg" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				<h5>     <a title="Hundreds of IT jobs to go at Aecom as it outsources to IBM" href="/v3-uk/news/3003457/hundreds-of-it-jobs-to-go-at-aecom-as-it-outsources-to-ibm">Hundreds of IT jobs to go at Aecom as it outsources to IBM</a>
+</h5>
+			</div>
+		</article>
+		<article class="col span_1_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/2335075/top-10-apple-iphone-benefits-over-android-devices"><img title="Apple iPhone 5S in space grey gold and silver" alt="Apple iPhone 5S in space grey gold and silver" src="/w-images/065c4bf4-e4cc-42d6-9761-084e4522ffee/0/appleiphone5ssilvergoldblack-140x87.png" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				<h5>     <a title="Top 10 Apple iPhone benefits over Android devices" href="/v3-uk/news/2335075/top-10-apple-iphone-benefits-over-android-devices">Top 10 Apple iPhone benefits over Android devices</a>
+</h5>
+			</div>
+		</article>
+		<article class="col span_1_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/review/2299838/iphone-5s-vs-iphone-5-head-to-head-review"><img title="apple-iphone-5s-and-iphone-5-front-view" alt="apple-iphone-5s-and-iphone-5-front-view" src="/w-images/b86cf120-8449-4a6c-9cd8-03a690979ef8/0/appleiphone5sandiphone5frontview-140x87.jpg" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				<h5>     <a title="iPhone 5S vs iPhone 5 head-to-head review" href="/v3-uk/review/2299838/iphone-5s-vs-iphone-5-head-to-head-review">iPhone 5S vs iPhone 5 head-to-head review</a>
+</h5>
+			</div>
+		</article>
+		<article class="col span_1_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3003441/leakedsource-taken-down-following-raid-by-fbi"><img title="LeakedSource taken down following raid by FBI" alt="LeakedSource taken down following raid by FBI" src="/w-images/95af7887-828d-400e-8faf-7bdd92eb1624/0/fbilogo1-140x87.png" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				<h5>     <a title="LeakedSource taken down following raid by FBI" href="/v3-uk/news/3003441/leakedsource-taken-down-following-raid-by-fbi">LeakedSource taken down following raid by FBI</a>
+</h5>
+			</div>
+		</article>
+		<article class="col span_1_of_4">
+			<div class="image-text-group-a">
+				
+<a href="/v3-uk/news/3003345/apple-plans-update-to-let-siri-work-on-apple-watch-apps"><img title="Apple Watch to get Siri support" alt="Apple Watch to get Siri support" src="/w-images/9f59d0ed-4547-4b0a-b231-f6bbc3e7e704/1/applewatch-140x87.png" /></a>
+
+
+
+ 
+			</div>
+			<div class="image-text-group-b">
+				<h5>     <a title="Apple plans update to let Siri work on Apple Watch apps" href="/v3-uk/news/3003345/apple-plans-update-to-let-siri-work-on-apple-watch-apps">Apple plans update to let Siri work on Apple Watch apps</a>
+</h5>
+			</div>
+		</article>
+	</div><!-- end first section group -->
+</section>
+<!-- popular-articles - end -->
+
+
+<div id="rdm-rhc-bottom" class="ad-slot"></div>
+		</div><!--  end sidebar -->
+	</main>
+</div>
+
+				</div>
+				<aside class="content">
+	<div class="content-inner content-full-width">
+		<div class="main-content">
+				<div id="rdm-above-footer" class="ad-slot-full"></div>
+		</div>
+	</div>
+</aside>
+				<footer class="main-footer">
+	<div class="main-footer-content main-footer-links">
+		<div class="main-footer-content-inner content-width">
+			
+<ul class="main-footer-nav">
+<li class="menu-title"><a href="http://www.v3.co.uk/static/about-us" title="">Contact</a></li>
+<li class="menu-title"><a href="http://btgmarketingsolutions.incisivemedia.com" title="">Marketing solutions</a></li>
+<li class="menu-title"><a href="http://www.enterpriseitevents.com/" title="">Enterprise IT Events</a></li>
+<li class="menu-title"><a href="http://www.incisivemedia.com/our-story/" target="_blank" title="">About Incisive Media</a></li>
+<li class="menu-title"><a href="http://www.incisivemedia.com/terms-and-conditions/" target="_blank" title="">Terms &amp; conditions</a></li>
+<li class="menu-title"><a href="http://www.incisivemedia.com/privacy-policy/" target="_blank" title="">Privacy policy</a></li>
+</ul>
+<!-- Avocet Image Pixel - V3.co.uk - All Pages - 5703aea3f0748d4e05ad53c3 -->
+<p><img src="http://ads.avocet.io/s?add=5703aea3f0748d4e05ad53c3" /></p>
+<!-- end -->
+			<ul class="footer-tools-content main-footer-align-right">
+				<li>
+	<div class="nav-tools rss-icon">
+		<a href="http://www.v3.co.uk/static/rss" target="_blank">RSS</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools twitter-icon">
+		<a href="http://twitter.com/V3_co_uk" target="_blank">Twitter</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools newsletters">
+		<a href="http://email.v3.co.uk/k/Incisive-Media/v3_sign_up_form" target="_blank">Newsletters</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools facebook-icon">
+		<a href="http://www.facebook.com/pages/V3couk/117466641415?ref=ts" target="_blank">Facebook</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools youtube">
+		<a href="http://www.youtube.com/v3" target="_blank">YouTube</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools apps">
+		<a href="http://www.v3.co.uk/static/apps" target="_blank">Apps</a>
+	</div>
+</li>
+
+			</ul>
+
+		</div>
+	</div>
+	<div class="main-footer-content main-footer-copyright">
+		<div class="main-footer-content-inner content-width">
+			<div class="incisivemedia-footer">
+				
+<p style="float: left;"><a href="http://www.incisivemedia.com/" target="_blank" title="Incisive Media 2015"> <span class="logo"> <span class="screen-reader-text">&copy; Incisive Business Media Limited</span> </span> </a></p>
+<p class="copyright-full">&copy; Incisive Business Media (IP) Limited, Published by Incisive Business Media Limited, Haymarket House, 28-29 Haymarket, London SW1Y 4RX, are companies registered in England and Wales with company registration numbers 9177174 &amp; 9178013</p>
+			</div>
+			<div class="incisivemedia-accreditation">
+				
+<div class="accreditation-logos"><span class="screen-reader-text">Digital publisher of the year 2010, 2013 &amp; 2016</span></div>
+<p class="accredit-text"><a href="http://www.incisivemedia.com/our-news/incisive-voted-best-digital-publisher-uk-peers-record-third-time/" target="_blank">Digital publisher of the year 2010, 2013 &amp; 2016</a></p>
+			</div>
+
+		</div>
+	</div>
+</footer>
+			</div>
+		<script src="/javascripts/cookie.js"></script> 
+
+		<script type="text/javascript">
+		  jQuery(document).ready(function() {
+		    if(getCookie("series_token_error_message")!=null && getCookie("series_token_error_message") !=""){
+			var userlogin_path=location.pathname;
+			if(userlogin_path == "/userlogin"){
+			$("span#login_error_message_header").html(getCookie("series_token_error_message").replace(/\+/g, " ")).show();
+			deleteCookie("series_token_error_message");
+			}}});
+			 jQuery(document).ready(function() {
+			$("#userlogin .btn.login").on("click",function(){
+			$("span#login_error_message_header").html("").hide();
+			})});
+		</script>
+		
+		<script type="text/javascript">
+		  jQuery(document).ready(function() {
+		      if(getCookie("series_token_error_message")!=null && getCookie("series_token_error_message") !=""){
+		      if(getCookie("series_token_error_message").match("articles$") !=null){
+		   $("span#login_error_message_teaser").html(getCookie("series_token_error_message").replace(/\+/g, " ").replace(/\w+$/,'')).show();
+		   deleteCookie("series_token_error_message");
+		   }
+		   }
+		   });
+		    jQuery(document).ready(function() {
+		   $("#login_barrier .login_submit").on("click",function(){
+		   $("span#login_error_message_teaser").html("").hide();
+		   });});
+		</script>
+
+         <script src="http://assets.v3.co.uk/cdn/v3/scripts/scripts.js"></script>
+                   
+            <script src="/javascripts/KRESearch.js"></script>
+		<script type="text/javascript">
+		    jQuery(document).ready(function() {
+		    	$("#login").hover(function(){
+			       $(".login-offset").hide();
+				});
+		    	 setTimeout(function(){ 
+		    	 	jQuery("#register,#login,#follow,#free-trial").show();
+					if(getCookie("logged_in") == "false"){
+							jQuery("#register,#login,#follow,#free-trial").show();
+						    jQuery("#user").hide();
+					}else if(getCookie("logged_in") == "true"  || getCookie("logged_in") == "expired"|| getCookie("logged_in") == null){
+							if(getCookie("first_name")!= null && getCookie("first_name")!="" && getCookie("subc")!=""){
+								$("#user,#follow").show();
+						        $("#register,#login,#free-trial").hide();
+						        jQuery(".user-info").html('My account');
+								if(getCookie("institutional_login") == "true"){
+									if(getCookie("individual_login") == "true"){
+										$(".individual").show();
+										$('.institutional').hide();
+										$(".user-info").html('My account');
+										$("#user").removeClass("main-top-institution");
+									}else{
+										$(".individual").hide();
+										$(".user-info").html('Welcome');
+										$("#user").addClass("main-top-institution");
+									}
+								}else{
+										$(".individual").show();
+										$("#user").removeClass("main-top-institution");
+								}
+							}else{
+									jQuery.ajax({
+			                        type : 'GET',
+			                        dataType : 'html',
+			                        beforeSend : function(xhr) {
+			                            xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'))
+			                        },
+			                        url : '/user_info',
+			                        success : function(data) {
+			                            if(getCookie("logged_in") == "true" || getCookie("logged_in") == "expired" ){
+			                                if(getCookie("first_name")!= null && getCookie("subc")!= null && getCookie("first_name")!="" && getCookie("subc")!=""){
+												$("#user,#follow").show();
+						        				$("#register,#login,#free-trial").hide();
+						        				jQuery(".user-info").html('My account');
+												if(getCookie("institutional_login") == "true"){
+													if(getCookie("individual_login") == "true"){
+														$(".individual").show();
+														$('.institutional').hide();
+														$(".user-info").html('My account');
+														$("#user").removeClass("main-top-institution");
+													}else{
+														$(".individual").hide();
+														$('.institutional').show();
+														$(".user-info").html('Welcome');
+														$("#user").addClass("main-top-institution");
+													}
+												}else{
+														$(".individual").show();
+														$("#user").removeClass("main-top-institution");
+												}
+			                                }
+			                            }
+			                           else{
+										   $("#register,#login,#follow,#free-trial").show();
+									 if(getCookie("series_token_error_message")!=null && getCookie("series_token_error_message") !=""){
+										   var userlogin_path=location.pathname;
+										   if(userlogin_path != "/userlogin" &&  (getCookie("series_token_error_message").match("articles$") == null)){
+										   location.pathname="/userlogin";
+						                 }}
+										}
+			                        }
+			                    });
+							}
+					}
+						}, 2000);
+				$("#user").hover(function(event){
+				   event.preventDefault();
+				   if(getCookie("institutional_login") == "true"){
+						if(getCookie("individual_login") == "true"){
+							$(".individual").show();
+							$('.institutional').hide();
+						}else{
+							$(".individual").hide();
+							$('.institutional').show();
+						}
+					}
+				});
+			});
+		</script>
+
+		<script type="text/javascript">
+		/* article teaser csrf token */
+		$(function(){
+			 jQuery.ajax({
+            url : '/article_teaser_login',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content')); 
+                $( "#export_loaders" ).show();              
+            },
+            success : function(data) {
+            	$( "#export_loaders" ).hide();
+                $(".art_teaser").html(data);
+            }
+        });
+		});
+		</script> 
+
+		 <script type="text/javascript">
+/*script for login */
+
+    jQuery(document).on('click', '.login_form_submit.login_submit', function(event) {
+    	event.preventDefault();
+        jQuery.ajax({
+            url : '/wps/authentication/verify_subscription_login',
+            type : 'POST',
+            data : jQuery("#userloginpop").serialize(),
+            dataType : 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                 $("#follow,#register,#login,#free-trial").hide();
+                  $( "#export_loaders" ).show();
+            },
+            success : function(data) {
+                if (data.status == "true") {
+                	$( "#export_loaders" ).hide();
+                	$("#follow,#user").show();
+                    location.reload();
+                } else {
+                	jQuery("#register,#login,#follow,#free-trial").show();
+                	$( "#export_loaders" ).hide();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').show();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').text(data.message);
+                }
+            }
+        });
+
+    });
+    jQuery(document).on('click', '.btn.login', function(event) {
+    	event.preventDefault();
+        jQuery.ajax({
+            url : '/wps/authentication/verify_subscription_login',
+            type : 'POST',
+            data : jQuery("#userlogin").serialize(),
+            dataType : 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                  $( "#export_loaders" ).show();
+            },
+            success : function(data) {
+                if (data.status == "true") {
+                	$( "#export_loaders" ).hide();
+                	var a=$(".cls_redirect").attr("value");
+                	location.href=a;
+                } else {
+                	jQuery("#register,#login,#follow,#free-trial").show();
+                	$( "#export_loaders" ).hide();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').show();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').text(data.message);
+                }
+            }
+        });
+
+    });
+    jQuery(document).on('click', '.submit_style.login_submit', function(event) {
+        event.preventDefault();
+
+        jQuery.ajax({
+            url : '/wps/authentication/verify_subscription_login',
+            type : 'POST',
+            data : jQuery('#login_barrier').serialize(),
+            dataType : 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                 setTimeout(function(){ 
+                  $( "#export_loaders" ).show();
+                 }, 1000);
+            },
+            success : function(data) {
+                if (data.status == "true") {
+                	$( "#export_loaders" ).hide();
+                    location.reload()
+                } else {
+                   jQuery("#register,#login,#follow,#free-trial").show();
+                   $( "#export_loaders" ).hide();
+                   jQuery('#login_error_message_header,#login_error_message_teaser').show();
+                   jQuery('#login_error_message_header,#login_error_message_teaser').text(data.message);
+                }
+            }
+        });
+    });
+    </script>
+	<script type="text/javascript">
+		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		    var disqus_shortname = 'v3-live'; // required: replace example with your forum shortname
+		 var disqus_identifier = "/v3-uk/news/3004349/banks-and-governments-hit-by-sophisticated-malware-attacks-with-seven-targets-hit-in-uk";
+		    /* * * DON'T EDIT BELOW THIS LINE * * */
+		    (function () {
+		        var s = document.createElement('script'); 
+		        s.async = true;
+		        s.type = 'text/javascript';
+		        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+		        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		    }());
+	</script>
+	<!-- Start: GIT body script -->
+				   <script type="text/javascript" src='//assets.v3.co.uk/javascript/live/v3/javascript-v3.body.min.js'></script>
+		<!-- End: GIT body script -->
+	</body>
+</html>

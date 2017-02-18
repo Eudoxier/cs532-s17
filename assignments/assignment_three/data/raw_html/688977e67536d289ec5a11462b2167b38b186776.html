@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8" />
+<meta name="designer" content="The UK Edge - https://www.theukedge.com">
+<title>Machine Learning and Online Security in 2017</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="shortcut icon" href="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/ET_Favicon.png" />
+<link rel="pingback" href="https://www.enterprisetech.com/xmlrpc.php" />
+
+<!--[if IE 7 ]>
+<link href="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/ie7.css" media="screen" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if IE 8 ]>
+<link href="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/ie8.css" media="screen" rel="stylesheet" type="text/css">
+<![endif]-->
+<!--[if lte IE 6]>
+<div id="ie-message">Your browser is obsolete and does not support this webpage. Please use newer version of your browser or visit <a href="http://www.ie6countdown.com/" target="_new">Internet Explorer 6 countdown page</a>  for more information. </div>
+<![endif]-->
+
+
+<!-- This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Machine Learning (ML) and Artificial Intelligence (AI) (I use these terms interchangeably) continue to be hotly debated in security circles."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Machine Learning and Online Security in 2017" />
+<meta property="og:description" content="Machine Learning (ML) and Artificial Intelligence (AI) (I use these terms interchangeably) continue to be hotly debated in security circles." />
+<meta property="og:url" content="https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/" />
+<meta property="og:site_name" content="EnterpriseTech" />
+<meta property="article:publisher" content="https://www.facebook.com/pages/Enterprise-Tech/650119115021106" />
+<meta property="article:tag" content="cybersecurity" />
+<meta property="article:tag" content="Machine Learning" />
+<meta property="article:section" content="Slider: Front Page" />
+<meta property="article:published_time" content="2017-01-05T07:55:58-08:00" />
+<meta property="article:modified_time" content="2017-01-06T13:11:58-08:00" />
+<meta property="og:updated_time" content="2017-01-06T13:11:58-08:00" />
+<meta property="og:image" content="https://www.enterprisetech.com/wp-content/uploads/2017/01/shutterstock_security_IT.jpg" />
+<meta property="og:image:width" content="405" />
+<meta property="og:image:height" content="228" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Machine Learning (ML) and Artificial Intelligence (AI) (I use these terms interchangeably) continue to be hotly debated in security circles." />
+<meta name="twitter:title" content="Machine Learning and Online Security in 2017" />
+<meta name="twitter:site" content="@EnterpriseTek" />
+<meta name="twitter:image" content="https://www.enterprisetech.com/wp-content/uploads/2017/01/shutterstock_security_IT.jpg" />
+<meta name="twitter:creator" content="@EnterpriseTek" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//platform.linkedin.com' />
+<link rel='dns-prefetch' href='//apis.google.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="EnterpriseTech &raquo; Feed" href="https://www.enterprisetech.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EnterpriseTech &raquo; Comments Feed" href="https://www.enterprisetech.com/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="EnterpriseTech &raquo; iCal Feed" href="https://www.enterprisetech.com/events/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="EnterpriseTech &raquo; Machine Learning and Online Security in 2017 Comments Feed" href="https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.enterprisetech.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='nivo-slider-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/css/nivoslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jcarousel-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/css/jcarousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-ultimate-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sharing-buttons-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/et-functionality-plugin/css/sharing-buttons.css?ver=1480513512' type='text/css' media='all' />
+<link rel='stylesheet' id='hn-sponsor-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/et-happening-now-sponsor/css/happening-now.css?ver=1480513512' type='text/css' media='all' />
+<link rel='stylesheet' id='et-gf-open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+<link rel='stylesheet' id='et_monarch-css-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/monarch/css/style.css?ver=1.2.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-style-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full.min.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-calendar-mobile-style-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/the-events-calendar/src/resources/css/tribe-events-full-mobile.min.css?ver=4.4.2' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='social_media-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/widgets/social-widget/social_widget.css?ver=4.7.2' type='text/css' media='all' />
+<!-- Inline jetpack_facebook_likebox -->
+<style id='jetpack_facebook_likebox-inline-css' type='text/css'>
+.widget_facebook_likebox {
+	overflow: hidden;
+}
+
+</style>
+<link rel='stylesheet' id='cpsh-shortcodes-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/column-shortcodes/assets/css/shortcodes.css?ver=0.6.9' type='text/css' media='all' />
+<link rel='stylesheet' id='et-parent-theme-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/style.css?ver=1480513513' type='text/css' media='all' />
+<!--[if IE 7]>
+<link rel='stylesheet' id='et-theme-ie7-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/ie7.css?ver=4.7.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE 8]>
+<link rel='stylesheet' id='et-theme-ie8-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/ie8.css?ver=4.7.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='et-theme-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews-et/css/et.css?ver=1480513513' type='text/css' media='all' />
+<style id='et-theme-inline-css' type='text/css'>
+.solution_content .post-teaser .sc-brand-color-hpe { color: #00b188; }
+.tax-solution_channel .term-hpe .solution-channel-title { color: #00b188; }
+.sc-brand-bg-hpe { background: #00b188; }
+.social-icons a { color: #00b188; }
+.content-label { background: #00b188; color: white; }
+.solution-channel-widget .solution-channel-title, .tax-solution_channel .solution-channel-title { color: #00b188; }
+#sidebar-solution-channel .sidebar-title, #sidebar-solution-channel .sidebar-title a { color: #00b188; }
+
+</style>
+<link rel='stylesheet' id='font-awesome-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews-et/css/font-awesome.min.css?ver=4.7.2' type='text/css' media='all' />
+<!--[if IE 7]>
+<link rel='stylesheet' id='font-awesome-ie7-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews-et/css/font-awesome.min.css?ver=4.7.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jetpack_css-css'  href='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/jetpack/css/jetpack.css?ver=4.6' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5.4 - Universal enabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-1289278-10', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('require', 'displayfeatures');
+	__gaTracker('send','pageview');
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/js/flowplayer-3.2.6.min.js'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/js/nivoslider.js'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/js/jcarousel.js'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/shortcodes-ultimate/js/init.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/jetpack/modules/related-posts/related-posts.js?ver=20150408'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/et-dfp-integration/js/ros-dfp.js?ver=1480513512'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/et-functionality-plugin/js/pardot.js?ver=1486033589'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/js/slidemenu.js?ver=4.7.2'></script>
+<link rel='https://api.w.org/' href='https://www.enterprisetech.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.enterprisetech.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.enterprisetech.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://wp.me/p3Sjz8-6or' />
+<link rel="alternate" type="application/json+oembed" href="https://www.enterprisetech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.enterprisetech.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;format=xml" />
+<style type="text/css" id="et-social-custom-css">
+				 
+			</style><script type="text/javascript">
+	window._zem_rp_post_id = '24579';
+	window._zem_rp_thumbnails = true;
+	window._zem_rp_post_title = 'Machine+Learning+and+Online+Security+in+2017';
+	window._zem_rp_post_tags = ['cybersecurity', 'machine+learning', 'slider%3A+front+page', 'slider%3A+security', 'software', 'prescript', 'gartner', 'manag', 'digit', 'tool', 'data', 'market', 'onlin', 'ai', 'ml', 'intern', 'hybrid', 'analyt', 'hacker', 'secur'];
+	window._zem_rp_static_base_url = 'https://content.zemanta.com/static/';
+	window._zem_rp_wp_ajax_url = 'https://www.enterprisetech.com/wp-admin/admin-ajax.php';
+	window._zem_rp_plugin_version = '1.14';
+	window._zem_rp_num_rel_posts = '4';
+</script>
+<style type="text/css">
+.zem_rp_wrap .related_post_title {
+	clear: both;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+div.zem_rp_content {
+	display: inline-block !important;
+}
+
+div.zem_rp_footer {
+	text-align: right !important;
+	overflow: hidden !important;
+}
+div.zem_rp_footer a {
+	display: inline-block !important;
+	color: #999 !important;
+	font-size: 11px !important;
+	text-decoration: none !important;
+}
+ul.related_post {
+	display: inline-block !important;
+	position: relative !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+ul.related_post li {
+	position: relative !important;
+	display: inline-block !important;
+	vertical-align: top !important;
+	zoom: 1 !important;
+	*display: inline !important;
+	width: 130px !important;
+	margin: 10px 10px 10px 0px !important;
+	padding: 0 !important;
+	background: none !important;
+}
+ul.related_post li a {
+	position: relative !important;
+	display: block !important;
+	font-size: 12px !important;
+	line-height: 1.5em !important;
+	text-decoration: none !important;
+	margin-bottom: 5px !important;
+	text-indent: 0 !important;
+}
+ul.related_post li img {
+	display: block !important;
+	width: 130px !important;
+	height: 130px !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none !important;
+	float: none !important;
+	border-radius: 3px !important;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+ul.related_post li small {
+	font-size: 80%;
+}</style>
+
+	<link rel="stylesheet" href="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/stock-quote-sidebar/sqsbstyle.css" type="text/css" media="screen" />
+    <!-- The line below starts the conditional comment -->
+    <!--[if IE]>
+      <style type="text/css">
+        body {behavior: url(https://www.enterprisetech.com/wp-content/plugins/stock-quote-sidebar/csshover.htc);}
+      </style>
+    <![endif]--> <!-- This ends the conditional comment -->
+    <script language="javascript" type="text/javascript">
+    //<![CDATA[
+    function popupChart( obj, url ) {
+            placeHolder = $(obj).getElementsByClassName("chartPlaceHolder")[0];
+                            if (placeHolder.nodeName != "IMG") {
+                             placeHolder.replace("");
+                         }
+			}
+//]]>
+</script><!-- Stream WordPress user activity plugin v3.1.1 -->
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<style type='text/css'>img#wpstats{display:none}</style>
+</head>
+<body class="post-template-default single single-post postid-24579 single-format-standard et_monarch tribe-no-js tribe-bar-is-disabled">
+
+<!-- ******************************* Header ****************************** -->
+<div id="header_top_bg">
+	<div id="header_top">
+		<div class="menu-top-container"><ul id="menu-top-links" class="menu"><li id="menu-item-33" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-33"><a href="https://www.enterprisetech.com/">Home</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.enterprisetech.com/about/">About EnterpriseTech</a></li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41"><a href="https://www.enterprisetech.com/subscribe/">Subscribe</a></li>
+<li id="menu-item-10071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10071"><a href="https://www.enterprisetech.com/events/">Events</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://www.enterprisetech.com/markets/">Markets</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://www.enterprisetech.com/contacts/">Contacts</a></li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://www.enterprisetech.com/social/">Social</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://www.enterprisetech.com/rss-feeds/">RSS Feeds</a></li>
+</ul></div>		<div class="tagline">Inside Advanced Scale Challenges<span class="tagline_seperator">|</span>Saturday, February 18, 2017</div>
+		<div class="clear"></div>
+	</div><!--#header_top-->
+</div><!--#header_top_bg-->
+
+<div id="header_bg">
+	<div id="top_sidebar" class="widget-area">
+<ul class="xoxo">
+<li id="text-25" class="widget-container widget_text">			<div class="textwidget"><p><!-- ENT-ROS-TOP-HB-468x60 --></p>
+<div id='div-gpt-ad-1415377344070-2' style='width:468px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1415377344070-2'); });
+</script>
+</div>
+</div>
+		</li></ul>
+</div>	<div id="header" class="size-wrap">
+		<div id="logo">
+							<a href="https://www.enterprisetech.com"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/ET_LOGO_w_tagline3.png" alt="EnterpriseTech" /></a>
+					</div><!--#logo-->
+	</div><!--#header-->
+
+	<div id="menu_bg">
+		<div id="main_menu" class="slidemenu">
+			<ul id="primary-main-menu" class=menu><li class="first-child-divider"></li><li id="menu-item-23644" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-23644"><a href="https://www.enterprisetech.com/">Home</a></li>
+<li id="menu-item-9903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9903"><a href="https://www.enterprisetech.com/systems/">Systems</a></li>
+<li id="menu-item-9902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9902"><a href="https://www.enterprisetech.com/software/">Software</a></li>
+<li id="menu-item-9901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9901"><a href="https://www.enterprisetech.com/datacenter/">Datacenter</a></li>
+<li id="menu-item-9900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9900"><a href="https://www.enterprisetech.com/cloud/">Cloud</a></li>
+<li id="menu-item-9899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9899"><a href="https://www.enterprisetech.com/storage/">Storage</a></li>
+<li id="menu-item-9898" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9898"><a href="https://www.enterprisetech.com/networks/">Networks</a></li>
+<li id="menu-item-18761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18761"><a href="https://www.enterprisetech.com/security/">Security</a></li>
+<li id="menu-item-9910" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9910"><a href="https://www.enterprisetech.com/category/sectors/">Sectors</a>
+<ul class="sub-menu">
+	<li id="menu-item-10138" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10138"><a href="https://www.enterprisetech.com/category/sectors/financial-services-sectors/">Financial Services</a></li>
+	<li id="menu-item-10139" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10139"><a href="https://www.enterprisetech.com/category/sectors/government-sectors/">Government</a></li>
+	<li id="menu-item-10140" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10140"><a href="https://www.enterprisetech.com/category/sectors/healthcare-sectors/">Healthcare</a></li>
+	<li id="menu-item-10141" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10141"><a href="https://www.enterprisetech.com/category/sectors/life-sciences-sectors/">Life Sciences</a></li>
+	<li id="menu-item-10137" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10137"><a href="https://www.enterprisetech.com/category/sectors/energy-sectors/">Energy</a></li>
+	<li id="menu-item-10142" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10142"><a href="https://www.enterprisetech.com/category/sectors/manufacturing-sectors/">Manufacturing</a></li>
+	<li id="menu-item-10144" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10144"><a href="https://www.enterprisetech.com/category/sectors/retail-sectors/">Retail</a></li>
+	<li id="menu-item-10143" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10143"><a href="https://www.enterprisetech.com/category/sectors/media-sectors/">Media</a></li>
+	<li id="menu-item-10136" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10136"><a href="https://www.enterprisetech.com/category/sectors/academia-sectors/">Academia</a></li>
+</ul>
+</li>
+<li id="menu-item-10151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10151"><a href="https://www.enterprisetech.com/subscribe/">Subscribe</a></li>
+<li id="menu-search">	<div class="searchform">
+	<form method="get" class="searchform" action="https://www.enterprisetech.com/">
+			<input  onfocus="this.value=''" onblur="this.value='Search our site'" type="text" value="Search..." name="s" class="s" />
+			</form>
+	</div></li></ul>		</div><!--#main_menu-->
+	</div><!--#menu_bg-->
+
+	<div id="info_area_bg">
+		<div id="info_area">
+				<div id="below_menu_sidebar" class="widget-area">
+<ul class="xoxo">
+<li id="text-23" class="widget-container widget_text">			<div class="textwidget"><p>Subscribe to EnterpriseTech Weekly Updates: <a href="https://www.enterprisetech.com/subscribe/"><img class="rss-feed-widget-icon" src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/widgets/social-widget/images/default/16/email.png" alt="Subscribe by email" width="16" height="16" /></a></p>
+</div>
+		</li><li id="social-widget-2" class="widget-container Social_Widget"><div class="socialmedia-buttons smw_right"><a href="https://www.facebook.com/pages/Enterprise-Tech/650119115021106"  target="_blank"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/widgets/social-widget/images/default/16/facebook.png" alt="Follow Us on Facebook" title="Follow Us on Facebook"  style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a><a href="http://www.twitter.com/EnterpriseTek"  target="_blank"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/functions/widgets/social-widget/images/default/16/twitter.png" alt="Follow Us on Twitter" title="Follow Us on Twitter"  style="opacity: 0.8; -moz-opacity: 0.8;" class="fade" /></a></div></li></ul>
+</div>		</div><!--#info_area-->
+	</div><!--#info_area_bg-->
+</div><!--#header_bg -->
+
+<!-- *******************************Before wrapper*************************** -->
+<!-- *******************************Wrapper********************************** -->
+<div id="wrapper" class="size-wrap">
+
+<div id="container_bg">
+<div id="content" class="left">
+
+<div class="entry-content">
+<div id="post-24579" class="post-24579 post type-post status-publish format-standard has-post-thumbnail hentry category-slider category-slider-security category-software tag-cybersecurity tag-machine-learning">
+
+
+<h1 class="entry-title-single">Machine Learning and Online Security in 2017&nbsp;</h1>
+<div class="entry-dek">
+    </div>
+<div class="entry-meta">
+<a href="https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/" title="Machine Learning and Online Security in 2017" rel="bookmark"><span class="entry-date">January 5, 2017</span></a> by Kris Lahiri</div>
+
+    <div class="post-thumbnail single-post-img-left">
+		<img width="370" height="228" src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/shutterstock_security_IT-370x228.jpg" class="attachment-single-loop-half size-single-loop-half wp-post-image" alt="" srcset="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/shutterstock_security_IT-370x228.jpg 370w, https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/shutterstock_security_IT-162x100.jpg 162w" sizes="(max-width: 370px) 100vw, 370px" />		        <p class="caption">(Pasko Maksim/Shutterstock)</p>
+        </div>
+
+	
+<p>As companies increase their digital footprints, ‘identify and diagnose’ capabilities will not defend against the growing array of security threats, according to analysts at Gartner Group. Because the types of data ingested by analytics packages are evolving from structured to hybrid data–containing text, objects and other formats– the market will respond to that transition by offering packaged applications that utilize more powerful predictive and prescriptive analytics.</p>
+<p>Machine Learning (ML) and Artificial Intelligence (AI) (I use these terms interchangeably) continue to be hotly debated in security circles. The pessimists believe hackers will always outmaneuver ML, while the believers view AI as an essential companion to finding and displaying threat patterns in a complex, cloud-enhanced IT environment. While both sides have merit, the market itself is moving ahead with real-life ML applications in 2017.</p>
+<p>Here are three of the most powerful.</p>
+<p><strong>Data Curation</strong></p>
+<p>When the International Institute for Analytics (IIA) released its predictions for analytics trends in 2016, data curation was included as an important tool in the management of data throughout its lifecycle. According to the IIA, rather than approach data management from a centralized, top-down approach, “the new data analytic tools work from the bottom up, leveraging machine learning to curate and clean the data.” As data volumes and sources continue to grow, cleaning data for threat analysis will become a costly and time-consuming process. Data curation not only makes data readily retrievable for future research purposes or reuse, it also ensures enterprise compliance.</p>
+<p><strong>Behavioral Biometrics</strong></p>
+<p>Every time we turn on our PCs, our keystrokes, mouse movements and web browsing habits act as digital fingerprints. When it comes to interactions in healthcare, law and other data-sensitive sectors, such as financial services, which spends approximately $80 billion a year on fraud prevention, behavioral biometrics can be used to analyze end user fingerprints to identify who’s on the other end and what they’re trying to do.</p>
+<p>Combining behavioral biometrics and ML can significantly cut costs. ML algorithms identify critical fraud-related data points while learning the signifiers of good users, reducing false-positive results. Because behavioral biometrics is a collection of data, instead of a single data point, it is extremely difficult for fraudsters to mimic. Behavioral biometrics also makes it easy to distinguish human from non-human behavior. Heavily repeated patterns, such as multiple “users” all acting in exactly the same way, is a conspicuous red flag of a programmed threat.</p>
+<p><strong>Sift, Sort and Secure Sprawled Data</strong></p>
+<p>CSOs continually track how files are shared and with whom, auditing what gets used and what to archive. Because content is so sprawled across networks—one department might use Box, the other a custom integration of SharePoint and a third operate purely in-house—audits take an inordinate amount of effort. In the past, when data was more structured and the scope was limited, it was easy to define the rules. But with today’s massive amounts of unstructured data from multiple sources, rule writing is simply no longer practical or effective. ML can help 'discover' the rules by noticing patterns in how data is used.</p>
+<p>When dealing with unstructured, structured and semi-structured data inputs, ML is a convenient, scalable and cost effective solution that eliminates the manual task of repeatedly classifying and tweaking rules. ML provides the ability to measure effectiveness and improve it by scientifically changing algorithms or algorithm parameters, making it easier to iterate and get better predictions than a rules-based system.</p>
+<p>There are a number of ways to prepare for a successful data-driven security strategy. These include looking at data’s relationship to company problems and opportunities, and working with CIOs to prioritize IT requirements. Another is to utilize hypothesis-led modeling to generate faster outcomes and develop more practical data relationships that are understood by managers. Finally, developing business-relevant analytics that complement existing decision processes allows managers to coordinate their actions with broader company goals.</p>
+<p>Kris Lahiri is chief security officer at <a href="http://www.egnyte.com/" onclick="__gaTracker('send', 'event', 'outbound-article', 'http://www.egnyte.com/', 'Egnyte');">Egnyte</a>.</p>
+<div class="sharing-container">
+<h4>Share this:</h4>
+<div class="sharing-button" id="twitter"><a href="https://twitter.com/share" onclick="__gaTracker('send', 'event', 'outbound-article', 'https://twitter.com/share', 'Tweet');" class="twitter-share-button" data-via="enterprisetek" data-related="enterprisetek,hpcwire,datanami">Tweet</a></div>
+<div class="sharing-button" id="linkedin"><script type="IN/Share" data-url="https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/"></script></div>
+<div class="sharing-button" id="facebook">
+<div id="fb-root"></div>
+<div class="fb-share-button" data-href="https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/" data-layout="button"></div>
+</div>
+<div class="sharing-button" id="google-plus">
+<div class="g-plusone" data-size="medium" data-annotation="none"></div>
+</div>
+<div class="sharing-button" id="reddit"><a href="//www.reddit.com/submit?url=https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/"><img src="//www.redditstatic.com/spreddit7.gif" alt="submit to reddit" border="0" /> </a></div>
+</div>
+
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div><span class="et_social_bottom_trigger"></span>
+<div class="entry-utility">
+<!-- Category -->
+<div class="cat-links"><span>Categories:</span> &nbsp;<a href="https://www.enterprisetech.com/category/slider/" >Slider: Front Page</a>, <a href="https://www.enterprisetech.com/category/slider-security/" >Slider: Security</a>, <a href="https://www.enterprisetech.com/category/software/" >Software</a></div><!-- Category END -->
+
+<!-- Tags -->
+<div class="tag-link">
+<span>Tags:</span>
+<a href="https://www.enterprisetech.com/tag/cybersecurity/" rel="tag">cybersecurity</a>,<a href="https://www.enterprisetech.com/tag/machine-learning/" rel="tag">Machine Learning</a></div>
+<!-- Tags END -->
+
+</div><!-- .entry-utility -->
+
+
+
+</div><!-- #post-## -->
+
+ 
+
+<div id="comments">
+
+
+	<h3 id="comments-title">One Response to <em>Machine Learning and Online Security in 2017</em></h3>
+
+	
+	<ol class="commentlist">
+		
+	<li class="comment even thread-even depth-1" id="li-comment-1115034">
+	<div class="comment-author vcard">
+			<img alt='' src='https://secure.gravatar.com/avatar/193071a105d73e1982e559588d2b552b?s=60&#038;r=g' srcset='https://secure.gravatar.com/avatar/193071a105d73e1982e559588d2b552b?s=120&amp;r=g 2x' class='avatar avatar-60 photo' height='60' width='60' /> 
+		</div><!-- .comment-author .vcard -->
+		<div id="comment-1115034"  class="comment-container">
+			<div class="comment_arrow"></div>
+			<div class="comment-text">
+					<cite class="fn">Megan Wright</cite>
+					<span class="comment-meta commentmetadata">
+					January 10, 2017				</span><!-- .comment-meta .commentmetadata -->
+				
+				<div class="comment-body"><p>I use Purevpn to protect myself from online threats. I think that has protected me from many threats and also maintained my privacy</p>
+</div>
+				<div class="reply">
+							<a rel='nofollow' class='comment-reply-link' href='https://www.enterprisetech.com/2017/01/05/machine-learning-online-security-2017/?replytocom=1115034#respond' onclick='return addComment.moveForm( "comment-1115034", "1115034", "respond", "24579" )' aria-label='Reply to Megan Wright'>&nbsp;</a>				</div><!-- .reply -->
+				<div class="clear"></div>
+			</div><!-- .comment-text  -->
+	</div><!-- #comment-##  -->
+
+	</li><!-- #comment-## -->
+	</ol>
+
+	
+
+		<div id="respond">
+			<h3 class="comment-title">
+			Add a Comment</h3>
+
+			<div class="comment-cancel"><a rel="nofollow" id="cancel-comment-reply-link" href="/2017/01/05/machine-learning-online-security-2017/#respond" style="display:none;">Click here to cancel reply</a>			</div><!-- end comment-cancel -->
+
+
+			
+				<form method="post" action="https://www.enterprisetech.com/wp-comments-post.php" id="commentform" class="ka-form">
+									<p class="comment-input-wrap pad">
+						<label class="comment-label" for="author">
+							Name							<span class="mc_required">*</span>
+						</label>
+						<input type="text" name="author" id="author" value="" tabindex="1" class="comment-input" />
+					</p>
+					<p class="comment-input-wrap pad">
+						<label class="comment-label" for="email">
+							Email							<span class="mc_required">*</span>
+						</label>
+						<input type="text" name="email" id="email" value="" tabindex="2" class="comment-input comment-email" />
+					</p>
+					<p class="comment-input-wrap">
+						<label  class="comment-label" for="url">
+							Website						</label>
+						<input type="text" name="url" id="url" value="" tabindex="3" class="comment-input comment-website" />
+					</p>
+				
+					<p class="comment-textarea-wrap">
+						<label  class="comment-label" for="comment">
+							Your Comments						</label>
+						<textarea name="comment" class="comment-textarea" tabindex="4" rows="9" cols="5" id="comment"></textarea>
+					</p>
+					<p class="form-submit">
+						<input type="submit" value="Add comment						" id="submit" />
+						<input type='hidden' name='comment_post_ID' value='24579' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+					</p>
+					<p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="5bec3737e2" /></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;" /> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Notify me of follow-up comments by email.</label></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="215"/></p>					</p>
+				</form>	
+					</div><!--end comment-response-->
+	
+</div><!-- #comments -->
+</div>
+</div><!-- #content -->
+
+<div id="sidebar_right">
+<div id="primary" class="widget-area">
+<ul class="xoxo">
+
+<li id="text-30" class="widget-container widget_text">			<div class="textwidget"><p><!-- ENT-ROS-RSB-MR-300x250 --></p>
+<div id='div-gpt-ad-1415377344070-1' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1415377344070-1'); });
+</script>
+</div>
+</div>
+		<div class="clear"></div></li><li id="text-49" class="widget-container widget_text">			<div class="textwidget"><p><!-- /26202285/ET-RSB-WR-300x150 --></p>
+<div id='div-gpt-ad-1475752986341-0' style='height:150px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1475752986341-0'); });
+</script>
+</div>
+</div>
+		<div class="clear"></div></li><li id="text-32" class="widget-container widget_text">			<div class="textwidget"><div id="publications">Visit additional Tabor Communication Publications<a href="http://www.hpcwire.com" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.hpcwire.com', '');" title="HPCwire"></p>
+<div style="clear:both;"></div>
+<p><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/hpcwire.png" alt="HPCwire logo" width="89" height="40" /></a><a href="http://www.datanami.com" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.datanami.com', '');" title="Datanami"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/datanami.png" alt="Datanami logo" width="89" height="39" /></a><a href="http://www.hpcwire.jp" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://www.hpcwire.jp', '');" title="HPCwire Japan"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/hpcwire-japan.png" alt="HPCwire Japan logo" width="89" height="45" /></a>
+</div>
+</div>
+		<div class="clear"></div></li><li id="search-2" class="widget-container widget_search"><h3 class="widget-title">Search</h3>	<div class="searchform">
+	<form method="get" class="searchform" action="https://www.enterprisetech.com/">
+			<input  onfocus="this.value=''" onblur="this.value='Search our site'" type="text" value="Search..." name="s" class="s" />
+			</form>
+	</div><div class="clear"></div></li>              <li id="pippin_recent_posts-2" class="widget-container widget_pippin_recent_posts">                  <h3 class="widget-title">Recent News</h3>							<ul class="no-bullets">
+																<li class="recent_post_widget"  >
+									<div class="recent_post_widget_img">
+																			</div>
+									<div class="recent_post_widget_meta">
+										<a class="recent_post_widget_title" href="https://www.enterprisetech.com/2017/02/17/exxonmobil-ncsa-cray-scale-reservoir-simulation-700000-processors/">ExxonMobil, NCSA, Cray Scale Reservoir Simulation to 700,000+ Processors</a><br/>
+										<span class="recent_post_widget_link_time">February 17, 2017</span>
+									</div>
+									</li>
+																	<li class="recent_post_widget"  >
+									<div class="recent_post_widget_img">
+																			</div>
+									<div class="recent_post_widget_meta">
+										<a class="recent_post_widget_title" href="https://www.enterprisetech.com/2017/02/17/software-woes-seen-fueling-low-code-approach/">Software Woes Seen Fueling &#8216;Low-Code&#8217; Approach</a><br/>
+										<span class="recent_post_widget_link_time">February 17, 2017</span>
+									</div>
+									</li>
+																	<li class="recent_post_widget"  >
+									<div class="recent_post_widget_img">
+																			</div>
+									<div class="recent_post_widget_meta">
+										<a class="recent_post_widget_title" href="https://www.enterprisetech.com/2017/02/17/tokyo-techs-tsunami3-0-will-first-hpe-sgi-super/">Tokyo Tech’s TSUBAMI3.0 Will Be First HPE-SGI Super</a><br/>
+										<span class="recent_post_widget_link_time">February 17, 2017</span>
+									</div>
+									</li>
+																	<li class="recent_post_widget"  >
+									<div class="recent_post_widget_img">
+																			</div>
+									<div class="recent_post_widget_meta">
+										<a class="recent_post_widget_title" href="https://www.enterprisetech.com/2017/02/16/drug-developers-use-google-cloud-hpc-fight-als/">Drug Developers Enlist Google Cloud HPC in the Fight Against ALS</a><br/>
+										<span class="recent_post_widget_link_time">February 16, 2017</span>
+									</div>
+									</li>
+																	<li class="recent_post_widget"  >
+									<div class="recent_post_widget_img">
+																			</div>
+									<div class="recent_post_widget_meta">
+										<a class="recent_post_widget_title" href="https://www.enterprisetech.com/2017/02/16/public-cloud-adoption-private-cloud-flat/">Public Cloud Adoption Up, Private Cloud Flat</a><br/>
+										<span class="recent_post_widget_link_time">February 16, 2017</span>
+									</div>
+									</li>
+																							</ul>
+              <div class="clear"></div></li>        <li id="zemanta_related_posts_widget" class="widget-container widget_zemanta_related_posts">
+<div class="zem_rp_wrap zem_rp_th_plain" id="zem_rp_first"><div class="zem_rp_content"><h3 class="related_post_title">Along These Lines</h3><ul class="related_post zem_rp"><li data-position="0" data-poid="in-24436" data-post-type="none"><a href="https://www.enterprisetech.com/2016/12/07/retailers-can-fend-off-flokibot-malware-attacks/" class="zem_rp_thumbnail"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/shutterstock_security_hacker-130x130.jpg" alt="How Retailers Can Fend Off FlokiBot Malware" width="130" height="130"  /></a><a href="https://www.enterprisetech.com/2016/12/07/retailers-can-fend-off-flokibot-malware-attacks/" class="zem_rp_title">How Retailers Can Fend Off FlokiBot Malware</a></li><li data-position="1" data-poid="in-24310" data-post-type="none"><a href="https://www.enterprisetech.com/2016/11/29/forecast-hackers-target-software-based-nets/" class="zem_rp_thumbnail"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/shutterstock_security_hacker-130x130.jpg" alt="Forecast: Hackers Target Software-Based Nets" width="130" height="130"  /></a><a href="https://www.enterprisetech.com/2016/11/29/forecast-hackers-target-software-based-nets/" class="zem_rp_title">Forecast: Hackers Target Software-Based Nets</a></li><li data-position="2" data-poid="in-24083" data-post-type="none"><a href="https://www.enterprisetech.com/2016/11/10/cyber-security-minefield/" class="zem_rp_thumbnail"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Shutterstock_security-130x130.jpg" alt="The New Cyber Security Minefield: A Proactive, Not Reactive, Approach" width="130" height="130"  /></a><a href="https://www.enterprisetech.com/2016/11/10/cyber-security-minefield/" class="zem_rp_title">The New Cyber Security Minefield: A Proactive, Not Reactive, Approach</a></li><li data-position="3" data-poid="in-22493" data-post-type="none"><a href="https://www.enterprisetech.com/2016/06/10/onset-ai-prompts-new-security-concerns/" class="zem_rp_thumbnail"><img width="130" height="99" src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2016/06/shutterstock_robots_Tatiana-Shepeleva-200x114-150x114.jpg" class="attachment-130x130 size-130x130 wp-post-image" alt="" /></a><a href="https://www.enterprisetech.com/2016/06/10/onset-ai-prompts-new-security-concerns/" class="zem_rp_title">Onset of AI Prompts New Security Concerns</a></li></ul></div></div>
+<div class="clear"></div></li><li id="text-15" class="widget-container widget_text"><h3 class="widget-title">Contributors</h3>			<div class="textwidget"><div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/DougBlackresized2.jpg" width="50px" height="75px" alt="Doug Black" /></p>
+<div class="contributor-name">Doug Black</div>
+<p></p>
+<div class="contributor-title">Managing Editor</div>
+</div>
+<div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2015/04/John_Russell.jpg" width="50px" height="75px" alt="John Russell" /></p>
+<div class="contributor-name">John Russell</div>
+<p></p>
+<div class="contributor-title">Editorial Director</div>
+</div>
+<div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2013/08/leopold50x75.png" width="50px" height="75px" alt="George Leopold" /></p>
+<div class="contributor-name">George Leopold</div>
+<p></p>
+<div class="contributor-title">Senior Editor</div>
+</div>
+<div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/tiffany-trader.jpg" width="50px" height="75px" alt="Tiffany Trader" /></p>
+<div class="contributor-name">Tiffany Trader</div>
+<p></p>
+<div class="contributor-title">Senior Editor</div>
+</div>
+<div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2015/01/thomas-ayres.png" width="50px" height="75px" alt="Thomas Ayres" /></p>
+<div class="contributor-name">Thomas Ayres</div>
+<p></p>
+<div class="contributor-title">Contributing Editor</div>
+</div>
+<div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/alex-woodie.jpg" width="50px" height="75px" alt="Alex Woodie" /></p>
+<div class="contributor-name">Alex Woodie</div>
+<p></p>
+<div class="contributor-title">Contributing Editor</div>
+</div>
+<div class="contributor"><img src="https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/uploads/2013/08/SteveConway50x75.jpg" width="50px" height="75px" alt="Steve Conway" /></p>
+<div class="contributor-name">Steve Conway</div>
+<p></p>
+<div class="contributor-title">IDC</div>
+</div>
+</div>
+		<div class="clear"></div></li><li id="tribe-events-list-widget-2" class="widget-container tribe-events-list-widget"><h3 class="widget-title">Upcoming Events</h3>
+	<ol class="tribe-list-widget">
+					<li class="tribe-events-list-widget-events type-tribe_events post-22728 tribe-clearfix tribe-events-category-summit tribe-events-venue-22729 tribe-events-organizer-21113">
+				
+								<!-- Event Title -->
+				<h4 class="tribe-event-title">
+					<a href="https://www.enterprisetech.com/event/business-intelligence-analytics-information-management-summit-2017/" rel="bookmark">Business Intelligence, Analytics &#038; Information Management Summit 2017</a>
+				</h4>
+
+								<!-- Event Time -->
+
+				
+				<div class="tribe-event-duration">
+					<span class="tribe-event-date-start">February 20</span> - <span class="tribe-event-date-end">February 21</span>				</div>
+
+							</li>
+					<li class="tribe-events-list-widget-events type-tribe_events post-24422 tribe-clearfix">
+				
+								<!-- Event Title -->
+				<h4 class="tribe-event-title">
+					<a href="https://www.enterprisetech.com/event/industry-things-world-usa-2017/" rel="bookmark">Industry of Things World USA 2017</a>
+				</h4>
+
+								<!-- Event Time -->
+
+				
+				<div class="tribe-event-duration">
+					<span class="tribe-event-date-start">February 20</span> - <span class="tribe-event-date-end">February 21</span>				</div>
+
+							</li>
+					<li class="tribe-events-list-widget-events type-tribe_events post-24343 tribe-clearfix tribe-events-category-conference">
+				
+								<!-- Event Title -->
+				<h4 class="tribe-event-title">
+					<a href="https://www.enterprisetech.com/event/container-world/" rel="bookmark">Container World</a>
+				</h4>
+
+								<!-- Event Time -->
+
+				
+				<div class="tribe-event-duration">
+					<span class="tribe-event-date-start">February 21</span> - <span class="tribe-event-date-end">February 23</span>				</div>
+
+							</li>
+					<li class="tribe-events-list-widget-events type-tribe_events post-24418 tribe-clearfix tribe-events-category-networking">
+				
+								<!-- Event Title -->
+				<h4 class="tribe-event-title">
+					<a href="https://www.enterprisetech.com/event/dinner-women-machine-intelligence/" rel="bookmark">Dinner: Women in Machine Intelligence</a>
+				</h4>
+
+								<!-- Event Time -->
+
+				
+				<div class="tribe-event-duration">
+					<span class="tribe-event-date-start">February 21 @ 6:30 pm</span> - <span class="tribe-event-time">10:00 pm</span>				</div>
+
+							</li>
+					<li class="tribe-events-list-widget-events type-tribe_events post-24335 tribe-clearfix tribe-events-category-conference tribe-events-category-expo tribe-events-organizer-18962">
+				
+								<!-- Event Title -->
+				<h4 class="tribe-event-title">
+					<a href="https://www.enterprisetech.com/event/2nd-big-data-cem-world-show/" rel="bookmark">2nd Big Data &#038; CEM World Show</a>
+				</h4>
+
+								<!-- Event Time -->
+
+				
+				<div class="tribe-event-duration">
+					<span class="tribe-event-date-start">March 1</span> - <span class="tribe-event-date-end">March 2</span>				</div>
+
+							</li>
+			</ol><!-- .tribe-list-widget -->
+
+	<p class="tribe-events-widget-link">
+		<a href="https://www.enterprisetech.com/events/" rel="bookmark">View All Events</a>
+	</p>
+
+<div class="clear"></div></li><script type="application/ld+json">
+[{"@context":"http://schema.org","@type":"Event","name":"Business Intelligence, Analytics &#038; Information Management Summit 2017","description":"&lt;p&gt;We\\'re preparing our 2017 agenda which will feature comprehensive tracks to drill down on your hottest sourcing topics based on your role, experience level and key focus. Take a look at what we presented at the 2016 Summit to better understand the areas we cover. If you\\'d like more information,\u00a0 sign up\u00a0and you\\'ll be the first to know when our agenda is available.&lt;/p&gt;\\n","url":"https://www.enterprisetech.com/event/business-intelligence-analytics-information-management-summit-2017/","startDate":"2017-02-20T08:00:00+00:00","endDate":"2017-02-22T07:59:59+00:00","location":{"@type":"Place","name":"Hilton Sydney Hotel","description":"","url":"https://www.enterprisetech.com/venue/hilton-sydney-hotel/","address":{"streetAddress":"488 George Street","addressLocality":"Sydney","postalCode":"NSW 2000","addressCountry":"Australia"},"telephone":"","sameAs":""},"organizer":{"@type":"Person","name":"Gartner Summits","description":"","url":"https://www.enterprisetech.com/organizer/gartner-business-intelligence-analytics-summit-2016/","telephone":"","email":"","sameAs":""}},{"@context":"http://schema.org","@type":"Event","name":"Industry of Things World USA 2017","description":"&lt;p&gt;The Industry of Things World team invites you to connect with over 500 Industrial Internet experts on Feb 20-21, 2017 at the Hard Rock Hotel San Diego, CA to challenge current thinking and unveil latest innovations at the must-attend Industrial IoT event in Europe where all stakeholders come together.&lt;/p&gt;\\n","url":"https://www.enterprisetech.com/event/industry-things-world-usa-2017/","startDate":"2017-02-20T08:00:00+00:00","endDate":"2017-02-22T07:59:59+00:00"},{"@context":"http://schema.org","@type":"Event","name":"Container World","description":"&lt;p&gt;Container World is the first event to clarify the business impact of the container revolution within enterprise IT, while exploring the advantages and challenges brought by this transformative technology.&lt;/p&gt;\\n","url":"https://www.enterprisetech.com/event/container-world/","startDate":"2017-02-21T08:00:00+00:00","endDate":"2017-02-24T07:59:59+00:00"},{"@context":"http://schema.org","@type":"Event","name":"Dinner: Women in Machine Intelligence","description":"&lt;p&gt;An evening of discussions &amp; networking around the progress and application of machine intelligence.&lt;/p&gt;\\n","url":"https://www.enterprisetech.com/event/dinner-women-machine-intelligence/","startDate":"2017-02-21T18:30:00+00:00","endDate":"2017-02-21T22:00:00+00:00","offers":{"@type":"Offer","price":"90","url":"https://www.enterprisetech.com/event/dinner-women-machine-intelligence/"}},{"@context":"http://schema.org","@type":"Event","name":"2nd Big Data &#038; CEM World Show","description":"&lt;p&gt;The 2nd Big Data &amp; CEM World Show is a two-day conference held from 1 \u2013 2 March in Jakarta, Indonesia, which ultimately delivers itself as an interactive platform for global technologists to spark interesting discussions and exchange innovative ideas. The event expects the participation of over 20 prominent and adept speakers to furnish the conference with thought-provoking topics on modern Big Data and CEM topics. These topics include the emergence of digital commerce, mobile technologies, social media analytics, and cloud computing.&lt;/p&gt;\\n","url":"https://www.enterprisetech.com/event/2nd-big-data-cem-world-show/","startDate":"2017-03-01T08:00:00+00:00","endDate":"2017-03-03T07:59:59+00:00","organizer":{"@type":"Person","name":"Olygen","description":"","url":"https://www.enterprisetech.com/organizer/olygen/","telephone":"","email":"","sameAs":""}}]
+</script></ul>
+</div><!-- #primary .widget-area --></div><!--#sidebar_right-->
+
+<div class="clear"></div>
+</div><!-- #container -->
+</div><!-- #wrapper -->
+
+
+<div id="bottom_elements" class="size-wrap">
+	<div id="copyright" >
+	&copy; 2017 EnterpriseTech. All Rights Reserved. A Tabor Communications Publication
+	</div>
+<div id="footer_navigation">
+<ul id="menu-footer" class="menu"><li id="menu-item-10000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10000"><a href="https://www.enterprisetech.com/about/">About EnterpriseTech</a></li>
+<li id="menu-item-10001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10001"><a href="https://www.enterprisetech.com/contacts/">Contacts</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-111"><a href="#top">Back to Top</a></li>
+</ul></div><!--#footer_navigation-->
+<div class="clear"></div>
+</div><!--#bottom_elements-->
+
+<div class="et_social_sidebar_networks et_social_visible_sidebar et_social_slideright et_social_animated et_social_rectangle et_social_sidebar_flip et_social_mobile_on">
+					
+					<ul class="et_social_icons_container"><li class="et_social_twitter">
+									<a href="http://twitter.com/share?text=Machine%20Learning%20and%20Online%20Security%20in%202017&#038;url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;via=enterprisetek" class="et_social_share" rel="nofollow" data-social_name="twitter" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_twitter"></i>
+										
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_facebook">
+									<a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;t=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_facebook"></i>
+										
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_linkedin">
+									<a href="http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;title=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_linkedin"></i>
+										
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_reddit">
+									<a href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;title=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="reddit" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_reddit"></i>
+										
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_printfriendly">
+									<a href="http://www.printfriendly.com/print?url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;title=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="printfriendly" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_printfriendly"></i>
+										
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li></ul>
+					<span class="et_social_hide_sidebar et_social_icon"></span>
+				</div><div class="et_social_mobile_button"></div>
+					<div class="et_social_mobile et_social_fadein">
+						<div class="et_social_heading">Share This</div>
+						<span class="et_social_close"></span>
+						<div class="et_social_networks et_social_simple et_social_rounded et_social_left">
+							<ul class="et_social_icons_container"><li class="et_social_twitter">
+									<a href="http://twitter.com/share?text=Machine%20Learning%20and%20Online%20Security%20in%202017&#038;url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;via=enterprisetek" class="et_social_share" rel="nofollow" data-social_name="twitter" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_twitter"></i>
+										<div class="et_social_network_label"><div class="et_social_networkname">Twitter</div></div>
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_facebook">
+									<a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;t=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="facebook" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_facebook"></i>
+										<div class="et_social_network_label"><div class="et_social_networkname">Facebook</div></div>
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_linkedin">
+									<a href="http://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;title=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="linkedin" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_linkedin"></i>
+										<div class="et_social_network_label"><div class="et_social_networkname">LinkedIn</div></div>
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_reddit">
+									<a href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;title=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="reddit" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_reddit"></i>
+										<div class="et_social_network_label"><div class="et_social_networkname">reddit</div></div>
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li><li class="et_social_printfriendly">
+									<a href="http://www.printfriendly.com/print?url=https%3A%2F%2Fwww.enterprisetech.com%2F2017%2F01%2F05%2Fmachine-learning-online-security-2017%2F&#038;title=Machine%20Learning%20and%20Online%20Security%20in%202017" class="et_social_share" rel="nofollow" data-social_name="printfriendly" data-post_id="24579" data-social_type="share" data-location="sidebar">
+										<i class="et_social_icon et_social_icon_printfriendly"></i>
+										<div class="et_social_network_label"><div class="et_social_networkname">Print Friendly</div></div>
+										
+										<span class="et_social_overlay"></span>
+									</a>
+								</li></ul>
+						</div>
+					</div>
+					<div class="et_social_mobile_overlay"></div>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		
+<style type="text/css"> 
+	body.ig_laptop div#ui-datepicker-div[style],
+ 	body.ig_tablet div#ui-datepicker-div[style],
+ 	body.ig_mobile div#ui-datepicker-div[style]{
+ 		z-index: 9999999!important; 
+ 	} 
+</style>
+
+<script type="text/javascript">
+jQuery(function() {
+  	jQuery( window ).on( "init.icegram", function(e, ig) {
+	  	// Find and init all datepicker inside gravityForms
+	  	jQuery('body').on('focus', 'form[id^="gform_"] .datepicker', function(){
+	  		jQuery(this).datepicker();
+	  	});
+  	}); // init.icegram
+});
+</script>
+
+				<div style="display:none">
+	<div class="grofile-hash-map-193071a105d73e1982e559588d2b552b">
+	</div>
+	</div>
+<script type='text/javascript'> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};/* ]]> */ </script><script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/akismet/_inc/form.js?ver=3.2'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/comment-reply.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/et-functionality-plugin/js/twitter-sharing.js?ver=4.7.2'></script>
+<script type='text/javascript' src='//platform.linkedin.com/in.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/et-functionality-plugin/js/facebook-sharing.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://apis.google.com/js/platform.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201707'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/monarch/js/idle-timer.min.js?ver=1.2.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monarchSettings = {"ajaxurl":"https:\/\/www.enterprisetech.com\/wp-admin\/admin-ajax.php","pageurl":"https:\/\/www.enterprisetech.com\/2017\/01\/05\/machine-learning-online-security-2017\/","stats_nonce":"70db01d41f","share_counts":"ab30a13afe","follow_counts":"20bd9128d8","total_counts":"d21d625be8","media_single":"2e5b578193","media_total":"432035fa83","generate_all_window_nonce":"7e9d4fad4e","no_img_message":"No images available for sharing on this page"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/monarch/js/custom.js?ver=1.2.5'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2017Febaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.2'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/themes/localnews/js/top.js?ver=4.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jpfbembed = {"appid":"249643311490","locale":"en_US"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/jetpack/_inc/facebook-embed.js'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/jetpack/_inc/twitter-timeline.js?ver=4.0.0'></script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-includes/js/wp-embed.min.js?ver=4.7.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var icegram_pre_data = {"ajax_url":"https:\/\/www.enterprisetech.com\/wp-admin\/admin-ajax.php","post_obj":{"is_home":false,"page_id":24579,"action":"display_messages","shortcodes":[],"cache_compatibility":"yes","device":"laptop"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://2eof2j3oc7is20vt9q3g7tlo5xe-wpengine.netdna-ssl.com/wp-content/plugins/icegram/assets/js/main.min.js?ver=1.10.2'></script>
+<script type="text/css" id="tmpl-tribe_customizer_css">.tribe-events-list .tribe-events-loop .tribe-event-featured,
+				.tribe-events-list #tribe-events-day.tribe-events-loop .tribe-event-featured,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap:hover {
+					background-color: #0ea0d7;
+				}
+
+				#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-events-list-widget .tribe-event-featured,
+				.tribe-events-venue-widget .tribe-event-featured,
+				.tribe-mini-calendar-list-wrapper .tribe-event-featured,
+				.tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single {
+					background-color: rgba(14,160,215, .7 );
+					border-color: #0ea0d7;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single:hover {
+					background-color: #0ea0d7;
+				}</script><style type="text/css" id="tribe_customizer_css">.tribe-events-list .tribe-events-loop .tribe-event-featured,
+				.tribe-events-list #tribe-events-day.tribe-events-loop .tribe-event-featured,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap,
+				.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap:hover {
+					background-color: #0ea0d7;
+				}
+
+				#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-events-list-widget .tribe-event-featured,
+				.tribe-events-venue-widget .tribe-event-featured,
+				.tribe-mini-calendar-list-wrapper .tribe-event-featured,
+				.tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
+					background-color: #0ea0d7;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single {
+					background-color: rgba(14,160,215, .7 );
+					border-color: #0ea0d7;
+				}
+
+				.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single:hover {
+					background-color: #0ea0d7;
+				}</style><script type='text/javascript' src='https://stats.wp.com/e-201707.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.6',blog:'57273934',post:'24579',tz:'-8',srv:'www.enterprisetech.com'} ]);
+	_stq.push([ 'clickTrackerInit', '57273934', '24579' ]);
+</script>
+
+
+</body>
+</html>

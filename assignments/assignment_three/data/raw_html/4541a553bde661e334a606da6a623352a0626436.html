@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta name="title" content="| Hackity App" />
+<link rel="canonical" href="https://www.hackityapp.com/es" />
+<link rel="shortlink" href="https://www.hackityapp.com/es" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="/themes/custom/tree_grate/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>| Hackity App</title>
+    <link rel="stylesheet" href="/sites/pro/files/css/css_Kam9VD3HK4dnMbglE-aqn4TSzUQmMf3OwmyupLvDATo.css?odlaf2" media="all" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700,300italic" media="all" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_hYiwEbvxZ602ZuJCSv-j_9OLm17DXO_Duc69IE-9ZKw.css?odlaf2" media="all" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_f_uwENbhSfR5ZyNiKNF0KXFEdwoxtzsr_zJTwIR8BII.css?odlaf2" media="(min-width: 641px) and (max-width: 980px)" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_8ySrhtLg0z2kn-0lgwo3khchcFmBERvC0D5ehk3mVIc.css?odlaf2" media="(min-width: 981px)" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_WP-gkG8fjdNO6wMuHpRf69ER4JGdCwOBAeNvYqpMInc.css?odlaf2" media="(min-width: 1201px)" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_qpUcaAIG4CNM0gqYLWbrt85L5Hgu_QigSEKaUN_qm0k.css?odlaf2" media="all" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_-1gRiessHhnpPRj1pQL-iQ1veL9HWXyKfk6ab9SLx2A.css?odlaf2" media="(min-width: 981px)" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_iYS6ikMV1axH1f7FV4NahVPlHe4hK9-YpphmaIu5j7o.css?odlaf2" media="all" />
+<link rel="stylesheet" href="/sites/pro/files/css/css_gbGyjuL-j64-zqmRsTLv0ska8co3fJLZMDbYchCu-wI.css?odlaf2" media="(min-width: 981px)" />
+
+    
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+
+  </head>
+  <body class="big-header">
+        <a href="#main-content" class="visually-hidden focusable">
+      Ir al contenido principal
+    </a>
+    
+    
+
+
+
+<header role="banner" class="header__main">
+        <div class="region header-region header">
+        <div class="strait-container block-hackityheaderblock" id="block-hackityheaderblock">
+    <div class="site-branding"><h1 class="logo" title="Hackity App - Reimagine your city"><a href='/es/'>Hackity App</a></h1>
+</div>
+    <span id="burguer-button" class="burguer-button"></span>
+    <div class="mobile-menu-wrapper">
+        <div class="subwrapper">
+            <div class="user-info">
+                <div class="picture"></div>
+                <div class="user-data-wrapper">
+                    <div class="user-name"></div>
+                    <div class="user-email"></div>
+                </div>
+            </div>
+            <nav class="main-menu">
+              <ul>
+              <li>
+        <a href="/es/como-funciona" data-drupal-link-system-path="node/12">¿Cómo funciona?</a>
+              </li>
+          <li>
+        <a href="/es/propuestas" data-drupal-link-system-path="propuestas">Propuestas</a>
+              </li>
+          <li>
+        <a href="/es/casos-de-exito" title="Casos de éxito de Hackity App" data-drupal-link-system-path="node/1150">Casos de éxito</a>
+              </li>
+        </ul>
+  
+
+</nav>
+            <div class="search-form clearfix"><form class="search-block-form" data-drupal-selector="search-block-form" action="/es/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Buscar</label>
+        <input title="Escriba lo que quiere buscar." placeholder="Buscar" data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<a href="/es/search" class="search-link">Buscar</a><div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Buscar" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+</div>
+            <div class="language-user-wrapper strait-container">
+                <nav class="user-menu"><ul class='user-menu'><li class='login'><a href="/es/user/login">Login</a></li><li class='register'><a href="/es/user/register">Regístrate</a></li></ul></nav>
+                <nav class="language-switcher"><ul class="language-switcher-language-url"><li hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="en"><a href="/en" class="language-link" hreflang="en" data-drupal-link-system-path="&lt;front&gt;">English</a></li><li hreflang="es" data-drupal-link-system-path="&lt;front&gt;" class="es is-active"><a href="/es" class="language-link is-active" hreflang="es" data-drupal-link-system-path="&lt;front&gt;">Español</a></li></ul></nav>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu-wrapper-popout" class="mobile-menu-wrapper-popout"></div>
+</div>
+
+    </div>
+
+</header>
+
+
+<main  class="l-no-sidebars clearfix">
+
+        <a id="main-content" tabindex="-1"></a>
+                <div class="region messages-region messages">
+        
+
+    </div>
+
+            <div class="region home-region home">
+        <div id="block-reimagineblock" class="block-reimagineblock">
+    <div class="strait-container">
+        <div class="left-column">
+            <h2 class="huge-title white">Reimagina tu ciudad</h2>
+            <p class="second-text white">Propón tus ideas y soluciones. Crea comunidad y colabora con tus vecinos. Actúa y pasa a la acción. Te ayudamos a conseguirlo.</p>
+                            <a href="/es/user/login?destination=/es/node/add/proposal" class="button-cta white" title="Log in to create a new proposal">Empezar ahora</a>
+
+                        <h2 class="h2-title fourth-text">Ama tu barrio.<br>Forma parte de una ciudad mejor.<br>Cambia el mundo.</h2>
+            <p class="fifth-text">Tú conoces tu barrio mejor que nadie. Atrévete a decir lo que te gusta, lo que no, opina, comparte tus ideas, tus soluciones, y los problemas que ves en tu ciudad para mejorar el espacio público. Entre todos hacemos de tu barrio, tu ciudad y el mundo el mejor lugar para vivir.</p>
+        </div>
+        <div class="right-column">
+            <span class="mobile"></span>
+        </div>
+    </div>
+</div>
+    <div id="block-proposalsummaryblock" class="block-proposalsummaryblock strait-container">
+        <h2>¿Qué necesita tu barrio?</h2>
+                    <div class="proposal-summary-item proposal-category-3">
+                <a href="/es/propuestas?category=3">Equipamiento urbano</a>
+                <span class="proposal-summary-counter">320</span>
+            </div>
+                    <div class="proposal-summary-item proposal-category-4">
+                <a href="/es/propuestas?category=4">Limpieza</a>
+                <span class="proposal-summary-counter">82</span>
+            </div>
+                    <div class="proposal-summary-item proposal-category-5">
+                <a href="/es/propuestas?category=5">Movilidad</a>
+                <span class="proposal-summary-counter">56</span>
+            </div>
+                    <div class="proposal-summary-item proposal-category-6">
+                <a href="/es/propuestas?category=6">Zonas verdes</a>
+                <span class="proposal-summary-counter">83</span>
+            </div>
+                    <div class="proposal-summary-item proposal-category-7">
+                <a href="/es/propuestas?category=7">Vida de barrio</a>
+                <span class="proposal-summary-counter">55</span>
+            </div>
+                    <div class="proposal-summary-item proposal-category-8">
+                <a href="/es/propuestas?category=8">Otras</a>
+                <span class="proposal-summary-counter">54</span>
+            </div>
+            </div>
+<div class="green arrow strait-container block-cta block-hackitycalltoactionblock block-hackitycta" id="block-hackitycalltoactionblock">
+  
+    
+      <div class="left"><h3 class="title">Crea tu propuesta ahora</h3>
+<span class="slogan">Empieza a hacer cambios en tu barrio</span>
+</div>
+<div class="right"><a class="cta" href="/user/login?destination=/node/add/proposal">¡VAMOS ALLÁ!</a>
+<a class="cta_slogan" href="/propuestas" title="Ver todas las propuestas">Ver todas las propuestas</a>
+</div>
+
+  </div>
+<div id="block-hackityvideoblock" class="block-hackityvideoblock strait-container">
+    <iframe id="video_iframe" src="//player.vimeo.com/video/108372377" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="1168" height="658"></iframe>
+            
+    </div>
+<div id="block-hackitygoalsblock" class="block-hackitygoalsblock strait-container">
+  
+      <h2>Ventajas</h2>
+    
+      <ul class='goals'><li class='goal opinion'><h3>Tu opinión cuenta</h3>
+<p>Propón mejoras y opina sobre las propuestas de otros usuarios. Tienes derecho a hacerlo.</p>
+<a href="/user/register">Créate una cuenta</a>
+</li><li class='goal council'><h3>Más transparencia municipal</h3>
+<p>Ayudas a que tu ayuntamiento mejore los servicios públicos, sea más transparente y tome mejores decisiones.</p>
+<a href="mailto:info@hackityapp.com">Pídele a tu ayuntamiento que se una</a>
+</li><li class='goal impact'><h3>Impacto real</h3>
+<p>Tus acciones, ideas y propuestas tienen un impacto positivo en tu barrio, tu ciudad y en el mundo. </p>
+<a href="/user/register">Me apunto</a>
+</li></ul><ul class='checks'><li>Es gratis</li>
+<li>Es local y global</li>
+<li>Funciona en todos tus dispositivos</li>
+<li>Es colaborativo y participativo</li>
+</ul>
+  </div>
+<div id="block-hackitytestimonialsblock" class="block-hackitytestimonialsblock">
+  
+    
+      <div class="testimonial strait-container"><p class="text">Crear comunidad, dinamizar el barrio y la calle para hacer la ciudad mejor. Eso es Hackity App.</p>
+<div class="right"><img class="image" src="/sites/pro/files/styles/square_110/public/users/testimonials/Grana.jpg?itok=rm3ra7Qx" width="400" height="400" alt="" typeof="foaf:Image" />
+
+<span class="username">Grana</span>
+<span class="type">User</span>
+</div></div>
+
+  </div>
+<div class="red strait-container block-cta block-hackitycalltoactionblock-2 block-hackitycta" id="block-hackitycalltoactionblock-2">
+  
+    
+      <div class="left"><h3 class="title">Comienza a mejorar tu barrio</h3>
+<span class="slogan">Entra y forma parte de una comunidad internacional que está cambiando las ciudades de todo el mundo</span>
+</div>
+<div class="right"><a class="cta" href="/user/register">EMPIEZA YA</a>
+<a class="cta_slogan" href="/user/register" title="Regístrate en Hackity App">Regístrate en Hackity App</a>
+</div>
+
+  </div>
+<div class="strait-container block-proposallatestblock" id="block-proposallatestblock">
+    
+            <h2>Últimas propuestas en Hackity App</h2>
+        
+            <h3>Equipamiento urbano</h3>
+<div class="views-element-container"><div class="proposal-item-list js-view-dom-id-a6ceb91639107a7e9f7279df6b86c4be44de39cb81517716e28d143f27866dbc">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div data-history-node-id="1193" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/skate-park-1193"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/serrano%20copia.jpg?itok=fBewiL4Q" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/skate-park-1193" hreflang="es">Skate Park</a></h4></div>
+      
+            <div class="body"><p>Un espacio para el skate.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1190" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/parkour-en-villanueva-del-pardillo"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/parkour%20copia.jpg?itok=5djOIGtN" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/parkour-en-villanueva-del-pardillo" hreflang="es">Parkour en Villanueva del Pardillo</a></h4></div>
+      
+            <div class="body"><p>Quisiera tener un parque de Parkour como el que adjunto en el pueblo.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1187" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/united-states/washington/seattle/plaza-pacman-1187"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/Captura%20de%20pantalla%202017-02-09%20a%20las%2011.07.17.png?itok=KFMVhocP" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/united-states/washington/seattle/plaza-pacman-1187" hreflang="es">Plaza PacMan</a></h4></div>
+      
+            <div class="body"><p>Me encanta esta Plaza que han hecho para los vecinos en Seattle. Me encantaría que hubiera una así en mi barrio.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1175" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/madrid/parklet-en-gran-via-1175"><img src="/sites/pro/files/styles/square_110/public/proposals/2016/12/GranVia.jpg?itok=fNfhQ9aT" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/madrid/parklet-en-gran-via-1175" hreflang="es">Parklet en Gran Via</a></h4></div>
+      
+            <div class="body"><p>Recientemente se ha amplíado la zona de acera de Gran Via en Madrid.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+<h3>Limpieza</h3>
+<div class="views-element-container"><div class="proposal-item-list js-view-dom-id-ad9510be4824abf1e59dbdcdfe169388309ae66957aab5fdffb46ddfb6e31b84">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div data-history-node-id="1183" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/russia/voronezhskaya-oblast/calles-limpias-en-campamento-1183" hreflang="es">Calles limpias en Campamento</a></h4></div>
+      
+            <div class="body"><p>Hola.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1178" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/el-estado-de-la-calle-santa-maria-de"><img src="/sites/pro/files/styles/square_110/public/proposals/2016/12/Calle%20Santa%20Maria%20de%20la%20Alameda%2C%20Urbanizacion%20Santa%20Maria%20%283%29_0.jpg?itok=Uxp2NU9V" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/el-estado-de-la-calle-santa-maria-de" hreflang="es">El estado de la Calle Santa Maria de la Alameda en Urbanizacion Santa Maria de Villanueva del Pardillo es bochornoso, tercermundista, penoso y lamentable</a></h4></div>
+      
+            <div class="body"><p>Es lamentable, bochornoso y tercermundista el estado en el que se encuentra la Calle Santa María de la Alameda en la </p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1167" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/principado-de-asturias/pravia/punto-limpio-para-depositar-raees-1167" hreflang="es">PUNTO LIMPIO PARA DEPOSITAR RAEEs</a></h4></div>
+      
+            <div class="body"><p>Se considera necesario disponer de un punto limpio en Pravia para depositar RAEEs.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1163" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/como-mejorar-el-parque-de-san-juan-de" hreflang="es">Como mejorar el parque de San Juan de la Cruz</a></h4></div>
+      
+            <div class="body"><p>Yo creo que deberían limpiar un poco el parque, y para ello una buena idea seria poner mas papeleras para que la gent</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+<h3>Movilidad</h3>
+<div class="views-element-container"><div class="proposal-item-list js-view-dom-id-eed61000b55ed5d4b52bb6a169da42e7e10c6607e89c6eb2ce9b0f3218244536">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div data-history-node-id="1179" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/madrid/para-reducir-la-contaminacion-en-madrid-1179"><img src="/sites/pro/files/styles/square_110/public/proposals/2016/12/contaminacion-hackityapp-solucion.jpg?itok=8kKtH4tf" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/madrid/para-reducir-la-contaminacion-en-madrid-1179" hreflang="es">Para reducir la contaminación en Madrid....</a></h4></div>
+      
+            <div class="body"><p>Se me ocurre que podemos compartir ideas que puedan ayudar a reducir la contaminación en Madrid.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1160" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/madrid/paradas-de-metro-mas-divertidas-1160"><img src="/sites/pro/files/styles/square_110/public/proposals/2016/11/IMG_20161003_200113.jpg?itok=jYtLIWdp" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/madrid/paradas-de-metro-mas-divertidas-1160" hreflang="es">Paradas de metro más divertidas</a></h4></div>
+      
+            <div class="body"><p>Me gustaría que las paradas de las estaciones de metri fueran más divertidas.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1143" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/madrid/coche-abandonado-1143"><img src="/sites/pro/files/styles/square_110/public/proposals/2016/10/zzz_8.jpg?itok=TFgSk2u4" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/madrid/coche-abandonado-1143" hreflang="es">¿Coche abandonado? </a></h4></div>
+      
+            <div class="body"><p>Arrancados los símbolos de marca, modelo y matrícula. Vehículo con matrícula de moto. Con llanta bajo el mismo.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1142" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/madrid/coche-abandonado-1142"><img src="/sites/pro/files/styles/square_110/public/proposals/2016/10/zz_3.jpg?itok=ymOi1_37" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/madrid/coche-abandonado-1142" hreflang="es">¿Coche abandonado?</a></h4></div>
+      
+            <div class="body"><p>Renault Coupé, gris metalizado, sin otras identificaciones de modelo. Lleva meses en este lugar.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+<h3>Zonas verdes</h3>
+<div class="views-element-container"><div class="proposal-item-list js-view-dom-id-445d5c98cd84f3865e60ca5cec103344ac0d40bf6e11dc2f722e6fb5441c6f9b">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div data-history-node-id="1194" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/tunel-de-enredaderas-1194"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/luisa%20copia.jpg?itok=bInzZxWU" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/tunel-de-enredaderas-1194" hreflang="es">Túnel de Enredaderas</a></h4></div>
+      
+            <div class="body"><p>Me gustaría que hubiese un camino cubierto por enredaderas en el parque San Juan de la cruz.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1188" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/propuesta-parque-san-juan-de-la-cruz"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/LUCIA%20BERZOSA%20copia_0.jpg?itok=cAYfDHgA" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/propuesta-parque-san-juan-de-la-cruz" hreflang="es">Propuesta parque San Juan de la Cruz</a></h4></div>
+      
+            <div class="body"><p>Creo que estaría genial que pusieran al menos una fuente para que así la gente disfrutase más del parque.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1181" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/aragon/zaragoza/replantar-arboles-en-el-parque-del-tio-jorge-zaragoza-1181" hreflang="es">Replantar árboles en el parque del Tío Jorge, Zaragoza</a></h4></div>
+      
+            <div class="body"><p>Cada vez hay menos árboles. Cuando no se caen por el viento, los talan por el peligro a que caigan.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1180" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-valenciana/genoves/eliminacion-del-descampado-1180" hreflang="es">Eliminación del descampado </a></h4></div>
+      
+            <div class="body"><p>En frente de la calle assagador, en Genovés, hay un descampado lleno de ruedas de coches y material de obra abandonad</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+<h3>Vida de barrio</h3>
+<div class="views-element-container"><div class="proposal-item-list js-view-dom-id-040cb313331593f7cf632b08ddfd62611587e45f302200085b41a62e9fd6ab30">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div data-history-node-id="1195" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/mcdonald-s-1195"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/FullSizeRender.jpg?itok=FOWTFhz2" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/mcdonald-s-1195" hreflang="es">Mcdonald&#039;s</a></h4></div>
+      
+            <div class="body"><p>Me gustaría que hubiera un Mcdonald's en el Parque San Juan de la Cruz.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1192" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/cafeteria-en-el-parque-1192"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/LARA%20GALERA.jpg?itok=i1nNcHT_" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/cafeteria-en-el-parque-1192" hreflang="es">Cafetería en el parque.</a></h4></div>
+      
+            <div class="body"><p> </p>
+<p> </p>
+<p>Me piden subir esta propuesta dibujada.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1189" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/euskadi/bilbo/rincones-que-cobran-vida-puertasquehablan-1189"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/IMG_2104.JPG?itok=VLGqh24_" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/euskadi/bilbo/rincones-que-cobran-vida-puertasquehablan-1189" hreflang="es">Rincones que cobran vida #puertasquehablan</a></h4></div>
+      
+            <div class="body"><p>Dar vida a rincones de la ciudad con intervenciones muy simples que nos robaran una sonrisa y, con suerte, crearán un</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1185" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/madrid/riesgo-de-atropello-calle-valencia-lavapies-1185"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/Riesgo%20de%20atropello.jpg?itok=2ZxsE3cR" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/madrid/riesgo-de-atropello-calle-valencia-lavapies-1185" hreflang="es">Riesgo de atropello. Calle Valencia. Lavapies</a></h4></div>
+      
+            <div class="body"><p>En la plaza de Lavapies hay una obra que invade el espacio que era la acera.</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+<h3>Otras</h3>
+<div class="views-element-container"><div class="proposal-item-list js-view-dom-id-a239a51f73196de07a94475384480ebfccb0f629423f3c95d6caac9ab4b83373">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+    <div data-history-node-id="1191" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/restaurante-en-el-pueblo-1191"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/BORREGO%20copia.jpg?itok=LzwndQ4J" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/restaurante-en-el-pueblo-1191" hreflang="es">Restaurante en el pueblo.</a></h4></div>
+      
+            <div class="body"><p> </p>
+<p>Yo pondría un restaurante como el que he dibujado en el parque.</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1186" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/mejorar-el-parque-san-juan-de-la-0"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/02/%C3%81ngelageogebra.png?itok=e3v52fp4" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/villanueva-del-pardillo/mejorar-el-parque-san-juan-de-la-0" hreflang="es">MEJORAR EL PARQUE SAN JUAN DE LA CRUZ</a></h4></div>
+      
+            <div class="body"><p>Yo creo que una buena idea es hacer un banco con forma de semicírculo ya que en los bancos normales, cuando te sienta</p></div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1182" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+      <div class="field-proposal-images">
+              <div>  <a href="/es/propuestas/spain/comunidad-de-madrid/valdemoro/residuos-cero-1182"><img src="/sites/pro/files/styles/square_110/public/proposals/2017/01/IMG-20170104-WA0002_0.jpg?itok=jCSAAB2G" width="400" height="400" alt="" typeof="foaf:Image" />
+
+</a>
+</div>
+          </div>
+  
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/valdemoro/residuos-cero-1182" hreflang="es">RESIDUOS CERO</a></h4></div>
+      
+            <div class="body"><p>PARA REDUCIR HAY QUE APRENDER A NO GENERAR</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+    <div class="views-row">
+    <div data-history-node-id="1168" class="view-mode-mini_teaser ds-3col clearfix">
+
+  
+
+  <div class="group-left">
+    
+  </div>
+
+  <div class="group-middle">
+    
+            <div class="node-title"><h4><a href="/es/propuestas/spain/comunidad-de-madrid/valdetorres-de-jarama/categoria-de-contaminacion-en-esta-web" hreflang="es">Categoría de contaminación en esta web</a></h4></div>
+      
+            <div class="body"><p>Problema número 1 en Madrid</p>
+</div>
+      
+  </div>
+
+  <div class="group-right">
+    
+  </div>
+
+</div>
+
+
+  </div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+    </div>
+<div class="green strait-container block-cta block-hackitycta-quieres-unirte block-hackitycta" id="block-hackitycta-quieres-unirte">
+  
+    
+      <div class="left"><h3 class="title">¿Quieres unirte?</h3>
+<span class="slogan">Hazte una cuenta en 10 segundos</span>
+</div>
+<div class="right"><a class="cta" href="/user/register">CREA TU CUENTA</a>
+<span class="cta_slogan"></span>
+</div>
+
+  </div>
+
+    </div>
+
+    
+    </main>
+
+
+
+    <footer role="contentinfo">
+
+                    <div class="footer-top">
+                    <div class="region footer_top-region footer_top strait-container">
+        <div id="block-hackityfollowusblock" class="block-hackityfollowusblock">
+  
+    
+      <h2>Síguenos en </h2>
+<a class="facebook social-network-link" href="https://www.facebook.com/hackityapp" title="Síguenos en facebook" target="_blank">Síguenos en facebook</a>
+<a class="twitter social-network-link" href="https://twitter.com/hackityapp" title="Síguenos en twitter" target="_blank">Síguenos en twitter</a>
+<a class="instagram social-network-link" href="https://www.instagram.com/hackityapp" title="Síguenos en instagram" target="_blank">Síguenos en instagram</a>
+
+  </div>
+
+    </div>
+
+            </div>
+        
+        
+                    <div class="footer-bot">
+                    <div class="region footer_bot-region footer_bot strait-container">
+        <div id="block-hackitycopyrightblock" class="block-hackitycopyrightblock">
+  
+    
+      <div class="copyright"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><span dct="http://purl.org/dc/terms/" property="title">Hackity App</span> por <span cc="http://creativecommons.org/ns#" property="attributionName">Hackity</span> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a></div>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-legal-menu" id="block-legal" class="block-legal">
+            
+  <h2 class="visually-hidden">Legal</h2>
+  
+
+        
+              <ul>
+              <li>
+        <a href="/es/politica-de-proteccion-de-datos" data-drupal-link-system-path="node/9">Política de protección de datos</a>
+              </li>
+          <li>
+        <a href="/es/condiciones-legales" data-drupal-link-system-path="node/10">Condiciones legales</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-nosotros-menu" id="block-nosotros" class="block-nosotros">
+      
+  <h2>Nosotros</h2>
+  
+
+        
+              <ul>
+              <li>
+        <a href="/es/quienes-somos" data-drupal-link-system-path="node/1">Quiénes somos</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-prensa-menu" id="block-prensa" class="block-prensa">
+      
+  <h2>Prensa</h2>
+  
+
+        
+              <ul>
+              <li>
+        <a href="/es/dossier-de-prensa" data-drupal-link-system-path="node/8">Dossier de prensa</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+
+            </div>
+            </footer>
+
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K7SCMH"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-K7SCMH');</script>
+
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"es\/","currentPath":"node","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"es"},"pluralDelimiter":"\u0003","ajaxPageState":{"libraries":"core\/html5shiv,layout_plugin\/ds_3col,system\/base,tree_grate\/forms,tree_grate\/global,tree_grate\/google-fonts,tree_grate\/home,views\/views.module","theme":"tree_grate","theme_token":null},"ajaxTrustedUrl":{"\/es\/search\/node":true},"user":{"uid":0,"permissionsHash":"a90dd4e24a4e80a4daa48fcc6e5a6ff9af36cce12466ecdfc453c04148f4625e"}}</script>
+<script src="/core/assets/vendor/domready/ready.min.js?v=1.0.8"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=2.1.4"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.1.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.1.9"></script>
+<script src="/sites/pro/files/languages/es_uXejiRfzZRWVKiLZJbLXNjuj50yV3Nz3YG0Pd6TVM0A.js?odlaf2"></script>
+<script src="/core/misc/drupal.js?v=8.1.9"></script>
+<script src="/core/assets/vendor/jquery.cookie/jquery.cookie.min.js?v=1.4.1"></script>
+<script src="/core/misc/progress.js?v=8.1.9"></script>
+<script src="/core/misc/ajax.js?v=8.1.9"></script>
+<script src="/themes/custom/tree_grate/js/core.js?odlaf2"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0f80856ce3","applicationID":"24070429","transactionName":"MlABNkVQVkYHVREKWgsaIgFDWFdbSUYEBFA6VgIBX1Q=","queueTime":0,"applicationTime":13,"atts":"HhcCQA1KRUg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

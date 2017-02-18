@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Herzlich willkommen bei botfrei</title>
+    <meta name="keywords" content="botfrei, eco, Service, Ransomware-Galerie, EU-Cleaner">
+    <meta name="description" content="botfrei ist ein Service von eco, dem Verband der Internetwirtschaft. Infos zu Botnetzen, wie Sie sich dagegen schützen und wie Sie Ihren Rechner von Schadprogrammen säubern.">
+    <meta name="robots" content="index,follow">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+    <link rel="icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+    <script type="text/javascript" src="/js/jquery.min.js" defer></script>
+    <script type="text/javascript" src="/js/materialize.min.js" defer></script>
+    <script type="text/javascript" src="/js/init.js" defer></script>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper grey lighten-2">
+                <a href="/de/index.html" class="brand-logo"><img class="gwyndolin" src="/images/logos/logo_botfrei2.svg" alt="botfrei"></a>
+                <a href="#" data-activates="mobile" class="button-collapse"><i class="material-icons orange-text text-darken-4">menu</i></a>
+                <!--  Main Navigation  -->
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/de/index.html"><i class="material-icons left">home</i>Start</a></li>
+                    <li><a href="/de/eucleaner/index.html"><i class="material-icons left">verified_user</i>EU-Cleaner</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropRansomware"><i class="material-icons left">bug_report</i>Ransomware</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropTools"><i class="material-icons left">settings</i>Werkzeuge</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropTutorials"><i class="material-icons left">import_contacts</i>Anleitungen</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropAbout"><i class="material-icons left">group</i>Über uns</a></li>
+                    <li>
+                        <a class="dropdown-button" href="#!" data-activates="dropLang"><img class="lautrec" src="/images/flag_germany.svg" alt="deutsch"></a>
+                    </li>
+                </ul>
+                <!--  Dropdown Structure  -->
+                <ul id="dropRansomware" class="dropdown-content">
+                    <li><a href="/de/ransomware/galerie.html">Galerie</a></li>
+                    <li><a href="/de/ransomware/informationen.html">Informationen</a></li>
+                    <li><a href="/de/ransomware/schutz.html">Schutz</a></li>
+                </ul>
+                <ul id="dropTools" class="dropdown-content">
+                    <li><a href="/de/werkzeuge/sicherheitschecks.html">Checks</a></li>
+                    <li><a href="/de/werkzeuge/browser-erweiterungen.html">Erweiterungen</a></li>
+                    <li><a href="/de/werkzeuge/hilfsmittel.html">Hilfsmittel</a></li>
+                    <li><a href="/de/werkzeuge/virenscanner.html">Virenscanner</a></li>
+                </ul>
+                <ul id="dropTutorials" class="dropdown-content">
+                    <li><a href="/de/anleitungen/betriebsysteme.html">Betriebssysteme</a></li>
+                    <li><a href="https://wiki.botfrei.de/" target="_blank">botfrei-Wiki</a></li>
+                    <li><a href="/de/anleitungen/sicherbleiben.html">Sicher bleiben</a></li>
+                    <li><a href="/de/anleitungen/2fa.html">Sicherheit</a></li>
+                </ul>
+                <ul id="dropAbout" class="dropdown-content">
+                    <li><a href="/de/ueber-uns/informationen.html">Informationen</a></li>
+                    <li><a href="/de/ueber-uns/mitmachen.html">Mitmachen</a></li>
+                    <li><a href="/de/ueber-uns/kontakt.html">Kontakt</a></li>
+                </ul>
+                <ul id="dropLang" class="dropdown-content">
+                    <li>
+                        <a href="https://www.botfree.eu/en/index.html"><img class="lautrec" src="/images/flag_united-kindom.svg" alt="english"></a>
+                    </li>
+                    <li>
+                        <a href="/de/partner/botfrei-international.html"><img class="lautrec" src="/images/flag_europe.svg" alt="europe"></a>
+                    </li>
+                </ul>
+                <!--  Side Navigation  -->
+                <ul class="side-nav" id="mobile">
+                    <li><a href="/de/index.html">Start</a></li>
+                    <li class="divider"></li>
+                    <li class="orange darken-4 white-text">· EU-Cleaner</li>
+                    <li><a href="/de/eucleaner/index.html">Download</a></li>
+                    <li class="orange darken-4 white-text">· Ransomware</li>
+                    <li><a href="/de/ransomware/galerie.html">Galerie</a></li>
+                    <li><a href="/de/ransomware/informationen.html">Informationen</a></li>
+                    <li><a href="/de/ransomware/schutz.html">Schutz</a></li>
+                    <li class="orange darken-4 white-text">· Werkzeuge</li>
+                    <li><a href="/de/werkzeuge/sicherheitschecks.html">Checks</a></li>
+                    <li><a href="/de/werkzeuge/browser-erweiterungen.html">Erweiterungen</a></li>
+                    <li><a href="/de/werkzeuge/hilfsmittel.html">Hilfsmittel</a></li>
+                    <li><a href="/de/werkzeuge/virenscanner.html">Virenscanner</a></li>
+                    <li class="orange darken-4 white-text">· Anleitungen</li>
+                    <li><a href="/de/anleitungen/betriebsysteme.html">Betriebssysteme</a></li>
+                    <li><a href="https://wiki.botfrei.de/" target="_blank">botfrei-Wiki</a></li>
+                    <li><a href="/de/anleitungen/sicherbleiben.html">Sicher bleiben</a></li>
+                    <li><a href="/de/anleitungen/2fa.html">Sicherheit</a></li>
+                    <li class="orange darken-4 white-text">· Über uns</li>
+                    <li><a href="/de/ueber-uns/informationen.html">Informationen</a></li>
+                    <li><a href="/de/ueber-uns/mitmachen.html">Mitmachen</a></li>
+                    <li><a href="/de/ueber-uns/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <header>
+        <div class="container header center orange darken-4 eingyi">
+            <h3 class="white-text text-darken-4">Herzlich willkommen bei botfrei</h3>
+            <div class="row">
+                <div class="col l2 m2 s4 offset-s4">
+                    <img class="responsive-img" src="/images/logos/botfrei_bildmarke_white.png" alt="botfrei">
+                </div>
+                <div class="col l8 m8 s12">
+                    <h5 class="light grey-text text-lighten-3">Ein Service von <strong>eco</strong> - Verband der Internetwirtschaft e.V.</h5>
+                </div>
+                <div class="col l2 m2 s4 offset-s4">
+                    <a href="https://www.eco.de/" target="_blank"><img class="responsive-img" src="/images/logos/eco_Logo_rand_rot.svg" alt="eco"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="row">
+                <div class="col l6 m6 s12">
+                    <div class="card small lothric-banner grey lighten-5 hoverable">
+                        <div class="card-content black-text">
+                            <a href="eucleaner/index.html"><span class="card-title orange-text text-darken-4"><i class="small material-icons">verified_user</i> EU-Cleaner</span></a>
+                            <p>Hier finden Sie unsere kostenlosen Ersthelfer-Tools, mit denen Sie prüfen können, ob Ihr Computer von einer Malware-Infektion durch das <b>AVALANCHE</b> Botnet befallen ist.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="/de/eucleaner/index.html">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l6 m6 s12">
+                    <div class="card small lothric-banner grey lighten-5 hoverable">
+                        <div class="card-content black-text">
+                            <a href="/de/ransomware/index.html"><span class="card-title orange-text text-darken-4"><i class="small material-icons">bug_report</i> Ransomware</span></a>
+                            <p>Hier finden Sie unsere Ransomware-Galerie mit Links und Beschreibungen zu vorhandenen Decryptor-Tools sowie weitere Informationen und Tipps zu Verschlüsselungstrojanern.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="/de/ransomware/galerie.html">Galerie</a>
+                            <a href="/de/ransomware/informationen.html">Informationen</a>
+                            <a href="/de/ransomware/schutz.html">Schutz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l6 m6 s12">
+                    <div class="card small lothric-banner grey lighten-5 hoverable">
+                        <div class="card-content black-text">
+                            <a href="/de/werkzeuge/index.html"><span class="card-title orange-text text-darken-4"><i class="small material-icons">settings</i> Werkzeuge</span></a>
+                            <p>Übersicht mit unseren Empfehlungen zu Browsererweiterungen, Virenscannern und weiteren nützlichen Werkzeugen.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="/de/werkzeuge/browser-erweiterungen.html">Erweiterungen</a>
+                            <a href="/de/werkzeuge/hilfsmittel.html">Hilfsmittel</a>
+                            <a href="/de/werkzeuge/sicherheitschecks.html">Sicherheitschecks</a>
+                            <a href="/de/werkzeuge/virenscanner.html">Virenscanner</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l6 m6 s12">
+                    <div class="card small lothric-banner grey lighten-5 hoverable">
+                        <div class="card-content black-text">
+                            <a href="anleitungen/index.html"><span class="card-title orange-text text-darken-4"><i class="small material-icons">import_contacts</i> Anleitungen</span></a>
+                            <p>Allgemeine Sicherheitstipps sowie Anleitungen und Tutorials zu verschiedenen Themen rund um das Internet.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="/de/anleitungen/betriebsysteme.html">Betriebssysteme</a>
+                            <a href="https://wiki.botfrei.de/">botfrei-WIKI</a>
+                            <a href="/de/anleitungen/sicherbleiben.html">Sicher bleiben</a>
+                            <a href="/de/anleitungen/2fa.html">Sicherheit und Identität</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col l6 m6 s12">
+                    <div class="card small lothric-banner grey lighten-5 hoverable">
+                        <div class="card-content black-text">
+                            <a href="https://blog.botfrei.de/" target="_blank"><span class="card-title orange-text text-darken-4"><i class="small material-icons">web</i> Blog</span></a>
+                            <p>Unser Blog mit Informationen zum Thema PC-und Internetsicherheit und zahlreichen Anleitungen.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://blog.botfrei.de/category/botfrei/" target="_blank">News</a>
+                            <a href="https://blog.botfrei.de/category/phishing/" target="_blank">Phishing</a>
+                            <a href="https://blog.botfrei.de/category/ransomware/" target="_blank">Ransomware</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l6 m6 s12">
+                    <div class="card small lothric-banner grey lighten-5 hoverable">
+                        <div class="card-content black-text">
+                            <a href="https://forum.botfrei.de" target="_blank"><span class="card-title orange-text text-darken-4"><i class="small material-icons">forum</i> Support-Forum</span></a>
+                            <p>Unser kostenfreies Support-Forum für die schnelle und individuelle Hilfe durch unsere Community.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://blog.botfrei.de/forums/forum/hilfe-und-schaedlingsbekaempfung/mac-os-linux/" target="_blank">Mac</a>
+                            <a href="https://blog.botfrei.de/forums/forum/hilfe-und-schaedlingsbekaempfung/android-ios-symbian/" target="_blank">Smartphones</a>
+                            <a href="https://blog.botfrei.de/forums/forum/hilfe-und-schaedlingsbekaempfung/windows/" target="_blank">Windows</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h6>ANZEIGE</h6>
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <a href="https://www.gdata.de/internet-security-fuer-windows/sp/da/botfrei-600x273?utm_id=50" target="_blank"><img class="oolacile" src="/images/banner/OA_B2C_IS_SW_Botfrei_DE_1080x400.png" alt="gdata"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.initiative-s.de/de/index.html" target="_blank"><img src="/images/banner/banner_intitiative_s.png" alt="Initiative-S"></a>
+                        <div class="black-text caption left-align">
+                            <h3>Initiative-S</h3>
+                            <h5 class="light black-text text-lighten-3">Vorbeugen. Untersuchen.Sicherheit genießen</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://de.malwarebytes.org/" target="_blank"><img src="/images/banner/banner_malwarebytes.png" alt="malwarebytes"></a>
+                        <div class="caption left-align">
+                            <h3>Malwarebytes Anti-Malware</h3>
+                            <h5 class="light grey-text text-lighten-3">Beseitigen Sie Schadsoftware automatisch und sofort</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://botfrei.spreadshirt.de" target="_blank"><img src="/images/banner/banner_botfrei-shop.png" alt="spreadshirt"></a>
+                        <div class="caption left-align">
+                            <h3>botfrei-Shop</h3>
+                            <h5 class="light grey-text text-lighten-3">Fanartikel für unsere Community</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.avira.de" target="_blank"><img src="/images/banner/banner_avira-store-staging.jpg" alt="avira"></a>
+                        <div class="caption left-align">
+                            <h3>Avira Antivirus Pro</h3>
+                            <h5 class="light black-text text-lighten-3">Schutz für Ihre Geräte, Ihre Privatsphäre und Ihre Identität</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.sicher-im-netz.de/ratgeber-tools-ratgeber-tools-fuer-alle/siba-aktuelle-meldungen" target="_blank"><img src="/images/banner/banner_siba.jpg" alt="siba"></a>
+                        <div class="caption" style="top:30%;">
+                            <h3>SiBa</h3>
+                            <h5 class="oolacile light grey black-text text-lighten-3">Das DsiN-Sicherheitsbarometer zeigt aktuelle Risiken im Internet für Privatanwender und kleine Unternehmen.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--  Partner  -->
+            <div class="row">
+                <div id="partner" class="col l12 m12 s12">
+                    <p class="center">
+                        <a href="https://www.1und1.de/" target="_blank"><img class="gwyndolin" src="/images/logos/1&1.svg" alt="1&1"></a>
+                        <a href="https://www.acdc-project.eu/" target="_blank"><img class="gwyndolin" src="/images/logos/acdc.svg" alt="Advanced Cyber Defence Centre"></a>
+                        <a href="/de/partner/avira.html" target="_blank"><img class="gwyndolin" src="/images/logos/avira.svg" alt="Avira"></a>
+                        <a href="/de/partner/cms-garden.html" target="_blank"><img class="gwyndolin" src="/images/logos/cms-garden.png" alt="CMS Garden"></a>
+                        <a href="https://www.sicher-im-netz.de/" target="_blank"><img class="gwyndolin" src="/images/logos/dsin.svg" alt="DsiN"></a>
+                        <a href="/de/partner/gdata.html" target="_blank"><img class="gwyndolin" src="/images/logos/gdata.svg" alt="G DATA"></a>
+                        <a href="https://www.gmx.net/" target="_blank"><img class="gwyndolin" src="/images/logos/gmx.svg" alt="GMX"></a>
+                        <a href="/de/partner/hannover/index.html" target="_blank"><img class="gwyndolin" src="/images/logos/hannover-botfrei.png" alt="Hannover botfrei"></a>
+                        <a href="https://www.helinet.de/" target="_blank"><img class="gwyndolin" src="/images/logos/helinet.png" alt="helinet"></a>
+                        <a href="https://www.htp.net/" target="_blank"><img class="gwyndolin" src="/images/logos/htp.svg" alt="htp"></a>
+                        <a href="https://www.internet-sicherheit.de/" target="_blank"><img class="gwyndolin" src="/images/logos/ifis.png" alt="ifis"></a>
+                        <a href="https://www.initiative-s.de/" target="_blank"><img class="gwyndolin" src="/images/logos/initiative-s.svg" alt="Initiative-S"></a>
+                        <a href="https://de.malwarebytes.org/" target="_blank"><img class="gwyndolin" src="/images/logos/malwarebytes.svg" alt="Malwarebytes"></a>
+                        <a href="https://www.netcologne.de/" target="_blank"><img class="gwyndolin" src="/images/logos/netcologne.svg" alt="Netcologne"></a>
+                        <a href="https://www.nomoreransom.org/" target="_blank"><img class="gwyndolin" src="/images/logos/nomoreransom.png" alt="Nomoreransom"></a>
+                        <a href="https://www.qsc.de/" target="_blank"><img class="gwyndolin" src="/images/logos/logo_QSC.svg" alt="QSC"></a>
+                        <a href="http://www.surfright.nl/en" target="_blank"><img class="gwyndolin" src="/images/logos/surfright.png" alt="SurfRight"></a>
+                        <a href="https://www.telekom.de/" target="_blank"><img class="gwyndolin" src="/images/logos/telekom.svg" alt="Telekom"></a>
+                        <a href="https://www.unitymedia.de/" target="_blank"><img class="gwyndolin" src="/images/logos/unitymedia.png" alt="Unitymedia"></a>
+                        <a href="http://www.vodafone.de/" target="_blank"><img class="gwyndolin" src="/images/logos/vodafone.svg" alt="Vodafone"></a>
+                        <a href="https://www.web.de/" target="_blank"><img class="gwyndolin" src="/images/logos/webde.svg" alt="WEB.DE"></a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="page-footer orange darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l5 m12 s12">
+                    <h5 class="orange-text text-lighten-3">Über eco</h5>
+                    <p class="grey-text text-lighten-4">
+                        Mit mehr als 900 Mitgliedsunternehmen ist eco der größte Verband der Internetwirtschaft in Europa. Seit 1995 gestalten wir maßgeblich die Entwicklung des Internets in Deutschland, fördern neue Technologien, Infrastrukturen sowie Märkte und formen Rahmenbedingungen.</p>
+                    <a href="https://www.initiative-s.de/?ref=botfrei.de" title="Diese Seite wird überprüft von der Initiative-S"><img src="https://www.initiative-s.de/de/seal.php?key=botfrei.de" title="Diese Seite wird überprüft von der Initiative-S" alt="Diese Seite wird überprüft von der Initiative-S" /></a>
+                </div>
+                <div class="col l4 m6 s12">
+                    <h5 class="orange-text text-lighten-3">eco Services</h5>
+                    <ul>
+                        <li><a class="white-text" href="https://www.botfree.eu" target="_blank"><i class="tiny material-icons">launch</i> Advanced Cyber Defense Centre</a></li>
+                        <li><a class="white-text" href="http://www.certified-senders.eu" target="_blank"><i class="tiny material-icons">launch</i> Certified Senders Alliance</a></li>
+                        <li><a class="white-text" href="https://www.eco.de/services/internet-beschwerdestelle.html" target="_blank"><i class="tiny material-icons">launch</i> eco Beschwerdestelle</a></li>
+                        <li><a class="white-text" href="https://www.eco.de" target="_blank"><i class="tiny material-icons">launch</i> eco e.V.</a></li>
+                        <li><a class="white-text" href="http://www.eurocloud.de" target="_blank"><i class="tiny material-icons">launch</i> Eurocloud Deutschland</a></li>
+                        <li><a class="white-text" href="https://www.initiative-s.de" target="_blank"><i class="tiny material-icons">launch</i> Initiative-S</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 m6 s12">
+                    <h5 class="orange-text text-lighten-3">Social Media</h5>
+                    <ul>
+                        <li><a class="white-text" href="https://blog.botfrei.de" target="_blank"><i class="tiny material-icons">launch</i> Blog</a></li>
+                        <li><a class="white-text" href="https://forum.botfrei.de" target="_blank"><i class="tiny material-icons">launch</i> Forum</a></li>
+                        <li><a class="white-text" href="https://www.facebook.com/botfrei" target="_blank"><i class="tiny material-icons">launch</i> Facebook</a></li>
+                        <li><a class="white-text" href="https://plus.google.com/108464595091505390471/posts" target="_blank"><i class="tiny material-icons">launch</i> Google+</a></li>
+                        <li><a class="white-text" href="https://twitter.com/botfrei" target="_blank"><i class="tiny material-icons">launch</i> Twitter</a></li>
+                        <li><a class="white-text" href="https://blog.botfrei.de/feed/" target="_blank"><i class="tiny material-icons">launch</i> RSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey lighten-2">
+            <div class="container black-text">
+                © 2016 eco - Verband der Internetwirtschaft e.V. · <a class="orange-text text-darken-4" href="/de/ueber-uns/impressum.html">Impressum</a> · <a class="orange-text text-darken-4" href="/de/ueber-uns/datenschutz.html">Datenschutzerklärung</a> · <a class="orange-text text-darken-4" href="/de/ueber-uns/nutzungsbedingungen.html">Nutzungsbedingungen</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setDomains", ["*.botfrei.de"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//webstats.eco.de/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 125]);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//webstats.eco.de/piwik.php?idsite=125" style="border:0;" alt="" /></p>
+    </noscript>
+    <!-- End Piwik Code -->
+
+</body>
+
+</html>

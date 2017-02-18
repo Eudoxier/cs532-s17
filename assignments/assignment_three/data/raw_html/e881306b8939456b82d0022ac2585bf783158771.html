@@ -1,0 +1,1484 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+	
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1"/>
+
+	<link rel="STYLESHEET" type="text/css" href="https://www.schneier.com/main.css?v=20151202">
+	<link rel="alternate" type="application/atom+xml" title="Blog Feed (Atom 1.0)" href="https://www.schneier.com/blog/atom.xml">
+
+
+	<link rel="STYLESHEET" type="text/css" href="/scripts/jquery.socialshareprivacy.css">
+	<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script> 
+	<script type="text/javascript" src="/scripts/jquery.cookies.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.socialshareprivacy.2.js"></script>
+	<script type="text/javascript">
+	// <![CDATA[
+	// define the default order of the buttons:
+	$.fn.socialSharePrivacy.settings.order = ['facebook', 'twitter', 'gplus'];
+	$.fn.socialSharePrivacy.settings.path_prefix = '/';
+	// ]]>
+	</script>
+
+
+
+	
+		<link rel="alternate" type="application/atom+xml" title="Comments on Cryptkeeper Bug (Atom 1.0)" href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.xml" >
+	
+	
+		<link rel="prev" href="https://www.schneier.com/blog/archives/2017/02/hacker_leaks_ce.html" title="Hacker Leaks Cellebrite&#039;s Phone-Hacking Tools">
+	
+	
+		<link rel="next" href="https://www.schneier.com/blog/archives/2017/02/profile_of_citi.html" title="Profile of Citizen Lab and Ron Diebert">
+	
+
+	<script type="text/javascript" src="/blog/mt.js"></script>
+
+	<title>Cryptkeeper Bug - Schneier on Security</title>
+
+</head>
+<body class="section-blog"><div id="wrapper"><div id="main">
+	<header><div id="header">
+	<h1><a href="/">Schneier on Security</a></h1>
+	</div></header>
+	<nav><div class="nav" id="header-nav">
+<ul>
+	<li class="menu1 current"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+
+	</div></nav>
+
+
+<aside><div class="sidebar" id="sidebar-one">
+
+		<section><div class="sidesection" id="search-widget">
+		<h3>Search</h3>
+		<p class="small"><em>Powered by <a href="https://duckduckgo.com/">DuckDuckGo</a></em></p>
+		<form method="get" action="https://duckduckgo.com/">
+		<input type="hidden" name="kh" value="1"><!-- use https -->
+		<input id="search" name="q" size="15" maxlength="255">
+		<input type="submit" value="Go"><br>
+		<input type="radio" name="sites" id="searchblog" value="www.schneier.com/blog" checked><label for="searchblog">blog</label> 
+		<input type="radio" name="sites" id="searchessays" value="www.schneier.com/essays"><label for="searchessays">essays</label>
+		<input type="radio" name="sites" id="searchall" value="www.schneier.com" ><label for="searchall">whole site</label>		</form>
+		</div></section>
+	
+		<section><div class="sidesection">
+		<h3>Subscribe</h3>
+		
+			<div id="subscription-buttons">
+				<a href="https://www.schneier.com/blog/atom.xml"><img alt="Atom Feed" src="https://www.schneier.com/images/rss-32px.png"></a>
+				<a href="https://www.facebook.com/bruce.schneier"><img alt="Facebook" src="https://www.schneier.com/images/facebook-32px.png"></a>
+				<a href="https://twitter.com/schneierblog/"><img alt="Twitter" src="https://www.schneier.com/images/twitter-32px.png"></a>
+				<a href="http://www.amazon.com/Schneier-on-Security/dp/B0053HDDWW/"><img alt="Kindle" src="https://www.schneier.com/images/kindle-32px.png"></a>
+				<a href="/crypto-gram-sub.html"><img alt="E-Mail Newsletter (Crypto-Gram)" src="https://www.schneier.com/images/email-32px.png"></a>
+			</div><!--#subscription-buttons-->
+		</div></section>
+
+	</div></aside>
+
+
+	
+	<div id="content"><p id="breadcrumbs">
+
+
+<a href="https://www.schneier.com/blog/">Blog</a>&nbsp;&gt;
+
+
+
+
+</p>
+
+
+
+    
+    
+    <article><div class="article">
+	<script type="text/javascript">
+		// <![CDATA[
+		$(document).ready(function () {
+			$('#share010996').socialSharePrivacy({uri: 'https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html', title: 'Cryptkeeper Bug'});
+			});
+		// ]]>
+	</script>
+	
+
+	<h2 class="entry" id="a010996">Cryptkeeper Bug</h2>
+	
+	
+		
+	
+    
+	    <p>The Linux encryption app Cryptkeeper has a rather <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=852751">stunning security bug</a>: the single-character decryption key "p" <a href="https://www.theregister.co.uk/2017/01/31/cryptkeeper_cooked/">decrypts everything</a>:</p>
+
+<blockquote><p>The flawed version is in Debian 9 (Stretch), currently <a href="https://wiki.debian.org/DebianTesting">in testing</a>, but not in Debian 8 (Jessie). The bug appears to be a result of a bad interaction with the <a href="https://github.com/vgough/encfs">encfs</a> encrypted filesystem's command line interface: Cryptkeeper invokes encfs and attempts to enter paranoia mode with a simulated 'p' keypress -- instead, it sets passwords for folders to just that letter.</p></blockquote>
+
+<p>In 2013, I <a href="https://www.schneier.com/essays/archives/2013/10/how_to_design_and_de.html">wrote an essay</a> about how an organization might go about designing a perfect backdoor. This one seems much more like a bad mistake than deliberate action. It's just too dumb, and too obvious. If anyone actually used Cryptkeeper, it would have been discovered long ago.</p>
+    
+	
+	
+	
+
+    
+	<p class="entry-tags">Tags: <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=backdoors&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">backdoors</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=encryption&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">encryption</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=Linux&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">Linux</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=security%20engineering&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">security engineering</a></p>
+
+
+	
+	<p class="posted"><a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html">Posted on February  7, 2017 at  9:50 AM</a>
+	 &#8226; 
+	60 Comments
+	
+	</p>
+	<aside><div class="share" id="share010996"></div></aside>
+	</div></article>
+
+
+
+
+    
+    
+
+
+
+<h3 id="comments">Comments</h3>
+
+
+<article><div class="comment by-who" id="c6745514">
+
+
+<p class="commentcredit"><span class="commenter">Who?</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745514">February  7, 2017 10:34 AM</a>
+</p>
+
+<p>It is called a backdoor... just convince hardware manufacturers to not sell keyboards with the "p" (except to the NSA) and it will immediately become a NOBUS.</p>
+
+<p>It is not just a bug in the way Cryptkeeper communicates with encfs, it shows there is something fundamentally broken in the development model for this application.  It seems Cryptkeeper lacks some basic testing.</p>
+</div></article>
+
+
+
+<article><div class="comment by-andrew" id="c6745515">
+
+
+<p class="commentcredit"><span class="commenter">Andrew</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745515">February  7, 2017 10:44 AM</a>
+</p>
+
+<p>I was wondering... <br />
+If you're asked to insert a backdoor in a code wouldn't you want the plausible deniability of "bad mistake" and "It's just too dumb". Well, may be not the "too obvious". <br />
+Just thinking aloud...</p>
+</div></article>
+
+
+
+<article><div class="comment by-anura" id="c6745516">
+
+
+<p class="commentcredit"><span class="commenter">Anura</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745516">February  7, 2017 10:47 AM</a>
+</p>
+
+<p>How often must we relearn that a shell is not an API?</p>
+</div></article>
+
+
+
+<article><div class="comment by-what" id="c6745517">
+
+
+<p class="commentcredit"><span class="commenter">What</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745517">February  7, 2017 10:49 AM</a>
+</p>
+
+<p>It's just too obvious of a bug to be a deliberate backdoor, because it's so broken that everything becomes completely unusable from the user's perspective.  But it does illustrate how broken everything is, in that it's so easy to get things wrong and so hard to get things right...  We need to make better security practices easier and more common somehow, or things can't improve overall...</p>
+</div></article>
+
+
+
+<article><div class="comment by-what" id="c6745518">
+
+
+<p class="commentcredit"><span class="commenter">What</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745518">February  7, 2017 10:58 AM</a>
+</p>
+
+<p>@Anura</p>
+
+<p>I'd say it's more like, a shell is a poor API, because it's expected to be a UI not an API, therefore it often doesn't get as rigorous of testing as an API should... which is exactly how this bug got into encfs and horribly affected things layering GUIs on top of it.</p>
+
+<p>The solution is better testing in the full stack of everything, from the hardware to the firmware to the operating systems to lower level software and libraries and higher level stuff... but not just from the perspective of "100% test coverage" but from the perspective of "make this 100% absolutely certain (i.e. mathematically proven) there can be no bugs possible"... which is a high and lofty goal that costs too much right now... we need to make that cheaper and easier.</p>
+</div></article>
+
+
+
+<article><div class="comment by-collaborators-sa" id="c6745519">
+
+
+<p class="commentcredit"><span class="commenter">Collaborators S.A.</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745519">February  7, 2017 11:04 AM</a>
+</p>
+
+<p>The 'too stupid to be a backdoor' presumption is no longer convincing, based on the crudity of state software sabotage we've seen. You can't deduce anything from the code - the question is whether Tom Morton is an imbecile or a saboteur. His background fits the profile of the struggling 'entrepreneurial' technicians GCHQ use to sabotage open source software. His purported speciality includes search and seizure, digital evidence procedures, and chain of custody. The undemanding DISCTRACK commission is just the sort of bribe that might induce him to play along. </p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745520">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745520">February  7, 2017 11:07 AM</a>
+</p>
+
+<p>Friggin' unbelievable. </p>
+
+<p>If anyone was using it, I recommend <a href="https://mhogomchungu.github.io/zuluCrypt/" rel="nofollow">Zulucrypt</a> as a replacement. GUI and CLI-interface. Supports dm-crypt, LUKS, TrueCrypt and VeraCrypt encrypted volumes while also being an easy-to-use front-end for  encfs,  gocryptfs, securefs, ecryptfs and cryfs. Downside: Linux only.</p>
+</div></article>
+
+
+
+<article><div class="comment by-u235" id="c6745522">
+
+
+<p class="commentcredit"><span class="commenter">U235</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745522">February  7, 2017 11:46 AM</a>
+</p>
+
+<p>Encrypted volumes, encrypted drives.. as soon as you enter the key (string, file, etc), it's wide open. Right? It reminds me of carjackers. They wait for you to unlock your car, open the door, then they jump you. Except, I guess you could encrypt hierarchically. More keys and more keys and more keys. Then you can encrypt the keys, with more keys. </p>
+</div></article>
+
+
+
+<article><div class="comment by-anura" id="c6745524">
+
+
+<p class="commentcredit"><span class="commenter">Anura</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745524">February  7, 2017 11:59 AM</a>
+</p>
+
+<p>@What</p>
+
+<p>The more important distinction between an API and not an API is whether it has a well-defined interface that you can rely on. The whole point here is that the interface changed, breaking the program that called it. Thus, the shell is not an API. Now, technically, standards such as POSIX define shell commands and the interface; although I would not personally rely on POSIX compliance, if you do have a POSIX-compliant OS then those commands should be standard - I would still hesitate to consider them an API, however. EncFS is not a standard, and thus you should never interface with it as if it was an API.</p>
+</div></article>
+
+
+
+<article><div class="comment by-what" id="c6745525">
+
+
+<p class="commentcredit"><span class="commenter">What</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745525">February  7, 2017 11:59 AM</a>
+</p>
+
+<p>@Collaborators S.A.</p>
+
+<p>Let's say I wanted to plant a bug on your phone, so I could listen in on all your calls... but the bug I planted caused your phone to stop functioning AT ALL... so that you could no longer make ANY phone calls at all.... would that be a useful bug?  No, not at all...  Because you wouldn't be able to use your phone, and therefore I couldn't listen in on anything!</p>
+
+<p>Likewise, this bug in encfs/cryptkeeper also causes ALL newly encrypted directories to become encrypted with the password of "p"... regardless of what password you've tried to set it at....  it's not a good backdoor therefore, it's a total meltdown of all functionality, making the entire product completely unusable, from a normal user's perspective that can't read the code and discover the "p" bug to get their files back.  In fact, if you want to assign deliberate bad motives to it, then it's closer to ransomware than backdoor.</p>
+
+<p>So it's not merely "too stupid to be a backdoor" it's "makes the whole product itself too unusable to be a viable/usable backdoor"  Makes more sense that way?</p>
+</div></article>
+
+
+
+<article><div class="comment by-piper" id="c6745526">
+
+
+<p class="commentcredit"><span class="commenter">Piper</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745526">February  7, 2017 12:09 PM</a>
+</p>
+
+<p>Many years ago, I worked at a company developing a multitasking OS that ran on IBM PCs (years before Windows even existed.)</p>
+
+<p>Our system was installed in numerous high-schools around Ontario.  One day, a report came in that a student had accidentally discovered a back-door in our system.  He discovered that you could log into any account using the password "Pet Sematary" (spelled wrong, just the title of the Stephen King novel.)</p>
+
+<p>This came as quite a shock to us, because we certainly had not inserted any back-door.  Investigating the bug, they found an optimization that short-circuited the password-checking code when the password was empty.  The optimization was quite buggy.  An empty password was recognized by "strlen(encrypted_password) == 0".  And the encrypted form of "Pet Sematary" happened to end up with a 0x00 in the first byte.</p>
+</div></article>
+
+
+
+<article><div class="comment by-barfolemew" id="c6745527">
+
+
+<p class="commentcredit"><span class="commenter">Barfolemew</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745527">February  7, 2017 12:13 PM</a>
+</p>
+
+<p>You mean it wasn't respecting my "12345" passphrase that I have been using since seeing Spaceballs?<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-what" id="c6745528">
+
+
+<p class="commentcredit"><span class="commenter">What</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745528">February  7, 2017 12:13 PM</a>
+</p>
+
+<p>@Anura</p>
+
+<p>Yes... but I was digging at it from a more low level.  A "well-defined interface that you can rely on" in theory <i>could</i> be a shell interaction... if it were well defined, and you could rely on it...   Why is it not well defined and why can't you rely on it?  Because it's expected to be a USER interaction!  Not a programmatic interaction.  People just tend to think that user interactions don't matter as much (because they'll "be obvious" to a user), so they don't bother to test that they don't break/change as much...</p>
+
+<p>My point is that we need to make systems easier to test for 100% proven correctness, so that bugs will be less widespread...  see: <a href="https://en.wikipedia.org/wiki/Formal_verification" rel="nofollow">https://en.wikipedia.org/wiki/Formal_verification</a>  It's too hard and expensive now, so everything's always broken like this!  And yes! part of such proven correctness (or "formal verification") would be to define all interfaces well between any different parts, of course!</p>
+</div></article>
+
+
+
+<article><div class="comment by-collaborators-sa" id="c6745529">
+
+
+<p class="commentcredit"><span class="commenter">Collaborators S.A.</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745529">February  7, 2017  1:54 PM</a>
+</p>
+
+<p>@What, true. So, statistically speaking, for a time after release of the defective version, a certain number of users will create files on their computer that they can't decrypt but others can. Some users might never delete those files - the Cryptkeeper GUI doesn't bother to tell users where the image is. And frightening people away from privacy software is another goal of the security services, so eventual disclosure of the bug has a chilling effect of its own.</p>
+
+<p>So you could certainly see a third-rate programmer on the make trying to curry favor with his bug as a zero-day of sorts. Police states would certainly exploit it. Knowing what to look for could be handy for an investigation that coincides with release of Stretch. Many 'investigations' are simply trawling for some random category of Internet users. FBI NIT design shows they just aim to catch a few poor bastards to brag about. You could also recommend the worthless software to one of the mental defectives that government provocateurs trick into loading toy bombs on trucks.  </p>
+
+<p>Every rent-a-cop thinks he's a superspy nowadays. We can't all be TAO whiz kids, Can we? This is a cop-grade APT.</p>
+</div></article>
+
+
+
+<article><div class="comment by-rhw" id="c6745531">
+
+
+<p class="commentcredit"><span class="commenter">rhw</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745531">February  7, 2017  2:06 PM</a>
+</p>
+
+<p>Bruce, FYI the link to Ken Thompson's Trusting Trust seminal ACM paper is broken in your 2013 essay. Seems AT&T has removed his home directory. There are ample copies of the paper floating around.</p>
+</div></article>
+
+
+
+<article><div class="comment by-anon" id="c6745532">
+
+
+<p class="commentcredit"><span class="commenter">Anon</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745532">February  7, 2017  2:16 PM</a>
+</p>
+
+<p>@What:</p>
+
+<p>"we need better security practices".</p>
+
+<p>Actually, we need better PROGRAMMERS. This is just crap software design, and has no place in a security-critical application.</p>
+
+<p>Too many stupid people out there writing software.</p>
+</div></article>
+
+
+
+<article><div class="comment by-john-carter" id="c6745533">
+
+
+<p class="commentcredit"><span class="commenter">John Carter</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745533">February  7, 2017  2:35 PM</a>
+</p>
+
+<p></p>
+
+<p>Heh! Fascinating.</p>
+
+<p>When I saw this title I thought, this must be an old story, this is the bug my ex-colleague found years ago….</p>
+
+<p>On closer inspection it’s an entirely different bug in an entirely different package.</p>
+
+<p>It’s a curious mode of failure common to crypto….</p>
+
+<p>Something screws up the password handling so the space of all possible passwords is squished down to something much much smaller. In this case “p”.</p>
+
+<p>(In the other case UTF codepoints outside of the ascii set got squished to '?')</p>
+
+<p>Anyhoo, it appears that the crypto magic is working and working well… everything is unintelligible until decrypted.</p>
+
+<p>And in some cases unintelligible unless the right password (for a curiously broad definition of right) is used for decryption.</p>
+
+<p>But how do you test for this class of bug?</p>
+
+<p>In this particular case testing is relatively easy.</p>
+
+<p>In general it’s extraordinarily hard!</p>
+
+<p>In some cases, like in the Ashley Madison hack, the squishing is deliberate (they squished the space of all possible passwords to lower case so as to reduce support queries from people who had forgotten which letter they had made uppercase!)</p>
+
+<p>Even if the crypto library is perfect…. you still can’t combat at the library level stupidity at the UI.<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-who" id="c6745534">
+
+
+<p class="commentcredit"><span class="commenter">Who?</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745534">February  7, 2017  2:53 PM</a>
+</p>
+
+<p>It seems developers only tested these changes upgrading a previously-encrypted system, so the bug was unnoticed on the snapshot.  Developers should run a set of tests as wide as possible.  What bugs me (pun intended) is that no-one has tried setting a password after changing that part of the encryption tool's source code.</p>
+</div></article>
+
+
+
+<article><div class="comment by-tas" id="c6745538">
+
+
+<p class="commentcredit"><span class="commenter">tas</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745538">February  7, 2017  4:22 PM</a>
+</p>
+
+<p>The problem occurred with a newer version of encfs in Stretch that changed the interface.  Cryptkeeper still works with the older version of encfs in Jessie.  Also, if you created your encrypted folder with encfs and just have cryptkeeper open the folder then it works correctly.</p>
+
+<p>If you create an encrypted folder with cryptkeeper with the newer version of encfs in Stretch then the password is 'p'.  Once the folder is closed and the user attempts to reopen then they will immediately notice the problem in that they cannot open the file with their expected password. Creating the folder with encfs at the command line will avoid the issue.<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-corn-on-the-cob" id="c6745539">
+
+
+<p class="commentcredit"><span class="commenter">Corn on the Cob</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745539">February  7, 2017  4:44 PM</a>
+</p>
+
+<p> "the question is whether Tom Morton is an imbecile or a saboteur."</p>
+
+<p>I have never understood this kind of thinking. What difference does it make to anyone what the developer's motivations happen to be? If my adversary has my data it is no comfort to me at all that the developer was inept as opposed to malicious--my adversary still has my data either way. So the net result is the same: no sane person trusts this fellow anymore. </p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745540">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745540">February  7, 2017  5:06 PM</a>
+</p>
+
+<p>@ tas </p>
+
+<p><i>The problem occurred with a newer version of encfs in Stretch that changed the interface.</i></p>
+
+<p>Thanks for the clarification. If the encfs interface has changed, that means that other front-ends like zulucrypt, kencfs and the like may be affected some way or another too. </p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745542">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745542">February  7, 2017  5:47 PM</a>
+</p>
+
+<p>Seems like a nice time to bring back Brian Snow's write-up: </p>
+
+<p><a href="https://www.acsac.org/2005/papers/Snow.pdf" rel="nofollow">We Need Assurance!</a></p>
+
+<p>As predicted, stuff is still shit over 10 years later. Fortunately, we have groups such as CHERI producing secure CPU’s with open hardware. The popularity of Rust, better automation for SPARK proofs, availability of tools such as Cap n' Proto, and increasing use of TLA+ is an improvement in others. Formal verification results in imperative and functional styles have also been pretty incredible. Also still a niche of people building higher quality or security software in both FOSS and commercial sectors.</p>
+
+<p>Far from hope being lost point. Unless we’re talking about what will get mass adoption. ;)</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745543">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745543">February  7, 2017  6:30 PM</a>
+</p>
+
+<p>@ Nick P</p>
+
+<p><i>Also still a niche of people building higher quality or security software in both FOSS and commercial sectors.</i></p>
+
+<p>Yes, but how does all of this protect against a 3rd party front-end blowing up when the API of the underlying piece of code suddenly changes? I see as much fault with the developers of encfs as with those of cryptkeeper at this point. Surely they knew that there had been folks developing front-ends on top of it, so they should either have thought about some sort of default compatibility mode or throwing fatal exception errors instead of just breaking stuff.</p>
+</div></article>
+
+
+
+<article><div class="comment by-r" id="c6745544">
+
+
+<p class="commentcredit"><span class="commenter">r</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745544">February  7, 2017  6:34 PM</a>
+</p>
+
+<p>@What,</p>
+
+<p>It could be a redteam injection and disclosure to discredit them, the disclosure part would be disadvantageous and rookie if it was part of the same plan.</p>
+
+<p>Either way, it's curious and I'm glad I don't use them.</p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745545">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745545">February  7, 2017  6:59 PM</a>
+</p>
+
+<p>@ Dirk Praet</p>
+
+<p>"Yes, but how does all of this protect against a 3rd party front-end blowing up when the API of the underlying piece of code suddenly changes?"</p>
+
+<p>Interface specifications and checks have been a requirement in high-integrity systems for a long time for good reason. They'd have possibly prevented this. The idea is you formally specify the behavior of the programs in a style such as Design-by-Contract. Any changes in dependencies' code are reviewed for correctness of specs and implementation. The specs or interface checks will likely mismatch at some point due to a bad change. Languages such as Eiffel, Ada 2012, or SPARK 2014 have this built-in. It can be simulated in others within the modules or objects. </p>
+
+<p>The alternative was blindly trusting a third party to do something that works with one's own code that does stuff that third party is unaware of or doesn't care about. That naturally leads to problems. </p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745546">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745546">February  7, 2017  7:01 PM</a>
+</p>
+
+<p>@ r, @ What, @ Corn on the Cob</p>
+
+<p><i>It could be a redteam injection and disclosure to discredit them</i></p>
+
+<p>Please re-read the comments made by @tas . This has nothing to do with malice, but with unintended consequences of breaking an existing API. Everyone who's ever written any code is familiar with this problem.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745548">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745548">February  7, 2017  7:13 PM</a>
+</p>
+
+<p>@ Nick P</p>
+
+<p><i>Interface specifications and checks have been a requirement in high-integrity systems for a long time for good reason. They'd have possibly prevented this.</i></p>
+
+<p>Exactly my point. The problem here is with encfs, not with cryptkeeper. I'm using encfs for certain purposes, so I now have to closely watch all impacted systems that both have encfs and 3rd party front-ends. Although I don't use cryptkeeper on any of them (never been much of a Gnome/Unity fan), it may certainly have served as a canary in a coalmine for me.</p>
+</div></article>
+
+
+
+<article><div class="comment by-tas" id="c6745550">
+
+
+<p class="commentcredit"><span class="commenter">tas</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745550">February  7, 2017  7:32 PM</a>
+</p>
+
+<p>This is compounded by cryptkeeper looking like it is not maintained any longer.  The last update was November 2013 and updated to Debian testing in October 2014.</p>
+
+<p>At this time cryptkeeper is removed from Stretch and Sid.<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745552">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745552">February  7, 2017  7:44 PM</a>
+</p>
+
+<p>@ Dirk Praet</p>
+
+<p>"Exactly my point. The problem here is with encfs, not with cryptkeeper."</p>
+
+<p>The problem is with both. One isn't specifying what it's doing. One is foolishly assuming a changed version does the same thing. They should both be doing the opposite of what they're doing. What you're doing now is what they and you should've been doing all along for security-critical software. Especially if developed under the casually-scratching-and-itch model of unpaid development that is open-source. </p>
+
+<p>@ tas</p>
+
+<p>Just saw your comment. It just adds to what I just wrote. You can't even assume these things are maintained at all much less correctly. </p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745557">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745557">February  7, 2017  9:00 PM</a>
+</p>
+
+<p>@ Anura, Dirk Praet, Nick P,</p>
+
+<p>The usual solution to a UI not API change is to have a revision number check in the UI of the called programe which is checked by the calling program.</p>
+
+<p>However there are a number of problems that need to be considered.</p>
+
+<p>The first is the "chain" problem, where there might be more than two programs involved. Basically changes or errors have to get reported consistently up the chain or stream. That is there needs to be a standard format for the changes or errors to be reported. If not then the program at the top of the chain has to check each program lower down and have a quite complex logic to check for interactions.</p>
+
+<p>A second problem is the revision number it's self. Obviously each time a program is changed then the revision number should be updated to reflect this. However if you just have a single number this makes things problematical when it's used in a chain. That is the change of revision number could be due to internal changes that do not effect how it is called or behaves as far as the calling program is concerned. Likewise it could be added features where legacy behaviour is unaffected etc. Thus a partial solution is to have multipart revision numbers, where each part reflects a different area of the program. Thus if the upper side UI has not changed then that part of the revision number remains unchanged, and the calling program might or might not safely ignore the actual changes. Thus not only does the revision number have to be multipart it has to be multipart in a standard format...</p>
+
+<p>But... It begets another issue which is "change reporting". There has to be a standard way for the changes with a part of the revision number that is changed to be reported back up the chain...</p>
+
+<p>Most code cutters fail to handle errors or exceptions in a sane way in their programs, they tend to just "exit on error" or in otherways "bail out", which often means data is lost, which can with the likes of crypto have realy serious side effects such as blowing the "data container" out of the water, with compleat loss of the container be it a file, directory, archive or entire database, filesystem or hard drive. Worse it can cause fragments to be left in the container that are out of step, which can be used by an attacker to break the encryption thus the entire security...</p>
+
+<p>One way to get a feeling of the issues involved is to have a look at the *nix "Streams Interface" and it's mechanisms for charecter devices, which only deals with a fraction of what you will need to do in practice...</p>
+
+<p><a href="http://www.shrubbery.net/solaris9ab/SUNWdev/STREAMS/p4.html" rel="nofollow">http://www.shrubbery.net/solaris9ab/SUNWdev/STREAMS/p4.html</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745562">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745562">February  7, 2017 10:31 PM</a>
+</p>
+
+<p>@ Anura, Dirk Praet, Nick P,</p>
+
+<p>Oh I forgot to mention the "herding cats" issue of trying to get a bunch of programs written by different people that are only loosely aligned to work together.</p>
+
+<p>To see what it involves you need to look back in time, when Apple and Sun were the kings of graphical desktops and MicroSoft had not got into let alone left the graphics starting gate and was staring moodily into GEMs for inspiration.</p>
+
+<p>A tiny organisation called NeXT was being talked about and Apple thought up it's colour card projects of which the "Pink Project" offered much. It was to be Object Oriented but the objects were to be independent and cooperative alowing you to select the parts you wanted to use and develop your own.</p>
+
+<p>I was a "working stiff" back then looking to climb out of the coffin like box the PC world was in, towards the joy that was NeXT Step. Pink looked like an answer a potential shining path to walk into the bright light of day...</p>
+
+<p>Yup was I ever deluded :$</p>
+
+<p>You can read a bit of the history,</p>
+
+<p><a href="http://www.roughlydrafted.com/RD/Q4.06/36A61A87-064B-470D-8870-736DD59CEF48.html" rel="nofollow">http://www.roughlydrafted.com/RD/Q4.06/36A61A87-064B-470D-8870-736DD59CEF48.html</a></p>
+
+<p>These days Apples Pink Project is not famed for it's vision but given as the prime example of a software managment "Death March"... A clasic example of the "Corporate immune response" in any existing company it was viewed as a bitter rival not a step to the future.</p>
+
+<p>We have seen this repeated over and over, the aspiration of a rising tide to an open future, draged down by turf wars and infighting. It also happens in the FOSS communities, where standards are seen as a burden on inspirational development. With the ever present truism of "Standards are like toothbrushes, every one agrees you need one, but nobody want's to use anyone elses.".  </p>
+</div></article>
+
+
+
+<article><div class="comment by-anura" id="c6745563">
+
+
+<p class="commentcredit"><span class="commenter">Anura</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745563">February  7, 2017 10:39 PM</a>
+</p>
+
+<p>@Clive Robinson</p>
+
+<p>Well, the real solution, IMO, is to write a proper, well documented API, and then just write the UI on top of that. Now you have an API that is guaranteed to do at least everything your UI can do, and you just do not allow packages that use a UI as an API.</p>
+</div></article>
+
+
+
+<article><div class="comment by-ab-praeceptis" id="c6745567">
+
+
+<p class="commentcredit"><span class="commenter">ab praeceptis</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745567">February  8, 2017 12:16 AM</a>
+</p>
+
+<p>Dirk Praet</p>
+
+<p>Which brings us to an interesting point. I'm telling my people and occasional students to *not* just properly spec *their* stuff but to also spec both interfaces, those to OS, libs, etc. and those to their users.</p>
+
+<p>Unfortunately, this point is often not seen or ignored. One day some changes their API and Bang!</p>
+</div></article>
+
+
+
+<article><div class="comment by-thoth" id="c6745572">
+
+
+<p class="commentcredit"><span class="commenter"><a title="https://askg.info" href="https://askg.info" rel="nofollow">Thoth</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745572">February  8, 2017  3:16 AM</a>
+</p>
+
+<p>@ab praeceptis, Nick P, Clive Robinson</p>
+
+<p>I guess we can continue to bang on about proper assured codes, stress testing, modelling and all the techniques to bring security assurance higher but I guess few ever bothers and even find our work laughable.</p>
+
+<p>I guess we should just let them do their software keys on dubious OSes and such. Good luck trying to convince the majority on these topics. We have tried but I guess we just hit a steel wall.</p>
+</div></article>
+
+
+
+<article><div class="comment by-thoth" id="c6745573">
+
+
+<p class="commentcredit"><span class="commenter"><a title="https://askg.info" href="https://askg.info" rel="nofollow">Thoth</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745573">February  8, 2017  3:19 AM</a>
+</p>
+
+<p>Also, I am too busy with my work and I think I would leave my code development and open source projects as it is. I don't have much time for side projects these days.</p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745574">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745574">February  8, 2017  3:41 AM</a>
+</p>
+
+<p>@ Anura,</p>
+
+<blockquote>Well, the real solution, ... and you just do not allow packages that use a UI as an API.</blockquote>
+
+<p>As we both know the real world does not work that way. As a primary distribution maintainer you will have a bit of a political fight on your hands, but might --if you can find them all-- manage to keep them out. But with FOSS you can not stop secondary distributions or others making such packages available.</p>
+
+<p>You only have to see the history of the kernel and the entertainingly blunt responses from Linus to see you need a skin tougher than a Rhino and a sense of purpose that would try the patience of all but the toughest of saints. </p>
+
+<p>But people still break the rules, especially if there is money to be made by doing so. As can be seen in the commercial world where you only need look at the Oracle -v- Google dust up to see similar can and does happen with APIs and the amounts of money eye watering,</p>
+
+<p><a href="https://www.theguardian.com/technology/2016/may/26/google-wins-copyright-lawsuit-oracle-java-code" rel="nofollow">https://www.theguardian.com/technology/2016/may/26/google-wins-copyright-lawsuit-oracle-java-code</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745575">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745575">February  8, 2017  4:59 AM</a>
+</p>
+
+<p>@ Thoth,</p>
+
+<blockquote>I guess we can continue to bang on about proper assured codes, stress testing, modelling and all the techniques to bring security assurance higher but I guess few ever bothers and even find our work laughable.</blockquote>
+
+<p>Then as the history of this blog shows they will steal our ideas without credit.</p>
+
+<p>As in many things timing is key. A few can see further into the future, not by some luck of genetics but by solid experience. To see a likely occurance, problem or solution ahead of the pack when the majority are fighting over yesterdays scraps is often a curse. Because others do not want to get out of the frey or even put their heads up to see what is comming, they instead want to drag you back to their way, where they think they have the advantage.</p>
+
+<p>As I've mentioned before as have others, people you work with steal from you, the ridicule etc is an easy way to distract others. I've actually had to see an idea I had fully worked out be given to another and been told to assist them doing the development and correct them when they were wrong. Then get told to do all the work on getting the patent arguing with the assesors and getting it through. Was my name on the patent? As they say "Don't be silly" such is politics in companies. Then you see the patent used to tie up a market sector, which closes down your employment options. It is not a good feeling either, which is why I put my ideas out for free. It atleast gives some prior art, which means it does not close down the employment and other options.</p>
+
+<p>Yes I know, some will see me as being selfish --I've actually been told that in the past-- but then their ideas on the common good is to "Rent Seek off of others work" so their view is shall we say a little self centered at best.</p>
+
+<p>I've found the best thing to do is "publish and not be dammed to fight fight fight" because you don't waste your time with worthless people and their pointless political infighting. I guess I'm by no means the first as the prose poem "Desiderata" (by American writer Max Ehrmann in 1927) suggests avoiding such people,</p>
+
+<p><a href="https://en.m.wikipedia.org/wiki/Desiderata" rel="nofollow">https://en.m.wikipedia.org/wiki/Desiderata</a></p>
+
+<p>Though from the above, you will see that the poem became subject to that which it advised against. Such apparently is the way of life.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745582">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745582">February  8, 2017  8:33 AM</a>
+</p>
+
+<p>@ Thoth, @ Clive, @ ab praeceptis, @ Nick P, @ Anura</p>
+
+<p><i>I guess we can continue to bang on about proper assured codes, stress testing, modelling and all the techniques to bring security assurance higher but I guess few ever bothers and even find our work laughable.</i></p>
+
+<p>There is only so much you can do as an "evangelist". Our business is what it is, and the reality on the shop floor is that there is little interest - let alone money to make - in high assurance systems, unless you get to work for a little niche of customers that for whatever reason need such systems indeed. The average user, company and - as a consequence developer/code cutter - in practice doesn't give a rat's *ss. Over the years, I have become more pragmatic about it and try to work with what sucks less all while keeping an eye open to stuff that's better. Like some of the ideas and more tangible stuff some of the usual suspects here are generating.   </p>
+</div></article>
+
+
+
+<article><div class="comment by-gerard-van-vooren" id="c6745586">
+
+
+<p class="commentcredit"><span class="commenter">Gerard van Vooren</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745586">February  8, 2017 10:19 AM</a>
+</p>
+
+<p>@ Nick P,</p>
+
+<p><i>Especially if developed under the casually-scratching-and-itch model of unpaid development that is open-source.</i></p>
+
+<p>That's probably also why Bruce is lobbying for a tech department at US gov.</p>
+
+<p>@ Clive Robinson,</p>
+
+<p><i>The first is the "chain" problem, where there might be more than two programs involved.</i></p>
+
+<p>I agree with Nick P here. Always distrusts the input.</p>
+
+<p><i>A second problem is the revision number it's self.</i></p>
+
+<p>That problem has been solved a long time ago, as you (I am quite sure) know, with the 1.2.3 numbering system where changes in 1.x.x means breaking, in x.2.x means adding or changing without external consequences and in x.x.3 means slight cleanup/bug fixes without changing behavior of the product/program.</p>
+
+<p>What would be interesting (and it probably exists) is a software repository system that "understands" this version scheme and disallows api changes in x.2.x or x.x.3 releases.</p>
+
+<p><i>Most code cutters fail to handle errors or exceptions in a sane way in their programs, they tend to just "exit on error"</i></p>
+
+<p>Better that than accepting undefined behavior. The motto <i>"Be conservative in what you send, be liberal in what you accept"</i> (Postel's law) is totally ridiculous. It has resulted in way to much code that is hard to understand. In fact OpenBSD's Pledge works with deliberately crashing the program if it doesn't live up to its promises and it's remarkably simple.</p>
+</div></article>
+
+
+
+<article><div class="comment by-anura" id="c6745588">
+
+
+<p class="commentcredit"><span class="commenter">Anura</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745588">February  8, 2017 10:34 AM</a>
+</p>
+
+<p>@Clive Robinson</p>
+
+<blockquote>As we both know the real world does not work that way. As a primary distribution maintainer you will have a bit of a political fight on your hands, but might --if you can find them all-- manage to keep them out. But with FOSS you can not stop secondary distributions or others making such packages available.</blockquote>
+
+<p>That's why I prefer to avoid the real world.</p>
+
+<p>But yeah, it's the same problem with convincing people to maintain a well documented UI - coming up with solutions is often easy (especially when everyone pretty much already knows the solution to begin with!), but convincing people to actually follow best practices is like getting blood from a stone. Honestly, I think this is mostly a structural issue with the software industry that is built around encourages doing things fast and cheap rather than doing things right.</p>
+
+<p>In this case, however, we are talking a filesystem. This is a core component of an operating system, and something we could do properly with high security assurances. I've mentioned before that we should dump a ton of resources into developing the basic components for an OS, designed from the ground up with strict enforcement of best practices. If we could do that, and we can really ensure that it is maintained properly, it could go a very long way. I know there's been regular discussion here about providing assurance at the hardware level, but that's out of my domain.</p>
+
+<p>As for the rest, I mean, you're basically describing dependency hell, which is a problem whether you have a proper API or a UI - that I don't have a real solution for (I mean, there are only trade-offs, not solutions for that problem, as far as I'm aware - but most people here are fully aware of these trade-offs).</p>
+</div></article>
+
+
+
+<article><div class="comment by-anura" id="c6745593">
+
+
+<p class="commentcredit"><span class="commenter">Anura</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745593">February  8, 2017 10:55 AM</a>
+</p>
+
+<p>Of course, I remember working with some of the COM objects in .NET for an administrative service we had for our servers (this was about a decade ago). Every so often, the service would just start failing until we restarted it. Even with the most isolated usage of COM objects, this problem would not go away, and we determined that the problem was in those COM objects. The solution we found was to simply go out to the shell and call the commands, spawning a new process that terminates on exit.</p>
+
+<p>I hate Windows development.</p>
+</div></article>
+
+
+
+<article><div class="comment by-figureitout" id="c6745635">
+
+
+<p class="commentcredit"><span class="commenter">Figureitout</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745635">February  9, 2017  1:14 AM</a>
+</p>
+
+<p>Thoth<br />
+--High assurance doesn't just come easy, takes years, is expensive, and it still doesn't guarantee success.  That these remain side projects is the problem, I want to work on computer security full-time during the work week.  We just have to wait for "the big one" that encrypts millions upon millions of harddisks and deletes the keys, shuts down power plants long enough for battery backups to go down, generates false traffic on markets,etc.  That never comes though...</p>
+
+<p>Clive Robinson<br />
+<i>Most code cutters fail to handle errors or exceptions in a sane way in their programs, they tend to just "exit on error" or in otherways "bail out</i><br />
+--That was your advice a few years ago, remember that?  Fail long and hard on errors.  Now you don't like it eh?  What's your sane way to exit from an error now or you just wanna moan and groan?</p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745637">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745637">February  9, 2017  3:47 AM</a>
+</p>
+
+<p>@ Figureitout,</p>
+
+<blockquote>That was your advice a few years ago, remember that? Fail long and hard on errors.</blockquote>
+
+<p>That was advice about reducing covert channels in an information communications --not storage or processing-- system. </p>
+
+<p>The advice was specifically about "aborting a transmission and re-sending at a later point in time". This was to be done at the instrumented choke points in a compartmentalized secure high reliability system.</p>
+
+<p>Importantly to do the fail hard and long, then resend means it is clearly a "store and forward" system so data would not be lost. Which is the key point to note.</p>
+
+<p>Most code cutters however develop code  for an information processing system which then might feed a storage system.</p>
+
+<p>The code cutter usuall assumption is down stream is reliable, that is they feed a "reliable" data sink, which does not have errors or exceptions. They also assume that all checking of data is done before processing, thus have no way to deal with processing errors or exceptions. Thus they do not even attempt a way to hand data back to the data source. As this occures at each stage in a pipeline there is the issue of each stage storing a data object which means that on fail the number of data objects lost is the same as the number of stages in the pipeline...</p>
+
+<p>There are known ways of dealing with these problems which you see implemented in communications systems and occasionaly and imperfectly in storage systems. But I've yet to see them used effectively in "information processing" systems.</p>
+
+<p>The simplest example that most will be familiar with is "auto-save" in editors. In modern editors they are generaly far from perfect and you can lose 10-60minutes of work. Nor are they anywhere as good as they used to be when storage and communications systems were less reliable.</p>
+
+<p>I've mentioned these problems in the past and will no doubt be mentioning them for the foreseeable future. Because the general case is that for errors or exceptions the coding time spent on them is proportional to their likelyhood of happening, not the effect of what happens when they do.</p>
+
+<p>Look at it this way, if your editor crashes out once in a blue moon, if you lose a few keypresses then it's an anoyance. But if the underlying --say networked-- file system crashes about the same rate and wipes out your PhD thesis then you are going to be some what more put out. Older style editor designers were aware of the unreliability of the file store thus they used to copy the file onto disk first, then would update the copy. Thus if either the editor or the network file system crashed out the original work would be safe. </p>
+
+<p>More modern systems being considerably more reliable, the code cutters / designers tend not to build in the same level of data protection, thus whilst problems are less frequent, the harms are considerably greater when they do happen.</p>
+
+<p>Now before people try to bite my head off and jump down my throat, I'm aware that a large part of the problem is shortening project time scales. But a very real part of that is the need for defensive programing is not getting passed on to successive generations of programmers. Worse where it is mentioned the attitude is that such defensive measures are a waste of coding time as the events they protect against "just don't happen any more". So the easy win on project time scale is to cut defensive coding that surounds errors and exceptions. It's a more insidious problem than the notion of "input data is clean" because "it's been checked upstream", which as we know has given rise to the abundantly fruitfull hunting ground of "attack vectors" that "little bobby tables" is joked about.  </p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745643">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745643">February  9, 2017  5:27 AM</a>
+</p>
+
+<p>@ Gerard</p>
+
+<p>The concept of limiting what you accept was shown formally to be superior for correctness with Abstract, State Machines in the 90's and LANGSEC recently. It should be considered a fact by now that it's wrong to accept things liberally if security/reliability is priority. Unless one's priority is maximizing commercial adoption or ecosystem where groups like Microsoft shows it's an effective strategy.</p>
+
+<p>@ Anura</p>
+
+<p>Look up COGENT language homepage. On the bottom is a publication where they use it on filesystems. That includes ext2. Supports your point given it's not theoretical: quite doable today.</p>
+</div></article>
+
+
+
+<article><div class="comment by-asdpij" id="c6745660">
+
+
+<p class="commentcredit"><span class="commenter">asdpij</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745660">February  9, 2017  8:09 AM</a>
+</p>
+
+<p>If you want to interact with other software, send them a fucking patch to add a command line option instead of simulating key presses. How is this not obvious?</p>
+</div></article>
+
+
+
+<article><div class="comment by-moderator official" id="c6745672">
+
+
+<p class="commentcredit"><span class="commenter">Moderator</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745672">February  9, 2017  9:44 AM</a>
+</p>
+
+<p>@asdpij, @Daniel, @all: Please avoid using the word "f*ck" in comments; the word is offensive to our host and to many visitors.</p>
+</div></article>
+
+
+
+<article><div class="comment by-bong-smoking-primitive-monkey-brained-spook" id="c6745692">
+
+
+<p class="commentcredit"><span class="commenter">Bong-Smoking Primitive Monkey-Brained Spook</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745692">February  9, 2017  5:25 PM</a>
+</p>
+
+<blockquote>Please avoid using the word ...</blockquote>
+
+<p>Sir, yes sir!</p>
+
+<p>And just like that, 0.071428571428571% of my vocabulary went down the sh*tter!</p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745705">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745705">February  9, 2017  9:35 PM</a>
+</p>
+
+<p>@ Bong-Smoking Primitive Monkey-Brained Spook,</p>
+
+<blockquote>And just like that, 0.071428571428571% of my vocabulary went down...</blockquote>
+
+<p>Hmmm a 1400 word vocabulary... Are you sure?</p>
+
+<p>After all even Charlie Babage found the organ grinders monkey to be more erudite than the grinder...</p>
+</div></article>
+
+
+
+<article><div class="comment by-bong-smoking-primitive-monkey-brained-spook" id="c6745706">
+
+
+<p class="commentcredit"><span class="commenter">Bong-Smoking Primitive Monkey-Brained Spook</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745706">February  9, 2017 10:48 PM</a>
+</p>
+
+<p>@Clive Robinson,</p>
+
+<blockquote>Bong-Smoking Primitive Monkey-Brained Spook</blockquote>
+
+<p>You're off by two orders of magnitude. At the time I wrote that I had amassed an impressive 14 words of vocabulary. 14 - one word = 13. 1/14 = 0.071428571. I made a mistake and pasted the value twice.</p>
+</div></article>
+
+
+
+<article><div class="comment by-ratio" id="c6745707">
+
+
+<p class="commentcredit"><span class="commenter">Ratio</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745707">February  9, 2017 11:11 PM</a>
+</p>
+
+<p>@Bong-Smoking Primitive Monkey-Brained Spook,</p>
+
+<blockquote>You're off by two orders of magnitude.</blockquote>
+
+<p>Not this time he's not. (Per<b>cent</b>ages...)</p>
+</div></article>
+
+
+
+<article><div class="comment by-bong-smoking-primitive-monkey-brained-spook" id="c6745708">
+
+
+<p class="commentcredit"><span class="commenter">@Bong-Smoking Primitive Monkey-Brained Spook</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745708">February  9, 2017 11:27 PM</a>
+</p>
+
+<p>@Ratio, </p>
+
+<p>You are absolutely correct! I forgot about that little sign. Who am I to argue with Mr. Ratio! @Clive Robinson is spot on !</p>
+</div></article>
+
+
+
+<article><div class="comment by-andy" id="c6745709">
+
+
+<p class="commentcredit"><span class="commenter">Andy</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745709">February 10, 2017 12:04 AM</a>
+</p>
+
+<p>@:-) <br />
+50000/0.071 = 704,225words<br />
+304942679/0.071 = 1 and -1</p>
+</div></article>
+
+
+
+<article><div class="comment by-andy" id="c6745710">
+
+
+<p class="commentcredit"><span class="commenter">Andy</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745710">February 10, 2017 12:19 AM</a>
+</p>
+
+<p>Note pad and the recycle bin had that error.<br />
+The alphabet was broken into 1-7 maths variables, with some special char, if you had like 300mb file with the count 0xfffffffa, the next char like tab or newline, then a five to seven char, the function loop would go to zero, ad start counting again, while the heap got overflowed.<br />
+Are :-P.</p>
+</div></article>
+
+
+
+<article><div class="comment by-figureitout" id="c6745711">
+
+
+<p class="commentcredit"><span class="commenter">Figureitout</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745711">February 10, 2017 12:21 AM</a>
+</p>
+
+<p>Clive Robinson<br />
+<i>The advice was specifically about "aborting a transmission and re-sending at a later point in time"</i><br />
+--Well it could still be sending a file, if it's huge then that would be a problem to fail near the end.  And information is still being communicated to a storage processing system (memory), if that comm path is being tampered w/, I'd want to know about it.</p>
+
+<p>In the "fail long and hard", why would that not include having a copy of data, then fail?</p>
+
+<p>There's always a risk when you have new information being copied, like at the last instant say you switch pointers or delete a temp copy of the data and turns out it was a bad copy over.  I don't see how any method really eliminates this risk completely, always a risk say something happens at the worst, most critical time.</p>
+
+<p>RE: modern vs older editors<br />
+--I don't know...I've definitely lost data on older editors before auto save, and newer editors saved my file through a random reboot (recovery mode).  Few times I was getting weirdness on a google drive editing docs.  I definitely don't wanna lose my code I just write, going to back up my stuff again this week (already on cloud, don't care who looks, just want a copy of it).</p>
+
+<p>Yeah you love saying code cutter this or that, but it's the way the systems are today, way too huge and too many parts.  I get told at school I have too many checks, don't need them.  I figure I can remove them if more speed is needed or the risk is low enough to not care, but I like my checks and my style (line by line comments on "tricky code" where I'll forget why I'm doing what I'm doing a few months later).  People don't value simple, robust; they want crazy and flashy, new territory where there's no design guidelines you learn in school and have existed for centuries.  I say give it to them until they get burned enough and demand more robustness.  Then we can spend more time on "boring" things like designing fail-safes which is really hard, the lower you go.  Why I like embedded, keep the crazy rat race that web devs put up w/ (which there's more and more of them saying "no more rat race insanity") to a minimum and make pretty designs that last longer.  </p>
+</div></article>
+
+
+
+<article><div class="comment by-thomas-d-dial" id="c6745712">
+
+
+<p class="commentcredit"><span class="commenter">Thomas D Dial</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745712">February 10, 2017 12:46 AM</a>
+</p>
+
+<p>The bug (#852751) is reported (to Debian) on 26 January, tracked down and Cryptkeeper removed from testing ("Stretch") by 31 January, and reported in The Register on the same day.</p>
+
+<p>Then, again, it is reported here a full week later with links that if followed will lead to a full understanding of the problem and the fact that it has been resolved. However, unless one follows the links, the post is written to nearly imply that this was a genuine vulnerability that still exists in the testing repository. It is not (although the files are not protected by the intended password); and it does not.</p>
+
+<p>This occurred in a testing repository, of which users can be presumed knowledgeable enough to understand and accept the risk. Breakage is to be expected.</p>
+
+<p>Many of the comments, however, make valid points and indicate the difficulty of maintaining a large collection of related programs by a large group of developers and maintainers. I suspect there is no solution that will entirely prevent this type of thing.</p>
+
+<p>It seems possible that Debian and similar distributions with good dependency enforcement could tighten things a bit by tightening the dependencies to limit the version range of dependencies. In Jessie, for example, cryptkeeper has a dependency on any version of encfs, rather than the version in Jessie (1.7.4-5), although that may be the latest version with which cryptkeeper actually worked (and was tested). It still would be incumbent on packagers to do reasonable testing, something at which, in my experience, many programmers are not very good at.</p>
+</div></article>
+
+
+
+<article><div class="comment by-bong-smoking-primitive-monkey-brained-spook" id="c6745713">
+
+
+<p class="commentcredit"><span class="commenter">Bong-Smoking Primitive Monkey-Brained Spook</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745713">February 10, 2017  1:03 AM</a>
+</p>
+
+<p>@Clive Robinson,</p>
+
+<p>I should have said: 7.1%</p>
+
+<blockquote>organ grinders monkey to be more erudite than the grinder</blockquote>
+
+<p><a href="https://www.google.com/amp/s/www.urbandictionary.com/define.php%3Fterm%3DSpeak%2520to%2520the%2520organ%2520grinder%2520not%2520the%2520monkey.%26amp%3Dtrue?client=safari" rel="nofollow">The organ grinder</a>:</p>
+
+<p>The tired primitive brain isn't able to decipher this parable.</p>
+
+<p>@Andy,</p>
+
+<p>Ditto! I need some rest. Too many mistakes.</p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745715">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745715">February 10, 2017  1:56 AM</a>
+</p>
+
+<p>@ ,</p>
+
+<p>No it was not that phrase I was refering to.</p>
+
+<p>Charles Babage --supposed-- inventor of the computer hated Organ Grinders, who would play outside his house disturbing his peace. A war broke out between him and them and they won in the short term by congregating in groups outside his house at all hour's of the day to make his life even more unbearable. In the longterm he won by act of Parliament, though the grinders got revenge on his final days as he lay dying.</p>
+
+<p>He was known to have made comments about them involving a comparison between the monkey and the grinders respective intelligences, or lack there of in the case of the grinders.</p>
+
+<p><a href="https://www.newscientist.com/article/mg17924085-100-blasts-from-the-past-mr-babbage-and-the-buskers" rel="nofollow">https://www.newscientist.com/article/mg17924085-100-blasts-from-the-past-mr-babbage-and-the-buskers</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745716">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745716">February 10, 2017  2:43 AM</a>
+</p>
+
+<p>@ Bong-Smoking Primitive Monkey-Brained Spook,</p>
+
+<blockquote>Ditto! I need some rest. Too many mistakes.</blockquote>
+
+<p>I've had some rest but the head is befuddled and Public Transport in London is it's usuall dire mess up on a Friday winters morning, where there is salt thrown down under foot making life dificult with the crutches, with delays cancellations causing platform changes... So I'm in overload mode with a 1201 alarm going off ;-)</p>
+
+<p>And thus neglected to address my above. Any way I'm now supping on a cup of strong Brownian Motion producer and my reality is approaching normal without the assistance of "simply hooking the logic circuits of a Bambleweeny 57 Sub-Meson Brain to an atomic vector plotter" into it or myself :-o<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-bong-smoking-primitive-monkey-brained-spook" id="c6745719">
+
+
+<p class="commentcredit"><span class="commenter">Bong-Smoking Primitive Monkey-Brained Spook</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745719">February 10, 2017  5:48 AM</a>
+</p>
+
+<p>@Clive Robinson,</p>
+
+<blockquote>And thus neglected to address my above. </blockquote>
+
+<p>I gathered you're talking to me. That's easy. Metadata is my game, the content. is a little dark. Getting used to it, but I'll do something about it -- that... you can bet on.</p>
+
+<blockquote>I've had some rest but the head is befuddled</blockquote>
+
+<p>So did I. Although I woke up to drain the bong, so to speak.</p>
+
+<blockquote>where there is salt thrown down under foot making life dificult with the crutches</blockquote>
+
+<p>If life gives you salt, make margaritas...</p>
+
+<blockquote>supping on a cup of strong Brownian Motion producer</blockquote>
+
+<p>Or coffee!</p>
+
+<blockquote>Bambleweeny 57 Sub-Meson Brain to an atomic vector plotter" into it or myself</blockquote>
+
+<p>I'm trying very very hard to not use the prohibited 14th word of my vocabulary. Please don't quiz me!</p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745722">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html#c6745722">February 10, 2017  6:04 AM</a>
+</p>
+
+<p>@ Bong-Smoking Primitive Monkey-Brained Spook,</p>
+
+<p>The bambleweenie 57 is part of Douglas Adams little joke about "Hyperspace" along with a hostesses undergarments moving to the left...</p>
+
+<p>As Zapgod would say "Sheesh man you are so unhip it's amazing your bottom does not fall off" B-)</p>
+</div></article>
+
+
+
+
+<p class="subscribe-comments"><a href="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.xml"><img alt="Atom Feed" src="/images/rss-16px.png">Subscribe to comments on this entry</a></p>
+
+  <div class="postcomment notpreviewed">
+
+    
+    
+    <div class="comments-open" id="comments-open">
+        <h2 class="comments-open-header">Leave a comment</h2>
+        <div class="comments-open-content">
+
+        
+            <div id="comment-greeting"></div>
+
+            <form method="post" action="https://www.schneier.com/cgi-bin/mt/mt-comments.cgi" name="comments_form" id="comments-form" onsubmit="return mtCommentOnSubmit(this)">
+                <input type="hidden" name="static" value="https://www.schneier.com/blog/archives/2017/02/cryptkeeper_bug.html?nc=60">
+                <input type="hidden" name="entry_id" value="10996" />
+                <input type="hidden" name="__lang" value="en-us" />
+
+                <script language="javascript" type="text/javascript"><!--
+	                document.write('<input type="hidden" name="armor" value="" /><input type="hidden" name="sid" value="" /><input type="hidden" name="preview" value="" />');
+                // --></script>
+                <div id="comments-open-data">
+                    <div id="comment-form-name">
+                        <label for="comment-author">Name (required):</label>
+                        <input id="comment-author" name="author" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                    <div id="comment-form-email">
+                        <label for="comment-email">E-mail Address:</label>
+                        <input id="comment-email" name="email" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                    <div id="comment-form-url">
+                        <label for="comment-url">URL:</label>
+                        <input id="comment-url" name="url" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                <script language="javascript" type="text/javascript"><!--
+                document.write('<div id="comment-form-remember-me"><input type="checkbox" id="comment-bake-cookie" name="bakecookie" onclick="mtRememberMeOnClick(this)" value="1" accesskey="r" /><label class="checkbox" for="comment-bake-cookie">Remember personal info?<\/label><\/div>');
+                // --></script>
+                </div>
+<p id="comments-open-challenge"><input type="hidden" id="commchallenge_beacon" name="commchallenge_beacon" value="1" /><label for="commchallenge_answer">Fill in the blank: the name of this blog is Schneier on ___________ <strong>(required)</strong>:</label>
+<input type="text" id="commchallenge_answer" name="commchallenge_answer" size="30" value="" /></p><script type="text/javascript">
+<!--    
+if ((typeof commenter_name != 'undefined') ||
+    (typeof getCommenterName != 'undefined' &&  getCommenterName())) {
+    mtHide('comments-open-challenge');
+} else {
+    mtShow('comments-open-challenge');
+} 
+// -->
+</script>
+
+
+                <div id="comments-open-text">
+                    <label for="comment-text">Comments:</label>
+                    <textarea id="comment-text" name="text" onfocus="mtCommentFormOnFocus()"></textarea>
+                </div>
+		            <p id="allowed"><strong>Allowed HTML:</strong> &lt;a href="URL"&gt; &bull; &lt;em&gt; &lt;cite&gt; &lt;i&gt; &bull; &lt;strong&gt; &lt;b&gt; &bull; &lt;sub&gt; &lt;sup&gt; &bull; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &bull; &lt;blockquote&gt; &lt;pre&gt;</p>
+                <div id="comments-open-captcha"></div>
+                <div id="comments-open-footer">
+
+  	                <script language="javascript" type="text/javascript"><!--
+										document.write('<input type="submit" accesskey="v" name="preview_button" id="comment-preview" value="Preview" onclick="this.form.preview.value=\'1\';" />');
+		                // --></script>
+		                <noscript><input type="submit" accesskey="v" name="preview" id="comment-preview" value="Preview"></noscript>
+                    
+                    <input type="submit" accesskey="s" name="post" id="comment-submit" value="Submit" />
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+    <script type="text/javascript">
+    <!--
+    mtAttachEvent("load", mtEntryOnLoad);
+    mtAttachEvent("unload", mtEntryOnUnload);
+    //-->
+    </script>
+    
+    
+  </div>
+
+
+
+
+
+
+
+
+    
+    
+<div class="stepthrough">
+		
+		<a class="earlier" href="https://www.schneier.com/blog/archives/2017/02/hacker_leaks_ce.html">&larr; Hacker Leaks Cellebrite's Phone-Hacking Tools</a>
+		
+		
+		<a class="later" href="https://www.schneier.com/blog/archives/2017/02/profile_of_citi.html">Profile of Citizen Lab and Ron Diebert &rarr;</a>
+		
+	</div>
+
+    
+<p id="powered">Photo of Bruce Schneier by Per Ervland.
+	
+	<p id="disclaim">Schneier on Security is a personal website.  Opinions expressed are not necessarily those of <a href="https://www.resilientsystems.com/">Resilient</a>, an IBM Company.
+
+
+	
+	</div><!--#content-->
+<aside><div class="sidebar" id="sidebar-two">
+		<section><div class="sidesection" id="about">
+		
+		<h3>About Bruce Schneier</h3>
+	    
+	        
+	            <img id="authorphoto" src="/images/bruce-blog3.jpg" width="150" height="194" alt="Bruce Schneier"><p class="small">I've been writing about security issues on my <a href="/">blog</a> since 2004, and in my monthly <a href="/crypto-gram/">newsletter</a> since 1998. I write <a href="/books/">books</a>, <a href="/essays/">articles</a>, and <a href="/academic/">academic papers</a>. Currently, I'm the Chief Technology Officer of <a href="https://www.resilientsystems.com/">Resilient, an IBM Company</a>, a fellow at Harvard's <a href="http://berkman.harvard.edu/">Berkman Center</a>, and a board member of <a href="https://www.eff.org/">EFF</a>.</p>
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+
+		</div></section>
+
+
+		<section><div class="sidesection">
+			<h3>Related Entries</h3>
+			<ul>
+     			<li><a href="https://www.schneier.com/blog/archives/2016/02/the_importance_.html">The Importance of Strong Encryption to Security</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/02/worldwide_encry.html">Worldwide Encryption Products Survey</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2017/01/whatsapp_securi.html">WhatsApp Security Vulnerability</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/12/encryption_work.html">Encryption Working Group Annual Report from the US House of Representatives</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/12/my_priorities_f.html">My Priorities for the Next Four Years</a></li>
+   			</ul>
+		</div></section>
+
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<section><div class="sidesection">
+
+					<h3>Featured Essays</h3>
+					<ul>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/04/the_value_of_encrypt.html">The Value of Encryption</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/03/data_is_a_toxic_asse.html">Data Is a Toxic Asset, So Why Not Throw It Out?</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2014/01/how_the_nsa_threaten.html">How the NSA Threatens National Security</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2009/01/terrorists_may_use_g.html">Terrorists May Use Google Earth, But Fear Is No Reason to Ban It</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2007/01/in_praise_of_securit.html">In Praise of Security Theater</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/08/refuse_to_be_terrori.html">Refuse to be Terrorized</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/05/the_eternal_value_of.html">The Eternal Value of Privacy</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2005/09/terrorists_dont_do_m.html">Terrorists Don't Do Movie Plots</a></li>
+						
+					</ul>
+
+	    <p><a href="https://www.schneier.com/essays/">more essays</a></p>
+		</div></section>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+
+    
+    <section><div class="sidesection">
+		
+			<h3>Blog Archives</h3>
+			<ul>
+				<li><a href="https://www.schneier.com/blog/calendar.html">Archives by Month</a></li>
+				<li><a href="https://www.schneier.com/blog/newcomments.html">100 Latest Comments</a></li>
+			</ul>
+        
+
+
+        
+
+		<h4>Blog Tags</h4>
+<ul class="top-tags">
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=privacy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">privacy</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=terrorism&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">terrorism</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=surveillance&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">surveillance</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=squid&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">squid</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=academic%20papers&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">academic papers</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=NSA&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">NSA</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=air%20travel&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">air travel</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=hacking&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">hacking</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cryptography&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cryptography</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=national%20security%20policy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">national security policy</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=law%20enforcement&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">law enforcement</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=encryption&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">encryption</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=DHS&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">DHS</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=homeland%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">homeland security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=economics%20of%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">economics of security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=crime&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">crime</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=Schneier%20news&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">Schneier news</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=malware&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">malware</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=essays&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">essays</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=TSA&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">TSA</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=laws&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">laws</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=computer%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">computer security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=fraud&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">fraud</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=vulnerabilities&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">vulnerabilities</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=psychology%20of%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">psychology of security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=police&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">police</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=courts&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">courts</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cost-benefit%20analysis&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cost-benefit analysis</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cell%20phones&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cell phones</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=physical%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">physical security</a></li>
+</ul>
+<p><a href="https://www.schneier.com/blog/tags.html">more tags</a></p>
+
+
+	
+    </div></section>
+
+
+    
+		<section><div class="sidesection">
+		<h3>Latest Book</h3>
+		<a href="https://www.schneier.com/books/data_and_goliath/"><img class="sidepic"  alt="Data and Goliath" src="https://www.schneier.com/images/book-dg-175w.jpg"></a>
+		<p><a href="https://www.schneier.com/books/">more books</a></p>
+		</div></section>
+		
+		<section><div class="sidesection">
+		<a href="https://www.eff.org/issues/bloggers/legal/join"><img id="effbutton" src="https://www.schneier.com/images/eff-150x40.gif" ALT="Support Bloggers' Rights!" width="150" height="40"></a>
+		
+		<a href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=8252"><img src="https://www.schneier.com/images/epic-150w.png" width="150" height="54" alt="Defend Privacy--Support Epic"></a>
+
+		</div></section>
+
+		<section><div class="sidesection">
+		<a href="https://www.resilientsystems.com/"><img class="sidepic" alt="Resilient Systems" src="https://www.schneier.com/images/resilient-logo2-175w.png"></a>	
+
+		</div></section>
+
+		
+	</div></aside>
+
+
+<footer><nav><div class="nav" id="footer-nav">
+<ul>
+	<li class="menu1 current"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+	
+	</div></nav></footer>
+
+</div><!--#main-->
+</div><!--#wrapper-->
+
+</body>
+</html>
+
+
+

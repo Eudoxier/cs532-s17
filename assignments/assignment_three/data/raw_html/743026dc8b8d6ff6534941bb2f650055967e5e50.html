@@ -1,0 +1,1734 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>UrbanBazaar</title>
+        <link rel="icon" href="http://urbanbazaar.ae/assets/images/favicon.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="http://urbanbazaar.ae/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://urbanbazaar.ae/assets/font-awesome-4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://urbanbazaar.ae/assets/css/animate.css">
+        <link rel="stylesheet" href="http://urbanbazaar.ae/assets/css/style.css">
+        <script>
+            window.fbAsyncInit = function () {
+                FB.init({
+                    appId: '1128303460556681',
+                    xfbml: true,
+                    version: 'v2.8'
+                });
+            };
+
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {
+                    return;
+                }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            function fbLogin() {
+
+                // $('#modal-register').modal('hide');
+                //	$('#loader').addClass('show')
+                FB.login(function (response) {
+                    if (response) {
+                        console.log('Welcome!  Fetching your information.... ');
+                        var url = '/me?fields=id,first_name,last_name,email,gender,locale,picture';
+
+                        FB.api(url, function (response) {
+                            /*
+                             $('#loader').removeClass('show');
+                             $('#modal-register-fb').modal('show');
+                             */
+                            var first_name = response.first_name;
+                            var last_name = response.last_name;
+                            var email = response.email;
+                            var id = response.id;
+                            if (email.length !== 0) {
+                                $.ajax({
+                                    url: 'http://urbanbazaar.ae/index/fbuserLogin',
+                                    type: 'POST',
+                                    dataType: 'HTML',
+                                    data: "email=" + email,
+                                    success: function (res)
+                                    {
+                                        if (res == 2)
+                                        {
+                                            $("#errorDiv").html("This email is not registered.");
+                                            $("#errorDiv").css("display", "block");
+                                        } else if (res == 1)
+                                        {
+                                            window.location = "http://urbanbazaar.ae/";
+                                        }
+                                    },
+                                    error: function (xhr, status, error)
+                                    {
+
+                                    }
+                                });
+                            }
+                        });
+
+
+
+                    } else {
+                        console.log('User cancelled login or did not fully authorize.');
+                    }
+
+                }, {
+                    scope: 'email,user_about_me,user_birthday',
+                    return_scopes: true
+                });
+
+            }
+        </script>
+    </head>
+    <body> 
+        <div style="position:relative; width:100%; height:54px;z-index:999;">
+            <div style="float:left; position:absolute; width:67px; height:68px; z-index:9;"><a href="http://urbanbazaar.ae/"><img src="http://urbanbazaar.ae/assets/images/5.png" width="93" height="68" alt=""/></a></div>
+            <div style="float:left; margin-left:93px;">
+                <ul class="nav navbar-nav">
+                    <li class="search-area">
+                        <form class="navbar-form navbar-right" style="padding-bottom: 4px;" action="http://urbanbazaar.ae/index/shop_search" method="get">
+                            <div class="input-group">
+                                <input type="text" name="shop_name" class="form-control navbar-search" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button type="submit" class="btn search-btn"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </form>
+                    </li>
+                                            <li style="border: 1px solid #f3f3f3;padding: 1px;
+                            "> <a href="#myModal" data-toggle="modal" style="color: rgb(202, 83, 202);" ><img src="http://urbanbazaar.ae/assets/images/user.png"  width="17px;" >LOGIN</a>    
+                        </li>
+                                            <li style="border: 1px solid #f3f3f3;padding: 1px;
+                        "><a href="#" style="color: rgb(202, 83, 202);"><img src="http://urbanbazaar.ae/assets/images/Untitled-1.png"  width="17px;">35</a></li>
+                    <li style="border: 1px solid #f3f3f3;"><a href="https://twitter.com/" ><img src="http://urbanbazaar.ae/assets/images/twit-icon.png" width="17px;"></a></li>
+                    <li style="border: 1px solid #f3f3f3;"><a href="https://www.facebook.com/" ><img src="http://urbanbazaar.ae/assets/images/fb-ico.png" width="17px;"></a></li>
+                    <li  style="border: 1px solid #f3f3f3;"><a href="https://web.skype.com" ><img src="http://urbanbazaar.ae/assets/images/skype-ico.png" width="17px;"></a></li>
+                    <li  style="border: 1px solid #f3f3f3;"><a href="https://www.linkedin.com/" ><img src="http://urbanbazaar.ae/assets/images/lin-ico.png" width="17px;"></a></li>
+                    <li  style="border: 1px solid #f3f3f3;"><a href="https://www.google.com.pk" ><img src="http://urbanbazaar.ae/assets/images/mess-ico.png" width="17px;"></a></li>
+                </ul>
+            </div>
+            <div >
+                <img  style="height: 52px;padding: 0px 0px 0px 13px;" src="http://urbanbazaar.ae/assets/images/img1.png">
+                <img  style="height: 52px;padding: 0px 0px 0px 13px;" src="http://urbanbazaar.ae/assets/images/img2.png">
+                <img  style="height: 52px;padding: 0px 0px 0px 13px;" src="http://urbanbazaar.ae/assets/images/img3.png">
+            </div>
+        </div>
+        <div id="map" style="width:100%;height:100%"></div>   
+        <!-----------------------------------------side-panel------------------------------->
+        <section class="side-panel">
+            <ul>
+                <li class="menu active" >
+                    <a href="#" class="active">
+                        <span class="icon1"></span>
+                        <span class="text">My Profile</span>
+                    </a>
+                    <ul class="flip" >
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="col-md-4" id="box-1">
+                                        <div class="panel panel-info">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">5 FOUNDS<button type="button" class="close" id="closebutton">x</button></h3> 
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="row">
+
+                                                    <div class=" col-md-12 col-lg-12 "> 
+                                                        <div class="col-md-6">
+                                                            <img src="http://urbanbazaar.ae/assets/images/rating_icon.png" alt="12">Rating
+                                                        </div>
+                                                        <div class="col-md-6 fot-col">
+                                                            <div style="float:right">
+                                                                <img src="http://urbanbazaar.ae/assets/images/filter_icon.png"><a href="#" onClick="showbox1()">Filter</a>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-md-12 col-lg-12 fot-col"> 
+                                                            <h4><a href="#">Rashida Begum</a></h4>
+                                                            <p>HOUSE NO 225 BLOCK D SECTOR 15 ORANGI TOWN, karachi</p>
+                                                            <div class="col-xs-6 fot-col"><a href="#">Email</a><br><a href="#">Detail</a></div>
+                                                            <div class="col-xs-6 stars">
+                                                                <ul>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>  
+                                            <div class="panel-body">
+                                                <div class="row">
+
+                                                    <div class=" col-md-12 col-lg-12 "> 
+                                                        <div class="col-md-6">
+                                                            <img src="http://urbanbazaar.ae/assets/images/rating_icon.png" alt="12">Rating
+                                                        </div>
+                                                        <div class="col-md-6 fot-col">
+                                                            <div style="float:right">
+                                                                <img src="http://urbanbazaar.ae/assets/images/filter_icon.png"><a href="#">Filter</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-md-12 col-lg-12 fot-col"> 
+                                                            <h4><a href="#">Rashida Begum</a></h4>
+                                                            <p>HOUSE NO 225 BLOCK D SECTOR 15 ORANGI TOWN, karachi</p>
+                                                            <div class="col-xs-6 font-color"><a href="#">Email</a><br><a href="#">Detail</a></div>
+                                                            <div class="col-xs-6 stars">
+                                                                <ul>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <hr>  
+                                            <div class="panel-body">
+                                                <div class="row">
+
+                                                    <div class=" col-md-12 col-lg-12 "> 
+                                                        <div class="col-md-6">
+                                                            <img src="http://urbanbazaar.ae/assets/images/rating_icon.png" alt="12">Rating
+                                                        </div>
+                                                        <div class="col-md-6 fot-col">
+                                                            <div style="float:right">
+                                                                <img src="http://urbanbazaar.ae/assets/images/filter_icon.png"><a href="#">Filter</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class=" col-md-12 col-lg-12 fot-col"> 
+                                                            <h4><a href="#">Rashida Begum</a></h4>
+                                                            <p>HOUSE NO 225 BLOCK D SECTOR 15 ORANGI TOWN, karachi</p>
+                                                            <div class="col-xs-6 font-color"><a href="#">Email</a><br><a href="#">Detail</a></div>
+                                                            <div class="col-xs-6 stars">
+                                                                <ul>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star"></i></li>
+                                                                    <li><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--2nd box-->  
+                                    <div class="col-xs-4 box_1" id="box-2" style="display:none;">
+                                        <div class="search_result_single clearfix active">
+                                            <div class="col-sm-12 user clearfix">
+                                                <button type="button" class="close" id="closebuttons">x</button>
+
+                                                <h3>Samina Yasir</h3><span><p>- reviews</p>
+                                                    <ul class="rattings clearfix"><li><i class="fa fa-star">
+                                                            </i></li><li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star"></i></li>
+                                                        <li><i class="fa fa-star-o"></i></li>
+                                                        <li><i class="fa fa-star-o"></i></li>
+                                                    </ul></span>
+                                            </div>
+                                            <div class="col-sm-12 user_detail clearfix">
+                                                <div class="col-sm-4 col-xs-12 nopadding">
+                                                    <h3><span>Skills: </span> Active and Energetic Able to handle pressures good time management Cleans efficiently</h3></div>
+                                                <div class="col-sm-8 col-xs-12 nopadding">
+                                                    <img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>
+                                                <div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>R‐38 SHEET NO.1 MUJAHID COLONY ORANGI TOWN</p></div>
+                                                <div class="col-xs-12 nopadding"><h3><span>Landmarks : </span>-</h3></div>
+                                                <div class="col-xs-12 col-sm-6 nopadding"><h3><span>Area : </span>Orangi Town</h3></div>
+                                                <div class="col-xs-12 col-sm-6 nopadding"><h3><span>City : </span>Karachi</h3></div>
+                                                <div class="col-xs-12 nopadding">
+                                                    <ul class="user_contacts">
+                                                        <li><a href="#"><img src="http://urbanbazaar.ae/assets/images/icon_tel.PNG"><br>Contact</a></li>
+                                                        <li><a href="#"><img src="http://urbanbazaar.ae/assets/images/icon_map.png"><br>Map</a></li>
+                                                        <li><a href="#"><img src="http://urbanbazaar.ae/assets/images/icon_favorite.png"><br>Favourite</a></li>
+                                                        <li><a href="#"><img src="http://urbanbazaar.ae/assets/images/icon_time.png"><br>Time</a></li></ul></div>
+                                                <div class="col-xs-12 nopadding">
+                                                    <h3><span>By Category :</span></h3>
+                                                    <ul class="category_list"><li>MAID</li></ul></div></div><div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                    <!---2nd----end-------box-------->
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <span class="icon2"></span>
+                        <span class="text">My History</span>
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <span class="icon3"></span>
+                        <span class="text">Favourite</span>
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <span class="icon4"></span>
+                        <span class="text">Payments</span>
+                    </a>
+                </li>
+                <li class="menu">
+                    <a href="#">
+                        <span class="icon5"></span>
+                        <span class="text">Setting</span>
+                    </a>
+                </li>
+                <li class="apps">
+                    <a href="#">
+                        <span class="icon6"></span>
+                        <span class="text-small">Download on the</span>
+                        <span class="text-app">App Store</span>
+                    </a>
+                </li>
+                <li class="apps">
+                    <a href="#">
+                        <span class="icon7"></span>
+                        <span class="text-small">Get it on</span>
+                        <span class="text-app">Google Play</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!------------------tab---------------->
+        <!---footer--->
+        <footer class="foot">
+            <div style="position:absolute; bottom: 0px; height:auto; width:100%;background-color: #1b1513; opacity:0.9;border-bottom: 4px solid #341068;">
+                <div class="container">
+                    <span class="foot-text"><a href="#myModal2" data-toggle="modal">Privacy Policy</a><img src="http://urbanbazaar.ae/assets/images/1473266327_icon-ios7-arrow-left.png">
+                    </span>
+                    <ul>
+                                                        <li><a href="http://urbanbazaar.ae/index/SearchByCategory/12"><span><img src="http://urbanbazaar.ae/assets/category/102842.png" alt="1" style="height: 30px; width: 40px;"></span>APPLIANCE</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/11"><span><img src="http://urbanbazaar.ae/assets/category/102807.png" alt="1" style="height: 30px; width: 40px;"></span>LAUNDARY</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/10"><span><img src="http://urbanbazaar.ae/assets/category/102719.png" alt="1" style="height: 30px; width: 40px;"></span>RESTURANTS</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/9"><span><img src="http://urbanbazaar.ae/assets/category/102655.png" alt="1" style="height: 30px; width: 40px;"></span>SHOPPING MALL</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/8"><span><img src="http://urbanbazaar.ae/assets/category/102627.png" alt="1" style="height: 30px; width: 40px;"></span>SCHOOLS</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/7"><span><img src="http://urbanbazaar.ae/assets/category/102552.png" alt="1" style="height: 30px; width: 40px;"></span>PARKS</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/6"><span><img src="http://urbanbazaar.ae/assets/category/034730.png" alt="1" style="height: 30px; width: 40px;"></span>HOSPITALS</a></li>
+                                                                <li><a href="http://urbanbazaar.ae/index/SearchByCategory/5"><span><img src="http://urbanbazaar.ae/assets/category/102436.png" alt="1" style="height: 30px; width: 40px;"></span>HOTELS</a></li>
+                                                    </ul>
+                    <img src="http://urbanbazaar.ae/assets/images/1473266252_icon-ios7-arrow-right.png">
+                    <span style="color: aliceblue;font-size: 11px;">Copyright &copy; Urban Bazar </span>
+                </div>
+            </div>
+        </footer>
+        <!-----------------------------------login---------- Modal ---------------------------------------------------------->
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">SING IN </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="panel-heading">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <!--<form id="login-form" action="#" method="post" role="form" style="display: block;">-->
+                                        <div id="errorDiv" style="color:maroon"></div>    
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">EMAIL</label>
+                                            <input type="email" name="loginemail" id="loginemail" tabindex="1" class="form-control" placeholder="Email" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">PASSWORD</label>
+                                            <input type="password" name="loginpassword" id="loginpassword" tabindex="2" class="form-control" placeholder="Password" style="height: 50px;">
+                                        </div>
+                                        <!--                                            <div class="checkbox">
+                                                                                        <input type="checkbox" class="input-assumpte" id="input-confidencial">
+                                                                                        <label for="input-confidencial"></label>
+                                                                                    </div>-->
+                                        <a href="#" onclick="userLogin();" class="btn btn-register btn-block">LOGIN</a>
+                                        <!--</form>-->
+                                        <div class="or-box">
+                                            <span class="or">OR</span>
+                                            <div class="row">
+                                                <div class="col-md-6 row-block">
+                                                    <a onclick="fbLogin();" class="btn btn-facebook btn-block"><i class="fa fa-facebook fa-2x"></i>FACEBOOK</a>
+                                                </div>
+                                                <div class="col-md-6 row-block">
+                                                    <a href="#" class="btn btn-google btn-block"><i class="fa fa-twitter fa-2x"></i>TWITTER</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 align="center">REGISTER NOT YET?<a onClick="openRegister()" data-toggle="modal" style="cursor: pointer;">REGISTERD NOW</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------end login---modal---------------->
+        <!--------------------------register------------------- Modal ---------------------------------------------------------->
+        <div id="myModal1" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">REGISTER </h4>
+                    </div>
+                    <div class="modal-body" style="overflow: scroll;height: 700px;">
+                        <div class="panel-heading">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div id="ferrorDiv" style="color:maroon"></div>
+                                        <!--<form id="register-form" action="#" method="post" role="form" style="display: block;">-->
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">SHOP NAME</label>
+                                            <input type="text" name="shop_name" id="ShopName" tabindex="1" class="form-control" placeholder="Shop Name" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">Contact Number</label>
+                                            <input type="text" name="contact_number" id="contact_number" tabindex="1" class="form-control" placeholder="Contact Number" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">Country</label>
+                                            <select class="form-control" style="height: 50px;" id="country_id">
+                                                <option value="">Select country</option>
+                                                                                                        <option value="7">UAE</option>
+                                                                                                                <option value="6">Pakistan</option>
+                                                        
+                                            </select>    
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">City</label>
+                                            <select class="form-control" style="height: 50px;" id="city_id">
+                                                <option value="">Select city</option>
+                                                                                            </select>    
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">Address</label>
+                                            <input type="text" name="address_id" id="address_id" tabindex="1" class="form-control" placeholder="Address" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">Postal Code</label>
+                                            <input type="text" name="postal_code" id="postal_code" tabindex="1" class="form-control" placeholder="Postal Code" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">Latitude</label>
+                                            <input type="text" name="latitude" id="latitude" tabindex="1" class="form-control" placeholder="Latitude" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">Longitude</label>
+                                            <input type="text" name="longitude" id="longitude" tabindex="1" class="form-control" placeholder="Longitude" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">EMAIL</label>
+                                            <input type="email" name="Register_email" id="Register_email" tabindex="1" class="form-control" placeholder="Email" value="" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">PASSWORD</label>
+                                            <input type="password" name="password" id="Register_pass" tabindex="2" class="form-control" placeholder="Password" style="height: 50px;">
+                                        </div>
+                                        <div class="form-group">
+                                            <label style="color: gray;font-size: 16px;">CONFIRM PASSWORD</label>
+                                            <input type="password" name="cpassword" id="Register_cpass" tabindex="2" class="form-control" placeholder="Confirm Password" style="height: 50px;">
+                                        </div>
+                                        <button class="btn btn-register btn-block" onclick="register_function()">REGISTER</button>
+                                        <!--</form>-->                                                                   
+                                    </div>                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------register--------end----------- Modal ---------------------------------------------------------->
+        <!--------------------------bottom------------------- Modal ---------------------------------------------------------->
+
+        <div id="myModal2" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" align="center">Privacy Policy</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="panel-heading">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <form id="bootom-form" action="#" method="post" role="form" style="display: block;">
+                                            <div class="form-group">
+<div style="margin: 0px 14.3906px 0px 28.7969px; padding: 0px; width: 436.797px; float: left; font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; line-height: 20px;">
+<h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; line-height: 24px; font-family: DauphinPlain; font-size: 24px;">What is Lorem Ipsum?</h2>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify;"><strong style="margin: 0px; padding: 0px;">Lorem Ipsum</strong>&nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+<div style="margin: 0px 28.7969px 0px 14.3906px; padding: 0px; width: 436.797px; float: right; font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; line-height: 20px;">
+<h2 style="margin: 0px 0px 10px; padding: 0px; font-weight: 400; line-height: 24px; font-family: DauphinPlain; font-size: 24px;">Why do we use it?</h2>
+<p style="margin: 0px 0px 15px; padding: 0px; text-align: justify;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>                                            </div>
+                                        </form>                                                                   
+                                    </div>                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--------------------------bootom--------end----------- Modal ---------------------------------------------------------->
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://urbanbazaar.ae/assets/js/bootstrap.min.js"></script>
+
+        <script>
+                                            function openRegister() {
+                                                $('#myModal').modal('toggle');
+                                                $('#myModal1').modal('toggle');
+                                            }
+
+        </script>
+        <script>
+            jQuery(function ($) {
+                // Asynchronously Load the map API 
+                var script = document.createElement('script');
+
+                script.src = "//maps.googleapis.com/maps/api/js?callback=initialize&libraries=places&key=AIzaSyABMyorfyAcKh25g0RdJJDcaQDzpck9xwg";
+
+                document.body.appendChild(script);
+            });
+
+            function initialize() {
+                var map;
+                var bounds = new google.maps.LatLngBounds();
+                var mapOptions = {
+                    mapTypeId: 'roadmap',
+                    styles: [{"featureType":"all","elementType":"labels.text","stylers":[{"color":"#000000"},{"visibility":"simplified"}]},{"featureType":"all","elementType":"labels.text.fill","stylers":[{"hue":"#ff0000"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#ff0000"},{"visibility":"simplified"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#000000"},{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry.fill","stylers":[{"visibility":"off"},{"color":"#ff0000"}]},{"featureType":"administrative.country","elementType":"geometry.stroke","stylers":[{"visibility":"on"}]},{"featureType":"administrative.country","elementType":"labels","stylers":[{"visibility":"simplified"},{"color":"#9b30f2"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"color":"#7620bd"}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural.landcover","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"landscape.natural.terrain","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"all","stylers":[{"saturation":-100},{"lightness":45},{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"simplified"},{"color":"#c4c6f4"}]},{"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"off"},{"color":"#d3d4f3"}]},{"featureType":"road.highway","elementType":"labels.text","stylers":[{"visibility":"simplified"},{"color":"#000000"},{"weight":"0.01"}]},{"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"visibility":"simplified"},{"weight":"0.01"}]},{"featureType":"transit.station.bus","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#eeeeff"},{"visibility":"on"}]}]
+                };
+
+                // Display a map on the page
+                map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                map.setTilt(45);
+
+                // Multiple Markers
+                var markers = [
+                            ['shop2', 24.950082, 66.992844],
+                                    ['shop3', 24.949958, 66.993234],
+                                    ['shop4', 24.949530, 66.993427],
+                                    ['shop5', 24.949549, 66.995037],
+                                    ['shop6', 24.949296, 66.995509],
+                                    ['shop7', 24.948421, 66.995702],
+                                    ['shop8', 24.949763, 66.998470],
+                                    ['shop9', 24.951961, 66.993706],
+                                    ['shop0', 24.951514, 66.993620],
+                                    ['shop12', 24.950891, 66.997075],
+                                    ['shop13', 24.950308, 66.997139],
+                                    ['shop14', 24.952740, 66.995316],
+                                    ['shop15', 24.950094, 66.994865],
+                                    ['shop16', 24.949024, 66.995444],
+                                    ['shop17', 24.947876, 66.995981],
+                                    ['shop18', 24.950366, 66.995487],
+                                    ['shop19', 24.953712, 66.993771],
+                                    ['shop20', 24.952312, 66.996689],
+                                    ['shop21', 24.952117, 66.993771],
+                                    ['shop22', 24.950405, 66.991496],
+                                    ['shop23', 24.949432, 66.991088],
+                                    ['shop24', 24.947623, 66.991968],
+                                    ['shop25', 24.947895, 66.993513],
+                                    ['shop26', 24.946164, 66.995487],
+                                    ['shop27', 24.950366, 66.995487],
+                                    ['shop28', 24.953109, 66.995251],
+                                    ['shop29', 24.953557, 66.992140],
+                                    ['shop30', 24.949763, 66.998448],
+                                    ['shop10', 24.952623, 67.001474],
+                                    ['shop31', 24.947740, 67.001474],
+                                    ['shop32', 24.952175, 66.999607],
+                                    ['shop33', 24.953343, 66.996152],
+                                    ['shop34', 24.952137, 66.994736],
+                                    ['shop35', 24.951806, 66.995680],
+                                    ['shop36', 24.946845, 66.992934],
+                                    ['shop37', 24.946572, 66.995595],
+                                    ['shop38', 24.947603, 66.997139],
+                                    ['shop39', 24.954082, 66.991990],
+                                    ['shop40', 24.950833, 67.002397],
+                                    ['shop41', 24.947584, 66.991303],
+                                    ['shop42', 24.949627, 66.991239],
+                                    ['shop43', 24.946923, 66.994371],
+                                    ['shop44', 24.946222, 66.994307],
+                                    ['shop45', 24.946183, 66.995637],
+                                    ['shop46', 24.946378, 66.997719],
+                                    ['shop47', 24.946631, 67.001431],
+                                    ['shop48', 24.950424, 67.002869],
+                                    ['shop49', 24.953887, 67.002654],
+                                    ['shop50', 24.954393, 66.995294],
+                                    ['zuhairshop', 24.975072, 67.056992],
+                        ];
+
+                // Info Window Content
+                var infoWindowContent = [
+                        ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/2image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop2</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 1</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456871231</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                    '<li>LAUNDARY</li>' +
+                                    '<li>SHOPPING MALL</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/3image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop3</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 12</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>451358425</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/4image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop4</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 13</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>123478691</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                    '<li>SHOPPING MALL</li>' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/5image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop5</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 14</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>812348454</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>APPLIANCE</li>' +
+                                    '<li>SCHOOLS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/6image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop6</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 15</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>235454564</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/7image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop7</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 16</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456786423</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/8image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop8</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 167</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>123154564</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/9image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop9</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 18</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>123475358</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>RESTURANTS</li>' +
+                                    '<li>LAUNDARY</li>' +
+                                    '<li>APPLIANCE</li>' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/10image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop0</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 19</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>1234564545</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/12image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop12</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 112</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4563231211</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>RESTURANTS</li>' +
+                                    '<li>LAUNDARY</li>' +
+                                    '<li>APPLIANCE</li>' +
+                                    '<li>HOTELS</li>' +
+                                    '<li>HOSPITALS</li>' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/13image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop13</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 131</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>789423123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                    '<li>SHOPPING MALL</li>' +
+                                    '<li>RESTURANTS</li>' +
+                                    '<li>LAUNDARY</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/14image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop14</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 134</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>12312312312</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>APPLIANCE</li>' +
+                                    '<li>HOTELS</li>' +
+                                    '<li>HOSPITALS</li>' +
+                                    '<li>PARKS</li>' +
+                                    '<li>SCHOOLS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/15image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop15</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 123</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>12456421212</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SHOPPING MALL</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/16image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop16</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 153</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>158675453</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/17image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop17</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 167</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>1231230564</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>LAUNDARY</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/18image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop18</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 178</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>7895212312</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>APPLIANCE</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/19image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop19</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 18</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>8789234253</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/20image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop20</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 189</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4568443123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/21image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop21</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 190</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4534869425</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/22image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop22</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 18</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>43876251224</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/23image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop23</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 190</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>85678234234</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SHOPPING MALL</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/24image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop24</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 167</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>9890778967</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/25image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop25</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 189</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>123584531</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>LAUNDARY</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/26image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop26</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 167</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>9078756745</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>APPLIANCE</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/27image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop27</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 156</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456871423</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/28image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop28</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 13</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>453423785</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/29image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop29</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 143</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>824523456</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/30image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop30</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 167</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4536213123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/31image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop10</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 13</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>42347845645</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SHOPPING MALL</li>' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/32image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop31</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 12</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4563</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>LAUNDARY</li>' +
+                                    '<li>APPLIANCE</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/33image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop32</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 11</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456786942345</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                    '<li>HOSPITALS</li>' +
+                                    '<li>PARKS</li>' +
+                                    '<li>SCHOOLS</li>' +
+                                    '<li>SHOPPING MALL</li>' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/34image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop33</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 15</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>45362123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>LAUNDARY</li>' +
+                                    '<li>APPLIANCE</li>' +
+                                    '<li>HOTELS</li>' +
+                                    '<li>HOSPITALS</li>' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/35image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop34</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 16</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>58145645</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                    '<li>SHOPPING MALL</li>' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/36image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop35</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 17</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456123786</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>LAUNDARY</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/37image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop36</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 18</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4234645312</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>APPLIANCE</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/38image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop37</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 19</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456423123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/39image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop38</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 19</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>45678692347</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/40image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop39</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 18</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4532435634</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/41image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop40</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 17</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>45637458423</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/42image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop41</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 16</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>4534534536</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SHOPPING MALL</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/43image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop42</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 15</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456378623</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>RESTURANTS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/44image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop43</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 14</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>45635831423</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>LAUNDARY</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/45image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop44</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 13</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456475812</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>APPLIANCE</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/46image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop45</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 12</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>12347562</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/47image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop46</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 11</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>1234756342</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOSPITALS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/48image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop47</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 10</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456478623</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>PARKS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/49image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop48</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 9</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>7645678234</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SCHOOLS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/50image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop49</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 8</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456378523458</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>SHOPPING MALL</li>' +
+                                    '<li>RESTURANTS</li>' +
+                                    '<li>LAUNDARY</li>' +
+                                    '<li>APPLIANCE</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/1image.jpg" alt="" class="img-circle">' +
+                                '<h3>shop50</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>orangi test 7</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>456786123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>0</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li>HOTELS</li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                                ['<div class="search_result_single clearfix active" style="z-index: 999999999;">' +
+                                '<div class="col-sm-12 user clearfix">' +
+                                '<img src="http://urbanbazaar.ae/assets/usersimage/1image.jpg" alt="" class="img-circle">' +
+                                '<h3>zuhairshop</h3>' +
+                                '</div>' +
+                                '<div class="col-sm-12 user_detail clearfix">' +
+                                '<div class="col-sm-4 col-xs-12 nopadding">' +
+                                '<div class="col-sm-8 col-xs-12 nopadding">' +
+                                '<img src="http://urbanbazaar.ae/assets/images/social.jpg" class="img-responsive"></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Address: </span></h3><p>A 319 sector 11 b</p></div>' +
+                                '<div class="col-xs-12 nopadding"><h3><span>Number : </span>123123123</h3></div>' +
+                                '<div class="col-xs-12 col-sm-6 nopadding"><h3><span>Postal Code : </span>123123</h3></div>' +
+                                '<div class="col-xs-12 nopadding">' +
+                                '<h3><span>By Category :</span></h3>' +
+                                '<ul class="category_list">' +
+                                    '<li></li>' +
+                                '</ul></div></div><div class="clearfix"></div>' +
+                                '</div>'],
+                        ];
+                        // Display multiple markers on a map
+                        var infoWindow = new google.maps.InfoWindow(), marker, i;
+
+                // Loop through our array of markers & place each one on the map  
+                for (i = 0; i < markers.length; i++) {
+                    var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
+                    bounds.extend(position);
+                    marker = new google.maps.Marker({
+                        position: position,
+                        map: map,
+                        title: markers[i][0]
+                    });
+
+                    // Allow each marker to have an info window    
+                    google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                        return function () {
+                            infoWindow.setContent(infoWindowContent[i][0]);
+                            infoWindow.open(map, marker);
+                        }
+                    })(marker, i));
+
+                    // Automatically center the map fitting all markers on the screen
+                    map.fitBounds(bounds);
+                }
+
+                // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
+                var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function (event) {
+                    this.setZoom(8);
+                    google.maps.event.removeListener(boundsListener);
+                });
+
+            }
+        </script>
+        <script>
+            function validateEmail(email) {
+                var emailPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                if (email.search(emailPattern) == -1) // check email format
+                {
+                    return false;
+                } else
+                {
+                    return true;
+                }
+            }
+            function register_function() {
+                $('#ferrorDiv').html('');
+                var ShopName = $('#ShopName').val();
+                var contact_number = $('#contact_number').val();
+                var country_id = $('#country_id').val();
+                var city_id = $('#city_id').val();
+                var address_id = $('#address_id').val();
+                var postal_code = $('#postal_code').val();
+                var latitude = $('#latitude').val();
+                var longitude = $('#longitude').val();
+                var Register_email = $('#Register_email').val();
+                var Register_pass = $('#Register_pass').val();
+                var Register_cpass = $('#Register_cpass').val();
+
+                if (ShopName.length === 0) {
+                    $('#ferrorDiv').html('Enter shop name');
+                } else if (/[^a-zA-Z0-9]/.test(ShopName)) {
+                    $('#ferrorDiv').html('Shop name must be alphanumeric');
+                } else if (contact_number.length === 0) {
+                    $('#ferrorDiv').html('Enter Contact number');
+                } else if (/[^0-9]/.test(contact_number)) {
+                    $('#ferrorDiv').html('Contact number must be numeric');
+                } else if (country_id.length === 0) {
+                    $('#ferrorDiv').html('Select country');
+                } else if (city_id.length === 0) {
+                    $('#ferrorDiv').html('Select city');
+                } else if (address_id.length === 0) {
+                    $('#ferrorDiv').html('Enter address');
+                } else if (postal_code.length === 0) {
+                    $('#ferrorDiv').html('Enter postal code');
+                } else if (latitude.length === 0) {
+                    $('#ferrorDiv').html('Enter latitude');
+                } else if (longitude.length === 0) {
+                    $('#ferrorDiv').html('Enter longitude');
+                } else if (Register_email.length === 0) {
+                    $('#ferrorDiv').html('Enter email');
+                } else if (validateEmail(Register_email) == false) {
+                    $('#ferrorDiv').html('Invalid email');
+                } else if (Register_pass.length === 0) {
+                    $('#ferrorDiv').html('Enter password');
+                } else if (Register_cpass.length === 0) {
+                    $('#ferrorDiv').html('Enter confirm password');
+                } else if (Register_cpass != Register_pass) {
+                    $('#ferrorDiv').html('Password and confirm password must be same');
+                } else {
+                    $.ajax({
+                        url: 'http://urbanbazaar.ae/index/Register',
+                        type: 'POST',
+                        dataType: 'HTML',
+                        data: "ShopName=" + ShopName + "&contact_number=" + contact_number + "&country_id=" + country_id + "&city_id=" + city_id + "&address_id=" + address_id + "&postal_code=" + postal_code + "&latitude=" + latitude + "&longitude=" + longitude + "&Register_email=" + Register_email + "&Register_pass=" + Register_pass,
+                        success: function (res)
+                        {
+                            if (res == 0)
+                            {
+                                $('#ferrorDiv').html('This email is already being used.');
+                            } else if (res == 1) {
+                                $('#ferrorDiv').html('You are successfully registered.');
+                                window.setTimeout(function () {
+                                    window.location.href = 'http://urbanbazaar.ae/';
+                                }, 5000);
+                            }
+
+                        },
+                        error: function (xhr, status, error)
+                        {
+
+                        }
+                    });
+
+                }
+
+            }
+
+
+            function userLogin() {
+                $('#errorDiv').html('');
+                var loginEmail = $('#loginemail').val();
+                var loginPassword = $('#loginpassword').val();
+
+                if (loginEmail.length === 0)
+                {
+                    $('#errorDiv').html('Enter email');
+                    $("#login-dp").css("display", "block");
+                } else if (validateEmail(loginEmail) == false)
+                {
+                    $('#errorDiv').html('Invalid email');
+                    $("#login-dp").css("display", "block");
+                } else if (loginPassword.length === 0)
+                {
+                    $('#errorDiv').html('Enter password');
+                    $("#login-dp").css("display", "block");
+                } else
+                {
+                    $.ajax({
+                        url: 'http://urbanbazaar.ae/index/userLogin',
+                        type: 'POST',
+                        dataType: 'HTML',
+                        data: "loginEmail=" + loginEmail + "&loginPassword=" + loginPassword,
+                        success: function (res)
+                        {
+                            if (res == '-1')
+                            {
+                                $('#errorDiv').html('Enter email');
+                                $("#login-dp").css("display", "block");
+                            } else if (res == '-2')
+                            {
+                                $('#errorDiv').html('Enter password');
+                                $("#login-dp").css("display", "block");
+                            } else if (res == '-3')
+                            {
+                                $('#errorDiv').html('Invalid email');
+                                $("#login-dp").css("display", "block");
+                            } else if (res == 1)
+                            {
+                                window.location = "http://urbanbazaar.ae/";
+                                //alert('done');
+                            } else if (res == 2)
+                            {
+                                $('#errorDiv').html('Invalid Email or Password');
+                                $("#login-dp").css("display", "block");
+                            } else if (res == 3)
+                            {
+                                $('#errorDiv').html('You are blcoked by Admin');
+                                $("#login-dp").css("display", "block");
+                            } else if (res == 4)
+                            {
+                                $('#errorDiv').html('Please verify your account');
+                                $("#login-dp").css("display", "block");
+                            }
+
+                        },
+                        error: function (xhr, status, error)
+                        {
+
+                        }
+                    });
+
+                }
+
+
+            }
+
+            $("#country_id").change(function () {
+                var country_id = $('#country_id').val();
+                $.ajax({
+                    url: 'http://urbanbazaar.ae/index/get_cities',
+                    type: 'POST',
+                    dataType: 'HTML',
+                    data: "country_id=" + country_id,
+                    success: function (res)
+                    {
+                        if (res != '')
+                        {
+                            $('#city_id').html(res);
+                        }
+                    },
+                    error: function (xhr, status, error)
+                    {
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

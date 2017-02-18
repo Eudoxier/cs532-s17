@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>
+	<html id="scoped-css" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="not-logged-in no-js commerce oldie">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+	<html id="scoped-css" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" class="not-logged-in no-js commerce">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"4722504a69","applicationID":"7554975","transactionName":"IQxWQRdXDQ1UEUtCFgcRS1wRXU4RUAQBREoRC1dC","queueTime":5,"applicationTime":307,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+
+	<title>home</title>
+
+	
+
+			<script>if(typeof console == "undefined") { window.console = { log: function () {} }; }</script>
+
+<link rel="shortcut icon" type="image/x-icon" href="//s3.amazonaws.com/content.sitezoogle.com/u/64676/86d0eee8215e556f0155e33c688f8eefe1bda5ed/ico/favicon.ico?1379074886" />
+
+
+
+<meta name="viewport" content="width=device-width" />
+
+<link rel="stylesheet" media="screen" href="//s3.amazonaws.com/content.sitezoogle.com/assets/usersite/application-e9f53343d17a99bada6447546ab13fb9.css" />
+
+	<link href="/stylesheet.css" rel="stylesheet" type="text/css" />
+
+
+	<meta name="keywords" content="fallen stars, fallenstars, the fallen stars, thefallenstars, music, southern california, socal, oc, orange county, huntington beach, hb, los angeles, la, americana, alt.country, roots rock, rock, bobbo, byrnes, bobbo byrnes, tracy byrnes, found and lost, billerica, brandon allen, ben riddle, americana rock, where the road bends, heart like mine, riddle &amp; the stars, riddle and the stars, songs &amp; whispers, songs and whispers, budde publishing, "></meta>
+
+<link rel="stylesheet" media="print" href="//s3.amazonaws.com/content.sitezoogle.com/assets/usersite_print-e6795a5b54bcc5f32a424c83fbf45f66.css" />
+
+
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","name":"thefallenstars.com","url":"https:\/\/thefallenstars.com\/","sameAs":[]}</script>
+
+
+	<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="wDWmMyMDT6MQEEc1XXJsvSuijzlcjusJp+w9ROo9fjDsNc5MoSubGsXYKUN6kcOt41A2EPBgJ0X0A7nzxZxv9w==" />
+	<meta name="title" content="home" />
+<meta property="og:title" content="home" />
+<meta name="description" content="The Fallen Stars is an Americana Rock band from Southern California that believes a sad story can break your heart and a driving guitar riff can put it back together again, all in the space of a three minute song." />
+<meta property="og:description" content="The Fallen Stars is an Americana Rock band from Southern California that believes a sad story can break your heart and a driving guitar riff can put it back together again, all in the space of a three minute song." />
+<meta name="image" content="https://s3.amazonaws.com/content.sitezoogle.com/u/64676/31791ff96ceb4c1b0740f2856509c1129690ce97/original/394659-10150493632129076-1084142138-n.jpg?1433410733" />
+<meta name="image:width" content="960" />
+<meta name="image:height" content="640" />
+<meta property="og:image" content="https://s3.amazonaws.com/content.sitezoogle.com/u/64676/31791ff96ceb4c1b0740f2856509c1129690ce97/original/394659-10150493632129076-1084142138-n.jpg?1433410733" />
+<meta property="og:image:width" content="960" />
+<meta property="og:image:height" content="640" />
+<meta name="url" content="https://thefallenstars.com/home" />
+<meta property="og:url" content="https://thefallenstars.com/home" />
+
+				<link rel="alternate" type="application/atom+xml" title="Atom Feed for Latest News" href="https://www.thefallenstars.com/blogs/latest-news--2.atom" />
+				<link rel="alternate" type="application/rss+xml" title="RSS Feed for Latest News" href="https://www.thefallenstars.com/blogs/latest-news--2.rss" />
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 9]>
+		<script src="//s3.amazonaws.com/content.sitezoogle.com/assets/history.iegte8.min-4d58c83f2678f3f74a34d395c04f3723.js"></script>
+	<![endif]-->
+
+		<script src="//s3.amazonaws.com/content.sitezoogle.com/assets/usersite/application-09db75a0f7184098d5b3bdfe6e244c66.js"></script>
+		
+			<script type="text/javascript">
+		themeJsManager.registerTheme(165, $.extend({}, themeJsManager.blankJs, {
+	destroySticky: function() {
+		if(this.sticky) {
+			this.sticky.destroy();
+			this.sticky = null;
+		}
+		if(this.$nav.parent().is('.sticky-wrapper')) {
+			this.$nav.unwrap();
+		}
+	},
+
+	setNavWaypoint: function (manager) {
+		if(manager.isWysiwyg()) {
+			return;
+		}
+
+		var $nav = $('.nav-bar');
+
+		if($nav.hasClass('sticky')) {
+			// when we're sticky the height animates and we're recalled from the addResizeListener
+			// we're all good though so don't need to recalculate anything
+			// otherwise we get a jiggling effect as the 2 things fight each other
+			return;
+		}
+
+		var offset = $nav.height();
+		if($('.landing-page').length && $('.display-swmp').length) {
+			offset += $('.display-swmp').height();
+		}
+
+		this.destroySticky();
+
+		opts = {
+			element: $nav[0],
+			stuckClass: 'sticky',
+			offset: offset,
+			handler: function() {
+				$(window).trigger('zoogle_fixedElementRefresh');
+			}
+		};
+
+		if(manager.scrollContext() != window) {
+			opts.context = manager.scrollContext();
+		}
+
+		this.sticky = new Waypoint.Sticky(opts);
+	},
+
+	setup: function(manager) {
+		var $nav = $('.nav-bar').removeClass('sticky');
+		this.$nav = $nav;
+
+		if(!this.$nav.length) {
+			return;
+		}
+
+		var self = this;
+		// delay this every so slightly otherwise on first load it goes sticky > non sticky annoyingly
+		setTimeout(function() {
+			window.addResizeListener(self.$nav[0], self.setNavWaypoint.bind(self, manager), false);
+			self.setNavWaypoint(manager);
+		}, 200)
+	},
+
+	tearDown: function() {
+		try {
+			window.removeResizeListener(this.$nav[0], this.setNavWaypoint);
+		} catch(e) {}
+	},
+
+	plugins: {
+		parallaxyPagePhoto: {scrollSpeed: 1.2},
+		responsiveFullScreenPagePhoto: {force: true}
+	}
+}
+));
+	</script>
+
+
+	
+</head>
+
+
+<body class="theme-style-206 theme-style-206-a has-site-wide-my-sites not-intro-page">
+
+	
+
+	
+
+
+		<div class="usersite-container-wrap">
+			<div id="usersite-container-inner-wrap">
+				<div id="usersite-container" class="">
+								<nav id="main-nav" class="mobile"><ul class="mobile list balance_5 top menu-length-9"><li class="top selected"><div><a class="top" title="Home" href="/home">Home</a></div></li><li class="top"><div><a class="top" title="Bobbo" href="/bobbo">Bobbo</a></div></li><li class="has-submenu top"><div><a class="top" title="Music" href="/music">Music</a></div><ul><li class="subpage"><div><a class="" title="Shop" href="/shop">Shop</a></div></li></ul></li><li class="top"><div><a class="top" title="Riddle and The Stars" href="/riddle-and-the-stars">Riddle and The Stars</a></div></li><li class="top"><div><a class="top" title="Browncoats" href="/browncoats">Browncoats</a></div></li><li class="top"><div><a class="top" title="Band" href="/band">Band</a></div></li><li class="top"><div><a class="top" title="Videos &amp; Pics" href="/videos-pics">Videos &amp; Pics</a></div></li><li class="top"><div><a class="top" title="EPK" href="/epk">EPK</a></div></li><li class="top"><div><a class="top no-pjax" title="Shows" href="/shows">Shows</a></div></li></ul><ul class="my-sites"></ul></nav>
+
+		<div data-pjax-container>
+			
+	<div id="page-root" data-page-id="152837" class="landing-page display-type-text website-page-home has-site-wide-my-sites">
+		<div id="container">
+	<header id="page-header">
+		<div id="page-media">
+			<div class="page-media-wrap">
+						<div class="page-photos page-media-container">
+	<div class="page-photo page-media page-photo-background" style="background-image: url(&#39;//s3.amazonaws.com/content.sitezoogle.com/u/64676/style/page-photo-519530.jpg?be835e3a0578b34355a23daa5134eaef&#39;); background-position: 50% 50%;"></div>
+
+</div>
+
+
+			</div>
+		</div>
+
+		<div class="nav-bar">
+
+			<div class="site-wrap">
+				<div id="title-wrap"><h1 id="page-title" class="page-title display-type-text text-fit"><a href="/home"><span class="outer" data-max-font-size="66"><span class="inner">The Fallen Stars</span></span></a></h1></div>
+				<div id="navigation-wrap">
+							<span id="toggle-mobile-menu" class="toggle-mobile-menu"><a href="javascript:"><i class="icon-hamburger"></i></a></span><nav id="main-nav" class="non-mobile"><ul class="horizontal list balance_5 top menu-length-9"><li class="top selected"><div><a class="top" title="Home" href="/home">Home</a></div></li><li class="top"><div><a class="top" title="Bobbo" href="/bobbo">Bobbo</a></div></li><li class="has-submenu top"><div><a class="top" title="Music" href="/music">Music</a></div><ul><li class="subpage"><div><a class="" title="Shop" href="/shop">Shop</a></div></li></ul></li><li class="top"><div><a class="top" title="Riddle and The Stars" href="/riddle-and-the-stars">Riddle and The Stars</a></div></li><li class="top"><div><a class="top" title="Browncoats" href="/browncoats">Browncoats</a></div></li><li class="top"><div><a class="top" title="Band" href="/band">Band</a></div></li><li class="top"><div><a class="top" title="Videos &amp; Pics" href="/videos-pics">Videos &amp; Pics</a></div></li><li class="top"><div><a class="top" title="EPK" href="/epk">EPK</a></div></li><li class="top"><div><a class="top no-pjax" title="Shows" href="/shows">Shows</a></div></li></ul></nav>
+
+				</div>
+			</div>
+		</div>
+
+		<span id="scroll-to-content">
+	<!-- note it's up to the template designer to choose which icon (if any) they want to use -->
+	<i class="icon-chevron-down"></i>
+	<i class="icon-angle-down"></i>
+</span>
+	</header>
+
+	<div class="site-wrap" id="content-wrap">
+		<div id="content">
+			<div class="zoogle_flash">
+</div>
+
+<section id="cart" class="cart bg-accent">
+</section>
+
+<div id="page-content-wrap"><div class="zoogle-content block" data-arrangement-id="130077"><div class="zoogle-columns zoogle-columns-2 zoogle-columns-50-50 block block-row layout_full" data-row-id="758159"><div class="zoogle-column zoogle-column-1-of-2 col_1_of_2 block layout_half" data-column-id="809880"><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676080"><section class="feature title_feature" data-feature-id="259347"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Newest Release</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="1867679"><section class="feature text_feature" data-feature-id="666598"><div style="text-align: center;"><strong><span class="font_large"><a contents="" data-link-label="Browncoats" data-link-type="page" href="/browncoats" target="_blank"><img src="//s3.amazonaws.com/content.sitezoogle.com/u/64676/70a186512244e3340c2efb6b054a48e1f95bf1e3/medium/the-fallen-stars-leaves-on-the-wind-bigger.jpg?1452789438" class="size_m justify_center border_" /></a><br>Our new album <i>Leaves on the Wind Vol 2</i> <br>is available now!</span></strong></div></section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676081"><section class="feature title_feature" data-feature-id="259348"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Join Us</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="1758747"><section class="feature mailing_list_feature" data-feature-id="55730"><p class="mailing-list-result hide-on-return alert"> </p>
+<a href="#list-55730" class="hide toggle_with_hide hide-on-return" data-hide=".hide-on-return">Return to form</a>
+<div class="mailing-list-form" id="list-55730">
+	<form data-validate="true" class="simple_form captcha member" novalidate="novalidate" role="member" id="new_member" action="/home/mailing_list_features/55730/join" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" />
+		<h3>Join our mailing list for the latest news</h3>
+			<p>Enjoy my attempt at a love song for Tracy with "Heart Like Mine" just for signing up for our mailing list!</p>
+
+		<div class="control">
+			<div class="input email required member_email string"><span class="input_field"><input size="25" class="string email required" placeholder="Your email" type="email" name="member[email]" id="member_email" /></span></div>
+
+			<div class="actions">
+				<input type="submit" name="commit" value="Sign up" class="button" data-disable-with="Sending…" />
+			</div>
+		</div>
+
+		<div class="input captcha hide">
+	<div class="control captcha-wrapper",
+      data-key="6Ld81B0TAAAAAAxk71_dmYiD7iFs_lv8GijvZeGZ"></div>
+	<span class="error">
+		Please prove that you are not a robot
+	</span>
+</div>
+
+</form><script>
+//<![CDATA[
+if(window.ClientSideValidations===undefined)window.ClientSideValidations={};window.ClientSideValidations.disabled_validators=[];window.ClientSideValidations.number_format={"separator":".","delimiter":","};if(window.ClientSideValidations.patterns===undefined)window.ClientSideValidations.patterns = {};window.ClientSideValidations.patterns.numericality=/^(-|\+)?(?:\d+|\d{1,3}(?:\,\d{3})+)(?:\.\d*)?$/;if(window.ClientSideValidations.forms===undefined)window.ClientSideValidations.forms={};window.ClientSideValidations.forms['new_member'] = {"type":"SimpleForm::FormBuilder","error_class":"error","error_tag":"span","wrapper_error_class":"field_with_errors","wrapper_tag":"div","wrapper_class":"input","wrapper":"bz","validators":{"member[email]":{"presence":[{"message":"This field is required."}],"uniqueness":[{"message":"has already been taken","case_sensitive":true,"scope":{"account_id":null}}],"format":[{"message":"is invalid","with":{"source":"^[A-Z0-9_\\.&%\\+\\-']+@(?:[A-Z0-9\\-]+\\.)+(?:[A-Z]{2,13})$","options":"gi"}}],"length":[{"messages":{"maximum":"is too long (maximum is 100 characters)"},"maximum":100}]}}};
+//]]>
+</script></div>
+</section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676087"><section class="feature title_feature" data-feature-id="259354"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Follow Us</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="467999"><section class="feature my_site_feature" data-feature-id="16291">	<ul class="my_sites my_sites_font_face my_sites_count_6">
+		  <li class="facebook">
+			  <a class="my_site_icon tip icon-default-1 facebook-sign icon icon-facebook-sign text-secondary" target="_blank" title="http://www.facebook.com/thefallenstars" href="http://www.facebook.com/thefallenstars"></a>
+</li>		  <li class="twitter">
+			  <a class="my_site_icon tip icon-default-1 twitter icon icon-twitter text-secondary" target="_blank" title="http://twitter.com/thefallenstars" href="http://twitter.com/thefallenstars"></a>
+</li>		  <li class="tumblr">
+			  <a class="my_site_icon tip icon-default-1 tumblr icon icon-tumblr text-secondary" target="_blank" title="http://thefallenstarsband.tumblr.com" href="http://thefallenstarsband.tumblr.com"></a>
+</li>		  <li class="instagram">
+			  <a class="my_site_icon tip icon-default-1 instagram icon icon-instagram text-secondary" target="_blank" title="http://instagram.com/thefallenstarsband" href="http://instagram.com/thefallenstarsband"></a>
+</li>		  <li class="youtube">
+			  <a class="my_site_icon tip icon-default-1 youtube icon icon-youtube text-secondary" target="_blank" title="http://www.youtube.com/c/TheFallenStars" href="http://www.youtube.com/c/TheFallenStars"></a>
+</li>		  <li class="itunes">
+			  <a class="my_site_icon tip icon-default-1 itunes icon icon-itunes text-secondary" target="_blank" title="http://itunes.com/thefallenstars" href="http://itunes.com/thefallenstars"></a>
+</li>	</ul>
+</section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676082"><section class="feature title_feature" data-feature-id="259349"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">See Us Live</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="5516509"><section class="feature calendar_feature" data-feature-id="236493"><div class="calendar-wrap">
+			<section class="upcoming">
+				<article class="list-style">
+	<div class="event-detail external-in-blank">
+	<div class="event-image image-social">
+			<div class="calendar-placeholder"><div class="calendar-placeholder-icon"><span class="calendar-placeholder-month">Feb</span><span class="calendar-placeholder-day">21</span></div></div>
+	</div>
+
+	<div class="event-description">
+		<div class="event-info-wrapper">
+			<p class="event-info event-title heading-tertiary">Songwriter Serenade</p>
+				<p class="event-info event-datetime">
+					<i class="icon-clock"></i>
+					<span class="date-long"><span class="event-when with-time"><time class="from"><span class="date">Tuesday, February 21</span> @ <span class="time">7:00 PM</span></time></span></span><span class="date-short"><span class="event-when with-time"><time class="from"><span class="date">Tue, Feb 21</span> @ <span class="time">7:00 PM</span></time></span></span>
+				</p>
+				<p class="event-info event-location">
+					<i class="icon-location"></i>
+						<a target="_blank" title="View on Google Maps" href="https://maps.google.com/maps?q=Matt%20Dennys%20Ale%20House,%20Arcadia,%20CA"><span class="fn org">Matt Dennys Ale House</span>, <span class="adr"><span class="city">Arcadia</span>, <span class="state">CA</span></span></a>
+				</p>
+		</div>
+
+			<div class="event-info buying-options">
+
+				  <a class="button button-tertiary zoogle-share" title="Share Songwriter Serenade @ Matt Dennys Ale House on Feb 21, 7:00PM" data-byline="null" data-artist="null" data-link-text="Share" data-title="Songwriter Serenade @ Matt Dennys Ale House on Feb 21, 7:00PM" data-text="thefallenstars.com @ Songwriter Serenade @ Matt Dennys Ale House, Feb 21, 7:00PM" data-extra-class="" data-url="https://thefallenstars.com/event/1753958/343022698/songwriter-serenade" data-twitter-url="null" data-fb-app-id="286076425227" href="https://thefallenstars.com/event/1753958/343022698/songwriter-serenade"><i class="icon-share"></i>Share</a>
+			</div>
+				<div class="event-info map-link">
+					<a target="_blank" href="https://maps.google.com/maps?q=Matt%20Dennys%20Ale%20House,%20Arcadia,%20CA">View on Google Maps</a>
+				</div>
+	</div>
+</div>
+<div class="event-clear"></div>
+
+</article>
+
+		</section>
+
+		
+	<div class="view-past-events">
+  <a href="/home?calendar_page_prev=1">View previous events</a>
+</div>
+
+
+
+</div>
+<script type="application/ld+json">[{"@context":"http:\/\/schema.org","@type":"MusicEvent","name":"Songwriter Serenade","startDate":"2017-02-21T19:00:00","url":"http:\/\/thefallenstars.com\/event\/1753958\/343022698\/songwriter-serenade","location":{"@type":"Place","name":"Matt Dennys Ale House","address":"Arcadia, CA"}}]</script>
+
+</section></div></div><div class="zoogle-column zoogle-column-2-of-2 col_2_of_2 block layout_half" data-column-id="809881"><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676083"><section class="feature title_feature" data-feature-id="259350"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">About Us</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="468005"><section class="feature text_feature" data-feature-id="218764">The Fallen Stars are an Americana Rock band from Southern California that believes a good story can break your heart and a driving guitar riff can put it back together again, all in the space of a three minute song.<br><br>"Listen to the Fallen Stars' <em>Americana</em>, and you hear a great, rollicking band. But see them live, and it's the difference between Elvis in the studio and early 1970s Elvis, when he was starting shows with "Also Sprach Zarathustra," then owning crowds with just a sneer of the lip. Don't believe us? Catch them live and find out for yourself."<br>~OC Weekly Best Live Band 2015</section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676084"><section class="feature title_feature" data-feature-id="259351"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Welcome Browncoats!</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="468006"><section class="feature text_feature" data-feature-id="218765">Are you a fan of <b><i>Firefly</i></b>? Then you'll love our new music project, <i>Leaves on the Wind</i>! Our goal is to write a brand new original song based on each episode of the tv series <b><i>Firefly</i></b>, plus the feature film <b><i>Serenity</i></b>. Fifteen songs in all - just right for a trilogy of EPs! Keep an eye on our <a href="./browncoats.cfm">Browncoats</a> page to follow our progress!<br> <div style="text-align: center;"> <a href="./browncoats.cfm"><img src="//content.bandzoogle.com/users/TheFallenStars/images/content/Leaves-on-the-Wind-button.jpg?2" class="size_orig justify_inline border_" alt="Leaves on the Wind, Original songs inspired by Firefly" /></a>
+</div></section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676085"><section class="feature title_feature" data-feature-id="259352"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Latest News</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="468007"><section class="feature blog_feature" data-feature-id="6640">	<div class="blog-wrapper">
+		<div class="blog summary clearfix">
+			<div class="grid-sizer"></div>
+
+				<article class="post blog-article post-summary">
+		<h3 class="text-main alt-font heading-blog heading-secondary">
+	<a href="/home/blog/january-4-2017">January 4, 2017</a>&nbsp;
+</h3>
+
+<div class="post">
+	<div class="message"><p>Hey!  So it's been a while since I've written.  Sorry about that.  Life, you know?  First it was Europe and then I drove from Massachusetts to California with my Mom (playing shows across the way of course!) and then it was Christmas time and I took all the ornaments off the tree yesterday and now it's time to get back to it! </p>
+<p>Friday, January 13 <br>DiPiazzas <br>CD Release Show for "Motel Americana"<br>w/ Tall as Men (also cd release show)<br>PCH, Long Beach, CA <br>9 pm - $5 </p>
+<p>It's my U.S. cd release show for my new album…</p><span class="read-more"><a href="/home/blog/january-4-2017">Read more</a></span></div>
+</div>
+
+<footer class="meta blog-footer clearfix">
+		<p class="post-info">about 1 month ago</p>
+
+	<p class="post-info"></p>
+</footer>
+
+	</article>
+	<article class="post blog-article post-summary">
+		<h3 class="text-main alt-font heading-blog heading-secondary">
+	<a href="/home/blog/friday-november-25-2016">Friday, November 25, 2016</a>&nbsp;
+</h3>
+
+<div class="post">
+	<div class="message"><p>Hey Everyone! </p>
+<p>So, it's been a little quiet here for a bit - I was driving across country with my Mom and played a couple shows on the way across in New Hampshire, Florida and Texas.  We had an amazing time and I recommend it to everyone - take a trip with your folks!*   </p>
+<p>Today is "Black Friday" and in the spirit of the thing** we're offering a special buy one get one free on all our cds this weekend. Buy one cd and in the notes - just tell me what cd you would like for free and we'll put it in with your…</p><span class="read-more"><a href="/home/blog/friday-november-25-2016">Read more</a></span></div>
+</div>
+
+<footer class="meta blog-footer clearfix">
+		<p class="post-info">3 months ago</p>
+
+	<p class="post-info"></p>
+</footer>
+
+	</article>
+	<article class="post blog-article post-summary">
+		<h3 class="text-main alt-font heading-blog heading-secondary">
+	<a href="/home/blog/full-tour-diary-from-september-october-2016">Full Tour Diary from September-October 2016</a>&nbsp;
+</h3>
+
+<div class="post">
+	<div class="message"><p>TOUR DIARY DAY 1</p>
+<p>Started the day at the Brandenburg Gate and doing some touristy things then I made my way over to Budde Music Publishing. It was really nice to put a face to the names on our contract. Stayed and chatted for about an hour and did a little bit of strategizing for mine, TFS and RATS catalog. Be great if some things come to fruition.  <br>Then I got an email from Hansa Studios about there may be a little bit of time to show me around the studio but they do have sessions going on today so I drove…</p><span class="read-more"><a href="/home/blog/full-tour-diary-from-september-october-2016">Read more</a></span></div>
+</div>
+
+<footer class="meta blog-footer clearfix">
+		<p class="post-info">4 months ago</p>
+
+	<p class="post-info"></p>
+</footer>
+
+	</article>
+	<article class="post blog-article post-summary">
+		<h3 class="text-main alt-font heading-blog heading-secondary">
+	<a href="/home/blog/october-17th">October 17th</a>&nbsp;
+</h3>
+
+<div class="post">
+	<div class="message"><p>Moin!   </p>
+<p>That's German for good day, good morning or something.  Like all things - it's very similar but still quite different.   </p>
+<p>We're still a couple weeks away from being back in the states but I wanted to stop in and say hello.   </p>
+<p>I've been here touring since the end of August supporting my solo album "Motel Americana" and Tracy flew over the end of September and we met up with our buddy Ben Riddle (creating the pseudo Wonder Twin Power form of Riddle &amp; The Stars) and we've been all over playing…</p><span class="read-more"><a href="/home/blog/october-17th">Read more</a></span></div>
+</div>
+
+<footer class="meta blog-footer clearfix">
+		<p class="post-info">4 months ago</p>
+
+	<p class="post-info"></p>
+</footer>
+
+	</article>
+	<article class="post blog-article post-summary">
+		<h3 class="text-main alt-font heading-blog heading-secondary">
+	<a href="/home/blog/tour-diary-month-of-september">Tour Diary Month of September</a>&nbsp;
+</h3>
+
+<div class="post">
+	<div class="message"><p>My good buddy Boris took all my FB tour diary and put them in an easily readable folder here.  If you want to read all these and see the pictures that go along with them - just go to www.facebook.com/BobboByrnes </p>
+<p>Enjoy! <br>​ <br>Tour Diary Day 1  </p>
+<p>Started the day at the Brandenburg Gate and doing some touristy things then I made my way over to Budde Music Publishing. It was really nice to put a face to the names on our contract. Stayed and chatted for about an hour and did a little bit of strategizing for mine…</p><span class="read-more"><a href="/home/blog/tour-diary-month-of-september">Read more</a></span></div>
+</div>
+
+<footer class="meta blog-footer clearfix">
+		<p class="post-info">5 months ago</p>
+
+	<p class="post-info"></p>
+</footer>
+
+	</article>
+
+
+		</div>
+		  <nav class="pagination">
+    
+    
+        <span class="page current">
+  1
+</span>
+
+        <span class="page">
+  <a rel="next" href="/?p=2">2</a>
+</span>
+
+        <span class="page gap">…</span>
+
+        <span class="page">
+  <a href="/?p=22">22</a>
+</span>
+
+    <span class="next">
+  <a rel="next" href="/?p=2">Next<span class='pagination-decoration icon icon-next'></span></a>
+</span>
+
+    <span class="last">
+  <a href="/?p=22">Last<span class='pagination-decoration icon icon-last'></span></a>
+</span>
+
+  </nav>
+
+	</div>
+</section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676086"><section class="feature title_feature" data-feature-id="259353"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">awards</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="1758729"><section class="feature html_feature" data-feature-id="132629">				<center>
+<i>Best Live Band</i><br>
+OC Weekly Best Of 2015<br><br>
+<i>Hot Adult Contemporary Artist </i><br>
+2012 Los Angeles Music Award Nominee<br><br><i>Best Male Artist </i><br>
+2011 SoCal Live Music Competition Nominee<br><br>
+"Top Ten Indie/Unsigned Release of the Year"<br>
+~Los Angeles Music Examiner<br><br>
+"Top Prospect of the Year"<br>
+~Music Connection Magazine<br><br><i>Best Country/Americana</i><br>
+2009 Orange County Music Awards Winner<br>
+2007-2012 Orange County Music Awards Nominee <br><br><i>Best Live Rock Band</i><br><i>Best Live Acoustic Band</i><br>
+2009 SoCal Live Music Competition<br><br><i>Best Live Acoustic Band</i><br>
+2008 Orange County Music Awards<br>
+</center>
+			</section></div><div class="zoogle-feature block layout_full block-title-feature" data-block-id="2676088"><section class="feature title_feature" data-feature-id="259355"><h2 class="subtitle-wrap heading-primary">
+	<span class="subtitle">Tip Jar</span>
+</h2>
+</section></div><div class="zoogle-feature block layout_full" data-block-id="1498827"><section class="feature donation_feature" data-feature-id="6748">		<h1 class="alt-font"></h1>
+	  <p>
+	    <a href="https://www.paypal.com/cgi-bin/webscr?business=bobbo%40bobbo.org&amp;cmd=_donations&amp;currency_code=USD&amp;item_name=Donation+to+thefallenstars.com&amp;return=https%3A%2F%2Fthefallenstars.com%2F"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Btn donate lg" /></a>
+	  </p>
+</section></div></div></div></div></div>
+
+		</div>
+	</div>
+
+	<div class="site-wrap" id="footer-wrap">
+<div id="site-wide-header" class="site-wide-feature-area"><div class="zoogle-content block" data-arrangement-id="625081"><div class="zoogle-columns zoogle-columns-1 zoogle-columns-100 block block-row layout_full" data-row-id="2551256"><div class="zoogle-column zoogle-column-1-of-1 col_1_of_1 block layout_full" data-column-id="2697360"><div class="zoogle-feature block layout_full" data-block-id="1758429"><section class="feature my_site_feature" data-feature-id="105033"></section></div></div></div></div></div>
+
+<footer id="page-footer">
+  <div class="block layout_full"><section class="feature text_feature" data-feature-id="218781">© 2008-2016 The Fallen Stars</section></div>
+	  
+	</footer>
+
+
+</div>
+</div>
+
+</div>
+		</div>
+		
+			<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-44023912-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+<script type="text/javascript">
+var _zaq = _zaq || [];
+_zaq.push(['_setWebsite', '64670']);
+_zaq.push(['_setZone', 'Pacific Time (US &amp; Canada)']);
+_zaq.push(['_setHash', 'e0410be816f08a988637eb4fcf2c84e6']);
+_zaq.push(['_trackPage', '152837']);
+
+(function() {
+	var zs = document.createElement('script'); zs.type = 'text/javascript'; zs.async = true;
+	zs.src = "https://stats.bandzoogle.com/stats.js";
+	zs.id = "zstats";
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(zs, s);
+})();
+</script>
+
+		
+
+				</div>
+			</div>
+		</div>
+
+
+	
+</body>
+</html>

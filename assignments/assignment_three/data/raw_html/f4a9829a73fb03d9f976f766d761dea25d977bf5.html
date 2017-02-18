@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/js/jquery-1.11.3.min.js?d=2017-02-16-14-13-08--0800" type="text/javascript"></script>   
+<script>
+function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for (var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+function setCookie(name, value, days) {
+  if (days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    var expires = "; expires=" + date.toGMTString();
+  } else var expires = "";
+  document.cookie = name + "=" + value + expires + "; domain=.malwarebytes.com" + "; path=/";
+}
+
+setTimeout(function() {
+  setCookie('visited', 'true', 1);
+}, 500);
+</script>
+<script src="//cdn.optimizely.com/js/262855726.js"></script>
+
+<style>
+  body { visibility: hidden; }
+</style>
+<noscript>
+<style>
+body { visibility: visible !important; }
+</style>
+</noscript>
+<script src="/js/lang-redirect.js?d=2017-02-16-14-13-08--0800"></script>
+
+
+  <script src="/js/lang-select.js?d=2017-02-16-14-13-08--0800"></script>
+  <script>
+    window.isMacLike = navigator.platform.match(/(Mac)/i)?true:false;
+    window.failed = "failed";
+    var hasVisited = readCookie("visited");
+  $.getJSON("https://api.demandbase.com/api/v2/ip.json?key=5527c2aa519592df7d44a24d0105731b&")
+    .done(function() { console.log('done'); })
+    .fail(function(data) {
+     var elements = document.getElementsByTagName('body'),
+      l = elements.length;
+
+      while ( l-- ) elements[l].style.visibility = 'visible';
+      window.failed = true;
+      
+    })
+    .success(function(data) {
+      console.log('success');
+      window.b2b = data["b2b"];
+      window.b2c = data["b2c"];
+      window.country = data["registry_country_code"];
+      window.audience = data["audience"];
+      window.industry = data["industry"];
+      window.company_name = data["company_name"];
+      window.employee_range = data["employee_range"];
+
+      if (audience !== "Residential" && audience !== "Wireless" && audience !== "Obscured" && audience !== "Bot" && industry !== "Telecommunications" && audience !== "Education") {
+        optimizely.push(['setDimensionValue', 'isBusiness', 'true']);
+        $(document).ready(function() {
+          $(".biz-only").each(function() {
+            $(this).removeClass("hide");
+          });
+        });
+        //console.log('is a business');
+        
+          if (hasVisited !== "true") {
+              window.location.replace("/business/");
+          }
+         else {
+           $('body').attr("style","visibility: visible;");
+         }
+         
+        
+      } else {
+        optimizely.push(['setDimensionValue', 'isBusiness', 'false']);
+        
+        if (hasVisited !== "true") {
+            if (isMacLike === true) {
+               window.location.replace("/mac/");
+            }
+        }
+        
+        $('body').attr("style","visibility: visible;");
+        //console.log('is not a business');
+      }
+    
+      if (employee_range === "1 - 24" || employee_range === "50 - 99") {
+        optimizely.push(['setDimensionValue', 'Business Size', '<99']);
+        //console.log('less than 99 seats');
+      }
+      else if (employee_range) {
+        optimizely.push(['setDimensionValue', 'Business Size', employee_range]);
+        //console.log('greater than 99 seats');
+      }
+      else {
+        //console.log('not b2b');
+      }
+    });
+        
+/*
+<99
+<250
+<500
+>5000
+ */
+
+  setTimeout(function() {
+    setCookie('visited', 'true', 1);
+  }, 500);
+</script>
+  <script src="/js/modernizr.js?d=2017-02-16-14-13-08--0800" type="text/javascript"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="Malwarebytes"/>
+  <meta name="msapplication-TileColor" content="#" />
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="/mstile-310x310.png" />
+  <meta name="description" content="Malwarebytes protects you against malware, ransomware, and other advanced online threats that have made antivirus obsolete and ineffective." />
+  <meta name="keywords" content="Malwarebytes, Malwarebytes download, Malwarebytes downloads, Malwarebytes Anti-malware, anti-malware, cyber security, antivirus" />
+  <meta itemprop="name" content="Free Cyber Security & Anti-Malware Software">
+  <meta itemprop="image" content="https://www.malwarebytes.com/images/mb-logo-2.png">
+  <meta itemprop="description" content="Malwarebytes protects you against malware, ransomware, and other advanced online threats that have made antivirus obsolete and ineffective.">  
+  <meta property="og:url" content="https://www.malwarebytes.com/" />
+  <meta property="og:site_name" content="Malwarebytes" />
+  <meta property="og:description" content="Malwarebytes protects you against malware, ransomware, and other advanced online threats that have made antivirus obsolete and ineffective." />
+  <meta property="og:image" content="https://www.malwarebytes.com/images/mb-logo-2.png" />
+  <meta property="og:title" content="Free Cyber Security & Anti-Malware Software" /> 
+  <title>Malwarebytes | Free Cyber Security & Anti-Malware Software</title>
+   
+  
+  <!-- hreflang -->
+  
+  <link rel="alternate" href="https://www.malwarebytes.com/" hreflang="x-default" />
+  <link rel="alternate" href="https://www.malwarebytes.com/" hreflang="en" />
+  <link rel="alternate" href="https://br.malwarebytes.com/" hreflang="pt-br" />
+  <link rel="alternate" href="https://de.malwarebytes.com/" hreflang="de" />
+  <link rel="alternate" href="https://es.malwarebytes.com/" hreflang="es" />
+  <link rel="alternate" href="https://fr.malwarebytes.com/" hreflang="fr" />
+  <link rel="alternate" href="https://it.malwarebytes.com/" hreflang="it" />
+  <link rel="alternate" href="https://nl.malwarebytes.com/" hreflang="nl" />
+  <link rel="alternate" href="https://pl.malwarebytes.com/" hreflang="pl" />
+  <link rel="alternate" href="https://pt.malwarebytes.com/" hreflang="pt-pt" />
+  <link rel="alternate" href="https://ru.malwarebytes.com/" hreflang="ru" />
+  
+  <link rel="stylesheet" href="/css/fonts.css?d=2017-02-16-14-13-08--0800" />
+  <link rel="stylesheet" href="/css/style.css?d=2017-02-16-14-13-08--0800" /> 
+  <link rel="stylesheet" type="text/css" href="/css/pages/homepage.css?d=2017-02-16-14-13-08--0800" /> 
+  
+  <script  type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://www.malwarebytes.com/",
+      "logo": "https://www.malwarebytes.com/images/mb-logo-2.png",
+      "name": "Malwarebytes",
+      "description": "Malwarebytes protects you against malware, ransomware, and other advanced online threats that have made antivirus obsolete and ineffective."
+    }
+  </script>
+  
+  
+  
+  <script src="/js/bootstrap.js?d=2017-02-16-14-13-08--0800" type="text/javascript"></script>
+  <script src="/js/ie-fixes/respond.min.js?d=2017-02-16-14-13-08--0800" type="text/javascript"></script>
+<!--[if gte IE 9]><!-->
+  <script type="text/javascript" src="/js/nav-resize.js?d=2017-02-16-14-13-08--0800"></script>
+<!--<![endif]-->
+  
+  <script src="/js/flexibility.js?d=2017-02-16-14-13-08--0800"></script>
+  
+  <script src="/js/nav.js?d=2017-02-16-14-13-08--0800"></script>
+  
+  <script src="/js/global.js?d=2017-02-16-14-13-08--0800"></script>
+
+  <script src="/js/xs.js?d=2017-02-16-14-13-08--0800"></script>
+  
+              <!-- begin SnapEngage code -->
+<script type="text/javascript">
+  (function() {
+    var se = document.createElement('script');
+    se.type = 'text/javascript';
+    se.async = true;
+    se.src = '//storage.googleapis.com/code.snapengage.com/js/ce2152cc-2fe9-4d11-9502-065f35c3bc2f.js';
+    var done = false;
+    se.onload = se.onreadystatechange = function() {
+      if (!done && (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete')) {
+        done = true;
+        /* Place your SnapEngage JS API code below */
+        /* SnapEngage.allowChatSound(true); Example JS API: Enable sounds for Visitors. */
+        SnapEngage.hideButton();
+      }
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(se, s);
+  })();
+</script>
+<!-- end SnapEngage code -->
+ 
+  <!-- subnav -->
+  <script src="/js/subnav.js?d=2017-02-16-14-13-08--0800"></script>
+  <!--[if gte IE 8]>
+	<style>
+section {
+  display: block;
+}
+[class*="col-"] {
+ display:inline-block;
+    float:none;
+    /* reset the text-align */
+    /* inline-block space fix */
+    margin-right:-4px;
+vertical-align: top;
+}
+.text-center div[class*="col-"], #hero div[class*="col-"] {
+text-align: center;
+}
+[class*="card"] {
+text-align: left !important;
+}
+footer div[class*="col-"] {
+float: left !important;
+}
+</style>
+<script>
+//vertically center content in IE8+
+
+var browser = {
+    isIe: function () {
+        return navigator.appVersion.indexOf("MSIE") != -1;
+    },
+    navigator: navigator.appVersion,
+    getVersion: function() {
+        var version = 999; // we assume a sane browser
+        if (navigator.appVersion.indexOf("MSIE") != -1)
+            // bah, IE again
+            version = parseFloat(navigator.appVersion.split("MSIE")[1]);
+        return version;
+    }
+};
+
+function vertPosition() {
+  $("#hero .row").css({ "position" : "absolute", "top" : "50%", "margin-top" : "-" + halfHeight + "px", "max-width" : containerWidth + "px" });
+}
+
+$('document').ready(function() {
+  
+  var rowHeight = $("#hero .row").height();
+  var containerWidth = $("#hero .container").width();
+  var halfHeight = rowHeight / 2;
+  vertPosition();
+
+  if (($(window).width() < 767) && (browser.isIe() && browser.getVersion() = 9)) {
+    $("#hero .row").css({ "position" : "relative", "top" : "0", "margin-top" : "0px", "max-width" : containerWidth + "px" });
+  };
+  $(window).resize(function () { 
+    if ($(window).width() > 767) {    
+      vertPosition();
+    };
+  });
+});
+
+
+</script>
+<![endif]-->
+<!--[if lte IE 8]>
+
+<script>
+$('document').ready(function(){
+$('nav').removeClass('top');
+});
+</script>
+<![endif]-->
+  
+  <!-- tech specs drop down -->
+  <script src="/js/techspecs.js?d=2017-02-16-14-13-08--0800" type="text/javascript"></script>
+    
+    <script>
+    if (failed == true || failed == "failed" ) {
+      setTimeout(function() { $('body').css('visibility','visible'); }, 2000);
+    }
+  </script>
+  
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-MKSKW3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MKSKW3');</script> 
+<!-- End Google Tag Manager --> 
+<script src="/js/ck.js?d=2017-02-16-14-13-08--0800" type="text/javascript"></script>
+
+<!--<svg height="0" width="0" style="display: none;">
+    <defs style="display: none;">
+        <filter id="blurred">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0 0"> 
+                <animate id="blurredAnimation" attributeName="stdDeviation" from="0 0" to="3 3" dur="0.4s" fill="freeze" begin="indefinite" /> 
+            </feGaussianBlur>
+        </filter>
+        
+        <filter id="unblurred">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="0 0"> 
+                <animate id="unblurredAnimation" attributeName="stdDeviation" from="3 3" to="0 0" dur="0.4s" fill="freeze" /> 
+            </feGaussianBlur>
+        </filter>
+    </defs>
+</svg>
+-->
+
+<link type="text/css" rel="stylesheet" href="/css/NEW-NAV.css?d=2017-02-16-14-13-08--0800" />
+<noscript>
+<style>
+  #newnav #nav-icon.navbar-toggle {
+    display: none !important;
+  }
+  .nav.navbar-nav.navbar-right.outter-nav.hidden-xs {
+    display: block !important;
+  }
+  body, #newnav {
+    min-width: 775px !important;
+  }
+  #newnav {
+    height: 70px;
+  }
+  #newnav .nav>li {
+    float: left;
+  }
+  #overlay-lang {
+    display: none !important;
+  }
+</style>
+</noscript>
+<nav id="newnav" class="navbar navbar-default navbar-fixed-top bg-check top" role="navigation">
+  <a class="navbar-brand" href="/" id="cta-homepage-newnavigation-linkto-homepage-en"><svg version="1.1" id="main-logo" x="0px" y="0px"
+	 viewBox="-333 547 197 60" style="enable-background:new -333 547 197 60;" xml:space="preserve">
+  <image src="/images/malwarebytes-main-logo.png" xlink:href=""></image>
+<style type="text/css">
+	.st0{fill:#fff;}
+</style>
+<g>
+	<path class="st0" d="M-204.6,572.6l-0.1,0.1v-7.9c0-0.2-0.2-0.3-0.3-0.3l-2.2,0.3c-0.1,0-0.3,0.1-0.3,0.3v23.1
+		c0,0.1,0.1,0.3,0.2,0.3c1.9,0.4,4.3,0.6,5.8,0.6c6.3,0,7.2-3,7.2-6.3v-6.1c0-3.5-1.7-5.3-4.9-5.3
+		C-201.5,571.4-203.5,572-204.6,572.6z M-197.1,576.6v6.3c0,2.3-0.7,3.8-4.2,3.8c-1.2,0-2.3-0.1-3.4-0.2h-0.1v-11.3l0,0
+		c1-0.5,3.1-1.3,4.7-1.3C-198,573.8-197.1,574.7-197.1,576.6z"/>
+	<path class="st0" d="M-190.6,571.8h-2.1c-0.2,0-0.4,0.2-0.3,0.4l5.3,16.3c0,0.1,0.2,0.2,0.3,0.2h0.6c0.2,0,0.4,0.2,0.3,0.4
+		l-2.1,6.1c-0.1,0.2,0.1,0.4,0.3,0.4h2c0.1,0,0.2-0.1,0.3-0.2l2.3-6.7l5.5-16.6c0.1-0.2-0.1-0.4-0.3-0.4h-2.1
+		c-0.1,0-0.2,0.1-0.3,0.2l-4.4,13.8c-0.1,0.3-0.5,0.3-0.6,0l-4.4-13.7C-190.4,571.8-190.5,571.8-190.6,571.8z"/>
+	<path class="st0" d="M-164.5,577.7v5.1c0,4.2,2.1,6.2,6.7,6.2c1.9,0,4.1-0.3,5.7-0.9c0.1,0,0.2-0.2,0.2-0.3l-0.3-1.6
+		c0-0.2-0.2-0.3-0.4-0.2c-1.9,0.5-3.6,0.7-5,0.7c-3.5,0-4.1-1.2-4.1-3.9v-1.2c0-0.2,0.1-0.3,0.3-0.3h9.6c0.2,0,0.3-0.1,0.3-0.3v-3.2
+		c0-4.3-2.1-6.4-6.3-6.4C-162.2,571.4-164.5,573.5-164.5,577.7z M-161.7,577.5c0-2.6,1.2-3.8,3.8-3.8s3.7,1.1,3.7,3.8v1.2
+		c0,0.2-0.1,0.3-0.3,0.3h-6.9c-0.2,0-0.3-0.1-0.3-0.3V577.5z"/>
+	<path class="st0" d="M-143.3,579c-2.9-0.7-3-1.1-3-3c0-1.6,0.4-2.2,3-2.2c1.2,0,2.9,0.2,4.3,0.4c0.2,0,0.3-0.1,0.4-0.3l0.1-1.7
+		c0-0.1-0.1-0.3-0.2-0.3c-1.3-0.3-2.9-0.5-4.5-0.5c-4.2,0-5.8,1.2-5.8,4.5c0,3.5,0.4,4.4,4.6,5.4c3.4,0.8,3.6,1,3.6,3
+		c0,1.8-0.4,2.4-3.2,2.4c-1.3,0-3.1-0.2-4.5-0.6c-0.2,0-0.3,0.1-0.4,0.2l-0.3,1.6c0,0.1,0.1,0.3,0.2,0.3c1.4,0.5,3.5,0.8,5.1,0.8
+		c4.9,0,5.8-1.6,5.8-4.9C-138.1,580.6-138.7,580.2-143.3,579z"/>
+	<g>
+		<path class="st0" d="M-272.6,588.5l-3-16.5c0-0.2,0.1-0.4,0.3-0.4h3.3c0.1,0,0.3,0.1,0.3,0.2l1.8,9.9c0.1,0.3,0.5,0.3,0.6,0l3-10
+			c0-0.1,0.2-0.2,0.3-0.2h4c0.1,0,0.3,0.1,0.3,0.2l2.9,10c0.1,0.3,0.5,0.3,0.6,0l1.8-9.9c0-0.1,0.2-0.2,0.3-0.2h3.4
+			c0.2,0,0.3,0.2,0.3,0.4l-3,16.5c0,0.1-0.2,0.2-0.3,0.2h-4.5c-0.1,0-0.3-0.1-0.3-0.2l-3.3-11.1c-0.1-0.3-0.5-0.3-0.6,0l-3.3,11.1
+			c0,0.1-0.2,0.2-0.3,0.2h-4.5C-272.5,588.7-272.6,588.6-272.6,588.5z"/>
+	</g>
+	<path class="st0" d="M-277.6,585.6c-1.5,0-2-0.7-2-2.6v-12.4v-4.9c0-0.2-0.2-0.3-0.3-0.3l-3.7,0.6c-0.2,0-0.3,0.1-0.3,0.3v0.2v4.2
+		v12.8c0,3.9,2.3,5.6,5.5,5.6c0.3,0,1.5,0,2-0.1c0.2,0,0.3-0.1,0.3-0.3V586c0-0.2-0.1-0.3-0.3-0.3
+		C-276.7,585.6-277.3,585.6-277.6,585.6z"/>
+	<g>
+		<path class="st0" d="M-225.8,575.3c-1.5,0.7-2.8,1.4-4.2,2.3c-0.1,0.1-0.1,0.2-0.1,0.3v10.5c0,0.2-0.1,0.3-0.3,0.3h-3.7
+			c-0.2,0-0.3-0.1-0.3-0.3v-15.8c0-0.1,0.1-0.3,0.3-0.3l3.1-0.5c0.2,0,0.3,0.1,0.4,0.3l0.2,1.1c0,0.2,0.3,0.3,0.5,0.2
+			c1-0.6,2.5-1.5,3.7-1.9c0.2-0.1,0.4,0.1,0.4,0.3l0.4,3.3C-225.6,575.2-225.7,575.3-225.8,575.3z"/>
+	</g>
+	<path class="st0" d="M-168.9,586.7c-1.7,0-1.8-0.8-1.8-2v-10.3c0-0.2,0.1-0.3,0.3-0.3h4c0.2,0,0.3-0.1,0.3-0.3l0.2-1.7
+		c0-0.2-0.1-0.3-0.3-0.3h-4.2c-0.2,0-0.3-0.1-0.3-0.3v-4c0-0.2-0.2-0.3-0.3-0.3l-2.2,0.3c-0.1,0-0.3,0.1-0.3,0.3v3.6
+		c0,0.2-0.1,0.3-0.3,0.3h-2.4c-0.2,0-0.3,0.1-0.3,0.3v1.7c0,0.2,0.1,0.3,0.3,0.3h2.4c0.2,0,0.3,0.1,0.3,0.3v10.9
+		c0,2.7,1.2,3.8,4.2,3.8c0.7,0,1.3-0.1,2-0.2c0.1,0,0.2-0.2,0.2-0.3v-1.7c0-0.2-0.2-0.3-0.4-0.3C-168,586.6-168.4,586.7-168.9,586.7
+		z"/>
+	<path class="st0" d="M-213.4,571.8c-0.9-0.4-2.1-0.6-3.5-0.6c-1.7,0-3,0.3-4,0.8c-2.3,1.1-3.1,3.4-3.1,5.9v4.5c0,4,1.8,6.5,6.9,6.6
+		c0.4,0,0.8,0,1.2,0c1.4,0,2.8-0.1,4.2-0.3c0.2,0,0.3-0.2,0.3-0.3v-0.1l-0.3-2.3l0,0c-1.3,0.1-2.4,0.2-3.7,0.2l0,0
+		c-3.2,0-4.1-0.9-4.1-2.8v-0.6l0,0V582l0,0h9.2c0.2,0,0.3-0.1,0.3-0.3v-1.3V578C-210.2,575.4-210.9,572.9-213.4,571.8z M-214,578.6
+		c0,0.2-0.1,0.3-0.3,0.3h-5.4l0,0v-1.5c0-1.6,0.7-2.7,2.8-2.7c0.3,0,0.5,0,0.7,0c1.6,0.2,2.2,1.3,2.2,2.7
+		C-214,577.4-214,578.6-214,578.6z"/>
+	<path class="st0 m-logo" d="M-318,591.6L-318,591.6c0.3,0,0.4-0.1,0.4-0.3s-0.1-0.3-0.3-0.3h-0.1h-0.2c-3.8-0.8-6.7-4.2-6.7-8.3
+		c0-1.7,0.5-3.3,1.4-4.7c0.1-0.2,0.4-0.3,0.6-0.1l6.1,6.2c0.1,0.1,0.2,0.1,0.3,0.1s0.2,0,0.3-0.1l6.2-6.1c0.2-0.2,0.4-0.2,0.6,0.1
+		c0.9,1.3,1.4,3,1.4,4.7c0,2.2-0.8,4.1-2.1,5.6l-0.1,0.1v0.1c0,0.2,0.1,0.3,0.3,0.3c0,0,0,0,0.1,0c0,0,0.1,0,0.1-0.1
+		c8.1-3.5,7.8-11.5,7.8-11.5c0-4.7-2.2-8.8-5.6-11.4c-0.1-0.1-0.4-0.1-0.5,0l-8.2,8.1c-0.1,0.1-0.4,0.1-0.5,0l-8.1-8.1
+		c-0.1-0.1-0.3-0.1-0.5,0c-3.4,2.6-5.6,6.8-5.6,11.4l0,0C-330.9,584.7-325.3,590.9-318,591.6"/>
+	<path class="st0" d="M-294.8,571.3c-1.5,0-3.1,0.1-4.5,0.3c-0.2,0-0.3,0.2-0.3,0.3l0.4,2.6c0,0.2,0.2,0.3,0.3,0.3
+		c1.4-0.2,2.3-0.2,3.7-0.2c3.2,0,4.1,0.9,4.1,2.8v1.1c0,0.2-0.1,0.3-0.3,0.3h-4c-3.5,0-5.5,1.8-5.5,5c0,3,2.3,5.1,5.7,5.1
+		c2.2,0,3-0.3,3.7-1c0.2-0.2,0.5-0.1,0.5,0.2v0.2c0,0.2,0.1,0.3,0.3,0.3h3.5c0.2,0,0.3-0.1,0.3-0.3v-10.7
+		C-286.8,573.4-289.8,571.3-294.8,571.3z M-291.1,582.4c0,2.1-1.4,3.6-3.7,3.6c-1.8,0-2.7-0.7-2.7-2.1c0-1.5,0.9-2.1,2.7-2.1h3.4
+		c0.2,0,0.3,0.1,0.3,0.3V582.4z"/>
+	<path class="st0" d="M-245.3,571.3c-1.5,0-3.1,0.1-4.5,0.3c-0.2,0-0.3,0.2-0.3,0.3l0.4,2.6c0,0.2,0.2,0.3,0.3,0.3
+		c1.4-0.2,2.3-0.2,3.7-0.2c3.2,0,4.1,0.9,4.1,2.8v1.1c0,0.2-0.1,0.3-0.3,0.3h-4c-3.5,0-5.5,1.8-5.5,5c0,3,2.3,5.1,5.7,5.1
+		c2.2,0,3-0.3,3.7-1c0.2-0.2,0.5-0.1,0.5,0.2v0.2c0,0.2,0.1,0.3,0.3,0.3h3.5c0.2,0,0.3-0.1,0.3-0.3v-10.7
+		C-237.3,573.4-240.3,571.3-245.3,571.3z M-241.6,582.4c0,2.1-1.4,3.6-3.7,3.6c-1.8,0-2.7-0.7-2.7-2.1c0-1.5,0.9-2.1,2.7-2.1h3.4
+		c0.2,0,0.3,0.1,0.3,0.3C-241.6,582.1-241.6,582.4-241.6,582.4z"/>
+</g>
+</svg>
+</a>
+  <div id="nav-icon" type="button" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" role="menu" tabindex="0" aria-pressed="true" aria-haspopup="true" aria-expanded="false" aria-controls="navbar">&nbsp;
+    <span class="firstline">&nbsp;</span>
+    <span class="secondline">&nbsp;</span>
+    <span class="thirdline">&nbsp;</span>
+    <p class="menu-text">More</p>
+    <p class="close-text">Less</p>
+  </div>
+    <noscript>
+      <ul class="nav navbar-nav navbar-right outter-nav hidden-xs" style="margin-left: 20px;">
+        <li class="dropdown "> <a class="dropdown-toggle" role="button" data-toggle="hover" aria-haspopup="true" aria-expanded="false" href="/support/" id="cta-homepage-headernavigation-noscript-linkto-support-en">Support</a>
+        </li>
+        <li class="dropdown "> <a class="dropdown-toggle" role="button" data-toggle="hover" aria-haspopup="true" aria-expanded="false" href="/company/" id="cta-homepage-headernavigation-noscript-linkto-company-en">Company</a>
+        </li>
+      </ul>
+    </noscript>
+    <ul class="nav navbar-nav navbar-right outter-nav hidden-xs">
+        <li class="dropdown  active "> <a class="dropdown-toggle for-home-link" href="/premium/" id="cta-homepage-headernavigation-linkto-forhome-en" role="menuitem" tabindex="0" data-toggle="hover" aria-haspopup="true" aria-expanded="false">For Home</a>
+        
+        </li>
+        <li class="dropdown "> <a class="dropdown-toggle" href="/business/" id="cta-homepage-headernavigation-linkto-forbusiness-en" role="menuitem" tabindex="0" data-toggle="hover" aria-haspopup="true" aria-expanded="false">For Business</a>
+          
+        </li>
+  </ul>
+  <div id="nav-items">
+    <div class="left-side">
+      <ul class="main-nav">
+        <li class="flag">
+          <a class="lang" nav-rel="language" tabindex="0"><img src="/images/nav/flags/en.svg" onerror="this.src='/images/nav/flags/en.png'; this.onerror=null;"> EN</a>
+          <ul class="language dropdown">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> LANGUAGES </li>
+            <li><b>Languages</b> </li>
+            <li>
+              <a href="https://de.malwarebytes.com" class="de-site" id="cta-homepage-newnav-linkto-de_site-en"><img src="/images/nav/flags/de.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/de.png'; this.onerror=null;"> Deutsch</a>
+            </li>
+            <li>
+              <a href="https://es.malwarebytes.com" class="es-site" id="cta-homepage-newnav-linkto-es_site-en"><img src="/images/nav/flags/es.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/es.png'; this.onerror=null;"> Español</a>
+            </li>
+            <li>
+              <a href="https://fr.malwarebytes.com" class="fr-site" id="cta-homepage-newnav-linkto-fr_site-en"><img src="/images/nav/flags/fr.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/fr.png'; this.onerror=null;"> Français</a>
+            </li>
+            <li>
+              <a href="https://it.malwarebytes.com" class="it-site" id="cta-homepage-newnav-linkto-it_site-en"><img src="/images/nav/flags/it.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/it.png'; this.onerror=null;"> Italiano</a>
+            </li>
+            <li>
+              <a href="https://pt.malwarebytes.com" class="pt-site" id="cta-homepage-newnav-linkto-pt_site-en"><img src="/images/nav/flags/pt.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/pt.png'; this.onerror=null;"> Português (Portugal)</a>
+            </li>
+            <li>
+              <a href="https://br.malwarebytes.com" class="br-site" id="cta-homepage-newnav-linkto-br_site-en"><img src="/images/nav/flags/br.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/br.png'; this.onerror=null;"> Português (Brazil)</a>
+            </li>
+            <li>
+              <a href="https://nl.malwarebytes.com" class="nl-site" id="cta-homepage-newnav-linkto-nl_site-en"><img src="/images/nav/flags/nl.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/nl.png'; this.onerror=null;"> Nederlands</a>
+            </li>
+            <li>
+              <a href="https://pl.malwarebytes.com" class="pl-site" id="cta-homepage-newnav-linkto-pl_site-en"><img src="/images/nav/flags/pl.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/pl.png'; this.onerror=null;"> Polski</a>
+            </li>
+            <li>
+              <a href="https://ru.malwarebytes.com" class="ru-site" id="cta-homepage-newnav-linkto-ru_site-en"><img src="/images/nav/flags/ru.svg?d=2017-02-16-14-13-08--0800" alt="" onerror="this.src='/images/nav/flags/ru.png'; this.onerror=null;"> Pусский</a>
+            </li>
+          </ul>
+        </li>
+        <li class="active"><a href="/premium/" nav-rel="home-products" class="for-home-link active" id="cta-homepage-newnavigation-linkto-forhome-en">For home</a>
+          <ul class="dropdown home-products active">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/premium/" class="for-home-link" id="cta-homepage-newnavigation-breadcrumb-linkto-forhome-en">FOR HOME</a> </li>
+            <li><b><a id="cta-homepage-newnavigation-linkto-productsforhome-en" href="/products/#for-home">Products</a></b> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-mbampremium-en" href="/premium/">Malwarebytes 3.0</a> </li>
+            
+            <li> <a id="cta-homepage-newnavigation-linkto-mbammac-en" href="/mac">Anti-Malware for Mac</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-mbammobile-en" href="/mobile">Anti-Malware Mobile</a> </li>
+          </ul>
+        </li>
+        <li class=""><a href="/business/" nav-rel="biz-products" class="">For business</a>
+          <ul class="dropdown biz-products ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/business" id="cta-homepage-newnavigation-breadcrumb-linkto-forbusiness-en">FOR BUSINESS</a> </li>
+            <li><b>Products</b> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-mbes-en" href="/business/endpointsecurity">Endpoint Security</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-mbbr-en" href="/business/breachremediation">Breach Remediation</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-mbamb-en" href="/business/antimalware">Anti-Malware for Business</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-mbaeb-en" href="/business/antiexploit">Anti-Exploit for Business</a> </li>
+
+            <li><b>Industries</b> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-edu-en" href="/education">Education</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-finance-en" href="/finance">Finance</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-healthcare-en" href="/healthcare">Healthcare</a> </li>
+            <li><b><a id="cta-homepage-newnavigation-linkto-businessservices-en" href="/business/services">Support services</a></b></li>
+            <li><b><a id="cta-homepage-newnavigation-linkto-integrations-en" href="/integrations/">Integrations &amp; alliances</a></b></li>
+            <li><b><a id="cta-homepage-newnavigation-linkto-resources-en" href="/resources/">Resources</a></b> </li>
+            <li><b>&nbsp;</b> </li>
+            <li><b>&nbsp;</b> </li>
+            <li><b>&nbsp;</b> </li>
+          </ul>
+        </li>
+        <li class=""><a href="https://blog.malwarebytes.org" nav-rel="labs-nav" class="">Labs</a>
+          <ul class="dropdown labs-nav ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="https://blog.malwarebytes.com" id="cta-homepage-newnavigation-breadcrumb-linkto-labs-en">LABS</a> </li>
+            <li><div class="search">
+<form action="https://blog.malwarebytes.com/" method="get" id="nav-search-bar" _lpchecked="1">
+      <input name="s" type="text" class="text-left" placeholder="Search Labs" style="display: inline-block;">
+      <button type="submit"><span class="glyphicon glyphicon-search active"></span></button>
+
+      </form>
+    </div></li>
+            <li> <a id="cta-homepage-newnavigation-linkto-labsblog-en" href="https://blog.malwarebytes.com">Blog</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-labsthreats-en" href="https://blog.malwarebytes.com/threats">Threats</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-labsscams-en" href="https://blog.malwarebytes.com/tech-support-scams/">Scams</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-labsmbtv-en" href="https://blog.malwarebytes.com/mbtv">MBTV</a> </li>
+            
+          </ul>
+        </li>
+        <li class=""><a href="/support/" nav-rel="support-nav" class="">Support</a>
+          <ul class="dropdown support-nav ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/support" id="cta-homepage-newnavigation-breadcrumb-linkto-support-en">SUPPORT</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-homesupport-en" href="https://support.malwarebytes.com/?b_id=6400">For home</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-businesssupport-en" href="https://support.malwarebytes.com/?b_id=6401">For business</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-releasehistory-en" href="/support/releasehistory/">Release history</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-guides-en" href="/support/guides/">Guides</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-labsforums-en"href="https://forums.malwarebytes.org">Forums</a>
+            </li>
+          </ul>
+        </li>
+        <li class=""><a href="/products/" nav-rel="products-nav" class="">Products</a>
+          <ul class="dropdown products-nav ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/products" id="cta-homepage-newnavigation-breadcrumb-linkto-products-en">PRODUCTS</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-allproducts-en" href="/products">All products</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-homeproducts-en" href="/products/#for-home" target="_self" class="close-nav">For home</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-businessproducts-en" href="/products/#business-products" class="close-nav">For business</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-productssupportservices-en" href="/business/services" class="close-nav">Support services</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-technicianproducts-en" href="/products/#for-technicians" class="close-nav">For technicians</a> </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="secondary-nav">
+        <li class=""><a href="/company/" nav-rel="about" class="">About us</a>
+          <ul class="dropdown about ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/company/" id="cta-homepage-newnavigation-breadcrumb-linkto-aboutus-en">ABOUT US</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-companymissionstatement-en" href="/company">Mission statement</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-companyleadership-en" href="/company/#leadership" class="close-nav">Leadership</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-companyboard-en" href="/company/#board-bios" class="close-nav">Board of directors</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-companyinvestors-en" href="/company/#investors" class="close-nav">Investors</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-companyawards-en" href="/company/#awards-clients" class="close-nav">Awards</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-companyclients-en" href="/company/#company-clients" class="close-nav">Clients</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-careers-en" href="https://jobs.malwarebytes.com">Careers</a>
+            </li>
+          </ul>
+        </li>
+        <li class=""><a href="/partners/" nav-rel="partners" class="">Partners</a>
+          <ul class="dropdown partners ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/partners/" id="cta-homepage-newnavigation-breadcrumb-linkto-partners-en">PARTNERS</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-resellers-en" href="/partners/#partnerbytes" class="close-nav">Resellers</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-affiliates-en" href="/partners/#affiliates" class="close-nav">Affiliates</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-strategicpartners-en" href="/partners/#strategic" class="close-nav">Strategic technology partners</a> </li>
+          </ul>
+        </li>
+        <li class=""><a href="https://press.malwarebytes.com" nav-rel="press" class="">News &amp; events</a>
+          <ul class="dropdown press ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="https://press.malwarebytes.com" id="cta-homepage-newnavigation-breadcrumb-linkto-newsandevents-en">NEWS &amp; EVENTS</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-pressinthenews-en" href="https://press.malwarebytes.com#inthenews" class="close-nav">In the news</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-pressreleases-en" href="https://press.malwarebytes.com#pressreleases" class="close-nav">Press releases</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-pressevents-en" href="https://press.malwarebytes.com#events" class="close-nav">Events</a> </li>
+            <li><a target="_blank" id="cta-homepage-newnavigation-linkto-presskit-en" href="/pdf/press/Malwarebytes_Press_Kit.zip">Download press kit</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-pressawards-en" href="https://press.malwarebytes.com#awards" class="close-nav">Awards</a> </li>
+          </ul>
+        </li>
+        <li class=""><a href="/resources/" nav-rel="resources-nav" class="">Resources</a>
+          <ul class="dropdown resources-nav ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/resources" id="cta-homepage-newnavigation-breadcrumb-linkto-resources-en">RESOURCES</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-resourcesdatasheets-en" href="/resources/#datasheets" class="close-nav">Datasheets</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-resourcesinfographics-en" href="/resources/#infographics" class="close-nav">Infographics</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-resourcesreviews-en" href="/resources/#reviews" class="close-nav">Reviews</a>
+            </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-resourcescasestudies-en" href="/resources/#casestudies" class="close-nav">Case studies</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-resourceswebinars-en" href="/resources/#webinars" class="close-nav">Webinars</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-resourcesanalystreports-en" href="/resources/#analystreports" class="close-nav">Analyst reports</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-resourceswhitepapers-en" href="/resources/#reviews" class="close-nav">White papers</a> </li>
+          </ul>
+        </li>
+        <li class=""><a href="/contact/" nav-rel="contact" class="">Contact us</a>
+          <ul class="dropdown contact ">
+            <li class="breadcrumb visible-xs"><a href="#" class="menu-home">MENU</a> <a href="/contact" id="cta-homepage-newnavigation-breadcrumb-linkto-contactus-en">CONTACT US</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-contactbusinesssupport-en" href="https://support.malwarebytes.com/?b_id=6401">Business support</a>
+            </li>
+            <li><a id="cta-homepage-newnavigation-linkto-contactconsumerreport-en" href="https://support.malwarebytes.com/?b_id=6400">Consumer support</a>
+            </li>
+            <li><a id="cta-homepage-newnavigation-linkto-contactbusinesssales-en" href="/business/licensing/">Business sales</a>
+            </li>
+            <li><a id="cta-homepage-newnavigation-linkto-contactpartners-en" href="/partners">Partner with us</a> </li>
+            <li><a id="cta-homepage-newnavigation-linkto-contactpress-en" href="https://press.malwarebytes.com">Press inquiries</a> </li>
+
+            <li><a id="cta-homepage-newnavigation-linkto-contactreportabug-en" href="/secure">Report a bug</a> </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="dropdown default-menu ">
+            <li><b><a id="cta-homepage-newnavigation-linkto-nullhomeproducts-en" href="/products/#for-home">Home products</a></b> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbampremium-en" href="/premium">Anti-Malware Premium</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbamfree-en" href="/premium/">Anti-Malware Free</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbae-en" href="/antiexploit">Anti-Exploit</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbammac-en" href="/mac">Anti-Malware | Mac</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbammobile-en" href="/mobile">Anti-Malware | Mobile</a> </li>
+            <li>&nbsp;</li>
+
+            <li><b>Business products</b> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbes-en" href="/business/endpointsecurity">Endpoint Security</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbbr-en" href="/business/breachremediation">Breach Remediation</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbamb-en" href="/business/antimalware">Anti-Malware for Business</a> </li>
+            <li> <a id="cta-homepage-newnavigation-linkto-nullmbaeb-en" href="/business/antiexploit">Anti-Exploit for Business</a> </li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="right-side"> </div>
+  </div>
+</nav>
+<script type="text/javascript" src="/js/new-nav.js?d=2017-02-16-14-13-08--0800"></script>
+<div class="wrapper"  id="homepage">
+<script src="/js/smooth-scroll.js"></script>
+<script>
+  $(document).ready(function(){
+    if (isMacLike === true) {
+      $('.biz-content').remove();
+      $('.mac-content').show();
+    }
+    $('#bottom-subnav').show();
+  });
+</script>
+<!-- hero -->
+
+<section class="new-hero " id="hero">
+  <div class="container">
+    <div class="row center-row">
+      <div class="col-md-12">
+        
+        <h1><span class="product-name">MALWAREBYTES 3.0:<br class="visible-xs hidden-sm hidden-md hidden-lg" /> Now stronger and smarter </span>Makes<br />Antivirus<br />Obsolete</h1>
+        
+        
+          <p>Four layers of malware-crushing tech. Smarter detection. Specialized ransomware protection. It's the security you've been looking for.</p>
+        
+        
+        
+          
+<div class="cta1-wrap">
+  <a class="gray-trans-lg" href="/mwb-download/thankyou/" id="cta-homepage-hero-download-en">FREE DOWNLOAD</a>
+</div>
+<div class="cta2-wrap">
+  <a class="bluecta-lg" href="https://store.malwarebytes.com/342/purl-consumer?x-source=website&tracking=quantummetric" id="cta-homepage-hero-buy-en">BUY NOW</a>
+  <p class="wtd"><a href="/trial/#trial">What's the difference?</a></p>
+</div>
+
+  
+        
+      </div>
+    </div>
+    
+      
+
+<!--<img src="/images/homepage/malwarebytes-robot.png" srcset="/images/homepage/malwarebytes-robot-sm.png 640w, /images/homepage/malwarebytes-robot.png" class="robot visible fadeIn">-->
+
+    
+  </div>
+  
+  
+  
+  <div class="scroll-button hidden-sm hidden-xs">
+    <a href="#intro" class="drop-anchor"><img src="/images/drop-anchor.svg" onerror="this.src='/images/drop-anchor.png'; this.onerror=null;"></a> 
+  </div>
+  
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- /hero -->
+<!--<section id="bottom-subnav" class="dark-blue not-sticky text-center">
+  <div class="container mac-content">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        Need to protect your Mac?
+        <a href="/mac-download/" class="subnav-cta" id="cta-homepage-hero-contactsales-generic-en">DOWNLOAD FOR MAC</a>        
+      </div>
+    </div>
+  </div>
+  <div class="container biz-content">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        Need business solutions?<span class="visible-xs-block"></span> Get the layered defense experts recommend.<span class="visible-xs-block"></span>       
+        <a href="/business/licensing" class="subnav-cta" id="cta-homepage-hero-contactsales-generic-en">LET'S TALK</a>
+      </div>
+    </div>
+  </div>
+</section>-->
+<section id="intro" class="deep-blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-xs-12">
+        <h2>4x stronger, 4x faster</h2>
+        <p>Our engineers have now made your best defense against advanced threats even better. Malwarebytes 3.0 now offers four malware-fighting modules:</p>
+        <ul>
+          <li>Anti-malware</li>
+          <li>Anti-ransomware</li>
+          <li>Anti-exploit</li>
+          <li>Malicious website protection</li>
+        </ul>
+        <p>You have all the best Malwarebytes detection, protection, and malware-removal in one tight package. Stop paying for your old, clunky antivirus.</p>
+        
+        
+        
+        <a href="https://www.youtube.com/embed/BdhgPAAnSR8" data-toggle="modal" data-target="#videoModal" id="cta-home-video-en">
+          <p class="bluecta-lg" id="play-btn-wrap">
+            <span class="btn play-btn">
+              <span></span>
+              <span></span>
+            </span>
+            See it in action
+          </p>
+        </a>
+      </div>
+      <div class="col-md-5 col-xs-12">
+        <img src="/images/screenshots/premium/01-malwarebytes-premium-dashboard.jpg" alt="Malwarebytes 3.0 Premium software in action screenshot" class="mbam-screenshot">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- YOUTUBE MODAL -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <a href="#" class="close" data-dismiss="modal" aria-hidden="true">CLOSE</a>
+        <div>
+          <iframe src="https://www.youtube.com/embed/BdhgPAAnSR8" frameborder="0" allowfullscreen></iframe>
+          <h4></h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/js/webinars.js"></script>
+<!-- /YOUTUBE MODAL -->
+<section id="advantages">
+  <div class="container">    
+    <div class="row">
+      <div class="col-md-12"><h2>What it does for you</h2></div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 card-cont">
+        
+        <div class="card-component" >
+  <div class="title">
+  
+    <div class="img">
+      <img src="/images/components/card/prevents-advanced-malware.svg" alt="Malwarebytes Premium protects you from advanced threats" onerror="this.src='/images/components/card/prevents-advanced-malware.png'; this.onerror=null;" />
+    </div>
+    
+    <div class="h3">
+      <h3>Protects you from advanced threats</h3>
+    </div>
+  </div>
+  <p>Detects and removes malware in real-time with advanced anti-malware, anti-spyware, and anti-rootkit technology. Scans for the newest and most dangerous threats automatically, so you’re protected without having to even think about it.</p>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+      <div class="col-md-6 card-cont">
+        
+        <div class="card-component" >
+  <div class="title">
+  
+    <div class="img">
+      <img src="/images/components/card/frees-up-it-resources.svg" alt="Malwarebytes Premium protects your files from being locked and held for ransom" onerror="this.src='/images/components/card/frees-up-it-resources.png'; this.onerror=null;" />
+    </div>
+    
+    <div class="h3">
+      <h3>Protects your files from being locked and held for ransom</h3>
+    </div>
+  </div>
+  <p>Stops unknown and known ransomware with proprietary next-gen technology that works proactively to shield your files. This is a powerful, complete defense that blocks ransomware, and not a simple decryption tool. So you’re protected from tomorrow’s “Ransomware Attack!” headlines today. </p>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-md-6 card-cont">
+        
+        <div class="card-component" >
+  <div class="title">
+  
+    <div class="img">
+      <img src="/images/components/card/stops-malicious-websites.svg" alt="Malwarebytes Premium Prevents your programs from being used against you" onerror="this.src='/images/components/card/stops-malicious-websites.png'; this.onerror=null;" />
+    </div>
+    
+    <div class="h3">
+      <h3>Prevents your programs from being used against you</h3>
+    </div>
+  </div>
+  <p>Wraps your browser and software programs in four layers of defense, stopping attacks that use vulnerabilities in those programs to infect your computer.</p>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+      
+      <div class="col-md-6 fourth-card card-cont">
+        
+        <div class="card-component" >
+  <div class="title">
+  
+    <div class="img">
+      <img src="/images/components/card/vector-window-layers.svg" alt="Malwarebytes Premium protects you from fake and infected websites " onerror="this.src='/images/components/card/vector-window-layers.png'; this.onerror=null;" />
+    </div>
+    
+    <div class="h3">
+      <h3>Protects you from fake and infected websites</h3>
+    </div>
+  </div>
+  <p>Detects and prevents contact with fake websites and malicious links. You are proactively protected from downloading malware, hacking attempts, and infected advertising. Worried about wandering into a “bad” Internet neighborhood? Now you don’t have to be.</p>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-md-6 fourth-card card-cont">
+        
+        <div class="card-component" >
+  <div class="title">
+  
+    <div class="img">
+      <img src="/images/components/card/scans-faster.svg" alt="Malwarebytes Premium scans faster, scans smarter" onerror="this.src='/images/components/card/scans-faster.png'; this.onerror=null;" />
+    </div>
+    
+    <div class="h3">
+      <h3>Scans faster, scans smarter</h3>
+    </div>
+  </div>
+  <p>Lightning-fast Hyper Scan mode targets only the threats that are currently active. Faster analysis. Still gets results. Run a scan in the background while you boot up your favorite game. It's done by the time you're ready to play.</p>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    </div>
+</section>
+
+<section id="quotes" class="deep-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12"><h2>Don't take our word for it</h2></div>
+      <div class="col-md-6">
+        
+        <div class="quote new">
+  <p class="copy">&quot;Had a nasty malware infection, I tried everything out there and was about to give up. [Then I] tried Malwarebytes as a last resort. Reboot—problem solved! Worth every penny.&quot;</p>
+  <div class="credit">
+    
+    <p class="author">
+      sldrennan1<br /> CNET
+      
+    </p>
+    
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+      <div class="col-md-6">
+        
+        <div class="quote new">
+  <p class="copy">&quot;I bought the Premium...I totally recommend this. You will use it every day, and with peace of mind, no matter what other security you have on your computer.&quot;</p>
+  <div class="credit">
+    
+    <p class="author">
+      Techgirl<br /> Amazon.com
+      
+    </p>
+    
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 logos">
+        <img src="/images/awards/award_bbb.png" id="bbb" class="hidden-xs">
+        <img src="/images/awards/award_avtest.png" id="avtest" class="hidden-xs">
+        <img src="/images/awards/award_opswat.png" id="opswat">
+        <img src="/images/awards/award_westcoastlabs.png" id="westcoastlabs" class="hidden-xs">
+        <img src="/images/awards/award_cnet.png" id="cnet">
+      </div>
+    </div>
+  </div>
+</section>
+  
+<section id="otherproducts">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Other products</h2>
+    </div>
+    </div>
+  <div class="row">
+   
+    <div class="col-md-12 product-col">
+        <h3 id="for-business-products">For business</h3> 
+         
+        <div class="product-detail">
+  <a href="/business/endpointsecurity" class="product-name" id="cta-index.html-linkto-_business_endpointsecurity-en">Malwarebytes Endpoint Security</a>
+  <div class="product-links">
+     
+          <a href="/business/endpointsecurity" id="cta-index.html-learnmore-_business_endpointsecurity-en">LEARN MORE</a>
+          <a href="/business/licensing" id="cta-index.html-contactsales-_business_endpointsecurity-en">CONTACT SALES</a>
+          <div class="buy-pill-wrap">
+            <a href="https://store.malwarebytes.com/342/purl-endpoint-security&tracking=quantummetric" id="cta-index.html-buy-_business_endpointsecurity-en">BUY <span class="pill small orange">1-99 SEATS</span></a> 
+           </div>
+           
+  </div>
+</div>
+
+
+
+
+        
+         
+        <div class="product-detail">
+  <a href="/business/breachremediation" class="product-name" id="cta-index.html-linkto-_business_breachremediation-en">Malwarebytes Breach Remediation</a>
+  <div class="product-links">
+     
+          <a href="/business/breachremediation" id="cta-index.html-learnmore-_business_breachremediation-en">LEARN MORE</a>
+          <a href="/business/licensing" id="cta-index.html-contactsales-_business_breachremediation-en">CONTACT SALES</a> 
+           
+  </div>
+</div>
+
+
+
+
+        
+         
+        <div class="product-detail">
+  <a href="/business/antimalware" class="product-name" id="cta-index.html-linkto-_business_antimalware-en">Malwarebytes Anti-Malware for Business</a>
+  <div class="product-links">
+     
+          <a href="/business/antimalware" id="cta-index.html-learnmore-_business_antimalware-en">LEARN MORE</a>
+          <a href="/business/licensing" id="cta-index.html-contactsales-_business_antimalware-en">CONTACT SALES</a> 
+          <div class="buy-pill-wrap">  
+            <a href="https://store.malwarebytes.com/342/purl-anti-malware-business&tracking=quantummetric" id="cta-index.html-buy-_business_antimalware-en">BUY <span class="pill small orange">1-99 SEATS</span></a> 
+          </div>
+           
+  </div>
+</div>
+
+
+
+
+        
+         
+        <div class="product-detail">
+  <a href="/business/antiexploit" class="product-name" id="cta-index.html-linkto-_business_antiexploit-en">Malwarebytes Anti-Exploit for Business</a>
+  <div class="product-links">
+     
+          <a href="/business/antiexploit" id="cta-index.html-learnmore-_business_antiexploit-en">LEARN MORE</a>
+          <a href="/business/licensing" id="cta-index.html-contactsales-_business_antiexploit-en">CONTACT SALES</a> 
+          <div class="buy-pill-wrap">  
+            <a href="https://store.malwarebytes.com/342/purl-anti-exploit-business&tracking=quantummetric" id="cta-index.html-buy-_business_antiexploit-en">BUY <span class="pill small orange">1-99 SEATS</span></a> 
+          </div>
+           
+  </div>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    
+    
+  </div>
+    <div class="row">
+    <div class="col-md-12 product-col">
+        <h3 id="for-home-products">For home</h3> 
+         
+        <div class="product-detail">
+  <a href="/premium" class="product-name" id="cta-index.html-linkto-_premium-en">Malwarebytes 3.0</a>
+  <div class="product-links">
+     
+          <a href="/premium" id="cta-index.html-learnmore-_premium-en">LEARN MORE</a>
+         
+          <a href="https://store.malwarebytes.com/342/purl-consumer?x-source=website&x-action=index_page&tracking=quantummetric" id="cta-index.html-buy-_premium-en">BUY</a> 
+         <a href="/mwb-download/thankyou/" id="cta-index.html-download-_premium-en">DOWNLOAD</a>
+           
+  </div>
+</div>
+
+
+
+
+        
+         
+        <div class="product-detail">
+  <a href="/mac/" class="product-name" id="cta-index.html-linkto-_mac_-en">Malwarebytes Anti-Malware for Mac</a>
+  <div class="product-links">
+     
+          <a href="/mac/" id="cta-index.html-learnmore-_mac_-en">LEARN MORE</a>
+         
+        
+         <a href="/mac-download/" id="cta-index.html-download-_mac_-en">DOWNLOAD</a>
+           
+  </div>
+</div>
+
+
+
+
+        
+        
+         
+        <div class="product-detail">
+  <a href="/mobile" class="product-name" id="cta-index.html-linkto-_mobile-en">Malwarebytes Anti-Malware Mobile</a>
+  <div class="product-links">
+     
+          <a href="/mobile" id="cta-index.html-learnmore-_mobile-en">LEARN MORE</a>
+         
+         
+         <a href="https://play.google.com/store/apps/details?id=org.malwarebytes.antimalware" id="cta-index.html-download-_mobile-en">DOWNLOAD</a>
+           
+  </div>
+</div>
+
+
+
+
+      </div>
+    </div>
+   
+    <div class="row">
+    <div class="col-md-12">
+      <a href="/products" id="cta-homepage-otherproducts-linkto-products-en" class="bluecta-lg">VIEW ALL</a>
+    </div>
+    </div>
+    </div>
+</section>
+
+
+
+<!-- Get Feedback Survey -->
+<script>
+  (function(w,d,s,u,g,a,b){w['GetFeedbackObject']=g;w[g]=w[g]||function(){
+  (w[g].q=w[g].q||[]).push(arguments)};a=d.createElement(s),
+  b=d.getElementsByTagName(s)[0];a.async=1;a.src=u;b.parentNode.insertBefore(a,b)
+  })(window,document,'script','//js.getfeedback.com/embed/J1i5T1r1L6/gf.js','gf')
+</script>
+</div>
+<section id="newsletter-signup" class="deep-blue newsletter-signup">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+          <h3>Cybersecurity info you can’t do without</h3>
+          <p>Want to stay informed on the latest news in cybersecurity? Sign up for our newsletter and learn how to protect your computer from threats.</p>
+      </div>
+			<div class="col-md-6">
+          <form class="newsletter form-inline" action="/newsletter/" _lpchecked="1">
+            <div class="textInput inline var3">
+              <div class="col-md-8 email-input"><input type="text" class="email-submit" id="cta-mwb-download_thankyou-submit-email-en" name="email" placeholder="Enter your e-mail address"></div>
+              <div class="col-md-3 email-btn"><input type="submit" value="SUBSCRIBE" class="bluecta-sm" id="cta-mwb-download_thankyou-submit-email-en"></div>
+            </div>
+        </form>
+        </div>
+    </div>
+  </div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<!--navigation-->
+
+			<div class="col-sm-3 col-md-2 hidden-xs">
+				<p class="text-uppercase">Company</p>
+				<p><a href="/" id="cta-homepage-footernavigation-company-linkto-forhome-en" class="for-home-link">For Home</a></p>
+				<p><a href="/business/" id="cta-homepage-footernavigation-company-linkto-forbusiness-en">For Business</a></p>
+				<p><a href="/education/" id="cta-homepage-footernavigation-company-linkto-education-en">For Education</a></p>
+                <p><a href="/finance/" id="cta-homepage-footernavigation-company-linkto-finance-en">For Finance</a></p>
+                <p><a href="/healthcare/" id="cta-homepage-footernavigation-company-linkto-healthcare-en">For Healthcare</a></p>
+				<p><a href="/company/" id="cta-homepage-footernavigation-company-linkto-aboutleadership-en">About/Leadership</a></p>
+				<p><a href="/partners/" id="cta-homepage-footernavigation-company-linkto-partnerships-en">Partnerships</a></p>
+				<p><a href="/successstories/" id="cta-homepage-footernavigation-company-linkto-successstories-en">Success stories</a></p>
+				<p><a href="/resources/#webinars" id="cta-homepage-footernavigation-company-linkto-webinars-en">Webinars</a></p>
+			</div>
+			<div class="col-md-2 col-sm-3 hidden-xs">
+				<p class="text-uppercase">Need help?</p>
+				<p><a href="/support/" id="cta-homepage-footernavigation-needhelp-linkto-support-en">Support</a></p>
+                <p><a href="/business/services/" id="cta-homepage-footernavigation-needhelp-linkto-services-en">Services</a></p>
+				<p><a href="https://forums.malwarebytes.org/" id="cta-homepage-footernavigation-needhelp-linkto-forums-en">Forums</a></p>
+				<p><a href="/support/releasehistory/" id="cta-homepage-footernavigation-needhelp-linkto-releasehistory-en">Release history</a></p>
+				<p><a href="/support/guides/" id="cta-homepage-footernavigation-needhelp-linkto-userguides-en">User Guides</a></p>
+			</div>
+			<div class="col-md-2 col-sm-2 hidden-xs">
+				<p class="text-uppercase">Labs</p>
+				<p><a href="https://blog.malwarebytes.com/" id="cta-homepage-footernavigation-labs-linkto-blog-en">Blog</a></p>
+				<p><a href="https://blog.malwarebytes.com/threats/" id="cta-homepage-footernavigation-labs-linkto-threats-en">Threats</a></p>
+				<p><a href="https://blog.malwarebytes.com/authors/" id="cta-homepage-footernavigation-labs-linkto-contributors-en">Contributors</a></p>
+				<p><a href="https://blog.malwarebytes.com/glossary/" id="cta-homepage-footernavigation-labs-linkto-glossary-en">Glossary</a></p>
+			</div>
+
+			<!--Newsletter / contact -->
+			<div class="col-md-push-1 col-md-5 col-sm-4 col-xs-12">
+				<p class="text-uppercase">Contact<br><br>
+					<span class="text-normalcase">
+						Malwarebytes<br>
+						3979 Freedom Circle, 12th Floor<br>
+						Santa Clara, CA 95054</span>
+				</p>
+				<p class="text-uppercase">Follow us</p>
+					<div class="row soc-icon">
+					 <div class="col-xs-2"><a id="cta-homepage-footer-social-facebook-en" class="social socicon-facebook" href="https://www.facebook.com/Malwarebytes/"></a></div>
+					 <div class="col-xs-2"><a id="cta-homepage-footer-social-twitter-en" class="social socicon-twitter" href="https://twitter.com/malwarebytes"></a></div>
+					 <div class="col-xs-2"><a id="cta-homepage-footer-social-youtube-en" class="social socicon-youtube" href="https://www.youtube.com/user/Malwarebytes"></a></div>
+					 <div class="col-xs-2"><a id="cta-homepage-footer-social-linkedin-en" class="social socicon-linkedin" href="https://www.linkedin.com/company/malwarebytes"></a></div>
+					 <div class="col-xs-2"><a id="cta-homepage-footer-social-googleplus-en" class="social socicon-googleplus" href="https://plus.google.com/+malwarebytes"></a></div>
+					 <div class="col-xs-2"><a id="cta-homepage-footer-social-instagram-en" class="social socicon-instagram" href="https://www.instagram.com/malwarebytesofficial/"></a></div>
+          </div>
+				
+				<ul class="list-inline">
+					<li><a class="legal" href="/eula/" id="cta-homepage-footernavigation-linkto-eula-en">EULA</a></li>
+					<li><a class="legal" href="/privacy/" id="cta-homepage-footernavigation-linkto-privacy-en">Privacy</a></li>
+					<li><a class="legal" href="/tos/" id="cta-homepage-footernavigation-linkto-tos-en">Terms of Service</a></li>
+					<li>© 2017 Malwarebytes</li>
+				</ul>
+				<p>Language: <a href="#" class="language-select" id="cta-homepage-footernavigation-linkto-languageselect-en">English</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- language select overlay -->
+<section id="overlay-lang" class="text-center text-white" style="overflow-y: scroll;">
+  <div class="container">
+    <div class="row center-row">
+      <div class="col-md-10">
+     
+        <p class="h2">Select your language</p>
+      </div>
+    </div>
+    <div class="row center-row">
+      <div class="col-md-5">
+        <div class="text-center">
+          <ul class="list-unstyled">
+              <li><a href="https://de.malwarebytes.com" class="de-site" id="cta-homepage-footernavigation-linkto-de_site-en">Deutsch </a>
+              </li>
+              <li><a href="https://es.malwarebytes.com" class="es-site" id="cta-homepage-footernavigation-linkto-es_site-en">Español </a>
+              </li>
+              <li><a href="https://fr.malwarebytes.com" class="fr-site" id="cta-homepage-footernavigation-linkto-fr_site-en">Français </a>
+              </li>
+              <li><a href="https://it.malwarebytes.com" class="it-site" id="cta-homepage-footernavigation-linkto-it_site-en">Italiano </a>
+              </li>
+              <li><a href="https://pt.malwarebytes.com" class="pt-site" id="cta-homepage-footernavigation-linkto-pt_site-en">Português (Portugal)</a>
+              </li>
+              <li><a href="https://br.malwarebytes.com" class="br-site" id="cta-homepage-footernavigation-linkto-br_site-en">Português (Brazil)</a>
+              </li>
+              <li><a href="https://nl.malwarebytes.com" class="nl-site" id="cta-homepage-footernavigation-linkto-nl_site-en">Nederlands </a>
+              </li>
+              <li><a href="https://pl.malwarebytes.com" class="pl-site" id="cta-homepage-footernavigation-linkto-pl_site-en">Polski</a>
+              </li>
+              <li><a href="https://ru.malwarebytes.com" class="ru-site" id="cta-homepage-footernavigation-linkto-ru_site-en">Pусский </a>
+              </li>
+
+            </ul>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+ <script>
+  overlay('.language-select', '#overlay-lang');
+</script>
+
+</body>
+</html>

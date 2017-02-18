@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<script src="http://bonaventuresoftware.ca/prod/includes/prod/jQuery/jquery-1.11.1.min.js" language="javascript"></script>
+	<script language="javascript">var loadCounter=0;function loadScripts(){if(typeof($)=="function"){$(document).ready(function(){$(".quickLink").mouseover(function(){$(this).addClass("highlightedLink");});$(".quickLink").mouseout(function(){$(this).removeClass("highlightedLink");});$(".quickLink").click(function(){var pageUrl=$(this).attr("id")+".php";$(".quickLink").each(function(){$(this).removeClass("selectedLink");});$(this).addClass("selectedLink");$.ajax({url:pageUrl,type:"POST",dataType:"html",success:function(data){$("#contentBlock").html("");$("#contentBlock").html(data);},error:function(){}});});});}else{if(loadCounter<=20){setTimeout("loadScripts();",500);loadCounter++;}else{alert("Error:  Not all script libraries could be loaded.  Please check your internet connection.");}}return;}</script>
+	<link href="http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|IM+Fell+Great+Primer:400,400italic" rel="stylesheet" type="text/css"/>
+	<style>body{margin:20px;background-color:#fff}#wrapper{min-height:100%}#headerBlock{display:block}#masthead{display:inline;float:left}#banner{margin-left:10px;font-family:"IM Fell Great Primer SC",serif;font-size:36pt}#tagline{margin-left:15px;margin-bottom:10px;font-family:'IM Fell Great Primer',serif;font-style:italic;font-size:12pt}#quickLinks{display:block;font-family:"IM Fell Great Primer SC",serif;font-size:14pt}.quickLink{display:inline;padding-left:10px;padding-right:10px;padding-top:0;padding-bottom:5px;text-align:justify;cursor:pointer}.highlightedLink{color:red;cursor:pointer}.selectedLink{color:red;text-decoration:underline}#contentBlock{display:block;width:inherit;padding-left:10px;padding-right:10px;font-family:'IM Fell Great Primer',serif;font-size:14pt}#footerBlock{display:block;width:inherit;font-family:'IM Fell Great Primer',serif}#footer{padding-top:10px;padding-left:10px;padding-right:10px}.divider{display:block;clear:both;margin:0;padding:0}.sectionHeader{display:block;margin-top:10px;font-family:"IM Fell Great Primer SC",serif;font-size:20pt;color:red}.footnote{display:block;margin-top:10px;margin-bottom:10px;font-family:"IM Fell Great Primer",serif}p{margin-top:10px;margin-left:0;text-align:justify;font-size:14pt}p::first-letter{font-size:20pt;// font-weight:bold;// color:#FF0000}ul{margin-left:0;padding-left:10px;font-family:"IM Fell Great Primer",serif}ul li{list-style-position:inside;// list-style-image:url(images/zeimusu_Swash_ornament.png);list-style-type:none}ol{//list-style-type:upper-roman;font-family:"IM Fell Great Primer",serif}ol li{margin-left:10px;padding-left:10px}a{color:red;text-decoration:underline}</style>
+</head>
+<body onload="loadScripts();">
+	<!--  wrapper  -->
+	<div id="wrapper">
+		<!--  header  -->
+		<div id="headerBlock">
+			<div id="masthead">
+				<span style="display:inline;float:left;"><script data-pagespeed-no-defer>(function(){var g=this;function h(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};function l(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};function m(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n;function p(b,d,a,c,e){this.h=b;this.j=d;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=c;this.b={};this.a=[];this.c={}}function q(b,d){var a,c,e=d.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&c<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});function r(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(t())),131072>=a.length+e.length&&(a+=e),d=!0);u=a;if(d){c=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(v){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function t(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var u="";h("pagespeed.CriticalImages.getBeaconData",function(){return u});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon','http://www.bonaventuresoftware.ca/prod/start.php','0Qb2ue28Tx',true,false,'ggMhNI-80So');</script><img src="images/88x72xbonasoft-notextnoborder.gif.pagespeed.ic.c8lpmYE87n.png" height="72px" width="88px" data-pagespeed-url-hash="322506909" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></span>
+				<span style="display:inline;float:left;">
+					<div id="banner">Bonaventure Software</div>
+					<div id="tagline">Custom software and database development for small- and medium-sized businesses</div>
+				</span>
+			</div>
+			
+			<hr class="divider"/>
+			<hr class="divider"/>
+			
+			<div id="quickLinks">
+				<span id="about" class="quickLink selectedLink">About</span>
+				<span> | <span>
+				<span id="projects" class="quickLink">Projects</span>
+				<span> | <span>
+				<span id="process" class="quickLink">Process</span>
+				<span> | </span>
+				<span id="contact" class="quickLink">Contact</span>
+				<span> | <span>
+				<span id="privacy" class="quickLink">Privacy</span>
+				<!--<span> | <span>
+				<span id="ask" class="quickLink">Q &amp; A</span>-->
+				<span> | <span>
+				<span id="blog" class="quickLink">Blog</span>
+			</div>
+			
+			<hr class="divider"/>
+			<hr class="divider"/>
+		</div>
+			
+		<!--  content (will be dynamically loaded)  -->
+		<div id="contentBlock">
+<div class="sectionHeader">About Bonaventure Software</div>
+
+<div>
+	<p>Bonaventure Software was founded in January 2012, shortly after two Wisconsinites, one cat, and six finches trekked halfway across a continent to set up housekeeping in Grande-Digue, New Brunswick.  The company's name was inspired the many friends &amp; family who used the term &ldquo;adventure&rdquo; when wishing us luck with the big move.  Later, I looked up &ldquo;Bonaventure,&rdquo; &amp; learned that it actually means &ldquo;good fortune,&rdquo; not &ldquo;good adventure.&rdquo;  (Oops.)  But then I realised that it applied just as well ~ if not more so.  (And a company was born.)</p>  
+</div>
+
+<div>
+	<p>Communication <b>matters</b>.  I wrote my first line of code at the age of twelve, but communication skills are the bedrock of my software career.  In the last fifteen years, that career has included stints as Software Developer, Technical Writer, I/T Manager, &amp; Project Lead.  Yet, to me, those different roles are just facets of the same job ~ namely, bridging the gap between computers and the real problems they solve for real people in the real world.  (Oh, and preferably on-schedule and on-budget, too.)</p>
+</div>
+
+<div>
+	<p>If software can help your business trim waste or generate more revenue, and you can't buy it off the shelf, <span style="text-decoration:underline;color:#FF0000;cursor:pointer;" onclick="$('#contact').click();">let's talk</span>.  Here's what I can guarantee you:</p>
+	
+	<ul>
+		<li>&#9758; Plain-English explanations of technical jargon ~ not &ldquo;alphabet soup&rdquo;</li>
+		<li>&#9758; Features tied to specific business goals ~ not technology for its own sake</li>
+		<li>&#9758; Clear, detailed cost &amp; schedule estimates up front ~ no surprises</li>
+		<li>&#9758; Regularly scheduled status reports &amp; meetings ~ no &ldquo;black box&rdquo; process</li>
+	</ul>
+</div>
+		</div>
+		
+		<!--  footer   -->
+		<div id="footerBlock">
+			<hr class="divider"/>
+			<hr class="divider"/>
+		
+			<div id="footer">
+				<div style="font-style:italic;">G R A N D E - D I G U E, &nbsp;&nbsp; N E W  &nbsp; B R U N S W I C K</div>
+				<div>Copyright 2012 - 2017, Bonaventure Software</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

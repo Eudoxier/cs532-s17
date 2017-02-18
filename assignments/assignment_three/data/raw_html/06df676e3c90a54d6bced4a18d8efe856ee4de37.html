@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/build/css/app-7c8abbd2ad.css" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="csrf-token" content="q065bNkk8DTQrpnSKVPUPuDIvNp3AMyZA9zxJIXg">
+
+    <title>UMG Gaming</title>
+
+    <meta name="keywords" content="UMG, UMGO, UMG Online, UMG Gaming, Cash Out Matches, eSports, UMG Prime">
+    <meta name="description" content="UMG - Play competitively on Xbox One, Xbox 360 &amp; PlayStation 4 ladders tournaments &amp; cash out matches for your chance to win thousands in cash prizes.">
+
+    <meta property="og:title" content="UMG Online" />
+    <meta property="og:site_name" content="UMG Online">
+    <meta property="og:description" content="UMG - Play competitively on Xbox One, Xbox 360 &amp; PlayStation 4 ladders tournaments &amp; cash out matches for your chance to win thousands in cash prizes." />
+    <meta property="og:site_name" content="UMG Online">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@UMGOnline">
+    <meta name="twitter:title" content="UMG Online - Ladders &amp; Tournaments">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image:src" content="">
+    <meta name="twitter:description" content="UMG Online - Xbox 360, Xbox One, PS3, PS4 tournaments and ladders. Compete for a chance to win thousands in cash prizes.">
+    <meta name="twitter:domain" content="http://www.umggaming.com/">
+
+    
+    
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://umggaming.com/img/icons/apple-touch-icon-57x57-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://umggaming.com/img/icons/apple-touch-icon-114x114-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://umggaming.com/img/icons/apple-touch-icon-72x72-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://umggaming.com/img/icons/apple-touch-icon-144x144-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://umggaming.com/img/icons/apple-touch-icon-60x60-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://umggaming.com/img/icons/apple-touch-icon-120x120-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://umggaming.com/img/icons/apple-touch-icon-76x76-min.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://umggaming.com/img/icons/apple-touch-icon-152x152-min.png" />
+    <link rel="icon" type="image/png" href="https://umggaming.com/img/icons/favicon-196x196-min.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="https://umggaming.com/img/icons/favicon-96x96-min.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://umggaming.com/img/icons/favicon-32x32-min.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://umggaming.com/img/icons/favicon-16x16-min.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://umggaming.com/img/icons/favicon-128-min.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="https://umggaming.com/img/icons/mstile-144x144-min.png" />
+    <meta name="msapplication-square70x70logo" content="https://umggaming.com/img/icons/mstile-70x70-min.png" />
+    <meta name="msapplication-square150x150logo" content="https://umggaming.com/img/icons/mstile-150x150-min.png" />
+    <meta name="msapplication-wide310x150logo" content="https://umggaming.com/img/icons/mstile-310x150-min.png" />
+    <meta name="msapplication-square310x310logo" content="https://umggaming.com/img/icons/stile-310x310-min.png" />
+
+    <script src="https://umggaming.com/js/modernizr-2.8.3.min.js"></script>
+
+    <script type='application/ld+json'>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "WebSite",
+      "name": "UMG Gaming",
+      "url": "https://umggaming.com"
+    }
+    </script>
+
+    
+</head>
+<body id="app-layout site-umggaming">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+  <!--Top Quick Info-->
+    <div class="container">
+      <div class="navbar-header">
+
+        <a class="navbar-brand" href="https://umggaming.com">UMG Gaming</a>
+
+        <ul class="nav navbar-nav main-nav hidden-md hidden-lg pull-left">
+          <li class="dropdown">
+            <a href="#" data-submenu="" data-toggle="dropdown" tabindex="0" aria-expanded="false">Play <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a href="#" tabindex="0">Platforms</a>
+                <ul class="dropdown-menu dropdown-sub">
+                                    <li><a href="/platforms/xbox-one" tabindex="0">Xbox One</a></li>
+                                    <li><a href="/platforms/ps4" tabindex="0">Playstation 4</a></li>
+                                    <li><a href="/platforms/steam" tabindex="0">Steam</a></li>
+                                    <li><a href="/platforms/mobile" tabindex="0">Mobile</a></li>
+                                  </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#" tabindex="0">Tournaments</a>
+                <ul class="dropdown-menu dropdown-sub">
+                                    <li><a href="/tournaments/platform/xbox-one" tabindex="0">Xbox One</a></li>
+                                    <li><a href="/tournaments/platform/ps4" tabindex="0">Playstation 4</a></li>
+                                    <li><a href="/tournaments/platform/steam" tabindex="0">Steam</a></li>
+                                    <li><a href="/tournaments/platform/mobile" tabindex="0">Mobile</a></li>
+                                  </ul>
+              </li>
+
+              <li >
+                <a href="https://umggaming.com/games">Find Your Game</a>
+              </li>
+            </ul><!--End Subnav-->
+          </li>
+        </ul>
+
+        <ul class="nav navbar-nav main-nav pull-center hidden-xs hidden-sm" id="mainly">
+
+          <li class="dropdown">
+            <a href="#" data-submenu="" data-toggle="dropdown" tabindex="0" aria-expanded="false">Play <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a href="#" tabindex="0">Platforms</a>
+                <ul class="dropdown-menu dropdown-sub">
+                                    <li><a href="/platforms/xbox-one" tabindex="0">Xbox One</a></li>
+                                    <li><a href="/platforms/ps4" tabindex="0">Playstation 4</a></li>
+                                    <li><a href="/platforms/steam" tabindex="0">Steam</a></li>
+                                    <li><a href="/platforms/mobile" tabindex="0">Mobile</a></li>
+                                  </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#" tabindex="0">Tournaments</a>
+                <ul class="dropdown-menu dropdown-sub">
+                 <li><a href="/tournaments/" tabindex="0">All</a></li>
+                                    <li><a href="/tournaments/platform/xbox-one" tabindex="0">Xbox One</a></li>
+                                    <li><a href="/tournaments/platform/ps4" tabindex="0">Playstation 4</a></li>
+                                    <li><a href="/tournaments/platform/steam" tabindex="0">Steam</a></li>
+                                    <li><a href="/tournaments/platform/mobile" tabindex="0">Mobile</a></li>
+                                  </ul>
+              </li>
+              <li >
+                <a href="/games">Find Your Game</a>
+              </li>
+            </ul><!--End Subnav-->
+          </li>
+          <li><a href="https://umggaming.com/matchfinder">Matchfinder</a></li>
+          <li><a href="https://umggaming.com/leaderboards">Leaderboards</a></li>
+
+          <li class="dropdown">
+            <a href="#" data-submenu="" data-toggle="dropdown" tabindex="0" aria-expanded="false">Support <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="https://umggaming.com/support/ticket" tabindex="0">Tickets</a>
+              </li>
+              <li><a href="https://umggaming.com/support/faq" tabindex="1">FAQ</a></li>
+              <!--<li><a href="https://umggaming.com/support/management" tabindex="2">Management</a></li>-->
+            </ul><!--End Subnav-->
+          </li>
+
+          <li><a href="http://events.umggaming.com" target="_blank">Events</a></li>
+          <!--<li><a href="http://forum.umggaming.com">Forum</a></li>-->
+          <li><a href="https://umggaming.com/shop">Shop</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav pull-right">
+                  <li>
+            <a href="https://umggaming.com/cart">
+              <i class="fa fa-shopping-cart fa-lg gray"></i>
+                          </a>
+          </li>
+
+                         <li class="black-bg"><a href="#" data-toggle="modal" data-target="#login-modal"><i class="fa fa-user fa-lg gray"></i>&nbsp;&nbsp;Log In</a></li>
+          
+
+          <li><a id="nav-expander" class="nav-expander" href="#"><span class="icon"></span></a></li>
+        </ul>
+
+      </div>
+
+
+      <!--Mobile nav-->
+      <nav>
+        <ul class="list-unstyled mobile-nav">
+          <li class="text-right"><a id="nav-close" href="#"><i class="umg umg-close"></i></a></li>
+        </ul>
+
+        <ul class="list-unstyled mobile-nav">
+            <li><a href="https://umggaming.com/prime"><span class="h3">Go Prime</span></a></li>
+            <li><hr></li>
+        </ul>
+
+        <ul class="list-unstyled mobile-nav hidden-md hidden-lg">
+          <li><a href="https://umggaming.com/games">Play</a></li>
+          <li><a href="https://umggaming.com/matchfinder">Matchfinder</a></li>
+          <li><a href="https://umggaming.com/leaderboards">Leaderboards</a></li>
+          <li><a href="https://umggaming.com/support/ticket">Support</a></li>
+          <li><a href="http://events.umggaming.com/" target="_blank">Events</a></li>
+          <li><a href="https://umggaming.com/shop">Shop</a></li>
+        </ul>
+
+        <ul class="list-unstyled mobile-nav">
+          <li class="dropdown-header">Company Links</li>
+          <li><a href="https://umggaming.com/about">About</a></li>
+          <!--<li><a href="https://umggaming.com/news">News</a></li>-->
+          <!--<li><a href="https://umggaming.com/support/management">Management</a></li>-->
+          <li><a href="https://umggaming.com/join-us">Join Us</a></li>
+          <li><a href="https://umggaming.com/sponsors">Sponsors</a></li>
+          <!--<li><a href="https://umggaming.com/advertise">Advertise</a></li>-->
+          <li><a href="https://umggaming.com/contact">Contact</a></li>
+          <li><a href="https://umggaming.com/support/faq">FAQ</a></li>
+          <li><a href="http://events.umggaming.com" target="_blank">Events</a></li>
+          <!--<li><a href="http://forum.umggaming.com">Forum</a></li>-->
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+<!--Login Modal-->
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+    <div class="modal-dialog">
+      <div class="modal-content black-bg">
+          <div class="purple-overlay"></div>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-header text-center">
+        </div>
+        <div id="account-access" class="modal-body">
+
+          <h4 class="modal-title text-center" id="myModalLabel1">Log In</h4><br>
+
+          <!--<div class="text-center">
+              <a class="btn btn-lg btn-blue margin-20">Log in with Facebook</a>
+              <a class="btn btn-lg btn-blue margin-20">Log in with Twitter</a>
+          </div>-->
+
+          <form method="POST" action="https://umggaming.com/login" id="account-access-form" class="form-horizontal">
+            <div class="form-group">
+              <input type="text" class="form-control" name="login" id="login" placeholder="Enter Email or Username">
+                          </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
+                          </div>
+            <div class="form-group">
+              <input type="text" class="form-control" pattern="[0-9]*" name="pin" id="pin" placeholder="Pin Number">
+                          </div>
+            <div class="form-group">
+              <div class="checkbox checkbox-slider--b-flat checkbox-slider-md">
+                <label>
+                  <input type="checkbox" name="remember"><span>Remember Me</span>
+                </label>
+              </div>
+            </div>
+            <br>
+            <div class="text-center">
+              <p style="font-size:12px;">By clicking below, you accept to our <a href="https://umggaming.com/terms" style="font-size:12px;" class="link-italic">Terms of Use</a> and <a style="font-size:12px;" href="https://umggaming.com/privacy" class="link-italic">Privacy Policy</a>.</p>
+              <button type="submit" class="btn btn-lg btn-blue margin-20">Log In</button>
+              <p>Don't have an account? <a href="https://umggaming.com/register" class="link-italic">Sign up</a>.<br>
+              <a href="https://umggaming.com/password/reset" class="link-italic">Forgot Password?</a> &nbsp; <a href="https://umggaming.com/pin/reset" class="link-italic">Forgot Pin?</a></p><br>
+            </div>
+            <input type="hidden" name="_token" value="q065bNkk8DTQrpnSKVPUPuDIvNp3AMyZA9zxJIXg">
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div><!--End Modal-->
+    <!--Header-->
+	<section class="black-bg">
+		  <!--Header Image with opacity-->
+		  <div class="page-header-image" style="background: url('/img/Slider12.jpg') no-repeat center center / cover; opacity: 0.4;"></div>
+
+		  <!--Gradient Overlay-->
+		  <div class="page-header-overlay"></div>
+
+		  <!--Header Content-->
+		  <div class="page-header-content">
+		  	<div class="container">
+			    <div class="row">
+				    <div class="col-sm-12">
+				    	<div class="page-header-title">
+					    						    						    						    						    					      	</div>
+		        	</div>
+			    </div>
+		    </div>
+		</div><!--End Header Content-->
+	</section><!--Header-->
+
+    
+<section class="padding-30">
+  	<div class="container">
+  		<div class="row">
+  			<div class="pageContent col-sm-12">
+  				<h1 class="black">Ooooops.</h1>
+
+  				<h3 class="black">The resource you were looking for was not found.</h3>
+  			</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!--Footer-->
+  <footer class="black-bg">
+  	<div class="container">
+
+  		<div class="row">
+  			<!--Footer Navigation-->
+  			<div class="col-sm-8">
+					<img class="footer-nav-logo margin-20" width="157" height="10" src="https://umggaming.com/img/umg-logo-line.svg" alt="UMG Logo"><br />
+
+  				<ul class="list-unstyled footer-nav col-md-2 col-sm-3 col-xs-4">
+  					<li><a href="https://umggaming.com/games">Games</a></li>
+	  				<li><a href="https://umggaming.com/platforms">Platforms</a></li>
+            <li><a href="https://umggaming.com/matchfinder">Matchfinder</a></li>
+	  				<li><a href="https://umggaming.com/tournaments">Tournaments</a></li>
+	  				<li><a href="https://umggaming.com/leaderboards">Leaderboards</a></li>
+	  				<li><a href="http://events.umggaming.com" target="_blank">Events</a></li>
+  				</ul>
+
+  				<ul class="list-unstyled footer-nav col-md-2 col-sm-3 col-xs-4">
+            <li><a href="https://umggaming.com/about">About</a></li>
+            <!--<li><a href="https://umggaming.com/news">News</a></li>-->
+            <!--<li><a href="https://umggaming.com/support/management">Management</a></li>-->
+            <li><a href="https://umggaming.com/join-us">Join Us</a></li>
+            <li><a href="https://umggaming.com/sponsors">Sponsors</a></li>
+            <!--<li><a href="https://umggaming.com/advertise">Advertise</a></li>-->
+            <li><a href="https://umggaming.com/contact">Contact</a></li>
+            <li><a href="https://umggaming.com/support/faq">FAQ</a></li>
+  				</ul>
+
+  				<ul class="list-unstyled footer-nav col-md-2 col-sm-3 col-xs-4">
+  					<li><a href="https://umggaming.com/shop">Shop</a></li>
+	  				<li><a href="https://umggaming.com/prime">Go Prime</a></li>
+  				</ul>
+
+  			</div><!--End Footer Navigation-->
+
+  			<!--Social Media Link-->
+  			<div class="col-sm-4 col-xs-12 margin-30 footer-socialmedia">
+  				<ul class="list-inline">
+  					<li><a href="http://instagram.com/UMGOfficial" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
+  					<li><a href="http://www.twitter.com/UMGEvents" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+  					<li><a href="http://www.facebook.com/UMGEvents" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+  					<li><a href="http://www.youtube.com/UMGEvents" target="_blank"><i class="fa fa-youtube-play fa-lg"></i></a></li>
+  				</ul>
+  			</div><!--End Social Media Links-->
+  		</div>
+
+  		<div class="row text-center">
+  			<div class="col-sm-12">
+  				<img height="80" width="80" class="footer-logo" src="https://umggaming.com/img/umg-footer-logo.svg" alt="UMG Logo">
+  				<p><small>&copy; 2017 UMG Events, LLC &nbsp;-&nbsp; <a href="https://umggaming.com/terms">Terms of Service</a> &nbsp;-&nbsp; <a href="https://umggaming.com/privacy">Privacy Policy</a></small></p>
+  			</div>
+  		</div>
+
+  	</div>
+  </footer><!--End Footer-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  
+    <script src="//use.fontawesome.com/953a5af37e.js"></script>
+
+    
+    <script src="/build/js/all-ef167242f6.js"></script>
+
+    <script>
+              $.toast({
+                text: "<p><b>Effective 7PM EST, 2/13/2017 | Call of Duty: Modern Warfare&nbsp;Remastered&nbsp;</b></p><p>Effective at 7PM EST, the use of DLC weapons in any UMGO Variant match will result in a forfeit of the map for the team that used it. All DLC weapons are restricted and cannot be used.&nbsp;<b><br></b></p>",
+                heading: "UMGO Ruleset Update",
+                showHideTransition: 'slide',
+                allowToastClose: true,
+                hideAfter: false,
+                stack: 5,
+                position: 'bottom-left',
+                bgColor: '#4848e2',
+                textColor: '#ffffff',
+                textAlign: 'left',
+                loader: true,
+                loaderBg: '#ffffff',
+                afterHidden: function () {
+
+                    var csrf = "q065bNkk8DTQrpnSKVPUPuDIvNp3AMyZA9zxJIXg";
+                    var url  = "https://umggaming.com/system/notification/2/close";
+
+                    post = { _token: csrf };
+
+                    request = $.post(url, post, function(data){
+                        //
+                    }, "json");
+
+                }
+            });
+        </script>
+                    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46595000-1');
+      ga('send', 'pageview');
+    </script>
+
+          <script>
+        if ($("#cdm-zone-01, #cdm-zone-02, #cdm-zone-03, #cdm-zone-04, #cdm-zone-05, #cdm-zone-06, #cdm-zone-skin").length > 0) {
+          var script = document.createElement('script');
+          var tstamp = new Date();
+          script.id = 'factorem';
+          script.src = '//cdm.cursecdn.com/js/umggaming/cdmfactorem_min.js?misc=' + tstamp.getTime();
+          script.async = false;
+          script.type='text/javascript';
+          document.head.appendChild(script);
+        }
+      </script>
+        <div id='cdm-zone-end'></div>
+
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"8aef24b217","applicationID":"10236891","transactionName":"Z1RWZxYEXURZBhUMWl4eYUENSlpZXAAZS0VYQQ==","queueTime":0,"applicationTime":62,"atts":"SxNVEV4eTko=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

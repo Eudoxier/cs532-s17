@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://firstmkts.com/xmlrpc.php">
+
+<title>First Markets &#8211; A blog by Petr Pinkhasov: Quantitative and qualitative look at the markets.</title>
+<script type="text/javascript">
+  WebFontConfig = {"google":{"families":["Open+Sans:r:latin,latin-ext","Merriweather+Sans:r,i,b,bi:latin,latin-ext"]}};
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://s1.wp.com/wp-content/plugins/custom-fonts/js/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+	})();
+</script><style id="jetpack-custom-fonts-css">.wf-active code, .wf-active kbd, .wf-active pre, .wf-active samp{font-family:"Merriweather Sans",sans-serif}.wf-active body, .wf-active button, .wf-active input, .wf-active select, .wf-active textarea{font-family:"Merriweather Sans",sans-serif}.wf-active blockquote cite{font-family:"Merriweather Sans",sans-serif}.wf-active pre{font-family:"Merriweather Sans",sans-serif}.wf-active code, .wf-active kbd, .wf-active tt, .wf-active var{font-family:"Merriweather Sans",sans-serif}.wf-active button, .wf-active input[type="button"], .wf-active input[type="reset"], .wf-active input[type="submit"]{font-family:"Merriweather Sans",sans-serif}.wf-active .main-navigation ul ul{font-family:"Merriweather Sans",sans-serif}.wf-active .widget_calendar caption{font-family:"Merriweather Sans",sans-serif}.wf-active .widget_goodreads div[class^="gr_custom_author"]{font-family:"Merriweather Sans",sans-serif}.wf-active .widget_rss .rss-date{font-family:"Merriweather Sans",sans-serif}.wf-active .contact-form label{font-family:"Merriweather Sans",sans-serif}.wf-active .post-password-form label{font-family:"Merriweather Sans",sans-serif}.wf-active .featured-post{font-family:"Merriweather Sans",sans-serif}.wf-active .entry-footer span, .wf-active .entry-meta span, .wf-active .post-format-label{font-family:"Merriweather Sans",sans-serif}.wf-active .entry-meta a:not(.post-edit-link){font-family:"Merriweather Sans",sans-serif}.wf-active .nav-links .nav-subtitle{font-family:"Merriweather Sans",sans-serif}.wf-active .page-links .page-links-title{font-family:"Merriweather Sans",sans-serif}.wf-active .archive .format-quote .post-format-label a, .wf-active .blog .format-quote .post-format-label a, .wf-active .single .format-quote .post-format-label a{font-family:"Merriweather Sans",sans-serif}.wf-active .archive .format-status .post-format-label a, .wf-active .blog .format-status .post-format-label a, .wf-active .single .format-status .post-format-label a{font-family:"Merriweather Sans",sans-serif}.wf-active .comment-form label{font-family:"Merriweather Sans",sans-serif}.wf-active .comment-metadata .edit-link, .wf-active .pingback .edit-link{font-family:"Merriweather Sans",sans-serif}.wf-active .comment-navigation .nav-links a, .wf-active .comment-respond #reply-title small, .wf-active .reply a{font-family:"Merriweather Sans",sans-serif}.wf-active #infinite-handle span button, .wf-active #infinite-handle span button:focus, .wf-active #infinite-handle span button:hover, .wf-active .posts-navigation .nav-next a, .wf-active .posts-navigation .nav-previous a{font-family:"Merriweather Sans",sans-serif}.wf-active h1, .wf-active h2, .wf-active h3, .wf-active h4, .wf-active h5, .wf-active h6{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}.wf-active h1{font-style:normal;font-weight:400}.wf-active h2{font-style:normal;font-weight:400}.wf-active h3{font-style:normal;font-weight:400}.wf-active h4{font-weight:400;font-style:normal}.wf-active h5{font-weight:400;font-style:normal}.wf-active h6{font-weight:400;font-style:normal}.wf-active .widget h1{font-style:normal;font-weight:400}.wf-active .widget h2{font-style:normal;font-weight:400}.wf-active .widget h3{font-style:normal;font-weight:400}.wf-active .widget h4{font-weight:400;font-style:normal}.wf-active .widget h5{font-weight:400;font-style:normal}.wf-active .widget h6{font-weight:400;font-style:normal}.wf-active .site-title{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}@media screen and (max-width: 680px){.wf-active .site-title{font-style:normal;font-weight:400}}.wf-active .slideshow .slide-info .slide-title{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}@media screen and (max-width: 680px){.wf-active .slideshow .slide-info .slide-title{font-style:normal;font-weight:400}}.wf-active #tagline p{font-family:"Open Sans",sans-serif;font-weight:400;font-style:normal}@media screen and (max-width: 680px){.wf-active #tagline p{font-style:normal;font-weight:400}}.wf-active #featured-post-trio article h2{font-style:normal;font-weight:400}.wf-active .entry-title{font-style:normal;font-weight:400}@media screen and (max-width: 680px){.wf-active .entry-title{font-style:normal;font-weight:400}}.wf-active .archive .format-aside .entry-title, .wf-active .archive .format-audio .entry-title, .wf-active .archive .format-image .entry-title, .wf-active .archive .format-link .entry-title, .wf-active .blog .format-aside .entry-title, .wf-active .blog .format-audio .entry-title, .wf-active .blog .format-image .entry-title, .wf-active .blog .format-link .entry-title{font-weight:400;font-style:normal}.wf-active .archive .format-link .entry-title a:after, .wf-active .blog .format-link .entry-title a:after{font-style:normal;font-weight:400}.wf-active .archive .format-quote .entry-title, .wf-active .blog .format-quote .entry-title, .wf-active .single .format-quote .entry-title{font-style:normal;font-weight:400}.wf-active .archive .format-status .entry-title, .wf-active .blog .format-status .entry-title, .wf-active .single .format-status .entry-title{font-style:normal;font-weight:400}.wf-active .page-title{font-weight:400;font-style:normal}.wf-active .comments-title{font-style:normal;font-weight:400}.wf-active #page .sharedaddy .sd-title, .wf-active #page div#jp-relatedposts h3.jp-relatedposts-headline, .wf-active #page .sd-rating .sd-title{font-style:normal;font-weight:400}.wf-active .jp-relatedposts-post-title{font-style:normal;font-weight:400}</style>
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=firstmkts.com&amp;id=122167873&amp;t=1487457417&amp;back=https%3A%2F%2Ffirstmkts.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//firstmkts.wordpress.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="First Markets &raquo; Feed" href="https://firstmkts.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="First Markets &raquo; Comments Feed" href="https://firstmkts.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s1.wp.com/_static/??-eJx9j9EOgjAMRX/IWVBifDF+C8wqhXVbaBfC3zsk+qBmL829zbnpLczR2OAVvQInE116kBeYow1shMnh8uX2VmQH/2OORhQYUGNrR/NyJZz8nTzp8hEl2IYJ855jqyvBeKMWHXLGSjGOp3dqlX0uVuy0/dp1cUIRkydTYqN9PvSb29YQUwca0hDSJCC6OFzJK1/q5nysmqquD8MTHAKHXw==' type='text/css' media='all' />
+<link rel='stylesheet' id='toujours-fonts-css'  href='https://fonts.googleapis.com/css?family=Alegreya+Sans%3A300%2C500%2C300italic%2C500italic%7CMerriweather%3A700italic%2C400%2C400italic%2C700%2C600&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s2.wp.com/_static/??-eJx9jtEKwjAMRX/IGnRD9iJ+y1ZizWiT0qQM/96JCFVxb+eSnNzAkp0XNmSDVF2ONRArBGQstA7+4N6r7qBx7YYJFXKdwKTOUosCsQe1e0S3ZC/px2n6VDyN0SXk2rL7biRgsdczb9g6G1BcFD8aCX8Ed40jlS214BQlrBhg3WriU7qk86Ef+mPXDf1pfgCjSXnD' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4-1' href='https://s0.wp.com/_static/??/wp-content/mu-plugins/actionbar/actionbar.css,/wp-content/themes/h4/global.css?m=1485538130j' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyF0G0KwjAMBuAL2dXJxP0Rz1Lr60hdP2zaDT29FSYiVIVAIHkISeQcBDk95hNYmhLXjHhbUmN4JX8BYWmIKqGx5F5Ye5fg0tNaf6QRIjOiGkqtDDr7iguekwVzQZXu50rkJsL8lxmkoPRFRDDdUTuEw3vn7x9Y1MHu267fbfp2263NA675cvs='></script>
+<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://firstmkts.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/8gBrz' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="First Markets" />
+<meta property="og:description" content="A blog by Petr Pinkhasov: Quantitative and qualitative look at the markets." />
+<meta property="og:url" content="https://firstmkts.com/" />
+<meta property="og:site_name" content="First Markets" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://firstmkts.com/osd.xml" title="First Markets" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="First Markets" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="A blog by Petr Pinkhasov: Quantitative and qualitative look at the markets." /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://firstmkts.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="First Markets on WordPress.com" />
+<meta name="description" content="A blog by Petr Pinkhasov: Quantitative and qualitative look at the markets." />
+	<style type="text/css">
+			.site-title,
+		#tagline {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('https://s0.wp.com/wp-content/themes/pub/toujours/images/toujoursbackground20160105.png'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog custom-background mp6 customizer-styles-applied hfeed has-header-image highlander-enabled highlander-light infinite-scroll">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header" role="banner">
+
+		<div class="wrap">
+			<div class="site-branding">
+										<a href="https://firstmkts.com/">
+							<img src="https://firstmkts.files.wordpress.com/2017/02/cropped-cropped-cropped-1453715164350.jpg" width="1160" height="249" alt="" class="header-image">
+						</a>
+										<h1 class="site-title"><a href="https://firstmkts.com/" rel="home">First Markets</a></h1>
+							</div><!-- .site-branding -->
+
+							<nav id="site-navigation" class="main-navigation" role="navigation">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+					<div class="menu-menu-1-container"><ul id="primary-menu" class="menu"><li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="https://firstmkts.com/about/">About</a></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://firstmkts.com/contact/">Contact</a></li>
+</ul></div>				</nav><!-- #site-navigation -->
+					</div><!-- .wrap -->
+	</header><!-- #masthead -->
+
+	
+				
+					<div id="tagline">
+				<div class="wrap">
+					<p class="site-description">A blog by Petr Pinkhasov: Quantitative and qualitative look at the markets.</p>
+				</div>
+			</div>
+			
+
+					
+
+		<div id="content" class="site-content">
+			<div class="wrap">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+						
+				
+<article id="post-421" class="post-421 post type-post status-publish format-standard has-post-thumbnail hentry category-economics category-federal-reserve category-interest-rates">
+
+			<div class="featured-image">
+			<span>
+				<a href="https://firstmkts.com/2017/02/13/some-thought-on-rates/"><img width="940" height="696" src="https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=940" class="attachment-toujours-featured size-toujours-featured wp-post-image" alt="wall-street-stock-market-crash-1929" srcset="https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=940 940w, https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=150 150w, https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=300 300w, https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=768 768w, https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg 970w" sizes="(max-width: 940px) 100vw, 940px" data-attachment-id="55" data-permalink="https://firstmkts.com/?attachment_id=55" data-orig-file="https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg" data-orig-size="970,718" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="wall-street-stock-market-crash-1929" data-image-description="" data-medium-file="https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=300" data-large-file="https://firstmkts.files.wordpress.com/2017/01/wall-street-stock-market-crash-1929.jpg?w=760" /></a>
+			</span>
+		</div>
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2017/02/13/some-thought-on-rates/" rel="bookmark">Some thought on&nbsp;rates</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2017/02/13/some-thought-on-rates/" rel="bookmark"><time class="entry-date published" datetime="2017-02-13T01:01:01+00:00">February 13, 2017</time><time class="updated" datetime="2017-02-13T01:01:41+00:00">February 13, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2017/02/13/some-thought-on-rates/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p>In light of <a href="https://www.bloomberg.com/news/articles/2017-02-12/america-s-biggest-creditors-dump-treasuries-in-warning-to-trump">this article</a>, I thought it might be good to share some thoughts about what happens to interest rates as the economy gets closer to full employment. I think the conventional thought sequence would be that as jobs fill up:</p>
+<ol>
+<li>Wages increase</li>
+<li>Inflation builds more upside pressure</li>
+<li>Prices rise, dollar gets weaker</li>
+<li>Interest rates rise</li>
+</ol>
+<p>Unfortunately, the article&#8217;s author made more of a point to discredit where we are in an economic cycle standpoint and put the slump in treasury&#8217;s blame onto the current president. Below is a chart of the 30-year yield.</p>
+<figure data-shortcode="caption" id="attachment_422" style="width: 1791px" class="wp-caption alignnone"><img data-attachment-id="422" data-permalink="https://firstmkts.com/2017/02/13/some-thought-on-rates/rates/" data-orig-file="https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=760" data-orig-size="1791,864" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="rates" data-image-description="" data-medium-file="https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=760?w=300" data-large-file="https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=760?w=760" class="alignnone size-full wp-image-422" src="https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=760" alt="rates" srcset="https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=760 760w, https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=1520 1520w, https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=150 150w, https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=300 300w, https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=768 768w, https://firstmkts.files.wordpress.com/2017/02/rates.jpg?w=1024 1024w" sizes="(max-width: 760px) 100vw, 760px"   /><figcaption class="wp-caption-text">US 30-year Treasury Yield</figcaption></figure>
+<p>I think its important to take sentiment and positioning into context when these kind of headlines and articles are written in such a one-dimensional matter. Clearly towards the end of the year, yield generating securities like bonds and utility stocks had significant inflows &#8212; some of which were record setting as the 30-year yield made a new all-time low.</p>
+<p>Below is a chart of YoY change in federal debt holdings vs change in the 30-year yield. It should not come as a surprise that as yields have a sharp rise, ownership comes down. However, this is pretty much the case with any asset. If one were to look at sovereign wealth fund holdings of oil stocks as crude oil dropped 50%, you don&#8217;t have to be a genius to speculate that there would be significant outflows. Clearly, as was with the case of oil dropping an underrepresented amount the last couple of years, a presidential election&#8217;s result which is still coming as a shock to a lot of people, will be setting some outflow/inflow records.</p>
+<p><a href="http://www.forbes.com/sites/marketnewsvideo/2016/06/28/xlu-lbj-big-etf-inflows/#5cf13e703cc0">Here</a> is an article from Forbes showing record inflows into the Utility sector last year.</p>
+<p><img data-attachment-id="454" data-permalink="https://firstmkts.com/2017/02/13/some-thought-on-rates/debt/" data-orig-file="https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=760" data-orig-size="1072,467" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="debt" data-image-description="" data-medium-file="https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=760?w=300" data-large-file="https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=760?w=760" class="alignnone size-full wp-image-454" src="https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=760" alt="debt" srcset="https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=760 760w, https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=150 150w, https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=300 300w, https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=768 768w, https://firstmkts.files.wordpress.com/2017/02/debt.jpg?w=1024 1024w, https://firstmkts.files.wordpress.com/2017/02/debt.jpg 1072w" sizes="(max-width: 760px) 100vw, 760px"   /><img data-attachment-id="433" data-permalink="https://firstmkts.com/2017/02/13/some-thought-on-rates/dollar/" data-orig-file="https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=760" data-orig-size="1168,467" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="dollar" data-image-description="" data-medium-file="https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=760?w=300" data-large-file="https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=760?w=760" class="alignnone size-full wp-image-433" src="https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=760" alt="dollar" srcset="https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=760 760w, https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=150 150w, https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=300 300w, https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=768 768w, https://firstmkts.files.wordpress.com/2017/02/dollar.jpg?w=1024 1024w, https://firstmkts.files.wordpress.com/2017/02/dollar.jpg 1168w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p>I guess my larger point is that I think its intellectually lazy and extremely narrow-sighted for blaming our current president on rising yields. The pieces are set for yields to continue to go higher: crude oil giants in his corner, economy is pretty much at full employment, food price are starting to rise, wages are starting to come up.</p>
+<p>If those sell-side institutions who pitched yield and income generating securities <strong>at the all time low in rates</strong> are now sour about bottom ticking it, grow up.</p>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/economics/" rel="category tag">economics</a>, <a href="https://firstmkts.com/category/federal-reserve/" rel="category tag">federal reserve</a>, <a href="https://firstmkts.com/category/interest-rates/" rel="category tag">interest rates</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-116" class="post-116 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+			<div class="featured-image">
+			<span>
+				<a href="https://firstmkts.com/2017/01/11/ray-dalio-essay/"><img width="940" height="529" src="https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=940" class="attachment-toujours-featured size-toujours-featured wp-post-image" alt="dalio" srcset="https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=940 940w, https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=1880 1880w, https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=150 150w, https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=300 300w, https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=768 768w, https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=1024 1024w" sizes="(max-width: 940px) 100vw, 940px" data-attachment-id="120" data-permalink="https://firstmkts.com/2017/01/11/ray-dalio-essay/dalio/" data-orig-file="https://firstmkts.files.wordpress.com/2017/01/dalio.jpg" data-orig-size="1940,1091" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="dalio" data-image-description="" data-medium-file="https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=300" data-large-file="https://firstmkts.files.wordpress.com/2017/01/dalio.jpg?w=760" /></a>
+			</span>
+		</div>
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2017/01/11/ray-dalio-essay/" rel="bookmark">Ray Dalio Essay</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2017/01/11/ray-dalio-essay/" rel="bookmark"><time class="entry-date published updated" datetime="2017-01-11T05:07:59+00:00">January 11, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2017/01/11/ray-dalio-essay/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p>While we figure out if this information about Trump&#8217;s golden endeavors is true or not, regardless, I think this <a href="https://www.linkedin.com/pulse/fake-distorted-news-epidemic-bridgewaters-recent-experience-ray-dalio">essay</a> from Ray Dalio timely and a great read!</p>
+<blockquote><p>&#8220;If you have a society where people can&#8217;t agree on the basic facts, how do you have a functioning democracy?&#8221; Distorted pictures lead us to make bad decisions. In my opinion, if people don&#8217;t correct such inaccuracies and don&#8217;t fight against this problem, continued distortions in the media will prevent the public&#8217;s accurate understanding of what is happening, which will threaten our society&#8217;s well-being. We in the financial community now openly talk about fake or distorted media being used to manipulate market prices to the harm of many, and similar conversations are taking place in most areas.</p></blockquote>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-141" class="post-141 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2016/03/23/iwm-post-td-13-countdown/" rel="bookmark">IWM Post TD-13&nbsp;Countdown</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2016/03/23/iwm-post-td-13-countdown/" rel="bookmark"><time class="entry-date published" datetime="2016-03-23T13:38:00+00:00">March 23, 2016</time><time class="updated" datetime="2017-02-02T17:01:30+00:00">February 2, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2016/03/23/iwm-post-td-13-countdown/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p>On Monday, March 21st, Small-caps recorded a TD 13 sell countdown. Tuesday had a gap fill day. What is the significance here?</p>
+<div class="separator" style="clear:both;text-align:center;"><a href="https://firstmkts.files.wordpress.com/2016/03/5f5a3-iwmpost13.png" style="margin-left:1em;margin-right:1em;"><img border="0" height="298" src="https://firstmkts.files.wordpress.com/2016/03/5f5a3-iwmpost13.png?w=640&#038;h=298" width="640" /></a></div>
+<p></p>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-142" class="post-142 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2016/03/17/cmre/" rel="bookmark">CMRE</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2016/03/17/cmre/" rel="bookmark"><time class="entry-date published" datetime="2016-03-17T16:38:00+00:00">March 17, 2016</time><time class="updated" datetime="2017-02-02T17:01:31+00:00">February 2, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2016/03/17/cmre/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<div class="separator" style="clear:both;text-align:center;"><a href="https://firstmkts.files.wordpress.com/2016/03/bdc9c-cmre.png" style="margin-left:1em;margin-right:1em;"><img border="0" height="326" src="https://firstmkts.files.wordpress.com/2016/03/bdc9c-cmre.png?w=640&#038;h=326" width="640" /></a></div>
+<div class="MsoNormal"></div>
+<div class="MsoNormal">Costamare is a non-operating containership owner. It charters vessels out on term contracts to co’s like Maersk, CMA CGM, Evergreen etc.</div>
+<div class="MsoNormal"></div>
+<div class="MsoNormal">Fleet of 54 containerships. </div>
+<div class="MsoNormal">49% ownership in 6 vessels through joint venture deal with York Capital Management</div>
+<div class="MsoNormal">JV w/ York Capital also has part ownership (&lt;50%) in 12 newbuild Post-Panamax containerships to be delivered starting in 2Q2016</div>
+<div class="MsoNormal"></div>
+<div class="MsoNormal">Catalysts:</div>
+<div class="MsoNormal">23 vessels rolling off contract during the next 12 months. </div>
+<div class="MsoNormal">Deleveraging should continue as debt repayments efforts continue (dividend yield could be lower?)</div>
+<div class="MsoNormal">7/12 of the newbuild’s add ~400MM to CMRE’s contracted backlog. With 5 charters unannounced from the JV. </div>
+<div class="MsoNormal">Low oil,</div>
+<div class="MsoNormal">Higher interest rates  higher Panamax rates </div>
+<div class="MsoNormal">Lower euro.</div>
+<div class="MsoNormal"></div>
+<div class="MsoNormal">Debt side:</div>
+<div class="MsoNormal">CS expects 461MM in operating cash flows over next 2 years. </div>
+<div class="MsoNormal">413MM in debt repayments over next 2 years.</div>
+<div class="MsoNormal">At a 13% yield, this leaves only 50MM to fund dividends. CS expects management to refinance a portion of the debt to free up liquidity.</div>
+<p>
+<div class="MsoNormal">Deleveraging has been successful so far: Net debt / capital is at 53% from 70% in 2013</div>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-143" class="post-143 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2016/03/17/and-then-there-were-the-dealers/" rel="bookmark">And then there were the&nbsp;dealers</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2016/03/17/and-then-there-were-the-dealers/" rel="bookmark"><time class="entry-date published" datetime="2016-03-17T15:13:00+00:00">March 17, 2016</time><time class="updated" datetime="2017-02-02T19:33:37+00:00">February 2, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2016/03/17/and-then-there-were-the-dealers/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<blockquote>
+<pre style="background-color:white;border-radius:0;border:0;box-sizing:border-box;font-size:14px;line-height:17.0001px;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;">                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     ZN   R-squared:                       0.431
+Model:                            OLS   Adj. R-squared:                  0.418
+Method:                 Least Squares   F-statistic:                     31.84
+Date:                Thu, 17 Mar 2016   Prob (F-statistic):           1.29e-06
+Time:                        10:29:31   Log-Likelihood:                -70.070
+No. Observations:                  44   AIC:                             144.1
+Df Residuals:                      42   BIC:                             147.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P&gt;|t|      [95.0% Conf. Int.]
+-----------------------------------------------------------------------------------------
+const                     0.1198      0.186      0.646      0.522        -0.255     0.494
+Dealer Long Positions  1.733e-05   3.07e-06      5.643      0.000      1.11e-05  2.35e-05
+==============================================================================
+Omnibus:                       17.799   Durbin-Watson:                   1.160
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.466
+Skew:                          -1.271   Prob(JB):                     4.87e-06
+Kurtosis:                       5.623   Cond. No.                     6.11e+04
+==============================================================================</pre>
+<pre style="background-color:white;border-radius:0;border:0;box-sizing:border-box;font-size:14px;line-height:17.0001px;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;"></pre>
+</blockquote>
+<div class="separator" style="clear:both;text-align:center;"><a style="margin-left:1em;margin-right:1em;" href="https://firstmkts.files.wordpress.com/2016/03/4aa09-dealers.png"><img src="https://firstmkts.files.wordpress.com/2016/03/4aa09-dealers.png?w=638&#038;h=640" width="638" height="640" border="0" /></a></div>
+<pre style="background-color:white;border-radius:0;border:0;box-sizing:border-box;font-size:14px;line-height:17.0001px;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;"></pre>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-145" class="post-145 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2016/03/16/mid-march-return-cluster/" rel="bookmark">Mid-March return cluster</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2016/03/16/mid-march-return-cluster/" rel="bookmark"><time class="entry-date published" datetime="2016-03-16T05:01:00+00:00">March 16, 2016</time><time class="updated" datetime="2017-02-02T17:01:30+00:00">February 2, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2016/03/16/mid-march-return-cluster/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p>S&amp;P futures have rallied significantly over the last 30 days. The stock to bond ratio is at 20/50 day highs. However, the negative sentiment still persists. I still wish there is a way to quantify the hubris, but unfortunately, I haven&#8217;t found a non-qualitative way. 
+<div></div>
+<div>Attached below is a chart of what typically happens to the S&amp;P during the middle of March. Over the last 9 years, the S&amp;P was up an average of 1.5% during the next 5 days. Bear in mind we do have a Fed meeting on Wednesday. </div>
+<div></div>
+<div class="separator" style="clear:both;text-align:center;"><a href="https://firstmkts.files.wordpress.com/2016/03/728ed-midmarch.jpg" style="margin-left:1em;margin-right:1em;"><img border="0" height="332" src="https://firstmkts.files.wordpress.com/2016/03/728ed-midmarch.jpg?w=640&#038;h=332" width="640" /></a></div>
+<div></div>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-146" class="post-146 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2016/03/14/short-term-exhaustion/" rel="bookmark">Short-term exhaustion</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2016/03/14/short-term-exhaustion/" rel="bookmark"><time class="entry-date published" datetime="2016-03-14T04:37:00+00:00">March 14, 2016</time><time class="updated" datetime="2017-02-02T17:01:29+00:00">February 2, 2017</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2016/03/14/short-term-exhaustion/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<div style="background-color:transparent;border-radius:0;border:0;box-sizing:border-box;font-size:inherit;line-height:inherit;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;"><span style="font-size:inherit;line-height:inherit;">OLS Regression Results                            </span></div>
+<div style="background-color:transparent;border-radius:0;border:0;box-sizing:border-box;font-size:inherit;line-height:inherit;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;">==============================================================================<br />Dep. Variable:                    Spu   R-squared:                       0.056<br />Model:                            OLS   Adj. R-squared:                  0.053<br />Method:                 Least Squares   F-statistic:                     15.68<br />Date:                Mon, 14 Mar 2016   Prob (F-statistic):           9.68e-05<br />Time:                        00:20:06   Log-Likelihood:                -1413.3<br />No. Observations:                 264   AIC:                             2831.<br />Df Residuals:                     262   BIC:                             2838.<br />Df Model:                           1                                         <br />Covariance Type:            nonrobust                                         <br />==============================================================================<br />coef    std err          t      P&gt;|t|      [95.0% Conf. Int.]<br />&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />const         -2.1659      3.748     -0.578      0.564        -9.545     5.213<br />Spu           -0.2006      0.051     -3.960      0.000        -0.300    -0.101<br />==============================================================================<br />Omnibus:                       89.947   Durbin-Watson:                   0.259<br />Prob(Omnibus):                  0.000   Jarque-Bera (JB):              241.013<br />Skew:                          -1.559   Prob(JB):                     4.62e-53<br />Kurtosis:                       6.492   Cond. No.                         87.8</div>
+<div style="background-color:transparent;border-radius:0;border:0;box-sizing:border-box;font-size:inherit;line-height:inherit;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;"></div>
+<div class="separator" style="clear:both;text-align:center;"><a href="https://firstmkts.files.wordpress.com/2016/03/3a689-es50march14.jpg" style="margin-left:1em;margin-right:1em;"><img border="0" height="587" src="https://firstmkts.files.wordpress.com/2016/03/3a689-es50march14.jpg?w=640&#038;h=587" width="640" /></a></div>
+<div style="background-color:transparent;border-radius:0;border:0;box-sizing:border-box;font-size:inherit;line-height:inherit;overflow:auto;padding:0;vertical-align:baseline;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;"></div>
+<div>
+<div class="prompt" style="background-color:white;box-sizing:border-box;font-family:monospace;font-size:14px;line-height:1.21429em;margin:0;min-width:14ex;padding:0 .4em;text-align:right;"></div>
+</div>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-332" class="post-332 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2016/01/18/time-to-buy-bonds-again/" rel="bookmark">Time to buy bonds&nbsp;again</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2016/01/18/time-to-buy-bonds-again/" rel="bookmark"><time class="entry-date published updated" datetime="2016-01-18T22:40:10+00:00">January 18, 2016</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2016/01/18/time-to-buy-bonds-again/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p>Back in 2013 I made a post about betting on the long end of the curve to come down. This was really against the consensus at the time. I use a very simple model to forecast interest rates. Right now I think you can buy the 5-30 spread or just flat out TLT.</p>
+<p><img data-attachment-id="335" data-permalink="https://firstmkts.com/32c07-screenshot_17/" data-orig-file="https://firstmkts.files.wordpress.com/2014/05/32c07-screenshot_17.png" data-orig-size="1228,873" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="32c07-screenshot_17" data-image-description="" data-medium-file="https://firstmkts.files.wordpress.com/2014/05/32c07-screenshot_17.png?w=300" data-large-file="https://firstmkts.files.wordpress.com/2014/05/32c07-screenshot_17.png?w=760" class="alignnone size-full wp-image-335" src="https://firstmkts.files.wordpress.com/2016/01/screenshot_6.png?w=760" alt="Screenshot_6.png"   /></p>
+<p>The fascinating part about this trade is that people don&#8217;t think that US interest rates can really come down much further. With financial assets still close to all time highs, and if we do get an environment where they start to come off, what is the most obvious trade? Yields come down. How low can rates go? Well, they are practically negative in Europe. The Japanese ten-year is yielding at 25 basis points. It can go fucking lower. The Bank Of Norway has even  stated that they don&#8217;t see much opportunity in US bonds. More fuel for the fire (higher) in my opinion.</p>
+<p>Its very simple. You get positive carry, a good risk:reward opportunity and the potential to look like a genius to your counterparts. What&#8217;s not to love about this trade?</p>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-328" class="post-328 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2015/09/24/recession-nonsense/" rel="bookmark">Recession? Nonsense</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2015/09/24/recession-nonsense/" rel="bookmark"><time class="entry-date published updated" datetime="2015-09-24T15:53:46+00:00">September 24, 2015</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2015/09/24/recession-nonsense/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p>I&#8217;m back. I&#8217;ve been very busy working on the professional side of money management and have not had the chance to let my thoughts flow. I like to think that I have a pretty good grasp of the macro environment and so far my track record has been spot on, so here is some forecasts for the end of 2015 / 2016.</p>
+<ul>
+<li>Late cycle business growth will slow down.</li>
+<li>Emerging market / early cycle will outperform</li>
+<li>Relative value trading will pay huge if you are long/short the right sectors/regions.</li>
+<li>US Economy is starting to reach full employment with the housing sector stronger than ever.</li>
+<li>Recessionary headwinds will not come until 2018</li>
+</ul>
+<p><a href="https://firstmkts.files.wordpress.com/2015/09/screenshot_3.png"><img data-attachment-id="329" data-permalink="https://firstmkts.com/2013/05/04/unemployment-between-the-genders/" data-orig-file="" data-orig-size="" data-comments-opened="1" data-image-meta="[]" data-image-title="Unemployment between the genders" data-image-description="&lt;div style=&quot;color:#444444;font-family:&#039;Helvetica Neue&#039;, HelveticaNeue, Helvetica, Arial, sans-serif;font-size:14px;line-height:19px;&quot;&gt;Talk about trend change&lt;/div&gt;
+&lt;div style=&quot;color:#444444;font-family:&#039;Helvetica Neue&#039;, HelveticaNeue, Helvetica, Arial, sans-serif;font-size:14px;line-height:19px;&quot;&gt;&lt;/div&gt;
+&lt;div style=&quot;color:#444444;font-family:&#039;Helvetica Neue&#039;, HelveticaNeue, Helvetica, Arial, sans-serif;font-size:14px;line-height:19px;&quot;&gt;&lt;img src= alt=&quot;image&quot; /&gt;&lt;/div&gt;
+&lt;div style=&quot;color:#444444;font-family:&#039;Helvetica Neue&#039;, HelveticaNeue, Helvetica, Arial, sans-serif;font-size:14px;line-height:19px;&quot;&gt;&lt;/div&gt;
+&lt;blockquote style=&quot;border-left-color:#e4e4e4;border-left-style:solid;border-left-width:4px;color:#444444;font-family:&#039;Helvetica Neue&#039;, HelveticaNeue, Helvetica, Arial, sans-serif;font-size:14px;line-height:19px;margin-left:30px;min-width:220px;padding-left:15px;&quot;&gt;&lt;p&gt;Fellow males, get onboard. The closer that America comes to fully employing the talents of all its citizens, the greater its output of goods and services will be. We&#8217;ve seen what can be accomplished when we use 50% of our human capacity. If you visualize what 100% can do, you&#8217;ll join me as an unbridled optimist about America&#8217;s future.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div style=&quot;color:#444444;font-family:&#039;Helvetica Neue&#039;, HelveticaNeue, Helvetica, Arial, sans-serif;font-size:14px;line-height:19px;&quot;&gt;-WB&lt;/div&gt;
+" data-medium-file="" data-large-file="" class="alignnone wp-image-329 size-full" src="https://firstmkts.files.wordpress.com/2015/09/screenshot_3.png" alt="Screenshot_3"   /></a></p>
+<p><a href="https://yieldtrading.files.wordpress.com/2015/09/screenshot_4.png"><img data-attachment-id="330" data-permalink="https://firstmkts.com/2013/05/06/the-implications-of-unemployment/" data-orig-file="" data-orig-size="" data-comments-opened="1" data-image-meta="[]" data-image-title="The implications of unemployment" data-image-description="&lt;p&gt;&lt;span style=&quot;font-family:inherit;&quot;&gt;Why is unemployment a serious topic? This subject is talked a lot about in regards to economic issues with inflation, GDP growth and market stability; but what is the true intrinsic disadvantage with someone not being employed.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:inherit;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-family:inherit;&quot;&gt;After reading way too much Bastiat, I started thinking more and more about the implications of unemployment beyond the statistical numbers. When somebody does not have a job, they do not have any security. Visit the &lt;a href=&quot;http://www.petrpinkhasov.com/p/1.html&quot;&gt;Across the curve page&lt;/a&gt; read &lt;i&gt;rule&lt;/i&gt; number three. Basically what we can conclude from this is that these people, whom are not employed, are much more likely to get involved in things they should not be doing such as crime, drugs, alcohol and other problems which actually act as headwind to the overall economy. The reason I mentioned Bastiat is because we can compare this to the &lt;a href=&quot;http://en.wikipedia.org/wiki/Parable_of_the_broken_window&quot;&gt;broken window parable&lt;/a&gt;, which states that what appears as an opportunity cost is actually a sunk cost. So the rate of unemployment during economic recovery in periods of distress is actually acting as one big sandbar for &lt;i&gt;successful inflow &lt;/i&gt;of human production and overall &lt;i&gt;happiness&lt;/i&gt;.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-family:inherit;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear:both;text-align:center;&quot;&gt;&lt;span style=&quot;font-family:inherit;&quot;&gt;&lt;a href=&gt;&lt;img src= alt=&quot;&quot; width=&quot;640&quot; height=&quot;426&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear:both;text-align:center;&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a name=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear:both;text-align:left;&quot;&gt;&lt;span style=&quot;font-family:inherit;&quot;&gt; &lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear:both;text-align:left;&quot;&gt;&lt;span style=&quot;font-family:inherit;&quot;&gt;I thought zerohedge made a well put statement when they said the &lt;a href=&quot;http://www.zerohedge.com/news/why-government-stimulus-spending-will-keep-unemployment-rate-high&quot;&gt;following&lt;/a&gt;: &lt;/span&gt;&lt;/div&gt;
+&lt;blockquote class=&quot;tr_bq&quot;&gt;
+&lt;blockquote class=&quot;tr_bq&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family:inherit;&quot;&gt;In today&#8217;s 3:06 un-spin, the &lt;strong&gt;broken-window-fallacy&lt;/strong&gt; is addressed as the seen versus unseen impact of the idiocy of a broken-window&#8217;s (or war, or destroying homes, or&#8230;) positive impact on an economy is explained in cartoon style. The &lt;strong&gt;sad fact is that this fallacy remains at the core of mainstream policy-making&lt;/strong&gt; and as the video notes, the government&#8217;s &#8216;creation&#8217; of jobs via public works programs (or any number of stimulus-driven enterprises) it does so at the expense of the tax-payer via higher taxes or inflation and that &#8216;spending&#8217; which would have otherwise gone to new fridges or iPads is removed and this does nothing to significantly improve aggregate demand (should there be such an amorphous thing) and in fact (as we recently noted &lt;a style=&quot;color:#666666;text-decoration:none;&quot; href=&quot;http://www.zerohedge.com/news/no-record-profits-old-assets-jim-montier-unsustainable-parabolic-margin-expansion-dummies&quot;&gt;here&lt;/a&gt; and &lt;a style=&quot;color:#666666;text-decoration:none;&quot; href=&quot;http://www.zerohedge.com/news/how-feds-visible-hand-forcing-corporate-cash-mismanagement&quot;&gt;here&lt;/a&gt;) leaves us &lt;strong&gt;more and more dependent on the state for corporate profit margins&lt;/strong&gt; leaving any organic growth a dim and distant memory.&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Basically, the last thing any country needs is unemployment easing &#8212; which would occur through the allocation of efforts to create more state produced labor. This would lower the overall unemployment rate but there are two major issues with this strategy:&lt;/p&gt;
+&lt;p&gt;1) There is no real long term job value: After a few roads and bridges are built through the payments of local and state tax revenues, these jobs will no longer be in demand and unemployment would have to be stagnent again. The debt created through this process would lead to the need for higher taxes to pay them off &#8212; which brings us to the next problem.&lt;br /&gt;
+2) Wealth capital flow is the true dependent variable in job creation. If taxes were to be increased, this would have a negative impact on real, long term value job opportunities in the labor markets. There would be less incentive for both large and small businesses to hire new employees.&lt;/p&gt;
+" data-medium-file="" data-large-file="" class="alignnone wp-image-330 size-full" src="https://yieldtrading.files.wordpress.com/2015/09/screenshot_4.png" alt="Screenshot_4"   /></a></p>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-147" class="post-147 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header">
+		
+		<h2 class="entry-title"><a href="https://firstmkts.com/2015/06/24/value-at-risk-for-a-portfolio/" rel="bookmark">Value-at-Risk for a&nbsp;portfolio</a></h2>
+				<div class="entry-meta">
+			<span class="posted-on"><span>Published on <a href="https://firstmkts.com/2015/06/24/value-at-risk-for-a-portfolio/" rel="bookmark"><time class="entry-date published updated" datetime="2015-06-24T21:09:00+00:00">June 24, 2015</time></a></span></span> <span class="byline">by <span class="author vcard"><a class="url fn n" href="https://firstmkts.com/author/petrpinkhasov/">First Markets</a></span></span><span class="comments-link"><a href="https://firstmkts.com/2015/06/24/value-at-risk-for-a-portfolio/#respond">Leave a comment</a></span>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+
+			<div class="entry-content">
+
+			<p><span style="background-color:white;">I have yet to see a comprehensive variance/co-variance method for getting VaR values for individual securities in a portfolio. So lets begin.</span><br /><span style="background-color:white;"><span style="background-color:white;"><br /></span><span style="background-color:white;">First, we need pandas, numpy, scipy and a datasource for our portfolio. I prefer &#8216;bt&#8217; for the later.</span></span><br /><span style="background-color:white;"><span style="background-color:white;"><br /></span></span>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><span style="color:#cc7832;font-weight:bold;">import </span>pandas <span style="color:#cc7832;font-weight:bold;">as </span>pd<br /><span style="color:#cc7832;font-weight:bold;">import </span>numpy <span style="color:#cc7832;font-weight:bold;">as </span>np<br /><span style="color:#cc7832;font-weight:bold;">import </span>pandas.io.data <span style="color:#cc7832;font-weight:bold;">as </span>web<br /><span style="color:#cc7832;font-weight:bold;">import </span>datetime<br /><span style="color:#cc7832;font-weight:bold;">import </span>matplotlib.pyplot <span style="color:#cc7832;font-weight:bold;">as </span>plt<br /><span style="color:#cc7832;font-weight:bold;">import </span>bt</span></pre>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><pre style="font-family:'Courier New';font-size:9pt;"><span style="background-color:white;"><span style="color:#cc7832;font-weight:bold;">from </span>scipy.stats <span style="color:#cc7832;font-weight:bold;">import </span>norm</span></pre>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"></pre>
+<p><span style="background-color:white;"></span>
+<div><span style="background-color:white;">So lets pull the data</span></div>
+<div></div>
+<div>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><span style="background-color:white;">start = datetime.datetime(</span><span style="background-color:white;color:#6897bb;">2013</span><span style="background-color:white;color:#cc7832;">, </span><span style="background-color:white;color:#6897bb;">5</span><span style="background-color:white;color:#cc7832;">, </span><span style="background-color:white;color:#6897bb;">1</span><span style="background-color:white;">)<br /></span><span style="background-color:white;"><span style="color:grey;"><br /></span>portfolio = bt.get(<span style="color:#a5c261;">'aapl, tlt, fxe, gs, c, fb, ms, ko, bac'</span><span style="color:#cc7832;">, </span><span style="color:#aa4926;">start</span>=start)<br />port = pd.DataFrame(<span style="color:#aa4926;">index</span>=portfolio.columns)</span></span></pre>
+</div>
+<div><span style="background-color:white;"><br /></span></div>
+<div><span style="background-color:white;">Now we have two dataframes. One with our historical values as portfolio, the other as port which holds the security names which we will later store our VaR values in. Next we create the actual VaRCoV function:</span></div>
+<div><span style="background-color:white;"><br /></span></div>
+<div>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;color:#cc7832;font-weight:bold;"><br /></span></pre>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><span style="color:#cc7832;font-weight:bold;">def </span><span style="font-weight:bold;">var_cov_var</span>(P<span style="color:#cc7832;">, </span>c<span style="color:#cc7832;">, </span>mu<span style="color:#cc7832;">, </span>sigma):<br />    alpha = norm.ppf(<span style="color:#6897bb;">1</span>-c<span style="color:#cc7832;">, </span>mu<span style="color:#cc7832;">, </span>sigma)<br />    <span style="color:#cc7832;font-weight:bold;">return </span>P - P*(alpha + <span style="color:#6897bb;">1</span>)</span></pre>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;font-family:Times New Roman;white-space:normal;"><br /></span></pre>
+</div>
+<div><span style="background-color:white;">portfolio dataframe, confidence interval P = 15000 #each position % of portfolio, should create a new one to store marketvalue of each position to be more precise #c = 0.99 #confidence interval, moved to function totalrisk = 0 for i in portfolio: rets = portfolio[i].pct_change() mu = np.mean(rets)</span></div>
+<div>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><span style="color:#cc7832;font-weight:bold;">def </span><span style="font-weight:bold;">getVar</span>(portfolio<span style="color:#cc7832;">, </span>c): <br />        mu = np.mean(rets)<br />        sigma = np.std(rets)<br />        var = var_cov_var(P<span style="color:#cc7832;">, </span>c<span style="color:#cc7832;">, </span>mu<span style="color:#cc7832;">, </span>sigma)<br />        port[<span style="color:#a5c261;">"VaR"</span>][i] = var<br />        totalrisk += var<br />    <span style="color:#cc7832;font-weight:bold;">return </span>port<span style="color:#cc7832;">, </span>totalrisk</span></pre>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><br /></span></pre>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><pre style="font-family:'courier new';font-size:9pt;"><span style="background-color:white;"><br /></span></pre>
+<pre style="font-family:'courier new';font-size:9pt;"><span style="background-color:white;">getVar(portfolio<span style="color:#cc7832;">, </span><span style="color:#6897bb;">.95</span>)</span></pre>
+<pre style="color:black;"><span><span style="background-color:white;font-size:12px;">Out[471]: <br />(             VaR<br /> aapl  328.585833<br /> tlt   205.453309<br /> fxe   136.978460<br /> gs    274.577792<br /> c     315.838626<br /> fb    566.777609<br /> ms    332.530446<br /> ko    220.500392<br /> bac   319.658819, 2700.9012842524335)</span></span></pre>
+<p></span></div>
+<div>
+<pre style="color:#a9b7c6;font-family:'courier new';font-size:9pt;"></pre>
+</div>
+
+			
+		</div><!-- .entry-content -->
+	
+	<footer class="entry-footer">
+		<span class="cat-links">Categories <a href="https://firstmkts.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+			
+			
+	<nav class="navigation posts-navigation" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://firstmkts.com/page/2/" >Older posts</a></div></div>
+	</nav>
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-1" class="widget widget_search"><h3 class="widget-title">Search</h3><form role="search" method="get" class="search-form" action="https://firstmkts.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap" class="calendar_wrap"><table id="wp-calendar">
+	<caption>February 2017</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="https://firstmkts.com/2017/01/">&laquo; Jan</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+	</tr>
+	<tr>
+		<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+	</tr>
+	<tr>
+		<td><a href="https://firstmkts.com/2017/02/13/" aria-label="Posts published on February 13, 2017">13</a></td><td>14</td><td>15</td><td>16</td><td>17</td><td id="today">18</td><td>19</td>
+	</tr>
+	<tr>
+		<td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td>
+	</tr>
+	<tr>
+		<td>27</td><td>28</td>
+		<td class="pad" colspan="5">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside id="twitter_timeline-11" class="widget widget_twitter_timeline"><h3 class="widget-title">Follow me on Twitter</h3><a class="twitter-timeline" data-height="400" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-lang="EN" href="https://twitter.com/firstmarkets">My Tweets</a></aside></div><!-- #secondary -->
+		</div><!-- .wrap -->
+	</div><!-- #content -->
+
+			<div id="footer-widgets" class="widgets-two" role="complementary">
+			<div class="wrap">
+				<div class="grid-layout">
+					<aside id="blog_subscription-3" class="widget widget_blog_subscription"><h3 class="widget-title"><label for="subscribe-field">Follow Blog via Email</label></h3>
+				<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="subscribe-blog">
+											<p>Enter your email address to follow this blog and receive notifications of new posts by email.</p>
+<p>Join 1,203 other followers</p>
+						<p><input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Enter your email address" value="" id="subscribe-field"/></p>
+					
+					<p>
+						<input type="hidden" name="action" value="subscribe"/>
+						<input type="hidden" name="blog_id" value="122167873"/>
+						<input type="hidden" name="source" value="https://firstmkts.com/"/>
+						<input type="hidden" name="sub-type" value="widget"/>
+						<input type="hidden" name="redirect_fragment" value="blog_subscription-3" />
+						<input type="hidden" id="_wpnonce" name="_wpnonce" value="af7ddacbde" />						<input type="submit" value="Follow" />
+					</p>
+				</form>
+			
+</aside><aside id="follow_button_widget-3" class="widget widget_follow_button_widget">
+		<a class="wordpress-follow-button" href="https://firstmkts.com" data-blog="https://firstmkts.com" data-lang="en" >Follow First Markets on WordPress.com</a>
+		<script type="text/javascript">(function(d){var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');p.type = 'text/javascript';p.async = true;p.src = '//widgets.wp.com/platform.js';f.parentNode.insertBefore(p,f);}(document));</script>
+
+		</aside>				</div>
+			</div><!-- .wrap -->
+		</div><!-- #footer-widgets -->
+	
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="wrap">
+					<nav class="jetpack-social-navigation" role="navigation" aria-label="Social Links Menu">
+			<div class="menu"><ul><li class="page_item page-item-64"><a href="https://firstmkts.com/about/"><span class="screen-reader-text">About</span></a></li><li class="page_item page-item-1"><a href="https://firstmkts.com/about-2/"><span class="screen-reader-text">About / Performance</span></a></li><li class="page_item page-item-300"><a href="https://firstmkts.com/links/"><span class="screen-reader-text">links</span></a></li><li class="page_item page-item-74"><a href="https://firstmkts.com/premium/"><span class="screen-reader-text">Premium</span></a></li><li class="page_item page-item-309"><a href="https://firstmkts.com/309-2/"><span class="screen-reader-text">twitter</span></a></li><li class="page_item page-item-3"><a href="https://firstmkts.com/contact/"><span class="screen-reader-text">Contact</span></a></li></ul></div>
+		</nav><!-- .jetpack-social-navigation -->
+				<div class="site-info">
+				<a href="https://wordpress.com/?ref=footer_custom_powered">Powered by WordPress.com</a>.
+				
+							</div><!-- .site-info -->
+		</div><!-- .wrap -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"https:\/\/firstmkts.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"24.06.15","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"firstmkts.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2015-06-24 21:09:00","stats":"blog=122167873&v=wpcom&tz=0&user_id=0&subd=firstmkts&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+		<!--  -->
+		<script type="text/javascript">
+			!function(d,s,id){
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				if(!d.getElementById(id)){
+					js=d.createElement(s);
+					js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			}(document,"script","twitter-wjs");
+		</script>
+		<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201707y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/firstmkts.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/firstmkts.wordpress.com\/wp-login.php?action=logout&_wpnonce=e961ca7998","homeURL":"https:\/\/firstmkts.com\/","postID":"421","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j'></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="122167873" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://firstmkts.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="First Markets" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="a846cd0276" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0-3' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2-3' href='https://s1.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146h' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var toujours_script_strings = {"next_link":"Next Slide","previous_link":"Previous Slide"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"122167873","siteName":"First Markets","siteURL":"https:\/\/firstmkts.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/toujours","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/firstmkts.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffirstmkts.com%2F2017%2F02%2F13%2Fsome-thought-on-rates%2F","themeURL":"https:\/\/wordpress.com\/themes\/toujours\/","xhrURL":"https:\/\/firstmkts.com\/wp-admin\/admin-ajax.php","nonce":"9f6e199ddf","isSingular":"","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"af7ddacbde\" \/>","referer":"https:\/\/firstmkts.com\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/firstmkts.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ffirstmkts.wordpress.com%2F","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Toujours","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 1,203 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/firstmkts.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffirstmkts.com%2F2017%2F02%2F13%2Fsome-thought-on-rates%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/firstmkts.com\/wp-admin\/admin-ajax.php","nonce":"765a647c78","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/firstmkts.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffirstmkts.com%2F2017%2F02%2F13%2Fsome-thought-on-rates%2F","blog_id":"122167873","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=122167873&v=wpcom&tz=0&user_id=0&subd=firstmkts","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyNkNFuwyAMRX9olG6qur1M+xYHnNSEYIYhTf++JFKzqaqivBn73uNr9DUqwyFjyNqJtjiSwTgdnLzpf6OhqOhLR0G0px5F/xYseIFgPaYNMYWWAuXbWjxr8wWHioul0ZmL45JkzuEqP90OrcdJPNm/HRSMLxYXEQ3QoXgGi/YwUNjJDjBSB5l4r0F6ispT6FXLpohqaXoVZwDhUEPvT9J5bsBvfB/YClMNpBmeMdVK8Ygp0bxz7W0RzHzoTFirDbWBxEXQa4c5gunVo/HqXrm23Dg0+Rn4oI01JWsQwbwYlndMKFIdP8P3++nrfPw8f5yO7g4Kv/P9'></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "firstmkts.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","jetpack_likes_queuehandler","the-neverending-homepage","flexslider","imagesloaded","toujours-navigation","toujours-skip-link-focus-fix","masonry","toujours-global","wpcom-masterbar-js","wpcom-actionbar-bar","jetpack-carousel","swfobject","videopress","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["wpcom-smileys","jetpack_likes","the-neverending-homepage","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","toujours-style","genericons","toujours-wpcom","jetpack-social-menu","noticons","geo-location-flair","reblogging","a8c-global-print","wpcom-actionbar-bar","h4-global","toujours-fonts","highlander-comments","highlander-comments-ie7","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script>		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'122167873','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'122167873','v':'wpcom','tz':'0','user_id':'0','subd':'firstmkts'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhmbUVsTTB6L1FmX041RXA0NlticjdsRG8majJtU3RleVB8TnkydS82LDNNcEJUeCxJeGR0JWl8ZF82WnBsMXprRVFQNzJvclV5STMzM2ZrWy95bXclbmotRVg/dT9MeUp2QUJtaVFhRlJYWS9LTXh0VS0sZmgzektFZy42c0c4YWl6bEUsMi5zRkxBTGhGen52K2J8RUxDeHlSTncyaGhhOSs/SiZLUnZ4fHZ5YjV5ZG89algrU21SZzl2QjA4NGYtTkZObXJzb3xkT09+cSVyY000V0syOTZSRXdPK215ZUI2bUgyVThhQk5BVG1iQ0RQMXROVmR1dURdLmdoOUhvLCxROTFDV3ouSDd4YjFtU1BdUg=='}]);
+_stq.push([ 'clickTrackerInit', '122167873', '0' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>

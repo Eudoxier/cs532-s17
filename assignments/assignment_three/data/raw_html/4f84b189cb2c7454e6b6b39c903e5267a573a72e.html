@@ -1,0 +1,2467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"8637c21be8","applicationID":"17935372","transactionName":"cglcQhEOD1oDRk5TVlMVHV8NBQZO","queueTime":1,"applicationTime":136,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>DataPrivacyCareers - Privacy and Information Security Jobs</title>
+  <meta name="description" content="Privacy jobs, data privacy jobs and everything in between.  Whether you are a privacy counsel, a data security expert or a cybersecurity engineer, DataPrivacyCareers.com is a great place to look for and post data privacy job listings."/>
+  <meta name="globalsign-domain-verification" content="zXqnEUSZDzaIf4sNAVJkcmhWYsoJX6sVekl1ktdc1j" />
+  <link rel="icon" type="image/ico" href="https://d6dyoorq84mou.cloudfront.net/uploads/tenant/favicon/817/ico_dpcfavicon5.png"/>
+  <meta property="og:title" content="DataPrivacyCareers.com"/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="https:&#x2F;&#x2F;d6dyoorq84mou.cloudfront.net&#x2F;uploads&#x2F;tenant&#x2F;logo&#x2F;817&#x2F;dpc-website-logo-500.jpg"/>
+<meta property="og:description" content="Privacy jobs, data privacy jobs and everything in between.  Whether you are a privacy counsel, a data security expert or a cybersecurity engineer, DataPrivacyCareers.com is a great place to look for and post data privacy job listings."/>
+<meta property="og:site_name" content="DataPrivacyCareers.com"/>
+  
+  <link rel="canonical" href="https://www.dataprivacycareers.com/" />
+  
+  <meta name="twitter:widgets:csp" content="on">
+    <link rel="alternate" type="application/atom+xml" title="DataPrivacyCareers.com Feed" href="https://www.dataprivacycareers.com/jobs.atom" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="ZQ7YlMUv6Tl/wTF4g/sj56wQYZUDzC6KGhTYYZJ1oJeuMYQ+XK1eVYbRBA2/1Y4ragoboF4noxusbxsZCitDHg==" />
+    <link rel="stylesheet" media="all" href="//d1stfaw6j21ccs.cloudfront.net/assets/application-c829d55a30bb010bd1ed0085262789cefc0ac8172b5a1966bfab1970324d1b7f.css" />
+    <link rel="stylesheet" media="all" href="//d1stfaw6j21ccs.cloudfront.net/assets/v2/default-theme-1e24ceb5c9f6ce787d4e7fda99e135d88c41c623d9ece406d61c2be5e7b80cab.css" />
+      <style type="text/css">@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+body{background:#ffffff;font-family:Lato;font-weight:400;}
+.jobList-media { display: none; }
+.panel-default { border-color: #006e98; }
+.jobList>*+* { border-top: 1px solid #006e98; }
+.u-flexList>*+* { border-top: 1px solid #006e98; }
+.btn-primary { background-image: none; background-color: #006C93 }
+.btn-primary:hover { background-image: none; background-color: #0192C9 }
+input#job_alerts_keywords { display: none; }
+.pageNav { display: none; }
+.footer {padding: 0px;}
+.u-mt--large { margin-top: 5px; }
+.results-hero {margin-top: 60px;}
+.slim-hero {margin-top: 60px;}
+.notFound-image { display:none; }
+
+@media (min-width: 990px) {
+.siteSearch { margin-left: 0px; margin-right: 250px; }
+.header-logo { margin-right: 0px}
+.headerV3-logo img { max-width: 280px; }
+.results-hero {margin-top: 0px;}
+.slim-hero {margin-top: 0px;}
+}
+
+@media (min-width: 768px) {
+.page-container { padding-left: 60px;  padding-right: 60px; }
+body{font-size: 14px;}
+.headerV3-wrapper { padding: 0 0 0 0; }
+h3, .h3 { font-size: 16px; }
+h4, .h4 { font-size: 18px; }
+.u-mb--large { margin-bottom: 10px !important; }
+.u-textLarge { font-size: 14px !important; }
+.jobList>* { min-height:0; padding: 10px 5px;}
+.u-flexList>* { padding: 5px 0; }
+li.twitter { padding-top: 7px; }
+.results-hero { height: 90px; background: linear-gradient(120deg, #005981, #267fa7); padding: 15px 30px 0 0;}
+.slim-hero { height: 90px;}
+}
+
+@media (max-width: 768px) {
+.slim-hero { margin-top: 0px;}
+}
+
+@media (max-width: 767px){
+.slim-hero { height: 200px; }
+.slim-hero { margin-top: 0px; }	
+}</style>
+    <script src="//d1stfaw6j21ccs.cloudfront.net/assets/application-769e2c6416cfe7a860474a6d4e7a8bc2d1fceb619d72a76cf8faa71ba300599f.js"></script>
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-9635628-4', 'auto', {
+      'allowLinker': true
+    });
+    ga('send', 'pageview');
+    ga('require', 'linker');
+      ga('linker:autoLink', ['jobboard.io', 'dataprivacycareers.com'], false, true);
+
+  ga('create', 'UA-83736-23', 'auto', {
+    'name': 'jbo',
+    'allowLinker': true
+  });
+  ga('jbo.send', 'pageview');
+  ga('jbo.require', 'linker');
+    ga('jbo.linker:autoLink', ['jobboard.io', 'dataprivacycareers.com'], false, true);
+
+</script>
+      <script src="//load.sumome.com/" data-sumo-site-id="aa0ed492716ca08d1d56a1be1736917fcda478546d9cec870572373fccc29e44" async></script>
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1099310/leaderboarddpc', [[320, 50], [728, 90]], 'div-gpt-ad-1458327433890-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Element.prototype.placeholder,matchMedia" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGSmx9sCUsed1sZqD2H-elR4sIWbBKDc0&amp;libraries=places"></script>
+    <script>
+
+!function(name,path,ctx){
+var latest,prev=name!=='Keen'&&window.Keen?window.Keen:false;ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;latest=w.Keen;if(prev){w.Keen=prev}else{try{delete w.Keen}catch(e){w.Keen=void 0}}ctx[name]=latest;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}
+}('Keen','https://d26b395fwzu5fz.cloudfront.net/keen-tracking-1.1.3.min.js',this);
+ 
+  Keen.ready(function() {
+    var client = new Keen({
+      projectId: "5664a94346f9a76d6f7f58ff",
+      writeKey: "ff078c9e711544f8f5456fab633acfaeaa6def7734431f1ec1e462408b10332febf120f810741b1f5443a9530de5ef11e84d57912bfac01f56701fbd7c88a40ca6574ec901ce6f684965362c79ce022a21eba45e492820bca8612af0a6dbcfb73871c3b35898829ab56973f9d6370b8a"
+    });
+
+
+
+    client.recordEvent("pageviews", {
+      tenant_id: "817",
+      page_url : page_url,
+      referrer: {
+        url: document.referrer
+      },
+      page: {
+        url: window.location.href,
+        host: keen_host,
+        path: keen_path,
+        type: keen_type,
+        query: keen_query,
+        id: keen_id
+      },
+      ip_address: "${keen.ip}",
+      user_agent: "${keen.user_agent}",
+      keen: {
+        addons: [
+          {
+            name: "keen:ip_to_geo",
+            input: {
+              ip: "ip_address"
+            },
+            output: "ip_geo_info"
+          },
+          {
+            name: "keen:ua_parser",
+            input: {
+              ua_string: "user_agent"
+            },
+            output: "parsed_user_agent"
+          },
+          {
+            name: "keen:referrer_parser",
+            input: {
+              referrer_url: "referrer.url",
+              page_url: "page.url"
+            },
+            output: "referrer.info"
+          }
+        ]
+      }
+    });
+  });
+</script>
+
+
+  
+  
+  
+  
+</head>
+<body class="">
+  <div style="border: 0px; clip: rect(0px 0px 0px 0px); height: 0px; overflow: hidden; padding: 0px; position: absolute; width: 0px;">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 9.9 6.4" id="arrow-down"><path d="M4.9 3.5L1.4 0 0 1.4l4.2 4.2.7.7 4.9-4.9L8.5 0 4.9 3.5z"></path></symbol><symbol viewBox="0 0 6.3 9.9" id="arrow-left"><path d="M6.3 8.5L4.9 9.9 0 4.9l.7-.7L4.9 0l1.4 1.4-3.5 3.5 3.5 3.6z"></path></symbol><symbol viewBox="0 0 6.4 9.9" id="arrow-right"><path d="M3.5 4.9L0 1.4 1.4 0l4.2 4.2.7.7-4.9 5L0 8.5l3.5-3.6z"></path></symbol><symbol viewBox="0 0 9.8 6.3" id="arrow-up"><path d="M8.5 6.3l1.3-1.4L4.9 0l-.7.7L0 4.9l1.4 1.4 3.5-3.5 3.6 3.5z"></path></symbol><symbol viewBox="0 0 240 127.1" id="box"><path d="M238.152 112.072l-24.3-29.9 24.4-29.9c3.1-3.9 2.2-9.5-2.1-12.4-4.3-3-10.2-2.2-13.5 1.6l-21 25.7-21-25.6c-3.3-3.8-9.3-4.6-13.5-1.6-4.2 2.9-5.1 8.4-2 12.4l24.3 29.9-24.3 29.9c-3.1 4-2.2 9.5 2 12.4 4.2 2.9 10.3 2.2 13.5-1.6l20.9-25.7 20.9 25.7c3.3 3.8 9.3 4.6 13.5 1.6 4.4-3 5.3-8.5 2.2-12.5m-114.3-2.9c-14.8 0-26.9-12-26.9-26.9 0-14.8 12-26.8 26.9-26.8 14.8 0 26.9 12 26.9 26.8 0 14.9-12 26.9-26.9 26.9m-79.1 0c-14.8 0-26.9-12-26.9-26.9 0-14.8 12-26.8 26.9-26.8 14.8 0 26.8 12 26.8 26.8.1 14.9-12 26.9-26.8 26.9m79.1-71.6c-17.1 0-32 9.6-39.6 23.8-7.5-14.2-22.4-23.8-39.6-23.8-10.1 0-19.4 3.3-26.9 9v-37.7c-.1-4.9-4.1-8.8-9-8.8s-8.8 3.9-8.9 8.8v74.3c.4 24.4 20.3 44 44.8 44 17.1 0 32-9.6 39.6-23.8 7.5 14.1 22.4 23.8 39.6 23.8 24.7 0 44.8-20 44.8-44.8 0-24.8-20-44.8-44.8-44.8"></path></symbol><symbol viewBox="0 0 17 13.4" id="check"><path d="M4.9 10.6L15.6 0 17 1.4 5.7 12.7l-.7.7-5-4.9 1.4-1.4 3.5 3.5z"></path></symbol><symbol viewBox="0 0 100 100" id="check-circle"><path d="M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0zm0 96.3C24.5 96.3 3.7 75.5 3.7 50S24.5 3.7 50 3.7 96.3 24.5 96.3 50 75.5 96.3 50 96.3z"></path><path d="M69.2 34.3L41.8 61.7 30.7 50.6c-.7-.7-1.9-.7-2.6 0-.7.7-.7 1.9 0 2.6L41.8 67l30-30c.7-.7.7-1.9 0-2.6-.7-.8-1.9-.8-2.6-.1z"></path></symbol><symbol viewBox="0 0 15.6 15.6" id="close"><path d="M6.4 7.8L0 14.1l1.4 1.4 6.4-6.4 6.4 6.4 1.4-1.4-6.4-6.3 6.4-6.4L14.1 0 7.8 6.4 1.4 0 0 1.4l6.4 6.4z"></path></symbol><symbol viewBox="0 0 16 17.7" id="custom"><path d="M16 4.5v9.2c0 .1-.1.3-.2.4l-7.3 3.6V8.2L16 4.5zm-.6-.8L8.2 0h-.4L.6 3.7 8 7.4l7.4-3.7zM0 4.5v9.2c0 .1.1.3.2.3l7.3 3.6V8.2L0 4.5z"></path></symbol><symbol viewBox="0 0 19.9 16" id="database"><path d="M13 1.2c0-.1.1-.2.2-.2h6.5c.1 0 .2.1.2.2v.5c0 .1-.1.2-.2.2h-6.5c-.1 0-.2-.1-.2-.2v-.5zm0 2c0-.1.1-.2.2-.2h6.5c.1 0 .2.1.2.2v.5c0 .1-.1.2-.2.2h-6.5c-.1 0-.2-.1-.2-.2v-.5zm0 2c0-.1.1-.2.2-.2h6.5c.1 0 .2.1.2.2v.5c0 .1-.1.2-.2.2h-6.5c-.1 0-.2-.1-.2-.2v-.5zm0 2c0-.1.1-.2.2-.2h6.5c.1 0 .2.1.2.2v.5c0 .1-.1.2-.2.2h-6.5c-.1 0-.2-.1-.2-.2v-.5zm1 8.8c0-5-3.1-7-7-7s-7 2-7 7h14zM7 8c2.2 0 4-1.8 4-4S9.2 0 7 0 3 1.8 3 4s1.8 4 4 4z"></path></symbol><symbol viewBox="0 0 13 16" id="document"><path d="M0 0v16h13V5H8V0H0zm9 0v4h4L9 0zM2 4h4v1H2V4zm0 3h9v1H2V7zm0 3h7v1H2v-1zm0 3h9v1H2v-1z"></path></symbol><symbol viewBox="0 0 32 32" id="dropbox"><path d="M23 1l-7 6 9 6 7-6zM16 7L9 1 0 7l7 6zM25 13l7 6-9 5-7-6zM16 18l-9-5-7 6 9 5z"></path><path d="M22.755 26.424L16 20.634l-6.755 5.79L5 24.066V27l11 5 11-5v-2.934z"></path></symbol><symbol viewBox="0 0 14 17" id="employers"><path fill-rule="evenodd" d="M1 2h12v15H1V2zm5 12.256A.25.25 0 0 1 6.245 14h1.51a.25.25 0 0 1 .245.256V17H6v-2.744zm-3-10A.25.25 0 0 1 3.245 4h1.51A.25.25 0 0 1 5 4.256v2.488A.25.25 0 0 1 4.755 7h-1.51A.25.25 0 0 1 3 6.744V4.256zm3 0A.25.25 0 0 1 6.245 4h1.51A.25.25 0 0 1 8 4.256v2.488A.25.25 0 0 1 7.755 7h-1.51A.25.25 0 0 1 6 6.744V4.256zm3 0A.25.25 0 0 1 9.245 4h1.51a.25.25 0 0 1 .245.256v2.488a.25.25 0 0 1-.245.256h-1.51A.25.25 0 0 1 9 6.744V4.256zm-6 5A.25.25 0 0 1 3.245 9h1.51A.25.25 0 0 1 5 9.256v2.488a.25.25 0 0 1-.245.256h-1.51A.25.25 0 0 1 3 11.744V9.256zm3 0A.25.25 0 0 1 6.245 9h1.51A.25.25 0 0 1 8 9.256v2.488a.25.25 0 0 1-.245.256h-1.51A.25.25 0 0 1 6 11.744V9.256zm3 0A.25.25 0 0 1 9.245 9h1.51a.25.25 0 0 1 .245.256v2.488a.25.25 0 0 1-.245.256h-1.51A.25.25 0 0 1 9 11.744V9.256zM.379.484A.673.673 0 0 1 .994 0h12.012c.273 0 .548.214.615.484L14 2H0L.379.484z"></path></symbol><symbol viewBox="0 0 20 20" id="evernote"><path d="M17.339 4.307c0-1.15-1.732-1.277-1.732-1.277l-4.069-.256s-.087-1.107-.909-1.492c-.822-.383-1.726-.266-2.376-.26s-.803.835-.803 1.617c0 .781.014 1.684.014 2.25 0 1.018-.447 1.449-1.566 1.449H3.591c-.645-.041-1.147.064-1.147.586 0 .523.759 4.973 1.801 6 .605.596 4.305 1.014 5.084 1.014s.519-2.301.736-2.301c.217 0 .454 1.299 1.682 1.603 1.226.307 2.864.25 2.951 1.123.113 1.152.217 2.642-.541 2.748l-1.716.068c-1.176-.084-.86-1.369-.341-1.369s.779-.019.779-.019l.065-1.406s-2.693-.318-2.807 1.498c-.105 1.66.18 2.443.389 2.613.209.172.571.504 3.869.504 4.647 0 2.944-13.543 2.944-14.693zM15.44 10.32c-.182.196-.842-.32-1.472-.32s-1.311.334-1.471.113c-.16-.219.146-1.99 1.334-1.99s1.793 2.004 1.609 2.197z"></path><path d="M5.804 4.166c0-.229.058-2.984.058-2.984l-3.505 3.44h2.898c.476 0 .549-.229.549-.456z"></path></symbol><symbol viewBox="0 0 16 16" id="facebook"><path d="M9.5 3H12V0H9.5C7.57 0 6 1.57 6 3.5V5H4v3h2v8h3V8h2.5l.5-3H9V3.5c0-.271.229-.5.5-.5z"></path></symbol><symbol viewBox="0 0 32 32" id="github"><path d="M16 .395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182.8.148 1.094-.347 1.094-.77 0-.381-.015-1.642-.022-2.979-4.452.968-5.391-1.888-5.391-1.888-.728-1.849-1.776-2.341-1.776-2.341-1.452-.993.11-.973.11-.973 1.606.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33.143-1.034.558-1.74 1.016-2.14-3.554-.404-7.29-1.777-7.29-7.907 0-1.747.625-3.174 1.649-4.295-.166-.403-.714-2.03.155-4.234 0 0 1.344-.43 4.401 1.64a15.353 15.353 0 0 1 4.005-.539c1.359.006 2.729.184 4.008.539 3.054-2.07 4.395-1.64 4.395-1.64.871 2.204.323 3.831.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895.574.497 1.085 1.47 1.085 2.963 0 2.141-.019 3.864-.019 4.391 0 .426.288.925 1.099.768C27.421 29.457 32 23.462 32 16.395c0-8.837-7.164-16-16-16z"></path></symbol><symbol viewBox="0 0 32 32" id="google-drive"><path d="M13.688 20L7.919 30h18.144l5.769-10zM31.012 18L21.774 2h-11.55l9.238 16zM9.069 4L0 19.712l5.775 10 9.069-15.713z"></path></symbol><symbol viewBox="0 0 16 16" id="linkedin"><path d="M6 6h2.767v1.418h.04C9.192 6.727 10.134 6 11.539 6 14.46 6 15 7.818 15 10.183V15h-2.885v-4.27c0-1.018-.021-2.329-1.5-2.329-1.502 0-1.732 1.109-1.732 2.255V15H6V6zM1 6h3v9H1V6zM4 3.5a1.5 1.5 0 1 1-3.001-.001A1.5 1.5 0 0 1 4 3.5z"></path></symbol><symbol viewBox="0 0 20 20" id="location"><path d="M10 16c3.3 0 6-2.7 6-6s-2.7-6-6-6-6 2.7-6 6 2.7 6 6 6zm0 2c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z"></path><path d="M9 0h2v6H9V0zm5 11V9h6v2h-6zm-5 3h2v6H9v-6zm-9-3V9h6v2H0z"></path></symbol><symbol viewBox="0 0 100 64" id="mail"><path d="M50.001 45.022v.001L50 45.022 0 9.464V64h100V9.465z"></path><path d="M99.497 0H.504L50 35.097z"></path></symbol><symbol viewBox="0 0 23 15" id="nav"><path d="M0 0v3h23V0H0zm0 9h23V6H0v3zm0 6h23v-3H0v3z"></path></symbol><symbol viewBox="0 0 14 20" id="pin"><path d="M7 0C3.1 0 0 3.1 0 7c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5C5.6 9.5 4.5 8.4 4.5 7S5.6 4.5 7 4.5 9.5 5.6 9.5 7 8.4 9.5 7 9.5z"></path></symbol><symbol viewBox="0 0 11.9 11.9" id="plus"><path d="M4.9 6.9l.1 5h2V7h4.9V5H7v-.1h-.1V0h-2v4.9H0v2h4.9z"></path></symbol><symbol viewBox="0 0 100 100" id="rss"><circle cx="24.512" cy="75.486" r="8.997"></circle><path d="M15.519 39.506v11.992c18.186 0 32.983 14.797 32.983 32.984h11.994c0-24.8-20.182-44.976-44.977-44.976z"></path><path d="M15.519 15.518v11.994c31.413 0 56.968 25.556 56.968 56.971h11.995c-.001-38.027-30.936-68.965-68.963-68.965z"></path></symbol><symbol viewBox="0 0 32 32" id="search"><path d="M30.976 28.608l-9.984-9.984a11.16 11.16 0 0 0 2.24-6.72c0-6.272-5.056-11.328-11.328-11.328S.512 5.632.512 11.904 5.568 23.232 11.84 23.232c2.496 0 4.8-.832 6.72-2.24l9.984 9.984c.256.256.704.448 1.152.448s.768-.192 1.088-.32l.128-.128c.704-.64.704-1.728.064-2.368zM11.84 19.776c-4.352 0-7.872-3.52-7.872-7.872s3.52-7.872 7.872-7.872c4.416 0 7.872 3.456 7.872 7.872 0 4.288-3.52 7.872-7.872 7.872z"></path></symbol><symbol viewBox="0 0 25.9 24.6" id="star"><path d="M4.9 24.6L8 15.2-.1 9.4h9.9L12.9 0 16 9.4h10l-8.1 5.8 3.1 9.4-8-5.8-8.1 5.8zm8-7l6.2 4.4-2.3-7.2 6.1-4.4h-7.6L13 3.2l-2.3 7.2H3.1l6.1 4.4L6.9 22l6-4.4z"></path></symbol><symbol viewBox="0 0 22.8 21.7" id="star-filled"><path d="M11.4 16.6l-7 5.1L7 13.4 0 8.3h8.7L11.4 0l2.7 8.3h8.7l-7 5.1 2.7 8.3z"></path></symbol><symbol viewBox="0 0 16 16" id="twitter"><path d="M16 3.538a6.461 6.461 0 0 1-1.884.516 3.301 3.301 0 0 0 1.444-1.816 6.607 6.607 0 0 1-2.084.797 3.28 3.28 0 0 0-2.397-1.034 3.28 3.28 0 0 0-3.197 4.028 9.321 9.321 0 0 1-6.766-3.431 3.284 3.284 0 0 0 1.015 4.381A3.301 3.301 0 0 1 .643 6.57v.041A3.283 3.283 0 0 0 3.277 9.83a3.291 3.291 0 0 1-1.485.057 3.293 3.293 0 0 0 3.066 2.281 6.586 6.586 0 0 1-4.862 1.359 9.286 9.286 0 0 0 5.034 1.475c6.037 0 9.341-5.003 9.341-9.341 0-.144-.003-.284-.009-.425a6.59 6.59 0 0 0 1.637-1.697z"></path></symbol><symbol viewBox="0 0 14 16" id="user"><path d="M14 16c0-5-3.1-7-7-7s-7 2-7 7h14zM7 8c2.2 0 4-1.8 4-4S9.2 0 7 0 3 1.8 3 4s1.8 4 4 4z"></path></symbol><symbol viewBox="0 0 52 36" id="video"><title>video</title><path d="M49 0H3C1.3 0 0 1.3 0 3v30c0 1.7 1.3 3 3 3h46c1.7 0 3-1.3 3-3V3c0-1.7-1.3-3-3-3zM31.7 18.7l-11.1 6.6c-.7.4-.5.1-.5-.7V11.4c0-.8-.1-1.1.5-.7l10.8 6.6c.6.4.9 1 .3 1.4z"></path></symbol><symbol viewBox="0 0 73 73" id="website"><path d="M64.7 13.3c-.6-.8-1.3-1.5-2-2.2C56.1 4.3 46.8 0 36.5 0S16.9 4.3 10.3 11.1c-.7.7-1.4 1.4-2 2.2C3.1 19.6 0 27.7 0 36.5s3.1 16.9 8.3 23.2c.6.8 1.3 1.5 2 2.2C16.9 68.7 26.2 73 36.5 73s19.6-4.3 26.2-11.1c.7-.7 1.4-1.4 2-2.2 5.2-6.3 8.3-14.4 8.3-23.2s-3.1-16.9-8.3-23.2zM47 68.3c3-2.8 5.5-6.8 7.4-11.6 2.2 1 4.1 2.1 5.9 3.4-3.6 3.6-8.2 6.5-13.3 8.2zM12.7 60c1.8-1.3 3.8-2.4 5.9-3.4 1.9 4.8 4.4 8.8 7.4 11.6-5.1-1.6-9.7-4.5-13.3-8.2zM26 4.7c-3 2.8-5.5 6.8-7.4 11.6-2.2-1-4.1-2.1-5.9-3.4 3.6-3.6 8.2-6.5 13.3-8.2zM60.3 13c-1.8 1.3-3.8 2.4-5.9 3.4C52.5 11.5 50 7.6 47 4.7c5.1 1.7 9.7 4.6 13.3 8.3zM35 35H18c.1-5.3 1-10.3 2.3-14.8 4.5 1.6 9.4 2.6 14.7 2.7V35zm0 3v12c-5.2.2-10.2 1.1-14.7 2.7C19 48.3 18.2 43.3 18 38h17zm3 0h17c-.1 5.3-1 10.3-2.3 14.8-4.5-1.6-9.4-2.6-14.7-2.7V38zm0-3V23c5.2-.2 10.2-1.1 14.7-2.7C54 24.7 54.8 29.7 55 35H38zm13.7-17.6c-4.1 1.5-8.8 2.4-13.7 2.5V3.1c5.7.8 10.6 6.3 13.7 14.3zM35 20c-4.9-.2-9.6-1.1-13.7-2.5 3.1-8 8-13.5 13.7-14.3V20zM21.3 55.6c4.1-1.5 8.8-2.4 13.7-2.5V70c-5.7-.9-10.6-6.4-13.7-14.4zM38 53c4.9.2 9.6 1.1 13.7 2.5-3.1 8-8 13.5-13.7 14.3V53zM17.6 19.2C16.1 23.9 15.2 29.3 15 35H3c.3-7.5 3.1-14.4 7.6-19.8 2.1 1.5 4.5 2.8 7 4zM15 38c.1 5.7 1 11.1 2.6 15.8-2.5 1.1-4.8 2.4-6.9 4C6.2 52.4 3.4 45.5 3 38h12zm40.4 15.8c1.5-4.7 2.4-10.1 2.6-15.8h12c-.3 7.5-3.1 14.4-7.6 19.8-2.1-1.5-4.5-2.8-7-4zM58 35c-.1-5.7-1-11.1-2.6-15.8 2.5-1.1 4.8-2.4 6.9-4 4.5 5.4 7.3 12.3 7.6 19.8H58z"></path></symbol></svg>
+
+  </div>
+    <header class="headerV3 u-navDesktop">
+  <div class="page-container">
+    
+                <div class="headerV3-ad"> 
+            <div class="hidden-xs hidden-sm text-center">
+              <!-- BEGIN JQUERY HOME MODS -->
+<script>
+$( document ).ready(function() {
+if (document.location.pathname.length == 1) {
+$('.panel-body:eq(3)').attr('id', 'jobalerts');
+$('.panel:first').before('<div class="row"><div class="col-md-12"><div class="clearfix"><a href="#jobalerts" onclick="ga(\'send\', \'event\', \'Job Alerts\', \'click\', \'Job Page\');"><span class="glyphicon glyphicon-envelope"></span>   Get email job alerts by city and category!</a></div></div></div>');
+}
+});
+</script>
+            </div>
+          </div>
+
+    <div class="headerV3-wrapper">
+        <div class="headerV3-logo">
+          <a class="header-logo" href="https://www.dataprivacycareers.com"><img border="0" alt="DataPrivacyCareers.com" src="https://d6dyoorq84mou.cloudfront.net/uploads/tenant/logo/817/dpc-website-logo-500.jpg" /></a>
+        </div>
+        <div class="headerV3-nav">
+          <ul>
+             
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com">All Jobs</a>
+</li>
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com/post">Post a Job</a>
+</li>
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com/products">Packages</a>
+</li>
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com/pages/277-about">About</a>
+</li>
+      <li class="twitter">
+        <a href="https://twitter.com/dataprivacyfeed" class="twitter-follow-button" data-show-count="true" data-lang="en"></a>
+</li>
+
+
+
+
+          </ul>
+        </div>
+      <div class="headerV3-userNav">
+        <ul data-js="navLinks">
+          
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <svg class="u-mr--small icon icon--align icon-employers"><use xlink:href="#employers"></use></svg>
+      <span class="hidden-xs">Employers <svg class="u-ml--xsmall icon icon--small icon-flip"><use xlink:href="#arrow-down"></use></svg></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a role="button" data-remote="true" href="/employers/login">Log In</a></li>
+      <li><a role="button" data-remote="true" href="/employers/new">Create Employer Account</a></li>
+    </ul>
+  </li>
+      
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="u-navMobile">
+  
+<nav class="navbar navbar-default">
+  <div class="page-container">
+      <div class="navbar-header">
+        <div class="header-mobileToggle">
+          <a role="button" data-toggle="collapse" href="#header-nav" aria-expanded="false">
+            <span><svg class="icon icon--large"><use xlink:href="#nav"></use></svg></span>
+            <span class="hidden"><svg class="icon icon--large"><use xlink:href="#close"></use></svg></span>
+          </a>
+        </div>
+        <a class="header-logo" href="https://www.dataprivacycareers.com"><img border="0" alt="DataPrivacyCareers.com" src="https://d6dyoorq84mou.cloudfront.net/uploads/tenant/logo/817/dpc-website-logo-500.jpg" /></a>
+      </div>
+
+        <div id="header-nav" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav" data-js="navLinks">
+            
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com">All Jobs</a>
+</li>
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com/post">Post a Job</a>
+</li>
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com/products">Packages</a>
+</li>
+      <li class="nav-item">
+        <a href="http://www.dataprivacycareers.com/pages/277-about">About</a>
+</li>
+      <li class="twitter">
+        <a href="https://twitter.com/dataprivacyfeed" class="twitter-follow-button" data-show-count="true" data-lang="en"></a>
+</li>
+
+
+
+
+          </ul>
+        </div>
+    <ul class="header-right">
+      
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <svg class="u-mr--small icon icon--align icon-employers"><use xlink:href="#employers"></use></svg>
+      <span class="hidden-xs">Employers <svg class="u-ml--xsmall icon icon--small icon-flip"><use xlink:href="#arrow-down"></use></svg></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-right">
+      <li><a role="button" data-remote="true" href="/employers/login">Log In</a></li>
+      <li><a role="button" data-remote="true" href="/employers/new">Create Employer Account</a></li>
+    </ul>
+  </li>
+      
+    </ul>
+  </div>
+</nav>
+</div>
+
+
+  
+  <div id="homepage">
+      <section class="hero slim-hero" style="background: linear-gradient(120deg, #005981, #267fa7);"  id="widget_2407">
+  <div class="page-container">
+    <div class="text-center u-contrast">
+      <div class="">
+        
+        
+      </div>
+      <div class="">
+        <form role="form" class="siteSearch" action="/jobs/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  <div class="siteSearch-keyword">
+    <input type="text" name="q" id="q" class="form-control input-lg input-preserve" placeholder="Keywords" />
+    <svg class="icon siteSearch-labelIcon"><use xlink:href="#search"></use></svg>
+  </div>
+
+  
+  <div class="siteSearch-location dropdown">
+      <a href="#" class="hidden" data-toggle="dropdown"></a>
+      <input type="text" name="l" id="l" class="form-control input-lg input-preserve location-input" placeholder="Location" />
+      <svg class="icon siteSearch-labelIcon"><use xlink:href="#pin"></use></svg>
+  </div>
+
+  <div class="siteSearch-distance">
+    <div class="dropdown">
+      <a href="#" class="btn btn-lg distance-btn dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <svg class="icon icon--align"><use xlink:href="#location"></use></svg>
+      <span data-js="distanceLabel">Distance</span>
+      <svg class="icon icon--small icon-flip"><use xlink:href="#arrow-down"></use></svg>
+     </a>
+      <ul class="dropdown-menu siteSearch-dropdown">
+        <li><a href="#" data-distance="10">10 Miles</a></li>
+        <li><a href="#" data-distance="20">20 Miles</a></li>
+        <li><a href="#" data-distance="50">50 Miles</a></li>
+        <li><a href="#" data-distance="100">100 Miles</a></li>
+        <li><a href="#" data-distance="250">250 Miles</a></li>
+        <li><a href="#" data-distance="9999">Any</a></li>
+      </ul>
+    </div>
+    <input type="hidden" name="d" id="d" />
+  </div>
+
+  
+  
+  
+  <div class="siteSearch-submit">
+    <button class="btn btn-lg btn-success">Search</button>
+  </div>
+  <input type="hidden" name="long" id="long" />
+  <input type="hidden" name="lat" id="lat" />
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+    <div class="page-content">
+      <div class="page-container">
+        <div class="row">
+          <div class="col-md-9">
+                <div class="panel panel-default panel-expand"  id="widget_2408">
+    <div class="panel-body">
+      <h3 class="u-mt--remove u-mb--large">Latest Jobs</h3>
+      <ul class="jobList">
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1145792-information-security-privacy-audit-manager-at-facebook"><img border="0" class="img-responsive" alt="Facebook" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1145792-information-security-privacy-audit-manager-at-facebook"><strong>Information Security &amp; Privacy Audit Manager</strong></a><br>
+        Facebook
+      </div>
+      <div class="jobList-location text-muted">Menlo Park, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 17</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1145790-associate-compliance-and-privacy-officer-at-aria-health"><img border="0" class="img-responsive" alt="Aria Health" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1145790-associate-compliance-and-privacy-officer-at-aria-health"><strong>Associate Compliance and Privacy Officer</strong></a><br>
+        Aria Health
+      </div>
+      <div class="jobList-location text-muted">Philadelphia, Pennsylvania</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 17</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1145791-admin-coordinator-audit-compliance-and-privacy-at-university-of-pennsylvania"><img border="0" class="img-responsive" alt="University of Pennsylvania" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1145791-admin-coordinator-audit-compliance-and-privacy-at-university-of-pennsylvania"><strong>Admin Coordinator, Audit, Compliance and Privacy</strong></a><br>
+        University of Pennsylvania
+      </div>
+      <div class="jobList-location text-muted">Philadelphia, Pennsylvania</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 16</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1145789-chief-privacy-counsel-at-intuit"><img border="0" class="img-responsive" alt="Intuit" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1145789-chief-privacy-counsel-at-intuit"><strong>Chief Privacy Counsel</strong></a><br>
+        Intuit
+      </div>
+      <div class="jobList-location text-muted">Mountain View, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 16</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1145793-data-privacy-and-compliance-program-manager-at-rei"><img border="0" class="img-responsive" alt="REI" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1145793-data-privacy-and-compliance-program-manager-at-rei"><strong>Data Privacy and Compliance Program Manager</strong></a><br>
+        REI
+      </div>
+      <div class="jobList-location text-muted">Kent, Washington</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 16</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1140154-data-privacy-officer-at-sabre"><img border="0" class="img-responsive" alt="Sabre" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1140154-data-privacy-officer-at-sabre"><strong>Data Privacy Officer</strong></a><br>
+        Sabre
+      </div>
+      <div class="jobList-location text-muted">Fort Worth, Texas</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 16</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1140156-associate-healthcare-privacy-at-bakerhostetler"><img border="0" class="img-responsive" alt="BakerHostetler" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1140156-associate-healthcare-privacy-at-bakerhostetler"><strong>Associate - Healthcare Privacy</strong></a><br>
+        BakerHostetler
+      </div>
+      <div class="jobList-location text-muted">Houston, Texas</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 16</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1081429-core-os-machine-learning-and-differential-privacy-engineer-at-apple"><img border="0" class="img-responsive" alt="Apple" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1081429-core-os-machine-learning-and-differential-privacy-engineer-at-apple"><strong>Core OS Machine Learning and Differential Privacy Engineer</strong></a><br>
+        Apple
+      </div>
+      <div class="jobList-location text-muted">San Jose, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 14</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1081431-privacy-analyst-sr-at-childrens-hospital-los-angeles"><img border="0" class="img-responsive" alt="Childrens Hospital Los Angeles" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1081431-privacy-analyst-sr-at-childrens-hospital-los-angeles"><strong>Privacy Analyst, Sr</strong></a><br>
+        Childrens Hospital Los Angeles
+      </div>
+      <div class="jobList-location text-muted">Los Angeles, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 14</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1103537-operations-compliance-privacy-officer-at-legacytexas"><img border="0" class="img-responsive" alt="LegacyTexas" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1103537-operations-compliance-privacy-officer-at-legacytexas"><strong>Operations Compliance &amp; Privacy Officer</strong></a><br>
+        LegacyTexas
+      </div>
+      <div class="jobList-location text-muted">Plano, Texas</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 14</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1081430-counsel-privacy-at-nbcuniversal"><img border="0" class="img-responsive" alt="NBCUniversal" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1081430-counsel-privacy-at-nbcuniversal"><strong>Counsel, Privacy</strong></a><br>
+        NBCUniversal
+      </div>
+      <div class="jobList-location text-muted">New York, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 14</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1081428-health-records-privacy-administrator-at-trihealth"><img border="0" class="img-responsive" alt="TriHealth" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1081428-health-records-privacy-administrator-at-trihealth"><strong>Health Records Privacy Administrator</strong></a><br>
+        TriHealth
+      </div>
+      <div class="jobList-location text-muted">Newark, New Jersey</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 14</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1032375-privacy-officer-at-here"><img border="0" class="img-responsive" alt="HERE" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1032375-privacy-officer-at-here"><strong>Privacy Officer</strong></a><br>
+        HERE
+      </div>
+      <div class="jobList-location text-muted">Chicago, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1005834-chief-privacy-officer-at-leidos"><img border="0" class="img-responsive" alt="Leidos" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1005834-chief-privacy-officer-at-leidos"><strong>Chief Privacy Officer</strong></a><br>
+        Leidos
+      </div>
+      <div class="jobList-location text-muted">Reston, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1005844-senior-consultant-data-privacy-at-focal-point-data-risk-llc"><img border="0" class="img-responsive" alt="Focal Point Data Risk LLC" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1005844-senior-consultant-data-privacy-at-focal-point-data-risk-llc"><strong>Senior Consultant Data Privacy</strong></a><br>
+        Focal Point Data Risk LLC
+      </div>
+      <div class="jobList-location text-muted">Newport Beach, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1081812-software-engineer-data-privacy-at-lyft-corporate"><img border="0" class="img-responsive" alt="Lyft Corporate" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1081812-software-engineer-data-privacy-at-lyft-corporate"><strong>Software Engineer: Data Privacy</strong></a><br>
+        Lyft Corporate
+      </div>
+      <div class="jobList-location text-muted">San Francisco, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1005959-senior-cybersecurity-solutions-architect-at-ibm"><img border="0" class="img-responsive" alt="IBM" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1005959-senior-cybersecurity-solutions-architect-at-ibm"><strong>Senior Cybersecurity Solutions Architect</strong></a><br>
+        IBM
+      </div>
+      <div class="jobList-location text-muted">Arlington, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1000414-associate-director-privacy-and-regulatory-affairs-at-university-of-miami"><img border="0" class="img-responsive" alt="University of Miami" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1000414-associate-director-privacy-and-regulatory-affairs-at-university-of-miami"><strong>Associate Director, Privacy and Regulatory Affairs</strong></a><br>
+        University of Miami
+      </div>
+      <div class="jobList-location text-muted">Coral Gables, Florida</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 09</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1003548-legal-counsel-privacy-at-cvs"><img border="0" class="img-responsive" alt="CVS" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1003548-legal-counsel-privacy-at-cvs"><strong>Legal Counsel - Privacy</strong></a><br>
+        CVS
+      </div>
+      <div class="jobList-location text-muted">Northbrook, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 09</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1000417-privacy-investigation-manager-at-uc-davis-health-system"><img border="0" class="img-responsive" alt="UC DAVIS HEALTH SYSTEM" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1000417-privacy-investigation-manager-at-uc-davis-health-system"><strong>Privacy &amp; Investigation Manager</strong></a><br>
+        UC DAVIS HEALTH SYSTEM
+      </div>
+      <div class="jobList-location text-muted">Sacramento, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 09</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1003547-ads-and-privacy-counsel-at-facebook"><img border="0" class="img-responsive" alt="Facebook" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1003547-ads-and-privacy-counsel-at-facebook"><strong>Ads and Privacy Counsel</strong></a><br>
+        Facebook
+      </div>
+      <div class="jobList-location text-muted">Menlo Park, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 09</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1003545-privacy-investigator-at-aetna"><img border="0" class="img-responsive" alt="Aetna" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1003545-privacy-investigator-at-aetna"><strong>Privacy Investigator</strong></a><br>
+        Aetna
+      </div>
+      <div class="jobList-location text-muted">Hartford, Connecticut</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 09</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1000420-chief-privacy-officer-at-square"><img border="0" class="img-responsive" alt="Square" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1000420-chief-privacy-officer-at-square"><strong>Chief Privacy Officer</strong></a><br>
+        Square
+      </div>
+      <div class="jobList-location text-muted">San Francisco, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 08</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1000419-legal-counsel-privacy-compliance-at-philips"><img border="0" class="img-responsive" alt="Philips" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1000419-legal-counsel-privacy-compliance-at-philips"><strong>Legal Counsel, Privacy &amp; Compliance</strong></a><br>
+        Philips
+      </div>
+      <div class="jobList-location text-muted">Markham, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 08</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1000418-automotive-cybersecurity-expert-at-university-of-michigan"><img border="0" class="img-responsive" alt="University of Michigan" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1000418-automotive-cybersecurity-expert-at-university-of-michigan"><strong>Automotive Cybersecurity Expert</strong></a><br>
+        University of Michigan
+      </div>
+      <div class="jobList-location text-muted">Ann Arbor, Michigan</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 08</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/1000416-privacy-and-compliance-analyst-at-ultimate-software"><img border="0" class="img-responsive" alt="Ultimate Software" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/1000416-privacy-and-compliance-analyst-at-ultimate-software"><strong>PRIVACY AND COMPLIANCE ANALYST</strong></a><br>
+        Ultimate Software
+      </div>
+      <div class="jobList-location text-muted">Fort Lauderdale, Florida</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 08</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/998217-it-audit-manager-security-privacy-at-sourcewave"><img border="0" class="img-responsive" alt="Sourcewave" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/998217-it-audit-manager-security-privacy-at-sourcewave"><strong>IT Audit Manager - Security &amp; Privacy</strong></a><br>
+        Sourcewave
+      </div>
+      <div class="jobList-location text-muted">Malvern, Pennsylvania</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 08</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/998220-privacy-and-data-counsel-at-sony-interactive-entertainment-playstation"><img border="0" class="img-responsive" alt="Sony Interactive Entertainment PlayStation" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/998220-privacy-and-data-counsel-at-sony-interactive-entertainment-playstation"><strong>Privacy and Data Counsel</strong></a><br>
+        Sony Interactive Entertainment PlayStation
+      </div>
+      <div class="jobList-location text-muted">San Mateo, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 07</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/998221-project-manager-global-privacy-at-pfizer-inc"><img border="0" class="img-responsive" alt="Pfizer Inc." src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/998221-project-manager-global-privacy-at-pfizer-inc"><strong>Project Manager, Global Privacy</strong></a><br>
+        Pfizer Inc.
+      </div>
+      <div class="jobList-location text-muted">New York, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 07</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/998219-cybersecurity-technology-the-graduate-school-adjunct-at-university-of-maryland-university-college"><img border="0" class="img-responsive" alt="University of Maryland University College" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/998219-cybersecurity-technology-the-graduate-school-adjunct-at-university-of-maryland-university-college"><strong>Cybersecurity Technology, The Graduate School, Adjunct</strong></a><br>
+        University of Maryland University College
+      </div>
+      <div class="jobList-location text-muted">Washington, District of Columbia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 07</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995158-cybersecurity-embedded-software-engineer-at-ford"><img border="0" class="img-responsive" alt="Ford" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995158-cybersecurity-embedded-software-engineer-at-ford"><strong>Cybersecurity Embedded Software Engineer</strong></a><br>
+        Ford
+      </div>
+      <div class="jobList-location text-muted">Dearborn, Michigan</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 07</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/998218-privacy-analyst-at-amerihealth-caritas"><img border="0" class="img-responsive" alt="AmeriHealth Caritas" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/998218-privacy-analyst-at-amerihealth-caritas"><strong>Privacy Analyst</strong></a><br>
+        AmeriHealth Caritas
+      </div>
+      <div class="jobList-location text-muted">Philadelphia, Pennsylvania</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 07</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995157-hipaa-privacy-officer-at-dana-farber-cancer-institute"><img border="0" class="img-responsive" alt="Dana-Farber Cancer Institute" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995157-hipaa-privacy-officer-at-dana-farber-cancer-institute"><strong>HIPAA Privacy Officer</strong></a><br>
+        Dana-Farber Cancer Institute
+      </div>
+      <div class="jobList-location text-muted">Brookline, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 06</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995164-applied-cybersecurity-intern-at-mitre-corporation"><img border="0" class="img-responsive" alt="Mitre Corporation" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995164-applied-cybersecurity-intern-at-mitre-corporation"><strong>Applied Cybersecurity Intern</strong></a><br>
+        Mitre Corporation
+      </div>
+      <div class="jobList-location text-muted">Rockville, Maryland</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 06</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995161-regulatory-privacy-analyst-at-sutter-health"><img border="0" class="img-responsive" alt="Sutter Health" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995161-regulatory-privacy-analyst-at-sutter-health"><strong>Regulatory Privacy Analyst</strong></a><br>
+        Sutter Health
+      </div>
+      <div class="jobList-location text-muted">Berkeley, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 06</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995160-coordinator-privacy-office-him-administration-at-cambridge-health-alliance"><img border="0" class="img-responsive" alt="Cambridge Health Alliance" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995160-coordinator-privacy-office-him-administration-at-cambridge-health-alliance"><strong>Coordinator Privacy Office/HIM Administration</strong></a><br>
+        Cambridge Health Alliance
+      </div>
+      <div class="jobList-location text-muted">Somerville, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 06</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995159-it-privacy-and-security-administrator-at-leica-biosystems"><img border="0" class="img-responsive" alt="Leica Biosystems" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995159-it-privacy-and-security-administrator-at-leica-biosystems"><strong>IT Privacy and Security Administrator</strong></a><br>
+        Leica Biosystems
+      </div>
+      <div class="jobList-location text-muted">Vista, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 06</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/995163-in-house-privacy-and-compliance-attorney-at-hilton"><img border="0" class="img-responsive" alt="Hilton" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/995163-in-house-privacy-and-compliance-attorney-at-hilton"><strong>In House Privacy and Compliance Attorney</strong></a><br>
+        Hilton
+      </div>
+      <div class="jobList-location text-muted">Orlando, Florida</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 06</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900292-mgr-privacy-and-compliance-at-presence-health"><img border="0" class="img-responsive" alt="Presence Health" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900292-mgr-privacy-and-compliance-at-presence-health"><strong>MGR PRIVACY AND COMPLIANCE</strong></a><br>
+        Presence Health
+      </div>
+      <div class="jobList-location text-muted">Chicago, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 03</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900299-technical-program-manager-privacy-infrastructure-engineering-at-google"><img border="0" class="img-responsive" alt="Google" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900299-technical-program-manager-privacy-infrastructure-engineering-at-google"><strong>Technical Program Manager, Privacy Infrastructure Engineering</strong></a><br>
+        Google
+      </div>
+      <div class="jobList-location text-muted">Kirkland, Washington</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 03</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/982069-senior-data-privacy-counsel-at-milliporesigma-merck"><img border="0" class="img-responsive" alt="MilliporeSigma  - Merck " src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/982069-senior-data-privacy-counsel-at-milliporesigma-merck"><strong>Senior Data Privacy Counsel</strong></a><br>
+        MilliporeSigma  - Merck 
+      </div>
+      <div class="jobList-location text-muted">Billerica, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 03</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/977399-privacy-breach-consultant-at-mbl-technologies"><img border="0" class="img-responsive" alt="MBL Technologies" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/977399-privacy-breach-consultant-at-mbl-technologies"><strong>Privacy Breach Consultant</strong></a><br>
+        MBL Technologies
+      </div>
+      <div class="jobList-location text-muted">Arlington County, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 03</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900290-data-privacy-cyber-security-associate-at-white-case"><img border="0" class="img-responsive" alt="White &amp; Case" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900290-data-privacy-cyber-security-associate-at-white-case"><strong>Data, Privacy &amp; Cyber Security Associate</strong></a><br>
+        White &amp; Case
+      </div>
+      <div class="jobList-location text-muted">Washington, District of Columbia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 03</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/974323-cybersecurity-specialist-at-rolls-royce"><img border="0" class="img-responsive" alt="Rolls-Royce" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/974323-cybersecurity-specialist-at-rolls-royce"><strong>Cybersecurity Specialist</strong></a><br>
+        Rolls-Royce
+      </div>
+      <div class="jobList-location text-muted">Indianapolis, Indiana</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 02</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/977397-security-privacy-manager-at-les-schwab"><img border="0" class="img-responsive" alt="Les Schwab" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/977397-security-privacy-manager-at-les-schwab"><strong>Security &amp; Privacy Manager</strong></a><br>
+        Les Schwab
+      </div>
+      <div class="jobList-location text-muted">Bend, Oregon</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 02</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/974067-privacy-foia-analyst-at-techop-solutions-international"><img border="0" class="img-responsive" alt="TechOp Solutions International" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/974067-privacy-foia-analyst-at-techop-solutions-international"><strong>Privacy &amp; FOIA Analyst</strong></a><br>
+        TechOp Solutions International
+      </div>
+      <div class="jobList-location text-muted">Washington, District of Columbia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 01</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/974064-regional-privacy-officer-eastern-region-central-division-at-tenet-health"><img border="0" class="img-responsive" alt="Tenet Health" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/974064-regional-privacy-officer-eastern-region-central-division-at-tenet-health"><strong>Regional Privacy Officer, Eastern Region - Central Division</strong></a><br>
+        Tenet Health
+      </div>
+      <div class="jobList-location text-muted">Birmingham, Alabama</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 01</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/974065-cybersecurity-privacy-experienced-associate-at-pwc"><img border="0" class="img-responsive" alt="PwC" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/974065-cybersecurity-privacy-experienced-associate-at-pwc"><strong>Cybersecurity &amp; Privacy - Experienced Associate</strong></a><br>
+        PwC
+      </div>
+      <div class="jobList-location text-muted">New York, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 01</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/974066-privacy-counsel-at-google"><img border="0" class="img-responsive" alt="Google" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/974066-privacy-counsel-at-google"><strong>Privacy Counsel</strong></a><br>
+        Google
+      </div>
+      <div class="jobList-location text-muted">San Francisco, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 01</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971432-privacy-information-security-business-continuity-director-vice-president-at-state-street"><img border="0" class="img-responsive" alt="State Street" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971432-privacy-information-security-business-continuity-director-vice-president-at-state-street"><strong>Privacy, Information Security &amp; Business Continuity Director, Vice President</strong></a><br>
+        State Street
+      </div>
+      <div class="jobList-location text-muted">Boston, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Feb 01</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971433-director-of-privacy-at-christus-health"><img border="0" class="img-responsive" alt="Christus Health" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971433-director-of-privacy-at-christus-health"><strong>Director of Privacy</strong></a><br>
+        Christus Health
+      </div>
+      <div class="jobList-location text-muted">Irving, Texas</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 31</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/973075-associate-director-of-privacy-at-stanford-university"><img border="0" class="img-responsive" alt="Stanford University" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/973075-associate-director-of-privacy-at-stanford-university"><strong>Associate Director of Privacy</strong></a><br>
+        Stanford University
+      </div>
+      <div class="jobList-location text-muted">Stanford, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 31</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/973076-program-manager-product-testing-privacy-at-consumer-reports"><img border="0" class="img-responsive" alt="Consumer Reports" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/973076-program-manager-product-testing-privacy-at-consumer-reports"><strong>Program Manager, Product Testing - Privacy</strong></a><br>
+        Consumer Reports
+      </div>
+      <div class="jobList-location text-muted">Yonkers, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 31</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/973077-assistant-or-associate-professor-cyber-security-and-privacy-at-university-of-central-florida"><img border="0" class="img-responsive" alt="University of Central Florida" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/973077-assistant-or-associate-professor-cyber-security-and-privacy-at-university-of-central-florida"><strong>Assistant or Associate Professor, Cyber Security and Privacy</strong></a><br>
+        University of Central Florida
+      </div>
+      <div class="jobList-location text-muted">Orlando, Florida</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 31</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/973078-senior-privacy-compliance-analyst-at-george-washington-university"><img border="0" class="img-responsive" alt="George Washington University" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/973078-senior-privacy-compliance-analyst-at-george-washington-university"><strong>Senior Privacy &amp; Compliance Analyst</strong></a><br>
+        George Washington University
+      </div>
+      <div class="jobList-location text-muted">Ashburn, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 31</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971435-privacy-manager-at-mcgraw-hill-education"><img border="0" class="img-responsive" alt="McGraw-Hill Education" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971435-privacy-manager-at-mcgraw-hill-education"><strong>Privacy Manager</strong></a><br>
+        McGraw-Hill Education
+      </div>
+      <div class="jobList-location text-muted">New York, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 30</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971439-senior-privacy-analyst-consumer-digital-technology-nike-at-nike"><img border="0" class="img-responsive" alt="Nike" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971439-senior-privacy-analyst-consumer-digital-technology-nike-at-nike"><strong>Senior Privacy Analyst Consumer Digital Technology Nike</strong></a><br>
+        Nike
+      </div>
+      <div class="jobList-location text-muted">Portland, Oregon</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 30</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971436-health-information-privacy-officer-at-hdr"><img border="0" class="img-responsive" alt="HDR" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971436-health-information-privacy-officer-at-hdr"><strong>Health Information Privacy Officer</strong></a><br>
+        HDR
+      </div>
+      <div class="jobList-location text-muted">San Diego, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 30</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971437-healthcare-privacy-auditor-at-elwyn"><img border="0" class="img-responsive" alt="Elwyn" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971437-healthcare-privacy-auditor-at-elwyn"><strong>Healthcare Privacy Auditor</strong></a><br>
+        Elwyn
+      </div>
+      <div class="jobList-location text-muted">Portland, Oregon</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 30</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/971434-privacy-it-operations-compliance-manager-vice-president-at-mufg"><img border="0" class="img-responsive" alt="MUFG" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/971434-privacy-it-operations-compliance-manager-vice-president-at-mufg"><strong>Privacy IT/Operations Compliance Manager, Vice President</strong></a><br>
+        MUFG
+      </div>
+      <div class="jobList-location text-muted">San Francisco, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 30</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/959065-watson-health-at-privacy-and-security-officer"><img border="0" class="img-responsive" alt="Privacy and Security Officer" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/959065-watson-health-at-privacy-and-security-officer"><strong>Watson Health</strong></a><br>
+        Privacy and Security Officer
+      </div>
+      <div class="jobList-location text-muted">Cambridge, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 26</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/956812-privacy-paralegal-project-manager-at-nordstrom"><img border="0" class="img-responsive" alt="Nordstrom" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/956812-privacy-paralegal-project-manager-at-nordstrom"><strong>Privacy Paralegal/Project Manager</strong></a><br>
+        Nordstrom
+      </div>
+      <div class="jobList-location text-muted">Seattle, Washington</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 26</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/959064-internal-product-marketing-manager-at-cybersecurity"><img border="0" class="img-responsive" alt="Cybersecurity" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/959064-internal-product-marketing-manager-at-cybersecurity"><strong>Internal Product Marketing Manager</strong></a><br>
+        Cybersecurity
+      </div>
+      <div class="jobList-location text-muted">Atlanta, Georgia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 26</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/956813-chicago-technology-consulting-security-and-privacy-director-at-protiviti"><img border="0" class="img-responsive" alt="Protiviti" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/956813-chicago-technology-consulting-security-and-privacy-director-at-protiviti"><strong>Chicago Technology Consulting Security and Privacy Director</strong></a><br>
+        Protiviti
+      </div>
+      <div class="jobList-location text-muted">Chicago, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 26</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/954103-information-security-privacy-analyst-at-phacil"><img border="0" class="img-responsive" alt="Phacil" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/954103-information-security-privacy-analyst-at-phacil"><strong> Information Security / Privacy Analyst</strong></a><br>
+        Phacil
+      </div>
+      <div class="jobList-location text-muted">Washington, District of Columbia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 25</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/954102-corporate-compliance-at-consumer-and-community-banking-privacy-lead"><img border="0" class="img-responsive" alt="Consumer and Community Banking Privacy Lead" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/954102-corporate-compliance-at-consumer-and-community-banking-privacy-lead"><strong>Corporate Compliance</strong></a><br>
+        Consumer and Community Banking Privacy Lead
+      </div>
+      <div class="jobList-location text-muted">Wilmington, Delaware</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 25</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/954088-consulting-supervisor-security-privacy-at-rsm"><img border="0" class="img-responsive" alt="RSM" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/954088-consulting-supervisor-security-privacy-at-rsm"><strong>Consulting - Supervisor - Security &amp; Privacy</strong></a><br>
+        RSM
+      </div>
+      <div class="jobList-location text-muted">Cincinnati, Ohio</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 25</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/956810-privacy-act-specialist-at-spry-methods"><img border="0" class="img-responsive" alt="Spry Methods" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/956810-privacy-act-specialist-at-spry-methods"><strong>Privacy Act Specialist</strong></a><br>
+        Spry Methods
+      </div>
+      <div class="jobList-location text-muted">Washington, District of Columbia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 25</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/920214-director-privacy-and-education-at-adventist-health-system-corporate-office-adventist-health-system"><img border="0" class="img-responsive" alt="Adventist Health System Corporate Office- Adventist Health System" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/920214-director-privacy-and-education-at-adventist-health-system-corporate-office-adventist-health-system"><strong>Director Privacy and Education</strong></a><br>
+        Adventist Health System Corporate Office- Adventist Health System
+      </div>
+      <div class="jobList-location text-muted">Altamonte Springs, Florida</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 24</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/920212-consultant-risk-compliance-data-privacy-architecture-at-wipro"><img border="0" class="img-responsive" alt="Wipro" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/920212-consultant-risk-compliance-data-privacy-architecture-at-wipro"><strong>Consultant - Risk Compliance-Data Privacy-Architecture</strong></a><br>
+        Wipro
+      </div>
+      <div class="jobList-location text-muted">San Ramon, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 24</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/920213-privacy-analyst-corporate-privacy-at-sanford-health"><img border="0" class="img-responsive" alt="Sanford Health" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/920213-privacy-analyst-corporate-privacy-at-sanford-health"><strong>Privacy Analyst - Corporate Privacy</strong></a><br>
+        Sanford Health
+      </div>
+      <div class="jobList-location text-muted">Fargo, North Dakota</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 24</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/920772-healthcare-privacy-analyst-at-benevis"><img border="0" class="img-responsive" alt="Benevis" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/920772-healthcare-privacy-analyst-at-benevis"><strong>Healthcare Privacy Analyst</strong></a><br>
+        Benevis
+      </div>
+      <div class="jobList-location text-muted">Rochester, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 24</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/917836-privacy-counsel-job-at-novo-nordisk"><img border="0" class="img-responsive" alt="Novo Nordisk" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/917836-privacy-counsel-job-at-novo-nordisk"><strong>PRIVACY COUNSEL Job</strong></a><br>
+        Novo Nordisk
+      </div>
+      <div class="jobList-location text-muted">Princeton, New Jersey</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 23</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/917832-cybersecurity-privacy-experienced-associate-at-pwc"><img border="0" class="img-responsive" alt="PwC" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/917832-cybersecurity-privacy-experienced-associate-at-pwc"><strong>Cybersecurity &amp; Privacy - Experienced Associate</strong></a><br>
+        PwC
+      </div>
+      <div class="jobList-location text-muted">McLean, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 23</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/917833-health-information-hipaa-privacy-associate-at-benevis"><img border="0" class="img-responsive" alt="Benevis" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/917833-health-information-hipaa-privacy-associate-at-benevis"><strong>Health Information/HIPAA Privacy Associate</strong></a><br>
+        Benevis
+      </div>
+      <div class="jobList-location text-muted">Santa Rosa, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 23</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/917831-audit-and-compliance-manager-and-hipaa-privacy-officer-at-st-marys-healthcare-system-for-children"><img border="0" class="img-responsive" alt="St. Marys Healthcare System for Children" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/917831-audit-and-compliance-manager-and-hipaa-privacy-officer-at-st-marys-healthcare-system-for-children"><strong>Audit and Compliance Manager and HIPAA Privacy Officer</strong></a><br>
+        St. Marys Healthcare System for Children
+      </div>
+      <div class="jobList-location text-muted">New Hyde Park, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 23</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/913585-privacy-act-specialist-at-spry-methods-inc"><img border="0" class="img-responsive" alt="Spry Methods, Inc" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/913585-privacy-act-specialist-at-spry-methods-inc"><strong>Privacy Act Specialist</strong></a><br>
+        Spry Methods, Inc
+      </div>
+      <div class="jobList-location text-muted">McLean, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 20</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/913584-director-compliance-and-privacy-latam-at-ortho-clinical-diagnostics"><img border="0" class="img-responsive" alt="Ortho Clinical Diagnostics" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/913584-director-compliance-and-privacy-latam-at-ortho-clinical-diagnostics"><strong>Director, Compliance and Privacy LATAM</strong></a><br>
+        Ortho Clinical Diagnostics
+      </div>
+      <div class="jobList-location text-muted">Miami, Florida</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 20</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/913589-in-house-privacy-legal-intern-at-epsilon"><img border="0" class="img-responsive" alt="Epsilon" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/913589-in-house-privacy-legal-intern-at-epsilon"><strong>In-House Privacy Legal Intern</strong></a><br>
+        Epsilon
+      </div>
+      <div class="jobList-location text-muted">Chicago, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 20</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/913587-chicago-technology-consulting-security-and-privacy-associate-director-at-protiviti"><img border="0" class="img-responsive" alt="Protiviti" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/913587-chicago-technology-consulting-security-and-privacy-associate-director-at-protiviti"><strong>Chicago Technology Consulting Security and Privacy Associate Director</strong></a><br>
+        Protiviti
+      </div>
+      <div class="jobList-location text-muted">Chicago, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 20</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/911305-data-privacy-attorney-at-ledvance"><img border="0" class="img-responsive" alt="LEDVANCE" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/911305-data-privacy-attorney-at-ledvance"><strong>Data Privacy Attorney</strong></a><br>
+        LEDVANCE
+      </div>
+      <div class="jobList-location text-muted">Wilmington, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 19</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/911303-privacy-officer-at-zenefits"><img border="0" class="img-responsive" alt="Zenefits" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/911303-privacy-officer-at-zenefits"><strong>Privacy Officer</strong></a><br>
+        Zenefits
+      </div>
+      <div class="jobList-location text-muted">San Francisco, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 19</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/911307-rsm-security-and-privacy-pci-supervisor-at-rsm-us-llp"><img border="0" class="img-responsive" alt="RSM US LLP" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/911307-rsm-security-and-privacy-pci-supervisor-at-rsm-us-llp"><strong>RSM Security and Privacy PCI Supervisor</strong></a><br>
+        RSM US LLP
+      </div>
+      <div class="jobList-location text-muted">Seattle, Washington</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 19</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/911306-privacy-compliance-and-contracts-manager-at-dataxu"><img border="0" class="img-responsive" alt="DataXu" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/911306-privacy-compliance-and-contracts-manager-at-dataxu"><strong>Privacy Compliance and Contracts Manager</strong></a><br>
+        DataXu
+      </div>
+      <div class="jobList-location text-muted">Boston, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 19</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900300-information-governance-director-at-hilton-corporate"><img border="0" class="img-responsive" alt="Hilton Corporate" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900300-information-governance-director-at-hilton-corporate"><strong>Information Governance Director</strong></a><br>
+        Hilton Corporate
+      </div>
+      <div class="jobList-location text-muted">McLean, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 19</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/908291-health-records-privacy-administrator-at-aspirus"><img border="0" class="img-responsive" alt="Aspirus" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/908291-health-records-privacy-administrator-at-aspirus"><strong>Health Records Privacy Administrator</strong></a><br>
+        Aspirus
+      </div>
+      <div class="jobList-location text-muted">Corpus Christi, Texas</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 18</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/908292-project-manager-privacy-and-third-party-risk-management-at-fti-consulting-inc"><img border="0" class="img-responsive" alt="FTI Consulting, Inc." src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/908292-project-manager-privacy-and-third-party-risk-management-at-fti-consulting-inc"><strong>Project Manager- Privacy and Third-Party Risk Management</strong></a><br>
+        FTI Consulting, Inc.
+      </div>
+      <div class="jobList-location text-muted">McLean, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 18</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/908289-privacy-manager-at-deloitte-global"><img border="0" class="img-responsive" alt="Deloitte Global" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/908289-privacy-manager-at-deloitte-global"><strong>Privacy Manager</strong></a><br>
+        Deloitte Global
+      </div>
+      <div class="jobList-location text-muted">Chicago, Illinois</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 18</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/908290-associate-consultant-risk-compliance-data-privacy-architecture-at-wipro"><img border="0" class="img-responsive" alt="Wipro" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/908290-associate-consultant-risk-compliance-data-privacy-architecture-at-wipro"><strong>Associate Consultant, Risk Compliance-Data Privacy-Architecture</strong></a><br>
+        Wipro
+      </div>
+      <div class="jobList-location text-muted">Reston, Virginia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 18</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/908293-privacy-counsel-at-epsilon"><img border="0" class="img-responsive" alt="Epsilon" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/908293-privacy-counsel-at-epsilon"><strong>Privacy Counsel</strong></a><br>
+        Epsilon
+      </div>
+      <div class="jobList-location text-muted">Irving, Texas</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 18</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/907209-privacy-protection-solutions-architect-at-huawei"><img border="0" class="img-responsive" alt="Huawei" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/907209-privacy-protection-solutions-architect-at-huawei"><strong>Privacy Protection Solutions Architect</strong></a><br>
+        Huawei
+      </div>
+      <div class="jobList-location text-muted">Bellevue, Washington</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 17</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/907210-risk-manager-privacy-office-at-us-bank"><img border="0" class="img-responsive" alt="US Bank" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/907210-risk-manager-privacy-office-at-us-bank"><strong>Risk Manager, Privacy Office</strong></a><br>
+        US Bank
+      </div>
+      <div class="jobList-location text-muted">Minneapolis, Minnesota</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 17</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/907206-legal-counsel-privacy-ecommerce-and-consumer-protection-at-electronic-arts"><img border="0" class="img-responsive" alt="Electronic Arts" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/907206-legal-counsel-privacy-ecommerce-and-consumer-protection-at-electronic-arts"><strong>Legal Counsel, Privacy, Ecommerce and Consumer Protection</strong></a><br>
+        Electronic Arts
+      </div>
+      <div class="jobList-location text-muted">Redwood City, California</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 17</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/907208-research-engineer-security-and-privacy-at-bosch"><img border="0" class="img-responsive" alt="Bosch" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/907208-research-engineer-security-and-privacy-at-bosch"><strong>Research Engineer, Security and Privacy</strong></a><br>
+        Bosch
+      </div>
+      <div class="jobList-location text-muted">Pittsburgh, Pennsylvania</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 17</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900302-manager-cyber-security-privacy-at-mckinsey-company"><img border="0" class="img-responsive" alt="McKinsey &amp; Company" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900302-manager-cyber-security-privacy-at-mckinsey-company"><strong>Manager Cyber Security &amp; Privacy</strong></a><br>
+        McKinsey &amp; Company
+      </div>
+      <div class="jobList-location text-muted">New York, New York</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900291-university-hipaa-and-privacy-officer-at-university-of-oregon"><img border="0" class="img-responsive" alt="University of Oregon" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900291-university-hipaa-and-privacy-officer-at-university-of-oregon"><strong>University HIPAA and Privacy Officer</strong></a><br>
+        University of Oregon
+      </div>
+      <div class="jobList-location text-muted">Eugene, Oregon</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/900301-manager-information-protection-data-privacy-at-emerson"><img border="0" class="img-responsive" alt="Emerson" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/900301-manager-information-protection-data-privacy-at-emerson"><strong>Manager, Information Protection &amp; Data Privacy</strong></a><br>
+        Emerson
+      </div>
+      <div class="jobList-location text-muted">St. Louis, Missouri</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 13</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/898132-privacy-initiative-fellow-at-harvard-university"><img border="0" class="img-responsive" alt="Harvard University" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/898132-privacy-initiative-fellow-at-harvard-university"><strong>Privacy Initiative Fellow</strong></a><br>
+        Harvard University
+      </div>
+      <div class="jobList-location text-muted">Cambridge, Massachusetts</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 12</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/898135-education-data-privacy-security-fellow-at-new-america"><img border="0" class="img-responsive" alt="New America" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/898135-education-data-privacy-security-fellow-at-new-america"><strong>Education Data Privacy &amp; Security Fellow</strong></a><br>
+        New America
+      </div>
+      <div class="jobList-location text-muted">Washington, District of Columbia</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 12</div>
+    
+  </li>
+  <li class="job-listing ">
+    
+      <div class="jobList-media">
+        <a href="/jobs/898131-privacy-engineer-at-steelcase"><img border="0" class="img-responsive" alt="Steelcase" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a>
+      </div>
+    <div class="jobList-introWrap">
+      <div class="jobList-intro">
+        <a class="u-textLarge" href="/jobs/898131-privacy-engineer-at-steelcase"><strong>Privacy Engineer</strong></a><br>
+        Steelcase
+      </div>
+      <div class="jobList-location text-muted">Grand Rapids, Michigan</div>
+    </div>
+    <div class="jobList-date text-muted u-textNoWrap">Jan 12</div>
+    
+  </li>
+</ul>
+
+  <div class="jobs-pagination text-center">  <ul class="pagination">
+      
+      
+          <li class="active">
+  <a href="#">1</a>
+</li>
+
+          <li class="">
+  <a rel="next" href="/?page=2">2</a>
+</li>
+
+      <li>
+  <a rel="next" href="/?page=2">Next &rsaquo;</a>
+</li>
+
+      <li>
+  <a href="/?page=2">Last &raquo;</a>
+</li>
+
+    </ul>
+</div>
+
+
+    </div>
+  </div>
+
+                          <div class="panel panel-default panel-expand indeed-backfill">
+      <div class="panel-body">
+          <h3 class="u-mt--remove u-mb--regular">Latest from the Web</h3>
+          <ul class="jobList">
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0AMxpdEiXr2yirXd-iCDNdvdQrj_qscsR5JwhsindqB4pnL1AbCjQdlN4V-HjaEn9cUk3kqJxO6D9EON2Ccx6JQdKA3UtEQlRbQ1iyrxmn3MZFAnDqVCKuNkLh7bbb119AmzASgPwE6SRzaTlLaGC-2lYpWfMF5ZLZyZeGxJrqoja1Kv8_0sKn2Lu0GsUIDuzv-LcY7e7LX8KcYGxcvmXvE4EADv3IEummPOPwtdXeXg5jjDbjKw6YYviq5KKQMqXtgNBfOZSfEpzWp0f-qT1agpEMgs6OynW60qSRbg1n71a4__t3yHY4oeCWJg-TYQbX9eCOr-kBod3uDRNEsiqbKzbz8D4tEVsjNeZdhWEWrE1rvESG9hK8bFW15N7ZI-GvnKs9u-yCtYoGOlx8pPWubzIFQYZweWoJwVrNfwKcqHCI3M1NLR0vI0TyRLhCsDXo7tY0oXNjxyNI_7CYKzSDB_PC-tRYJgmgFKxSka8eaeAUNtvwsETTjbMRa2biC6qJpQjVUT8jk4r8su7l2YtkS3cCj1f87lpVrw4uypkwnsY-sid64dCiDN5iIn4rNu6JCntRvrWO9As3ZqHdoEwySBkz9f_Nb2pUNHGZUBkqOPA==&amp;p=0&amp;rjs=1&amp;atk=1b97gbkvuaff5a06&amp;utm_source=publisher&amp;utm_medium=sponsored_listings&amp;utm_campaign=sia"><img border="0" class="img-responsive" alt="Camden National Bank" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0AMxpdEiXr2yirXd-iCDNdvdQrj_qscsR5JwhsindqB4pnL1AbCjQdlN4V-HjaEn9cUk3kqJxO6D9EON2Ccx6JQdKA3UtEQlRbQ1iyrxmn3MZFAnDqVCKuNkLh7bbb119AmzASgPwE6SRzaTlLaGC-2lYpWfMF5ZLZyZeGxJrqoja1Kv8_0sKn2Lu0GsUIDuzv-LcY7e7LX8KcYGxcvmXvE4EADv3IEummPOPwtdXeXg5jjDbjKw6YYviq5KKQMqXtgNBfOZSfEpzWp0f-qT1agpEMgs6OynW60qSRbg1n71a4__t3yHY4oeCWJg-TYQbX9eCOr-kBod3uDRNEsiqbKzbz8D4tEVsjNeZdhWEWrE1rvESG9hK8bFW15N7ZI-GvnKs9u-yCtYoGOlx8pPWubzIFQYZweWoJwVrNfwKcqHCI3M1NLR0vI0TyRLhCsDXo7tY0oXNjxyNI_7CYKzSDB_PC-tRYJgmgFKxSka8eaeAUNtvwsETTjbMRa2biC6qJpQjVUT8jk4r8su7l2YtkS3cCj1f87lpVrw4uypkwnsY-sid64dCiDN5iIn4rNu6JCntRvrWO9As3ZqHdoEwySBkz9f_Nb2pUNHGZUBkqOPA==&amp;p=0&amp;rjs=1&amp;atk=1b97gbkvuaff5a06&amp;utm_source=publisher&amp;utm_medium=sponsored_listings&amp;utm_campaign=sia"><strong>Information Security Analyst</strong></a><br>
+                      Camden National Bank
+                      <div class="indeed-apply">Easily Apply</div>
+                  </div>
+                   <div class="jobList-location text-muted">Rockport, ME</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">30 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CpxZJxmQ7afqB7h7LR9suze1pRxBHjzy0EKlLpMgGh5UniK7RG4MBTopdVZNxoGDT0XIgbqua-Mlas44ugsc8IGggLO03rjeqZO0ejHznjNCDtfVmXQzJ-9vh35cG3pQH6Oy-YPynxAjCsRto3UPf6yR--FUMKz3D8T1PGwOJekgybDTbMwWvvgpHO0V1ofVBJ7us_lrcjB8zBImravrXzh_zLJ6Sd2SNeCtMdjUVRcc8x2BPClgdgLijApNeu2KDL46V6iPDwY5RXEJp0h0PfqT6mqKCNzbqC00VNrB3UOfOMPUhs7yloalLh9jAKeeuYOBQKb1WlzTYvDUURc2vb8xDfY7oQyQobLm4fUh1gVOO92vMsmRumcr5fPfx5rMU1WeTW-ODyIIGioPyBZKB471_b7MUQswjk_NRAPJ8iASQExtCrshpgw4dHrbkqSV20kjo-5MRhjVMg7H7HaNMLNYVBaX9vKqM05Jg5NyhMjeMS8a3W7X-kprC2RiX7jUdjH79MeS2hHwmL82hHysD5vASXVYNTj9fASvTj6Lbbc0r9UZ_8rl40Gebl_ZjaJEYsdn-1rYUEZIQq44XCCeppQSElO6pq-sPaqMy4OqX2ZnmJn61ZO4DYGLd8B8b4Xv1Xs_g63aQtRCQdzjACBjK8qZR9bSQ9MrTS82vBo9L19u_5OuDLxM3ZxRAuJyqhE3SSnQa9SkdDlOe8oEyJiVwK&amp;p=1&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Telenav" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CpxZJxmQ7afqB7h7LR9suze1pRxBHjzy0EKlLpMgGh5UniK7RG4MBTopdVZNxoGDT0XIgbqua-Mlas44ugsc8IGggLO03rjeqZO0ejHznjNCDtfVmXQzJ-9vh35cG3pQH6Oy-YPynxAjCsRto3UPf6yR--FUMKz3D8T1PGwOJekgybDTbMwWvvgpHO0V1ofVBJ7us_lrcjB8zBImravrXzh_zLJ6Sd2SNeCtMdjUVRcc8x2BPClgdgLijApNeu2KDL46V6iPDwY5RXEJp0h0PfqT6mqKCNzbqC00VNrB3UOfOMPUhs7yloalLh9jAKeeuYOBQKb1WlzTYvDUURc2vb8xDfY7oQyQobLm4fUh1gVOO92vMsmRumcr5fPfx5rMU1WeTW-ODyIIGioPyBZKB471_b7MUQswjk_NRAPJ8iASQExtCrshpgw4dHrbkqSV20kjo-5MRhjVMg7H7HaNMLNYVBaX9vKqM05Jg5NyhMjeMS8a3W7X-kprC2RiX7jUdjH79MeS2hHwmL82hHysD5vASXVYNTj9fASvTj6Lbbc0r9UZ_8rl40Gebl_ZjaJEYsdn-1rYUEZIQq44XCCeppQSElO6pq-sPaqMy4OqX2ZnmJn61ZO4DYGLd8B8b4Xv1Xs_g63aQtRCQdzjACBjK8qZR9bSQ9MrTS82vBo9L19u_5OuDLxM3ZxRAuJyqhE3SSnQa9SkdDlOe8oEyJiVwK&amp;p=1&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Security Manager</strong></a><br>
+                      Telenav
+                  </div>
+                   <div class="jobList-location text-muted">Santa Clara, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">26 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0ATYSEGUWxbmw24RxOM89cOUHsc8ooq3pKOx7z9RlFqvXW2ukx8SROOfbqlMyy1Y4se4lNBnIvaHo4dzJbYGyTZ4qPLbw3fLKR-mxV3IVKbUXfMCYum4FWd6AON_nyCm8Dv7sYxskHRT8Y4xoFmhoppEOEslaipiR5Ou-OHyc8-DLIBRFMKSqYcpJazf5R7PXM_8QJKFUU0o0hlZwUke8x_DkGDlepN8D05URdFtel7LE2e5icLuu7L-eHjjCzZW7EC0x4jZI48r9ZMsMNVNuO10UhAv9KgNXFc5Ju8mPgX9SrKXfQdTvN6XeDd7tH4uk5zsIG4lJ8SCYWi_PHpqB786dE-ZNvcJA8a-9X-QtvRSm-N1oJggMP1Z4p-CzpJXzhU01mUHy3TtM3cxa35Hu7d_LtEf7eZ2vsX_jAxBKNLuRjTlqfSeHQiRcIoGG5TLQhjN6ywwhofix6gNLBCvPMlcU3SBE2UqCOG3McBbJn6rqtJwoxd3nzBNalNZYLSJN5c81c4hxoROJL0xHGsWQSdAgTwgRbk0LESS6k47Xf86-FBjodiq58ZsA12_Xv_WsuWqDCBjGp5MiT9Y9s9WOWobAKsK-XDCu4FDc_ib-kmTNb73yDstMRGnBhC1DZhTMWFG3ysq9MI-PW3Gk_QISxpc2JZzmd20QU4muXyAba-BM6OILmLZJR9JIYeYZiU3KlTlo0e-lBYhLWsaUyKlwIVTJjODhJgnxRJAItHInCv7r0ElwgEMVlS7CgILcqdRYwiIr7YFnGHJ4KXMF_t7HiHMzFG7UUHrYUkk8R9icMlJC4qZL-s4mAh7jkZeH9hbZd-diaoVcbqZXSuC5rqFU4iFBg5BSxoabbpHJN0HbFRaoj2T9NIcGKcDwW4SF_1sSFDOoBr5MjUmw==&amp;p=2&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="athenahealth" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0ATYSEGUWxbmw24RxOM89cOUHsc8ooq3pKOx7z9RlFqvXW2ukx8SROOfbqlMyy1Y4se4lNBnIvaHo4dzJbYGyTZ4qPLbw3fLKR-mxV3IVKbUXfMCYum4FWd6AON_nyCm8Dv7sYxskHRT8Y4xoFmhoppEOEslaipiR5Ou-OHyc8-DLIBRFMKSqYcpJazf5R7PXM_8QJKFUU0o0hlZwUke8x_DkGDlepN8D05URdFtel7LE2e5icLuu7L-eHjjCzZW7EC0x4jZI48r9ZMsMNVNuO10UhAv9KgNXFc5Ju8mPgX9SrKXfQdTvN6XeDd7tH4uk5zsIG4lJ8SCYWi_PHpqB786dE-ZNvcJA8a-9X-QtvRSm-N1oJggMP1Z4p-CzpJXzhU01mUHy3TtM3cxa35Hu7d_LtEf7eZ2vsX_jAxBKNLuRjTlqfSeHQiRcIoGG5TLQhjN6ywwhofix6gNLBCvPMlcU3SBE2UqCOG3McBbJn6rqtJwoxd3nzBNalNZYLSJN5c81c4hxoROJL0xHGsWQSdAgTwgRbk0LESS6k47Xf86-FBjodiq58ZsA12_Xv_WsuWqDCBjGp5MiT9Y9s9WOWobAKsK-XDCu4FDc_ib-kmTNb73yDstMRGnBhC1DZhTMWFG3ysq9MI-PW3Gk_QISxpc2JZzmd20QU4muXyAba-BM6OILmLZJR9JIYeYZiU3KlTlo0e-lBYhLWsaUyKlwIVTJjODhJgnxRJAItHInCv7r0ElwgEMVlS7CgILcqdRYwiIr7YFnGHJ4KXMF_t7HiHMzFG7UUHrYUkk8R9icMlJC4qZL-s4mAh7jkZeH9hbZd-diaoVcbqZXSuC5rqFU4iFBg5BSxoabbpHJN0HbFRaoj2T9NIcGKcDwW4SF_1sSFDOoBr5MjUmw==&amp;p=2&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Lead Developer, Security Features Team</strong></a><br>
+                      athenahealth
+                  </div>
+                   <div class="jobList-location text-muted">Watertown, MA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">27 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B6aQxSONCXhoVXOSB3nTBV0EupGGZNNiZ4Tt50-S0ESUXCOv0p4lcxXADUT4ASW0Lpp1_Fsf8dPFjZO_EsHL4CBBlJj5I86r8nEPjBRmNOcGtSLxhPakpG9WmfjbTjboyu9B2iHqo2vT-nzlWh0E3Jip0jdvfC6PVyonQIzfch44RsQLWUFVumNi5fFVy-iRUqewLsYdZu4KHd_Vx2a_iELdDkwAISB4rSNW5cNtx0yH3xPd2C_LMPxxTbZYsMBdYO8qMa2X4c7AvQ5wY46b6HQj8Btl6cJjW5ThPVCIhqKmOtVikv3_vq6PelYzv0_5Y_A7JVg61MUdecONw5oPm0hx4O9O5qf-ZHODLLy7LUyMz_ly9A7vC952eX0-77peTnAzHiUBh4ybC0dV_dLoK_eE4uPSUw-B_64Ro12mWdy5Wv1PFEhRDdO2rSBceBbwQe0ACK7JIwpadDUwLfS04ZWqJqNNJzwR0PLNXYpWkhU_dTKiy5KghtfLjFF4tejcEatPxZ6moVKGeanctwvBbAZH3ihIfd7D2V0-zxszRzU94vqnMcJSp3evgEaMhNyy_dk79k6KUe4X0sLp_rF-9xjRMMGyx9ufv78cwD6Qe-HoKcaR_5v8UqG6bX6OG1GlVyEmgtdyXLi42E065xQLLw&amp;p=3&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Ellucian." src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B6aQxSONCXhoVXOSB3nTBV0EupGGZNNiZ4Tt50-S0ESUXCOv0p4lcxXADUT4ASW0Lpp1_Fsf8dPFjZO_EsHL4CBBlJj5I86r8nEPjBRmNOcGtSLxhPakpG9WmfjbTjboyu9B2iHqo2vT-nzlWh0E3Jip0jdvfC6PVyonQIzfch44RsQLWUFVumNi5fFVy-iRUqewLsYdZu4KHd_Vx2a_iELdDkwAISB4rSNW5cNtx0yH3xPd2C_LMPxxTbZYsMBdYO8qMa2X4c7AvQ5wY46b6HQj8Btl6cJjW5ThPVCIhqKmOtVikv3_vq6PelYzv0_5Y_A7JVg61MUdecONw5oPm0hx4O9O5qf-ZHODLLy7LUyMz_ly9A7vC952eX0-77peTnAzHiUBh4ybC0dV_dLoK_eE4uPSUw-B_64Ro12mWdy5Wv1PFEhRDdO2rSBceBbwQe0ACK7JIwpadDUwLfS04ZWqJqNNJzwR0PLNXYpWkhU_dTKiy5KghtfLjFF4tejcEatPxZ6moVKGeanctwvBbAZH3ihIfd7D2V0-zxszRzU94vqnMcJSp3evgEaMhNyy_dk79k6KUe4X0sLp_rF-9xjRMMGyx9ufv78cwD6Qe-HoKcaR_5v8UqG6bX6OG1GlVyEmgtdyXLi42E065xQLLw&amp;p=3&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Global Privacy Counsel, Senior</strong></a><br>
+                      Ellucian.
+                  </div>
+                   <div class="jobList-location text-muted">Fairfax, VA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">31 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0A2-9LjiV4Q4qIad7X_CIbR2TKKKHEigTW-QupFMSf1o07HYvAy9vKmG4_9LBODopNz8moBgTTgf4Yp_lXQRfRv8W0TxyRXXClKyKzLGlWckas1IX-JxgxSooPpLfThYSbSUhx-fRgg03tEgo0oMVwFGEuxbXhBH0oNx_k5xnZSqsZAnhYjO5ZtvlgrP33Ko7t7Xvc-8wsY5gjSHFYzXkAn_6zrEp6bjPsPA2x6-_qBxVsFWpsVysBo5Qnn9_Bbg7ZCiyGQrpuvtmbN4PHPr3PSNd-f6Hy7tw_5DuJ9LSZLVpxoUN5-jJc5OJ-ULE4j6gxr3qGJCie0aHlB_qysXaKReJw2sXNIh7v5lSEcfs88Wed-7qZkNjVukC8EpiIWpD3ELr_lfb2Upr32IK79WYM3xP4rD-NRIZR9aBVD-ZOyXXRUGOnd9FPO7_JDvOOAYYHIMWDdS0bEWrK5E0JUXLJE82LtwzYYzk0-R5tmMc1s-4I67kACYxrHtMQxkqdWsRvdugmkbVRZOKkkH98ATXcbJTAIxU1aAlGyY_t0jJ6NMTSPKE5ij27R-S8W3C5-7emLEYhFRSoZFg==&amp;p=4&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Northrop Grumman" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0A2-9LjiV4Q4qIad7X_CIbR2TKKKHEigTW-QupFMSf1o07HYvAy9vKmG4_9LBODopNz8moBgTTgf4Yp_lXQRfRv8W0TxyRXXClKyKzLGlWckas1IX-JxgxSooPpLfThYSbSUhx-fRgg03tEgo0oMVwFGEuxbXhBH0oNx_k5xnZSqsZAnhYjO5ZtvlgrP33Ko7t7Xvc-8wsY5gjSHFYzXkAn_6zrEp6bjPsPA2x6-_qBxVsFWpsVysBo5Qnn9_Bbg7ZCiyGQrpuvtmbN4PHPr3PSNd-f6Hy7tw_5DuJ9LSZLVpxoUN5-jJc5OJ-ULE4j6gxr3qGJCie0aHlB_qysXaKReJw2sXNIh7v5lSEcfs88Wed-7qZkNjVukC8EpiIWpD3ELr_lfb2Upr32IK79WYM3xP4rD-NRIZR9aBVD-ZOyXXRUGOnd9FPO7_JDvOOAYYHIMWDdS0bEWrK5E0JUXLJE82LtwzYYzk0-R5tmMc1s-4I67kACYxrHtMQxkqdWsRvdugmkbVRZOKkkH98ATXcbJTAIxU1aAlGyY_t0jJ6NMTSPKE5ij27R-S8W3C5-7emLEYhFRSoZFg==&amp;p=4&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Principal Cyber Systems Engineer w/ Polygraph</strong></a><br>
+                      Northrop Grumman
+                  </div>
+                   <div class="jobList-location text-muted">Annapolis Junction, MD 20701</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">30 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_u_LcWKTmPuNYnUspO5HShWvWxGvmN6EcPQKNTC1WmbKpzm_zfQOJXdjThJrgk1hCl_Mpk20LyCnLbhR3_coTXV5HkSQNc8dwQBDb5UrglAr5L9_r39f--u1hceoTSPVGdH7-UnI6iSg-GGbdqjrS9DttKfVyPvU__ZbdS7k3KQsfDhY5SXyiVngUA4GehvhEC9UZ9uRtxablZ7wNaHphB6vLYA_r8tUQiqFzGY1up2qNNeQ_ixEbmcwTKRF3bpa3-NZfDC5YH-I51OARe3qkjgHyI4p6mBxWqXd1BGY025xpk4ppuJIxhh30RXGOjomW39T8cEikfCFChv82F9NUSLtWyQO2kwvQJeUrr1vXvr9jFqc70oXZnYQZQUgsTXUNQ8Jo_jHbwVFfuqI_Rl0bnyARG9bBZ1pZVvMLG8RTZxLj25_Cb_KujXb25ExWS4BgIec4qfhkSXNlaILQMXHiKmEjNZ8lpMPNa4TpATdElOEXN8MzeGVqWtYf3Y94V-ZykND_yhEB9zZwQ25QsEhfiqnEHtgW36s0nQ-lBb2ou-HzTELe3V0kXH_hrdOasA-or2ITHHaAy2aGbt1hLJSu-yP3k8DSv6AoV1u7kXrjz8ZttXWCCy-Z1DAFEXmOZym-5rcnDQ07LA85RzPUwJjyVVP76GpEFgxHzm6N6Qmn677NB2GQ5NwOZw6NJhx1fg2MYPIsLRe0MHjMWBfgozYVfacL-v-PTWB-7YLl5py-Vu0KYi0-hWxLzUTFAEnH1Htereyzy2p9U3DODbFTUcc2JJC0snZO2dLoO8s31eWljwoPiPRGJfc-d_nK6PZLu39xMxeikAfBmYBfZw0xXSMwC5pCvIiC2S3_Fa4bLoDkZ3MMJ3KOcOFjsI50ZmuyWuNh0lbi0YA9s2m0DGEknXx75Y7w7eDc2BTMB9UK3AkuU12-w5-6Stp16ERkGw-XpnE9OoOSdUamdcKp6XFi-1pgqH_lG4enhsUVLoDZJFV99C08shj6pQi7ls2ZSiSGNNESqX0dc4rQljQZg4UenLshJOXee8g-HmyXFw==&amp;p=5&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Dameron Hospital" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_u_LcWKTmPuNYnUspO5HShWvWxGvmN6EcPQKNTC1WmbKpzm_zfQOJXdjThJrgk1hCl_Mpk20LyCnLbhR3_coTXV5HkSQNc8dwQBDb5UrglAr5L9_r39f--u1hceoTSPVGdH7-UnI6iSg-GGbdqjrS9DttKfVyPvU__ZbdS7k3KQsfDhY5SXyiVngUA4GehvhEC9UZ9uRtxablZ7wNaHphB6vLYA_r8tUQiqFzGY1up2qNNeQ_ixEbmcwTKRF3bpa3-NZfDC5YH-I51OARe3qkjgHyI4p6mBxWqXd1BGY025xpk4ppuJIxhh30RXGOjomW39T8cEikfCFChv82F9NUSLtWyQO2kwvQJeUrr1vXvr9jFqc70oXZnYQZQUgsTXUNQ8Jo_jHbwVFfuqI_Rl0bnyARG9bBZ1pZVvMLG8RTZxLj25_Cb_KujXb25ExWS4BgIec4qfhkSXNlaILQMXHiKmEjNZ8lpMPNa4TpATdElOEXN8MzeGVqWtYf3Y94V-ZykND_yhEB9zZwQ25QsEhfiqnEHtgW36s0nQ-lBb2ou-HzTELe3V0kXH_hrdOasA-or2ITHHaAy2aGbt1hLJSu-yP3k8DSv6AoV1u7kXrjz8ZttXWCCy-Z1DAFEXmOZym-5rcnDQ07LA85RzPUwJjyVVP76GpEFgxHzm6N6Qmn677NB2GQ5NwOZw6NJhx1fg2MYPIsLRe0MHjMWBfgozYVfacL-v-PTWB-7YLl5py-Vu0KYi0-hWxLzUTFAEnH1Htereyzy2p9U3DODbFTUcc2JJC0snZO2dLoO8s31eWljwoPiPRGJfc-d_nK6PZLu39xMxeikAfBmYBfZw0xXSMwC5pCvIiC2S3_Fa4bLoDkZ3MMJ3KOcOFjsI50ZmuyWuNh0lbi0YA9s2m0DGEknXx75Y7w7eDc2BTMB9UK3AkuU12-w5-6Stp16ERkGw-XpnE9OoOSdUamdcKp6XFi-1pgqH_lG4enhsUVLoDZJFV99C08shj6pQi7ls2ZSiSGNNESqX0dc4rQljQZg4UenLshJOXee8g-HmyXFw==&amp;p=5&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>PRIVACY</strong></a><br>
+                      Dameron Hospital
+                  </div>
+                   <div class="jobList-location text-muted">United States</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">17 Feb</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CmlXhuxirohz8DXA2w3We4j1UHxMfACwoT1prfwffazXac8Hnw1EGIYyCP8sveNiGRCoekEBaMvZ6zQKwZVZIqg3CbKJgB0zsxsr3ARd_G9EvLJtVE62-SgFUu1Zycprkysnx2c7IacdrjcmyzaaZJDDkQkUSMOWH_-iyl8xSnZZE8JbWsbgWjEjpNiHt33oemz55qfBlp_jkptEAy5vKKlS2ZS9UMMyNNuA08QxHj_5xck1MEAOI4tP_p6sxNYGuLX1cqTj8JnzCOn07pD8_ZJso20Sjahm6JiqynrmP9erm-MVtV09Jhv-ehFjAqBVm47pOiQcKN5DIQ2tyUcVvpdq7AhJbwZZDKkN8Sry02QzKqIu6vn_Zcb06ZLIRTiTMshoLkGZuMdwE099MAjAW7kDRy0i1kdXC4Pb8E2T-DaiX30s9VkqrnkcV1fVXe3Ajfr5TL0JQQyzNHK8JTDdKhJy5yygt2L2Wl2vtjyQKuPq3pxcM0-s4dsJiWxeXOfUPdJfD5rH2onpNIobt8kmd9WmY9A1tkWl9ttWUYK2cUjIx7Kimzk70zyC0PWMpHFaDh9Yteo2qxMGpcoQoGDHGBJW_NK2hBYlHC0z-Bqq8NBaza2Vfs4Glf_S7fbTYCtSOu60p2zHGwJLqqEXvkUYRMzgoM0Crv4gKL_01n8iHGYyliyLg-ztUoA6L6YV7DFhSEdQc53xaeLAmGWePpNXc5qB-yE2PXygk=&amp;p=6&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="InfoReliance" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CmlXhuxirohz8DXA2w3We4j1UHxMfACwoT1prfwffazXac8Hnw1EGIYyCP8sveNiGRCoekEBaMvZ6zQKwZVZIqg3CbKJgB0zsxsr3ARd_G9EvLJtVE62-SgFUu1Zycprkysnx2c7IacdrjcmyzaaZJDDkQkUSMOWH_-iyl8xSnZZE8JbWsbgWjEjpNiHt33oemz55qfBlp_jkptEAy5vKKlS2ZS9UMMyNNuA08QxHj_5xck1MEAOI4tP_p6sxNYGuLX1cqTj8JnzCOn07pD8_ZJso20Sjahm6JiqynrmP9erm-MVtV09Jhv-ehFjAqBVm47pOiQcKN5DIQ2tyUcVvpdq7AhJbwZZDKkN8Sry02QzKqIu6vn_Zcb06ZLIRTiTMshoLkGZuMdwE099MAjAW7kDRy0i1kdXC4Pb8E2T-DaiX30s9VkqrnkcV1fVXe3Ajfr5TL0JQQyzNHK8JTDdKhJy5yygt2L2Wl2vtjyQKuPq3pxcM0-s4dsJiWxeXOfUPdJfD5rH2onpNIobt8kmd9WmY9A1tkWl9ttWUYK2cUjIx7Kimzk70zyC0PWMpHFaDh9Yteo2qxMGpcoQoGDHGBJW_NK2hBYlHC0z-Bqq8NBaza2Vfs4Glf_S7fbTYCtSOu60p2zHGwJLqqEXvkUYRMzgoM0Crv4gKL_01n8iHGYyliyLg-ztUoA6L6YV7DFhSEdQc53xaeLAmGWePpNXc5qB-yE2PXygk=&amp;p=6&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Senior Network Engineer (Must have security clearance)</strong></a><br>
+                      InfoReliance
+                  </div>
+                   <div class="jobList-location text-muted">Norfolk, VA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap"> 6 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0ChjzeK2NMbCTYihfs3VkmhJzhtIxGYckbiVHHFOACw4R5TGaA2cAGAvjClUizDSfUX1ZiORoXYTYVPj4yA2m471408P5a17qeveo1JjErF7lnRDS8W06UOTEFZRYWEwXIdtfOl_dIuQaaCgkSDh4o0KGfr5s-eD_aHrRoEvmkdqbGwhAIYyDyrOORxSMZ78wlBtWeyLnBtE8sGqEb2wPKEqvxpfioOVA9lS0EFegGQgIX4gzXgM120P7u01uCnHL_3_r2MR8FjqLHVauXNtOe27I0cPXscXbtslFbZjDsPNp6DZqRIlg7IyDmb5QtWZNTP4leteCZfXlal9jlBMhbx818MXdy1HKVXTbaSjanrZAsSSrVqwzP8vvuj9l-iyxeL1-ANXTUANYStm3QHFqXe__mS_FhM58ViuFEKwUKKZJhGYWL_QXuPIyvxw-dhIeHqyJSgW3s9FB-DEk1tKyIWkKDYvnxfPT9PL0sIsibU_e1hTdnOCriBBqaIn_PD_X8-rOFRRJIWmlnvJwvd5n67g-ORRr1PLvaQM3wyqKUVlyh-wk8SLUxq_DBd4pFVOhTm-ArvEcQC4ZBAsOV5MrIsLzHcoKTHXY_lWhoEbywwZIybZKJFLUG0N0dXfhaD2ZXsFF304Qkj_Xel0GhJ1OWymZ8l6BQpmUndrsxG0AiBqVzt4ds29mae74xjV6zo8_r9qhu6Zjo3dw==&amp;p=7&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Huntington Ingalls Industries" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0ChjzeK2NMbCTYihfs3VkmhJzhtIxGYckbiVHHFOACw4R5TGaA2cAGAvjClUizDSfUX1ZiORoXYTYVPj4yA2m471408P5a17qeveo1JjErF7lnRDS8W06UOTEFZRYWEwXIdtfOl_dIuQaaCgkSDh4o0KGfr5s-eD_aHrRoEvmkdqbGwhAIYyDyrOORxSMZ78wlBtWeyLnBtE8sGqEb2wPKEqvxpfioOVA9lS0EFegGQgIX4gzXgM120P7u01uCnHL_3_r2MR8FjqLHVauXNtOe27I0cPXscXbtslFbZjDsPNp6DZqRIlg7IyDmb5QtWZNTP4leteCZfXlal9jlBMhbx818MXdy1HKVXTbaSjanrZAsSSrVqwzP8vvuj9l-iyxeL1-ANXTUANYStm3QHFqXe__mS_FhM58ViuFEKwUKKZJhGYWL_QXuPIyvxw-dhIeHqyJSgW3s9FB-DEk1tKyIWkKDYvnxfPT9PL0sIsibU_e1hTdnOCriBBqaIn_PD_X8-rOFRRJIWmlnvJwvd5n67g-ORRr1PLvaQM3wyqKUVlyh-wk8SLUxq_DBd4pFVOhTm-ArvEcQC4ZBAsOV5MrIsLzHcoKTHXY_lWhoEbywwZIybZKJFLUG0N0dXfhaD2ZXsFF304Qkj_Xel0GhJ1OWymZ8l6BQpmUndrsxG0AiBqVzt4ds29mae74xjV6zo8_r9qhu6Zjo3dw==&amp;p=7&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>COMPUTER SYS SECURITY ANLYST 3</strong></a><br>
+                      Huntington Ingalls Industries
+                  </div>
+                   <div class="jobList-location text-muted">Newport News, VA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">11 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B5m5M6yZfth-NY3YB673CWYY4b83YHG_uHP4G_w6XfJyDleDRqUaO6ePKWDQmCFDkxRUr5Nsut6OuchdDpEPxW2MAcFGWmcU2c7i7x9TPRwEzrl8s7TLmqXVj2bdhs1xyIUG_lMap7XtZhpVGXlkjKe1LDsMsrU55GsHjmRTtn4-OPP9PWmvK6UxBNvSFFGrbp_PY7WAkdgZ9SwgZVBEJkmU1EJOFKl4c9ArPZBiT5OhZyM2ou_rvdqpjpwTvGlqxTJ9tzJiqMH5uvjrTQaVXBIyEaNWTftkUCNRoZtARDftVqT0R201VwF1Zvh4ufF4xJXG1VSa68FwmDxdmH2EegiXdpYOqWjLgayVhBuZZfw5HO1nbKQ6sKBfEGSW6nG9z3Ihe6_Kdnep4vGdSpoEZiacgtuTtng03gN4Tj2CMwADXqsRfz014nbEv5D1qtIjPfBFRoAvoUGnqFaAV_nK9Euzclj2qh134gcsu0r0YE5Yadljpvk0fK0irJyvdbna1BU6gJzJ9squ6pkdzMzaloHZVqVU23ZYA3RdAZd2UiWtZAJu46JePXR0J6wAPlFiLEaofxlRfFeeXT7Orprpm09-WSAmpg-cgVTPQRwNt6C3aZpoSQUm6933I6yitWr4w45lyf9J3TKfGvBdLKUDn-oiitGjUiTgDvqwH6XzH62BpTuVJ-t_F_CA8_aTJVwwLeq91LQDVX5KmVnNMnZCevE5whFbErPLyc-eLv9164tcHQfWI5bubiHEaqMbJJPTMYMmhmvsI5HBNy3VUSWKN7HqQSpKnXx280ZQSzCr3bxZLFHO1u61ipQ6DWLVxDutwxdnB7rEasr8zKncM4SuzotXrNDh0WbpjlYJA16MhMZYf-udGNsJgPgBSYkcNidFE=&amp;p=8&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Focal Point Data Risk LLC" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B5m5M6yZfth-NY3YB673CWYY4b83YHG_uHP4G_w6XfJyDleDRqUaO6ePKWDQmCFDkxRUr5Nsut6OuchdDpEPxW2MAcFGWmcU2c7i7x9TPRwEzrl8s7TLmqXVj2bdhs1xyIUG_lMap7XtZhpVGXlkjKe1LDsMsrU55GsHjmRTtn4-OPP9PWmvK6UxBNvSFFGrbp_PY7WAkdgZ9SwgZVBEJkmU1EJOFKl4c9ArPZBiT5OhZyM2ou_rvdqpjpwTvGlqxTJ9tzJiqMH5uvjrTQaVXBIyEaNWTftkUCNRoZtARDftVqT0R201VwF1Zvh4ufF4xJXG1VSa68FwmDxdmH2EegiXdpYOqWjLgayVhBuZZfw5HO1nbKQ6sKBfEGSW6nG9z3Ihe6_Kdnep4vGdSpoEZiacgtuTtng03gN4Tj2CMwADXqsRfz014nbEv5D1qtIjPfBFRoAvoUGnqFaAV_nK9Euzclj2qh134gcsu0r0YE5Yadljpvk0fK0irJyvdbna1BU6gJzJ9squ6pkdzMzaloHZVqVU23ZYA3RdAZd2UiWtZAJu46JePXR0J6wAPlFiLEaofxlRfFeeXT7Orprpm09-WSAmpg-cgVTPQRwNt6C3aZpoSQUm6933I6yitWr4w45lyf9J3TKfGvBdLKUDn-oiitGjUiTgDvqwH6XzH62BpTuVJ-t_F_CA8_aTJVwwLeq91LQDVX5KmVnNMnZCevE5whFbErPLyc-eLv9164tcHQfWI5bubiHEaqMbJJPTMYMmhmvsI5HBNy3VUSWKN7HqQSpKnXx280ZQSzCr3bxZLFHO1u61ipQ6DWLVxDutwxdnB7rEasr8zKncM4SuzotXrNDh0WbpjlYJA16MhMZYf-udGNsJgPgBSYkcNidFE=&amp;p=8&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Cyber Security Instructor-Operating Systems</strong></a><br>
+                      Focal Point Data Risk LLC
+                  </div>
+                   <div class="jobList-location text-muted">Columbia, MD</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">20 Oct</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B5m5M6yZfth-NY3YB673CWYY4b83YHG_uHP4G_w6XfJyDleDRqUaO6ePKWDQmCFDnRG5WKk1M_WGn920ptD8LRvHkrsiZURmlzoabYzG0_UEWL2O6XyrqkgrWMDJ69mNqbkFhwgzwsxyRJ8-j3J_cVEsTRZtBoic2fZI3RGOb-M3ZK_a2Ss7P7z1guQxsuI4hgVYARfJr5xDNwtdxYdU__ByvZK0ks-I41HhNNAnWv63HsBtiEux_vspyEzWqKXJkrYxEZfVoFddxQN0uGZCxc07CVL8ntGyejkndPnRzCKI9hAhPiOsFthqhlO1gzvd5myvfoEqqVaniNnBVexufOx-3hnd1lJshK0zG2uLrH_xwb5Qxac7K42vcJvere63GgxjKxBInPY1lyvKFnU1J0bi2V2RSM1LIha5aE-If68UjyToibuoo78e-kTlJWWc691L9IpJ7wvDYKk747gj_zPxQXjWYUvnHxlRUVfC9V_udcei7RJ2Q9deDlX2ZwutPVLW2Vb6t9rjajwkvuL7JfUDUTwma1FSeMyIiU_weX4WrNudQti21YaikuG8QTt1dZsrhHvJ2kOAvHWmjhtmsZreDZtRoji5khNvpAv06cwETd-sgFFlCJxdGTlcyvMo8m1pCgfoi76J1VIH9l7cNQiyhqDpE3ilbVpE_0JVkSkX_uG-OkoZd0IPotkDdUKCmC7O9ATfQlPYg1eh0YHM_xnKNwvz9EGhOiN5irGuQhUEVg1w5Qf0B4L1Q1ZFESsqEIk57Ij22K3LUUCmtdSr9r149QeGmcTZeR7VFAhHyo_B4eAgcCH5NQB0t3HiOc5YgFTDtGB5dFbBdec0txKwBAiN4fn7a2tT3hyXktOkV_3UIhy4NAzigx&amp;p=9&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Focal Point Data Risk LLC" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B5m5M6yZfth-NY3YB673CWYY4b83YHG_uHP4G_w6XfJyDleDRqUaO6ePKWDQmCFDnRG5WKk1M_WGn920ptD8LRvHkrsiZURmlzoabYzG0_UEWL2O6XyrqkgrWMDJ69mNqbkFhwgzwsxyRJ8-j3J_cVEsTRZtBoic2fZI3RGOb-M3ZK_a2Ss7P7z1guQxsuI4hgVYARfJr5xDNwtdxYdU__ByvZK0ks-I41HhNNAnWv63HsBtiEux_vspyEzWqKXJkrYxEZfVoFddxQN0uGZCxc07CVL8ntGyejkndPnRzCKI9hAhPiOsFthqhlO1gzvd5myvfoEqqVaniNnBVexufOx-3hnd1lJshK0zG2uLrH_xwb5Qxac7K42vcJvere63GgxjKxBInPY1lyvKFnU1J0bi2V2RSM1LIha5aE-If68UjyToibuoo78e-kTlJWWc691L9IpJ7wvDYKk747gj_zPxQXjWYUvnHxlRUVfC9V_udcei7RJ2Q9deDlX2ZwutPVLW2Vb6t9rjajwkvuL7JfUDUTwma1FSeMyIiU_weX4WrNudQti21YaikuG8QTt1dZsrhHvJ2kOAvHWmjhtmsZreDZtRoji5khNvpAv06cwETd-sgFFlCJxdGTlcyvMo8m1pCgfoi76J1VIH9l7cNQiyhqDpE3ilbVpE_0JVkSkX_uG-OkoZd0IPotkDdUKCmC7O9ATfQlPYg1eh0YHM_xnKNwvz9EGhOiN5irGuQhUEVg1w5Qf0B4L1Q1ZFESsqEIk57Ij22K3LUUCmtdSr9r149QeGmcTZeR7VFAhHyo_B4eAgcCH5NQB0t3HiOc5YgFTDtGB5dFbBdec0txKwBAiN4fn7a2tT3hyXktOkV_3UIhy4NAzigx&amp;p=9&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Cyber Security Instructor - Networking</strong></a><br>
+                      Focal Point Data Risk LLC
+                  </div>
+                   <div class="jobList-location text-muted">Columbia, MD</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">20 Oct</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0D4NVoUqz3OtChmA6fE3lWJcaKs-5F8_IS6Zd5kQxjSLAOHs2H5fb6hgG1oVSPzhb2XkjOp2yP0Op9oipNF_bLAUwP17s559VOgUI9pKWl3oKhxxibX9OZNYwNUiLZq7MBAZVq-ERtv2NxTkc4KM8LHU5g5TdSc4knpG2jKSsS_RalfcD4-Y8KriEj21HyctkplJjXHZ1MLmgjEKKkYM5AYlqNwiLA7hdiyi8H4E_gMZzEQ8-6eDQGB3zEPg9VF1GNq8ivuLSdVXMGEva_Rpnb1NGY9Hw-2d2auMYjmycU7WU-WTTMCBQcXlPY9DuLB9lwzy2sLumpytxyDfILVB_n48-Df9jTL5quq-wxPegQ0gdv3-Vytt1u6IGYiup8PkS1wZj-3C08clce-X5jSR6Cjk7tjeaB-D6pjhYoO-1xGKqrHEqR038uPrhCZCPSM0cRd_Tom5Ccy1Cq18YQZfYk5lqbxN6u9aIicdEZtU68msCIvqgMhIo0uSZigOBK_sWepZupZcwoN-bW974_BIH_wRQqeTYHOwCQwmJLGkPpEL61kWd-fw8JwnlHNXSvoDVT3T3GeVlKUxG5niDuck9r4HzhtzP_W6j1cjtoSqNjyyW_vjpD_581X98DPQOrQfJQzQ1v9_JuBBvu_iTuojZrxDAtP6C53-BNxg2vlztGEwyvHCr913Q4XvxH4clhodlEO_HoQeDdXkdtAV5U7McykcG37wFVQpG65LUtJdu4X1HVYX-SNDH9FuI4q_eD-GUzKEu-cRlrekMUqIeyBaXA4SXNc2Z4OKC0fQ92QHKeAuojRTExuVFPx0GOH_MAQJ5g0N-wsu-TkcAMaKpQH9_eHJowIRG2KthA=&amp;p=10&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="TracFone Wireless" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0D4NVoUqz3OtChmA6fE3lWJcaKs-5F8_IS6Zd5kQxjSLAOHs2H5fb6hgG1oVSPzhb2XkjOp2yP0Op9oipNF_bLAUwP17s559VOgUI9pKWl3oKhxxibX9OZNYwNUiLZq7MBAZVq-ERtv2NxTkc4KM8LHU5g5TdSc4knpG2jKSsS_RalfcD4-Y8KriEj21HyctkplJjXHZ1MLmgjEKKkYM5AYlqNwiLA7hdiyi8H4E_gMZzEQ8-6eDQGB3zEPg9VF1GNq8ivuLSdVXMGEva_Rpnb1NGY9Hw-2d2auMYjmycU7WU-WTTMCBQcXlPY9DuLB9lwzy2sLumpytxyDfILVB_n48-Df9jTL5quq-wxPegQ0gdv3-Vytt1u6IGYiup8PkS1wZj-3C08clce-X5jSR6Cjk7tjeaB-D6pjhYoO-1xGKqrHEqR038uPrhCZCPSM0cRd_Tom5Ccy1Cq18YQZfYk5lqbxN6u9aIicdEZtU68msCIvqgMhIo0uSZigOBK_sWepZupZcwoN-bW974_BIH_wRQqeTYHOwCQwmJLGkPpEL61kWd-fw8JwnlHNXSvoDVT3T3GeVlKUxG5niDuck9r4HzhtzP_W6j1cjtoSqNjyyW_vjpD_581X98DPQOrQfJQzQ1v9_JuBBvu_iTuojZrxDAtP6C53-BNxg2vlztGEwyvHCr913Q4XvxH4clhodlEO_HoQeDdXkdtAV5U7McykcG37wFVQpG65LUtJdu4X1HVYX-SNDH9FuI4q_eD-GUzKEu-cRlrekMUqIeyBaXA4SXNc2Z4OKC0fQ92QHKeAuojRTExuVFPx0GOH_MAQJ5g0N-wsu-TkcAMaKpQH9_eHJowIRG2KthA=&amp;p=10&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Sr. Manager, Information Security</strong></a><br>
+                      TracFone Wireless
+                  </div>
+                   <div class="jobList-location text-muted">Miami, FL</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap"> 7 Feb</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0D4NVoUqz3OtChmA6fE3lWJcaKs-5F8_IS6Zd5kQxjSLAOHs2H5fb6hgG1oVSPzhb0TWBST6mWmYFEpzW45xVx-Ecx0H1DWhdGr_8ntasV1IW9A-_1aE4jD28gk9lYyr16-QSmjlTr1y1tLk5IE2rB5bhmJHcLYAzfDWCamz3-wpbmZEVN6d8DNBM-lwq4Otm34QLlaWkkxJKpPKR2GtjeBo7evZ2J5lmcKchJxvDa13Q9BQ9bSfBrctJ3DJkkWKqXWrCp52mncy7CFMeKB0ET_xHP9S1pvWsgodFsIaCZr-s58JdCvSTpy8S3XIHTXZf1Kosx1IpaoXjGLxMkhDiVKFL8GdztqIrAKwllQXVspDhGFK5uBEVnLH_9UitvtI3VTvv5E1sbtE2WgnsbFPa7pbu8fy2taNHbwNB4ffSm7TkY7GjCnp1JF2t9mDlO2xC-3QD3FEh3IaU_7v6CAkOxn5APb509z3eevkWZ4bI_Ibof5_g_F4BmGg4pLP3rFr0jaVvB-YlSIIASKttukB2wbQi5uwGB1II9bSHhRPk19Pne9K4Sg9C5HvNqIwLq2G1ZGiYbZIGyXXJxPtUXL96D16mswb2ehD8h2_uyvuReT144fdh-7b8MK2_nejcyjBuwCfV1jb0qPr8cJDWj7KcqUTLibvgPtNUFbyx7g16C-kCszV9DofVT9fbzr_lW8L7DRmdr4YZNLX9JC92DkDgPP-g1kYtJrliOovTKt-w9xdt30PCH2iwlMxkHJtCoAhS_qohaB9c3dU7UR9s48Klu1rDmZkI1b1ExeA8LaD8O61gvbgFLE5YvAAnvuBpdOJ6U8txvPSlKpDjHnmBbELoOlp_OpqkPH9UY=&amp;p=11&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="TracFone Wireless" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0D4NVoUqz3OtChmA6fE3lWJcaKs-5F8_IS6Zd5kQxjSLAOHs2H5fb6hgG1oVSPzhb0TWBST6mWmYFEpzW45xVx-Ecx0H1DWhdGr_8ntasV1IW9A-_1aE4jD28gk9lYyr16-QSmjlTr1y1tLk5IE2rB5bhmJHcLYAzfDWCamz3-wpbmZEVN6d8DNBM-lwq4Otm34QLlaWkkxJKpPKR2GtjeBo7evZ2J5lmcKchJxvDa13Q9BQ9bSfBrctJ3DJkkWKqXWrCp52mncy7CFMeKB0ET_xHP9S1pvWsgodFsIaCZr-s58JdCvSTpy8S3XIHTXZf1Kosx1IpaoXjGLxMkhDiVKFL8GdztqIrAKwllQXVspDhGFK5uBEVnLH_9UitvtI3VTvv5E1sbtE2WgnsbFPa7pbu8fy2taNHbwNB4ffSm7TkY7GjCnp1JF2t9mDlO2xC-3QD3FEh3IaU_7v6CAkOxn5APb509z3eevkWZ4bI_Ibof5_g_F4BmGg4pLP3rFr0jaVvB-YlSIIASKttukB2wbQi5uwGB1II9bSHhRPk19Pne9K4Sg9C5HvNqIwLq2G1ZGiYbZIGyXXJxPtUXL96D16mswb2ehD8h2_uyvuReT144fdh-7b8MK2_nejcyjBuwCfV1jb0qPr8cJDWj7KcqUTLibvgPtNUFbyx7g16C-kCszV9DofVT9fbzr_lW8L7DRmdr4YZNLX9JC92DkDgPP-g1kYtJrliOovTKt-w9xdt30PCH2iwlMxkHJtCoAhS_qohaB9c3dU7UR9s48Klu1rDmZkI1b1ExeA8LaD8O61gvbgFLE5YvAAnvuBpdOJ6U8txvPSlKpDjHnmBbELoOlp_OpqkPH9UY=&amp;p=11&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Sr. Information Security Network Specialist - DLP</strong></a><br>
+                      TracFone Wireless
+                  </div>
+                   <div class="jobList-location text-muted">Miami, FL</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">21 Oct</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_u_LcWKTmPuNYiVq-chRkV90SQtJAJVbmbnL2fJfuoHIanHDgXJKpynUy3WscbqSqL2u4ezCB4VCf09gJiRSm9pafaseUGqMXN1-DnzEpOwuegqxhpwz8yniOhX6QWi3a7ni2JJhWV3vuLLiEleWTWPMoJmnE9hPW9hntpamRMeMBFfuY7c3Dgq5__jTAbzx28FS0re3r6DLNgBGB2LJytAQ6x5ZYYrgwr6n2n1mHuenrGDAxFzrbY0wc6QExSC6gcVAEflibV0dRc6ewj-GQ3JTzGic1boQDu6s7_-FyDTzEMCkEPoS3xB-D2gmgyga6hF7mGoAOFdKshSpmE6wVzZZcT4K7iw-VXWJzQiICW-8tst18pOHTmJe4UogjPDEgyyui6U3MCmBELKEFvD7-ViX_f-JZoTxnT3Pu9GJ47J3uStYerXi66DFKTHG2WVdWGja82EXRNRdCrH_am22o22tjBt8YtAyCXYf-JiG6TBaR9ZSP4KhLf7L16pXxnladW2ONsGXcASfJkkw_hU274dfFzGXvd-c4_oz1sKQGuZgbj7A4XtccXWqclDqiPhGHhARNUgQfWgBOkwPpXbShT_58tjbQc-zDzoP8J1FyX-0lyGksuR9jkqCI_AnPpdhIDriulDZ67EPNvb_F3_fuOIxDys8RuG7RCW0ITjCCg7eSgFc002qEkkjj7GGRYOJJkyRPwBaOKuqZ6OQD7WAi0cqeEHgmti3c0ARPfIjG_8dwI2FtNfVccpkpse412uooGT8CHflsBeUmdzoM0z5FgiVYm9tNIdUakNZh0l7FeQ4vXNEUMiM-Dvdu4gCuw--52586C-bsfxxuVQh8nWvSWNli3l-LPVH6Mcc1fbuiJsx-xnk68gPQo_YmvRMQuDFQ5YMey3bC514m0uJEhjkXopgjAnWbfUdQiIvVf2Zfyon0Oz4BA0X0Yce0sjCcJgJPPCGeXL8XzMutlWv2lmk9cW7RRk19Fx95Y0KxWUVMt0GQ8pveajXurLi_cb7aAPH6Lr6CvuJKBOb34Q6txWF6ZwI6mjrs46VWGQgtTfPigE0Y&amp;p=12&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="McDonald Hopkins" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_u_LcWKTmPuNYiVq-chRkV90SQtJAJVbmbnL2fJfuoHIanHDgXJKpynUy3WscbqSqL2u4ezCB4VCf09gJiRSm9pafaseUGqMXN1-DnzEpOwuegqxhpwz8yniOhX6QWi3a7ni2JJhWV3vuLLiEleWTWPMoJmnE9hPW9hntpamRMeMBFfuY7c3Dgq5__jTAbzx28FS0re3r6DLNgBGB2LJytAQ6x5ZYYrgwr6n2n1mHuenrGDAxFzrbY0wc6QExSC6gcVAEflibV0dRc6ewj-GQ3JTzGic1boQDu6s7_-FyDTzEMCkEPoS3xB-D2gmgyga6hF7mGoAOFdKshSpmE6wVzZZcT4K7iw-VXWJzQiICW-8tst18pOHTmJe4UogjPDEgyyui6U3MCmBELKEFvD7-ViX_f-JZoTxnT3Pu9GJ47J3uStYerXi66DFKTHG2WVdWGja82EXRNRdCrH_am22o22tjBt8YtAyCXYf-JiG6TBaR9ZSP4KhLf7L16pXxnladW2ONsGXcASfJkkw_hU274dfFzGXvd-c4_oz1sKQGuZgbj7A4XtccXWqclDqiPhGHhARNUgQfWgBOkwPpXbShT_58tjbQc-zDzoP8J1FyX-0lyGksuR9jkqCI_AnPpdhIDriulDZ67EPNvb_F3_fuOIxDys8RuG7RCW0ITjCCg7eSgFc002qEkkjj7GGRYOJJkyRPwBaOKuqZ6OQD7WAi0cqeEHgmti3c0ARPfIjG_8dwI2FtNfVccpkpse412uooGT8CHflsBeUmdzoM0z5FgiVYm9tNIdUakNZh0l7FeQ4vXNEUMiM-Dvdu4gCuw--52586C-bsfxxuVQh8nWvSWNli3l-LPVH6Mcc1fbuiJsx-xnk68gPQo_YmvRMQuDFQ5YMey3bC514m0uJEhjkXopgjAnWbfUdQiIvVf2Zfyon0Oz4BA0X0Yce0sjCcJgJPPCGeXL8XzMutlWv2lmk9cW7RRk19Fx95Y0KxWUVMt0GQ8pveajXurLi_cb7aAPH6Lr6CvuJKBOb34Q6txWF6ZwI6mjrs46VWGQgtTfPigE0Y&amp;p=12&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Associate/Partner – Data Privacy and Cybersecurity</strong></a><br>
+                      McDonald Hopkins
+                  </div>
+                   <div class="jobList-location text-muted">United States</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">28 Dec</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_u_LcWKTmPuNYA4TcL_5ZsOYwQZiWYEx7_tR-2zZfbgSv6he_LwAWA4MDZT38nyDh6ODUaVc_FN4Tp4fw31Gxruo45CBGk1IN6hW7ZJjB1GctpBbHTcvVseLq0NuvK-uv27YpTEFJt1BA3Pfw7TCCZuH2kiJ6YsMx_3zA9axg6YH0RFaT1hbk-nlZLPYlECiKXQefDFgWrxpX8xJvhUaqblTQkY4RMqyYHck9P6enYpq-guxCEfxZ8ZvxOa2tjk2H4YuxcvXpz_4Gma4uIUjHNsP7tE6cWGSqcC8u8S_JoAMnnw9NFa1gqEdVIWnMIGUJeiZvjn8x6WXgVWqMTukm5ibhh12aAbCgctnrZAoqU3Kb-tsYzj-i6Hhbsm-jP9MsquuTqrDBD5u2z8n7fBgoZ2Rcsp2TXcAUtK6Q60wh_IprDaF_3Mju2LGFin6Sj-Fn9S21MVB-1YH34xUd3MfhQ-vtiiGBc_5svJ_3nORFfpVdFzK5QPtgepOUW1bfYtc7L1ee8XZDukyWuqzzu-B59beB24_cUZX1SxePM0Lu848REeNJNNfrAqnL-QEqvmwRrSQgi2tLg9M1HECa6RbU7memnRFAEiby-QbeGpqZbanExQkjvIMKMr8fJuRXejYu4UEOmMCeDu8RwJWxaAwjidpjvwxLTiY7svuconKKGfM3QxH93omFxtMC_MFd867MID2uMUvg0b2aIKF644zFYLtwAC7yyY6XzDJjXOYsOWWZQYDvK42KUyQxgG4sKhtrAP3Gkx1_Bh209D9jsHFWflUnXUNxa7e9C5Zg6LicR4-ZG7EPxvkXvtqE12-sAJUoJGQfK0d4OBNK9uRYa742SKW2hgXMdrAQpYJhFbQJzwTpI-VMVXb1kKdlQF-k9pNFqBqe_foMxPzApwwFnazHkTXbD8zKg3XFXaSPcxRA7h3wLcsZ4D10iEBTkFBjds-VEc__4WDBk0AX6OvQfkTay4JNv3Yv-XqhLcKSArlZ92F_cDAK-tMD_K1CUBkphzN8tB8Aixs_XitaUW1ZQI9npsxJp8lL0nYevw==&amp;p=13&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Aspirus" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_u_LcWKTmPuNYA4TcL_5ZsOYwQZiWYEx7_tR-2zZfbgSv6he_LwAWA4MDZT38nyDh6ODUaVc_FN4Tp4fw31Gxruo45CBGk1IN6hW7ZJjB1GctpBbHTcvVseLq0NuvK-uv27YpTEFJt1BA3Pfw7TCCZuH2kiJ6YsMx_3zA9axg6YH0RFaT1hbk-nlZLPYlECiKXQefDFgWrxpX8xJvhUaqblTQkY4RMqyYHck9P6enYpq-guxCEfxZ8ZvxOa2tjk2H4YuxcvXpz_4Gma4uIUjHNsP7tE6cWGSqcC8u8S_JoAMnnw9NFa1gqEdVIWnMIGUJeiZvjn8x6WXgVWqMTukm5ibhh12aAbCgctnrZAoqU3Kb-tsYzj-i6Hhbsm-jP9MsquuTqrDBD5u2z8n7fBgoZ2Rcsp2TXcAUtK6Q60wh_IprDaF_3Mju2LGFin6Sj-Fn9S21MVB-1YH34xUd3MfhQ-vtiiGBc_5svJ_3nORFfpVdFzK5QPtgepOUW1bfYtc7L1ee8XZDukyWuqzzu-B59beB24_cUZX1SxePM0Lu848REeNJNNfrAqnL-QEqvmwRrSQgi2tLg9M1HECa6RbU7memnRFAEiby-QbeGpqZbanExQkjvIMKMr8fJuRXejYu4UEOmMCeDu8RwJWxaAwjidpjvwxLTiY7svuconKKGfM3QxH93omFxtMC_MFd867MID2uMUvg0b2aIKF644zFYLtwAC7yyY6XzDJjXOYsOWWZQYDvK42KUyQxgG4sKhtrAP3Gkx1_Bh209D9jsHFWflUnXUNxa7e9C5Zg6LicR4-ZG7EPxvkXvtqE12-sAJUoJGQfK0d4OBNK9uRYa742SKW2hgXMdrAQpYJhFbQJzwTpI-VMVXb1kKdlQF-k9pNFqBqe_foMxPzApwwFnazHkTXbD8zKg3XFXaSPcxRA7h3wLcsZ4D10iEBTkFBjds-VEc__4WDBk0AX6OvQfkTay4JNv3Yv-XqhLcKSArlZ92F_cDAK-tMD_K1CUBkphzN8tB8Aixs_XitaUW1ZQI9npsxJp8lL0nYevw==&amp;p=13&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Information Security Analyst</strong></a><br>
+                      Aspirus
+                  </div>
+                   <div class="jobList-location text-muted">United States</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">18 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVKJJRbgWu4wEklL012f0wF1uhh72U-v259G-qbAIwnBHBU20MF09vqPCdLi6exAeZrKgn8vCPKFSJKIANb274250jLw6JxJaagu2IbOiZADoi81u7x9TDCWKUvK_ahgzE43yAKd2Mgzwgi29ZM3n_vgZzGgwTqQcvvzXqQGcTjtcQcZeGbmDfeKGAB06igzLbzL4iw337epExkCQ5a1TkKxHXxwGXh-JmeY9nRfjJy__5m6TRgbBgafld8hegJrvbx2t8q1wKnOjE1IftbUufOGTSfHCdnRp1ku0BXfFZPI9wWQ8va8mH7ESWHwXtA4OQzuLK-c_RFuA1zah5bUwsnOVw6K2GyfVXaFHMlkOYmjmbaHwdiNG4O5qcKB8a4S_vuUgjQMyn3dHVpDuc-TrQK8G6Yf34KzJFtt2eC_fDNOHzD_pNfDURzkQ7p9U9tCsES7zRMb1K-PUXGFgHHUpKdnsAYl1uQWMAEqWyqVkfRui4VJpf94qthN840qYFoRl3kpeoCjQLOIRcGKuLylBBBxmXtnTZtMW5DnznRg8ocdnotESvuJHV06w9MDhOaBojYameF7vPN1V-nfPYjTZ7bWHsjYOWVGVhCUSEocJV6uObEa49cdNR4i_FdllZOGF07QXhMB_kJu3bxK1xmm8r2154NQnAncA7m6Omzhi06d-7xyEriBo6nwj6nJd8zzO8TCi_Pd047HcFzIPx3S_rsnv8-cYa6T_G9gJUHjaAemczY6eE_1ZMPDasq1FErJPeHWR6p2dP85s3JmYDGowbjJq9zmeBdXki8L_lEsilyqgmSs2IVcer_X1QObajySsXsogP_9K8RamdsAI4578DKj3sklzfc6LQF1VdFH9ZEf2GML5CLI4lCCqhXHWkq0-j0MG8KGoi_IpO0nV6z3RFn09kekLorDZ83wmZFm5nDMo3VcGmaV2jYTg1ns377VF2VENpvf58jQeVYfcXxzDEMcfQcw8Crf3DJU5D3kG3VfTeGzA10IxjMsvUr7_d2QLbB1WczyBWemI=&amp;p=14&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Wipro LTD" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVKJJRbgWu4wEklL012f0wF1uhh72U-v259G-qbAIwnBHBU20MF09vqPCdLi6exAeZrKgn8vCPKFSJKIANb274250jLw6JxJaagu2IbOiZADoi81u7x9TDCWKUvK_ahgzE43yAKd2Mgzwgi29ZM3n_vgZzGgwTqQcvvzXqQGcTjtcQcZeGbmDfeKGAB06igzLbzL4iw337epExkCQ5a1TkKxHXxwGXh-JmeY9nRfjJy__5m6TRgbBgafld8hegJrvbx2t8q1wKnOjE1IftbUufOGTSfHCdnRp1ku0BXfFZPI9wWQ8va8mH7ESWHwXtA4OQzuLK-c_RFuA1zah5bUwsnOVw6K2GyfVXaFHMlkOYmjmbaHwdiNG4O5qcKB8a4S_vuUgjQMyn3dHVpDuc-TrQK8G6Yf34KzJFtt2eC_fDNOHzD_pNfDURzkQ7p9U9tCsES7zRMb1K-PUXGFgHHUpKdnsAYl1uQWMAEqWyqVkfRui4VJpf94qthN840qYFoRl3kpeoCjQLOIRcGKuLylBBBxmXtnTZtMW5DnznRg8ocdnotESvuJHV06w9MDhOaBojYameF7vPN1V-nfPYjTZ7bWHsjYOWVGVhCUSEocJV6uObEa49cdNR4i_FdllZOGF07QXhMB_kJu3bxK1xmm8r2154NQnAncA7m6Omzhi06d-7xyEriBo6nwj6nJd8zzO8TCi_Pd047HcFzIPx3S_rsnv8-cYa6T_G9gJUHjaAemczY6eE_1ZMPDasq1FErJPeHWR6p2dP85s3JmYDGowbjJq9zmeBdXki8L_lEsilyqgmSs2IVcer_X1QObajySsXsogP_9K8RamdsAI4578DKj3sklzfc6LQF1VdFH9ZEf2GML5CLI4lCCqhXHWkq0-j0MG8KGoi_IpO0nV6z3RFn09kekLorDZ83wmZFm5nDMo3VcGmaV2jYTg1ns377VF2VENpvf58jQeVYfcXxzDEMcfQcw8Crf3DJU5D3kG3VfTeGzA10IxjMsvUr7_d2QLbB1WczyBWemI=&amp;p=14&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Associate Consultant - Risk Compliance-Data Privacy-Architecture</strong></a><br>
+                      Wipro LTD
+                  </div>
+                   <div class="jobList-location text-muted">Sunnyvale, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap"> 8 Feb</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CcyXQK-zgCtHPyF3mQBj517jM4chAXOULK9-xwfsSAXRaqwU58ggoLoe9ZqU7-zHU7RbZYoBM9_QF93mxEXs0in1lTcV1GnuLN6PWgN6QEvkVrwwZT_jDaxJ2is03Daoc0_-tvGqD5fzn-myfRRAsKFVIFUXYPpBNfQl6RqCV0ogkLZ_ZSb3EoXRPUo4t9TQTIiSwMHaOyZscIQjo2MV8EonpqHONowLLc5aHnVS0-r8OtimrCQ9CmCbzkl0668DCOBhjOBU2LdgOR8w5_DbDtj1xV2PjZ2Qxe7wO1rKBGea78Yf6CRXWIShvdynCKhH-0ny00ZU09pTAcRuML6P8TiWQbjeCosO3ImYEcbr2jRgxr__DdFYcWspDt_D3lZts4Y0bVZdYPDcWyv8ph0BX-KnjQEVtki31gRkg-RNJWw8CBSsC-WRe1YnItNd7ir8nEKKbenz-t4ItwTCci1Bz_GQ8UhkE7Xz6ZfwKTFsctjef4Zc6wf971TG18O4-grMNnCj--3VG6zSpKsJnIwM7gWqkfRSXNLed2ipdJG2w-L6Y3kGBLfHoTnS6Q6Qx0gqAxAygXMSpL-elY5wPrDlWrlPBWGGlumhosL__9SI3OzC5BbJ412XtdfqIuHyzHfhdMXtWXnfJzyPBnXSr98oiq8ad-CfAKuxRrzb3XyW_ZHaDeKREf_elXoigx2Cv_NgFv2muUklLCDU-DmqoahB693qB9mCtGKMJfNSfJ2LVFfssdlM3ccCvIn8FlJ5sEQ86jVaFY_hJACw==&amp;p=15&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="DCS Corp" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CcyXQK-zgCtHPyF3mQBj517jM4chAXOULK9-xwfsSAXRaqwU58ggoLoe9ZqU7-zHU7RbZYoBM9_QF93mxEXs0in1lTcV1GnuLN6PWgN6QEvkVrwwZT_jDaxJ2is03Daoc0_-tvGqD5fzn-myfRRAsKFVIFUXYPpBNfQl6RqCV0ogkLZ_ZSb3EoXRPUo4t9TQTIiSwMHaOyZscIQjo2MV8EonpqHONowLLc5aHnVS0-r8OtimrCQ9CmCbzkl0668DCOBhjOBU2LdgOR8w5_DbDtj1xV2PjZ2Qxe7wO1rKBGea78Yf6CRXWIShvdynCKhH-0ny00ZU09pTAcRuML6P8TiWQbjeCosO3ImYEcbr2jRgxr__DdFYcWspDt_D3lZts4Y0bVZdYPDcWyv8ph0BX-KnjQEVtki31gRkg-RNJWw8CBSsC-WRe1YnItNd7ir8nEKKbenz-t4ItwTCci1Bz_GQ8UhkE7Xz6ZfwKTFsctjef4Zc6wf971TG18O4-grMNnCj--3VG6zSpKsJnIwM7gWqkfRSXNLed2ipdJG2w-L6Y3kGBLfHoTnS6Q6Qx0gqAxAygXMSpL-elY5wPrDlWrlPBWGGlumhosL__9SI3OzC5BbJ412XtdfqIuHyzHfhdMXtWXnfJzyPBnXSr98oiq8ad-CfAKuxRrzb3XyW_ZHaDeKREf_elXoigx2Cv_NgFv2muUklLCDU-DmqoahB693qB9mCtGKMJfNSfJ2LVFfssdlM3ccCvIn8FlJ5sEQ86jVaFY_hJACw==&amp;p=15&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>FACE Security Engineer</strong></a><br>
+                      DCS Corp
+                  </div>
+                   <div class="jobList-location text-muted">Lexington Park, MD</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap"> 8 Feb</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVy4ACgtJi4VUXmOPYiuzEZpFAY07T7xduIFLFk--DCQ-Lt2ze6_K52IaC_T93_BhrtKcUAH5JaRCKv8TjjfoYI-TnrpAHTkNRbgskOj6QvtfPa5sWnwkf49i0aBVNjsB3mdEZ3cwvNQJQtErNDiQIC9ttnfV5n1IIFCOC4Dui-y1UAJHOomxk-hIhvN3ZrXTyupLO54X9ujGY2SomP16P_gKhPPQrb5SglIGoEWQEqLB_pRIMh5ayM0LX2EowB8s8Prlxc_ZatPD3_LcBurVhM-Q6z83lYjeB4eGglrJDps-qk5W3i4vyXIAfG-kcmxl7lngYpMWlX8EJFH3TrtpFctZMduseGSrD4-5RzXRjJIgwOyuVGeYUap8JAFtXQtWxn8y7ApXgi5LNnWsVd8CLpNrD-wAFqIMOvbHKwkbjdjJUzgGJetfzmDeT_SP4L9T_obava-Q2AWvAmPbufs8I-L4EtcmI4ECQhWPrqZd-xxSgwcUl8eLLvrVw6Oi8E-4WlazC44dTtLt3XrYW1zzAS5LAk31fHxvNR_702XFh8Nzx-jb9BOzMAlGQQE84grBh-Hq-ZMndBwG2uyPPDRT64pWsCT5g0nSsdMsl5i7OcR02Z6QJyteED6Dqh63nfk1G8kqAQMsila8CDqtAPzVcJ4JR4ZU0slzWJ_TPYpybTEho7nb-CzdwNi8KNRSAUMlZ65a-t4gGvKlD2LQ2YT7n30akNQ-v0o280PLk-8J6aCW0dKxMK9QsUGXWknnLaMrSzR_XY4OeHwztsg-e0j2ikojZK2rNmgHS-pCOaMUnCnwOzdVygZ13KYf3VGAO9OV6oi9BMUoXgUn9Xj_e0g8Nmakz52xuriijgPc81dOi8TtiNtozU2ynnYDSwiJ9q-CJeo5s2An5HYIeCvq-4k4zYnTOrZfxgblQc6xo3c0nEN8yZFyfvPY9J9yAvLL6JbS6aWbnAhVYB5L9ltL_aVOQB4WNgDtgpoiJJOYaSOhEr4SpOxkWn3mt_z3VG58em539bVIhxUQd4YI=&amp;p=16&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Perkins Coie" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVy4ACgtJi4VUXmOPYiuzEZpFAY07T7xduIFLFk--DCQ-Lt2ze6_K52IaC_T93_BhrtKcUAH5JaRCKv8TjjfoYI-TnrpAHTkNRbgskOj6QvtfPa5sWnwkf49i0aBVNjsB3mdEZ3cwvNQJQtErNDiQIC9ttnfV5n1IIFCOC4Dui-y1UAJHOomxk-hIhvN3ZrXTyupLO54X9ujGY2SomP16P_gKhPPQrb5SglIGoEWQEqLB_pRIMh5ayM0LX2EowB8s8Prlxc_ZatPD3_LcBurVhM-Q6z83lYjeB4eGglrJDps-qk5W3i4vyXIAfG-kcmxl7lngYpMWlX8EJFH3TrtpFctZMduseGSrD4-5RzXRjJIgwOyuVGeYUap8JAFtXQtWxn8y7ApXgi5LNnWsVd8CLpNrD-wAFqIMOvbHKwkbjdjJUzgGJetfzmDeT_SP4L9T_obava-Q2AWvAmPbufs8I-L4EtcmI4ECQhWPrqZd-xxSgwcUl8eLLvrVw6Oi8E-4WlazC44dTtLt3XrYW1zzAS5LAk31fHxvNR_702XFh8Nzx-jb9BOzMAlGQQE84grBh-Hq-ZMndBwG2uyPPDRT64pWsCT5g0nSsdMsl5i7OcR02Z6QJyteED6Dqh63nfk1G8kqAQMsila8CDqtAPzVcJ4JR4ZU0slzWJ_TPYpybTEho7nb-CzdwNi8KNRSAUMlZ65a-t4gGvKlD2LQ2YT7n30akNQ-v0o280PLk-8J6aCW0dKxMK9QsUGXWknnLaMrSzR_XY4OeHwztsg-e0j2ikojZK2rNmgHS-pCOaMUnCnwOzdVygZ13KYf3VGAO9OV6oi9BMUoXgUn9Xj_e0g8Nmakz52xuriijgPc81dOi8TtiNtozU2ynnYDSwiJ9q-CJeo5s2An5HYIeCvq-4k4zYnTOrZfxgblQc6xo3c0nEN8yZFyfvPY9J9yAvLL6JbS6aWbnAhVYB5L9ltL_aVOQB4WNgDtgpoiJJOYaSOhEr4SpOxkWn3mt_z3VG58em539bVIhxUQd4YI=&amp;p=16&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Technology Transactions &amp; Privacy Associate</strong></a><br>
+                      Perkins Coie
+                  </div>
+                   <div class="jobList-location text-muted">Palo Alto, CA 94304</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">30 Dec</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0ANOUGuejMdMoKiK9AjecFdEghbRp6979aTIzLwR3XwPlhHQUl-cDh3K85dGAf7xF-sahJgjW6-BRSHbVJIIQ-NaP4Kzt54NQcgbbEmgnpN2QQ7xyRQOBMRJNxEQVNIwh8nSr8zBa2C69CdnAAvFFFijFyTceVQqnPI7ei6QEHcjTz2hNgdEEzWpMcXPH49LplL-qGQ9ZanXeGUGfLPap0bR22wrOUsD2WIBovvKXDDdbIr5go5Jjw6VKaXTwDeA_238uEWF-U3rAolU7Laf1DWlzvY7jls0iszKpwHP9lV8vBjpMYR9e6gArJ45nMjNu12OX3gu1Xf8hwSuuAQwwoHdUp0xAPmZz7iOo1uk5n3DNgyvF8ChXINIk6WXvgQMvfBEowLwSQtFZppNhS_bztGGYN0qMXoyZ3lIoNOrO9yITPvHUar9rSUzWG0iqfhxCqI1Wznqsttk2xD5SqVTqUyWRTShHKrr6DnxMIAvQ9T-3G5kytf302Nh2_TSMdkcJ4Rw6LnqiSviTDND7xnB1f3hyTOTkhTFMKCoUtFk2kuCW9-pgzwtA1kjIVlxWG7VISM0i_GcNOiBaWzQKSHveMxulHEg6tTIAbLGsar1DquI4yuP4nzcPh2krYeGp6KEU-pCzcmThSY0s1MJ4PFFngUfqoHTb3r1C7ZYbx997FpkmGL2vq6NGTu&amp;p=17&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Defense Engineering, Inc." src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0ANOUGuejMdMoKiK9AjecFdEghbRp6979aTIzLwR3XwPlhHQUl-cDh3K85dGAf7xF-sahJgjW6-BRSHbVJIIQ-NaP4Kzt54NQcgbbEmgnpN2QQ7xyRQOBMRJNxEQVNIwh8nSr8zBa2C69CdnAAvFFFijFyTceVQqnPI7ei6QEHcjTz2hNgdEEzWpMcXPH49LplL-qGQ9ZanXeGUGfLPap0bR22wrOUsD2WIBovvKXDDdbIr5go5Jjw6VKaXTwDeA_238uEWF-U3rAolU7Laf1DWlzvY7jls0iszKpwHP9lV8vBjpMYR9e6gArJ45nMjNu12OX3gu1Xf8hwSuuAQwwoHdUp0xAPmZz7iOo1uk5n3DNgyvF8ChXINIk6WXvgQMvfBEowLwSQtFZppNhS_bztGGYN0qMXoyZ3lIoNOrO9yITPvHUar9rSUzWG0iqfhxCqI1Wznqsttk2xD5SqVTqUyWRTShHKrr6DnxMIAvQ9T-3G5kytf302Nh2_TSMdkcJ4Rw6LnqiSviTDND7xnB1f3hyTOTkhTFMKCoUtFk2kuCW9-pgzwtA1kjIVlxWG7VISM0i_GcNOiBaWzQKSHveMxulHEg6tTIAbLGsar1DquI4yuP4nzcPh2krYeGp6KEU-pCzcmThSY0s1MJ4PFFngUfqoHTb3r1C7ZYbx997FpkmGL2vq6NGTu&amp;p=17&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Security Engineer (Secret clearance)</strong></a><br>
+                      Defense Engineering, Inc.
+                  </div>
+                   <div class="jobList-location text-muted">Crystal City, VA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">27 Nov</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVPrVxdgLZ0ixAl3z1cLeFuApGXGXU6XJ3jyTohA87zWt4tuiL-wsYadftkMYj0b9G764znCxpSVDjPLodSDUYqzWKgzSNc-GhQaxE95Cs4waTFUy2T5zV5memmLgTzKI5xUk2i-6bPynoMc11bRHMDI6fTxciyvxH9STYSqpohDbPEbjHSI2FM15rvi0h0W8HEYXS6UbkzHsIyxB2HbNN6X5i_3tALunsR08ElcUn26uw9HjPFNu4MVQXYiO84SOgnBVMISGFpSThNrNRxRcFWfrgpe8W8Y6zqtPiszT7nxT66lW8oej6VyhbhTz_BXd5fDaPHlm6tnIe0GXcteJf47o2A071sGbEhLEA52I6jVCzFlCDaIihvKsEM1-4W6uyqlIZ9Bff2R2ambeLE8McZ7y8pdxlGmM_uL1qlwySOEilRAAi1W2Ihfxbie0sAk-WLTW5_UPDFvz8Y0Z23zBjpwAmcH-ihLyKtiAuzWShNIxIZEJ4kO2BNTAygvecVKHVZY3krNegDuVW-kOewF8C0xkxkGf9-bPe0SEW9PFEoWGf1zFAWFujkxzl5RTGuIJG_sLt4Ve3RxsYJ_ka1e04iYy_RTPQNKFjnvUNsodQHFOfdScX326yACuc8QWKQqbnRMKDSo0C8zJBKxoT5S5rGtpCNgXWs6L3eZFEUUQA4zSHqTjFq5-iy6bNO3YZipf6nOTB6I1i1S0Mg6EUbnuGY1ESk9VsbqQmGuVRFRCmpfFb0jpDD2swQrGAaz4kRqdC0uVF5f5tTMgfqqwLZ75XN0Xvo2s_WsqcIO8xss7PDC9O0pWFDg9H8j9t7DbyNe6uutYEPZ0A17KcDXQANbAk0yhfy13rJSIb4BDdMzobk5yOPI8M-kPdATRZzWEaiuDyRF_qOKNVS-iPqvJGHU4V4lCDABAwZrEHTZ-buqnnEV-v14XS8NNPg8XYPNgWjXj7XJMHuHkMOWr1YEm9HP1KezFDzRQrtWooIcMEut9x19Q89oRpp2rQr5JQmfHfB75dKcGZl2ZJ6_I=&amp;p=18&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Symantec" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVPrVxdgLZ0ixAl3z1cLeFuApGXGXU6XJ3jyTohA87zWt4tuiL-wsYadftkMYj0b9G764znCxpSVDjPLodSDUYqzWKgzSNc-GhQaxE95Cs4waTFUy2T5zV5memmLgTzKI5xUk2i-6bPynoMc11bRHMDI6fTxciyvxH9STYSqpohDbPEbjHSI2FM15rvi0h0W8HEYXS6UbkzHsIyxB2HbNN6X5i_3tALunsR08ElcUn26uw9HjPFNu4MVQXYiO84SOgnBVMISGFpSThNrNRxRcFWfrgpe8W8Y6zqtPiszT7nxT66lW8oej6VyhbhTz_BXd5fDaPHlm6tnIe0GXcteJf47o2A071sGbEhLEA52I6jVCzFlCDaIihvKsEM1-4W6uyqlIZ9Bff2R2ambeLE8McZ7y8pdxlGmM_uL1qlwySOEilRAAi1W2Ihfxbie0sAk-WLTW5_UPDFvz8Y0Z23zBjpwAmcH-ihLyKtiAuzWShNIxIZEJ4kO2BNTAygvecVKHVZY3krNegDuVW-kOewF8C0xkxkGf9-bPe0SEW9PFEoWGf1zFAWFujkxzl5RTGuIJG_sLt4Ve3RxsYJ_ka1e04iYy_RTPQNKFjnvUNsodQHFOfdScX326yACuc8QWKQqbnRMKDSo0C8zJBKxoT5S5rGtpCNgXWs6L3eZFEUUQA4zSHqTjFq5-iy6bNO3YZipf6nOTB6I1i1S0Mg6EUbnuGY1ESk9VsbqQmGuVRFRCmpfFb0jpDD2swQrGAaz4kRqdC0uVF5f5tTMgfqqwLZ75XN0Xvo2s_WsqcIO8xss7PDC9O0pWFDg9H8j9t7DbyNe6uutYEPZ0A17KcDXQANbAk0yhfy13rJSIb4BDdMzobk5yOPI8M-kPdATRZzWEaiuDyRF_qOKNVS-iPqvJGHU4V4lCDABAwZrEHTZ-buqnnEV-v14XS8NNPg8XYPNgWjXj7XJMHuHkMOWr1YEm9HP1KezFDzRQrtWooIcMEut9x19Q89oRpp2rQr5JQmfHfB75dKcGZl2ZJ6_I=&amp;p=18&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Senior Privacy Counsel</strong></a><br>
+                      Symantec
+                  </div>
+                   <div class="jobList-location text-muted">Mountain View, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap"> 9 Feb</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVyuMDyoXMo1z-2B26wLhJc8g9vCbp42PNzh-RduYXmYGWB7a1vKi4BmqVqpC6qK0yQ-A93j5KQrCiCc4yIu0HsAM2VDRD4zOTpPkOaIDjr2dIEIMOsvVvoJOWjpmdLhm1cFnY1nYAWbaa5cYqPzmspqxY7tIA_P3z6XWYv0VFOspBVJaneuzki2NDWBPBRbIsnEBuuR-0GwcVECwiKWo4S8Xd76qisuvi00CzsBZimEeZfz1lVt9nnjASqsK2S9omF18SKHo-NJzFkAIJ4NyraN-YC4ff9urQ-rZt0FXh5qeWKXdLiSe79BVhVeSKGVkSSKxZhF09GhmwuT0O2oBSeStVendk1BRMrzRhm9CY9KYpZtPNXLkz4lpmXAxigk8ZrvUiE-PTyB2yWprSj9hzIt9V4He4G5LGdVl-ExiObJA-CFX0EQ0XT9k6ZffGsSu39QZd-WlsX1fQvhJXVyEgpFzB4eOE8EO9zjyNrX2HQLeXbZZj_jUuyu6VxBRcirivnJGerb6TLdx-F_r7kN_dc-vnC3se8D9AqlAyzLY6yEPbURFw1i6Qdg88nJcZ6i4cL1fcgPhmJDtr2eprVox3Wn3HkI1bi632qEeahPjhH79fdZyNCVkE8czKO3YRjT37P6ikmRIHQ79i2FNcc7ehFzVr_lV3LofdDqURrQb3J_HNI06QB580YGgYKiCFMlypBP7fAJjJI_7ML4KUc6164se3v7MXsxEi9LAbpkpSRbk3XLEQa2p0yQyCOSB5wmxUqFCzWU_-vcDh8-M3PSqJREg2UKgKaCo4-RpXEzlGK6oPx7ylVPdoOaZZlyMih3rlDS-gSb7NXXK0u7xLAKf7jL0zgRDl3Lc8xibLo39BpmHnJ3f8ZqoyrcG_PHvph2cnbdvB6SDS1qy2X0LOn7WJ1E4OC7ZEteg5H2ogPIPSuHh97Pwu1YKQ5j6E9eK0INxyFr4nIp75xH1BthD_8TaMCxfc8kwg975RNoWgb5a1rUi_7w8fO05iakmC6WCkT3OoGOx0vqM5zBSd6Bu1J-F2Vg==&amp;p=19&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="DGN Technologies Inc" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVyuMDyoXMo1z-2B26wLhJc8g9vCbp42PNzh-RduYXmYGWB7a1vKi4BmqVqpC6qK0yQ-A93j5KQrCiCc4yIu0HsAM2VDRD4zOTpPkOaIDjr2dIEIMOsvVvoJOWjpmdLhm1cFnY1nYAWbaa5cYqPzmspqxY7tIA_P3z6XWYv0VFOspBVJaneuzki2NDWBPBRbIsnEBuuR-0GwcVECwiKWo4S8Xd76qisuvi00CzsBZimEeZfz1lVt9nnjASqsK2S9omF18SKHo-NJzFkAIJ4NyraN-YC4ff9urQ-rZt0FXh5qeWKXdLiSe79BVhVeSKGVkSSKxZhF09GhmwuT0O2oBSeStVendk1BRMrzRhm9CY9KYpZtPNXLkz4lpmXAxigk8ZrvUiE-PTyB2yWprSj9hzIt9V4He4G5LGdVl-ExiObJA-CFX0EQ0XT9k6ZffGsSu39QZd-WlsX1fQvhJXVyEgpFzB4eOE8EO9zjyNrX2HQLeXbZZj_jUuyu6VxBRcirivnJGerb6TLdx-F_r7kN_dc-vnC3se8D9AqlAyzLY6yEPbURFw1i6Qdg88nJcZ6i4cL1fcgPhmJDtr2eprVox3Wn3HkI1bi632qEeahPjhH79fdZyNCVkE8czKO3YRjT37P6ikmRIHQ79i2FNcc7ehFzVr_lV3LofdDqURrQb3J_HNI06QB580YGgYKiCFMlypBP7fAJjJI_7ML4KUc6164se3v7MXsxEi9LAbpkpSRbk3XLEQa2p0yQyCOSB5wmxUqFCzWU_-vcDh8-M3PSqJREg2UKgKaCo4-RpXEzlGK6oPx7ylVPdoOaZZlyMih3rlDS-gSb7NXXK0u7xLAKf7jL0zgRDl3Lc8xibLo39BpmHnJ3f8ZqoyrcG_PHvph2cnbdvB6SDS1qy2X0LOn7WJ1E4OC7ZEteg5H2ogPIPSuHh97Pwu1YKQ5j6E9eK0INxyFr4nIp75xH1BthD_8TaMCxfc8kwg975RNoWgb5a1rUi_7w8fO05iakmC6WCkT3OoGOx0vqM5zBSd6Bu1J-F2Vg==&amp;p=19&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Information Security Analyst</strong></a><br>
+                      DGN Technologies Inc
+                      <div class="indeed-apply">Easily Apply</div>
+                  </div>
+                   <div class="jobList-location text-muted">Sunnyvale, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">23 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVyuMDyoXMo1z93AaYWj1sHmiCL1ZRhwjnJhyILLvbh3kP_2y0_a3z3RdtOKaogq-w7UOA0E_uYGM5ELHypriBqaxN4D98WNOnhF0x4lUrkxwTtvrNakM77elCFwm0gd1Byfe-PKhdr1znYNlItU-NA6nZuQ_1XXduA5-mBzHVWipd7vKWx2dYwu1B-AUmfrDSIY5022dNUYBml3J9gX3eXeaK1Jg5nnmdO058ZageY_876iT_N_QbiiqRG_6kLJJjK5PydKWRNxrKIsJl0OvbEaWGC42kbpndKI26g-eLBXFxfaFIANw4BtiJY53HeBQOWyV_EYAG1z3iPx-TJxZlkXW3UtWzE3yMK9TjoHbPNmUhp2CZ1QSgoMx3nxv84uW7FlxVtb0FbBe9E46d35WMkwffyl-O66iIK2moHmywEMB4TGM9wyc9q_ERt2gVyzuZzx7ivJrOGNCmunew5zqq9GEjfcBxm-5kmhh_Zy0WMj6koy8GwuK-GAYNj0BcHmsXLNf3SZ68-fWCP5fetciIFjiAiFr5HL_0irSDlk1ZzUo5LvN0-5IZtWbQY_wM914SQALt3jBiGh6oQ7My7gBmwQiMz6GBNmNaxaVhQq3jWYO_K6ZifhW6aQIPLa19HZeoEXvRLC_nnPGP0A1EJBjuhAN-vM72zibpMzo2oV_rx2ZEPpRvdoOEQj3X36ZM5owGYI3LZElySRmuuDk6YK88xDx3h-ml5iLwQ-PnyF0paY_eNWu9VCC_Pc59jm9f6JDf_PXN2YYMeG9mkaN8cEz3kI5hV7DgwuoCKzYcIr1_jQ2k4TT9fD3sSswI8aYF2Kn2kbrDVPPxP_jIGRAolJfn2WzZ1Um22xGIygDBHrz3A-HNsmd6PgoertCbXaCx2R7T5hfoxvzqJFzZWKuD5h7NQpXDBRMuV4_uZd1IoVZHTMkCztC-9j5LcBuscni3jIHRGR_VksJvn-ps5QnV9bJrnVO7IWMArJ6RGJfgNlvwEpKecNMKoMsqAuu2TuMBm1QOmhm-gvDURIHmhSlD_50l7w==&amp;p=20&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Fidelis Pro Solutions Inc" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvVyuMDyoXMo1z93AaYWj1sHmiCL1ZRhwjnJhyILLvbh3kP_2y0_a3z3RdtOKaogq-w7UOA0E_uYGM5ELHypriBqaxN4D98WNOnhF0x4lUrkxwTtvrNakM77elCFwm0gd1Byfe-PKhdr1znYNlItU-NA6nZuQ_1XXduA5-mBzHVWipd7vKWx2dYwu1B-AUmfrDSIY5022dNUYBml3J9gX3eXeaK1Jg5nnmdO058ZageY_876iT_N_QbiiqRG_6kLJJjK5PydKWRNxrKIsJl0OvbEaWGC42kbpndKI26g-eLBXFxfaFIANw4BtiJY53HeBQOWyV_EYAG1z3iPx-TJxZlkXW3UtWzE3yMK9TjoHbPNmUhp2CZ1QSgoMx3nxv84uW7FlxVtb0FbBe9E46d35WMkwffyl-O66iIK2moHmywEMB4TGM9wyc9q_ERt2gVyzuZzx7ivJrOGNCmunew5zqq9GEjfcBxm-5kmhh_Zy0WMj6koy8GwuK-GAYNj0BcHmsXLNf3SZ68-fWCP5fetciIFjiAiFr5HL_0irSDlk1ZzUo5LvN0-5IZtWbQY_wM914SQALt3jBiGh6oQ7My7gBmwQiMz6GBNmNaxaVhQq3jWYO_K6ZifhW6aQIPLa19HZeoEXvRLC_nnPGP0A1EJBjuhAN-vM72zibpMzo2oV_rx2ZEPpRvdoOEQj3X36ZM5owGYI3LZElySRmuuDk6YK88xDx3h-ml5iLwQ-PnyF0paY_eNWu9VCC_Pc59jm9f6JDf_PXN2YYMeG9mkaN8cEz3kI5hV7DgwuoCKzYcIr1_jQ2k4TT9fD3sSswI8aYF2Kn2kbrDVPPxP_jIGRAolJfn2WzZ1Um22xGIygDBHrz3A-HNsmd6PgoertCbXaCx2R7T5hfoxvzqJFzZWKuD5h7NQpXDBRMuV4_uZd1IoVZHTMkCztC-9j5LcBuscni3jIHRGR_VksJvn-ps5QnV9bJrnVO7IWMArJ6RGJfgNlvwEpKecNMKoMsqAuu2TuMBm1QOmhm-gvDURIHmhSlD_50l7w==&amp;p=20&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Information Security Analyst</strong></a><br>
+                      Fidelis Pro Solutions Inc
+                      <div class="indeed-apply">Easily Apply</div>
+                  </div>
+                   <div class="jobList-location text-muted">Sunnyvale, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">23 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CWitTqoH982IjdLjQzsXPOtSyN70lZsuKHKm92xcFRxyvjZ4G95qNuHfN_Z2BB2XKlOafaXE6dIJxNwGYlMgolbuHQ9xZsdNoMWmZTrU5NVQ1sXnuqZQyn_kwbFoYXS2CFNXVYylxtPgPbYae60sLAjjNL7O-_ASNYJ81_AKYYDmx736D5Z90U5R9faE7n9PwZAU6BAglxOM-3JE0eV7vEm6QVq7Zx5x2AscCEmcwK31KGGJg5D23G6Dq5BSac1EVDc8Xg7P9LoacuA_3xDRsFk4bIksgZCXidWeLq7nt-8Ki6ay0M1HDopJ0PSfAp1ejAeF10pbb8d0blvvrJfRDtV-50aGHbY6EbHvYSJo0MElgaknwXJaXrg3ZonY4a4-WTijngxIHHYcitgFiBrtPwOoSY37Pi5pCd32QtCG63fR9NV9yNoOrUXkb4j0ZF0--yz5azk7EdoX-IzLNPNQsiX1NvXnUXgcDZFRs4jumaTa3wRKyjr1RtKJGpqoE9560BCrz9FYm5fcH4ZYMMXQqtRnsHzPgEJMlVgICblRIxgMgcgr7M_lur7oCdGkc2I3rhfCMUzIE1D_oHTtg91Kb-_T85rtccKKCxKBMTr-wcBV8LJv_FOWISMqfaUi1J3i57khPawauaqJdobZBbIInqlLBbx4_FMxeQpTkShcPkk7XShIF77ybtmyPbtt-lpkpt1AynLIKbPCNjnGdLg9h3oXjsr4GPV0MwPlY3stc2a4MH7_BvzKwzRiN9D5v0W-9_bXrvAwWwuP1h5mXHM-pucM5tsBmRQQFUFWR2qRj4T-hBmJAg5j3StiDOiYcPaBORmBZXqjxFiIBhDp4fJo_X_ot5JCVO46oQWDWoO4WAPoZnTpoFlJ8eG5iU98q3LcsGei17R5mT07B7hvYiKXJzYub6EZpEYwm-EP1PKJKhKWDRBp7Ro7yX&amp;p=21&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Saab" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CWitTqoH982IjdLjQzsXPOtSyN70lZsuKHKm92xcFRxyvjZ4G95qNuHfN_Z2BB2XKlOafaXE6dIJxNwGYlMgolbuHQ9xZsdNoMWmZTrU5NVQ1sXnuqZQyn_kwbFoYXS2CFNXVYylxtPgPbYae60sLAjjNL7O-_ASNYJ81_AKYYDmx736D5Z90U5R9faE7n9PwZAU6BAglxOM-3JE0eV7vEm6QVq7Zx5x2AscCEmcwK31KGGJg5D23G6Dq5BSac1EVDc8Xg7P9LoacuA_3xDRsFk4bIksgZCXidWeLq7nt-8Ki6ay0M1HDopJ0PSfAp1ejAeF10pbb8d0blvvrJfRDtV-50aGHbY6EbHvYSJo0MElgaknwXJaXrg3ZonY4a4-WTijngxIHHYcitgFiBrtPwOoSY37Pi5pCd32QtCG63fR9NV9yNoOrUXkb4j0ZF0--yz5azk7EdoX-IzLNPNQsiX1NvXnUXgcDZFRs4jumaTa3wRKyjr1RtKJGpqoE9560BCrz9FYm5fcH4ZYMMXQqtRnsHzPgEJMlVgICblRIxgMgcgr7M_lur7oCdGkc2I3rhfCMUzIE1D_oHTtg91Kb-_T85rtccKKCxKBMTr-wcBV8LJv_FOWISMqfaUi1J3i57khPawauaqJdobZBbIInqlLBbx4_FMxeQpTkShcPkk7XShIF77ybtmyPbtt-lpkpt1AynLIKbPCNjnGdLg9h3oXjsr4GPV0MwPlY3stc2a4MH7_BvzKwzRiN9D5v0W-9_bXrvAwWwuP1h5mXHM-pucM5tsBmRQQFUFWR2qRj4T-hBmJAg5j3StiDOiYcPaBORmBZXqjxFiIBhDp4fJo_X_ot5JCVO46oQWDWoO4WAPoZnTpoFlJ8eG5iU98q3LcsGei17R5mT07B7hvYiKXJzYub6EZpEYwm-EP1PKJKhKWDRBp7Ro7yX&amp;p=21&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Senior IT Professional; Saab Defense and Security</strong></a><br>
+                      Saab
+                  </div>
+                   <div class="jobList-location text-muted">Ashburn, VA 20147</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">24 Jan</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B5m5M6yZfth-NY3YB673CWYY4b83YHG_uHP4G_w6XfJ5B98c97MbuvO5CgaLLnRkdsXvGrMqe9ewWkzaKRucCmNpmM8IDZwCX9GDjqUOkNdUuumuxbRDVlLo2J3pnN6MiAJIZbY9QgQmrd-enbtSEp38rTr9dN8QByDp6NZpGpMZdJmsEYagUsq8ts-QwmUF3Rasdt86aWB85DSTdIMQKL_RRshlsTU0kbOthI7wsJBmH9t-0Ww_gryAMAD7NUuXZnl9j08VMl4oEzzEnvxzjYuDe0cCLgXa8XTJrFyA7Uits35JAeO_4QoRsUK7aavg15ivJfJlDIain0WmKgXaji6HDLUz-8aMGgT5aQcEhU-EIky5Ebq0Dqqp8Pvt4_y30bY1-lO5aI005tcMwgvUOAuxwfPwbLq41rM9ZkMDV-i5FKA-8a7igyJ_EldX2_DcUxj6io1SDxX8wvXKWDp6X_PQD8MBQ3WW_eAemIVsNbM47a0VNo63OCfKNjUVWpGk3WL5n5lCfdaL9aKmpE9Z4wUCWAgEMQBWAm5FMdqDhYw21UyXXKDWaVJUqXgg7MZxwjRKh1bMqvVOqf9dpyKLwuaBwUoR13p0kg4RKt1-sk9C1gs9CVfaWadwGKcVFwNKRKiH5M3NEPxoRwsxJKPeHWFdavGlgDRYM-nX7ZGTkUKPQy2t4yEtoSpazA8HpxfHIKlepXHNshemtkmNVez0VQi_XhDmn3eVpWOUUrxovRoJAuGXZq1n_RIC8t6vZxguUr9Tp7hP394qjpV97GlfsNM7UU_GMOguSZfbqYLwJdg0KzxXhe97in2pRu9IbHyn3JdCecuI8_g_7wKg5HZuf0gpK0rs1KT3c=&amp;p=22&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Focal Point Data Risk LLC" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0B5m5M6yZfth-NY3YB673CWYY4b83YHG_uHP4G_w6XfJ5B98c97MbuvO5CgaLLnRkdsXvGrMqe9ewWkzaKRucCmNpmM8IDZwCX9GDjqUOkNdUuumuxbRDVlLo2J3pnN6MiAJIZbY9QgQmrd-enbtSEp38rTr9dN8QByDp6NZpGpMZdJmsEYagUsq8ts-QwmUF3Rasdt86aWB85DSTdIMQKL_RRshlsTU0kbOthI7wsJBmH9t-0Ww_gryAMAD7NUuXZnl9j08VMl4oEzzEnvxzjYuDe0cCLgXa8XTJrFyA7Uits35JAeO_4QoRsUK7aavg15ivJfJlDIain0WmKgXaji6HDLUz-8aMGgT5aQcEhU-EIky5Ebq0Dqqp8Pvt4_y30bY1-lO5aI005tcMwgvUOAuxwfPwbLq41rM9ZkMDV-i5FKA-8a7igyJ_EldX2_DcUxj6io1SDxX8wvXKWDp6X_PQD8MBQ3WW_eAemIVsNbM47a0VNo63OCfKNjUVWpGk3WL5n5lCfdaL9aKmpE9Z4wUCWAgEMQBWAm5FMdqDhYw21UyXXKDWaVJUqXgg7MZxwjRKh1bMqvVOqf9dpyKLwuaBwUoR13p0kg4RKt1-sk9C1gs9CVfaWadwGKcVFwNKRKiH5M3NEPxoRwsxJKPeHWFdavGlgDRYM-nX7ZGTkUKPQy2t4yEtoSpazA8HpxfHIKlepXHNshemtkmNVez0VQi_XhDmn3eVpWOUUrxovRoJAuGXZq1n_RIC8t6vZxguUr9Tp7hP394qjpV97GlfsNM7UU_GMOguSZfbqYLwJdg0KzxXhe97in2pRu9IbHyn3JdCecuI8_g_7wKg5HZuf0gpK0rs1KT3c=&amp;p=22&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Privacy Team Manager</strong></a><br>
+                      Focal Point Data Risk LLC
+                  </div>
+                   <div class="jobList-location text-muted">Newport Beach, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">15 Dec</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CKTVuSOHNSdXuWYp9kG2iMl83PckGLuvJ-J_XjeFhnMs8H2B2zXbsILvEKnXgVwMkOjEyI4b7Dw-c913q4EWItpvQFTUNDHv5bP7ku4LVCqfO2S1UTOQHvCNLve4UY5EoMGT4f8ng59m0dL2j57-L8EHG1dKh5nmc9JJGlIa98MSxn_sAsBm0ZLj_I8iiAXQwOeUmxdll5APPxxnYGTpQeDDs1YcyourBr4NtQacAVQNqyNXNvhcPkbp87w49DjbxcvixcWRd43gXampS6cvQia5bpk2m74e5XCJJcpjv06oIkVmsBAZIdNg-IcYB4JKeMQP71T97Um8pGHvA9W944GENFgMHlD1NmhezuuwFiNIgoIxwXiUJ-S-aNtZ8qNAgq2QDG-k3TJdCqrM3HSeZO2co9C3vrczgOQu2bOtiZUCPhD_Cg1rB2yQ1OiRZQAYCUXtn0490TldRukyUl-lrSmw55JcdTEG9bm0DXW-Cf2RlsFTvN0R1MZLb34xdQC_nJ2ypUl45TLlpWDNSEwOZQnK3uHlZf4ckpYVqXCWOSgIIwTZJPBj8RrCtDMEiTIzIcxGhypcQO7Ub6MrFgzy1C2yceHlQIOZ8VSf2AvVPNvubRFI6lo0XHNMtBVCxSinA3IvLOFsIiqeYHP6r4aSewZq44h1AXDvxg4UHhJowE5KTDwrXN_0IbXLcKG_ihElA8ctvH_DhEQbsTQRcpI6MBubMOAfRaXT3216i6zHe9TUT4BFPLJgOXriZsvzuWIcv9dI6-jJNykraKtsRM5X6bTiz4I-tf-u7qwiWPDGzGm9Hy-vzQrOB_hYy_Hss9YPvuH-aC_2id09heOIQYu00CSYY3wdKO1ha2P7aVBGu2PHWvXE-dn8GDoP0CXxMIPBjy_0jm9dRf8Q==&amp;p=23&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="MacAulay-Brown, Inc." src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0CKTVuSOHNSdXuWYp9kG2iMl83PckGLuvJ-J_XjeFhnMs8H2B2zXbsILvEKnXgVwMkOjEyI4b7Dw-c913q4EWItpvQFTUNDHv5bP7ku4LVCqfO2S1UTOQHvCNLve4UY5EoMGT4f8ng59m0dL2j57-L8EHG1dKh5nmc9JJGlIa98MSxn_sAsBm0ZLj_I8iiAXQwOeUmxdll5APPxxnYGTpQeDDs1YcyourBr4NtQacAVQNqyNXNvhcPkbp87w49DjbxcvixcWRd43gXampS6cvQia5bpk2m74e5XCJJcpjv06oIkVmsBAZIdNg-IcYB4JKeMQP71T97Um8pGHvA9W944GENFgMHlD1NmhezuuwFiNIgoIxwXiUJ-S-aNtZ8qNAgq2QDG-k3TJdCqrM3HSeZO2co9C3vrczgOQu2bOtiZUCPhD_Cg1rB2yQ1OiRZQAYCUXtn0490TldRukyUl-lrSmw55JcdTEG9bm0DXW-Cf2RlsFTvN0R1MZLb34xdQC_nJ2ypUl45TLlpWDNSEwOZQnK3uHlZf4ckpYVqXCWOSgIIwTZJPBj8RrCtDMEiTIzIcxGhypcQO7Ub6MrFgzy1C2yceHlQIOZ8VSf2AvVPNvubRFI6lo0XHNMtBVCxSinA3IvLOFsIiqeYHP6r4aSewZq44h1AXDvxg4UHhJowE5KTDwrXN_0IbXLcKG_ihElA8ctvH_DhEQbsTQRcpI6MBubMOAfRaXT3216i6zHe9TUT4BFPLJgOXriZsvzuWIcv9dI6-jJNykraKtsRM5X6bTiz4I-tf-u7qwiWPDGzGm9Hy-vzQrOB_hYy_Hss9YPvuH-aC_2id09heOIQYu00CSYY3wdKO1ha2P7aVBGu2PHWvXE-dn8GDoP0CXxMIPBjy_0jm9dRf8Q==&amp;p=23&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Cyber Tool Developer</strong></a><br>
+                      MacAulay-Brown, Inc.
+                  </div>
+                   <div class="jobList-location text-muted">San Antonio, TX 78228</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">18 Feb</div>
+              </li>
+              <li class="job-listing">
+                  <div class="jobList-media"><a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvV2EUOkuKSuUJEPMQcXC3MCSGLY6TRXbEezyAr3Gls05NwBKrkCrMCC952MekbUHcY0rLPUtYHzLEHBHHO9mMfEwhLbJ5Q4MYitLbSAHyAgurqMytRPY0tCr8MqTL4b_92QssKOwMUmF45J0y3U0xR7SSBsaQo2o-ZHl1O8ICnM2BoonKQlmD-Y5nz5BGODRcdleJMezfZImIZheHjx6Z9nwUCstPvIRyh82I9Ww_TqUTfs4zDim_LRX9gD5n5utLK38huo6YRFtpbEOr1vfti-UNGYKEFivtq2j_fsCoHa9AQJh-ZKkc0bn5038_t7RmGG5qNqd8fr7-mg9fO_gy5VMehA18ThXXTSQZbK1B3b0ULImAz_3Pq0IQe6v_cjXFt2J47XjQWm70h730X1uhKmrubmTgjZ4Z6FiChP3-6ICDryhMk9tfiNlgOcwNBD1II_B-rO6OgwY6-C5Vnh7HUIfdyFVLp07mTySZTCUAu5l-iQOebl_ML9MlYIdo5_1TpOtaYCmU-cRbw_ibS1E14YYjjpDkwN0wPa1LYSOzJN38o8KpwP6J5mz0ThOtDnMgr_XWMFOovSXOrP_bvTEEpI5oZleOSc5uV-bq1rKzcbNC4Z6xJnsvZk6avPU1M3arIrHFE4ylURUU5MuSf9F-DvUKfyhuLgEZ2yIM10KN6D5lmHzwkJI7e7yZxXdCD_FBdZgmnTlPJ3yADW9DaGXfQCumOMfeQsniyQMlDciCZ9BPcT67Lg4u-TotDpl1q6-igdGqq6KhMjA6aUGO-e11yMOT7fVxo3DBPqCirzTZ2ir6aISloZWw2XnBvPpcMeut_Mmbwkw5hcwedsMJFQy3xEfW3iyXhk1Z79userWbuNsjO2AqTfpTcANNBkbWGGofGuRr1pZoWRLkqwirqBZ1tq62D3zrVOAEVnE8-6cbZY64Ch-V2dLpW9WQ91M9DyvHljq4bgFnQvno5G8ls1YvGy-jlAWNPP_fUrPLkDfVb4gNS80H5J_B1xVX_U5B5j6RYRcKDYSfAeTs=&amp;p=24&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><img border="0" class="img-responsive" alt="Stanford University" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/fallback_job_logo-f85127a73133a1238ba3dfde66660dc9d8649d47df4b0312c069f7b502696ba8.png" /></a></div>
+                <div class="jobList-introWrap">
+                  <div class="jobList-intro">
+                    <a onmousedown="indeed_clk(this,&#39;6427&#39;);" target="_blank" class="u-textLarge" href="http://www.indeed.com/pagead/clk?mo=r&amp;ad=-6NYlbfkN0Aw1efAMzldDzpoIJt3dh-Ws43S30drXQ6jFQqkIis_uyWXzWBLbUvV2EUOkuKSuUJEPMQcXC3MCSGLY6TRXbEezyAr3Gls05NwBKrkCrMCC952MekbUHcY0rLPUtYHzLEHBHHO9mMfEwhLbJ5Q4MYitLbSAHyAgurqMytRPY0tCr8MqTL4b_92QssKOwMUmF45J0y3U0xR7SSBsaQo2o-ZHl1O8ICnM2BoonKQlmD-Y5nz5BGODRcdleJMezfZImIZheHjx6Z9nwUCstPvIRyh82I9Ww_TqUTfs4zDim_LRX9gD5n5utLK38huo6YRFtpbEOr1vfti-UNGYKEFivtq2j_fsCoHa9AQJh-ZKkc0bn5038_t7RmGG5qNqd8fr7-mg9fO_gy5VMehA18ThXXTSQZbK1B3b0ULImAz_3Pq0IQe6v_cjXFt2J47XjQWm70h730X1uhKmrubmTgjZ4Z6FiChP3-6ICDryhMk9tfiNlgOcwNBD1II_B-rO6OgwY6-C5Vnh7HUIfdyFVLp07mTySZTCUAu5l-iQOebl_ML9MlYIdo5_1TpOtaYCmU-cRbw_ibS1E14YYjjpDkwN0wPa1LYSOzJN38o8KpwP6J5mz0ThOtDnMgr_XWMFOovSXOrP_bvTEEpI5oZleOSc5uV-bq1rKzcbNC4Z6xJnsvZk6avPU1M3arIrHFE4ylURUU5MuSf9F-DvUKfyhuLgEZ2yIM10KN6D5lmHzwkJI7e7yZxXdCD_FBdZgmnTlPJ3yADW9DaGXfQCumOMfeQsniyQMlDciCZ9BPcT67Lg4u-TotDpl1q6-igdGqq6KhMjA6aUGO-e11yMOT7fVxo3DBPqCirzTZ2ir6aISloZWw2XnBvPpcMeut_Mmbwkw5hcwedsMJFQy3xEfW3iyXhk1Z79userWbuNsjO2AqTfpTcANNBkbWGGofGuRr1pZoWRLkqwirqBZ1tq62D3zrVOAEVnE8-6cbZY64Ch-V2dLpW9WQ91M9DyvHljq4bgFnQvno5G8ls1YvGy-jlAWNPP_fUrPLkDfVb4gNS80H5J_B1xVX_U5B5j6RYRcKDYSfAeTs=&amp;p=24&amp;rjs=1&amp;atk=1b97gbkvuaff5a06"><strong>Associate Director of Privacy</strong></a><br>
+                      Stanford University
+                  </div>
+                   <div class="jobList-location text-muted">Palo Alto, CA</div>
+                </div>
+               
+                <div class="jobList-date text-muted u-textNoWrap">29 Oct</div>
+              </li>
+            </ul>
+
+              <div class="indeed-pagination text-center">
+      <ul class="pagination">
+        <li class="disabled"><span class="disabled">«</span></li>
+            <li class="disabled"><a rel="nofollow" href="/?action=index&amp;controller=jobs&amp;pg=1">1</a></li>
+            <li class=""><a rel="nofollow" href="/?pg=2">2</a></li>
+            <li class=""><a rel="nofollow" href="/?pg=3">3</a></li>
+            <li class=""><a rel="nofollow" href="/?pg=4">4</a></li>
+            <li class=""><a rel="nofollow" href="/?pg=5">5</a></li>
+          <li class="disabled"><span class="disabled">»</span></li>
+      </ul>
+  </div>
+
+
+          <div class="by-indeed">
+            <span id="indeed_at"><a href="http://www.indeed.com/">jobs</a> by <a href="http://www.indeed.com/" title="Job
+            Search"><img alt="Indeed Job Search" src="//d1stfaw6j21ccs.cloudfront.net/assets/main/indeed-2c362cc9c1cc18996f15e0920bea4543f87d068f783b45051f9e47d803b951e5.gif" /></a></span>
+          </div>
+      </div>
+  </div>
+
+
+
+
+          </div>
+          <div class="col-md-3">
+              <a class="btn btn-lg btn-block btn-primary u-mb--large" href="/post">Post a Job<br /><span class="postCta-sub">$150 for 60 Days</span></a>
+              <div class="panel panel-default panel-expand" id="widget_2411">
+  <div class="panel-body">
+    <h3 class="u-mt--remove u-mb--regular">DataPrivacyCareers.com</h3>
+    <p>Unlike other job boards, DataPrivacyCareers.com is focused solely on data privacy jobs.
+</p><p>Find candidates today for your data protection, privacy and information security jobs!
+</p><p><strong>Get a Free Trial</strong>
+</p><p>Want to test out the job board for free? Email <a href="mailto:info@dataprivacycareers.com"> and request a trial</a>.
+</p><p><strong>Have multiple openings?</strong>
+</p><p>Check out our Job Packages for even better pricing:<br>
+</p><p><a href="http://www.dataprivacycareers.com/packages">3 Jobs: $350 - Save $100!</a><br><a href="http://www.dataprivacycareers.com/packages">5 Jobs: $500 - Save $250!</a></p>
+  </div>
+</div>
+
+                <div class="panel panel-default panel-expand" id="widget_2412">
+    <div class="panel-body">
+      <h3 class="u-mt--remove u-mb--regular">Sign up for Job Alerts</h3>
+      <div class="alert-message"></div>
+      <form role="form" class="new_job_alert" id="new_job_alert" action="/job_alerts" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><div id="a_comment_body_hp_1487384466"><style type="text/css" media="screen" scoped="scoped">#a_comment_body_hp_1487384466 { display:none; }</style><label for="a_comment_body">Do not fill in this field</label><textarea name="a_comment_body" id="a_comment_body">
+</textarea></div>
+        <div class="form-fields">
+          
+<div class="form-group">
+  <input class="form-control" placeholder="Email Address" size="14" type="text" name="job_alert[email]" id="job_alert_email" />
+</div>
+
+
+
+  <div class="form-group">
+    <input type="text" name="q" id="job_alerts_keywords" class="form-control" placeholder="Keywords" />
+  </div>
+  <div class="form-group"><select name="c[]" id="job_alert_categories" multiple="multiple" size="5" class="form-control btn-utility btn-alt"><option value="2375">Audit</option>
+<option value="17461">Big Data</option>
+<option value="2374">Breach Response</option>
+<option value="2380">Cable</option>
+<option value="15731">CIPP</option>
+<option value="2412">Compliance</option>
+<option value="2372">Consumer Privacy</option>
+<option value="2370">COPPA</option>
+<option value="14966">Cybersecurity</option>
+<option value="17722">Data Privacy</option>
+<option value="2388">Data Security</option>
+<option value="2383">Data Transfer</option>
+<option value="15977">Documentation</option>
+<option value="2867">eDiscovery</option>
+<option value="16361">Engineering</option>
+<option value="2371">EU Data Directive</option>
+<option value="2373">FCRA</option>
+<option value="2376">FERPA</option>
+<option value="17721">FISMA</option>
+<option value="18296">FOIA</option>
+<option value="2368">GLBA</option>
+<option value="15086">Governance</option>
+<option value="2381">Healthcare</option>
+<option value="2367">HIPAA</option>
+<option value="18435">HITECH</option>
+<option value="15032">Implementation</option>
+<option value="15083">Incident Management</option>
+<option value="2384">International Privacy</option>
+<option value="17462">Legal</option>
+<option value="2379">Online Advertising</option>
+<option value="2378">PCI</option>
+<option value="2382">Pharma</option>
+<option value="15029">Policy Development</option>
+<option value="2377">POS Privacy</option>
+<option value="15168">Privacy Communications</option>
+<option value="2657">Product Development</option>
+<option value="15976">Project Management</option>
+<option value="14965">Risk Assessment</option>
+<option value="2391">Social Media</option>
+<option value="2868">SOX</option>
+<option value="2392">Telecom</option>
+<option value="15084">Training and Education</option></select></div>
+
+<div class="form-group"><select class="form-control" name="job_alert[frequency]" id="job_alert_frequency"><option selected="selected" value="1">Send Daily</option>
+<option value="7">Send Weekly</option>
+<option value="30">Send Monthly</option></select></div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+
+      $('#job_alert_categories_search').multiselect({
+          includeSelectAllOption: true,
+          selectAllText: "All Categories",
+          nonSelectedText: "All Categories",
+          buttonClass: 'btn btn-utility btn-alt',
+          buttonWidth: '100%',
+          maxHeight: 200,
+          numberDisplayed: 1,
+       });
+
+      $('#job_alert_locations_search').multiselect({
+          includeSelectAllOption: true,
+          selectAllText: "All Locations",
+          nonSelectedText: "All Locations",
+          buttonClass: 'btn btn-utility btn-alt',
+          buttonWidth: '100%',
+          maxHeight: 200,
+          numberDisplayed: 1,
+       });
+    
+     });
+
+
+  </script>
+ 
+
+
+
+
+
+        </div>
+        <input value="sidebar" type="hidden" name="job_alert[source]" id="job_alert_source" />
+         <button type="submit" class="btn btn-success btn-block" id="button-job-alert">
+            <span class="glyphicon glyphicon-envelope"></span> Create Alert
+         </button>
+</form>    </div>
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#job_alert_categories').multiselect({
+            includeSelectAllOption: true,
+            selectAllText: "All Categories",
+            nonSelectedText: "All Categories",
+            buttonClass: 'btn btn-utility btn-alt',
+            buttonWidth: '100%',
+            maxHeight: 200,
+            numberDisplayed: 1,
+         });
+     });
+  </script>
+
+
+                  <div class="panel panel-default panel-expand" id="widget_2413">
+      <div class="panel-body">
+        <h3 class="u-mt--remove u-mb--regular">Categories</h3>
+        <ul class="u-flexList">
+             <li><a href="/categories/2375-audit">Audit</a></li>
+             <li><a href="/categories/17461-big-data">Big Data</a></li>
+             <li><a href="/categories/2374-breach-response">Breach Response</a></li>
+             <li><a href="/categories/2380-cable">Cable</a></li>
+             <li><a href="/categories/15731-cipp">CIPP</a></li>
+             <li><a href="/categories/2412-compliance">Compliance</a></li>
+             <li><a href="/categories/2372-consumer-privacy">Consumer Privacy</a></li>
+             <li><a href="/categories/2370-coppa">COPPA</a></li>
+             <li><a href="/categories/14966-cybersecurity">Cybersecurity</a></li>
+             <li><a href="/categories/17722-data-privacy">Data Privacy</a></li>
+             <li><a href="/categories/2388-data-security">Data Security</a></li>
+             <li><a href="/categories/2383-data-transfer">Data Transfer</a></li>
+             <li><a href="/categories/15977-documentation">Documentation</a></li>
+             <li><a href="/categories/2867-ediscovery">eDiscovery</a></li>
+             <li><a href="/categories/16361-engineering">Engineering</a></li>
+             <li><a href="/categories/2371-eu-data-directive">EU Data Directive</a></li>
+             <li><a href="/categories/2373-fcra">FCRA</a></li>
+             <li><a href="/categories/2376-ferpa">FERPA</a></li>
+             <li><a href="/categories/17721-fisma">FISMA</a></li>
+             <li><a href="/categories/18296-foia">FOIA</a></li>
+             <li><a href="/categories/2368-glba">GLBA</a></li>
+             <li><a href="/categories/15086-governance">Governance</a></li>
+             <li><a href="/categories/2381-healthcare">Healthcare</a></li>
+             <li><a href="/categories/2367-hipaa">HIPAA</a></li>
+             <li><a href="/categories/18435-hitech">HITECH</a></li>
+             <li><a href="/categories/15032-implementation">Implementation</a></li>
+             <li><a href="/categories/15083-incident-management">Incident Management</a></li>
+             <li><a href="/categories/2384-international-privacy">International Privacy</a></li>
+             <li><a href="/categories/17462-legal">Legal</a></li>
+             <li><a href="/categories/2379-online-advertising">Online Advertising</a></li>
+             <li><a href="/categories/2378-pci">PCI</a></li>
+             <li><a href="/categories/2382-pharma">Pharma</a></li>
+             <li><a href="/categories/15029-policy-development">Policy Development</a></li>
+             <li><a href="/categories/2377-pos-privacy">POS Privacy</a></li>
+             <li><a href="/categories/15168-privacy-communications">Privacy Communications</a></li>
+             <li><a href="/categories/2657-product-development">Product Development</a></li>
+             <li><a href="/categories/15976-project-management">Project Management</a></li>
+             <li><a href="/categories/14965-risk-assessment">Risk Assessment</a></li>
+             <li><a href="/categories/2391-social-media">Social Media</a></li>
+             <li><a href="/categories/2868-sox">SOX</a></li>
+             <li><a href="/categories/2392-telecom">Telecom</a></li>
+             <li><a href="/categories/15084-training-and-education">Training and Education</a></li>
+        </ul>
+      </div>
+    </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+        <footer class="footer">
+      <div class="page-container">
+          <div>DataPrivacyCareers.com | Law Department Solutions LLC | 83 Morris Street, New Brunswick, NJ 08901 USA
+<p>
+(c) 2016-2017 Law Department Solutions LLC.  DataPrivacyCareers.com is our trademark.  All rights reserved.</div>
+        
+        <div class="footerLinks">
+          <ul class="list-inline hidden-xs">
+    <li>
+      <a href="http://www.dataprivacycareers.com">All Jobs</a>
+</li>    <li>
+      <a href="http://www.dataprivacycareers.com/post">Post a Job</a>
+</li>    <li>
+      <a href="http://www.dataprivacycareers.com/products">Packages</a>
+</li>    <li>
+      <a href="http://www.dataprivacycareers.com/pages/277-about">About</a>
+</li>	<li><a href="/privacy">Privacy Policy</a></li>
+</ul>
+
+
+
+
+        </div>
+        
+      </div>
+    </footer>
+
+    <div class="modal fade" id="loginEmployer" role="dialog" aria-labelledby="loginLabel"></div>
+    <div class="modal fade" id="loginProfile" role="dialog" aria-labelledby="loginLabel"></div>
+    <div class="modal fade" id="signupProfile" role="dialog" aria-labelledby="signupProfileLabel"></div>
+    <div class="modal fade" id="signupEmployer" role="dialog" aria-labelledby="signupEmployerLabel"></div>
+
+
+
+</body>
+</html>

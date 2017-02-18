@@ -1,0 +1,1269 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+	
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1"/>
+
+	<link rel="STYLESHEET" type="text/css" href="https://www.schneier.com/main.css?v=20151202">
+	<link rel="alternate" type="application/atom+xml" title="Blog Feed (Atom 1.0)" href="https://www.schneier.com/blog/atom.xml">
+
+
+	<link rel="STYLESHEET" type="text/css" href="/scripts/jquery.socialshareprivacy.css">
+	<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script> 
+	<script type="text/javascript" src="/scripts/jquery.cookies.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.socialshareprivacy.2.js"></script>
+	<script type="text/javascript">
+	// <![CDATA[
+	// define the default order of the buttons:
+	$.fn.socialSharePrivacy.settings.order = ['facebook', 'twitter', 'gplus'];
+	$.fn.socialSharePrivacy.settings.path_prefix = '/';
+	// ]]>
+	</script>
+
+
+
+	
+		<link rel="alternate" type="application/atom+xml" title="Comments on Do-It-Yourself Online Privacy/Safety Guide (Atom 1.0)" href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.xml" >
+	
+	
+		<link rel="prev" href="https://www.schneier.com/blog/archives/2017/02/predicting_a_sl.html" title="Predicting a Slot Machine&#039;s PRNG">
+	
+	
+		<link rel="next" href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html" title="Security and Privacy Guidelines for the Internet of Things">
+	
+
+	<script type="text/javascript" src="/blog/mt.js"></script>
+
+	<title>Do-It-Yourself Online Privacy/Safety Guide - Schneier on Security</title>
+
+</head>
+<body class="section-blog"><div id="wrapper"><div id="main">
+	<header><div id="header">
+	<h1><a href="/">Schneier on Security</a></h1>
+	</div></header>
+	<nav><div class="nav" id="header-nav">
+<ul>
+	<li class="menu1 current"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+
+	</div></nav>
+
+
+<aside><div class="sidebar" id="sidebar-one">
+
+		<section><div class="sidesection" id="search-widget">
+		<h3>Search</h3>
+		<p class="small"><em>Powered by <a href="https://duckduckgo.com/">DuckDuckGo</a></em></p>
+		<form method="get" action="https://duckduckgo.com/">
+		<input type="hidden" name="kh" value="1"><!-- use https -->
+		<input id="search" name="q" size="15" maxlength="255">
+		<input type="submit" value="Go"><br>
+		<input type="radio" name="sites" id="searchblog" value="www.schneier.com/blog" checked><label for="searchblog">blog</label> 
+		<input type="radio" name="sites" id="searchessays" value="www.schneier.com/essays"><label for="searchessays">essays</label>
+		<input type="radio" name="sites" id="searchall" value="www.schneier.com" ><label for="searchall">whole site</label>		</form>
+		</div></section>
+	
+		<section><div class="sidesection">
+		<h3>Subscribe</h3>
+		
+			<div id="subscription-buttons">
+				<a href="https://www.schneier.com/blog/atom.xml"><img alt="Atom Feed" src="https://www.schneier.com/images/rss-32px.png"></a>
+				<a href="https://www.facebook.com/bruce.schneier"><img alt="Facebook" src="https://www.schneier.com/images/facebook-32px.png"></a>
+				<a href="https://twitter.com/schneierblog/"><img alt="Twitter" src="https://www.schneier.com/images/twitter-32px.png"></a>
+				<a href="http://www.amazon.com/Schneier-on-Security/dp/B0053HDDWW/"><img alt="Kindle" src="https://www.schneier.com/images/kindle-32px.png"></a>
+				<a href="/crypto-gram-sub.html"><img alt="E-Mail Newsletter (Crypto-Gram)" src="https://www.schneier.com/images/email-32px.png"></a>
+			</div><!--#subscription-buttons-->
+		</div></section>
+
+	</div></aside>
+
+
+	
+	<div id="content"><p id="breadcrumbs">
+
+
+<a href="https://www.schneier.com/blog/">Blog</a>&nbsp;&gt;
+
+
+
+
+</p>
+
+
+
+    
+    
+    <article><div class="article">
+	<script type="text/javascript">
+		// <![CDATA[
+		$(document).ready(function () {
+			$('#share011000').socialSharePrivacy({uri: 'https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html', title: 'Do-It-Yourself Online Privacy/Safety Guide'});
+			});
+		// ]]>
+	</script>
+	
+
+	<h2 class="entry" id="a011000">Do-It-Yourself Online Privacy/Safety Guide</h2>
+	
+	
+		
+	
+    
+	    <p>This <a href="http://chayn.co/safety/">online safety guide</a> was written for people concerned about being tracked and stalked online. It's a good resource.</p>
+    
+	
+	
+	
+
+    
+	<p class="entry-tags">Tags: <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=privacy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">privacy</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=social%20media&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">social media</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=tracking&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">tracking</a></p>
+
+
+	
+	<p class="posted"><a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html">Posted on February  8, 2017 at  1:20 PM</a>
+	 &#8226; 
+	43 Comments
+	
+	</p>
+	<aside><div class="share" id="share011000"></div></aside>
+	</div></article>
+
+
+
+
+    
+    
+
+
+
+<h3 id="comments">Comments</h3>
+
+
+<article><div class="comment by-jamie" id="c6745601">
+
+
+<p class="commentcredit"><span class="commenter">Jamie</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745601">February  8, 2017  1:53 PM</a>
+</p>
+
+<p>I may be paranoid due to reading too much Schneier on Security, among other things, but the lack of HTTPS on a site like that makes me immediately suspicious of its recommendations.</p>
+</div></article>
+
+
+
+<article><div class="comment by-er" id="c6745602">
+
+
+<p class="commentcredit"><span class="commenter">Er...</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745602">February  8, 2017  1:58 PM</a>
+</p>
+
+<p>It is ironic that they blacklist all tor nodes...</p>
+</div></article>
+
+
+
+<article><div class="comment by-chief" id="c6745606">
+
+
+<p class="commentcredit"><span class="commenter">Chief</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745606">February  8, 2017  2:32 PM</a>
+</p>
+
+<p>How ironic. You seem to have to commit the serious violation of privacy protection principles of enabling scripting, in order to view the privacy guide.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745607">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745607">February  8, 2017  2:34 PM</a>
+</p>
+
+<p>The advanced guide is a good start for absolute beginners. But advising Skype for secure conversations ?</p>
+
+<p>@ Er....</p>
+
+<p><i>It is ironic that they blacklist all tor nodes...</i></p>
+
+<p>No, they don't. Click the onion in the upper left corner. Pick "New Tor Circuit for this Site". Keep trying until the site pops up.</p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745610">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745610">February  8, 2017  3:10 PM</a>
+</p>
+
+<p>@Jamie<br />
+Re: lack of https</p>
+
+<p><a href="https://chayn.gitbooks.io/basic-diy-online-privacy/content/" rel="nofollow">https://chayn.gitbooks.io/basic-diy-online-privacy/content/</a><br />
+<a href="https://chayn.gitbooks.io/advanced-diy-privacy-for-every-woman/content/" rel="nofollow">https://chayn.gitbooks.io/advanced-diy-privacy-for-every-woman/content/</a></p>
+
+<p>@Er...</p>
+
+<p>The web pages at these https links degrade gracefully with javascript disabled.  All the content appears to be readable, and navigable in basic fashion, but it is not as fancy and does not work as wonderfully as one would expect with Javascript enabled.</p>
+
+<p>@Dirk Praet</p>
+
+<blockquote>But advising Skype for secure conversations ?</blockquote>
+
+<p>Who's your adversary? An angry ex-boyfriend, the Mafia, a hostile nation-state, or the NSA?</p>
+</div></article>
+
+
+
+<article><div class="comment by-er" id="c6745612">
+
+
+<p class="commentcredit"><span class="commenter">Er...</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745612">February  8, 2017  3:26 PM</a>
+</p>
+
+<p>@My Info</p>
+
+<blockquote>Who's your adversary? An angry ex-boyfriend, the Mafia, a hostile nation-state, or the NSA?</blockquote>
+
+<p>Define "adversary"...</p>
+
+<p>If by adversary, you mean, the one who's most-likely "targeting" (or focusing their attention on) <i>only</i> me right now... just the angry ex-boyfriend...</p>
+
+<p>But if by adversary, you include those who are "targeting" (or mass-focusing their attention on) every person on the planet... then you have all the above, plus every single one of the most sophisticated illegal hackers in existence on the whole planet...  You have to protect against <i>all</i> of them, or you will be owned.  It's you vs the world, and it's not a fair game.  Just imagine every knowledgeable person in the world being able to try the most sophisticated lock-picking techniques on every lock in the world at once, with little more effort than just focusing on a single lock, and you get the idea of the scale here.  We need better ways of protecting our stuff in the face of that.</p>
+</div></article>
+
+
+
+<article><div class="comment by-er" id="c6745613">
+
+
+<p class="commentcredit"><span class="commenter">Er...</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745613">February  8, 2017  3:30 PM</a>
+</p>
+
+<p>@Dirk Praet</p>
+
+<p>Thanks for the tip!  It works! :)</p>
+</div></article>
+
+
+
+<article><div class="comment by-daniel" id="c6745614">
+
+
+<p class="commentcredit"><span class="commenter">Daniel</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745614">February  8, 2017  3:37 PM</a>
+</p>
+
+<p>I have to be honest and say I have never seen a security guide that I have actually liked or can recommend, this one included. My underlying problem with all these so-called guides is that the attempt to increase security by attacking software with software and that is an endless game. Operational security beats computer security every time. Want to stay safe? Wear a hoodie. Use public wifi. Use public wifi at random locations and random times wearing your hoodie. Don't cross contaminate. Keep your mouth shut you twit. Don't ever use social media. Buy your computer with cash wearing your hoodie. </p>
+
+<p>It's that type of stuff that will keep you safe, not deleting your fucking browser history or spoofing your MAC address. </p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745616">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745616">February  8, 2017  4:33 PM</a>
+</p>
+
+<p>@Er...</p>
+
+<blockquote>the one who's most-likely "targeting" (or focusing their attention on) <i>only</i> me right now...<blockquote>vs.</blockquote>those who are "targeting" (or mass-focusing their attention on) every person on the planet...</blockquote>
+
+<p>And how much access does the former have to the latter?</p>
+
+<blockquote>You have to protect against all of them, or you will be owned. It's you vs the world, and it's not a fair game. ... We need better ways of protecting our stuff in the face of that.</blockquote>
+
+<p>That is quite correct.  Even NSA has problems with <a href="https://arstechnica.com/tech-policy/2013/09/loveint-on-his-first-day-of-work-nsa-employee-spied-on-ex-girlfriend/" rel="nofollow">LOVEINT</a>.  And even NSA is no doubt infiltrated both by domestic criminal cartels and by hostile nation-states, never mind all other mundane government agencies and private mega-corporations that have accumulated vast quantities of our personal and private information.</p>
+</div></article>
+
+
+
+<article><div class="comment by-desmond" id="c6745617">
+
+
+<p class="commentcredit"><span class="commenter">Desmond</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745617">February  8, 2017  5:00 PM</a>
+</p>
+
+<p>@Jamie</p>
+
+<p>Not only the website isn't HTTPS, basic and advance guide pages are using Google Analytics to track users.</p>
+
+<p>I didn't even bother to read the content. There are many other good guides that respect the privacy of their users. EFF's SSD, Tactical Tech Collective's Security in-a-box project etc.</p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745619">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745619">February  8, 2017  5:23 PM</a>
+</p>
+
+<p>@ Er..., My Info,</p>
+
+<blockquote>If by adversary, you mean, the one who's most-likely "targeting" (or focusing their attention on) only me right now... just the angry ex-boyfriend...</blockquote>
+
+<p>What if the angry Ex is in some kind of "official capacity"?</p>
+
+<p>Remember in the US any transport organisation is alowed to have it's own Law Enforcment Agency...</p>
+
+<p>In the UK the "Snoopers Charter" lets all sorts of people run searches including those who work for any of the emergancy services which include the "Ambulance Service"...</p>
+
+<p>In theory anyone who works in a bank or other financial institution, Health Insurer, etc etc can get at your private communications with quite minimal effort.</p>
+
+<p>Oh the joker in the pack in the US is the NSL, how do you go about checking it's real? If you are a small ISP etc you are not going to go to court, the NSL includes all sort of secrecy clauses. So how do you check that the details on the letter are correct...<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-er" id="c6745620">
+
+
+<p class="commentcredit"><span class="commenter">Er...</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745620">February  8, 2017  5:26 PM</a>
+</p>
+
+<p>@My Info</p>
+
+<blockquote>And how much access does the former have to the latter?</blockquote>
+
+<p>Well, since it's a <i>former</i> boyfriend, presumably the same access at the moment, since I've cut off physical access, right?  That is, assuming I've junked everything he <i>had</i> physical access to upon which he could have left something behind... (you may have a point that that could be too big of an assumption to make)</p>
+</div></article>
+
+
+
+<article><div class="comment by-r" id="c6745623">
+
+
+<p class="commentcredit"><span class="commenter">r</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745623">February  8, 2017  5:55 PM</a>
+</p>
+
+<p>@Er,</p>
+
+<p>Wiping and moving on only goes so far, have you seen @Clive's references to living in a whole (business suit) ?</p>
+
+<p>Keep an eye to reinventing not yourself but somebody else.</p>
+</div></article>
+
+
+
+<article><div class="comment by-erdem-memisyazici" id="c6745634">
+
+
+<p class="commentcredit"><span class="commenter">Erdem Memisyazici</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745634">February  8, 2017 10:56 PM</a>
+</p>
+
+<p>Browsing this website is also a great way to generate network traces on what type of services you use.</p>
+</div></article>
+
+
+
+<article><div class="comment by-ronk" id="c6745636">
+
+
+<p class="commentcredit"><span class="commenter">RonK</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745636">February  9, 2017  3:23 AM</a>
+</p>
+
+<p>I just love the "subtle" sexism (and/or genderism) of having a stated goal of avoiding abusive partners yet depicting 11 women and 0 men in the home page image.</p>
+
+<p>According to <a href="http://www.thehotline.org/2014/07/men-can-be-victims-of-abuse-too/" rel="nofollow">this website</a> the CDC statistics indicate that 1 in 10 men might be interested in this site. According to <a href="https://www.theguardian.com/society/2010/sep/05/men-victims-domestic-violence" rel="nofollow">this</a>, up to 4 men should have been in that home page image in order for it to be a representative audience.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745640">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745640">February  9, 2017  4:33 AM</a>
+</p>
+
+<p>@ Er... </p>
+
+<p><i>And how much access does the former have to the latter?</i></p>
+
+<p>Does it matter? Adopting any type of digital hygiene against whatever adversary - even at the non-state actor level - precludes use of utilities like Skype that are known to be backdoored by design, especially when there's sufficient alternatives available. You may only be up against a stalker today, but whatever logs or archived (meta)data that remain can be used by whoever else produces a valid court order or legal equivalent tomorrow. Which especially if you're loose-lipped, inclined to profanity or prone to emotional outbursts may at some point jump up and bite you in the *ss. </p>
+
+<p>Myself, I use Skype with one person only who is a technologically challenged 80-year-old. And on a dedicated device in a separate subnet.  </p>
+</div></article>
+
+
+
+<article><div class="comment by-clive-robinson" id="c6745642">
+
+
+<p class="commentcredit"><span class="commenter">Clive Robinson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745642">February  9, 2017  5:00 AM</a>
+</p>
+
+<p>@ Ron K,</p>
+
+<p>The physical abuse by women towards men is badly under reported in the UK by both the authorities and the victims. I've spoken to people in the mental health community who think that when you include mental abuse as well as physical women are probably more abusive than men by around 3-2. Similar figures come back from those dealing with the legal side of marriage break down.</p>
+
+<p>As with "men's health" like cancer the "squeaky wheel" principle applies. Women are better not just at communicating but of garnering considerably more empathy from those of the opposite sex they speak to. There is thus a "Think of the Children" type situation where UK law certainly is significantly  biased to "Think of the Mothers" and health and social resourcing is based on "Think of the Women".</p>
+
+<p>As one mental health practitioner pointed out to me the unfunny joke of it is that it's actually what you would expect. In that men in more senior positions tend to be more sympathetic towards women not just out of "fair sex" conditioning, but also by not wanting to appear biased for fear of being accused of being "sexist" directly or by implication.</p>
+
+<p>As one well known feminist was heard to remark some years ago the main enemy of women achiving higher goals is women not men. That is there are a section of women in society who find the current status quo to be advantageous and do not want it changed for the worse for them.</p>
+
+<p>Apparently this is also well known issue that goes back millennia as the story of the Sword of Damocles from around 350BC that Cicero later argues, </p>
+
+<ul><i>Does not King Dionysius seem to have made it abundantly clear to Damocles that there can be nothing happy for the person no mater how powerfull over whom some fear always looms?</i></ul>
+
+<p>Which we see today with "sunday quaterbacks", "armchair strategists" and employees that can always second guess their employers with hindsight, yet will never become a boss or become self employed etc. As the words of the song about a bird in a guilded cage  indicate life be it oh so dull / drear is comfortable, and you quickly spot the subtext that life outside the cage is not realy desired due to the fear of having to take responsability for ones self. Or as a later song[1] put it "the subtle whoring that costs too much to be free" </p>
+
+<p>[1] The song "I've Never Been to Me" recorded in 1976 by Charlene and released on her debut album -- on the Motown label-- did badly. It  only became popular in 1982 when she had given up on being a US pop singer, and left to become a surbuban housewife to a sweet shop owner in Ilford UK...</p>
+</div></article>
+
+
+
+<article><div class="comment by-ergo-sum" id="c6745645">
+
+
+<p class="commentcredit"><span class="commenter">Ergo Sum</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745645">February  9, 2017  5:32 AM</a>
+</p>
+
+<p>I must be doing something wrong when clicking on this link:</p>
+
+<p><a href="https://myshadow.org/trace-my-shadow" rel="nofollow">https://myshadow.org/trace-my-shadow</a></p>
+
+<p>Yes, it is SSL link...</p>
+
+<p>The site does not actually show information about the system/browser accessing the site, just the possible traces that it may leave behind. Reminds me of the, if I'd buy a lottery, I'd be rich...</p>
+
+<p>In both browsers, Ghostery blocked Piwik site analytics...</p>
+
+<p>Maybe I am wrong, but OS, applications, even security software and social networking telemetries are much more accurate for tracking the devices and the end users than browser based tracking. Not to mention that it is much more accurate and a lot harder to control.</p>
+
+<p>Like MS Office 2016 requires a valid MS account for activating the license. If you don't have one, you'll need to create one. Doing so the registration will ask for your name, email address, address, DoB, etc. MS Office had telemetry since version 2013 for "improving end user experience"... Yeah, about that bridge...</p>
+</div></article>
+
+
+
+<article><div class="comment by-slime-mold-with-mustard-" id="c6745646">
+
+
+<p class="commentcredit"><span class="commenter">Slime Mold with Mustard </span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745646">February  9, 2017  5:43 AM</a>
+</p>
+
+<p>Re: Gender and Abuse</p>
+
+<p>My wife is a shrink. @Clive is correct (shocking, isn't it?)</p>
+
+<p>When <b> one </b> partner is physically abusive, it is most often the female. However, most commonly it is <i> both </i>. In those situations, the outcome heavily favors the stronger, faster, and <i> far more experienced </i> (school) male. This may partly account society's wildly distorted view of domestic violence.</p>
+</div></article>
+
+
+
+<article><div class="comment by-slime-mold-with-mustard" id="c6745649">
+
+
+<p class="commentcredit"><span class="commenter">Slime Mold with Mustard</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745649">February  9, 2017  6:16 AM</a>
+</p>
+
+<p>@ Daniel</p>
+
+<p>I tend to agree with you. My employment demands we use these vulnerable tools, so we practice fanatical compartmentalization and use off-line machines and draconian media rules. We have on-line and game machines in a separate area. This possible because 90% of our clients are within four blocks of us. They think we're nuts for hand delivering everything. Until we remind them of the value of their data (also adds personal contact bonus).</p>
+
+<p>Management here is selected as "least likely" to be vulnerable to compromise. I must decline to detail the vetting. I try to get them to practice personal security, but ya know, that damned 13th Amendment...</p>
+
+<p>Who's targeting us? People with many millions, as well as friends in both government and LCN (redundant?), who stand to gain a lot.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745656">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745656">February  9, 2017  7:00 AM</a>
+</p>
+
+<p>@ Clive, @ Slime Mold with Mustard</p>
+
+<p><i>When one partner is physically abusive, it is most often the female. However, most commonly it is both .</i></p>
+
+<p>I think it's kinda hard to generalise such statements. Domestic violence is often shaped by all kinds of societal factors (cultural, educational, religious, political). In Russia, the Duma has just passed a law that decriminalises some forms of domestic battery. It also makes sense that women in general are better at mental abuse as to compensate for their physical disadvantage. And which indeed often stays under the radar. Several friends of mine eventually had to search professional help to get out of horribly abusive relations they put up with for fear of having their children taken away from them but that were totally destroying their lives.    </p>
+</div></article>
+
+
+
+<article><div class="comment by-ned" id="c6745663">
+
+
+<p class="commentcredit"><span class="commenter">Ned</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745663">February  9, 2017  8:45 AM</a>
+</p>
+
+<p>Use Skype, that's hilarious. It's probably from PAO public relations. There's a companion law enforcement guide called "We track em, you whack em."</p>
+
+<p><a href="http://www.spyculture.com/nsa-emails-enemy-state/" rel="nofollow">http://www.spyculture.com/nsa-emails-enemy-state/</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-matteo" id="c6745673">
+
+
+<p class="commentcredit"><span class="commenter">Matteo</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745673">February  9, 2017  9:52 AM</a>
+</p>
+
+<p>@Daniel "I have never seen a security guide that I have actually liked or can recommend"<br />
+I have one good guide that i can recommend! This one!! (the only one so far, and i have read almost any i have found)<br />
+<a href="https://www.securityinabox.org/" rel="nofollow">https://www.securityinabox.org/</a><br />
+this is really great!</p>
+
+<p>and if you want a secure pc get Qubes OS it is revolutionary, far way better than windows/linux</p>
+
+<p>btw i really hate people who say don't use public wifi/use a vpn.<br />
+it makes no difference!!<br />
+use https that makes difference!<br />
+wifi password protect your data for 5 meters compared to 9000km that your data makes in different countries.<br />
+vpn just change the exit point, doesn't encrypt anything.<br />
+https encrypt the connection from the start to the end, yes it's end to end (if you visit a website)<br />
+so pls anyone stop saying don't use public wifi!!</p>
+</div></article>
+
+
+
+<article><div class="comment by-j-doe" id="c6745680">
+
+
+<p class="commentcredit"><span class="commenter">J Doe</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745680">February  9, 2017 11:10 AM</a>
+</p>
+
+<p>Aside from making a general problem that affects anyone as "think of the poor women" ... is OK.</p>
+</div></article>
+
+
+
+<article><div class="comment by-reply---chief" id="c6745681">
+
+
+<p class="commentcredit"><span class="commenter">Reply - Chief</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745681">February  9, 2017 12:16 PM</a>
+</p>
+
+<p>"You seem to have to commit the serious violation of privacy protection principles of enabling scripting, in order to view the privacy guide."  </p>
+
+<p>You nailed it.  At least it doesn't ask you to disable your adblocker, right?  >:)</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745682">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745682">February  9, 2017 12:25 PM</a>
+</p>
+
+<p>@ Matteo</p>
+
+<p><i>vpn just change the exit point, doesn't encrypt anything.</i></p>
+
+<p>You're probably conflating the way Tor works with that of a VPN . I think you don't entirely understand the concept of a VPN as an encrypted tunnel between your own device and the internet. That's why every security manual you have ever read probably also recommends using a VPN whenever using public wifi, because without it intercepting your traffic at the access point is completely trivial. Using https on top of it indeed increases the difficulty for snoopers, but which is also regularly MITM'ed either by antivirus utilities or certain types of malware. Just do a DuckDuckGo for a thing called Superfish.   </p>
+</div></article>
+
+
+
+<article><div class="comment by-if_you_see_something_maybe_leak_something" id="c6745687">
+
+
+<p class="commentcredit"><span class="commenter">if_you_see_something_maybe_leak_something</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745687">February  9, 2017  4:27 PM</a>
+</p>
+
+<p>For a good graphical description of Tor and https:<br />
+<a href="https://www.eff.org/pages/tor-and-https" rel="nofollow">https://www.eff.org/pages/tor-and-https</a></p>
+
+<p>After spending five minutes at the website:</p>
+
+<p>0) I thought the  "online safety guide"  was very good (it appeared comprehensive) and it may be relevant for all threat models<br />
+1) use javascript for better results imo<br />
+2) remember Tails (for PC and Macintosh users) can be your friend</p>
+
+<p>From a practical perspective why bother with a vpn.  In other words either user Tails' Tor when you want to obfuscate your location.  Or use Tails' Unsafe Browser when you don't care about location sharing.  Is it worth bothering to channel Tor through a vpn endpoint?  Even if the vpn is one you control?  In other words, what use cases is one giving up by sticking with Tor or Tails' Unsafe Browser from a practical users' point of view?</p>
+
+<p>Regardless, search the Schneier blog for how using Tor might be bad for your health; on the other hand Tails  is my go to swiss army knife for accessing the web, from a dvd with, I hope,  no persistence or for things w/o web access like re-initializing hdds or ssds.<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-if_you_see_something_maybe_say_something" id="c6745689">
+
+
+<p class="commentcredit"><span class="commenter">if_you_see_something_maybe_say_something</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745689">February  9, 2017  4:44 PM</a>
+</p>
+
+<p>p.s. #1 of course consider using <a href="https://panopticlick.eff.org" rel="nofollow">https://panopticlick.eff.org</a> to see how poor, or good, your browser fingerprint is</p>
+
+<p>Does anybody know of downsides to testing your  browsers' fingerprints this way?</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745698">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745698">February  9, 2017  6:42 PM</a>
+</p>
+
+<p>@ if_you_see_something_maybe_leak_something</p>
+
+<p><i>From a practical perspective why bother with a vpn.</i></p>
+
+<p>Because Tor does not hide from your ISP that you're using it, and neither does it protect you against malicious exit nodes. While tunneling Tor through a VPN protects you from the former, it still doesn't against the latter. Which can be solved by tunneling a VPN through Tor, which gives you the added advantage of being shielded against VPN logging (they will only see a Tor exit node IP, not your real one). While you can run I2P over TAILS, it does not allow you to combine Tor with a VPN. Whonix does: you connect to your VPN from within the Whonix Workstation VM.</p>
+
+<p>Another - and more secure way - to tunnel a VPN through Tor is by using a separate, dedicated device routing all traffic through Tor, like the @thegrugq's <a href="https://github.com/grugq/portal" rel="nofollow">PORTAL</a>, or a Raspberry Pi Tor router you can either buy off the shelf or DIY.</p>
+
+<p>If you want/need a Tor/VPN solution, make sure you get a VPN service you can both register and pay anonymously for, and never use it stand-alone. Another good reason to get a VPN is to protect against malicious or compromised public wifi access points, which is essentially most of them. If that's the only thing you need it for, it's pretty easy to set up your own Raspberry Pi OpenVPN server at home for when you're on the road, and which at the same time gives you transparant access to your home network.    </p>
+</div></article>
+
+
+
+<article><div class="comment by-yonk0ow3nyo" id="c6745718">
+
+
+<p class="commentcredit"><span class="commenter">yonk0ow3nyo</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745718">February 10, 2017  4:27 AM</a>
+</p>
+
+<p>Yep you should have your own VPN and you can pay for them securely and you can set up your own VPN router, for WIFI on the road anon as long as you don't go log into stuff, expose your ma, URL history with ya little google type unique prefixing stuff and all the tracker bugger crap.</p>
+
+<p>But why would I need security and privacy anyway. I'm just waiting to be a victim of identity theft, have my bank accounts and CCs robbed as cover while my ID gets used to verify for all kinds of stuff that my banks fraud squad couldn't give the slightest hoot about. You might think that the banks can't protect themselves, why should I? Well you're not a criminal and you will never think as creatively as they do, and occasionally some of them are also intelligent. "What", you might say, "intelligent"? </p>
+
+<p>Well who do you think knocks out the malware, your grandmother? The <br />
+only reason the internet is still standing is it is too valuable a resource.</p>
+</div></article>
+
+
+
+<article><div class="comment by-vigilante-road-kill" id="c6745799">
+
+
+<p class="commentcredit"><span class="commenter">Vigilante Road Kill</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745799">February 11, 2017 12:54 PM</a>
+</p>
+
+<p><br />
+ NOT withstanding appreciation for all this good dialogue...</p>
+
+<p> Look in the source.</p>
+
+<p> Q:<br />
+ Do even 10% of the webmasters using JQUERY or Wordpress or OFFSITE banners etc really KNOW what content is running? Isn't ignorance and helplessness the WHOLE idea behind these imported helps?<br />
+ A:<br />
+ IMO its having many heads in sand: vast majority.</p>
+
+<p> Q:<br />
+ for example, do ANY android users KNOW why "system webview" boots from the DISABLED list when you send a message?<br />
+ A:<br />
+  DO YOU CARE?</p>
+
+<p> - VRK <sub>under-csis-bus</sub><br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-drone" id="c6745818">
+
+
+<p class="commentcredit"><span class="commenter">Drone</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745818">February 11, 2017  7:57 PM</a>
+</p>
+
+<p>"It's a good resource."</p>
+
+<p>"It" is not safe/secure in and of itself!</p>
+</div></article>
+
+
+
+<article><div class="comment by-wael" id="c6745819">
+
+
+<p class="commentcredit"><span class="commenter">Wael</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745819">February 11, 2017  8:08 PM</a>
+</p>
+
+<p>Not bad. A collection of informative comments and OPSEC advices.</p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745820">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745820">February 11, 2017 10:04 PM</a>
+</p>
+
+<p>"DIY ONLINE SECURITY GUIDE <i>FOR EVERY WOMAN</i>"</p>
+
+<p>Well, that's not sexist at all. Guess the huge number of male victims of stalking, domestic violence, and rape attempts get left out.</p>
+
+<p>"WHO IS THIS GUIDE FOR? <i>Everyone</i>, everywhere."</p>
+
+<p>Oh OK. Maybe not. :)</p>
+
+<p>EDIT: Just skimmed comments to see RonK beat me to that. I've heard from and/or counseled many male victims of crimes like this. They tell me authorities don't take them seriously and women groups they contacted didn't help them. Some even get replies back trivializing their ordeal. (rolls eyes)</p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745823">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745823">February 11, 2017 11:39 PM</a>
+</p>
+
+<p>Simultaneously, Thomas Ptacek and Maciej Ceglowski have a guide for journalists and nonprofits <a href="https://news.ycombinator.com/item?id=13622684" rel="nofollow">here</a> with a lot of comments. Might be worth discussing. </p>
+</div></article>
+
+
+
+<article><div class="comment by-cut_n_paste" id="c6745856">
+
+
+<p class="commentcredit"><span class="commenter">Cut_N_Paste</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745856">February 12, 2017  2:32 PM</a>
+</p>
+
+<p>@Nick P</p>
+
+<p>After spending an hour reading through the Hacker News link you provided, Cut N Paste is providing the reference piece from Hacker News.<br />
+The below is from: <a href="https://techsolidarity.org/resources/basic_security.htm" rel="nofollow">https://techsolidarity.org/resources/basic_security.htm</a></p>
+
+<p> Tech Solidarity > Resources > Security Guidehttps://techsolidarity.org/resources/basic_security.htm</p>
+
+<p>Basic security precautions for non-profits and journalists in the United States, early 2017.<br />
+Don't:</p>
+
+<p>    Don't send any sensitive information by email.<br />
+    Don't store sensitive information in cloud services like Evernote or Dropbox.<br />
+    Don't use your fingerprint to lock/unlock devices.<br />
+    Don't back up mobile messages to the cloud/iCloud/Google Drive.<br />
+    Don't use your phone number for password recovery.<br />
+    Don't use an Android phone.<br />
+    Don't take the devices you work on across the US border.<br />
+    Don't plug your device directly into an unknown port (such as an airport charger) without the safeguards outlined below.</p>
+
+<p>Do:</p>
+
+<p>    Use a long passphrase to lock your devices.<br />
+    Make sure you apply all software updahttps://techsolidarity.org/resources/basic_security.htmtes. Turn on auto-updateshttps://techsolidarity.org/resources/basic_security.htm where possible.<br />
+    Use a iPhone 6 or later with a hard-to-guess passphrase. Don't use an Android phone.<br />
+    If you are going to use email, use Gmail, with a physical security key on your laptop and Google Authenticator on your phone.<br />
+        Here’s a security key FAQ with instructions for setting it up.<br />
+    Use a password manager and have it generate random passwords for every site you use. A good password manager is 1password.<br />
+    Turn on two-factor authentication on Twitter, Facebook, Githubhttps://techsolidarity.org/resources/basic_security.htm and anywhere else that supports it.<br />
+    Don't use SMS to your phone number as the second factor.<br />
+    Use Signal or WhatsApp on your phone to communicate with other people, rather than SMS or iMessage.<br />
+        Follow this guide to secure your WhatsApp settings.<br />
+        Follow this guide to secure your Signal settings.<br />
+    Do as much of your work as possible on an iPhone or iPad rather than on a laptop. Use a bluetooth keyboard for easier typing.<br />
+    Consider using a Chromebook. Chromebooks are secure options especially for opening attachments: you can safely open them on it.<br />
+    If you have a Windows laptop, uninstall any antivirus products except for Windows Defender (from Microsoft).<br />
+    Use Chrome as your browser. Avoid installing spurious, unknown or unnecessary extensions.<br />
+    Turn on full-disk encryption on all devices.<br />
+        How to do this on OS X<br />
+        How to do this on Windows</p>
+
+<p>When Traveling:</p>
+
+<p>    Don't take devices across the US border. Have a dedicated laptop and phone for travel abroad, don't keep sensitive information on them, and don't use them anywhere else.<br />
+    Never plug your device into an unknown port. Never plug an unknown device into your computer or mobile device. Carry a “USB data blocker” (either the whole cable or an adapter that plugs into your cable like this) to <a href="https://techsolidarity.org/resources/basic_security.htmcharge" rel="nofollow">https://techsolidarity.org/resources/basic_security.htmcharge</a> at airport or hotel chargers.<br />
+    If you believe your hotel room is monithttps://techsolidarity.org/resources/basic_security.htmored, work under the covers on the bed. It is less conspicuous, and prevents video surveillance of what you’re typing and viewing.<br />
+    Don’t use hotel phones for calls to sources. Assume that anything you say inside a hotel room may be recorded.<br />
+    Don’t leave your phone or laptop unattended; always carry them with you.</p>
+
+<p></p>
+
+<p>Last updated: February 12, 2017 </p>
+</div></article>
+
+
+
+<article><div class="comment by-shameless-plug" id="c6745862">
+
+
+<p class="commentcredit"><span class="commenter">Shameless Plug</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745862">February 12, 2017  4:27 PM</a>
+</p>
+
+<p>It looks like Apple may have  finally discontinued the 2012 MacBook<br />
+Pro (the one with an internal dvd drive).  At least it is listed as a clearance item.<br />
+<a href="http://www.apple.com/us_kiosk_287720/shop/browse/home/specialdeals/clearance" rel="nofollow">http://www.apple.com/us_kiosk_287720/shop/browse/home/specialdeals/clearance</a></p>
+
+<p>Also used iPads, iPhones and other computers<br />
+ </p>
+</div></article>
+
+
+
+<article><div class="comment by-if_you_see_something_maybe_leaklink-_something" id="c6745864">
+
+
+<p class="commentcredit"><span class="commenter">if_you_see_something_maybe_leak/link _something</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745864">February 12, 2017  5:25 PM</a>
+</p>
+
+<p>From @r <a href="https://www.schneier.com/blog/archives/2017/02/friday_squid_bl_563.html#c6745700" rel="nofollow">https://www.schneier.com/blog/archives/2017/02/friday_squid_bl_563.html#c6745700</a><br />
+"The FBI would be wise to look at the slander on the other thread" ...</p>
+
+<p>I strive to be an equal opportunity irritant,at times.  You know so I can duck if and when people start firing on me simultaneously; you know, good luck with that.</p>
+
+<p><br />
+Old, but interesting:<br />
+<a href="http://www.businessinsider.com/james-risens-cia-story-op-merlin-2015-1" rel="nofollow">http://www.businessinsider.com/james-risens-cia-story-op-merlin-2015-1</a></p>
+
+<p>Posted here to help remind journalists that it may be hard to be paranoid enough.<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-matteo" id="c6745876">
+
+
+<p class="commentcredit"><span class="commenter">Matteo</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745876">February 13, 2017  5:47 AM</a>
+</p>
+
+<p>@Dirk Praet</p>
+
+<p>i will repeat myself: <strong>DON'T USE A VPN</strong>, you don't need it!<br />
+as i said vpn encrypt your data between you and vpn provider (like wifi encrypt data between you and the router).<br />
+from there to the destination the data is <strong>unencrypted!!</strong>.<br />
+-vpn: connection can be interepted by vpn provider<br />
+-wifi: connection can be intercepted by router<br />
+-tor: connection can be intercepted by exit node (but it can't know the source)<br />
+-always: connection can be intercepted after router and vpn<br />
+-always assume network as hostile<br />
+solution:<br />
+USE HTTPS!!! it encrypt data between you and the destination!<br />
+about superfish, i know it but as you/someone install program to subvert https the same can be done with vpn or any other program.<br />
+if you have a virus in your computer you are doomed no matter what program you use.<br />
+if you assume a clean computer https is the solution, vpn isn't<br />
+if i use https you can't intercept my connection.<br />
+please read this:<br />
+"Don't use VPN services."<br />
+<a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29" rel="nofollow">https://gist.github.com/joepie91/5a9909939e6ce7d09e29</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745892">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745892">February 13, 2017  8:05 AM</a>
+</p>
+
+<p>@ Matteo</p>
+
+<p><i>i will repeat myself: DON'T USE A VPN, you don't need it!</i></p>
+
+<p>Repeating yourself does not make for a better argument, bruv. A VPN is just one of many tools you can use to enhance your privacy and security when connecting to the internet. The gist you refer to actually lists some valid use cases, one of which I explicitly mentioned. It also recommends rolling your own, which I equally suggested. But since you're obviously just here to make an unsubstantiated point with no intention whatsoever to listen to anything else, why would I bother anyway? </p>
+</div></article>
+
+
+
+<article><div class="comment by-if_you_see_something_maybe_leaklink-_something" id="c6745964">
+
+
+<p class="commentcredit"><span class="commenter">if_you_see_something_maybe_leak/link _something</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745964">February 14, 2017  4:25 PM</a>
+</p>
+
+<p>@Daniel above wrote:</p>
+
+<p>"Operational security beats computer security every time. Want to stay safe? Wear a hoodie. Use public wifi. Use public wifi at random locations and random times wearing your hoodie. Don't cross contaminate. Keep your mouth shut you twit. Don't ever use social media. Buy your computer with cash wearing your hoodie.</p>
+
+<p>It's that type of stuff that will keep you safe, not deleting your" ... "browser history or spoofing your MAC address."</p>
+
+<p>I guess the specifics depend on the threat model and what one is trying to accomplish.  Regardless, in general</p>
+
+<p>1) Please give an example(s) of cross contaminate.  Would that be, for example, carrying your cell phone turned on, or with a battery in it, while using Tails? Or using a non-jailbroken Ipad's wifi while using Tails?  Or using a large number of email addresses?</p>
+
+<p>2) "Keep your mouth shut"   Are you referring to when being detained or regarding being identified by your voiceprint (talking to salespeople or other customers) or both?</p>
+
+<p>3) How about a baseball cap instead of a hoodie?  Regardless, once detained what do you recommend?</p>
+
+<p>4) I assume 'randomizing' your MAC address, default behavior with Tail's, is ok.</p>
+
+<p>Thanks</p>
+</div></article>
+
+
+
+<article><div class="comment by-if_you_see_something_maybe_leaklink-_something" id="c6745965">
+
+
+<p class="commentcredit"><span class="commenter">if_you_see_something_maybe_leak/link _something</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745965">February 14, 2017  5:24 PM</a>
+</p>
+
+<p>A couple of basic vpn links are:</p>
+
+<p><a href="https://www.torproject.org/docs/faq.html.en#IsTorLikeAVPN" rel="nofollow">https://www.torproject.org/docs/faq.html.en#IsTorLikeAVPN</a><br />
+<a href="https://ssd.eff.org/en/module/choosing-vpn-thats-right-you" rel="nofollow">https://ssd.eff.org/en/module/choosing-vpn-thats-right-you</a></p>
+
+<p>@ Matteo, @Dirk</p>
+
+<p>above @Dirk Praet wrote:</p>
+
+<p>"That's why every security manual you have ever read probably also recommends using a VPN whenever using public wifi, because without it intercepting your traffic at the access point is completely trivial. Using https on top of it indeed increases the difficulty for snoopers, but which is also regularly MITM'ed either by antivirus utilities  certain types of malware. Just do a DuckDuckGo for a thing called Superfish."</p>
+
+<p>Lets assume a clean dvd boot of tails (no antivirus utilities, no malware and no Superfish).  Is there any easy way to tell if my local free wifi connection is subject to a mitm attack.  For example, go to "https://www.schneier.com" and see if it loads.  Or perhaps go to a government website like "https://www.iad.gov/".</p>
+
+<p>For example:</p>
+
+<p>1) the NSA has this transcript available<br />
+<a href="http://m.nsa.gov/resources/everyone/digital-media-center/video-audio/information-assurance/assets/files/best-practices-for-keeping-your-home-network-transcript.pdf" rel="nofollow">http://m.nsa.gov/resources/everyone/digital-media-center/video-audio/information-assurance/assets/files/best-practices-for-keeping-your-home-network-transcript.pdf</a></p>
+
+<p>2) IAD has about a seven page formatted version of similar "best practices and home networking" stuff.  A special iad.gov 'certificate', ('add exception') I think is required to download pdf files from iad.gov.  Might successfully accessing such a file at iad.gov indicate anything about the local free wifi connection mitm status?<br />
+<a href="https://www.iad.gov/iad/library/ia-guidance/security-tips/best-practices-for-keeping-your-home-network-secure-updated.cfm" rel="nofollow">https://www.iad.gov/iad/library/ia-guidance/security-tips/best-practices-for-keeping-your-home-network-secure-updated.cfm</a></p>
+
+<p>3) Are there any easy ways to try to identify some "script kiddie" wifi mitm attacks short of using something like Kali Linux.</p>
+
+<p>4) Finally, using free wifi and Tails, I assume the local proprietor (where I might or might not be drinking coffee) and their local isp, have access to my identity and the fact I am using Tor, if they want it or are set up to collect that sort of stuff by default, regardless, whether I send internet traffic through a vpn at home or elsewhere.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745983">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html#c6745983">February 15, 2017  3:55 AM</a>
+</p>
+
+<p>@ if_you_see_something_maybe_leak/link _something</p>
+
+<p><i>Is there any easy way to tell if my local free wifi connection is subject to a mitm attack.</i></p>
+
+<p>If with a MITM attack you mean traffic going through the wifi router being intercepted/monitored, the way a script kiddie will usually go about it is by using Wireshark. Higher-end routers will usually have a port monitoring or packet capturing function, or you can use an old hub or cheap port-mirroring capable switch to copy traffic to another port for Wireshark monitoring. The presence of one or more network cards in promiscuous mode is generally a dead giveaway, but if the attacker is just copying traffic to a dedicated monitoring port, it's going to be difficult to know. But you can always try using netstat to find out where your traffic is going and/or use a number of utilities for the presence of known monitoring protocols.</p>
+
+<p><i>I assume the local proprietor (where I might or might not be drinking coffee) and their local isp, have access to my identity and the fact I am using Tor, if they want it or are set up to collect that sort of stuff by default, regardless, whether I send internet traffic through a vpn at home or elsewhere.</i></p>
+
+<p>When using Tor over public wifi, both the AP owner and his ISP can see you are using Tor and easily monitor/intercept your non-encrypted traffic. If you combine it with a VPN that tunnels/encrypts your traffic you can either hide from the AP owner/ISP that you are using Tor (Tor over VPN), or hide the traffic origin from malicious Tor exit nodes (VPN over Tor). The easiest way to go about the 2nd scenario is by using a laptop with Virtualbox Whonix Gateway/Workstation VM's, launching your VPN from inside the workstation. Those are options you don't have when just using a TAILS DVD from the local Starbucks.  </p>
+</div></article>
+
+
+
+
+<p class="subscribe-comments"><a href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.xml"><img alt="Atom Feed" src="/images/rss-16px.png">Subscribe to comments on this entry</a></p>
+
+  <div class="postcomment notpreviewed">
+
+    
+    
+    <div class="comments-open" id="comments-open">
+        <h2 class="comments-open-header">Leave a comment</h2>
+        <div class="comments-open-content">
+
+        
+            <div id="comment-greeting"></div>
+
+            <form method="post" action="https://www.schneier.com/cgi-bin/mt/mt-comments.cgi" name="comments_form" id="comments-form" onsubmit="return mtCommentOnSubmit(this)">
+                <input type="hidden" name="static" value="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html?nc=43">
+                <input type="hidden" name="entry_id" value="11000" />
+                <input type="hidden" name="__lang" value="en-us" />
+
+                <script language="javascript" type="text/javascript"><!--
+	                document.write('<input type="hidden" name="armor" value="" /><input type="hidden" name="sid" value="" /><input type="hidden" name="preview" value="" />');
+                // --></script>
+                <div id="comments-open-data">
+                    <div id="comment-form-name">
+                        <label for="comment-author">Name (required):</label>
+                        <input id="comment-author" name="author" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                    <div id="comment-form-email">
+                        <label for="comment-email">E-mail Address:</label>
+                        <input id="comment-email" name="email" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                    <div id="comment-form-url">
+                        <label for="comment-url">URL:</label>
+                        <input id="comment-url" name="url" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                <script language="javascript" type="text/javascript"><!--
+                document.write('<div id="comment-form-remember-me"><input type="checkbox" id="comment-bake-cookie" name="bakecookie" onclick="mtRememberMeOnClick(this)" value="1" accesskey="r" /><label class="checkbox" for="comment-bake-cookie">Remember personal info?<\/label><\/div>');
+                // --></script>
+                </div>
+<p id="comments-open-challenge"><input type="hidden" id="commchallenge_beacon" name="commchallenge_beacon" value="1" /><label for="commchallenge_answer">Fill in the blank: the name of this blog is Schneier on ___________ <strong>(required)</strong>:</label>
+<input type="text" id="commchallenge_answer" name="commchallenge_answer" size="30" value="" /></p><script type="text/javascript">
+<!--    
+if ((typeof commenter_name != 'undefined') ||
+    (typeof getCommenterName != 'undefined' &&  getCommenterName())) {
+    mtHide('comments-open-challenge');
+} else {
+    mtShow('comments-open-challenge');
+} 
+// -->
+</script>
+
+
+                <div id="comments-open-text">
+                    <label for="comment-text">Comments:</label>
+                    <textarea id="comment-text" name="text" onfocus="mtCommentFormOnFocus()"></textarea>
+                </div>
+		            <p id="allowed"><strong>Allowed HTML:</strong> &lt;a href="URL"&gt; &bull; &lt;em&gt; &lt;cite&gt; &lt;i&gt; &bull; &lt;strong&gt; &lt;b&gt; &bull; &lt;sub&gt; &lt;sup&gt; &bull; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &bull; &lt;blockquote&gt; &lt;pre&gt;</p>
+                <div id="comments-open-captcha"></div>
+                <div id="comments-open-footer">
+
+  	                <script language="javascript" type="text/javascript"><!--
+										document.write('<input type="submit" accesskey="v" name="preview_button" id="comment-preview" value="Preview" onclick="this.form.preview.value=\'1\';" />');
+		                // --></script>
+		                <noscript><input type="submit" accesskey="v" name="preview" id="comment-preview" value="Preview"></noscript>
+                    
+                    <input type="submit" accesskey="s" name="post" id="comment-submit" value="Submit" />
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+    <script type="text/javascript">
+    <!--
+    mtAttachEvent("load", mtEntryOnLoad);
+    mtAttachEvent("unload", mtEntryOnUnload);
+    //-->
+    </script>
+    
+    
+  </div>
+
+
+
+
+
+
+
+
+    
+    
+<div class="stepthrough">
+		
+		<a class="earlier" href="https://www.schneier.com/blog/archives/2017/02/predicting_a_sl.html">&larr; Predicting a Slot Machine's PRNG</a>
+		
+		
+		<a class="later" href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html">Security and Privacy Guidelines for the Internet of Things &rarr;</a>
+		
+	</div>
+
+    
+<p id="powered">Photo of Bruce Schneier by Per Ervland.
+	
+	<p id="disclaim">Schneier on Security is a personal website.  Opinions expressed are not necessarily those of <a href="https://www.resilientsystems.com/">Resilient</a>, an IBM Company.
+
+
+	
+	</div><!--#content-->
+<aside><div class="sidebar" id="sidebar-two">
+		<section><div class="sidesection" id="about">
+		
+		<h3>About Bruce Schneier</h3>
+	    
+	        
+	            <img id="authorphoto" src="/images/bruce-blog3.jpg" width="150" height="194" alt="Bruce Schneier"><p class="small">I've been writing about security issues on my <a href="/">blog</a> since 2004, and in my monthly <a href="/crypto-gram/">newsletter</a> since 1998. I write <a href="/books/">books</a>, <a href="/essays/">articles</a>, and <a href="/academic/">academic papers</a>. Currently, I'm the Chief Technology Officer of <a href="https://www.resilientsystems.com/">Resilient, an IBM Company</a>, a fellow at Harvard's <a href="http://berkman.harvard.edu/">Berkman Center</a>, and a board member of <a href="https://www.eff.org/">EFF</a>.</p>
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+
+		</div></section>
+
+
+		<section><div class="sidesection">
+			<h3>Related Entries</h3>
+			<ul>
+     			<li><a href="https://www.schneier.com/blog/archives/2017/02/de-anonymizing_1.html">De-Anonymizing Browser History Using Social-Network Data</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/11/government_prop.html">Government Propaganda on Social Media</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/11/firefox_removin.html">Firefox Removing Battery Status API</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/11/google_linking_.html">Google Linking Anonymous Browser Tracking with Identifiable Tracking</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/06/facebook_using_.html">Facebook Using Physical Location to Suggest Friends</a></li>
+   			</ul>
+		</div></section>
+
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<section><div class="sidesection">
+
+					<h3>Featured Essays</h3>
+					<ul>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/04/the_value_of_encrypt.html">The Value of Encryption</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/03/data_is_a_toxic_asse.html">Data Is a Toxic Asset, So Why Not Throw It Out?</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2014/01/how_the_nsa_threaten.html">How the NSA Threatens National Security</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2009/01/terrorists_may_use_g.html">Terrorists May Use Google Earth, But Fear Is No Reason to Ban It</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2007/01/in_praise_of_securit.html">In Praise of Security Theater</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/08/refuse_to_be_terrori.html">Refuse to be Terrorized</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/05/the_eternal_value_of.html">The Eternal Value of Privacy</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2005/09/terrorists_dont_do_m.html">Terrorists Don't Do Movie Plots</a></li>
+						
+					</ul>
+
+	    <p><a href="https://www.schneier.com/essays/">more essays</a></p>
+		</div></section>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+
+    
+    <section><div class="sidesection">
+		
+			<h3>Blog Archives</h3>
+			<ul>
+				<li><a href="https://www.schneier.com/blog/calendar.html">Archives by Month</a></li>
+				<li><a href="https://www.schneier.com/blog/newcomments.html">100 Latest Comments</a></li>
+			</ul>
+        
+
+
+        
+
+		<h4>Blog Tags</h4>
+<ul class="top-tags">
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=privacy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">privacy</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=terrorism&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">terrorism</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=surveillance&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">surveillance</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=squid&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">squid</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=academic%20papers&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">academic papers</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=NSA&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">NSA</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=air%20travel&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">air travel</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=hacking&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">hacking</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cryptography&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cryptography</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=national%20security%20policy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">national security policy</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=law%20enforcement&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">law enforcement</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=encryption&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">encryption</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=DHS&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">DHS</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=homeland%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">homeland security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=economics%20of%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">economics of security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=crime&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">crime</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=Schneier%20news&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">Schneier news</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=malware&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">malware</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=essays&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">essays</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=TSA&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">TSA</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=computer%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">computer security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=laws&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">laws</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=fraud&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">fraud</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=vulnerabilities&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">vulnerabilities</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=psychology%20of%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">psychology of security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=police&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">police</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=courts&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">courts</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cost-benefit%20analysis&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cost-benefit analysis</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cell%20phones&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cell phones</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=physical%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">physical security</a></li>
+</ul>
+<p><a href="https://www.schneier.com/blog/tags.html">more tags</a></p>
+
+
+	
+    </div></section>
+
+
+    
+		<section><div class="sidesection">
+		<h3>Latest Book</h3>
+		<a href="https://www.schneier.com/books/data_and_goliath/"><img class="sidepic"  alt="Data and Goliath" src="https://www.schneier.com/images/book-dg-175w.jpg"></a>
+		<p><a href="https://www.schneier.com/books/">more books</a></p>
+		</div></section>
+		
+		<section><div class="sidesection">
+		<a href="https://www.eff.org/issues/bloggers/legal/join"><img id="effbutton" src="https://www.schneier.com/images/eff-150x40.gif" ALT="Support Bloggers' Rights!" width="150" height="40"></a>
+		
+		<a href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=8252"><img src="https://www.schneier.com/images/epic-150w.png" width="150" height="54" alt="Defend Privacy--Support Epic"></a>
+
+		</div></section>
+
+		<section><div class="sidesection">
+		<a href="https://www.resilientsystems.com/"><img class="sidepic" alt="Resilient Systems" src="https://www.schneier.com/images/resilient-logo2-175w.png"></a>	
+
+		</div></section>
+
+		
+	</div></aside>
+
+
+<footer><nav><div class="nav" id="footer-nav">
+<ul>
+	<li class="menu1 current"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+	
+	</div></nav></footer>
+
+</div><!--#main-->
+</div><!--#wrapper-->
+
+</body>
+</html>
+
+
+

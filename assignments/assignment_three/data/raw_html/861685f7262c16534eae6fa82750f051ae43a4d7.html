@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="head"><title>
+	Ohio State Medical Association - Home
+</title><meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+<meta name="keywords" content="tax, tax deductible" /> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=OSMAMain" type="text/css" rel="stylesheet"/> 
+<script src="/Scripts/xdomain.min.js" slave="https://webservices2.osma.org/LiveWebServices/proxy.html"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/CMSScripts/Custom/bootstrap.min.js"></script>
+<script type="text/javascript" src="/CMSScripts/Custom/navBarOSMA.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="/CMSScripts/Custom/browserDetect.js"></script>
+<link href="/CMSPages/GetResource.ashx?stylesheetname=bootstrap" type="text/css" rel="stylesheet" media="screen"/>
+<link href="/CMSPages/GetResource.ashx?stylesheetname=osmaPrint" type="text/css" rel="stylesheet" media="print"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/CMSPages/GetResource.ashx?stylesheetname=OSMADevice" />
+<link href='//fonts.googleapis.com/css?family=Tinos:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2080062-1']);
+  _gaq.push(['_setDomainName', 'osma.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
+<link href="/CMSPages/GetResource.ashx?stylesheetfile=/App_Themes/OSMAMain/icons.css" type="text/css" rel="stylesheet" /><link href="/WebResource.axd?d=F2MrcA_0LCy1j9l4VlfaUkWNvE--7Ed-raoWImh02jsw9i1IKBTSMp4EH1qTZkHvaIBhmb3sDku05c5HvTzn0EgVzgZ18t7DQjn-k33g9h0N0GEunrJ_4I7HInhH_-4QlnJORQ2&amp;t=635442371220000000" type="text/css" rel="stylesheet" /><link href="/OSMA/Styles/currentEvents.min.css" rel="stylesheet" type="text/css" /><link href="/OSMA/Styles/quickPhysicianSearch.min.css" rel="stylesheet" type="text/css" /><link href="/OSMA/Styles/myBanner.min.css" rel="stylesheet" type="text/css" /><link href="/CMSPages/GetResource.ashx?stylesheetname=royalslider" type="text/css" rel="stylesheet" media="screen"/> 
+<link href="/CMSPages/GetResource.ashx?stylesheetname=rs-default" type="text/css" rel="stylesheet" media="screen"/> 
+<script src="/CMSPages/GetResource.ashx?scriptfile=%2fCMSScripts%2fCustom%2fjquery.royalslider.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+jQuery(document).ready(function($) {
+  $('#full-width-slider').royalSlider({
+    arrowsNav: true,
+    loop: true,
+    keyboardNavEnabled: true,
+    controlsInside: true,
+    imageScaleMode: 'fill',
+    arrowsNavAutoHide: false,
+    autoScaleSlider: true, 
+    autoScaleSliderWidth: 960,     
+    autoScaleSliderHeight: 350,
+    controlNavigation: 'bullets',
+    thumbsFitInViewport: false,
+    navigateByClick: true,
+    startSlideId: 0,
+    autoPlay: {
+    		// autoplay options go gere
+    		enabled: true,
+    		pauseOnHover: false,
+            delay:8000
+    	},
+    transitionType:'move',
+    globalCaption: false,
+    deeplinking: {
+      enabled: true,
+      change: false
+    },
+    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+    imgWidth: 1200,
+    imgHeight: 666
+  });
+});
+//]]>
+</script>
+<script type="text/javascript">
+	//<![CDATA[
+/*********************************************************************
+*  #### Twitter Post Fetcher v10.0 ####
+*  Coded by Jason Mayes 2013. A present to all the developers out there.
+*  www.jasonmayes.com
+*  Please keep this disclaimer with my code if you use it. Thanks. :-)
+*  Got feedback or questions, ask here: 
+*  http://www.jasonmayes.com/projects/twitterApi/
+*  Updates will be posted to this site.
+*********************************************************************/
+var twitterFetcher=function(){function x(e){return e.replace(/<b[^>]*>(.*?)<\/b>/gi,function(c,e){return e}).replace(/class=".*?"|data-query-source=".*?"|dir=".*?"|rel=".*?"/gi,"")}function p(e,c){for(var g=[],f=RegExp("(^| )"+c+"( |$)"),a=e.getElementsByTagName("*"),h=0,d=a.length;h<d;h++)f.test(a[h].className)&&g.push(a[h]);return g}var y="",l=20,s=!0,k=[],t=!1,q=!0,r=!0,u=null,v=!0,z=!0,w=null,A=!0;return{fetch:function(e,c,g,f,a,h,d,b,m,n){void 0===g&&(g=20);void 0===f&&(s=!0);void 0===a&&(a=
+!0);void 0===h&&(h=!0);void 0===d&&(d="default");void 0===b&&(b=!0);void 0===m&&(m=null);void 0===n&&(n=!0);t?k.push({id:e,domId:c,maxTweets:g,enableLinks:f,showUser:a,showTime:h,dateFunction:d,showRt:b,customCallback:m,showInteraction:n}):(t=!0,y=c,l=g,s=f,r=a,q=h,z=b,u=d,w=m,A=n,c=document.createElement("script"),c.type="text/javascript",c.src="//cdn.syndication.twimg.com/widgets/timelines/"+e+"?&lang=en&callback=twitterFetcher.callback&suppress_response_codes=true&rnd="+Math.random(),document.getElementsByTagName("head")[0].appendChild(c))},
+callback:function(e){var c=document.createElement("div");c.innerHTML=e.body;"undefined"===typeof c.getElementsByClassName&&(v=!1);e=[];var g=[],f=[],a=[],h=[],d=0;if(v)for(c=c.getElementsByClassName("tweet");d<c.length;){0<c[d].getElementsByClassName("retweet-credit").length?a.push(!0):a.push(!1);if(!a[d]||a[d]&&z)e.push(c[d].getElementsByClassName("e-entry-title")[0]),h.push(c[d].getAttribute("data-tweet-id")),g.push(c[d].getElementsByClassName("p-author")[0]),f.push(c[d].getElementsByClassName("dt-updated")[0]);
+d++}else for(c=p(c,"tweet");d<c.length;)e.push(p(c[d],"e-entry-title")[0]),h.push(c[d].getAttribute("data-tweet-id")),g.push(p(c[d],"p-author")[0]),f.push(p(c[d],"dt-updated")[0]),0<p(c[d],"retweet-credit").length?a.push(!0):a.push(!1),d++;e.length>l&&(e.splice(l,e.length-l),g.splice(l,g.length-l),f.splice(l,f.length-l),a.splice(l,a.length-l));c=[];d=e.length;for(a=0;a<d;){if("string"!==typeof u){var b=new Date(f[a].getAttribute("datetime").replace(/-/g,"/").replace("T"," ").split("+")[0]),b=u(b);
+f[a].setAttribute("aria-label",b);if(e[a].innerText)if(v)f[a].innerText=b;else{var m=document.createElement("p"),n=document.createTextNode(b);m.appendChild(n);m.setAttribute("aria-label",b);f[a]=m}else f[a].textContent=b}b="";s?(r&&(b+='<div class="user">'+x(g[a].innerHTML)+"</div>"),b+='<p class="tweet">'+x(e[a].innerHTML)+"</p>",q&&(b+='<p class="timePosted">'+f[a].getAttribute("aria-label")+"</p>")):e[a].innerText?(r&&(b+='<p class="user">'+g[a].innerText+"</p>"),b+='<p class="tweet">'+e[a].innerText+
+"</p>",q&&(b+='<p class="timePosted">'+f[a].innerText+"</p>")):(r&&(b+='<p class="user">'+g[a].textContent+"</p>"),b+='<p class="tweet">'+e[a].textContent+"</p>",q&&(b+='<p class="timePosted">'+f[a].textContent+"</p>"));A&&(b+='<p class="interact"><a href="https://twitter.com/intent/tweet?in_reply_to='+h[a]+'" class="twitter_reply_icon">Reply</a><a href="https://twitter.com/intent/retweet?tweet_id='+h[a]+'" class="twitter_retweet_icon">Retweet</a><a href="https://twitter.com/intent/favorite?tweet_id='+
+h[a]+'" class="twitter_fav_icon">Favorite</a></p>');c.push(b);a++}if(null==w){e=c.length;g=0;f=document.getElementById(y);for(h="<ul>";g<e;)h+="<li>"+c[g]+"</li>",g++;f.innerHTML=h+"</ul>"}else w(c);t=!1;0<k.length&&(twitterFetcher.fetch(k[0].id,k[0].domId,k[0].maxTweets,k[0].enableLinks,k[0].showUser,k[0].showTime,k[0].dateFunction,k[0].showRt,k[0].customCallback,k[0].showInteraction),k.splice(0,1))}}}();
+
+twitterFetcher.fetch('451451369254174721', 'tweet', 1, true);
+twitterFetcher.fetch('451451369254174721', 'tweety', 1, true);
+//]]>
+</script><link href="/CMSPages/GetResource.ashx?_webparts=677" type="text/css" rel="stylesheet"/> 
+</head>
+<body class="LTR ENUS ContentBody"  data-spy="scroll" data-target=".backtoTop">
+    <form method="post" action="/" id="form">
+<div class="aspNetHidden">
+<input type="hidden" name="manScript_HiddenField" id="manScript_HiddenField" value="" />
+<input type="hidden" name="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_ClientState" id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_ClientState" value="{&quot;ActiveTabIndex&quot;:0,&quot;TabEnabledState&quot;:[true,true],&quot;TabWasLoadedOnceState&quot;:[false,false]}" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODc3OTc4NjAwDxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWAgIBDxYCHgZhY3Rpb24FAS8WAgIFD2QWAmYPDxYEHghDc3NDbGFzcwUPUGFnZVBsYWNlaG9sZGVyHgRfIVNCAgJkFgJmD2QWBgIBD2QWAgICDw8WAh4HVmlzaWJsZWhkZAIFD2QWAgIBD2QWAgICDw8WMB4SVHJhbnNmb3JtYXRpb25OYW1lZR4NUGFnZXJQb3NpdGlvbgspcUNNUy5Db250cm9scy5QYWdpbmdQbGFjZVR5cGVFbnVtLCBDTVMuQ29udHJvbHMsIFZlcnNpb249OC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj04MzRiMTJhMjU4ZjIxM2Y5AB4ORGF0YVNvdXJjZU5hbWVlHhtTZXBhcmF0b3JUcmFuc2Zvcm1hdGlvbk5hbWVlHhBTaG93RGVsZXRlQnV0dG9uaB4JSXRlbUNvdW50AvEBHhdVc2VIaWVyYXJjaGljYWxPcmRlcmluZ2ceGEhlYWRlclRyYW5zZm9ybWF0aW9uTmFtZWUeEE5lc3RlZENvbnRyb2xzSURlHh5IaWVyYXJjaGljYWxUcmFuc2Zvcm1hdGlvbk5hbWUFIGNtcy5tZW51aXRlbS5ib290c3RyYXBoaWVyYXJjaHkxHiRTZWxlY3RlZEhlYWRlckl0ZW1UcmFuc2Zvcm1hdGlvbk5hbWVlHgxaZXJvUm93c1RleHQFDU5vIGRhdGEgZm91bmQeHUFsdGVybmF0aW5nVHJhbnNmb3JtYXRpb25OYW1lZR4OU2hvd0VkaXRCdXR0b25oHhRMb2FkSGllcmFyY2hpY2FsRGF0YWceC18hSXRlbUNvdW50AvEBHhZIaWRlQ29udHJvbEZvclplcm9Sb3dzZx4jU2VsZWN0ZWRGb290ZXJ0ZW1UcmFuc2Zvcm1hdGlvbk5hbWVlHgtfIURhdGFCb3VuZGceGEZvb3RlclRyYW5zZm9ybWF0aW9uTmFtZWUeF0ZpcnN0VHJhbnNmb3JtYXRpb25OYW1lZR4YU2luZ2xlVHJhbnNmb3JtYXRpb25OYW1lZR4WTGFzdFRyYW5zZm9ybWF0aW9uTmFtZWUeDkRlbGF5ZWRMb2FkaW5naGQW2AFmDw8WDh4IUGFnZVNpemUCCh4OUXVlcnlTdHJpbmdLZXkFBFBhZ2UeCVBhZ2VyTW9kZQspakNNUy5Db250cm9scy5VbmlQYWdlck1vZGUsIENNUy5Db250cm9scywgVmVyc2lvbj04LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTgzNGIxMmEyNThmMjEzZjkAHglHcm91cFNpemUCCh4dRGlzcGxheUZpcnN0TGFzdEF1dG9tYXRpY2FsbHloHiBEaXNwbGF5UHJldmlvdXNOZXh0QXV0b21hdGljYWxseWgeB0VuYWJsZWRoZGQCAg9kFgJmD2QWAmYPFQILcmVndWxhck9TTUEFQWJvdXRkAgQPZBYCZg9kFgJmDxUCFS9BYm91dC9BYm91dC10aGUtT1NNQQ5BYm91dCB0aGUgT1NNQWQCBg9kFgJmD2QWAmYPFQInL0Fib3V0L0FmZmlsaWF0ZWQtR3JvdXBzLWFuZC1Db21taXR0ZWVzIEFmZmlsaWF0ZWQgR3JvdXBzIGFuZCBDb21taXR0ZWVzZAIID2QWAmYPZBYCZg8VAkIvQWJvdXQvQWZmaWxpYXRlZC1Hcm91cHMtYW5kLUNvbW1pdHRlZXMvT2hpby1EZWxlZ2F0aW9uLXRvLXRoZS1BTUEaT2hpbyBEZWxlZ2F0aW9uIHRvIHRoZSBBTUFkAgoPZBYCZg9kFgJmDxUCQC9BYm91dC9BZmZpbGlhdGVkLUdyb3Vwcy1hbmQtQ29tbWl0dGVlcy9Db3VudHktTWVkaWNhbC1Tb2NpZXRpZXMYQ291bnR5IE1lZGljYWwgU29jaWV0aWVzZAIMD2QWAmYPZBYCZg8VAjUvQWJvdXQvQWZmaWxpYXRlZC1Hcm91cHMtYW5kLUNvbW1pdHRlZXMvT1NNQS1BbGxpYW5jZQ1PU01BIEFsbGlhbmNlZAIOD2QWAmYPZBYCZg8VAlMvQWJvdXQvQWZmaWxpYXRlZC1Hcm91cHMtYW5kLUNvbW1pdHRlZXMvSm9pbnQtQWR2aXNvcnktQ29tbWl0dGVlLW9uLVNwb3J0cy1NZWRpY2luZStKb2ludCBBZHZpc29yeSBDb21taXR0ZWUgb24gU3BvcnRzIE1lZGljaW5lZAIRD2QWAmYPZBYCZg8VAg4vYW5udWFsbWVldGluZxNBbm51YWwgTWVldGluZyAyMDE3ZAITD2QWAmYPZBYCZg8VAgovZWxlY3Rpb25zGkNhbmRpZGF0ZSBJbmZvcm1hdGlvbiAyMDE3ZAIVD2QWAmYPZBYCZg8VAhEvZGlzdHJpY3RtZWV0aW5ncxFEaXN0cmljdCBNZWV0aW5nc2QCFw9kFgJmD2QWAmYPFQIQL1JGU01TU0FubnVhbE10ZxtSRlMvTVNTIEFubnVhbCBNZWV0aW5nIDIwMTdkAhkPZBYCZg9kFgJmDxUCLS9BYm91dC9Bbm51YWwtTWVldGluZy9Bbm51YWwtTWVldGluZy1BcmNoaXZlcxdBbm51YWwgTWVldGluZyBBcmNoaXZlc2QCHA9kFgJmD2QWAmYPFQIRL0Fib3V0L0dvdmVybmFuY2UKR292ZXJuYW5jZWQCHg9kFgJmD2QWAmYPFQIdL0Fib3V0L0dvdmVybmFuY2UvQ291bmNpbC0oMSkHQ291bmNpbGQCIQ9kFgJmD2QWAmYPFQIaL0Fib3V0L0hpc3Rvcnktb2YtdGhlLU9TTUETSGlzdG9yeSBvZiB0aGUgT1NNQWQCIw9kFgJmD2QWAmYPFQI2L0Fib3V0L0hpc3Rvcnktb2YtdGhlLU9TTUEvRGlzdGluZ3Vpc2hlZC1TZXJ2aWNlLUF3YXJkHkRpc3Rpbmd1aXNoZWQgU2VydmljZSBDaXRhdGlvbmQCJQ9kFgJmD2QWAmYPFQIqL0Fib3V0L0hpc3Rvcnktb2YtdGhlLU9TTUEvUGFzdC1QcmVzaWRlbnRzD1Bhc3QgUHJlc2lkZW50c2QCKA9kFgJmD2QWAmYPFQIVL0Fib3V0L09TTUEtU3RhZmYtKDEpCk9TTUEgU3RhZmZkAisPZBYCZg9kFgJmDxUCC3JlZ3VsYXJPU01BCk1lbWJlcnNoaXBkAi0PZBYCZg9kFgJmDxUCBS9kdWVzCkpvaW4vUmVuZXdkAi8PZBYCZg9kFgJmDxUCGC9NeS1PU01BL01lbWJlci1CZW5lZml0cw9NZW1iZXIgQmVuZWZpdHNkAjEPZBYCZg9kFgJmDxUCCS9wYXJ0bmVycxlQcmVmZXJyZWQgUGFydG5lciBQcm9ncmFtZAIzD2QWAmYPZBYCZg8VAgwvSGVhbHRoaWNpdHkTQ29tcGxpYW5jZSBTb2x1dGlvbmQCNQ9kFgJmD2QWAmYPFQITL2NyZWRlbnRpYWxza2VlcGVycxZDcmVkZW50aWFsaW5nIFNlcnZpY2VzZAI3D2QWAmYPZBYCZg8VAgkvcHJvdmlzdGEYR3JvdXAgUHVyY2hhc2luZyBQcm9ncmFtZAI5D2QWAmYPZBYCZg8VAgcvZWFzeWl0FkluZm9ybWF0aW9uIFRlY2hub2xvZ3lkAjsPZBYCZg9kFgJmDxUCBy9vc21haWESSW5zdXJhbmNlIFByb2R1Y3RzZAI9D2QWAmYPZBYCZg8VAggvTWVkb3BwcxFKb2IgT3Bwb3J0dW5pdGllc2QCPw9kFgJmD2QWAmYPFQIEL3RkYxtNZWRpY2FsIExpYWJpbGl0eSBJbnN1cmFuY2VkAkEPZBYCZg9kFgJmDxUCDy9Ta2V0Y2h5TWVkaWNhbBRNZWQgU2Nob29sIFRlc3QgUHJlcGQCQw9kFgJmD2QWAmYPFQIML2FjY3VtZWRpY2FsFk1lZGljYWwgV2FzdGUgRGlzcG9zYWxkAkUPZBYCZg9kFgJmDxUCFC9wYXRpZW50c2F0aXNmYWN0aW9uFFBhdGllbnQgU2F0aXNmYWN0aW9uZAJHD2QWAmYPZBYCZg8VAgsvcHFyc3dpemFyZBtQaHlzaWNpYW4gUXVhbGl0eSBSZXBvcnRpbmdkAkkPZBYCZg9kFgJmDxUCCS9jcmVkaWJsZRhTdHVkZW50IExvYW4gUmVmaW5hbmNpbmdkAksPZBYCZg9kFgJmDxUCBS9DSVBBFVZhbHVlLWJhc2VkIENvbnRyYWN0c2QCTQ9kFgJmD2QWAmYPFQIPL2NvbXBtYW5hZ2VtZW50GldvcmtlcnMnIENvbXAgR3JvdXAgUmF0aW5nZAJRD2QWAmYPZBYCZg8VAgsvbWVtYmVyc2hpcBFNZW1iZXJzaGlwIExldmVsc2QCUw9kFgJmD2QWAmYPFQIjL015LU9TTUEvT1NNQS1NZW1iZXJzaGlwL1BoeXNpY2lhbnMKUGh5c2ljaWFuc2QCVQ9kFgJmD2QWAmYPFQIEL3JmcxNSZXNpZGVudHMgJiBGZWxsb3dzZAJXD2QWAmYPZBYCZg8VAlovTXktT1NNQS9PU01BLU1lbWJlcnNoaXAvTWVkaWNhbC1TdHVkZW50cywtUmVzaWRlbnRzLWFuZC1GZWxsb3dzLSgxKS9SRlMtRXhlY3V0aXZlLUNvdW5jaWwVUkZTIEV4ZWN1dGl2ZSBDb3VuY2lsZAJaD2QWAmYPZBYCZg8VAgQvbXNzEE1lZGljYWwgU3R1ZGVudHNkAlwPZBYCZg9kFgJmDxUCXC9NeS1PU01BL09TTUEtTWVtYmVyc2hpcC9NZWRpY2FsLVN0dWRlbnRzLC1SZXNpZGVudHMtYW5kLUZlbGxvd3MvTWVkaWNhbC1TdHVkZW50LUFwcGxpY2F0aW9uJk1lZGljYWwgU3R1ZGVudCBNZW1iZXJzaGlwIEFwcGxpY2F0aW9uZAJeD2QWAmYPZBYCZg8VAlYvTXktT1NNQS9PU01BLU1lbWJlcnNoaXAvTWVkaWNhbC1TdHVkZW50cywtUmVzaWRlbnRzLWFuZC1GZWxsb3dzL1JGUy1FeGVjdXRpdmUtQ291bmNpbAxNU1MgT2ZmaWNlcnNkAmEPZBYCZg9kFgJmDxUCLS9NeS1PU01BL09TTUEtTWVtYmVyc2hpcC9Bc3NvY2lhdGUtTWVtYmVyc2hpcBRBc3NvY2lhdGUgTWVtYmVyc2hpcGQCYw9kFgJmD2QWAmYPFQIGL21zcy0xElJldGlyZWQgTWVtYmVyc2hpcGQCZQ9kFgJmD2QWAmYPFQI2L015LU9TTUEvT1NNQS1NZW1iZXJzaGlwL0FmZmlsaWF0ZS1QYXJ0bmVyc2hpcC1Qcm9ncmFtHUFmZmlsaWF0ZSBQYXJ0bmVyc2hpcCBQcm9ncmFtZAJnD2QWAmYPZBYCZg8VAjgvTXktT1NNQS9PU01BLU1lbWJlcnNoaXAvT3JnYW5pemVkLU1lZGljYWwtU3RhZmYtU2VjdGlvbh9Pcmdhbml6ZWQgTWVkaWNhbCBTdGFmZiBTZWN0aW9uZAJqD2QWAmYPZBYCZg8VAhMvTXktT1NNQS9NeS1Qcm9maWxlCk15IFByb2ZpbGVkAmwPZBYCZg9kFgJmDxUCFy9NeS1PU01BL09TTUEtQ29tbXVuaXR5Dk9TTUEgQ29tbXVuaXR5ZAJvD2QWAmYPZBYCZg8VAgtyZWd1bGFyT1NNQQhBZHZvY2FjeWQCcQ9kFgJmD2QWAmYPFQIJLzIwMTZ3aW5zEjIwMTYgQWR2b2NhY3kgV2luc2QCcw9kFgJmD2QWAmYPFQIJL2Fkdm9jYWN5FExlZ2lzbGF0aXZlIEFkdm9jYWN5ZAJ1D2QWAmYPZBYCZg8VAjEvQWR2b2NhY3kvQWR2b2NhY3ktRWZmb3J0cy9BZHZvY2FjeS1BY3Rpb24tQ2VudGVyFkFkdm9jYWN5IEFjdGlvbiBDZW50ZXJkAncPZBYCZg9kFgJmDxUCKi9BZHZvY2FjeS9BZHZvY2FjeS1FZmZvcnRzL0Fkdm9jYWN5LUF3YXJkcw9BZHZvY2FjeSBBd2FyZHNkAnkPZBYCZg9kFgJmDxUCQi9BZHZvY2FjeS9BZHZvY2FjeS1FZmZvcnRzL0Fkdm9jYWN5LUF3YXJkcy9Wb2ljZS1vZi1NZWRpY2luZS1Bd2FyZBdWb2ljZSBvZiBNZWRpY2luZSBBd2FyZGQCew9kFgJmD2QWAmYPFQIXL3BoeXNpY2lhbmFkdm9jYXRlYXdhcmQeUGh5c2ljaWFuIEFkdm9jYXRlIG9mIHRoZSBZZWFyZAJ9D2QWAmYPZBYCZg8VAkQvQWR2b2NhY3kvQWR2b2NhY3ktRWZmb3J0cy9BZHZvY2FjeS1Bd2FyZHMvT1NNQVBBQy1Eb25vci1vZi10aGUtWWVhchlPU01BUEFDIERvbm9yIG9mIHRoZSBZZWFyZAKAAQ9kFgJmD2QWAmYPFQILL3RvcnRyZWZvcm0fTWVkaWNhbCBMaWFiaWxpdHkgJiBUb3J0IFJlZm9ybWQCggEPZBYCZg9kFgJmDxUCCi9UZWFtc1dvcmsfU2NvcGUgb2YgUHJhY3RpY2UgLSBUZWFtcyBXb3JrIWQChQEPZBYCZg9kFgJmDxUCGC9BZHZvY2FjeS9MZWdhbC1BZHZvY2FjeQ5MZWdhbCBBZHZvY2FjeWQChwEPZBYCZg9kFgJmDxUCPi9BZHZvY2FjeS9MZWdhbC1BZHZvY2FjeS9NZWRpY2FsLUxpYWJpbGl0eS1hbmQtVG9ydC1SZWZvcm0tKDEpEVBhc3QgVG9ydCBSZWZvcm1zZAKKAQ9kFgJmD2QWAmYPFQIRL0Fkdm9jYWN5L09TTUFQQUMHT1NNQVBBQ2QCjAEPZBYCZg9kFgJmDxUCHy9BZHZvY2FjeS9PU01BUEFDL0NvbnRyaWJ1dGlvbnMGRG9uYXRlZAKPAQ9kFgJmD2QWAmYPFQIDL1JBElJlZ3VsYXRvcnkgQWZmYWlyc2QCkQEPZBYCZg9kFgJmDxUCCi9tYXJpanVhbmEQTWFyaWp1YW5hIFBvbGljeWQCkwEPZBYCZg9kFgJmDxUCQi9BZHZvY2FjeS9SZWd1bGF0b3J5LUFmZmFpcnMvU0ItMTI5LVByaW9yLUF1dGhvcml6YXRpb24tUmVmb3JtLUFjdB9QcmlvciBBdXRob3JpemF0aW9uIFJlZm9ybSBBY3QgZAKXAQ9kFgJmD2QWAmYPFQILcmVndWxhck9TTUEJRWR1Y2F0aW9uZAKZAQ9kFgJmD2QWAmYPFQIKL2VkdWNhdGlvbhRBYm91dCBPU01BIEVkdWNhdGlvbmQCmwEPZBYCZg9kFgJmDxUCCi9zeW1wb3NpdW0aQW5udWFsIEVkdWNhdGlvbiBTeW1wb3NpdW1kAp0BD2QWAmYPZBYCZg8VAgkvRWRFdmVudHMTRnVsbCBFdmVudCBDYWxlbmRhcmQCnwEPZBYCZg9kFgJmDxUCDC9DTUVQcm92aWRlchZDTUUgUHJvdmlkZXIgU3ltcG9zaXVtZAKhAQ9kFgJmD2QWAmYPFQIHL2NvZGluZx5Db2RpbmcgJiBEb2N1bWVudGF0aW9uIFVwZGF0ZXNkAqMBD2QWAmYPZBYCZg8VAgovZW50Y29kaW5nIUVOVCBDb2RpbmcgJiBEb2N1bWVudGF0aW9uIFVwZGF0ZWQCpQEPZBYCZg9kFgJmDxUCCy9Ib3VzZUNhbGxzE0hvdXNlIENhbGwgV2ViaW5hcnNkAqcBD2QWAmYPZBYCZg8VAgMvbW0aTWVkaWNhcmUgJiBNZWRpY2FpZCBVcGRhdGVkAqkBD2QWAmYPZBYCZg8VAgwvUGF5ZXJVcGRhdGURUGF5ZXIgVXBkYXRlIDIwMTZkAqwBD2QWAmYPZBYCZg8VAgkvb25kZW1hbmQRT24gRGVtYW5kIENvbnRlbnRkAq4BD2QWAmYPZBYCZg8VAhMvaG91c2VjYWxsbWF0ZXJpYWxzFEhvdXNlIENhbGwgTWF0ZXJpYWxzZAKxAQ9kFgJmD2QWAmYPFQIdL0VkdWNhdGlvbi9Kb2ludC1TcG9uc29yc2hpcHMVQ01FIEV2ZW50IFBhcnRuZXJzaGlwZAKzAQ9kFgJmD2QWAmYPFQIcL0VkdWNhdGlvbi9DTUUtQWNjcmVkaXRhdGlvbhlDTUUgUHJvZ3JhbSBBY2NyZWRpdGF0aW9uZAK1AQ9kFgJmD2QWAmYPFQIaL0VkdWNhdGlvbi9DdXJyZW50LUNvdXJzZXMMUmVnaXN0ZXIgTm93ZAK4AQ9kFgJmD2QWAmYPFQILcmVndWxhck9TTUEOUHVibGljIEFmZmFpcnNkAroBD2QWAmYPZBYCZg8VAikvUHVibGljLUFmZmFpcnMvQWR2ZXJ0aXNpbmctT3Bwb3J0dW5pdGllcxlBZHZlcnRpc2luZyBPcHBvcnR1bml0aWVzZAK8AQ9kFgJmD2QWAmYPFQIfL1B1YmxpYy1BZmZhaXJzL01lZGlhLVJlbGF0aW9ucw9NZWRpYSBSZWxhdGlvbnNkAr4BD2QWAmYPZBYCZg8VAgUvbmV3cwxOZXdzIEFyY2hpdmVkAsABD2QWAmYPZBYCZg8VAiEvUHVibGljLUFmZmFpcnMvT1NNQS1QdWJsaWNhdGlvbnMRT1NNQSBQdWJsaWNhdGlvbnNkAsIBD2QWAmYPZBYCZg8VAgUvQ2FyZRpQYXRpZW50IENhcmUgYW5kIFJlc291cmNlc2QCxQEPZBYCZg9kFgJmDxUCC3JlZ3VsYXJPU01BCVJlc291cmNlc2QCxwEPZBYCZg9kFgJmDxUCCC9iZXNtYXJ0B0JlU21hcnRkAskBD2QWAmYPZBYCZg8VAi0vUmVzb3VyY2VzL0JlU21hcnQvRG93bmxvYWQtQmVTbWFydC1SZXNvdXJjZXMaRG93bmxvYWQgQmVTbWFydCBNYXRlcmlhbHNkAssBD2QWAmYPZBYCZg8VAjIvUmVzb3VyY2VzL0JlU21hcnQvT3JkZXItUHJpbnRlZC1CZVNtYXJ0LU1hdGVyaWFscx9PcmRlciBQcmludGVkIEJlU21hcnQgTWF0ZXJpYWxzZALNAQ9kFgJmD2QWAmYPFQIqL1Jlc291cmNlcy9CZVNtYXJ0L09ubGluZS1SZXNvdXJjZS1MaWJyYXJ5IFZpZXcgTGlicmFyeSBvZiBPbmxpbmUgUmVzb3VyY2VzZALQAQ9kFgJmD2QWAmYPFQIIL1NtYXJ0UngIU21hcnQgUnhkAtIBD2QWAmYPZBYCZg8VAhkvUmVzb3VyY2VzL0NsYXNzaWZpZWQtQWRzDkNsYXNzaWZpZWQgQWRzZALUAQ9kFgJmD2QWAmYPFQIlL1Jlc291cmNlcy9MZWdhbC1TdGFuZGFyZHMtR3VpZGVsaW5lcx5MZWdhbCBTdGFuZGFyZHMgYW5kIEd1aWRlbGluZXNkAtYBD2QWAmYPZBYCZg8VAjEvUmVzb3VyY2VzL01lZGljYWwtQm9hcmQtTGljZW5zaW5nLWFuZC1EaXNjaXBsaW5lJk1lZGljYWwgQm9hcmQgTGljZW5zaW5nIGFuZCBEaXNjaXBsaW5lZALYAQ9kFgJmD2QWAmYPFQIpL1Jlc291cmNlcy9PaGlvLVBoeXNpY2lhbnMtSGVhbHRoLVByb2dyYW0eT2hpbyBQaHlzaWNpYW5zIEhlYWx0aCBQcm9ncmFtZALaAQ9kFgJmD2QWAmYPFQILL2ludGVybnNoaXAQT1NNQSBJbnRlcm5zaGlwc2QC3AEPZBYCZg9kFgJmDxUCNi9SZXNvdXJjZXMvT1NNQS1JbnRlcm5zaGlwcy9NZWRpY2FsLVN0dWRlbnQtRmVsbG93c2hpcBpNZWRpY2FsIFN0dWRlbnQgRmVsbG93c2hpcGQC3gEPZBYCZg9kFgJmDxUCXS9SZXNvdXJjZXMvT1NNQS1JbnRlcm5zaGlwcy9NZWRpY2FsLVN0dWRlbnQtRmVsbG93c2hpcC9NZWRpY2FsLVN0dWRlbnQtRmVsbG93c2hpcC1BcHBsaWNhdGlvbiZNZWRpY2FsIFN0dWRlbnQgRmVsbG93c2hpcCBBcHBsaWNhdGlvbmQC4gEPZBYCZg9kFgJmDxUCDi9QYXltZW50UmVmb3JtKFBheW1lbnQgUmVmb3JtICYgUHJhY3RpY2UgVHJhbnNmb3JtYXRpb25kAuQBD2QWAmYPZBYCZg8VAg8vTWVkaWNhcmVSZWZvcm0PTWVkaWNhcmUgUmVmb3JtZALmAQ9kFgJmD2QWAmYPFQIuL1Jlc291cmNlcy9QYXltZW50LVJlZm9ybS9TdGF0ZS1QYXltZW50LVJlZm9ybRRTdGF0ZSBQYXltZW50IFJlZm9ybWQC6QEPZBYCZg9kFgJmDxUCGy9SZXNvdXJjZXMvUGh5c2ljaWFuLVNlYXJjaBBQaHlzaWNpYW4gU2VhcmNoZALrAQ9kFgJmD2QWAmYPFQIiL1Jlc291cmNlcy9QcmVzY3JpcHRpb24tRHJ1Zy1BYnVzZRdQcmVzY3JpcHRpb24gRHJ1ZyBBYnVzZWQC7QEPZBYCZg9kFgJmDxUCGC9SZXNvdXJjZXMvUHVibGljLUhlYWx0aA1QdWJsaWMgSGVhbHRoZALvAQ9kFgJmD2QWAmYPFQItL1Jlc291cmNlcy9SZWltYnVyc2VtZW50LWFuZC1QYXllci1Bc3Npc3RhbmNlIlJlaW1idXJzZW1lbnQgYW5kIFBheWVyIEFzc2lzdGFuY2VkAgcPZBYCZg9kFgICAg9kFgJmDw8WBB8CBQ9QYWdlUGxhY2Vob2xkZXIfAwICZBYCZg9kFgQCAQ9kFgICBA9kFgICAg8PFjAfBQUkY3VzdG9tLk9TTUFJbWFnZVNsaWRlLkhvbWVwYWdlU2xpZGVyHwYLKwQAHwdlHwhlHwloHwoCBB8LZx8MZR8NZR8OZR8PZR8QBQ1ObyBkYXRhIGZvdW5kHxFlHxJoHxNoHxQCBB8VZx8WZR8XZx8YZR8ZZR8aZR8bZR8caGQWCmYPDxYOHx0CCh8eBQRQYWdlHx8LKwUAHyACCh8haB8iaB8jaGRkAgEPZBYCZg9kFgJmDxUGV34vT1NNQS9tZWRpYS9PU01BLU1lZGlhL3NsaWRlciUyMGltYWdlcy9Bbm5NdGdTeW1wXzEuanBnP3dpZHRoPTEyMDAmaGVpZ2h0PTY2NiZleHQ9LmpwZxhFZHVjYXRpb24gU3ltcG9zaXVtIDIwMTdQPHNwYW4gc3R5bGU9ImNvbG9yOiMwMDAwMDA7Ij5SZWdpc3RlciBmb3IgMjAxNyYjMzk7cyBFZHVjYXRpb24gU3ltcG9zaXVtITwvc3Bhbj6VAkNNRSBjcmVkaXRzIGF2YWlsYWJsZSEgTWFyY2ggMTd0aCB3aWxsIGJlIGEmbmJzcDttb3RpdmF0aW5nLCBpbmZvcm1hdGlvbi1wYWNrZWQgZGF5IGZvciBtYW5hZ2VycywgYWRtaW5pc3RyYXRvcnMsIGFuZCBwaHlzaWNpYW5zLg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj5wLnAxIHttYXJnaW46IDAuMHB4IDAuMHB4IDAuMHB4IDAuMHB4OyB0ZXh0LWFsaWduOiBqdXN0aWZ5OyBmb250OiAxMC4wcHggQ2FsaWJyaX0NCnNwYW4uczEge2ZvbnQta2VybmluZzogbm9uZX0NCjwvc3R5bGU+DQodaHR0cDovL3d3dy5vc21hLm9yZy9zeW1wb3NpdW0VTGVhcm4gTW9yZSAmIFJlZ2lzdGVyZAICD2QWAmYPZBYCZg8VBld+L09TTUEvbWVkaWEvT1NNQS1NZWRpYS9zbGlkZXIlMjBpbWFnZXMvQmVTbWFydF8yMDE2LmpwZz93aWR0aD0xMjAwJmhlaWdodD02NjYmZXh0PS5qcGcHQmVTbWFydFY8c3BhbiBzdHlsZT0iY29sb3I6IzAwMDAwMDsiPkhlbHAgU3RvcCBQcmVzY3JpcHRpb24gRHJ1ZyBNaXN1c2UgJmFtcDsgQWRkaWN0aW9uPC9zcGFuPrMBPHA+PHN0cm9uZz5Zb3VyIFRyZWF0bWVudC4gWW91ciBSZXNwb25zaWJpbGl0eS48L3N0cm9uZz4gUmVzb3VyY2VzIGFyZSBhdmFpbGFibGUgdG8gYXNzaXN0IHdpdGggcHJvcGVybHkgYW5kIGxlZ2FsbHkgcHJlc2NyaWJpbmcgb3Bpb2lkcyBmb3IgYXBwcm9wcmlhdGUsIGNsaW5pY2FsIHRyZWF0bWVudC48L3A+DQocaHR0cHM6Ly93d3cub3NtYS5vcmcvQmVTbWFydApMZWFybiBNb3JlZAIDD2QWAmYPZBYCZg8VBmV+L2dldGF0dGFjaG1lbnQvSG9tZS9TbGlkZXIvUkZTLU1TUy1Bbm51YWwtTWVldGluZy0oMSkvQW5uTXRnXzIwMTcuanBnP3dpZHRoPTEyMDAmaGVpZ2h0PTY2NiZleHQ9LmpwZxMyMDE3IEFubnVhbCBNZWV0aW5nSjxzcGFuIHN0eWxlPSJjb2xvcjojMDAwMDAwOyI+UmVnaXN0ZXIgZm9yIDIwMTcmIzM5O3MgQW5udWFsIE1lZXRpbmc8L3NwYW4+W0FjdGl2ZWx5IHBhcnRpY2lwYXRlIGluIHBvbGljeSBkaXNjdXNzaW9ucywgcmVzb2x1dGlvbnMgYW5kIGdyZWF0IG5ldHdvcmtpbmcgb3Bwb3J0dW5pdGllcy4OL0FubnVhbE1lZXRpbmcPUmVnaXN0ZXIgVG9kYXkhZAIED2QWAmYPZBYCZg8VBml+L2dldGF0dGFjaG1lbnQvYjczZTQ3NzgtZTBiOC00YWQ4LWFkZjYtZDI0NjhjZjNjZjlhL0Fubk10Z1JGU01TU18yMDE3LmpwZz93aWR0aD0xMjAwJmhlaWdodD02NjYmZXh0PS5qcGcWUkZTL01TUyBBbm51YWwgTWVldGluZ1s8c3BhbiBzdHlsZT0iY29sb3I6IzAwMDAwMDsiPlJGUy9NU1MgQW5udWFsIE1lZXRpbmc6IEFkdmFuY2luZyB0aGUgVm9pY2Ugb2YgTWVkaWNpbmU8L3NwYW4+V0Rpc2N1c3MgcG9saWN5LCBuZXR3b3JrICZhbXA7IHZvdGUgb24gRmVicnVhcnkgMTh0aCBhdCB0aGUgQ29sdW1idXMgTWFycmlvdHQgTm9ydGh3ZXN0IRAvUkZTTVNTQW5udWFsTXRnD1JlZ2lzdGVyIFRvZGF5IWQCAw9kFgJmD2QWAmYPZBYCAgMPZBYCZg9kFgJmD2QWAgIBDw8WCB4KU2Nyb2xsQmFycwsqJFN5c3RlbS5XZWIuVUkuV2ViQ29udHJvbHMuU2Nyb2xsQmFycwQfAgUIaG9tZVRhYnMeEkxhc3RBY3RpdmVUYWJJbmRleGYfAwICZBYCZg9kFgJmD2QWAmYPZBYCZg9kFgJmD2QWAmYPZBYCAgIPDxYwHwUFFUNNUy5OZXdzLk9TTUFIb21lTmV3cx8GCysEAB8HZR8IZR8JaB8KAgMfC2cfDGUfDWUfDmUfD2UfEAUNTm8gZGF0YSBmb3VuZB8RZR8SaB8TaB8UAgMfFWcfFmUfF2cfGGUfGWUfGmUfG2UfHGhkFghmDw8WGB8dAgMfHgUEUGFnZR4KSXRlbXNDb3VudAIDHyFnHgxXYXNHZW5lcmF0ZWRnHgtDdXJyZW50UGFnZQIBHghGYWtlTW9kZWcfIAIDHhREYXRhU291cmNlSXRlbXNDb3VudALQAx4JUGFnZUNvdW50ApsBHyJnHx8LKwUAZGQCAQ9kFgJmD2QWAmYPFQMQRmVicnVhcnkgOCwgMjAxN0gvUHVibGljLUFmZmFpcnMvTmV3cy9Hb3Zlcm5vcuKAmXMtQnVkZ2V0LVByb3Bvc2FsLVNlZWtzLXRvLUtlZXAtTWVkaWNhaWQ9R292ZXJub3LigJlzIEJ1ZGdldCBQcm9wb3NhbCBTZWVrcyB0byBLZWVwIE1lZGljYWlkIEV4cGFuc2lvbmQCAg9kFgJmD2QWAmYPFQMQRmVicnVhcnkgNywgMjAxNzovUHVibGljLUFmZmFpcnMvTmV3cy9VcGRhdGVzLW9uLXRoZS1PaGlvLUNvbXBvdW5kaW5nLVJ1bGVzJVVwZGF0ZXMgb24gdGhlIE9oaW8gQ29tcG91bmRpbmcgUnVsZXNkAgMPZBYCZg9kFgJmDxUDEEZlYnJ1YXJ5IDcsIDIwMTdGL1B1YmxpYy1BZmZhaXJzL05ld3Mv4oCLRlJFRS1Db21wbGlhbmNlLC1TaW1wbGlmaWVkLVdlYmluYXIsLU9uLURlbWFuZDHigItGUkVFIENvbXBsaWFuY2UsIFNpbXBsaWZpZWQgV2ViaW5hciwgT24tRGVtYW5kZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQVScCRsdCRjdGwwMyRwYWdlcGxhY2Vob2xkZXIkcCRsdCRjdGwwMSRDb2x1bW5MYXlvdXQkQ29sdW1uTGF5b3V0X3IxJFRhYnNMYXlvdXQkdGFicwVScCRsdCRjdGwwMyRwYWdlcGxhY2Vob2xkZXIkcCRsdCRjdGwwMSRDb2x1bW5MYXlvdXQkQ29sdW1uTGF5b3V0X3IxJFRhYnNMYXlvdXQkdGFicw8PZGZkph67b5T9RFvtYJkao6eejmND8CU=" />
+</div>
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script src="/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSScripts%2fWebServiceCall.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=WL51_XgEKPTELXpa-6BP3iQHWmbHBTREWEVfcRUrOrz3U2-74ZGI_-_Wnofg3dpSFSR_nqQ8dP-zRiVYNRfvHVnqAHlOv5fFlI8qET2XvIkj8-SB0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=oxuzCbxye_Ue9jxONXmLQQOddG9OSefYocgxnyhczzQF9NyqZY4Ft6q0uY4jOZURbABeJRCmu_a-IV46DEufLvdEugqUkJMbjaV-XFm1itGPZNQQ958a3qCQo4SCqEVitHses62mgab2cVuPKlq9va5Oga41&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Services._AuthenticationService.DefaultWebServicePath = 'Authentication_JSON_AppService.axd';
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=ng2c9H3uoRQ57pUJ4touv8oi4ReUKy7eeKRXSG8MUN-jmED8BWKVheOVytll_kNhYfCvnIZb8HTiaBKqjCpDUYDYOp2h-ifXSsasGvx0jODdcmUNmUHPA1JY9L8wwtQU865fk4PjdBLjiWutE0H3nl3n0NpU8JcUGlvNYf_kDpZwCxsbFoRMZ9EzLvRwFfLxN4R70ubfwRWEKIpAo98tV2VlfDqFhNbfT5jidFIeQe0Fa4Qt8GRTLlfROb3zXhb5wcOkCfD66h7ur7iOc9LZ3l8AyilKhzTQVODLm8kPkoZOr5CoubwRtlJOapmgvdRYEoOt2n4T5X44RVkDwuBInZnGyQ6IeXE63P6yVN4bs9Xwk_tWI_N_PTpsXkW5xfeyhqRAagx7wzdXn0LH6hu1ycTaRIeblpkr8An1jUsM49oWzVOAmdZvuNN06J6un5ZjClKZUv4dA3jsIQigdsPiC1RGymsdz9EoSVovxajC78kbgt5j9X6hp8Wm2RC2RDxQBcd1m769q3FHNYKX57nESufa9Dk1" type="text/javascript"></script>
+<script src="/CMSPages/PortalTemplate.aspx?_TSM_HiddenField_=manScript_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.60919.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3aee051b62-9cd6-49a5-87bb-93c07bc43d63%3a475a4ef5%3aeffe2a26%3a8e94f951%3a1d3ed089%3a7e63a579" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+</div>
+    
+    <div id="ctxM">
+
+</div>
+    
+<a href="#mainOSMAcontent" class="skipLink">Skip to main content</a>
+
+<div class="container-fluid">
+  <div class="masterElements">
+    <div class="backtoTop"><ul>
+	<li>
+		<a class="upBox topBox" href="#top"><span class="glyphicon glyphicon-arrow-up">&nbsp;</span><span class="topText">Top</span></a></li>
+	<li>
+		<a class="homeBox topBox" href="/"><span class="glyphicon glyphicon-home">&nbsp;</span><span class="topText">Home</span></a></li>
+	<li>
+		<a class="searchTopBox topBox"><span class="glyphicon glyphicon-search">&nbsp;</span><span class="topText">Search</span></a></li>
+	<li>
+		<a class="socialBox topBox"><span class="glyphicon glyphicon-star">&nbsp;</span><span class="topText">Social</span></a></li>
+	<li>
+		<a class="contactBox topBox" href="/About/Contact-the-OSMA"><span class="glyphicon glyphicon-envelope">&nbsp;</span><span class="topText">Contact</span></a></li>
+	<li>
+		<a class="joinBox topBox" href="/My-OSMA/Renew"><span class="glyphicon glyphicon-user">&nbsp;</span><span class="topText">Join/Renew</span></a></li>
+</ul>
+</div><div class="logOutIn"><ul>
+	<li>
+		<a class="memloginBox topBox" href="/login"><span class="glyphicon glyphicon-unlock">&nbsp;</span> <span class="topText">Member Log In</span></a></li>
+</ul>
+</div><div class="osmaSearchDiv">
+<div class="closeBtn">
+ <span class="glyphicon glyphicon-remove-circle">&nbsp;</span>
+</div><div id="p_lt_ctl00_SearchBox_pnlSearch" class="searchBox">
+	
+    <label for="p_lt_ctl00_SearchBox_txtWord" id="p_lt_ctl00_SearchBox_lblSearch" class="searchLabel" style="display:none;">Search for:</label>
+    <input type="hidden" name="p$lt$ctl00$SearchBox$txtWord_exWatermark_ClientState" id="p_lt_ctl00_SearchBox_txtWord_exWatermark_ClientState" /><input name="p$lt$ctl00$SearchBox$txtWord" type="text" maxlength="1000" id="p_lt_ctl00_SearchBox_txtWord" class="searchTextBox form-control" />
+    <input type="submit" name="p$lt$ctl00$SearchBox$btnSearch" value="Go" id="p_lt_ctl00_SearchBox_btnSearch" class="osmaGoBtn btn btn-default" />
+    
+    <div id="p_lt_ctl00_SearchBox_pnlPredictiveResultsHolder" class="predictiveSearchHolder">
+
+	</div>
+
+</div>
+</div><div class="socialMediaDiv">
+<div class="closeBtnSocial">
+ <span class="glyphicon glyphicon-remove-circle">&nbsp;</span>
+</div><ul>
+	<li><a href="https://www.facebook.com/OhioMedicine" target="_blank"><img alt="Facebook" src="/OSMA/media/OSMA-Media/social/osma_facebook.png" /></a></li>
+	<li><a href="https://twitter.com/ohiomedicine" target="_blank"><img alt="Twitter" src="/OSMA/media/OSMA-Media/social/osma_twitter.png" /></a></li>
+	<li><a href="https://www.linkedin.com/company/ohio-state-medical-association?trk=nmp_rec_act_company_name" target="_blank"><img alt="LinkedIn" src="/OSMA/media/OSMA-Media/social/osma_linkedin.png" /></a></li>
+	<li><a href="https://www.youtube.com/user/OSMAComm" target="_blank"><img alt="YouTube" src="/OSMA/media/OSMA-Media/social/osma_youtube.png" /></a></li>
+</ul>
+
+
+
+
+<div class="twitterFeedTopOSMA">
+<span class="twitterBird">
+	<a href="http://twitter.com/ohiomedicine">@OhioMedicine</a></span>
+<div id="tweet">
+	Tweet</div>
+</div>
+</div>
+  </div>
+</div>
+<div class="container-fluid headerBgC">
+  <div class="row osmaTopContent">
+        
+  </div>
+
+  <div class="container">
+    <div class="row osmaHeader">
+          <div class="col-md-3">
+<a href="/"><img id="p_lt_ctl02_EditableImage_ucEditableImage_imgImage" title="Ohio State Medical Association" class="osmaLogo" src="/OSMA/media/OSMA-Main/osma_logo.png" alt="Ohio State Medical Association" />
+
+</a>
+</div><div class="col-md-9">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav">
+    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id='regularOSMA'>About<b class="caret"></b></a>
+
+<ul class="dropdown-menu" role="menu"><li><a href="/About/About-the-OSMA">About the OSMA</a></li>
+<span></span> <li><a href="/About/Affiliated-Groups-and-Committees">Affiliated Groups and Committees</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/About/Affiliated-Groups-and-Committees/Ohio-Delegation-to-the-AMA">Ohio Delegation to the AMA</a></li>
+<span></span> <li><a href="/About/Affiliated-Groups-and-Committees/County-Medical-Societies">County Medical Societies</a></li>
+<span></span> <li><a href="/About/Affiliated-Groups-and-Committees/OSMA-Alliance">OSMA Alliance</a></li>
+<span></span> <li><a href="/About/Affiliated-Groups-and-Committees/Joint-Advisory-Committee-on-Sports-Medicine">Joint Advisory Committee on Sports Medicine</a></li>
+</ul><span></span> <li><a href="/annualmeeting">Annual Meeting 2017</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/elections">Candidate Information 2017</a></li>
+<span></span> <li><a href="/districtmeetings">District Meetings</a></li>
+<span></span> <li><a href="/RFSMSSAnnualMtg">RFS/MSS Annual Meeting 2017</a></li>
+<span></span> <li><a href="/About/Annual-Meeting/Annual-Meeting-Archives">Annual Meeting Archives</a></li>
+</ul><span></span> <li><a href="/About/Governance">Governance</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/About/Governance/Council-(1)">Council</a></li>
+</ul><span></span> <li><a href="/About/History-of-the-OSMA">History of the OSMA</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/About/History-of-the-OSMA/Distinguished-Service-Award">Distinguished Service Citation</a></li>
+<span></span> <li><a href="/About/History-of-the-OSMA/Past-Presidents">Past Presidents</a></li>
+</ul><span></span> <li><a href="/About/OSMA-Staff-(1)">OSMA Staff</a></li>
+</ul></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id='regularOSMA'>Membership<b class="caret"></b></a>
+
+<ul class="dropdown-menu" role="menu"><li><a href="/dues">Join/Renew</a></li>
+<span></span> <li><a href="/My-OSMA/Member-Benefits">Member Benefits</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/partners">Preferred Partner Program</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Healthicity">Compliance Solution</a></li>
+<span></span> <li><a href="/credentialskeepers">Credentialing Services</a></li>
+<span></span> <li><a href="/provista">Group Purchasing Program</a></li>
+<span></span> <li><a href="/easyit">Information Technology</a></li>
+<span></span> <li><a href="/osmaia">Insurance Products</a></li>
+<span></span> <li><a href="/Medopps">Job Opportunities</a></li>
+<span></span> <li><a href="/tdc">Medical Liability Insurance</a></li>
+<span></span> <li><a href="/SketchyMedical">Med School Test Prep</a></li>
+<span></span> <li><a href="/accumedical">Medical Waste Disposal</a></li>
+<span></span> <li><a href="/patientsatisfaction">Patient Satisfaction</a></li>
+<span></span> <li><a href="/pqrswizard">Physician Quality Reporting</a></li>
+<span></span> <li><a href="/credible">Student Loan Refinancing</a></li>
+<span></span> <li><a href="/CIPA">Value-based Contracts</a></li>
+<span></span> <li><a href="/compmanagement">Workers' Comp Group Rating</a></li>
+</ul></ul><span></span> <li><a href="/membership">Membership Levels</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/My-OSMA/OSMA-Membership/Physicians">Physicians</a></li>
+<span></span> <li><a href="/rfs">Residents & Fellows</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/My-OSMA/OSMA-Membership/Medical-Students,-Residents-and-Fellows-(1)/RFS-Executive-Council">RFS Executive Council</a></li>
+</ul><span></span> <li><a href="/mss">Medical Students</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/My-OSMA/OSMA-Membership/Medical-Students,-Residents-and-Fellows/Medical-Student-Application">Medical Student Membership Application</a></li>
+<span></span> <li><a href="/My-OSMA/OSMA-Membership/Medical-Students,-Residents-and-Fellows/RFS-Executive-Council">MSS Officers</a></li>
+</ul><span></span> <li><a href="/My-OSMA/OSMA-Membership/Associate-Membership">Associate Membership</a></li>
+<span></span> <li><a href="/mss-1">Retired Membership</a></li>
+<span></span> <li><a href="/My-OSMA/OSMA-Membership/Affiliate-Partnership-Program">Affiliate Partnership Program</a></li>
+<span></span> <li><a href="/My-OSMA/OSMA-Membership/Organized-Medical-Staff-Section">Organized Medical Staff Section</a></li>
+</ul><span></span> <li><a href="/My-OSMA/My-Profile">My Profile</a></li>
+<span></span> <li><a href="/My-OSMA/OSMA-Community">OSMA Community</a></li>
+</ul></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id='regularOSMA'>Advocacy<b class="caret"></b></a>
+
+<ul class="dropdown-menu" role="menu"><li><a href="/2016wins">2016 Advocacy Wins</a></li>
+<span></span> <li><a href="/advocacy">Legislative Advocacy</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Advocacy/Advocacy-Efforts/Advocacy-Action-Center">Advocacy Action Center</a></li>
+<span></span> <li><a href="/Advocacy/Advocacy-Efforts/Advocacy-Awards">Advocacy Awards</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Advocacy/Advocacy-Efforts/Advocacy-Awards/Voice-of-Medicine-Award">Voice of Medicine Award</a></li>
+<span></span> <li><a href="/physicianadvocateaward">Physician Advocate of the Year</a></li>
+<span></span> <li><a href="/Advocacy/Advocacy-Efforts/Advocacy-Awards/OSMAPAC-Donor-of-the-Year">OSMAPAC Donor of the Year</a></li>
+</ul><span></span> <li><a href="/tortreform">Medical Liability & Tort Reform</a></li>
+<span></span> <li><a href="/TeamsWork">Scope of Practice - Teams Work!</a></li>
+</ul><span></span> <li><a href="/Advocacy/Legal-Advocacy">Legal Advocacy</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Advocacy/Legal-Advocacy/Medical-Liability-and-Tort-Reform-(1)">Past Tort Reforms</a></li>
+</ul><span></span> <li><a href="/Advocacy/OSMAPAC">OSMAPAC</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Advocacy/OSMAPAC/Contributions">Donate</a></li>
+</ul><span></span> <li><a href="/RA">Regulatory Affairs</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/marijuana">Marijuana Policy</a></li>
+<span></span> <li><a href="/Advocacy/Regulatory-Affairs/SB-129-Prior-Authorization-Reform-Act">Prior Authorization Reform Act </a></li>
+</ul></ul></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id='regularOSMA'>Education<b class="caret"></b></a>
+
+<ul class="dropdown-menu" role="menu"><li><a href="/education">About OSMA Education</a></li>
+<span></span> <li><a href="/symposium">Annual Education Symposium</a></li>
+<span></span> <li><a href="/EdEvents">Full Event Calendar</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/CMEProvider">CME Provider Symposium</a></li>
+<span></span> <li><a href="/coding">Coding & Documentation Updates</a></li>
+<span></span> <li><a href="/entcoding">ENT Coding & Documentation Update</a></li>
+<span></span> <li><a href="/HouseCalls">House Call Webinars</a></li>
+<span></span> <li><a href="/mm">Medicare & Medicaid Update</a></li>
+<span></span> <li><a href="/PayerUpdate">Payer Update 2016</a></li>
+</ul><span></span> <li><a href="/ondemand">On Demand Content</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/housecallmaterials">House Call Materials</a></li>
+</ul><span></span> <li><a href="/Education/Joint-Sponsorships">CME Event Partnership</a></li>
+<span></span> <li><a href="/Education/CME-Accreditation">CME Program Accreditation</a></li>
+<span></span> <li><a href="/Education/Current-Courses">Register Now</a></li>
+</ul></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id='regularOSMA'>Public Affairs<b class="caret"></b></a>
+
+<ul class="dropdown-menu" role="menu"><li><a href="/Public-Affairs/Advertising-Opportunities">Advertising Opportunities</a></li>
+<span></span> <li><a href="/Public-Affairs/Media-Relations">Media Relations</a></li>
+<span></span> <li><a href="/news">News Archive</a></li>
+<span></span> <li><a href="/Public-Affairs/OSMA-Publications">OSMA Publications</a></li>
+<span></span> <li><a href="/Care">Patient Care and Resources</a></li>
+</ul></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id='regularOSMA'>Resources<b class="caret"></b></a>
+
+<ul class="dropdown-menu" role="menu"><li><a href="/besmart">BeSmart</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Resources/BeSmart/Download-BeSmart-Resources">Download BeSmart Materials</a></li>
+<span></span> <li><a href="/Resources/BeSmart/Order-Printed-BeSmart-Materials">Order Printed BeSmart Materials</a></li>
+<span></span> <li><a href="/Resources/BeSmart/Online-Resource-Library">View Library of Online Resources</a></li>
+</ul><span></span> <li><a href="/SmartRx">Smart Rx</a></li>
+<span></span> <li><a href="/Resources/Classified-Ads">Classified Ads</a></li>
+<span></span> <li><a href="/Resources/Legal-Standards-Guidelines">Legal Standards and Guidelines</a></li>
+<span></span> <li><a href="/Resources/Medical-Board-Licensing-and-Discipline">Medical Board Licensing and Discipline</a></li>
+<span></span> <li><a href="/Resources/Ohio-Physicians-Health-Program">Ohio Physicians Health Program</a></li>
+<span></span> <li><a href="/internship">OSMA Internships</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Resources/OSMA-Internships/Medical-Student-Fellowship">Medical Student Fellowship</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/Resources/OSMA-Internships/Medical-Student-Fellowship/Medical-Student-Fellowship-Application">Medical Student Fellowship Application</a></li>
+</ul></ul><span></span> <li><a href="/PaymentReform">Payment Reform & Practice Transformation</a></li>
+<ul class="dropdown-menu" role="menu"><li><a href="/MedicareReform">Medicare Reform</a></li>
+<span></span> <li><a href="/Resources/Payment-Reform/State-Payment-Reform">State Payment Reform</a></li>
+</ul><span></span> <li><a href="/Resources/Physician-Search">Physician Search</a></li>
+<span></span> <li><a href="/Resources/Prescription-Drug-Abuse">Prescription Drug Abuse</a></li>
+<span></span> <li><a href="/Resources/Public-Health">Public Health</a></li>
+<span></span> <li><a href="/Resources/Reimbursement-and-Payer-Assistance">Reimbursement and Payer Assistance</a></li>
+</ul>    </li>
+  </ul>
+</div>
+</div>
+</div>
+</nav>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row osmaContent" id="mainOSMAcontent">
+        
+
+<div class="container-fluid">
+  <div class="row imageSlider">
+    <div id="full-width-slider" class="royalSlider heroSlider rsMinW rsDefault">	
+<div class="rsContent">
+  <img class="rsImg" src="/OSMA/media/OSMA-Media/slider%20images/AnnMtgSymp_1.jpg?width=1200&height=666&ext=.jpg" alt="Education Symposium 2017"/>
+  <div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+    <h2 class="sliderHeader"><span style="color:#000000;">Register for 2017&#39;s Education Symposium!</span></h2>
+      <div class="sliderText">
+        CME credits available! March 17th will be a&nbsp;motivating, information-packed day for managers, administrators, and physicians.
+<style type="text/css">p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; font: 10.0px Calibri}
+span.s1 {font-kerning: none}
+</style>
+
+      </div>
+      <div class="sliderLinkAction">
+        <a href="http://www.osma.org/symposium">Learn More & Register >></a>
+      </div>
+  </div>
+</div>
+
+<div class="rsContent">
+  <img class="rsImg" src="/OSMA/media/OSMA-Media/slider%20images/BeSmart_2016.jpg?width=1200&height=666&ext=.jpg" alt="BeSmart"/>
+  <div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+    <h2 class="sliderHeader"><span style="color:#000000;">Help Stop Prescription Drug Misuse &amp; Addiction</span></h2>
+      <div class="sliderText">
+        <p><strong>Your Treatment. Your Responsibility.</strong> Resources are available to assist with properly and legally prescribing opioids for appropriate, clinical treatment.</p>
+
+      </div>
+      <div class="sliderLinkAction">
+        <a href="https://www.osma.org/BeSmart">Learn More >></a>
+      </div>
+  </div>
+</div>
+
+<div class="rsContent">
+  <img class="rsImg" src="/getattachment/Home/Slider/RFS-MSS-Annual-Meeting-(1)/AnnMtg_2017.jpg?width=1200&height=666&ext=.jpg" alt="2017 Annual Meeting"/>
+  <div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+    <h2 class="sliderHeader"><span style="color:#000000;">Register for 2017&#39;s Annual Meeting</span></h2>
+      <div class="sliderText">
+        Actively participate in policy discussions, resolutions and great networking opportunities.
+      </div>
+      <div class="sliderLinkAction">
+        <a href="/AnnualMeeting">Register Today! >></a>
+      </div>
+  </div>
+</div>
+
+<div class="rsContent">
+  <img class="rsImg" src="/getattachment/b73e4778-e0b8-4ad8-adf6-d2468cf3cf9a/AnnMtgRFSMSS_2017.jpg?width=1200&height=666&ext=.jpg" alt="RFS/MSS Annual Meeting"/>
+  <div class="infoBlock rsABlock infoBlockLeftBlack" data-fade-effect="" data-move-offset="10" data-move-effect="bottom" data-speed="200">
+    <h2 class="sliderHeader"><span style="color:#000000;">RFS/MSS Annual Meeting: Advancing the Voice of Medicine</span></h2>
+      <div class="sliderText">
+        Discuss policy, network &amp; vote on February 18th at the Columbus Marriott Northwest!
+      </div>
+      <div class="sliderLinkAction">
+        <a href="/RFSMSSAnnualMtg">Register Today! >></a>
+      </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row osmaHomeLayout">
+        <div><div style="float: left;width: 32%;" class="col-md-4 home Left"><div class="osmaBlueBox">
+  <h3>Join Today</h3>
+<a href="/My-OSMA/Renew" target="_self">Stay connected, informed, and get the tools you need to practice medicine. &gt;&gt;</a>
+
+
+
+
+</div><div class="osmawhiteBox">
+  <h3>OSMA Community</h3>
+<a href="/Communities/Groups">Connect with other members and discuss topics that matter to you. &gt;&gt;</a>
+
+
+
+
+</div><div class="osmaredBox">
+  <h3>Donate to PAC</h3>
+<a href="/Advocacy/OSMAPAC/Contributions" target="_self">Contribute to OSMAPAC to enhance advocacy efforts. &gt;&gt;</a>
+
+
+
+
+</div></div><div style="float: right;width: 32%;" class="col-md-4 home Right"><div class="osmaBlueBox">
+  <div><div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs" class="homeTabs" style="visibility:hidden;">
+	<div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_header" class="ajax__tab_header">
+		<span id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1" href="#" style="text-decoration:none;"><span>News</span></a></span></span></span><span id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab2_tab"><span class="ajax__tab_outer"><span class="ajax__tab_inner"><a class="ajax__tab_tab" id="__tab_p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab2" href="#" style="text-decoration:none;"><span>Media</span></a></span></span></span>
+	</div><div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_body" class="ajax__tab_body" style="height:100%;display:block;">
+		<div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1" id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			<ul class="newsItems"><div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1_TabsLayout_1_CMSUniView_sys_pnlUpdate">
+				
+<li>
+  <span class="newsDate">February 8, 2017 - </span> <a href="/Public-Affairs/News/Governor’s-Budget-Proposal-Seeks-to-Keep-Medicaid">Governor’s Budget Proposal Seeks to Keep Medicaid Expansion >></a>  
+</li><li>
+  <span class="newsDate">February 7, 2017 - </span> <a href="/Public-Affairs/News/Updates-on-the-Ohio-Compounding-Rules">Updates on the Ohio Compounding Rules >></a>  
+</li><li>
+  <span class="newsDate">February 7, 2017 - </span> <a href="/Public-Affairs/News/​FREE-Compliance,-Simplified-Webinar,-On-Demand">​FREE Compliance, Simplified Webinar, On-Demand >></a>  
+</li><div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1_TabsLayout_1_CMSUniView_plcUp_uniView_uniViewPager">
+					<div class="osmaPager">
+
+&nbsp;
+
+<strong>1</strong>&nbsp;<a href="/?page=2">2</a>&nbsp;<a href="/?page=3">3</a>
+<a href="/?page=4">...</a>&nbsp;
+
+<a href="/?page=155">&gt;|</a>
+
+<div class="osmaArchiveLink"><a href="/Public-Affairs/News-Archive">View archive >> </a></div>
+
+
+</div>
+				</div>
+
+			</div></ul>
+		</div><div id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab2" id="p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab2" class="ajax__tab_panel" style="display:none;visibility:hidden;">
+			
+		</div>
+	</div>
+</div></div>
+</div></div><div class="col-md-4 home Middle" style="overflow: auto;">
+<div class="osmaltblueBox">
+    <h3>Upcoming Events</h3>
+    <div id="currentEvents" data-bind="foreach: events" style="display: none;">
+        <div class="leftcontent">
+            <div class="event-date">
+                <span class="event-month" data-bind="text: month"></span>
+                <br />
+                <span class="event-day" data-bind="text: day"></span>
+            </div>
+        </div>
+        <div class="event-title">
+            <a data-bind="attr: { href: url }">
+                <h4 data-bind="text: title"><span></span></h4>
+            </a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        osma.controls.currentEvents.init("https://webservices2.osma.org/LiveWebServices");
+    });
+</script>
+</div><div style="clear: both;"></div></div>
+  </div>  
+</div>
+
+
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row osmaAds">
+        <div class="ads"><div align="top" style="float:left; margin: 5px"><a href="/ondemand" target="_self"><img alt="OSMA-OnDemand_2016.jpg" src="/getattachment/ondemand-content.jpg" title="OSMA-OnDemand_2016.jpg" /></a></div>
+<!-- Naylor Ad Codes --><!-- 11/3/2016 9:58:49 AM --><!-- #################################################### --><!-- OSU-WEB-CustomRectangle01 --><!-- JavaScript --><!-- #################################################### --><script type="text/javascript">
+	(function(){
+		var a = "OSU-WEB-CustomRectangle01",
+		k = "OSU-WEB-CustomRectangle01", 
+		s = window.location.protocol,
+		sl = "";
+		if (s == "https:"){sl="_ssl"}
+		document.write("<scr"+"ipt src=\""+window.location.protocol+"//www.naylornetwork.com/absolutebm/abm"+sl+".aspx?a="+a+"&k="+k+"\" type=\"text/javascript\"></scr"+"ipt>") 
+	})();
+</script><!-- **************************************************** --><!-- Naylor Ad Codes --><!-- 11/3/2016 10:33:46 AM --><!-- #################################################### --><!-- OSU-WEB-CustomRectangle02 --><!-- JavaScript --><!-- #################################################### --><script type="text/javascript">
+	(function(){
+		var a = "OSU-WEB-CustomRectangle02",
+		k = "OSU-WEB-CustomRectangle02", 
+		s = window.location.protocol,
+		sl = "";
+		if (s == "https:"){sl="_ssl"}
+		document.write("<scr"+"ipt src=\""+window.location.protocol+"//www.naylornetwork.com/absolutebm/abm"+sl+".aspx?a="+a+"&k="+k+"\" type=\"text/javascript\"></scr"+"ipt>") 
+	})();
+</script><!-- **************************************************** --><!-- #################################################### --><!-- OSU-WEB-CustomRectangle03 --><!-- JavaScript --><!-- #################################################### --><script type="text/javascript">
+	(function(){
+		var a = "OSU-WEB-CustomRectangle03",
+		k = "OSU-WEB-CustomRectangle03", 
+		s = window.location.protocol,
+		sl = "";
+		if (s == "https:"){sl="_ssl"}
+		document.write("<scr"+"ipt src=\""+window.location.protocol+"//www.naylornetwork.com/absolutebm/abm"+sl+".aspx?a="+a+"&k="+k+"\" type=\"text/javascript\"></scr"+"ipt>") 
+	})();
+</script><!-- **************************************************** -->
+
+
+
+</div>
+  </div>  
+  <div class="row osmaFooter">
+        <div class="col-md-12 footerLast"><div><div style="float: left;width: 33.333;" class="col-md-4 physician">
+<div id="quickPyhsicianSearch">
+    <h2>Find a Physician >></h2>
+    <input id="searchTerm" type="text" class="form-control" data-bind="value: searchTerm, enterKey: search" placeholder="Type the start of a physician's last name." />
+    <button type="button" class="btn btn-link" data-bind="click: search">GO</button>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        osma.controls.quickPhysicianSearch.init("https://webservices2.osma.org/LiveWebServices", "https://www.osma.org/About/Physician-Search/");
+    });
+</script>
+</div><div style="float: right;width: 33.333;" class="col-md-4 profile">
+
+<div id="myBanner" data-bind="foreach: members" style="display: none;">
+    <a href="/myprofile">
+        <h2 data-bind="text: bannerTitle"></h2>
+    </a>
+    <div data-bind="with: homeAddress">
+        <div>
+            <label for="phone1">Phone:&nbsp;</label><span id="phone1" data-bind="text: phone"></span>
+            <label for="email1">Email:&nbsp;</label><span id="email1" data-bind="text: email"></span>
+        </div>
+        <div>
+            <label for="address1">Address:&nbsp;</label><span id="address1" data-bind="text: fullAddress"></span>
+        </div>
+    </div>
+    <div>
+        <a href="/myprofile">Update Profile</a>&nbsp;|&nbsp;<a href="http://community.osma.org">Communities</a>&nbsp;|&nbsp;<a href="https://www.osma.org/OSMA/LogOut.aspx">Log&nbsp;Out</a>
+    </div>
+</div>
+<div id="aBanner" style="display: none;">
+    <h2>My Profile >></h2>
+    <div><a href="https://www.osma.org/login">Log&nbsp;in&nbsp;</a><span>to&nbsp;view&nbsp;and&nbsp;edit&nbsp;profile&nbsp;information.</span></div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        osma.controls.myBanner.init("https://webservices2.osma.org/LiveWebServices", "");
+    });
+</script>
+</div><div class="col-md-4 tweet" style="overflow: auto;"><div class="twitterFeedOSMA"><h3 class="twitterBird">
+	<a href="http://twitter.com/ohiomedicine">@OhioMedicine</a></h3>
+<div id="tweety">
+	Tweet</div>
+</div><div class="footerAddress"><div style="text-align: center;">5115 Parkcenter Avenue Suite 200, Dublin, OH 43017<br />
+800.766.6762 | <a href="mailto:info@osma.org">info@osma.org</a><br />
+&copy; 2017 The Ohio State Medical Association. All rights reserved.<br />
+<br />
+<a href="/Special-Pages/Sitemap">Site Map</a> &gt;&gt; <a href="/Special-Pages/Privacy-Policy" target="_self">Privacy Policy</a> &gt;&gt; <a href="/Special-Pages/Terms-of-Use" target="_self">Terms of Use</a> &gt;&gt;</div>
+
+
+
+
+</div></div><div style="clear: both;"></div></div></div>
+  </div>
+</div>
+
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+WebServiceCall('https://www.osma.org/CMSPages/WebAnalyticsService.asmx', 'LogHits', '{"parameters":{"pageGUID":"daa8ced7-d96c-4bc1-b496-f63a85bfdeac","pagesiteId":"3","referrer":""}}')
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"p_lt_ctl00_SearchBox_txtWord_exWatermark_ClientState","WatermarkCssClass":"searchTextBox watermarkOSMA","WatermarkText":"Search OSMA","id":"p_lt_ctl00_SearchBox_txtWord_exWatermark"}, null, null, $get("p_lt_ctl00_SearchBox_txtWord"));
+});
+//]]>
+</script>
+
+<script type="text/javascript">
+	//<![CDATA[
+
+Sys.Extended.UI.TabContainer.prototype._app_onload = function (sender, e) {
+    if (this._cachedActiveTabIndex != -1) {
+        this.set_activeTabIndex(this._cachedActiveTabIndex);
+        this._cachedActiveTabIndex = -1;
+
+        var activeTab = this.get_tabs()[this._activeTabIndex];
+        if (activeTab) {
+            activeTab._wasLoaded = true;
+            /*** CMS ***/
+            // Disable focus on active tab
+            //activeTab._setFocus(activeTab);
+            /*** END CMS ***/
+        }
+    }
+    this._loaded = true;
+}
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1"),"ownerID":"p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs","wasLoadedOnce":false}, null, {"owner":"p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs"}, $get("p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabPanel, {"headerTab":$get("__tab_p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab2"),"ownerID":"p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs","wasLoadedOnce":false}, null, {"owner":"p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs"}, $get("p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_tab2"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TabContainer, {"activeTabIndex":0,"clientStateField":$get("p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs_ClientState"),"onDemand":false,"scrollBars":4,"tabStripPlacement":0,"useVerticalStripPlacement":false}, null, null, $get("p_lt_ctl03_pageplaceholder_p_lt_ctl01_ColumnLayout_ColumnLayout_r1_TabsLayout_tabs"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

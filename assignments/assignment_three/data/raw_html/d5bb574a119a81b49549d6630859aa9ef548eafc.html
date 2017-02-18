@@ -1,0 +1,1990 @@
+<!DOCTYPE html>
+<!-- HTML5 Doctype. HTML4 is obsolete. -->
+<html>
+<head>
+    <title>Bahdal: Search and Share</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="description" content="Bahdal is the fastest way to search and share web content, media and many other things online which helps you spend less time searching and more time looking.">
+    <meta name="keywords" content="Bahdal, Bahdal.com, search, share, keywords, keyword phrases, unlimited advertising, best homepage, homepage, make us your homepage, google, yahoo, bing, ask, duckduckgo, discover, connect, web, homepage and advertising for everyone">
+
+    
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="Hey search this!">
+<meta itemprop="description" content="Bahdal is the fastest way to search and share web content, media and many other things online which helps you spend less time searching and more time looking.">
+<meta itemprop="image" content="http://bahdal.com/image/bahdal_small_square.png"> 
+    
+    <!-- for Facebook -->          
+<meta property="og:title" content="Hey search this!" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://bahdal.com/image/bahdal_small_square.png" />
+<meta property="og:image:width" content="154" /> 
+<meta property="og:image:height" content="154" />
+<meta property="og:url" content="Bahdal.com" />
+<meta property="og:description" content="Click here to see what I want to share with you and have searched for using the Bahdal Search and Share option." />
+
+    <!-- for Twitter --> 
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@Bahdal">
+<meta name="twitter:title" content="Hey search this!">
+<meta name="twitter:description" content="Click here to see what I want to share with you and have searched for using the Bahdal Search and Share option.">
+    <meta name="twitter:creator" content="@Bahdal">
+    <meta name="twitter:image:src" content="https://bahdal.com/image/bahdal_small_square.png">
+    <meta name="twitter:domain" content="Bahdal.com">
+    <link rel="shortcut icon" href="https://bahdal.com/image/favicon.ico"/>
+    <link rel="image_src" href="https://bahdal.com/image/bahdal_small_square.png" border="0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link REL="apple-touch-icon" href="/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="css/introLoader.min.css">
+    <script type="text/javascript">
+<!--
+if (screen.width <= 800) {
+window.location = "http://m.domain.com";
+}
+//-->
+</script>
+    <style type="text/css" media="screen">
+        /* <![CDATA[ */
+        div > li > font a { color: #64AAD0; }
+        .xdsoft_autocomplete,
+        .xdsoft_autocomplete div,
+        .xdsoft_autocomplete span {
+            /*	-moz-box-sizing: border-box !important;
+
+                box-sizing: border-box !important;*/
+        }
+        .xdsoft_autocomplete {
+            display: inline;
+            position: absolute;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 4px;
+            text-shadow: none;
+            text-align: left;
+            color: #514E4B;
+        }
+        .xdsoft_autocomplete .xdsoft_input {
+            position: relative;
+            z-index: 2;
+        }
+        .xdsoft_autocomplete .xdsoft_autocomplete_dropdown {
+            position: absolute;
+            border: 1px solid #ccc;
+            border-top-color: #d9d9d9;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            cursor: default;
+            display: none;
+            z-index: 1001;
+            margin-top: -1px;
+            background-color: #fff;
+            min-width: 100%;
+            overflow: auto;
+        }
+        .xdsoft_autocomplete .xdsoft_autocomplete_hint {
+            position: absolute;
+            z-index: 1;
+            color: #ccc !important;
+            -webkit-text-fill-color: #ccc !important;
+            text-fill-color: #ccc !important;
+            overflow: hidden !important;
+            white-space: pre !important;
+        }
+        .xdsoft_autocomplete .xdsoft_autocomplete_hint span {
+            color: transparent;
+            opacity: 0.0;
+        }
+        .xdsoft_autocomplete .xdsoft_autocomplete_dropdown > .xdsoft_autocomplete_copyright {
+            color: #eeeeee;
+            font-size: 10px;
+            text-decoration: none;
+            right: 5px;
+            position: absolute;
+            margin-top: -15px;
+            z-index: 1002;
+        }
+        .xdsoft_autocomplete .xdsoft_autocomplete_dropdown > div {
+            background: #fff;
+            white-space: nowrap;
+            cursor: pointer;
+            line-height: 1.5em;
+            padding: 2px 0px 2px 0px;
+        }
+        .xdsoft_autocomplete .xdsoft_autocomplete_dropdown > div.active {
+            background: #0097CF;
+            color: #FFFFFF;
+        }
+        /* ]]> */
+    </style>
+     <style type="text/css">
+        body {
+            background: #000;
+        }
+        .sweet-alert h2 {
+            margin: 0px auto !important;
+        }
+        .btnz {
+            display: block;
+            float: left;
+            /*padding: 10px 15px;*/
+            border:none;
+            background-color: #ececec;
+            text-decoration: none;
+            font-size: 18px;
+            color: #FFF;
+            width: 33%;
+        }
+        .btnz:hover {
+            color: #efefef;
+        }
+        .facebook {
+            background-color: #3b5998;
+        }
+        .gplus {
+            background-color: #dd4b39;
+        }
+        .twitter {
+            background-color: #55acee;
+        }
+        .clearfix:before {
+            display: table;
+            content: " ";
+        }
+        .clearfix:after {
+            cler:both;
+        }
+        #content {
+            position: relative;
+        }
+        #content img {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        #content2 {
+            position: relative;
+        }
+        #content2 img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        #search_box {
+            width: 708px;
+            height: 167px;
+            background: url(https://www.bahdal.com/image/background_search_layout_black_image.png);
+        }
+        #search_box #s {
+            float: left;
+            padding: 0px;
+            padding-left: 8px;
+            margin: 119px 0 0 108px !important;
+            border: 0;
+            width: 530px;
+            height: 34px;
+            font-size: 20px;
+            color: #000000
+            
+            
+
+           
+           
+        }
+        #search_box #go {
+            float: right;
+            margin: 112px -10px 0 0;
+        }
+        *:focus {
+            outline: none;
+        }
+        #search_box form {
+            position: relative;
+        }
+        #search_box form:after {
+            content: '';
+            display: table;
+            clear: both;
+            overflow: hidden;
+        }
+        #search_box a.man,
+        #search_box a.plus {
+            width: 33px;
+            height: 35px;
+            display: block;
+            position: absolute;
+            bottom: 2px;
+            z-index: 100001;
+        }
+        #search_box a.plus {
+            right: 71px;
+        }
+        #search_box a.man {
+            right: 103px;
+        }
+        #search_box a.plus:hover + .plusText,
+        #search_box a.man:hover + .manText {
+            opacity: 1;
+        }
+        #search_box .manText,
+        #search_box .plusText {
+            opacity: 0;
+            transition: all .2s;
+            position: absolute;
+            background: #444;
+            right: 0;
+            top: 100%;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            width: 150px;
+        }
+        #search_box .manText:after,
+        #search_box .plusText:after {
+            content: '';
+            width: 0;
+            height: 0;
+            display: block;
+            border: 10px solid transparent;
+            border-bottom-color: #444;
+            position: absolute;
+            bottom: 100%;
+            left: 40px;
+        }
+        #search_box .plusText:after {
+            left: 68px;
+        }
+        .sweet-alert form input {
+            display: block;
+        }
+        .sweet-alert .sa-confirm-button-container {
+            display: none !important;
+        }
+        a.button {
+            display: inline-block;
+        }
+        a.button:hover {
+            text-decoration: none;
+        }
+        {
+            line-height: .8em
+        ;
+        }
+ .gac_m td {
+            line-height: 17px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        body, td, a,  .h {
+            font-family: arial, sans-serif;
+            color: #64AAD0
+        }
+        .h {
+            color: #36c;
+            font-size: 20px
+        }
+        .q {
+            color: #00c
+        }
+        .ts td {
+            padding: 0
+        }
+        .ts {
+            border-collapse: collapse
+        }
+        em {
+            font-weight: bold;
+            font-style: normal
+        }
+        #gbar {
+            height: 22px
+        }
+        .gbh, .gbd {
+            border-top: 1px solid #cccccc;
+            font-size: 1px
+        }
+        .gbh {
+            height: 0;
+            position: absolute;
+            top: 24px;
+            width: 100%
+        }
+        #gbi, #gbg, #gbs {
+            background: #fff;
+            left: 0;
+            position: absolute;
+            text-align: left;
+            visibility: hidden;
+            z-index: 1000
+        }
+        #gbi, #gbg {
+            border: 1px solid;
+            border-color: #c9d7f1 #36c #36c #a2bae7;
+            z-index: 1001
+        }
+        #guser {
+            padding-bottom: 7px !important;
+            text-align: right
+        }
+        #gbar, #guser {
+            font-size: 13px;
+            padding-top: 1px !important
+        }
+        @media all {
+            .gb1, .gb3 {
+                height: 22px;
+                margin-right: .5em;
+                vertical-align: top
+            }
+
+            #gbar {
+                float: left
+            }
+        }
+        .gb2 {
+            display: block;
+            padding: .2em .5em
+        }
+        a.gb1, a.gb2, a.gb3 {
+            color: #00c !important
+        }
+        .gb2, .gb3 {
+            text-decoration: none
+        }
+        a.gb2:hover {
+            background: #36c;
+            color: #fff !important
+        }
+        input.xdsoft_autocomplete_hint {
+            opacity: 0 !important;
+        }
+        div[data-animation*="pop"] .sa-confirm-button-container,
+        div[data-animation*="pop"] button.confirm {
+            display: block !important;
+            margin: 0 auto;
+            width: 87px !important;
+        }
+        input.xdsoft_autocomplete_hint {
+            opacity: 0 !important;
+        }
+        div[data-animation*="pop"] .sa-confirm-button-container,
+        div[data-animation*="pop"] button.confirm {
+            display: block !important;
+            margin: 0 auto;
+            width: 87px !important;
+        }
+        .testLoader {
+            position: relative;
+            display: inline-block;
+        }
+        #ajax-contact .btnsWrapper {
+            display: block;
+            max-width: 230px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #ajax-contact button.cancel.button,
+        #ajax-contact .sa-confirm-button-container {
+            display: block !important;
+            float: left;
+        }
+        #ajax-contact button.ok.button {
+            height: 40px !important;
+            width: 87px !important;
+        }
+
+
+/* Theme Switcher */
+
+input#toggle {
+max-height: 0;
+max-width: 0;
+opacity: 0;
+}
+
+input#toggle + label {
+display: block;
+position: relative;
+box-shadow: inset 0 0 0px 1px #d5d5d5;
+text-indent: -5000px;
+height: 30px;
+width: 50px;
+border-radius: 15px;
+cursor: pointer;
+}
+
+input#toggle + label:before {
+content: "";
+position: absolute;
+display: block;
+height: 30px;
+width: 30px;
+top: 0;
+left: 0;
+border-radius: 15px;
+background: rgba(19, 191, 17, 0);
+-moz-transition: .25s ease-in-out;
+-webkit-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+input#toggle + label:after {
+content: "";
+position: absolute;
+display: block;
+height: 30px;
+width: 30px;
+top: 0;
+left: 0px;
+border-radius: 15px;
+background: white;
+box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
+-moz-transition: .25s ease-in-out;
+-webkit-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+input#toggle:checked + label:before {
+width: 50px;
+background: #64aad0;
+}
+
+input#toggle:checked + label:after {
+left: 20px;
+box-shadow: inset 0 0 0 1px #64aad0, 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+body {
+/*background: #fff;*/
+}     
+
+html {
+position: relative;
+min-height: 100%;
+}
+
+#toggle-button {
+position: fixed;
+bottom: 50px;
+left: 30px;
+display: inline-block;
+}
+
+
+    </style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!--
+        No need to load multiple irrelevant jQuery code. jQuery 2.1.3 is already being included above
+        from google api cloud. No need to call from jQuery website. From jQuery , they can be anytime
+        removed.
+        Facefiles jQuery is very very obsolete jQuery. No need to include it either. I could not find use
+        for it. But, if you find any issue, please let me know prior, as i am calling latest jquery on top.
+        if you uncomment old facefile jquery, latest jquery will be over-ruled and 80% of jquery function
+        below will throw error.
+     -->
+    <!--script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="facefiles/jquery-1.2.2.pack.js" type="text/javascript"></script -->
+    <link href="facefiles/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="facefiles/facebox.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        <!--
+        function focus() {
+            document.f.ccode.focus();
+        }
+        // -->
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-33814880-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+        jQuery(document).ready(function ($) {
+            $('a[rel*=facebox]').facebox()
+        });
+        function startSearch(event) {
+            document.getElementById("searchform").submit();
+        }
+    </script>
+
+    <script src="dist/sweetalert-dev.js"></script>
+    <link rel="stylesheet" href="dist/sweetalert.css">
+    
+<script type="text/javascript">
+jQuery(function() {
+    jQuery('#toggle-button').click(function() {
+        location.href = "https://white.bahdal.com/";
+    });
+});
+</script>
+
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+    $("#element").introLoader();
+});
+
+
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="dist_loader/jquery.introLoader.pack.min.js"></script>
+
+
+
+</head>
+
+<body onLoad=focus()>
+
+<div id="element" class="introLoading"></div>
+
+<a id="toggle-button" href="https://white.bahdal.com/" data-page="white">
+  <input type="checkbox" name="toggle" id="toggle">
+  <label for="toggle"></label>
+</a>
+
+
+
+
+
+
+<div id="content">
+    <a href="/information" rel="facebox"><IMG src="/image/happy_cloud_option_button_open.png" border=0></a>
+
+    <div id="content2">
+        <a href="https://channel.bahdal.com" title="Bahdal Channel Code"
+           caption="Enter Channel Code of Your Destination">
+            <img src="/image/bahdal_power_search_button_image.png" border=0>
+        </a>
+
+    </div>
+    <br><br><br><br>
+    <br><br><br><br>
+
+    
+<div align="center">
+        <div id="search_box">
+            <form method="get" action="searchbox_admin/instant.php" name="f">
+                <input name="bntI" type=hidden value=en>
+                <input name="ccode" id="s" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" x-webkit-speech="" x-webkit-grammar="builtin:search"
+                       onwebkitspeechchange="startSearch()"
+                       onkeyup="if (this.value == '') { jQuery('.xdsoft_autocomplete_dropdown').css('display', 'none'); }"
+                / >
+                <input name=btnI type="image" src="https://www.bahdal.com/image/bahdal_search_tool_button.png"
+                       srcover="http://www.bahdal.com/image/bahdal_search_tool_button.png" id="go"></form>
+
+        
+
+       
+   
+               <TABLE>
+                <TR>
+                    <TD width="760">
+                        <!-- START text Bahdal Ad Share Code -->
+                        <p align="center" style="margin-right:760px" class="adshare">
+                            <script type="text/javascript"
+                                    src="https://www.adpeepshosted.com/adpeeps.php?bf=showad&amp;uid=102445&amp;bmode=noweight&amp;gpos=center&amp;bstyle=single&amp;bzone=adshare&amp;bsize=text&amp;btype=3&amp;bpos=default&amp;btotal=1&amp;bpos=default&amp;btotal=1&amp;btarget=_blank&amp;bborder=0&tcolor=64AAD0&textcolor=999999"
+                                    charset="UTF-8">
+                            </script>
+                        </p>
+                        <!-- END text Bahdal Ad Share Code -->                        	 
+
+
+
+
+                    </TD>
+                    
+                    
+ <TD>  
+ 
+<style> 
+    .tooltip img {
+position: static !important;
+margin-bottom: -20px;
+}
+
+
+span.tooltip {
+display: inline-block;
+cursor: pointer;
+position: relative;
+}
+
+span.tooltip:hover span {
+margin: 0 auto;
+bottom: 100%;
+left: 0;
+}
+
+span.tooltip {outline:none; }
+span.tooltip strong {line-height:20px;}
+span.tooltip:hover {text-decoration:none;} 
+span.tooltip span { z-index:10;display:none; padding:8px;margin-top:-70px; margin-left:10px;width:130px;line-height:23px;}
+span.tooltip:hover span{ display:inline; position:absolute; color:#FFF;background:#444;}
+span.tooltip span {border-radius:4px;}
+</style>
+
+ 
+ <script>
+    var imageIconShare = "https://bahdal.com/image/ad_share_icon_network.png";
+    var ShareAdText = 'Ad Share it';
+    eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0 k=4(\'p.1\').2().3(\'a\').q(\'x\');0 8=4(\'p.1\').2().3(\'5:6\').8();0 j=4(\'p.1\').2().3(\'5:6\').b().c;0 d=4(\'p.1\').2().3(\'5:6\').b().e;0 f=d+8+B;0 g=j-9;0 l=4(\'p.1\').2().3(\'5:6\').m();4(\'p.1\').2().3(\'5:6\').n(\'&o;<7 r="s"><t u="v()" w="c: \'+g+\'i;e:\'+f+\'i" y="\'+z+\'" /><7><h>\'+A+\'</h></7></7>\');',38,38,'var|adshare|next|find|jQuery|font|last|span|width|||position|top|xLeft|left|iconLeft|iconTop|strong|px|xTop|urlToShare|adText|text|append|nbsp||attr|class|tooltip|img|onclick|adsharesocial|style|href|src|imageIconShare|ShareAdText|20'.split('|'),0,{}))
+    
+    function adsharesocial() {
+        urlhasValueIs = encodeURIComponent(urlToShare);
+        urlhasValueIs = urlhasValueIs.replace(/%20/g, '%2b');
+        swal({
+            title: "<a target=\"_blank\" class=\"btnz share facebook\" href=\"https://www.facebook.com/sharer/sharer.php?u="+urlhasValueIs+"\"><i class=\"fa fa-facebook\"></i> Share</a><a target=\"_blank\" class=\"btnz share gplus\" href=\"https://plus.google.com/share?url="+urlhasValueIs+"\"><i class=\"fa fa-google-plus\"></i> Share</a><a target=\"_blank\" class=\"btnz share twitter\" href=\"https://twitter.com/intent/tweet?text="+adText+"&url="+urlhasValueIs+"\"><i class=\"fa fa-twitter\"></i> Tweet</a><br><br>",
+            text: "Click a social network button above to share the current ad. <br><br><br> - OR - <br><br><br> To advertise with us simply search the keyword: <a href= https://www.bahdal.com/?qq=advertise>advertise</a> <br><br>",
+            
+            
+            html: true
+        });
+    }
+</script>
+ 
+                    </TD>
+                </TR>
+            </TABLE>
+
+
+        </div>
+
+
+        <script type="text/javascript" language="javascript" charset="utf-8">
+            // <![CDATA[
+            (function ($) {
+                'use strict';
+                var ARROWLEFT = 37,
+                    ARROWRIGHT = 39,
+                    ARROWUP = 38,
+                    ARROWDOWN = 40,
+                    TAB = 9,
+                    CTRLKEY = 17,
+                    SHIFTKEY = 16,
+                    DEL = 46,
+                    ENTER = 13,
+                    ESC = 27,
+                    BACKSPACE = 8,
+                    AKEY = 65,
+                    CKEY = 67,
+                    VKEY = 86,
+                    ZKEY = 90,
+                    YKEY = 89,
+                    defaultSetting = {},
+                //currentInput = true,
+                    ctrlDown = false,
+                    shiftDown = false,
+                    interval_for_visibility,
+                    publics = {},
+                    accent_map = {
+                        '': 'a'
+                    };
+
+                if (window.getComputedStyle === undefined) {
+                    window.getComputedStyle = (function () {
+                        function getPixelSize(element, style, property, fontSize) {
+                            var sizeWithSuffix = style[property],
+                                size = parseFloat(sizeWithSuffix),
+                                suffix = sizeWithSuffix.split(/\d/)[0],
+                                rootSize;
+
+                            fontSize = fontSize !== null ? fontSize : /%|em/.test(suffix) && element.parentElement ? getPixelSize(element.parentElement, element.parentElement.currentStyle, 'fontSize', null) : 16;
+                            rootSize = property === 'fontSize' ? fontSize : /width/i.test(property) ? element.clientWidth : element.clientHeight;
+
+                            return (suffix === 'em') ? size * fontSize : (suffix === 'in') ? size * 96 : (suffix === 'pt') ? size * 96 / 72 : (suffix === '%') ? size / 100 * rootSize : size;
+                        }
+
+                        function setShortStyleProperty(style, property) {
+                            var borderSuffix = property === 'border' ? 'Width' : '',
+                                t = property + 'Top' + borderSuffix,
+                                r = property + 'Right' + borderSuffix,
+                                b = property + 'Bottom' + borderSuffix,
+                                l = property + 'Left' + borderSuffix;
+
+                            style[property] = (style[t] === style[r] === style[b] === style[l] ? [style[t]]
+                                : style[t] === style[b] && style[l] === style[r] ? [style[t], style[r]]
+                                : style[l] === style[r] ? [style[t], style[r], style[b]]
+                                : [style[t], style[r], style[b], style[l]]).join(' ');
+                        }
+
+                        function CSSStyleDeclaration(element) {
+                            var currentStyle = element.currentStyle,
+                                style = this,
+                                property,
+                                fontSize = getPixelSize(element, currentStyle, 'fontSize', null);
+
+                            for (property in currentStyle) {
+                                if (Object.prototype.hasOwnProperty.call(currentStyle, property)) {
+                                    if (/width|height|margin.|padding.|border.+W/.test(property) && style[property] !== 'auto') {
+                                        style[property] = getPixelSize(element, currentStyle, property, fontSize) + 'px';
+                                    } else if (property === 'styleFloat') {
+                                        style.float = currentStyle[property];
+                                    } else {
+                                        style[property] = currentStyle[property];
+                                    }
+                                }
+                            }
+
+                            setShortStyleProperty(style, 'margin');
+                            setShortStyleProperty(style, 'padding');
+                            setShortStyleProperty(style, 'border');
+
+                            style.fontSize = fontSize + 'px';
+
+                            return style;
+                        }
+
+                        CSSStyleDeclaration.prototype = {
+                            constructor: CSSStyleDeclaration,
+                            getPropertyPriority: function () {
+                            },
+                            getPropertyValue: function (prop) {
+                                return this[prop] || '';
+                            },
+                            item: function () {
+                            },
+                            removeProperty: function () {
+                            },
+                            setProperty: function () {
+                            },
+                            getPropertyCSSValue: function () {
+                            }
+                        };
+
+                        function getComputedStyle(element) {
+                            return new CSSStyleDeclaration(element);
+                        }
+
+                        return getComputedStyle;
+                    }(this));
+                }
+                $(document)
+                    .on('keydown.xdsoftctrl', function (e) {
+                        if (e.keyCode === CTRLKEY) {
+                            ctrlDown = true;
+                        }
+                        if (e.keyCode === SHIFTKEY) {
+                            ctrlDown = true;
+                        }
+                    })
+                    .on('keyup.xdsoftctrl', function (e) {
+                        if (e.keyCode === CTRLKEY) {
+                            ctrlDown = false;
+                        }
+                        if (e.keyCode === SHIFTKEY) {
+                            ctrlDown = false;
+                        }
+                    });
+
+                function accentReplace(s) {
+                    if (!s) {
+                        return '';
+                    }
+                    var ret = '', i;
+                    for (i = 0; i < s.length; i += 1) {
+                        ret += accent_map[s.charAt(i)] || s.charAt(i);
+                    }
+                    return ret;
+                }
+
+                function escapeRegExp(str) {
+                    return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+                }
+
+                function getCaretPosition(input) {
+                    if (!input) {
+                        return;
+                    }
+                    if (input.selectionStart) {
+                        return input.selectionStart;
+                    }
+                    if (document.selection) {
+                        input.focus();
+                        var sel = document.selection.createRange(),
+                            selLen = document.selection.createRange().text.length;
+                        sel.moveStart('character', -input.value.length);
+                        return sel.text.length - selLen;
+                    }
+                }
+
+                function setCaretPosition(input, pos) {
+                    if (input.setSelectionRange) {
+                        input.focus();
+                        input.setSelectionRange(pos, pos);
+                    } else if (input.createTextRange) {
+                        var range = input.createTextRange();
+                        range.collapse(true);
+                        range.moveEnd('character', pos);
+                        range.moveStart('character', pos);
+                        range.select();
+                    }
+                }
+
+                function isset(value) {
+                    return value !== undefined;
+                }
+
+                function safe_call(callback, args, callback2, defaultValue) {
+                    if (isset(callback) && !$.isArray(callback)) {
+                        return $.isFunction(callback) ? callback.apply(this, args) : defaultValue;
+                    }
+                    if (isset(callback2)) {
+                        return safe_call.call(this, callback2, args);
+                    }
+                    return defaultValue;
+                };
+
+                function __safe(callbackName, source, args, defaultValue) {
+                    var undefinedVar;
+                    return safe_call.call(this, (isset(this.source[source]) &&
+                    Object.prototype.hasOwnProperty.call(this.source[source], callbackName)) ? this.source[source][callbackName] : undefinedVar, args, function () {
+                        return safe_call.call(this,
+                            isset(this[callbackName][source]) ?
+                                this[callbackName][source] : (
+                                isset(this[callbackName][0]) ?
+                                    this[callbackName][0] : (
+                                    Object.prototype.hasOwnProperty.call(this, callbackName) ?
+                                        this[callbackName] :
+                                        undefinedVar
+                                )
+                            ),
+                            args,
+                            defaultSetting[callbackName][source] || defaultSetting[callbackName][0] || defaultSetting[callbackName],
+                            defaultValue
+                        );
+                    }, defaultValue);
+                };
+
+                function __get(property, source) {
+                    if (!isset(source))
+                        source = 0;
+
+                    if ($.isArray(this.source) && isset(this.source[source]) && isset(this.source[source][property]))
+                        return this.source[source][property];
+
+                    if (isset(this[property])) {
+                        if ($.isArray(this[property])) {
+                            if (isset(this[property][source]))
+                                return this[property][source];
+                            if (isset(this[property][0]))
+                                return this[property][0];
+                            return null;
+                        }
+                        return this[property];
+                    }
+
+                    return null;
+                };
+
+                function loadRemote(url, sourceObject, done, debug) {
+                    $.ajax($.extend(true, {
+                        url: url,
+                        type: 'GET',
+                        async: true,
+                        cache: false,
+                        dataType: 'json'
+                    }, sourceObject.ajax)).done(function (data) {
+                        done && done.apply(this, $.makeArray(arguments));
+                    }).fail(function (jqXHR, textStatus) {
+                        if (debug)
+                            console.log("Request failed: " + textStatus);
+                    });
+                }
+
+                function findRight(data, query) {
+                    var right = false, source;
+                    for (source = 0; source < data.length; source += 1) {
+                        if (right = __safe.call(this, "findRight", source, [data[source], query, source])) {
+                            return {right: right, source: source};
+                        }
+                    }
+                    return false;
+                }
+
+                function processData(data, query) {
+                    var source;
+                    preparseData
+                        .call(this, data, query);
+
+                    for (source = 0; source < data.length; source += 1) {
+                        data[source] = __safe.call(this,
+                            'filter',
+                            source,
+                            [data[source], query, source],
+                            data[source]
+                        );
+                    }
+                }
+
+                function collectData(query, datasource, callback) {
+                    var options = this, source;
+                    if ($.isFunction(options.source)) {
+                        options.source.apply(options, [query, function (items) {
+                            datasource = [items];
+                            safe_call.call(options, callback, [query]);
+                        }, datasource, 0]);
+                    } else {
+                        for (source = 0; source < options.source.length; source += 1) {
+                            if ($.isArray(options.source[source])) {
+                                datasource[source] = options.source[source];
+                            } else if ($.isFunction(options.source[source])) {
+                                (function (source) {
+                                    options.source[source].apply(options, [query, function (items) {
+                                        if (!datasource[source]) {
+                                            datasource[source] = [];
+                                        }
+                                        if (items && $.isArray(items)) {
+                                            switch (options.appendMethod) {
+                                                case 'replace':
+                                                    datasource[source] = items;
+                                                    break;
+                                                default:
+                                                    datasource[source] = datasource[source].concat(items);
+                                            }
+                                        }
+                                        safe_call.call(options, callback, [query]);
+                                    }, datasource, source]);
+                                }(source));
+                            } else {
+                                switch (options.source[source].type) {
+                                    case 'remote':
+                                        if (isset(options.source[source].url)) {
+                                            if (!isset(options.source[source].minLength) || query.length >= options.source[source].minLength) {
+                                                var url = __safe.call(options, 'replace', source, [options.source[source].url, query], '');
+                                                if (!datasource[source]) {
+                                                    datasource[source] = [];
+                                                }
+                                                (function (source) {
+                                                    loadRemote(url, options.source[source], function (resp) {
+                                                        datasource[source] = resp;
+                                                        safe_call.call(options, callback, [query]);
+                                                    }, options.debug);
+                                                }(source));
+                                            }
+                                        }
+                                        break;
+                                    default:
+                                        if (isset(options.source[source]['data'])) {
+                                            datasource[source] = options.source[source]['data'];
+                                        } else {
+                                            datasource[source] = options.source[source];
+                                        }
+                                }
+                            }
+                        }
+                    }
+                    safe_call.call(options, callback, [query]);
+                }
+
+                function preparseData(data, query) {
+                    for (var source = 0; source < data.length; source++) {
+                        data[source] = __safe.call(this,
+                            'preparse',
+                            source,
+                            [data[source], query],
+                            data[source]
+                        );
+                    }
+                }
+
+                function renderData(data, query) {
+                    var source, i, $div, $divs = [];
+
+                    for (source = 0; source < data.length; source += 1) {
+                        for (i = 0; i < data[source].length; i += 1) {
+                            if ($divs.length >= this.limit)
+                                break;
+
+                            $div = $(__safe.call(this,
+                                'render', source,
+                                [data[source][i], source, i, query],
+                                ''
+                            ));
+
+                            $div.data('source', source);
+                            $div.data('pid', i);
+                            $div.data('item', data[source][i]);
+
+                            $divs.push($div);
+                        }
+                    }
+                    return $divs;
+                };
+
+                function getItem($div, dataset) {
+                    if (isset($div.data('source')) &&
+                        isset($div.data('pid')) &&
+                        isset(dataset[$div.data('source')]) &&
+                        isset(dataset[$div.data('source')][$div.data('pid')])
+                    ) {
+                        return dataset[$div.data('source')][$div.data('pid')]
+                    }
+                    return false;
+                };
+
+                function getValue($div, dataset) {
+                    var item = getItem($div, dataset);
+
+                    if (item) {
+                        return __safe.call(this,
+                            'getValue', $div.data('source'),
+                            [item, $div.data('source')]
+                        );
+                    } else {
+                        if (isset($div.data('value'))) {
+                            return decodeURIComponent($div.data('value'));
+                        } else {
+                            return $div.html();
+                        }
+                    }
+                };
+
+                defaultSetting = {
+                    minLength: 0,
+                    valueKey: 'value',
+                    titleKey: 'title',
+                    highlight: true,
+
+                    showHint: true,
+
+                    dropdownWidth: '100%',
+                    dropdownStyle: {},
+                    itemStyle: {},
+                    hintStyle: false,
+                    style: false,
+
+                    debug: true,
+                    openOnFocus: false,
+                    closeOnBlur: true,
+
+                    autoselect: false,
+
+                    accents: true,
+                    replaceAccentsForRemote: true,
+
+                    limit: 20,
+                    visibleLimit: 20,
+                    visibleHeight: 0,
+                    defaultHeightItem: 30,
+
+                    timeoutUpdate: 10,
+
+                    get: function (property, source) {
+                        return __get.call(this, property, source);
+                    },
+
+                    replace: [
+                        function (url, query) {
+                            if (this.replaceAccentsForRemote) {
+                                query = accentReplace(query);
+                            }
+                            return url.replace('%QUERY%', encodeURIComponent(query));
+                        }
+                    ],
+
+                    equal: function (value, query) {
+                        return query.toLowerCase() == value.substr(0, query.length).toLowerCase();
+                    },
+
+                    findRight: [
+                        function (items, query, source) {
+                            var results = [], value = '', i;
+                            if (items) {
+                                for (i = 0; i < items.length; i += 1) {
+                                    value = __safe.call(this, 'getValue', source, [items[i], source]);
+                                    if (__safe.call(this, 'equal', source, [value, query, source], false)) {
+                                        return items[i];
+                                    }
+                                }
+                            }
+                            return false;
+                        }
+                    ],
+
+                    valid: [
+                        function (value, query) {
+                            if (this.accents) {
+                                value = accentReplace(value);
+                                query = accentReplace(query);
+                            }
+                            return value.toLowerCase().indexOf(query.toLowerCase()) != -1;
+
+                        }
+                    ],
+
+                    filter: [
+                        function (items, query, source) {
+                            var results = [], value = '', i;
+                            if (items) {
+                                for (i = 0; i < items.length; i += 1) {
+                                    value = isset(items[i][this.get('valueKey', source)]) ? items[i][this.get('valueKey', source)] : items[i].toString();
+                                    if (__safe.call(this, 'valid', source, [value, query])) {
+                                        results.push(items[i]);
+                                    }
+                                }
+                            }
+                            return results;
+                        }
+                    ],
+
+                    preparse: function (items) {
+                        return items;
+                    },
+
+                    getValue: [
+                        function (item, source) {
+                            return isset(item[this.get('valueKey', source)]) ? item[this.get('valueKey', source)] : item.toString();
+                        }
+                    ],
+
+                    getTitle: [
+                        function (item, source) {
+                            return isset(item[this.get('titleKey', source)]) ? item[this.get('titleKey', source)] : item.toString();
+                        }
+                    ],
+
+                    render: [
+                        function (item, source, pid, query) {
+                            var value = isset(item[this.get('valueKey', source)]) ? item[this.get('valueKey', source)] : item.toString(),
+                                title = (isset(item[this.get('titleKey', source)]) ? item[this.get('titleKey', source)] : value) + '',
+                                _value = '',
+                                _query = '',
+                                _title = '',
+                                hilite_hints = '',
+                                highlighted = '',
+                                c, h, i,
+                                spos = 0;
+
+                            if (this.highlight) {
+                                if (!this.accents) {
+                                    title = title.replace(new RegExp('(' + escapeRegExp(query) + ')', 'i'), '<b>$1</b>');
+                                } else {
+                                    _title = accentReplace(title).toLowerCase().replace(/[<>]+/g, ''),
+                                        _query = accentReplace(query).toLowerCase().replace(/[<>]+/g, '');
+
+                                    hilite_hints = _title.replace(new RegExp(escapeRegExp(_query), 'g'), '<' + _query + '>');
+                                    for (i = 0; i < hilite_hints.length; i += 1) {
+                                        c = title.charAt(spos);
+                                        h = hilite_hints.charAt(i);
+                                        if (h === '<') {
+                                            highlighted += '<b>';
+                                        } else if (h === '>') {
+                                            highlighted += '</b>';
+                                        } else {
+                                            spos += 1;
+                                            highlighted += c;
+                                        }
+                                    }
+                                    title = highlighted;
+                                }
+                            }
+
+                            return '<div ' + (value == query ? 'class="active"' : '') + ' data-value="' + encodeURIComponent(value) + '">'
+                                + title +
+                                '</div>';
+                        }
+                    ],
+                    appendMethod: 'concat', // supported merge and replace
+                    source: []
+                };
+                function init(that, options) {
+                    if ($(that).hasClass('xdsoft_input'))
+                        return;
+
+                    var $box = $('<div class="xdsoft_autocomplete"></div>'),
+                        $dropdown = $('<div class="xdsoft_autocomplete_dropdown"></div>'),
+                        $hint = $('<input readonly class="xdsoft_autocomplete_hint"/>'),
+                        $input = $(that),
+                        timer1 = 0,
+                        dataset = [],
+                        iOpen = false,
+                        value = '',
+                        currentValue = '',
+                        currentSelect = '',
+                        active = null,
+                        pos = 0;
+
+                    //it can be used to access settings
+                    $input.data('autocomplete_options', options);
+
+                    $dropdown
+                        .on('mousedown', function (e) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                        })
+                        .on('updatescroll.xdsoft', function () {
+                            var _act = $dropdown.find('.active');
+                            if (!_act.length) {
+                                return;
+                            }
+
+                            var top = _act.position().top,
+                                actHght = _act.outerHeight(true),
+                                scrlTop = $dropdown.scrollTop(),
+                                hght = $dropdown.height();
+
+                            if (top < 0) {
+                                $dropdown.scrollTop(scrlTop - Math.abs(top));
+                            } else if (top + actHght > hght) {
+                                $dropdown.scrollTop(scrlTop + top + actHght - hght);
+                            }
+                        });
+
+                    $box
+                        .css({
+                            'display': $input.css('display'),
+                            'width': $input.css('width')
+                        });
+
+                    if (options.style)
+                        $box.css(options.style);
+
+                    $input
+                        .addClass('xdsoft_input')
+                        .attr('autocomplete', 'off');
+
+                    $dropdown
+                        .on('mousemove', 'div', function () {
+                            if ($(this).hasClass('active'))
+                                return true;
+                            $dropdown.find('div').removeClass('active');
+                            $(this).addClass('active');
+                        })
+                        .on('mousedown', 'div', function () {
+                            $dropdown.find('div').removeClass('active');
+                            $(this).addClass('active');
+                            $input.trigger('pick.xdsoft');
+                        })
+
+                    function manageData() {
+                        if ($input.val() != currentValue) {
+                            currentValue = $input.val();
+                        } else {
+                            return;
+                        }
+                        if (currentValue.length < options.minLength) {
+                            $input.trigger('close.xdsoft');
+                            return;
+                        }
+                        collectData.call(options, currentValue, dataset, function (query) {
+                            if (query != currentValue) {
+                                return;
+                            }
+                            var right;
+                            processData.call(options, dataset, query);
+
+                            $input.trigger('updateContent.xdsoft');
+
+                            if (options.showHint && currentValue.length && currentValue.length <= $input.prop('size') && (right = findRight.call(options, dataset, currentValue))) {
+                                var title = __safe.call(options, 'getTitle', right.source, [right.right, right.source]);
+                                title = query + title.substr(query.length);
+                                $hint.val(title);
+                            } else {
+                                $hint.val('');
+                            }
+                        });
+
+                        return;
+                    }
+
+                    function manageKey(event) {
+                        var key = event.keyCode, right;
+
+                        switch (key) {
+                            case AKEY:
+                            case CKEY:
+                            case VKEY:
+                            case ZKEY:
+                            case YKEY:
+                                if (event.shiftKey || event.ctrlKey) {
+                                    return true;
+                                }
+                                break;
+                            case SHIFTKEY:
+                            case CTRLKEY:
+                                return true;
+                                break;
+                            case ARROWRIGHT:
+                            case ARROWLEFT:
+                                if (ctrlDown || shiftDown || event.shiftKey || event.ctrlKey) {
+                                    return true;
+                                }
+                                value = $input.val();
+                                pos = getCaretPosition($input[0]);
+                                if (key === ARROWRIGHT && pos === value.length) {
+                                    if (right = findRight.call(options, dataset, value)) {
+                                        $input.trigger('pick.xdsoft', [
+                                            __safe.call(options,
+                                                'getValue', right.source,
+                                                [right.right, right.source]
+                                            )
+                                        ]);
+                                    } else {
+                                        $input.trigger('pick.xdsoft');
+                                    }
+                                    event.preventDefault();
+                                    return false;
+                                }
+                                return true;
+                            case TAB:
+                                return true;
+
+                            case ESC:
+                                $input
+                                    .val(currentValue)
+                                    .trigger('close.xdsoft');
+                                event.preventDefault();
+                                return false;
+                            case ARROWDOWN:
+                            case ARROWUP:
+                                if (!iOpen) {
+                                    $input.trigger('open.xdsoft');
+                                    $input.trigger('updateContent.xdsoft');
+                                    event.preventDefault();
+                                    return false;
+                                }
+
+                                active = $dropdown.find('div.active');
+
+                                var next = key == ARROWDOWN ? 'next' : 'prev', timepick = true;
+
+                                if (active.length) {
+                                    active.removeClass('active');
+                                    if (active[next]().length) {
+                                        active[next]().addClass('active');
+                                    } else {
+                                        $input.val(currentValue);
+                                        timepick = false;
+                                    }
+                                } else {
+                                    $dropdown.children().eq(key == ARROWDOWN ? 0 : -1).addClass('active');
+                                }
+
+                                if (timepick) {
+                                    $input.trigger('timepick.xdsoft');
+                                }
+
+                                $dropdown
+                                    .trigger('updatescroll.xdsoft');
+
+                                event.preventDefault();
+                                return false;
+                        }
+                        return;
+                    }
+
+                    $input
+                        .data('xdsoft_autocomplete', dataset)
+                        .after($box)
+                        .on('pick.xdsoft', function (event, _value) {
+
+                            $input
+                                .trigger('timepick.xdsoft', _value)
+
+                            currentSelect = currentValue = $input.val();
+
+                            $input
+                                .trigger('close.xdsoft');
+
+                            //currentInput = false;
+
+                            active = $dropdown.find('div.active').eq(0);
+
+                            if (!active.length)
+                                active = $dropdown.children().first();
+
+                            $input.trigger('selected.xdsoft', [getItem(active, dataset)]);
+                        })
+                        .on('timepick.xdsoft', function (event, _value) {
+                            active = $dropdown.find('div.active');
+
+                            if (!active.length)
+                                active = $dropdown.children().first();
+
+                            if (active.length) {
+                                if (!isset(_value)) {
+                                    $input.val(getValue.call(options, active, dataset));
+                                } else {
+                                    $input.val(_value);
+                                }
+                                $input.trigger('autocompleted.xdsoft', [getItem(active, dataset)]);
+                                $hint.val('');
+                                setCaretPosition($input[0], $input.val().length);
+                            }
+                        })
+                        .on('keydown.xdsoft input.xdsoft cut.xdsoft paste.xdsoft', function (event) {
+                            var ret = manageKey(event);
+
+                            if (ret === false || ret === true) {
+                                return ret;
+                            }
+
+                            setTimeout(function () {
+                                manageData();
+                            }, 1);
+
+                            manageData();
+                        })
+                        .on('change.xdsoft', function (event) {
+                            currentValue = $input.val();
+                        });
+
+                    currentValue = $input.val();
+
+                    collectData.call(options, $input.val(), dataset, function (query) {
+                        processData.call(options, dataset, query);
+                    });
+
+                    if (options.openOnFocus) {
+                        $input.on('focusin.xdsoft', function () {
+                            $input.trigger('open.xdsoft');
+                            $input.trigger('updateContent.xdsoft');
+                        });
+                    }
+
+                    if (options.closeOnBlur)
+                        $input.on('focusout.xdsoft', function () {
+                            $input.trigger('close.xdsoft');
+                        });
+
+                    $box
+                        .append($input)
+                        .append($dropdown);
+                    var olderBackground = false,
+                        timerUpdate = 0;
+
+                    $input
+                        .on('updateHelperPosition.xdsoft', function () {
+                            clearTimeout(timerUpdate);
+                            timerUpdate = setTimeout(function () {
+                                $box.css({
+                                    'display': $input.css('display'),
+                                    'width': $input.css('width')
+                                });
+                                $dropdown.css($.extend(true, {
+                                    left: $input.position().left,
+                                    top: $input.position().top + parseInt($input.css('marginTop')) + parseInt($input[0].offsetHeight),
+                                    marginLeft: $input.css('marginLeft'),
+                                    marginRight: $input.css('marginRight'),
+                                    width: options.dropdownWidth == '100%' ? $input[0].offsetWidth : options.dropdownWidth
+                                }, options.dropdownStyle));
+
+                                if (options.showHint) {
+                                    var style = getComputedStyle($input[0], "");
+
+                                    $hint[0].style.cssText = style.cssText;
+
+                                    $hint.css({
+                                        'box-sizing': style.boxSizing,
+                                        borderStyle: 'solid',
+                                        borderCollapse: style.borderCollapse,
+                                        borderLeftWidth: style.borderLeftWidth,
+                                        borderRightWidth: style.borderRightWidth,
+                                        borderTopWidth: style.borderTopWidth,
+                                        borderBottomWidth: style.borderBottomWidth,
+                                        paddingBottom: style.paddingBottom,
+                                        marginBottom: style.marginBottom,
+                                        paddingTop: style.paddingTop,
+                                        marginTop: style.marginTop,
+                                        paddingLeft: style.paddingLeft,
+                                        marginLeft: style.marginLeft,
+                                        paddingRight: style.paddingRight,
+                                        marginRight: style.marginRight,
+                                        maxHeight: style.maxHeight,
+                                        minHeight: style.minHeight,
+                                        maxWidth: style.maxWidth,
+                                        minWidth: style.minWidth,
+                                        width: style.width,
+                                        letterSpacing: style.letterSpacing,
+                                        lineHeight: style.lineHeight,
+                                        outlineWidth: style.outlineWidth,
+                                        fontFamily: style.fontFamily,
+                                        fontVariant: style.fontVariant,
+                                        fontStyle: $input.css('fontStyle'),
+                                        fontSize: $input.css('fontSize'),
+                                        fontWeight: $input.css('fontWeight'),
+                                        flex: style.flex,
+                                        justifyContent: style.justifyContent,
+                                        borderRadius: style.borderRadius,
+                                        '-webkit-box-shadow': 'none',
+                                        'box-shadow': 'none'
+                                    });
+
+                                    $input.css('font-size', $input.css('fontSize'))// fix bug with em font size
+
+                                    $hint.innerHeight($input.innerHeight());
+
+                                    $hint.css($.extend(true, {
+                                        position: 'absolute',
+                                        zIndex: '1',
+                                        borderColor: 'transparent',
+                                        outlineColor: 'transparent',
+                                        left: $input.position().left,
+                                        top: $input.position().top,
+                                        background: $input.css('background')
+                                    }, options.hintStyle));
+
+                                    if (olderBackground !== false) {
+                                        $hint.css('background', olderBackground);
+                                    } else {
+                                        olderBackground = $input.css('background');
+                                    }
+
+                                    $input
+                                        .css('background', 'transparent')
+                                    $box
+                                        .append($hint);
+                                }
+                            }, options.timeoutUpdate || 1);
+                        });
+
+                    if ($input.is(':visible')) {
+                        $input
+                            .trigger('updateHelperPosition.xdsoft');
+                    } else {
+                        interval_for_visibility = setInterval(function () {
+                            if ($input.is(':visible')) {
+                                $input
+                                    .trigger('updateHelperPosition.xdsoft');
+                                clearInterval(interval_for_visibility);
+                            }
+                        }, 100);
+                    }
+
+                    $(window).on('resize', function () {
+                        $box.css({
+                            'width': 'auto'
+                        });
+                        $input
+                            .trigger('updateHelperPosition.xdsoft');
+                    })
+
+                    $input
+                        .on('close.xdsoft', function () {
+                            if (!iOpen) {
+                                return;
+                            }
+
+                            $dropdown
+                                .hide();
+
+                            $hint
+                                .val('');
+
+                            if (!options.autoselect) {
+                                $input.val(currentValue);
+                            }
+
+                            iOpen = false;
+
+                            //currentInput = false;
+                        })
+
+                        .on('updateContent.xdsoft', function () {
+                            var out = renderData.call(options, dataset, $input.val()),
+                                hght = 10;
+
+                            if (out.length) {
+                                $input.trigger('open.xdsoft');
+                            } else {
+                                $input.trigger('close.xdsoft');
+                                return;
+                            }
+
+                            $(out).each(function () {
+                                this.css($.extend(true, {
+                                    paddingLeft: $input.css('paddingLeft'),
+                                    paddingRight: $input.css('paddingRight')
+                                }, options.itemStyle));
+                            });
+
+                            $dropdown
+                                .html(out);
+
+                            if (options.visibleHeight) {
+                                hght = options.visibleHeight;
+                            } else {
+                                hght = options.visibleLimit * ((out[0] ? out[0].outerHeight(true) : 0) || options.defaultHeightItem) + 5;
+                            }
+
+                            $dropdown
+                                .css('maxHeight', hght + 'px')
+                        })
+
+                        .on('open.xdsoft', function () {
+                            if (iOpen)
+                                return;
+
+                            $dropdown
+                                .show();
+
+                            iOpen = true;
+
+                            //currentInput = $input;
+                        })
+                        .on('destroy.xdsoft', function () {
+                            $input.removeClass('xdsoft');
+                            $box.after($input);
+                            $box.remove();
+                            clearTimeout(timer1);
+                            //currentInput = false;
+                            $input.data('xdsoft_autocomplete', null);
+                            $input
+                                .off('.xdsoft')
+                        });
+                };
+
+                publics = {
+                    destroy: function () {
+                        return this.trigger('destroy.xdsoft');
+                    },
+                    update: function () {
+                        return this.trigger('updateHelperPosition.xdsoft');
+                    },
+                    options: function (_options) {
+                        if (this.data('autocomplete_options') && $.isPlainObject(_options)) {
+                            this.data('autocomplete_options', $.extend(true, this.data('autocomplete_options'), _options));
+                        }
+                        return this;
+                    },
+                    setSource: function (_newsource, id) {
+                        if (this.data('autocomplete_options') && ($.isPlainObject(_newsource) || $.isFunction(_newsource) || $.isArray(_newsource))) {
+                            var options = this.data('autocomplete_options'),
+                                dataset = this.data('xdsoft_autocomplete'),
+                                source = options.source;
+                            if (id !== undefined && !isNaN(id)) {
+                                if ($.isPlainObject(_newsource) || $.isArray(_newsource)) {
+                                    source[id] = $.extend(true, $.isArray(_newsource) ? [] : {}, _newsource);
+                                } else {
+                                    source[id] = _newsource;
+                                }
+                            } else {
+                                if ($.isFunction(_newsource)) {
+                                    this.data('autocomplete_options').source = _newsource;
+                                } else {
+                                    $.extend(true, source, _newsource);
+                                }
+                            }
+
+                            collectData.call(options, this.val(), dataset, function (query) {
+                                processData.call(options, dataset, query);
+                            });
+                        }
+                        return this;
+                    },
+                    getSource: function (id) {
+                        if (this.data('autocomplete_options')) {
+                            var source = this.data('autocomplete_options').source;
+                            if (id !== undefined && !isNaN(id) && source[id]) {
+                                return source[id];
+                            } else {
+                                return source;
+                            }
+                        }
+                        return null;
+                    }
+                };
+
+                $.fn.autocomplete = function (_options, _second, _third) {
+                    if ($.type(_options) === 'string' && publics[_options]) {
+                        return publics[_options].call(this, _second, _third);
+                    }
+                    return this.each(function () {
+                        var options = $.extend(true, {}, defaultSetting, _options);
+                        init(this, options);
+                    });
+                };
+            }(jQuery));
+            // ]]>
+            // <![CDATA[
+            /*function doSearch() {
+             jQuery.ajax({
+             type: 'get',
+             data: 'query='+encodeURIComponent(jQuery('input#s').val()),
+             cache: false,
+             success: function (xml) {
+             var codeget = new Array();
+             $(xml).find('suggestion').each(function(){
+             var datais = $(this).attr('data');
+             codeget.push(datais);
+             jQuery('#demo').html(codeget + ' - ');
+
+             });
+             },
+             error: function(e) { alert('Error: '+e); }
+             });
+             }*/
+            $(function () {
+                $("input#s").autocomplete({
+                    valueKey: '0',
+                    source: [{
+                        url: "get_content.php?s=%QUERY%",
+                        type: 'remote'
+                    }],
+                    visibleLimit: 10
+                });
+            });
+            // ]]>
+            jQuery(function () {
+                jQuery('#search_box form').append('<a href="#" class="man"></a><div class="manText">Share a search</div><a href="http://www.bahdal.com" class="plus"></a><div class="plusText">Add a keyword</div>');
+            });
+            jQuery(function () {
+                //document.querySelector('div.message-html button').onclick = function(){
+                document.querySelector('a.plus').onclick = function (e) {
+                    e.preventDefault();
+                    swal({
+                        title: "Help Us Out!",
+                        text: '<div id="form-messages"></div><form method="post" action="dist/mailer.php" id="ajax-contact"><h4>Submit a keyword or phrase you would like to add:</h4><input tabindex="1" required="required" name="keyword" id="keyword" type="text" placeholder="Keyword or Phrase"><input tabindex="2" required name="url" id="url" type="text" placeholder="URL: http://www.example.com/link"><input tabindex="3" required name="email" id="email" type="email" placeholder="Your Email Address"><div class="btnsWrapper"><button tabindex="5" class="cancel button">Cancel</button><div class="sa-confirm-button-container"><button tabindex="4" class="ok button" type="submit">OK</button><div class="la-ball-fall"><div></div><div></div><div></div></div></div></div></form>',
+                        html: true,
+                        animation: false
+                        
+                    });
+                };
+                document.querySelector('a.man').onclick = function (e) {
+                    e.preventDefault();
+                    var inputValueIs = $("<div>").text(jQuery('#s').val()).html();
+                    inputhasValueIs = encodeURI(inputValueIs);
+                    var decodeCodeIs = inputhasValueIs.replace(/%20/g, '+');
+                    inputhasValueIs = inputhasValueIs.replace(/%20/g, '%2b');
+                swal({
+                        title: "<a target=\"_blank\" class=\"btnz share facebook\" href=\"https://www.facebook.com/sharer/sharer.php?u=http://bahdal.com/?qq="+inputhasValueIs+"\"><i class=\"fa fa-facebook\"></i> Share</a><a target=\"_blank\" class=\"btnz share gplus\" href=\"https://plus.google.com/share?url=https://bahdal.com/?qq="+inputhasValueIs+"\"><i class=\"fa fa-google-plus\"></i> Share</a><a target=\"_blank\" class=\"btnz share twitter\" href=\"https://twitter.com/intent/tweet?text="+inputValueIs+"&url=https://bahdal.com/?qq="+inputhasValueIs+"\"><i class=\"fa fa-twitter\"></i> Tweet</a><br><br>",
+                        
+                        text: "<div class=\"clearfix\">Click a social network button above to share a search. <br><br><br> - OR - </div><button id=\"copy_button\" data-clipboard-text=\"Kindly type something in search first!\"title=\"click to copy me.\">Copy URL to Clipboard</button>",
+
+                        type: "input",
+                        inputPlaceholder: "https://bahdal.com?qq="+decodeCodeIs,
+                        inputValue: "https://bahdal.com?qq="+decodeCodeIs,
+                        html: true
+                    });
+                }
+            });
+            jQuery(function () {
+                jQuery('a.plus').click(function () {
+                    setTimeout(function () {
+                        jQuery('button.cancel').click(function () {
+                            sweetAlert.close();
+                        });
+                        // Get the form.
+                        var form = $('#ajax-contact');// Get the messages div.
+                        var formMessages = $('#form-messages');
+                        // Set up an event listener for the contact form.
+                        $(form).submit(function (e) {
+                            // Stop the browser from submitting the form.
+                            e.preventDefault();
+                            $('#ajax-contact .la-ball-fall').css('visibility', 'visible');
+                            $('#ajax-contact .la-ball-fall').css('opacity', '1');
+                            $('#ajax-contact button.ok.button').html('');
+                            // Serialize the form data.
+                            var formData = $(form).serialize();
+                            // Submit the form using AJAX.
+                            $.ajax({
+                                type: 'POST',
+                                url: $(form).attr('action'),
+                                data: formData
+                            })
+                                .done(function (response) {
+                                    $('#ajax-contact .la-ball-fall').css('visibility', 'hidden');
+                                    $('#ajax-contact .la-ball-fall').css('opacity', '0');
+                                    $('#ajax-contact button.ok.button').html('OK');
+                                    $('.testLoader').hide();
+
+                                    // Make sure that the formMessages div has the 'success' class.
+                                    $(formMessages).removeClass('error');
+                                    $(formMessages).addClass('success');
+
+                                    swal("Good job!", "You submitted the form!", "success");
+                                    // Set the message text.
+                                    $(formMessages).text(response);					// Clear the form.
+                                    $('#keyword').val('');
+                                    $('#url').val('');
+                                    $('#email').val('');
+                                })
+                                .fail(function (data) {
+
+                                    $('#ajax-contact .la-ball-fall').css('visibility', 'hidden');
+                                    $('#ajax-contact .la-ball-fall').css('opacity', '0');
+                                    $('#ajax-contact button.ok.button').html('OK');				// Make sure that the formMessages div has the 'error' class.
+                                    $(formMessages).removeClass('success');
+                                    $(formMessages).addClass('error');					// Set the message text.
+                                    if (data.responseText !== '') {
+                                        $(formMessages).text(data.responseText);
+                                    } else {
+                                        $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                                    }
+                                });
+
+                        });
+                    }, 500);
+                });
+                setInterval(function () {
+                    jQuery('div[data-animation*="pop"] button.confirm').click(function () {
+                        sweetAlert.close();
+                    });
+                }, 500);
+            });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.2.0/ZeroClipboard.min.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+                jQuery('a.man').click(function () {
+                    var inputhasValueIs = $("<div>").text(jQuery('#s').val()).html();
+                    inputhasValueIs = encodeURI(inputhasValueIs);
+                    inputhasValueIs = inputhasValueIs.replace(/%20/g, '+');
+                    var client = new ZeroClipboard( $("#copy_button") );
+                    client.setData({
+                        "text/plain": 'http://www.bahdal.com/?qq='+inputhasValueIs,
+                        "text/html": 'http://www.bahdal.com/?qq='+inputhasValueIs
+                    });
+                    client.on( "ready", function( readyEvent ) {
+                        console.log(client);
+                        client.on( "aftercopy", function( event ) {
+                            // `this` === `client`
+                            // `event.target` === the element that was clicked
+                            //event.target.style.display = "none";
+                            swal("Congrats!", "Text is ready to paste and Share ", "success");
+                        });
+                    });
+                });
+            })
+        </script>
+        
+        
+<style>
+    .pull-left{padding-right:10px;float:left !important;}
+    .pull-right{padding-left:10px;float:right !important;}
+    .popup-box {
+        background-color: #000;
+        border: 1px solid #2d2d2d;
+        color: #555555;
+        bottom: 0;
+        display: none;
+        position: fixed;
+        right: 0px;
+        width: 300px;
+        font-family: Arial;
+        text-align: justify;
+    }
+    .popup-box-on {
+        display: block !important;
+    }
+    .popup-messages-footer {
+        background: #000 none repeat scroll 0 0;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+    
+    .popup-messages-footer .btn-footer {
+        overflow: hidden;
+        padding: 2px 5px 10px 6px;
+        width: 100%;
+    }
+    .popup-box .popup-messages {
+        background: #000000 none repeat scroll 0 0;
+        height: 375px;
+        overflow: auto;
+       
+    }
+    .direct-chat-messages {
+        overflow: auto;
+        padding: 10px;
+        transform: translate(0px, 0px);
+    }
+    .popup-messages .direct-chat-messages {
+        height: auto;
+    }
+    a#addClass {
+        float:right;
+        right:30px;
+        position:fixed;
+        bottom:30px;
+        color: #555555;
+    }
+    #removeClass {
+    	float:right;
+        right:30px;
+        position:fixed;
+        bottom:330px;
+        color: #555555;
+        border: 1px solid #555;
+        padding: 2px;
+    }
+    code {
+    	color: grey;
+    	font-weight: bold;
+    	font-size: 22px;
+    	font-family: Arial;
+    }
+    
+    ::-webkit-scrollbar {
+	    width: 12px;
+	}
+	::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	    -webkit-border-radius: 10px;
+	    border-radius: 10px;
+	}
+	::-webkit-scrollbar-thumb {
+	    -webkit-border-radius: 10px;
+	    border-radius: 10px;
+	    background: rgba(70,70,70,0.8); 
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	}
+	::-webkit-scrollbar-thumb:window-inactive {
+		background: rgba(70,70,70,0.4); 
+	}
+</style>
+
+<script>
+    jQuery(function(){
+        jQuery("#addClass").click(function () {
+            jQuery('#animate').addClass('popup-box-on');
+        });
+        jQuery("#removeClass").click(function () {
+            jQuery('#animate').removeClass('popup-box-on');
+        });
+    })
+</script>
+<a href="#" id="addClass"><span class="fa fa-info-circle fa-3x"></span></a>
+<div class="popup-box chat-popup" id="animate">
+    <div class="popup-messages">
+        <div class="direct-chat-messages">
+            <h4>Info and Tips: </h4>
+            <p>We help provide direct search results for a faster response to search queries and help you locate official websites and webpages with precision but we also provide a smart search option that allows you to search popular search engines  and shopping websites directly through our search box without ever having to leave our website. Try it out: Ex. search (weather g)</p>
+
+  <div class="message">
+                <p><b><code>G</code> - Google : </b> Add <code>g</code> at end of search to search in google.</p>
+                <p><b><code>GI</code> - Google Images : </b> Add <code>gi</code> at end of search to search in Google Images.</p>
+                <p><b><code>B</code> - Bing : </b> Add <code>b</code> at end of search to search in Bing.</p>
+                <p><b><code>BI</code> - Bing Images : </b> Add <code>bi</code> at end of search to search in Bing Images.</p>
+                <p><b><code>Y</code> - Yahoo! : </b> Add <code>y</code> at end of search to search in Yahoo!</p>
+                <p><b><code>YI</code> - Yahoo! Images : </b> Add <code>yi</code> at end of search to search in Yahoo! Images.</p>
+                <p><b><code>A</code> - Ask.com : </b> Add <code>a</code> at end of search to search in Ask.com</p>
+                <p><b><code>D</code> - DuckDuckGo : </b> Add <code>d</code> at end of search to search in DuckDuckGo.</p>
+                <p><b><code>YT</code> - YouTube : </b> Add <code>yt</code> at end of search to search in YouTube.</p>
+                <p><b><code>T</code> - Twitter : </b> Add <code>t</code> at end of search to search in Twitter.</p>
+                <p><b><code>EBY</code> - eBay : </b> Add <code>eby</code> at end of search to search in eBay.</p>
+                <p><b><code>AMZ</code> - Amazon : </b> Add <code>amz</code> at end of search to search in Amazon.</p>
+                <p><b><code>W</code> - Wikipedia : </b> Add <code>w</code> at end of search to search in Wikipedia.</p>
+            </div>
+
+        </div>
+    </div>
+    <div class="popup-messages-footer">
+        <span data-widget="remove" id="removeClass"><i class="fa fa-times fa-lg"></i></span>
+        
+        </div>
+    
+</div>
+
+</body>
+</html>

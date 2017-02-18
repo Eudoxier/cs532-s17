@@ -1,0 +1,627 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 not-ie9" lang="en" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 not-ie9" lang="en" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9 not-ie9" lang="en" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="en" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js not-ie9" lang="en" xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title> Pen Test Austin 2017 (Austin, TX)</title>
+
+    <meta name="description" content="Information Security Training Austin, TX from SANS Institute.  Cybersecurity training courses in Austin" />
+    <meta name="keywords" content="computer security training, network security, information security, security courses, security events, sans, security essentials, intrusion detection, computer forensics, it audit, application security" />
+    <meta http-equiv="refresh" content=""/>
+<meta name="google-site-verification" content="cC-8xOerZ3opiLx9VloUCzc6SgMfOZHYihJzWA19-KI" /><meta name="msvalidate.01" content="4A0A2895C106F8337112421AFF33F698" /><script src="/scripts/libs/jquery.min.js"></script>
+<script src="/scripts/libs/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+var _gas = _gas || [];
+_gas.push(['_setAccount', 'UA-25324117-2']);
+_gas.push(['_setAllowLinker', true]);
+_gas.push(['_setAllowAnchor', true]);
+_gas.push(['_setDomainName', 'cyber-defense.sans.org']);
+_gas.push(['_setDomainName', 'ics.sans.org']);
+_gas.push(['_setDomainName', 'sic.sans.org']);
+_gas.push(['_setDomainName', 'isc.sans.edu']);
+_gas.push(['_setDomainName', 'digital-forensics.sans.org']);
+_gas.push(['_setDomainName', 'it-audit.sans.org']);
+_gas.push(['_setDomainName', 'pen-testing.sans.org']);
+_gas.push(['_setDomainName', 'uk.sans.org']);
+_gas.push(['_setDomainName', 'software-security.sans.org']);
+_gas.push(['_setDomainName', 'exams.giac.org']);
+_gas.push(['_setDomainName', 'www.giac.org']);
+//_gas.push(['_setDomainName', 'giac.org']);
+_gas.push(['_setDomainName', 'www.sans.edu']);
+//_gas.push(['_setDomainName', 'sans.edu']);
+_gas.push(['_setDomainName', 'securingthehuman.sans.org']);
+//_gas.push(['_setDomainName', 'securingthehuman.org']);
+_gas.push(['_setDomainName', 'ondemand.sans.org']);
+_gas.push(['_setDomainName', 'www.sans.org']);
+_gas.push(['_setDomainName', 'pages.sans.org']);
+//_gas.push(['_setDomainName', 'sans.org']);
+_gas.push(['_gasMultiDomain', 'mousedown']);
+_gas.push(['_trackPageview']);
+_gas.push(['_gasTrackOutboundLinks']);
+_gas.push(['_gasTrackMaxScroll']);
+_gas.push(['_gasTrackDownloads']);
+_gas.push(['_gasTrackMailto']);
+
+(function() {
+var ga = document.createElement('script');
+ga.id = 'gas-script';
+ga.setAttribute('data-use-dcjs', 'true');
+ga.type = 'text/javascript';
+ga.async = true;
+ga.src = '/scripts/libs/GAS/gas.min.js';
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+})();
+
+/**
+ * Cleans utm tracking from the hashtag so anchor tags still function
+ * Call on load of desired pages
+ */
+function cleanUtm() {
+    var l = window.location;
+    if( l.hash.indexOf( "utm" ) != -1 ){
+        var anchor = l.hash.match(/#(?!utm)[^&]+/);
+        anchor	=	anchor? anchor[0]: '';
+        if(!anchor && window.history.replaceState){
+            history.replaceState({},'', l.pathname + l.search);
+        } else {
+            l.hash = anchor;
+        }
+    };
+}
+</script>
+
+<!-- Twitter universal website tag code -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('nuwz0', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nuwz0&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nuwz0&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+<!-- End Twitter universal website tag code -->
+
+    <!--BEGIN QUALTRICS SITE INTERCEPT-->
+
+<script type='text/javascript'>
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b<e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&&(e=Math.random()>=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&t=" + (new Date()).getTime();document.body&&document.body.appendChild(a)}};
+this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&&window.attachEvent("onload",function(){a.go()})}};
+try{(new g(100,"r","QSI_S_ZN_5mZSMKPycxWSqpf","//zn5mzsmkpycxwsqpf-sans.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_5mZSMKPycxWSqpf&Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
+</script><div id='ZN_5mZSMKPycxWSqpf'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END SITE INTERCEPT-->
+
+ <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"4057543"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=4057543&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+
+
+    <link rel="canonical" href="http://www.sans.org/event/pentest2017" />
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/><link rel="stylesheet" href="/css2/common/libs/font-awesome/css/font-awesome.min.css?v=6.0" /><link rel="stylesheet" href="/css2/common/bootstrap/main.css?v=6.0" type="text/css" /><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  <script>window.jQuery || document.write('<script src="scripts/jquery.min.js"><\/script><script src="scripts/jquery-ui.min.js"><\/script>')</script><script src="/scripts/sites/sans/about_contact.min.js" type="text/javascript"></script>
+<script src="/js/slider/configs/700/4/0" type="text/javascript"></script>
+<script src="/scripts/main.js" type="text/javascript"></script>
+</head>
+
+<body class="sans">
+    <div id="announcement-bar"><a href="http://www.sans.org/redirect/announce/3432">The Seven Most Dangerous New Attack Techniques: Summary of the RSA 2017 keynote session featuring top SANS experts</a></div><div id="announcement-bar"><a href="http://www.sans.org/redirect/announce/3412">5 Days Left to Save $400 on Threat Hunting and IR Summit</a></div>
+    <div class="bodywrap ">
+        <div class="container default-navigation-all">
+            <!-- header -->
+            <div id="header" class="header navbar">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-main-navigation" style="display:none">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="fa fa-bars fa-lg"></span>
+              </button>
+              <a class="pull-left navbar-brand" href="/"><img src="/images/design-site/logo.png" alt=" Pen Test Austin 2017 (Austin, TX)" class="logo" /></a>
+            </div>
+<div id="site-selector" class="pull-left"><ul class="site-selector ssno-js">
+    <li class="site-switcher"><a href="#"><span class="hideme hidden">SANS Site Network</span><span class="fa fa-caret-square-o-down fa-lg hideme"></span></a>
+        <ul class="sites">
+            <li class="current-site">Current Site</li><li class="sans selector-active"><a href="http://www.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/sans.png" alt="sans" /></span><span class="selector-title">Security Training</span></a></li>
+<li class="selector-help">Choose a different site <a href="/help/site-network"><span class="hideme">Help</span></a></li><li class="giac"><a href="http://www.giac.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/giac.png" alt="giac" /></span><span class="selector-title">Security Certification</span></a></li>
+<li class="isc"><a href="http://isc.sans.edu"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/isc.png" alt="isc" /></span><span class="selector-title">Internet Storm Center</span></a></li>
+<li class="sti"><a href="http://www.sans.edu"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/sti.png" alt="sti" /></span><span class="selector-title">Graduate Degree Programs</span></a></li>
+<li class="awareness"><a href="http://securingthehuman.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/awareness.png" alt="awareness" /></span><span class="selector-title">Security Awareness Training</span></a></li>
+<li class="cyber-defense"><a href="http://cyber-defense.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/cyber-defense.png" alt="cyber-defense" /></span><span class="selector-title">Cyber Defense</span></a></li>
+<li class="forensics"><a href="http://digital-forensics.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/forensics.png" alt="forensics" /></span><span class="selector-title">Forensics & Incident Response</span></a></li>
+<li class="pentest"><a href="http://pen-testing.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/pentest.png" alt="pentest" /></span><span class="selector-title">Penetration Testing</span></a></li>
+<li class="ics"><a href="http://ics.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/ics.png" alt="ics" /></span><span class="selector-title">Industrial Control Systems</span></a></li>
+<li class="ssi"><a href="http://software-security.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/ssi.png" alt="ssi" /></span><span class="selector-title">Software Security</span></a></li>
+<li class="sic"><a href="http://sic.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/sic.png" alt="sic" /></span><span class="selector-title">Government Private Training</span></a></li>
+        </ul>
+    </li>
+</ul>
+</div><div class="top-menu">
+<!-- Begin Google Site Search -->
+<div class="search-form pull-right">
+<form action="http://www.sans.org/search/results" method="post" id="cse-search-box">
+<input type="hidden" name="_xsrf_token" value="29e74a93d8062ebb1cfd8d5bac5abbe9c8c4e3d8"  />
+<input type="text" id="q" name="q" value="" class="search-input" /><input id="search-button" type="image" title="Search" name="sa" value="Search" class="search-submit" src="/images/icons/custom/search.png" /><input type="text" id="_website" name="_website" value="" size="1" onchange="this.value=null" /></form>
+
+</div><!-- / .search-form -->
+
+
+
+    <div id="login-status" class="pull-right">
+
+        <ul class="dropdown user-menu">
+            
+            <li class="root-item"><a href="/account/login">Login</a><span class="hidden show-larger">&nbsp;&nbsp;</span></li><li class="root-item separate-item"><a href="/account/create">Create Account</a><span class="hidden show-larger">&nbsp;&nbsp;</span></li>        </ul>
+    </div>
+<div class="clear"></div>
+
+    <div class="collapse navbar-collapse" id="bs-main-navigation">
+<div id="main_navigation" class="nav navbar-nav pull-right">
+    <ul class="nav nav-pills dropdown">
+        <li class="root-item dropdown"><a href="/find-training/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Find Training</a>
+        <ul class="dropdown-menu" role="menu">
+            <li class="first"><a href="/find-training/">Search For Training</a></li>
+            <li><a href="/security-training/bylocation/">Upcoming Events</a></li>
+            <li><a href="/online-security-training/">Online Training</a>
+            <li><a href="/private-training/">Private Training</a></li>
+            <li><a href="/courses/">Course List</a>
+            <li><a href="/cyber-ranges/netwars/">NetWars</a></li>
+            <li><a href="/security-training/without-travel/">Without Travel</a>
+            <li class="last"><a href="/curricula/">Training Curricula <span class="hidden">&raquo;</span></a>
+                <ul class="dropdown-menu" role="menu">
+                                    <li class="first no-bottom-radius"><a href="/curricula/cyber-defense">Cyber Defense</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/system-administration">System Administration</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/digital-forensic-investigations-and-media-exploitation">Digital Forensic Investigations and Media Exploitation</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/penetration-testing">Penetration Testing</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/incident-response-and-threat-hunting">Incident Response and Threat Hunting</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/management">Management</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/secure-software-development">Secure Software Development</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/audit">Audit</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/intrusion-analysis">Intrusion Analysis</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/cyber-guardian">Cyber Guardian</a></li>
+                                    <li class="no-top-radius no-bottom-radius"><a href="/curricula/legal">Legal</a></li>
+                                    <li class="last no-top-radius"><a href="/curricula/industrial-control-systems">Industrial Control Systems</a></li>
+                                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li class="root-item dropdown"><a href="/security-training/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Live Training</a>
+        <ul class="dropdown-menu" role="menu">
+            <li class="first"><a href="/security-training/">Overview</a></li>
+            <li><a href="/find-training/live/">Search For Training</a></li>
+            <li><a href="/security-training/bylocation/">Upcoming Events</a></li>
+            <li><a href="/summit/">Summits</a></li>
+            <li><a href="/community/">Community Events</a></li>
+            <li><a href="/mentor/">Mentor</a></li>
+            <li><a href="/private-training/">Private Training</a></li>
+            <li><a href="/work-study/">Work Study</a></li>
+            <li class="last"><a href="/coins/">COINS</a></li>
+        </ul>
+    </li>
+
+    <li class="root-item dropdown"><a href="/online-security-training/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Online Training</a>
+        <ul class="dropdown-menu" role="menu">
+            <li class="first"><a href="/online-security-training/">Overview</a></li>
+            <li><a href="/find-training/online">Search For Training</a></li>
+            <li><a href="/ondemand/">OnDemand</a></li>
+            <li><a href="/vlive">vLive: Live Evening Courses</a></li>
+            <li><a href="/simulcast">Simulcast</a></li>
+            <li><a href="/selfstudy/">SelfStudy</a></li>
+            <li><a href="/netwars/continuous/">NetWars: Continuous</a></li>
+            <li><a href="/netwars/dfir-continuous/">DFIR NetWars: Continuous</a></li>
+            <li><a href="/private-training/online/">Private Training</a></li>
+            <li><a href="http://securingthehuman.sans.org">Security Awareness</a></li>
+            <li class="last"><a href="/online-security-training/specials/">Specials</a></li>
+        </ul>
+    </li>
+
+
+    <li class="root-item dropdown"><a href="/programs/"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Programs</a>
+        <ul class="dropdown-menu" role="menu">
+            <li class="first"><a href="/programs/">Overview</a></li>
+            <li><a href="/vouchers/">Voucher Program</a></li>
+            <li><a href="/cybertalent/">CyberTalent</a></li>
+            <li><a href="/industrial-control-systems/">ICS/SCADA</a></li>
+            <li><a href="/programs/industrials-and-infrastructure/">Industrials &amp; Infrastructure</a></li>
+            <li><a href="/cyber-guardian/">Cyber Guardian</a></li>
+            <li><a href="/netwars/">NetWars</a></li>
+            <li><a href="/cyber-innovation-awards/">Cybersecurity Innovation Awards</a></li>
+            <li><a href="/private-training/commercial-enterprise/">Commercial Enterprise Solutions</a></li>
+            <li><a href="/special/cissp-get-certified-program/">CISSP Get Certified</a></li>
+            <li ><a href="/8570/">DoDD 8570</a></li>
+            <li><a href="/dodd-8140/">DoDD 8140</a></li>
+            <li><a href="/teach/">Instructor Development</a></li>
+            <li class="last"><a href="/courses/niceframework/">NICE Framework</a></li>
+        </ul>
+    </li>
+
+    <li class="root-item dropdown"><a href="/security-resources/"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Resources</a>
+        <ul class="dropdown-menu" role="menu">
+            <li class="first"><a href="/security-resources/">Overview</a></li>
+            <li><a href="/reading-room/">Reading Room</a></li>
+            <li><a href="/webcasts/">Webcasts</a></li>
+            <li><a href="/newsletters/">Newsletters</a></li>
+            <li><a href="/security-resources/blogs">Blogs</a></li>
+            <li><a href="/tip_of_the_day.php">Tip of The Day</a></li>
+            <li><a href="/security-resources/posters/">Posters</a></li>
+            <li><a href="/top25-software-errors/">Top 25 Programming Errors</a></li>
+            <li><a href="/critical-security-controls/">The Critical Security Controls</a></li>
+            <li><a href="/security-resources/policies/">Security Policy Project</a></li>
+            <li><a href="/security-resources/vendor_directory/">From Vendors</a></li>
+            <li><a href="/security-resources/">Additional Resources</a></li>
+            <li><a href="/critical-vulnerability-recaps">Critical Vulnerability Recaps</a></li>
+            <li class="last"><a href="/security-resources/affiliate-directory">Affiliate Directory</a></li>
+        </ul>
+    </li>
+
+    <li class="root-item dropdown"><a href="/vendor/" class="vendor menu-vendor dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Vendor</a>
+         <ul class="dropdown-menu" role="menu">
+            <li class="first"><a href="/vendor/">Overview</a></li>
+            <li><a href="/vendor/sponsorship/">Sponsorship</a></li>
+            <li><a href="/vendor/demographics/">Demographics</a></li>
+            <li><a href="/vendor/analyst-program/">Analyst Program</a></li>
+            <li><a href="/vendor/affiliate-program/">Affiliate Program</a></li>
+            <li><a href="/vendor/webcasts/">Webcasts</a></li>
+            <li><a href="/vendor/events/">Events</a></li>
+            <li><a href="/vendor/whatworks">WhatWorks</a></li>
+            <li><a href="/vendor/critical-security-controls">CIS Critical Security Controls</a></li>
+            <li class="last"><a href="/vendor/contact/">Contact</a></li>
+        </ul>
+    </li>
+
+    <li class="root-item dropdown"><a href="/about/" class="about menu-about dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About</a>
+        <ul class="last-menu dropdown-menu" role="menu">
+            <li class="first"><a href="/about/">About SANS</a></li>
+            <li><a href="/about/why-sans/">Why SANS?</a></li>
+            <li><a href="/instructors/">Instructors</a></li>
+            <li><a href="/about/contact/">Contact</a></li>
+            <li><a href="/about/faq/">FAQ</a></li>
+            <li><a href="/about/link-to-sans/" rel="nofollow">Link to SANS</a></li>
+            <li><a href="/press/">Press Room</a></li>
+            <!--<li><a href="/about/careers/">Careers</a></li>-->
+            <li class="last"><a href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;search=0xA1694E46" rel="nofollow">PGP Key</a></li>
+        </ul>
+    </li>
+    </ul><!-- / .dropdown -->
+</div><!-- #main_navigation -->
+</div>
+
+                </div><!-- end .top-menu -->
+                <div class="clear"></div><!-- end .clear -->
+            </div><!-- end .header-->
+        </div><!--  end .container -->
+    <!-- Header -->
+    <div id="ribbon" class="container-fluid">
+        <div class="container">
+                            <h1 class="with_tagline"> Pen Test Austin 2017</h1>
+                <span id="ribbon_tagline">Austin, TX | Mon, Mar 27, 2017 - Sat, Apr 1, 2017</span>                                    
+                    </div><!-- end .top-text -->
+            </a>    </div><!-- END RIBBON -->       
+    <div class="container top-buffer bottom-buffer">
+        <div id="mobile-register" class="bottom-buffer">
+                          <div class="sidebarBlurb ">
+                  <div id="countdown_section" class="countdown">
+				<span class="countdown_days">Event starts in 37 Days </span></div><a class="register-now-button countdown_button" href="/registration/register.php?conferenceid=45572"><span> </span></a>                  </div>
+                <hr>
+        </div>
+<!-- middle -->
+    <div class="middle row">
+      <!-- content -->
+      <div class="wrapper col-md-9">
+        <div id="" class="content">
+                <div id="new-slider" class="event_slider">
+        <div class="well">  <div class="row no-left-border">      <div class="col-md-5">          <img src="/images/locations/us/tx/austin//sheraton-austin-hotel-at-the-capitol/PenTest-Austin-2017.jpg" alt="Welcome to  Pen Test Austin 2017" class="image-border">      </div>      <div class="col-md-7">          <h1>Welcome to  Pen Test Austin 2017</h1><ul>  <li>10 courses</li>  <li>10 instructors</li>  <li>1 disciplines</li></ul>      </div>  </div></div>    </div>
+
+
+    <div class="clear">&nbsp;</div>
+    <div class="alert alert-info">
+        <div>
+            <a href="/registration/register.php?conferenceid=45572">Save 200&nbsp;USD! Enter discount code "EarlyBird17" and pay for any 4-6 day course by February 22.</a>        </div>
+    </div>
+
+<div class="clear">&nbsp;</div>
+<div id="event_homepage_welcome">
+            <p><strong>Penetration Testing, Ethical Hacking, and Exploit Development training is coming to Austin, TX from SANS Institute</strong>, the global leader in information security training. </p> 
+<p>"Hackers" - individuals who enjoy the intellectual challenge of creatively overcoming and circumventing limitations of systems to achieve novel and clever outcomes.</p>
+<p>If this sounds like you, you can't afford to miss SANS Pen Test Austin 2017. There will be six-days of nonstop in-depth hands-on ethical hacking, penetration testing, and exploit development training.  </p>
+<p>Every organization needs skilled people who know how to find vulnerabilities, understand risk, and help prioritize resources based on mitigating potential real-world attacks. That's what SANS Pen Test Austin is all about! If you like to break things, put them back together, find out how they work, and mimic the actions of real-world bad guys, all the while providing real business value to your organization, then this event is exactly what you need.</p>
+<p>This SANS training event isn't just for penetration testers & red team members; it is for any information security professional who wants to understand the mindset, tools, and techniques used by the ones who intrude where they don't belong.</p>
+<p>What's special about SANS Pen Test Austin?</br>
+<ul><li><strong>SANS Training:</strong> Learn hands-on skills that you can directly apply the day you get back to your job. Courses are for every level of information security practitioner, from SEC401 (Introductory) to SEC660 (Advanced Pen Test).</li>
+<li><strong>The NetWars Experience (version 4.0):</strong> Enjoy three exciting nights of the SANS NetWars Experience, where you can have some fun while building serious InfoSec skills.</li>
+<li><strong>Coin-A-Palooza:</strong> Earn up to five additional SANS Pen Test Challenge Coins (each with an integrated cipher challenge) based on your performance in the SANS NetWars Experience! </li>
+<li><strong>SANS CyberCity Missions:</strong> Hone your skills as you protect the fictional citizens of CyberCity from the threat of nefarious cyber-attackers insides this real physical model city. You'll see what it looks like to hack a modern city.</li>
+<li><strong>Much more...</strong></li></ul></p>
+<p>I urge you to check out all the great stuff we are offering at this event. It's a truly special SANS training experience, and I hope to see you there!</br></br>
+Ed Skoudis</br>
+SANS Pen Test Curriculum Lead</p>
+        <ul><li>Learn about how you can <a href="/event/pentest2017/attend-remotely">attend remotely</a>.</li></ul></div>
+    <div class="panel panel-default panel-table">
+        <div class="panel-heading">
+            <h5>Available Courses</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th>Title</th>
+                    <th>Certification</th>
+                    <th>Instructor</th>
+                </tr>
+                                    <tr>
+                        <td class="table_data table_data_title corner_new">
+                                                            
+                                <span class="course_status"> <span class="course-list-label label label-warning">New</span></span>
+                                                        <a href="/event/pentest2017/course/advanced-web-app-penetration-testing-ethical-hacking">SEC642: Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques</a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <div class="event-empty-data">&mdash;</div>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/adrien-de-beaupre">Adrien de Beaupre</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/security-essentials-bootcamp-style">SEC401: Security Essentials Bootcamp Style</a>                                                            <div class="course_list_simulcast">
+                                    <small><a href="/event/pentest2017/attend-remotely" class="icon_right">Simulcast Available<span class="icon-arrow-right"></span></a></small>
+                                </div>
+                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <span class="event-courses-block"><a href="http://www.giac.org/certification/gsec">GSEC</a></span>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/keith-palmgren">Keith Palmgren</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/hacker-techniques-exploits-incident-handling">SEC504: Hacker Tools, Techniques, Exploits, and Incident Handling</a>                                                            <div class="course_list_simulcast">
+                                    <small><a href="/event/pentest2017/attend-remotely" class="icon_right">Simulcast Available<span class="icon-arrow-right"></span></a></small>
+                                </div>
+                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <span class="event-courses-block"><a href="http://www.giac.org/certification/gcih">GCIH</a></span>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/donald-williams">Donald Williams</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/web-app-penetration-testing-ethical-hacking">SEC542: Web App Penetration Testing and Ethical Hacking</a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <span class="event-courses-block"><a href="http://www.giac.org/certification/gwapt">GWAPT</a></span>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/eric-conrad">Eric Conrad</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/active-defense-offensive-countermeasures-and-cyber-deception">SEC550: Active Defense, Offensive Countermeasures and Cyber Deception</a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <div class="event-empty-data">&mdash;</div>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/chris-pizor">Chris Pizor</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/network-penetration-testing-ethical-hacking">SEC560: Network Penetration Testing and Ethical Hacking</a>                                                            <div class="course_list_simulcast">
+                                    <small><a href="/event/pentest2017/attend-remotely" class="icon_right">Simulcast Available<span class="icon-arrow-right"></span></a></small>
+                                </div>
+                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <span class="event-courses-block"><a href="http://www.giac.org/certification/gpen">GPEN</a></span>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/ed-skoudis">Ed Skoudis</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/cybercity-hands-on-kinetic-cyber-range-exercise">SEC562: CyberCity Hands-on Kinetic Cyber Range Exercise </a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <div class="event-empty-data">&mdash;</div>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/tim-medin">Tim Medin</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/wireless-ethical-hacking-penetration-testing-defenses">SEC617: Wireless Ethical Hacking, Penetration Testing, and Defenses</a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <span class="event-courses-block"><a href="http://www.giac.org/certification/gawn">GAWN</a></span>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/james-leytevidal">James Leyte-Vidal</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/advanced-penetration-testing-exploits-ethical-hacking">SEC660: Advanced Penetration Testing, Exploit Writing, and Ethical Hacking</a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <span class="event-courses-block"><a href="http://www.giac.org/certification/gxpn">GXPN</a></span>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/stephen-sims">Stephen Sims</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/product/942">Core NetWars Experience</a> - <small style='color:#9B1E2D'><em>Add-on</em></small> <br /><strong><small>(FREE with any 4-6 Day SANS Course Registration)</small></strong>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <div class="event-empty-data">&mdash;</div>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/tim-medin">Tim Medin</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/product/3190">NetWars - CyberCity</a> - <small style='color:#9B1E2D'><em>Add-on</em></small> <br /><strong><small>(FREE with any 4-6 Day SANS Course Registration)</small></strong>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <div class="event-empty-data">&mdash;</div>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/tim-medin">Tim Medin</a><br />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="table_data table_data_title">
+                                                        <a href="/event/pentest2017/course/physical-security-specialist-full-comprehensive-edition">HOSTED: Physical Security Specialist - Full Comprehensive Edition</a>                                                    </td>
+                        <td class="table_data table_data_cert">
+                                                            <div class="event-empty-data">&mdash;</div>
+                                                    </td>
+                        <td class="table_data table_data_instructor" nowrap="nowrap">
+                            <a href="/event/pentest2017/instructors/the-core-group">The CORE Group</a><br />                        </td>
+                    </tr>
+                            </table>
+        </div></div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <!--/ content -->
+
+      <!-- right navi -->
+      <div class="navigation col-md-3 padding-fix">
+<div class="clear"></div>
+
+        <div class="widget widget_pages">
+                                    <div  id="ribbon-icon" class="ribbon-icon-training">
+                    <a href="/event/pentest2017"><span> Pen Test Austin 2017</span></a>                </div>
+                            </a>
+          <div class="sidebarBlurb ">
+          <div id="countdown_section" class="countdown">
+				<span class="countdown_days">Event starts in 37 Days </span></div><a class="register-now-button countdown_button" href="/registration/register.php?conferenceid=45572"><span> </span></a>          </div>
+<div class="clear"></div>
+<ul class="list-unstyled"><li class="active"><a href="/event/pentest2017/">Event Home</a></li><li><a href="/event/pentest2017/location/">Location</a></li><li><a href="/event/pentest2017/attend-remotely/">Attend Remotely</a></li><li><a href="/event/pentest2017/courses/">Courses / Prices</a></li><li><a href="/event/pentest2017/schedule/">Schedule</a></li><li><a href="/event/pentest2017/instructors/">Instructors</a></li><li><a href="/event/pentest2017/exhibitors/">Exhibitors</a></li><li><a href="/event/pentest2017/attendee-info/">Attendee Info</a></li></ul>
+        </div>
+
+          <!-- widget: random blurb -->
+          <div class="sidebarBlurb ">
+                    </div>
+          <div class="sidebarBlurb ">
+          <div class="widget_box widget_box_alt2">
+    <span class="widget_box_icon icon-download-alt"></span><h5 class="widget_box_title h4 top-buffer">Downloads</h5>
+    <div class="clear"></div>
+
+    <ul><li><a href="https://www.sans.org/event-downloads/45572/brochure.pdf" target="_blank">Event Brochure</a></li></ul></div>
+          </div>
+          <div class="sidebarBlurb ">
+                    </div>
+          <div class="sidebarBlurb ">
+          <div class="widget_box">
+    <span class="widget_box_icon icon-share-alt"></span>
+    <h5>Share</h5>
+    <ul class="share list-inline">
+        <li><a href="https://plusone.google.com/_/+1/confirm?hl=en&url=https://www.sans.org/event/pentest2017" target="_blank"><img src="/images/icons/social-media/share/google-plus.png" /></a></li>
+        <li><a href="https://twitter.com/share?url=https://www.sans.org/event/pentest2017" target="_blank"><img src="/images/icons/social-media/share/twitter.png" /></a></li>
+        <li><div class="share_facebook_btn"><a href="http://www.facebook.com/sharer.php?u=https://www.sans.org/event/pentest2017" target="_blank"><img src="/images/icons/social-media/share/facebook.png" /></a></div></li>
+        <li><script type="text/javascript" src="https://platform.linkedin.com/in.js"></script><script type="in/share"></script></li>
+    </ul>
+        <div class="clear"></div>
+</div>
+          </div>
+          <div class="sidebarBlurb ">
+          <div class="widget_quote">
+    <blockquote>
+        <p>We just purchased Securing the Human, which I think is the best I have ever seen. In addition it's backed up by SANS extensive experience and knowledge base in infosec.<br /><cite>- Karen McDowell</cite></p>    
+    </blockquote>    
+</div>
+          </div>
+          <div class="sidebarBlurb ">
+                    </div>
+          <!-- /widget: random blurb -->
+
+          <!-- widget: ad -->
+          <!-- /widget: ad -->
+
+
+
+      </div>
+      <!--/ right navi -->
+      <div class="clear"></div>
+      <div class="middle-bot">
+            </div>
+      <div class="clear"></div>
+    </div>
+    <!--/ middle -->
+    </div>
+</div><!-- end .body -->
+<!-- Bottom Content -->
+<div id="pre_footer" class="bottom-content">
+<div class="container">
+<div class="row">
+<div class="footer-column col-md-4">
+<h5>Latest Whitepapers</h5>
+        <p><a href="/reading_room/whitepapers/bestprac/indicators-compromise-teslacrypt-malware_37622">Indicators of Compromise TeslaCrypt Malware</a><br />By Kevin Kelly</p>
+        <p><a href="/reading_room/whitepapers/threats/devsecops-approach-securing-code-cloud_37597">The DevSecOps Approach to Securing Your Code and Your Cloud</a><br />By Dave Shackleford</p>
+        <p><a href="/reading_room/whitepapers/threats/plc-device-security-tailoring_37612">PLC Device Security - Tailoring needs</a><br />By Wen Chinn Yew</p>
+        <p><a href="/reading_room/">Last 25 Papers &raquo;</a></p>
+</div>
+
+<div class="footer-column col-md-4">
+<h5>Latest Tweets @SANSInstitute</h5><p><a href="https://twitter.com/sansinstitute/statuses/832976805711773696">SANS Newsletters keep you informed on #infosec news, attacks [...]</a><br>February 18, 2017 - 3:35 PM</p><p><a href="https://twitter.com/sansinstitute/statuses/832788030457016320">2 HOURS to @RobertMLee webcast Analyzing the Enhanced Analys [...]</a><br>February 18, 2017 - 3:05 AM</p><p><a href="https://twitter.com/sansinstitute/statuses/832707520309366788">Cloud-based or in-house #SOC? Tell us what you think in the  [...]</a><br>February 17, 2017 - 9:45 PM</p></div>
+
+<div class="footer-column col-md-4">
+<h5>Contact Us</h5>
+        <p>301-654-SANS(7267)<br />
+        Mon-Fri 9am - 8pm EST/EDT<br />
+        <a href="mailto:info@sans.org">info@sans.org</a></p>
+        </div>
+</div>
+<div class="clear"></div>
+<div class="footer-quote-box row">
+<div class="col-md-4"><p>"It was a great learning experience that helped open my eyes wider. The instructor's knowledge was fantastic."<br />- Manuja Wikesekera, Melbourne Cricket Club</p></div>
+<div class="col-md-4"><p>"SANS is a great place to enhance your technical and hands-on skills and tools. I thoroughly recommend it."<br />- Aaron Waugh, Datacom NZ Ltd</p></div>
+<div class="col-md-4"><p>"Expertise of the trainer is impressive, real life situations explained, very good manuals. Best training ever!"<br />- Jerry Robles de Medina, Godo CU</p></div>
+</div>
+
+</div>
+</div><!-- end .bottom-content -->
+<!-- Footer -->
+<div id="footer">
+    <div class="container">
+        <img src="/images/design-site/logo-footer.png" alt=" Pen Test Austin 2017 (Austin, TX)" class="logo-footer pull-left" />
+
+        <div id="site-selector-footer" class="pull-left"><ul class="site-selector ssno-js">
+    <li class="site-switcher"><a href="#"><span class="hideme hidden">SANS Site Network</span><span class="fa fa-caret-square-o-down fa-lg hideme"></span></a>
+        <ul class="sites">
+            <li class="current-site">Current Site</li><li class="sans selector-active"><a href="http://www.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/sans.png" alt="sans" /></span><span class="selector-title">Security Training</span></a></li>
+<li class="selector-help">Choose a different site <a href="/help/site-network"><span class="hideme">Help</span></a></li><li class="giac"><a href="http://www.giac.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/giac.png" alt="giac" /></span><span class="selector-title">Security Certification</span></a></li>
+<li class="isc"><a href="http://isc.sans.edu"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/isc.png" alt="isc" /></span><span class="selector-title">Internet Storm Center</span></a></li>
+<li class="sti"><a href="http://www.sans.edu"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/sti.png" alt="sti" /></span><span class="selector-title">Graduate Degree Programs</span></a></li>
+<li class="awareness"><a href="http://securingthehuman.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/awareness.png" alt="awareness" /></span><span class="selector-title">Security Awareness Training</span></a></li>
+<li class="cyber-defense"><a href="http://cyber-defense.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/cyber-defense.png" alt="cyber-defense" /></span><span class="selector-title">Cyber Defense</span></a></li>
+<li class="forensics"><a href="http://digital-forensics.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/forensics.png" alt="forensics" /></span><span class="selector-title">Forensics & Incident Response</span></a></li>
+<li class="pentest"><a href="http://pen-testing.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/pentest.png" alt="pentest" /></span><span class="selector-title">Penetration Testing</span></a></li>
+<li class="ics"><a href="http://ics.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/ics.png" alt="ics" /></span><span class="selector-title">Industrial Control Systems</span></a></li>
+<li class="ssi"><a href="http://software-security.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/ssi.png" alt="ssi" /></span><span class="selector-title">Software Security</span></a></li>
+<li class="sic"><a href="http://sic.sans.org"><span class="selector-image"><img src="/images/design/custom/site-selector/site-icons/sic.png" alt="sic" /></span><span class="selector-title">Government Private Training</span></a></li>
+        </ul>
+    </li>
+</ul>
+</div>
+                <div class="latest-icons pull-left" style="margin-left: 150px;">
+                            <a href="http://twitter.com/sansinstitute" target="_blank"><img src="/images/design/custom/icons/twitter-icon.png" alt="Twitter" /></a>
+                <a href="https://www.linkedin.com/company/14104" target="_blank"><img src="/images/design/custom/icons/linkedin-icon.png"/></a>
+                <a href="https://www.facebook.com/pages/SANS-Institute/173623382673767" target="_blank"><img src="/images/design/custom/icons/facebook-icon.png" alt="Facebook" /></a>
+                        <a href="http://www.sans.org/rss.php"><img src="/images/design/custom/icons/rss-icon.png" alt="RSS" /></a>
+        </div><!-- end .latest-icons -->
+        
+        <div class="bottom-nav align-right pull-right">
+            <ul>
+                                    <li><a href="/find-training/">Find Training</a></li>
+                    <li><a href="/security-training/">Live Training</a></li>
+                    <li><a href="/online-security-training/">Online Training</a></li>
+                    <li><a href="/programs/">Programs</a></li>
+                    <li><a href="/security-resources.php">Resources</a></li>
+                    <li><a href="/vendor/">Vendor</a></li>
+                    <li class="last"><a href="/about/">About</a></li>
+                            </ul>
+            <ul class="copyright align-right">
+                <li><a href="/privacy/">Privacy Policy</a></li>
+                <li><a href="http://www.sans.org/trademarkuse.pdf">Trademark Usage Policy</a></li>
+                <li><a href="/site-credits">Credits</a></li>
+                <li class="last">&copy; 2000-2017 SANS&trade; Institute</li>
+            </ul>
+        </div><!-- end .bottom-nav align-right-->
+    </div><!-- end .container-->
+</div><!-- end .footer-->
+</body>
+</html>

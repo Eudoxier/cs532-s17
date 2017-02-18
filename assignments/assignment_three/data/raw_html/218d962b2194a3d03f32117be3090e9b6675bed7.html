@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fullstack Vulnerability Management, edgescan vulnerability management solution</title>
+        <meta name="description", content="edgescan is a cloud-based continuous vulnerability management and penetration testing solution. It is a highly accurate SaaS (Security-as-a-Service) solution which helps clients to discover and manage application and network vulnerabilities (full-stack information security) on an ongoing basis.">
+        <meta name="keywords" content="Managed Security Service, Computer Security, Network Security, Information Security, Vulnerability Management, Network Vulnerability, Vulnerability Scanning, Application Vulnerabilities, Vulnerability Testing, Penetration testing, Website Vulnerability, Software Vulnerability, Online Vulnerability, Vulnerability Assessment, Service Vulnerabilities, Owasp Vulnerabilities, Security Risk, Vulnerability Database, Website Security, Internet Security, Pen Test, Web Vulnerability Scanner, Online Vulnerability Tools, On Demand Vulnerability Assessment, Security Assessment, vulnerability assessment report, vulnerability assessment companies, external vulnerability assessment, whitehat testing, SQL Injection, XSS, it application security, whitehat security, Continuous Vulnerability Management, Full-Stack (Security), False-Positive Free, Hybrid Cloud-Based, Security as a Service, Managed Security Service, OWASP, Deep-Dive Pentest">
+
+        <!--bootstrap3 css-->
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--ion icon fonts css-->
+        <link href="assets/icons/css/ionicons.css" rel="stylesheet">
+        <!--custom css-->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <!--flex slider css-->
+        <link href="assets/css/flexslider.css" rel="stylesheet">
+        <!--animated  css-->
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <!-- custome styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/custom-style.css">
+        <!-- mobile phone rules -->
+        <link rel="stylesheet" type="text/css" href="assets/css/custom-mobile-style.css">
+        <!-- clouds css rules -->
+        <link rel="stylesheet" type="text/css" href="assets/css/clouds.css">
+        <!-- stats report css rules -->
+        <link rel="stylesheet" type="text/css" href="assets/css/overlay.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <!-- Favicon links -->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Favicon links end -->
+
+        <!-- Captcha google link -->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <!-- Google analytics code -->
+        <script>
+
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-47258384-1', 'auto');
+
+          ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+
+        <header class="header-main">
+            <div class="top-bar">
+
+                <div class="container">
+                    <ul class="info list-inline pull-left hidden-xs" id="topbar-contact-details">
+                        <li><a class="hover-color_1">info@edgescan.com</a></li>
+                        <li><a class="hover-color_1" id="phone-number"> +353 (1) 681 5330</a></li>
+                    </ul>
+                    <div class="pull-right">
+                        <ul class="info list-inline">
+                            <li><span id="newsletter-request-button">Sign up for newsletter</span></li>
+                            <li>
+                                <form class="form-inline" id="newsletter-form" method="post">
+                                  <div class="form-group">
+                                    <button type="button" id="close-nl-form"><span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" name="FNAME" id="mce-FNAME" placeholder="First name*">
+                                  </div>
+                                   <div class="form-group">
+                                    <input type="text" class="form-control" name="LNAME" id="mce-LNAME" placeholder="Last name*">
+                                  </div>
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your email*">
+                                  </div>
+                                  <button type="submit" class="btn btn-white btn-xs" id="send-request">Sign up</button>
+                                  <div class="form-group">
+                                    <span class="hidden-lg clearfix"></span>
+                                  </div>
+                                </form>
+                                <div id="newsletter-response"></div>
+                            </li>
+                            <li id="topbar-login"><a href="https://live.edgescan.com/" class="hover-color_1"><i class="ion-man"></i> Login</a></li>
+                        </ul>
+                    </div>
+                </div><!--container end-->
+            </div><!--topbar end-->
+            <div class="navbar navbar-inverse sticky-nav sticky" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand hidden-xs hidden-sm hidden-md" href="index.php" id="logo-image"><img src="assets/img/logo/logo-desktop.png" class="img-responsive hidden-xs hidden-sm hidden-md" alt="edgescan logo"></a>
+                        <a class="navbar-brand hidden-lg" href="index.php" id="logo-image"><img src="assets/img/logo/logo-mobile.png" class="img-responsive hidden-lg" alt="edgescan logo" id="responsive-logo"></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="index.php#home">Home</a>
+        </li>
+        <li>
+          <a href="index.php#approach">Approach</a>
+        </li>
+        <li>
+          <a href="edgescan-features.php">Features</a>
+        </li>
+        <li>
+          <a href="cloud-security.php">Cloud Security</a>
+        </li>
+        <li><a href="index.php#solutions">Solutions</a></li>
+        <li>
+          <a href="resources.php">Resources</a>
+        </li>
+        <li><a href="contact.php">Contact Us</a></li>
+        <li><a href="our-team.php">Our Team</a></li>
+        <li class= "dropdown">
+            <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">More <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="awards.php">Awards</a></li>
+                <li><a href="careers.php">Careers</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="partners.php">Partners</a></li>
+                <!-- <li><a href="testimonials.php">Testimonials</a></li> -->
+                <li><a href="https://live.edgescan.com/" target="_blank">Login</a></li>
+            </ul>
+        </li>
+    </ul>
+</div><!--/.nav-collapse -->
+                </div><!--/.container-->
+            </div><!--navigation end-->
+
+        <script type="text/javascript" src="https://secure.leadforensics.com/js/75620.js" ></script> <noscript><img src="https://secure.leadforensics.com/75620.png" style="display:none;" /></noscript>
+</header><!--header main end-->
+        <section id="slider-sec" class="slider-reg">
+            <div class="main-flex-slider" id="home">
+                <ul class="slides">
+                   <!--  <li>
+                        <figure>
+                            <img src="assets/img/bcc/radar_image_pristine_nologos.jpg" class="img-responsive" id="main-image" alt="edgescan radar image">
+                            <figcaption class="slider-overlay col-lg-12 col-sm-12 col-md-12 col-xs-12 ">
+                                <div class="slider-text animated fadeInDown" id="main-image-text">
+
+                                    <h1 id="title">edgescan&#8482 Managed Security Service</h1>
+                                    <h3 id="main-message" class="hidden-xs hidden-sm ">
+
+                                    </h3>
+
+                                    <p class="slide-btn hidden-sm" id="main-buttons">
+                                        <a href="30_day_trial.php" class="btn btn-info btn-lg" id="main-button">Free 30 day trial</a>
+                                        <a href="request_demo.php" class="btn btn-info btn-lg" id="main-button">Request a demo</a>
+                                    </p>
+                                  </div>
+
+                            </figcaption>
+                        </figure>
+                    </li> -->
+                    <li>
+                        <figure>
+                            <div>
+                                <img src="assets/img/bcc/background-pristine-1.jpg" class="img-responsive" alt="edgescan Fullstack Vulnerability Management">
+                                <!-- <figcaption class="slider-overlay col-lg-12 col-sm-12 col-md-12 col-xs-12 ">
+                                    <div class="slider-text animated fadeInDown" id="main-image-text">
+
+                                    </div>
+                                </figcaption> -->
+                            </div>
+                            <div id="overlay-text">
+                                <img src="assets/img/bcc/hype-cycle-text-overlay.png" class="img-responsive" alt="edgescan Managed Security Service">
+                            </div>
+                        </figure>
+                    </li>
+                    <!-- <li>
+                        <figure>
+                            <img src="assets/img/bcc/radar_image_pristine_nologos.jpg" class="img-responsive" alt="slider-img-1">
+                            <figcaption class="slider-overlay">
+                                <div class="slider-text">
+                                    <h1>Perfect for Small Projects</h1>
+                                    <p>
+
+                                    </p>
+                                    <p class="slide-btn"><a href="#" class="btn btn-white btn-lg">Contact us</a></p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </li> -->
+                </ul>
+            </div>
+        </section><!--main flex slider end-->
+        <div id="stats-report" class="wow animated">
+          <h3>
+            <span class="label label-danger " id="stats-badge">
+                2016 edgescan Stats Report
+                <span id="stats-subtitle">
+                  click to view:
+                  <a class="stats-anchor" href="assets/docs/reports/2016-edgescan-stats-infographic.pdf">infographic</a> | <a class="stats-anchor" href="assets/docs/reports/2016-edgescan-stats-report.pdf">full report</a>
+                </span>
+            </span>
+          </h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="space-30"></div>
+                <div class="col-lg-12 text-center hidden-xs hidden-md hidden-sm">
+                    <h1 id='hidden-title'>edgescan - Fullstack Vulnerability Management
+                    </h1>
+                    <h4>
+                        edgescan&trade; provides unparalleled vulnerability management &amp; system visibility.
+                        <div class="space-10"></div>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-9 text-left">
+                          <div class="space-10"></div>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> Continuous security testing<br/>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> "Full-stack coverage" - Web applications/sites &amp; hosting /cloud environments<br/>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> False positive-free results<br/>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> Highly Customisable reporting<br/>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> 24/7 Governance Risk and Compliance Metrics<br/>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> Continuous system visibility<br/>
+                          <span class="ion-checkmark-round half-size-glyphicon"></span> Alerting &amp; a Super Rich API for painless integration<br/>
+                        </div>
+
+                    </h4>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center hidden-lg">
+                    <h1 id='hidden-title'>edgescan<br /> Managed Security Service
+                    </h1>
+                    <h4>
+                        edgescan&trade; provides unparalleled vulnerability management &amp; system visibility.
+                        <div class="space-10"></div>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> Continuous security testing<br/>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> "Full-stack coverage" - Web applications/sites &amp; hosting /cloud environments<br/>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> False positive-free results<br/>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> Highly Customisable reporting<br/>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> 24/7 Governance Risk and Compliance Metrics<br/>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> Continuous system visibility<br/>
+                        <span class="ion-checkmark-round half-size-glyphicon"></span> Alerting &amp; a Super Rich API for painless integration<br/>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div  id="approach" class="space-70"></div>
+        <section id="content-region-red">
+            <div class="conatiner">
+                <div class="row">
+                    <div  id="approach" class="space-70"></div>
+                    <div class="col-lg-12 text-center wow animated fadeInUp" id="white-text">
+                        <h1>The edgescan vulnerability management approach</h1>
+                        <div class="space-20"></div>
+                            <h4>
+                              edgescan&trade; delivers a unique service combining fullstack vulnerability management, asset profiling, alerting and risk metrics.<br />
+                              The on-demand service approach maps to modern agile development and devops approaches to system development:
+                              <div class="space-20"></div>
+                              <ul>
+                                <li><i class="ion-android-arrow-dropright half-size-glyphicon"></i> Frequent/continuous assessments</li>
+                                <li><i class="ion-android-arrow-dropright half-size-glyphicon"></i> Expert validation of all discovered security issues</li>
+                                <li><i class="ion-android-arrow-dropright half-size-glyphicon"></i> Bug tracking Integration via our API</li>
+                                <li><i class="ion-android-arrow-dropright half-size-glyphicon"></i> WAF rule generation & SEIM Integration</li>
+                              </ul>
+                            </h4>
+                        </div>
+                    <div class="space-30"></div>
+                    <div class="col-lg-6 col-lg-offset-3 col-md-4 col-md-offset-4" id="approach-image">
+                        <img src="assets/img/diagrams/edgescan_approach_800wide.png" class="img-responsive" id="classification-image-1" alt="edgescan approach">
+                    </div>
+                    <div class="col-lg-2 col-md-2"></div>
+                </div>
+            </div>
+            <div class="space-70"></div>
+        </section>
+        <section> <!-- main benefits section -->
+          <div class="container">
+              <div class="row">
+                  <div class="space-50"></div>
+                  <div class="text-center">
+                      <h1>Main benefits</h1>
+                  </div>
+                  <div class="space-10"></div>
+                  <div class=" col-sm-4">
+                      <div class="services-box">
+                          <i class="ion-pinpoint"></i>
+                          <h3>Accuracy</h3>
+                          <h5 class="text-justify">
+                              edgescan security analysts are experts in vulnerability management and penetration testing. They manually verify all discovered security vulnerabilities, so our clients benefit from accurate (false positive free) vulnerability intelligence.
+                          </h5>
+                      </div>
+                  </div><!--services box-->
+                  <div class="col-sm-4">
+                      <div class="services-box">
+                          <i class="ion-ios-infinite"></i>
+                          <h3>Continuity</h3>
+                          <h5 class="text-justify">
+                              edgescan provides continuous or on-demand security assessments in a production safe manner so you can be assured your business is getting the coverage as required.
+                          </h5>
+                      </div>
+                  </div><!--services box-->
+                  <div class=" col-sm-4">
+                      <div class="services-box">
+                          <i class="ion-social-euro"></i>
+                          <h3>Cost Benefits</h3>
+                          <h5 class="text-justify">
+                              edgescan is a managed security service provider (MSSP) that can save your business significant costs. With edgescan, there is no need for hiring and training additional security staff, and no need to purchase further hardware or software licenses.
+                          </h5>
+                      </div>
+                  </div><!--services box-->
+                  <div class="space-30"></div>
+                  <div class="text-center">
+                    <a href="edgescan-features.php" class="btn btn-sm btn-red btn-radius">Check our awesome features</a>
+                  </div>
+              </div><!--row end-->
+          </div>
+        </section> <!-- main benefits section ends -->
+        <div class="space-30"></div>
+        <section id="content-region-red"> <!-- help you with section starts -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow animated fadeInUp" id="white-text">
+                        <div class="space-50"></div>
+                        <div>
+                            <h2>edgescan can help you with</h2>
+                        </div>
+                        <div class="space-10"></div>
+                        <div class="row">
+                            <div class="col-md-3 services-icon">
+                                <i class="ion-android-lock medium-size-icon"></i>
+                                <div class="space-10"></div>
+                                <h3 class="">Data Protection</h3>
+                                <h4>
+                                    Protecting client's data, reputation, financial, privacy, intellectual property (IP).
+                                </h4>
+                            </div>
+                            <div class="col-md-3 services-icon">
+                                <i class="ion-android-checkbox-outline medium-size-icon"></i>
+                                <div class="space-10"></div>
+                                <h3 class="">Compliance</h3>
+                                <h4>
+                                    edgescan helps you to comply with auditing and compliance standards (ISO 27001, PCI, etc.).
+                                </h4>
+                            </div>
+
+                            <div class="col-md-3 services-icon">
+                                <i class="ion-android-contacts medium-size-icon"></i>
+                                <div class="space-10"></div>
+                                <h3 class="">Productivity</h3>
+                                <h4>
+                                    edgescan helps you to free up security staff to focus on other issues.
+                                </h4>
+                            </div>
+                            <div class="col-md-3 services-icon">
+                                <i class="ion-flash medium-size-icon"></i>
+                                <div class="space-10"></div>
+                                <h3 class="">Speed</h3>
+                                <h4>
+                                    edgescan enables you to react quickly to security threats, by knowing what issues you face.
+                                </h4>
+                            </div>
+                        </div><!--services list-->
+                    </div>
+                    <div class="space-50"></div>
+                </div>
+            </div>
+        </section> <!-- help you with section ends -->
+
+        <section>
+            <div class="space-70"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow animated fadeInUp">
+                        <h1>Continuous vulnerability management by edgescan</h1>
+                        <div class="space-20"></div>
+                          <div class="col-md-5">
+                            <img src="assets/img/diagrams/how_it_works_800wide.png" class="img-responsive" id="main-image" alt="How it works">
+                          </div>
+                          <div class="col-md-1"></div>
+                          <div class="col-md-6">
+                            <div class="space-20"></div>
+                            <h5 class="text-justify">
+                              <ul>
+                                <li>
+                                    Our expert security analysts on-board, enumerate and prioritise your assets (e.g. websites, mobile applications, web applications, cloud applications, endpoints  &amp; hosting servers) into edgescan.
+                                </li>
+                                <div class="space-20 hidden-xs hidden-sm"></div>
+                                <li>
+                                    We perform continuous vulnerability assessments of all assets, as much or as little as you require.  edgescan  assessments cover both technical to logical testing and cover all OWASP vulnerabilities, WASC threat classification and CWE known vulnerabilities. edgescan also aligns and surpasses PCI compliance requirements. (<a href="#solutions">Click here</a> for the full list of edgescan’s vulnerability licensing types.)
+                                </li>
+                                <div class="space-20 hidden-xs hidden-sm"></div>
+                                <li>
+                                    False Positive Free: Manual verification by our expert security analysts ensures that all application and network vulnerabilities found are verified as real and ranked by security risk. This procedure allows for a false positive free vulnerability intelligence for all assets.
+                                </li>
+                                <div class="space-20 hidden-xs hidden-sm"></div>
+                                <li>
+                                    The edgescan online portal provides 24/7 visibility of security metrics, trending data, key performance indicators (KPI's) and enables users to generate custom reports to manage and remediate cybersecurity risk. Our fully extensible API provides users with the ability to integrate edgescan vulnerability intelligence into any GRC or bug tracking system.
+                                </li>
+                                <div class="space-20 hidden-xs hidden-sm"></div>
+                                <li>
+                                    Ultimately, edgescan users benefit from continuous vulnerability management, asset visibility and security intelligence.
+                                </li>
+                              </ul>
+                            </h5>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="space-50"></div>
+        <section> <!-- middle call to action buttons section  -->
+            <div class="cta-bg">
+                <div class="container">
+                    <div class=" text-center" id="action-buttons">
+                        <a href="request_demo.php" class="btn btn-sm btn-white btn-radius">Request a demo</a>
+                        <div class="hidden-lg hidden-sm hidden-md space-10"></div>
+                        <a href="30_day_trial.php" class="btn btn-sm btn-white btn-radius">30 Days Free Trial</a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- middle call to action buttons section ends -->
+        <section id="video">
+            <div class="container">
+                <div class="row">
+                    <div class="space-50"></div>
+                    <div class="col-md-12 text-center" id="homepage-video">
+                        <!-- <img src="assets/img/bcc/edgescan-process.jpg" class="img-responsive" alt="edgescan process"> -->
+                        <div class="responsive-container">
+                            <iframe src="https://player.vimeo.com/video/107716874" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <div class="space-20"></div>
+                        View more videos and screencasts<a href="resources.php" class="social-nav"> <i class=
+                            "ion-social-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="space-70"></div>
+        <section id="content-region-1" class="padding-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 features text-center">
+                      <h1>Why choose a managed security service like edgescan</h1>
+                      <div class="space-10"></div>
+                      <h3>edgescan provides an active vulnerability management solution</h3>
+                      <div class="space-10"></div>
+                      <div class="col-md-12 text-justify">
+                        <h5>
+                            edgescan offers outstanding support in relation to vulnerability management. This includes integration with SIEM and GRC solutions (via an open XML API), mobile application support, reporting and metrics on demand.
+                        </h5>
+                        <h5>
+                            Being a SaaS (Security-as-a-Service ) solution, edgescan is highly scalable. Our managed security service implements proprietary delta-analysis algorithms which give the ability to deliver accurate results and trending information coupled with risk metrics.
+                        </h5>
+                        <h5>
+                            Our blending of sensible security metrics, ease of use and filtering within the client’s portal makes it easy for a client even with a large amount of assets under management to view the most important cyber risks facing them.
+                        </h5>
+                      </div>
+                      <div class="space-70"></div>
+                      <h1>The portal</h1>
+                      <h5>
+                        The edgescan online portal allows users to quickly view their security posture as well as asset performance over time. Clients can generate useful reports, from executive summaries to detailed technical reports with remediation advice.
+                      </h5>
+                      <div class="space-70"></div>
+                      <section id="screenshots">
+                          <div class="col-lg-4 col-sm-12 col-md-12" id="screenshots-div">
+                              <!-- was enlarge -->
+                              <img src="assets/img/user_portal/assets.png" class="img-responsive" id="main-image" alt="edgescan assets screen">
+                          </div><!--services box-->
+                          <div class="col-xs-12 hidden-lg"><br /></div>
+                          <div class="col-lg-4 col-sm-12 col-md-12" id="screenshots-div">
+                              <!-- was enlarge1 -->
+                              <img src="assets/img/user_portal/dashboard.png" class="img-responsive" id="main-image" alt="edgescan dashboard screen">
+                          </div><!--services box-->
+                          <div class="col-xs-12 hidden-lg"><br /></div>
+                          <div class="col-lg-4 col-sm-12 col-md-12" id="screenshots-div">
+                              <!-- was enlarge2 -->
+                              <img src="assets/img/user_portal/reports.png" class="img-responsive" id="main-image" alt="edgescan reports customisation">
+                          </div><!--services box-->
+                      </section> <!-- screenshots section ends -->
+                      <div class="space-70"></div>
+
+                    </div>
+                </div>
+            </div><!--container-->
+            <div class="space-70"></div>
+        </section><!--features end-->
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="space-70"></div>
+                    <div class="text-center">
+                      <h1>Choose a plan to suit your needs</h1>
+                    </div>
+                    <h4 class="text-center">Choose edgescan <span id="red-text"><a href="index.php#solutions">standard</a></span> for full-stack vulnerability assessments with manual verification. For additional deep dive penetration tests, talk to us about edgescan <span id="yellow-text"><a href="index.php#solutions">advanced</a></span></h4>
+                    <div class="space-40"></div>
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <div class="text-center">
+                        <img src="assets/img/diagrams/indepth_process_Updated.png" class="img-responsive" id="main-image" alt="Indepth process">
+                      </div>
+                    </div><!--services box-->
+                </div>
+            </div>
+            <div class="space-70"></div>
+        </section>
+
+        <section id="solutions">
+            <div class="space-70"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">edgescan solutions</h1>
+                    </div>
+                </div>
+                <div class="space-30"></div>
+                <div class="row">
+                    <div class="col-md-4 margin-btm-20 hidden-xs hidden-sm">
+                        <div class="pricing-wrapper">
+                            <div class="pricing-head">
+                                <h3>What do we offer</h3>
+                            </div>
+                            <div class="pricing-desc">
+                                <ul class="list-unstyled text-center" id="big-icons">
+                                    <li><span class="solutions-text" id="medium-mobile-text">On Demand Testing</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">SANS Top 20/WASC/OWASP </span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Zero False Positive</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">App. Vuln Assessment</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Net. Vuln Assessment</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Manual Validation</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Robust API</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Secure Datacentres</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Engineer Support</span></li>
+                                    <li><span class="solutions-text" id="medium-mobile-text">Deep Dive Pen Testing*</span></span></li>
+                                </ul>
+                            </div>
+                        </div><!--pricing wrapper-->
+                    </div><!--pricing col end-->
+
+                    <div class="col-md-4 margin-btm-20">
+                        <div class="pricing-wrapper">
+                            <div class="pricing-head">
+                                <h3>edgescan&#8482 <span id="red-text">standard</span></h3>
+                            </div>
+                            <div class="pricing-desc">
+                                <ul class="list-unstyled text-center" id="big-icons">
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">On Demand Testing </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">SANS Top 20 / WASC / OWASP </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Zero False Positive </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">App. Vuln Assessment </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Net. Vuln Assessment </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Manual Validation </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Robust API </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Secure Datacentres </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Engineer Support </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Deep Dive Pen Testing* </span><i class="ion-ios-close text-danger"></i></li>
+                                </ul>
+                            </div>
+                            <div class="pricing-select">
+                                <a href="contact.php" class="btn theme-btn-default btn-lg">Enquire </a>
+                            </div>
+                        </div><!--plans wrapper-->
+                    </div><!--plans col end-->
+                    <div class="col-md-4 margin-btm-20">
+                        <div class="pricing-wrapper">
+                            <div class="pricing-head">
+                                <h3>edgescan&#8482 <span id="yellow-text">advanced</span></h3>
+                            </div>
+                            <div class="pricing-desc">
+                                <ul class="list-unstyled text-center" id="big-icons">
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">On Demand Testing </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">SANS Top 20 / WASC / OWASP </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Zero False Positive </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">App. Vuln Assessment </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Net. Vuln Assessment </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Manual Validation </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Robust API </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Secure Datacentres </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Engineer Support </span><i class="ion-ios-checkmark text-success"></i></li>
+                                    <li><span class="hidden-lg hidden-md plans-text-mobile">Deep Dive Pen Testing* </span><i class="ion-ios-checkmark text-success"></i></li>
+                                </ul>
+                            </div>
+                            <div class="pricing-select">
+                                <a href="contact.php" class="btn theme-btn-color btn-lg">Enquire </a>
+                            </div>
+                        </div><!--plans wrapper-->
+                    </div><!--plans col end-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 text-justify">
+                                *Deep Dive Pen Testing includes: Behavioural and business logic testing, State logic weaknesses, Horizontal and Vertical Authorisation, Authentication logic testing, Session management bypass, Anti-Automation Controls, Weak Password recovery, Brute Force and Reverse Brute force resiliency.
+                            </div>
+                        </div>
+                    </div>
+                </div><!--plans 3 col row end-->
+            </div><!--plans work container end-->
+        </section> <!-- plans non mobile ends -->
+        <div class="space-70"></div>
+        <section id="edgescan-approach">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10" id="classification-image">
+                        <img src="assets/img/diagrams/classification_new.png" class="img-responsive" id="classification-image-1" alt="edgescan classification">
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section> <!-- clasification section ends -->
+
+       <!--  <div class="space-70"></div>
+        <section id="content-region-2" class="padding-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="testimonials">
+                            <ul class="slides">
+                                <li>
+                                    <p class="testi-text">"edgescan gave us the ability to detect and quickly remediate security vulnerabilities across our entire public Internet Facing estate.
+                                    We love the support and the fact that the findings reported are all accurately risk rated and the service is virtually false positive free."<p>
+                                        <span class="testi-person">Head of Information Security – Online & Retail - Paddy Power  </span>
+                                </li>
+                                <li>
+                                    <p class="testi-text">"edgescan did displace a competing solution in Paddy Power and notably, identified a large number of application security issues that previously where only identified by our SAST tool and not the product EdgeScan displaced."<p>
+                                        <span class="testi-person">IS Manager EU financial institution </span>
+                                </li>
+                                <li>
+                                    <p class="testi-text">"The trending data and vulnerability history helped us focus on where our development practices were weak..."<p>
+                                        <span class="testi-person">Social Networking Company, UK  </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> --> <!--testimonials section end here-->
+        <div class="space-50"></div>
+        <section> <!-- last buttons section  -->
+            <div class="cta-bg">
+                <div class="container">
+                    <h3 class="text-center"><span id="to-lowercase">edgescan</span>, your SaaS Managed Security Service
+                    </h3>
+                    <div class="space-30"></div>
+                    <div class=" text-center" id="action-buttons">
+                        <a href="request_demo.php" class="btn btn-sm btn-white btn-radius">Request a demo</a>
+                        <div class="hidden-lg hidden-sm hidden-md space-10"></div>
+                        <a href="30_day_trial.php" class="btn btn-sm btn-white btn-radius">30 Days Free Trial</a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- last buttons section ends -->
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 margin-btm-20">
+                        <!-- <div class="footer-col">
+                            <h3>edgescan&#8482</h3>
+                            <p>
+                                Your digital security radar.
+                            </p>
+                        </div>
+                        <div class="space-20"></div> -->
+                        <div class="footer-col">
+                            <h3>contact info</h3>
+<p><i class="ion-home"></i> <small>ADDRESS</small>
+  <br>Unit 701 Northwest Business Park
+  <br>Ballycoolin
+  <br>Dublin 15
+  <br>Ireland
+</p>
+<p>
+  =<i class="ion-android-call"></i> <small>PHONE</small>
+  <br><i>For sales, support or general queries.</i>
+
+  <br>IRL: +353 (0) 1 6815330
+  <br>UK: +44 (0) 203 807 3933
+  <br>US: +1 646 506 4977
+
+</p>
+<p><i class="ion-email"></i> <small>EMAIL</small>
+  <br><i>Sales and general enquiries</i>
+  <br><a href="mailto:info@edgescan.com">info@edgescan.com</a>
+  <br><i>Edgescan support</i>
+  <br><a href="mailto:shout@edgescan.com">shout@edgescan.com</a>
+</p>
+                            <!-- <h3>contact info</h3>
+                            <p><i class="ion-home"></i> Unit 701, Northwest Business Park, Ballycoolin, Dublin 15, Ireland.</p>
+                            <p><i class="ion-android-call"></i> +353 (1) 681 5330</p>
+                            <p>Sales and general enquiries:<br>
+                              <i class="ion-email"></i> info@edgescan.com
+                            </p>
+                            <p>Edgescan support:<br>
+                              <i class="ion-email"></i> shout@edgescan.com
+                            </p> -->
+                        </div>
+                        <div class="space-20"></div>
+                        <div class="footer-col">
+                            <h3>Follow us</h3>
+                            <ul class=" list-inline social-btn">
+                                <li><a href="https://twitter.com/edgescan?lang=en"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On twitter"></i></a></li>
+                                <li><a href="https://plus.google.com/112754528064247428670/posts"><i class="ion-social-googleplus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On googleplus"></i></a></li>
+                                <li><a href="http://ie.linkedin.com/company/edgescan-com"><i class="ion-social-linkedin" data-toggle="tooltip" data-placement="top" title="" data-original-title="linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCrrQUsWz-ssMdmq2m6LSywQ"><i class="ion-social-youtube" data-toggle="tooltip" data-placement="top" title="" data-original-title="Visit our Youtube channel"></i></a></li>
+                            </ul>
+                        </div><!--footer social col-->
+                    </div><!--col-4 end-->
+                    <div class="col-md-5 margin-btm-20">
+                        <div class="footer-col">
+                            <h3>Latest blog posts &amp news</h3>
+                            <ul class="post-list list-unstyled">
+                              <li><a href="ruby-secure-coding-workshop.php">Ruby secure coding <span class="label label-success label-as-badge"> New!</span></a></li>
+                              <li><a href="hard-to-port.php" class="hover-color">Rahim Jina @ Appsec Cali 2016  <span class="label label-danger label-as-badge"> Free training material!</span></a></li>
+                              <li><a href="appsec-cali-2016-slides.php" class="hover-color">Eoin Keary @ Appsec Cali 2016  <span class="label label-danger label-as-badge"> Free training material!</span></a></li>
+                              <li><a href="resources.php" class="hover-color">Global Gambling Company - Case Study <span class="label label-success label-as-badge"> New!</span></a></li>
+                              <li><a href="resources.php" class="hover-color">Global Telecom Company - Case Study <span class="label label-success label-as-badge"> New!</span></a></li>
+                              <li><a href="continuous-asset-profiling.php" class="hover-color">Continuous Asset Profiling</a></li>
+                              <li><a href="http://ekeary.blogspot.ie/2015/10/security-done-wrong-and-blowing.html" class="hover-color">Security Done Wrong And Blowing The Budget </a></li>
+                              <li><a href="daggercon-slides.php" class="hover-color">Eoin Keary @ Daggercon 2015 <span class="label label-danger label-as-badge"> Free training material!</span></a></li>
+                            </ul>
+                        </div>
+                    </div><!--latest post col end-->
+                    <div class="col-md-3">
+                        <div class="footer-col">
+                            <h3>Partners</h3>
+                            <ul class="post-list list-unstyled">
+                                <li><a href="partners.php" class="hover-color">Accutech</a></li>
+                                <li><a href="partners.php" class="hover-color">Amazon Web Services</a></li>
+                                <li><a href="partners.php" class="hover-color">Arkphire</a></li>
+                                <li><a href="partners.php" class="hover-color">Avantgarde</a></li>
+                                <li><a href="partners.php" class="hover-color">Checkmarx</a></li>
+                                <li><a href="partners.php" class="hover-color">Continuum Security</a></li>
+                                <li><a href="partners.php" class="hover-color">Ixtel</a></li>
+                                <li><a href="partners.php" class="hover-color">PlanetVerify</a></li>
+                                <li><a href="partners.php" class="hover-color">RealServe IT</a></li>
+                                <li><a href="partners.php" class="hover-color">SendSafely</a></li>
+                                <li><a href="partners.php" class="hover-color">Shepard</a></li>
+                                <li><a href="partners.php" class="hover-color">Securestorm</a></li>
+                                <li><a href="partners.php" class="hover-color"><span class="become-partner">Become a partner</span></a></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="footer-col">
+                            <h3>Get in touch</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Name...">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Email...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" placeholder="Subject...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" placeholder="Massage..." rows="7"></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-right">
+                                        <button type="submit" class="btn btn-lg btn-white">Send massege</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div> -->
+                    </div><!--get in touch col end-->
+                </div><!--footer main row end-->
+                <div class="row">
+                    <div class="col-md-12 text-center footer-bottom">
+                        <a href="index.php"> <img src="assets/img/logo/logo-desktop.png" alt="Edgescan Logo"></a>
+                        <div class="space-20"></div>
+                        <span>&copy;2016 all rights reserved. | <a href="privacy_policy.php" class="hover-color">Privacy Statement</a> | <a href="sitemap.php" class="hover-color">Site Map</a></span>
+                        <div class="space-20"></div>
+                    </div>
+                </div><!--footer copyright row end-->
+            </div><!--container-->
+        </div><!--footer main end-->
+
+        <!--scripts-->
+        <script src="assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.easing.1.3.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.sticky.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.mixitup.min.js" type="text/javascript"></script>
+        <script src="assets/js/wow.min.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script>
+        <script src="assets/js/custom-scripts.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/newsletter.js" type="text/javascript"></script>
+        <script src="assets/js/overlay.js" type="text/javascript"></script>
+    </body>
+</html>

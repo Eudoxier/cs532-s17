@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html class="no-js" lang="nl" prefix="og: http://ogp.me/ns#">
+<head>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+      var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WHCLJL');
+    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="cookieName" content="pol_cookies">
+  <meta name="cookiebarName" content="pol_cookiebar">
+
+  <meta name="theme-color" content="#004682">
+  <link rel="shortcut icon" type="image/x-icon" href="/politie2014/img/favicon-16.ico">
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="/politie2014/img/favicon-16.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/politie2014/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/politie2014/img/favicon-64.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/politie2014/img/touch-icon-60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/politie2014/img/touch-icon-76.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/politie2014/img/touch-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/politie2014/img/touch-icon-152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/politie2014/img/touch-icon-180.png">
+
+  <meta name="apple-itunes-app" content="app-id=765547809">
+  <script type="text/javascript">
+    window.oldScroll = window.scrollTo;
+    window.scrollTo = function() {
+      return false
+    };
+  </script>
+<meta name="google-play-app" content="app-id=nl.politie.consumentenapp">
+  <link rel="stylesheet" href="/politie2014/css/lib/jquery-smartbanner-cb260079.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="/politie2014/css/base-cb260079.css">
+  <link rel="stylesheet" href="/politie2014/css/forms-cb260079.css"/>
+
+  <script src="/politie2014/js/lib/modernizr/modernizr-cb260079.js"></script>
+
+  <script type="text/javascript">if (typeof j1452754987 === 'undefined') {
+    j1452754987 = {};
+}
+if (typeof j1452754987.k1452754987 === 'undefined') {
+    j1452754987.k1452754987 = {};
+}
+
+j1452754987.k1452754987.AsyncPage = {
+
+    load : function() {
+        var result, divs, i, length;
+        result = [];
+
+        if (document.getElementsByClassName) {
+            result = document.getElementsByClassName('l1452754987Async');
+        } else {
+            divs = document.getElementsByTagName('div');
+            for (i = 0, length = divs.length; i < length; i++) {
+                if (divs[i].className === 'l1452754987Async') {
+                    result.push(divs[i]);
+                }
+            }
+        }
+
+        /**
+         * Identify if the <code>script</code> node contains executable scripts.
+         * @param script
+         * @returns {boolean}
+         */
+        function isExecutableScript(script) {
+            var TEXT_JAVASCRIPT = "text/javascript",
+                APP_JAVASCRIPT = "application/javascript",
+                supportedScripts = [TEXT_JAVASCRIPT, APP_JAVASCRIPT],
+                scriptType = TEXT_JAVASCRIPT;
+
+            // default script type is text/javascript in HTML5
+            if (script.hasAttribute('type')) {
+                scriptType = script.getAttribute('type').toLowerCase();
+            }
+            // find the script type in the list (case insensitive)
+            if (Array.prototype.indexOf){
+                return supportedScripts.indexOf(scriptType) > -1;
+            } else { // IE8 or less
+                for (var i = 0, length = supportedScripts.length; i < length; i++) {
+                    if (scriptType === supportedScripts[i]){
+                        return true;
+                    }
+                }
+                return false;
+            }
+        }
+
+        // Find all script elements, extract them from the fragment and store
+        // them into a new array. Cloning the nodes does not work as the script
+        // will not be executed that way, so we have to clone them manually.
+        function extractScriptNodes(fragment) {
+            var i, j, length, node, nodes, script, scripts, atts;
+
+            atts = ['async', 'charset', 'defer', 'src', 'type'];
+            scripts = fragment.querySelectorAll('script');
+            nodes = [];
+
+            for (i = 0, length = scripts.length; i < length; i++) {
+                script = scripts[i];
+                // Only extract executable scripts, i.e "text/javascript"
+                if (isExecutableScript(script)) {
+                    node = document.createElement('script');
+                    if (window.addEventListener) {
+                        node.appendChild(document.createTextNode(script.innerHTML));
+                    } else { // IE8 or less
+                        node.text = script.innerHTML;
+                    }
+                    for (j = 0; j < atts.length; j++) {
+                        if (script.hasAttribute(atts[j])) {
+                            node.setAttribute(atts[j], script.getAttribute(atts[j]));
+                        }
+                    }
+                    script.parentNode.removeChild(script);
+                    nodes.push(node);
+                }
+            }
+            return nodes;
+        }
+
+        // If next is undefined, simply append the nodes to the parent,
+        // otherwise insert the nodes before the reference node
+        function insertScriptNodes(nodes, parent, reference) {
+            var i, length;
+            for (i = 0, length = nodes.length; i < length; i++) {
+                if (reference) {
+                    parent.insertBefore(nodes[i], reference);
+                } else {
+                    parent.appendChild(nodes[i]);
+                }
+            }
+        }
+
+        for (i = 0, length = result.length; i < length; i++) {
+            (function(element) {
+                this.sendRequest(element.id, function(xmlHttp) {
+                    var fragment, tmpDiv, parent, scriptNodes, next;
+
+                    // Convert the responseText into HTML nodes
+                    tmpDiv = document.createElement('div');
+                    if (window.addEventListener) {
+                        tmpDiv.innerHTML = xmlHttp.responseText;
+                    } else { // IE8 or less
+                        // If firstChild is a script/style element IE will
+                        // ignore it, so we add a textNode first, then 
+                        // immediately remove it again and IE will show the 
+                        // script/style elements 
+                        tmpDiv.innerHTML = '<span>&#160;</span>' + xmlHttp.responseText;
+                        tmpDiv.removeChild(tmpDiv.firstChild);
+                    }
+
+                    // Move the nodes into a fragment
+                    fragment = document.createDocumentFragment();
+                    while (tmpDiv.firstChild) {
+                        fragment.appendChild(tmpDiv.firstChild);
+                    }
+
+                    // Extract the script nodes so we can re-insert and execute
+                    // them after the DOM has been updated with the new HTML
+                    scriptNodes = extractScriptNodes(fragment);
+
+                    // Save a reference to the parent and the next sibling
+                    parent = element.parentNode;
+                    next = element.nextSibling;
+
+                    // Update the DOM
+                    parent.replaceChild(fragment, element);
+
+                    // Insert the script nodes
+                    insertScriptNodes(scriptNodes, parent, next);
+                });
+            }).call(this, result[i]);
+        }
+    },
+
+    sendRequest : function(url, callback) {
+        var xmlHttpRequest;
+        try {
+            xmlHttpRequest = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+            xmlHttpRequest.open("GET", url, true);
+            xmlHttpRequest.onreadystatechange = function () {
+                if (xmlHttpRequest.readyState !== 4) {
+                    return;
+                }
+                if (xmlHttpRequest.status !== 200 && xmlHttpRequest.status !== 304) {
+                    return;
+                }
+                callback(xmlHttpRequest);
+            };
+
+            xmlHttpRequest.send();
+        } catch (e) {
+            if (typeof window.console !== 'undefined') {
+                if (typeof console.error !== 'undefined') {
+                    console.error(e.name + ": " + e.message);
+                } else if (typeof console.log !== 'undefined') {
+                    console.log(e.name + ": " + e.message);
+                }
+            }
+        }
+    }
+};
+</script>
+<meta content="De officiële website van de Nederlandse politie met informatie over de organisatie, nieuws, politiebureaus, wijkagenten, opsporing en tips." name="description" property="og:description"/>
+<title>Politie.nl </title>
+<meta content="summary" name="twitter:card"/>
+<meta content="https://www.politie.nl/politie2014/img/politie-embleem.png" property="og:image"/>
+<meta content="https://www.politie.nl/" property="og:url"/>
+<meta content="Politie.nl" property="og:title"/>
+<meta content="article" property="og:type"/>
+<script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-49802090-1', 'auto');
+    
+    ga('send', 'pageview');
+    </script>
+</head>
+<body>
+
+<noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WHCLJL"
+              height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+  <div id="cookie-bar" class="hide">
+  <div class="body-push-cookie-bar"></div>
+  <div class="cookie-bar">
+    <div class="row">
+      <div class="small-9 medium-11 columns">
+        <span class="cookie-message">Door deze website te gebruiken accepteert u de cookies zoals beschreven in het&nbsp;<a href="/algemeen/cookies.html" tabindex="1">cookiebeleid</a>&nbsp;</span>
+      </div>
+      <div class="small-3 medium-1 columns text-right">
+        <button class="block btn btn-primary" tabindex="2" data-action="cookie.bar">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="wrapper">
+  <header class="row" id="header" role="banner">
+    <!--[if lt IE 9]>
+<div id="browser-waarschuwing">Deze site is gebouwd met HTML5. Gebruik een moderne browser om de site te zien zoals deze bedoeld is.</div>
+<noscript>Deze site is gebouwd met HTML5. Gebruik een moderne browser of zet Javascript aan om de site te zien zoals deze bedoeld is.<br/> Internet Explorer 8 is van voor de invoering van HTML5. De ontbrekende functionaliteit wordt op deze site ingevuld met JavaScript.</noscript>
+<![endif]-->
+
+<div>
+  <div id="skiplinks">
+    <span class="visuallyhidden" id="skiplinks-label">Snellinks</span>
+    <div aria-labelledby="skiplinks-label">
+      <a href="#ga-naar-content">Ga naar content</a>
+      <a href="#ga-naar-hoofdmenu">Ga naar hoofdmenu</a>
+    </div>
+  </div>
+
+  <div id="/_hn:component-rendering%7Cr133_r7_r2" style="display:none;" class="l1452754987Async"></div><div id="/_hn:component-rendering%7Cr133_r7_r1" style="display:none;" class="l1452754987Async"></div><div class="clearfix">
+    <div class="show-for-large-up shadow-lichtblauw-background" id="branding">
+      <div class="large-4 columns" id="header-left">
+          <div class="slogan-regel">Bij spoed: <a href="tel:112">112</a></div>
+          <div class="slogan-regel">Geen spoed: <a href="tel:0900-8844">0900-8844</a></div>
+      </div>
+
+      <div class="large-4 columns text-center" id="header-center">
+        <a href="/" rel="home">
+          <img class="logo" src="/politie2014/img/politie_logo.svg" alt="Logo Politie">
+        </a>
+      </div>
+
+      <div class="large-4 columns right clearfix" id="header-right">
+
+        <div class="right content-gutter topmenu-wrapper">
+          <div id="/_hn:component-rendering%7Cr133_r7_r3" style="display:none;" class="l1452754987Async"></div></div>
+
+        <form class="right content-gutter" id="search-form-global" method="get" role="search" action="/zoek">
+          <label class="visuallyhidden" id="search-form-global-query-label" for="searchinput">Zoekopdracht</label>
+          <input id="searchinput" name="query" type="text" title="Zoeken" placeholder="Zoek..."  maxlength="200">
+          <input class="visuallyhidden" id="search-button" type="submit" value="Zoeken">
+          <button class="button" type="submit"><span class="visuallyhidden">Zoeken</span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-header">
+    <div class="shadow-lichtblauw-background">
+      <nav id="main-nav" class="top-bar clearfix" role="navigation" aria-labelledby="hoofdnavigatie-label" data-topbar>
+        <a id="ga-naar-hoofdmenu" class="visuallyhidden" href="javascript:void(0);">Ga naar hoofdmenu</a>
+        <span id="hoofdnavigatie-label" class="visuallyhidden">Hoofdnavigatie</span>
+
+        <ul class="title-area content-gutter">
+          <li class="name small-3 medium-4 columns">
+            <div class="show-for-medium-only">
+                <div class="slogan-regel">Bij spoed: <a href="tel:112">112</a></div>
+                <div class="slogan-regel">Geen spoed: <a href="tel:0900-8844">0900-8844</a></div>
+            </div>
+            <div class="show-for-small-only">
+              <div class="mobile-search" id="j--mobile-search"></div>
+            </div>
+          </li>
+
+          <li class="mobile-center-header-column small-6 medium-4 columns text-center hide-for-large-up">
+            <a href="/" rel="home">
+              <img class="logo" src="/politie2014/img/politie_logo.svg" alt="Logo Politie">
+            </a>
+          </li>
+
+          <li class="mobile-right-header-column small-3 medium-4 columns text-center clearfix">
+            <div class="toggle-topbar right menu"><button class="toggle-topbar-button" data-open="menu" data-close="sluiten">menu</button></div>
+            <div class="show-for-medium-only right">
+              <div class="mobile-search"></div>
+            </div>
+
+          </li>
+        </ul>
+
+        <div class="top-bar-section clearfix shadow-lichtblauw-background">
+            <ul class="left" role="menu">
+              <li role="menuitem" class="shadow-blauw-background z-index-99 active"> <a href="/">Home</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-98"> <a href="/aangifte-of-melding-doen">Aangifte of melding doen</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-97"> <a href="/mijn-buurt">Mijn buurt</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-96"> <a href="/nieuws">Nieuws</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-95"> <a href="/gezocht-en-vermist">Gezocht &amp; Vermist</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-94"> <a href="/themas">Thema’s</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-93"> <a href="/over-de-politie">Over de politie</a></li>
+              <li role="menuitem" class="shadow-blauw-background z-index-92"> <a href="/contact">Contact</a></li>
+              <li role="menuitem" class="mijnpolitie-menu-item hide-for-large-up shadow-blauw-background z-index-85 clearfix">
+                  <div id="/_hn:component-rendering%7Cr133_r7_r4" style="display:none;" class="l1452754987Async"></div></li>
+              </ul>
+          </div>
+        </nav>
+    </div>
+
+    <div class="content-gutter" id="mobile-tablet-search">
+      <form method="get" role="search" action="/zoek">
+
+        <label class="visuallyhidden" for="mobile-searchinput">Zoekopdracht</label>
+        <input id="mobile-searchinput" name="query" type="text" title="Zoeken" placeholder="Zoek..." maxlength="200">
+        <input class="visuallyhidden" type="submit" value="Zoeken">
+
+        <button class="button" type="submit"><span class="visuallyhidden">Zoeken</span></button>
+      </form>
+    </div>
+  </div>
+
+  <div class="show-for-small-only slogan-bar shadow-lichtblauw-background content-gutter">
+    Bij spoed: <a href="tel:112">112</a>. Geen spoed: <a href="tel:0900-8844">0900-8844</a></div>
+</div>
+</header>
+
+  <main class="row" id="main-content" aria-labelledby="page-content-title" role="main">
+    <a id="ga-naar-content" class="visuallyhidden" href="javascript:void(0);">Ga naar content</a>
+    <div class="columns" id="homepage">
+  <h1 class="visuallyhidden" id="page-content-title">Politie.nl</h1>
+  <div class="row" id="mijn-buurt-blok">
+    <div class="medium-6 large-4 columns">
+      <div class="blok-blauw row">
+        <div class="columns shadow-blauw-background">
+          <a href="/aangifte-of-melding-doen">
+  <section id="aangifte-melding">
+    <h2 class="h1">Aangifte of melding doen</h2>
+  </section>
+</a>
+</div>
+
+        <div class="columns">
+          <a href="/contact">
+  <section id="contact">
+    <h2 class="h1">Contact</h2>
+  </section>
+</a>
+</div>
+      </div>
+    </div>
+    <div class="medium-6 large-8 columns" id="mijn-buurt">
+      <section class="row">
+        <h2 class="visuallyhidden">Mijn Buurt</h2>
+        <form method="get" action="/mijn-buurt" id="mijn-buurt-form">
+          <div class="large-6 columns" id="mijn-buurt-label">
+            <label class="h1" for="geoquery">Alle informatie over uw buurt</label>
+          </div>
+
+          <div class="small-9 large-5 columns" id="mijn-buurt-zoeken">
+            <input id="geoquery" name="geoquery" type="text" placeholder="Postcode of plaatsnaam..." />
+            <button type="button" data-resultfield-id="geoquery" data-submit-on-success="true" class="j--get-geolocation postfix-geolocation hide-for-large-up"><span class="visuallyhidden">Zoek vanaf uw huidige locatie</span></button>
+          </div>
+          <div class="small-3 large-1 columns" id="mijn-buurt-zoeken-knop">
+            <button class="button" type="submit">Zoek</button>
+          </div>
+          <input type="hidden" id="distance" name="distance" value="" />
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <div class="row gutter">
+    <section class="large-8 columns clearfix" id="nieuws">
+      <h2 class="blok-onderkant-1">Nieuws</h2>
+
+      <ul class="small-block-grid-1 medium-block-grid-2">
+  <li>
+      <a href="/nieuws/2017/februari/18/07-politie-kijkt-tevreden-terug-op-blauwe-dag-oud-delfshaven.html" title="Meer informatie over 'Politie kijkt tevreden terug op Blauwe Dag Oud-Delfshaven'">
+        <article class="custom-row" aria-labelledby="headline-nieuws-1">
+          <div class="custom-push-column-down">
+            <h3 id="headline-nieuws-1">Politie kijkt tevreden terug op Blauwe Dag Oud-Delfshaven</h3>
+            <p>Rotterdam - Zichtbaar zijn en veelvoorkomende problemen aanpakken. Met meer dan honderd agenten en...</p>
+          </div>
+
+          <div class="image-container">
+              <img src="/binaries/w400h225/content/gallery/politie/nieuws/2017/februari/07-rt/blauwe-dag-delfshaven-controle-autos.jpg" alt="" />
+            </div>
+          </article>
+      </a>
+    </li>
+  <li>
+      <a href="/nieuws/2017/februari/18/06-delft-overval-supermarkt.html" title="Meer informatie over 'Overval supermarkt'">
+        <article class="custom-row" aria-labelledby="headline-nieuws-2">
+          <div class="custom-push-column-down">
+            <h3 id="headline-nieuws-2">Overval supermarkt</h3>
+            <p>Delft - Een nog onbekende man overviel vrijdag 17 februari om 23.50 uur een supermarkt aan de Oostsingel. De...</p>
+          </div>
+
+          <div class="image-container">
+              <img src="/binaries/w400h225/content/gallery/politie/nieuws/2015/juli/07-rt/wapen-1.jpg" alt="" />
+            </div>
+          </article>
+      </a>
+    </li>
+  </ul>
+<a class="more" href="/nieuws">Meer nieuws</a>
+    </section>
+
+    <section class="large-4 columns" id="banner">
+      <h2 class="blok-onderkant-1">Uitgelicht</h2>
+
+      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-1">
+    <li class="blok-onderkant-1">
+        <h2 class="visuallyhidden"></h2>
+
+  <figure class="overlay-container shadow-white-background">
+    <a href="/mijn-buurt/lokale-initiatieven/07-rotterdam/wat-ze-ook-verzinnen.html" title="Meer informatie over ''">
+      <img alt="" src="/binaries/w375h150/content/gallery/politie/mijn-buurt/bannerimages/07-rotterdam/banner-andre-van-duin.png" height="150" width="375" aria-describedby="banner-6d14d46c4ecc4e57b79e34555d16cb3e"/>
+      <div class="overlay"><div class="panel" id="banner-6d14d46c4ecc4e57b79e34555d16cb3e"><p class="h2">Campagne</p><p class="h2">Babbeltrucs</p></div></div></a>
+  </figure>
+</li>
+    <li class="blok-onderkant-1">
+        <h2 class="visuallyhidden">Themapagina stroomstootwapen</h2>
+
+  <figure class="overlay-container shadow-white-background">
+    <a href="/themas/stroomstootwapen.html" title="Meer informatie over 'Themapagina stroomstootwapen'">
+      <img alt="Proef gestart met stroomstootwapen" src="/binaries/w375h150/content/gallery/politie/mijn-buurt/bannerimages/00-korpsmedia/stroomstootwapen.jpg" height="150" width="375" aria-describedby="banner-d1d7270c78994a07a07ec34b75ce5ab6"/>
+      <div class="overlay"><div class="panel" id="banner-d1d7270c78994a07a07ec34b75ce5ab6"><p class="h2">Stroomstootwapen</p></div></div></a>
+  </figure>
+</li>
+    </ul>
+</section>
+  </div>
+
+  <div class="row">
+    <section class="medium-6 large-4 columns gutter" id="gezocht">
+      <h2 class="blok-onderkant-1">Gezocht</h2>
+      <ul class="small-block-grid-1 image-block-grid">
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/gezochte-personen/2017/februari/10-straatroof-op-bejaarde-dame.html" title="Meer informatie over 'Straatroof op bejaarde dame'">
+          <article class="imagelist" role="article" aria-labelledby="gezocht-listing-1">
+  <h3 id="gezocht-listing-1">Straatroof op bejaarde dame</h3>
+
+    <p>Brunssum</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/gezocht/verdachten/2017/februari/10-lg/10-straatroof-hoefnagelshof-brunssum/straatrover-brunssum-1.jpg" alt="Straatroof op bejaarde dame"/>
+    </article></a>
+      </li>
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/gezochte-personen/2017/februari/02-oon/winkeldiefstal-met-geweld.html" title="Meer informatie over 'Winkeldiefstal met geweld'">
+          <article class="imagelist" role="article" aria-labelledby="gezocht-listing-2">
+  <h3 id="gezocht-listing-2">Winkeldiefstal met geweld</h3>
+
+    <p>Arnhem</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/gezocht/verdachten/2017/februari/02-on/2017007321-1.jpg" alt="Winkeldiefstal met geweld"/>
+    </article></a>
+      </li>
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/gezochte-personen/2017/februari/02-oon/duo-licht-bejaarden-op-met-babbeltruc.html" title="Meer informatie over 'Duo licht bejaarden op met babbeltruc'">
+          <article class="imagelist" role="article" aria-labelledby="gezocht-listing-3">
+  <h3 id="gezocht-listing-3">Duo licht bejaarden op met babbeltruc</h3>
+
+    <p>Lichtenvoorde</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/gezocht/verdachten/2017/februari/02-on/2016528421-1.jpg" alt="Duo licht bejaarden op met babbeltruc"/>
+    </article></a>
+      </li>
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/gezochte-personen/2017/februari/02-oon/insluiper-besteelt-bejaarde-bewoonster.html" title="Meer informatie over 'Insluiper besteelt bejaarde bewoonster'">
+          <article class="imagelist" role="article" aria-labelledby="gezocht-listing-4">
+  <h3 id="gezocht-listing-4">Insluiper besteelt bejaarde bewoonster</h3>
+
+    <p>Dalfsen</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/gezocht/verdachten/2017/februari/02-on/2016448015-1.jpg" alt="Insluiper besteelt bejaarde bewoonster"/>
+    </article></a>
+      </li>
+    </ul>
+<a class="more" href="/gezocht-en-vermist">Meer gezochte personen</a>
+    </section>
+
+    <section class="medium-6 large-4 columns gutter" id="vermist">
+      <h2 class="blok-onderkant-1">Vermist</h2>
+      <ul class="small-block-grid-1 image-block-grid">
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/vermiste-volwassenen/2017/februari/ester-van-melick.html" title="Meer informatie over 'Ester Van Melick'">
+          <article class="imagelist" role="article" aria-labelledby="vermist-listing-1">
+  <h3 id="vermist-listing-1">Ester Van Melick</h3>
+
+<p class="leeftijd">34 jaar</p>
+    <p>Sinds: <time datetime="2017-02-18 00:00">18-02-2017</time></p>
+
+    <p>Amsterdam</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/vermist/vermiste-volwassenen/2017/februari/ester2.jpg" alt="Ester Van Melick"/>
+    </article></a>
+      </li>
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/vermiste-kinderen/2017/februari/gideon-martina.html" title="Meer informatie over 'Gideon Martina'">
+          <article class="imagelist" role="article" aria-labelledby="vermist-listing-2">
+  <h3 id="vermist-listing-2">Gideon Martina</h3>
+
+<p class="leeftijd">12 jaar</p>
+    <p>Sinds: <time datetime="2017-02-14 00:00">14-02-2017</time></p>
+
+    <p>Pernis</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/vermist/vermiste-kinderen/2017/februari/gideon-martina.jpg" alt="Gideon Martina"/>
+    </article></a>
+      </li>
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/vermiste-volwassenen/2017/februari/shero-hussain-amin.html" title="Meer informatie over 'Shero Hussain Amin'">
+          <article class="imagelist" role="article" aria-labelledby="vermist-listing-3">
+  <h3 id="vermist-listing-3">Shero Hussain Amin</h3>
+
+<p class="leeftijd">53 jaar</p>
+    <p>Sinds: <time datetime="2017-02-13 00:00">13-02-2017</time></p>
+
+    <p>Loenen aan de Vecht</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/vermist/vermiste-volwassenen/2017/februari/shero-amin-2.jpg" alt="Shero Hussain Amin"/>
+    </article></a>
+      </li>
+    <li>
+        <a class="imagelistlink"  href="/gezocht-en-vermist/vermiste-kinderen/2017/februari/celina-kuppens.html" title="Meer informatie over 'Celina Kuppens'">
+          <article class="imagelist" role="article" aria-labelledby="vermist-listing-4">
+  <h3 id="vermist-listing-4">Celina Kuppens</h3>
+
+<p class="leeftijd">17 jaar</p>
+    <p>Sinds: <time datetime="2017-01-18 00:00">18-01-2017</time></p>
+
+    <p>Deurne</p>
+    <img class="picture" src="/binaries/w98h130/content/gallery/politie/vermist/vermiste-kinderen/2017/februari/celina-kuppens.jpg" alt="Celina Kuppens"/>
+    </article></a>
+      </li>
+    </ul>
+<a class="more" href="/gezocht-en-vermist">Meer vermiste personen</a>
+    </section>
+
+    <section class="large-4 columns">
+      <div class="blok-onderkant-2 content-gutter" id="thema">
+        <h2 class="blok-onderkant-1">Thema’s</h2>
+
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-1">
+            <li class="h3b shadow-white-background"><a href="/themas/camera-in-beeld.html">Camera in beeld</a></li>
+            <li class="h3b shadow-white-background"><a href="/gezocht-en-vermist/cold-cases-de-zaken">Cold cases</a></li>
+            <li class="h3b shadow-white-background"><a href="/aangifte-of-melding-doen/controleer-handelspartij.html">Internetoplichting: check verkoper</a></li>
+            <li class="h3b shadow-white-background"><a href="http://www.vraaghetdepolitie.nl">Jongerensite vraaghetdepolitie.nl</a></li>
+            <li class="h3b shadow-white-background"><a href="/themas/kindermishandeling.html">Kindermishandeling</a></li>
+            <li class="h3b shadow-white-background"><a href="/blogs">Politieverhalen (blogs en &#039;in beeld&#039;)</a></li>
+            <li class="h3b shadow-white-background"><a href="/themas/terrorisme.html">Terrorisme</a></li>
+            <li class="h3b shadow-white-background"><a href="/gezocht-en-vermist/opsporing-verzocht">Tips voor Opsporing Verzocht</a></li>
+            <li class="h3b shadow-white-background"><a href="/themas/zsm-aanpak-voor-de-afhandeling-van-veelvoorkomende-criminaliteit.html">ZSM = afhandeling veel voorkomende criminaliteit</a></li>
+            </ul>
+
+          <a class="more" href="/themas">Meer thema’s</a>
+        </div>
+
+      <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-1 blok-licht-blauw" id="blokken-lijst">
+        <li class="shadow-lichtblauw-background">
+          <a href="/mijn-buurt/politiebureaus">
+            <div id="politiebureaus">
+              <h2>Politiebureaus</h2>
+            </div>
+          </a>
+        </li>
+        <li class="shadow-lichtblauw-background">
+          <a href="/mijn-buurt/wijkagenten">
+            <div id="wijkagenten">
+              <h2>Wijkagenten</h2>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</div>
+
+</main>
+
+  <footer class="row shadow-white-background" id="footer" role="contentinfo">
+    <div class="clearfix columns">
+  <div class="row gutter">
+
+    <div class="small-6 medium-3 large-4 columns blok-onderkant-1" id="footer-left">
+      <ul class="footer small-block-grid-1">
+          <li><a href="/algemeen/feedback.html">Feedback</a></li>
+          <li><a href="/algemeen/disclaimer.html">Disclaimer</a></li>
+          <li><a href="/algemeen/privacy.html">Privacy</a></li>
+          <li><a href="/algemeen/cookies.html">Cookies</a></li>
+          <li><a href="/contact/pers">Pers</a></li>
+          </ul>
+      </div>
+
+    <div class="small-6 medium-3 medium-push-6 large-4 large-push-4 columns" id="footer-right">
+      <div class="right">
+        <span>Volg ons via:</span>
+
+        <ul class="social-media-links small-block-grid-2 large-block-grid-4">
+          <li><a href="http://www.twitter.com/politie" title="Volg ons op Twitter"><span class="icon-twitter"><span class="visuallyhidden">http://www.twitter.com/politie</span></span></a></li>
+          <li><a href="http://www.facebook.com/politie" title="Politie Facebook"><span class="icon-facebook"><span class="visuallyhidden">http://www.facebook.com/politie</span></span></a></li>
+          <li><a href="/rss" title="RSS-feeds"><span class="icon-rss"><span class="visuallyhidden">/rss</span></span></a></li>
+          <li><a href="http://www.youtube.com/politie" title="Politie op YouTube"><span class="icon-youtube"><span class="visuallyhidden">http://www.youtube.com/politie</span></span></a></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="medium-6 medium-pull-3 large-4 large-pull-4 text-center clearfix columns shadow-white-background shadow-white-background-small-only" id="footer-center">
+      <div class="row gutter">
+        <div class="columns text-center blok-bovenkant-1">
+          <img class="motto" src="/politie2014/img/politie_motto.svg" alt="Waakzaam en dienstbaar">
+        </div>
+        <div class="hst-container columns">
+  <div class="hst-container-item blok-onderkant-1">
+      <div class="hide-for-print">
+    <a href="https://websitevanhetjaar.nl/">
+      <img  class="footer-image" alt="Website van het Jaar 2016"
+           src="/binaries/content/gallery/politie/onderwerpen/politiebanner_wvhj_360.jpg"/>
+      </a></div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+</footer>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/politie2014/js/lib/jquery/jquery-2.2.4.js"><\/script>')</script>
+<script src="/politie2014/js/base-cb260079.js"></script>
+
+<script>
+  // <![CDATA[
+  var cookieMessages = {
+    'bannerMelding': 'Politie.nl vraagt uw toestemming om cookies te plaatsen ter verbetering van de website.',
+    'meerInformatie': 'Lees voor meer informatie ons cookiebeleid.',
+    'knop1': 'Ik ga akkoord',
+    'knop2': 'Ik ga niet akkoord',
+    'linkUrl': '/algemeen/cookies.html'
+  };
+  // ]]>
+</script>
+<script>
+  // <![CDATA[
+  var googleSettings = {
+    useGoogleClientID: 'true'==='true',
+    googleClientID: 'gme-vtspolitienederland',
+    googleVersion: '3',
+    language: 'nl'
+  };
+  // ]]>
+</script>
+<script src="/politie2014/js/main-cb260079.js"></script>
+
+<script>var geoError = "Er ging iets mis tijdens het opvragen van uw locatie. Voer uw locatie handmatig in.";</script>
+<script type="text/javascript">j1452754987.k1452754987.AsyncPage.load();</script>
+<script src="/politie2014/js/lib/jquery/jquery-smartbanner-cb260079.js"></script>
+<script type="text/javascript">
+      $(function() {
+        if(loader.cookie.areCookiesEnabled()){
+          $.smartbanner({
+            title: 'Politie App', 
+            price: 'Gratis', 
+            author: 'Nationale Politie', 
+            appStoreLanguage: 'nl', 
+            icon: '/politie2014/img/consumentenapp-icon.png', 
+            inAppStore: 'In de appstore', 
+            inGooglePlay: 'In de play store', 
+            button: 'BEKIJK', 
+            daysHidden: 999, 
+            daysReminder: 14, 
+            hideOnInstall: true, 
+            iOSUniversalApp: true 
+          })
+        }
+      } ) 
+    </script>
+</body>
+</html>

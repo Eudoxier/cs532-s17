@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/Article" xml:lang="en" lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head id="Head"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6ad36c74b2","applicationID":"969481","transactionName":"ZQEDbUNTCBJQUE1dDVxLLG9yHScTRVpaWAdxCw9NQ10KDVRBFn0MVgEZ","queueTime":0,"applicationTime":137,"ttGuid":"D6BF94871C961D4E","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Content-Type" content="text/html"/>
+        <meta name="content-language" content="en-US"/>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+        <title>Hummingbad overtaken as leading mobile malware in threat index</title>
+            <meta name="description" content="Triada, a modular backdoor for Android, the top of the &quot;most wanted mobile malware&quot;."/>
+            <meta name="news_keywords" content="Android, Malware, Mobile" />
+<meta name="ROBOTS" content="INDEX,FOLLOW" />            <link rel="canonical" href="https://www.scmagazineuk.com/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/article/637102/" />
+<meta property="og:title" content="Hummingbad overtaken as leading mobile malware in threat index"/><meta property="og:type" content="article"/><meta property="og:image" content="https://media.scmagazineuk.com/images/2017/01/06/androidmobilephone_1128026_1128027.jpg"/><meta property="og:url" content="https://www.scmagazineuk.com/mobile-security/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/article/637102/"/><meta property="og:site_name" content="SC Magazine UK"/><meta property="fb:app_id" content="186230174743679"/><meta property="og:description" content="Triada, a modular backdoor for Android, the top of the "most wanted mobile malware"."/><meta property="article:published_time" content="2017-02-09T09:06:05"/><meta property="article:modified_time" content="2017-02-09T09:51:16"/><meta property="article:section" content="Mobile security"/><meta property="article:tag" content="Android"/><meta property="article:tag" content="Malware"/><meta property="article:tag" content="Mobile"/><meta name="twitter:card" content="summary_large_image"/><meta property="twitter:site" content="@SCmagazineUK"/><meta property="twitter:title" content="Hummingbad overtaken as leading mobile malware in threat index"/><meta itemprop="name" content="Hummingbad overtaken as leading mobile malware in threat index"/><meta property="twitter:description" content="Triada, a modular backdoor for Android, the top of the "most wanted mobile malware"."/><meta itemprop="description" content="Triada, a modular backdoor for Android, the top of the "most wanted mobile malware"."/><meta property="twitter:creator" content="@https://twitter.com/scmagperez"/><meta property="twitter:image:src" content="https://media.scmagazineuk.com/images/2017/01/06/androidmobilephone_1128026_1128027.jpg"/><meta itemprop="image" content="https://media.scmagazineuk.com/images/2017/01/06/androidmobilephone_1128026_1128027.jpg"/>
+
+        <link href="/themes/black-fire/css/styles.css" rel="stylesheet" type="text/css" media="screen" hreflang="en"/>    
+    <link href="/themes/cssBundle?v=NaEurugEKqAxN-we4VVTuajaY1fAibn36gWf47SFQ1c1" rel="stylesheet" type="text/css" media="screen" hreflang="en" />
+    <link href="/themes/black-fire/css/print.css" rel="stylesheet" type="text/css" media="print" hreflang="en"/> 
+
+
+
+<!-- Library scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"> </script>
+<script type="text/javascript">
+    google.charts.load('current', {packages: ['corechart']});    
+ </script>
+
+
+<script src="/forensiq/js?v=ieETCqlYSYIczxQxsMv-30b-khwSx1LMfUU7WuqOR_k1"></script>
+    <script type="text/javascript">
+        function initGpt(statusCode) {
+            if (statusCode !== undefined && statusCode !== null) {
+                setPageTarget("nfcode", statusCode);   
+            }
+
+            (function () {
+                var gads = document.createElement("script");
+                gads.async = true;
+                gads.type = "text/javascript";
+                var useSSL = "https:" == document.location.protocol;
+                gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+                var node = document.getElementsByTagName("script")[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        }
+    
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+
+        var slots = {};
+
+        targets = [];
+    </script>
+        <script type="text/javascript">initGpt();</script>
+
+
+
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script src="/js/Html5Player/mediaelement-and-player.min.js"></script>
+
+
+
+<script type="text/javascript">
+    var pubId = "77";
+          var OmnitureAccount = "haymarketscmagazineuk,haymarketusglobal";  
+</script>   
+
+    <script src="/site/js?v=angkcyKxbBwsf4ran8R5nPi-6C-tmx4F8FbBqT9yZQg1" type="text/javascript"></script>
+
+
+    <script src="/themes/black-fire/js/scripts.js" type="text/javascript"></script>
+    <script src="/themes/jsbundle?v=uwzi1LUc4JL2Ny9nUKFOWsIJ5MAnawJaMLNSgUCSGyc1" type="text/javascript"></script> 
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCDF7XZ');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="com.silverpop.brandeddomains" content="www.pages05.net,scmagazineuk.com" />
+<script src="https://www.sc.pages05.net/lp/static/js/iMAWebCookie.js?51850d7-13269557d40-37c504b367ce64f028215bda5330c1de&h=www.pages05.net" type="text/javascript"></script>
+
+<!-- BrightInfo Bottom part -->
+<script async="async" type="text/javascript">
+var vaJsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+var vaJsDomain = "app.brightinfo.com"; var _biq = _biq || [];_biq.push("scmagazineukcom-14562-1");
+(function (w, d) { function go() { setTimeout(function () { var bi = document.createElement('script'); bi.type = 'text/javascript'; bi.async = true; bi.src = vaJsHost + vaJsDomain + "/BrightInfoVersion.aspx"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(bi, s); }, 500); } if (w.addEventListener) { w.addEventListener("load", go, false); } else if (w.attachEvent) { w.attachEvent("onload", go); } }(window, document));
+</script>
+<!-- BrightInfo end of Bottom part -->
+<meta name="google-site-verification" content="QXzFXoQeXPs2aHxxGZhG8fidJxhM0N1SkqTVDRui78Y" />
+
+<script type="text/javascript">
+window.liosetup = window['liosetup'] || {}
+window.liosetup.loadid = true;
+</script>
+<script src="https://c.lytics.io/api/tag/56f4c71d8255a09b0a7a8c245408785e/lio.js"></script>
+
+<!-- Global setting and variables -->
+<script type="text/javascript">
+    $.ajaxSetup({
+        cache: false
+    });
+    var hmiPath = new Object();
+    hmiPath.virtualPathNoBot = "/hminobot/";
+    hmiPath.virtualPath = "/";
+    
+    //GLOBAL AD SERVER VAR
+    var adNetworkid = "5745";
+    var adServerSiteName = "SCUK";
+
+    //display utility nav or not?
+    mycmeUtilityNavDisplay = false;
+
+    $(document).ready(function () {
+        // open login/register lighbox based on querystrings
+        var hmdCurrentBrowserUrl = window.location.href;
+        if (hmdCurrentBrowserUrl.indexOf("?login") != -1)                            //$(".test_class").filter('a[href=="link2"]').trigger("click");
+            $('.hmiLogin').click();
+        else if (hmdCurrentBrowserUrl.indexOf("?register") != -1)
+            $('.hmiRegister').click();
+        else if (hmdCurrentBrowserUrl.indexOf("?requestpassword") != -1) {
+            $('.hmiResetPassword').click();
+        }
+    });
+</script>
+
+
+    
+
+
+    <!-- Server: HMPROD-WEB1 -->
+    
+
+</head>
+<body id="body">
+    <div id="lightboxMask"></div>
+    <div id="hmiGptTargeting">
+        <script type="text/javascript">
+            targets = [];
+            targets.push({key: 'aid', value: ['637102']});targets.push({key: 'atype', value: ['News']});targets.push({key: 'cat', value: ['Android','Malware','Mobile']});targets.push({key: 'env', value: ['live']});targets.push({key: 'pbid', value: ['null']});targets.push({key: 'log', value: ['0']});targets.push({key: 'cc', value: ['US']});targets.push({key: 'browser', value: ['Other']});targets.push({key: 'pgtid', value: ['2']});
+        </script>
+
+        <script type="text/javascript">
+            googletag.cmd.push(function () {
+                for (var i = 0; i < targets.length; i++) {
+                    googletag.pubads().setTargeting(targets[i].key, targets[i].value);
+                }
+
+            });
+        </script>
+    </div>
+
+        <div id="omniture">
+            <script type="text/javascript">
+                var s_account = "haymarketscmagazineuk,haymarketusglobal";
+                var s_linkInternalFilters = "javascript:,scmagazineuk.com";
+            </script>
+            <script src="/js/omniture.js?6255180594" type="text/javascript"></script>
+            <script type="text/javascript">
+                s.server = "HMPROD-WEB1";
+
+                /* Traffic & Conversion Variables */      
+s.pageName="scuk:home:news:mobile security:hummingbad overtaken as leading mobile m:637102";
+s.channel="mobile security";
+s.prop1="home";
+s.prop2="home:news";
+s.prop3="home:news:mobile security";
+s.prop4="home:news:mobile security:hummingbad overtaken as leading mobile m";
+s.prop6="article";
+s.prop7="false";
+s.prop8="article:none";
+s.prop15="news";
+s.prop17="roi perez";
+s.prop18="android,malware,mobile";
+s.prop19="637102:0";
+s.prop34="scuk";
+s.prop39="90";
+s.prop44="3";
+s.hier1="scuk:home:news:mobile security:hummingbad overtaken as leading mobile m";
+s.prop52="2/9/2017";
+s.prop53="hummingbad overtaken as leading mobile malware in threat index";
+s.prop54="381";
+s.prop59="2017/02";
+s.publicationId="77";
+s.prop68="0";
+
+
+                /********** DO NOT ALTER ANYTHING BELOW THIS LINE! **********/
+                var s_code = s.t();
+                if (s_code)document.write(s_code);
+            </script>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $("#mainNav a, .secondNav a").click(function () {
+                    addOmnitureEventForButtonClick(this, 'event65');
+                });
+                
+                $("#hrefDynamicSubscribe, #hrefMedicalAccountSubscribe").click(function () {
+                    addOmnitureEventForButtonClick(this, 'event47');
+                });
+            });
+        </script>            
+
+
+<script src="/js/iab.js?6255180594" type="text/javascript"></script>    <script>
+        pageVars = {};
+        window.adblockDetector.init(
+            {
+                found: function(){
+                    addOmnitureEventForButtonClickWithProps('AdBlock', 'event777', 'prop57', 'enabled');
+                    pageVars.adblockEnabled = true;
+                },
+                notFound: function () {
+                    addOmnitureEventForButtonClickWithProps('AdBlock', 'event777', 'prop57', 'not enabled');
+                    pageVars.adblockEnabled = false;
+                }
+            }
+        );
+    </script>
+
+
+
+
+            <script type="text/javascript">
+                mycmeUtilityNavDisplay = true;
+            </script>
+            <div id="ADCALL_1501" class="adZonePrestitial lazy-load" data-adzoneprefix="150" data-adsizes="[1,1]">
+                <script type="text/javascript">
+                        googletag.cmd.push(function () {slots['ADCALL_1501'] =googletag.defineOutOfPageSlot('/5745/SCUK/NEWS', 'ADCALL_1501');slots['ADCALL_1501'].addService(googletag.pubads()); slots['ADCALL_1501'].setTargeting('pos', ['1501']); slots['ADCALL_1501'].setCollapseEmptyDiv(true); googletag.enableServices();googletag.display('ADCALL_1501');});
+                    if (typeof logAdvertTrackingRequests != 'undefined' && logAdvertTrackingRequests) {
+                        logAdvertRequested('ADCALL_1501');
+                    }
+                </script>
+            </div>
+
+
+
+            <script type="text/javascript">
+                mycmeUtilityNavDisplay = true;
+            </script>
+            <div id="ADCALL_2101" class="adZoneSkin lazy-load" data-adzoneprefix="210" data-adsizes="[1,1]">
+                <script type="text/javascript">
+                        googletag.cmd.push(function () {slots['ADCALL_2101'] =googletag.defineOutOfPageSlot('/5745/SCUK/NEWS', 'ADCALL_2101');slots['ADCALL_2101'].addService(googletag.pubads()); slots['ADCALL_2101'].setTargeting('pos', ['2101']); slots['ADCALL_2101'].setCollapseEmptyDiv(true); googletag.enableServices();googletag.display('ADCALL_2101');});
+                    if (typeof logAdvertTrackingRequests != 'undefined' && logAdvertTrackingRequests) {
+                        logAdvertRequested('ADCALL_2101');
+                    }
+                </script>
+            </div>
+
+
+
+
+    
+<div id="main-wrapper">
+	<div id="header-slug"></div>
+	<header id="main-header">
+		<div class="wrapper">
+<div id="UKCookieWarning" class="sc-uk-cookie-warning">
+    <p>This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. <a href="http://www.haymarket.com/CookiePolicy.aspx" target="_blank">Find out more.</a><span id="cookieUkOptOut">X</span></p>
+</div>
+<section id="main-header-navigation" class="">
+    <div class="wrapper">
+        <div class="hamburger-menu-button">
+            <span>menu</span>
+            
+        </div>
+        <div class="user-menu-button">
+            <div>
+                <span><i class="fa fa-user"></i></span>
+            </div>
+        </div>
+        <a href="https://www.scmagazineuk.com" id="main-logo" class="logo" title="SC Magazine UK">
+            <img src="https://media.beta.scmagazineuk.com/images/2016/11/21/scbetalogo10808601083188_1098997.png" title="SC Magazine UK" alt="SC Magazine UK" />
+        </a>
+        <nav>
+            <ul class="sites">
+                <li><a href="http://www.scmagazine.com">SC US</a></li>
+                <li><a href="http://www.scmagazineuk.com" class="current">SC UK</a></li>
+            </ul>
+<div class="search">
+    <a href="#" title="Show Search Bar" id="show-search-bar" class="button">Show Search Bar</a>
+    <div id="search-bar">
+            <div class="gradient"></div>
+            <input type="search" name="search" placeholder="Search SC Media" id="searchField" class="text" onkeypress="AdvDirRedirectOnEnter(event, 'search' , 'https://www.scmagazineuk.com/search/' ); " />
+            <input type="submit" name="searchSubmit" value="Search" id="searchSubmit" class="button" onclick="AdvDirRedirect('search', 'https://www.scmagazineuk.com/search/');" />
+  
+    </div>    
+</div>
+        <ul class="navigation">
+                    <li>
+                        <a data-navbaritemid="6355" href="https://www.scmagazineuk.com/news/section/6909/" class="">News</a>
+                            <span class="drop-down-button"><i class="fa fa-chevron-down"></i></span>
+                                <ul class="drop-down-menu">
+                                                <li><a href="https://www.scmagazineuk.com/features/section/6906/" >Features</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/in-depth/section/7125/" >In Depth</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/opinion/section/6907/" >Executive Insight</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/the-sc-blog/section/6898/" >The SC Blog</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/cyber-security-events-calendar/section/6894/" >Cyber-security events calendar</a></li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6357" href="https://www.scmagazineuk.com/cyber-crime/section/6992/" class="">Cyber-crime</a>
+                            <span class="drop-down-button"><i class="fa fa-chevron-down"></i></span>
+                                <ul class="drop-down-menu">
+                                                <li><a href="https://www.scmagazineuk.com/ransomware/section/7008/" >Ransomware</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/data-breaches/section/7009/" >Data breaches</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/aptscyber-espionage/section/7010/" >APTs/Cyber-espionage</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/malware/section/7011/" >Malware</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/phishing/section/7012/" >Phishing</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/insider-threats/section/7014/" >Insider threats</a></li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6358" href="https://www.scmagazineuk.com/network-security/section/6995/" class="">Network Security</a>
+                            <span class="drop-down-button"><i class="fa fa-chevron-down"></i></span>
+                                <ul class="drop-down-menu">
+                                                <li><a href="https://www.scmagazineuk.com/mobile-security/section/7015/" >Mobile security</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/cloud-security/section/7016/" >Cloud security</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/privacy--compliance/section/7017/" >Privacy &amp; Compliance</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/vulnerabilities/section/7018/" >Vulnerabilities</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/iot/section/7019/" >IoT</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/email-security/section/7021/" >Email security</a></li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6359" href="https://www.scmagazineuk.com/products/section/6910/" class="">Products</a>
+                            <span class="drop-down-button"><i class="fa fa-chevron-down"></i></span>
+                                <ul class="drop-down-menu">
+                                                <li><a href="https://www.scmagazineuk.com/group-tests/section/6830/" >Group Tests</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/industry-innovators/section/7128/" >Industry Innovators 2016</a></li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6388" href="http://www.scmagazineuk.com/jobs/" class="">Jobs</a>
+                            <span class="drop-down-button"><i class="fa fa-chevron-down"></i></span>
+                                <ul class="drop-down-menu">
+                                                <li><a href="https://www.scmagazineuk.com/careers/section/6892/" >Career News and Advice</a></li>
+                                                <li><a href="http://www.scmagazineuk.com/jobs/all/cyber-security/" >Cyber-security Jobs</a></li>
+                                                <li><a href="http://www.scmagazineuk.com/jobs/all/it-security/" >IT Security Jobs</a></li>
+                                                <li><a href="http://www.scmagazineuk.com/jobs/all/operations-security/" >Operations Security Jobs</a></li>
+                                                <li><a href="http://www.scmagazineuk.com/jobs/all/website-security/" >Website security jobs</a></li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6360" href="https://www.scmagazineuk.com/videos/section/6888/" class="">Video</a>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6361" href="https://www.scmagazineuk.com/events/section/6905/" class="">Events</a>
+                            <span class="drop-down-button"><i class="fa fa-chevron-down"></i></span>
+                                <ul class="drop-down-menu">
+                                                <li><a href="http://www.sccongress.com/london/" >SC Congress London</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/webcasts/section/6896/" >Webcasts</a></li>
+                                                <li><a href="https://www.scmagazineuk.com/editorial-roundtables-series/section/6883/" >Editorial Roundtable Series</a></li>
+                                                <li><a href="http://www.scawardseurope.com/" >SC Awards Europe</a></li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a data-navbaritemid="6362" href="https://www.scmagazineuk.com/resource-library/" class="">Whitepapers</a>
+                    </li>
+
+        </ul>
+
+
+<input type="hidden" id="hdn_mainNavBarId" value="0"/>
+
+<script>
+    $("[data-navbaritemid='0']").addClass('current')
+</script>
+<ul class="login-register">
+        <li><a id="hrefMedicalAccountLogin" href="/login/" title="Login">Log in</a></li>
+        <li class="circle"><i class="fa fa-circle" aria-hidden="true"></i></li>
+        <li><a id="hrefMedicalAccountRegister" href="/register/" title="Register">Register</a></li>
+</ul>
+
+
+            
+            <div class="headr-tagline">
+                <a href="https://www.scmagazineuk.com/about-us/section/6835/" title="Go to Cyber-Security Source">The Cyber-Security source</a>
+
+            </div>
+        </nav>
+    </div>
+
+</section>
+
+    <section id="main-header-advertisement">
+        <div>
+            <div>
+            <script type="text/javascript">
+                mycmeUtilityNavDisplay = true;
+            </script>
+            <div id="ADCALL_101" class="header-ad lazy-load" data-adzoneprefix="10" data-adsizes="[728,90],[970,250]">
+                <script type="text/javascript">
+                        googletag.cmd.push(function () {slots['ADCALL_101'] =googletag.defineSlot('/5745/SCUK/NEWS', [[728,90],[970,250]], 'ADCALL_101');slots['ADCALL_101'].addService(googletag.pubads()); slots['ADCALL_101'].setTargeting('pos', ['101']); slots['ADCALL_101'].setCollapseEmptyDiv(true); googletag.enableServices();googletag.display('ADCALL_101', [[728,90],[970,250]]);});
+                    if (typeof logAdvertTrackingRequests != 'undefined' && logAdvertTrackingRequests) {
+                        logAdvertRequested('ADCALL_101');
+                    }
+                </script>
+            </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+		</div>
+	</header>
+	<main id="main-content">
+	    <div class="wrapper">
+	        <section id="main-section">
+                
+
+    <ul class="breadcrumbs">
+                <li>
+                        <a href="https://www.scmagazineuk.com" title="">SC Magazine UK</a>
+                        <span>&gt;</span>
+                </li>
+                <li>
+                        <a href="https://www.scmagazineuk.com/news/section/6909/" title="">News</a>
+                        <span>&gt;</span>
+                </li>
+                <li>
+                        <a href="https://www.scmagazineuk.com/mobile-security/section/7015/" title="">Mobile security</a>
+                        <span>&gt;</span>
+                </li>
+                <li>
+Hummingbad overtaken as leading mobile malware in threat index                </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+            <header class="author-info">
+                <div class="author">
+                        <a href="https://www.scmagazineuk.com/roi-perez/author/3917/" rel="author" title="Roi Perez" class="author-avatar">
+                            <img src="https://media.scmagazineuk.com/images/2016/12/09/roi_1111555.png?format=png&amp;zoom=1&amp;quality=70&amp;anchor=middlecenter&amp;height=75&amp;width=135&amp;mode=crop" alt="Roi Perez" title="Roi Perez"  border="0"  />
+                        </a>
+                                            <div class="author-name">
+                            <a href="https://www.scmagazineuk.com/roi-perez/author/3917/" rel="author" title="Roi Perez">by Roi Perez, Community Manager</a>
+                        </div>
+                                            <div class="author-twitter"><a href='https://twitter.com/scmagperez' class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
+<script>
+ !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs")
+
+</script>
+</div>
+                </div>
+        </header>
+
+
+<article>
+    <time>February 09, 2017</time>
+    <h1 class="title">Hummingbad overtaken as leading mobile malware in threat index</h1>
+    <script type="text/javascript">
+        var contentUrl = "https://www.scmagazineuk.com/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/article/637102/";
+        var contentTitle = "Hummingbad overtaken as leading mobile malware in threat index";
+        var twitterAccountName = "SCmagazineUK";
+        var relatedAccountSection = "";
+    </script>
+    <div class="social-share">
+        <ul>
+            <li><a href="https://www.facebook.com/sharer/sharer.php" title="Facebook" class="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + contentUrl, '', 'width=626,height=436'); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/share" title="Twitter" class="twitter" onclick="window.open('https://twitter.com/share?url=' + contentUrl + '&text=' + contentTitle + '&via=' + twitterAccountName + ' ' + relatedAccountSection, '', 'status=1,width=575,height=400'); return false; "><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="linkedin" title="LinkedIn" onclick=" window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + contentUrl + '&title=' + contentTitle, '', 'width=800,height=400'); return false; "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://plus.google.com/share" title="Google Plus" class="google-plus" onclick=" window.open('https://plus.google.com/share?url=' + contentUrl, '', 'width=600,height=600'); return false;"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li>
+                <a title="Reddit" rel="nofollow" href="https://www.reddit.com/submit" onclick="window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(contentUrl) + '&title=' + contentTitle); return false;" class="reddit">
+                    <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+                </a>
+            </li>            
+                <li><a href="#disquos-comments" class="comments" title="Comments" rel="nofollow"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.scmagazineuk.com/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/printarticle/637102/" title="Print" rel="nofollow" id="socialPrint" class="print"><i class="fa fa-print" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+
+    
+
+
+        <blockquote>Triada, a modular backdoor for Android, the top of the &quot;most wanted mobile malware&quot;.</blockquote>
+
+
+                
+    <div class="article-body">
+       
+            <figure>
+                <div><img src="https://media.scmagazineuk.com/images/2017/01/06/androidmobilephone_1128026.jpg?format=jpg&amp;zoom=1&amp;quality=70&amp;anchor=middlecenter&amp;mode=pad" alt="Does your organisation ensure it&#39;s Android devices are safe? " title="Does your organisation ensure it&#39;s Android devices are safe? "  border="0"  /></div>
+                    <figcaption>Does your organisation ensure it's Android devices are safe? </figcaption>
+            </figure>
+        <p dir="ltr">Check Point has revealed that Hummingbad has been overtaken as the leading mobile malware for the first time since February 2016, and replaced at the top of the “most wanted mobile malware” Triada. </p>
+<p dir="ltr">According to the new January Global Threat Impact Index from its Threat Intelligence Research Team, Triada is a modular backdoor for Android which grants super-user privileges to downloaded malware, as helps it to get embedded into system processes.</p>
+<p dir="ltr">In total, <a href="https://www.scmagazineuk.com/search/Android+Malware/">mobile malware</a> accounted for nine percent of all recognised attacks while the Index ranked Kelihos, a botnet used in bitcoin theft, as the most prevalent malware family overall, with five percent of organisations globally is impacted by it. </p>
+<p dir="ltr"> </p>
+<p dir="ltr">Overall the top three malware families revealed that hackers were using a wide range of attack vectors and tactics to target businesses. These threats impact all steps of the infection chain, including spam emails which are spread by botnets, and contain downloaders that place ransomware or a Trojan on the victim's machine. &nbsp;</p>
+<p dir="ltr">Globally, Kelihos was the most active malware family affecting five percent of organisations globally, followed by HackerDefender and Cryptowall in second and third place respectively, with both impacting 4.5 percent of companies.</p>
+<p dir="ltr"> </p>
+<p dir="ltr">The UK was also the 53rd most attacked country globally, higher than the US (100th), Germany (65th) and France (61st).</p>
+<p dir="ltr">Nathan Shuchami, head of threat prevention at CheckPoint commented, “The wide range of threats seen during January, utilising all the available tactics in the infection chain, demonstrates the size of the task IT teams face in securing their networks against attack.”</p>
+<p dir="ltr">Shuchami added: “To defend themselves, organisations need to apply advanced threat prevention measures on their networks, endpoints and mobile devices to stop malware at the pre-infection stage, to ensure that they are secured against both known and unknown threats.”</p>
+<p dir="ltr"> </p>
+<p dir="ltr">From January 2017, CheckPoint has revised how it indexes the top malware: it now shows the percentage of organisations worldwide affected by each malware family, to provide a ranking of the most prevalent malware families attacking networks, instead of being based on the number of detections found. This gives a more accurate overview of the actual impact of threats on organisations during the month.</p>
+    </div>
+
+        <script type="text/javascript">
+        var contentUrl = "https://www.scmagazineuk.com/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/article/637102/";
+        var contentTitle = "Hummingbad overtaken as leading mobile malware in threat index";
+        var twitterAccountName = "SCmagazineUK";
+        var relatedAccountSection = "";
+    </script>
+    <div class="social-share">
+        <ul>
+            <li><a href="https://www.facebook.com/sharer/sharer.php" title="Facebook" class="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + contentUrl, '', 'width=626,height=436'); return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/share" title="Twitter" class="twitter" onclick="window.open('https://twitter.com/share?url=' + contentUrl + '&text=' + contentTitle + '&via=' + twitterAccountName + ' ' + relatedAccountSection, '', 'status=1,width=575,height=400'); return false; "><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="linkedin" title="LinkedIn" onclick=" window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + contentUrl + '&title=' + contentTitle, '', 'width=800,height=400'); return false; "><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://plus.google.com/share" title="Google Plus" class="google-plus" onclick=" window.open('https://plus.google.com/share?url=' + contentUrl, '', 'width=600,height=600'); return false;"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+            <li>
+                <a title="Reddit" rel="nofollow" href="https://www.reddit.com/submit" onclick="window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(contentUrl) + '&title=' + contentTitle); return false;" class="reddit">
+                    <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+                </a>
+            </li>            
+                <li><a href="#disquos-comments" class="comments" title="Comments" rel="nofollow"><i class="fa fa-comments" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.scmagazineuk.com/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/printarticle/637102/" title="Print" rel="nofollow" id="socialPrint" class="print"><i class="fa fa-print" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+
+    
+    
+<section class="flexibleTagsTags artTags">
+    <h3>Topics:</h3>
+    <ul class="list">
+                    <li class="btn">
+                        <a onclick="addOmnitureEventForButtonClick(this, &#39;event72&#39;)" href="https://www.scmagazineuk.com/android/topic/47347/" title="Android" target="_self">Android</a>
+                    </li>
+                    <li class="btn">
+                        <a onclick="addOmnitureEventForButtonClick(this, &#39;event72&#39;)" href="https://www.scmagazineuk.com/malware/topic/47306/" title="Malware" target="_self">Malware</a>
+                    </li>
+                    <li class="btn">
+                        <a onclick="addOmnitureEventForButtonClick(this, &#39;event72&#39;)" href="https://www.scmagazineuk.com/mobile/topic/47345/" title="Mobile" target="_self">Mobile</a>
+                    </li>
+
+    </ul>
+</section>
+
+    <div style="clear: both"></div>
+    
+</article>
+
+
+
+
+        <a name="disquos-comments"></a>
+<script type="text/javascript">
+    //this is badgeville behavour tracking code
+    //This has to be above the discuss js.
+    function disqus_config() {
+        this.page.remote_auth_s3 = "e30= D72F51DA13B1033B7EFB55A8BCF3D74919463A18 1487383330";
+        this.page.api_key = "SpyiVBRCqhfDjJWp3gUQ97eqHOqYkwNav52NvJW1JbxCCPivjZasjM9vTDkQqZU7 ";
+        
+       
+        this.callbacks.onNewComment = [function () {
+            BadgevilleCredit(commentJs);
+            BadgevilleCredit(firstCommentJs);
+
+        } ];
+    }
+</script>
+
+ <div id="pnlDisqusComments" class="clearfloat">      
+        <div class="commentsBlock">
+            
+                  <div id="disqus_thread">
+                    <script type="text/javascript">
+                        var disqus_identifier = "637102";
+                        var disqus_developer = 0;
+                        var disqus_url = "https://www.scmagazineuk.com/hummingbad-overtaken-as-leading-mobile-malware-in-threat-index/article/637102/";
+                        (function() {
+                            var dsq = document.createElement('script'); 
+                            dsq.type = 'text/javascript'; 
+                            dsq.async = true;
+                            dsq.src = 'https://scmagazineuk.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=dummysite">comments powered by Disqus.</a></noscript>
+                </div>
+           
+           
+        </div>
+    </div>
+
+        <section class="multiple-column-asset flexible">
+                <h3 class="sub-title related-content">Related Articles</h3>
+                            <div class="row">
+                        <div class="col-3">
+                            <p class="image">
+                                <a onclick="addOmnitureEventForButtonClick(this, &#39;event71&#39;)" href="https://www.scmagazineuk.com/researchers-tentatively-link-greenbug-cyber-spy-group-to-saudi-shamoon-attackers/article/633547/" title="" target="_self">
+                                    <img src="https://media.scmagazine.com/images/2017/01/24/greenbug_1140472.jpg?format=jpg&amp;zoom=1&amp;quality=70&amp;anchor=middlecenter&amp;height=120&amp;width=200&amp;mode=crop" alt="" title=""  border="0"  />
+                                </a>
+                            </p>
+                            <h3>
+                                <a onclick="addOmnitureEventForButtonClick(this, &#39;event71&#39;)" href="https://www.scmagazineuk.com/researchers-tentatively-link-greenbug-cyber-spy-group-to-saudi-shamoon-attackers/article/633547/" title="" target="_self">
+                                    Researchers tentatively link Greenbug cyber-spy group to Saudi Shamoon attackers
+                                </a>
+                            </h3>                   
+                            <div class="author-date">
+    <span>BY
+            <a rel="author" href="https://www.scmagazineuk.com/bradley-barth/author/3920/">Bradley Barth</a>
+
+    </span>
+                                 Jan 25, 2017
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <p class="image">
+                                <a onclick="addOmnitureEventForButtonClick(this, &#39;event71&#39;)" href="https://www.scmagazineuk.com/more-than-half-of-uk-businesses-still-not-fully-aware-of-eu-gdpr/article/633669/" title="" target="_self">
+                                    <img src="https://media.scmagazineuk.com/images/2017/01/19/thinkstockphotos169277930_1137741.jpg?format=jpg&amp;zoom=1&amp;quality=70&amp;anchor=middlecenter&amp;height=120&amp;width=200&amp;mode=crop" alt="" title=""  border="0"  />
+                                </a>
+                            </p>
+                            <h3>
+                                <a onclick="addOmnitureEventForButtonClick(this, &#39;event71&#39;)" href="https://www.scmagazineuk.com/more-than-half-of-uk-businesses-still-not-fully-aware-of-eu-gdpr/article/633669/" title="" target="_self">
+                                    More than half of UK businesses still not fully aware of EU GDPR
+                                </a>
+                            </h3>                   
+                            <div class="author-date">
+    <span>BY
+            <a rel="author" href="https://www.scmagazineuk.com/danielle-correa/author/3909/">Danielle Correa</a>
+
+    </span>
+                                 Jan 25, 2017
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <p class="image">
+                                <a onclick="addOmnitureEventForButtonClick(this, &#39;event71&#39;)" href="https://www.scmagazineuk.com/the-investigatory-powers-acts-wide-reaching-implications/article/633959/" title="" target="_self">
+                                    <img src="https://media.scmagazineuk.com/images/2017/01/16/thinkstockphotos122413566_1134728.jpg?format=jpg&amp;zoom=1&amp;quality=70&amp;anchor=middlecenter&amp;height=120&amp;width=200&amp;mode=crop" alt="" title=""  border="0"  />
+                                </a>
+                            </p>
+                            <h3>
+                                <a onclick="addOmnitureEventForButtonClick(this, &#39;event71&#39;)" href="https://www.scmagazineuk.com/the-investigatory-powers-acts-wide-reaching-implications/article/633959/" title="" target="_self">
+                                    The Investigatory Powers Act's wide-reaching implications 
+                                </a>
+                            </h3>                   
+                            <div class="author-date">
+    <span>BY
+            <a rel="author" href="https://www.scmagazineuk.com/kate-oflaherty/author/40872/">Kate O&#39;Flaherty</a>
+
+    </span>
+                                 Jan 26, 2017
+                            </div>
+                        </div>
+                </div>
+        </section>
+
+<!-- View Count -->
+<img src="https://www.scmagazineuk.com/article/articletrack/637102/" name="imageTrack" style="height: 1px; width: 1px"/>
+
+
+
+
+
+
+
+
+
+
+
+
+	        </section>
+	        <aside>
+
+            <div id="ADCALL_301" class="rightAdContainer lazy-load" data-adzoneprefix="30" data-adsizes="[300,250],[300,600],[300,1050]">
+                <script type="text/javascript">
+                        googletag.cmd.push(function () {slots['ADCALL_301'] =googletag.defineSlot('/5745/SCUK/NEWS', [[300,250],[300,600],[300,1050]], 'ADCALL_301');slots['ADCALL_301'].addService(googletag.pubads()); slots['ADCALL_301'].setTargeting('pos', ['301']); slots['ADCALL_301'].setCollapseEmptyDiv(true); googletag.enableServices();googletag.display('ADCALL_301', [[300,250],[300,600],[300,1050]]);});
+                    if (typeof logAdvertTrackingRequests != 'undefined' && logAdvertTrackingRequests) {
+                        logAdvertRequested('ADCALL_301');
+                    }
+                </script>
+            </div>
+
+
+<div id="mostArticleTabs">
+    <h3>Most read on <strong>SC</strong></h3>
+    <div id="mostPopularTab" class="mostArticleTabsContent">
+    <ul>
+            <li><a onclick="addOmnitureEventForButtonClick(this, &#39;event66&#39;)" href="https://www.scmagazineuk.com/signature-based-malware-detection-not-as-good-as-ai-says-icit-paper/article/637674/" title="Signature-based malware detection not as good as AI, says ICIT paper">Signature-based malware detection not as good as AI, says ICIT paper</a></li>
+            <li><a onclick="addOmnitureEventForButtonClick(this, &#39;event66&#39;)" href="https://www.scmagazineuk.com/nuclear-industry-gets-new-cyber-security-strategy-from-uk-government/article/637946/" title="Nuclear industry gets new cyber-security strategy from UK government">Nuclear industry gets new cyber-security strategy from UK government </a></li>
+            <li><a onclick="addOmnitureEventForButtonClick(this, &#39;event66&#39;)" href="https://www.scmagazineuk.com/ransomware-could-dentists-and-gps-be-the-next-victims/article/637938/" title="Ransomware: could dentists and GPs be the next victims?">Ransomware: could dentists and GPs be the next victims?</a></li>
+            <li><a onclick="addOmnitureEventForButtonClick(this, &#39;event66&#39;)" href="https://www.scmagazineuk.com/queen-opens-ncsc-headquarters-ushering-in-new-era-in-cyber-security/article/637919/" title="Queen opens NCSC headquarters, ushering in new era in cyber-security">Queen opens NCSC headquarters, ushering in new era in cyber-security </a></li>
+            <li><a onclick="addOmnitureEventForButtonClick(this, &#39;event66&#39;)" href="https://www.scmagazineuk.com/rsa-2017-cyber-threat-alliance-adds-members-introduces-new-president/article/637918/" title="RSA 2017: Cyber Threat Alliance adds members, introduces new president">RSA 2017: Cyber Threat Alliance adds members, introduces new president</a></li>
+
+    </ul>
+
+    </div>
+</div>
+
+
+
+            <div id="ADCALL_401" class="rightAdContainer lazy-load" data-adzoneprefix="40" data-adsizes="[300,250]">
+                <script type="text/javascript">
+                        googletag.cmd.push(function () {slots['ADCALL_401'] =googletag.defineSlot('/5745/SCUK/NEWS', [[300,250]], 'ADCALL_401');slots['ADCALL_401'].addService(googletag.pubads()); slots['ADCALL_401'].setTargeting('pos', ['401']); slots['ADCALL_401'].setCollapseEmptyDiv(true); googletag.enableServices();googletag.display('ADCALL_401', [[300,250]]);});
+                    if (typeof logAdvertTrackingRequests != 'undefined' && logAdvertTrackingRequests) {
+                        logAdvertRequested('ADCALL_401');
+                    }
+                </script>
+            </div>
+
+
+
+
+	        </aside>     
+	    </div>
+	</main>
+	<footer id="main-footer">
+		<div class="wrapper">
+<div class="clearfix"></div>
+<div class="hug hug-footer">
+    <div class="maxWidth">
+        <footer id="globalFooter">
+    <div class="rawHTMLAsset">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+<style type="text/css">
+    .clearfix {
+    overflow: auto;
+    zoom: 1;
+    }
+    .clear{
+    clear:both;
+    }
+    #full-width-footer .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    #full-width-footer .follow-icons li{
+    float:left;
+    }
+    #full-width-footer .follow-icons a{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 8px;
+    }
+    #full-width-footer .follow-icons a.fb-icn {
+    background-color: #3265a3;
+    }
+    #full-width-footer .follow-icons a.twt-icn {
+    background-color: #1cb2ee;
+    }
+    #full-width-footer .follow-icons a.lkn-icn {
+    background-color: #3f98c8;
+    }
+    #full-width-footer .follow-icons a.gplus-icn {
+    background-color: #da1212;
+    }
+    #full-width-footer{
+    font-family: 'GothamBook';
+    padding: 25px;
+    position:relative;
+    }
+    #full-width-footer .goTop-icn{
+    color:#fff;
+    font-size:1.45em;
+    position:absolute;
+    top:71px;
+    right:23px;
+    display:block;
+    }
+    #full-width-footer, #full-width-footer a{
+    color:#fff;
+    }
+    #full-width-footer ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    }
+    #full-width-footer strong{
+    color: #fc0206;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'GothamMedium';
+    }
+    #full-width-footer > div{
+    float: left;
+    width: 19%;
+    margin: 0 5px;
+    }
+    #full-width-footer div[class^="sc-listsitems"]{
+    width:15%;
+    margin-top: 59px;
+    }
+    #full-width-footer .sc-foot-more-links{
+    margin-top: 59px;
+    width: auto;
+    }
+    #full-width-footer .sc-foot-main-lft {
+    width: 263px !important;
+    margin-right: 51px !important;
+    }
+    #full-width-footer .sc-foot-main-lft p{
+    margin-top: 20px;
+    font-size: 0.98em;
+    line-height: 22px;
+    }
+    #full-width-footer .sc-follow p{
+    font-size: 0.88em;
+    }
+    #full-width-footer ul.sc-links-lists li a{
+    display:block;
+    padding:6px 0;
+    text-decoration:none;
+    font-size: 1.06em;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li:nth-child(1) a{
+    padding-top: 4px !important;
+    line-height: initial;
+    margin: 0;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li a{
+    padding:15px 0;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li a span{
+    display:none;
+    }
+    #full-width-footer .sc-beta-footer-bottom {
+    width: 100% !important;
+    float: none !important;
+    overflow: initial;
+    clear: both;
+    }
+    #full-width-footer .sc-follow {
+    float: left;
+    margin-right: 163px;
+    }
+    #full-width-footer .copyright-text{
+    float: right;
+    width: 74.5%;
+    font-size: 0.95em;
+    margin-top: 22px;
+    }
+    @media screen and (max-width: 600px) {
+    #full-width-footer{
+    padding:25px 5px;
+    }
+    #full-width-footer .sc-foot-main-lft img{
+    width:80px;
+    }
+    #full-width-footer .goTop-icn {
+    top: 26px;
+    right: 0;
+    }
+    #full-width-footer > div{
+    float: none;
+    width: 100%;
+    margin: 0;
+    }
+    #full-width-footer .sc-foot-main-lft{
+    width: auto !important;
+    margin: 0 !important;
+    padding-right: 14px;
+    }
+    #full-width-footer div[class^="sc-listsitems"] {
+    width: 50%;
+    margin-top: 19px;
+    float: left;
+    }
+    #full-width-footer .sc-listsitems.sc-foot-resources{
+    clear:right;
+    }
+    #full-width-footer .sc-foot-more-links {
+    margin-top: 19px;
+    width: auto;
+    float: left;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li:nth-child(1){
+    padding-top:6px;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li a {
+    padding: 6px 0;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li a span{
+    padding:0px;
+    display:block;
+    }
+    #full-width-footer .sc-foot-more-links ul.sc-links-lists li a img{
+    display:none;
+    }
+    #full-width-footer .sc-follow {
+    float: none;
+    margin-right: 0;
+    margin-top: 32px;
+    width: 100%;
+    clear: both;
+    overflow: auto;
+    }
+    #full-width-footer .copyright-text {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 32px;
+    clear: both;
+    }
+    #full-width-footer .copyright-text br{
+    display:none;
+    }
+    }
+</style>
+<div id="full-width-footer" class="clearfix">
+<a href="#" class="goTop-icn"><img alt="" src="https://media.beta.scmagazine.com/images/2016/10/31/gouparrow10761761076178_1084003.png" /></a>
+<div class="sc-foot-main-lft">
+<img alt="" src="https://media.scmagazine.com/images/2016/10/19/scbetamedialogo_1076112.png" />
+<p>SC Media UK arms cyber-security professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.</p>
+</div>
+<div class="sc-listsitems sc-foot-content">
+<strong>User Centre</strong>
+<ul class="sc-links-lists">
+    <li><a href="https://www.scmagazineuk.com/about-us/section/6835/">About Us</a></li>
+    <li><a href="https://www.scmagazineuk.com/contact-us/section/6841/">Contact Us</a></li>
+    <li><a href="http://www.scmediacenter.com/uk/">Advertise</a></li>
+    <li><a href="https://www.scmagazineuk.com/partners-corner/section/6884/">Partner's Corner</a></li>
+ </ul>
+</div>
+<div class="sc-listsitems sc-foot-resources">
+<strong>Resources</strong>
+<ul class="sc-links-lists">
+    <li><a href="http://www.scmagazineuk.com/issuearchive/">Issue Archive</a></li>
+   </ul>
+</div>
+<div class="sc-listsitems sc-foot-user-center">
+<strong>Other</strong>
+<ul class="sc-links-lists">
+    <li><a href="http://www.haymarket.com/privacy-policy?utm_source=careers&utm_medium=oldsite&utm_campaign=redirect">Privacy Policy</a></li>
+    <li><a href="http://www.haymarket.com/terms-and-conditions?utm_source=careers&utm_medium=oldsite&utm_campaign=redirect">Terms & <br>                             Conditions<br /></a></li>
+</ul>
+</div>
+<div class="sc-foot-more-links">
+<strong>More SC Sites</strong>
+<ul class="sc-links-lists">
+    <li><a href="http://www.sccongress.com/london/"><span>SC Congress</span><img alt="" src="https://media.scmagazine.com/images/2016/10/19/scbetaconglogo_1076120.png" /></a></li>
+    <li><a href="https://www.scmagazineuk.com/resource-library/"><span>SC Whitepaper & Resource Library</span><img alt="" src="https://media.scmagazine.com/images/2016/10/19/scbetalibrarylogo_1076144.png" /></a></li>
+<li><a href="http://www.scawardseurope.com/"><span>SC Awards</span><img alt="" src="https://media.scmagazineuk.com/images/2016/12/20/scawards2017europehorizontal_1120464.png" /></a></li>
+<li><a href="http://www.scmagazineuk.com/jobs/"><span>SC Jobs</span><img alt=""
+src="https://media.scmagazineuk.com/images/2016/12/21/2017logodkbg_1121440.png" /></a></li>
+    </ul>
+</div>
+<div class="clear"></div>
+<div class="sc-beta-footer-bottom clearfix">
+<div class="sc-follow"><br>
+<p>Follow SC Media UK</p>
+<ul class="follow-icons">
+    <li><a href="https://www.facebook.com/scmagazineuk" class="fb-icn"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+    <li><a href="https://twitter.com/scmagazineuk" class="twt-icn"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="https://www.linkedin.com/groups/1833658/profile" class="lkn-icn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+   </ul>
+</div>
+<p class="copyright-text">Copyright © 2017 Haymarket Media, Inc. All Rights Reserved<br />
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorisation.<br /><br />
+Your use of this website constitutes acceptance of Haymarket Media's <a href="http://www.haymarket.com/privacy-policy?utm_source=careers&utm_medium=oldsite&utm_campaign=redirec">Privacy Policy</a> and <a href="http://www.haymarket.com/terms-and-conditions?utm_source=careers&utm_medium=oldsite&utm_campaign=redirect/">Terms & Conditions.</a></p>
+</div>
+</div>
+    </div>
+
+           
+        </footer>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+
+		</div>
+	</footer>
+</div>
+<script src="/js/plugins/vue.min1.0.js"></script>
+
+
+<template id="form-template">
+    <div id="fixed-footer-login-register" class="fixed-footer-login-register ScUkBetaSticky">
+        <div class="wrapper">
+
+            <div class="login-register">
+                <div class="clse-free-signup">
+                    <a href="#"><i class="fa fa-times-circle-o" aria-hidden="true">&nbsp;<span>close</span></i></a>
+                </div>
+                <header>
+                    <hgroup>
+                        <h1>{{{ form.header }}}</h1>
+                        <h2>{{{ form.title }}}</h2>
+                    </hgroup>
+                </header>
+                <!-- Backend errrors -->
+                <template v-if="hasItems(form.modelState)">
+                    <div class="field-error-line">
+                        <div v-for="error in form.modelState" class="errorMsg-titleTop field-error">{{{error}}}</div>
+                    </div>
+                </template>
+                <!-- Front end errors -->
+                <div v-if="errors.length > 0" class="">
+                    <div v-for="error in errors" class="errorMsg-titleTop field-error">{{error}}</div>
+                </div>
+                <template v-for="group in stickyRegistrationFormElements.standardFieldsGrouped">
+                    <div class="row SCUKBetaForm">
+                        <template v-for="field in group">
+                            <div class="col-4">
+                                <div class="form-field">
+                                    <template v-if="field.fieldType == 'Dropdown' ">
+                                        <div>
+                                            <div>
+                                                <select type="select" data-index="{{$index}}" name="{{ field.name }}" v-model="postModel[field.name]" v-on:change="onChange(field, $index)" required="{{ field.required }}" placeholder="{{ field.label }}" class="{{ field.span }}" disabled="{{ field.disabled }}" v-show="showHide(field.hidden)">
+                                                    <option :selected="option.value == field.value ? 'selected' : null" v-for="option in field.options" value="{{ option.value }}">{{ option.label }}</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </template>
+                                    <template v-else>
+                                        <input autocomplete="off" id="{{ field.clientId }}" type="{{ field.fieldType }}" v-model="postModel[field.name]" name="{{field.name}}" placeholder="{{ field.label }}" required="{{ field.required }}" class="{{ field.span }}" disabled="{{ field.disabled }}" v-show="showHide(field.hidden)" :value="(field.value != null && field.value != '') ? field.value : null">
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <template v-if="stickyRegistrationFormElements.newsletterFields.length > 0">
+                                    <h3>Get Free Newsletters:</h3>
+                                </template>
+
+                            </div>
+                            <div class="col-12">
+                                <ul>
+                                    <template v-for="field in stickyRegistrationFormElements.newsletterFields">
+                                        <li v-show="showHide(field.hidden)">
+                                            <input :checked="field.checked ? 'checked' : null" type="checkbox" v-model="postModel[field.name]" name="{{ field.name }}" required="{{ field.required }}" class="" disabled="{{ field.disabled }}" value="{{field.value}}" id="{{field.clientId}}">
+                                            <label class="special-box"></label>
+                                            <label v-html="field.label" for="{{field.clientId}}" class="{{ field.name + field.fieldType }}">{{ field.label }}</label>
+                                        </li>
+                                    </template>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <template v-if="!form.hideRegistrationAgreement">
+                        <div class="col-12">
+                            <p class="legal-links">
+                                By registering you agree with our
+                                <a target="_blank" href="/termsandconditions/">Terms And Conditions </a> |
+                                <a target="_blank" href="/privacypolicy/">Privacy Policy</a>
+                            </p>
+                        </div>
+                    </template>
+                </div>
+                
+                <div class="row reg-btn">
+                        <div class="col-12">
+                            <h4>{{{ form.footer }}}</h4>
+                            <template v-if="form.postButtonLabel != null ">
+                                <button v-on:click="submit">{{ form.postButtonLabel }}</button>
+                            </template>
+                        </div>
+                    </div>
+            </div>
+
+
+
+        </div>
+        <h1>Don't have an SC Media account?
+            <a href="#" title="Sign Up Now" class="show-login-register">Sign up for free now &raquo;</a>
+        </h1>
+    </div>
+</template>
+<div id="contentsetup">
+    <component :is="currentView">
+    </component>
+</div>
+
+<script>
+    sticky_registration_apiUrl = '/hminobot/HmnRegistrationProxy/StickyRegistrationFormFields?hmnOrigin=StickyRegistration';
+    login_apiUrl = '/hminobot/HmnRegistrationProxy/LoginFormFields';
+    reg_apiUrl = '/hminobot/HmnRegistrationProxy/RegisterFormFields';
+    reset_password_apiUrl = '/hminobot/HmnRegistrationProxy/ResetPasswordFormFields';
+    login_reg_page = 'stickyregistration';
+    reset_password_expired_link_apiUrl = '/hminobot/HmnRegistrationProxy/ResetPasswordLinkExpiredFormFields';
+    request_reset_password_apiUrl = '/hminobot/HmnRegistrationProxy/RequestResetPasswordFormFields';
+    logRegDisplayType = 'inline';
+    hmnOrigin = 'StickyRegistration';
+    redirect_to_referer_url = '';
+</script>
+
+<script src="/js/HMNlogReg/vue-medical-login-reg.js"></script>
+
+
+    
+ 
+
+    <script type="text/javascript">
+ 
+        var disqus_shortname = 'scmagazineuk';
+
+        (function () {
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'https://scmagazineuk.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        } ());
+    </script>
+
+
+
+<div id="fb-root">
+</div>
+
+<script>
+
+    window.fbAsyncInit = function() { 
+        FB.init({appId: '186230174743679', status: true, cookie: true, xfbml: true});
+        //subscribe fb "like" to Badgeville
+        if(typeof AddBadgevilleShareBehavour == 'function') { 
+            FB.Event.subscribe('edge.create',
+                function (response) {
+                    AddBadgevilleShareBehavour();
+                });
+        }
+    };
+
+    (function(d){
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement('script'); js.id = id; js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+
+    
+    $.getScript('https://platform.twitter.com/widgets.js', function(){
+        //subscribe twitter share to Badgeville
+        if(typeof AddBadgevilleShareBehavour == 'function') { 
+            twttr.events.bind('tweet', function (event) {
+                AddBadgevilleShareBehavour();
+            });
+        }     
+    });
+    
+    
+    (function () {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
+<script type='text/javascript' src='/js/plugins/jquery.quadrotator.js'></script>
+
+
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCDF7XZ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+</body>
+</html>

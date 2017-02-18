@@ -1,0 +1,1173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><script src="https://cdn.optimizely.com/js/2582690737.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bernie Sanders  |  Take a Stand to Save Health Care</title><meta name="description" content="The official campaign website of United States Senator Bernie Sanders."><meta name="robots" content="noodp"><link rel="canonical" href="https://berniesanders.com/"><meta property="og:locale" content="en_US"><meta property="og:type" content="website"><meta property="og:title" content="Bernie Sanders"><meta property="og:description" content="The official campaign website of United States Senator Bernie Sanders."><meta property="og:url" content="https://berniesanders.com/"><meta property="og:site_name" content="Bernie Sanders"><meta property="og:image" content="https://s.bsd.net/bernie16/main/page/-/website/bsd-fb-share-7339.png"><link rel="shortcut icon" href="https://go.berniesanders.com/page/-/favicon.ico"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:description" content="The" official="" campaign="" website="" of="" united="" states="" senator="" bernie="" sanders.=""><meta name="twitter:title" content="Bernie Sanders"><meta name="twitter:image" content="https://s.bsd.net/bernie16/main/page/-/website/bsd-fb-share-7339.png"><meta name="twitter:site" content="@BernieSanders"><script src="//use.typekit.net/vga4irg.js"></script><script>try{Typekit.load();}catch(e){}</script><script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script>
+
+'use strict';
+
+(function registerModule( factory ) {
+    window.myForm = factory(jQuery);
+})(function factory( $ ) {
+
+  var myForm;
+
+  $(function() {
+
+    $(".buttonk").click(function() {
+      var form = $('#signupsplash');
+      $(".buttonk").val('submitting');
+      form.find('.error').remove();
+      form.data('data', form.serialize());
+        $.ajax({
+          url: '/page/sapi/save-health-care?source=splash',
+          type: 'POST',
+          dataType: 'json',
+          data: form.data('data'),
+          success: function() {
+            /*
+            jQuery('.container > header, #signupsplash').hide();
+            jQuery('.donate-wrap').show("slide", { direction: "left" }, 700, function(){
+              jQuery('.iframe-inner, .continue-btn').fadeIn('fast');
+            });
+            */
+            window.location='https://berniesanders.com/?nosplash=true/'
+          },
+          error: function(data) {
+            jQuery(".buttonk").val('Join Us');
+            jQuery('#bsderror').show();
+          }
+        });
+        return false;
+    });
+
+  });
+  
+});
+</script><style type="text/css" media="screen">
+
+ body > header {
+   background-color: white;
+   position: relative;
+   min-height: 116px;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+   z-index: 99;
+   padding: 2rem 1rem;
+ }
+ 
+ body > header a {
+   display: block;
+   width: 225px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #00457d;
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   font-size: 1rem;
+   margin: 30px auto 0;
+   position: relative;
+   padding-right: 1rem;
+ }
+ .highlight{
+   color: #ffdc8a;
+ }
+ .full-disclaimer {
+   padding: 0 4rem 2rem;
+ }
+ 
+ .full-disclaimer,
+ .full-disclaimer p {
+   text-align: left;
+   font-weight: 500;
+   font-size: 1rem;
+ }
+ 
+ body > header a:after {
+   content: ">";
+   font-weight: 700;
+   font-size: 2.1rem;
+   color: #53a1e1;
+   transform: scaleX(0.45);
+   display: block;
+   position: absolute;
+   right: 0.2rem;
+   text-shadow: 20px 0px 0px #53a1e1;
+   top: -0.95rem;
+ }
+ 
+.contrib-btn,
+ body > header button {
+   height: 53px;
+   background-color: #f55b5b;
+   border: 0;
+   border-radius: 3px;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 0.15em;
+   font-family: 'freight-sans-pro';
+   font-weight: 500;
+   padding: 0 3rem;
+   font-size: 1.1rem;
+   display: block;
+   margin: 30px auto 0;
+ }
+
+
+body > header .contrib-btn{
+  padding: 0.9rem 3rem;
+  text-align: center;
+}
+
+body > header .contrib-btn:after{
+  display: none;
+}
+ 
+ body > header h1 {
+   margin: 0 auto;
+   height: 51px;
+   width: 159px;
+   background-image: url('https://s.bsd.net/bernie16/main/page/-/Wrapper%20Images/logo-jan2017-splash%402x.png');
+   background-size: 159px 51px;
+   background-repeat: no-repeat;
+   text-indent: -99em;
+   color: transparent;
+ }
+ 
+ #signupsplash {
+   padding: 0rem 1rem 3.5rem;
+   margin: 0 auto;
+   max-width: 420px;
+ }
+ 
+ .container {
+   background-image: url('https://s.bsd.net/bernie16/main/page/-/Wrapper%20Images/splash-sm-bg-HC-0117.jpg');
+    background-size: 100%;
+    background-position-y: top;
+background-repeat: no-repeat;
+   background-attachment: fixed;
+ }
+ /* ===GLOBAL=== */
+ 
+ html {
+   box-sizing: border-box;
+ }
+ 
+ *,
+ *:before,
+ *:after {
+   box-sizing: inherit;
+ }
+ 
+ body {
+   font-family: 'freight-sans-pro', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   color: white;
+   margin: 0;
+   background-color: #001F3A;
+ }
+ 
+ .clear:before,
+ .clear:after {
+   content: " ";
+   display: table;
+ }
+ 
+ .clear:after {
+   clear: both;
+ }
+ 
+ input[type=number]::-webkit-inner-spin-button,
+ input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0;
+ }
+ 
+ #BSD-quick_donate_login_link {
+   display: none !important;
+ }
+ 
+ .inputgroup {
+   /*border: 1px solid pink;*/
+ }
+ /* === WRAPPER STYLES === */
+
+#bsd-contrib-error-form a{
+  color: #97c5ed;
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.error-intro ol,
+.error-intro p{
+  font-weight: 500;
+}
+
+.error-intro ol{
+  padding: 0 0 0 15px;
+}
+
+.error-intro li{
+  font-size: 1.1rem;
+  padding: 5px 0px;
+}
+
+.error-intro strong{
+  display: block;
+  padding-top: 15px;
+}
+
+.error-intro br{
+  display: none;
+}
+
+#contribution .inputgroup span.error {
+    color: #BF3434;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.75rem;
+    bottom: 0.3rem;
+    letter-spacing: 0.075em;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    text-align: right;
+    width: 100%;
+}
+
+#contribution br {
+    display: none;
+}
+ 
+ #donate-step-3 #processbutton {
+   margin: 5px 0 0 0;
+ }
+ 
+ .donate-wrap #contribution .label {
+   margin: 0;
+ }
+ 
+ .creditCardTypeSelector-creditCardList {
+   position: absolute;
+   right: 0.5rem;
+   top: 0.5rem;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.card {
+   height: 13px;
+   width: 20px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.ax,
+ #donate-step-3 .creditCardTypeSelector li.ds,
+ #donate-step-3 .creditCardTypeSelector li.mc,
+ #donate-step-3 .creditCardTypeSelector li.vs {
+   background: url('../../../images/Contribution/Cards/cc-sprites.gif') no-repeat;
+   background-size: 93px 25px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.ax {
+   background-position: -49px 0px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.ax.deselected {
+   background-position: -49px -12px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.ds {
+   background-position: -73px 0px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.ds.deselected {
+   background-position: -73px -12px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.mc {
+   background-position: -24px 0px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.mc.deselected {
+   background-position: -24px -12px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.vs {
+   background-position: 0px 0px;
+ }
+ 
+ #donate-step-3 .creditCardTypeSelector li.vs.deselected {
+   background-position: 0px -12px;
+ }
+
+ div#bsderror {
+   border: 2px solid #f55b5b;
+   margin-top: -10px;
+   margin-bottom: 20px;
+   color: white;
+   text-align: center;
+   border-radius: 3px;
+   text-transform: uppercase;
+   background-color: rgba(205, 60, 60, 0.4);
+   font-weight: 600;
+   letter-spacing: 0.1em;
+   font-size: 0.7rem;
+   clear: both;
+   line-height: 1;
+   padding: 10px 5px;
+ }
+
+ .container .contriberrorbanner{
+   margin-top: 20px;
+    margin-bottom: 0;
+ }
+  
+ .error-intro,
+ .intro {
+   padding: 2rem 1rem;
+ }
+ 
+ h2 {
+   font-family: 'jubilat';
+   font-weight: 400;
+   line-height: 1;
+   font-size: 1.9rem;
+   margin: 0;
+ }
+ .error-intro p,
+ .intro p {
+   font-family: 'freight-sans-pro';
+   font-size: 1rem;
+   font-weight: 500;
+   margin: 1rem 0;
+   line-height: 1.2;
+   margin-bottom: 0.1rem;
+ }
+
+ .error-intro p strong,
+ .intro p strong {
+   font-weight: 700;
+   font-size: 1.1em;
+   display: block;
+   margin-top: 20px;
+ }
+ 
+ #expiration {
+   text-align: right;
+ }
+ 
+ form#contribution {
+   margin: 0 auto;
+ }
+ 
+ .fecNotice {
+   font-family: 'freight-sans-pro';
+   font-style: italic;
+   font-size: 0.9rem;
+   line-height: 1.1;
+   color: #a7cdec;
+   font-weight: 500;
+   margin-bottom: 20px;
+   border-top: 2px solid #236193;
+   padding-top: 20px;
+   clear: both;
+ }
+ 
+ hr {
+   clear: both;
+   display: block;
+   height: 2px;
+   border: 0;
+   background-color: #236193;
+   margin-bottom: 20px;
+ }
+ 
+ .container > header h2 {
+   font-family: 'jubilat';
+   font-size: 2rem;
+   font-weight: 400;
+   line-height: 1.1;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   border-top: 4px solid rgba(255,255,255,0.15);
+   border-bottom: 4px solid rgba(255,255,255,0.15);
+   padding: 1rem 0;
+   text-align: center;
+ }
+ 
+ .container > header {
+   max-width: 420px;
+   margin: 0 auto;
+   padding: 2.4rem 1rem 0.5rem;
+ }
+ 
+ .container > header h2 em {
+   display: block;
+   letter-spacing: -0.025em;
+ }
+ 
+ .container > header p {
+   font-size: 1.1rem;
+   line-height: 1.1;
+   margin: 15px 0 15px;
+   font-weight: 500;
+   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+   text-align: center;
+ }
+ 
+ #signupsplash .inputgroup input {
+   height: 50px;
+   border-bottom: 3px solid #53a1e1;
+ }
+ 
+ #signupsplash .inputgroup input#emailbsd,
+ #signupsplash .inputgroup input#zipbsd {
+   padding-top: 0.9rem;
+ }
+ 
+ #signupsplash .inputgroup.active input#emailbsd,
+ #signupsplash .inputgroup.active input#zipbsd {
+   border-bottom: 3px solid #037ee4;
+ }
+ 
+ .container #signupsplash .inputgroup label {
+   font-size: 1rem;
+   top: 1.05rem;
+ }
+ 
+ #signupsplash .inputgroup.active label {
+   color: #00457d;
+   font-size: 0.7rem;
+   left: 0.8rem;
+   top: 0.35rem;
+ }
+ 
+ #signupsplash .col-2 {
+   width: 42%;
+ }
+ 
+ #signupsplash .col-2-2 {
+   width: 52%;
+ }
+ 
+ .container #signupsplash input[type="submit"] {
+   width: 100%;
+   margin: 0;
+   border: 0;
+   line-height: 1;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+   font-size: 1em;
+   letter-spacing: 0.15em;
+   padding: 0;
+ }
+ 
+ form header #selected-amount,
+ form header #progress {
+   position: relative;
+ }
+ 
+ #donate-step-1 .inputgroup input[type=radio] {
+   position: absolute;
+   visibility: hidden;
+   top: 0;
+   left: 0;
+ }
+ 
+ #contribution #donate-step-1 label .radio {
+   margin-right: 0;
+ }
+ 
+ 
+ #signupsplash .inputgroup {
+   margin-bottom: 1rem;
+ }
+ 
+ .inputgroup {
+   position: relative;
+   margin-bottom: 1.6rem;
+   clear: both;
+ }
+ 
+ #signupsplash .inputgroup label {
+   color: #00457d;
+   position: absolute;
+   text-transform: uppercase;
+   font-family: "freight-sans-pro";
+   font-weight: 500;
+   letter-spacing: 0.1em;
+   line-height: 1;
+   top: 1rem;
+   left: 0.8rem;
+   font-size: 1.1rem;
+   -webkit-transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+   transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+ }
+ 
+ .inputgroup input {
+   background-color: rgba(255, 255, 255, 0.9);
+   color: #33373b;
+   font-size: 1rem;
+   font-weight: 300;
+   outline: none;
+   height: 44px;
+   width: 100%;
+   border-radius: 3px;
+   border: 0;
+   border-bottom: 3px solid #92b5d2;
+   font-family: "freight-sans-pro";
+   padding-left: 0.8rem;
+   box-sizing: border-box;
+   -webkit-transition: all 300ms ease;
+   transition: all 300ms ease;
+ }
+ 
+ .inputgroup input:focus,
+ .inputgroup select:focus {
+   background-color: white;
+   border-bottom: 3px solid #037ee4;
+ }
+ 
+ .inputgroup input.empty,
+ .inputgroup select.empty {
+   border-bottom: 3px solid #f55b5b;
+ }
+ 
+ .inputgroup.active input,
+ .inputgroup.active select {
+   background-color: white;
+ }
+ 
+ .inputgroup select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+ }
+ 
+ .col-2 {
+   width: 48%;
+   float: left;
+ }
+ 
+ .col-2-2 {
+   float: right;
+   clear: none;
+ }
+ 
+ .col-4 {
+   width: 22%;
+   margin-left: 4%;
+   float: left;
+   clear: none;
+ }
+ 
+ .col-4.col-4-4 {
+   margin-left: 0;
+   float: right;
+ }
+
+a.submit{
+  display: block;
+letter-spacing: 0.15em;
+   font-family: "freight-sans-pro";
+   font-weight: 600;
+   font-size: 1rem;
+   text-shadow: 1px 1px #09b14c;
+   box-shadow: 0px 2px 8px #013866;
+   -webkit-transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+   transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+   margin-bottom: 55px;
+   background: #20c361;
+   border-radius: 3px;
+   color: white;
+   text-transform: uppercase;
+   text-decoration: none;
+    text-align: center;
+    padding: 1em 0.5em;
+    margin-top: 1.5em;
+}
+ 
+ input[type="submit"] {
+   -webkit-appearance: none;
+   margin-top: 5px;
+   float: right;
+   height: 50px;
+   border: 0;
+   padding-left: 0.3rem;
+   padding-right: 0.3rem;
+   background: #20c361;
+   border-radius: 3px;
+   color: white;
+   text-transform: uppercase;
+   outline: none;
+   width: 48%;
+   letter-spacing: 0.15em;
+   font-family: "freight-sans-pro";
+   font-weight: 600;
+   font-size: 1rem;
+   text-shadow: 1px 1px #09b14c;
+   box-shadow: 0px 2px 8px #013866;
+   -webkit-transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+   transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+   margin-bottom: 35px;
+ }
+ 
+ a.submit:hover,
+ a.submit:focus,
+ .container button:hover,
+ .container button:focus,
+ input[type="submit"]:hover,
+ input[type="submit"]:focus,
+ .active input[type="submit"]:hover,
+ .active input[type="submit"]:focus {
+   box-shadow: 0px 2px 8px 4px #002e55;
+   text-shadow: 1px 1px #09b14c;
+   background: #30DF76;
+   border: 0;
+ }
+ 
+ .donate-wrap {
+   background-color: rgba(3,47,93,0.8);
+   display: none;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+ }
+ /* === FOOTER === */
+ 
+ footer {
+   text-align: center;
+   background-color: #0066ba;
+   color: #97c5ed;
+   clear: both;
+   font-weight: 400;
+   padding: 3em 0.5em 1em;
+   position: relative;
+ }
+ 
+ footer .address {
+   text-align: center;
+   clear: both;
+   font-family: 'freight-sans-pro', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   font-size: 0.9rem;
+ }
+ 
+ footer p {
+   text-align: center;
+   clear: both;
+   font-family: 'freight-sans-pro', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: lowercase;
+   letter-spacing: 0.15em;
+   text-transform: uppercase;
+   font-size: 0.8rem;
+ }
+ 
+ footer a,
+ footer a:link,
+ footer a:visited {
+   text-decoration: none;
+   color: #97c5ed;
+ }
+ 
+ footer a:hover,
+ footer a:link:hover,
+ footer a:visited:hover {
+   color: #ffffff;
+ }
+ 
+ .disclaimer {
+   font-family: 'freight-sans-pro', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   text-transform: uppercase;
+   letter-spacing: 0.15em;
+   border: 1px solid #4592d2;
+   font-size: 1rem;
+   max-width: 400px;
+   padding: 0.5rem 0;
+   margin: 3rem auto 0;
+ }
+ 
+ footer .billionaires {
+   display: block;
+   margin: 1rem auto 3rem;
+   width: 197px;
+   height: 33px;
+   background-image: url("https://s.bsd.net/bernie16/main/page/-/Wrapper%20Images/white-billionaires-2x.png");
+   background-size: 197px 33px;
+   opacity: 0.8;
+   text-indent: -9999em;
+   overflow: hidden;
+   color: transparent;
+   background-repeat: no-repeat;
+ }
+
+.splash-continue a, 
+.splash-continue a:link, 
+.splash-continue a:visited {
+    color: #97C5ED;
+    text-decoration: none;
+}
+
+a.continue-btn {
+    position: fixed;
+    bottom: 1.1em;
+    right: 1.1em;
+    display: inline-block;
+    border: 0;
+    padding: 0.6em 2em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+    font-size: 1.1rem;
+    display: none;
+    background-color: rgba(3,47,93,0.8);
+}
+
+
+.es-link{
+  position: absolute;
+  z-index: 0;
+  top: 0em;
+  right: 0;
+}
+.es-link a{
+  text-transform: uppercase;
+  background-color: rgba(0,0,0,0.2);
+  text-decoration: none;
+  padding: 0.4em 1.2em;
+  color: white;
+  font-family: 'freight-sans-pro';
+  font-weight: 700;
+  display: block;
+  border-radius: 0 0 0 3px;
+  font-size: 0.7em;
+  letter-spacing: 0.15em;
+}
+
+@media (min-width: 600px) {
+  .es-link a{
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 980px) {
+  .es-link a{
+    font-size: 0.9em;
+  }
+}
+
+.es-link a:focus,
+.es-link a:hover{
+  color: white;
+  background-color: #0076d7;
+}
+
+@media(max-width: 929px) { a.continue-btn { display: none !important } }
+
+/* IMPORTANT -- MUST USE */
+      .iframe-wrapper {
+        width: 100%;
+        max-width: 100%;
+        display: inline-block;
+        height: 1420px;
+      }
+
+      .iframe-wrapper .iframe-inner {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 1420px;
+        display: none;
+      }
+
+      .iframe-wrapper .iframe-inner iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        border-radius: 10px;
+        border: none;
+      }
+
+
+ /* === MEDIA QUERY - LARGE PHONE/PHABLET === */
+ 
+ @media (min-width: 414px) {
+   .container {
+      background-image: url('https://s.bsd.net/bernie16/main/page/-/Wrapper%20Images/splash-md-bg-HC-0117.jpg');
+    background-size: 155%;
+    background-position-x: right;
+  }
+  .container > header h2 {
+    font-size: 2.4rem;
+  }
+  .container > header.small h2 {
+    font-size: 2.2rem;
+  }
+  input[type="submit"],
+  #signupsplash .inputgroup input {
+    height: 54px;
+  }
+  .container #signupsplash input[type="submit"]{
+    font-size: 1rem;
+  }
+  h2{
+    font-size: 2.4rem;
+  }
+ .error-intro p,
+ .intro p {
+   font-size: 1.2em;
+ }
+}
+
+@media (min-width: 560px) {
+.container{
+  background-size: 115%;
+}
+  .error-intro, .intro {
+    padding: 3rem 3rem;
+  }
+}
+
+ /* === TABLETS === */
+ 
+ @media (min-width: 768px) {
+
+  .error-intro, .intro {
+     padding: 1.5rem 3rem 2rem;
+  }
+.container{
+  background-size: 110%;
+}
+
+}
+ /* === MEDIA QUERY - NOTEBOOK === */
+ 
+ @media (min-width: 930px) {
+
+ .splash-continue{
+    display: none;
+  }
+
+ .donate-wrap{
+   width: 50%;
+  }
+   .error-intro,
+   .intro {
+     margin: 0.5rem auto 0;
+   }
+   body > header {
+     padding: 0 4rem;
+   }
+   body > header h1 {
+     position: absolute;
+     left: 50%;
+     top: 32px;
+     margin-left: -80px;
+   }
+   .contrib-btn,
+   body > header button {
+     float: left;
+     margin-top: 32px;
+   }
+   body > header a {
+     float: right;
+     font-size: 1.2rem;
+     margin: 44px auto 0;
+     width: 270px;
+     padding-right: 2rem;
+   }
+   body > header a:after {
+     font-size: 2.5rem;
+     right: 0.2rem;
+     top: -1.09rem;
+   }
+   .error-intro p,
+   .intro p {
+     font-size: 1.2rem;
+   }
+   .container .contriberrorbanner,
+   .amountError,
+   .step2-error,
+   .step3-error,
+   div#bsderror {
+     font-size: 0.9rem;
+   }
+   .fecNotice {
+     font-size: 1.1rem;
+   }
+   .container button,
+   input[type="submit"],
+   .active input[type="submit"] {
+     height: 60px;
+     letter-spacing: 0.2em;
+     font-size: 1.1em;
+   }
+   h2 {
+     font-size: 2.6rem;
+   }
+   .inputgroup {
+     margin-bottom: 1.8rem;
+   }
+   .inputgroup input,
+   .inputgroup select {
+     font-size: 1.3rem;
+     padding-left: 1.2rem;
+     height: 52px;
+   }
+   form {
+     max-width: 460px;
+   }
+   .container > header {
+     max-width: 490px;
+     margin: 0;
+     padding: 4.4rem 2rem 0.5rem;
+     margin-left: 3rem;
+     background-color: rgba(0, 22, 56, 0.85);
+   }
+   .container #signupsplash input[type="submit"] {
+     font-size: 1.1em;
+     padding: 0;
+   }
+   #signupsplash {
+     max-width: 490px;
+     margin: 0;
+     padding: 0.5rem 2rem 5.5rem;
+     margin-left: 3rem;
+     background-color: rgba(0, 22, 56, 0.85);
+   }
+   #signupsplash .inputgroup input {
+     height: 56px;
+     border-bottom: 4px solid #53a1e1;
+   }
+   #signupsplash .inputgroup.active input#emailbsd,
+   #signupsplash .inputgroup.active input#zipbsd {
+     border-bottom: 4px solid #037ee4;
+   }
+   .container #signupsplash .inputgroup label {
+     font-size: 1.2rem;
+     top: 1.1rem;
+   }
+   #signupsplash .inputgroup label {
+     left: 1.2rem;
+   }
+   .container #signupsplash .inputgroup.active label {
+     color: #00457d;
+     font-size: 0.7rem;
+     left: 1.2rem;
+     top: 0.45rem;
+   }
+   .container > header p {
+     font-size: 1.25rem;
+     line-height: 1.3;
+     margin: 20px 0 12px;
+     text-align: left;
+   }
+  .container > header.small p {
+      margin: 12px 0 4px;
+   }
+   .container > header h2 {
+     font-size: 2.5rem;
+     font-size: 2.1rem;
+     text-align: left;
+   }
+   .container > header.small h2 {
+     font-size: 1.9rem;
+   }
+   .container {
+     background-image: url('https://s.bsd.net/bernie16/main/page/-/Wrapper%20Images/splash-bg-HC-0117.jpg');
+     background-size: 107%;
+   }
+ }
+
+
+ /* === MEDIA QUERY - LARGE DESKTOP === */
+ 
+ @media (min-width: 1300px) {
+
+  .container > header h2 {
+     font-size: 2.9em;
+     font-size: 2.4em;
+   }
+   .container > header.small h2 {
+     font-size: 2.2em;
+   }
+   .container > header p {
+     font-size: 1.35rem;
+   }
+   .container > header {
+     max-width: 580px;
+     padding: 5.5rem 3rem 0.5rem;
+     margin-left: 4rem;
+   }
+   form {
+     max-width: 491px;
+   }
+  .error-intro p, .intro p {
+    font-size: 1.2rem;
+  }
+   #signupsplash {
+     max-width: 580px;
+     padding: 0.5rem 3rem 7.5rem;
+     margin-left: 4rem;
+   }
+   #signupsplash .inputgroup input {
+     height: 60px;
+     border-bottom: 5px solid #53a1e1;
+   }
+   #signupsplash .inputgroup.active input#emailbsd,
+   #signupsplash .inputgroup.active input#zipbsd {
+     border-bottom: 5px solid #037ee4;
+   }
+   .container #signupsplash .inputgroup label {
+     font-size: 1.3rem;
+   }
+  .error-intro,
+  .intro {
+    margin: 0;
+  }
+  h2{
+    font-size: 2.6rem;
+  }
+  .donate-wrap{
+    padding: 2rem;
+  }
+  .container {
+     background-size: 100%;
+   }
+}
+
+</style><link rel="canonical" href="https://go.berniesanders.com/page/content/save-health-care"><script type="text/javascript"></script></head><body>
+
+<div class="container kenneth">
+  <div class="es-link">
+    <a href="https://berniesanders.com/es/">en Espa&ntilde;ol</a>
+  </div>
+  <header><h2>Now is the time to fight back and Save Health Care!</h2> 
+  <p>Tens of thousands of people have stood up to say no to Republican efforts to take health care away from millions of Americans.</p>
+  <p><strong>Join the fight. Add your name.</strong></p>
+  <!--
+  <a class="submit" href="/page/smartproxy/BSD_CARGGwEBFFoMVkNUXwFWExAXU11Z/">Find a rally near you</a>
+  -->
+  </header><form id="signupsplash" class="clear" action="">
+    <div id="bsderror" style="display: none;">
+      Please fill out all fields
+    </div>
+    <div class="inputgroup">
+      <label for="emailbsd">Email Address</label>
+      <input id="emailbsd" class="text" name="email" size="48" type="email"></div>
+    <div class="inputgroup col-2">
+      <label for="zipbsd">Zip Code</label>
+      <input id="zipbsd" name="zip" size="8" type="number" min="0" inputmode="numeric" pattern="[0-9]*"></div>
+    <div class="inputgroup col-2 col-2-2">
+      <input name="submit-btn" type="submit" id="submitk" class="buttonk" value="Sign Up"></div>
+  </form>
+  
+  <div class="donate-wrap clear"><div class="intro">
+<h2>Contribute to Our Political Revolution</h2>
+<p>We're going to continue to fight for our political revolution. Add a contribution to keep us strong.</p>
+<p class="splash-continue">Or, <a href="https://berniesanders.com/?nosplash=true/">continue straight to the site</a>.</p>
+</div><div id="fb-root"></div></div>
+</div>
+
+<a class="continue-btn" href="https://berniesanders.com/?nosplash=true/">Skip to the site &raquo;</a>
+<header class="clear"><h1>Bernie Sanders for President</h1>
+  <a href="https://berniesanders.com/?nosplash=true/">Continue to the site</a>
+  <a href="
+https://secure.actblue.com/contribute/page/bernie-sanders---senate-1" class="contrib-btn">Contribute</a>  
+  
+</header><footer><script src="//d3c3cq33003psk.cloudfront.net/opentag-74688-1737389.js" async="" defer="defer"></script><div class="full-disclaimer">
+<p>Contributions and gifts to Friends of Bernie Sanders are not tax deductible.</p>
+<p>By donating, I agree that:</p>
+<ul><li>This contribution is made from my own funds, and funds are not being provided to me by another person or entity for the purpose of making this contribution.</li> 
+<li>I am making this contribution with my own personal credit card and not with a corporate or business credit card or a card issued to another person. </li>
+<li>I am not a federal contractor.</li>
+<li>I am at least eighteen years old.</li>
+<li>I am a U.S. citizen or lawfully admitted permanent resident (i.e., green card holder).</li>
+</ul></div>
+
+<p class="address">Friends of Bernie Sanders<br>PO Box 391<br>Burlington, VT 05402</p>
+<p class="disclaimer">PAID FOR BY FRIENDS OF BERNIE SANDERS</p>
+<span class="billionaires">(not the billionaires)</span>
+<p><span class="copyright">&copy; Friends of Bernie Sanders</span> | <a href="//berniesanders.com/privacy-policy/">Privacy Policy</a></p>
+
+<script src="//s.bsd.net/bernie16/main/page/-/sha1.js"></script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script><script>
+
+
+jQuery.noConflict();
+
+
+// When user focuses on empty input, add class that input's parent .inputgroup.
+jQuery('.inputgroup input,.inputgroup select').focus(function(){
+  // If the input is empty, add class to parent
+  if( jQuery(this).val() == "" ) {
+    jQuery(this).parent().addClass('active');
+  }
+});
+
+
+jQuery('.inputgroup input, .inputgroup select').blur(function(){
+  // If the input is empty, add class to parent
+  if( jQuery(this).val() == "" ) {
+    jQuery(this).parent().removeClass('active');
+  }
+});
+
+
+jQuery('#btn-contribute').on('click', function(){
+  jQuery('.container > header, #signupsplash').fadeOut('fast');
+  jQuery('.donate-wrap').show("slide", { direction: "left" }, 700, function(){
+    jQuery('.iframe-inner, .continue-btn').fadeIn('fast');
+  });
+});
+
+
+// intelligent form demo
+if (typeof getUniversalProfile == 'function') {
+  getUniversalProfile(['email', 'zip'], function(user) {
+    if (user) {
+      jQuery('.container > header, #signupsplash').fadeOut('fast');
+      jQuery('.donate-wrap').show("slide", { direction: "left" }, 700, function(){
+        jQuery('.iframe-inner, .continue-btn').fadeIn('fast');
+      });
+    }
+  });
+}
+
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58354050-1', 'auto');
+  ga('send', 'pageview', '/save-health-care-splash');
+
+  //history.replaceState(null, null, 'https://go.berniesanders.com');
+
+   window.addEventListener('message', onMessage, false);
+
+      function onMessage(event) {
+        if(event.data.redirectURL) {
+         if(event.data.status == 'no cookies') {
+          window.location.href = 'https://berniesanders.com?nosplash=true/';
+         } else {
+           window.location.href = event.data.redirectURL; // otherwise follow the redirect
+         }
+        }
+        if(event.data.scrollTop) {
+          var _scrollTo = jQuery("#actblue-frame iframe").offset().top;
+          if (jQuery(window).scrollTop() > _scrollTo) {
+            jQuery('html, body').animate({scrollTop: _scrollTo}, 200);
+          }
+        };
+      }
+  
+</script></footer></body></html>

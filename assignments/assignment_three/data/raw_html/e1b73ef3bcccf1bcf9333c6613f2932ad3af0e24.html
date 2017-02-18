@@ -1,0 +1,379 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"1f4fc87457","applicationID":"123682","transactionName":"Ig1XR0VWWF1XR05ADBUHFlpZXVFJ","queueTime":0,"applicationTime":53,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    
+    <meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="Nje1RIrfUb0e+5HDF93TAqsjz2KXTUTfeui+Hl2ZgG4="/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Increase revenue, reduce costs &amp;amp; drive engagement with the #1 SaaS Content Management &amp; eCommerce platform for publishers, associations &amp;amp; media companies">
+    <meta name="keywords" content="ePublishing, CMS, content management system, EPS, enterprise publishing system, ecommerce, crm, circulation, integration, advertising">
+    <link href="https://www.epublishing.com/rss/articles" rel="alternate" title="ePublishing  RSS Feed" type="application/rss+xml" />
+    
+    
+      <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ePublishing" />
+    <meta property="og:url" content="http://www.epublishing.com" />
+    <meta property="og:image" content="http://www.epublishing.com/images/epublishing-dark.png" />
+  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Lora:400,700,400italic' rel='stylesheet' />
+
+    <title>ePublishing | Best SaaS CMS For Publishers</title>
+    <link href="/stylesheets/application.css?1487059524" media="screen" rel="stylesheet" type="text/css" />
+    
+    
+    <script src="/javascripts/jade.default.min.js?1487059524" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-230926-1']);
+      _gaq.push(['_trackPageview']);
+
+      
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+</script>
+
+    
+  </head>
+  <body data-action="index" data-controller="site">
+    
+      <div class="document mmenu-placeholder">
+    <header class="main-header">
+      <div class="top-bar">
+        <div class="wrapper">
+          <a href="#" id="hamburger-nav-link" class="main-header__hamburger-nav-link"></a>
+
+          <div class="site-logo"><a href="/"><svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 595.53 131.71"><defs><style>.cls-green-epub{fill:#a4c543}.cls-white-epub{fill:#fff}</style></defs><title>epublishing-logo</title><path class="cls-green-epub" d="M54 79.14c-1.54 19.15-11 28.66-28.52 28.66C8.25 107.8 0 100.25 0 84.59a97.56 97.56 0 0 1 1-12.58c1.93-14.54 4.45-24.3 6.55-29.36 5.59-13.15 13.7-18.32 28.38-18.32 16.5 0 24 6.57 24 21.81 0 5.45-1 12.87-3.08 21.81H19.71C18 76.2 17.34 81.79 17.34 84.71c0 6.43 2.8 9.65 8.67 9.65 6.43 0 9.79-5 10.91-15.24H54zm-11.36-33.7c0-5.31-2.66-8-7.83-8-7.41 0-10.62 5.45-12.86 18.18h19.43a58.17 58.17 0 0 0 1.26-10.18z"/><path class="cls-white-epub" d="M70.71 0h27.78c20.55 0 25.09 14.58 25.09 36 0 20.83-5.52 36.95-25.37 36.95h-8.07v32.22H70.71V0zm20.93 58.38c11.88 0 12.37-10.1 12.37-22-.01-12.57-.49-21.67-12.09-21.67h-2.34v43.7h2.06zM183.39 105.14H165.5v-7.83c-3.77 6.57-9.51 9.92-16.64 9.92-11.33 0-17.62-6.57-17.62-19V26.15h17.62v51.56c0 9.09 1.4 13.84 7.83 13.84s8.39-4.61 8.39-15v-50.4h18.32v79zM196.31 0h18.32v32.86c3.08-6 8.11-8.81 15.52-8.81 16.36 0 20.41 12.86 20.41 41.94 0 28.8-4.61 41.24-20.83 41.24-7.69 0-13.14-3.5-16.08-10.35v8.25h-17.34V0zm17.76 68.93c0 16.35.84 23.2 9.51 23.2 7.83 0 8.39-8 8.39-26.28 0-18-.28-26.42-8.39-26.42-8.95 0-9.51 9.09-9.51 29.5zM261.78 0H280v105.14h-18.22V0zM292.62 0h18.18v16.36h-18.18V0zm0 26.15h18.18v79h-18.18v-79zM337.5 78.86v2.24c0 9 2.37 12.59 8.94 12.59 5.18 0 8.25-2.94 8.25-7.7 0-5.45-5-7.69-12.3-12.72-13-9-21-14.12-21-27.69 0-13.84 8.81-21.53 25.45-21.53 16.08 0 24 8.11 24 24.6v1.68h-16.01v-1.68c0-7.55-2.79-11-9.09-11-4.61 0-7.55 2.8-7.55 6.85 0 4.75 3.5 7.41 9.92 11.74 14.12 9.51 24.06 14.4 24.06 29.08 0 13.71-9 22-25.87 22-17.34 0-25.45-7.83-25.45-25.31 0-1 .14-2 .14-3.07h16.5zM382.31 0h18.18v33.71a17.65 17.65 0 0 1 16.22-9.65c11.31 0 17.75 6.57 17.75 19v62.07h-17.61v-53c0-8.39-1-12.44-7.14-12.44-7.4 0-9.22 5-9.22 15.1v50.33h-18.18V0zM447.17 0h18.18v16.36h-18.18V0zm0 26.15h18.18v79h-18.18v-79zM478.05 26.15H496v8c3.77-6.57 9.37-10.06 16.5-10.06 11.32 0 17.76 6.57 17.76 19v62.07h-17.67v-53c0-8.53-1.68-12.58-7.7-12.58-6.57 0-8.53 5-8.53 15.24v50.33h-18.31v-79zM591.19 122.34c-4 6-12.3 9.37-23.91 9.37-15.79 0-24.18-6.43-24.32-17.9h18.17c.14 3.07 2.66 4.89 6.71 4.89 7.55 0 9.37-4.47 9.37-14.82v-5.45c-3.07 5.87-8 8.81-15 8.81-17.05 0-21-12.58-21-41.95 0-28.8 4.62-41.24 20.84-41.24 7.69 0 13.14 3.49 16.08 10.34v-8.24h17.33v72.7c.07 10.07-.21 17.62-4.27 23.49zm-31.31-55.37c0 17.06.56 24.89 8.38 24.89 9.23 0 9.51-9.65 9.51-31.32 0-15.1-1.25-21.39-9.51-21.39-7.96 0-8.38 8.39-8.38 27.82z"/></svg>
+</a></div>
+
+
+          <a href="#" id="quick-search-mobile-button" class="quick-search-mobile-button"></a>
+
+            <nav class="main-nav main-nav--horizontal">
+              <div class="wrapper">
+                <div class='navigation' id='primary'><ul class='level1'><li class='level1-li first '><a href="/about-epublishing" class="link2">About</a><ul class='level2'><li class='level2-li first '><a href="/why-choose-epublishing" class="link1">Why Choose ePublishing</a></li><li class='level2-li  '><a href="/partners" class="link1">Our Partners</a></li><li class='level2-li  '><a href="/resource-center" class="link1">Case Studies</a></li><li class='level2-li  last'><a href="/opportunities" class="link1">Jobs @ ePublishing</a></li></ul></li><li class='level1-li  '><a href="/epublishing_eps_platform" class="link2">Platform</a><ul class='level2'><li class='level2-li first '><a href="/what-is-an-eps" class="link1">What Is An EPS?</a></li><li class='level2-li  '><a href="/eps-features" class="link1">Key Features</a></li><li class='level2-li  '><a href="/content-management" class="link1">Content Management</a></li><li class='level2-li  '><a href="/community" class="link1">Community</a></li><li class='level2-li  '><a href="/ecommerce" class="link1">eCommerce</a></li><li class='level2-li  '><a href="/fulfillment-integration-features" class="link1">Fulfillment Integration Features</a></li><li class='level2-li  '><a href="/workflow" class="link1">Workflow</a></li><li class='level2-li  '><a href="/audience-management-fulfillment-integration" class="link1">Audience Management + Fulfillment Integration</a></li><li class='level2-li  last'><a href="/site-search" class="link1">Site Search</a></li></ul></li><li class='level1-li  '><a href="/clients" class="link2">Clients</a></li><li class='level1-li  '><a href="/blogs" class="link2">Blog</a></li><li class='level1-li  last'><a href="/contact" class="link2">Contact</a></li></ul></div>
+                <a href="search/new" id="quick-search-link" class="quick-search-link"></a>
+              </div>
+            </nav>
+        </div>
+      </div>
+
+      <div class="main-header__container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="/videos/Working-Space.mp4" type="video/mp4" />Your browser does not support the video tag. We recommend you upgrade your browser.
+            <source src="/videos/Working-Space.webm" type="video/webm" />Your browser does not support the video tag. We recommend you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+            <img src="/videos/Working-Space.jpg" alt="">
+        </div>
+        <div class="wrapper">
+          <div class="quick-search" id="quick-search">
+  <form id="quick-search-form" name="quick-search" method="get" action="/search">
+    <div class="quick-search__wrapper">
+      <input type="search" name="q" id="q" class="quick-search__search-field" placeholder="Search" tabindex="1" value="Search" onfocus="this.value = ''" />
+      <button class="quick-search__button"></button>
+    </div>
+  </form>
+</div>
+
+
+          <section id="main-header-message" class="main-header-message">
+              <h1 class="main-header-message__title">If all you want is a CMS,<br />you’re not asking the right questions.</h1>
+              <h2 class="main-header-message__subheadline">Drive revenue &amp; engagement with a Digital Experience Platform</h2>
+              <a href="/questions-to-ask" class="main-header-message__link">Learn How</a>
+          </section>
+
+        </div>
+      </div>
+    </header><!--END of main-header-->
+
+      
+<section class="our-clients">
+  <ul class="our-clients__logos">
+    <li class="our-clients__logo --housingwire">
+      <img src="/images/logos/housingwire-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/housingwire.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --ibj">
+      <img src="/images/logos/ibj-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/ibj.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --premierguitar">
+      <img src="/images/logos/premierguitar-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/premierguitar.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --bnpmedia">
+      <img src="/images/logos/bnpmedia-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/bnpmedia.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --kpbs">
+      <img src="/images/logos/kpbs-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/kpbs.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --wis">
+      <img src="/images/logos/wis-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/wis.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --golfweek">
+      <img src="/images/logos/golfweek-bw.png" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/golfweek.png" alt="" />
+    </li>
+    <li class="our-clients__logo --nsc">
+      <img src="/images/logos/nsc-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/nsc.jpg" alt="" />
+    </li>
+    <li class="our-clients__logo --saturdayeveningpost">
+      <img src="/images/logos/saturdayeveningpost-bw.jpg" alt="" class="our-clients__logo-image-default" />
+      <img src="/images/logos/saturdayeveningpost.jpg" alt="" />
+    </li>
+  </ul>
+
+  <div class="wrapper">
+    <h1 class="our-clients__title">More Readers. More Data. More Sales.</h1>
+    <div class="our-clients__description">
+      <p>A single Dashboard combines Editorial, Audience Data, Marketing &amp; Sales.</p>
+      <p>We partner with Media Companies, Publishers, Associations, and Enterprises, to increase revenue, lower costs and build audience.</p>
+      <p>Exceptional software, proven processes, deep expertise and untiring customer service make it easy to switch, take control and make more money.</p>
+    </div>
+    <a href="/demo" class="our-clients__view-all-link">Request A Demo</a>
+  </div>
+</section>
+
+<section class="chart-panel">
+  <div class="wrapper">
+    <h1 class="chart-panel__title">Unify your websites, content, audience data, mobile, eCommerce &amp; editorial workflow</h1>
+    <div class="chart-panel__description">Increasing traffic and reader engagement is just the start. Audience Data integrations propel sales. Workflow efficiencies save hours for editorial, art and marketing. No other SaaS Publishing Platform powers as many business models.</div>
+  </div>
+
+  <div class="chart-panel__image" id="chart-panel-image"><img src="/images/increase-revenue-large-2x.png" alt="" /></div>
+</section>
+
+<section class="saas-features">
+  <div class="wrapper">
+    <h2 class="saas-features__title">Simple features made powerful...</h2>
+    <div class="saas-features__description">Contextual Articles, Gating, Lead Generation, Metering, Paywalls, Print Workflow Automation, Blogs, Editions, Integrated &amp; Targeted Advertising, Classifieds, Videos, Podcasts, RSS, Social Sharing, Community, Syndication, Search Engine Optimization (SEO), Ratings, Advanced Search, Site Licenses, Report Center, Photo Galleries, DAM Functionality and a lot more...<br /><br /></div>
+
+    <h2 class="saas-features__title"><em>... Powerful features made simple</em></h2>
+
+    <section class="saas-features__feature-list">
+      <article class="saas-features__feature">
+        <h1 class="saas-features__feature-title"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M16 3.205C8.933 3.205 3.205 8.933 3.205 16S8.933 28.795 16 28.795 28.795 23.067 28.795 16 23.067 3.205 16 3.205zm0 1.066c6.467 0 11.73 5.262 11.73 11.73 0 2.845-1.02 5.457-2.712 7.49-1.17-.488-3.93-1.446-5.638-1.95-.146-.047-.17-.054-.17-.66 0-.502.207-1.006.408-1.433a7.34 7.34 0 0 0 .57-1.944c.258-.3.61-.895.838-2.026.2-.997.106-1.36-.026-1.7-.014-.036-.028-.07-.04-.107-.05-.234.02-1.448.19-2.39.118-.648-.03-2.023-.92-3.16-.563-.72-1.64-1.6-3.604-1.724h-1.078c-1.932.123-3.008 1.005-3.57 1.724-.89 1.137-1.038 2.513-.92 3.16.172.942.24 2.156.19 2.386-.01.04-.024.075-.04.11-.13.342-.224.704-.024 1.7.226 1.132.58 1.726.84 2.027.09.7.35 1.48.568 1.944.16.34.234.8.234 1.454 0 .608-.023.615-.16.658-1.766.522-4.578 1.538-5.627 1.997A11.673 11.673 0 0 1 4.27 16C4.27 9.533 9.533 4.27 16 4.27zM7.81 24.387c1.202-.49 3.595-1.344 5.168-1.808.914-.288.914-1.058.914-1.677 0-.512-.035-1.268-.335-1.907-.206-.438-.442-1.19-.494-1.776a.526.526 0 0 0-.18-.355c-.15-.132-.458-.616-.654-1.593-.156-.774-.09-.943-.027-1.107.027-.07.053-.14.074-.216.128-.468-.015-2.005-.17-2.858-.068-.372.018-1.425.71-2.312.623-.795 1.564-1.238 2.765-1.315h1.01c1.234.077 2.175.52 2.798 1.315.694.887.778 1.94.71 2.312-.154.852-.298 2.39-.17 2.857.022.078.047.147.074.217.064.163.13.333-.025 1.106-.197.977-.505 1.46-.656 1.593a.537.537 0 0 0-.18.355c-.05.588-.286 1.338-.492 1.776-.236.502-.508 1.17-.508 1.886 0 .62 0 1.39.924 1.68 1.505.445 3.91 1.27 5.18 1.77A11.69 11.69 0 0 1 16 27.73a11.69 11.69 0 0 1-8.188-3.342z"/></svg>
+ Individualization</h1>
+        <div class="saas-features__feature-description">Drive revenue and engagement by delivering targeted content and advertising directly to an individual reader or demographic. Behaviorally driven and integrated with your third party and back office publishing systems.</div>
+      </article>
+
+      <article class="saas-features__feature">
+        <h1 class="saas-features__feature-title"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M3.205 3.205v25.59h25.59V3.205H3.205zM27.73 4.27v4.8H4.27v-4.8H27.73zM4.27 27.73V10.135H27.73V27.73H4.27z"/><path d="M11.2 5.87h1.6v1.6h-1.6v-1.6zM19.2 5.87h1.598v1.6h-1.6v-1.6zM12.348 13.93c-.19 1.296-.808 1.32-2.05 1.364l-.193.007v.905h2.104v5.914h1.115v-8.362h-.953l-.025.17zM18.642 16.442a2.58 2.58 0 0 0-1.408.433l.38-1.955h3.515v-1.06H16.78l-.848 4.528h.965l.058-.092c.337-.525.952-.852 1.606-.852 1.064 0 1.836.787 1.836 1.87 0 .98-.615 1.972-1.79 1.972-1.004 0-1.726-.678-1.756-1.65l-.006-.193h-1.115l.005.205c.036 1.58 1.167 2.64 2.816 2.64 1.662 0 2.963-1.27 2.963-2.894 0-1.766-1.154-2.953-2.872-2.953z"/></svg>
+ Events</h1>
+        <div class="saas-features__feature-description">Increase event attendance by producing and marketing your custom events with registration, attendee management, and event email marketing. Fully integrated with your Content, eCommerce and Audience Data.</div>
+      </article>
+
+      <article class="saas-features__feature">
+        <h1 class="saas-features__feature-title"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="32" viewBox="0 0 28 32"><path d="M0 21.997v2.12c0 .3.178.813.822.813h7.57v1.093c0 .37.22 1.006 1.018 1.006H27.31c.796 0 1.017-.635 1.017-1.007V23.4c0-.568-.2-1.198-1.017-1.548-1.032-.452-3.8-1.452-5.537-1.965-.133-.043-.156-.05-.156-.646 0-.64.074-1.096.23-1.43.215-.456.47-1.224.56-1.912.255-.296.602-.88.825-1.993.196-.98.104-1.338-.026-1.673-.014-.035-.03-.07-.04-.11-.047-.225.02-1.42.19-2.348.115-.636-.03-1.988-.907-3.108-.553-.707-1.612-1.576-3.513-1.695h-1.06c-1.933.12-2.99.99-3.544 1.696-.876 1.12-1.02 2.472-.905 3.108.168.927.236 2.122.186 2.352-.01.035-.024.07-.037.105-.13.336-.22.693-.026 1.674.223 1.113.57 1.697.826 1.993a7.22 7.22 0 0 0 .56 1.912c.197.42.4.915.4 1.408 0 .597-.024.604-.167.65a54.2 54.2 0 0 0-1.19.367 55.1 55.1 0 0 0-3.182-1.08c-.11-.034-.127-.04-.127-.522 0-.52.06-.887.186-1.157.174-.37.38-.99.453-1.546.206-.24.487-.71.667-1.61.16-.794.084-1.082-.02-1.353-.012-.03-.024-.057-.032-.09-.038-.18.015-1.147.15-1.897.094-.514-.022-1.607-.73-2.513-.447-.57-1.303-1.273-2.838-1.37h-.856c-1.562.096-2.417.8-2.864 1.37-.708.906-.826 2-.73 2.513.134.75.19 1.716.15 1.902-.008.028-.02.056-.03.085-.107.27-.18.56-.022 1.352.18.9.46 1.37.667 1.61.074.557.28 1.176.452 1.546.16.34.323.74.323 1.14 0 .482-.018.487-.134.524-1.36.4-3.554 1.163-4.483 1.552-.66.283-.976.845-.976 1.304zM9.44 23.4c0-.155.157-.47.575-.648 1.103-.46 3.806-1.393 5.448-1.877.918-.288.918-1.078.918-1.655 0-.7-.252-1.33-.5-1.856a6.2 6.2 0 0 1-.468-1.603l-.04-.31-.206-.236c-.113-.13-.397-.54-.59-1.515-.153-.762-.086-.935-.027-1.088v-.002l.01-.026c.02-.054.04-.108.055-.16l.01-.04.01-.038c.106-.5-.034-1.945-.18-2.758-.068-.366.016-1.402.7-2.275.606-.776 1.532-1.21 2.75-1.294h.994c1.492.102 2.302.758 2.72 1.293.683.873.766 1.91.7 2.273-.144.793-.287 2.26-.18 2.755l.004.023.006.022c.022.085.05.16.08.237.054.14.122.317-.03 1.076-.195.975-.478 1.383-.59 1.513l-.207.24-.04.31a6.093 6.093 0 0 1-.47 1.602c-.224.48-.33 1.077-.33 1.878 0 .576 0 1.364.89 1.646 1.69.5 4.44 1.49 5.433 1.926.296.127.39.27.39.587v2.578H9.445l-.004-2.58zm-8.39-1.403c0-.04.066-.222.34-.34.9-.377 3.066-1.126 4.365-1.51.886-.282.886-1.064.886-1.53 0-.604-.213-1.14-.423-1.587a4.872 4.872 0 0 1-.36-1.237l-.042-.31-.204-.237c-.063-.073-.28-.372-.432-1.133-.112-.557-.067-.673-.03-.766l.005-.014.004-.014c.022-.055.036-.098.048-.14l.012-.04.008-.04c.103-.483-.045-1.762-.144-2.308-.045-.257.023-1.034.528-1.68.453-.578 1.15-.904 2.07-.968h.79c1.126.08 1.733.57 2.045.968.504.645.573 1.424.527 1.68-.106.577-.244 1.84-.146 2.304l.005.022.004.022c.02.074.043.14.07.207.035.092.08.21-.03.766-.154.762-.37 1.06-.434 1.132l-.204.237-.04.31A4.774 4.774 0 0 1 9.9 17.03c-.195.417-.286.926-.286 1.603 0 .468 0 1.25.86 1.523.542.16 1.218.383 1.886.616-1.103.378-2.155.76-2.763 1.015-.82.35-1.21 1.045-1.21 1.613v.48H1.047v-1.883z"/></svg>
+ Audience Management</h1>
+        <div class="saas-features__feature-description">Break down silos between Circulation, Fulfillment and your other systems. Unify email service providers, access privileges, eCommerce, self-service portal and user tracking for a 360-degree view of your reader.</div>
+      </article>
+
+      <article class="saas-features__feature">
+        <h1 class="saas-features__feature-title"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M9.07 2.672V17.6H2.67v8.718c0 2.128 1.983 3.01 3.452 3.01H26.13c1.616 0 3.2-1.572 3.2-3.2V2.673H9.07zm-2.946 25.59c-.664 0-2.385-.35-2.385-1.944v-7.652h5.33v7.192c0 .714-.933 2.404-2.404 2.404h-.542zm22.138-2.133c0 1.035-1.096 2.132-2.133 2.132H9.015c.718-.748 1.12-1.73 1.12-2.404V3.738H28.26v22.39z"/><path d="M12.268 5.87h13.86v1.067H12.27V5.87zM12.268 20.265h13.86v1.066H12.27v-1.065zM12.268 23.997h13.86v1.066H12.27v-1.066zM26.13 9.602H12.267V17.6h13.86V9.6zm-1.067 6.93h-11.73V10.67h11.73v5.863z"/></svg>
+ Editorial &amp; Print Workflow</h1>
+        <div class="saas-features__feature-description">Manage and control your entire editorial workflow: web, newsletters, print. Save hours each day. Maintain chain-of-custody, version control, release dates. Integrate photos, graphics, videos, sound clips and more.</div>
+      </article>
+
+      <article class="saas-features__feature">
+        <h1 class="saas-features__feature-title"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="32" viewBox="0 0 29 32"><path d="M16.784 10.755a3.148 3.148 0 1 0 0 6.295 3.148 3.148 0 0 0 0-6.295zm0 5.245a2.098 2.098 0 1 1 0-4.198 2.098 2.098 0 0 1 0 4.198z"/><path d="M4.196 6.034V21.77h25.176V6.033H4.196zm24.128 3.55V20.72H5.246V7.083h23.078v2.5z"/><path d="M23.746 22.82h-20.6V8.132H2.1v15.735h25.177v-1.05h-1.05z"/><path d="M21.648 24.917h-20.6V10.23H0v15.736h25.177v-1.05h-1.05zM6.82 8.165h3.146v1.05H6.82v-1.05z"/><path d="M6.82 18.623h3.146v1.05H6.82v-1.05zM23.603 8.165h3.147v1.05h-3.147v-1.05zM23.603 18.623h3.147v1.05h-3.147v-1.05z"/></svg>
+ Buyers Guides/Directories</h1>
+        <div class="saas-features__feature-description">Deliver more readers and reports to your advertisers and become the complete resource. Products, news, videos, branding, downloads and more deliver qualified leads. Advertisers manage their listing and you generate the revenue.</div>
+      </article>
+
+      <article class="saas-features__feature">
+        <h1 class="saas-features__feature-title"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M30.622 9.602H8.215l-1.81-7.464H1.38v1.066h4.187l5.198 21.443a2.656 2.656 0 0 0-1.923 2.547 2.666 2.666 0 0 0 5.332 0c0-.603-.208-1.153-.545-1.6h7.486a2.644 2.644 0 0 0-.545 1.6 2.666 2.666 0 1 0 2.666-2.666H11.833l-.517-2.133h14.968L30.62 9.6zM13.107 27.196a1.6 1.6 0 1 1-1.6-1.6 1.6 1.6 0 0 1 1.6 1.6zm11.73 0c0 .882-.72 1.6-1.6 1.6s-1.6-.718-1.6-1.6a1.6 1.6 0 0 1 3.2 0zm-13.78-5.865L8.474 10.67h20.662L25.52 21.33H11.058z"/></svg>
+ eCommerce</h1>
+        <div class="saas-features__feature-description">Give buyers a contextual eCommerce experience. Advanced shopping cart for hard goods, subscriptions, events, downloads and content. Your data drives contextual commerce to upsell and raise revenue-per-reader.</div>
+      </article>
+    </section>
+  </div>
+</section>
+
+<section class="our-services">
+  <div class="wrapper">
+    <h1 class="our-services__title"><span id="our-service-text-swap"></span> as a Service</h1>
+    <h2 class="our-services__subtitle">The best SaaS CMS for publishers is made better with experts tailoring an advanced system to your needs</h2>
+
+    <div class="our-services__intro-description">Our professional services team has you covered. We design and deploy responsive sites with software that improves staff productivity &amp; increases reader engagement.</div>
+
+    <ul class="our-services__list">
+      <li class="our-services__list-item">Responsive Web Design – Custom or Bring Your Own</li>
+      <li class="our-services__list-item">Best Practices Consulting</li>
+      <li class="our-services__list-item">Custom Feature &amp; Functionality Development</li>
+      <li class="our-services__list-item">Tailored Integrations With Your Other Systems</li>
+      <li class="our-services__list-item">Obsessive 24 x 7 x 365 Support</li>
+    </ul>
+
+    <div class="our-services__client-solutions-wrapper">
+      <a href="/resources" class="our-services__more-details-link">See Case Studies</a>
+    </div>
+  </div>
+</section>
+
+<section class="saas-integrations">
+  <div class="wrapper">
+    <h1 class="saas-integrations__title">Integrations;<br />
+      Be the center of your own ecosystem
+    </h1>
+    <div class="saas-integrations__description">
+      <p>With your data and content no longer stranded, you can leverage your investment in your existing systems, improve productivity and generate more revenue.</p>
+    </div>
+    <div class="saas-integrations__features-list">
+      <div class="saas-integrations__features">Circulation, Fulfillment &amp; CRM</div>
+      <div class="saas-integrations__features">Association Management</div>
+      <div class="saas-integrations__features">Email Services Provider</div>
+      <div class="saas-integrations__features">Ad &amp; Data Management Platforms</div>
+      <div class="saas-integrations__features">Marketing &amp; Sales Force Automation</div>
+      <div class="saas-integrations__features">Learning Management (LMS)</div>
+      <div class="saas-integrations__features">Adobe InDesign/Production Systems</div>
+      <div class="saas-integrations__features">Social Ecosystems</div>
+      <div class="saas-integrations__features">Events, Media &amp; Content Enhancements</div>
+    </div>
+    <div class="saas-integrations__description">
+      <p>Whether your goal is to become web-first by a CMS integration with Adobe InDesign™ or deliver your data to any number of systems to improve engagement, we can connect.</p>
+      <p>Remove silos and create content once to distribute and monetize through web, print, syndication, email newsletters, apps, site license and mobile.</p>
+      <p class="saas-integrations__blockquote"><em>The integrated enterprise powers more sales, more readership and better customer experiences.</em></p>
+    </div>
+    <div class="saas-integrations__client-solutions-wrapper">
+     <a href="/partners" class="saas-integrations__more-details-link">See Integrations</a>
+     <span class="saas-integrations__more-details-text">Over 80+ standard &amp; custom Integrations</span>
+   </div>
+  </div>
+</section>
+
+<section class="client-quotes" id="client-quotes">
+  <div class="client-quotes__wrapper">
+    <span class="client-quotes__quote-icon"></span>
+    <div class="client-quotes__carousel">
+      <article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">ePublishing is the best CMS for publishers on the market, yet offers so much more. If there is anything better, I haven't seen it.</div>
+  <div class="client-quotes__quote-author">Steve Carder, Director Of New Media &amp; Technology</div>
+  <div class="client-quotes__quote-company">IBJ Media</div>
+</article><article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">Has ePublishing helped us beat our bigger competitor to death? Yeah, big time!</div>
+  <div class="client-quotes__quote-author">Peter Sprague, Chairman</div>
+  <div class="client-quotes__quote-company">Premier Media Holdings, LLC</div>
+</article><article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">Microwave Journal has realized many benefits from moving to the ePublishing cloud-based platform such as better search engine ranking, increased traffic and increased revenue from advanced banner ad units.  The ePublishing platform eases content input while gaining the benefits of periodic system improvements in addition to other customized features Microwave Journal chooses to implement.</div>
+  <div class="client-quotes__quote-author">Pat Hindle, Technical Editor</div>
+  <div class="client-quotes__quote-company">Microwave Journal</div>
+</article><article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">Thanks and of course, none of this we could do as simply and quickly without you guys and your amazing CMS!</div>
+  <div class="client-quotes__quote-author">Jen Kern, Research Director</div>
+  <div class="client-quotes__quote-company">MDM</div>
+</article><article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">As an industry leader, we rely on ePublishing to ensure our web sites, streaming video and infrastructure stay a step ahead of the competition.</div>
+  <div class="client-quotes__quote-author">Alison Arden, Publisher</div>
+  <div class="client-quotes__quote-company">Advertising Age</div>
+</article><article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">We are an international company with very high expectations for service, skill and support.  ePublishing consistently outperforms with their products, knowledge and dedication. They are a big part of the success of our online initiatives.</div>
+  <div class="client-quotes__quote-author">Janis Arp, Vice President — Internet Applications</div>
+  <div class="client-quotes__quote-company">Stewart Title Guaranty Company</div>
+</article><article class="client-quotes__quote">
+  <div class="client-quotes__quote-content">With ePublishing we get advanced features &amp; functionality integrated with our circulation system, empowering us to sell more products, subscriptions and conferences - delivered with the service and support to keep us growing.</div>
+  <div class="client-quotes__quote-author">Jodi Oberle, Director Of Operations</div>
+  <div class="client-quotes__quote-company">FDANews</div>
+</article>
+    </div>
+  </div>
+</section>
+
+<section class="latest-blog-posts ">
+  <h1 class="latest-blog-posts__title">News & Blogs</h1><ul class="latest-blog-posts__items">
+  
+<li class="latest-blog-posts__item">
+  <h1 class="latest-blog-posts__headline"><a href="https://www.epublishing.com/blogs/2-our-news/post/572-epublishing-tls-11-deprecation-notice">ePublishing TLS 1.1 Deprecation Notice</a></h1><div class="description">On October 28, 2016, ePublishing will discontinue support for Transport Layer Security version 1.1.</div>
+</li>
+
+<li class="latest-blog-posts__item">
+  <h1 class="latest-blog-posts__headline"><a href="https://www.epublishing.com/blogs/2-our-news/post/571-saas-update-powerful-wufoo-paypal-integrations">SaaS Update: Powerful WuFoo &amp; Paypal Integrations</a></h1><div class="description">We are pleased to announce two new integrations: Wufoo Forms and Paypal Payflow Pro. Both are now out of beta and being used successfully by clients. Hop over to the ePublishing blog to see how one client, Wellesley Information Services has deployed both on an innovative new site: http://www.insider-books.com.</div>
+</li>
+
+<li class="latest-blog-posts__item">
+  <h1 class="latest-blog-posts__headline"><a href="https://www.epublishing.com/blogs/2-our-news/post/569-saas-update-more-new-analytics">SaaS Update: More New Analytics</a></h1><div class="description">We all know that you can't improve what you don't measure. We have released four new types of reports available immediately that deliver measurable intelligence into Articles, Authors, Pages and Taxonomies.</div>
+</li>
+
+</ul>
+
+</section>
+
+
+      <footer class="main-footer">
+    <div class="wrapper">
+      <section class="footer-content">
+        <p class="footer-content__title-kicker">Get Started</p>
+        <h1 class="footer-content__title">Sales &amp; Information</h1>
+        <div class="footer-content__description">
+          <p>We'd like to learn more about your business to tailor a solution to meet your goals.</p>
+          <p>Please call 312-768-6819 or <a href="/contact" class="text-link">contact us</a>, and get what you want from a partner who cares – more revenue, better technology, improved workflow and lower costs.</p>
+          <p>No pressure, just results.</p>
+        </div>
+      </section>
+
+      <section class="footer-content">
+        <p class="footer-content__title-kicker">Get Ahead</p>
+        <h1 class="footer-content__title">Consult &amp; Customize</h1>
+        <div class="footer-content__description">
+          <p>Have a custom feature request, an idea to talk through, or would like a bit more training to get the most out of your ePublishing software? The best SaaS CMS is engineered to be flexible.</p>
+          <p>Please contact your ePublishing Project Manager directly or through our online project management system.</p>
+        </div>
+      </section>
+
+      <section class="footer-content">
+        <p class="footer-content__title-kicker">Get Help</p>
+        <h1 class="footer-content__title">24x7 Service &amp; Support</h1>
+        <div class="footer-content__description">
+          <p>ePublishing is obsessive about service – and we are always here to take care of you.</p>
+          <p>If you need immediate help or technical assistance – any time day or night – please visit our online support portal and a support specialist will get back to you within 15 minutes.</p>
+        </div>
+      </section>
+
+      <div class="footer-copyright">
+        <span class="footer-copyright__phone">312-768-6800</span>
+        <span class="footer-copyright__copyright">Copyright 2017 ePublishing, Inc. All rights reserved.</span>
+        <a href="/demo" class="footer-copyright__contact-link">See A Demo</a>
+      </div>
+    </div>
+  </footer>
+
+  </div><!--END of document-->
+
+    <script async="async" src="/javascripts/app/main.js?1487059524" type="text/javascript"></script>
+    
+    <script src="/javascripts/client.js" type="text/javascript"></script>
+    
+
+</body></html>
+

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<title>Faculty for the School of Computer Science and Mathematics: Marist College</title>
+<meta name="keywords" content="computer science, mathematics, faculty" />
+<meta name="description" content="The School of Computer Science and Mathematics' faculty." />
+<meta name="verify-v1" content="AqT6cZcob1cv6R4Cp1W7HUkY9ySzVBKnXf/L+fwYhcw=" />
+
+<!--[if lt IE 9]>
+  <script src="/includes/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="/css/unsemantic-grid-base.css" />
+<noscript>
+  <link rel="stylesheet" href="/css/unsemantic-grid-desktop.css" />
+</noscript>
+<!--[if lt IE 8]>
+  <link rel="stylesheet" href="/css/unsemantic-grid-desktop.css" />
+<![endif]-->
+
+<!--[if gt IE 7]><!-->
+<script>
+  var ADAPT_CONFIG = {
+    path: '/css/',
+    dynamic: true,
+    range: [
+      '0 to 767px = unsemantic-grid-mobile.css',
+      '767px = unsemantic-grid-desktop.css'
+    ]
+  };
+</script>
+<script src="/includes/adapt.min.js"></script>
+<!--<![endif]-->
+
+
+<link rel="stylesheet" media="screen" href="/css/sub.php?time=1487453350" />
+<link rel="stylesheet" media="print" href="/css/sub-print.css" />
+<link rel="stylesheet" media="screen" href="/css/jquery-ui.css" />
+<script src="/includes/jquery.min.js" ></script>
+<script src="/includes/jquery-ui.min.js" ></script> 
+<script src="/includes/jquery.autoSuggest.js"></script>
+<script src="/includes/common.js?v=2"></script>
+<script src="/includes/jquery.watermark.min.js"></script> 
+<script src="/includes/css-browser-selector.js"></script> 
+
+
+
+
+<!--[if gt IE 7]><!-->
+<script src="/includes/jquery.responsivetable.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("table").responsiveTable({staticColumns: 0, scrollRight: false});
+  });
+</script>
+<!--<![endif]-->
+
+<script>
+$(document).ready(function() {
+	$(".searchinput").watermark("Search...");
+	$("#autocomplete").autoSuggest({
+		ajaxFilePath : "/webapps/autocomplete/", // path to the ajax server file
+		ajaxParams   : "dummydata=dummyData", // attach all other extra parameters to send to ajaxFilepath
+		autoFill         : false,   // true, false
+		width            : "auto", // auto(obj width), any integer eg : 100px;
+		opacity          : "0.9", // opacity can be anything from 0.1 to 1.0
+		limit            : "10",   // auto(10 records), any integer
+		idHolder         : "id-holder",   // auto(10 records), any integer
+		match            : "contains" // starts,contains,ends
+	});
+	$("#autocomplete").attr("autocomplete","off"); 
+		
+		var new_width = $(document).width();
+  $(".ipad #marist").width(new_width);
+  $(window).resize( function(){
+    if ($("body").width() <= 750){
+      $("#topbar-search").css("border-width", "0px");
+    }
+    else{
+      $("#topbar-search").css("border-width", "1px");
+    }
+  });
+  $(window).resize();
+});
+</script>
+</head>
+
+<body>
+  <header class="grid-container grid-parent" role="banner">
+        <nav class="hide-on-mobile">
+      <ul id="udm" class="udm">
+        <li class="grid-15 mobile-grid-100 grid-parent first"><a href="/about/" class="first">About Marist</a></li>
+        <li class="grid-15 mobile-grid-100 grid-parent"><a href="/admission/">Admission</a></li>
+        <li class="grid-15 mobile-grid-100 grid-parent"><a href="/academics/">Academics</a></li>
+        <li class="grid-15 mobile-grid-100 grid-parent"><a href="/studentlife/">Student Life</a></li>
+        <li class="grid-15 mobile-grid-100 grid-parent"><a href="/athletics/">Athletics</a></li>
+        <li class="grid-15 mobile-grid-100 grid-parent last"><a href="/community/" class="last">Community</a></li>
+      </ul>
+    </nav>
+        
+    <div class="grid-100 grid-parent">
+            <div id="mobile-topbar" class="hide-on-desktop"></div>
+      <div id="mobile-header-spacer" class="hide-on-desktop"></div>
+      
+      <div class="grid-25 prefix-45 push-30 mobile-grid-100">
+        <div id="desktop-searchbox-spacer" class="hide-on-mobile"></div>
+        <div id="topbar-menu-button" class="hide-on-desktop">
+          <img src="/images/menu.png" alt="Menu" />
+        </div>
+                <script>
+          $("#topbar-menu-button img").eq(0).on("click", function(){
+            if ($(".mobile-nav").length == 0){
+              $("#topbar-menu-button").after($("#udm")
+                              .clone()
+                              .addClass("hide-on-desktop mobile-nav")
+                              .attr("style", "background:none; position:absolute; top:45px; left:0px;")
+                           );
+              $(".mobile-nav li").removeClass("grid-15");
+              $(".mobile-nav a").css({"padding-left": "10px", "padding-right": "10px"});
+              $("#topbar-menu-button img").eq(0).addClass("on");
+            }
+            else{
+              $(".mobile-nav").toggle();
+              $("#topbar-menu-button img").eq(0).toggleClass("on");
+            }
+          });
+        </script>
+        <div id="topbar-search" class="grid-100 grid-parent">
+          <form method="get" id="searchbox_011686685756761272083:t9l2p2gvaj4" action="/search/" role="search">
+            <input type="hidden" name="cx" value="011686685756761272083:t9l2p2gvaj4" />
+            <input type="text" class="searchinput" id="autocomplete" size="40" name="q" />
+            <input type="submit" class="button" name="sa" value=" " />
+            <input type="hidden" name="cof" value="FORID:11" />
+          </form>
+        </div>      </div>      
+      <div id="mobile-logo-spacer" class="hide-on-desktop"></div>
+      <div id="topbar-maristlogo" class="grid-25 suffix-5 pull-70 mobile-grid-100 grid-parent">
+        <a href="/">
+                    <h1>Marist</h1>
+        </a>
+      </div>
+          </div>  </header>
+      
+    <div id="body-container" class="grid-container grid-parent" role="main">
+    <div id="body-main-content-container" class="grid-100 mobile-grid-100 grid-parent">
+              
+      <div id="body-spacer" class="hide-on-mobile"></div>
+            
+            <aside id="sidebar" class="grid-25 grid-parent" style="margin-top:15px;">
+        <nav class="grid-100 grid-parent">
+          <ul id="mainnav">
+             
+    <li>
+     <a href="index.html" class="menuOff"><strong>Computer Science and Mathematics</strong></a>
+         </li> 
+	    <li>
+     <a href="/compscimath/about.html" class="menuOff">About Us</a>
+         </li>
+	    <li>
+     <a href="/compscimath/advisoryboard.html" class="menuOff">Advisory Board</a>
+         </li>
+	    <li>
+     <a href="/compscimath/programs.html" class="menuOff">Academic Programs</a>
+         </li>
+	    <li>
+     <a href="/compscimath/partnerships.html" class="menuOff">Research &amp; Internships</a>
+         </li>
+	    <li>
+     <a href="/compscimath/faculty.html" class="menuOff">Faculty and Staff</a>
+         </li>
+	    <li>
+     <a href="/compscimath/students.html" class="menuOff">Services</a>
+         </li>
+	    <li>
+     <a href="/compscimath/alumni.html" class="menuOff">Student/Alumni Success</a>
+         </li>
+	          </ul>
+        </nav>
+                <section class="grid-100 grid-parent" id="body-contacts">
+          <h2>Contact:</h2>
+          <style type="text/css">
+    #body-main-content .fancybox:hover{ border-bottom: none; }
+</style>
+
+<h2>Overview Video</h2>
+<p style="font-size:5px;">&nbsp;</p>
+<a class="fancybox" href="overview.html"><img style="margin:auto;display:block;width: 100%; max-width: 300px" alt="School Video" 
+src="/compscimath/images/schoolvideo.jpg"></a>
+<p style="font-size:5px;">&nbsp;</p>
+<div style="text-align: left;">
+	Watch this video interview with Dean Roger Norton to learn more about the distinctive features of Marist's School of Computer Science and Mathematics.<br />
+  <a class="fancybox" href="overview.html">Watch Video <img class="icon" src="/images/gray_arrow.gif" alt="arrow" /></a>
+</div>
+<br>
+<script>
+	$('#body-contacts h2').ready(function() {
+		$('#body-contacts h2').first().css('display', 'none');
+	});
+</script>
+<h2>Contact:</h2>
+<p>
+  <strong>Email:</strong><br />
+  <strong><a href="mailto:roger.norton@marist.edu">Dr. Roger 
+Norton</a></strong><br />
+  Dean<br />
+  845.575.3610
+</p>
+<p>
+<a href="https://twitter.com/MaristCSAM" target="_blank"><img src="/images/socialmediasub/twittericon.png" alt="Marist School of Computer Science & Math Twitter" class="social-media-icon" 
+/></a
+</p>
+        </section>
+                      </aside>
+      <script>
+        $(document).ready(function(){
+          $(window).resize( function(){
+            if ($("body").width() <= 750){
+              if ($("#expand-mainnav").length == 0){
+                $("#mainnav li").hide();
+                $("#mainnav").prepend("<li id='expand-mainnav'><a href='#'><strong>Menu</strong><img src='http://www.marist.edu/currentstudents/images/plusminus.png' style='float:right'></a></li>");
+                $("#expand-mainnav").on("click", function(e){
+                  e.preventDefault();
+                  if ($("#mainnav li").eq(1).css("display") == "none"){
+                    $("#mainnav li").not("#expand-mainnav").show();
+                  }
+                  else{
+                    $("#mainnav li").not("#expand-mainnav").hide();
+                  }
+                });
+                $("#body-contacts").css({"text-align": "left", "padding-left": "5px", "padding-right": "10px"}).remove().insertAfter("#body-main-content");
+                //$("#topbar-search").css("border-width", "0px");
+              }
+            }
+            else{
+              $("#body-contacts").css({"padding-left": 0, "padding-right": 0}).remove().insertAfter("#sidebar nav");
+              $("#expand-mainnav").remove();
+              $("#mainnav li").show();
+              //$("#topbar-search").css("border-width", "1px");
+            }
+          });
+          $(window).resize();
+        });
+      </script>
+              
+                  <article id="body-main-content" class="grid-75">
+        <aside id="body-breadcrumbs">
+          <a href="/">home</a> &gt; <a href="/academics/">academics</a> &gt; computer science and mathematics
+        </aside>
+      
+
+<table border="0" width="100%" style="clear: both;">
+
+  <tr>
+  <td colspan="2" style="text-align: center;">
+    <img src="/webapps/facultybio/view.html?uid=481" />
+  </td>
+ </tr>
+  <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;" width="35%"><strong>Name: 
+</strong></td>
+  <td style="text-align: left; vertical-align: top;" width="65%">Dr. Casimer   DeCusatis</td>
+ </tr>
+ 
+  <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;"><strong>Title: </strong></td>
+  <td style="text-align: left; vertical-align: top;">Assistant Professor</td>
+ </tr>
+ 
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;"><strong>Office Location: 
+</strong></td>
+  <td style="text-align: left; vertical-align: top;">Hancock Center 3014</td>
+ </tr>
+ 
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;"><strong>Extension: </strong></td>
+   				<td style="text-align: left; vertical-align: top;">(845) 575-3383</td>
+	  </tr>
+ 
+<tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;"><strong>Email: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><a href="mailto:casimer.decusatis@marist.edu">casimer.decusatis@marist.edu</a></td>
+ </tr>
+
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;"><strong>Personal Web Page: 
+</strong></td>
+  <td style="text-align: left; vertical-align: top;"><a href="http://decusatis.net/casimer/">http://decusatis.net/casimer/</a></td>
+ </tr>
+ 
+<tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px; padding-bottom: 10px;"><strong>Degrees Held: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	Ph.D. Electrical, Computer &amp; Systems Engineering, Rensselaer Polytechnic Institute</p>
+<p>
+	M.S. Electrical, Computer &amp; Systems Engineering, Rensselaer Polytechnic Institute</p>
+<p>
+	B.S. Engineering Science &amp; Mechanics, Pennsylvania State University</p>
+<p /></td>
+ </tr>
+ 
+
+<tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Certifications: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	<strong>Engineering Intern (EIT) License</strong>, National Society of Professional Engineers</p>
+<p /></td>
+ </tr>
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Bio: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	<strong>Dr. Casimer DeCusatis</strong> is an Assistant Professor with the Computer Science &amp; Mathematics Department at Marist College, Poughkeepsie, NY.&nbsp; He is a former IBM Distinguished Engineer and emeritus member of the IBM Academy of Technology, with extensive experience in cloud computing, optical data networking, SDN, NFV, and cybersecurity.&nbsp; He is an <st1:stockticker w:st="on">IBM</st1:stockticker> Master Inventor with over 140 patents, and recipient of several industry awards, including the IEEE Kiyo Tomiyasu Award, the Sigma Xi Walston Chubb Award for Innovation, the EDN Innovator of the Year Award, the Mensa Research Foundation Copper Black Award for Creative Achievement, the Penn State Outstanding Scholar Alumnus Award and Mark Luchinsky Memorial Lecture, and the IEEE/HKN Outstanding Young Electrical Engineer award (including a citation from the President of the United States and an American flag flown in his honor over the U.S. Capitol).&nbsp; He is co-author of more than 150 technical papers, book chapters, and encyclopedia articles, and editor of the Handbook of Fiber Optic Data Communication (now in its 4<sup>rd</sup> edition).&nbsp; He has also collaborated with faculty from Harvard Business School and Imperial College, London on innovation ecosystems for industry and academia.&nbsp; Dr. DeCusatis received the M.S. and Ph.D. degrees from Rensselaer Polytechnic Institute (Troy, N.Y.) in 1988 and 1990, respectively, and the B.S. degree magna cum laude in the Engineering Science Honors Program from the Pennsylvania State University (University Park, PA) in 1986.&nbsp;&nbsp;&nbsp; He is a Fellow of the IEEE, Optical Society of America, and SPIE (the international optical engineering society), a member of the Order of the Engineer, Tau Beta Pi, Eta Kappa Nu, Mensa, and various other professional organizations and honor societies; he was recognized as one of Sigma Xi&rsquo;s Distinguished Members during their 125<sup>th</sup> anniversary celebration.&nbsp; He is also Founder and Director of Hudson Valley FIRST Lego League (<a href="http://www.facebook.com/HudsonValleyFLL">http://www.facebook.com/HudsonValleyFLL</a>) &nbsp;which offers over 1,000 students each year the opportunity to pursue their interest in science and technology.&nbsp; His discussions on data networking are available on Twitter (@Dr_Casimer) or his monthly blogs for the OFC Conference (<a href="http://www.ofcconference.org/home/about/ofc-blog/">http://www.ofcconference.org/home/about/ofc-blog/</a> ).&nbsp;</p>
+<p /> </td>
+ </tr>
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Interests: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	Science fiction (particularly Dr. Who), Lego MindStorm Robotics, Big 10 college football</p>
+<p /> </td>
+ </tr>
+ 
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Awards &amp; Honors: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	<strong>Outstanding Scholar Alumnus Award</strong>, Penn State University Scholars Program (2012)<br />
+	&nbsp;</p>
+<p>
+	<strong>Sigma Xi Walston Chubb Award for Innovation</strong> (2011) presented for sustained innovative contributions to engineering and technology, including keynote at the Sigma Xi annual meeting</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>IEEE Kiyo Tomiyasu Award</strong> (2002) presented for contributions to optical technologies and fiber optic communication, holding the promise of innovative applications in computer networks</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>National</strong><strong> Academy</strong><strong> of Engineering&#39;s Frontiers of Engineering Symposium</strong> (2002) selected as one of the top 100 engineers in the nation</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Mensa Education and Research Foundation&rsquo;s Copper Black Award for Creative Achievement</strong> (2002); for development of optical networking and disaster recovery systems such as those used during September 11, 2001</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Innovator of the Year</strong>, EDN magazine (2000); includes presentation of $10,000 scholarship</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>IEEE/Eta Kappa Nu Outstanding Young Electrical Engineer Award</strong> (1999) presented for individual contributions to technology;&nbsp; Recognition includes a citation from the President of the United States and an American flag flown in his honor over the U.S. Capitol, Washington, D.C.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>5 Best Technical Paper Awards</strong> &ndash; IEEE High Performance Switching &amp; Routing (2012); IBM Academy TechConnect (2012, 2010); IEEE Hot Interconnects (2010); OSA Annual (1998)<br />
+	&nbsp;</p>
+<p>
+	<strong>3 Photonics Spectra Circle of Excellence Awards</strong> for dense wavelength division multiplexing products developed with IBM, Nortel, and Cisco (1996, 2000, 2002)<br />
+	&nbsp;</p>
+<p>
+	<strong>5 Research &amp; Development 100 Awards</strong> for dense wavelength division multiplexing products developed with <st1:stockticker w:st="on">IBM</st1:stockticker>, Nortel, Cisco, Adva, Ciena, and Huawei (2000, 2002, 2003, 2007, 2009)</p>
+<p 
+/></td>
+ </tr> 
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Publications: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	Over 150 refereed technical publications, over 70 conference presentations, author/editor of 5 books and numerous book chapters, encyclopedia articles, and other publications.&nbsp; Some recent&nbsp; research publications include the following:</p>
+<ol>
+	<li>
+		<span dir="ltr">&nbsp;&nbsp;&nbsp;C. DeCusatis and P. Mueller, &ldquo;Virtual firewall performance as a waypoint on a software defined network&rdquo;, Proc. IEEE 6<sup>th</sup> International Symposium on Cyberspace Safety and Security (CSS), part of the International Conference on High Performance Computing and Communications (HPCC), Paris, France (August 20-22, 2014)</span><br />
+		&nbsp;</li>
+	<li>
+		<span dir="ltr">C. DeCusatis and R. Cannistra, &ldquo;Dynamic management and provisioning of software defined cloud data centers&rdquo;, Proc. NSF Enterprise Computing Conference (ECC), paper SC3101, June 8-10, Marist College, Poughkeepsie, NY (2014)<br />
+		&nbsp;</span></li>
+	<li>
+		<span dir="ltr">T. Bundy, R. Cannistra, and C. DeCusatis, &ldquo;Dynamic Software Defined Networking Infrastructure Test Bed at Marist College&rdquo;, Video presentation, 2014 Internet2 Global Summit, Denver, Colorado (April 9, 2014) <a href="http://meetings.internet2.edu/2014-global-summit/detail/10003109/">http://meetings.internet2.edu/2014-global-summit/detail/10003109/</a></span><br />
+		&nbsp;</li>
+	<li>
+		<span dir="ltr">C. J. Sher-DeCusatis and C. DeCusatis, &ldquo;Developing a software defined networking curriculum through industry partnership&rdquo;, Proc. ASEE Annual Meeting, Hartford, CT (April 3-5, 2014) ** named among top 10 conference papers ** <a href="http://asee-ne.org/proceedings/2014/index.htm">http://asee-ne.org/proceedings/2014/index.htm</a></span><br />
+		&nbsp;</li>
+	<li>
+		<span dir="ltr">&nbsp;&nbsp;C. DeCusatis, J. Ziskin, T. Bundy, &ldquo;The rise of SDN optical networks; has automated provisioning arrived?&ldquo;, invited presentation, Pacific Telecom Conference, Honolulu, Hawaii (January 2014) </span></li>
+	<li value="6">
+		<span dir="ltr">C. DeCusatis, R. Cannistra, B. Carle, M. Johnson, J. Kapadia, Z. Meath, M. Miller, D. &nbsp;Young, T. Bundy , G. Zussman, K. Bergman, A. Carranza, C. Sher-DeCusatis, A. Pletch, R. Ransom, &ldquo;Enabling automatic provisioning in SDN cloud networks with NFV service chaining&rdquo;, paper Tu21.4, Proc. OFC 2014 annual meeting, San Francisco, CA (March 9-14, 2014)</span><br />
+		&nbsp;</li>
+	<li value="7">
+		<span dir="ltr">&nbsp;&nbsp;C. DeCusatis, &ldquo;Enabling the cloud: data center as a network&rdquo;, invited presentation, OFC 2014 annual meeting, San Francisco, CA (March 2014)</span><br />
+		&nbsp;</li>
+	<li value="8">
+		<span dir="ltr">&nbsp;C. DeCusatis, &ldquo;Software defined optical access: hope or hype ?&rdquo;, invited presentation, OIDA 2014 meeting, San Francisco, CA (March 2014)</span><br />
+		&nbsp;</li>
+	<li value="9">
+		<span dir="ltr">&nbsp;&nbsp;C. DeCusatis, &ldquo;Optical interconnect networks for data communications&rdquo;, IEEE Journal of Lightwave Technology, vol 32, no 4, p 544 &ndash; 552 (February 2014)</span><br />
+		&nbsp;</li>
+	<li value="10">
+		<span dir="ltr">&nbsp;&nbsp;C. Dixon, D. Olshefski, V. Jain, C. DeCusatis, W. Felter, J. Carter, M. Banikazemi, V. Mann, J. Tracey, R. Recio, J. Kidambi, A. Biswas, and U. Shankar Nagaraj, &ldquo;Software defined networking to support the software defined environment&rdquo;, IBM Journal of Research &amp; Development, vol 58, issue 2/3, p. 3.1 &ndash; 3.14 (March/May issue 2014)</span></li>
+</ol>
+<p>
+	<br />
+	<br />
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+</td>
+ </tr> 
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Exhibitions: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	Recent research exhibitions include Internet 2, SDN/NFV World Congress, IBM TechConnect, and Adva North America Technology Symposium</p>
+</td>
+ </tr> 
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Research Interests: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	Cloud Computing, Fiber Optical Networking and Wavelength Multiplexing, Data Communications, Software-Defined Networking, Network Function Virtualization, Cyber-Security &nbsp;</p>
+</td>
+ </tr>
+ 
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Conferences &amp; Workshops: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	Over 70 conference presentations and workshops, some recent examples include the following:</p>
+<ol>
+	<li>
+		<span dir="ltr">C. DeCusatis, &ldquo;Software defined environments using IBM System Networking&rdquo;, Proc. COSIN 2014, IBM Haifa, Israel (March 13, 2014)</span><br />
+		&nbsp;</li>
+	<li>
+		C. DeCusatis, &ldquo;Software-defined networking for data center interconnect and cloud computing&rdquo;, Ethernet Expo 2012 (sponsored by Heavy Reading), Hilton New York, November 6-8, 2012 <a href="http://downloads.lightreading.com/lrlive/ethexp12/EENY_Day2.zip">http://downloads.lightreading.com/lrlive/ethexp12/EENY_Day2.zip</a>&nbsp;<br />
+		&nbsp;</li>
+	<li>
+		&nbsp;<span dir="ltr"><u>C. DeCusatis, &ldquo;Towards an Open Datacenter with an Interoperable Network (ODIN)&rdquo;, invited paper, InterOp 2012, Las Vegas, NV (May 8, 2012)</u></span><br />
+		&nbsp;</li>
+</ol>
+ </td>
+ </tr>
+ 
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Affiliations: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	<strong>IEEE Fellow (2004)</strong></p>
+<p>
+	<strong>Optical Society of America Fellow (2005)</strong></p>
+<p>
+	<strong>SPIE Fellow&nbsp;(2006) </strong></p>
+<p>
+	<strong>Sigma Xi Distinguished Member (2011)</strong></p>
+<p>
+	<strong>IBM</strong><strong> Academy</strong><strong> of Technology Emeritus&nbsp;(inducted 2009) </strong></p>
+<p>
+	<strong>Tau Beta Pi</strong></p>
+<p>
+	<strong>Eta Kappa Nu</strong></p>
+<p>
+	<strong>Order of the Engineer (inducted at the U.S. Military Academy, West Point)</strong></p>
+<p>
+	<strong>Mensa</strong></p>
+<p>
+	&nbsp;</p>
+ 
+</td>
+ </tr>
+ 
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Presentations: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><ol>
+	<li>
+		<span dir="ltr">C. DeCusatis and L. Miano, &ldquo;Cloud computing and software defined environments&rdquo;, Pace University college of computer science and engineering seminar series, April 30, 2014</span></li>
+	<li>
+		<span dir="ltr">C. DeCusatis, R. Cannistra, T. Bundy, &ldquo;Software Defined Environments and Next Generation Networks: a tutorial&rdquo;, Proc. Keystone Initiative for Network Based Education and Research (KINBER) 2014 annual meeting (an Internet2 affiliate), Harrisburg, PA, April 23-25, 2014<br />
+		&nbsp;</span></li>
+	<li>
+		<span dir="ltr">C. DeCusatis, &ldquo;SDN, NFV, and the cloud disruption: the next generation open data center interoperable network (ODIN)&rdquo;, BrightTalk webinar, April 17, 2014 </span><a href="https://www.brighttalk.com/search?q=DeCusatis">https://www.brighttalk.com/search?q=DeCusatis</a></li>
+	<li>
+		<p>
+			<span dir="ltr">C. DeCusatis, &ldquo;Trends in modern data centers&rdquo; keynote presentation, New York City College of Technology Computer Engineering Technology Symposium, The City University of New York, NY (January 17, 2013)</span></p>
+	</li>
+	<li>
+		<u>C. DeCusatis, &ldquo;Software-defined networking for the Open Datacenter Interoperable Network (ODIN)&rdquo;, Open Network Exchange 2013 (presented by Network World), University of Chicago Gleacher Center, Chicago, IL (May 14, 2013)</u>&nbsp; <a href="https://www.etouches.com/ehome/53138">https://www.etouches.com/ehome/53138</a>&nbsp;<br />
+		&nbsp;</li>
+</ol>
+</td>
+ </tr> 
+
+ <tr>
+  <td style="text-align: right; vertical-align: top; padding-right: 10px;"><strong>Miscellaneous: </strong></td>
+  <td style="text-align: left; vertical-align: top;"><p>
+	<strong>Books</strong></p>
+<p>
+	1) &nbsp;C. DeCusatis, Editor, <em>Handbook of Fiber Optic Data Communication</em>, Academic Press, N.Y., 4<sup>th</sup> edition, 600 pp (2013) - continuously in print since 1998</p>
+<p>
+	2) C. DeCusatis and P. Das,&nbsp; <em>Acousto-optics: Fundamentals and Applications</em>, Artech House, Boston, Mass., 473 pp. (1991)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>
+	3) C. DeCusatis, editor,<em> Handbook of Applied Photometry</em>, American Institute of Physics Press, N.Y., copublished with the Optical Society of America; Second Edition published by Springer Verlag, 463 pp. (1997)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>
+	4) A. Abbate, C. DeCusatis, and P. Das, <em>Wavelets and subbands: fundamentals and applications</em>, Birkhauser Press, Boston, Mass., 551 pp. (2002)</p>
+<p>
+	5) C. DeCusatis, Editor, <em>Fiber Optic Data Communication: Technological Trends and Advances</em>, Academic Press, N.Y. 566 pp. (2002)</p>
+<p>
+	6) C. DeCusatis and C.J.S. DeCusatis, <em>Fiber Optic Essentials,</em> Elsevier/Academic Press, San Diego, CA, 271 pp. (2005)</p>
+<p>
+	7) C. DeCusatis, &quot;Optical Fiber Communication Systems&quot;, 30 pp. in <em>Encyclopedia of Electrical and Electronics Engineering</em> (John G. Webster, Editor), John Wiley and Sons, NY (first edition, 1999; second edition, 2001, third edition, 2013)&nbsp;&nbsp;(<a href="http://onlinelibrary.wiley.com/book/10.1002/047134608X">http://onlinelibrary.wiley.com/book/10.1002/047134608X</a>)&nbsp;<br />
+	<br />
+	<strong>Recent Issued Patents:</strong></p>
+<p>
+	1) C. DeCusatis, R. Krishnamurthy, M. Onghena, and A. Rao, &ldquo;Redundant power supply configuration for a data center&rdquo;, Pat no 8,671,287 issued March 11, 2014&nbsp;</p>
+<p>
+	2) C. DeCusatis and T. Gregg, &ldquo;Method, system, and apparatus for flow control management in a data center Ethernet network over an extended distance&rdquo;, pat no 8,737,228 issued May 29, 2014&nbsp;&nbsp;<br />
+	&nbsp;</p>
+<p>
+	3) C. DeCusatis, D. Crisan, M. Gusat, and C. Minkenberg,&nbsp; &ldquo;Network data congestion management system (proactive)&rdquo;, patent 8,755,390 issued June 18, 2014&nbsp; ** IBM High Value Patent Award&nbsp;**</p>
+<p>
+	4) &nbsp;J. Calvignac, C. DeCusatis, F. Verplanken, and D. Wind, &ldquo;Hash collision reduction system&rdquo;, pat no 8,762,399 issued June 26, 2014</p>
+<p>
+	5) &nbsp;&nbsp;C. DeCusatis, R. Krishnamurthy, T. Nelson, A. Rao, and J. Torella, &ldquo;Adaptive caching of data&rdquo;, patent no 8,788,760 issued July 22, 2014</p>
+<p>
+	6) &nbsp;C. DeCusatis, K. Kamble, and A. Kumbhare, &ldquo;Multipath effectuation within singly contiguous network fabric via switching device routing logic programming&rdquo;, patent no. 8,792,474 issued July 30, 2014</p>
+</p> 
+</td>
+ </tr> 
+</table>
+
+
+        <aside id="body-relatedinfo">
+                    <hr />
+                              <div class="floatleft">
+          <h1>Related Information:</h1>
+
+<ul>
+ <li><a href="/summerinstitutes/">Summer Pre-College Institutes</a></li>
+ <li><a href="http://idcp.marist.edu/">Institute for Data Center Professionals</a></li>
+<li><a href="http://ccac.marist.edu">NYS Cloud Computing and Analytics Center</a></li>
+</ul>
+	
+          </div>                  </aside>      </article>
+      </div>  </div>
+  <footer class="grid-container grid-parent" id="footer-content">
+    <section id="footer-links">
+      <nav class="grid-100 grid-parent hide-on-mobile">
+      <div class="footer-column grid-25">
+        <h2>About Marist</h2>
+        <ul>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/pres.html">From the President</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/history.html">History &amp; Heritage</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/visit.html">Visitors&#39; Center</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/glance.html">Marist at a Glance</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/pdfs/financialstatements.pdf">Financial Statements</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/board.html">Board of Trustees</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/tour.html">Visitor Information</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/florence/">Marist in Italy</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/about/admin.html">Administration</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/strategicplanning/">Strategic Plan: 2011 &#45; 2016</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column grid-25">
+        <h2>Admission</h2>
+        <ul>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/freshman/">Freshman Students</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/transfer/">Transfer Students</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/adult/">Adult Students (age 22 &amp; older)</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/graduate/">Graduate Students</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/international/">International Students</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/admission/military/">Military &amp; Veterans</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/professional-programs/distance-learning/">Distance Learning</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/financialaid/">Financial Aid &amp; Scholarships</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column grid-25">
+        <h2>Academics</h2>
+        <ul>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/academics/">Academic Schools</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/academics/programs/">Majors &amp; Academic Programs</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/academics/core/">The Marist Core</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/academics/calendars.html">Academic Calendars</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/registrar/catalog/">Course Catalogs</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/professional-programs/distance-learning/">Distance Learning</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/library/">Library</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/international/">Marist International Programs</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/academics/resources.html">Academic Resources</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/academics/special.html">Special Academic Opportunities</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/careerservices/">Career Services</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column grid-25">
+        <h2>Student Life</h2>
+        <ul>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/studentlife/firstyear/">First Year Programs</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/housing/">Housing &amp; Residential Life</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="http://www.maristdining.com">Marist Dining</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/studentlife/activities.html">College Activities &amp; Organizations</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="http://marist.bncollege.com">Bookstore</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/computerstore/">Computer Store</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/healthservices/">Health Services</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/accommodations-accessibility/">Accommodations &amp; Accessibility</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/counseling/">Counseling Services</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/studentlife/ministry/">Campus Ministry</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/studentlife/lgbtq/">LGBTQ Resources</a></li>
+		  <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/studentlife/senioryear/">Senior Year Experience</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/studentlife/studentconduct/">Student Conduct</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/security/">Safety &amp; Security</a></li>
+          <li><a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/maristmoney/">Marist ID/Marist Money</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-blurb">
+    <a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink-social']);" href="/socialmedia"><img alt="Marist On..." src="/images/socialmedia-sub.png"></a>
+  </div>
+  <p class="footer-utility-content grid-100">
+          <a href="/calendar/">Calendar</a> |
+      <a href="/directory/">Directories</a> |
+      <a href="/atoz/">Site A-Z Index</a> |
+      <a href="/about/visit.html">Map &amp; Directions</a> |
+      <a href="https://www.marist.edu/alumni/giving.html?recipient=campaign">Giving to Marist</a> |
+      <a href="javascript:newWin('http://jobs.marist.edu')">Jobs at Marist</a> 
+      <br><br />
+        Marist College, 3399 North Road, Poughkeepsie, NY 12601 | 845.575.3000<br>
+    <span>&copy; Copyright 2017 Marist College. All Rights Reserved. <a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/disclaimers.html">Disclaimers</a> | <a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/privacy.html">Privacy Policy</a> | 
+      <a href="javascript:newWin('http://m.marist.edu')">Mobile</a> | <a onclick="javascript:_gaq.push(['_trackPageview', '/G1/footerlink']);" href="/contact/">Contact</a></span>
+  </p>
+</section>
+  </footer>
+  
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-320870-1']);
+_gaq.push(['_setDomainName', '.marist.edu']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>
+

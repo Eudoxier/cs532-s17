@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-76x76.png" sizes="76x76" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-120x120.png" sizes="120x120" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-180x180.png" sizes="180x180" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon.png" />
+<link rel="apple-touch-icon-precomposed" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-57x57.png" sizes="57x57" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-152x152.png" sizes="152x152" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-60x60.png" sizes="60x60" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="canonical" href="/welcome" />
+<meta name="google-site-verification" content="Hz8tlVAxSaFlOxuuy7U3ldse2ElSgP0UG3N2u5KOdQw" />
+<meta name="google-site-verification" content="rseHHY3EOJIGZMvgno-WwknbJYdCZwJLb2fJ-GglKeQ" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/12024" />
+<link rel="shortcut icon" href="https://phsc.edu/sites/all/themes/phsc_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<link rel="apple-touch-icon" href="https://phsc.edu/sites/all/themes/phsc_theme/apple-touch-icon-144x144.png" sizes="144x144" />
+<meta name="viewport" content="width=device-width" />
+  <title>PHSC | Pasco-Hernando State College</title>
+  <link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_-7SCqnrAugpPl3IMU1TZOqmyYuPB3v_BBXWWXm6E9JM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_glIrjgtD7DnJO6atMY7WMk9IAnsg-WxpZ1n6EnDsR6w.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_5nTRDuGdguoRPOdiMomQMeyfbMA3SO-E3_rwOwDKoIE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_Se7nL1h2Fg7opRL9y1lJZo6AzaeP-zjXshhOQ-KRWG0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_CSh7lxTfl7qcBXVl9xNB7IVhv-c39TZDLa8ZcIafihw.css" media="print" />
+
+<!--[if lte IE 8]>
+<link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_sQzZmpC-v0zpd08wTUEnjGuXmotpa1xS4wOu1P-Gwy4.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://phsc.edu/sites/default/files/css/css_V69jOnCyZEKZC1WcftXKhSyKwuZSPzlSD9NE-GfaRg0.css" media="all" />
+  <script>document.cookie = 'adaptive_image=' + Math.max(screen.width, screen.height) + '; path=/';</script>
+<script src="https://phsc.edu/sites/default/files/js/js_7lNCzDLsfu2KoAnsTyDsS7PjIRJdCtDpRX9YWS1a1A8.js"></script>
+<script src="https://phsc.edu/sites/default/files/js/js_3Zl6jmwXYB3wx0wZ9PStanw30Oc6mwW1syeQxwvgMi0.js"></script>
+<script src="https://phsc.edu/sites/default/files/js/js_NpX2cwCeepkWZZ194B6-ViyVBHleaYLOx5R9EWBOMRU.js"></script>
+<script src="https://phsc.edu/sites/default/files/js/js_Yup5ifpzTREoWq1wo2N7EWrHHs8hJ6nqmnVeCUaCq_E.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://phsc.edu/sites/default/files/googleanalytics/analytics.js?okva7z","ga");ga("create", "UA-830530-1", {"cookieDomain":"auto","allowLinker":true});ga("require", "linker");ga("linker:autoLink", ["www.phsc.edu","phsc.edu","www.phcc.edu","phcc.edu"]);ga("send", "pageview");</script>
+<script src="https://phsc.edu/sites/default/files/js/js_6BG5e4flEAMDyinnTOlVGecZ5egGM3zZQNQiH0wGnD0.js"></script>
+<script src="https://phsc.edu/sites/default/files/js/js_ktqXqbI3sUGjqLs31KLKoeXvSTNBytunkywcJqF5N40.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","video_filter":{"url":{"ckeditor":"\/video_filter\/dashboard\/ckeditor"},"instructions_url":"\/video_filter\/instructions","modulepath":"sites\/all\/modules\/contrib\/video_filter"},"ajaxPageState":{"theme":"phsc_theme","theme_token":"M0aL6ZzNVKjQRY9ayjePhnwPdRUlKmSSobG5-o3BELo","js":{"0":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/omega\/omega\/js\/no-js.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/iframe\/iframe.js":1,"sites\/all\/modules\/custom\/megamenu\/js\/megamenu-click.js":1,"sites\/all\/modules\/contrib\/video\/js\/video.js":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/js\/flexslider.load.js":1,"sites\/all\/modules\/contrib\/flexslider\/flexslider_views_slideshow\/js\/flexslider_views_slideshow.js":1,"sites\/all\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/modules\/contrib\/responsive_dropdown_menus\/theme\/responsive-dropdown-menus.js":1,"sites\/all\/themes\/phsc_theme\/js\/phsc-theme.behaviors.js":1,"sites\/all\/themes\/phsc_theme\/js\/phsc-theme.script.js":1},"css":{"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/adaptive_image\/css\/adaptive-image.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/contrib\/payment_forms\/payment_forms.css":1,"sites\/all\/modules\/contrib\/video_filter\/video_filter.css":1,"sites\/all\/modules\/contrib\/webform_paymethod_select\/webform_paymethod_select.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/search\/search.theme.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/contrib\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/megamenu\/css\/megamenu-common.css":1,"sites\/all\/modules\/custom\/megamenu\/css\/megamenu-click.css":1,"sites\/all\/modules\/contrib\/video\/css\/video.css":1,"sites\/all\/modules\/contrib\/easy_social\/css\/easy_social.css":1,"sites\/all\/modules\/contrib\/print\/print_ui\/css\/print_ui.theme.css":1,"sites\/all\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/default\/files\/css\/follow.css":1,"sites\/all\/modules\/contrib\/responsive_dropdown_menus\/theme\/responsive-dropdown-menus.css":1,"sites\/all\/themes\/phsc_theme\/css\/phsc-theme.normalize.css":1,"sites\/all\/themes\/phsc_theme\/css\/phsc-theme.hacks.css":1,"sites\/all\/themes\/phsc_theme\/css\/phsc-theme.styles.css":1,"sites\/all\/themes\/phsc_theme\/css\/phsc-theme.print.css":1,"sites\/all\/themes\/phsc_theme\/css\/phsc-theme.no-query.css":1,"all:1":1}},"encrypt_submissions":{"baseUrl":"https:\/\/phsc.edu"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"megamenu":{"timeout":"100","sizewait":"100","hoverwait":"100","eventtype":"click"},"urlIsAjaxTrusted":{"\/programs":true,"\/":true},"flexslider":{"optionsets":{"default":{"height":"","width":""}},"instances":{"flexslider-1":"default","flexslider-2":"default"}},"viewsSlideshow":{"banner_slideshow-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow"],"pause":["viewsSlideshowControls","flexsliderViewsSlideshow"],"play":["viewsSlideshowControls","flexsliderViewsSlideshow"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"flexslider_views_slideshow":{"#flexslider_views_slideshow_main_banner_slideshow-block":{"num_divs":4,"id_prefix":"#flexslider_views_slideshow_main_","vss_id":"banner_slideshow-block","height":"","width":""}},"better_exposed_filters":{"views":{"banner_slideshow":{"displays":{"block":{"filters":[]}}},"homepage_featured":{"displays":{"block":{"filters":[]}}},"main_news_view":{"displays":{"block_4":{"filters":[]}}},"calendar":{"displays":{"block_3":{"filters":[]}}},"basic_page_blocks":{"displays":{"block_1":{"filters":[]},"additional_information":{"filters":[]},"content_images":{"filters":[]}}}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:da330a80b4b9e77bbf423a021063c371":{"view_name":"main_news_view","view_display_id":"block_4","view_args":"","view_path":"node\/12024","view_base_path":"main-news-view","view_dom_id":"da330a80b4b9e77bbf423a021063c371","pager_element":0}}},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"(phsc\\.smartcatalogiq\\.com)|(magazinevolume\\.com)|(phcc\\.edu)|(phsc\\.scholarships\\.ngwebsolutions\\.com)|(myphccsupport\\.org)|(catalog\\.phsc\\.edu)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":"_blank","extAlertText":"This link will take you to an external website. PHSC is not responsible for their content. ","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1,"trackDomainMode":"2","trackCrossDomains":["www.phsc.edu","phsc.edu","www.phcc.edu","phcc.edu"]},"responsive_dropdown_menus":{"devel":"Development","features":"Features","menu-header-menu":"Header Menu","menu-home-slide-menu":"Home Slide Menu","menu-inauguration-panel-discuss":"Inauguration--Panel Discussions Menu","menu-information":"Information for","main-menu":"Main menu","management":"Management","navigation":"Navigation","menu-pasco-hernando-state-colleg":"Pasco-Hernando State College","menu-programs-menu":"Programs menu","menu-footer-menu":"Resources","user-menu":"User menu"}});</script>
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/phsc_theme/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/sites/all/themes/phsc_theme/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/phsc_theme/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/phsc_theme/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/phsc_theme/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/phsc_theme/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/phsc_theme/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/phsc_theme/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/phsc_theme/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/sites/all/themes/phsc_theme/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/sites/all/themes/phsc_theme/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/sites/all/themes/phsc_theme/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/sites/all/themes/phsc_theme/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/sites/all/themes/phsc_theme/manifest.json">
+  <link rel="mask-icon" href="/sites/all/themes/phsc_theme/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/sites/all/themes/phsc_theme/favicon.ico">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="/sites/all/themes/phsc_theme/mstile-144x144.png">
+  <meta name="msapplication-config" content="/sites/all/themes/phsc_theme/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body class="html front not-logged-in page-node page-node- page-node-12024 node-type-landing-page">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page has-two-sidebars has-sidebar-first has-sidebar-second">
+
+<!-- Header -->
+  <header class="l-header" role="banner">
+      <div class="l-region l-region--responsive-menu">
+    <div id="block-responsive-dropdown-menus-menu-pasco-hernando-state-colleg" class="block block--responsive-dropdown-menus block--responsive-dropdown-menus-menu-pasco-hernando-state-colleg">
+        <div class="block__content">
+    <ul id="menu-pasco-hernando-state-colleg" class="menu-pasco-hernando-state-colleg responsive-menu links"><li id="menu-item-32006" class="menu-item menu-item-primary first"><a href="/" class="active">Home</a></li>
+<li id="menu-item-32441" class="menu-item menu-item-primary"><a href="/wise">Apply Online</a></li>
+<li id="menu-item-31996" class="menu-item menu-parent menu-item-primary"><a href="/%3Cnolink%3E">About Us</a><ul class="sub-menu tier-two"><li id="menu-item-32041" class="menu-item menu-parent menu-item-secondary first"><a href="/%3Cnolink%3E">Discover PHSC</a><ul class="sub-menu tier-three"><li id="menu-item-32261" class="menu-item menu-item-tertiary first"><a href="/discover-phsc/message-president">Message from the President</a></li>
+<li id="menu-item-32431" class="menu-item menu-item-tertiary"><a href="/discover-phsc/about-phsc">About PHSC</a></li>
+<li id="menu-item-32396" class="menu-item menu-item-tertiary"><a href="/discover-phsc/accreditation">Accreditation</a></li>
+<li id="menu-item-32371" class="menu-item menu-item-tertiary"><a href="/gallery">Art Gallery</a></li>
+<li id="menu-item-32386" class="menu-item menu-item-tertiary"><a href="/campuses">Campuses</a></li>
+<li id="menu-item-32321" class="menu-item menu-item-tertiary"><a href="/discover-phsc/district-board-trustees">District Board of Trustees</a></li>
+<li id="menu-item-32316" class="menu-item menu-item-tertiary"><a href="/discover-phsc/diversity">Diversity</a></li>
+<li id="menu-item-32336" class="menu-item menu-item-tertiary"><a href="/discover-phsc/history-college">History of the College</a></li>
+<li id="menu-item-32281" class="menu-item menu-item-tertiary"><a href="/tix">Performing Arts Series</a></li>
+<li id="menu-item-32346" class="menu-item menu-item-tertiary"><a href="/discover-phsc/publications">Publications</a></li>
+<li id="menu-item-32401" class="menu-item menu-item-tertiary last"><a href="/discover-phsc/vision-and-mission">Vision and Mission</a></li>
+</ul></li>
+<li id="menu-item-32036" class="menu-item menu-parent menu-item-secondary"><a href="/%3Cnolink%3E">General Information</a><ul class="sub-menu tier-three"><li id="menu-item-38001" class="menu-item menu-item-tertiary first"><a href="http://info.phsc.edu/directory/administration">Administration</a></li>
+<li id="menu-item-32381" class="menu-item menu-item-tertiary"><a href="/catalog">Catalog and Student Handbook</a></li>
+<li id="menu-item-32101" class="menu-item menu-item-tertiary"><a href="/general-information/college-policies">College Policies</a></li>
+<li id="menu-item-32086" class="menu-item menu-item-tertiary"><a href="/general-information/contacting-college">Contacting the College</a></li>
+<li id="menu-item-32106" class="menu-item menu-item-tertiary"><a href="/general-information/departments">Departments</a></li>
+<li id="menu-item-32081" class="menu-item menu-item-tertiary"><a href="/campus-services/emergency-information">Emergency Information</a></li>
+<li id="menu-item-32126" class="menu-item menu-item-tertiary"><a href="/jobs">Employment at PHSC</a></li>
+<li id="menu-item-32216" class="menu-item menu-item-tertiary"><a href="/faq">Frequently Asked Questions</a></li>
+<li id="menu-item-32306" class="menu-item menu-item-tertiary"><a href="/hours-of-operation">Hours of Operation</a></li>
+<li id="menu-item-32296" class="menu-item menu-item-tertiary"><a href="/foundation">PHSC Foundation</a></li>
+<li id="menu-item-32286" class="menu-item menu-item-tertiary last"><a href="/general-information/public-disclosure">Public Disclosure</a></li>
+</ul></li>
+<li id="menu-item-32046" class="menu-item menu-parent menu-item-secondary last"><a href="/%3Cnolink%3E">Directories</a><ul class="sub-menu tier-three"><li id="menu-item-32426" class="menu-item menu-item-tertiary first"><a href="/calendars/academic-calendar">Academic Calendar</a></li>
+<li id="menu-item-32436" class="menu-item menu-item-tertiary"><a href="/forms">College Forms</a></li>
+<li id="menu-item-32311" class="menu-item menu-item-tertiary last"><a href="http://info.phsc.edu/directory">Faculty and Staff Directory</a></li>
+</ul></li>
+</ul></li>
+<li id="menu-item-32001" class="menu-item menu-item-primary"><a href="/programs">Programs and Courses</a></li>
+<li id="menu-item-32026" class="menu-item menu-parent menu-item-primary"><a href="/%3Cnolink%3E">Admissions</a><ul class="sub-menu tier-two"><li id="menu-item-32051" class="menu-item menu-parent menu-item-secondary first"><a href="/%3Cnolink%3E">Applying</a><ul class="sub-menu tier-three"><li id="menu-item-32366" class="menu-item menu-item-tertiary first"><a href="/applying/admissions-forms">Admissions Forms</a></li>
+<li id="menu-item-32361" class="menu-item menu-item-tertiary"><a href="/wise">Apply Online</a></li>
+<li id="menu-item-32326" class="menu-item menu-item-tertiary"><a href="/applying/fees-and-expenses">Fees and Expenses</a></li>
+<li id="menu-item-32341" class="menu-item menu-item-tertiary"><a href="/graduation">Graduation and Commencement</a></li>
+<li id="menu-item-32301" class="menu-item menu-item-tertiary"><a href="/applying/how-apply">How to Apply</a></li>
+<li id="menu-item-32266" class="menu-item menu-item-tertiary"><a href="/applying/limited-access-programs">Limited Access Programs</a></li>
+<li id="menu-item-32351" class="menu-item menu-item-tertiary last"><a href="/applying/records-and-transcripts">Records and Transcripts</a></li>
+</ul></li>
+<li id="menu-item-32061" class="menu-item menu-parent menu-item-secondary last"><a href="/%3Cnolink%3E">Financial Aid</a><ul class="sub-menu tier-three"><li id="menu-item-32251" class="menu-item menu-item-tertiary first"><a href="/financialaid">Financial Aid Overview</a></li>
+<li id="menu-item-32356" class="menu-item menu-item-tertiary"><a href="/financial-aid/applying">Applying</a></li>
+<li id="menu-item-32331" class="menu-item menu-item-tertiary"><a href="/financial-aid/available-financial-assistance">Financial Assistance and Scholarships</a></li>
+<li id="menu-item-32111" class="menu-item menu-item-tertiary"><a href="/financial-aid/eligibility-requirements">Eligibility Requirements</a></li>
+<li id="menu-item-32116" class="menu-item menu-item-tertiary"><a href="/financial-aid/financial-aid-calendar">Financial Aid Calendar</a></li>
+<li id="menu-item-32076" class="menu-item menu-item-tertiary"><a href="/financial-aid/financial-aid-forms">Financial Aid Forms</a></li>
+<li id="menu-item-32271" class="menu-item menu-item-tertiary"><a href="/financial-aid/important-info">Important Financial Aid Information</a></li>
+<li id="menu-item-32276" class="menu-item menu-item-tertiary"><a href="/financial-aid/net-price-calculator">Net Price Calculator</a></li>
+<li id="menu-item-32411" class="menu-item menu-item-tertiary"><a href="/financial-aid/standards-academic-progress">Standards of Academic Progress</a></li>
+<li id="menu-item-32406" class="menu-item menu-item-tertiary"><a href="/financial-aid/student-aid-report-sar">Student Aid Report (SAR)</a></li>
+<li id="menu-item-32416" class="menu-item menu-item-tertiary last"><a href="/financial-aid/web-links">Web Links</a></li>
+</ul></li>
+</ul></li>
+<li id="menu-item-32011" class="menu-item menu-parent menu-item-primary"><a href="/%3Cnolink%3E">Services</a><ul class="sub-menu tier-two"><li id="menu-item-32066" class="menu-item menu-parent menu-item-secondary first"><a href="/%3Cnolink%3E">Services for Students</a><ul class="sub-menu tier-three"><li id="menu-item-32191" class="menu-item menu-item-tertiary first"><a href="/services-student/academic-advising">Academic Advising</a></li>
+<li id="menu-item-32156" class="menu-item menu-item-tertiary"><a href="/services-students/academic-retention-services">Academic Retention Services</a></li>
+<li id="menu-item-32141" class="menu-item menu-item-tertiary"><a href="/services-students/childcare">Childcare</a></li>
+<li id="menu-item-32161" class="menu-item menu-item-tertiary"><a href="/services-students/disabilities-services">Disabilities Services</a></li>
+<li id="menu-item-32166" class="menu-item menu-item-tertiary"><a href="/services-students/global-and-multicultural-awareness">Equity Services</a></li>
+<li id="menu-item-32186" class="menu-item menu-item-tertiary"><a href="/services-students/estudent-resources">eStudent Resources</a></li>
+<li id="menu-item-32181" class="menu-item menu-item-tertiary"><a href="/services-students/health-insurance">Health Insurance</a></li>
+<li id="menu-item-32176" class="menu-item menu-item-tertiary"><a href="/orientation">Orientation</a></li>
+<li id="menu-item-32171" class="menu-item menu-item-tertiary"><a href="/quistamail">QuistaMail and Google Apps</a></li>
+<li id="menu-item-32136" class="menu-item menu-item-tertiary"><a href="/activities">Student Activities</a></li>
+<li id="menu-item-32226" class="menu-item menu-item-tertiary"><a href="/services-students/student-assistance-program">Student Assistance Program</a></li>
+<li id="menu-item-32236" class="menu-item menu-item-tertiary"><a href="/tip">Tuition Installment Plan</a></li>
+<li id="menu-item-32231" class="menu-item menu-item-tertiary last"><a href="/veterans-services">Veterans Services</a></li>
+</ul></li>
+<li id="menu-item-32056" class="menu-item menu-parent menu-item-secondary last"><a href="/%3Cnolink%3E">Campus Services</a><ul class="sub-menu tier-three"><li id="menu-item-32241" class="menu-item menu-item-tertiary first"><a href="/asc">Academic Success Centers</a></li>
+<li id="menu-item-32096" class="menu-item menu-item-tertiary"><a href="http://collegestore.phsc.edu/">Book Store</a></li>
+<li id="menu-item-32091" class="menu-item menu-item-tertiary"><a href="/campus-services/computer-labs">Computer Labs</a></li>
+<li id="menu-item-32206" class="menu-item menu-item-tertiary"><a href="/library">Libraries</a></li>
+<li id="menu-item-32246" class="menu-item menu-item-tertiary"><a href="/campus-services/student-government-association">Student Government Association</a></li>
+<li id="menu-item-32196" class="menu-item menu-item-tertiary last"><a href="/wifi">Wireless Internet Access</a></li>
+</ul></li>
+</ul></li>
+<li id="menu-item-32021" class="menu-item menu-parent menu-item-primary"><a href="/%3Cnolink%3E">News and Events</a><ul class="sub-menu tier-two"><li id="menu-item-32031" class="menu-item menu-parent menu-item-secondary first"><a href="/%3Cnolink%3E">News</a><ul class="sub-menu tier-three"><li id="menu-item-32376" class="menu-item menu-item-tertiary first"><a href="/athletics-news">Athletics News</a></li>
+<li id="menu-item-32221" class="menu-item menu-item-tertiary"><a href="/news">College News</a></li>
+<li id="menu-item-32201" class="menu-item menu-item-tertiary"><a href="/news/media-releases">Media Releases</a></li>
+<li id="menu-item-32291" class="menu-item menu-item-tertiary"><a href="/news/phsc-tv">PHSC TV</a></li>
+<li id="menu-item-32421" class="menu-item menu-item-tertiary last"><a href="/news/webcast-live">Webcast Live</a></li>
+</ul></li>
+<li id="menu-item-32071" class="menu-item menu-parent menu-item-secondary last"><a href="/%3Cnolink%3E">Calendars</a><ul class="sub-menu tier-three"><li id="menu-item-32151" class="menu-item menu-item-tertiary first"><a href="/athletic-calendar/month">Athletics Calendar</a></li>
+<li id="menu-item-32121" class="menu-item menu-item-tertiary last"><a href="/calendar">Event Calendar</a></li>
+</ul></li>
+</ul></li>
+<li id="menu-item-32016" class="menu-item menu-item-primary last"><a href="/athletics">Athletics</a></li>
+</ul>  </div>
+</div>
+  </div>
+    <div class="container">
+
+<!-- Logo -->
+    <div class="l-logo">
+              <a href="/" title="Home" rel="home" class="site-logo"><img src="https://phsc.edu/sites/all/themes/phsc_theme/logo.png" alt="Home" /></a>
+                                <h1 class="site-name">
+          <a href="/" title="Home" rel="home"><span>Pasco-Hernando State College</span></a>
+        </h1>
+                          </div>
+
+
+<!-- Branding -->
+        <div class="l-region l-region--branding">
+    <nav id="block-menu-menu-header-menu" role="navigation" class="block block--menu block--menu-menu-header-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="https://cpnta.phsc.edu/csrs/english/webon.aspx" target="_blank">WISE Login</a></li>
+<li class="leaf"><a href="https://my.phsc.edu/login" target="_blank">myPHSC Login</a></li>
+<li class="leaf"><a href="http://info.phsc.edu">Course Schedule</a></li>
+<li class="leaf"><a href="http://phsc.smartcatalogiq.com/en/current/Catalog-and-Student-Handbook/College-Calendar">Academic Calendar</a></li>
+<li class="leaf"><a href="https://info.phsc.edu/directory">Directory</a></li>
+<li class="last leaf"><a href="http://collegestore.phsc.edu/">Bookstore</a></li>
+</ul></nav>
+<div id="block-search-form" role="search" class="block block--search block--search-form">
+        <div class="block__content">
+    <form class="search-block-form" onsubmit="if(this.search_block_form.value==&#039;Enter search term&#039;){ alert(&#039;Please enter a search term&#039;); return false; }" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">search </label>
+ <input title="Enter the terms you wish to search for." onfocus="if (this.value == &#039;Enter search term&#039;) {this.value = &#039;&#039;;}" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Enter search term&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="Enter search term" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input alt="Search" type="image" id="edit-submit" name="submit" src="/sites/all/themes/phsc_theme/images/icon/search.png" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-tKZ-NKFQM_cUpYndUDU_92l94F77vtEP7yOaz3emo-E" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+    </div>
+  </header>
+
+<!-- Main menu -->
+  <menu class="l-menu" role="menu">
+      <div class="l-region l-region--menu">
+    <div id="block-megamenu-0" class="block block--megamenu block--megamenu-0">
+        <div class="block__content">
+    <div class="megamenu-menu megamenu-main-menu columnar megamenu-skin-friendly"><div class="megamenu-parent megamenu-parent-0 megamenu-parent-first"><a href="/" class="parent-link active">Home</a></div><div class="megamenu-parent megamenu-parent-1"><a href="javascript:void(0);" class="parent-link">About Us</a><div class="megamenu-bin megamenu-slots-columnar slots-4"><div class="megamenu-slot megamenu-slot-0 megamenu-links-horizontal megamenu-slot-first"><a href="javascript:void(0);" class="megamenu-slot-title">Discover PHSC</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/discover-phsc/message-president">A Message from the President</a></div><div class="megamenu-item"><a href="/discover-phsc/about-phsc">About PHSC</a></div><div class="megamenu-item"><a href="/discover-phsc/accreditation">Accreditation</a></div><div class="megamenu-item"><a href="/gallery">Art Gallery</a></div><div class="megamenu-item"><a href="/campuses">Campuses</a></div><div class="megamenu-item"><a href="/discover-phsc/district-board-trustees">District Board of Trustees</a></div><div class="megamenu-item"><a href="/discover-phsc/diversity">Diversity</a></div><div class="megamenu-item"><a href="/discover-phsc/history-college">History of the College</a></div><div class="megamenu-item"><a href="/tix">Performing Arts Series</a></div><div class="megamenu-item"><a href="/discover-phsc/publications">Publications</a></div><div class="megamenu-item megamenu-item-last"><a href="/discover-phsc/vision-and-mission">Vision and Mission</a></div></div></div><div class="megamenu-slot megamenu-slot-1 megamenu-links-horizontal"><a href="javascript:void(0);" class="megamenu-slot-title">General Information</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="http://info.phsc.edu/directory/administration">Administration</a></div><div class="megamenu-item"><a href="/catalog">Catalog and Student Handbook</a></div><div class="megamenu-item"><a href="/general-information/college-policies">College Policies</a></div><div class="megamenu-item"><a href="http://collegestore.phsc.edu/">College Store</a></div><div class="megamenu-item"><a href="/general-information/contacting-college">Contacting the College</a></div><div class="megamenu-item"><a href="/general-information/departments">Departments</a></div><div class="megamenu-item"><a href="/jobs">Employment at PHSC</a></div><div class="megamenu-item"><a href="http://info.phsc.edu/faq">Frequently Asked Questions</a></div><div class="megamenu-item"><a href="/hours-of-operation">Hours of Operation</a></div><div class="megamenu-item"><a href="/foundation">PHSC Foundation</a></div><div class="megamenu-item"><a href="/tobacco-free">PHSC is Going Tobacco Free</a></div><div class="megamenu-item"><a href="/general-information/public-disclosure">Public Disclosure</a></div><div class="megamenu-item"><a href="/departments/purchasing">Purchasing</a></div><div class="megamenu-item megamenu-item-last"><a href="/general-information/safety-security">Safety and Security</a></div></div></div><div class="megamenu-slot megamenu-slot-2 megamenu-links-horizontal"><a href="javascript:void(0);" class="megamenu-slot-title">Directories</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/calendars/academic-calendar">Academic Calendar</a></div><div class="megamenu-item"><a href="/forms">College Forms</a></div><div class="megamenu-item megamenu-item-last"><a href="http://info.phsc.edu/directory">Faculty and Staff directory</a></div></div></div><div class="megamenu-slot megamenu-slot-3 megamenu-links-horizontal megamenu-slot-last"><a href="javascript:void(0);" class="megamenu-slot-title">Our Campuses</a><div id="node-11479" class="node node--slideshow node--full node--slideshow--full clearfix" about="/node/11479" typeof="sioc:Item foaf:Document" role="article" class="node node--slideshow node--full node--slideshow--full">
+
+        <span property="dc:title" content="Mega menu campuses" class="rdf-meta element-hidden"></span>
+  
+  <div class="content" class="node__content">
+    <div class="field field--name-field-slideshow-images field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><div class="flex-nav-container">
+  <div class="flexslider-content flexslider clearfix" id="flexslider-1">
+    <ul class="slides">
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/980x612_DSC6059.jpg?itok=c0VLT1em" width="800" height="500" alt="East Campus, Dade City" />                 <div class="flex-caption"><strong></strong>&nbsp;East Campus, Dade City</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/980x612NorthCampus.jpg?itok=fGG445bz" width="800" height="500" alt="North Campus, Brooksville" />                 <div class="flex-caption"><strong></strong>&nbsp;North Campus, Brooksville</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/980x612PorterCampus_0.jpg?itok=0P61hTtR" width="800" height="500" alt="Porter Campus, Wesley Chapel" />                 <div class="flex-caption"><strong></strong>&nbsp;Porter Campus, Wesley Chapel</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/980x612SpringHill.jpg?itok=m62jZB5w" width="800" height="500" alt="Spring Hill Campus" />                 <div class="flex-caption"><strong></strong>&nbsp;Spring Hill Campus</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/980x612WestCampus.jpg?itok=AMgQmqsy" width="800" height="500" alt="West Campus, New Port Richey" />                 <div class="flex-caption"><strong></strong>&nbsp;West Campus, New Port Richey</div>
+              </li>
+        </ul>
+  </div>
+</div></div></div></div>  </div>
+
+  <ul class="links links--inline node__links"><li class="print_html first last"><a href="/print/11479" title="Display a printer-friendly version of this page." class="print-page" onclick="window.open(this.href); return false" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="https://phsc.edu/sites/all/modules/contrib/print/icons/print_icon.png" width="16px" height="16px" alt="Printer-friendly version" title="Printer-friendly version" /></a></li>
+</ul>
+  
+</div>
+</div><div class="close-link"><a href="javascript:void(0);"> </a></div></div></div><div class="megamenu-parent megamenu-parent-2"><a href="/programs" class="parent-link">Programs and Courses</a><div class="megamenu-bin megamenu-slots-columnar slots-4"><div class="megamenu-slot megamenu-slot-0 megamenu-links-horizontal megamenu-slot-first"><a href="javascript:void(0);" class="megamenu-slot-title">Program Quick - Find</a><form class="views-exposed-form-programs-page" action="/programs" method="get" id="views-exposed-form-programs-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Search by Keyword          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-title">
+ <input type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-browse-label-wrapper" class="views-exposed-widget views-widget-filter-browse_label">
+                        <div class="views-widget">
+          <label>Browse by Interest:</label>        </div>
+              </div>
+          <div id="edit-field-degree-type-value-wrapper" class="views-exposed-widget views-widget-filter-field_degree_type_value">
+                  <label for="edit-field-degree-type-value">
+            Degree Type          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-degree-type-value">
+ <select id="edit-field-degree-type-value" name="field_degree_type_value" class="form-select"><option value="All" selected="selected">- Any -</option><option value="Applied Technology Diplomas">Applied Technology Diplomas</option><option value="Associate in Arts Degree">Associate in Arts Degree</option><option value="Associate in Science Degree">Associate in Science Degrees</option><option value="Bachelor of Applied Science">Bachelor of Applied Science</option><option value="Bachelor of Science">Bachelor of Science</option><option value="College Credit Certificates">College Credit Certificates</option><option value="Technical Credit Certificates">Technical Credit Certificates</option></select>
+</div>
+        </div>
+              </div>
+          <div id="edit-field-program-type-tid-wrapper" class="views-exposed-widget views-widget-filter-field_program_type_tid">
+                  <label for="edit-field-program-type-tid">
+            Program Type          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-field-program-type-tid">
+ <select id="edit-field-program-type-tid" name="field_program_type_tid" class="form-select"><option value="All" selected="selected">- Any -</option><option value="585">Business</option><option value="743">General Education Requirements</option><option value="392">Health</option><option value="389">Industry and Technology</option><option value="391">Public Service</option></select>
+</div>
+        </div>
+              </div>
+                    <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-programs" name="" value="SEARCH" class="form-submit" /><div class="view-all"><label><a href="/programs">VIEW ALL PROGRAMS A-Z</a></label></div>    </div>
+      </div>
+</div>
+</div></form></div><div class="megamenu-slot megamenu-slot-1 megamenu-links-horizontal"><a href="javascript:void(0);" class="megamenu-slot-title">Explore Programs</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/programs">Academic Programs</a></div><div class="megamenu-item"><a href="/aha">AHA Training Center</a></div><div class="megamenu-item"><a href="/career-programs">Career Programs</a></div><div class="megamenu-item"><a href="/ce">Continuing Education</a></div><div class="megamenu-item"><a href="/epi">Educator Preparation Institute</a></div><div class="megamenu-item"><a href="/encore">Encore Academy</a></div><div class="megamenu-item"><a href="/high-school-programs">High School Programs</a></div><div class="megamenu-item"><a href="/explore-programs/personal-enrichment">Personal Enrichment</a></div><div class="megamenu-item megamenu-item-last"><a href="/university-partners">University Partners</a></div></div></div><div class="megamenu-slot megamenu-slot-2 megamenu-links-horizontal"><a href="javascript:void(0);" class="megamenu-slot-title">Program Goals</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/career-programs">Find Your Career</a></div><div class="megamenu-item"><a href="/program-goals/gainful-employment-disclosure-phsc-programs">Gainful Employment Disclosure</a></div><div class="megamenu-item"><a href="/content/professional-and-personal-development">Professional and Personal Development</a></div><div class="megamenu-item megamenu-item-last"><a href="/university-transfer">Transfer to a University</a></div></div></div><div class="megamenu-slot megamenu-slot-3 megamenu-links-horizontal megamenu-slot-last"><a href="javascript:void(0);" class="megamenu-slot-title">Courses</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="http://phsc.smartcatalogiq.com/en/2016-2017/Catalog-and-Student-Handbook/Courses">Course Descriptions</a></div><div class="megamenu-item megamenu-item-last"><a href="http://info.phsc.edu">Course Schedule</a></div></div></div><div class="close-link"><a href="javascript:void(0);"> </a></div></div></div><div class="megamenu-parent megamenu-parent-3"><a href="javascript:void(0);" class="parent-link">Admissions</a><div class="megamenu-bin megamenu-slots-columnar slots-3"><div class="megamenu-slot megamenu-slot-0 megamenu-links-horizontal megamenu-slot-first"><a href="javascript:void(0);" class="megamenu-slot-title">Applying</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="http://info.phsc.edu/faq/69554">Admissions FAQ</a></div><div class="megamenu-item"><a href="/applying/admissions-forms">Admissions Forms</a></div><div class="megamenu-item"><a href="/wise">Apply Online</a></div><div class="megamenu-item"><a href="/applying/fees-and-expenses">Fees and Expenses</a></div><div class="megamenu-item"><a href="/graduation">Graduation and Commencement</a></div><div class="megamenu-item"><a href="/applying/how-apply">How to Apply</a></div><div class="megamenu-item"><a href="/applying/limited-access-programs">Limited Access Programs</a></div><div class="megamenu-item megamenu-item-last"><a href="/applying/records-and-transcripts">Records and Transcripts</a></div></div></div><div class="megamenu-slot megamenu-slot-1 megamenu-links-horizontal"><a href="javascript:void(0);" class="megamenu-slot-title">Financial Aid</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/financial-aid/applying">Applying</a></div><div class="megamenu-item"><a href="/financial-aid/fafsa">Early FAFSA 2017-2018:  Financial Aid Information</a></div><div class="megamenu-item"><a href="/financial-aid/eligibility-requirements">Eligibility Requirements</a></div><div class="megamenu-item"><a href="/financial-aid/financial-aid-calendar">Financial Aid Calendar</a></div><div class="megamenu-item"><a href="http://info.phsc.edu/faq/86412">Financial Aid FAQ</a></div><div class="megamenu-item"><a href="/financial-aid/financial-aid-forms">Financial Aid Forms</a></div><div class="megamenu-item"><a href="/financialaid">Financial Aid Overview</a></div><div class="megamenu-item"><a href="/financial-aid/available-financial-assistance">Financial Assistance and Scholarships</a></div><div class="megamenu-item"><a href="/financial-aid/important-info">Important Financial Aid Information</a></div><div class="megamenu-item"><a href="/financial-aid/net-price-calculator">Net Price Calculator</a></div><div class="megamenu-item"><a href="/financial-aid/standards-academic-progress">Standards of Academic Progress</a></div><div class="megamenu-item"><a href="/financial-aid/student-aid-report-sar">Student Aid Report (SAR)</a></div><div class="megamenu-item megamenu-item-last"><a href="/financial-aid/web-links">Web Links</a></div></div></div><div class="megamenu-slot megamenu-slot-2 megamenu-links-horizontal megamenu-slot-last"><p><a href="https://phsc.edu/orientation"><img alt="Orientation...don't start college without it." src="https://phsc.edu/sites/default/files/slideshow_images/orientation.jpg" style="width: 240px; height: 360px; " /></a></p>
+</div><div class="close-link"><a href="javascript:void(0);"> </a></div></div></div><div class="megamenu-parent megamenu-parent-4"><a href="javascript:void(0);" class="parent-link">Services</a><div class="megamenu-bin megamenu-slots-columnar slots-2"><div class="megamenu-slot megamenu-slot-0 megamenu-links-horizontal megamenu-slot-first"><a href="javascript:void(0);" class="megamenu-slot-title">Services for Students</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/services-student/academic-advising">Academic Advising</a></div><div class="megamenu-item"><a href="/services-students/academic-retention-services">Academic Retention Services</a></div><div class="megamenu-item"><a href="/career-services/cjbat-preparation">CJBAT Preparation</a></div><div class="megamenu-item"><a href="/careers-and-testing/clep">CLEP®</a></div><div class="megamenu-item"><a href="/careers-and-testing/college-placement-testing">Common Placement Testing</a></div><div class="megamenu-item"><a href="/services-students/childcare">Childcare</a></div><div class="megamenu-item"><a href="/services-students/disabilities-services">Disabilities Services</a></div><div class="megamenu-item"><a href="/services-students/estudent-resources">eStudent Resources</a></div><div class="megamenu-item"><a href="http://info.phsc.edu/faq/87924">FAQ</a></div><div class="megamenu-item"><a href="/selectamajor">Focus 2</a></div><div class="megamenu-item"><a href="/ged-testing">GED Testing</a></div><div class="megamenu-item"><a href="/services-students/global-and-multicultural-awareness">Global and Multicultural Awareness</a></div><div class="megamenu-item"><a href="/services-students/health-insurance">Health Insurance</a></div><div class="megamenu-item"><a href="/career-services/internship">Internship</a></div><div class="megamenu-item"><a href="/careers-and-testing/job-search-resources">Job Search Resources</a></div><div class="megamenu-item"><a href="/careers-and-testing/local-career-links">Local Career Links</a></div><div class="megamenu-item"><a href="/careers-and-testing/national-career-links">National Career Links</a></div><div class="megamenu-item"><a href="/career-and-testing-services/new-developmental-education-option">New Developmental Education Option</a></div><div class="megamenu-item"><a href="/services-students/office365">Office 365 Access</a></div><div class="megamenu-item"><a href="/orientation">Orientation</a></div><div class="megamenu-item"><a href="/quistamail">QuistaMail and Google Apps</a></div><div class="megamenu-item"><a href="/activities">Student Activities</a></div><div class="megamenu-item"><a href="/services-students/student-assistance-program">Student Assistance Program</a></div><div class="megamenu-item"><a href="/career-and-testing-services/placement-test-results">Student Testing and Placement Charts</a></div><div class="megamenu-item"><a href="/careers-and-testing/test-adult-basic-education-tabe">Test of Adult Basic Education (TABE)</a></div><div class="megamenu-item"><a href="/tip">Tuition Installment Plan</a></div><div class="megamenu-item megamenu-item-last"><a href="/veterans-services">Veterans Services</a></div></div></div><div class="megamenu-slot megamenu-slot-1 megamenu-links-horizontal megamenu-slot-last"><a href="javascript:void(0);" class="megamenu-slot-title">Campus Services</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/asc">Academic Success Centers</a></div><div class="megamenu-item"><a href="/careers">Career and Education Planning</a></div><div class="megamenu-item"><a href="http://collegestore.phsc.edu/">College Stores</a></div><div class="megamenu-item"><a href="/campus-services/computer-labs">Computer Labs</a></div><div class="megamenu-item"><a href="/library">Libraries</a></div><div class="megamenu-item"><a href="/campus-services/quista-caf%C3%A9-west-campus">Quista Café on West Campus</a></div><div class="megamenu-item"><a href="/sports/registration">Registration</a></div><div class="megamenu-item"><a href="/sports/schedule">Schedule</a></div><div class="megamenu-item"><a href="/campus-services/student-government-association">Student Government Association</a></div><div class="megamenu-item"><a href="/testing">Testing Services</a></div><div class="megamenu-item megamenu-item-last"><a href="/wifi">Wireless Internet Access</a></div></div></div><div class="close-link"><a href="javascript:void(0);"> </a></div></div></div><div class="megamenu-parent megamenu-parent-5"><a href="javascript:void(0);" class="parent-link">News and Events</a><div class="megamenu-bin megamenu-slots-columnar slots-3"><div class="megamenu-slot megamenu-slot-0 megamenu-links-horizontal megamenu-slot-first"><a href="javascript:void(0);" class="megamenu-slot-title">News</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/athletics-news">Athletics News</a></div><div class="megamenu-item"><a href="/news">College News</a></div><div class="megamenu-item"><a href="/news/media-releases">Media Releases</a></div><div class="megamenu-item"><a href="/news/phsc-tv">PHSC TV</a></div><div class="megamenu-item megamenu-item-last"><a href="/news/webcast-live">Webcast Live</a></div></div></div><div class="megamenu-slot megamenu-slot-1 megamenu-links-horizontal"><a href="javascript:void(0);" class="megamenu-slot-title">Calendars</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/athletic-calendar/month">Athletics Calendar</a></div><div class="megamenu-item megamenu-item-last"><a href="/calendar">Event Calendar</a></div></div></div><div class="megamenu-slot megamenu-slot-2 megamenu-links-horizontal megamenu-slot-last"><a href="javascript:void(0);" class="megamenu-slot-title"><none></a></div><div class="close-link"><a href="javascript:void(0);"> </a></div></div></div><div class="megamenu-parent megamenu-parent-6"><a href="javascript:void(0);" class="parent-link">Athletics</a><div class="megamenu-bin megamenu-slots-columnar slots-2"><div class="megamenu-slot megamenu-slot-0 megamenu-links-horizontal megamenu-slot-first"><a href="/athletics" class="megamenu-slot-title">Athletics at PHSC</a><div class="megamenu-items"><div class="megamenu-item megamenu-item-first"><a href="/athletic-calendar/month">Athletics Calendar</a></div><div class="megamenu-item"><a href="/athletics/cheerleading">Cheerleading</a></div><div class="megamenu-item"><a href="/athletics/mens-baseball">Men&#039;s Baseball</a></div><div class="megamenu-item"><a href="/athletics/mens-basketball">Men&#039;s Basketball</a></div><div class="megamenu-item"><a href="/athletics/summer-sports-camps">Summer Sports Camps</a></div><div class="megamenu-item"><a href="/athletics/womens-cross-country">Women&#039;s Cross Country</a></div><div class="megamenu-item"><a href="/athletics/softball">Women&#039;s Softball</a></div><div class="megamenu-item megamenu-item-last"><a href="/athletics/womens-volleyball">Women&#039;s Volleyball</a></div></div></div><div class="megamenu-slot megamenu-slot-1 megamenu-links-horizontal megamenu-slot-last"><div id="node-11480" class="node node--slideshow node--sticky node--full node--slideshow--full clearfix" about="/node/11480" typeof="sioc:Item foaf:Document" role="article" class="node node--slideshow node--sticky node--full node--slideshow--full">
+
+        <span property="dc:title" content="Mega menu athletics 980x613" class="rdf-meta element-hidden"></span>
+  
+  <div class="content" class="node__content">
+    <div class="field field--name-field-slideshow-images field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><div class="flex-nav-container">
+  <div class="flexslider-content flexslider clearfix" id="flexslider-2">
+    <ul class="slides">
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/baseball-IMG_0296.jpg?itok=1kzj5OXC" width="800" height="500" alt="PHSC baseball pitcher" />                 <div class="flex-caption"><strong></strong>&nbsp;PHSC baseball</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/cross-ss.jpg?itok=nUvamC-k" width="800" height="500" alt="PHSC cross country" />                 <div class="flex-caption"><strong></strong>&nbsp;PHSC cross country</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/basketball-ss.jpg?itok=JhjCMc9B" width="800" height="500" alt="PHSC basketball" />                 <div class="flex-caption"><strong></strong>&nbsp;PHSC basketball</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/softball-ss.jpg?itok=qXpX-P9K" width="800" height="500" alt="PHSC softball" />                 <div class="flex-caption"><strong></strong>&nbsp;PHSC softball</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/cheer-ss.jpg?itok=fIJwXZeE" width="800" height="500" alt="PHSC cheerleading" />                 <div class="flex-caption"><strong></strong>&nbsp;PHSC cheerleading</div>
+              </li>
+          <li><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_full/public/slideshow_images/volleyball-athletics-menu.png?itok=Qf1FY--N" width="800" height="500" alt="PHSC Volleyball" />                 <div class="flex-caption"><strong></strong>&nbsp;PHSC Volleyball</div>
+              </li>
+        </ul>
+  </div>
+</div></div></div></div>  </div>
+
+  <ul class="links links--inline node__links"><li class="print_html first last"><a href="/print/11480" title="Display a printer-friendly version of this page." class="print-page" onclick="window.open(this.href); return false" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="https://phsc.edu/sites/all/modules/contrib/print/icons/print_icon.png" width="16px" height="16px" alt="Printer-friendly version" title="Printer-friendly version" /></a></li>
+</ul>
+  
+</div>
+</div><div class="close-link"><a href="javascript:void(0);"> </a></div></div></div><div class="megamenu-parent megamenu-parent-7 megamenu-parent-last"><a href="/applying/how-apply" class="parent-link">Apply Online</a></div></div>  </div>
+</div>
+  </div>
+  </menu>
+
+<!-- Flexslider -->
+    <div class="l-region l-region--header">
+    <div id="block-views-banner-slideshow-block" class="block block--views block--views-banner-slideshow-block">
+        <div class="block__content">
+    <div class="view view-banner-slideshow view-id-banner_slideshow view-display-id-block view-dom-id-c96b0c6d8106654b65b773310d8ec6f7">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="flexslider_views_slideshow_main_banner_slideshow-block" class="flexslider_views_slideshow_main views_slideshow_main"><div class="flex-nav-container">
+  <div class="flexslider">
+    <ul id="flexslider_views_slideshow_banner_slideshow-block" class="flexslider-views-slideshow-main-frame slides">
+        <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-1 views-row-odd">
+      
+  <div class="views-field views-field-field-image-unlimited">        <div class="field-content"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_image/public/content/landing-page/banner/mini-term-b.png?itok=17mVyXMz" width="1200" height="300" alt="Term II B" /></div>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-image-unlimited">        <div class="field-content"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_image/public/content/landing-page/banner/students-studying.png?itok=6jyrsCVu" width="1200" height="300" alt="" /></div>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-field-image-unlimited">        <div class="field-content"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_image/public/content/landing-page/banner/mascot-runoff_0.png?itok=LvjEAYug" width="1200" height="300" alt="Mascot Runoff" /></div>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-image-unlimited">        <div class="field-content"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/flexslider_image/public/content/landing-page/banner/student-microscope.png?itok=STXU-R5_" width="1200" height="300" alt="Student in Lab with Microscope" /></div>  </div>  </li>
+    </ul>
+  </div>
+</div></div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+
+<!-- Breadcrumbs -->
+  <div class="l-breadcrumb">
+      </div>
+
+<!-- Main content title -->
+  <div class="l-title">
+    <!-- Skip link for accessibility -->
+    <a id="main-content"></a>
+                  <div class="heading">
+        <div class="container">
+          <h1>PHSC</h1>
+        </div>
+      </div>
+        </div>
+
+<!-- Main content -->
+  <div class="l-main">
+    <div class="l-content l-region--content" role="main">
+      <div class="region-content-inner">
+        
+      </div>
+      <div class="inner-content">
+        <div class="top-content">
+                    <div class="tabs clearfix">
+                      </div>
+                              <!-- Render views contextual link -->
+                    <div id="block-webform-client-block-109261" class="block block--webform block--front block--webform-client-block-109261">
+        <h2 class="block__title">More information</h2>
+      <div class="block__content">
+    <article about="/request-information" typeof="sioc:Item foaf:Document" role="article" class="node node--webform node--full node--webform--full">
+  
+    <footer class="node__submitted">
+            <p class="submitted"></p>
+    </footer>
+  
+  <div class="node__content">
+    <div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p><a href="https://phsc.edu/catalog" target="_blank"><img alt="Course Catalog" src="https://phsc.edu/sites/default/files/webacc_0.png" style="width: 475px; height: 100px;" /></a></p>
+</div></div></div><form class="webform-client-form webform-client-form-109261 webform-client-form-109261" action="/" method="post" id="webform-client-form-109261" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-textfield webform-component--name">
+  <label for="edit-submitted-name">Name <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" placeholder="John C. Smith" type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<div  class="form-item webform-component webform-component-email webform-component--email">
+  <label for="edit-submitted-email">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" class="email form-text form-email required" placeholder="name@example.com" type="email" id="edit-submitted-email" name="submitted[email]" size="60" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--phone-number">
+  <label for="edit-submitted-phone-number">Phone number <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" placeholder="(123) 456-7890" type="text" id="edit-submitted-phone-number" name="submitted[phone_number]" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<div  class="form-item webform-component webform-component-textfield webform-component--questions-or-comments">
+  <label for="edit-submitted-questions-or-comments">How can we help? <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" type="text" id="edit-submitted-questions-or-comments" name="submitted[questions_or_comments]" value="" size="60" maxlength="128" class="form-text required" />
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-b5FTZfBphgCeAWhB35FNCvJ65GOjOx-TI-pS7dooUFI" />
+<input type="hidden" name="form_id" value="webform_client_form_109261" />
+<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Request information" /></div></div></form>  </div>
+
+    </article>
+  </div>
+</div>
+<div id="block-views-homepage-featured-block" class="block block--views block--front featured block--views-homepage-featured-block">
+        <h2 class="block__title">Featured</h2>
+      <div class="block__content">
+    <div class="view view-homepage-featured view-id-homepage_featured view-display-id-block view-dom-id-4628dd18a8a66b2050115b9db1ddbbed">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-content-images">        <div class="field-content"><a href="/blog/take-fast-track-toward-graduation"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/medium/public/content/blog/mini-term.png?itok=ziJ4oUag" width="230" height="170" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/blog/take-fast-track-toward-graduation">Take the Fast Track toward Graduation</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Speed toward completing your degree or certificate by enrolling in an <a href="https://info.phsc.edu/">express mini-...</a></p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/blog/take-fast-track-toward-graduation">Read more »</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-main-news-view-block-4" class="block block--views block--front news block--views-main-news-view-block-4">
+        <h2 class="block__title">News</h2>
+      <div class="block__content">
+    <div class="view view-main-news-view view-id-main_news_view view-display-id-block_4 view-dom-id-da330a80b4b9e77bbf423a021063c371">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-content-images">        <div class="field-content"><a href="/news/black-history-month-feature-black-panthers-film"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/medium/public/content/news/black-panther-film.png?itok=09UPwZ8U" width="230" height="170" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/news/black-history-month-feature-black-panthers-film">Black History Month to Feature Black Panthers Film</a></span>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Pasco-Hernando State College invites you to celebrate Black History Month with us. Six events...</p></div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/news/black-history-month-feature-black-panthers-film">Read more »</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/main-news-view">
+    Read More  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-calendar-block-3" class="block block--views block--front events block--views-calendar-block-3">
+        <h2 class="block__title">Events</h2>
+      <div class="block__content">
+    <div class="view view-calendar view-id-calendar view-display-id-block_3 view-dom-id-3a3c2d8641f678e93276dfad505a7951">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-content-images">        <div class="field-content"><a href="/event/new-student-orientation-pc"><img typeof="foaf:Image" src="https://phsc.edu/sites/default/files/styles/medium/public/content/events/orientation_0.jpg?itok=4m2mFWgb" width="230" height="170" alt="Students sitting at computers" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/event/new-student-orientation-pc">New Student Orientation - Porter Campus at Wiregrass Ranch</a></span>  </div>  
+  <div class="views-field views-field-body">        <span class="field-content"> <p>All new students must attend an orientation session prior to registering for classes for their...</span>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/event/new-student-orientation-pc">Read more »</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/calendar/month">
+    All Events  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+<article about="/welcome" typeof="sioc:Item foaf:Document" role="article" class="node node--landing-page node--sticky node--full node--landing-page--full">
+  
+    <footer class="node__submitted">
+            <p class="submitted"></p>
+    </footer>
+  
+  <div class="node__content">
+    <div class="easy_social_box clearfix horizontal easy_social_lang_und">
+    </div> <!-- /.easy_social_box -->  </div>
+
+    </article>
+          <div class="feed-icon clearfix">
+                      </div>
+        </div>
+
+<!-- Sidebar left -->
+          <aside class="l-region l-region--sidebar-first">
+    <div id="block-block-8" class="block block--block block--block-8">
+        <div class="block__content">
+     <p><a href="https://phsc.edu/" id="home_nav_left"> </a></p>
+   </div>
+</div>
+  </aside>
+
+<!-- Sidebar right -->
+          <aside class="l-region l-region--sidebar-second">
+    <div id="block-block-9" class="block block--block block--block-9">
+        <div class="block__content">
+     <p><a href="https://phsc.edu/" id="home_nav_right"> </a></p>
+   </div>
+</div>
+  </aside>
+      </div>
+    </div>
+<!-- Social share -->
+      </div>
+
+<!-- Footer -->
+  <footer class="l-footer">
+    <div class="l-fat-footer container">
+              <div id="footer-columns clearfix">
+            <div class="l-region l-region--footer-first">
+    <div id="block-block-7" class="block block--block contact block--block-7">
+        <h2 class="block__title">Pasco-Hernando State College</h2>
+      <div class="block__content">
+    <p>10230 Ridge Road<br />
+	New Port Richey, FL<br />
+	34654-5112</p>
+<div itemscope="" itemtype="http://phsc.edu">
+<h1 itemprop="name">
+		Pasco-Hernando State College</h1>
+<p>	<span itemprop="telephone"><a href="tel:+17278472727">727-847-2727</a></span></p></div>
+  </div>
+</div>
+  </div>
+            <div class="l-region l-region--footer-second">
+    <nav id="block-menu-menu-footer-menu" role="navigation" class="block block--menu nav--footer block--menu-menu-footer-menu">
+        <h2 class="block__title">Resources</h2>
+    
+  <ul class="menu"><li class="first leaf"><a href="/general-information/contacting-college">Contact</a></li>
+<li class="leaf"><a href="/emergency-information/crime-statistics">Crime Reports</a></li>
+<li class="leaf"><a href="http://info.phsc.edu/directory">Directory</a></li>
+<li class="leaf"><a href="/general-information/safety-security">Emergency</a></li>
+<li class="leaf"><a href="/discover-phsc/diversity">EOE-ADA Compliance</a></li>
+<li class="leaf"><a href="http://info.phsc.edu/faq">FAQ</a></li>
+<li class="leaf"><a href="https://phsc.edu/general-information/college-policies#Student Grievance">Grievance Procedures</a></li>
+<li class="leaf"><a href="/site-index">Site Index</a></li>
+<li class="last leaf"><a href="/accessibility-compliance">Website ADA Compliance</a></li>
+</ul></nav>
+  </div>
+            <div class="l-region l-region--footer-third">
+    <nav id="block-menu-block-3" role="navigation" class="block block--menu-block nav--footer block--menu-block-3">
+        <h2 class="block__title">Information for</h2>
+    
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-information parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-31896"><a href="/community">Community and Visitors</a></li>
+<li class="leaf menu-mlid-31881"><a href="/services-students/current-students">Current Students</a></li>
+<li class="leaf menu-mlid-33296"><a href="/jobs">Employment at PHSC</a></li>
+<li class="leaf menu-mlid-31886"><a href="/faculty-staff">Faculty and Staff</a></li>
+<li class="leaf menu-mlid-31891"><a href="/foundation/donors-and-alumni">Foundation and Alumni</a></li>
+<li class="last leaf menu-mlid-31876"><a href="/prospective-students">Prospective Students</a></li>
+</ul></div>
+</nav>
+  </div>
+            <div class="l-region l-region--footer-fourth">
+    <div id="block-block-86" class="block block--block mobile-app block--block-86">
+        <h2 class="block__title">PHSC Mobile</h2>
+      <div class="block__content">
+    <p><a href="https://play.google.com/store/apps/details?id=edu.PHSC.mobile" target="_self"><img alt="Download android app" src="https://phsc.edu/sites/all/themes/phsc_theme/images/badge/android.png" style="width: 115px; height: 40px;" /></a> <a href="https://itunes.apple.com/us/app/phsc-mobile/id900483342?mt=4" target="_self"><img alt="Download iOS app" class="media-image attr__typeof__foaf:Image img__fid__8849 img__view_mode__media_original attr__format__media_original" height="40" src="https://phsc.edu/sites/all/themes/phsc_theme/images/badge/ios.png" typeof="foaf:Image" width="135" /></a><br /><a class="app-details" href="https://phsc.edu/mobile" target="_self">App details</a></p>
+  </div>
+</div>
+<div id="block-block-91" class="block block--block block--block-91">
+        <h2 class="block__title">Social media</h2>
+      <div class="block__content">
+    <p><a href="https://www.facebook.com/NowPHSC" target="_blank"><img alt="Like us on Facebook" src="https://phsc.edu/sites/all/themes/phsc_theme/images/social/facebook.png" /></a>  <a href="https://plus.google.com/101392341821627911303" target="_blank"><img alt="Google Plus" src="https://phsc.edu/sites/all/themes/phsc_theme/images/social/gplus.png" /></a>  <a href="https://twitter.com/PHSCedu" target="_blank"><img alt="Follow us on Twitter" src="https://phsc.edu/sites/all/themes/phsc_theme/images/social/twitter.png" /></a>  <a href="http://www.youtube.com/user/phccweb/videos" target="_blank"><img alt="Watch us on YouTube" src="https://phsc.edu/sites/all/themes/phsc_theme/images/social/youtube.png" /></a></p>
+  </div>
+</div>
+  </div>
+        </div>
+      
+<!-- Footer Copyright -->
+      <div class="footer--copyright">
+        <p>
+          &copy; 2017 Pasco-Hernado State College. All rights reserved.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+</div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"1476c6285c","applicationID":"32574579","transactionName":"blVRbEcDXEQEVUNZVlcfZkpcTR1eC1JSSBdJWEM=","queueTime":0,"applicationTime":24,"atts":"QhJSGg8ZT0o=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

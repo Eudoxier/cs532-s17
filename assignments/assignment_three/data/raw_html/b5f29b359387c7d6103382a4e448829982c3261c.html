@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head id="pageHead" td-head><meta http-equiv="expires" content="0"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" ng-attr-content="{{head.description}}"><meta name="keywords" ng-attr-content="{{head.tags}}"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title ng-bind="head.title">Welcome to Tandem</title><link rel="icon" href="/static/images/favicon.ico" type="image/x-icon"><style>#preloader{position:fixed;top:0;left:0;right:0;bottom:0;z-index:99;background:#eee}
+#preloader img{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;width:6.25em;height:6.25em}</style><link rel="stylesheet" type="text/css" ng-href="/static/css/layout/global.css?ts=1486151789978"><script ng-repeat="src in head.scripts" ng-src="{{src}}"></script><base href="/"></head><body id="pageBody"><div id="view" ui-view autoscroll="true"><div id="preloader" ng-if="false"><img src="/static/images/teal-over-white.gif"></div></div><div class="dn" id="modal"><div class="dn" id="loading"></div><div id="modalContent"></div></div><script async src="https://js.stripe.com/v2/"></script><script async src="/static/js/lib.js?ts=1486151789978"></script><script>(function () {
+
+    // wait for angular to load
+    (function waitForNg () {
+
+        window.setTimeout(function () {
+
+            if (window.angular && window.Stripe) {
+
+                var app = document.createElement('script');
+                app.type = 'text/javascript';
+                app.src = '/static/js/app.js?ts=1486151789978';
+                document.body.appendChild(app);
+            } else {
+                waitForNg();
+            }
+        }, 500);
+    })();
+})();</script></body></html>

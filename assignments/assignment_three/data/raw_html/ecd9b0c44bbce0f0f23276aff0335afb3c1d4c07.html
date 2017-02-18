@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="https://www.checkmarx.com/wp-content/cache/minify/d0d73.default.include.2711b7.css" media="all" />
+<script type="text/javascript">function w3tc_load_js(u){var d=document,p=d.getElementsByTagName('HEAD')[0],c=d.createElement('script');c.type='text/javascript';c.src=u;p.appendChild(c);}</script><script type="text/javascript">w3tc_load_js('https://www.checkmarx.com/wp-content/cache/minify/d0d73.default.include.0f27d6.js');</script>
+
+  <meta name="google-site-verification" content="IzDSp2a_JFRVs4V2ULjvU7j6ibmEuc_5j0QAPPZtIi4" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'>
+  <meta name="norton-safeweb-site-verification" content="dzfkxtfsm1pw65sd-5uco5unp72-m3e-adnc0fmp5ksmbsvoxg6zo5co7s-2khy6xuebifq8cqvx0mud5r-7ksp92uf4v92pf47s0dw59odxho5k4gksl6lj77v049r5" />
+
+  
+
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//bat.bing.com">
+    <link rel="dns-prefetch" href="//js.hs-analytics.net">
+    <link rel="dns-prefetch" href="//s.adroll.com">
+
+  <link rel="shortcut icon" href="/wp-content/themes/checkmarx/favicon.png" type="image/png">
+  <script src="/wp-content/themes/checkmarx/jquery/jquery-2.1.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  
+
+  <!--  begin bootstrap -->
+    
+  
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  
+<!--   <link href="/wp-content/themes/checkmarx/style_smalldesktop.css?version=3.5" rel="stylesheet" type="text/css">
+  <link href="/wp-content/themes/checkmarx/style_tablet.css?version=3.5" rel="stylesheet" type="text/css">
+  <link href="/wp-content/themes/checkmarx/style_mobile.css?version=3.5" rel="stylesheet" type="text/css"> -->
+  
+  
+  
+
+  <!-- Custom styles for this template -->
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="/wp-content/themes/checkmarx/bootstrap/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  
+
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <!--  end bootstrap -->
+      
+<!-- This site is optimized with the Yoast SEO plugin v3.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Application Security Testing | Static Code Analysis | Source Code Analysis – Checkmarx.com</title>
+<meta name="description" content="Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process. CheckMarx - Choose What Developers Use."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://www.checkmarx.com/" />
+<link rel="publisher" href="https://plus.google.com/b/110137613076753255479/+Checkmarx/posts"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Application Security Testing | Static Code Analysis | Source Code Analysis – Checkmarx.com" />
+<meta property="og:description" content="Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process. CheckMarx - Choose What Developers Use." />
+<meta property="og:url" content="https://www.checkmarx.com/" />
+<meta property="og:site_name" content="Checkmarx" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Checkmarx is a provider of state-of-the-art application security solution: static code analysis software, seamlessly integrated into development process. CheckMarx - Choose What Developers Use." />
+<meta name="twitter:title" content="Application Security Testing | Static Code Analysis | Source Code Analysis – Checkmarx.com" />
+<meta name="twitter:site" content="@checkmarx" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"\/","name":"Checkmarx","potentialAction":{"@type":"SearchAction","target":"\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"\/","sameAs":["https:\/\/www.facebook.com\/Checkmarx.Source.Code.Analysis","https:\/\/www.linkedin.com\/company\/checkmarx","https:\/\/plus.google.com\/b\/110137613076753255479\/+Checkmarx\/posts","https:\/\/twitter.com\/checkmarx"],"name":"Checkmarx","logo":"\/wp-content\/uploads\/2015\/03\/Checkmarx-only-BIG.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.checkmarx.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+<link rel='stylesheet' id='responsive-menu-css'  href='/wp-content/plugins/responsive-menu-data/css/responsive-menu-1.css?ver=1.0' type='text/css' media='all' />
+
+
+
+
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+
+
+
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.1" />
+<meta name="generator" content="Seriously Simple Podcasting 1.15.1" />
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://www.checkmarx.com/feed/podcast" />
+
+<script charset="utf-8" type="text/javascript">var switchTo5x=true;</script>
+<script charset="utf-8" type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script charset="utf-8" type="text/javascript">stLight.options({"publisher":"7aebd3cd-ae8c-454c-a9a0-059d1a38a29b","onhover":"false"});var st_type="wordpress4.5.2";</script>
+<script data-cfasync="false" src="//load.sumome.com/" data-sumo-platform="wordpress" data-sumo-site-id="db0888bfd246a95ec2496f0cf8005ce2189ef1d2d4cfa8b2ea1745d58825b69e" async></script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<!-- Google Analytics Tracking by Google Analyticator 6.5.0: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+    var analyticsFileTypes = [''];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-6105155-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+<!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    
+      <style>
+  .header .menu-main-menu-container div {
+    display:none;
+  }
+  </style>
+    <script type="text/javascript">
+  if ( window.self !== window.top ) {
+    var url=document.referrer;
+    if(url) {
+      var referrer =  url.match(/:\/\/(.[^/]+)/)[1];
+    }
+    if(document.domain!=referrer) {
+      window.top.location.href=window.location.href;
+    }
+  }
+  </script>
+  <script type="text/javascript">
+    adroll_adv_id = "WE6554FCSJBM3PKJX74HTK";
+    adroll_pix_id = "VR62BHBNWFHJDAOSZFT3UP";
+    /* OPTIONAL: provide email to improve user identification */
+    /* adroll_email = "username@example.com"; */
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+<!-- BEGIN LivePerson Monitor. -->
+<script type="text/javascript"> window.lpTag=window.lpTag||{};if(typeof window.lpTag._tagCount==='undefined'){window.lpTag={site:'74459146'||'',section:lpTag.section||'',autoStart:lpTag.autoStart===false?false:true,ovr:lpTag.ovr||{},_v:'1.6.0',_tagCount:1,protocol:'https:',events:{bind:function(app,ev,fn){lpTag.defer(function(){lpTag.events.bind(app,ev,fn);},0);},trigger:function(app,ev,json){lpTag.defer(function(){lpTag.events.trigger(app,ev,json);},1);}},defer:function(fn,fnType){if(fnType==0){this._defB=this._defB||[];this._defB.push(fn);}else if(fnType==1){this._defT=this._defT||[];this._defT.push(fn);}else{this._defL=this._defL||[];this._defL.push(fn);}},load:function(src,chr,id){var t=this;setTimeout(function(){t._load(src,chr,id);},0);},_load:function(src,chr,id){var url=src;if(!src){url=this.protocol+'//'+((this.ovr&&this.ovr.domain)?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site;}var s=document.createElement('script');s.setAttribute('charset',chr?chr:'UTF-8');if(id){s.setAttribute('id',id);}s.setAttribute('src',url);document.getElementsByTagName('head').item(0).appendChild(s);},init:function(){this._timing=this._timing||{};this._timing.start=(new Date()).getTime();var that=this;if(window.attachEvent){window.attachEvent('onload',function(){that._domReady('domReady');});}else{window.addEventListener('DOMContentLoaded',function(){that._domReady('contReady');},false);window.addEventListener('load',function(){that._domReady('domReady');},false);}if(typeof(window._lptStop)=='undefined'){this.load();}},start:function(){this.autoStart=true;},_domReady:function(n){if(!this.isDom){this.isDom=true;this.events.trigger('LPT','DOM_READY',{t:n});}this._timing[n]=(new Date()).getTime();},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],ev:lpTag.ev||[]};lpTag.init();}else{window.lpTag._tagCount+=1;} </script>
+<!-- END LivePerson Monitor. -->
+ 
+    </head>
+
+  
+
+    <body id="home" class="home blog"><script async type="text/javascript" src="https://www.checkmarx.com/wp-content/cache/minify/d0d73.default.include-body.2ca009.js"></script>
+
+    <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PK5FCS"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PK5FCS');</script>
+  <!-- End Google Tag Manager -->
+  
+  <div id="mcontainer">
+   <div class="header"><div id="logo">
+     <a href="/"></a>
+   </div>
+   <div id="nav_container">
+     <div id="nav">
+       <div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-4" class="product toplevel menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4"><a href="/technology/static-code-analysis-sca/">PRODUCTS</a>
+<div class="menu-div-sub"><ul class="sub-menu">
+	<li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="/technology/static-code-analysis-sca/">Static Code Analysis (SAST)</a></li>
+	<li id="menu-item-16884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16884"><a href="/Open-Source-Analysis">Open Source Analysis</a></li>
+	<li id="menu-item-19540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19540"><a href="/appsec-coach/">AppSec Coach</a></li>
+</ul></div>
+</li>
+<li id="menu-item-20703" class="solutions toplevel menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20703"><a href="/solutions/">SOLUTIONS</a>
+<div class="menu-div-sub"><ul class="sub-menu">
+	<li id="menu-item-20704" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20704"><a href="/solutions/#platform">By Platform</a></li>
+	<li id="menu-item-20705" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20705"><a href="/solutions/#implementation">By Implementation</a></li>
+	<li id="menu-item-20706" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20706"><a href="/solutions/#compliance">By Compliance</a></li>
+	<li id="menu-item-20707" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20707"><a href="/solutions/#appseceducation">AppSec Education</a></li>
+</ul></div>
+</li>
+<li id="menu-item-20324" class="resources toplevel menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20324"><a href="/resources/">RESOURCES</a>
+<div class="menu-div-sub"><ul class="sub-menu">
+	<li id="menu-item-20325" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20325"><a href="/resources/#knowledge">Knowledge</a></li>
+	<li id="menu-item-20326" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20326"><a href="/resources/#appsec">AppSec University</a></li>
+</ul></div>
+</li>
+<li id="menu-item-11607" class="blog toplevel menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11607"><a href="/resources/blog/">BLOG</a>
+<div class="menu-div-sub"><ul class="sub-menu">
+	<li id="menu-item-15560" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15560"><a href="/category/blog/application-security-trends/">Application Security Trends</a></li>
+	<li id="menu-item-15561" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15561"><a href="/category/blog/appsec-tips-best-practices/">AppSec Tips &#038; Best Practices</a></li>
+	<li id="menu-item-15562" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15562"><a href="/category/blog/mobile-security/">Mobile Security</a></li>
+	<li id="menu-item-15563" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15563"><a href="/category/blog/resources-tools/">Resources &#038; Tools</a></li>
+</ul></div>
+</li>
+<li id="menu-item-11656" class="toplevel menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11656"><a href="/about-us/">COMPANY</a>
+<div class="menu-div-sub"><ul class="sub-menu">
+	<li id="menu-item-11657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11657"><a href="/about-us/">About Us</a></li>
+	<li id="menu-item-11659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11659"><a href="/company/management/">Management</a></li>
+	<li id="menu-item-11658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11658"><a href="/company/board/">Board of Directors</a></li>
+	<li id="menu-item-11660" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11660"><a href="/company/investors/">Investors</a></li>
+	<li id="menu-item-21055" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21055"><a href="/partners/">Partners</a></li>
+	<li id="menu-item-11662" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11662"><a href="/company/events/">Events</a></li>
+	<li id="menu-item-11663" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11663"><a href="/company/company-news/">In the News</a></li>
+	<li id="menu-item-11661" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11661"><a href="/company/awards/">Awards</a></li>
+	<li id="menu-item-11664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11664"><a href="/company/careers/">Careers</a></li>
+</ul></div>
+</li>
+<li id="menu-item-11655" class="toplevel contactus menu-item menu-item-type-post_type menu-item-object-page menu-item-11655"><a href="/contact-us/">CONTACT US</a></li>
+</ul></div>      </div>
+      <div id="searchicon"></div>
+      <div id="search">
+        <form action="/search-results/" id="searchform" method="get" name="searchform">
+          <label id="searchlabel">Search</label>
+                    <input id="query" name="query" value="" />
+          <input id="searchbtn" type="button" />
+        </form>
+      </div>
+      <div id="topmenu-try-me" class="trymebtn trymebtntop">
+       <!-- <a href="http://cta-redirect.hubspot.com/cta/redirect/146169/043e6b19-7fee-4fa9-b25a-db2ec597f433" id="hs-cta-043e6b19-7fee-4fa9-b25a-db2ec597f433" class="btn btn-orange">Request A Demo</a> -->
+       <!--HubSpot Call-to-Action Code -->
+<span class="hs-cta-wrapper" id="hs-cta-wrapper-043e6b19-7fee-4fa9-b25a-db2ec597f433">
+    <span class="hs-cta-node hs-cta-043e6b19-7fee-4fa9-b25a-db2ec597f433" id="hs-cta-043e6b19-7fee-4fa9-b25a-db2ec597f433">
+        <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+        <a href="http://cta-redirect.hubspot.com/cta/redirect/146169/043e6b19-7fee-4fa9-b25a-db2ec597f433" ><img class="hs-cta-img" id="hs-cta-img-043e6b19-7fee-4fa9-b25a-db2ec597f433" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/146169/043e6b19-7fee-4fa9-b25a-db2ec597f433.png"  alt="REQUEST A DEMO"/></a>
+    </span>
+    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+    <script type="text/javascript">
+        hbspt.cta.load(146169, '043e6b19-7fee-4fa9-b25a-db2ec597f433', {});
+    </script>
+</span>
+<!-- end HubSpot Call-to-Action Code -->
+     </div>
+     <div id="lang">
+      <div id="message"><a href="/contact-us"><img src="/wp-content/uploads/2015/02/message.png" /></a></div>
+      <div class="menu-languages-container"><ul id="menu-languages" class="menu"><li id="menu-item-207" class="us hidden menu-item menu-item-type-custom menu-item-object-custom menu-item-207"><a title="English" href="#">.</a></li>
+</ul></div>      </div>
+    </div><!--end nav_container-->
+  </div>
+
+
+
+
+
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="//animate.adobe.com/runtime/6.0.0/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-checkmarxanimationR1 { visibility:hidden; }
+    </style>
+<!--Adobe Edge Runtime End-->
+
+<style>
+.section {
+  height:auto !important;
+}
+.bx-wrapper {
+  margin: 0px auto 45px !important;
+}
+.bx-wrapper .bx-loading {
+  background:none !important;
+}
+
+#home #responsive-menu .responsive-menu li.current-menu-item > a {
+  background: #fff !important;
+  color: #51357c !important;
+  border-bottom: 1px solid #51357c !important;
+}
+
+
+p.titles-page7 a{
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #373050;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.home-intro-text p.h2 {
+    text-transform: uppercase;
+    color: #373050;
+    font-family: 'Blogger Sans', sans-serif;
+    font-weight: 500;
+}
+
+.home-intro-text p.h2 span{
+    color: #ee3f37;
+}
+
+.subhero p.h2{
+  font-size: 38px;
+  line-height: 50px;
+  text-transform: uppercase;
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #373050;
+}
+
+#pageonetxt p.h3{
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 480px){
+  .subhero p.h2{
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+</style>
+<div id="fullpage">
+  <div class="section" id="section0">
+    <div id="pageone">
+<div id="pageone-container">
+
+	<div id="pageonetxt">
+      <h1><strong>
+        <span>APPLICATION SECURITY TESTING</span><br> THAT DEVELOPERS ACTUALLY USE
+  </strong></h1>
+
+  <p class="h3">
+        Ease the friction between security professionals and developers.
+  </p>
+  <a href="#" class="btn btn-orange playvideobtn herovideov2">Watch Video</a>
+
+</div>
+
+<div id="pageonebtns">
+
+</div>
+<div id="badge-overlay">
+  <div id="badge"></div>
+  </div>
+</div>
+</div>
+<div class="subhero">
+  <div class="subhero-content">
+  <div class="home-intro-text">
+  <p class="h2">Security Professionals Want to <br><span>Test,</span> Developers Want to <span>Code</span></p>
+    <p>Application security is the number one priority of security professionals, <br>but developers just want to code. Getting developers to use Application Security<br> Testing is one of the biggest challenges facing security professionals today.</p>
+    
+</div>
+    <div class="vs-img">
+      <img src="/wp-content/themes/checkmarx/images/assets/vs-img-new-v2.png">
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="used-by">
+  <div class="container">
+    <div class="col-md-3">
+      <img src="/wp-content/themes/checkmarx/images/assets/sap.png">
+    </div>
+    <div class="col-md-3">
+      <img src="/wp-content/themes/checkmarx/images/assets/salesforce.png">
+    </div>
+    <div class="col-md-3">
+      <img src="/wp-content/themes/checkmarx/images/assets/playtech.png">
+    </div>
+    <div class="col-md-3">
+      <img src="/wp-content/themes/checkmarx/images/assets/liveperson.png">
+    </div>
+  </div>
+</div>
+
+
+
+<div class="section-02">
+  <div class="container">
+  <div class="col-md-4">
+      <h2 class="pills-left">Checkmarx Makes Security Testing <span>Easier to Swallow</span></h2>
+  </div>
+  <div class="col-md-4 col-lg-offset-4">
+      <h2 class="pills-right"><span>Fitting in Seamlessly</span> with how developers work</h2>
+  </div>
+  </div>
+
+ </div>
+
+<div class="section-03">
+  <h3>Becoming a part of the software <span>development</span> lifecycle</h3>
+  <img src="/wp-content/themes/checkmarx/images/assets/sdlc-homepage-v2.png">
+</div>
+
+<div class="section-04">
+  <div class="img-holder-bottom-line hidemob">
+    <div class="leftchar-animate animated">
+      <img src="/wp-content/themes/checkmarx/images/assets/left-char-new.png">
+    </div>
+    <div class="rightchar-animate animated">
+      <img src="/wp-content/themes/checkmarx/images/assets/right-char-new.png">
+    </div>
+  </div>
+  <div class="showmob">
+    <img src="/wp-content/themes/checkmarx/images/assets/high5.png">
+  </div>
+  <div class="bottom-line">
+    <p class="h4">Bottom <span>Line</span></p>
+    <p>Checkmarx can be integrated at every step of the SDLC, which leads to less vulnerabilities, reduced fixes to older code, lower costs and, most importantly, far more secure applications.</p>
+  </div>
+</div>
+
+<div class="section-05 showmob">
+<img src="/wp-content/themes/checkmarx/images/assets/strip-mobile.jpg" />
+</div>
+
+<div class="section-05">
+<div id="videobxslider">
+
+  <ul class="bxslider-video">
+    <li><img src="/wp-content/themes/checkmarx/images/assets/strip-1.jpg"></li>
+    <li><img src="/wp-content/themes/checkmarx/images/assets/strip-3.jpg"></li>
+  </ul>
+
+</div>
+</div>
+<style type="text/css">
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".bxslider-video").responsiveSlides();
+});
+</script>
+
+<div class="section-06">
+
+
+
+  <p class="h4">What our <span>clients</span> are saying</p>
+
+
+  <div id="pagefivebxslider">
+
+    <ul class="bxslider">
+             <li>
+         <div class="quatationopen"></div>
+
+         <div class="bxtext">
+
+           <div class="clientholder">
+            <p class="clientimage"><img alt="Yair Rovek" src="/wp-content/themes/checkmarx/images/assets/liveperson.png" /><span id="pagefivebold">Yair Rovek</span> | Security Specialist</p>
+
+          </div>
+
+
+          <p class="clienttesti">Checkmarx's technology is highly accurate and easy to use. It offers great performance and the ability to scan incomplete code samples.</p>
+          <div class="pagesixbtn"><a class="btn btn-orange" href="/case_studies/liveperson-implements-innovative-secure-sdlc/">go to case study</a></div>
+
+        </div>
+
+        <div class="quatationclose"></div>
+
+      </li>
+              <li>
+         <div class="quatationopen"></div>
+
+         <div class="bxtext">
+
+           <div class="clientholder">
+            <p class="clientimage"><img alt="Kobi Lechner" src="/wp-content/themes/checkmarx/images/assets/playtech.png" /><span id="pagefivebold">Kobi Lechner</span> | Information Security Manager</p>
+
+          </div>
+
+
+          <p class="clienttesti">It is easy to use and provides highly accurate results combined with the flexibility we need to enforce our application security policy.</p>
+          <div class="pagesixbtn"><a class="btn btn-orange" href="/case_studies/playtech-implements-innovative-secure-sdlc/">go to case study</a></div>
+
+        </div>
+
+        <div class="quatationclose"></div>
+
+      </li>
+      
+    </ul>
+
+  </div>
+</div>
+<div class="section" id="section5">
+  <div id="pagesix">
+
+    <div id="pagesix-container">
+
+      <div id="pagesixcontainer">
+
+        <div id="pagesixboxes">
+
+          <div class="pagesixbox">
+
+            <img alt="Contact us" src="/wp-content/themes/checkmarx/images/assets/lm-01.png">
+
+            <p><p>Want to learn&nbsp;more about CxSAST and our other security solutions? Contact&nbsp;us and we'll get back to you as soon as possible.</p></p>
+
+            <div class="pagesixbtn"><a class="btn btn-orange" href="http://cta-redirect.hubspot.com/cta/redirect/146169/eed6dc27-5627-47d9-b7c1-2ec671cda804">Contact Us</a></div>
+
+          </div>
+
+          <div class="pagesixbox">
+
+            <img alt="Schedule Live Demo" src="/wp-content/themes/checkmarx/images/assets/lm-03.png">
+
+            <p><p>You can now enjoy a live CxSAST demo for free.&nbsp;Fill in your details and our representative will get in touch with you.</p></p>
+
+            <div class="pagesixbtn"><a class="btn btn-orange" href="http://cta-redirect.hubspot.com/cta/redirect/146169/043e6b19-7fee-4fa9-b25a-db2ec597f433">Schedule Live Demo</a></div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="section" id="section6">
+  <div id="pageseven">
+
+    <div id="pageseven-container">
+
+      <div id="pagesevenright">
+
+        <div class="stayupdatedboxes">
+          <div class="leftfirst lefttext"><p class="h4">Stay <span>Updated</span></p></div>
+      <div class="three-box">
+        <p class="h6">Webinars</p>
+                <p class="titles-page7"><a href="http://cta-redirect.hubspot.com/cta/redirect/146169/519a4fd0-14d9-45ee-810a-5c209eb6fa1a" title="What is the OWASP Application Security Verification Standard?">What is the OWASP Application Security Verification Standard?</a></p>
+        <script type="text/javascript">
+          // <![CDATA[
+            hbspt.cta.load(146169, '519a4fd0-14d9-45ee-810a-5c209eb6fa1a', {});
+          // ]]>
+        </script>
+        <p><p class="no-break"><div class='sharethis-checkmarx'><span st_title='What is the OWASP Application Security Verification Standard?' st_url='https://www.checkmarx.com/webinars/open-source-security-101' class='st_facebook_hcount'></span><span st_via='checkmarx' st_username='checkmarx' st_title='What is the OWASP Application Security Verification Standard?' st_url='https://www.checkmarx.com/webinars/open-source-security-101' class='st_twitter_hcount'></span><span st_title='What is the OWASP Application Security Verification Standard?' st_url='https://www.checkmarx.com/webinars/open-source-security-101' class='st_linkedin_hcount'></span><span st_title='What is the OWASP Application Security Verification Standard?' st_url='https://www.checkmarx.com/webinars/open-source-security-101' class='st_email_hcount'></span><span st_title='What is the OWASP Application Security Verification Standard?' st_url='https://www.checkmarx.com/webinars/open-source-security-101' class='st_googleplus_hcount'></span><span st_title='What is the OWASP Application Security Verification Standard?' st_url='https://www.checkmarx.com/webinars/open-source-security-101' class='st_sharethis_hcount'></span></div></p></p>
+          </div>
+
+    <div class="three-box">
+      <p class="h6">News &amp; Events</p>
+              <p class="titles-page7"><a target="_blank" href="http://virtual-strategy.com/2017/02/06/executive-viewpoint-2017-prediction-checkmarx-spotting-software-trends-and-beyond/" title="Executive Viewpoint 2017 Prediction: Checkmarx – Spotting Software Trends and Beyond">Executive Viewpoint 2017 Prediction: Checkmarx – Spotting Software Trends and Beyond</a></p> 
+        <p>Software is now embedded in every aspect of modern day business, making it critical for organizations to understand how the <a class="read-more-events" target="_blank"  href="http://virtual-strategy.com/2017/02/06/executive-viewpoint-2017-prediction-checkmarx-spotting-software-trends-and-beyond/">Read More &raquo;</a></p>
+          </div>
+
+    <div class="three-box">
+      <p class="h6">Blog</p>
+              <p class="titles-page7"><a href="/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/" title="3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware">3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware</a></p>
+        <p><p class="no-break"><div class='sharethis-checkmarx'><span st_title='3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware' st_url='https://www.checkmarx.com/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/' class='st_facebook_hcount'></span><span st_via='checkmarx' st_username='checkmarx' st_title='3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware' st_url='https://www.checkmarx.com/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/' class='st_twitter_hcount'></span><span st_title='3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware' st_url='https://www.checkmarx.com/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/' class='st_linkedin_hcount'></span><span st_title='3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware' st_url='https://www.checkmarx.com/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/' class='st_email_hcount'></span><span st_title='3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware' st_url='https://www.checkmarx.com/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/' class='st_googleplus_hcount'></span><span st_title='3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware' st_url='https://www.checkmarx.com/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/' class='st_sharethis_hcount'></span></div></p><p>As organizations of all sizes and verticals prepare for whatever malicious cyber criminals have in store for them in the <a class="read-more-events" href="/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/">Read More &raquo;</a></p>
+</p>
+          </div>
+    </div>
+
+    <div id="playvideo-container">
+      <div id="playvideo-lightbox">
+        <iframe id="homevideo" width="800" height="564" src="" frameborder="0" allowfullscreen></iframe>
+        <div id="playvideo-form-close"><img src="/wp-content/uploads/2015/01/close-icon.png"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script>
+jQuery('.playvideobtn').click(function() {
+  $('#homevideo').attr('src', 'https://www.youtube.com/embed/qezPk2tSZNo?rel=0&autoplay=1');
+  $('#playvideo-container').fadeIn();
+});
+jQuery('#playvideo-form-close').click(function() {
+  var url = $('#homevideo').attr('src');
+  $('#homevideo').attr('src', '');
+  $('#playvideo-container').fadeOut();
+});
+
+
+jQuery(document).ready(function() {
+  var dwidth=$(window).width();
+  jQuery('.bxslider').bxSlider({
+    speed: 3000,
+    pause: 5000,
+    touchEnabled:true,
+    auto: false,
+    adaptiveHeight: true
+
+  });
+
+});
+
+jQuery(document).ready(function(){
+  jQuery('.animated').css('opacity', 0);
+ 
+  jQuery('.animated').waypoint(function() {
+      jQuery('.leftchar-animate').addClass('fadeInLeft');
+      jQuery('.rightchar-animate').addClass('fadeInRight');
+  }, { offset: '50%' });
+ 
+    $('#pagesix .pagesixbox p').each(function(){
+      if($(this).is(':empty')){
+        $(this).hide();
+      }
+    });
+});
+</script>
+</div>
+</div>
+<div id="footer">
+<div id="pageeight"></div>
+       <div id="nav_container">
+  	<div id="nav">
+  	<div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-26" class="topmenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26"><a href="/technology/static-code-analysis-sca/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-11709" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11709"><a href="/technology/static-code-analysis-sca/">Static Code Analysis</a></li>
+	<li id="menu-item-20767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20767"><a href="/Open-Source-Analysis">Open Source Analysis</a></li>
+	<li id="menu-item-20768" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20768"><a href="/appsec-coach/">AppSec Coach</a></li>
+</ul>
+</li>
+<li id="menu-item-20774" class="topmenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20774"><a href="/solutions/">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-20775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20775"><a href="/solutions/#platform">By Platform</a></li>
+	<li id="menu-item-20776" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20776"><a href="/solutions/#implementation">By Implementation</a></li>
+	<li id="menu-item-20777" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20777"><a href="/solutions/#compliance">By Compliance</a></li>
+	<li id="menu-item-20778" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20778"><a href="/solutions/#appseceducation">AppSec Education</a></li>
+</ul>
+</li>
+<li id="menu-item-20769" class="topmenu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20769"><a href="/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-11718" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11718"><a href="/resources/case-studies/">Case Studies</a></li>
+	<li id="menu-item-20770" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20770"><a href="/technology/application-security-testing/">Application Security</a></li>
+	<li id="menu-item-11717" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11717"><a href="/resources/white-papers/">White Papers</a></li>
+	<li id="menu-item-11716" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11716"><a href="/resources/webinars/">Webinars</a></li>
+	<li id="menu-item-11715" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11715"><a href="/resources/videos/">Videos</a></li>
+	<li id="menu-item-20771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20771"><a href="/beginners-guide-application-security/">AppSec Beginners Guide</a></li>
+	<li id="menu-item-20772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20772"><a href="/language-overviews/">Language Profiles</a></li>
+	<li id="menu-item-11728" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11728"><a href="/resources/glossary">Glossary</a></li>
+	<li id="menu-item-20773" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20773"><a href="/knowledge/knowledgebase">Vulnerability Knowledge Base</a></li>
+</ul>
+</li>
+<li id="menu-item-18" class="topmenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18"><a href="/company/about-us/">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-11700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11700"><a href="/about-us/">About Us</a></li>
+	<li id="menu-item-11703" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11703"><a href="/company/management/">Management</a></li>
+	<li id="menu-item-11701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11701"><a href="/company/board/">Board of Directors</a></li>
+	<li id="menu-item-11702" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11702"><a href="/company/investors/">Investors</a></li>
+	<li id="menu-item-11705" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11705"><a href="/company/events/">Events</a></li>
+	<li id="menu-item-11706" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11706"><a href="/company/company-news/">Press</a></li>
+	<li id="menu-item-11704" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11704"><a href="/company/awards/">Awards</a></li>
+	<li id="menu-item-11730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11730"><a href="/company/careers/">Careers</a></li>
+</ul>
+</li>
+<li id="menu-item-39" class="topmenu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-39"><a href="/partners/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-11719" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11719"><a href="/partners/">Partners</a></li>
+	<li id="menu-item-11721" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11721"><a href="/partner/technical-partners/">Technical Partners</a></li>
+	<li id="menu-item-11720" class="becomepartnerfooter menu-item menu-item-type-post_type menu-item-object-page menu-item-11720"><a href="/partners/become-a-partner/">Become a Partner</a></li>
+	<li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a href="https://checkmarx.my.salesforce.com/secur/login_portal.jsp?orgId=00D20000000IoIO&#038;portalId=060D000000010BS">Partners Zone</a></li>
+</ul>
+</li>
+<li id="menu-item-11722" class="topmenu contactusfooter menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-11722"><a href="/contact-us/">Contact Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-17195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17195"><a href="/terms-of-use/">Terms of Use</a></li>
+	<li id="menu-item-17196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17196"><a href="/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-11723" class="topmenu blog menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-has-children menu-item-11723"><a href="/resources/blog/">Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-15556" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15556"><a href="/category/blog/application-security-trends/">Application Security Trends</a></li>
+	<li id="menu-item-15557" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15557"><a href="/category/blog/appsec-tips-best-practices/">AppSec Tips &#038; Best Practices</a></li>
+	<li id="menu-item-15558" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15558"><a href="/category/blog/mobile-security/">Mobile Security</a></li>
+	<li id="menu-item-15559" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15559"><a href="/category/blog/resources-tools/">Resources &#038; Tools</a></li>
+</ul>
+</li>
+<li id="menu-item-45" class="tryme-footer trymebtn menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="https://info.checkmarx.com/request-a-demo">REQUEST A DEMO</a></li>
+</ul></div>      </div>
+      </div><!--end nav_container-->
+      <div id="footericons_tablet" style="display: none;">
+          <div id="footer_tablet_left">
+            <div>
+                  <a href="https://www.facebook.com/Checkmarx.Source.Code.Analysis"><i class="fa fa-facebook-f"></i></a>
+                  <a href="https://www.youtube.com/user/CheckmarxResearchLab"><i class="fa fa-youtube"></i></a>
+                  <a href="https://twitter.com/checkmarx"><i class="fa fa-twitter"></i></a>
+            </div>
+            <div>
+                 <a href="https://plus.google.com/u/0/+Checkmarx/posts"><i class="fa fa-google-plus"></i></a>
+                  <a href="http://feeds.feedburner.com/Checkmarx"><i class="fa fa-rss"></i></a>
+                  <a href="https://www.linkedin.com/company/checkmarx"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <div class="tryme-footer">
+              <a href="http://cta-redirect.hubspot.com/cta/redirect/146169/043e6b19-7fee-4fa9-b25a-db2ec597f433">REQUEST A DEMO</a>
+              <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+              <script type="text/javascript">
+                  hbspt.cta.load(146169, '043e6b19-7fee-4fa9-b25a-db2ec597f433', {});
+              </script>
+            </div>
+          </div>
+          <div>
+              <div id="logofooter">
+                  <a href="/"><img src="/wp-content/themes/checkmarx/images/assets/cx-logo-white.svg"></a>
+              </div>
+              <div id="copyright_table">
+                  <p>© 2017 Checkmarx LTD</p>
+                  <p>All Rights Reserved</p>
+              </div>
+          </div>
+      </div>
+      <div id="footericons">
+      <a href="https://www.facebook.com/Checkmarx.Source.Code.Analysis"><i class="fa fa-facebook-f"></i></a>
+      <a href="https://www.youtube.com/user/CheckmarxResearchLab"><i class="fa fa-youtube"></i></a>
+      <a href="https://twitter.com/checkmarx"><i class="fa fa-twitter"></i></a>
+      <a href="https://plus.google.com/u/0/+Checkmarx/posts"><i class="fa fa-google-plus"></i></a>
+      <a href="http://feeds.feedburner.com/Checkmarx"><i class="fa fa-rss"></i></a>
+      <a href="https://www.linkedin.com/company/checkmarx"><i class="fa fa-linkedin"></i></a>
+      <div id="logofooter"><a href="https://www.checkmarx.com"><img src="/wp-content/themes/checkmarx/images/assets/cx-logo-white.svg"></a></div>
+      <div id="copyright">
+      <p>© 2017 Checkmarx.com LTD,</p>
+      <p>All Rights Reserved</p>
+
+      </div>
+      </div>
+      </div>
+</div>
+<div class="trymebtn trymebtnfooter" id="pageonebtnFooter"><a href="http://cta-redirect.hubspot.com/cta/redirect/146169/043e6b19-7fee-4fa9-b25a-db2ec597f433" id="hs-cta-043e6b19-7fee-4fa9-b25a-db2ec597f433">REQUEST A DEMO</a></div>
+
+<div id="tryme-container">
+<div id="tryme-form">
+<div id="form-head">
+<div id="ttl-left">
+<div id="ttl-grn"><a href="#">Get Free Trial</a>
+</div>
+</div>
+<div id="ttl-or">OR</div>
+<div id="ttl-right">
+<div id="ttl-schedule">
+<a href="#">Schedule Live Demo</a>
+</div>
+</div>
+</div>
+<div id="desc">
+<div id="trymedesc">
+<p>Interested in&nbsp;trying&nbsp;<em>CxSAST</em> on your own code? You can now use&nbsp;Checkmarx's solution to scan uncompiled / unbuilt source code in 18 coding and scripting languages and identify the vulnerable lines of code. <em>CxSAST</em> will even find&nbsp;the best-fix locations for you and suggest the best remediation techniques. Sign up for your FREE trial now.</p></div>
+<div id="scheduledesc">
+<p>Checkmarx is now offering you the opportunity&nbsp;to see how <em>CxSAST</em> identifies application-layer vulnerabilities&nbsp;in real-time. Our in-house security experts will run the scan and demonstrate how the solution's queries can be tweaked as per your specific needs and requirements. Fill in your details and we'll schedule a FREE live demo with you.</p></div>
+</div>
+<div id="form">
+
+<script type="text/javascript">
+//$.noConflict();
+jQuery(document).ready(function(){
+  hbspt.forms.create({
+    portalId: '146169',
+    formId: '1db9e6e4-1ef5-4fc3-8162-39fdc28102d3',
+	target:'#form',
+    submitButtonClass: 'trymesubmit hs-button primary large getafreetrialsubmit',
+      onFormReady: function($form) {
+        // Insert gclid token in the hidden field
+        $form.find('input[name=gclid]').val(readCookie('gclid')).change();
+
+        //var $form = $('#form');
+        $form.attr('target', 'hubspot-iframe');
+		$('input[required=required],select[required=required],textarea[required=required]').each(function() {
+		$(this).before( '<span class="asterisk">*</span>' );
+		});
+    $('#hubspot-iframe').load(function(){
+    	if($('#hubspot-iframe').attr('src')!='') {
+        $('#tryme-container').fadeOut();
+            $('#thankyou-container').fadeIn();
+       	$('#tryme-form #form form')[0].reset();
+	       }
+           });
+        $('#thankyou-container').css('display','none');
+/* 	        $('form').validate({
+            errorPlacement: function(error, element) {},
+            submitHandler: function(form, e) {
+                e.preventDefault();
+				alert("Hello! I am an alert box!!");
+                   // do whatever you want...
+
+                   // ...and submit the form whenever you want
+                   $('form').submit();
+				   $('input:submit').attr("disabled","disabled");
+            }
+        }); */
+	$('.getafreetrialsubmit').on('click', function() {
+	 ga('send', 'event', 'Contact forms', 'Get Free Trial', 'Send request button');
+   try{
+        __adroll.record_user({"adroll_segments": "89df081f"});
+        console.info('recorded to adroll');
+    } catch(err) {}
+	 //$('input:submit').attr("value", 'Submitting...');
+	 //$('input:submit').css("background-color","#ADADAD");
+	});
+      }
+  });
+});
+</script>
+
+</div>
+<div id="schedule">
+<script>
+  hbspt.forms.create({
+    portalId: '146169',
+    formId: '5827474e-9504-4221-9b43-943dec2160dc',
+	target:'#schedule',
+    submitButtonClass: 'trymesubmit hs-button primary large liveschedulesubmit',
+      onFormReady: function($form) {
+        $form.attr('target', 'hubspot-iframe');
+		jQuery('#schedule input[name="pick_a_date_range"]').attr('min', '2015-07-16');
+	$('#schedule input[required=required],#schedule select[required=required],#schedule textarea[required=required]').each(function() {
+	$(this).before( '<span class="asterisk">*</span>' );
+
+	});
+	jQuery('#schedule input[name="pick_a_date_range"]').attr('placeholder', 'From');
+	//jQuery('#schedule input[name="pick_a_date_range"]').attr('type', 'date');
+
+	jQuery('#schedule input[name="pick_a_date_range_to"]').attr('placeholder', 'To');
+	$('.liveschedulesubmit').on('click', function() {
+	  ga('send', 'event', 'Contact forms', 'Schedule Live Demo', 'Send request button');
+    try{
+        __adroll.record_user({"adroll_segments": "89df081f"})    
+    } catch(err) {}
+	});
+      },
+
+  });
+</script>
+</div>
+<div id="tryme-form-close"><img src="/wp-content/uploads/2015/01/close-icon.png"></div>
+</div>
+</div>
+<div id="thankyou-container">
+<div id="thankyou">
+<!-- <iframe name="hubspot-iframe" id="hubspot-iframe"></iframe> -->
+<iframe id="hubspot-iframe" name="hubspot-iframe"></iframe>
+<div id="thankyou-form-close"><img src="/wp-content/uploads/2015/01/close-icon.png"></div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+
+<script type="text/javascript">
+var $ = jQuery;
+    jQuery('#ttl-schedule a').click(function() {
+    ga('send', 'pageview', '/fp/contact-forms/try-me-forms/schedule-live-demo');
+    jQuery('#tryme-form #form').hide();
+    jQuery('#tryme-form #trymedesc').hide();
+    jQuery('#tryme-form #ttl-left').css('background', 'none');
+    jQuery('#tryme-form #ttl-right').css('background', 'url(/wp-content/uploads/2015/02/arwgrn.png) no-repeat center 80px');
+    jQuery('#tryme-form #ttl-schedule').css('background', '#7AC142');
+    jQuery('#tryme-form #ttl-grn').css('background', '#E2E4E5');
+    jQuery('#tryme-form #ttl-grn a').css('color', '#3c4251');
+    jQuery('#tryme-form #ttl-schedule a').css('color', '#ffffff');
+    jQuery('#tryme-form #schedule').fadeIn(500);
+    jQuery('#tryme-form #scheduledesc').fadeIn(500);
+    });
+
+    jQuery('#ttl-grn a').click(function() {
+    ga('send', 'pageview', '/fp/contact-forms/try-me-forms/Get Free Trial');
+    jQuery('#tryme-form #schedule').hide();
+    jQuery('#tryme-form #scheduledesc').hide();
+    jQuery('#tryme-form #ttl-right').css('background', 'none');
+    jQuery('#tryme-form #ttl-left').css('background', 'url(/wp-content/uploads/2015/02/arwgrn.png) no-repeat center 80px');
+    jQuery('#tryme-form #ttl-grn').css('background', '#7AC142');
+    jQuery('#tryme-form #ttl-grn a').css('color', '#ffffff');
+    jQuery('#tryme-form #ttl-schedule a').css('color', '#3c4251');
+    jQuery('#tryme-form #ttl-schedule').css('background', '#E2E4E5');
+    jQuery('#tryme-form #form').fadeIn(500);
+    jQuery('#tryme-form #trymedesc').fadeIn(500);
+    });
+
+    jQuery('.schedule_down').click(function() {
+    ga('send', 'event', 'Contact buttons', 'Schedule live', 'Home Page 6th Page');
+    $('#tryme-container').fadeIn();
+    jQuery('#tryme-form #form').hide();
+    jQuery('#tryme-form #trymedesc').hide();
+    jQuery('#tryme-form #ttl-left').css('background', 'none');
+    jQuery('#tryme-form #ttl-right').css('background', 'url(/wp-content/uploads/2015/02/arwgrn.png) no-repeat center 80px');
+    jQuery('#tryme-form #ttl-schedule').css('background', '#7AC142');
+    jQuery('#tryme-form #ttl-grn').css('background', '#E2E4E5');
+    jQuery('#tryme-form #ttl-grn a').css('color', '#3c4251');
+    jQuery('#tryme-form #ttl-schedule a').css('color', '#ffffff');
+    jQuery('#tryme-form #schedule').fadeIn(500);
+    jQuery('#tryme-form #scheduledesc').fadeIn(500);
+    });
+    jQuery('.trymebtn').click(function() {
+        ga('send', 'pageview', '/fp/contact-forms/try-me-forms/Get Free Trial');
+        // $('#tryme-container').fadeIn();
+    });
+    jQuery('#tryme-form-close').click(function() {
+        $('#tryme-container').fadeOut();
+    });
+    jQuery('#thankyou-form-close').click(function() {
+        $('#thankyou-container').fadeOut();
+        $('.hs_submit input').val('Submitted Successfully!');
+        $('.hs_submit input').attr("disabled", 'disabled');
+     });
+    jQuery(".header .sub-menu").hide();
+    jQuery(".header .current-menu-parent .sub-menu").show();
+    
+
+    // var winloc = window.location.href;
+    // var link = "/blog/";
+    // winloc = winloc.substring (winloc.lastIndexOf("/"));
+    // if (winloc != link) {
+    // if(window.location.href.indexOf("/blog/") > -1) {
+    if(!(window.location.href).endsWith('/blog/')){
+      var parentURL = '/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/';    
+      if(window.location.href == parentURL){
+        var parentURL = '/category/blog/application-security-trends/';
+        // console.log('posturl ' + parentURL);
+      }
+      // console.log('pageurl ' + parentURL);
+      var parentSub = $('ul#menu-main-menu .sub-menu a[href="' + parentURL + '"]');
+      // console.log(parentSub);
+      $(parentSub).parent().addClass('current-menu-item');
+      $(parentSub).parent().parent().parent().parent().addClass('current-menu-parent current-menu-ancestor');
+    }
+
+    // if(window.location.href$='resources/blog/'){
+    //   var parentSub = $('ul#menu-main-menu li a[href="' +parentURL+ '"]');
+    //   $(parentSub).prevAll().find('.sub-menu').css('display', 'block');
+    // }
+
+
+    jQuery(".header li.menu-item").hover(function () { // mouse enter
+        jQuery(this).find(".sub-menu").show(); // display child
+        // jQuery(this).find('.menu-div-sub').show();
+
+}, function(){ // mouse leave
+    if ( !jQuery(this).hasClass("current-menu-parent") ) {  // check if current page
+        jQuery( this ).find(".sub-menu" ).hide(); // hide if not current page
+        // jQuery(this).find('.menu-div-sub').hide();
+    }
+    else {
+      // jQuery( this ).find(".sub-menu" ).hide(); 
+      // var parentSub = $('ul#menu-main-menu .sub-menu a[href="' + parentURL + '"]');
+      $(parentSub).parent().parent().css('display', 'block');
+      // console.log(parentSub.parent().parent());
+      // $(parentSub).parent().addClass('current-menu-item');
+    }
+});
+$('#searchicon').click(function() {
+ if(jQuery("#search").css('display') === 'none') {
+jQuery("#searchicon").css({'background-image': 'url(/wp-content/themes/checkmarx/images/assets/close_purple_dbl.png)' });
+jQuery("#search").css('opacity', '1');
+jQuery("#search").fadeIn();
+jQuery("#query").focus();
+jQuery("#lang").hide(0);
+}
+else if (jQuery("#search").css('opacity') === '1') {
+jQuery("#searchicon").css({'background-image': 'url(/wp-content/themes/checkmarx/images/assets/search-green-icon.png)' });
+jQuery("#search").fadeOut();
+jQuery("#lang").show(0);
+}
+});
+$('#searchbtn').click(function() {
+if($('#query').val()!='') {
+$('#searchform').submit();
+}
+});
+$('#query').keypress(function (e) {
+  if (e.which == 13) {
+if($('#query').val()!='') {
+$('#searchform').submit();
+} else {
+e.preventDefault();
+    return false;
+}
+  }
+});
+$('#lang #menu-languages').hover(function() {
+$('#lang #menu-languages li').show();
+$('#lang #menu-languages li').animate({ opacity: "1" }, 500);
+$('#lang #menu-languages').css({'box-shadow': '0px 4px 3px -3px #7f8081'});
+$('#lang #menu-languages .us a').css({'border-bottom': '#3C4251 solid 10px'});
+}, function() {
+$('#lang #menu-languages .fr').animate({ opacity: "0" }, 500);
+$('#lang #menu-languages .de').animate({ opacity: "0" }, 500);
+$('#lang #menu-languages .jp').animate({ opacity: "0" }, 500);
+$('#lang #menu-languages .de').hide();
+$('#lang #menu-languages .fr').hide();
+$('#lang #menu-languages .jp').hide();
+$('#lang #menu-languages').css({'box-shadow': 'none'});
+$('#lang #menu-languages .us a').css({'border-bottom': '#fff solid 10px'});
+  }
+);
+
+$( document ).ready(function() {
+    if($("#blog").length != 0){
+         $('#pageonebtnFooter').css("display","none");
+    }
+    $('.ui-tabs-anchor').on('click', function() {
+       var widthScreen=$( window ).width();
+       var heigthCareers=$('#container').height()+300;
+       if(widthScreen<=1023) { /*
+            $(this).hide();
+            var idcontent=$(this).attr('href');
+            var content=$(idcontent).html();
+            $('#career_text_mobile').fadeIn();
+            $('#content_career_text').html(content);
+            $('#career_text_mobile').css("background","none repeat scroll 0 0 #f0f2f3");
+            $('#career_text_mobile').css("width","100%");
+            $('#career_text_mobile').css("position","absolute");
+            $('#career_text_mobile').css("top","90px");
+            $('#career_text_mobile').css("padding","25px");
+            $('.career-text').css("display","block");
+	    $('.career-text').css("visibility","hidden");
+	    $(idcontent + ' .sharecareer').css("display","block");
+            window.scrollTo(0, 0);
+            var heigthText=$('#content_career_text').height()+300;
+            var applynowpos=$('#content_career_text .applynow').offset();
+            $(idcontent + ' .sharecareer').css("top",(applynowpos.top-400));
+            if(heigthCareers>heigthText){
+                $('#career_text_mobile').css("height",heigthCareers);
+            }
+            else{
+                $('#career_text_mobile').css("height",heigthCareers);
+                var topFooter=((heigthText+50)-(heigthCareers))+180;
+                $('#footer').css("top",topFooter);
+            }
+            location.hash = '#';
+            */
+            $('.career-text .ui-tabs-panel').hide();
+	    var idcontent=$(this).attr('href');
+	    $(idcontent).show();
+	    cats=$(idcontent).parent().parent();
+	    $('#cats-11').hide();
+	    $('#cats-13').hide();
+	    $('#cats-14').hide();
+	    $(cats).show();
+	    $('#career-top').hide();
+	    $('#career_text_mobile_close').show();
+	     $('.career-text').fadeIn();
+            window.scrollTo(0, 0);
+                        }
+    });
+    $('#career_text_mobile_close').on('click', function() {
+         $('#career_text_mobile').fadeOut();
+         $('#footer').css("top","0");
+         $('.ui-tabs-anchor').show();
+         $('.career-text').fadeOut();
+	    $('.career-text .ui-tabs-panel').hide();
+	    $('#career_text_mobile_close').hide();
+	    $('#cats-11, #cats-13, #cats-14').show();
+	    $('#career-top').show();
+    });
+
+    // sblue=$('.sast-blue').position().left+3;
+    // $('.sast-back').css('width',sblue + 'px');
+    // // rblue=$('.rasp-blue').position().left+3;
+    // // $('.rasp-back').css('width',rblue + 'px');
+    // gblue=$('.goh-blue').position().left+3;
+    // $('.goh-back').css('width',gblue + 'px');
+    $('#thankyou-container').css('display','none');
+    $('#thankyou-container').hide();
+});
+
+
+jQuery(window).resize(function() {
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+$('#thankyou-container').css('display','none');
+$('#thankyou-container').hide();
+});
+
+$( window ).load(function() {
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+$('#thankyou-container').css('display','none');
+$('#thankyou-container').hide();
+});
+
+$('.cx-back a').click(function() {
+$('.header .product .menu-div-sub .sub-menu li').attr('style','position: relative !important');
+$('.header .sast .menu-div-sub').attr('style','display:none !important');
+$('.header .rasp .menu-div-sub').attr('style','display:none !important');
+$('.header .goh .menu-div-sub').attr('style','display:none !important');
+});
+
+$('.product > a').click(function() {
+$('.header .product .menu-div-sub .sub-menu li').attr('style','position: relative !important');
+$('.header .sast .menu-div-sub').attr('style','display:none !important');
+$('.header .rasp .menu-div-sub').attr('style','display:none !important');
+$('.header .goh .menu-div-sub').attr('style','display:none !important');
+});
+
+$('.menu-main-menu-container .toplevel').hover(
+function() {
+$('.menu-main-menu-container .toplevel').css('border','none');
+$(this).css('border-bottom','#3C4252 10px solid');
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+}, function() {
+$('.menu-main-menu-container .toplevel').css('border','none');
+$( ".menu-main-menu-container .toplevel" ).each(function( index ) {
+if($(this).hasClass('current-menu-parent') || $(this).hasClass('current-menu-item')) {
+$(this).css('border-bottom','#3C4252 10px solid');
+}
+});
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+}
+);
+
+$('#logo').hover(function() {
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+});
+
+$('.menu-main-menu-container').hover(function() {
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+}, function() {
+// sblue=$('.sast-blue').position().left+3;
+// $('.sast-back').css('width',sblue + 'px');
+// // rblue=$('.rasp-blue').position().left+3;
+// // $('.rasp-back').css('width',rblue + 'px');
+// gblue=$('.goh-blue').position().left+3;
+// $('.goh-back').css('width',gblue + 'px');
+});
+</script>
+<!-- Added by Responsive Menu Plugin for WordPress - http://responsive.menu -->
+
+<div id="responsive-menu" >
+
+    <div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="responsive-menu"><li class="product toplevel menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4"><a href="/technology/static-code-analysis-sca/">PRODUCTS</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="/technology/static-code-analysis-sca/">Static Code Analysis (SAST)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16884"><a href="/Open-Source-Analysis">Open Source Analysis</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19540"><a href="/appsec-coach/">AppSec Coach</a></li>
+</ul>
+</li>
+<li class="solutions toplevel menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20703"><a href="/solutions/">SOLUTIONS</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20704"><a href="/solutions/#platform">By Platform</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20705"><a href="/solutions/#implementation">By Implementation</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20706"><a href="/solutions/#compliance">By Compliance</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20707"><a href="/solutions/#appseceducation">AppSec Education</a></li>
+</ul>
+</li>
+<li class="resources toplevel menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20324"><a href="/resources/">RESOURCES</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20325"><a href="/resources/#knowledge">Knowledge</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20326"><a href="/resources/#appsec">AppSec University</a></li>
+</ul>
+</li>
+<li class="blog toplevel menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-has-children menu-item-11607"><a href="/resources/blog/">BLOG</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15560"><a href="/category/blog/application-security-trends/">Application Security Trends</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15561"><a href="/category/blog/appsec-tips-best-practices/">AppSec Tips &#038; Best Practices</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15562"><a href="/category/blog/mobile-security/">Mobile Security</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15563"><a href="/category/blog/resources-tools/">Resources &#038; Tools</a></li>
+</ul>
+</li>
+<li class="toplevel menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-11656"><a href="/about-us/">COMPANY</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11657"><a href="/about-us/">About Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11659"><a href="/company/management/">Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11658"><a href="/company/board/">Board of Directors</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11660"><a href="/company/investors/">Investors</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21055"><a href="/partners/">Partners</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11662"><a href="/company/events/">Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11663"><a href="/company/company-news/">In the News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11661"><a href="/company/awards/">Awards</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11664"><a href="/company/careers/">Careers</a></li>
+</ul>
+</li>
+<li class="toplevel contactus menu-item menu-item-type-post_type menu-item-object-page menu-item-11655"><a href="/contact-us/">CONTACT US</a></li>
+</ul></div>    
+</div><!-- Added by Responsive Menu Plugin for WordPress - http://responsive.menu -->
+
+
+
+<div id="click-menu" 
+     class=" 
+     overlay"
+     role="button" 
+     aria-label="Responsive Menu Button"
+     >
+
+
+
+
+    <div class="threeLines " id="RM3Lines">       
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+
+
+</div>
+
+
+
+<script type='text/javascript' src='/wp-content/themes/checkmarx/assets/js/affix.min.js?ver=1.1.0'></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"httpwwwcheckmarxcomresourcesblog"};
+/* ]]> */
+</script>
+
+<!-- Begin Twitter tracking. -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+twttr.conversion.trackPid('l5wj8', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5wj8&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5wj8&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
+<!-- END Twitter Tracking. -->
+<!-- Begin Re-targeting Takipi. -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '397525677091943']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=397525677091943&amp;ev=PixelInitialized" /></noscript>
+<!-- End Re-targeting Takipi. -->
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 990653356;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/990653356/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- End Google Code for Remarketing Tag -->
+<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/146169.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<!-- Start of GCLID code -->
+<script type="text/javascript">
+function setCookie(name, value, days){
+    var date = new Date();
+    date.setTime(date.getTime() + (days*24*60*60*1000));
+    var expires = "; expires=" + date.toGMTString();
+    document.cookie = name + "=" + value + expires + ";path=/;domain=checkmarx.com";
+}
+function getParam(p){
+    var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+var gclid = getParam('gclid');
+if(gclid){
+    var gclsrc = getParam('gclsrc');
+    if(!gclsrc || gclsrc.indexOf('aw') !== -1){
+        setCookie('gclid', gclid, 90);
+    }
+}
+</script>
+
+<script>
+function readCookie(name) {
+var n = name + "=";
+var cookie = document.cookie.split(';');
+for(var i=0;i < cookie.length;i++) {
+    var c = cookie[i];
+    while (c.charAt(0)==' '){c = c.substring(1,c.length);}
+    if (c.indexOf(n) == 0){return c.substring(n.length,c.length);}
+}
+return null;
+}
+</script>
+<!-- End of GCLID code -->
+
+<!-- Begin AdRoll / Sudarshan / Try Me integration / 25Feb -->
+<script type="text/javascript">
+  var $ = jQuery;
+  $(document).ready(function(){
+    $('#topmenu-try-me, #pageonebtn1').on('click', function(){
+      try{
+        __adroll.record_user({"adroll_segments": "ce23a249"})    
+    } catch(err) {}
+    });
+  });
+</script>
+<!-- End AdRoll / Sudarshan / Try Me integration / 25Feb -->
+<!-- New site custom JS -->
+<script type="text/javascript">
+var $ = jQuery;
+$(document).on({
+    mouseenter: function () {
+      $('li.current-menu-ancestor').addClass('siblinghover');
+    },
+    mouseleave: function () {
+      $('li.current-menu-ancestor').removeClass('siblinghover');
+    }
+}, "#menu-main-menu li.toplevel"); //pass the element as an argument to .on
+
+$(document).ready(function(){
+  // $('.menu-footer-container li#menu-item-45 a').attr('target', '_blank');
+  // $('ul#menu-main-menu li.toplevel').each(function(){
+  //   if(!$(this).find('.menu-div-sub ul.sub-menu').is(':visible')){
+  //     $(this).find('.menu-div-sub').css('display', 'none');
+  //   }
+  //   else{
+  //     $(this).find('.menu-div-sub').css('display', 'block');
+  //   }
+  // });
+});
+</script>
+
+<script type="text/javascript">
+var $ = jQuery;
+jQuery(document).ready(function(){
+// if(!(window.location.href).endsWith('/blog/')){
+  var parentURL = '/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/';
+  // console.log(parentURL);
+  var parentSub = $('ul#menu-main-menu .sub-menu a[href="' + parentURL + '"]');
+  $(parentSub).parent().parent().css('display', 'block');
+  // console.log(parentSub.parent().parent());
+  $(parentSub).parent().addClass('current-menu-item');
+  // $(parentSub).parent().mouseenter().mouseleave();
+});
+
+
+// }
+jQuery(document).ready(function(){
+
+/* <![CDATA[ */
+( function( $ ) {
+   $( 'a[href="#"]' ).click( function(e) {
+      e.preventDefault();
+   } );
+} )( jQuery );
+/* ]]> */
+
+$('#menu-footer li#menu-item-42 a').attr('target', '_blank');
+
+
+
+  // $('ul#menu-main-menu').mouseenter().mouseleave();
+  // if( (window.location.href).endsWith('/blog/') ){
+  // // console.log('blog');
+  // // var parentLink = '/category/blog/application-security-trends/';
+  // // var parentSubLink = $('ul#menu-main-menu li a[href="' + parentURL + '"]');
+  // // $(parentSubLink).closest('li').find('.sub-menu').css('display', 'block');
+  // // console.log(parentSubLink);
+  // jQuery('li#menu-item-11607 .menu-div-sub ul.sub-menu').css('display', 'block');
+});
+
+</script>
+<script type="text/javascript">
+jQuery(window).load(function(){
+  $('ul#menu-main-menu li.current-menu-parent.current-menu-ancestor').mouseover().mouseleave();
+});
+</script>
+
+
+    <!-- <a href="/2017/02/15/3-need-know-security-terms-2017-devops-shifting-left-ransomware/" >
+        3 Need-to-Know Security Terms for 2017: DevOps, &#8220;Shifting Left&#8221; and Ransomware    </a> -->
+<script type="text/javascript">
+  // $(document).ready(function(){
+  //   setInterval(function(){
+  //     $('.LPMslider').hide();  
+  //   }, 1000);
+  // });
+</script>
+
+<!-- End New site custom JS --><script async type="text/javascript" src="https://www.checkmarx.com/wp-content/cache/minify/d0d73.default.include-footer.51148d.js"></script>
+</body>
+</div>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 4313/4329 objects using disk
+Page Caching using disk: enhanced
+Minified using disk
+
+ Served from: checkmarx.com @ 2017-02-18 22:55:50 by W3 Total Cache -->
