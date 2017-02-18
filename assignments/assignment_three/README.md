@@ -27,7 +27,7 @@ from the command line:
 
 &nbsp;
 
-"www.cnn.com" is just an example output file name, keep in mind
+`www.cnn.com` is just an example output file name, keep in mind
 that the shell will not like some of the characters that can occur
 in URIs (e.g., `?`, `&`).  You might want to hash the URIs,
 note the `-n` in echo -- this removes
@@ -43,12 +43,10 @@ the trailing newline.
 Now use a tool to remove (most) of the HTML markup.  lynx will
 do a fair job with `lynx -dump -force_html www.cnn.com > www.cnn.com.processed`.
 Use another (better) tool if you know of one.  
-
 A "better" approach is to use BeautifulSoup, see
 [this documentation](http://stackoverflow.com/questions/1936466/beautifulsoup-grab-visible-webpage-text)
 for some hints on how to start. Note that none of these methods 
 are going to be perfect.
-
 Keep both files for each URI (i.e., raw HTML and processed). 
 Upload both sets of files to your github account.
 
@@ -110,12 +108,16 @@ such as:
 *   http://www.seocentro.com/tools/search-engines/pagerank.html
 *   http://www.checkpagerank.net/
 
+&nbsp;
+
 If you use these tools, you'll have to do so by hand (they have
 anti-bot captchas), but there are only 10 to do.  Normalize the
 values they give you to be from 0 to 1.0.  Use the same tool on all
 10 (again, consistency is more important than accuracy).  Also
 note that these tools typically report on the domain rather than
 the page, so it's not entirely accurate.  
+
+&nbsp;
 
 Create a table similar to Table 1:
 
