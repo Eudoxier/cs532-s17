@@ -9,7 +9,11 @@
 &nbsp;
 ## Download the 1000 URIs from [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
 
-
+The `get_html.sh` script will download the HTML for all links in the
+file specified by the path passed to it. It uses `wget` with the
+default timeout settings (900 seconds) and saves them as the
+original link as a `sha1` hash, not the final redirect, in
+`data/raw_html/{sha1sum}.html`.
 
 &nbsp;
 # Assignment Description
