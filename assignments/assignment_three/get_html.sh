@@ -19,8 +19,10 @@ warning() {
 }
 
 fetch() {
-    while read line; do
-        wget -O data/raw_html/$line $line
+    while read uri; do
+        local hash=$(echo -n "$uri" | sha1sum | cut -d ' ' -f 1)
+        local hash+=".html"
+        wget -O data/raw_html/"$hash" "$uri"
         if [[ "$?" != 0 ]]; then
             echo >&2 '[*] Error downloading file'
             FAILURES=$(expr FAILURES + !)
