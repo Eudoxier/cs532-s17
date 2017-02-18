@@ -9,6 +9,7 @@ Due: 11:59pm February 23
 
 -----------------------------------------------------------------------
 
+&nbsp;
 ##  Download the 1000 URIs from assignment #2. 
 
 `curl`, `wget`, or the lynx browser are all good
@@ -51,6 +52,7 @@ are going to be perfect.
 Keep both files for each URI (i.e., raw HTML and processed). 
 Upload both sets of files to your github account.
 
+&nbsp;
 ## Choose a query term
 
 For example "shadow", which is not a stop word
@@ -97,6 +99,7 @@ Don't forget the log base 2 for IDF, and mind your significant
 digits!
 [See rounding and decimal places.](https://en.wikipedia.org/wiki/Significant_figures#Rounding_and_decimal_places)
 
+&nbsp;
 ##  Now rank the same 10 URIs from question #2
 
 This time by their PageRank.  Use any of the free PR estimaters on the web,
@@ -131,6 +134,7 @@ Briefly compare and contrast the rankings produced in questions 2 and 3.
 
 
 
+&nbsp;
 ##  Compute the Kendall Tau_b score for both lists
 
 Question 4 is for 3 points extra credit.
@@ -141,18 +145,21 @@ Report both the Tau value and the "p" value. See:
 *   http://en.wikipedia.org/wiki/Kendall_tau_rank_correlation_coefficient#Tau-b
 *   http://en.wikipedia.org/wiki/Correlation_and_dependence
 
+&nbsp;
 ##  Compute a ranking for the 10 URIs from Q2 using Alexa information
 
 Question 5 is for 3 points extra credit.
 See week 4 slides.  Compute the correlation (as per Q4) for all
 pairs of combinations for TFIDF, PR, and Alexa.
 
+&nbsp;
 ##  Give an in-depth analysis
 
 Question 6 is for 2 points extra credit.
 Complete with examples, graphs, and all other pertinent argumentation for 
 Kristen Stewart's (of "Twilight" fame) Erdos-Bacon number.
 
+&nbsp;
 ##  Build a simple inverted file for all the words from your 1000 URIs
 
 Question 7 is for 2 points extra credit.
