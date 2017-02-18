@@ -28,7 +28,7 @@ Due: 11:59pm February 23
 -----------------------------------------------------------------------
 
 &nbsp;
-## Download the 1000 URIs from assignment #2. 
+## 1. Download the 1000 URIs from assignment #2. 
 
 `curl`, `wget`, or the lynx browser are all good
 candidate programs to use.  We want just the
@@ -60,7 +60,7 @@ the trailing newline.
 
 Now use a tool to remove (most) of the HTML markup.  lynx will
 do a fair job with `lynx -dump -force_html www.cnn.com > www.cnn.com.processed`.
-Use another (better) tool if you know of one.  
+Use another (better) tool if you know of one.
 A "better" approach is to use BeautifulSoup, see
 [this documentation](http://stackoverflow.com/questions/1936466/beautifulsoup-grab-visible-webpage-text)
 for some hints on how to start. Note that none of these methods 
@@ -69,7 +69,7 @@ Keep both files for each URI (i.e., raw HTML and processed).
 Upload both sets of files to your github account.
 
 &nbsp;
-## Choose a query term
+## 2. Choose a query term
 
 For example "shadow", which is not a stop word
 (see week 5 slides) and not HTML markup from step 1 (e.g., "http")
@@ -116,7 +116,7 @@ digits!
 [See rounding and decimal places.](https://en.wikipedia.org/wiki/Significant_figures#Rounding_and_decimal_places)
 
 &nbsp;
-##  Now rank the same 10 URIs from question #2
+##  3. Now rank the same 10 URIs from question #2
 
 This time by their PageRank.  Use any of the free PR estimaters on the web,
 such as:
@@ -155,9 +155,12 @@ Briefly compare and contrast the rankings produced in questions 2 and 3.
 
 
 &nbsp;
-##  Compute the Kendall Tau_b score for both lists
+## 4. Compute the Kendall Tau_b score for both lists
 
 Question 4 is for 3 points extra credit.
+
+&nbsp;
+
 Use "b" because there will likely be tie values in the rankings.
 Report both the Tau value and the "p" value. See: 
 
@@ -166,23 +169,31 @@ Report both the Tau value and the "p" value. See:
 *   http://en.wikipedia.org/wiki/Correlation_and_dependence
 
 &nbsp;
-##  Compute a ranking for the 10 URIs from Q2 using Alexa information
+## 5. Compute a ranking for the 10 URIs from Q2 using Alexa information
 
 Question 5 is for 3 points extra credit.
+
+&nbsp;
+
 See week 4 slides.  Compute the correlation (as per Q4) for all
 pairs of combinations for TFIDF, PR, and Alexa.
 
 &nbsp;
-##  Give an in-depth analysis
+## 6. Give an in-depth analysis
 
 Question 6 is for 2 points extra credit.
+
+&nbsp;
+
 Complete with examples, graphs, and all other pertinent argumentation for 
 Kristen Stewart's (of "Twilight" fame) Erdos-Bacon number.
 
 &nbsp;
-##  Build a simple inverted file for all the words from your 1000 URIs
+## 7. Build a simple inverted file for all the words from your 1000 URIs
 
 Question 7 is for 2 points extra credit.
+
+&nbsp;
 
 No positional information required, and in ASCII. Upload the entire
 file to github and discuss an interesting portion of the file in
