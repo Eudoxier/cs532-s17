@@ -15,6 +15,16 @@ default timeout settings (900 seconds) and saves them as the
 original link as a `sha1` hash, not the final redirect, in
 `data/raw_html/{sha1sum}.html`.
 
+`word_soup` strips all text from HTML files. Install requirements with
+`cat requirements.txt | xargs -n 1 -L 1 pip install` to install
+dependencies in the correct order. BeautifulSoup uses recursion
+to parse child elements,  some of the HTML files in `data/raw_html/`
+are large enough that the default recursion limit for Python must
+be increased, this can be done using the `-r` flag to pass a limit
+suitable for the machine running the program.
+
+
+
 &nbsp;
 # Assignment Description
 
