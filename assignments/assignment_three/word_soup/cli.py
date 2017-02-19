@@ -32,10 +32,19 @@ def main(args):
 
     args = parse_args(args)
 
+    
+    _logger.info("[*] Setting recursion limit to {}".format(args.rlimit))
+    sys.setrecursionlimit(args.rlimit)
+
+    if not isdir(args.output):
+        _logger.error("[*] Error: output directory {} not found".format(args.output))
+        print("[*] Error: output directory {} not found".format(args.output))
+        sys.exit(1)
+
     if args.infile is not None:
         path = args.infile
         if isfile(path):
-            sweeper(path, args.threads)
+            sweeper(path, args.threads, args.output)
         else:
             _logger.error("[*] Error: file {} not found".format(path))
             print("[*] Aborting: file {} not found.".format(path))
@@ -45,7 +54,7 @@ def main(args):
         path = args.directory
         if isdir(path):
             paths = [join(path, f) for f in listdir(path) if isfile(join(path, f))]
-            sweeper(paths, args.threads)
+            sweeper(paths, args.threads, args.output, args.directory)
         else:
             _logger.error("[*] Error: directory {} not found".format(path))
             print("[*] Aborting: directory {} not found.".format(path))
@@ -86,9 +95,19 @@ def parse_args(args):
         const=1,
         help="Number of threads to use",
         action='store'),
+    parser.add_argument(
+        '-r',
+        '--rlimit',
+        nargs='?',
+        type=int,
+        default=1000,
+        const=1000,
+        help="Set the recursion limit for Python",
+        action='store'),
     source.add_argument(
         '-d',
         '--directory',
+        nargs='?',
         type=str,
         default=None,
         help="Path to a directory with files to parse",
@@ -100,7 +119,13 @@ def parse_args(args):
         type=str,
         default=None,
         help="Path to a single file to parse",
+        action='store'),
+    parser.add_argument(
+        'output',
+        type=str,
+        help="Path to a directory to output data",
         action='store')
+
 
     return parser.parse_args(args)
 
