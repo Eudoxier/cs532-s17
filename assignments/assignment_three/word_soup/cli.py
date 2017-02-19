@@ -44,7 +44,7 @@ def main(args):
     elif args.directory is not None:
         path = args.directory
         if isdir(path):
-            paths = [f for f in listdir(path) if isfile(join(path, f))]
+            paths = [join(path, f) for f in listdir(path) if isfile(join(path, f))]
             sweeper(paths, args.threads)
         else:
             _logger.error("[*] Error: directory {} not found".format(path))
