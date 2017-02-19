@@ -1,0 +1,554 @@
+
+
+
+
+
+Navigation
+
+
+
+Graham Cluley
+Graham Cluley - computer security news, advice and opinion
+
+
+ 
+
+
+
+
+
+
+
+
+
+56,408
+14,158
+2,573
+15k
+
+
+
+
+ 
+
+
+
+Home
+MenuNews
+Newsletter
+Videos
+Podcasts
+Speaking
+Sponsor
+About
+
+About this website and Graham Cluley
+Awards
+Testimonials
+Contributors
+Contributor guidelines
+Recent media appearances
+Contact
+Games
+
+Jacaranda Jim
+
+Reviews of Jacaranda Jim
+
+
+Blox
+Humbug
+
+Reviews of Humbug
+
+
+Wibbling Wilf
+
+Reviews of Wibbling Wilf
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Return to Content
+
+This week's sponsor: Get trending info on hackers, exploits, and vulnerabilities for FREE with the Recorded Future Cyber Daily.
+
+
+
+
+
+
+
+
+
+SPONSOR
+
+
+Get FREE threat intelligence on hackers and exploits with the Recorded Future Cyber Daily
+
+Graham Cluley  | February 18, 2017 11:30 am   |  Filed under: Sponsor   
+
+Many thanks to the great folks at Recorded Future, who have sponsored my writing for the last week.   
+Recorded Future provides deep, detailed insight into emerging threats by automatically collecting, analyzing, and organizing billions of data points from the Web.
+And now, with its FREE Cyber Daily email all IT security professionals can access information about the top trending threat indicators - helping you use threat intelligence to help make better decisions quickly and easily.
+Which means that you will be able to benefit from a daily update of the following:
+
+Information Security Headlines: Top trending news stories.
+Top Targeted Industries: Companies targeted by cyber attacks, grouped by their industries.
+Top Hackers: Organizations and people recognized as hackers by Recorded Future.
+Top Exploited Vulnerabilities: Identified vulnerabilities with language indicating malcode activity. These language indicators range from security research ("reverse engineering," "proof of concept") to malicious exploitation ("exploited in the wild," "weaponized").
+Top Vulnerabilities: Identified vulnerabilities that generated significant amounts of event reporting, useful for general vulnerability management.
+
+Infosec professionals agree that the Cyber Daily is an essential tool:
+
+"I look forward to the Cyber Daily update email every morning to start my day. It's timely and exact, with a quick overview of emerging threats and vulnerabilities. For organizations looking to strengthen their security program with threat intelligence, Recorded Future’s Cyber Daily is the perfect first step that helps to prioritize security actions." - Tom Doyle, CIO at EBI Consulting.
+
+So, what are you waiting for?
+Sign up for the Cyber Daily today, and starting tomorrow you'll receive the top trending threat indicators.
+
+If you’re interested in sponsoring my site for a week, and reaching an IT-savvy audience that cares about computer security, you can find more information here.
+
+Read more...
+
+
+
+
+
+
+
+
+Graham Cluley named most entertaining security blog
+
+Graham Cluley  | February 17, 2017 9:39 am   |  Filed under: Awards   3 
+
+Graham Cluley Security News was awarded the title of "Most Entertaining Security blog" against some tough competition.  Thanks to everyone for your support!
+
+Read more...
+
+
+
+
+
+
+
+
+Smashing Security podcast #008: 'I'll give you my Android when you pry it from my cold, dead paws'
+
+Graham Cluley  | February 16, 2017 5:16 pm   |  Filed under: Android, Facebook, Malware, Podcast   1 
+
+Handbags at dawn for CrowdStrike and NSS Labs! Donald Trump's insecure Android phone! File-less malware - is that so new? And StalkScan makes it easier to reveal what Facebook users have been carelessly sharing...
+Check out our latest "Smashing Security" podcast.
+
+Read more...
+
+
+
+
+
+
+
+
+Magento stores targeted by self-healing malware that steals credit card details
+
+David Bisson  | February 16, 2017 3:34 pm   |  Filed under: Malware, Vulnerability   1 
+
+A newly discovered malware attack manages to restore itself in its ongoing campaign against Magento-powered online stores.
+David Bisson reports.
+
+Read more...
+
+
+
+
+
+
+
+
+
+More Yahoo users warned of malicious account access via forged cookies
+
+Graham Cluley  | February 16, 2017 10:18 am   |  Filed under: Data loss, Guest blog, Privacy, Yahoo   0 
+
+Some Yahoo users warned their accounts could be accessed by hackers - no password required.
+Read more in my article on the Tripwire State of Security blog.
+
+Read more...
+
+
+
+
+
+
+
+
+Cerber ransomware takes special care not to encrypt security product files
+
+David Bisson  | February 15, 2017 8:55 pm   |  Filed under: Malware, Ransomware   0 
+
+Cerber's developers want to infect your computer with ransomware.  But they also don't want to trigger a security alert that could interfere with their attempt to extort money from you.
+David Bisson reports.
+
+Read more...
+
+
+
+
+
+
+
+
+
+Proof-of-concept ransomware to poison the water supply
+
+Graham Cluley  | February 15, 2017 1:27 pm   |  Filed under: Guest blog, Malware, Ransomware, Vulnerability   0 
+
+Researchers have described how ransomware could potentially attack industrial control systems (ICS), and demonstratied how new malware threats might target core infrastructure, holding entire cities hostage.
+Read more in my article on the We Live Security blog.
+
+Read more...
+
+
+
+
+
+
+
+
+Sage 2.0 ransomware wants to be just like Cerber when it grows up
+
+David Bisson  | February 14, 2017 4:02 pm   |  Filed under: Malware, Ransomware   0 
+
+The Sage 2.0 ransomware has adopted several techniques employed by the notorious Cerber malware, so much so that you can't help but wonder if the two are somehow related.
+David Bisson reports.
+
+Read more...
+
+
+
+
+
+
+
+
+
+65% of IT professionals feel Shadow IT is compromising cloud security
+
+Graham Cluley  | February 14, 2017 3:38 pm   |  Filed under: Data loss, Guest blog, Privacy, Security threats   0 
+
+Read more in my article on the Bitdefender Business Insights blog.
+
+Read more...
+
+
+
+
+
+
+
+
+
+Google search results are falling foul of scammers spoofing well-known sites
+
+Graham Cluley  | February 14, 2017 1:00 pm   |  Filed under: Google, Guest blog   0 
+
+Online fraudsters managed to waltz past Google's vetting and successfully plant a rogue ad for the world's most searched for retail store: Amazon.
+Read my latest article on the Hot for Security blog.
+
+Read more...
+
+
+
+
+
+
+
+
+Senators raise concerns over Donald Trump's smartphone security
+
+Graham Cluley  | February 14, 2017 8:12 am   |  Filed under: Android, Security threats   3 
+
+Is Donald Trump really using an insecure Android phone?
+If it that was true, it would probably be the most widely-prized device on the internet for hackers - and top of the target list for intelligence agencies around the world.
+
+Read more...
+
+
+
+
+
+
+
+
+Smashing Security podcast: Using public Wi-Fi
+
+Graham Cluley  | February 13, 2017 9:20 pm   |  Filed under: Podcast, Privacy   1 
+
+Do you trust that Wi-Fi hotspot?  What steps can you take to better protect yourself when you connect to the net away from your office or home?
+The Smashing Security podcast team tackle the tricky problem of public Wi-Fi, and have some tips for you.  Listen in and tell us what you think.
+
+Read more...
+
+
+
+
+
+
+
+
+Lazarus mob possibly behind malware attacks against Polish banks
+
+David Bisson  | February 13, 2017 8:39 pm   |  Filed under: Malware   0 
+
+A hacking gang known as the Lazarus Group might be responsible for malware attacks that have targeted Polish banks and other financial organizations.
+David Bisson reports.
+
+Read more...
+
+
+
+
+
+
+
+
+How to better protect your WhatsApp account with two-step verification (2SV)
+
+David Bisson  | February 10, 2017 4:20 pm   |  Filed under: Facebook, Mobile, Privacy   2 
+
+If you're a WhatsApp user you should enable its new 2-step verification security feature.
+David Bisson explains why and how.
+
+Read more...
+
+
+
+
+
+
+
+
+
+Apple iCloud didn't wipe 'deleted' browser histories for over a year
+
+Graham Cluley  | February 10, 2017 2:42 pm   |  Filed under: Apple, Apple Safari, Guest blog, Privacy   0 
+
+Researchers discovered it was possible to extract users' Safari browsing history over a year after the user believed that they had deleted their browsing history.
+Read more in my article on the Hot for Security blog.
+
+Read more...
+
+
+
+
+
+
+
+
+Crossing border security? Here's how you protect your data
+
+Graham Cluley  | February 10, 2017 12:49 pm   |  Filed under: Encryption, Law & order, Mobile, Privacy, Social networks   6 
+
+iOS security expert Jonathan Zdziarski has put together a timely guide to help people protect their devices and privacy when they pass through border controls.
+
+Read more...
+
+
+
+
+1
+2
+…
+317
+Next →
+
+
+Stay informed with our free GCHQ newsletter
+
+Over 75,000 people follow Graham Cluley for news and advice about computer security and internet privacy.
+
+
+
+Latest videos
+
+
+
+
+
+
+
+
+
+	  			What happened to the Smashing Security videos?			
+
+	January 25, 2017 
+
+
+
+
+
+
+
+
+
+
+	  			One BILLION Yahoo users put at risk after hack - LIVE STREAM			
+
+	December 15, 2016 
+
+
+
+
+
+
+
+
+
+
+	  			Backups - the best defence against ransomware (and other risks) | Graham Cluley			
+
+	November 30, 2016 
+
+
+
+
+
+
+					Visit my YouTube channel for more videos				
+
+
+
+Public speaking 
+Hire Graham Cluley to speak at your event
+
+Popular recent postsHow to better protect your WhatsApp account with two-step verification (2SV)Cerber ransomware takes special care not to encrypt security product filesCrossing border security? Here's how you protect your dataSenators raise concerns over Donald Trump's smartphone securityMagento stores targeted by self-healing malware that steals credit card detailsSmashing Security podcast: Using public Wi-FiSage 2.0 ransomware wants to be just like Cerber when it grows upLazarus mob possibly behind malware attacks against Polish banksHow to create a robust data backup plan (and make sure it works)Smashing Security podcast #008: 'I'll give you my Android when you pry it from my cold, dead paws'Latest posts...   Login
+No account? Register now.
+This site is protected by Incapsula against DDoS attacks and other internet threats 
+
+
+
+
+
+CategoriesAdobe (126)
+Adobe Flash (74)
+Android (233)
+Apple (382)
+Apple Safari (33)
+Awards (18)
+BlackBerry (19)
+Botnet (102)
+Celebrities (123)
+Clickjacking (32)
+Data loss (849)
+Denial of Service (194)
+Encryption (170)
+Facebook (651)
+Fake anti-virus (36)
+Feed only (90)
+Firefox (38)
+Google (237)
+Google Chrome (28)
+Google Plus (4)
+Guest blog (3237)
+Hacked celebrities (66)
+Internet Explorer (55)
+iOS (225)
+Java (42)
+Law & order (934)
+LinkedIn (31)
+Link list (60)
+Linux (38)
+macOS (129)
+Malware (1841)
+Microsoft (252)
+Mobile (266)
+Naked Security (64)
+Nude Celebrities (44)
+Operating Systems (2)
+Oracle (27)
+PDF (40)
+Phishing (266)
+Podcast (51)
+Privacy (1218)
+Ransomware (131)
+Rogue applications (86)
+Security threats (131)
+Social networks (698)
+Spam (1120)
+Sponsor (65)
+Twitter (347)
+Uncategorized (2)
+Video (307)
+Vulnerability (1215)
+Web Browsers (69)
+Windows (175)
+Windows phone (9)
+Yahoo (63) 
+
+ContributorsGraham Cluley (4715)David Bisson (353)Bob Covello (26)Yasin Soliman (14)Philip Le Riche (5) More...
+Want to write for this site? If you have an article that you’d like to share on grahamcluley.com, check out our contributor guidelines.
+ 
+
+Follow  
+ 
+
+ 
+
+ 
+
+ 
+
+
+Contact Send a tip or story idea
+Hire Graham Cluley to speak at your event
+Sponsorship
+Complaints/Corrections
+Privacy Policy
+
+ 
+
+
+
+
+Copyright © 2017 Cluley Associates Limited. All Rights Reserved.
+Support us: BTC 1HsA79oAvzA2KghvoEDkVAbJFehhCNME2k
+ 
+
+About | Cookies | Terms & ConditionsPowered by WordPress | Hosted by Pressidium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

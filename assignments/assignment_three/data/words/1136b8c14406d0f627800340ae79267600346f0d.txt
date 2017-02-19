@@ -1,0 +1,417 @@
+
+
+
+skip navigation
+
+
+
+
+
+
+ toggle navigation    
+ 
+
+
+
+
+about
+issues 
+
+current issue
+past issues
+
+
+interviews
+events 
+
+event tracker
+event coverage
+
+
+podcasts 
+
+daily podcasts
+partners
+
+
+videos
+glossary
+sponsors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The CyberWire is a free, community-driven cyber security news service based in Baltimore.
+
+          Our mission is to provide concise and relevant daily briefings on the critical news happening across the global cyber security domain. In an industry overloaded with information, we also help individuals and organizations rapidly find the news and information that's important to them.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sustaining SponsorLearn how we stop cyberattacks at cylance.com
+
+
+
+
+
+
+
+
+Subscribe to the CyberWire Daily Email News Brief
+
+
+
+
+
+
+
+
+
+Welcome. Thanks for signing up!  Please check your email and confirm your email address.
+
+
+
+
+
+
+
+Email Address 
+Subscribe
+
+
+
+
+
+
+
+
+
+
+Subscribe to the CyberWire Podcasts via RSS, Stitcher, Google Play Music, or iTunes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Daily Briefing 2.17.17
+
+
+
+#RSAC2017, consolidation, international norms, and things seen on the floor. Fresh hacks and information operations in Eastern Europe. US IC notes.
+Today's Daily Briefing made possible by the generous support of E8 Security.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Daily Podcast 2.17.17
+
+
+
+
+International norms of cyber conflict. Fancy Bear's tradecraft (with a side of дезинформа́ция). RDPPatcher, Cerber, Ticketbleed, and Hermes. And the vibe around RSA 2017.
+Today's Daily Podcast made possible by the generous support of E8 Security, Cylance, and  Palo Alto Networks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Event Coverage
+
+
+
+
+RSA Conference 2017
+RSA has become the world's most important industry cyber security conference. Every year the information security industry gathers in San Francisco's Moscone Center to display their offerings, talk over trends, discover innovations, and take stock of the way the sector is moving. The CyberWire will be on-site for the event, talking with thought leaders and keeping our eyes and ears open. The conference kicks off with its annual Innovation Sandbox--a good place for unicorn spotting. We'll be updating these pages as the exposition proceeds. Read our coverage here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Featured Interview
+
+
+
+
+
+Gordon Corera
+BBC Journalist
+Gordon Corera is a journalist with the BBC, covering national security. His latest book is Cyber Spies – Surveillance, Hacking and Digital Espionage. In this extended version of an interview originally appearing on our November 23, 2016 podcast, Corera outlines the history of cybersecurity and the challenges we face looking ahead.  Listen here
+
+
+
+
+
+
+
+
+Featured Coverage
+
+
+
+
+Chesapeake Regional Tech Council Commercial Cyber Forum—Insider Threat
+November 15, 2016 Odenton, Maryland, USA
+The US National Industrial Security Program (NISPOM) mandates measures companies must take to secure classified information. On May 18, 2016, the Department of Defense issued Change 2 to NISPOM, significant because it requires contractors (defined as any "industrial, educational, commercial, or other entity that has been granted a facility security clearance (FCL) by a Cognizant Security Agency") to implement an Insider Threat Program no later than November 30, 2016...  Read more
+
+
+
+
+
+
+
+
+Special Edition
+
+
+
+
+2017 Cyber Security Forecast
+What are you expecting in 2017 when it comes to cyber security? There are sure to be attacks like we saw last year, ransomware and botnets, IoT vulnerabilities we just didn’t see coming. And what about all of those unfilled jobs? Can automation help fill the gap? Is the board room finally going to give cyber the attention it deserves? How will President Trump affect cyber policy?   Listen here.
+This Special Edition Podcast is made possible by the generous support of Cylance
+
+
+
+
+
+
+
+
+
+
+Security Industry Reactions to the Yahoo! Breach (Updated)
+
+
+
+
+
+
+Sponsored Events
+Are you holding an event? Feature it here! Contact us! 
+
+
+
+
+
+E8 book signing at RSA
+(Chronicle Books Metreon, San Francisco, CA, USA, February 15, 2017) 
+
+
+
+Hacking The Home
+(Fulton, MD, USA, February 26, 2017) 
+
+
+
+
+
+The Cyber Security Summit: Denver
+(Denver, Colorado, USA, March 1, 2017) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Support the CyberWire
+
+
+
+Organizations from across the globe are invited to support the CyberWire Daily News Brief (news sponsors and event sponsors), or Daily Podcast through programming sponsorship.
+For details on how to become a sponsor, please fill out the Contact Us form.
+
+
+
+
+
+
+
+Share
+
+
+If you like the CyberWire and think others would too, we'd appreciate it if you would spread the word! 
+        
+        
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The CyberWire is published by Pratt Street Media and its community partners. We invite the support of other organizations with a shared commitment to keeping this informative service free and available to organizations and individuals across the globe. 
+
+
+  
+
+
+  
+
+
+
+
+
+
+ For content questions, suggestions, and feedback, contact 
+editor@thecyberwire.com. 
+
+
+
+
+The CyberWire
+at Pratt Street Media, LLC
+          621 East Pratt Street, Suite 400 
+          Baltimore MD 21202
+          +1 (410) 779-6722 
+          
+
+
+
+ Find us 
+
+
+
+
+
+
+ Follow us on Twitter 
+
+
+ Like us on Facebook 
+
+
+ Connect on LinkedIn 
+
+
+ Privacy Policy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

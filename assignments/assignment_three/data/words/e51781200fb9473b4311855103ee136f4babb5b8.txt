@@ -1,0 +1,475 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                Home                            
+
+
+
+
+                                Services                                
+
+
+
+
+
+
+
+                                Risk Assessment                            
+
+
+
+
+                                Computer Forensics                            
+
+
+
+
+                                Incident Response                            
+
+
+
+
+                                Penetration Testing                            
+
+
+
+
+                                Security Awareness Training                            
+
+
+
+
+                                Policies and Governance                            
+
+
+
+
+                                Cloud Security                            
+
+
+
+
+
+
+
+
+                                Contact                                
+
+
+
+
+
+
+
+                                Interviews and Speakers                            
+
+
+
+
+                                Contact Us                            
+
+
+
+
+
+
+
+
+                                Blog                                
+
+
+
+
+
+
+
+                                Finding Vulnerabilities                            
+
+
+
+
+                                Cyber Security Tips                            
+
+
+
+
+                                Healthcare                            
+
+
+
+
+                                CISO Blog                            
+
+
+
+
+
+
+
+
+                                About                            
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Working Security					
+
+
+
+						CISO On Demand					
+
+
+
+						Risk Assessment					
+
+
+
+						Computer Forensics					
+
+
+
+						Cyber Incident Response					
+
+
+
+						Penetration Testing					
+
+
+
+
+Working Security protects Data and Computer Networks   
+
+"Working Security is located in St. Louis, Missouri and provides CISO, Computer Forensics, Penetration Testing and other Computer Security services for commercial, government, and non-profit clients."
+
+Meet Compliance and Assurance goals through: 
+
+CISO On-Demand services,
+Technology audit, risk assessment and mitigation services, 
+Security testing to meet business partner or key customer requirements,
+Pre-audit remediation for PCI, HIPAA, SSAE-16, FISMA, SOX.
+
+Proactively Test I/T Security Infrastructure and Contingency Plans:
+
+Our certified hackers find vulnerabilities before attackers do
+Scanning servers, workstations and mobile devices for security vulnerabilities,
+Performing penetration tests on public web servers, firewalls, and VPNs,
+Web and Mobile application testing including source code reviews,
+Social Engineering tests validate Security Awareness Training,
+Testing disaster recovery processes in table-top and live recovery exercises.
+
+Respond to Suspected and Confirmed Cyber Security Incidents where:
+
+Your website has been defaced,
+An outside party has embedded aggressive malware or a virus that keeps coming back,
+Network devices are exhibiting strange behavior and the source can't be found,
+Legally defensible forensic examinations or investigations are required,
+insiders are suspected of violating policies and evidence is required before taking action.
+
+We support your business, unbiased by a desire to sell hardware or software.   We help you balance I/T risk management with day-to-day I/T priorities, react to unplanned cyber-security events, and position yourself to minimize the potential impact of future incidents. Read More
+
+
+Chief Information Security Officers On Demand
+
+
+"Cyber security resources continue to be in high demand in the U.S., with Chief Information Security Officer (CISO) and engineering positions left vacant.   Smaller firms with only part-time information security needs have an even tougher time finding experienced resources that fit their culture."
+
+Working Security CISO On-Demand Services allow you to respond to cyber security, audit/compliance and incident response needs now.   If your needs are less than full time or you are searching for a permanent hire, our services keep your projects and operations moving.
+Delivered at your offices or remotely, our services are tailored to fit your needs and complement the skills you already have in-house.   
+We support corporate boards, executives, and owners, as well as CIOs and CTOs who need an experienced strategic resource on specific projects.   Our CISOs have deep business backgrounds to support strategic planning as well as the technical knowledge required to work directly with I/T leadership on implementation strategies.
+Our CISOs: 
+
+Support your technology project teams to manage security risks;
+Work with regulators and partners to complete Compliance and Certification processes;
+Respond to questionnaires from Business Associates, Partners and Vendors;
+Train your staff and business partners to minimize risk to the business;
+Implement and deliver Incident Response and Risk Management services, and 
+Develop security operations capabilities for your existing Helpdesk or NOC
+
+  Read More
+
+
+Identify and Protect what's Important
+
+"Risk assessment is the foundation of Information Security.  As the first step in almost every information security compliance and regulatory standard, organization must not ignore this vital step."    
+
+Identifying information assets and the real threats to those assets allows you to make responsible decisions about protecting them.   Without this foundation, you risk spending too much on the wrong solutions to protect the wrong assets.   When you get it right, you demonstrate responsible care in protecting the information of your customers and your business.Risk assessment isn't a marketing give-away and we don't pad our assessments with hardware and software recommendations we hope to sell. Working Security conducts risk assessments using National Institute of Standards and Technology (NIST) guidelines consistent with the complexity of your business and in compliance with industry standards like HIPAA.  With a Working Security Risk Assessment, you'll be able to make deliberate and prioritized changes to your computing policies and infrastructure that demonstrate due diligence in protecting information.  We provide vendor neutral and unbiased assessments of your technology and how it mitigates business risk.Contact a Security Advisor today to start your Risk Assessment. 
+ Read More
+
+
+
+Computer Forensics and Data Recovery Services
+Working Security performs forensically sound acquisitions of machine images for use in state and federal cases.   We perform forensic analysis of Microsoft Windows, Apple OS X, Linux, Apple iOS, Android and other mobile devices.   Our formal reports are suitable for litigation, are supported by expert witness testimony and deposition support.   We recover data and document timelines on computer use.
+Whether your goal is just to recover access to your system or pursue legal actions, we can help.
+Our GIAC certified staff meet standards required by the U.S. Department of Defense (DoDD 8570) under the Computer Network Defense Service Provider (CNDSP) Incident Responder program.Our methods ensure the recovery of data when possible, the preservation of evidence and proper chain of custody including generation of Checksums and Hashes.    
+Services include:
+
+Capture Evidence from Phones, Tables, PCs Servers, USB
+Computer, Storage, Cloud Forensics
+Court Admissible Forensic Timelines with Checksums and Hashes
+Data Privacy Investigations Data Recovery / Deleted File Recovery
+e-Discovery and Litigation Support
+Expert witness testimony
+Intellectual Property Theft Investigations
+Network Intrusion Investigation
+Phone and Tablet Forensics
+Privacy Breach Investigations
+Risk Assessments and Audit
+Trade Secret Theft Investigations
+Unlock Tablets, Smart Phones, Servers, and Network Devices
+Virus and Malware Removal and Analysis
+
+Contact a Forensic Expert today! 
+ Read More
+
+
+
+Computer Emergency Response Team24/7 CERT866.940.6373Contact a Security Advisor today!
+You've been hacked?   Take action, stop the damage, and protect the evidence. 
+Botnets, advanced persistent threats, Cryptolocker and other malware impact work today and put your business at long term risk.   Rogue employees can abuse trust.
+When you lose mobile devices, viruses and malware take control of your systems, or someone steals protected information, an immediate and thorough response minimizes the damage to your company. 
+Working Security Incident Response provides the expertise and information you need to recover quickly.   Our GIAC certified staff meet standards required by the U.S. Department of Defense (DoDD 8570) under Computer Network Defense Service Provider (CNDSP) Incident Responder program.
+We isolate the source of intrusions, implement controls to block hostile activity and use sound forensic techniques to recover lost data, stop future intrusions and ensure you have the information available to pursue legal remedies.
+Services include:
+
+Emergency Incident Response
+Forensic Investigation
+Data Recovery
+Legal Support and Expert Witness Services
+
+ 
+ Read More
+
+
+
+Testing proves you Secure Important Data   
+
+"You need to know that your investment in technology is protecting you from data losses and public breaches."  
+
+Business partners, clients, and regulators require that you regularly test your websites, networks, and devices for known vulnerabilities and misconfigurations.    You test to ensure I/T service providers are diligent, to prioritize future upgrades, and for simple peace of mind.   If you don't find the vulnerabilities in your websites and networks, outsiders will. 
+Working Security Testing Services include:
+
+Scanning your networks, computers, and websites for vulnerabilities
+Evaluating your wireless networks for insecure configurations
+Penetration testing critical application and devices
+Validating staff awareness through Social Engineering techniques
+Delivering a risk prioritized plan to address vulnerabilities in the right order
+Working with your teams to close issues and document success
+
+Working Security delivers vulnerability reports, ethical hacking services, and penetration tests.   We provide testing services on-site at your business and remotely by virtual private network (VPN) connection.   All test services come with detailed technical results, prioritized to allow immediate mitigation of identified weaknesses.   Our reports and matching action plans allow you to demonstrate a responsible standard of care for the data you hold for partners, clients, and customers.
+Contact a Security Advisor today to start your test. 
+ Read More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						What's my Data Worth?					
+
+
+
+						Today's Data Breach					
+
+
+
+						Risk Assessment					
+
+
+
+						Is I/T swamped?					
+
+
+
+
+
+ 
+What’s my Data Worth?
+The Ponemon Institute reports that the cost of a single stolen record is over $200 to respond and recover. Fines related to HIPAA violations range from $100 per record to $50,000 per record for repeat offenders.
+But how much is an individual record worth to the cyber criminal? While the value changes over time and depends on the quality of the personal information they steal, medical records lead with an estimated value of between $10 and $50 per record. Credit cards by comparison are worth only $1 per record.
+
+Medical Records $50 per record
+Credit Cards $1 per record
+
+Even with these returns in the thousands of dollars, the theft of a few thousand records is well worth worth it to criminals. The costs to organizations are significantly larger. 
+A small business with a few thousand records will spend tens of thousands of dollars just in the initial response to a breach and suffer effects long after.
+ 
+Read More
+
+
+Don't be the Next Headline
+If you’ve ever received a notice from your bank, broker, or health care provider that your information “may have been accessed and they are changing your account number or updating your password”, you know the feeling shared by millions of Americans each year. 
+If you’ve ever had to write that letter, you know the disruption, turmoil and financial hardship it can create in an organization. Our goal is to help your organization avoid that experience.
+Organizations manage a combination of trade secrets, intellectual property, and private information.   
+Loss of confidential data typically results in:   
+
+Regulatory fines 
+Remediation costs - investigation, credit monitoring, legal fees
+Customer attrition and Revenue loss
+Loss of goodwill and reputation
+Increase future selling costs
+
+Working Security is an independent provider of information security risk management, compliance, and governance services. We help clients secure cloud, mobile, office and industrial systems with a balance between financial responsibility and rational security. Read More
+
+
+Complete your Risk Assessment
+HIPAA, PCI, and other commercial and government regulations mandate a risk analysis as an early step in the process of securing electronic data.
+The National Institute of Standards and Technology provides multiple documents describing recommended approaches to risk assessment. Depending on your industry or regulatory requirements, adherence to these standards may be mandatory or recommended.
+In any case, this crucial step allows a business to prioritize risks and make sound economic decisions about mitigating those risks. Unfortunately, many of these standards are lengthy and full of technical terms which even a proactive business will find challenging to understand and assess. 
+Read More
+
+
+
+ 
+Supporting I/T with Information Security
+Your information technology team is there for you day in and day out. They keep systems running and occasionally perform miracles to help you meet deadlines. When you ask them if your systems are secure, they give you the best answer they can, "Yes, we're doing our job."
+The risk businesses face is that I/T isn't in the right position to assess the security of systems they implement. Driven by operational deadlines and business requirements for functionality, they are typically forced to expedite work and accept risks in order to meet tactical goals.
+The most effective step in securing your electronic data is to assign a qualified security officer to work with your I/T support team. A security officer can objectively assess the risks in your environment without the conflicts associated with urgent operational day-to-day tasks.
+Working Security works side by side with your I/T organization to identify risks, mitigation strategies, and ensure you're getting the best security from the investments you've already made.
+Our approach ensures:
+
+I/T security exposures are tied to business impact
+Priorities are assigned in line with business needs
+Progress is monitored and reported
+
+ 
+  Read More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working Security, Inc.1100 Corporate Square Dr.Suite 216Saint Louis, MO 63132866-940-6373
+
+
+
+
+
+
+
+PRIVACY POLICY
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Top
+
+
+
+
+
+
+
+
+
+

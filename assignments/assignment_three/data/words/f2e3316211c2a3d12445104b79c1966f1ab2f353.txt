@@ -1,0 +1,37 @@
+
+
+
+
+
+      Mainland China service availability
+    
+
+      This page has been replaced by a more general world wide transparency report. Using it, you
+      can find not only traffic disruptions but also the volume of government queries for some
+      countries.
+    
+
+      本页面已经被Google通用的全球透明度报告所替代。通过这个报告，您不仅可以发现服务被阻断的信息，而且还有一些国家政府向Google查询的次数。
+    
+
+      The China specific portion equivalent to this report page is here. It charts query volume for
+      various Google properties over time. The new report shows each region's fraction of world
+      wide volume scaled such that 100% is the highest ever seen from that region. Service
+      disruptions will show up as dips in the graphs.
+    
+
+      报告中关于中国的部分在这里。图中显示了谷歌各种服务来自中国的访问数量。这个新报告显示了世界各个地区的访问数量相对于其峰值时的百分比。服务中断在图中会表现为相应数值的急剧下降。
+    
+
+      This page will redirect to the new site in 60 seconds.
+    
+
+      在60秒后，本页面将自动重定向到该新的报告页面。
+    
+
+      © Google · Google Home · Privacy · About Google · Support
+
+        Last updated: Sun Sep 19 08:35:16 PDT 2010 1284910516
+
+
+

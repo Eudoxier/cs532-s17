@@ -1,0 +1,548 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+Home
+
+
+About Me
+
+
+Contact
+
+
+Imprint
+
+
+
+
+
+
+
+
+
+
+
+
+                    Project automation & dependency management for TYPO3.CMS projects
+                
+
+
+
+
+                August 11th, 2014
+             •
+
+            comments
+
+
+
+
+
+
+                                typo3
+                            
+
+                                cms
+                            
+
+                                project automation
+                            
+
+                                deployment
+                            
+
+                                build process
+                            
+
+
+
+
+
+
+
+
+After some years developing web application projects with TYPO3.CMS I‘d like to share and discuss my thoughts about project deployment, building and dependency management with the current LTS version 6.2+ with a broader audience.
+
+
+
+
+read more »
+
+
+
+
+
+
+
+
+                    Testing HTML rendering for a reStructuredText TYPO3 extension documentation
+                
+
+
+
+
+                January 19th, 2014
+             •
+
+            comments
+
+
+
+
+
+
+                                typo3
+                            
+
+                                sphinx
+                            
+
+                                restructuredtext
+                            
+
+                                rest
+                            
+
+                                documentation
+                            
+
+
+
+
+
+
+
+
+This is my approach to test a reStructuredText documentation for a TYPO3 extension.
+I read through the various Wiki pages and compiled this little guide. I think it is a more lightweight approach instead of installing the TYPO3 extensions restdoc/sphinx into a TYPO3 instance.
+
+
+
+
+read more »
+
+
+
+
+
+
+
+
+
+
+                    How to render reStructuredText documents with latest docutils on Ubuntu 12.04 LTS
+                
+Ubuntu 12.04 LTS comes with Python docutils version 0.8.1.
+This version lacks support for ::code directives and some more features which prevents you from testing your reStructuredText document before uploading it to Github.
+This little guide will help you to solve this problem by showing you the necessary steps to preview your document with the latest docutils version available in a sandboxed Python environment.
+
+
+
+
+read more »
+
+
+
+
+
+
+
+
+
+                    How to cleanup outdated TYPO3 development projects
+                
+During development of different TYPO3 projects I've forgotten to clean up the development directory regularly. So, after a while I even forgot which TYPO3 version was used by each project. To see the target of the source symlink the find command is very useful. The following gist snippet is a reminder to myself and maybe it's even useful for you!
+
+
+
+
+read more »
+
+
+
+
+
+
+
+
+
+                    Multi language/domain setup with RealURL - revised
+                
+The development of RealURL has made great progress and after the latest comment on an older article I decided to review the setup of a multilingual site with TYPO3.
+The setup must meet two major objectives: language switching by domain, a proper language switching menu with properly encoded page paths.
+Note, that this setup follows a very basic approach which don't include any configuration for extensions or special requirements.
+
+
+
+
+read more »
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                                Topics
+                            
+                        
+
+
+
+                            
+                                Archives
+                            
+                        
+
+
+
+                            
+                                Links
+                            
+                        
+
+
+
+
+
+
+
+
+                typo3
+            
+
+                nullmailer
+            
+
+                relay
+            
+
+                gmx
+            
+
+                th_mailformplus
+            
+
+                tt_news
+            
+
+                typoscript
+            
+
+                extension
+            
+
+                indexed_search
+            
+
+                crawler
+            
+
+                website search
+            
+
+                website
+            
+
+                relaunch
+            
+
+                yahoo
+            
+
+                pipes
+            
+
+                twitter
+            
+
+                map
+            
+
+                georss
+            
+
+                location
+            
+
+                css
+            
+
+                syntaxhighlighting
+            
+
+                geshi
+            
+
+                dark
+            
+
+                theme
+            
+
+                multilanguage
+            
+
+
+
+
+
+
+
+
+August 2014
+
+
+January 2014
+
+
+August 2013
+
+
+June 2011
+
+
+May 2011
+
+
+November 2010
+
+
+June 2010
+
+
+March 2010
+
+
+July 2009
+
+
+June 2009
+
+
+January 2009
+
+
+December 2008
+
+
+November 2008
+
+
+June 2008
+
+
+
+
+
+
+Webdesign Stralsunddigitalkaoz.net - symfony, JavaScript and OpenSourceSebastiaan de Jonge - Inspired to share!: A TYPO3 Weblog
+
+
+
+
+
+
+
+
+
+
+Latest comments
+
+
+
+Hi Jignesh,
+ 
+sorry for the late reply. First note, that this article is deprecated (I have to add a better styled box in the header).
+ 
+But... by dreadwarrior at TYPO3 multi language & multi domain site with RealURL and language menu
+
+
+Hi Henning,
+ 
+sorry for the late reply. Did you fixed that issue? Note, that helping without further information (TypoScript Setup) is not... by dreadwarrior at Multi language/domain setup with RealURL - revised
+
+
+Hello,
+ 
+I have one problem with multilingual realurl. I want the key of the url parameter to be multi language.
+ 
+For example: i have below... by Jignesh at TYPO3 multi language & multi domain site with RealURL and language menu
+
+
+Hi there,
+ 
+ 
+ 
+I just setup a multilanguage page with Typo3 and RealURL as your post. It's all working, but I do have one bug.
+ 
+ 
+If I am... by Henning Möllendorf at Multi language/domain setup with RealURL - revised
+
+
+Hi Shrey,
+ 
+to further investigate this, I'd like to request you to put the relevant parts of your TypoScript setup (mainly config. and... by dreadwarrior at Multi language/domain setup with RealURL - revised
+
+
+Hi ,
+ 
+I am new to typo3. 
+ 
+I have 2 domains, www.abc.de and www.abc.lu
+ 
+abc.de points to german site and abc.lu should point to english... by shrey at Multi language/domain setup with RealURL - revised
+
+
+
+
+
+
+
+
+
+
+Latest #TYPO3 Tweets
+
+
+
+
+
+        18 Feb
+    
+t3packagist
+Now available on Packagist: the #TYPO3 CMS extension sup7even/image-cropper-configuration. Details: https://t.co/1NjT5VggLq
+
+
+
+
+        18 Feb
+    
+t3packagist
+Now available on Packagist: the #TYPO3 CMS extension macopedia/mess_detector. Details: https://t.co/1NjT5VggLq
+
+
+
+
+        18 Feb
+    
+Armin Vieweg
+Whoa! #TYPO3 8.6 on local vagrant is incredibly fast! Great work!
+
+                    
+            
+
+
+
+        18 Feb
+    
+T3DD
+Hey #TYPO3 world: We are proud to welcome @MaxServ as a coding night sponsor for #t3dd17 https://t.co/Ecw55PgL2U
+
+                    
+            
+
+
+
+        14 Feb
+    
+Benni Mack
+Just released the latest #TYPO3 v8.6.0 with @ohader - huge thanks for all contributions https://t.co/lUxw75s9hs
+
+
+
+
+
+
+
+Latest tweets
+
+
+
+
+
+        16 Feb
+    
+Channel 4 News
+President Donald Trump is corrected by NBC reporter after falsely claiming he had the biggest electoral margin sinc… https://t.co/NvBFhCZwWm
+
+
+
+
+        16 Feb
+    
+Tommy Juhnke
+Two words, Mozilla: SPEED! NOW! Quit fiddling and get serious https://t.co/gXBorX0Yl2
+
+
+
+
+        11 Feb
+    
+fuyak
+Discover Northern Ireland. @UlsterUni offers a 1 year #Master #MSc in English #Language & #Linguistics.  👉👉👉 https://t.co/uJbxqaDBhy
+
+
+
+
+        26 Jan
+    
+Verbraucherzentrale
+Vorsicht vor #Phishing: E-Mail von DirectPay mit #zip-Datei 
+ https://t.co/ngq0NDVIhj https://t.co/VwMaXm3GX6
+
+                    
+            
+
+
+
+         2 Feb
+    
+Erik Schön
+“You get software out the door faster by raising quality.” @KentBeck
+
+                    
+            
+
+
+
+
+
+
+
+
+        
+    © 2007-2017 van-tomas.de created by Thomas Juhnke
+ | 
+    Back to top
+ | 
+    RSS Feed
+
+
+
+
+
+
+
+

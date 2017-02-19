@@ -1,0 +1,813 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu
+
+
+
+
+
+
+
+
+
+
+
+SC US
+SC UK
+
+
+Show Search Bar
+
+
+
+
+
+
+
+
+News
+
+
+ 
+Opinions
+Blogs
+SC Fast Facts
+Reboot 2016
+
+
+
+Cybercrime
+
+
+Ransomware
+Data breaches
+APTs/Cyberespionage
+Malware
+Phishing
+Insider Threats
+
+
+
+Network Security
+
+
+Mobile Security
+Cloud Security
+Privacy & compliance
+Vulnerabilities
+IoT
+Email Security
+
+
+
+Product Reviews
+
+
+Group Tests
+First Looks
+About product reviews
+
+
+
+In Depth
+
+
+Features
+Video
+In Depth
+SC Magazine Archive
+
+
+
+Events
+
+
+Virtual Conferences
+Webcasts
+RiskSec NY 2017
+RiskSec Toronto 2017
+SC Awards 2017
+
+
+
+Whitepapers
+
+
+
+
+
+Log in
+
+Register
+
+
+The Cybersecurity source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Magazine US
+>
+
+
+News
+>
+
+
+Malware
+>
+
+
+Mac malware originated in Iran, say researchers                
+
+
+
+
+
+
+
+by Greg Masters, Managing Editor
+
+
+
+
+
+
+
+February 08, 2017
+Mac malware originated in Iran, say researchers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MacDownloader was coded by a hacker group believed connected to Iranian security companies.
+
+
+A piece of malware, believed to have originated in Iran, was detected on the Apple computers of a phony website masquerading as the U.S. aerospace firm United Technologies, as well as that of a human rights advocate.
+The Mac-based malware could be an attempt by Iranian hackers to target the U.S. defense industry, according to Claudio Guarnieri and Collin Anderson, researchers involved in investigating Iranian cyberespionage threats. The code was sloppily written, they said, so the potential damage is likely minimal. 
+But, circumstantial technical evidence – namely, the command-and-control data, strings in the code and the manner in which it was distributed – led the pair to believe the malware, dubbed MacDownloader, was coded by a hacker group known as Charming Kitten, which the pair connected to Iranian security companies.
+"While this agent [malware] is neither sophisticated nor full-featured, its sudden appearance is concerning given the popularity of Apple computers with certain communities and inaccurate perceptions about the security of those devices," they said.
+Despite the typos and grammatical errors in the coding, the researchers' malware analysis, posted earlier this month, said the malware had escaped detection by AV scanners.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topics:
+
+
+Cybercrime
+
+
+Malware
+
+
+
+
+
+
+
+
+
+
+
+
+                        You must be a registered member of SC Magazine US to post a comment.
+                    
+
+Click here to login
+  | 
+ Click here to register
+
+
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+
+                                    Researchers tentatively link Greenbug cyberspy group to Saudi Shamoon attackers
+                                
+
+
+BY
+            Bradley  Barth
+
+                                 Jan 24, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    Politics as usual...let's hope not
+                                
+
+
+BY
+            Teri Robinson
+
+                                 Jan 12, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    The state of nation-state attacks
+                                
+
+
+BY
+            Larry Jaffee
+
+                                 Dec 20, 2016
+                            
+
+
+
+
+
+
+
+
+
+
+
+Most read on SC
+
+
+Banks worldwide under attack from new malware, report
+2017 SC Awards Honored in the United States
+'Internet of Evil Things' challenges security pros
+Yahoo issues new breach warning; Verizon shaves $300M off its Yahoo offer
+Adobe issues patches, Microsoft's usual Patch Tuesday fixes delayed
+
+
+
+
+
+
+
+
+
+
+Get SC Media delivered to your inbox
+
+
+
+
+
+SC Media Featured White Paper of the Day
+
+
+
+
+
+
+SC Media Newswire
+
+
+
+
+
+
+SC Media Product/Industry Buzz
+
+
+
+
+
+
+I would like to receive relevant information via email from Haymarket Media.
+
+
+
+
+
+
+United States
+United Kingdom
+Canada
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (DRC)
+Cook Islands
+Costa Rica
+Côte D'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji Islands
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia-Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands
+Virgin Islands, British
+Wallis and Futuna
+Western Samoa
+Yemen
+Yugoslavia
+Zambia
+Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Media arms cybersecurity professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.
+
+
+User Center
+
+About
+Contact
+Advisory Board
+Meet the team
+Subscribe
+Advertise
+
+
+
+Product Reviews
+
+About/Contact
+FAQ
+Reprints
+
+
+
+Other
+
+Privacy Policy
+Terms & Conditions
+
+
+
+More SC Sites
+
+RiskSec
+SC Whitepaper & Resource Library
+SC Awards
+SC Online Events
+
+
+
+
+
+Follow SC Media
+
+
+
+
+
+
+Copyright © 2016 Haymarket Media, Inc. All Rights Reserved
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorization.
+Your use of this website constitutes acceptance of Haymarket Media's Privacy Policy and Terms & Conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ close
+
+
+
+{{{ form.header }}}
+{{{ form.title }}}
+
+
+
+
+
+{{{error}}}
+
+
+
+
+{{error}}
+
+
+
+
+
+
+
+
+
+
+{{ option.label }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Free Newsletters:
+
+
+
+
+
+
+
+
+{{ field.label }}
+
+
+
+
+
+
+
+
+{{ form.postButtonLabel }}
+
+
+
+
+
+                              By registering you agree with our
+                              Terms And Conditions  |
+                              Privacy Policy
+
+
+
+
+{{{ form.footer }}}
+
+
+Don't have an SC Media account?
+            Sign up for free now »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

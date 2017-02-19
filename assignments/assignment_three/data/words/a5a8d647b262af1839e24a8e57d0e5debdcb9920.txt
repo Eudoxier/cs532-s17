@@ -1,0 +1,473 @@
+
+
+
+
+
+Navigation
+
+
+
+Graham Cluley
+Graham Cluley - computer security news, advice and opinion
+
+
+ 
+
+
+
+
+
+
+
+
+
+56,408
+14,158
+2,573
+15k
+
+
+
+
+ 
+
+
+
+Home
+MenuNews
+Newsletter
+Videos
+Podcasts
+Speaking
+Sponsor
+About
+
+About this website and Graham Cluley
+Awards
+Testimonials
+Contributors
+Contributor guidelines
+Recent media appearances
+Contact
+Games
+
+Jacaranda Jim
+
+Reviews of Jacaranda Jim
+
+
+Blox
+Humbug
+
+Reviews of Humbug
+
+
+Wibbling Wilf
+
+Reviews of Wibbling Wilf
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Return to Content
+
+This week's sponsor: Get trending info on hackers, exploits, and vulnerabilities for FREE with the Recorded Future Cyber Daily.
+
+
+
+
+
+
+
+
+
+Tried-and-true Triada supplants Hummingbad as top mobile malware
+
+And the most prevalent malware family overall is….
+David Bisson  | February 9, 2017 4:10 pm   |  Filed under: Android, Botnet, Malware, Mobile   0 
+
+119SHARESShare on TwitterShare on FacebookGoogleLinkedinRedditWhatsappBuffer
+
+
+
+Hummingbad is no longer the web's "most wanted mobile malware." That dubious honor goes to Triada.
+Since February 2016, Check Point's Threat Intelligence Research Team has ranked Hummingbad as the top mobile malware in its Global Threat Impact Index.
+It's understandable why they would. In part distributed by drive-by downloads off of adult websites, the complex Android rootkit helps criminals generate fraudulent ad revenue to fund their enterprises.
+One gang called Yingmob had infected 10 million Android devices with Hummingbad as of July 2016. With that number of compromised devices, a criminal could expect to rake in $300,000 of ad revenue--per month!
+
+But the winds have since changed course.
+In its January 2017 report, Check Point named Triada as the chief mobile threat. No doubt they made their decision because of the modular backdoor's ability to infect the Zygote process, a core Android operating system. A module that enabled the malware to embed its DLL into the processes of four mobile browsers, thereby allowing attackers to intercept users' web requests and send them to a web page of their choosing, no doubt also played a role.
+
+Even so, Check Point found that mobile malware accounted for only nine percent of attacks on its January index. For that reason, neither Triada nor Hummingbad registered among the top malware threats, when including non-mobile devices. The most popular malware families typically used spam emails, downloaders, and other techniques to make the list.
+Check Point's researchers explain in a blog post:
+"Globally, Kelihos was the most active malware family affecting 5% or organizations globally, followed by HackerDefender and Cryptowall in second and third place respectively both impacting 4.5% of companies."
+
+To protect against Kelihos, HackerDefender, Cryptowall, and the rest, users need to be on the lookout for suspicious links and email attachments. Organizations can supplement this effort by blocking users from visiting certain kinds of websites, including adult dating services, while connected to the enterprise network on their mobile devices.
+119SHARESShare on TwitterShare on FacebookGoogleLinkedinRedditWhatsappBuffer
+
+
+ 
+
+
+ Tags: Android, botnet, HummingBad, Malware, Triada Smashing Security audio podcast
+Check out "Smashing Security", the new weekly audio podcast, with Graham Cluley, Vanja Svajcer, and Carole Theriault.
+
+ "Three people having fun in an industry often focused on bad news" • "It's brilliant!" • "The Top Gear of computer security"
+Latest episode:008: I'll give you my Android when you pry it from my cold, dead paws
+ Listen now
+You might also likeAndroid malware embeds into browsers, intercepts and changes URLsAndroid malware spread via porn websites to generate fake ad revenue400 Android apps hiding DressCode malware on Google Play Store
+
+Subscribe to the free GCHQ newsletter
+
+Over 75,000 people follow Graham Cluley for news and
+advice about computer security and internet privacy. 
+
+
+
+About the author, David Bisson
+		David Bisson is an infosec news junkie and security journalist. He works as Contributing Editor for Graham Cluley Security News, Associate Editor for Tripwire's "The State of Security" blog, Contributing Author to Carbonite, and Content Contributor to Metacompliance Ltd.				
+
+				View all posts by David Bisson → 
+
+
+
+  Follow @DMBisson Interested in being a guest contributor to this site like David Bisson? Check out our contributor guidelines.  
+
+
+
+
+ Android, botnet, HummingBad, Malware, Triada 
+
+
+
+ How to create a robust data backup plan (and make sure it works)
+Smashing Security podcast #007: 'ASCII art attack' 
+
+
+
+
+
+Leave a reply
+
+
+
+                        Be the first to comment!                    
+
+
+
+
+
+
+Notify of 
+
+
+new follow-up comments
+new replies to my comments
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Email me when someone replies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Email me when someone replies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stay informed with our free GCHQ newsletter
+
+Over 75,000 people follow Graham Cluley for news and advice about computer security and internet privacy.
+
+
+
+Latest videos
+
+
+
+
+
+
+
+
+
+	  			What happened to the Smashing Security videos?			
+
+	January 25, 2017 
+
+
+
+
+
+
+
+
+
+
+	  			One BILLION Yahoo users put at risk after hack - LIVE STREAM			
+
+	December 15, 2016 
+
+
+
+
+
+
+
+
+
+
+	  			Backups - the best defence against ransomware (and other risks) | Graham Cluley			
+
+	November 30, 2016 
+
+
+
+
+
+
+					Visit my YouTube channel for more videos				
+
+
+
+Public speaking 
+Hire Graham Cluley to speak at your event
+
+Popular recent postsHow to better protect your WhatsApp account with two-step verification (2SV)Cerber ransomware takes special care not to encrypt security product filesCrossing border security? Here's how you protect your dataSenators raise concerns over Donald Trump's smartphone securityMagento stores targeted by self-healing malware that steals credit card detailsSmashing Security podcast: Using public Wi-FiSage 2.0 ransomware wants to be just like Cerber when it grows upLazarus mob possibly behind malware attacks against Polish banksHow to create a robust data backup plan (and make sure it works)Smashing Security podcast #008: 'I'll give you my Android when you pry it from my cold, dead paws'Latest posts...   Login
+No account? Register now.
+This site is protected by Incapsula against DDoS attacks and other internet threats 
+
+
+
+
+
+CategoriesAdobe (126)
+Adobe Flash (74)
+Android (233)
+Apple (382)
+Apple Safari (33)
+Awards (18)
+BlackBerry (19)
+Botnet (102)
+Celebrities (123)
+Clickjacking (32)
+Data loss (849)
+Denial of Service (194)
+Encryption (170)
+Facebook (651)
+Fake anti-virus (36)
+Feed only (90)
+Firefox (38)
+Google (237)
+Google Chrome (28)
+Google Plus (4)
+Guest blog (3237)
+Hacked celebrities (66)
+Internet Explorer (55)
+iOS (225)
+Java (42)
+Law & order (934)
+LinkedIn (31)
+Link list (60)
+Linux (38)
+macOS (129)
+Malware (1841)
+Microsoft (252)
+Mobile (266)
+Naked Security (64)
+Nude Celebrities (44)
+Operating Systems (2)
+Oracle (27)
+PDF (40)
+Phishing (266)
+Podcast (51)
+Privacy (1218)
+Ransomware (131)
+Rogue applications (86)
+Security threats (131)
+Social networks (698)
+Spam (1120)
+Sponsor (65)
+Twitter (347)
+Uncategorized (2)
+Video (307)
+Vulnerability (1215)
+Web Browsers (69)
+Windows (175)
+Windows phone (9)
+Yahoo (63) 
+
+ContributorsGraham Cluley (4715)David Bisson (353)Bob Covello (26)Yasin Soliman (14)Philip Le Riche (5) More...
+Want to write for this site? If you have an article that you’d like to share on grahamcluley.com, check out our contributor guidelines.
+ 
+
+Follow  
+ 
+
+ 
+
+ 
+
+ 
+
+
+Contact Send a tip or story idea
+Hire Graham Cluley to speak at your event
+Sponsorship
+Complaints/Corrections
+Privacy Policy
+
+ 
+
+
+
+
+Copyright © 2017 Cluley Associates Limited. All Rights Reserved.
+Support us: BTC 1HsA79oAvzA2KghvoEDkVAbJFehhCNME2k
+ 
+
+About | Cookies | Terms & ConditionsPowered by WordPress | Hosted by Pressidium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

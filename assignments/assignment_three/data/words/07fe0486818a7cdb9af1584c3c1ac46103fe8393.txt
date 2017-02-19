@@ -1,0 +1,480 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip
+
+
+
+
+        Your browser does not support HTML5 video.
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sustainability
+
+
+Science
+
+
+Ideas
+
+
+Cities
+
+
+Transportation
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Collections
+        
+
+
+
+
+The Most Innovative Companies
+The top 50 companies in entertainment, media, sports, technology, and more.
+
+
+
+
+Most Creative People
+Meet this year's inspiring leaders.
+
+
+
+
+Innovation By Design
+A showcase for ingenious design solutions.
+
+
+
+
+World Changing Ideas
+New workplaces, new food sources, new medicine—even an entirely new economic system.
+
+
+
+
+Out of Office With
+Industry leaders offer a glimpse of their lives outside of the office--and how these experiences have
+                    helped to get them where they are today.
+
+
+
+
+Creative Conversations
+Creative dialogue can reinvent your business, your brand, and your career. Join Fast Company on a
+                    multi-platform exploration of the art of conversation.
+
+
+
+
+Mind and Machine
+Computers are getting smart--very smart. Fast Company explains the complex and increasingly
+                    influential world of artificial intelligence and machine learning.
+
+
+
+
+Master Class
+How the top talent from creative fields get work done.
+
+
+
+
+Startup Report
+The up-and-coming companies that are disrupting industries.
+
+
+
+
+Innovation Agents
+Profiles of the high-level business leaders behind progressive, creative, and innovative organizations
+
+
+
+
+Tech Forecast
+A roundup of breaking tech news, products, and services featuring the most important takeaways.
+
+
+
+
+
+            Current Issue
+            
+
+
+
+
+Subscribe
+
+
+Follow Fast Company
+We’ll come to you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 minute read
+
+Hit This Hacked Amazon Dash Button To Give To The ACLU Every Time Trump Pisses You Off
+
+Now you can lazily support civil liberties like you lazily buy toilet paper.
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        Recent posts
+                                
+
+
+
+
+                                                These Grocery Delivery Trucks Are Powered By Food Waste
+                                            
+
+
+
+
+
+
+                                                Trump's Fuel Efficiency Rollback Will Cost America Billions At The Pump
+                                            
+
+
+
+
+
+
+                                                Has The U.S. Reached Peak Car?
+                                            
+
+
+
+
+
+
+                                                Meet The Designer Of NASA's Next Generation Space Diaper
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Charlie Sorrel
+
+02.09.17
+6:30 AM
+
+
+The Amazon Dash might be the most representative example of mindless laziness winning out over environmental consciousness. These tiny, WiFi-enabled computers are packaged and shipped all over the world to people who would rather press a button and have, say, toilet paper delivered to them than run to the store and pick it up. People install these automatic-ordering buttons all around their homes, where they generally represent an outsourcing of responsibility.
+But in the hands of designer Nathan Pryor, the Amazon Dash has become a force for good—and an outlet for some of the Donald Trump-induced frustration that has gripped the more ethically minded subset of the population. Pryor figured out how to hack a Dash button so that every time he hits it, it donates $5 to the American Civil Liberties Union (ACLU).
+\
+Pryor's gears started turning after his friend voiced the following idea: "I wish there was an ACLU Dash button I could push to donate any time I read about the latest offense from Trump." Using Amazon's hacker-friendly, customizable IoT button, which Amazon produced in answer to people repurposing its actual Dash buttons, Pryor got to work programming it to funnel money to the ACLU.
+Because Pryor couldn't find an existing interface to use to set up automatic donations to the ACLU, he had to get his hands dirty and write his own software. The script he wrote invisibly loaded up the donation page and filled out his name, address, credit card details, and donation amount. To test it, he hooked up the script to a prepaid gift card "so that my bank account wouldn’t empty if the script got stuck in some kind of infinite donation loop," he wrote on Medium. And it worked.
+Once he designed a graphic for the button, Pryor set it up by his computer, where it waits, ready to be hit when Trump commits another atrocity against the U.S. constitution. If you want to make your own, the code is available. But be mindful of your financial limitations: I know if I punched one of these every time Trump pissed me off, I'd be bankrupt within hours.
+
+
+
+Never miss a story.
+Sign up for the Co.Exist newsletter and get the best stories delivered to your inbox daily.
+
+
+Send
+
+
+
+I'd also like to receive special Fast Company offers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advertise
+Privacy Policy
+Terms
+About Us
+
+
+
+Fast Company & Inc © 2017 Mansueto Ventures, LLC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

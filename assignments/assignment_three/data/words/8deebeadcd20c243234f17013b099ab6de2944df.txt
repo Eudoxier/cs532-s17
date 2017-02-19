@@ -1,0 +1,526 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. Find out more.X
+
+
+
+
+menu
+
+
+
+
+
+
+
+
+
+
+
+SC US
+SC UK
+
+
+Show Search Bar
+
+
+
+
+
+
+
+
+News
+
+
+Features
+In Depth
+Executive Insight
+The SC Blog
+Cyber-security events calendar
+
+
+
+Cyber-crime
+
+
+Ransomware
+Data breaches
+APTs/Cyber-espionage
+Malware
+Phishing
+Insider threats
+
+
+
+Network Security
+
+
+Mobile security
+Cloud security
+Privacy & Compliance
+Vulnerabilities
+IoT
+Email security
+
+
+
+Products
+
+
+Group Tests
+Industry Innovators 2016
+
+
+
+Jobs
+
+
+Career News and Advice
+Cyber-security Jobs
+IT Security Jobs
+Operations Security Jobs
+Website security jobs
+
+
+
+Video
+
+
+Events
+
+
+SC Congress London
+Webcasts
+Editorial Roundtable Series
+SC Awards Europe
+
+
+
+Whitepapers
+
+
+
+
+
+Log in
+
+Register
+
+
+The Cyber-Security source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Magazine UK
+>
+
+
+News
+>
+
+
+Mobile security
+>
+
+
+Hummingbad overtaken as leading mobile malware in threat index                
+
+
+
+
+
+
+
+by Roi Perez, Community Manager
+
+
+
+
+
+
+
+February 09, 2017
+Hummingbad overtaken as leading mobile malware in threat index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Triada, a modular backdoor for Android, the top of the "most wanted mobile malware".
+
+
+
+Does your organisation ensure it's Android devices are safe? 
+
+Check Point has revealed that Hummingbad has been overtaken as the leading mobile malware for the first time since February 2016, and replaced at the top of the “most wanted mobile malware” Triada. 
+According to the new January Global Threat Impact Index from its Threat Intelligence Research Team, Triada is a modular backdoor for Android which grants super-user privileges to downloaded malware, as helps it to get embedded into system processes.
+In total, mobile malware accounted for nine percent of all recognised attacks while the Index ranked Kelihos, a botnet used in bitcoin theft, as the most prevalent malware family overall, with five percent of organisations globally is impacted by it. 
+ 
+Overall the top three malware families revealed that hackers were using a wide range of attack vectors and tactics to target businesses. These threats impact all steps of the infection chain, including spam emails which are spread by botnets, and contain downloaders that place ransomware or a Trojan on the victim's machine.  
+Globally, Kelihos was the most active malware family affecting five percent of organisations globally, followed by HackerDefender and Cryptowall in second and third place respectively, with both impacting 4.5 percent of companies.
+ 
+The UK was also the 53rd most attacked country globally, higher than the US (100th), Germany (65th) and France (61st).
+Nathan Shuchami, head of threat prevention at CheckPoint commented, “The wide range of threats seen during January, utilising all the available tactics in the infection chain, demonstrates the size of the task IT teams face in securing their networks against attack.”
+Shuchami added: “To defend themselves, organisations need to apply advanced threat prevention measures on their networks, endpoints and mobile devices to stop malware at the pre-infection stage, to ensure that they are secured against both known and unknown threats.”
+ 
+From January 2017, CheckPoint has revised how it indexes the top malware: it now shows the percentage of organisations worldwide affected by each malware family, to provide a ranking of the most prevalent malware families attacking networks, instead of being based on the number of detections found. This gives a more accurate overview of the actual impact of threats on organisations during the month.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topics:
+
+
+Android
+
+
+Malware
+
+
+Mobile
+
+
+
+
+
+
+
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+
+                                    Researchers tentatively link Greenbug cyber-spy group to Saudi Shamoon attackers
+                                
+
+
+BY
+            Bradley Barth
+
+                                 Jan 25, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    More than half of UK businesses still not fully aware of EU GDPR
+                                
+
+
+BY
+            Danielle Correa
+
+                                 Jan 25, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    The Investigatory Powers Act's wide-reaching implications 
+                                
+
+
+BY
+            Kate O'Flaherty
+
+                                 Jan 26, 2017
+                            
+
+
+
+
+
+
+
+
+
+
+
+Most read on SC
+
+
+Signature-based malware detection not as good as AI, says ICIT paper
+Nuclear industry gets new cyber-security strategy from UK government 
+Ransomware: could dentists and GPs be the next victims?
+Queen opens NCSC headquarters, ushering in new era in cyber-security 
+RSA 2017: Cyber Threat Alliance adds members, introduces new president
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Media UK arms cyber-security professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.
+
+
+User Centre
+
+About Us
+Contact Us
+Advertise
+Partner's Corner
+
+
+
+Resources
+
+Issue Archive
+
+
+
+Other
+
+Privacy Policy
+Terms &                              Conditions
+
+
+
+More SC Sites
+
+SC Congress
+SC Whitepaper & Resource Library
+SC Awards
+SC Jobs
+
+
+
+
+
+Follow SC Media UK
+
+
+
+
+
+
+Copyright © 2017 Haymarket Media, Inc. All Rights Reserved
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorisation.
+Your use of this website constitutes acceptance of Haymarket Media's Privacy Policy and Terms & Conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ close
+
+
+
+{{{ form.header }}}
+{{{ form.title }}}
+
+
+
+
+
+{{{error}}}
+
+
+
+
+{{error}}
+
+
+
+
+
+
+
+
+
+
+{{ option.label }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Free Newsletters:
+
+
+
+
+
+
+
+
+{{ field.label }}
+
+
+
+
+
+
+
+
+
+                                By registering you agree with our
+                                Terms And Conditions  |
+                                Privacy Policy
+
+
+
+
+
+
+{{{ form.footer }}}
+
+{{ form.postButtonLabel }}
+
+
+
+
+
+Don't have an SC Media account?
+            Sign up for free now »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

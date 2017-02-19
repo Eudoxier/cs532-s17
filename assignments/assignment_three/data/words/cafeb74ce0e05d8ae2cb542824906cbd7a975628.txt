@@ -1,0 +1,326 @@
+
+
+
+
+Schneier on Security
+
+
+
+Blog
+Newsletter
+Books
+Essays
+News
+Talks
+Academic
+About Me
+
+
+
+
+Search
+Powered by DuckDuckGo
+
+
+
+
+blog
+essays
+whole site 
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+Friday Squid Blogging: The Strawberry Squid's Lopsided Eyes
+The evolutionary reasons why the strawberry squid has two different eyes. Additional articles. 
+Original paper.
+As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. 
+Tags: academic papers, squid
+Posted on February 17, 2017 at  4:03 PM
+	 • 
+	32 Comments
+
+
+
+
+
+IoT Attack Against a University Network
+Verizon's Data Brief Digest 2017 describes an attack against an unnamed university by attackers who hacked a variety of IoT devices and had them spam network targets and slow them down:
+Analysis of the university firewall identified over 5,000 devices making hundreds of Domain Name Service (DNS) look-ups every 15 minutes, slowing the institution's entire network and restricting access to the majority of internet services.
+
+In this instance, all of the DNS requests were attempting to look up seafood restaurants -- and it wasn't because thousands of students all had an overwhelming urge to eat fish -- but because devices on the network had been instructed to repeatedly carry out this request.
+"We identified that this was coming from their IoT network, their vending machines and their light sensors were actually looking for seafood domains; 5,000 discreet systems and they were nearly all in the IoT infrastructure," says Laurance Dine, managing principal of investigative response at Verizon.
+The actual Verizon document doesn't appear to be available online yet, but there is an advance version that only discusses the incident above, available here.
+Tags: Internet of things, schools, spam, Verizon
+Posted on February 17, 2017 at  8:30 AM
+	 • 
+	14 Comments
+
+
+
+
+
+Duqu Malware Techniques Used by Cybercriminals
+Duqu 2.0 is a really impressive piece of malware, related to Stuxnet and probably written by the NSA. One of its security features is that it stays resident in its host's memory without ever writing persistent files to the system's drives. Now, this same technique is being used by criminals:
+Now, fileless malware is going mainstream, as financially motivated criminal hackers mimic their nation-sponsored counterparts. According to research Kaspersky Lab plans to publish Wednesday, networks belonging to at least 140 banks and other enterprises have been infected by malware that relies on the same in-memory design to remain nearly invisible. Because infections are so hard to spot, the actual number is likely much higher. Another trait that makes the infections hard to detect is the use of legitimate and widely used system administrative and security tools­ -- including PowerShell, Metasploit, and Mimikatz -- ­to inject the malware into computer memory.
+
+[...]
+The researchers first discovered the malware late last year, when a bank's security team found a copy of Meterpreter -- ­an in-memory component of Metasploit -- ­residing inside the physical memory of a Microsoft domain controller. After conducting a forensic analysis, the researchers found that the Meterpreter code was downloaded and injected into memory using PowerShell commands. The infected machine also used Microsoft's NETSH networking tool to transport data to attacker-controlled servers. To obtain the administrative privileges necessary to do these things, the attackers also relied on Mimikatz. To reduce the evidence left in logs or hard drives, the attackers stashed the PowerShell commands into the Windows registry.
+BoingBoing post.
+Tags: cybercrime, Kaspersky, malware, NSA, Stuxnet, zero-day
+Posted on February 16, 2017 at 10:28 AM
+	 • 
+	26 Comments
+
+
+
+
+
+Research into the Root Causes of Terrorism
+Interesting article in Science discussing field research on how people are radicalized to become terrorists.
+The potential for research that can overcome existing constraints can be seen in recent advances in understanding violent extremism and, partly, in interdiction and prevention. Most notable is waning interest in simplistic root-cause explanations of why individuals become violent extremists (e.g., poverty, lack of education, marginalization, foreign occupation, and religious fervor), which cannot accommodate the richness and diversity of situations that breed terrorism or support meaningful interventions. A more tractable line of inquiry is how people actually become involved in terror networks (e.g., how they radicalize and are recruited, move to action, or come to abandon cause and comrades).
+
+Reports from the The Soufan Group, International Center for the Study of Radicalisation (King's College London), and the Combating Terrorism Center (U.S. Military Academy) indicate that approximately three-fourths of those who join the Islamic State or al-Qaeda do so in groups. These groups often involve preexisting social networks and typically cluster in particular towns and neighborhoods.. This suggests that much recruitment does not need direct personal appeals by organization agents or individual exposure to social media (which would entail a more dispersed recruitment pattern). Fieldwork is needed to identify the specific conditions under which these processes play out. Natural growth models of terrorist networks then might be based on an epidemiology of radical ideas in host social networks rather than built in the abstract then fitted to data and would allow for a public health, rather than strictly criminal, approach to violent extremism.
+Such considerations have implications for countering terrorist recruitment. The present USG focus is on "counternarratives," intended as alternative to the "ideologies" held to motivate terrorists. This strategy treats ideas as disembodied from the human conditions in which they are embedded and given life as animators of social groups. In their stead, research and policy might better focus on personalized "counterengagement," addressing and harnessing the fellowship, passion, and purpose of people within specific social contexts, as ISIS and al-Qaeda often do. This focus stands in sharp contrast to reliance on negative mass messaging and sting operations to dissuade young people in doubt through entrapment and punishment (the most common practice used in U.S. law enforcement) rather than through positive persuasion and channeling into productive life paths. At the very least, we need field research in communities that is capable of capturing evidence to reveal which strategies are working, failing, or backfiring.
+Tags: academic papers, al Qaeda, propaganda, terrorism
+Posted on February 15, 2017 at  6:31 AM
+	 • 
+	97 Comments
+
+
+
+
+
+Survey Data on Americans and Cybersecurity
+Pew Research just published their latest research data on Americans and their views on cybersecurity:
+This survey finds that a majority of Americans have directly experienced some form of data theft or fraud, that a sizeable share of the public thinks that their personal data have become less secure in recent years, and that many lack confidence in various institutions to keep their personal data safe from misuse. In addition, many Americans are failing to follow digital security best practices in their own personal lives, and a substantial majority expects that major cyberattacks will be a fact of life in the future.
+Here's the full report.
+Tags: cyberattack, cybersecurity, fraud, reports, trust
+Posted on February 14, 2017 at  6:48 AM
+	 • 
+	22 Comments
+
+
+
+
+
+Hacking Back
+There's a really interesting paper from George Washington University on hacking back: "Into the Gray Zone: The Private Sector and Active Defense against Cyber Threats."
+I've never been a fan of hacking back. There's a reason we no longer issue letters of marque or allow private entities to commit crimes, and hacking back is a form a vigilante justice. But the paper makes a lot of good points.
+Here are three older papers on the topic.
+Tags: academic papers, cyberattack, hackback, hacking
+Posted on February 13, 2017 at  6:40 AM
+	 • 
+	29 Comments
+
+
+
+
+
+Friday Squid Blogging: Squid Communication through Skin Patterns
+Interesting research. (Popular article here.)
+As usual, you can also use this squid post to talk about the security stories in the news that I haven't covered. 
+
+Tags: academic papers, squid
+Posted on February 10, 2017 at  4:25 PM
+	 • 
+	129 Comments
+
+
+
+
+
+CSIS's Cybersecurity Agenda
+The Center for Strategic and International Studies (CSIS) published "From Awareness to Action: A Cybersecurity Agenda for the 45th President" (press release here). There's a lot I agree with -- and some things I don't -- but these paragraphs struck me as particularly insightful:
+The Obama administration made significant progress but suffered from two conceptual problems in its cybersecurity efforts. The first was a belief that the private sector would spontaneously generate the solutions needed for cybersecurity and minimize the need for government action. The obvious counter to this is that our problems haven't been solved. There is no technological solution to the problem of cybersecurity, at least any time soon, so turning to technologists was unproductive. The larger national debate over the role of government made it difficult to balance public and private-sector responsibility and created a sense of hesitancy, even timidity, in executive branch actions.
+
+The second was a misunderstanding of how the federal government works. All White Houses tend to float above the bureaucracy, but this one compounded the problem with its desire to bring high-profile business executives into government. These efforts ran counter to what is needed to manage a complex bureaucracy where greatly differing rules, relationships, and procedures determine the success of any initiative. Unlike the  private sector, government decisionmaking is more collective, shaped by external pressures both bureaucratic and political, and rife with assorted strictures on resources and personnel.
+Tags: cybersecurity, national security policy, reports
+Posted on February 10, 2017 at 12:01 PM
+	 • 
+	10 Comments
+
+
+
+
+
+De-Anonymizing Browser History Using Social-Network Data
+Interesting research: "De-anonymizing Web Browsing Data with Social Networks":
+Abstract: Can online trackers and network adversaries de-anonymize web browsing data readily available to them? We show -- theoretically, via simulation, and through experiments on real user data -- that de-identified web browsing histories can\ be linked to social media profiles using only publicly available data. Our approach is based on a simple observation: each person has a distinctive social network, and thus the set of links appearing in one's feed is unique. Assuming users visit links in their feed with higher probability than a random user, browsing histories contain tell-tale marks of identity. We formalize this intuition by specifying a model of web browsing behavior and then deriving the maximum likelihood estimate of a user's social profile. We evaluate this strategy on simulated browsing histories, and show that given a history with 30 links originating from Twitter, we can deduce the corresponding Twitter profile more than 50% of the time. To gauge the real-world effectiveness of this approach, we recruited nearly 400 people to donate their web browsing histories, and we were able to correctly  identify more than 70% of them. We further show that several online trackers are embedded on sufficiently many websites to carry out this attack with high accuracy. Our theoretical contribution applies to any type of transactional data and is robust to noisy observations, generalizing a wide range of previous de-anonymization attacks. Finally, since our attack attempts to find the correct Twitter profile out of over 300 million candidates, it is -- to our knowledge -- the largest scale demonstrated de-anonymization to date.
+Tags: academic papers, anonymity, de-anonymization, identification, social media, tracking
+Posted on February 10, 2017 at  8:25 AM
+	 • 
+	28 Comments
+
+
+
+
+
+Security and Privacy Guidelines for the Internet of Things
+Lately, I have been collecting IoT security and privacy guidelines. Here's everything I've found:
+"Internet of Things (IoT) Broadband Internet Technical Advisory Group, Broadband Internet Technical Advisory Group, Nov 2016.
+
+"IoT Security Guidance," Open Web Application Security Project (OWASP), May 2016.
+
+"Strategic Principles for Securing the Internet of Things (IoT)," US Department of Homeland Security, Nov 2016.
+
+"Security," OneM2M Technical Specification, Aug 2016.
+
+"Security Solutions," OneM2M Technical Specification, Aug 2016.
+
+"IoT Security Guidelines Overview Document," GSM Alliance, Feb 2016.
+
+"IoT Security Guidelines For Service Ecosystems," GSM Alliance, Feb 2016.
+
+"IoT Security Guidelines for Endpoint Ecosystems," GSM Alliance, Feb 2016.
+
+"IoT Security Guidelines for Network Operators," GSM Alliance, Feb 2016.
+
+"Establishing Principles for Internet of Things Security," IoT Security Foundation, undated.
+
+"IoT Design Manifesto," www.iotmanifesto.com, May 2015.
+
+"NYC Guidelines for the Internet of Things," City of New York, undated.
+
+"IoT Security Compliance Framework," IoT Security Foundation, 2016.
+
+"Principles, Practices and a Prescription for Responsible IoT and Embedded Systems Development," IoTIAP, Nov 2016.
+
+"IoT Trust Framework," Online Trust Alliance, Jan 2017.
+
+"Five Star Automotive Cyber Safety Framework," I am the Cavalry, Feb 2015.
+
+"Hippocratic Oath for Connected Medical Devices," I am the Cavalry, Jan 2016.
+
+"Industrial Internet of Things Volume G4: Security Framework," Industrial Internet Consortium, 2016.
+
+"Future-proofing the Connected World: 13 Steps to Developing Secure IoT Products," Cloud Security Alliance, 2016.
+Other, related, items:
+"We All Live in the Computer Now," The Netgain Partnership, Oct 2016.
+
+"Comments of EPIC to the FTC on the Privacy and Security Implications of the Internet of Things," Electronic Privacy Information Center, Jun 2013.
+
+"Internet of Things Software Update Workshop (IoTSU)," Internet Architecture Board, Jun 2016.
+
+"Multistakeholder Process; Internet of Things (IoT) Security Upgradability and Patching," National Telecommunications & Information Administration, Jan 2017.
+They all largely say the same things: avoid known vulnerabilities, don't have insecure defaults, make your systems patchable, and so on.
+My guess is that everyone knows that IoT regulation is coming, and is either trying to impose self-regulation to forestall government action or establish principles to influence government action. It'll be interesting to see how the next few years unfold.
+If there are any IoT security or privacy guideline documents that I'm missing, please tell me in the comments. 
+EDITED TO ADD: Documents added to the list, above.
+Tags: Internet of things, privacy, security engineering, security standards
+Posted on February  9, 2017 at  7:14 AM
+	 • 
+	34 Comments
+
+
+
+
+← Earlier Entries
+
+Photo of Bruce Schneier by Per Ervland.
+	
+	Schneier on Security is a personal website.  Opinions expressed are not necessarily those of Resilient, an IBM Company.
+
+
+	
+	
+
+
+About Bruce Schneier
+I've been writing about security issues on my blog since 2004, and in my monthly newsletter since 1998. I write books, articles, and academic papers. Currently, I'm the Chief Technology Officer of Resilient, an IBM Company, a fellow at Harvard's Berkman Center, and a board member of EFF.
+
+
+Featured Essays
+
+The Value of Encryption
+Data Is a Toxic Asset, So Why Not Throw It Out?
+How the NSA Threatens National Security
+Terrorists May Use Google Earth, But Fear Is No Reason to Ban It
+In Praise of Security Theater
+Refuse to be Terrorized
+The Eternal Value of Privacy
+Terrorists Don't Do Movie Plots
+
+more essays
+
+
+Blog Archives
+
+Archives by Month
+100 Latest Comments
+
+Blog Tags
+
+privacy
+terrorism
+surveillance
+squid
+academic papers
+NSA
+air travel
+hacking
+cryptography
+national security policy
+law enforcement
+encryption
+DHS
+homeland security
+economics of security
+crime
+Schneier news
+malware
+essays
+TSA
+computer security
+laws
+fraud
+vulnerabilities
+psychology of security
+police
+courts
+cost-benefit analysis
+cell phones
+physical security
+
+more tags
+
+
+Latest Book
+
+more books
+
+
+
+
+
+
+
+
+
+
+
+Blog
+Newsletter
+Books
+Essays
+News
+Talks
+Academic
+About Me
+
+
+
+
+
+

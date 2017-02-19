@@ -1,0 +1,561 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip
+
+
+
+
+        Your browser does not support HTML5 video.
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Technology
+
+
+Leadership
+
+
+Magazine
+
+
+Most Innovative Companies
+
+
+Most Creative People
+
+
+Video
+
+
+News
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Collections
+        
+
+
+
+
+The Most Innovative Companies
+The top 50 companies in entertainment, media, sports, technology, and more.
+
+
+
+
+Most Creative People
+Meet this year's inspiring leaders.
+
+
+
+
+Innovation By Design
+A showcase for ingenious design solutions.
+
+
+
+
+World Changing Ideas
+New workplaces, new food sources, new medicine—even an entirely new economic system.
+
+
+
+
+Out of Office With
+Industry leaders offer a glimpse of their lives outside of the office--and how these experiences have
+                    helped to get them where they are today.
+
+
+
+
+Creative Conversations
+Creative dialogue can reinvent your business, your brand, and your career. Join Fast Company on a
+                    multi-platform exploration of the art of conversation.
+
+
+
+
+Mind and Machine
+Computers are getting smart--very smart. Fast Company explains the complex and increasingly
+                    influential world of artificial intelligence and machine learning.
+
+
+
+
+Master Class
+How the top talent from creative fields get work done.
+
+
+
+
+Startup Report
+The up-and-coming companies that are disrupting industries.
+
+
+
+
+Innovation Agents
+Profiles of the high-level business leaders behind progressive, creative, and innovative organizations
+
+
+
+
+Tech Forecast
+A roundup of breaking tech news, products, and services featuring the most important takeaways.
+
+
+
+
+
+            Current Issue
+            
+
+
+
+
+Subscribe
+
+
+Follow Fast Company
+We’ll come to you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+long read
+
+Innovation Agents
+
+Google's Hardest Moonshot: Debugging Its Race Problem
+
+Tech giants are spending millions to diversify workforces and address race and bias. Current and former Googlers call for deeper reflection.
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        More from Innovation Agents
+
+
+
+
+
+                                                Meet Lucid, An Aspiring Tesla Competitor Selling A $100K “Private Jet On Wheels”
+                                            
+
+
+
+
+
+
+                                                Etsy Studio Is Ready To Turn Your Side Hustle Into A Real Business
+                                            
+
+
+
+
+
+
+                                                Photo-Realistic Holograms Are About To Get A Whole Lot More Real
+                                            
+
+
+
+
+
+
+                                                Five Ways Boycotts Have Been Transformed In The Trump Era
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beth Winegarner
+
+02.02.17
+9:30 AM
+
+
+"I went from a very average life to a broken life," Sybrina Fulton told a crowd at Google’s offices in downtown San Francisco last November. After George Zimmerman shot her son, Trayvon Martin, in Florida in 2012, and was later acquitted of second-degree murder, Fulton transformed from a mother to an activist. Still, she said, she objects to people calling her strong. Speaking out was a matter of necessity.
+"I didn’t want to live the rest of my life bitter, because that would have taken two lives instead of just one," she said, name checking Beyoncé’s Lemonade, in which she makes a brief cameo. She said her son’s death forced her to speak out because "this country just did not see how broken it was."
+
+Evidence of that brokenness has been piling up since Martin’s death. It’s there in the frequent shootings of black men and boys by police, and in the white supremacists hailing Donald Trump after he was elected to the presidency after a campaign marked by bigotry.
+It’s also there in the demographics of Google’s employee population: As at most tech companies, there are few black or Latino workers, especially among engineers. This explains why Fulton had been invited to speak as part of a series of discussions on race. Google—along with nearly every other tech company, from giants to startups—is struggling to get past that brokenness to a place where the workforce better reflects the audiences it serves.
+When the company released its first diversity report in 2014, it essentially forced other tech companies to do the same, and confirmed longstanding suspicions about the industry's makeup. But while the concept of annual diversity reports suggests that Silicon Valley wants to hold itself accountable for improving its dismal diversity figures, so far, not a lot has changed.
+After spending two years and $265 million on the effort, Google’s employee population was only 2% black in 2016, the same percentage as it was in 2014. Fifty-nine percent of Googlers are white, 32% are Asian, 3% are Hispanic, and 3% identified as a mix of two or more ethnicities. A roundup of diversity reports, gathered by The Hacker Life in March, finds similar numbers at many tech companies.
+
+This data reflects the gender composition of Google’s global technical workforce and the race and ethnicity composition of Google’s U.S. workforce as of January 1, 2016. For more stats, visit google.com/diversity.
+
+In the U.S., African-Americans and Hispanics make up 26% of the population over the age of 21, Knatokie Ford, the former senior policy adviser for the White House Office of Science and Technology Policy, recently told Essence. But they make up only 11% of the workforce in industries related to science, technology, engineering, and mathematics. "To see something significant where we’re actually hitting a market supply, you know, of 10% or something like that of hispanic and black Googlers, that’s going to take several years," Nancy Lee, the company’s former diversity chief, told the PBS NewsHour in July.
+In mid-December, Google's efforts appeared to hit another snag after TechCrunch reported that Lee was retiring from the company. The company would not comment on her decision to leave, on who might replace her, or how its diversity and inclusion programs could shift in her absence. Lee could not be reached for comment directly.
+Last month, the company's employment data entered the spotlight again after the U.S. Department of Labor announced it was suing Google over its failure to provide the Office of Federal Contract Compliance Programs (OFCCP) with compensation information related to its equal opportunity program. "Like other federal contractors, Google has a legal obligation to provide relevant information requested in the course of a routine compliance evaluation," OFCCP Acting Director Thomas M. Dowd said in a statement. "Despite many opportunities to produce this information voluntarily, Google has refused to do so."
+In response, Google spokespeople have said the request for that information was too broad and risked divulging confidential employee information. "We're very committed to our affirmative action obligations and to improving the diversity of our workforce, and have been very vocal about the importance of these issues," Google told the Society for Human Resource Management.
+The company has invested millions in a program focused on reducing unconscious bias in its employees, tweaked its policies to make pay more equitable, and also sought to address the so-called "pipeline" problem, the argument that there aren’t enough minority engineers to choose from, by improving its recruiting efforts. In recent years, Google has worked closely with historically black colleges in order to identify and recruit engineering talent. According to Essence, more than 400 recruits from that program are still at Google.
+The Google Photos manager admitted that a more diverse team would have noticed problems earlier in the process.
+Google is also a hefty supporter of Black Girls Code, an organization that exposes girls of color to computer science and technology, and last year it set up shop in Oakland’s predominantly black Fruitvale neighborhood in an effort to provide technology training to locals. A second site is slated to open in Harlem, New York, this year. Google spent $115 million on diversity initiatives in 2014 and $150 million in 2015, according to USA Today. However, spokesman Ty Sheppard said it’s not divulging how much the company invested in those programs in 2016, or how much it plans to lay out in 2017.
+But even getting diverse candidates through the door often isn’t enough. At Facebook, for instance, an experiment offered recruiters "double points" if they found a candidate that was a "diversity hire." However, those candidates ran into trouble as a committee of high-ranking engineers often vetoed them.
+The effect of unconscious bias may even appear in the company’s search results. Google’s Photos app famously tagged two black people as gorillas, and image searches for common terms, such as "man" or "woman" (or, puzzlingly, "beautiful dreadlocks") mostly produce pictures of white people.
+When Google was called out for returning criminal mugshots when people searched for images of black teenagers, Google claimed that its search algorithms are based on the availability and frequency of online data, but that the results don’t reflect the company’s own beliefs. Still, as Bradley Horowitz, the manager who led Google Photos at the time of the gorilla incident, admitted recently, according to TechCrunch, a more diverse team would have noticed the problems earlier in the process. (The company has recently funded research into fighting bias in machine learning.)
+
+Ethnic Diversity In Tech Positions for 2016: Nota bene: the U.S.A. row is based on "computer and mathematical operations" data row from the BLS report. Amazon does not separate tech and non-tech employees. Chart is by Nick Heer, Diversity of Tech Companies by the Numbers: 2016 Edition by PIXELENVY
+
+This all helps to explain what has brought activists like Fulton to Google’s campuses, in an effort to nudge audiences to behave more inclusively. "We have to get to that space where it does not matter—if it’s your 6-year-old brother or or your 6-year-old son—the color of their skin does not matter. Because I can sit here right now before you, and there are a lot of things I could take off . . . but I cannot remove the color of my skin. Nor do I want to, because it’s who I am," she said.
+Decoding And Upgrading
+Valeisha Butterfield Jones, who was hired as Google’s head of black community engagement in January 2016, is reluctant to predict how long it might take to create significant diversity among Google’s employees, who now number 65,000. She admits, "We have a lot of work to do."
+Sheppard, the Google spokesman, noted that with so many employees, even a small increase in the percentage of black employees translates to hundreds of workers. "While the percentage doesn’t appear to change, there is progress happening," he says.
+
+Valeisha Butterfield Jones
+
+Jones was a youth organizer for Obama for America before joining Google. She’s looking at a number of ways to bring more black and Latino workers to Google, and to change the tech titan’s internal culture surrounding race. As part of a broader project called Race At Google, she helped launch a speaker series this year called Decoding Race, with the assistance of Michael Skolnik, the well-connected political director for the media mogul Russell Simmons. Jones so far has brought activist DeRay McKesson to speak to Googlers and hosted Van Jones as the star of a talk entitled, "Can Computers Be Racist?" Fulton’s talk was another in the series; she spoke alongside comedian Cristela Alonzo, Google’s in-house racial equitect Myosha McAfee, journalist and undocumented immigrant Jose Antonio Vargas, and moderator Michaela Angela Davis.
+More than 3,000 Google employees have come out for the Decoding Race series so far, and many more have watched via Google’s internal live-streaming systems. (The discussion is also available on YouTube.) At least 10 more talks are planned over the next year at Google sites around the country, Jones says.
+"Most of the talks have had a majority of white men in the audience," she says. "That was so inspiring for me, to see that there was an appetite to come in and better understand the communities they work and live with."
+"Unconscious bias training is a way to say, ‘We’re working on it,’ but since it’s not required . . . the people who really need it aren’t going." 
+At least one black former Google engineer isn’t as inspired. Erica Joy Baker left her position as a site reliability engineer in May 2015 after almost 10 years with Google, largely because she was fed up with the company’s failure to address a culture of casual racism. After leaving, Baker cofounded Project Include, an organization designed to help tech companies achieve real diversity, with former interim Reddit CEO Ellen Pao. She’s also an engineer at Slack, which she says is doing its own work around diversity and inclusion. At a recent panel discussion, Leslie Miley, Slack’s director of engineering, urged Google and other tech companies to use blind assessments when looking for new recruits, something Slack already does.
+Baker was still at Google when the company launched its unconscious bias program, which aims to train folks to recognize when they’re operating from places of unrecognized racism or sexism—including when interacting with coworkers or potentially hiring new ones. Last summer, the company reported that all new Googlers take the workshop as part of their orientation, and that over 65% of Googlers have participated in the workshops so far.
+"Unconscious bias training is a way to say, ‘We’re working on it,’ but since it’s not required, the only people who show up are the people who are already thinking about and working on those biases, and the people who really need it aren’t going," Baker says. She suspects the Decoding Race talks will appeal to a similar audience.
+"You Have to Be Prepared to Fire People"
+Baker experienced a gauntlet of casual and overt racism at Google. During her first years at the company, in the mid-2000s, she reported a white male colleague for making racist and sexist remarks, and was told she could either put up with it or move from the office in Atlanta to another one in New York, she says. She chose New York, then later transferred to Google’s Mountain View, California, office.
+Baker’s coworkers regularly mistook her for a non-engineer because of her race. Some assumed she was one of Google’s security officers, despite the fact that security personnel wear specific uniforms, while others thought she was her office mate’s personal assistant. Those kinds of biases were baked into Google’s beginnings, she says.
+When Larry Page and Sergey Brin founded Google 18 years ago, they wanted to "re-create grad life at Stanford at Google," Baker says. They hired mostly white and Asian men, brought in ping-pong tables and pool tables, and kept the alcohol flowing. But nobody ever thought about how that culture might exclude others, she says.
+Baker regularly witnessed discussions in which people talked about how, for example, they thought black people were less intelligent—or more prone to violence—than white people. "That sort of thing was permitted because there weren’t enough black people to speak out against it," Baker says.
+Can Artificial Intelligence Wipe Unconscious Bias From Your Workday?
+
+
+
+There's a plethora of tech meant to make recruiting fairer. Joonko wants to help ordinary workers pinpoint bias throughout the workday.
+No amount of unconscious bias trainings or speaker events are likely to upend such behavior, say workplace consultants. For diversity and inclusion initiatives to really work, a company has to embrace them at every level—and show real accountability, says Y-Vonne Hutchinson, founder of ReadySet, a diversity consulting firm in Oakland.
+"You need to bring in people who value diversity. Don’t just bring a person of color into a place that’s a little bit hostile and not bring in people who support diversity," says Hutchinson, who’s also a member of Project Include. "You have to be prepared to make tough decisions. You have to be prepared to fire people."
+Asked if she ever saw anyone at Google get fired for casual or even overt racism, Baker exhaled with a bitter laugh. "No. Absolutely not," she says. "They get to write it off as a different political opinion. It sends the message that someone can be blatantly racist, and this is a culture that tolerates it."
+Sheppard disagrees, saying that Page and Brin "have been very committed to diversity" at Google. Acts of racism among employees are grounds for termination, and Google has fired employees for behaving in racist ways, he says.
+Beyond making employees feel safe and respected, there are solid business reasons for creating a diverse workforce, says Hutchinson: Heterogeneous companies make better products, while homogenous companies make worse ones. "As tech companies become more risk-averse, being able to derive revenue early on is going to become very important," he says. "Ninety-two percent of startups fail in the first year—50% from a poor product fit."
+Rhoma Young, a human resources expert and member of the Association of Workplace Investigators, says she used to support diversity programs in corporations. Now she’s more reluctant to suggest them, unless a company is very committed to creating real cultural change in how employees treat each other from management on down.
+"Unless they are willing to do it realistically and stand behind it, it’s going to become a joke and a sham. It’s going to give a mixed message," Young says. Without that commitment, "it’s not worth the resources to raise an expectation level [about diversity] that’s not realistic."
+
+
+
+What About Employee Retention?
+In addition to the Decoding Race series, Jones is beginning to work on building bridges between Google and communities of color. In early December, she facilitated a mixer in New York City where more than 300 black and Latino professionals mingled with Google employees and recruiters in an effort to bring more of those professionals through Google’s doors. Jones says she’s planning more such events in 2017, and also looking at how to retain black and Latino employees once they’re hired.
+Hutchinson said focusing on retention is incredibly important. "Apple is a great example. They’ve made huge gains in diverse hiring, and then have seen incredible losses when they’re thinking about who they retain. Women are leaving. People of color are leaving. They’re not making sure that people feel like they belong and can grow in the company."
+Google does not make its employee retention data available to the public, according to spokesman Ty Sheppard.
+Jones is also looking at the role technology is playing in the fight for racial justice, such as the use of live video feeds to reveal incidents of police brutality; she hopes to empower racial justice activists to make better use of tech and social media. "They’re showing that evidence of these injustices are there in plain sight. They have made it a more human issue for people," she says.
+Baker says it’s not clear to her whether Google’s newer initiatives are rooted in a real desire to change, or are a part of a public-relations effort, which she said was evident in 2014, when the company released its unconscious-bias training information through re:Work.
+"They’re thinking about, ‘How does this make us look good?’" Baker says. "But the conversations on race need to continue, and Google needs to keep having them, whether it’s for PR or altruism. They need to keep pushing the industry to keep having them. If we can’t talk about the problems, we can’t fix the problems."
+
+
+
+Never miss a story.
+Sign up for the Fast Company newsletter and get the best stories delivered to your inbox daily.
+
+
+Send
+
+
+
+I'd also like to receive special Fast Company offers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advertise
+Privacy Policy
+Terms
+About Us
+
+
+
+Fast Company & Inc © 2017 Mansueto Ventures, LLC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

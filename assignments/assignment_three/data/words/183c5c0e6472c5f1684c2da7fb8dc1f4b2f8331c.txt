@@ -1,0 +1,471 @@
+
+
+
+
+
+
+
+
+
+ Login to PartnerNet
+
+
+
+
+
+ Hi, 
+
+
+
+
+
+
+
+
+
+My Details
+Overview
+Logout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+United States
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ PRODUCTS
+ 
+
+
+
+
+
+
+
+
+
+Threat Protection
+Information Protection
+Cyber Security Services
+Website Security
+Products A-Z
+
+
+
+
+
+
+
+
+
+
+
+ SERVICES
+ 
+
+
+
+
+
+
+
+
+
+Consulting Services
+Customer Success Service
+Cyber Security Services
+Education Services
+
+
+
+
+
+
+
+
+
+
+
+ SOLUTIONS
+ 
+
+
+
+
+
+
+
+
+
+Internet of Things
+Office 365
+Automotive
+Education
+Federal Government
+Financial Services
+Global Service Providers
+Industrial Control Systems
+Healthcare
+Retail
+State & Local
+
+
+
+
+
+
+
+
+
+
+
+ SUPPORT CENTER
+ 
+
+
+
+
+
+
+
+
+
+Technical Support
+Symantec Connect
+Buying Programs
+Upgrades
+Renewals
+Training
+
+
+
+
+
+
+
+
+
+
+
+ SECURITY CENTER
+ 
+
+
+
+
+
+
+
+
+
+Blogs
+ISTR
+Threats
+Virus Definitions and Security Updates
+Removal Tools
+
+
+
+
+
+
+
+
+
+
+
+ PARTNER
+ 
+
+
+
+
+
+
+
+
+
+Find a Partner
+Become a Partner
+
+Login Required
+
+Login into Partner Portal
+Partner Licensing
+Partner Renewals
+Partner Training
+Margin Builder
+Opportunity Registration
+Financial Benefits
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+/Security Response/
+Bloodhound.ELAM.9
+
+
+
+
+
+
+
+
+					Add
+					
+
+
+
+
+
+
+	Add Bookmark or Share
+	
+Google+
+
+Technorati
+
+Digg
+
+Delicious
+
+Reddit
+
+StumbleUpon
+
+Twitter
+
+LinkedIn
+
+Facebook
+
+Newsvine
+ 
+
+
+
+
+
+Bloodhound.ELAM.9
+
+
+
+
+
+summary
+
+
+technical details
+
+
+removal
+
+
+
+Printer Friendly Page
+
+
+
+
+
+
+Updated: 
+
+March 13, 2012 9:51:43 AM
+
+Type: 
+
+Other
+
+Risk Impact: 
+
+High
+
+Systems Affected: 
+
+Windows 8
+
+
+
+BehaviorBloodhound.ELAM.9 is a detection technology designed for the Windows 8 operating system to detect early launching threats such as malicious driver files.
+
+Antivirus Protection Dates
+
+
+Initial Rapid Release version October 2, 2014 revision 022
+
+Latest Rapid Release version October 2, 2014 revision 022
+
+Initial Daily Certified version February 21, 2012 revision 033
+
+Latest Daily Certified version February 21, 2012 revision 033
+
+Initial Weekly Certified release date February 22, 2012
+
+Click here for a more detailed description of Rapid Release and Daily Certified virus definitions.
+
+
+Summary| Technical Details| Removal
+
+
+
+
+ 
+
+
+
+Search Threats
+Search by nameExample: W32.Beagle.AG@mm
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFORMATION FOR:
+
+Enterprise
+Small Business
+Consumer (Norton)
+Partners
+
+
+
+OUR OFFERINGS:
+
+Products
+Products A-Z
+Services
+Solutions
+
+
+
+CONNECT WITH US:
+
+Support
+Connect Communities
+Security Center
+Find a Partner
+Events
+Webcasts
+Contact Us
+
+
+
+ABOUT SYMANTEC
+
+CustomerOne
+Performance Center
+Newsroom
+Careers
+Investor Relations
+Corporate Responsibility
+Blue Coat Acquisition
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+ 
+
+
+   
+		©1995 - 2017 Symantec Corporation 	
+
+About Symantec|Careers|Events|News|Site Map|Legal Repository|Privacy|Cookies|Contact
+   
+
+
+
+
+
+
+
+
+
+

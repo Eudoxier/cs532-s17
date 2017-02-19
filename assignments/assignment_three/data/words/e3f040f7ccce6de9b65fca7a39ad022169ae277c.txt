@@ -1,0 +1,1024 @@
+
+
+
+
+
+
+
+
+
+
+
+        Menü
+    
+
+
+
+
+        Suchen
+    
+
+
+
+
+
+
+Gebärdensprache
+
+
+
+
+Leichte Sprache
+
+
+
+
+
+
+
+Menü
+
+
+
+
+
+
+
+
+
+Suchtext 
+
+
+
+
+
+
+
+
+
+Startseite
+The­men
+
+Cy­ber-Si­cher­heit
+
+Stra­te­gie
+Ak­ti­vi­tä­ten und In­itia­ti­ven
+
+Ge­fähr­dungs­la­ge 
+
+Emp­feh­lun­gen
+
+Vor­ge­hens­wei­sen / Hil­fe­stel­lun­gen / Dienst­leis­tun­gen
+
+Tools
+
+
+
+Di­gi­ta­le Ge­sell­schaft
+
+Si­che­re di­gi­ta­le Ge­sell­schaft
+
+Cloud Com­pu­ting
+
+Bio­me­trie
+
+Elek­tro­ni­sche Iden­ti­tä­ten
+
+Elek­tro­ni­sche Si­gna­tur
+
+RFID
+
+E-Go­ver­n­ment
+
+Freie Soft­ware / OSS
+
+Smart Me­te­ring Sys­tems
+
+Draht­lo­se Sen­sor­netz­wer­ke
+
+Schad­programme
+Eu­ro­päi­sche Bür­ger­in­itia­ti­ve
+
+eI­DAS-Ver­ord­nung
+
+eHe­alth
+
+Di­gi­ta­le Grund­auf­zeich­nun­gen
+
+
+
+In­dus­trie und Kri­ti­sche In­fra­struk­tu­ren
+
+IT-Si­cher­heits­ge­setz
+
+Stra­te­gie
+
+Ak­ti­vi­tä­ten und In­itia­ti­ven
+
+Ge­fähr­dungs­la­ge
+Emp­feh­lun­gen
+
+Tools
+
+
+
+IT-Grund­schutz
+
+IT-Grund­schutz-Ka­ta­lo­ge
+
+BSI-Stan­dards
+
+IT-Grund­schutz-Schu­lung
+
+IT-Grund­schutz Tools
+
+IT-Grund­schutz-Zer­ti­fi­kat
+IT-Grund­schutz In­ter­na­tio­nal
+IT-Grund­schutz Über­blick
+Leit­fa­den In­for­ma­ti­ons­si­cher­heit
+Über­blicks­pa­pie­re
+Mo­der­ni­sie­rung IT-Grund­schutz
+
+Dow­n­load
+IT-Grund­schutz In­ter­na­tio­nal
+Kon­takt
+IT-Grund­schutz­tag
+
+
+Kryp­to­tech­no­lo­gie
+
+Smart Me­te­ring Sys­tems
+
+SI­NA
+
+Chi­as­mus
+Pro­to­kol­l­ana­ly­se
+Gpg4win
+El­cro­Dat 6-2
+
+Ab­strahl­si­cher­heit
+
+
+
+Si­cher­heits­be­ra­tung
+
+Si­cher­heits­be­ra­tung
+Ma­te­ri­el­ler und IT-Ge­heim­schutz
+
+In­fra­struk­tur­si­cher­heit
+
+IS-Re­vi­si­on
+
+IS-Pe­ne­tra­ti­ons­test / IS-Web­check
+Ar­beits­hil­fen
+
+Zu­las­sung
+
+Ver­an­stal­tun­gen
+Kon­takt
+In­ter­ner Be­reich
+
+
+
+Stan­dards und Kri­te­ri­en
+
+BSI-Stan­dards zur Internet-Si­cher­heit (ISi-Rei­he)
+
+For­ma­le Me­tho­den
+Min­dest­stan­dards
+
+
+
+Zer­ti­fi­zie­rung und An­er­ken­nung
+
+Zer­ti­fi­zie­rung von Pro­duk­ten
+
+Zer­ti­fi­zie­rung von Ma­na­ge­ment­sys­te­men
+
+Kom­pe­tenz­fest­stel­lung und Zer­ti­fi­zie­rung von Per­so­nen
+
+An­er­ken­nung von Stel­len und Zer­ti­fi­zie­rung von IT-Si­cher­heits­dienst­leis­tern
+
+Ver­bes­se­rungs­ma­na­ge­ment
+Lis­ten
+
+
+
+
+
+Das BSI
+
+Der Prä­si­dent
+Auf­ga­ben
+
+Ab­tei­lung B
+Ab­tei­lung CK
+Ab­tei­lung KT
+Ab­tei­lung D
+Ab­tei­lung Z
+FAQ Auf­ga­ben des BSI
+
+
+
+Ge­setz
+Leit­bild
+BSI Kos­ten­ver­ord­nung
+Kar­rie­re im BSI
+
+Stel­len­an­ge­bo­te
+Stu­die­ren­de
+
+Ein­bli­cke
+
+Per­spek­ti­ven
+
+Aus­bil­dung
+Kon­takt und FAQ
+
+
+
+Ver­ga­ben im BSI
+His­to­rie
+Weg­be­schrei­bun­gen
+
+
+Presse
+
+Pres­se­mit­tei­lun­gen
+Pres­sear­chiv
+
+2016
+2015
+2014
+2013
+2012
+
+
+Kurz­mel­dun­gen
+Pres­se­stel­le
+Pres­se­ver­tei­ler
+Me­dia­thek
+
+Vi­deos
+Au­dio­bei­trä­ge
+
+
+Bild­ma­te­ri­al
+
+
+Publikationen
+
+Min­dest­stan­dards
+
+SSL/TLS-Pro­to­koll
+Schnitt­stel­len­kon­trol­le
+Kon­takt
+
+
+Bro­schü­ren
+BSI-Stan­dards
+
+BSI-Stan­dard 100-1: Ma­na­ge­ment­sys­te­me für In­for­ma­ti­ons­si­cher­heit
+BSI-Stan­dard 100-2: IT-Grund­schutz-Vor­ge­hens­wei­se
+BSI-Stan­dard 100-3: Ri­si­ko­ana­ly­se auf der Ba­sis von IT-Grund­schutz
+BSI-Stan­dard 100-4: Not­fall­ma­na­ge­ment
+
+BSI-Stan­dards (Drafts)
+
+
+BSI-Ma­ga­zin
+
+Jah­res­be­rich­te
+
+
+La­ge­be­rich­te
+BSI-Fo­rum in der <kes>
+Tech­ni­sche Richt­li­ni­en
+
+Lis­te TR nach Än­de­rungs­da­tum
+
+
+Stu­di­en
+
+
+Ser­vice
+
+Ak­tu­el­les
+
+CERT Bund -Mel­dun­gen
+Newslet­ter
+
+So­ci­al Me­dia
+RSS
+Stel­len­an­ge­bo­te
+
+
+Ver­an­stal­tun­gen
+
+Jah­res­über­sicht
+Deut­scher IT-Si­cher­heits­kon­gress
+
+BSI im Dia­log
+ECSM 2016
+
+IT-Grund­schutz­tag
+
+
+FAQ
+
+Auf­ga­ben des BSI
+All­ge­mei­ne Fra­gen
+An­for­de­rungs­ka­ta­log (C5)
+
+CERT-BUND
+Com­pu­ter­vi­ren
+Da­ten­schutz­recht­li­che Fra­gen
+Elek­tro­ni­sche Si­gna­tur
+Eva­lu­ie­rung und Zu­las­sung
+GSTOOL
+IS-Re­vi­si­on
+IT-Grund­schutz
+IT-Si­cher­heits­ge­setz
+Lausch­ab­wehr
+Fra­gen zur Mel­de­pflicht 
+Mo­bil­funk
+Per­so­nal­aus­weis
+Per­so­nal Fi­re­wall
+Smart Me­ter Gate­way Ad­mi­nis­tra­ti­on
+Spam E-Mails
+Straf­ta­ten im Internet
+Zer­ti­fi­zie­rung
+
+
+Kon­takt
+
+Kon­tak­te zu aus­ge­wähl­ten The­men
+Om­buds­per­son
+
+
+Weg­be­schrei­bun­gen
+
+
+
+English
+
+
+Kon­takt
+
+
+Login
+
+
+Leich­te Spra­che
+
+
+Ge­bär­den­spra­che
+
+
+
+
+
+
+
+Bundesamt für Sicherheit in der Informationstechnik
+
+Springe direkt zu:
+
+
+Inhalt
+Hauptmenü
+Suche
+ 
+
+
+
+Servicemenü
+Leich­te Spra­cheGe­bär­den­spra­cheEnglishKon­taktLogin
+ 
+
+
+
+
+
+Suche
+
+
+
+
+
+
+
+
+Suchtext 
+
+
+
+
+
+
+ 
+
+Hauptmenü
+
+
+
+The­men
+Unternavigationspunkte
+
+
+
+
+
+Cy­ber-Si­cher­heit
+Di­gi­ta­le Ge­sell­schaft
+In­dus­trie und Kri­ti­sche In­fra­struk­tu­ren
+
+
+
+
+IT-Grund­schutz
+Kryp­to­tech­no­lo­gie
+Si­cher­heits­be­ra­tung
+
+
+
+
+Stan­dards und Kri­te­ri­en
+Zer­ti­fi­zie­rung und An­er­ken­nung
+
+
+
+
+
+
+
+
+
+Das BSI
+Unternavigationspunkte
+
+
+
+
+
+Der Prä­si­dent
+Auf­ga­ben
+Ge­setz
+
+
+
+
+Leit­bild
+BSI Kos­ten­ver­ord­nung
+Kar­rie­re im BSI
+
+
+
+
+Ver­ga­ben im BSI
+His­to­rie
+Weg­be­schrei­bun­gen
+
+
+
+
+
+
+
+
+
+Presse
+Unternavigationspunkte
+
+
+
+
+
+Pres­se­mit­tei­lun­gen
+Pres­sear­chiv
+Kurz­mel­dun­gen
+
+
+
+
+Pres­se­stel­le
+Pres­se­ver­tei­ler
+Me­dia­thek
+
+
+
+
+Bild­ma­te­ri­al
+
+
+
+
+
+
+
+
+
+Publikationen
+Unternavigationspunkte
+
+
+
+
+
+Min­dest­stan­dards
+Bro­schü­ren
+BSI-Stan­dards
+
+
+
+
+BSI-Ma­ga­zin
+La­ge­be­rich­te
+BSI-Fo­rum in der <kes>
+
+
+
+
+Tech­ni­sche Richt­li­ni­en
+Stu­di­en
+
+
+
+
+
+
+
+
+
+Ser­vice
+Unternavigationspunkte
+
+
+
+
+
+Ak­tu­el­les
+Ver­an­stal­tun­gen
+
+
+
+
+FAQ
+Kon­takt
+
+
+
+
+Weg­be­schrei­bun­gen
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+Aktuell
+
+
+weitere Meldungen
+
+
+
+Übersicht
+Bürger
+Wirtschaft
+Wissenschaft
+Verwaltung
+
+
+ - Schwerpunktthema:News- Publikationsdatum:16.02.2017Multiplikatoren bereit für IT-Sicherheitsgesetz
+ - Schwerpunktthema:News- Publikationsdatum:14.02.2017Testat nach BSI C5 für den Cloud-Anbieter Box
+ - Schwerpunktthema:News- Publikationsdatum:10.02.2017Secure CA: BSI erteilt Zertifikate an T-Systems
+ - Schwerpunktthema:Karriere- Publikationsdatum:Das BSI als Arbeitgeber: 180 neue Köpfe für eine gemeinsame Mission gesucht
+ - Schwerpunktthema:Thema- Publikationsdatum:IT-Sicherheitsgesetz: 
+Informationen und Registrierung
+
+
+
+Termine
+
+
+zum Kalender
+
+
+
+
+
+Feb
+
+21
+
+
+16. Cyber-Sicherheits-Tag
+
+
+
+
+
+Mär
+
+02
+
+
+1. Workshop 2017 zum C5 (Cloud …
+
+
+
+
+
+Mär
+
+07
+
+
+BSI im Dialog mit der Wissenschaft
+
+
+ 
+
+
+
+
+
+
+
+
+
+CERT-Bund: Meldungen
+
+
+weitere Meldungen
+
+
+
+
+
+
+            Risikostufe
+        
+
+            3
+        
+
+
+
+		  SPICE: Zwei Schwachstellen ermöglichen u.a. die Ausführung beliebigen Programmcodes
+	    
+
+          17.02.2017; CB-K17/0209 Update 4
+        
+
+
+
+
+
+            Risikostufe
+        
+
+            3
+        
+
+
+
+		  PyCrypto: Eine Schwachstelle ermöglicht das Ausführen beliebigen Programmcodes
+	    
+
+          17.02.2017; CB-K17/0079 Update 2
+        
+
+
+
+
+
+            Risikostufe
+        
+
+            4
+        
+
+
+
+		  ISC BIND: Eine Schwachstellen ermöglicht einen Denial-of-Service-Angriff
+	    
+
+          17.02.2017; CB-K17/0226 Update 5
+        
+
+
+
+
+
+            Risikostufe
+        
+
+            4
+        
+
+
+
+		  Oracle MySQL, MariaDB: Mehrere Schwachstellen ermöglichen u.a. die Übernahme des MySQL Servers
+	    
+
+          17.02.2017; CB-K17/0098 Update 7
+        
+
+
+
+
+
+
+
+
+
+
+15. Deutscher IT-SicherheitskongressDas Motto des 15. Deutschen IT-Sicherheitskongresses: "Digitale Gesellschaft zwischen Risikobereitschaft und Sicherheitsbedürfnis". Drei Tage lang diskutieren die Teilnehmer über den Stand der nationalen und internationalen Entwicklung zur IT-Sicherheit. Ziel des Kongresses ist es, das Thema IT-Sicherheit aus unterschiedlichen Blickwinkeln zu beleuchten, Lösungsansätze vorzustellen und weiterzuentwickeln. Eine begleitende Ausstellung ergänzt das Vortragsprogramm.15. Deutscher IT-Sicherheitskongress
+
+
+
+
+
+BSI-Angebote für mehr IT-Sicherheit in Deutschland
+
+
+
+
+
+    Beratung
+  
+
+
+
+Si­cher­heits­be­ra­tung
+
+
+Ma­te­ri­el­ler und IT-Ge­heim­schutz
+
+
+
+
+
+
+
+    Zertifizierung
+  
+
+
+
+Zer­ti­fi­zie­rung nach CC
+
+
+Zer­ti­fi­zie­rung nach TR
+
+
+
+
+
+
+
+    Schulungen
+  
+
+
+
+IT-Grund­schutz-Schu­lung
+
+
+CC-Eva­lua­tor &
+Com­mon-Cri­te­ria-Schu­lung
+
+
+
+
+
+
+
+    Schutz
+  
+
+
+
+IT-Grund­schutz-Ka­ta­lo­ge
+
+
+CERT-Bund
+
+
+
+
+
+
+
+    Publikationen
+  
+
+
+
+Tech­ni­sche Richt­li­ni­en
+
+
+BSI-Ma­ga­zin
+
+
+
+
+
+
+
+    Veranstaltungen
+  
+
+
+
+IT-Grund­schutz­tag
+
+
+Ver­an­stal­tun­gen
+
+
+
+
+
+
+
+    Kooperationen
+  
+
+
+
+Al­li­anz für Cy­ber-Si­cher­heit
+
+
+UP KRI­TIS
+
+
+
+
+
+
+
+
+
+Mit dem BSI verbinden:
+
+
+
+
+
+Facebook
+
+
+
+
+
+
+
+Xing
+
+
+
+
+
+
+
+Twitter
+
+
+
+
+
+
+
+RSS
+
+
+
+
+
+
+
+
+Seite teilen
+
+
+
+Facebook
+
+
+Twitter
+
+
+Google+
+
+
+Xing
+
+
+
+
+
+
+Sie sind hier:
+Startseite
+
+
+
+
+
+Themen
+
+Cy­ber-Si­cher­heit
+Di­gi­ta­le Ge­sell­schaft
+IT-Grund­schutz
+In­dus­trie und Kri­ti­sche In­fra­struk­tu­ren
+Kryp­to­tech­no­lo­gie
+Si­cher­heits­be­ra­tung
+Stan­dards und Kri­te­ri­en
+Zer­ti­fi­zie­rung und An­er­ken­nung
+
+
+
+Das BSI
+
+BSI-Ma­ga­zin
+His­to­rie
+Ge­setz
+Leit­bild
+Auf­ga­ben
+BSI Kos­ten­ver­ord­nung
+Kar­rie­re im BSI
+Weg­be­schrei­bun­gen
+
+
+
+Presse
+
+Pres­sear­chiv
+Pres­se­stel­le
+Pres­se­ver­tei­ler
+Kurz­mel­dun­gen
+Me­dia­thek
+Bild­ma­te­ri­al
+
+
+
+Publikationen
+
+Min­dest­stan­dards
+Bro­schü­ren
+BSI-Stan­dards
+BSI-Ma­ga­zin
+La­ge­be­rich­te
+Tech­ni­sche Richt­li­ni­en
+Stu­di­en
+
+
+
+Service
+
+Ak­tu­el­les
+So­ci­al Me­dia
+RSS
+Stel­len­an­ge­bo­te
+FAQ
+Weg­be­schrei­bun­gen
+
+
+
+
+
+
+
+
+Da­ten­schutz
+Be­nut­zer­hin­wei­se
+Haf­tungs­aus­schluss
+Über­sicht
+Im­pres­s­um
+
+
+
+© Bundesamt für Sicherheit in der Informationstechnik
+
+
+
+
+
+
+
+ 
+
+
+

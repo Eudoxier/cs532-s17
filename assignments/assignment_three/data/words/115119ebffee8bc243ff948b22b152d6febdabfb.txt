@@ -1,0 +1,456 @@
+
+
+
+
+Skip to content
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+
+Threat Intelligence Services
+
+Threat Analysis ServicesResponse and Take-Down ServiceSpecial Investigations Unit 
+Machine-Readable Threat Intelligence
+
+Cyveillance Infection Records Data FeedCyveillance Malicious URL Data FeedCyveillance Malicious C2 Data FeedCyveillance Phishing URL Data FeedCyveillance New Domain Data Feed 
+Threat Intelligence Platform
+
+ScoutPrimeCyber Threat CenterScoutVisionScoutInterXect 
+Threat Mitigation
+
+ScoutShieldDNS DefenderNetSentryNetDefender 
+
+Solutions
+
+Dynamic Threat DefenseSolutions by IndustrySolutions by RolePhishing Solutions
+Resources
+
+Resource CenterThreat MapTrainingProfessional ServicesSupport
+News & Events
+
+In the NewsEventsPress ReleasesAwards & Memberships
+BlogPartners
+
+LookingGlass Partner ProgramLookingGlass PartnersApply Now
+About Us
+
+LeadershipCareersContact Us
+ 
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+THREAT INTELLIGENCE-DRIVEN SECURITY
+
+
+Protect your company, your brand, and your employees.
+
+
+
+Explore our solutions
+
+
+
+
+
+
+
+ACQUIRE DATA. MANAGE INTELLIGENCE. DEFEND ASSETS.
+
+
+
+LookingGlass Cyber Solutions delivers unified threat protection against sophisticated cyber attacks to global enterprises and government agencies by operationalizing threat intelligence across its end-to-end portfolio. Scalable threat intelligence platforms and network-based threat response products consume our machine-readable data feeds to provide comprehensive threat-driven security.
+
+
+Augmenting the solutions portfolio is a worldwide team of security analysts who continuously enrich our data feeds and provide customers unprecedented understanding and response capability into cyber, physical and 3rd party risks. Prioritized, relevant and timely insights enable customers to take action on threat intelligence across the different stages of the attack life cycle.
+
+
+
+
+Schedule a demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Acquire Data.
+
+
+
+
+
+LookingGlass begins by casting a wide net in our acquisition of raw data. Your internal security teams are challenged with gaining a clear and complete picture of the threat landscape. That’s why LookingGlass looks beyond structured data sets and known threats to uncover the key information needed to make informed, timely decisions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Manage Intelligence.
+
+
+
+
+
+Once data has been acquired and enriched, LookingGlass provides innovative Threat Intelligence Platforms (TIP) to manage high volumes of intelligence. Our platforms identify threats outside of an organization’s environment and enable analysts to see how assets within their own environment are interacting with external threats.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Defend Assets.
+
+
+
+
+
+LookingGlass defense solutions operationalize threat intelligence and provide automation to block all threats, including the most critical threats endangering your organization. They’re fully integrated with actionable threat intelligence originating from high-quality data feeds, allowing for automated threat mitigation at machine speeds.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End-to-End Threat Intelligence-Driven Security
+
+
+
+
+
+From data acquisition and intelligence management to human analysis and threat defense, LookingGlass provides end-to-end security solutions. Using data that has been automated and enriched, LookingGlass operationalizes threat intelligence at multiple points along the kill chain, prioritizing threats and preventing attacks from damaging your company, your brand, and your employees.
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Machine-Readable Threat Intelligence (MRTI)
+
+
+Automated and enriched high quality threat data.
+
+
+
+
+
+Machine-Readable Threat Intelligence automates our intensive collection and classification of threat data across the Internet – from surface and deep web to the darknet. Our security analysts then enrich that data, enabling you to block bad actors with 99% accuracy.
+
+
+Learn More
+Schedule a Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Threat Intelligence Platforms
+
+
+Aggregate, score, and manage large volumes of threat intelligence.
+
+
+
+
+
+LookingGlass' Threat Intelligence Platforms equip your security teams to view the global internet through a single pane of glass, correlate external threats with internal network telemetry, and provide a single platform for your analysts to analyze, share, and monitor threats.
+
+
+Learn More
+Schedule a Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Threat Mitigation
+
+
+Operationalize threat intelligence and automate defense.
+
+
+
+
+
+LookingGlass' threat mitigation solutions operationalize threat intelligence and provide automation to block threats. They minimize the time gap between the identification of a threat and the response, stopping attacks before they occur.
+
+
+Learn More
+Schedule a Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Threat Intelligence Services
+
+
+Augment your security team with our specialized analysts.
+
+
+
+
+
+LookingGlass' Threat Intelligence Services supplements, enhances, and ultimately strengthens your in-house security team through three tiers of support: Threat Analysis, Response and Takedown Services, and our Special Investigations Unit.
+
+
+Learn More
+Schedule a Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The latest
+
+NewsPress ReleaseEventsBlogNew products of the week 2.6.17 : ScoutShield Threat Intelligence GatewayPosted February 6, 2017 | Uncategorized | By Alyssa ShamesRead moreLookingGlass Intros Automated Security AppliancePosted February 2, 2017 | Uncategorized | By Alyssa ShamesRead moreLookingGlass Recognized as Best Overall Security Company by Info Security Products GuidePosted February 14, 2017 | Uncategorized | By Alyssa ShamesRead moreLookingGlass Launches ScoutShield a Zero-Touch Threat Intelligence GatewayPosted January 31, 2017 | Uncategorized | By Alyssa ShamesRead moreFS-ISAC Annual Summit 2017 – Lake Buena Vista, FLPosted January 21, 2017 | Uncategorized | By Dina EvansRead moreAFCEA West – San Diego Convention CenterPosted January 21, 2017 | Uncategorized | By Dina EvansRead moreWeekly Threat Intelligence Brief: February 14, 2017Posted February 14, 2017 | Uncategorized | By Alyssa ShamesRead moreWeekly Phishing Activity: February 13, 2017Posted February 13, 2017 | Uncategorized | By Alyssa ShamesRead more 
+
+
+
+
+
+
+
+
+
+
+Products & Solutions 
+Threat Intelligence Services
+Machine-Readable Threat Intelligence
+Threat Intelligence Platform
+Threat Mitigation
+Dynamic Threat Defense
+Solutions by Industry
+Solutions by Role
+Phishing Solutions
+ 
+
+ResourcesResource Center
+Threat Map
+Training
+Support
+Partners
+ 
+
+Contact 
+
+ Headquarters 
+
+1-443-844-3004
+
+
+
+
+
+
+ Sales 
+
+1-888-SCOUT-93
+
+
+
+
+
+
+ Support 
+
+1-888-SCOUT-93
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ©2017 LookingGlass Cyber Solutions, Inc. All rights reserved.
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

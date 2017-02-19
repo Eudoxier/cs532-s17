@@ -1,0 +1,338 @@
+
+
+
+
+
+Skip to content ↓ | 
+	Skip to navigation ↓
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+The State of Security
+
+
+News. Trends. Insights.
+
+
+Tripwire, Inc.
+
+
+
+
+
+
+Featured Articles
+Latest Security News
+Topics
+
+Endpoint Detection & Response
+Government
+ICS Security
+Incident Detection
+IT Security and Data Protection
+Off Topic
+Regulatory Compliance
+Risk-Based Security for Executives
+Security Awareness
+Security Slice
+Tripwire News
+Vulnerability Management
+
+
+Resources
+
+Podcasts
+Videos
+
+
+About
+
+About The State Of Security
+Tripwire Contributors
+Contact Us
+
+
+Explore Tripwire
+
+Security Configuration Management
+Vulnerability Management
+Endpoint Detection & Response
+Log Management
+Security Intelligence
+PCI Compliance
+NERC Compliance
+
+
+Tripwire.com  
+
+
+
+
+
+Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksDavid BissonFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesGraham CluleyFeb 16, 2017Cyber Insurance Coverage ConcernsJohn WalkerFeb 15, 2017New Research Highlights Top Cyber-Attack Concerns for 2017Ray LapenaFeb 15, 2017
+
+
+
+ 
+
+Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksDavid BissonFeb 16, 2017Featured Articles 
+
+
+
+ 
+
+More Yahoo users warned of malicious account access via forged cookiesGraham CluleyFeb 16, 2017IT Security and Data Protection 
+
+
+
+ 
+
+Cyber Insurance Coverage ConcernsJohn WalkerFeb 15, 2017Featured Articles 
+
+
+
+ 
+
+New Research Highlights Top Cyber-Attack Concerns for 2017Ray LapenaFeb 15, 2017Tripwire News 
+
+
+
+ 
+
+4 Tips for a Successful OT & IT Security MarriageKeirsten BragerFeb 14, 2017ICS Security 
+
+
+
+ 
+
+Check that Czech Post Email! It Could be a Smishing ScamDavid BissonFeb 14, 2017Featured Articles 
+
+
+
+ 
+
+Hacker Mindset: The Future of EncryptionJames WrightFeb 13, 2017Security Awareness 
+
+
+
+ 
+
+The Ransomware Decryption Deception: How Various Scammers Trick Ransomware Victims Into Paying MoreTripwire Guest AuthorsFeb 12, 2017Featured Articles 
+
+
+
+ 
+
+One Researcher’s Plan to Broadside Known Windows Tech Support ScammersDavid BissonFeb 12, 2017Off Topic 
+
+
+
+ 
+
+Security Bulletins on TrialTyler RegulyFeb 9, 2017Off Topic 
+
+
+
+ 
+
+French man sues Uber after privacy bug led wife to suspect adulteryGraham CluleyFeb 9, 2017IT Security and Data Protection 
+
+
+
+ 
+
+January 2017: The Month in RansomwareTripwire Guest AuthorsFeb 8, 2017Featured Articles 
+
+
+
+ 
+
+P2P Session: Metrics for Managing and Understanding Patch FatigueTyler RegulyFeb 8, 2017Off Topic 
+
+
+
+ 
+
+What’s on Tap for Tripwire at RSA Conference 2017Maritza SantillanFeb 7, 2017Tripwire News 
+
+
+
+ 
+
+Information Security Professional: A Song for the Unheard HeroTripwire Guest AuthorsFeb 7, 2017Featured Articles 
+
+
+
+ 
+
+Security & the ‘Weaponization’ of MisinformationTripwire Guest AuthorsFeb 7, 2017Security Awareness 
+
+
+
+ 
+
+Integrating IT and OT: Design Challenges in Critical Infrastructure SecurityLane ThamesFeb 6, 2017Off Topic 
+
+
+
+ 
+
+Autofill FUDTyler RegulyFeb 6, 2017Off Topic 
+
+
+
+ 
+
+The Evolution of PhishingTripwire Guest AuthorsFeb 5, 2017Security Awareness 
+
+
+
+ 
+
+The Shamoon v2 Saga ContinuesKathy TrahanFeb 5, 2017Featured Articles 
+
+
+
+More News Stories
+
+
+
+Latest Security News
+Canada to Enact Legislation that Will Require All Businesses to Report Data BreachesFeb 17, 2017Rasputin Hacker Uses SQLi to Hack 60 Universities and Government AgenciesFeb 16, 2017Romance Scams Cost Victims $230M in 2016, Reports FBIFeb 15, 2017New Proof-of-Concept Ransomware Can Target PLCs at Industrial SitesFeb 14, 2017Man Jailed Indefinitely for Refusing to Decrypt Hard DrivesFeb 13, 2017Arby’s Confirms Payment Card Breach at Corporate Restaurant LocationsFeb 10, 2017Former NSA Contractor Indicted for Stealing 20 Years’ Worth of National Defense SecretsFeb 9, 2017Memory-Based Malware Uses PowerShell Scripts, Pentest Tools to Evade DetectionFeb 8, 2017Vizio Agrees to $2.2M Settlement Over ‘Invasive’ Data Collection from Smart TVsFeb 7, 2017InterContinental Hotels Group Confirms Payment Card Breach at 12 LocationsFeb 7, 2017Foreign Intelligence Agency Targeted Norway’s Labour Party, Report PoliceFeb 6, 2017Ransomware Attack Causes County to Shut Down IT SystemFeb 3, 2017Police Charge Ohio Homeowner with Arson Using Pacemaker DataFeb 2, 2017Identity Thieves Targeting PayPal Users In Sophisticated Phishing CampaignFeb 1, 2017More than 10% of the Internet Population Is Now Using an Ad-Blocker, Finds ReportFeb 1, 2017Facebook Creates Authentication Feature for GitHub Account RecoveryJan 31, 2017Netflix Membership Piracy Scam Tricks Users into Installing RansomwareJan 30, 2017Facebook Introduces USB Security Key for Stronger Account ProtectionJan 27, 2017Police Department Loses Digital Evidence Dating Back to 2009 in Ransomware AttackJan 27, 2017U.S. Top-Ranked Globally in 2016 Data Breaches, Finds ReportJan 26, 2017Hacker Sentenced to Nine Months in Jail for ‘Celebgate’ ScandalJan 26, 2017SpyNote RAT Masquerades as Netflix App to Infect Android DevicesJan 25, 2017Sage 2.0 Ransomware Using Malspam and Macros to Infect Windows UsersJan 24, 2017Heartbleed Still a Heartache 1,000 Days InJan 23, 2017Lloyds Bank Suffered Massive DDoS Cyber Attack Lasting Two DaysJan 23, 2017NeverQuest Banking Trojan Operator Arrested by Spanish AuthoritiesJan 23, 2017
+ 
+
+
+
+
+
+
+
+
+
+Twitter
+LinkedIn
+RSS
+Google+
+Facebook
+SlideShare
+YouTube
+Flickr
+
+
+
+
+Free eBook
+
+Security Configuration Management For Dummies
+Download Now
+
+
+
+Featured
+Recent
+
+
+
+
+
+Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesFeb 16, 2017Cyber Insurance Coverage ConcernsFeb 15, 2017New Research Highlights Top Cyber-Attack Concerns for 2017Feb 15, 20174 Tips for a Successful OT & IT Security MarriageFeb 14, 2017
+
+
+Canada to Enact Legislation that Will Require All Businesses to Report Data BreachesFeb 17, 2017Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksFeb 16, 2017Rasputin Hacker Uses SQLi to Hack 60 Universities and Government AgenciesFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesFeb 16, 2017Cyber Insurance Coverage ConcernsFeb 15, 2017
+
+
+
+Tweets by @TripwireInc
+
+
+Topics 
+Government
+
+ICS Security
+
+Incident Detection
+
+IT Security and Data Protection
+
+Latest Security News
+
+Off Topic
+
+Regulatory Compliance
+
+Risk-Based Security for Executives
+
+Security Awareness
+
+Security Slice
+
+Tripwire News
+
+Vulnerability Management
+
+
+ 
+
+
+
+
+
+
+
+
+© 2017 Tripwire, Inc. All rights reserved. 
+
+
+Featured Articles
+Topics
+About
+Contributors
+Privacy Policy
+Tripwire.com
+ 
+
+
+Follow us
+Twitter
+LinkedIn
+Flickr
+YouTube
+Google+
+SlideShare
+Facebook The State of Security
+RSS
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

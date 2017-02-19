@@ -1,0 +1,450 @@
+
+
+
+
+
+
+About Marist
+Admission
+Academics
+Student Life
+Athletics
+Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Marist
+
+
+ 
+
+
+
+
+
+
+
+Computer Science and Mathematics
+
+
+About Us
+
+
+Advisory Board
+
+
+Academic Programs
+
+
+Research & Internships
+
+
+Faculty and Staff
+
+
+Services
+
+
+Student/Alumni Success
+
+
+
+
+Contact:
+
+Overview Video
+ 
+
+ 
+
+	Watch this video interview with Dean Roger Norton to learn more about the distinctive features of Marist's School of Computer Science and Mathematics.
+Watch Video 
+
+
+
+Contact:
+
+Email:
+Dr. Roger 
+Norton
+  Dean
+  845.575.3610
+
+
+
+
+
+
+
+
+home > academics > computer science and mathematics
+        
+
+
+
+
+
+
+
+Name: 
+
+Dr. Casimer   DeCusatis
+
+
+Title: 
+Assistant Professor
+
+
+Office Location: 
+
+Hancock Center 3014
+
+
+Extension: 
+(845) 575-3383
+
+
+Email: 
+casimer.decusatis@marist.edu
+
+
+Personal Web Page: 
+
+http://decusatis.net/casimer/
+
+
+Degrees Held: 
+
+	Ph.D. Electrical, Computer & Systems Engineering, Rensselaer Polytechnic Institute
+
+	M.S. Electrical, Computer & Systems Engineering, Rensselaer Polytechnic Institute
+
+	B.S. Engineering Science & Mechanics, Pennsylvania State University
+
+
+
+Certifications: 
+
+Engineering Intern (EIT) License, National Society of Professional Engineers
+
+
+
+Bio: 
+
+Dr. Casimer DeCusatis is an Assistant Professor with the Computer Science & Mathematics Department at Marist College, Poughkeepsie, NY.  He is a former IBM Distinguished Engineer and emeritus member of the IBM Academy of Technology, with extensive experience in cloud computing, optical data networking, SDN, NFV, and cybersecurity.  He is an IBM Master Inventor with over 140 patents, and recipient of several industry awards, including the IEEE Kiyo Tomiyasu Award, the Sigma Xi Walston Chubb Award for Innovation, the EDN Innovator of the Year Award, the Mensa Research Foundation Copper Black Award for Creative Achievement, the Penn State Outstanding Scholar Alumnus Award and Mark Luchinsky Memorial Lecture, and the IEEE/HKN Outstanding Young Electrical Engineer award (including a citation from the President of the United States and an American flag flown in his honor over the U.S. Capitol).  He is co-author of more than 150 technical papers, book chapters, and encyclopedia articles, and editor of the Handbook of Fiber Optic Data Communication (now in its 4rd edition).  He has also collaborated with faculty from Harvard Business School and Imperial College, London on innovation ecosystems for industry and academia.  Dr. DeCusatis received the M.S. and Ph.D. degrees from Rensselaer Polytechnic Institute (Troy, N.Y.) in 1988 and 1990, respectively, and the B.S. degree magna cum laude in the Engineering Science Honors Program from the Pennsylvania State University (University Park, PA) in 1986.    He is a Fellow of the IEEE, Optical Society of America, and SPIE (the international optical engineering society), a member of the Order of the Engineer, Tau Beta Pi, Eta Kappa Nu, Mensa, and various other professional organizations and honor societies; he was recognized as one of Sigma Xi’s Distinguished Members during their 125th anniversary celebration.  He is also Founder and Director of Hudson Valley FIRST Lego League (http://www.facebook.com/HudsonValleyFLL)  which offers over 1,000 students each year the opportunity to pursue their interest in science and technology.  His discussions on data networking are available on Twitter (@Dr_Casimer) or his monthly blogs for the OFC Conference (http://www.ofcconference.org/home/about/ofc-blog/ ). 
+ 
+
+
+Interests: 
+
+	Science fiction (particularly Dr. Who), Lego MindStorm Robotics, Big 10 college football
+ 
+
+
+Awards & Honors: 
+
+Outstanding Scholar Alumnus Award, Penn State University Scholars Program (2012)
+	 
+
+Sigma Xi Walston Chubb Award for Innovation (2011) presented for sustained innovative contributions to engineering and technology, including keynote at the Sigma Xi annual meeting
+
+	 
+
+IEEE Kiyo Tomiyasu Award (2002) presented for contributions to optical technologies and fiber optic communication, holding the promise of innovative applications in computer networks
+
+	 
+
+National Academy of Engineering's Frontiers of Engineering Symposium (2002) selected as one of the top 100 engineers in the nation
+
+	 
+
+Mensa Education and Research Foundation’s Copper Black Award for Creative Achievement (2002); for development of optical networking and disaster recovery systems such as those used during September 11, 2001
+
+	 
+
+Innovator of the Year, EDN magazine (2000); includes presentation of $10,000 scholarship
+
+	 
+
+IEEE/Eta Kappa Nu Outstanding Young Electrical Engineer Award (1999) presented for individual contributions to technology;  Recognition includes a citation from the President of the United States and an American flag flown in his honor over the U.S. Capitol, Washington, D.C.
+
+	 
+
+5 Best Technical Paper Awards – IEEE High Performance Switching & Routing (2012); IBM Academy TechConnect (2012, 2010); IEEE Hot Interconnects (2010); OSA Annual (1998)
+	 
+
+3 Photonics Spectra Circle of Excellence Awards for dense wavelength division multiplexing products developed with IBM, Nortel, and Cisco (1996, 2000, 2002)
+	 
+
+5 Research & Development 100 Awards for dense wavelength division multiplexing products developed with IBM, Nortel, Cisco, Adva, Ciena, and Huawei (2000, 2002, 2003, 2007, 2009)
+
+
+
+Publications: 
+
+	Over 150 refereed technical publications, over 70 conference presentations, author/editor of 5 books and numerous book chapters, encyclopedia articles, and other publications.  Some recent  research publications include the following:
+
+
+   C. DeCusatis and P. Mueller, “Virtual firewall performance as a waypoint on a software defined network”, Proc. IEEE 6th International Symposium on Cyberspace Safety and Security (CSS), part of the International Conference on High Performance Computing and Communications (HPCC), Paris, France (August 20-22, 2014)
+		 
+
+C. DeCusatis and R. Cannistra, “Dynamic management and provisioning of software defined cloud data centers”, Proc. NSF Enterprise Computing Conference (ECC), paper SC3101, June 8-10, Marist College, Poughkeepsie, NY (2014)
+		 
+
+T. Bundy, R. Cannistra, and C. DeCusatis, “Dynamic Software Defined Networking Infrastructure Test Bed at Marist College”, Video presentation, 2014 Internet2 Global Summit, Denver, Colorado (April 9, 2014) http://meetings.internet2.edu/2014-global-summit/detail/10003109/
+		 
+
+C. J. Sher-DeCusatis and C. DeCusatis, “Developing a software defined networking curriculum through industry partnership”, Proc. ASEE Annual Meeting, Hartford, CT (April 3-5, 2014) ** named among top 10 conference papers ** http://asee-ne.org/proceedings/2014/index.htm
+		 
+
+  C. DeCusatis, J. Ziskin, T. Bundy, “The rise of SDN optical networks; has automated provisioning arrived?“, invited presentation, Pacific Telecom Conference, Honolulu, Hawaii (January 2014) 
+
+C. DeCusatis, R. Cannistra, B. Carle, M. Johnson, J. Kapadia, Z. Meath, M. Miller, D.  Young, T. Bundy , G. Zussman, K. Bergman, A. Carranza, C. Sher-DeCusatis, A. Pletch, R. Ransom, “Enabling automatic provisioning in SDN cloud networks with NFV service chaining”, paper Tu21.4, Proc. OFC 2014 annual meeting, San Francisco, CA (March 9-14, 2014)
+		 
+
+  C. DeCusatis, “Enabling the cloud: data center as a network”, invited presentation, OFC 2014 annual meeting, San Francisco, CA (March 2014)
+		 
+
+ C. DeCusatis, “Software defined optical access: hope or hype ?”, invited presentation, OIDA 2014 meeting, San Francisco, CA (March 2014)
+		 
+
+  C. DeCusatis, “Optical interconnect networks for data communications”, IEEE Journal of Lightwave Technology, vol 32, no 4, p 544 – 552 (February 2014)
+		 
+
+  C. Dixon, D. Olshefski, V. Jain, C. DeCusatis, W. Felter, J. Carter, M. Banikazemi, V. Mann, J. Tracey, R. Recio, J. Kidambi, A. Biswas, and U. Shankar Nagaraj, “Software defined networking to support the software defined environment”, IBM Journal of Research & Development, vol 58, issue 2/3, p. 3.1 – 3.14 (March/May issue 2014)
+
+
+
+
+	 
+
+	 
+
+
+
+Exhibitions: 
+
+	Recent research exhibitions include Internet 2, SDN/NFV World Congress, IBM TechConnect, and Adva North America Technology Symposium
+
+
+
+Research Interests: 
+
+	Cloud Computing, Fiber Optical Networking and Wavelength Multiplexing, Data Communications, Software-Defined Networking, Network Function Virtualization, Cyber-Security  
+
+
+
+Conferences & Workshops: 
+
+	Over 70 conference presentations and workshops, some recent examples include the following:
+
+
+C. DeCusatis, “Software defined environments using IBM System Networking”, Proc. COSIN 2014, IBM Haifa, Israel (March 13, 2014)
+		 
+
+		C. DeCusatis, “Software-defined networking for data center interconnect and cloud computing”, Ethernet Expo 2012 (sponsored by Heavy Reading), Hilton New York, November 6-8, 2012 http://downloads.lightreading.com/lrlive/ethexp12/EENY_Day2.zip 
+		 
+
+		 C. DeCusatis, “Towards an Open Datacenter with an Interoperable Network (ODIN)”, invited paper, InterOp 2012, Las Vegas, NV (May 8, 2012)
+		 
+
+
+
+
+Affiliations: 
+
+IEEE Fellow (2004)
+
+Optical Society of America Fellow (2005)
+
+SPIE Fellow (2006) 
+
+Sigma Xi Distinguished Member (2011)
+
+IBM Academy of Technology Emeritus (inducted 2009) 
+
+Tau Beta Pi
+
+Eta Kappa Nu
+
+Order of the Engineer (inducted at the U.S. Military Academy, West Point)
+
+Mensa
+
+	 
+
+
+
+Presentations: 
+
+
+C. DeCusatis and L. Miano, “Cloud computing and software defined environments”, Pace University college of computer science and engineering seminar series, April 30, 2014
+
+C. DeCusatis, R. Cannistra, T. Bundy, “Software Defined Environments and Next Generation Networks: a tutorial”, Proc. Keystone Initiative for Network Based Education and Research (KINBER) 2014 annual meeting (an Internet2 affiliate), Harrisburg, PA, April 23-25, 2014
+		 
+
+C. DeCusatis, “SDN, NFV, and the cloud disruption: the next generation open data center interoperable network (ODIN)”, BrightTalk webinar, April 17, 2014 https://www.brighttalk.com/search?q=DeCusatis
+
+
+C. DeCusatis, “Trends in modern data centers” keynote presentation, New York City College of Technology Computer Engineering Technology Symposium, The City University of New York, NY (January 17, 2013)
+
+
+C. DeCusatis, “Software-defined networking for the Open Datacenter Interoperable Network (ODIN)”, Open Network Exchange 2013 (presented by Network World), University of Chicago Gleacher Center, Chicago, IL (May 14, 2013)  https://www.etouches.com/ehome/53138 
+		 
+
+
+
+
+Miscellaneous: 
+
+Books
+
+	1)  C. DeCusatis, Editor, Handbook of Fiber Optic Data Communication, Academic Press, N.Y., 4th edition, 600 pp (2013) - continuously in print since 1998
+
+	2) C. DeCusatis and P. Das,  Acousto-optics: Fundamentals and Applications, Artech House, Boston, Mass., 473 pp. (1991)                                                                     
+
+	3) C. DeCusatis, editor, Handbook of Applied Photometry, American Institute of Physics Press, N.Y., copublished with the Optical Society of America; Second Edition published by Springer Verlag, 463 pp. (1997)                                                                    
+
+	4) A. Abbate, C. DeCusatis, and P. Das, Wavelets and subbands: fundamentals and applications, Birkhauser Press, Boston, Mass., 551 pp. (2002)
+
+	5) C. DeCusatis, Editor, Fiber Optic Data Communication: Technological Trends and Advances, Academic Press, N.Y. 566 pp. (2002)
+
+	6) C. DeCusatis and C.J.S. DeCusatis, Fiber Optic Essentials, Elsevier/Academic Press, San Diego, CA, 271 pp. (2005)
+
+	7) C. DeCusatis, "Optical Fiber Communication Systems", 30 pp. in Encyclopedia of Electrical and Electronics Engineering (John G. Webster, Editor), John Wiley and Sons, NY (first edition, 1999; second edition, 2001, third edition, 2013)  (http://onlinelibrary.wiley.com/book/10.1002/047134608X) 
+
+Recent Issued Patents:
+
+	1) C. DeCusatis, R. Krishnamurthy, M. Onghena, and A. Rao, “Redundant power supply configuration for a data center”, Pat no 8,671,287 issued March 11, 2014 
+
+	2) C. DeCusatis and T. Gregg, “Method, system, and apparatus for flow control management in a data center Ethernet network over an extended distance”, pat no 8,737,228 issued May 29, 2014  
+	 
+
+	3) C. DeCusatis, D. Crisan, M. Gusat, and C. Minkenberg,  “Network data congestion management system (proactive)”, patent 8,755,390 issued June 18, 2014  ** IBM High Value Patent Award **
+
+	4)  J. Calvignac, C. DeCusatis, F. Verplanken, and D. Wind, “Hash collision reduction system”, pat no 8,762,399 issued June 26, 2014
+
+	5)   C. DeCusatis, R. Krishnamurthy, T. Nelson, A. Rao, and J. Torella, “Adaptive caching of data”, patent no 8,788,760 issued July 22, 2014
+
+	6)  C. DeCusatis, K. Kamble, and A. Kumbhare, “Multipath effectuation within singly contiguous network fabric via switching device routing logic programming”, patent no. 8,792,474 issued July 30, 2014
+
+
+
+
+
+
+Related Information:
+
+Summer Pre-College Institutes
+Institute for Data Center Professionals
+NYS Cloud Computing and Analytics Center
+
+  
+ 
+
+
+
+
+About Marist
+
+From the President
+History & Heritage
+Visitors' Center
+Marist at a Glance
+Financial Statements
+Board of Trustees
+Visitor Information
+Marist in Italy
+Administration
+Strategic Plan: 2011 - 2016
+
+
+
+Admission
+
+Freshman Students
+Transfer Students
+Adult Students (age 22 & older)
+Graduate Students
+International Students
+Military & Veterans
+Distance Learning
+Financial Aid & Scholarships
+
+
+
+Academics
+
+Academic Schools
+Majors & Academic Programs
+The Marist Core
+Academic Calendars
+Course Catalogs
+Distance Learning
+Library
+Marist International Programs
+Academic Resources
+Special Academic Opportunities
+Career Services
+
+
+
+Student Life
+
+First Year Programs
+Housing & Residential Life
+Marist Dining
+College Activities & Organizations
+Bookstore
+Computer Store
+Health Services
+Accommodations & Accessibility
+Counseling Services
+Campus Ministry
+LGBTQ Resources
+Senior Year Experience
+Student Conduct
+Safety & Security
+Marist ID/Marist Money
+
+
+
+
+
+
+
+Calendar |
+      Directories |
+      Site A-Z Index |
+      Map & Directions |
+      Giving to Marist |
+      Jobs at Marist
+
+        Marist College, 3399 North Road, Poughkeepsie, NY 12601 | 845.575.3000
+© Copyright 2017 Marist College. All Rights Reserved. Disclaimers | Privacy Policy | 
+      Mobile | Contact
+
+
+
+
+
+

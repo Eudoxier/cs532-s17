@@ -1,0 +1,40 @@
+  Investing #​{{::display_hashtag}} Investing #​{{::display_hashtag}} {{article.article.pretty_date}} {{article.metrics.page_views}} views   Edit Post{{circ_link.title}} While Investors Wait On The President To Sign Cybersecurity Bill, CyberArk Reports Earnings Tonight{{article.article.images.featured.caption}}Most Read{{contrib_block.display_advoice_brand}} {{contrib_block.display_voice_type}}{{contrib_block.display_author.name}}Voice Jay Somaney ,  {{contrib_block.display_author.type}}   Contributor {{contrib_block.display_author.type}} Contributor   Opinions expressed by Forbes Contributors are their own.Full BioRecent PostsPopular PostsFull profile →'">The author is a Forbes contributor. The opinions expressed are those of the writer.Loading ...Loading ...This story appears in the {{article.article.magazine.pretty_date}} issue of {{article.article.magazine.pubName}}. Subscribe
+
+(Photo by Tomohiro Ohsumi/Getty Images
+
+CyberArk Software, the Israeli cybersecurity provider, is set to report earnings after the close of regular market trading today.
+Wall Street analysts expect the company to report earnings of $0.33 per share on revenues of $63 million for the December quarter. For the current quarter ending in March, consensus is for earnings of $0.27 per share on revenues of $58 million. For full year 2017, current consensus is for earnings of $1.34 per share on revenues of $264 million.
+After a series of extremely high profile hacks that came to light last year including the 1.5 billion accounts compromised at Yahoo and theft of customer data from the likes of J.P. Morgan and Home Depot, cybersecurity has become an area of intense scrutiny, concern and focus not just in the private sector but also at the highest levels of our various government organizations. In fact, I have selected cybersecurity as a space that will have an outstanding 2017 from an investment point of view.
+
+
+
+
+
+
+
+
+
+
+Gallery 
+    
+Billionaire Ex-Hackers
+
+Launch Gallery
+
+       8 images 
+     
+
+
+
+
+
+
+Cybersecurity names have also been getting a lot of attention thanks to President Trump, who is expected to sign a cybersecurity executive order that will allow heads of various agencies to be personally tasked with preventing cyber attacks on key government organizations and agencies. The signing of the executive order on cybersecurity has been expected since last week, however, the president has not yet done so.
+Investors in CyberArk are expecting that the company will benefit from the executive order and there is also strong chatter that the company could make an attractive acquisition target given the fact that despite its smallish revenues, it's highly profitable company.
+
+
+Shares of CyberArk are expected to move $4.40 per share or 8.2%, in either direction, once the results are out this evening. There are currently 449k shares held short as per Nasdaq.com, so the chances of a short squeeze are almost nil.
+I expect that CyberArk to beat estimates for the December quarter and also slightly raise guidance going forward.
+Interestingly, the company has not missed Wall Street estimates the last four consecutive quarters, however, trading at almost 7x estimated revenues for 2017, CyberArk is not exactly cheap.
+I don't have any skin in CyberArk directly,  however I am putting my money where my mouth is and have positions in other cybersecurity companies that I feel provide a better risk-reward scenario in the near term and further out in 2017.
+(No positions)Follow me on twitter @jsomaney, find my other Forbes posts & articles from other platforms at jaysomaney.com where you can get my real-time opinion on the stock markets live daily.Start Gallery Page {{article.article.page + 1}} / {{article.article.pages.length}} Continue {{article.article.calledOutCommentCount||''}}Comment on this story Print Report Corrections Reprints & PermissionsTrending on Forbes {{channel_name}}false 

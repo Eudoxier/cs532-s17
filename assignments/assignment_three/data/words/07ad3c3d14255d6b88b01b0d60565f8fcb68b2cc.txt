@@ -1,0 +1,328 @@
+ 
+
+
+
+
+
+The Seven Most Dangerous New Attack Techniques: Summary of the RSA 2017 keynote session featuring top SANS experts5 Days Left to Save $400 on Threat Hunting and IR Summit
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+SANS Site Network
+
+Current SiteSecurity Training
+Choose a different site HelpSecurity Certification
+Internet Storm Center
+Graduate Degree Programs
+Security Awareness Training
+Cyber Defense
+Forensics & Incident Response
+Penetration Testing
+Industrial Control Systems
+Software Security
+Government Private Training
+
+
+
+
+
+
+
+
+
+
+
+
+Login  Create Account   
+
+
+
+
+
+Find Training
+
+Search For Training
+Upcoming Events
+Online Training
+Private Training
+Course List
+NetWars
+Without Travel
+Training Curricula »
+
+Cyber Defense
+System Administration
+Digital Forensic Investigations and Media Exploitation
+Penetration Testing
+Incident Response and Threat Hunting
+Management
+Secure Software Development
+Audit
+Intrusion Analysis
+Cyber Guardian
+Legal
+Industrial Control Systems
+
+
+
+
+Live Training
+
+Overview
+Search For Training
+Upcoming Events
+Summits
+Community Events
+Mentor
+Private Training
+Work Study
+COINS
+
+
+Online Training
+
+Overview
+Search For Training
+OnDemand
+vLive: Live Evening Courses
+Simulcast
+SelfStudy
+NetWars: Continuous
+DFIR NetWars: Continuous
+Private Training
+Security Awareness
+Specials
+
+
+Programs
+
+Overview
+Voucher Program
+CyberTalent
+ICS/SCADA
+Industrials & Infrastructure
+Cyber Guardian
+NetWars
+Cybersecurity Innovation Awards
+Commercial Enterprise Solutions
+CISSP Get Certified
+DoDD 8570
+DoDD 8140
+Instructor Development
+NICE Framework
+
+
+Resources
+
+Overview
+Reading Room
+Webcasts
+Newsletters
+Blogs
+Tip of The Day
+Posters
+Top 25 Programming Errors
+The Critical Security Controls
+Security Policy Project
+From Vendors
+Additional Resources
+Critical Vulnerability Recaps
+Affiliate Directory
+
+
+Vendor
+
+Overview
+Sponsorship
+Demographics
+Analyst Program
+Affiliate Program
+Webcasts
+Events
+WhatWorks
+CIS Critical Security Controls
+Contact
+
+
+About
+
+About SANS
+Why SANS?
+Instructors
+Contact
+FAQ
+Link to SANS
+Press Room
+
+PGP Key
+
+
+
+
+
+
+
+
+
+
+
+
+Webcasts
+
+
+
+
+
+To attend this webcast, login to your SANS Account or create your Account. 
+
+
+
+
+
+
+
+Complying with the General Data Protection Regulation: A Guide for Security Practitioners
+
+
+            Wednesday, March 8th, 2017 at 1:00 PM EST (18:00:00  UTC)    
+Benjamin Wright and Kevin Flynn
+
+SponsorYou can now attend the webcast using your mobile device!
+
+
+Overview
+The General Data Protection Regulation or GDPR is the latest amplification of the European Unions data security requirements that articulates measures to protect individuals and holds organizations accountable for data security. When it goes into effect, GDPR can apply widely to various organizations, including many without a physical presence in the European Union. In this webcast, we will explore this lengthy, complex regulation by focusing on the key steps your organization needs to take in order to comply. This includes how to get ready for the regulation; how to identify a Data Protection Officer and what this person needs to know to be effective in this role; as well as steps toward and a checklist for compliance with concise, practical information your organization can begin using now. Register for the webcast and be among the first to receive the associated whitepaper written by Benjamin Wright.
+Speaker BiosBenjamin WrightBenjamin Wright, a SANS senior instructor, practicing attorney and author of several technology law books, including Business Law and Computer Security, teaches the Law of Data Security and Investigations course for the SANS Institute. This unique five-day course trains security, forensic and legal professionals to cope with the risks surrounding data breaches, digital investigations, electronic discovery and technology contracts. With 26 years in private law practice, he has advised many organizations, large and small, on privacy, e-commerce, computer security, and email discovery. He has been quoted in publications around the globe, from the Wall Street Journal to the Sydney (Australia) Morning Herald. Benjamin maintains a popular blog at http://hack-igations.blogspot.com.Kevin FlynnKevin Flynn is director of worldwide product marketing at Skybox Security. Prior to joining Skybox, he served as director of product marketing at Blue Coat Systems. Kevin has more than 25 years of experience in high tech and has been involved in cyber security technologies for more than 15 of those years. His high tech experience started at Apple Computer, where he was a product manager in Apples Advanced Technology Group. He then spent more than a dozen years at Cisco as a product manager and marketing manager in its security technology organization. After leaving Cisco, Kevin moved over to Fortinet before joining Blue Coat in 2013.He is a frequent speaker on cyber security topics at conferences worldwide and has written numerous articles on cyber security issues.
+
+
+Need Help? Visit our FAQ page or email webcast-support@sans.org.
+Not able to attend a SANS webcast? All Webcasts are archived so you may view and listen at a time convenient to your schedule. View our webcast archive and access webcast recordings/PDF slides.
+
+
+
+
+
+
+
+
+
+
+
+Webcasts 
+
+To attend this webcast, login to your SANS Account or create your Account. 
+
+WebcastHomeUpcomingArchiveAccess InstructionsFAQ
+
+
+
+
+Subscribe
+
+Webcasts CalendarWebcasts RSS
+
+
+
+Note to Vendors
+
+
+    If you are interested in sponsoring a future SANS Webcast, contact our vendor team today.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest Whitepapers
+Indicators of Compromise TeslaCrypt MalwareBy Kevin Kelly
+The DevSecOps Approach to Securing Your Code and Your CloudBy Dave Shackleford
+PLC Device Security - Tailoring needsBy Wen Chinn Yew
+Last 25 Papers »
+
+
+Latest Tweets @SANSInstituteSANS Newsletters keep you informed on #infosec news, attacks [...]February 18, 2017 - 10:35 AM2 HOURS to @RobertMLee webcast Analyzing the Enhanced Analys [...]February 17, 2017 - 10:05 PMCloud-based or in-house #SOC? Tell us what you think in the  [...]February 17, 2017 - 4:45 PM
+
+Contact Us
+301-654-SANS(7267)
+        Mon-Fri 9am - 8pm EST/EDT
+info@sans.org
+
+
+
+
+"As a security professional, this info is foundational to do a competent job, let alone be successful."- Michael Foster, Providence Health and Security
+"SANS always provides you what you need to become a better security professional at the right price."- Rasik Vekaria, BP
+"Expertise of the trainer is impressive, real life situations explained, very good manuals. Best training ever!"- Jerry Robles de Medina, Godo CU
+
+
+
+
+
+
+
+
+SANS Site Network
+
+Current SiteSecurity Training
+Choose a different site HelpSecurity Certification
+Internet Storm Center
+Graduate Degree Programs
+Security Awareness Training
+Cyber Defense
+Forensics & Incident Response
+Penetration Testing
+Industrial Control Systems
+Software Security
+Government Private Training
+
+
+
+
+
+
+
+
+
+
+
+
+Find Training
+Live Training
+Online Training
+Programs
+Resources
+Vendor
+About
+
+
+Privacy Policy
+Trademark Usage Policy
+Credits
+© 2000-2017 SANS™ Institute
+
+
+
+
+

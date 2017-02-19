@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Home About Us Privacy Terms Login
+
+
+
+
+
+
+SZArticlesCybersecurity NewsSecurity TopicsStandardsPoliciesSZ Question of the DayWhite PapersSZ Assessment
+
+
+
+
+
+
+
+
+
+Trusted Information Security for Small Business
+
+
+
+
+
+Latest Securezoo Articles
+
+How a University Fought Off an IoT Attack and 12 Lessons Learned2/14/2017The Verizon security team recently announced the first Data Breach Digest, a series of 18 cybercrime cases the team investigated. The Verizon team starts with a sneak peek of one of the case studies that describes how a university was attacked by an IoT botnet consisting of over 5,000 infected hosts. The study concludes with 12 good lessons learned from the attack. Read More
+
+Microsoft's Security Updates Guide1/16/2017January 2017 will be the last month Microsoft will offer a monthly security bulletin. The company instead will deliver security updates through a searchable database and web portal called Security Updates Guide (SUG). The security portal is already live, but will formally replace the Security Bulletins system in February. Read More
+
+What Four Cyber Security Experts Predict for 20171/12/2017We have compiled some good threat predictions by four leading cyber security companies to include Symantec, McAfee, Forcepoint and Palo Alto Networks. These cyber experts offer some common themes, but also some outlier predictions that will be interesting to see if they come true. Some of the topics include predictions in cyber recruiting, ransomware, DDoS, IoT and SSL abuse just to name a few. Read More
+
+Planning for 'Cyber Event Recovery' is Critical to Business Resiliency1/3/2017This year could be one of the most important years in recent memory for organizations of all sizes to plan and prepare for the inevitable cyber attack. Although there is no substitute for proactive cyber defenses to prevent future attacks, the National Institute of Standards and Technology (NIST) released some good guidelines to help organizations in one critical area "Cyber Event Recovery" needed to minimize the impact of such cyber events if and when they do occur.Read More
+
+My 6 Favorite OS X Security Hardening Recommendations from the Latest NIST Guidelines12/28/2016The National Institute of Standards and Technology (NIST) released their latest hardening guideline for securing Apple's OS X. The latest guidance includes best practices and a checklist IT administrators can use to better secure and reduce the attack surface of Mac systems. This follows other good standards issued over the past year from NIST in the areas of small business security, cryptography, and mobile security to name a few.Read More
+
+View all SZ Articles
+
+
+
+
+
+
+Securezoo Newsletters
+Get the best of Securezoo delivered straight to your mailbox monthly
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+Top News Stories
+
+Yahoo notifies more users of malicious account activity www.helpnetsecurity.com 2/16/2017
+
+Lone hacker Rasputin breaches 60 universities, federal agencies www.zdnet.com 2/16/2017
+
+Cisco Releases Security Update www.us-cert.gov 2/15/2017
+
+Report: some small cities have surprisingly high number of exposed devices www.csoonline.com 2/15/2017
+
+Proof-of-concept ransomware to poison the water supply www.welivesecurity.com 2/15/2017
+
+Adobe Releases Security Updates www.us-cert.gov 2/15/2017
+
+XAgentOSX Mac malware linked to Russian hacking group www.helpnetsecurity.com 2/15/2017
+
+Researchers discover over 170 million exposed IoT devices in major US cities www.zdnet.com 2/15/2017
+
+Cybersecurity alliance promoting intel-sharing seeks to expand www.computerworld.com 2/14/2017
+
+Macro Malware Targets Macs securingtomorrow.mcafee.com 2/14/2017
+
+Microsoft shelves all February security updates www.computerworld.com 2/14/2017
+
+Researchers create new ransomware to target industrial systems www.zdnet.com 2/14/2017
+
+View all News
+
+
+
+
+
+
+
+
+
+
+
+
+New Security White Papers
+
+Windows Management Instrumentation (WMI) Offense, Defense, and Forensics www.fireeye.com 10/7/2016
+
+McAfee Labs Threats Report: September 2016 www.mcafee.com 9/14/2016
+
+Endpoint Security Survival Guide: A Field Manual for Cyber Security Professionals www.tripwire.com 8/29/2016
+
+DDoS, Web Attacks Surge; Repeat Attacks Become The Norm www.akamai.com 2/29/2016
+
+Akamai Releases Q3 2015 State Of The Internet - Security Report www.akamai.com 12/8/2015
+
+View all White Papers
+
+
+
+
+
+
+
+
+Terms of Use Privacy Policy About Us Contact Us
+
+
+
+
+
+
+

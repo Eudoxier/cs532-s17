@@ -1,0 +1,204 @@
+
+
+
+
+
+ Passwortfuchs
+
+
+Passwortgenerator
+Impressum
+
+
+
+
+
+Was braucht es sichere Passwörter?
+
+Grundlage von jeglichen Sicherheitsmechanismen in der digitalen Kommunikation sind sichere Passwörter. Doch was macht ein Passwort sicher und wie gestaltet man die Verwaltung vieler unterschiedlicher Passwörter am besten?
+Mit unserem Passwortgenerator lassen sich schnell und einfach Passwörter nach verschiedenen Vorgaben erstellen und sofort nutzen. Über unseren Twitter-Account posten wir außerdem jede Stunde ein sicheres Passwort.
+Um bei all den Passwörtern nicht den Überblick zu verlieren, empfiehlt sich der Einsatz eines Passwortmanagers. Wir stellen verschiedene Programme vor und verweisen auf Downloadmöglichkeiten.
+Außerdem kannst Du mit unserem Passwortcheck bestehende Passwörter auf ihre Sicherheit untersuchen lassen.
+
+
+Über den Fuchs
+Der Passwortfuchs ist ein privates, nicht kommerzielles Projekt zur Generierung von sicheren Passwörtern für die Verwendung bei Programmen oder Webdiensten und zur Überprüfung bestehender Passwörter.
+
+
+
+
+Navigation
+
+Passwortgenerator
+Passwortmanager
+Passwortcheck
+Twitter
+
+
+
+
+
+
+
+Was macht ein Passwort unsicher?
+	
+
+
+
+Einleitung
+Sichere Passwörter sind ein Thema, welches einen durch das gesamte digitale Leben begleitet.
+Am liebsten würde man ja für jeden Dienst das selbe Passwort benutzen.
+Vor allem jedoch, soll es dabei leicht zu merken sein.
+Doch tut man sich damit auf lange Sicht einen Gefallen?
+Denn leicht zu merkende Passwörter, die für alle Dienste identisch sind, bergen ein hohes Sicherheitsrisiko!
+Verwendet man beispielsweise das klassische Passwort „passwort123“ für sein E-Mail-Konto, den Facebook-Account, Amazon, Twitter und sonst überall, geht man ein sehr hohes Risiko ein:
+
+Zum Einen ist das Passwort sehr leicht zu erraten; wird beispielsweise über eine Wörterbuchattacke binnen Sekunden geknackt.
+Zum Anderen hat der Angreifer nun nicht nur das Kennwort von dem kompromittierten Dienst, sondern auch gleich von allen anderen Diensten.
+
+Besonders gesichert sein sollte somit unbedingt das E-Mail-Postfach.
+Denn die meisten Dienste bieten die Möglichkeit, über die E-Mail-Adresse das Passwort zurückzusetzen und so käme der Angreifer dann an alle Accounts problemlos heran und man selbst hat große Probleme, den eigenen Zugriff wieder sicherzustellen.
+Wenn Du Dir unsicher bist, wie sicher Dein Passwort ist, überprüfe es einfach in unserem anonymen Passwortcheck auf seine Sicherheit.
+
+
+Zusammensetzung sicherer Passwörter
+Ein sicheres Passwort besteht am besten aus Großbuchstaben, Kleinbuchstaben, Ziffern und Sonderzeichen (auch Umlaute).
+Es sollte kein Wort aus dem Wörterbuch sein (egal welche Sprache) und eine größtmögliche Länge aufweisen.
+Die Länge von Passwörtern
+Je länger ein Passwort ist, desto sicherer ist es per se.
+Bedauerlicherweise haben zahlreiche Dienste oft eine maximale Länge von Passwörtern festgelegt, diese sollte man dann aber auch nutzen!
+Eine sinnvolle Passwortlänge für eher unwichtige Dienste wäre beispielsweise acht Zeichen.
+Bei acht Zeichen, bestehend aus Großbuchstaben, Kleinbuchstaben, Ziffern und gängiger Sonderzeichen (bspw.: a-zA-Z1-9äöüßÄÖÜ!"§$%&/()=?`) ergeben sich 2.252.292.232.139.041 mögliche Kombinationen.
+In dieser Tabelle kann man die maximal benötigte Zeit bis zum Erraten des Passwortes abschätzen:
+
+
+Mindestlänge
+maximal benötigte Zeit
+(1 Million Tastaturanschläge pro Sekunde)
+
+
+3 Zeichen
+ca. 0,5 Sekunden
+
+
+5 Zeichen
+ca. 1 Stunde
+
+
+8 Zeichen
+ca. 72 Jahre
+
+
+10 Zeichen
+ca. 498.843 Jahre
+
+
+12 Zeichen
+ca. 3.436.535.742 Jahre
+
+
+15 Zeichen
+ca. 1.964.966.462.669.300 Jahre
+
+
+Allerdings ist man mit einem 15-Zeichen langen Passwort noch lange nicht auf der sicheren Seite — denn hierbei handelt es sich ja um die maximal benötigte Zeit beim raten. Mit Glück kann der Angreifer das richtige Kennwort auch schon nach wenigen Sekunden erraten haben.
+
+
+
+
+So sieht der ideale Schutz aus
+
+
+
+
+Merkliste zur Passwortstrategie
+
+das E-Mail-Konto ist mit einem sehr sicheren Passwort abgesichert, welches man sich idealerweise noch merken kann(aber nicht muss, da dies ja meist im E-Mail-Programm abgespeichert ist).
+jeder Dienst hat ein eigenes Passwort!Niemals nie wird ein und das selbe Passwort für zwei verschiedene Dienste oder Benutzer verwendet!
+idealerweise nutzt man für Dienste, die die E-Mail-Adresse nur im Hintergrund zur Anmeldung benötigen (wie bspw. Twitter) eine separate E-Mail-Adresse, die nicht ins Konto der Haupt-E-Mail-Adresse, die man nach außen kommuniziert, aufläuft.Sollte der eigene E-Mail-Account doch gehackt werden, kann der Angreifer so keinen Zugriff auf die anderen Accounts bekommen.
+die Verwaltung der Passwörter findet in einem gut abgesicherten Passwortmanager statt, sodass man sich die Passwörter selbst nicht merken muss.
+die Passwörter werden regelmäßig geändert. Je häufiger, desto besser.Hier muss man für sich selbst ein gangbares Maß finden.
+ 
+
+Was sind unwichtige, was wichtige Dienste?
+Die Unterscheidung zwischen unwichtigen und wichtigen Diensten hilft dabei, im Alltag nicht nachlässig zu werden und womöglich ein leicht zu erratendes Kennwort für sehr sensible Zugänge zu verwenden.Wichtige Dienste sind zum Beispiel
+Onlinebanking
+E-Mail-Adresse
+PGP- oder GPG-Schlüssel
+Atomwaffen (die US-Regierung nutzte mutmaßlich jahrzehntelange das Passwort ‚00000000‘ als Code für die Minuteman-Atomrakten, siehe heise.de)
+
+
+
+
+Merkliste zur Passwortstrategie
+
+
+
+
+Was sind Wörterbuchattacken?
+Bei Wörterbuchattacken wird versucht, dass Kennwort über Wörter zu erraten, die in Wörterbüchern stehen.
+Dazu gibt es im Internet eine Reihe von Quellen, die bereits fertig aufbereitete Daten enthalten, die direkt in Scripte integriert werden können. Sie enthalten oft nicht nur reine Wörter, sondern auch bereits bekannte Passwörter.
+Passwörter sollten also niemals aus diesen Wörtern bestehen!
+
+
+Was sind Brute-Force-Attacken?
+Bei Brute-Force-Angriffen wird das Passwort scheinbar wahllos durch Eingabe von verschiedenen Zeichenfolgen erraten.
+Das ist zwar eine sehr langsamse Methode, um Passwörter zu knacken, für den Angreifer aber sehr bequem. Denn kennt er die Rahmenbedingungen (z.B. acht Zeichen lang, beginnend mit Sonderzeichen, ohne Umlaute), kann er den Algorithmus entsprechend anpassen und einfach laufen lassen.
+
+
+Was gibt es bei Passwortmanagern zu beachten?
+Passwortmanager sind eine bequeme Möglichkeit, sehr sichere Passwörter abzuspeichern und für jeden Dienst verwalten zu können, ohne sich die Passwörter merken zu müssen.
+Diese Bequemlichkeit hat allerdings auch einen Preis:
+
+das Kennwort für den Passwortmanager sollte sehr sicher sein und nirgendwo notiert sein.
+Vergisst man dieses Kennwort, kommt man an die Passwörter nicht mehr ran.
+Wird das Kennwort zum Passwortmanager geknackt, hat der Angreifer Zugriff auf alle Accounts, die darin verwaltet werden.
+der Passwortmanager sollte nur auf vertrauenswürdigen Systemen eingesetzt werden und die Geräte sollten ebenfalls vor unberechtigtem Zugriff geschützt sein (inkl. Virenscanner, Firewall, etc.)
+
+
+
+
+Welche unterschiedlichen Passwortarten gibt es?
+
+
+
+
+Mnemonische Passwörter
+Diese Passwörter sind aussprechbare Wörter, die aber nicht im Wörterbuch stehen und so bei Wörterbuchattacken nicht erraten werden können. Brute-Force-Attacken führen hier schon deutlich schneller ans Ziel. Diese Passwörter lassen sich gut um Sonderzeichen oder Ziffern ergänzen und so sicherer gestalten.
+Mnemonisches Passwort generieren
+
+
+FIPS-181-Kompatibel
+Die Abkürzung F.I.P.S. steht für Federal Information Processing Standard (zu deutsch: Bundesstandard für Informationsverarbeitung) und ist ein Standard, der von der US-Bundesregierung für die Generierung von Passwörtern festgelegt wurde.
+
+
+Kryptische Passwörter
+Sogenannten kryptische Passwörter sind zumeist Passwörter über Generatoren (wie beispielsweise in unseren Tweets) gemeint, die man sich nicht merken kann und die einen hohen Sicherheitsstandard erfüllen. Mit solchen Passwörtern kann man nicht viel falsch machen, allerdings kann man sie sich auch nur schwer merken.
+
+
+eigenes Passwortsystem
+Hierbei nutzt man zum Beispiel ein kryptisches „Master-Passwort“ als Ausgangsbasis und ergänzt dieses durch einen Dienstspezifischen Zusatz.
+Als Beispiel wählen wir H5-Z(iÖ/ als Master-Passwort und ergänzen für den Dienst Amazon alle Vokale und die Anzahl der Zeichen des Dienstnamens, also aao6.Diesen Teil setzen wir immer nach den Sonderzeichen ein und erhalten so ein sicheres Passwort mit 12 Zeichen, welches für den Dienst einzigartig ist, wir uns aber problemlos herleiten können:H5-aZ(aiÖ/o6
+Auch andere Systeme sind möglich. Hier sind der Phantasie keine Grenzen gesetzt.
+
+
+
+
+Sicherheitshinweise
+	
+
+
+
+Über die Sicherheit dieses Dienstes
+Alle Aufrufe dieser Webseite, insbesondere der Seiten des Passwortgenerators und Passwortchecks, werden über SSL verschlüsselt ausgeliefert. Außerdem sind auf dieser Webseite weder Tracking-Scripte, Werbung oder damit zusammenhängende Scripte, noch Social-Media-Scripte von Facebook, Twitter oder Google+ integriert. Diese Webseite setzt auch keine Cookies.
+
+
+
+© Bastian Scheefe | Impressum
+ | 
+Datenschutz
+
+ [part of hostd networks] | hosting by scheefe-edv
+
+
+

@@ -1,0 +1,1112 @@
+ 
+
+
+
+
+
+Skip to: Start of article
+
+
+Visually Open Nav.
+
+
+
+
+
+Go to Wired Home Page.
+
+
+
+
+
+
+						Beware: Most Mobile VPNs Aren't as Safe as They Seem					
+
+
+
+
+
+
+
+subscribe
+
+
+
+Open Search Field.
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Business
+
+
+
+
+
+
+
+culture
+
+
+
+
+
+
+
+Design
+
+
+
+
+
+
+
+Gear
+
+
+
+
+
+
+
+Science
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+transportation
+
+
+
+
+
+
+
+photo
+
+
+
+
+
+
+
+video
+
+
+
+
+
+
+
+
+Photo
+
+
+Video
+
+
+Magazine
+
+
+WIRED INSIDER
+
+
+Future of Mobility
+
+
+
+
+
+
+Fallback Image
+
+
+Get TheMagazine
+
+
+
+
+
+				Subscribe now to get 6 months for $5 - plus a FREE Portable Phone Charger.
+			
+
+
+
+
+
+Subscribe
+ 
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advertisement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slide:  1 / of  1.
+Caption: 
+Getty Images 
+
+
+
+
+
+Skip Article Header. Skip to: Start of Article.
+
+
+
+Author: Lily Hay Newman.
+
+Lily Hay Newman 
+
+Security 
+
+
+Date of Publication: 02.08.17.
+02.08.17
+
+
+Time of Publication: 10:00 am.
+10:00 am
+
+
+
+
+Beware: Most Mobile VPNs Aren’t as Safe as They Seem
+
+
+ Getty Images 
+
+
+Between an industry-wide push to encrypt all web traffic and the newfound popularity of secure chat apps, it’s been a boom time for online privacy. Virtual private networks, which shield your web traffic from prying eyes, have rightly garnered more attention as well. But before you use a VPN to hide your online shopping from the IT department at your company—or help protect yourself from state surveillance—know that not all mobile VPNs are created equal. In fact, some are actively harmful.
+VPNs offer an array of potential privacy and security benefits, because they put another server between websites and your device. You can use VPNs to conceal the location revealed by your IP address; one common use before a recent crackdown was to access regional content, like US Netflix, from countries with lesser libraries. Ideally, a VPN funnels all your traffic through an encrypted, secure, private network, making it more difficult for a third party to monitor your browsing than if your data were exposed on a public network. 
+It all sounds great, but isn’t always so rosy in practice. That’s because using a VPN grants the company behind it extensive access to your data at the same time that it hides the stream from everyone else. Depending on a VPN’s logging practices and privacy policy, it may be willing and able to turn your browsing history over to law enforcement or could even sell customer data to marketing services and ad networks. Even worse, malware masquerading as a VPN could do real damage by concealing malicious activity on your device behind a veneer of security protection.
+“These days, many people know what a VPN is and what they can do with one,” says Kevin Du, a computer security researcher at Syracuse University and an IEEE senior member. “Not many people know what a bad or flawed VPN can do to their devices, because they don’t know how VPN works.”
+Trust Falls
+VPNs have been around for years, as have their attending trust issues. But while previously VPN enthusiasts were mostly a core base of desktop users, the mobile boom and app-store accessibility have created an explosion in mobile VPN offerings. And while some are genuinely looking to offer security and privacy services, plenty do more harm than good.
+In a recent in-depth analysis of 283 mobile VPNs on the Google Play store by Australia’s Commonwealth Scientific and Industrial Research Organization, researchers found significant privacy and security limitations in a majority of the services. Eighteen percent of the mobile VPNs tested created private network “tunnels” for traffic to move through but didn’t encrypt them at all, exposing user traffic to eavesdropping or man-in-the-middle attacks. Put another way, almost a fifth of the apps in the sample didn’t offer the level of security that’s basically the entire point of VPNs. 
+Meanwhile, 84 percent of the apps didn’t properly encrypt traffic between sites using the most recent version of the Internet Protocol. And though two-thirds of the apps in the study specifically marketed themselves as enhancing user privacy, 75 percent of those used third-party data-tracking libraries, and 82 percent asked for user permission to access additional personal data on devices like text messages. 
+All of those high percentages add up to one concerning truth: There are more problematic mobile VPNs than good ones in Google Play. The researchers say that Google plans to investigate their findings. Google did not respond to a request from WIRED for comment.
+“The apps in our study were used by tens of millions of people around the world,” says CSIRO Data61 researcher Dali Kaafar. “It is crucial to understand that an app that requests a VPN permission will have full control and visibility over the internet traffic of the user and literally can do anything with it once the VPN tunnel is set.”
+That means users of bad VPNs aren’t just vulnerable to snooping, Kafar says. “You can easily imagine what a misbehaving or a malicious app could do in terms of redirecting user traffic, injecting malicious code, accessing sensitive information, etc.”
+“Free” Will Cost You
+For consumers and organizations trying to improve their security by using a VPN (shielding their web traffic from potentially malicious snooping) and/or guarding their privacy (making it more difficult for a government or other entity to know what they do and say online), it’s hard to know where to turn. They probably don’t have the technical skills to analyze a service for potential flaws. And some VPN company claims—like the important question of whether a service logs data about each of its users that could later be accessed by a third party—are basically impossible to verify.
+One quality indicator is whether a VPN is free or costs money to use. The question with free VPNs, as with all free apps, is whether their business model involves capturing and selling user data. “The economics didn’t make much sense, because when you start looking at these applications, most of them are free, but maintaining online infrastructure is actually very expensive,” says Narseo Vallina-Rodriguez a researcher at the International Computer Science Institute who worked on the study.
+Even using paid VPNs instead of free ones doesn’t guarantee reliability, though. While paid VPNs may have less incentive to sell user data, that doesn’t necessarily mean they implement the strong security and privacy protections users expect. Experts recommend choosing a VPN that’s well-known, is developed by a reputable company or group, has a good public security track record, and at least makes an effort to be transparent about its priorities, goals, and privacy policy. 
+The good news is that CSIRO researchers did find some gems. They specifically lauded F-Secure Freedome, an app that encrypts what it says it will and offers quality ad-blocking to boot. Sure, it’ll cost you $6 per month. But online privacy is like anything else in life: You get what you pay for.
+Go Back to Top. Skip To: Start of Article.
+androidbrowserGoogle PlayprivacysecurityVPNVPNs 
+
+
+Skip Social. Skip to: Latest News.
+
+
+Share
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+Skip Social. Skip to: Latest News.
+
+
+Share
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+Skip Latest News. Skip to: Comments.
+
+
+
+
+
+
+Most Popular
+
+
+
+
+							The Cognitive Bias President Trump Understands Better Than You						
+
+
+
+psychology
+The Cognitive Bias President Trump Understands Better Than You
+Emily Dreyfuss
+
+
+
+
+
+
+
+							The Macedonian Teens Who Mastered Fake News						
+
+
+
+media
+The Macedonian Teens Who Mastered Fake News
+Samanth Subramanian
+
+
+
+
+
+
+
+
+
+
+							PewDiePie’s Fall Shows the Limits of ‘LOL JK’						
+
+
+
+Internet Culture
+PewDiePie’s Fall Shows the Limits of ‘LOL JK’
+Emma Grey Ellis
+
+
+
+
+
+
+
+							How The New York Times Is Clawing Its Way Into the Future						
+
+
+
+media
+How The New York Times Is Clawing Its Way Into the Future
+Gabriel Snyder
+
+
+
+
+
+
+
+							Security News This Week: Yahoo Got Hacked Again. No, Seriously						
+
+
+
+Security This Week
+Security News This Week: Yahoo Got Hacked Again. No, Seriously
+Brian Barrett
+
+
+
+
+
+
+
+							The Secret to Hacking Ikea Furniture Is More Ikea Furniture, Says Ikea						
+
+
+
+DIY
+The Secret to Hacking Ikea Furniture Is More Ikea Furniture, Says Ikea
+Margaret Rhodes
+
+
+
+
+
+
+
+							A Guide to Getting Past Customs With Your Digital Privacy Intact						
+
+
+
+Security
+A Guide to Getting Past Customs With Your Digital Privacy Intact
+Andy Greenberg
+
+
+
+
+
+
+
+							Spanner, the Google Database That Mastered Time, Is Now Open to Everyone						
+
+
+
+Cloud Computing
+Spanner, the Google Database That Mastered Time, Is Now Open to Everyone
+Cade Metz
+
+
+
+
+
+
+
+More Stories
+
+
+
+
+
+
+
+
+Skip Comments. Skip to: Footer.
+
+
+View comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sponsored Stories
+Powered By Outbrain
+
+
+Powered By Outbrain
+
+
+
+
+
+
+
+More Security
+
+
+
+
+
+ 
+
+Security This Week
+
+									Security News This Week: Yahoo Got Hacked Again. No, Seriously								
+Brian Barrett
+
+
+
+
+
+
+
+
+
+ 
+
+Security
+
+									Finding the Right National Security Adviser Won’t Be Easy								
+Lily Hay Newman
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Cybercrime
+
+									Hacker Lexicon: A Guide to Ransomware, the Scary Hack That’s on the Rise								
+ echo esc_html( wired_get_the_byline_name( $related_video ) ); ?>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+National Affairs
+
+											Leaks Are Totally American—They’re Just Easier Now										
+Issie Lapowsky
+
+
+
+
+
+
+
+ 
+
+encryption
+
+											Encryption Apps Help White House Staffers Leak—and Maybe Break the Law										
+Lily Hay Newman
+
+
+
+
+
+
+
+
+
+ 
+
+								Photo Gallery							
+
+								Space Photos of the Week: Milky Way Dazzles in Zodiacal Light							
+WIRED Photo Department
+
+
+
+
+
+
+
+
+We Recommend
+Powered By Outbrain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get TheMagazine
+
+
+
+
+
+				Subscribe now to get 6 months for $5 - plus a FREE Portable Phone Charger.
+			
+
+
+
+
+
+Subscribe
+ 
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here’s The Thing With Ad Blockers
+
+
+
+
+
+
+
+We get it: Ads aren’t what you’re here for. But ads help us keep the lights on. So, add us to your ad blocker’s whitelist or pay $1 per week for an ad-free version of WIRED. Either way, you are supporting our journalism. We’d really appreciate it.
+
+
+
+Sign Up
+
+
+Already a member? Log in
+
+
+
+
+
+
+Thank You
+
+
+
+
+All of us at WIRED appreciate your support!
+
+
+Continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wired Facebook
+
+
+
+
+
+
+Wired Twitter
+
+
+
+
+
+
+Wired Pinterest
+
+
+
+
+
+
+Wired Youtube
+
+
+
+
+
+
+Wired Tumblr
+
+
+
+
+
+
+Wired Instagram
+
+
+
+
+
+
+
+Login
+
+
+Subscribe
+
+
+Advertise
+
+
+Site Map
+
+
+Press Center
+
+
+FAQ
+
+
+Customer Care
+
+
+Contact Us
+
+
+T-Shirt Collection
+
+
+Newsletter
+
+
+Wired Staff
+
+
+Jobs
+
+
+RSS
+
+
+Use of this site constitutes acceptance of our user agreement (effective 3/21/12) and privacy policy (effective 3/21/12). Affiliate link policy. Your California privacy rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

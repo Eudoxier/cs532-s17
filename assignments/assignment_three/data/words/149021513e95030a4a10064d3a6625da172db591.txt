@@ -1,0 +1,818 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu
+
+
+
+
+
+
+
+
+
+
+
+SC US
+SC UK
+
+
+Show Search Bar
+
+
+
+
+
+
+
+
+News
+
+
+ 
+Opinions
+Blogs
+SC Fast Facts
+Reboot 2016
+
+
+
+Cybercrime
+
+
+Ransomware
+Data breaches
+APTs/Cyberespionage
+Malware
+Phishing
+Insider Threats
+
+
+
+Network Security
+
+
+Mobile Security
+Cloud Security
+Privacy & compliance
+Vulnerabilities
+IoT
+Email Security
+
+
+
+Product Reviews
+
+
+Group Tests
+First Looks
+About product reviews
+
+
+
+In Depth
+
+
+Features
+Video
+In Depth
+SC Magazine Archive
+
+
+
+Events
+
+
+Virtual Conferences
+Webcasts
+RiskSec NY 2017
+RiskSec Toronto 2017
+SC Awards 2017
+
+
+
+Whitepapers
+
+
+
+
+
+Log in
+
+Register
+
+
+The Cybersecurity source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Magazine US
+>
+
+
+News
+>
+
+
+Malware
+>
+
+
+Attackers steal from ATMs after infecting banks with memory-only malware                
+
+
+
+
+by Bradley  Barth, Senior Reporter 
+
+
+
+
+
+
+
+February 08, 2017
+Attackers steal from ATMs after infecting banks with memory-only malware
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kurt Baumgartner, principal security researcher at Kaspersky Lab, confirmed to SC Media that attackers are using a combination of PowerShell, Meterpreter and legitimate utilities to steal from ATMs.
+
+One or more unidentified hacker groups are leveraging free and commonly available pen testing tools to attack enterprises in the finance, government and telecom sectors with "fileless" malware that resides only in a machine's RAM, making it extremely difficult to detect and analyze.
+In a blog post Wednesday, Kaspersky Lab reported that its Global Research & Analysis Team recently examined a series of incidents in which attackers embedded PowerShell into victims' registries as a way to download Meterpreter, a payload of the Metasploit penetration testing framework. From there, the adversaries used numerous legitimate Windows utilities and tools to execute malicious activities, including stealing from infected banks via unauthorized ATM transactions.
+Already, more than 140 enterprises worldwide have already been infected in this campaign, including 21 organizations within the U.S.
+"This is something new, especially on global scale that we're seeing," said Kurt Baumgartner, principal security researcher at Kaspersky, in an interview with SC Media, "We have seen Meterpreter used before... but we haven't seen this combination that seems to be very effective against multiple organizations."
+Unlike the ATM heists, the attacks on the government and telecom companies have no clear financial gain, which suggests that there could be multiple motives or multiple actors behind the malware, Baumgartner noted. For instance, he speculated that attackers could be looking for "sensitive documentation" from government entities.
+Kaspersky researchers began investigating the campaign after an unnamed bank's security team found the Meterpreter code in the physical memory of a domain controller (a Microsoft server computer that responds to security authentication requests) late last year.
+A forensic analysis determined that the attackers have been using Windows' Service Controller utility to install a malicious service that executes the Meterpreter script on targeted hosts via PowerShell commands. They have also used Microsoft's Netsh networking tool as a tunneling device to secretly communicate data from infected networks to their command-and-control servers, which have been found residing on several third-level domains and obscure country code TLDs missing key WHOIS information.
+Kaspersky further reported that the bad actors have used the credential-extracting tool Mimikatz to obtain the administrative privileges needed to operate the SC and Netsh utilities and execute PowerShell scripts.
+The attackers' tactics, techniques and procedures most closely resemble those of the GCMAN and Carbanak cybercriminal gang, both of which have been known to adopt strategies more typical of advanced persistent threats, according to Kaspersky. However, "Given that the attackers used the Metasploit framework, standard Windows utilities and unknown domains with no WHOIS information, this makes attribution almost impossible," the blog post reported.
+The initial method of infection is known at this time; however, Baumgartner noted that spear phishing attacks and SQL injections are popular techniques among cybercriminal groups such as GCMAN and Carbanak.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topics:
+
+
+Cybercrime
+
+
+Finance
+
+
+Malware
+
+
+
+
+
+
+
+
+
+
+
+
+                        You must be a registered member of SC Magazine US to post a comment.
+                    
+
+Click here to login
+  | 
+ Click here to register
+
+
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+
+                                    Cybercriminals increasingly launching APT-style attacks against banks, finds Kaspersky
+                                
+
+
+BY
+            Bradley  Barth
+
+                                 Feb 8, 2016
+                            
+
+
+
+
+
+
+
+
+
+                                    Kaspersky confirms return of Carbanak and two more banking APT groups
+                                
+
+
+BY
+
+Rio Perez    
+                                 Feb 9, 2016
+                            
+
+
+
+
+
+
+
+
+
+                                    APT group FruityArmor employs PowerShell to launch attacks, Kaspersky
+                                
+
+
+BY
+            Greg Masters
+
+                                 Oct 20, 2016
+                            
+
+
+
+
+
+
+
+
+
+
+
+Most read on SC
+
+
+Banks worldwide under attack from new malware, report
+2017 SC Awards Honored in the United States
+'Internet of Evil Things' challenges security pros
+Yahoo issues new breach warning; Verizon shaves $300M off its Yahoo offer
+Adobe issues patches, Microsoft's usual Patch Tuesday fixes delayed
+
+
+
+
+
+
+
+
+
+
+Get SC Media delivered to your inbox
+
+
+
+
+
+SC Media Featured White Paper of the Day
+
+
+
+
+
+
+SC Media Newswire
+
+
+
+
+
+
+SC Media Product/Industry Buzz
+
+
+
+
+
+
+I would like to receive relevant information via email from Haymarket Media.
+
+
+
+
+
+
+United States
+United Kingdom
+Canada
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (DRC)
+Cook Islands
+Costa Rica
+Côte D'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji Islands
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia-Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands
+Virgin Islands, British
+Wallis and Futuna
+Western Samoa
+Yemen
+Yugoslavia
+Zambia
+Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Media arms cybersecurity professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.
+
+
+User Center
+
+About
+Contact
+Advisory Board
+Meet the team
+Subscribe
+Advertise
+
+
+
+Product Reviews
+
+About/Contact
+FAQ
+Reprints
+
+
+
+Other
+
+Privacy Policy
+Terms & Conditions
+
+
+
+More SC Sites
+
+RiskSec
+SC Whitepaper & Resource Library
+SC Awards
+SC Online Events
+
+
+
+
+
+Follow SC Media
+
+
+
+
+
+
+Copyright © 2016 Haymarket Media, Inc. All Rights Reserved
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorization.
+Your use of this website constitutes acceptance of Haymarket Media's Privacy Policy and Terms & Conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ close
+
+
+
+{{{ form.header }}}
+{{{ form.title }}}
+
+
+
+
+
+{{{error}}}
+
+
+
+
+{{error}}
+
+
+
+
+
+
+
+
+
+
+{{ option.label }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Free Newsletters:
+
+
+
+
+
+
+
+
+{{ field.label }}
+
+
+
+
+
+
+
+
+{{ form.postButtonLabel }}
+
+
+
+
+
+                              By registering you agree with our
+                              Terms And Conditions  |
+                              Privacy Policy
+
+
+
+
+{{{ form.footer }}}
+
+
+Don't have an SC Media account?
+            Sign up for free now »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

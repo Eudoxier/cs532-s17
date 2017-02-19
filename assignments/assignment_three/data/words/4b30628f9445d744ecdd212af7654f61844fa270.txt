@@ -1,0 +1,624 @@
+
+
+
+
+
+
+
+ Skip to main content 
+
+
+
+
+
+We're Hiring!
+
+
+Contact
+
+
+Blog
+
+
+Resources
+
+
+Research
+
+
+Support
+
+
+Lang
+
+
+English
+
+
+Deutsch
+
+
+中文
+
+
+日本語
+
+
+한국어
+
+
+
+
+Live Demo
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+Solutions
+
+
+Application Security
+
+
+Container Security
+
+
+License Compliance
+
+
+M & A
+
+
+
+
+Products
+
+
+Hub
+
+
+Protex
+
+
+Code Center
+
+
+Why Choose Black Duck?
+
+
+
+
+Audits
+
+
+Open Source Audits
+
+
+Open Source Security Audits
+
+
+Code Quality Analysis
+
+
+Encryption Audits
+
+
+
+
+Integrations
+
+
+Customers
+
+
+About
+
+
+Company
+
+
+Leadership
+
+
+Security Advisory Board
+
+
+Partners
+
+
+News & Events
+
+
+Research
+
+
+Careers & Internships
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Take Control of Your 
+Open Source
+ Maximize the benefits.
+Minimize the risks.
+
+See How 
+
+
+
+
+
+
+
+
+
+Don't Be a Vuln Victim!
+ Visit us in booth S332 at RSA Conference 2017.
+
+Learn More 
+
+
+
+
+
+
+
+
+
+
+
+
+Over 2000 organizations worldwide trust Black Duck to secure and manage
+open source software in their applications and containers.
+
+
+
+
+
+
+
+
+
+Open Source
+Security
+Find, fix and manage
+open source vulnerabilities
+
+
+
+
+
+Open Source
+Compliance
+Identify and comply with
+open source licenses
+
+
+
+
+
+Open Source
+Audits
+Get fast and accurate analysis
+from Black Duck experts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inventory Open Source Software 
+
+
+Map Known Security Vulnerabilities 
+
+
+Identify  License & Quality Risks 
+
+
+Manage Open Source Risk Policies 
+
+
+Alert On New Security Threats 
+
+
+
+Complete Visibility. Automated Control. Black Duck gives you complete visibility into your open source, combining sophisticated, multi-factor open source detection capabilities with the Black Duck KnowledgeBase™, the most comprehensive database of open source project, vulnerability, and license information. Research open source projects, mitigate security and compliance risks, and automatically enforce open source policies using your existing development tools and processes.  
+Learn More About Black Duck Products 
+
+
+
+
+
+
+Our information security group now has a significantly easier way to determine which artifacts and versions are affected by any security vulnerability and which applications are impacted as a result. This capability did not exist before, so this is huge.
+- Kostas Gaitanos , Senior Director of Development Services, FINRA  
+We connected with Black Duck several months before our IPO because our investors, our board and our management team felt it was important – critical, in fact – to understand the health of our source code in terms of security, quality and licensing.
+- Danielle Sheer, Vice President, General Counsel and Corporate Secretary, Carbonite  
+Black Duck stands in a class of its own. From a return on investment standpoint, given the breadth of information we receive from the system and the ease of use, versus our expenditure, we find it to be a great investment. Life for us would be very difficult without Black Duck.
+- Igor Lekht, Sr. Vice President AxiomSL  
+
+
+
+
+
+
+
+    Guides & Tutorials Application Security Buyer's Guide  Learn how a comprehensive application security toolkit helps you stay secure throughout the product lifecycle. View Now        Reports & Analysis eBook: Four Levels of Open Source Risk Management  Measure your organization against the four levels of risk maturity, a model to evaluate the vulnerability and licensing risks you may be exposed to in your use of open source. View Now        Webinars The How and Why of Container Vulnerability Management  As increasingly sophisticated attacks mount, there's real risk associated with a zero-day attack.  View Now    
+
+
+
+
+
+
+
+
+
+
+Events
+
+
+
+02.13.17RSA Conference 2017City: San Francisco, CA
+
+
+02.21.17Container WorldCity: Santa Clara, CA
+
+
+02.22.17DevNexusCity: Atlanta, GA
+
+
+See all Events
+
+
+
+
+
+Webinars
+
+
+
+02.22.17Reducing Open Source Risk & Remediation Costs Early in SDLC
+
+
+03.08.17Effectively Managing Enterprise Application Security
+
+
+See all Webinars
+
+
+
+
+
+
+
+Press Releases
+
+
+
+02.13.17Black Duck Adds Cybric to Partner Program
+
+
+11.14.16 Black Duck Receives M&A Advisor Award for Financial and Professional Services Product/Service of the Year
+
+
+10.18.16Black Duck Forms Open Source Security Research Group in Northern Ireland  
+
+
+See all Press Releases
+
+
+
+
+
+
+
+
+
+Follow us online
+
+
+
+ Facebook
+ Linkedin
+ Black Duck Blog
+ Vimeo
+ SlideShare
+ Twitter
+ Youtube
+ Google+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+
+Application Security
+
+
+Compliance
+
+
+Container Security
+
+
+M & A
+
+
+
+
+
+
+
+
+
+
+Products
+
+
+Hub
+
+
+Protex
+
+
+Code Center
+
+
+
+
+
+
+
+
+
+
+Audits
+
+
+Open Source Audits
+
+
+Open Source Security Audits
+
+
+Code Quality Analysis
+
+
+Encryption Audits
+
+
+
+
+
+
+
+
+
+
+Resources
+
+
+Blog
+
+
+Resource Library
+
+
+Support
+
+
+
+
+
+
+
+
+
+
+About
+
+
+Company
+
+
+Leadership
+
+
+News & Events
+
+
+Careers
+
+
+Open Source
+
+
+
+
+
+
+
+
+
+
+
+Open Hub
+
+
+Customers
+
+
+Partners
+
+
+Request a Demo
+
+
+Contact Us
+
+
+
+
+
+
+
+Solutions
+
+Application Security
+Container Security
+Compliance
+Audits
+Software Development
+
+
+
+Open Hub
+
+
+
+
+Products
+
+Hub
+Protex
+Code Center
+On Demand
+
+
+Customers
+
+
+
+
+On Demand
+
+Audits
+Open Source Risk Assessment
+Code Quality Analysis
+Remediation Services
+
+
+Partners
+
+
+
+
+Resource
+
+Blog
+Resource Library
+Support
+Events
+
+
+Request a Demo
+
+
+
+
+About
+
+Company
+Leadership
+Careers
+News
+Open Source
+
+
+Contact Us
+
+
+
+
+
+
+
+
+© 2017 Black Duck Software, Inc. All Rights Reserved. Legal Notices Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

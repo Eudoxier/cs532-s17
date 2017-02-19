@@ -1,0 +1,905 @@
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+Platform ▾How it Works
+Why Safebreach?
+SafeBreach Labs
+Use Cases ▾Quantify Breach Impact
+Validate Security Controls
+Weaponize Threat Intelligence
+Empower Security Red Teams
+Partners
+Company ▾About Us
+Team
+Careers
+Press
+Events
+News
+Resources ▾Collateral
+Case Studies
+One Minute Video
+Blog
+Contact Us
+Free Assessment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Platform
+How it Works
+Quantify Breach Impact
+Validate Security Controls
+Assess Security Posture
+
+
+Solutions by Role
+ Chief Security Officer
+Gain board level insights on your true cybersecurity posture and track progress over time
+Discover More 
+ Security Analysts
+Analyze the building blocks of successful breach scenarios so you quickly take corrective action
+Discover More 
+ Security Red Team Engineer
+Address risks from new users, endpoints, apps in an automated fashion so you can focus on more strategic tasks. 
+Discover More 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+Platform ▾How it Works
+Why Safebreach?
+SafeBreach Labs
+Use Cases ▾Quantify Breach Impact
+Validate Security Controls
+Weaponize Threat Intelligence
+Empower Security Red Teams
+Partners
+Company ▾About Us
+Team
+Careers
+Press
+Events
+News
+Resources ▾Collateral
+Case Studies
+One Minute Video
+Blog
+Contact Us
+Free Assessment
+
+
+
+
+
+
+   
+
+
+
+One Minute Video
+
+
+
+     
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+        Unleash the ultimate virtual hacker.
+
+
+Continuous validation of security risks from a hacker’s point-of-view so you can finally answer the question "Am
+        I Secure?"
+
+
+Show Me More
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+        We just signed a strategic reseller agreement with Hewlett Packard Enterprise
+
+
+Learn More 
+
+
+
+
+
+
+        Come by RSA N2905 and hear about our Visa Threat Intelligence integration
+
+
+Meet Us 
+
+
+
+
+
+
+        Read what 451 Research Report says about us
+
+
+Read Now 
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+        3,985,011
+
+breach methods executed
+ 
+
+
+
+
+ 
+
+0%
+
+
+success in data exfiltration
+ 
+
+
+
+
+ 
+
+        5
+
+minutes from deployment to insights
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+        Chief Security Officer
+
+
+        Quantify board level insights on your true enterprise risks so you can track and improve security posture over time
+
+
+Discover More
+
+ 
+
+
+
+
+ 
+        Security Analysts
+
+
+        Analyze building blocks of successful breach scenarios to validate how well your security controls are working
+
+
+Discover More
+
+ 
+
+
+
+
+ 
+        Security Red Team Engineer
+
+
+        Automate foundational validation and operationalize blue team remediation so you can focus on more strategic tasks.
+
+
+Discover More
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+        Quantify enterprise risks
+
+
+        Simulate breach methods across the entire kill chain based on attacker profile and data assets to be protected. Quantify the real impact of a cyber attack on your systems at any given
+        moment. Identify remediation options to stay one step ahead of the bad guys.
+
+
+Learn More
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+        Validate security controls
+
+
+        Continuously validate how well your security controls are working using our Hacker's PlaybookTM of breach methods. Quickly address configuration, segmentation or
+        implementation errors throughout the entire lifecycle of a security product. 
+
+
+Learn More
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+        Weaponize threat intelligence
+
+
+        Gauge the real impact of a cyber attack on your systems at any given moment. Use our insights to lead a focused mitigation process including a board-level discussion around your
+        organization’s security and risks.
+
+
+Learn More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+        “As we move from perimeter defense to borderless security, I love that SafeBreach can be the "ubiquity platform“ running at every point in my data center.”
+
+
+        Nir Botzer | CISO, Clarizen
+
+ 
+
+
+
+
+
+
+ 
+
+        “My view has always been that you need to monitor and detect BUT that‘s only half of it, prevention comes from thinking like a hacker and hiring individuals that think that
+        way.”
+
+
+        Keith O'Sullivan | VP Global Information Security, Time
+
+ 
+
+
+
+
+
+
+ 
+
+        “It's not enough to just have security controls in place, you have to constantly test them for effectiveness to understand which threat scenarios will impact you the most.”
+
+
+        Craig Rosen | VP and CISO, AppDynamics
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+        SafeBreach Hacker's Playbook
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+  
+
+
+
+
+
+
+ 
+ 
+
+        The Hacker's Playbook
+
+
+        The SafeBreach Hacker’s Playbook is the first to report enterprise security trends and risky behaviors from the point-of-view of an attacker.
+
+Download Now
+
+
+         
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ View all Resources 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+SafeBreach Announces Strategic Reseller Agreement with Hewlett Packard Enterprise
+
+
+
+February 14, 2017
+
+
+Today, we’re very excited to announce that SafeBreach and Hewlett Packard Enterprise (HPE) have signed a strategic reseller agreement. The SafeBreach platform will now be available on th…
+
+Read More
+
+
+
+
+
+
+
+SafeBreach Partners with Visa Threat Intelligence
+
+
+
+February 7, 2017
+
+
+Payment industry data breaches were one of the earliest forms of cybercrime and persists today. It’s a lucrative business for cyber criminals, but for payment merchants and corporate use…
+
+Read More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+See A Live Demo
+See the SafeBreach platform in action. We'll show you how our platform automates adversary action so you can proactively identify holes before an attacker does.
+
+Request A Demo
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Platform
+
+How it Works
+Why SafeBreach
+SafeBreach Labs
+ 
+
+
+
+
+ 
+
+Company
+
+About Us
+Team
+Careers
+Press
+Events
+News
+ 
+
+
+
+
+ 
+
+Resources
+
+Collateral
+Case Studies
+One Minute Video
+ 
+
+
+
+
+ 
+
+Partners
+
+
+ 
+
+
+
+
+
+ 
+
+Use Cases
+
+Quantify Breach Impact
+Validate Security Controls
+Weaponize Threat Intelligence
+Empower Security Red Teams
+Assess Security Posture
+ 
+
+
+
+
+ 
+
+Headquarters
+
+        111 W. Evelyn Avenue
+        
+        Suite 117 
+        
+        Sunnyvale, CA 94086
+
+
+408-743-5279
+
+
+
+        Research & Development
+
+        Yosef Karo 18 th Street
+
+
+        Rose House
+        
+        Tel Aviv, Israel 6789146
+        
+        +972-77-434-4506
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Copyright © SafeBreach Inc. 2016
+ 
+
+
+
+
+ 
+Privacy Policy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+

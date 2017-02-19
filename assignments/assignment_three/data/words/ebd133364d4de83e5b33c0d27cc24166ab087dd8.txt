@@ -1,0 +1,1112 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Customer Login
+
+
+ Support
+
+
+ Contact Sales
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security. Compliance. Cloud.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Solutions
+
+
+
+
+
+Overview
+Security-as-a-Service in 2 minutes
+
+
+
+
+
+
+
+
+
+Schedule Demo Today
+
+
+
+
+
+
+
+Solutions
+
+
+
+ Full Stack Security
+
+
+Managed Cloud Security  Alert Logic® Cloud Defender®
+
+
+AWS Vulnerability Management  Alert Logic® Cloud Insight
+
+
+Network Threat Detection  Alert Logic® Threat Manager™
+
+
+Web Application Firewall  Alert Logic® Web Security Manager
+
+
+Log Correlation & Analysis  Alert Logic® Log Manager™
+
+
+
+
+
+ Experts Included
+
+Security Operation Center
+
+
+Threat Intelligence
+
+
+Threat Research
+
+
+
+
+
+ Compliance Management
+
+PCI DSS
+
+
+HIPAA
+
+
+SOX Cobit
+
+
+
+
+
+
+Deployment Platforms
+
+
+
+
+
+
+
+
+
+
+
+On-Premises
+
+
+
+
+
+
+
+
+Customers
+
+
+
+
+
+Customers Overview
+
+
+Case Studies
+
+
+Our Customers
+
+
+Account Login
+
+
+
+
+FEATURED CASE STUDY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Garrigan Lyman Group
+"Alert Logic is so consistently deployed. That was one thing we could really count on being there…the right place, the right time, the right way. Nothing really changed about how that facet of our security program worked."
+Chris GeiserChief Technology Officer
+
+
+
+
+
+Partners
+
+
+
+
+
+Partners Overview
+
+
+Find a Partner
+
+
+Apply to be a Partner
+
+
+Partner Events
+
+
+Partner Resource Center
+
+
+
+FEATURED PARTNER WEBINAR
+
+
+
+
+
+
+
+
+Security: Enabling the Digital Revolution Without Disruption
+According to a recent survey of UK senior ITDMs by IDG, over a third of respondents stated that managing security was one of the biggest issues faced when implementing digital transformation.
+View Webinar
+
+
+
+
+
+
+Resources
+
+
+
+
+
+Resource Library
+
+
+Blog
+
+
+Industry Reports
+
+
+Cloud Security Report 2015
+
+
+Threat Reports
+
+
+
+
+
+
+Voice of Our Customers
+
+
+Datasheets
+
+
+ActiveIntegration API
+
+
+Zero Day Magazine
+
+
+Infographics
+
+
+
+
+
+
+Webinars
+
+
+Whitepapers
+
+
+Security Checklists
+
+
+Videos
+
+
+
+Support
+
+
+
+
+
+
+
+
+
+Download The Ebook
+
+
+
+
+
+
+
+About Us
+
+
+
+
+OVERVIEW: 
+
+
+
+About Us
+
+
+Leadership
+
+
+Board of Directors
+
+
+Investors
+
+
+Awards
+
+
+Corporate Compliance
+
+
+
+
+
+MEDIA & EVENTS: 
+
+
+
+Press Releases 
+
+
+Media Coverage
+
+
+Events
+
+
+
+
+
+SUPPORT: 
+
+
+
+Community
+
+Alert Logic Docs
+
+Learn
+
+
+
+
+CAREERS: 
+
+
+
+Working At Alert Logic 
+
+
+Alert Logic Opportunities
+
+
+Celebrating Our Employees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Close
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Solutions 
+
+
+
+
+
+SOLUTIONS OVERVIEW 
+
+
+
+
+Managed Cloud SecurityAlert Logic® Cloud Defender®
+
+
+Vulnerability ManagementAlert Logic® Cloud Insight
+
+
+Network Threat DetectionAlert Logic® Threat Manager™
+
+
+Web Application SecurityAlert Logic® Web Security Manager
+
+
+Log Correlation and AnalysisAlert Logic® Log Manager™
+
+
+Compliance
+
+
+
+DEPLOYMENT PLATFORMS
+
+
+
+Amazon Web Services
+
+
+Microsoft Azure
+
+
+Cloud
+
+
+On-Premises
+
+
+Hybrid Infrastructure
+
+
+
+
+
+Customers 
+
+
+
+
+
+Customers Overview
+
+
+Case Studies
+
+
+Tell Us Your Story
+
+
+Our Customers
+
+
+Account Login
+
+
+
+
+
+Partners 
+
+
+
+
+
+Partners Overview
+
+
+Find a Partner
+
+
+Apply to be a Partner
+
+
+Partner Resource Center 
+
+
+Partner Events
+
+
+
+
+
+Resources 
+
+
+
+
+
+Resource Library
+
+
+Blog
+
+
+Industry Reports
+
+
+Cloud Security Report 2015
+
+
+Threat Reports
+
+
+Webinars
+
+
+Whitepapers
+
+
+Security Checklists
+
+
+Voice of Our Customers
+
+
+Datasheets
+
+
+ActiveIntegration API
+
+
+Zero Day Magazine
+
+
+Case Studies
+
+
+Infographics
+
+
+Videos
+
+
+New Economics of Cloud Security
+
+
+
+Support
+
+
+
+
+About Us 
+
+
+
+
+
+About Us
+
+
+Leadership
+
+
+Board of Directors
+
+
+Investors
+
+
+Awards
+
+
+Corporate Compliance
+
+
+Press Releases 
+
+
+Media Coverage
+
+
+Events
+
+
+Working At Alert Logic 
+
+
+Alert Logic Opportunities
+
+
+Celebrating Our Employees
+
+
+
+
+
+Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What we know about cloud security could fill a book.
+
+
+Lucky for you, we wrote one.
+
+
+
+
+
+
+
+
+
+
+
+
+THE FORRESTER WAVE™Find the right security for your cloud.
+
+
+					"Alert Logic has a head start in cloud, and it shows," according to "The Forrester Wave™: MSSP, North America, Q3 2016."
+					
+Download The Full Report Now
+
+
+
+
+
+
+
+
+
+
+
+
+On-Demand Webinar:The New Economics of Cloud Security
+
+
+					A deep dive into the value of the MSSP, featuring Jeff Pollard, Principal Analyst at Forrester Research. 
+					
+View Webinar
+
+
+
+
+
+
+
+
+
+
+
+
+Defend Your Data on Azure
+
+
+Be confident that your data is secure and compliant with Alert Logic managed security on Microsoft Azure.
+
+Find Out More
+
+
+
+
+
+
+
+
+
+
+
+
+Success Story:Let’s talk about cloud security.
+
+
+					A digital marketing firm explains how Security-as-a-Service eased their workload, and secured it.
+					
+Watch Customer Video Now
+
+
+
+
+
+
+
+
+
+
+
+
+We’re watching your assets. All day, every day.
+
+
+					See how continuous monitoring and security expertise keep your full stack secure.
+					
+Watch Now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What we know about cloud security could fill a book.
+
+ Lucky for you, we wrote one.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+THE FORRESTER WAVE™Find the right security for your cloud.
+
+	"Alert Logic has a head start in cloud, and it shows," according to "The Forrester Wave™: MSSP, North America, Q3 2016."
+Download The Full Report Now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On-Demand Webinar:The New Economics of Cloud Security
+
+	A deep dive into the value of the MSSP, featuring Jeff Pollard, Principal Analyst at Forrester Research. 
+View Webinar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Defend Your Data on Azure
+
+ Be confident that your data is secure and compliant with Alert Logic managed security on Microsoft Azure.
+Find Out More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Success Story:Let’s talk about cloud security.
+
+	A digital marketing firm explains how Security-as-a-Service eased their workload, and secured it.
+Watch Customer Video Now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We’re watching your assets. All day, every day.
+
+	See how continuous monitoring and security expertise keep your full stack secure.
+Watch Now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+We provide full stack security solutions. You get deep security insight and continuous protection as a service.
+Learn more
+
+
+
+
+
+
+
+Case Studies
+The best way to learn about our solutions is to hear from those who use them. See what our customers think of Alert Logic.
+Learn more
+
+
+
+
+
+
+
+Weekly Threat News
+Stay on top of the latest breaches and malware with Alert Logic's cyber threat updates.
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+Why Alert Logic
+We provide a managed Security-as-a-Service solution that integrates innovative security technology, human analytics, and responsive communication to deliver the highest-quality security outcome for companies that demand a leading cloud security provider. We have been refining our cloud-based platform for securing and protecting infrastructure and data since 2002. With more than 3,800 customer environments under our watch and the addition of third-party intelligence, Alert Logic maintains global visibility of new threats and vulnerabilities.
+
+Locations
+United States Headquarters1776 Yorktown Houston, TX 77056
+European HeadquartersFloor 5, 1 Capital QuarterTyndall Street Cardiff, CF10 4BZ United Kingdom
+
+
+
+
+
+
+
+
+
+Let's Talk Security
+Full Stack Security. 24x7 Monitoring. Experts Included.
+CONTACT YOUR SECURITY EXPERT TODAY
+CONTACT YOUR SECURITY EXPERT
+
+
+
+
+
+
+
+
+
+
+SCHEDULE DEMO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SCHEDULE A DEMO
+Want to learn about Alert Logic products in more detail? Call us direct at +1.877.484.8383, for the UK call +44 (0) 203 011 5533, or complete this form. An Alert Logic representative will contact you soon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+Customers
+Partners
+Resources
+About Us
+
+
+Toll Free: +1.844.816.1051
+Corporate: +1.713.484.8383
+UK: +44 (0) 203 011 5533
+
+
+Fax: +1.713.660.7988
+Email: info@alertlogic.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sales:  844.816.1051
+Support:  877.484.8383
+
+
+
+
+
+
+
+									Copyright © 2010-2017 Alert Logic, Inc.
+									All rights reserved. Terms of Use | Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

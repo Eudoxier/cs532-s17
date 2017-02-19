@@ -1,0 +1,573 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Login _
+
+Social Sharing
+
+
+Find TechSpot on...
+
+
+Facebook
+
+
+
+
+YouTube 
+
+Twitter
+
+
+
+
+
+
+
+Google+ 
+
+Subscribe to TechSpot RSS
+
+
+								Get our weekly newsletter
+								
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+TechSpot
+
+
+
+
+
+
+
+Trending
+
+
+Hardware
+The Web
+Culture
+Mobile
+Gaming
+Apple
+Microsoft
+Google
+
+
+
+
+
+
+
+
+
+Reviews
+
+
+Outstanding
+Laptops
+Graphics
+Smartphones
+CPUs
+Storage
+Cases
+Keyboard & Mice
+
+
+
+
+
+
+
+
+
+Features
+
+
+Must Reads
+PC Buying Guide
+Hardware
+Software
+Gaming
+Tips & Tricks
+
+
+
+
+
+
+
+
+
+Best Of
+
+
+
+
+
+
+
+
+
+Downloads
+
+
+Latest Downloads
+Popular Apps
+Editors Picks
+Device Drivers
+
+
+
+
+
+
+
+
+
+Product Finder
+
+
+New Releases
+New PC Games
+Laptops
+Smartphones
+Routers
+Storage
+Motherboards
+Monitors
+
+
+
+
+
+
+
+
+
+Forums
+
+
+Community Activity
+Today's Posts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security
+
+malware
+kaspersky lab
+
+
+A type of fileless malware related to Stuxnet has infected over 100 banks around the world
+The malware has been found in 40 countries, including 21 cases in the US
+
+									By Rob Thubron
+
+on Feb 9, 2017, 10:30 AM
+
+
+
+TechSpot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+It’s been seven years since Stuxnet, the computer worm thought to have been built as an American-Israeli cyberweapon, infected Iran’s nuclear facilities and caused damage that set the country’s nuclear program back by two years. Now, a derivative of the malicious software has infected over one hundred banks and other financial institutions around the world.
+Russian cybersecurity company and anti-virus group Kaspersky Lab first discovered the new malware, called Duqu 2.0, on its corporate network back in 2014. As it resides almost completely in the memory of the computers, it went undetected for six months or more, reports Ars Technica.
+New research from Kaspersky claims the invisible, fileless malware has gone mainstream and is now found on networks in 40 countries belonging to at least 140 institutions, including banks, government organizations, and telecommunication companies. There have been 21 instances in the US, though the actual number could be much higher, given how hard it is to detect.
+
+Once an infected computer is rebooted, the malware renames itself, making it difficult for digital forensic experts to find any traces of the malware. It was only discovered by a bank’s security team after it found a copy of Meterpreter—an in-memory component of Metasploit—inside the physical memory of a Microsoft domain controller. Researchers found that the Meterpreter code was downloaded and injected into memory using PowerShell commands.
+"We're looking at the common denominator across all of these incidents, which happens to be this odd use in embedding PowerShell into the registry in order to download Meterpretor and then carry out actions from there with native Windows utilities and system administrative tools," Kaspersky Lab expert Kurt Baumgartner told Ars.
+To what extent the malware's presence could affect consumers who use the infected financial institutions is unclear. Kaspersky Labs said it will provide further details of the attacks and their objectives at the Security Analyst Summit in April.
+
+Related Reads
+
+
+
+							Stuxnet worm found its way to Iran's nuclear facilities via five hacked suppliers						
+
+
+
+
+
+
+												7 comments
+										
+137 interactions
+
+
+
+Share this article:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now Read This…
+
+
+
+
+Project Loon now needs far less balloons to deliver the Internet, thanks to machine learning
+
+
+
+
+
+
+Time to compare: Unlimited plans from T-Mobile, Sprint, Verizon, and AT&T
+
+
+
+
+
+
+PewDiePie publishes response to anti-Semitic claims
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Popular
+
+
+
+20 comments
+
+
+
+For Honor: Graphics & CPU Performance
+
+
+
+
+17 comments
+
+
+
+AMD's Vega takes on Nvidia's GTX 1080 Ti as both companies hold events on the same day
+
+
+
+
+
+The 12 Best Games for Android
+
+
+
+
+10 comments
+
+
+
+Time to compare: Unlimited plans from T-Mobile, Sprint, Verizon, and AT&T
+
+
+
+
+
+
+
+
+
+
+
+
+Load Comments 7
+
+
+...
+
+
+
+
+
+User Comments: 7
+Got something to say? Post a comment
+
+
+
+Load all comments...
+
+
+
+
+
+
+
+
+
+
+
+Discuss
+
+
+18
+Facebook won't load correctly, but other sites work just fine
+
+
+11
+Project Memex is Darpa's search engine for the Dark Web
+
+
+14
+Yet another female executive is departing Reddit
+
+
+28
+What online security measures do you use?
+
+
+27
+More unblocking companies give up their fight against Netflix
+
+
+
+
+
+
+
+
+
+
+Recently commented stories
+Jump to forum mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add New Comment
+You need to be a member to leave a comment. Join thousands of tech enthusiasts and participate.
+
+
+
+
+TechSpot Account
+
+Sign up for free, it takes 30 seconds.
+												Already have an account? Login now.
+											
+
+
+
+You may also...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Main Sections
+
+Technology News
+Reviews
+Features
+Product Finder
+Downloads
+Drivers
+
+
+
+Community
+
+TechSpot Forums
+Today's Posts
+Ask a Question
+News & Comments
+
+
+
+Useful Resources
+
+Best of the Best
+Must Reads
+Trending Now
+Hot Downloads
+
+
+
+About TechSpot
+
+About
+Advertising
+News Archive
+Social & Feeds
+
+
+
+
+Follow TechSpot
+
+Facebook
+Twitter
+Google Plus
+YouTube
+RSS
+
+
+
+Subscribe to the TechSpot Newsletter
+
+
+
+
+
+
+
+
+
+© 2017 TechSpot, Inc. All Rights Reserved.
+TechSpot is a registered trademark. Terms of Use Privacy Policy Licensing Advertise
+International Editions: US / UK India
+
+
+
+
+
+
+
+
+
+
+
+
+

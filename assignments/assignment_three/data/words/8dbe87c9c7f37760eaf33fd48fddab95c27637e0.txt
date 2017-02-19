@@ -1,0 +1,2142 @@
+
+
+
+
+
+
+
+
+      Slideshare uses cookies to improve functionality and performance, and to provide you with relevant advertising. If you continue browsing the site, you agree to the use of cookies on this website. See our User Agreement and Privacy Policy.
+    
+
+      Slideshare uses cookies to improve functionality and performance, and to provide you with relevant advertising. If you continue browsing the site, you agree to the use of cookies on this website. See our Privacy Policy and User Agreement for details.
+    
+
+
+
+
+
+
+SlideShare
+
+
+
+Explore
+
+
+
+Search
+
+
+
+You
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upload
+
+
+Login
+
+
+Signup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Technology
+
+
+Education
+
+
+More Topics
+
+
+
+
+For Uploaders
+
+
+
+
+
+                    Get Started
+
+
+
+
+                    Tips & Tricks
+
+
+
+
+                    Tools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Beyond the Pentest: How C2, Internal Pivoting, and Data Exfiltration Show True Risk
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upcoming SlideShare
+
+
+
+
+
+
+
+
+
+
+Loading in …5
+×
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 of 59
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Like this presentation? Why not share!
+
+Share
+Email
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+External to DA, the OS X Way
+by Stephan Borosh
+2300 views
+
+
+
+
+
+
+
+Pentest Apocalypse - SANSFIRE 2016 ...
+by Beau Bullock
+323 views
+
+
+
+
+
+
+
+Web PenTest Sample Report
+by Octogence
+107 views
+
+
+
+
+
+
+
+Ganesh Muthiah - CV
+by Ganesh Muthiah
+98 views
+
+
+
+
+
+
+
+Sample penetration testing agreemen...
+by Dave Sweigert, CE...
+1184 views
+
+
+
+
+
+
+
+BRISK_Network_Pentest_
+by BriskInfosec Solu...
+293 views
+
+
+
+
+
+ 
+
+
+
+
+
+
+Share SlideShare
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+LinkedIn
+
+
+
+
+Google+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+
+
+
+Email sent successfully!
+
+
+
+Embed
+
+
+
+Size (px)
+
+
+
+Start on
+
+
+
+
+Show related SlideShares at end
+
+
+
+
+WordPress Shortcode
+
+
+
+Link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Beyond the Pentest: How C2, Internal Pivoting, and Data Exfiltration Show True Risk
+                
+
+
+
+
+                  2,165 views
+
+
+
+
+
+Share
+
+
+Like
+
+
+
+                  Download
+                
+
+
+
+
+
+
+
+
+
+
+
+Beau Bullock
+
+
+
+
+ Follow
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+0
+
+
+
+
+31
+
+
+
+
+              Published on Mar 17, 2016
+
+
+
+
+
+
+                    Your vulnerability scanner reports that there are no issues on your network. A pentester has spent the last week trying to exploit every system your organization owns with no luck. The check box for this year's compliance audit has been checked. While it is good that these things occurred, they do not complete the picture in regards to true risk. Real attackers do not solely rely on software exploits to compromise an environment. In almost every breach you hear about the root of the compromise came from a phishing attack. This is why additional tests, post-infection, should be performed to assess just how far an attacker can go after gaining a foothold into your environment. What command and control channels are available for an attacker to utilize to communicate with your internal systems? How easy is it for an attacker to move laterally within your environment and gain access to other systems? What are your detection capabilities when it comes to sensitive data being exfiltrated out of your environment? How do you test these attacker techniques using open-source tools? This lecture will address these questions and more, including a showcase of attacker methodologies.
+                  
+
+
+
+                    ...
+
+
+
+
+
+Published in:
+Technology
+
+
+
+
+
+
+
+                    0 Comments
+                
+
+
+
+
+
+                  5 Likes
+                
+
+
+
+
+
+                Statistics
+              
+
+
+
+
+                Notes
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Full Name
+
+
+
+
+
+
+                          Comment goes here.
+                        
+12 hours ago  
+
+                        
+
+Delete
+Reply
+Spam
+Block
+
+
+
+
+Are you sure you want to
+Yes
+No
+
+
+
+                          Your message goes here
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post
+
+
+
+
+
+
+
+
+
+Be the first to comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vlad Gostomelsky
+
+
+
+
+
+
+
+
+
+
+                              4 days ago
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+Luca Iuliano
+
+
+                                , 
+                                Information Technology and Cyber Security Manager
+
+
+                                 at 
+                                Esercito Italiano
+
+
+
+
+                              7 months ago
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jeremy Speaks
+
+
+
+
+
+
+
+
+
+
+                              9 months ago
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+milton9
+
+
+
+
+
+
+
+
+
+
+                              10 months ago
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+Napat Boonsaeng
+
+
+                                , 
+                                Senior Member of Technical Staff at VMware
+
+
+                                 at 
+                                VMware
+
+
+
+
+                              10 months ago
+                            
+
+
+
+
+
+
+
+No Downloads
+
+
+
+
+Views
+
+Total views
+
+                      2,165
+                    
+On SlideShare
+
+                      0
+                    
+From Embeds
+
+                      0
+                    
+Number of Embeds
+
+                      34
+                    
+
+
+
+Actions
+
+Shares
+0
+Downloads
+
+                      76
+                    
+Comments
+
+                      0
+                    
+Likes
+
+                      5
+                    
+
+
+
+
+                    Embeds
+                    0
+
+
+No embeds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+No notes for slide
+
+
+
+
+
+
+                  Beyond the Pentest: How C2, Internal Pivoting, and Data Exfiltration Show True Risk
+              
+
+
+      1.
+    Beyond the Pentest
+How C2, Internal Pivoting, and Data
+Exﬁltration Show True Risk
+Beau Bullock
+ 
+  
+
+
+        2.
+      
+    Beyond the Pentest
+What does a standard internal network pentest already
+cover?
+Port scans
+Vulnerability scanning
+Manual validation
+Provide recommendations
+ 
+  
+
+
+        3.
+      
+    What is Wrong With This
+Attackers don’t
+vulnerability scan - too
+noisy
+Misses some very critical
+vulnerabilities
+Doesn’t account for
+domain systems already
+compromised
+ 
+  
+
+
+        4.
+      
+    whoami
+Beau Bullock
+Pentester at Black Hills
+Information Security
+Host of Hack Naked TV
+Previously an enterprise defender
+OSCP, GXPN, GPEN, GCIH,
+GCFA, OSWP and GSEC
+ 
+  
+
+
+        5.
+      
+    What Are We Missing
+Three major things
+Command and Control
+Internal Pivoting
+Data Exﬁltration
+ 
+  
+
+
+        6.
+      
+    How Do We Test These
+Start with the basics
+Standard domain user account
+Lowest level of access typically provisioned
+Standard system build
+Anyone on leave? Steal their system
+Standard network access
+ 
+  
+
+
+        7.
+      
+    Command and Control
+ 
+  
+
+
+        8.
+      
+    Command and Control
+Three focus areas
+Payload delivery
+Email, web, etc.
+Client-based protections
+AV, application whitelisting, HIDS, etc.
+Network-based protections
+Egress filtering, IDS/IPS, inline payload detonation
+ 
+  
+
+
+        9.
+      
+    C2: Payload Delivery
+What can be emailed to your employees?
+Executable
+PDF
+Word DOC or XLS w/ macro
+Batch ﬁle
+Encrypted ZIP
+Extensionless ﬁles?
+ 
+  
+
+
+        10.
+      
+    C2: Payload Delivery
+Protip:
+Many webmail services scan attachments for
+malware
+Some don’t allow EXE’s altogether
+Yahoo’s MTA does not scan, and allows EXE’s
+Use a third-party mail client to send through Yahoo
+ 
+  
+
+
+        11.
+      
+    C2: Payload Delivery
+What can be downloaded?
+How about browser or Java or Adobe exploits?
+Are users allowed to insert USB drives?
+ 
+  
+
+
+        12.
+      
+    C2: Client-Based
+Protections
+Did anything detect the payload after entry?
+Anti-Virus
+Application whitelisting
+SIEM alerts
+ 
+  
+
+
+        13.
+      
+    C2: Client-Based
+Protections
+Payload types
+Non-encoded EXE
+Encoded EXE
+ShellCode injection
+Word Doc w/ macro
+Software exploit
+Physical access (rubber ducky)
+ 
+  
+
+
+        14.
+      
+    C2: Client-Based
+Protections
+Bypassing Client-based protections
+Veil-Evasion
+Framework for creating custom malware
+PowerSploit
+Shellcode injection directly into memory
+Obfuscation
+ 
+  
+
+
+        15.
+      
+    C2: Network-Based
+Protections
+Was the C2 channel detected?
+Firewall block
+IDS/IPS detection
+Inline Detonation
+ 
+  
+
+
+        16.
+      
+    C2: Network-Based
+Protections
+What does an outbound portscan reveal?
+open.zorinaq.com
+Weak egress ﬁltering provides more legroom for C2
+DLP might miss items not sent over standard ports
+ 
+  
+
+
+        17.
+      
+    C2: Some Typical C2
+Channels
+Standard TCP
+HTTP/HTTPS
+DNS
+ICMP
+ 
+  
+
+
+        18.
+      
+    C2: C2 Through A Web
+Proxy
+Meterpreter Reverse_https
+Uses proxy settings on system
+PowerShell Empire!!!
+Same as above but in PowerShell
+Appears as web trafﬁc through your web proxy
+ 
+  
+
+
+        19.
+      
+    C2: C2 Over Social Media
+Can your users get to any social media sites?
+Twittor - Uses Twitter direct messages as a C2
+channel
+GCAT - Uses Gmail as a C2 channel
+Sneaky-Creeper - Uses Twitter, Tumblr, and
+Soundcloud as a C2 channel
+ 
+  
+
+
+        20.
+      
+    C2: C2 over DNS
+DNScat
+Tunnels trafﬁc through DNS requests
+C2 channel through NS Records
+C2 even with EVERY port blocked outbound from the
+client
+https://github.com/iagox86/dnscat2
+ 
+  
+
+
+        21.
+      
+    C2: C2 over ICMP
+Invoke-PowerShellICMP
+Tunnels trafﬁc through ICMP echo-requests and
+echo-replys
+ICMP is commonly allowed through ﬁrewalls
+https://github.com/samratashok/nishang/tree/master/Shells
+ 
+  
+
+
+        22.
+      
+    Internal Pivoting
+ 
+  
+
+
+        23.
+      
+    Internal Pivoting
+Use built-in tools as a low level user to compromise a
+network
+No vuln scans needed
+Less noise
+Escalate privileges; locate sensitive data
+ 
+  
+
+
+        24.
+      
+    Pivot: GPP Passwords
+May 13, 2014 – MS14-025
+Passwords of accounts set
+by GPP are trivially
+decrypted!
+…by ANY authenticated
+user on the domain
+Located in groups.xml ﬁles
+on SYSVOL
+https://msdn.microsoft.com/en-us/library/2c15cbf0-f086-4c74-8b70-1f2fa45dd4be.aspx
+http://blogs.technet.com/b/srd/archive/2014/05/13/ms14-025-an-update-for-group-policy-preferences.aspx
+https://dirteam.com/sander/2014/05/23/security-thoughts-passwords-in-group-policy-preferences-cve-2014-1812/
+ 
+  
+
+
+        25.
+      
+    Pivot: GPP Passwords
+First thing I check for on an internal
+assessment
+Almost always ﬁnd an admin
+password here
+Find it with:
+PowerSploit - Get-
+GPPPassword
+Metasploit GPP Module
+Or…
+C:>findstr /S cpassword %logonserver%sysvol*.xml
+ 
+  
+
+
+        26.
+      
+    Pivot: Privilege Escalation
+Local privilege escalation
+Are we already a local
+admin?
+PowerUp
+Invoke-AllChecks looks
+for potential privilege
+escalation vectors
+http://www.verisgroup.com/2014/06/17/powerup-usage/
+ 
+  
+
+
+        27.
+      
+    Pivot: Misconﬁgured
+Systems
+Occasionally, admins get lazy… and do things like add
+“Domain Users” group to the “Local Administrators”
+group
+ 
+  
+
+
+        28.
+      
+    Pivot: Misconﬁgured
+Systems
+This means EVERY domain user is now is an
+administrator of that system
+Veil-PowerView Find-LocalAdminAccess
+Veil-PowerView Invoke-ShareFinder
+http://www.harmj0y.net/blog/penetesting/ﬁnding-local-admin-with-the-veil-framework/
+ 
+  
+
+
+        29.
+      
+    Pivot: Password Spraying
+Domain locks out accounts after a certain number of
+failed logins
+Can’t brute force
+Solution:
+Try a number of passwords less than the domain
+lockout policy against EVERY account in the domain
+ 
+  
+
+
+        30.
+      
+    Pivot: Password Spraying
+Lockout Policy = Threshold of ﬁve
+Let’s try one password across every account
+What passwords do we try?
+Password123
+Companyname123
+SeasonYear
+C:>@FOR /F %n in (users.txt)
+DO @FOR /F %p in (pass.txt) DO
+@net use DOMAINCONTROLLER
+IPC$ /user:DOMAIN%n %p 1>NUL
+2>&1 && @echo [*] %n:%p &&
+@net use /delete 
+DOMAINCONTROLLERIPC$ > NUL
+ 
+  
+
+
+        31.
+      
+    Pivot: Password Spraying
+ 
+  
+
+
+        32.
+      
+    Pivot: LLMNR & NBTNS
+Poison
+LLMNR = Link-Local Multicast Name Resolution
+NBT-NS = NetBIOS over TCP/IP Name Service
+Both help hosts identify each other when DNS fails
+ 
+  
+
+
+        33.
+      
+    Pivot: LLMNR & NBTNS
+Poison
+http://www.sternsecurity.com/blog/local-network-attacks-llmnr-and-nbt-ns-poisoning
+ 
+  
+
+
+        34.
+      
+    Pivot: LLMNR & NBTNS
+Poison
+SpiderLabs Responder
+Inveigh PowerShell Script
+The result is that we obtain NTLM challenge/response
+hashes
+Crack hashes
+https://www.trustwave.com/Resources/SpiderLabs-Blog/Introducing-Responder-1-0/
+ 
+  
+
+
+        35.
+      
+    Sensitive Data Hunt
+ 
+  
+
+
+        36.
+      
+    Sensitive Data: Info
+Disclosure on Shares
+Sensitive ﬁles on shares?
+Find them with PowerView
+ShareFinder then FileFinder
+FileFinder will ﬁnd ﬁles with the following
+strings in their title:
+‘*pass*’, ‘*sensitive*’, ‘*admin*’,
+‘*secret*’, ‘*login*’, ‘*unattend*.xml’,
+‘*.vmdk’, ‘*creds*’, or ‘*credential*’ 
+ 
+  
+
+
+        37.
+      
+    Sensitive Data: Locate RDP
+Jump Hosts
+Where are users RDP’ing to?
+Can provide insight into where critical systems are
+Get-NetComputers | Get-NetRDPSessions | Export-
+Csv –NoTypeInformation rdpsessions.csv
+http://www.harmj0y.net/blog/powershell/powerquinsta/
+ 
+  
+
+
+        38.
+      
+    Sensitive Data: Virtualization
+Hypervisors
+ 
+  
+
+
+        39.
+      
+    Data Exﬁltration
+ 
+  
+
+
+        40.
+      
+    Data Exﬁltration
+What are organizations concerned about leaving their
+networks? 
+PCI data
+Patient health information
+Personally Identifying Information
+Intellectual property
+ 
+  
+
+
+        41.
+      
+    Data Exﬁltration
+How can attackers get data out of your network? 
+Email
+Web Access
+USB Drive
+Photo
+ 
+  
+
+
+        42.
+      
+    Data Exﬁl: Email
+For email is DLP being enforced on the following?
+Cleartext in email body
+Encoded in email body
+Attachments
+Optical Character Recognition
+ 
+  
+
+
+        43.
+      
+    Data Exﬁl: Web	
+Is all web trafﬁc subject to DLP inspection?
+Same types of tests as email are performed but
+tracking over standard and non-standard web ports
+ 
+  
+
+
+        44.
+      
+    Data Exﬁl: USB Drives
+Are ﬁles allowed to be copied to a USB drive?
+Encryption
+DLP
+Blocked completely
+ 
+  
+
+
+        45.
+      
+    Putting It All Together
+ 
+  
+
+
+        46.
+      
+    Attack Scenario
+Target Organization Setup
+Firewall only allows outbound trafﬁc through web
+proxy
+AV up to date on clients
+Email gateway allows Doc ﬁles
+Local Administrator account is widespread with same
+credentials
+ 
+  
+
+
+        47.
+      
+    Attack Scenario
+Phishing email is crafted with Word doc attachment
+Word doc is weaponized with a Macro
+Email is sent to target employee
+ 
+  
+
+
+        48.
+      
+    Attack Scenario
+Employee opens email
+Downloads attached .doc
+Enables content
+Macro runs PowerSploit
+PowerShell script to inject
+Meterpreter Reverse_https
+into memory
+Meterpreter C2 channel is
+established
+ 
+  
+
+
+        49.
+      
+    Attack Scenario
+Password spray from the command line
+Spring2016?
+Run Find-LocalAdminAccess to ﬁnd where the users
+are local admin
+Pivot using psexec
+ 
+  
+
+
+        50.
+      
+    Attack Scenario
+Attacker dumps local user hashes (including local
+admin)
+Local administrator credential is not randomized
+Using PowerView UserHunter the attacker ﬁnds where
+Domain Admins are located
+ 
+  
+
+
+        51.
+      
+    Attack Scenario
+Attacker pivots to DA
+workstation
+Runs Mimikatz to dump
+creds from memory
+Locates sensitive data
+with PowerView
+ShareFinder
+Exﬁls data
+ 
+  
+
+
+        52.
+      
+    Summary
+ 
+  
+
+
+        53.
+      
+    Summary
+What are the beneﬁts of this style of testing?
+Real test of detection and incident response
+Shows how an attacker can go from low access to
+owning the environment
+Shows true risk to the organization
+ 
+  
+
+
+        54.
+      
+    Thank You!
+beau@blackhillsinfosec.com
+beau@dafthack.com
+@dafthack
+ 
+  
+
+
+
+
+
+
+
+
+        Recommended
+      
+
+
+
+
+
+
+
+
+
+
+
+
+        Meeting the Challenge of Digital Transformation
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Up and Running with Bitcoin
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Developing for Apple Watch First Look
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        External to DA, the OS X Way
+      
+Stephan Borosh
+
+
+
+
+
+
+
+
+
+
+        Pentest Apocalypse - SANSFIRE 2016 Edition
+      
+Beau Bullock
+
+
+
+
+
+
+
+
+
+
+        Web PenTest Sample Report
+      
+Octogence
+
+
+
+
+
+
+
+
+
+
+        Ganesh Muthiah - CV
+      
+Ganesh Muthiah
+
+
+
+
+
+
+
+
+
+
+        Sample penetration testing agreement for core infrastructure
+      
+Dave Sweigert, CEH, CISA, CISSP, HCISPP, PCIP, PMP
+
+
+
+
+
+
+
+
+
+
+        BRISK_Network_Pentest_
+      
+BriskInfosec Solutions
+
+
+
+
+
+
+
+
+
+
+        Metasploit Class: Shellshock Attack
+      
+Julian Gonzalez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+English
+                    
+
+
+Español
+                    
+
+
+Português
+                    
+
+
+Français
+                    
+
+
+Deutsch
+                    
+
+
+
+
+
+
+
+About
+Dev & API
+Blog
+Terms
+Privacy
+Copyright
+Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LinkedIn Corporation © 2017
+
+
+
+
+
+
+
+×
+
+
+
+
+
+Share Clipboard
+
+×
+
+
+Email
+
+
+
+
+
+
+
+
+
+Email sent successfully..
+
+
+
+
+
+Facebook
+
+
+Twitter
+
+
+LinkedIn
+
+
+
+Google+
+
+
+
+
+
+
+Link
+
+
+
+
+
+
+
+Public clipboards featuring this slide
+
+×
+
+
+
+
+    No public clipboards found for this slide
+  
+
+
+
+
+
+
+×
+
+
+
+Save the most important slides with Clipping
+
+
+
+
+Clipping is a handy way to collect and organize the most important slides from a presentation. You can keep your great finds in clipboards organized around topics.
+Start clipping
+No thanks. Continue to download.
+
+
+
+
+
+
+
+
+Select another clipboard
+
+×
+
+
+
+
+
+
+Looks like you’ve clipped this slide to  already.
+
+
+
+
+
+
+
+
+
+
+
+
+Create a clipboard
+
+
+
+
+
+
+You just clipped your first slide!
+
+        Clipping is a handy way to collect important slides you want to go back to later. Now customize the name of a clipboard to store your clips.
+      
+
+
+
+
+
+
+Name*
+          
+
+
+
+
+
+
+Description
+          
+
+
+
+
+
+Visibility
+        
+Others can see my Clipboard
+
+
+
+
+
+
+
+Cancel
+Save
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

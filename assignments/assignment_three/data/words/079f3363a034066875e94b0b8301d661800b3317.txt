@@ -1,0 +1,616 @@
+
+
+
+
+
+
+SECURITYWEEK NETWORK:
+Information Security News
+Infosec Island
+Suits and Spooks
+
+
+
+Security Experts:
+WRITE FOR US
+
+
+
+
+
+
+
+
+
+
+
+Subscribe (Free)
+CISO Forum 2017
+ICS Cyber Security Conference
+Contact Us
+
+
+
+
+
+
+Malware & ThreatsVulnerabilities
+Email Security
+Virus & Malware
+IoT Security
+Endpoint Security 
+
+CybercrimeCyberwarfare
+Fraud & Identity Theft
+Phishing
+Malware
+Tracking & Law Enforcement
+
+Mobile & WirelessMobile Security
+Wireless Security
+
+Risk & ComplianceRisk Management
+Compliance
+Privacy
+
+Security ArchitectureCloud Security
+Identity & Access
+Data Protection
+Network Security
+Application Security 
+
+Security StrategyRisk Management
+Security Architecture
+Disaster Recovery
+Training & Certification
+Incident Response
+
+IoT Security
+SCADA / ICS
+
+
+
+
+
+
+
+
+
+
+Destructive Shamoon 2 Variant Targets Virtualization Products 
+Flash Crashes and Rogue Algorithms: The Case for "Securing" Artificial Intelligence
+
+ 
+
+
+IT Security News Headlines
+
+
+
+
+
+
+
+
+Germany Bans Internet-connected 'Spy' Doll Cayla
+
+
+
+
+Self-Healing Malware Hits Magento Stores
+
+
+
+
+Google Shares Data on Corporate Email Attacks
+
+
+
+
+Ursnif Banking Trojan's Distribution Networks Exposed
+
+
+
+
+App-in-the-Middle Attacks Bypass Android Sandbox: Skycure
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+More Security Headlines
+
+
+
+
+
+China-Linked Group Uses New Malware in Japan Attacks
+
+
+China-linked threat actor uses new ChChes malware in attacks aimed at Japanese academics and organizations  [Read More]
+
+
+
+
+Microsoft Calls for Cyber Geneva Convention
+
+
+Microsoft is calling for an international cyber Geneva Convention to protect business, users and critical infrastructure before it spirals out of control.  [Read More]
+
+
+
+
+Insecure Android Apps Expose Connected Cars
+
+
+Kaspersky analyzed Android apps for several connected cars and found that most of them lack crucial security features  [Read More]
+
+
+
+
+Many Ukrainian Organizations Targeted in Reconnaissance Operation
+
+
+Many organizations in Ukraine targeted in a campaign that shares some similarities with Operation Groundbait  [Read More]
+
+
+
+
+Apple Patches Code Execution Flaw in GarageBand
+
+
+Update released by Apple for GarageBand patches a code execution vulnerability discovered by Cisco Talos researchers  [Read More]
+
+
+
+
+High Severity Flaw Patched in OpenSSL 1.1.0
+
+
+High severity denial-of-service (DoS) vulnerability patched in OpenSSL 1.1.0 with the release of version 1.1.0e  [Read More]
+
+
+
+
+Iranian Spies Target Saudi Arabia in "Magic Hound" Attacks
+
+
+Cyber espionage group with ties to Iran and Shamoon attacks targets organizations in Middle East, particularly Saudi Arabia  [Read More]
+
+
+
+
+Shamoon Malware Delivered via Weaponized Documents: IBM
+
+
+IBM researchers believe Shamoon used macro-enabled documents and PowerShell scripts to infect victims  [Read More]
+
+
+
+
+Microsoft Postpones February Security Updates to March 14
+
+
+Microsoft informed customers that the February patches will only be released on March 14 as part of the next planned Update Tuesday  [Read More]
+
+
+
+
+Cyber Warriors See Politics Muddying Security Efforts
+
+
+Donald Trump has vowed to improve cyber attack defense, but security experts at the RSA Conference say a fractious domestic and international political landscape could hamstring efforts to improve internet security.  [Read More]
+
+
+
+ 
+1 of 1049
+››
+
+ 
+
+
+
+
+
+SecurityWeek Experts
+
+
+
+
+
+
+
+
+
+
+
+
+Moving Beyond "Moving Left": The Case for Developer Enablement
+
+
+Jim Ivers - Vulnerabilities
+
+
+Enabling developers through the right mix of tools and education just makes too much sense and generates too much value for all concerned.
+
+
+Read full story
+
+
+
+
+
+
+
+
+Taking Mature Security Operations to the Masses
+
+
+Joshua Goldfarb - Management & Strategy
+
+
+Let’s take a look at the essential functions required to bring a mature security operations and incident response capability to the masses via a unified security operations platform.
+
+
+Read full story
+
+
+
+
+
+
+
+
+What to Know Before Choosing a Malware Analysis Environment
+
+
+Scott Simkin - Cloud Security
+
+
+Attackers have developed anti-VM analysis techniques to allow the malware to recognize when it is being run on a virtual machine and fail to execute, meaning the system or threat analytics cannot make a verdict determination or extract intelligence from the sample.
+
+
+Read full story
+
+
+
+
+
+
+
+
+Online: The Other Side of Terrorism
+
+
+Josh Lefkowitz - Cyberwarfare
+
+
+It’s critical to recognize that there will always be virtual ways in which terrorists and other criminals can create threats that no border process or physical security program can stop.
+
+
+Read full story
+
+
+
+
+
+
+
+
+Who Should be Using Strategic and Operational Cyber Threat Intelligence
+
+
+Adam Meyer - Security Infrastructure
+
+
+Cyber threat intelligence needs to be tailored to its audience as it means different things to different people, whether it’s on-the-network defenders, Red Teams, threat analysts, risk officers, business executives and Board of Directors, legal, application owners, and so on.
+
+
+Read full story
+
+
+
+
+
+
+
+
+Cybersecurity: Learning from the Future
+
+
+Avi Chesla - Management & Strategy
+
+
+Correlating data points through more holistic analytic systems can help reveal the bigger picture and understand the real intent of an attack campaign.
+
+
+Read full story
+
+
+
+
+
+
+
+
+Sometimes It's Best to Avoid "Cupid’s" Arrow
+
+
+Alastair Paterson - Cybercrime
+
+
+It’s fairly typical for bad actors to escalate extortion-based campaigns during seasonal events when the stakes for targets are high.
+
+
+Read full story
+
+
+
+
+
+
+
+
+Cybersecurity Lessons From Kung Fu
+
+
+Lance Cottrell - Management & Strategy
+
+
+Whether in a bar or in public, on the dark-web or a major news site, the lesson my Kung Fu instructor taught me on that first day can go a long way to keeping you safe.
+
+
+Read full story
+
+
+
+
+
+
+
+
+The Colossal Challenge of Simplicity
+
+
+Rafal Los - Management & Strategy
+
+
+When you’re solving problems it’s easy to get lost in creating something complicated. I believe that the more difficult path is to simplify, simplify, simplify.
+
+
+Read full story
+
+
+
+
+
+
+
+
+The Evolution of Ransomware: Part 1
+
+
+Jack Danahy - Malware
+
+
+The impact of ransomware has expanded from an IT nuisance to attacks that can shut down and potentially ruin the businesses they infect.
+
+
+Read full story
+
+
+
+ 
+1 of 154
+››
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe to SecurityWeek
+
+
+
+
+
+
+
+ 
+
+
+
+
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+Most RecentMost Read
+Germany Bans Internet-connected 'Spy' Doll Cayla
+Self-Healing Malware Hits Magento Stores
+Google Shares Data on Corporate Email Attacks
+Ursnif Banking Trojan's Distribution Networks Exposed
+App-in-the-Middle Attacks Bypass Android Sandbox: Skycure
+Moving Beyond "Moving Left": The Case for Developer Enablement
+China-Linked Group Uses New Malware in Japan Attacks
+Microsoft Calls for Cyber Geneva Convention
+Insecure Android Apps Expose Connected Cars
+Many Ukrainian Organizations Targeted in Reconnaissance Operation
+
+
+
+
+
+
+
+Looking for Malware in All the Wrong Places?
+
+
+
+
+First Step For The Internet's next 25 years: Adding Security to the DNS
+
+
+
+
+Tattle Tale: What Your Computer Says About You
+
+
+
+
+Be in a Position to Act Through Cyber Situational Awareness
+
+
+
+
+Report Shows Heavily Regulated Industries Letting Social Networking Apps Run Rampant
+
+
+
+
+2010, A Great Year To Be a Scammer.
+
+
+
+
+Don't Let DNS be Your Single Point of Failure
+
+
+
+
+How to Identify Malware in a Blink
+
+
+
+
+Defining and Debating Cyber Warfare
+
+
+
+
+The Five A’s that Make Cybercrime so Attractive
+
+
+
+
+How to Defend Against DDoS Attacks
+
+
+
+
+Security Budgets Not in Line with Threats
+
+
+
+
+Anycast - Three Reasons Why Your DNS Network Should Use It
+
+
+
+
+The Evolution of the Extended Enterprise: Security Strategies for Forward Thinking Organizations
+
+
+
+
+Using DNS Across the Extended Enterprise: It’s Risky Business
+
+
+
+ 
+
+
+
+
+
+
+
+
+Popular Topics
+Information Security News
+IT Security News
+Risk Management
+Cybercrime
+Cloud Security
+Application Security
+Smart Device Security
+
+
+
+Security Community
+IT Security Newsletters
+Suits and Spooks
+ICS Cyber Security Conference
+CISO Forum
+InfosecIsland.Com 
+
+
+
+Stay Intouch
+Twitter
+Facebook
+LinkedIn Group
+Cyber Weapon Discussion Group
+RSS Feed
+Submit Tip
+Security Intelligence Group
+
+
+
+About SecurityWeek
+Team
+Advertising
+Events
+Writing Opportunities
+Feedback
+Contact Us
+
+
+
+Copyright © 2017 Wired Business Media. All Rights Reserved. Privacy Policy | Terms of Use
+
+
+
+
+
+
+
+

@@ -1,0 +1,570 @@
+
+
+
+
+Schneier on Security
+
+
+
+Blog
+Newsletter
+Books
+Essays
+News
+Talks
+Academic
+About Me
+
+
+
+
+Search
+Powered by DuckDuckGo
+
+
+
+
+blog
+essays
+whole site 
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+Blog >
+
+
+
+
+
+
+
+Security and Privacy Guidelines for the Internet of Things
+Lately, I have been collecting IoT security and privacy guidelines. Here's everything I've found:
+"Internet of Things (IoT) Broadband Internet Technical Advisory Group, Broadband Internet Technical Advisory Group, Nov 2016.
+
+"IoT Security Guidance," Open Web Application Security Project (OWASP), May 2016.
+
+"Strategic Principles for Securing the Internet of Things (IoT)," US Department of Homeland Security, Nov 2016.
+
+"Security," OneM2M Technical Specification, Aug 2016.
+
+"Security Solutions," OneM2M Technical Specification, Aug 2016.
+
+"IoT Security Guidelines Overview Document," GSM Alliance, Feb 2016.
+
+"IoT Security Guidelines For Service Ecosystems," GSM Alliance, Feb 2016.
+
+"IoT Security Guidelines for Endpoint Ecosystems," GSM Alliance, Feb 2016.
+
+"IoT Security Guidelines for Network Operators," GSM Alliance, Feb 2016.
+
+"Establishing Principles for Internet of Things Security," IoT Security Foundation, undated.
+
+"IoT Design Manifesto," www.iotmanifesto.com, May 2015.
+
+"NYC Guidelines for the Internet of Things," City of New York, undated.
+
+"IoT Security Compliance Framework," IoT Security Foundation, 2016.
+
+"Principles, Practices and a Prescription for Responsible IoT and Embedded Systems Development," IoTIAP, Nov 2016.
+
+"IoT Trust Framework," Online Trust Alliance, Jan 2017.
+
+"Five Star Automotive Cyber Safety Framework," I am the Cavalry, Feb 2015.
+
+"Hippocratic Oath for Connected Medical Devices," I am the Cavalry, Jan 2016.
+
+"Industrial Internet of Things Volume G4: Security Framework," Industrial Internet Consortium, 2016.
+
+"Future-proofing the Connected World: 13 Steps to Developing Secure IoT Products," Cloud Security Alliance, 2016.
+Other, related, items:
+"We All Live in the Computer Now," The Netgain Partnership, Oct 2016.
+
+"Comments of EPIC to the FTC on the Privacy and Security Implications of the Internet of Things," Electronic Privacy Information Center, Jun 2013.
+
+"Internet of Things Software Update Workshop (IoTSU)," Internet Architecture Board, Jun 2016.
+
+"Multistakeholder Process; Internet of Things (IoT) Security Upgradability and Patching," National Telecommunications & Information Administration, Jan 2017.
+They all largely say the same things: avoid known vulnerabilities, don't have insecure defaults, make your systems patchable, and so on.
+My guess is that everyone knows that IoT regulation is coming, and is either trying to impose self-regulation to forestall government action or establish principles to influence government action. It'll be interesting to see how the next few years unfold.
+If there are any IoT security or privacy guideline documents that I'm missing, please tell me in the comments. 
+EDITED TO ADD: Documents added to the list, above.
+Tags: Internet of things, privacy, security engineering, security standards
+Posted on February  9, 2017 at  7:14 AM
+	 • 
+	34 Comments
+	
+	
+
+
+Comments
+
+Eric V • February  9, 2017  7:58 AM
+
+At least 2 are missing from the list:
+Cloud Security Alliance, Future Proofing the Connected World. Very practical view and a nice read.
+Industrial Internet Consortium, Industrial Internet of Things, Volume G4: Security Framework. Comprehensive, more like a reference.
+
+
+Ted • February  9, 2017  8:45 AM
+
+Multistakeholder Process; Internet of Things (IoT) Security Upgradability and Patching
+https://www.ntia.doc.gov/other-publication/2016/multistakeholder-process-iot-security
+Four working groups composed presentations for a "IoT Security Upgradability and Patching" virtual meeting held on January 31, 2017. From the briefing provided by the "Existing Standards, Tools, and Initiatives Working Group":
+Initially Targeted Efforts
+• Online Trust Alliance
+• Organization: Industrial Internet Consortium (IIC)
+• Open Connectivity Foundation
+• National Institute of Standards and Technology
+• IEEE Internet of Things
+• Alliance for Internet of Things Innovation
+• International Organization for Standardization (ISO) IoT Standards
+• Industrial Automation and Control System Security
+• Open Web Application Security Project
+• Cloud Security Alliance
+• Object Management Group
+• Internet Engineering Task Force (IETF)
+• European Telecommunications Standards Institute (ETSI)
+• Thread Group
+• oneM2M
+• 3rd Generation Partnership Project (3GPP)
+• ITU-T SG20
+• IoT Security Foundation
+• Internet of Things Consortium
+• Cloud Standards Customer Council (CSCC)
+• Smart Grid Interoperability Panel (SGIP)
+• Groupe Spécial Mobile Assocation (GSMA)
+• US Department of Homeland Security (DHS)
+• Open Mobile Alliance (OMA)
+• Underwriters Laboratories (UL)
+• U.S. Food and Drug Administration (FDA)
+• OpenFog Consortium
+• Industrie 4.0
+• North American Electric Reliability Corp
+Questions?
+Want to help?
+• WG1 Mailing List: ntia-iot-wg1@googlegroups.com
+• WG1 Virtual Meeting frequency: Every two weeks
+Presentations are also available from the "Technical Capabilities and Patching Expectations Working Group," "Communicating Upgradability and Improving Transparency Working Group," and "Incentives, Barriers, and Adoption Working Group."
+
+
+My Info • February  9, 2017  8:46 AM
+
+I think the Amish have better ideas than anyone else how to handle this so-called "Internet of Things."
+
+
+My Info • February  9, 2017  8:54 AM
+
+When it comes to Internet-connected toilets equipped with video cameras for automatic flush, I've reached my limit, and I'm more than ready to vomit.
+If even the Amish kids are known to tip over outhouses for a prank, I certainly do not want this entire generation of drug-addled Internet brats raised on corn smut to be "enabled" to commit all manner of similar but higher-tech pranks with the Internet of Things.
+
+
+Dirk Praet • February  9, 2017  9:19 AM
+
+@ Bruce
+If there are any IoT security or privacy guideline documents that I'm missing, please tell me in the comments.
+Yes. Follow @internetofshit on Twitter. For the layman, it's probably more comprehensive, educational and frightening than any essay, presentation or guideline can ever be. 
+
+
+Ion • February  9, 2017  9:26 AM
+
+Nice. But useless. The school teachers and university professors are about asserting their authority. And most of them are way over their heads. Yet parents don't know any better and are pushing their children to buy insurance - meaning the institutional paper instead of knowledge and practical experience. So security is somewhere at the end of the list for all the players, but a handful of geeks, most of whom have a real hard time interacting with anything but people alike them. And these few geeks are cheating the people anyway because all I can find online is these few dry tech documents. And lots of frustrated pointless howls. And psychiatric cases talking about alien lizard conspiracies.
+One way out would be to realize your position: you are not John the Baptist calling up for Jesus. You are not the Messiah to save the world from something. Most of the people reading this are barely qualified for their daily jobs. Not enough that they can quit tomorrow and rest assured that in June or 10 years from now they would still be employable.
+Rising awareness is for people like Bono from U2 and Leo diCaprio whose only competence is in reading the teleprompter.
+YOU COULD DO SOMETHING. Something practical.
+And there is anything to do.
+Open Source hardware is either 15 year old laptops that barely work with free software. Or so called advanced junk like Arduino. Sure, you can play with it. And it might be miraculous. For 1972.
+Open Source software is either the clone of a 10 year old software pack or labeled pre-alpha and partially functional.
+Information is scarce and of low to very low quality.
+So forget the lizards and the bilderbergs! Things happen because YOU DO ZERO.
+Nobody is stopping you do anything. But you have to learn enough to do the job. Nobody is stopping you make the next Facebook. You could be ethical and sh*t money at the same time. But if your product is sh*t like your life, the users are proportional with the quality of the product once the buzz is off.
+
+
+N • February  9, 2017  9:30 AM
+
+Interesting counter argument: http://reason.com/archives/2017/02/07/against-department-of-technology-policy
+
+
+SoWhatDidYouExpect • February  9, 2017  9:54 AM
+
+One needs to recognize that Internet of Things is likely to be considered all encompassing.  That is, the definition will eventually include all cell phones, devices that communicate in way whatever, your home computers, cars, medical implants, and your personal drones.  Ultimately, it will include YOU directly with your own implanted chip, medical or not.  
+The overall purpose is to KNOW everything about you for ultimate influence, imtimidation, and control.  Due to the advancment of the electronic age we are in, you are no longer a citizen but effectively a property of the state and/or big business.  
+Eventually, I expect laws to be passed requiring all such things or to the gulag you go.  Individuality no longer, humanity even less.  
+Stark?  Even a small part of the above qualifies.  
+
+
+hawk • February  9, 2017 10:07 AM
+
+"My guess is that everyone knows that IoT regulation is coming, and is either trying to impose self-regulation to forestall government action or establish principles to influence government action."
+Huh? Where in the world do you get that idea? Strange bias. The best I can tell, you never mentioned the Internet of Things until after it had become a pop buzzword. You invariably respond to anything new with contempt, dismissing it as hype. Like the Cloud. Later you compose a primer and get it published in, say, the Atlantic or The New Yorker or similar. As if you come around just in time to regain expertise. But this? It is a really weird statement given how some groups were hard at work long before you got out of bed. And your obsession with gov't regulation, I guess, is simply wishful thinking.
+
+
+oliver • February  9, 2017 10:26 AM
+
+How about the complete and correct implementation of BCP38?
+That would lessen all those DDOS atttack to a significant degree.
+
+
+hawk • February  9, 2017 10:46 AM
+
+Yeah, I'm still looking for recommendations that may have been touted previously, for how the gov't needs to step in and commence regulation of routers and switches and, maybe some new committee could be established to force companies to use their new routing protocols. Of course, then you'll need to get the special certification and classes take a year to get into, and more fees and more fees. Wanna bet that big shots like IBM will be the only companies that afford to push out new products? How convenient. Hey, it'll be good for progress and it'll enhance innovation (just not ours). 
+
+
+Bear • February  9, 2017 10:46 AM
+
+It is telling that we have heard no news stories (except for transparent advertising ie press releases) about any IoT devices that actually follow these guidelines.
+The cynic in me thinks that we haven't heard of any such devices because there are no such devices.  And this would be backed up by my experience of the companies making them. Most of them have answered queries with statements like "Oh, security.  We don't have any engineers to spare for that..." and "but the customer database is how we develop marketing value!"
+And yet I have hope that they exist but we haven't heard about them because without breaches and exploits they don't make the news, and I haven't heard from those companies because they just don't need outside security people.  But that doesn't seem likely. 
+I don't buy any IoT products for my own house.  I don't even install samples of IoT devices I'm working on in my house.  And most people who work with the security issues of IoT devices make the same decision.  It says something when the pros don't actually use the products....
+
+
+jones • February  9, 2017 10:53 AM
+
+diminishing returns and mass delusion
+
+
+Dirk Praet • February  9, 2017 12:46 PM
+
+@ hawk
+And your obsession with gov't regulation, I guess, is simply wishful thinking.
+More like a very sensible proposal as opposed to the usual crowd singing the praise of automagically self-regulating free markets, then crying "terrorism" when a script kiddie in Romania suddenly shuts down their ridiculously insecure fridge and their pacemaker. Just to carry on with the same radical rejection of any type of regulation once the dust has settled. Ever heard of cognitive dissonance ?
+
+
+Ross Snider • February  9, 2017  1:51 PM
+
+Hey Bruce mentioned this in another comment/post.
+Ideas for low-cost government involvement that doesn't lead to de facto surveillance and propaganda authorities:
+1. Software security labeling system (similar to FDA food labeling) so increase the level of market-consumable information available.
+2. Repository of publicly funded code snippets that achieve strong security properties (i.e. )
+3. Project to create a next-generation infrastructure, from silicon (Harvard vs VN vs Miller architecture) to routing protocols, to authentication protocols.
+4. A tax on insecure products.
+5. A customer advocacy pipeline to bring suit against companies that fraudulently overemphasize their security.
+6. Security research grant/funding for academia.
+7. Provisions to laws that makes security research and disclosure safer and less liable.
+8. Public support for free(dom) software principles, including the ability of people to investigate the software that behaves on their behalf.
+Let's think outside the box.
+
+
+Arosha K Bandara • February  9, 2017  3:09 PM
+
+Thanks for compiling this list - a useful resource for researchers and developers alike. 
+Our research group have been working on developing some guidelines for designing privacy into IoT systems.  Our initial work on this was presented last year at the IoT conference:
+Perera, Charith; Mccormick, Ciaran; Bandara, Arosha; Price, Blaine and Nuseibeh, Bashar (2016). Privacy-by-Design Framework for Assessing Internet of Things Applications and Platforms. In: International Conference on the Internet of Things (IOT 2016), 7-9 November 2016, Stuttgart, Germany.
+http://www.academic-marginalia.org/2016/11/privacy-by-design-framework-for_9.html
+
+
+My Info • February  9, 2017  3:52 PM
+
+@Ion
+And these few geeks are cheating the people anyway because all I can find online is these few dry tech documents.
+Nice.
+And psychiatric cases talking about alien lizard conspiracies.
+And highly intelligent ionic aliens who read and understand reams and reams of Freudian psychosexuality and Jungian psychotypology well enough to diagnose complex psychiatric cases online, yet are somehow unable or unwilling to read and comprehend a "few dry tech documents" for the benefit of their own cybersecurity.
+One way out would be to realize your position: you are not John the Baptist calling up for Jesus. You are not the Messiah to save the world from something.
+I realize it's "legal" in states such as Washington and Colorado, but it's time to get off the pot.
+Most of the people reading this are barely qualified for their daily jobs.
+You really do need random drug testing at your workplace.
+Not enough that they can quit tomorrow and rest assured that in June or 10 years from now they would still be employable.
+Right.  Just sober up and show up at the union hall.
+
+
+
+Jostein Tveit • February  9, 2017  4:28 PM
+
+Yesterday's press release from AT&T:
+AT&T, IBM, Nokia, Palo Alto Networks, Symantec and Trustonic Form IoT Cybersecurity Alliance
+
+
+
+Ross Snider • February  9, 2017  5:31 PM
+
+@My Info
+I read Ion's comment very differently. If I could translate how I perceived his comment:
+Nobody really cares about cyber security. It's an overblown problem with a simple solution. The people who are loud about it are generally paranoid or overly obsessed with their small corner of the world. These people (the loud ones about cyber security) think of themselves as saviors and noblemen, while really they are kind of pathetic people with superiority complexes.
+The simple solution is for programmers and security folks to stop the alarmist and build the solutions themselves - and not be lazy about building the solutions. Get the security right.
+Ion did I read that correctly? Is that what you were saying?
+
+
+Nick P • February  9, 2017  6:21 PM
+
+@ Bruce
+There's also already solutions on the market that cover quite a few bases. I haven't reviewed the ones below or thought on the implementation quality. Just giving them as examples:
+Floodgate IOT Security Toolkit
+Green Hills has platforms for networking and industrial that they're probably combining into an IOT-style solution for customers. Lynx has a dedicated IOT package. Wind River added similar security to VxWorks platform. OK Labs' toolkit that General Dynamics bought should be usable for IOT but page is down. Mitre just concluded some competition with some other players. 
+So, if people care to spend, there's solutions they can license right now to cover most of the bases companies are hitting them with. Several with good, endpoint protection on top of that. Combine with custom code done in SPARK Ada, high-integrity Java, or Rust for even better odds. It's sort of a financial & integration problem at this point to knock out vast majority of risk while maintaining fast, development pace. Apathy and greed prevail. 
+
+
+Nick P • February  9, 2017  7:14 PM
+
+@ Ross Snider
+It's already been done successfully via DOD's Computer Security Initiative. Bell describes its rise and fall here. It's being done for software safety right now under quite a few regimes of certification, esp DO-178B/C. The industry not only produced the high-quality components: third-party tools showed up all over the place to accelerate both productivity and assurance of correctness. SPARK Ada, Esterel SCADE, separation kernels I referenced above, and even graphics drivers/libraries. Wasn't sure I'd ever see that last one done robustly on modern hardware. ;)
+So, a repeat of CSI or DO-178B-style regulation with sane, straight-forward profiles for requirements of given types of hardware (Common Criteria minus the bullshit) seem to be best route. It worked before. It should work again.
+
+
+My Info • February  9, 2017  8:05 PM
+
+@Ross Snider
+Nobody really cares about cyber security. It's an overblown problem with a simple solution. The people who are loud about it are generally paranoid or overly obsessed with their small corner of the world. These people (the loud ones about cyber security) think of themselves as saviors and noblemen, while really they are kind of pathetic people with superiority complexes.
+I was going to be snarky again, but there is a lot of truth in what you say the way you have expressed it.  Nobody in control really cares enough about it.  Think decision makers.  Big business.  The simplest correct solution is often the best and often overlooked.  "The loud ones about cyber security" are of course those who profit the most from all the hype.  "Their small corner of the world" is of course some proprietary "solution" or another they offer to non-technical makers of technical business decisions.
+The simple solution is for programmers and security folks to stop the alarmist and build the solutions themselves - and not be lazy about building the solutions. Get the security right.
+This is exactly right.  But the main obstacles are in the domain of business and politics rather than technology.  This is because all too many of the "solutions" on the market are highly proprietary; incomplete; crippled; deliberately restricted in functionality, extensibility, and customers' access to their own data; and sold by huge corporations with immense international political lobbying power.
+This is why we discuss free and open source software so much on this forum.  The source code is available and subject to public audit and public modification, experimentation, and distribution.
+
+
+Ross Snider • February 10, 2017  1:35 AM
+
+@My Info
+To be clear I was just translating what I thought @Ion was saying. Nothing I wrote there or your responded to necessarily reflects an opinion of mine.
+
+
+John Moor • February 10, 2017  5:56 AM
+
+Best Practice Guides:
+Connected Consumer Products / Dec 16 IoT Security Foundation
+Vulnerability Disclosure / Dec 16 IoT Security Foundation
+Both complement the IoT Security Compliance Framework... more in the making for 2017.
+https://iotsecurityfoundation.org/best-practice-guidelines/
+
+We've taken the approach to produce guidance for those that need it most in the first instance (and those that may be inclined to ignore their duty of care to the rest of us) - i.e. those who want to get to market quickly but lack understanding of security.
+Security needs to be consumable and the IoTSF Framework / Best Practice Guidelines are free of course, so few excuses.
+For completeness - Establishing Principles for IoT Security was early 2016 - a taster document.
+On regulation - we should welcome it because it is necessary. However, we need to make sure it's right-sized and that can only be considered with reference to the application. We're working on the concept of a Trustmark in Europe as part of the bigger picture... the threat of connection cannot be ignored.
+
+
+My Info • February 10, 2017  8:08 AM
+
+@Ross Snider
+To be clear I was just translating what I thought @Ion was saying. Nothing I wrote there or your responded to necessarily reflects an opinion of mine.
+When we need a specious disclaimer like that for every online opinion or comment offered, supposedly in order to maintain potential employability at the aforementioned huge corporations, it just goes to show that those corporations have become all too powerful.  And I don't doubt it, either.
+Those corporations are definitely colluding to censor opinions expressed online, and they will definitely blacklist potential applicants for jobs.
+
+
+Who? • February 10, 2017  9:41 AM
+
+Most of the documents shown here, both by Bruce and readers like Eric V and Ted, fail on a fundamental level: these documents are targeted to IoT appliance designers and manufacturers, not to the few end users that appreciate security.
+Industry wants benefit so they try cutting costs, and most times they do it very hard.  Security, on the other hand, is expensive.  Now consider that most customers want something cool, not something secure or privacy-friendly and you have the perfect recipe to a disaster.
+IoT will be a security/privacy disaster and these papers will become a nice academic exercise only.  But don't worry, technology is full of profitable privacy disasters like Apple, Google, Microsoft and the National Security Agency.
+
+
+albert • February 10, 2017 11:33 AM
+
+@Whomever,
+I don't care what happens to individual users of IoT devices; it's a case of buyer beware. I -do- care about the effects hacking them have on others who are not part of the IoT fad. 
+Regulation: Government regulation happens at the will and pleasure of the Corporatocracy. That said, there is only one law I'd like to see passed.  
+"It will be illegal for any manufacturer, software or service provider, to absolve themselves of responsibility for their product or service, via TOS, EULA, etc."
+Given that perfect (or even decent) security is impossible, simple steps can reduce the effects of IoT hacking:
+1. Force strong passwords. 
+2. Disallow remote programmability.
+3. Use simple, basic open-source code.
+I didn't expand these points because we've already discussed them, at length.
+. .. . .. --- ....
+
+
+My Info • February 10, 2017  1:45 PM
+
+@Who?, @albert
+... these documents are targeted to IoT appliance designers and manufacturers, not to the few end users that appreciate security.
+I don't care what happens to individual users of IoT devices; it's a case of buyer beware. 
+Buyer beware indeed.  This is the attitude of the National Socialist Übermensch.  
+
+
+V • February 10, 2017  3:13 PM
+
+On the IoT:
+http://onthefastrack.com/comics/february-10-2017/
+
+
+tped • February 11, 2017  7:34 AM
+
+Running collection of IoT Security and Privacy Resources (2014-present) is here -> http://ventures.tpedersen.net/errata/iotsecurity w/ a section on Guidance/Guidelines.  Hope it helps
+
+
+Gilad Rosner • February 14, 2017  4:57 AM
+
+Hi Bruce,
+I wrote an in-depth report called Privacy and the Internet of Things that explores IoT privacy risks and the existing frameworks to address them. It contains some approaches you've not listed. I run a nonprofit called the Internet of Things Privacy Forum that is dedicated to researching and discussing these topics.
+Best regards,
+Dr Gilad Rosner
+
+
+Rob Rothwell • February 14, 2017  6:14 AM
+
+Depending on your definition of 'thing', there is the ISA/IEC 62443 series of standards also being developed. See http://isa99.isa.org/ISA99%20Wiki/Home.aspx.
+
+
+Craig McQueen • February 14, 2017  8:30 PM
+
+For web servers with log-in, it is best to use HTTPS rather than HTTP to secure the connection.
+However, it seems difficult to implement HTTPS on IoT, because it's hard to maintain an up-to-date SSL certificate on IoT devices. A device-created self-signed certificate requires a user to either ignore browser warnings, or import a certificate into their browser. A manufacturer can't really get signed certificates, because that depends on the device's DNS name. A manufacturer could allow a user to load their own certificate, for those few users sophisticated enough to use that feature.
+I guess a manufacturer needs to provide a gateway to the devices through their own web site, which can provide centralised HTTPS access, which also gets around IPv4 NAT and firewall issues.
+
+
+Jim Lawson • February 15, 2017  6:56 PM
+
+I think a strong argument can be made that IoT security is similar to public health - we want to prevent the general public from contracting infectious diseases in order to reduce the number of potential attack vectors capable of compromising individual health.
+
+
+Subscribe to comments on this entry
+
+
+Leave a comment
+
+
+
+
+
+
+
+
+
+Name (required):
+
+
+
+E-mail Address:
+
+
+
+URL:
+
+
+
+
+Fill in the blank: the name of this blog is Schneier on ___________ (required):
+
+
+Comments:
+
+
+Allowed HTML: <a href="URL"> • <em> <cite> <i> • <strong> <b> • <sub> <sup> • <ul> <ol> <li> • <blockquote> <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+← Do-It-Yourself Online Privacy/Safety Guide
+De-Anonymizing Browser History Using Social-Network Data →
+
+Photo of Bruce Schneier by Per Ervland.
+	
+	Schneier on Security is a personal website.  Opinions expressed are not necessarily those of Resilient, an IBM Company.
+
+
+	
+	
+
+
+About Bruce Schneier
+I've been writing about security issues on my blog since 2004, and in my monthly newsletter since 1998. I write books, articles, and academic papers. Currently, I'm the Chief Technology Officer of Resilient, an IBM Company, a fellow at Harvard's Berkman Center, and a board member of EFF.
+
+
+Related Entries
+
+Law Enforcement Access to IoT Data
+Research into IoT Security Is Finally Legal
+Security Lessons from a Power Saw
+The Cost of Cyberattacks Is Less than You Might Think
+Real-World Security and the Internet of Things
+
+
+
+Featured Essays
+
+The Value of Encryption
+Data Is a Toxic Asset, So Why Not Throw It Out?
+How the NSA Threatens National Security
+Terrorists May Use Google Earth, But Fear Is No Reason to Ban It
+In Praise of Security Theater
+Refuse to be Terrorized
+The Eternal Value of Privacy
+Terrorists Don't Do Movie Plots
+
+more essays
+
+
+Blog Archives
+
+Archives by Month
+100 Latest Comments
+
+Blog Tags
+
+privacy
+terrorism
+surveillance
+squid
+academic papers
+NSA
+air travel
+hacking
+cryptography
+national security policy
+law enforcement
+encryption
+DHS
+homeland security
+economics of security
+crime
+Schneier news
+malware
+essays
+TSA
+computer security
+laws
+fraud
+vulnerabilities
+psychology of security
+police
+courts
+cost-benefit analysis
+cell phones
+physical security
+
+more tags
+
+
+Latest Book
+
+more books
+
+
+
+
+
+
+
+
+
+
+
+Blog
+Newsletter
+Books
+Essays
+News
+Talks
+Academic
+About Me
+
+
+
+
+
+
