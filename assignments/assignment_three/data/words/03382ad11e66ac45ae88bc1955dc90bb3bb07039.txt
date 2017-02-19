@@ -1,0 +1,294 @@
+
+
+
+
+
+Redhawk Network Security specializes in information security for financial, healthcare, utilities, government, and 
+
+
+
+
+
+ Contact Us • (866) 605-6328
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle Navigation
+
+
+
+
+
+
+
+HomeIT Security Services3D Professional ServicesSecurity AssessmentRisk ManagementPenetration TestingWeb Application Pen TestingPrevent Social EngineeringManaged & MonitoredManaged and Monitored NetworksVulnerability ManagementManaged Network ServicesManaged Firewall and IntrusionWeb Application SecurityLog ManagementCompliance & RiskPCI CompliancePCI Vulnerability ManagementQualified Security AssessorHIPAA ComplianceFFIEC / GLBA ComplianceGovernmentIndian GamingUtilitiesRedhawk Cybersecurity PortalAbout UsOur CompanyLeadershipMedia RoomRedhawk BlogContact RedhawkCareers 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Introducing a better way to envision security.
+						
+
+
+							Professional IT Security Services
+						
+
+
+							 Holistic security inspired by the way you see the world.
+
+Discover. Design. Deploy. 
+
+
+
+
+
+
+
+							PCI Compliance
+						
+
+
+PCI DSS compliance and card data security is achieved through our vulnerability management and annual assessment services.
+						
+
+
+							 - PCI DSS Vulnerability Management
+  - Web Penetration Testing
+  - PCI Gap Assessment
+   - PCI Self-Assessment Questionnaire Validation
+   - Qualified Security Assessor Services
+
+What is PCI Compliance? 
+
+
+PCI Vulnerability Management 
+
+
+
+
+
+
+
+
+							Redhawk has the expertise to effectively manage your network. Partner with Redhawk to stay ahead of security threats.
+						
+
+							Managed Security Services
+						
+
+Learn More 
+
+
+
+
+
+
+
+							Redhawk provides a managed process that finds known vulnerabilities in networks and applications.
+						
+
+							Vulnerability Management from Redhawk
+						
+
+							Gaps in security cannot hide.
+						
+
+Scanning and Remediation 
+
+
+
+
+
+
+
+							Security Assessments
+						
+
+							A Full Suite of Services delivered on-site or remotely.
+						
+
+ Risk Assessments
+ IT Audit
+ Social Engineering
+ Penetration Testing
+ PCI Compliance
+						
+
+Learn More 
+
+
+
+
+
+
+
+What is a Web App Anyway?Jan 06, 2017The outcomes of the Redhawk 3D-PRO scoping process provide client organizations with clear maps of their Web application attack surfaces that are to be tested.  In this way, project leaders can be sure that the testing process will fully meet their security goals for the project. Read More 
+
+Network Security Solutions for   Security Assessments Managed Security Your Industry PCI Compliance 
+For well over a decade, Redhawk has proven to be a clear leader in providing Effective Data Protection by ensuring the confidentiality, integrity and availability of each  client’s confidential information. Whether you’re looking for simple  solutions like PCI Compliance, network security assessment, email encryption, or secure storage or you’re requiring a more robust and complex security architecture,  Redhawk is the right choice. Our team of highly trained, experienced and  certified data security professionals is well-equipped to provide optimum  protection for your data – any time, day or night.
+
+
+Online Compliance Tools
+
+
+
+											Redhawk provides online security assessment tools to simplify complex security processes.  Vulnerability scanning and security audit tools at your fingertips with Redhawk's own Cybersecurity Portal.  
+										
+
+
+Learn More
+
+
+
+
+
+ 
+Experience That Counts
+Redhawk specializes in network security management for the Financial,  Healthcare, Government, Utilities and Indian Gaming industries  throughout the United States. Redhawk's engineers are backed by the Certified Information System  Security Professional (CISSP) program. The CISSP program certifies  mastery of Security Best Practices and the ISO/IEC 17799 and 27001 Code  of Practice.
+
+
+
+ PCI ComplianceRedhawk will provide the required PCI DSS compliance audit reviews and document compliance with the payment card brands and appropriate banks. We have experience with most industries to include food service, hospitality, retail, utilities, and healthcare. Security AssessmentsThe complete Redhawk security assessment produces recommendations to mitigate vulnerabilities for information systems. Testing is available with adherence to security standards. In addition, security is assessed for information privacy compliance. IT AuditsRisk analysis is used to determine the appropriate countermeasures for  information systems. Recommendations are produced to mitigate risks.  Technical approaches are utilized for the internal/external  vulnerability tests and detailed reports of vulnerabilities are  produced. Managed SecurityRedhawk has the expertise to effectively manage your network; protecting your assets from today's threats. Redhawk provides services adhering to industry standards and regulatory guidance for industries served including FFIEC, GLBA, FDIC, NCUA compliance for financials, healthcare compliance with HIPAA, and more. Penetration TestingRedhawk utilizes commercial software, open source software, and  custom  scripts to perform a comprehensive assessment of your internal and  external network.  The report identifies and rates vulnerabilities   discovered and describes successful exploits. Vulnerability ManagementVulnerability management enhances security posture through identification  and remediation of vulnerabilities.  Testing helps to assure that security upgrades and patches are applied and changes in the network do not create new vulnerabilities. Testing also provides the reports needed for compliance.
+
+ Risk AssessmentsWith our proprietary online tool, we help organizations with their ongoing risk management needs by identifying threats, vulnerabilities, likelihood, business impact, residual risk and the effectiveness of controls protecting assets. Social Engineering PreventionSocial engineering is the art of manipulating people into performing actions or divulging confidential information. Redhawk provides social engineering prevention services and training to help you guard against attack. Cybersecurity PortalThe Cybersecurity Portal provides a secure central location for  
+collaboration on assessments, projects, tickets and files. It is a  
+centralized database for all IT Audit needs. 
+
+
+
+ 
+
+Network Security Expertise for YOUR Industry
+Redhawk has years of experience with industry regulations. We serve Healthcare, Government, Utilities, Financial Organizations, Gaming, and more.  We can assure regulatory compliance by coupling Information security best practices are with industry guidance. 
+
+
+Utilities
+Utility companies are required to comply with North American Electric Reliability Council (NERC) cyber-security guidance. The guidance is designed to protect cyber assets that control or affect the reliability of North America’s bulk electric systems infrastructure. 
+
+
+Government
+Government entities needing to comply with CJIS, NIST and FISMA benefit from Redhawk's experience. Redhawk enhances the security posture by performing security assessment and comprehensive review of security controls.
+
+
+Healthcare
+Redhawk makes HIPAA compliance achievable through automating the HIPAA Risk Assessment process. Our knowledgeable security analysts will guide you through the risk assessment process considering the threats, vulnerabilities and controls needed to protect your information assets.
+
+
+Financial
+The complete Redhawk security assessment produces recommendations to mitigate vulnerabilities for information systems. Testing is available with adherence to security standards. In addition, security is assessed for information privacy compliance.
+
+
+Indian Gaming
+Redhawk security consultants work closely with gaming clients to determine their specific needs and scope the engagement assuring a perfect fit for a security program review, NIGC compliance and PCI testing. Using our modular approach, clients are able to choose exactly which services they would like performed.
+
+
+
+ 
+
+
+
+
+
+
+
+								62958 Layton Ave., Suite One
+								Bend Oregon 97701
+								Email: sales@redhawksecurity.com
+								Phone: (866) 605-6328
+
+
+
+
+
+
+
+
+Follow
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tweets by @redhawknetwork
+
+
+Security Certifications         Redhawk Network Security is a wholly owned subsidiary of the Potawatomi Business Development Corporation (PBDC)     Redhawk Team CertificationsPrivacy Policy 
+
+
+                        All Rights Reserved © Redhawk Network Security LLC  
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+×
+Login
+
+
+        ...
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

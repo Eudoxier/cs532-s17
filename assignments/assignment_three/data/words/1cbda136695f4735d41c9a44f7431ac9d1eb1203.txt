@@ -1,0 +1,392 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About
+Contact
+News
+Careers
+Technology Partners
+IT Services
+Client Portal
+ 
+
+
+
+
+
+
+
+Talk to our Experts
+
+
+
+
+
+
+
+
+Managed Security
+Penetration Testing
+Incident Response
+Compliance & Governance
+Security Awareness
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security Operation Centre
+Your security is our commitment
+
+Find Out More
+
+
+
+
+
+
+
+
+
+
+
+
+Penetration Testing
+View your network from an attacker's point of view
+
+Find Out More
+
+
+
+
+
+
+
+Managed Firewall Services
+Mitigate risks and lower IT costs with Smarttech
+
+Find Out More
+
+
+
+
+
+
+
+Security Awareness
+Test your employees' security knowledge
+
+Find Out More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Technology Excitement
+
+
+
+
+
+
+
+IBM and Smarttech: Protecting Against and Responding to Cyber Attacks with IBM QRadar SIEM.
+IBM and Smarttech work together to improve security at the Royal College of Surgeons. Using IBM Security QRadar SIEM, RCSI was able to gain visibility to malware and hackers on their network, maintain regulatory compliance, and improve the security of their most valuable data and records.
+
+
+
+
+Find out more
+Talk to our Experts
+
+
+
+
+Case Studies
+
+
+
+
+
+
+The Royal College of Surgeons strengthening its security posture with in-depth SIEM intelligence
+The Royal College of Surgeons is one of the most prestigious universities in the world, with more than 3800 students and 1000 staff.
+At RCSI the leadership team wanted more control over the sharing of information and real-time visibility into the type of threats the university was facing on a daily basis. Smarttech secures the RCSI infrastructure with IBM QRadar, offering a single pane of glass on their data and most critical assets in real-time.
+
+
+Find out more
+
+
+
+
+
+
+Starwood Vacation Network (SVN), a Florida-based subsidiary of Starwood Hotels & Resorts, is a leading developer and operator of luxury vacation ownership resorts.
+Key Business Needs: SVN needed a more efficient security system that would streamline and improve its PCI compliance initiatives and strengthen overall security — without breaking the bank.
+Tenable Products Selected: SVN deployed Tenable SecurityCenterTM the Nessus® vulnerability scanner, and the Tenable Log Correlation Engine (LCE) as the foundation for its new security process and key PCI compliance initiatives.
+
+
+Find out more
+
+
+
+
+
+
+Churchill Corporate Services has enjoyed strong growth, and has become the largest provider of corporate apartments in prime locations throughout New York, New Jersey, and Connecticut
+Churchill online portal for service requests and making payments. Besides meeting payment card industry (PCI) regulations, Churchill must regularly pass audits that demonstrate diligent compliance with security practices dictated by the companies and local and federal government agencies that contract Churchill services.
+
+
+Find out more
+
+
+
+
+
+
+
+
+
+View all
+
+
+Week Review: Feb 1 – Feb 5 
+
+
+
+
+
+
+
+
+ 
+Last week was very busy in terms of infosec news. Here are couple of events that we would like to share with you:
+Dark Web: Hacked
+One of the largest TOR hosting service Freedom Hosting 2 got hacked by the well-known group Anonymous. This is a major part of the dark web as researchers say that it was hosting around 15% - 20% of it. The attack was launched because the group had found a lot of child pornography there, despite the statement that they have "a zero tolerance policy to child pornography". The database dump is publicly available and anyone can confirm this.
+DDoS protection
+Miria Botnet was a big thing at the end of last year. You all probably heard of its activity causing one of the largest DDoS attacks on the web so far. One of its targets was a security journalist's blog (Brian Krebs). Brian shared some info how Google Project Shield (a DDoS protecting service) helped him mitigate this DDoS attack.
+Data leaks
+Data leaks are all over the place. Beside the mentioned Freedom Hosting hack we had:
+serval polish banks hacked by unknown group and sensitive information leaked,
+the leak of over around 2 million passwords from official Witcher forum (and they are already on havibeenpawned),
+just about a day ago a leak of private web-forum messages from Denuve - an Application Protection platform. Well, they couldn't protect themselves...).
+Although some of those may not be as harmful as user/password leaks, situations like these may cause serious legal issues in regards to the upcoming GDPR regulation. Check out our zerodaycon.com conference if you want to know more about EU GDPR.
+Is VPN secure?
+VPN is a solution for anyone that is doing a lot of traveling. Besides the obvious fact that it helps to stay connected to the "office" one of its most important task is to provide security for internet connections - especially if you're connecting to the internet in public places (airports, hotels, etc...). But beware, as we are reading the analysus of around 300 Android VPN apps it shows that 19% of those apps don't encrypt the traffic at all and 66% don't route the DNS traffic (queries about the domain names) through the VPN. There are even cases of the VPN app injecting its own JavaScript which is clearly a way to do XSS attacks.
+WordPress Vulnerabilities
+A high severity issue was discovered in the latest WordPress instance which allowed unauthorised users to add or modify blog posts. Beside the threat of a defacement this could lead to a Cross-Site Scripting attacks and escalating privileges to admin accounts.
+20+ long password
+You can have strong passwords but it won't mean anything if there is a vulnerability allowing to bypass the authentication like those multiple Netgear routers. If you use those, you better patch immediately.
+Printers don't just print
+You may think printers servers are only for printing and you'd be wrong. In many offices advanced printers are pretty much like computers running its own operating system. In our multiple security assessments we have noticed that those are frequently a so-called "low hanging fruit" and can give an opportunity for hackers for a wider range of attacks. An interesting situation occurred last week when around 150 000 printers from all over the world started to print hack-manifests. There is a wide range of attacks in which network printers may be used - an interesting review has been made about it. 
+
+Find out more
+
+
+
+
+
+
+Our Locations
+
+Cork
+Dublin
+London
+Krakow
+Budapest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get in Touch
+
+
+
+
+
+
+
+
+
+
+
+ISO 9001 & ISO 27001
+ 
+
+
+
+
+
+
+
+Security Partners
+ 
+
+
+
+
+
+
+
+Connect With Us
+Security News & Industry Insights.
+
+
+
+
+
+
+
+
+
+
+
+Ireland: 0818 27 27 27
+UK: +44 87 0730 1090
+Talk to our Experts
+
+
+
+
+
+Managed Security
+Penetration Testing
+Incident Response
+Compliance & Governance
+Security Awareness
+Contact
+ 
+© 2017 Copyright Smarttech —
+Legal
+Cookies
+View Our Policies
+
+
+
+
+
+United Kingdom
+
+
+
+Poland 
+Hungaru 
+Ireland 
+United Kingdom 
+
+
+
+
+
+
+
+We use cookies to create most secure and effective website for You.
+Accept
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,794 @@
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+STEALTHbits Technologies
+
+
+
+
+
+
+
+
+
+
+
+
+PressHome Blog NewsEvents
+
+
+Login / Register
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+
+
+
+
+By Business Need
+
+
+
+
+
+Fulfill Compliance Requirements
+
+
+
+
+
+EU GDPR Compliance
+
+
+
+
+
+
+
+Reduce Operations Costs
+
+
+Reduce Security Risks
+
+
+
+
+
+
+
+
+
+
+
+By Use Case
+
+
+
+
+
+Active Directory Auditing and Reporting
+
+
+Active Directory Change Auditing
+
+
+Active Directory Cleanup
+
+
+Active Directory Permissions
+
+
+Active Directory Security
+
+
+Change Auditing
+
+
+Cloud Data Access Governance
+
+
+Data Access Governance
+
+
+Domain Consolidation/Migration
+
+
+Entitlement Reviews
+
+
+File Activity Monitoring
+
+
+IAM Readiness
+
+
+Open Access
+
+
+Ownership Identification
+
+
+Privileged Access Management
+
+
+Public Folder Cleanup
+
+
+Real-Time Alerting
+
+
+Self-Service Access Requests
+
+
+Sensitive Data Discovery
+
+
+Splunk fschange Alternative
+
+
+Storage Reclamation
+
+
+Threat Detection
+
+
+
+
+
+
+
+
+
+
+
+By Technology Integration
+
+
+
+
+
+Identity & Access Management (IAM)
+
+
+Security Information & Event Management (SIEM)
+
+
+Service Management (SM)
+
+
+
+
+
+
+
+
+STEALTHbits products address a myriad of issues across the Microsoft Infrastructure and beyond
+
+
+By Business Need
+What keeps you up at night?
+
+
+ByUse Case
+What problems are you trying to solve?
+
+
+By Technology Integration
+What other technologies do you rely on?
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+
+
+
+
+
+StealthAUDIT® Management Platform
+
+
+
+
+
+For Data Access Governance
+
+
+For Active Directory
+
+
+For Exchange
+
+
+For Systems Governance
+
+
+
+
+
+
+
+StealthINTERCEPT®
+
+
+StealthDEFEND™
+
+
+StealthRECOVER™
+
+
+STEALTHbits File Activity Monitor
+
+
+
+
+
+
+By Platform
+
+
+
+
+
+Active Directory
+
+
+Dropbox
+
+
+Exchange
+
+
+File Systems/NAS
+
+
+Office 365
+
+
+SharePoint
+
+
+
+
+
+
+
+
+
+
+
+Powerful Products for Painful Problems
+
+
+
+Auditing, compliance, and governance framework for unstructured data and critical applications.
+
+
+
+Real-time threat detection, change monitoring and alerting for your Microsoft infrastructure.
+
+
+
+Purpose-built user behavior analytics and threat detection solution
+
+
+
+
+
+
+
+
+Customers
+
+
+
+
+
+Customers
+
+
+Success Stories
+
+
+
+
+
+Healthcare
+
+
+Government
+
+
+Finance
+
+
+IT Services
+
+
+Education
+
+
+Insurance
+
+
+Manufacturing
+
+
+Energy
+
+
+Sports Entertainment
+
+
+
+
+
+
+
+
+
+
+
+
+Services
+
+
+
+
+
+Professional Services
+
+
+Support
+
+
+
+
+
+
+
+Partners
+
+
+
+
+
+Technology Partners
+
+
+Channel Partners
+
+
+Become a Partner
+
+
+Partner Portal Login →
+
+
+
+
+
+
+Partner Programs
+
+
+Technology Partners
+We integrate with leading technology vendors, combining their technologies with our robust platforms to create truly unique offerings.
+
+
+Channel Partnership
+STEALTHbits partners with best-in-class Value Added Distributors (VADs), Value Added Resellers (VARs), Managed Service Providers (MSPs) and Systems Integrators (SIs)
+
+
+Become a Partner
+Want to become a STEALTHbits Partner? We’re just a phone call away! +1.201.447.9300 or send us an inquiry.
+
+
+Partner Portal
+Login to the partner portal to learn more about STEALTHbits, gain access to assets, and download product binaries.Login here
+
+
+
+
+
+
+
+
+Company
+
+
+
+
+
+About STEALTHbits
+
+
+Management Team
+
+
+Careers
+
+
+Contact Us
+
+
+
+
+
+
+About STEALTHbits
+
+
+STEALTHbits is a data security software company. We secure an organization’s information by defending against credential abuse and controlling access to data.
+
+
+
+
+
+
+
+
+
+
+
+Resources
+
+
+
+
+
+White Papers
+
+
+On-Demand Webinars
+
+
+On-Demand Product Demos
+
+
+Data Sheets
+
+
+Executive Briefs
+
+
+Buyer's Guides
+
+
+Solution Briefs
+
+
+Videos
+
+
+
+
+
+
+Resource Library
+
+
+From Data Sheets to On-Demand Webinars to Executive Briefs, browse through the STEALTHbits Resource Library to find information on whatever you are looking for.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Free Trial
+
+
+Risk Assessment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New! StealthRECOVER in AD Security Portfolio
+
+
+Check it Out! StealthINTERCEPT wins Cybersecurity Excellence Award
+
+
+New! Announcing StealthINTERCEPT 4.0
+
+
+New! Announcing StealthAUDIT 7.2
+
+
+New! Stand Alone File Activity Monitor
+
+
+Check it Out! Free Risk Assessment
+
+
+New! Crypto Ransomware Analytic
+
+
+
+
+
+
+
+
+
+
+
+Some of Our Satisfied Customers
+
+
+
+
+
+Discover how STEALTHbits solutions can help your organization...
+
+
+Reduce Security Risks
+
+
+
+Fulfill Compliance Requirements
+
+
+
+Reduce Operations Costs
+
+
+
+
+
+
+ A report we’re required to generate for auditors used to take us days to compile. With STEALTHbits, minutes…maybe seconds. It’s just so cool! 
+
+- IT Security Engineer, Large US Utility Company
+Read Our Customer Success Stories →
+Learn why organizations all over the world choose STEALTHbits →
+
+
+
+
+
+
+
+
+
+
+
+Free Risk Assessment
+
+
+
+Request a Free Trial
+
+
+
+Attend A Webinar
+
+
+
+Browse the Resource Library
+
+
+
+
+
+Our Partners:
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+
+Products
+
+
+Services
+
+
+Partners
+
+
+
+
+Company
+
+
+Resources
+
+
+Privacy Policy
+
+
+Site Map
+
+
+
+
+
+
+Headquarters
+200 Central Avenue, Hawthorne, NJ 07506P. +1.201.447.9300
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2017 STEALTHbits Technologies, Inc. | All Rights Reserved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,910 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WileyConnect
+
+
+
+
+Connected Cars
+
+
+
+
+Connected Health
+
+
+
+
+Internet of Things
+
+
+
+
+Privacy & Cybersecurity
+
+
+
+
+Unmanned Aircraft Systems
+
+
+
+
+Events
+
+
+
+
+Resources
+
+
+
+
+Contributors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to WileyConnect, the Internet of Things blog byWiley Rein LLP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+Sign up with your email address to receive news and updates.
+
+
+
+
+Email Address
+
+
+
+
+Sign Up
+
+
+We respect your privacy.
+Thank you!
+
+
+
+
+WileyConnect RSS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  9
+
+
+
+
+Feb  9 
+            A Regulatory Play-by-Play of Intel’s Super Bowl Drone Show
+          
+
+
+
+Sara M. Baxenberg 
+Internet of Things, Unmanned Aircraft Systems
+It’s time to answer the most important question on everyone’s mind after Super Bowl LI: what type of regulatory approvals and deviations were required to enable Intel’s massive display of 300 choreographed unmanned aircraft systems (UAS) that kicked off Lady Gaga’s Super Bowl halftime show? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  7
+
+
+
+
+Feb  7 
+            Your TV May Be Watching You, Too
+          
+
+
+
+Madeleine Lottenbach 
+Internet of Things, Privacy + Cybersecurity
+VIZIO allegedly used 11 million televisions to collect data on its customers, and now it must pay.  The TV maker agreed to pay $2.2 million to settle a case with the FTC and the New Jersey attorney general's office after being accused of collecting—and selling—data about its customers without their knowledge or consent.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  3
+
+
+
+
+Feb  3 
+            NTIA IoT Security Upgradability and Patching Effort—Progressing Despite New Admin
+          
+
+
+
+Megan L. Brown 
+Privacy + Cybersecurity, Internet of Things
+On January 31, the National Telecommunications and Information Administration (NTIA) held a meeting of its multistakeholder effort on “Internet of Things (IoT) Security Upgradability and Patching,” which it kicked off in Austin in October 2016. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 19
+
+
+
+
+Jan 19 
+            The Space Between: Who Controls the Airspace Where Small Unmanned Aircraft Systems (UAS) Fly?
+          
+
+
+
+Josh Turner  
+Unmanned Aircraft Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 12
+
+
+
+
+Jan 12 
+             Commerce Dep’t Releases Long-Awaited Green Paper on the  Advancement of IoT 
+          
+
+
+
+Umair Javed 
+Internet of Things, Privacy + Cybersecurity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan  6
+
+
+
+
+Jan  6 
+            Friday Update: IoT Security in Congress, Industry... And Vegas 
+          
+
+
+
+Madeleine Lottenbach 
+Internet of Things, Privacy + Cybersecurity
+This week we have seen more contributions to the growing body of work on IoT.  The House Energy and Commerce Committee’s Internet of Things (IoT) Working Group released a White Paper detailing its activities.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan  6
+
+
+
+
+Jan  6 
+            Key Trends Emerging at This Year’s Consumer Electronics Show
+          
+
+
+
+Umair Javed 
+Internet of Things, Connected Cars, Unmanned Aircraft Systems
+The Consumer Electronics Show kicked off in Las Vegas today, promising a preview of the impactful trends and disruptive innovations that will redefine the industry in 2017.  For the past 50 years, CES has been the launch pad for new technology, and this year does not disappoint.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 22
+
+
+
+
+Dec 22 
+            Hauled by Drone for Christmas
+          
+
+
+
+Sara M. Baxenberg 
+Unmanned Aircraft Systems, Internet of Things
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 20
+
+
+
+
+Dec 20 
+            Sweeping FCC Inquiry on Cyber and IoT
+          
+
+
+
+Megan L. Brown 
+Internet of Things, Privacy + Cybersecurity
+The Federal Communications Commission’s Public Safety and Homeland Security Bureau (PSHSB) issued a Notice of Inquiry (NOI) on Fifth Generation Wireless Network and Device Security, PS Docket No. 16-353, which the Commission had previewed in its July Spectrum Frontiers Report and Order. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 19
+
+
+
+
+Dec 19 
+            Department of Transportation Releases Proposed Rulemaking on Vehicle-to-Vehicle Communications
+          
+
+
+
+Scott D. Delacourt 
+Internet of Things, Connected Cars
+On December 14, 2016, the U.S. Department of Transportation’s (“DoT”) National Highway Traffic Safety Administration (“NHTSA”) unveiled its long-awaited proposal for requiring vehicle-to-vehicle (“V2V”) communications technology in all new vehicles, which the agency believes can reduce crashes and save lives.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 15
+
+
+
+
+Dec 15 
+            Amazon Completes First UAS Delivery Across the Pond
+          
+
+
+
+Sara M. Baxenberg 
+Unmanned Aircraft Systems, Internet of Things
+Amazon successfully completed its first unmanned aircraft delivery to one lucky customer in Cambridge, England last week.  The Prime Air delivery arrived at the customer’s house just 13 minutes after the order was placed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 15
+
+
+
+
+Dec 15 
+            Vulnerability Disclosure Programs; Device Makers Take Note
+          
+
+
+
+Megan L. Brown 
+Internet of Things, Privacy + Cybersecurity
+The security of IoT devices has been on people’s minds, with many in government concerned role.  Policy makers and innovators have struggled with how to deal with vulnerabilities discovered by third parties.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 14
+
+
+
+
+Dec 14 
+            IoT Security—A Controversial Item at the FCC?
+          
+
+
+
+Madeleine Lottenbach 
+Internet of Things, Privacy + Cybersecurity
+The FCC has hit the pause button on several items including new set-top box and Broadband Data Services rules, but some question whether the agency will similarly discontinue its interest in pursuing rules for IoT security.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec  7
+
+
+
+
+Dec  7 
+            What to Do with 500 Billion “Things” of the Internet 
+          
+
+
+
+Wiley Rein LLP 
+Internet of Things
+Much attention has been paid to the “Internet” part of the Internet of Things (IoT).  Concerns about privacy and cybersecurity have been paramount because of increased opportunities for surveillance and data gathering.  Less focus has been paid to the “things” that make up the IoT, which Cisco predicts will reach 500 billion by 2030. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec  5
+
+
+
+
+Dec  5 
+            President’s Cyber Commission Calls for Fast IoT Action, Consumer Focus 
+          
+
+
+
+Megan L. Brown 
+Internet of Things, Privacy + Cybersecurity
+Reports to outgoing Presidents rarely have long term policy impact.  But as the new President’s cyber priorities take shape, today’s Report of the Commission on Enhancing National Cybersecurity may set expectations. The Internet of Things (“IoT”) features prominently in the 100 page Report, and today’s blog highlights the Commission’s perspective on IoT. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 18
+
+
+
+
+Nov 18 
+            FAA Sends “Flights Over People” NPRM to OIRA
+          
+
+
+
+John Lin 
+Internet of Things, Unmanned Aircraft Systems
+Backyards, open fields, and waterways.  These are common places where you might see an unmanned aircraft system (UAS) in flight.  Of course, it’s no accident that such spaces are where many flights take place, as they are relatively risk-free.    Operators can fly their UAS with little-to-no concern about those on the ground.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 16
+
+
+
+
+Nov 16 
+            IoT Security: "I'm From the Government and I'm Here to Help"?
+          
+
+
+
+Megan L. Brown 
+Internet of Things
+Ronald Reagan joked that the most terrifying words in the English language are: "I'm From the Government and I'm Here to Help."  When it comes to security and the Internet of Things (IoT), government wants to be helpful, for better or for worse.  NIST, NTIA, DHS, FTC, FCC, NHTSA and FDA are all looking at IoT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 11
+
+
+
+
+Nov 11 
+            Legislating IoT in the Next Congress 
+          
+
+
+
+Shawn H. Chang 
+Internet of Things, Privacy + Cybersecurity
+On Wednesday, the House Energy and Commerce Committee announced a hearing to examine the cyberattacks that brought down the Domain Name System (DNS) provider Dyn last month, which resulted in widespread loss of service for some of the Internet’s most popular websites and platforms, including Twitter, Netflix, and Spotify. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov  9
+
+
+
+
+Nov  9 
+            Trump Wins: What does it mean for IoT?
+          
+
+
+
+Megan L. Brown 
+Internet of Things
+Donald Trump did not focus on a tech agenda, but when Trump takes office, his administration will face a critical time for innovation, including in IoT.  We are on the cusp of an explosion of devices and connectivity, putting tech law and policy front and center in 2017.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov  8
+
+
+
+
+Nov  8 
+            What Governments Decided on Digital Object Architecture for IoT
+          
+
+
+
+Umair Javed 
+Internet of Things, Privacy + Cybersecurity
+Over the past two weeks, governments convened in Tunisia at the International Telecommunication Union’s (“ITU”) World Telecommunication Standardization Assembly (“WTSA”) to discuss the ITU’s mandate and work plan for the next four years.  High on the agenda were proposals for new ITU work relating to the technical, economic, policy, and regulatory aspects of the Internet of Things (“IoT”).  
+
+
+
+
+Load More
+
+
+
+
+
+
+
+
+Subscribe
+Get the latest IoT news.
+
+
+
+
+
+First Name
+
+
+
+Last Name
+
+
+
+
+Email Address
+
+
+
+
+Sign Up
+
+
+
+Thank you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WileyConnect RSS
+
+
+
+
+Disclaimer
+
+
+
+
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1159 @@
+ 
+
+
+
+
+
+Skip to: Start of article
+
+
+Visually Open Nav.
+
+
+
+
+
+Go to Wired Home Page.
+
+
+
+
+
+
+						Trump's Cybersecurity Chief Could Be a 'Voice of Reason'					
+
+
+
+
+
+
+
+subscribe
+
+
+
+Open Search Field.
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Business
+
+
+
+
+
+
+
+culture
+
+
+
+
+
+
+
+Design
+
+
+
+
+
+
+
+Gear
+
+
+
+
+
+
+
+Science
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+transportation
+
+
+
+
+
+
+
+photo
+
+
+
+
+
+
+
+video
+
+
+
+
+
+
+
+
+Photo
+
+
+Video
+
+
+Magazine
+
+
+WIRED INSIDER
+
+
+Future of Mobility
+
+
+
+
+
+
+Fallback Image
+
+
+Get TheMagazine
+
+
+
+
+
+				Subscribe now to get 6 months for $5 - plus a FREE Portable Phone Charger.
+			
+
+
+
+
+
+Subscribe
+ 
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advertisement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slide:  1 / of  1.
+Caption: 
+Paul Morigi/Getty Images 
+
+
+
+
+
+Skip Article Header. Skip to: Start of Article.
+
+
+
+Author: Andy Greenberg.
+
+Andy Greenberg 
+
+Security 
+
+
+Date of Publication: 02.09.17.
+02.09.17
+
+
+Time of Publication: 7:00 am.
+7:00 am
+
+
+
+
+Trump’s Cybersecurity Chief Could Be a ‘Voice of Reason’
+
+
+ Paul Morigi/Getty Images 
+
+
+Last month, the Atlantic Council think tank held a dinner to send off Tom Bossert, one of its fellows. President-elect Donald Trump had tapped Bossert to be his homeland security adviser, effectively putting him in charge of the administration’s cybersecurity efforts. At one point in the evening, Atlantic Council cybersecurity policy expert Josh Corman grimly pointed out that America would likely experience a “high consequence” hacker attack on Bossert’s watch—a breach that disrupts critical infrastructure, like the power grid or hospital systems. Rather than deny the point, Bossert responded with questions of his own: What should be the reaction to that sort of attack? And just as importantly, what would an overreaction look like?
+Corman was impressed. “He understands the tensions and tradeoffs between security and not stifling innovation, not attacking civil liberties,” says Corman. “His questions showed someone who understands the complexities.”
+A Cooler Head
+Since Trump took office, his administration has rarely spoken in detail about cybersecurity. The president’s own statements during his campaign consisted of vague promises to stop digital attacks, alongside cringeworthy rants about “the cyber” and his 10-year-old son’s computer skills. But when Trump’s draft executive order on cybersecurity emerged last week, it surprised the cybersecurity world by hewing closely to the recommendations of bipartisan experts—including one commission assembled by the Obama administration.
+
+Trump's Cyber
+
+
+
+ 
+Lily Hay Newman
+If Trump Wants a ‘Hacking Defense’ Strategy, He Should Just Use Obama’s
+
+
+
+
+
+
+ 
+P.W. Singer
+How America Can Beat Russia in Cyber War, Despite Trump
+
+
+
+
+
+
+ 
+Issie Lapowsky
+Trump Finally Says Something Coherent About ‘the Cyber’
+
+
+
+
+
+
+ 
+Lily Hay Newman
+Trump Calls For ‘Crippling’ Cyberwar Attack Capabilities
+
+
+
+
+
+
+According to cybersecurity policy watchers, that looks like the work of Bossert, a former homeland security official under George W. Bush with a reputation for a measured approach that deeply contrasts with the Trump administration’s so-far volatile style. “The draft executive order would be a much less disruptive effort than some of President Trump’s other actions have been,” says Paul Rosenzweig, a cybersecurity lawyer and former DHS adviser who worked with Bossert in the Bush administration. “I think that reflects Tom’s thoughtfulness and caution.”
+Bossert will share responsibility on cybersecurity and counterterrorism with national security adviser Michael Flynn, a far more aggressive, hot-tempered figure. Bossert’s presence as a relatively wonkish and considered policymaker should serve as a relief, says former Atlantic Council director Jason Healey, himself no Trump supporter. “People that follow cybersecurity issues will be happy that Tom is involved in those discussions as one of the reasoned voices,” Healey says.
+“Frankly, he’s an unusual figure in this White House. He’s not a Bannon. He’s not even a Priebus,” says one former senior Obama administration official who asked to remain unnamed, contrasting Bossert with Trump’s top advisers Stephen Bannon and Reince Priebus. “He has a lot of credibility. He’s very straightforward and level-headed.”
+Tough on Feds, Easy on Companies
+A lawyer who shifted his focus to security policy after 9/11, Bossert served as deputy homeland security adviser during Bush’s second term. He quickly became someone to whom the president turned on cybersecurity issues, says Healey, who also served as a cybersecurity adviser earlier in the Bush administration. In 2008, Bossert helped push through Bush’s Comprehensive National Cybersecurity Initiative, a landmark, largely classified presidential directive designed to shore up the federal government’s cybersecurity infrastructure. The CNCI would put the DHS in charge of protecting federal agencies—subordinating the role of the NSA to informing the DHS’s work—and launching initiatives to track all of the federal government’s internet connections, recruit more cybersecurity talent, and share more of the government’s threat intelligence with the private sector.
+“The government had a problem and threw smart people at it to solve some of it,” says Rosenzweig, who served at the time as a DHS policy adviser. “Is it perfect? No, but are we safer today than we were in 2005? Absolutely.”
+Plenty of work remains. In the wake of federal cybersecurity disasters like the hack of the Office of Personnel Management and the Russian breaches of the White House and State Department, Bossert will focus once again on tightening the federal government’s digital defenses, Healey says. “Like many of us, he was outraged by OPM,” Healey says. “He really wants to unfuck US government cybersecurity … The same problems he had as a deputy have only gotten worse, and he’s got a high degree of impatience on that.”
+Bossert has a more laissez-faire approach to private-sector cybersecurity, former colleagues say. His distaste for increased regulation, at least, fits in with Trump’s broader agenda. Bossert has instead favored cybersecurity insurance, which proponents argue could offset the risk of major hacking incidents while also incentivizing companies to reduce their cybersecurity vulnerabilities by tying those risks to their insurance premiums. “Right now, the free market is working in cyber,” Bossert said at an Atlantic Council panel on cybersecurity insurance in 2013. “All signs point to it continuing to work.”
+The White House didn’t respond to WIRED’s request for an interview with Bossert, but his official statement at the time of his appointment reflected that free-market approach. “We must work toward cyber doctrine that reflects the wisdom of free markets, private competition, and the important but limited role of government in establishing and enforcing the rule of law, honoring the rights of personal property, the benefits of free and fair trade, and the fundamental principles of liberty,” it reads. “The internet is a US invention, it should reflect these US values as it continues to transform the future for all nations and all generations.”
+Tensions to Come
+The final direction of Trump’s cybersecurity polices, of course, has yet to materialize. The draft executive order his staff spoke about in a briefing with reporters last week was inexplicably delayed, and Trump still hasn’t signed it.
+
+	‘Frankly, he’s an unusual figure in this White House.’	Senior Obama Administration Official
+
+That briefing also hinted at possible tensions within Trump’s group of cybersecurity advisers. Bossert attended it, but so did Flynn and former NSA director General Keith Alexander. The latter two are known for their aggressive postures on not only cybersecurity defense but also offensive measures like hacking into adversaries computers’ for espionage and disruption. Trump himself has touted the need for “crippling” cyberattack capabilities. Bossert, according to some former colleagues, believes in a more cautious approach to the military use of American hacking power, particularly against foreign governments.
+Whatever his own beliefs, Bossert has a history of putting the goals of the president for whom he works before his own, former colleagues say. “He was a true, honest broker,” Rosenzweig says of Bossert’s time serving under President Bush. “It wasn’t his priorities that came through, it was the president’s.”
+In other words, “reasoned voice” or not, the ultimate power to shape America’s cybersecurity stance for the next four years won’t be entirely in Bossert’s hands but in those of his temperamental boss.
+This post has been updated to reflect that Jason Healey is the former, not current, director of the Atlantic Council.
+Go Back to Top. Skip To: Start of Article.
+cybersecurityHomeland SecurityNational Affairstom bosserttrump 
+
+
+Skip Social. Skip to: Latest News.
+
+
+Share
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+Skip Social. Skip to: Latest News.
+
+
+Share
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+Skip Latest News. Skip to: Comments.
+
+
+
+
+
+
+Most Popular
+
+
+
+
+							The Cognitive Bias President Trump Understands Better Than You						
+
+
+
+psychology
+The Cognitive Bias President Trump Understands Better Than You
+Emily Dreyfuss
+
+
+
+
+
+
+
+							The Macedonian Teens Who Mastered Fake News						
+
+
+
+media
+The Macedonian Teens Who Mastered Fake News
+Samanth Subramanian
+
+
+
+
+
+
+
+
+
+
+							PewDiePie’s Fall Shows the Limits of ‘LOL JK’						
+
+
+
+Internet Culture
+PewDiePie’s Fall Shows the Limits of ‘LOL JK’
+Emma Grey Ellis
+
+
+
+
+
+
+
+							How The New York Times Is Clawing Its Way Into the Future						
+
+
+
+media
+How The New York Times Is Clawing Its Way Into the Future
+Gabriel Snyder
+
+
+
+
+
+
+
+							Security News This Week: Yahoo Got Hacked Again. No, Seriously						
+
+
+
+Security This Week
+Security News This Week: Yahoo Got Hacked Again. No, Seriously
+Brian Barrett
+
+
+
+
+
+
+
+							The Secret to Hacking Ikea Furniture Is More Ikea Furniture, Says Ikea						
+
+
+
+DIY
+The Secret to Hacking Ikea Furniture Is More Ikea Furniture, Says Ikea
+Margaret Rhodes
+
+
+
+
+
+
+
+							A Guide to Getting Past Customs With Your Digital Privacy Intact						
+
+
+
+Security
+A Guide to Getting Past Customs With Your Digital Privacy Intact
+Andy Greenberg
+
+
+
+
+
+
+
+							Spanner, the Google Database That Mastered Time, Is Now Open to Everyone						
+
+
+
+Cloud Computing
+Spanner, the Google Database That Mastered Time, Is Now Open to Everyone
+Cade Metz
+
+
+
+
+
+
+
+More Stories
+
+
+
+
+
+
+
+
+Skip Comments. Skip to: Footer.
+
+
+View comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sponsored Stories
+Powered By Outbrain
+
+
+Powered By Outbrain
+
+
+
+
+
+
+
+More Security
+
+
+
+
+
+ 
+
+Security This Week
+
+									Security News This Week: Yahoo Got Hacked Again. No, Seriously								
+Brian Barrett
+
+
+
+
+
+
+
+
+
+ 
+
+Security
+
+									Finding the Right National Security Adviser Won’t Be Easy								
+Lily Hay Newman
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Cybercrime
+
+									Hacker Lexicon: A Guide to Ransomware, the Scary Hack That’s on the Rise								
+ echo esc_html( wired_get_the_byline_name( $related_video ) ); ?>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+National Affairs
+
+											Leaks Are Totally American—They’re Just Easier Now										
+Issie Lapowsky
+
+
+
+
+
+
+
+ 
+
+encryption
+
+											Encryption Apps Help White House Staffers Leak—and Maybe Break the Law										
+Lily Hay Newman
+
+
+
+
+
+
+
+
+
+ 
+
+								Photo Gallery							
+
+								Space Photos of the Week: Milky Way Dazzles in Zodiacal Light							
+WIRED Photo Department
+
+
+
+
+
+
+
+
+We Recommend
+Powered By Outbrain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get TheMagazine
+
+
+
+
+
+				Subscribe now to get 6 months for $5 - plus a FREE Portable Phone Charger.
+			
+
+
+
+
+
+Subscribe
+ 
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here’s The Thing With Ad Blockers
+
+
+
+
+
+
+
+We get it: Ads aren’t what you’re here for. But ads help us keep the lights on. So, add us to your ad blocker’s whitelist or pay $1 per week for an ad-free version of WIRED. Either way, you are supporting our journalism. We’d really appreciate it.
+
+
+
+Sign Up
+
+
+Already a member? Log in
+
+
+
+
+
+
+Thank You
+
+
+
+
+All of us at WIRED appreciate your support!
+
+
+Continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wired Facebook
+
+
+
+
+
+
+Wired Twitter
+
+
+
+
+
+
+Wired Pinterest
+
+
+
+
+
+
+Wired Youtube
+
+
+
+
+
+
+Wired Tumblr
+
+
+
+
+
+
+Wired Instagram
+
+
+
+
+
+
+
+Login
+
+
+Subscribe
+
+
+Advertise
+
+
+Site Map
+
+
+Press Center
+
+
+FAQ
+
+
+Customer Care
+
+
+Contact Us
+
+
+T-Shirt Collection
+
+
+Newsletter
+
+
+Wired Staff
+
+
+Jobs
+
+
+RSS
+
+
+Use of this site constitutes acceptance of our user agreement (effective 3/21/12) and privacy policy (effective 3/21/12). Affiliate link policy. Your California privacy rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

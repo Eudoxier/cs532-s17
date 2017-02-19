@@ -1,0 +1,396 @@
+
+
+
+
+
+
+
+
+  
+Client Side Detection
+
+
+
+Home
+ CSD
+ Features
+ Case study
+Blog
+ Company
+ Request a demo
+
+
+
+
+
+
+
+
+
+Adaptive Banking Malware Detection
+Webinjects - RAT - Android Overlay - Rogue apps
+Request a product demo
+
+
+
+
+
+
+CSD
+
+
+
+What is CSD for Web & Android?
+
+                    CSD for Web performs detection against Web based banking malware attacks such as Webinjects and Remote Access Trojan (RAT) sessions. CSD for Android is a security library that integrates into a native Android app and performs detection of rogue apps and Android Overlay Attacks such as Marcher and Slempo Android malware families.
+                
+Proactive and adaptive fraud detection
+
+                    CSD has been created with proactive analysis and adaptability of ever changing banking malware attacks in mind. After many years of experience as malware consultants within anti-cybercrime teams of financial institutions we have learned that adaptability of detection approaches is the strongest weapon against everyday malware changes. In addition, CSD’s core detection engine relies on a proactive fraud detection approach without the need of updating blacklist signatures.
+                
+
+
+
+
+
+
+
+
+FEATURES
+
+
+
+
+
+
+
+
+
+
+
+
+More Details
+
+
+   Proactive detection approach
+
+
+
+
+
+
+
+
+
+
+More Details
+
+
+   Detection configurations
+
+
+
+
+
+
+
+
+
+
+More Details
+
+
+   Android Overlay and Rogue Apps
+
+
+
+
+
+
+
+
+
+
+
+
+More Details
+
+
+   Client-less
+
+
+
+
+
+
+
+
+
+
+More Details
+
+
+   Malware experts Portal
+
+
+
+
+
+
+
+
+
+
+More Details
+
+
+   Easy integration
+
+
+
+
+
+
+
+×
+Proactive detection approach
+
+
+
+
+                                    CSD’s core detection engine uses a proactive detection mechanism that is based on the ‘known good’ design principle (white-list). This means that everything on the website that is not part of the original page (known good) will be marked as potential malicious and process by a malware expert in the CSD Portal (dashboard). The proactive approach allows us to detect test cases of malware writers and update the detection engine accordingly before the actual attack emerges.
+
+
+Close
+
+
+
+
+
+
+
+
+
+×
+Detection configuration
+
+
+
+
+                                The strongest part of the CSD dashboard is the configuration panel that allows malware experts to quickly change detection approaches, encryption keys or act on notification and trip wires that are triggered by malicious actors by switching between pretested detection configurations within one second.
+                                
+
+
+Close
+
+
+
+
+
+
+
+
+
+×
+Android Overlay & Rogue apps
+
+
+
+
+                                    Android overlay banking malware families are researched in our malware lab on a daily basis. The intel gathered from real life malware samples are used to improve detection of rogue apps. In addition, the known good approach is used in detection to build a proper intel base of potential rogue apps within the CSD Dashboard of a malware analyst.
+                                
+
+
+Close
+
+
+
+
+
+
+
+
+
+×
+Client-less
+
+
+
+
+                                    CSD does not step outside the browser for security, privacy and maintenance reasons.
+                                    Hence, it does not require the bank to deploy client-software on their user’s
+                                    machine.
+                                
+
+
+Close
+
+
+
+
+
+
+
+
+
+×
+Malware experts Portal
+
+
+
+
+                                    The portal is easy to use and tailored for different user roles. Malware experts have access to advanced configurations to change or disable
+                                    detection approaches, signatures and detailed information about detections of malware.
+                                    Functional maintenance and management have access to the dashboard and get statistics of the detections over time. The dashboard also
+                                    includes geo-ip integration to show where detections are taking place.
+                                    Technical maintenance can enable or disable parts of the system.
+                                
+
+
+Close
+
+
+
+
+
+
+
+
+
+×
+Easy integration
+
+
+
+
+                                    By collaborating with a large financial institution during the design of CSD we have
+                                    put many efforts in easy integration in online banking and back-end fraud engines.
+                                
+
+                                    CSD integrates in custom and 3-party backend fraud engines that handle message
+                                    formats such as JSON and XML without significant performance impact.
+                                
+
+
+Close
+
+
+
+
+
+
+
+
+
+
+
+
+CASE STUDY
+
+
+
+Collaboration with ABN AMRO Bank
+
+                    CSD been created in collaboration with designers, developers, and fraud experts of ABN AMRO Bank
+                    N.V. and has been successfully deployed in their online banking environment and fraud control
+                    engines for several years.
+                
+Results
+
+"ABN AMRO Bank was able, thanks to development partner Securify, to get a reliable score on the chance that a
+                    transaction could
+                    be originated by criminals using malware. By using this score together with customer/transaction profiling,
+                    the bank remains in control on the majority of fraudulent transactions."
+                    
+
+
+
+
+
+
+
+
+
+COMPANY
+
+
+
+
+
+Securify B.V.
+
+                    We are a passionate team of application security specialists and malware experts that helps organizations to secure their web and mobile applications, from design to go-live.
+
+                    We go beyond security pentesting alone. For our financial clients we are their trusted partner in malware analysis and in good collaboration improve and build fraud detection software for their large online financial landscape.
+                 
+
+
+
+
+
+
+
+
+REQUEST A DEMO
+
+
+Securify B.V. Naritaweg 106c
+                    1043CA, Amsterdam
+
+
+
+
+
+
+
+
+
+
+Fill out the form underneath in order to request a CSD demo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Request demo
+
+
+
+
+
+
+
+
+Copyright © 2016, Securify B.V. - Client Side Detection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

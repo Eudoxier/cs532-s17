@@ -1,0 +1,1075 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log In or Sign Up
+
+
+
+Log In
+
+
+Sign Up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              Tech
+              
+                
+
+
+
+
+                
+              Science
+              
+                
+
+
+
+
+                
+              Culture
+              
+                
+
+
+
+
+                
+              Cars
+              
+                
+
+
+
+
+                
+              Reviews
+              
+                
+
+
+
+
+                
+              Longform
+              
+              
+
+
+
+                
+              Video
+              
+              
+
+
+
+                
+              Circuit Breaker
+              
+              
+
+
+
+                
+              Forums
+              
+              
+
+
+
+                
+              TL;DR
+              
+              
+
+
+
+            more
+            
+
+
+
+
+
+
+
+
+
+
+
+
+            Tech
+            
+              
+
+
+
+
+Apple
+
+
+Google
+
+
+Microsoft
+
+
+Apps
+
+
+
+
+Photography
+
+
+Virtual Reality
+
+
+Business
+
+
+
+All Tech
+
+
+
+
+
+            Science
+            
+              
+
+
+
+Space
+
+
+Energy
+
+
+Health
+
+
+Environment
+
+
+All Science
+
+
+
+
+
+            Culture
+            
+              
+
+
+
+
+Web
+
+
+TV
+
+
+Film
+
+
+
+
+Games
+
+
+Comics
+
+
+Music
+
+
+
+All Culture
+
+
+
+
+
+            Cars
+            
+              
+
+
+
+
+Ride-Sharing
+
+
+Cars
+
+
+Mass Transit
+
+
+
+
+Aviation
+
+
+Rideables
+
+
+
+All Transportation
+
+
+
+
+
+            Reviews
+            
+              
+
+
+
+
+Phones
+
+
+Laptops
+
+
+Cameras
+
+
+
+
+Tablets
+
+
+Headphones
+
+
+Smartwatches
+
+
+
+
+VR Headsets
+
+
+This is my Next
+
+
+
+All Reviews
+
+
+
+
+
+            Longform
+            
+          
+
+
+
+            Video
+            
+          
+
+
+
+            Circuit Breaker
+            
+          
+
+
+
+            Forums
+            
+          
+
+
+
+            TL;DR
+            
+          
+
+✕
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Policy & Law
+
+
+
+
+Tech
+
+
+
+
+Cybersecurity
+
+
+
+
+
+The FTC has sued D-Link over unsecure routers and webcams
+
+
+
+
+    New,
+  
+
+
+      1
+    
+comment
+
+
+
+
+Part of an ongoing effort to secure the Internet of Things
+
+  
+    by
+
+    
+Andrew Liptak@AndrewLiptak
+
+
+        Jan  7, 2017,  1:00pm EST
+      
+
+
+
+
+
+
+
+
+          
+            share
+          
+        
+
+
+
+
+
+
+          
+            tweet
+          
+        
+
+
+
+
+
+
+          
+            Linkedin
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Federal Trade Commission has filed a lawsuit against the Taiwan-based D-Link Corporation and its US subsidiary, D-Link Systems, Inc., for not taking steps to secure their devices, which left them vulnerable to hackers. 
+In the complaint, filed on Thursday, the FTC alleged that the company “failed to take reasonable steps to protect their routers and [Internet Protocol] cameras from widely known and reasonably foreseeable risks of unauthorized access.” D-Link also failed to test for security flaws, keep its own security keys confidential, or take steps to secure login credentials on mobile devices. 
+The FTC noted in the complaint that the inaction from the company has left thousands of customers at risk of having their personal information compromised or vulnerable to attack. 
+This isn’t the first time that the FTC has filed a complaint against a manufacturer
+This isn’t the first time that the FTC has filed a complaint against a manufacturer over concerns about their security. In September 2013, the commission settled a complaint against TRENDnet after alleging that its home cameras were not secure, and in February 2016 settled with ASUS over unsecured internet routers. “The consequences for consumers can include device compromise and exposure of their sensitive personal information,” said Jessica Rich, director of the FTC’s Bureau of Consumer Protection. 
+
+
+
+
+With these complaints, the commission has recognized the inherent danger in the growing number of connected devices, which can both leave consumers at risk, and be used maliciously. In October, a massive denial of service (DDoS) attack took down numerous websites, utilizing a number of connected home devices that weren’t secured. 
+The complaint will next be seen by a federal district court judge. 
+Update, January 8th: William Brown, the chief information security officer for D-Link has provided the following statement:  
+
+
+
+
+D-Link denies the allegations outlined in the complaint and is taking steps to defend the action.
+
+
+
+
+
+
+
+
+
+
+
+More From
+The Verge
+
+
+
+The Hawai’ian volcano that created a spectacular firehose of lava just collapsed
+
+
+Apple, Facebook, Google, and 94 others file opposition to Trump's immigration ban
+
+
+Google’s Super Bowl ad accidentally set off a lot of Google Homes
+
+
+Lady Gaga opened her Super Bowl performance with a protest anthem
+
+
+Trump is turning Elon Musk into a crony capitalist
+
+
+Why the sounds of eating make some people so angry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        
+          Now Trending
+        
+      
+    
+
+
+
+
+
+
+
+
+
+
+Why every US carrier suddenly changed their unlimited plan this week
+
+
+
+
+
+
+
+
+
+
+Another robot just broke down investigating Fukushima’s record high radiation levels
+
+
+
+
+
+
+
+
+
+
+Stephen King and J.J. Abrams are going to show Stranger Things how it’s done
+
+
+
+
+
+
+
+
+
+
+
+
+
+  This Article has a component height of 11. The sidebar size is medium.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading comments...
+
+
+
+
+The Latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web
+
+
+
+
+US & World
+
+
+
+
+Politics
+
+
+
+
+
+He Will Not Divide Us exhibit has found a new home
+
+  
+    by
+
+    
+Andrew Liptak@AndrewLiptak
+
+
+
+Last week, The Museum of the Moving Image in Queens shut down the live-streaming art protest He Will Not Divide Us created by Shia LaBeouf, Nastja Säde Rönkkö, and Luke Turner. As of today, the project has found a new home at the El Rey Theater in...
+
+
+
+
+
+      New,
+    
+
+
+        1
+      
+comment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web
+
+
+
+
+Editorial
+
+
+
+
+Culture
+
+
+
+
+
+Edgelords aren’t the internet’s cultural leaders — snowflakes are
+
+  
+    by
+
+    
+Adi Robertson@thedextriarchy
+
+
+
+And neither is reactionary rage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entertainment
+
+
+
+
+Film
+
+
+
+
+Star Wars
+
+
+
+
+
+A new Star Wars novel will follow the elite soldiers of the Empire
+
+  
+    by
+
+    
+Andrew Liptak@AndrewLiptak
+
+
+
+While Rogue One: A Star Wars Story followed a group of rebels on a secret mission to steal the Death Star plans, the Empire had its share of elite units as well. Their story will be told in a new novel by Christie Golden, set after the events of R...
+
+
+
+
+
+      New,
+    
+
+
+        0
+      
+comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Policy & Law
+
+
+
+
+Tech
+
+
+
+
+
+US landlord AIMCO is suing Airbnb because its renters are breaking their leases
+
+  
+    by
+
+    
+Andrew Liptak@AndrewLiptak
+
+
+
+Apartment Investment & Management Company (AIMCO), one of the largest owners and operators of apartments in the United States, has filed a pair of lawsuits in Florida and California against short-term rental site Airbnb, alleging that it helps...
+
+
+
+
+
+      New,
+    
+
+
+        4
+      
+comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entertainment
+
+
+
+
+Music
+
+
+
+
+Culture
+
+
+
+
+
+Listen to a previously unreleased Weird Al Beatles parody, Pac-Man
+
+  
+    by
+
+    
+Andrew Liptak@AndrewLiptak
+
+
+
+“Weird Al” Yankovic has been delighting audiences with his parodies of popular songs for decades, and later this year, will release a career-spanning boxed set. In preparation for its release, the singer has released his parody of The Beatles’...
+
+
+
+
+
+      New,
+    
+
+
+        0
+      
+comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Science
+
+
+
+
+Tech
+
+
+
+
+Health
+
+
+
+
+
+You aren’t going to go blind from staring at a computer too long
+
+  
+    by
+
+    
+Elizabeth Lopatto@mslopatto
+
+
+
+But it might make your eyes hurt
+
+
+
+
+
+      New,
+    
+
+
+        4
+      
+comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chorus
+
+
+
+
+Terms of Use
+Privacy Policy
+Communications Preferences
+
+
+Contact
+Tip Us
+Community Guidelines
+About
+Ethics Statement
+
+
+
+  All Systems Operational
+  Check out our status page for more details.
+
+
+
+
+Vox Media
+Advertise with us
+Jobs @ Vox Media
+      
+      © 2017 Vox Media, Inc. All Rights Reserved
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+          
+            tweet
+          
+        
+
+
+
+
+
+
+          
+            share
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

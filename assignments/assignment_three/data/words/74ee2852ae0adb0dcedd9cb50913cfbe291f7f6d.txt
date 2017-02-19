@@ -1,0 +1,521 @@
+
+
+
+
+
+
+
+
+
+
+
+About | Advertise | Privacy Policy | Tip Us | Join Microsoft BizSpark
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+Microsoft
+
+Windows
+Mobile
+Office
+Xbox One
+
+
+Apple
+
+
+ iPhone
+
+iPhone Activity Center
+iPhone Apps
+iPhone Themes
+
+
+
+ iPad
+
+iPad Activity Center
+iPad Apps
+
+
+
+ Mac OS X
+
+ Apple Watch
+
+
+Google
+
+Google Services
+Android
+
+
+
+Reviews
+Wearables
+Web
+IoT
+
+Home Automation
+
+
+Developer Tools
+
+Deals
+
+More
+
+Apps
+
+Sprink
+Turn Off LCD
+Drive Icon Changer
+
+
+About Us
+Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPon
+
+
+
+
+Firm That Helped FBI Break Into San Bernardino iPhone Gets Hacked, Tools Leaked Online
+By Oliver Haslam | February 3rd, 2017  
+
+
+
+
+
+
+
+
+
+If you cast your mind back to when Apple refused to unlock an iPhone 5c for the authorities following the San Bernardino incident last year, the company made the argument that if it created a tool for opening up an encrypted iPhone, then it would create the potential for that tool to then fall into the wrong hands and ultimately make iPhone encryption obsolete.
+The FBI didn’t agree with this and went ahead and found someone else to do the hacking – Israeli firm Cellebrite.
+
+In a turn of events that have more than a hint of irony to them, Cellebrite has now had their own servers hacked, with most parts of that iPhone hacking tool now leaked on the internet.
+
+
+
+
+A report by Motherboard cites a source who hacked into a remote Cellebrite server and stole 900GB of data, including evidence that Cellebrite did work for countries such as Russia, Turkey, and the UAE. The treasure trove of data also includes a host of files relating to the hacking of iPhones, according to the publication.
+Now the hacker responsible has publicly released a cache of files allegedly stolen from Cellebrite relating to Android and BlackBerry devices, and older iPhones, some of which may have been copied from publicly available phone cracking tools.
+“It’s important to demonstrate that when you create these tools, they will make it out. History should make that clear,” they continued.
+The last line of that quote is particularly pertinent, given Apple’s warning that something like this could happen when it refused to create such a tool last year, with CEO Tim Cook labeling it the software equivalent of cancer. Interestingly, once the data was looked into, much of it was similar to tools used in the jailbreaking community, suggesting there may be some creative re-use of hacks being used.
+In their README, the hacker notes much of the iOS-related code is very similar to that used in the jailbreaking scene—a community of iPhone hackers that typically breaks into iOS devices and release its code publicly for free.
+
+As with the iPhone in the San Bernardino case, much of the information found by the hacker relates to tools for hacking older iPhones, so those with newer devices may still be OK. Regardless, now would be an opportune time to remind everyone to encrypt their devices as well as device backups and data, as well as keep their software up to date. At this point, and especially with the world going the way it is right now, it just makes good sense.
+(Source: Motherboard)
+You might also like to check out:
+
+Pokemon Go 1.25.0 / 0.55.0 Hack Is Available To Download
+iOS 10 / 10.2 / 10.1.1 Compatible Jailbreak Tweaks On Cydia [List]
+Jailbreak iOS 10.2.1 / 10.3 For iPhone And iPad [Latest Status Update]
+
+You can follow us on Twitter, add us to your circle on Google+ or like our Facebook page to keep yourself updated on all the latest from Microsoft, Google, Apple and the Web.
+
+
+
+
+
+
+Related Stories
+
+
+
+
+
+
+Tweet
+
+ Subscribe to our RSS Feed !
+
+
+
+
+
+Like this post on Facebook
+
+
+
+
+
+
+
+Redmond Pie Channels
+
+
+Follow Us On Facebook
+
+
+Subscribe To RSS Feed
+
+
+Follow Us On Twitter
+
+
+Subscribe On YouTube
+
+
+
+
+
+
+
+
+
+
+
+Doron
+
+
+
+The biggest BS ever
+
+
+
+
+
+
+TheCuddlyKoala
+
+
+
+HAHAHA.
+
+
+
+
+
+
+Killian Mills
+
+
+
+Deserved it !!!
+
+
+
+
+
+
+oplix
+
+
+
+Firm who created software says they were hacked but in fact sold the software on the black market which then got leaked.
+
+
+
+
+
+
+BT
+
+
+
+only for older iphones…but the tools for current iphones are secure…uh huh
+
+
+
+
+
+
+Mark S
+
+
+
+“If you cast your mind back”  what?
+
+
+
+
+
+
+tccki
+
+
+
+Incorrect, 900 GB of company operational files were leaked. No company would “sell” that on any market.
+
+
+
+
+
+
+http://www.miscy.net/                Max Pen
+
+
+
+How ironic!
+
+
+
+
+
+
+John c
+
+
+
+Poetic!
+
+
+
+
+
+
+AnonTheMouse
+
+
+
+Well colour me “shocked” by this totally expected turn of events.
+
+
+
+
+
+
+Benjamin Styles
+
+
+
+Has the FBI never not fucked a national incident up?
+
+
+
+
+
+
+Scott Tactical
+
+
+
+Screw these hacker companies. And screw the meddling departments. It changes nothing on the case and just loses privacy.  Bravo to apple.
+
+
+
+
+
+
+Keybounce
+
+
+
+Gee, didn’t the government say “Trust us with security”?
+
+
+
+
+
+
+Keybounce
+
+
+
+Think back to a few years ago.
+
+
+
+
+
+
+oplix
+
+
+
+Oh right. I’ll take YOUR word for it. I love your ironic conviction of self validating knowledge considering they sold it to the government
+
+
+
+
+
+
+Lucas Gordon
+
+
+
+Well think about it, why would we know about it if they *didn’t* fuck it up….
+
+
+
+
+
+
+JEmlay
+
+
+
+This is exactly why Apple told them to fuck off.
+
+
+
+
+
+
+
+
+
+Subscribe To Redmond Pie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Follow @RedmondPie
+
+
+
+
+
+
+
+
+
+
+Popular Stories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Redmond Pie's Latest
+ 
+ 
+
+Recent Stories
+
+
+
+ Install WhatsApp On iPad Running iOS 10 Without Jailbreak [Tutorial]February 19th, 2017 | Paul Morris  
+iOS 10 / 10.2 / 10.1.1 Compatible Jailbreak Tweaks On Cydia [List]February 19th, 2017 | Paul Morris  
+Pokemon Go Gen 2 Tip: Evolve Eevee Into Espeon And Umbreon, Here’s HowFebruary 18th, 2017 | Oliver Haslam  
+PickPocket 2 For iOS 10 Adds Several More Anti-Theft Features To iPhoneFebruary 18th, 2017 | Oliver Haslam  
+Leaked Photos Show Stealth Case Apple Uses To Transport iPhone PrototypesFebruary 18th, 2017 | Oliver Haslam  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2008-2017 Redmond Pie. All Rights Reserved.
+About | Advertise | Privacy Policy | Tip Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

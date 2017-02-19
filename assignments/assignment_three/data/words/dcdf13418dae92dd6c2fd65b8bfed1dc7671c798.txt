@@ -1,0 +1,428 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Top 50
+How To
+Magazine
+Franchise 500
+Events
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Run Smarter
+
+
+		Security Actions for the C-Suite: Act Now to Avoid Trouble Later
+	
+
+			Do leaders at your company understand their responsibility in setting security standards? If not, it's high time they get involved.
+		
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Image credit:
+
+															Shutterstock
+							
+						
+
+
+
+
+
+
+Joe Ross
+
+Contributor
+President and Co-Founder of CSID 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Run Smarter
+Your Startup Should Think About Security From the Beginning
+
+ 
+
+
+
+
+Run Smarter
+Why Corporate Collaboration Tools are Fundamentally Flawed
+
+ 
+
+
+
+
+Run Smarter
+What Any Startup Can Learn From This 1 Company That's Scattered Across 11 Time Zones
+
+ 
+
+
+
+
+---Shares
+
+
+
+
+
+
+
+
+
+
+					February 8, 2017
+				
+
+
+Reader Resource
+Join Entrepreneur's The Goal Standard Challenge and make 2017 yours. 
+							Learn more »
+
+We’re seeing an increase in data breaches affecting businesses both large and small. And, given the fact that many executives at the C-suite level are removed from the security incident response process, this situation needs to change.Breaches can be financially debilitating and have a lasting impact on client relationships and a company’s overall reputation. That's why everyone up to the highest echelons of a company has to be involved.Related: 10 Data Security Mistakes Startups Can't Afford to Make The reasons are clear, and they're financial: According to the Pomenon Institute, the average consolidated cost of a data breach is $4 million. That's why business leaders must acknowledge their responsibility for setting security standards to ensure companywide security.Here are four actions to take right now to better position your company for a more secure future.1. Get involved.According to recent survey data described in Experian’s Data Breach Response Guide, only 39 percent of boards, chairmen (and women) and CEOs surveyed said they were involved in data-breach preparedness at a high level. If you're not part of that 39 percent, you need to start putting together your own internal-breach response team.The Experian guide suggested that such a team include an incident lead, to manage and coordinate the company’s overall response efforts, and an executive leader to maintain a line of communication to the board of directors and other stakeholders.The guide also suggested including representatives from human resources, information technology and public relations, as well as an outward-facing customer-care group and internal legal, privacy and compliance experts.While not all businesses have all these different departments, the important point is the C-suite's involvement with the selection process, and regular communication among all parties.2. Engage external partners.Determining and securing external partners before an issue occurs will help prevent damage to your relationships and your company’s reputation. Such partners can review your incident-response plans and ensure that those plans follow best practices and reflect knowledge of the latest threats to your particular industry.Related: 11 Tips to Secure Mobile Devices and Client Data In this regard, Experian has identified five important traits to look for in an external partner; and while the right match will vary, based on your organization’s individual needs, these are great general criteria for whom to partner with in your breach-response team:An understanding of security and privacy -- No matter what your business does, any partner should have a background that supports a wide variety of data breaches and knowledge of the entire breach lifecycle.Strategic insights -- A partner should be able to handle a number of “what if” scenarios before and during an incident.Ability to scale -- A breach may seem small at first but end up being much more extensive. You’ll want a partner who can scale to the organization’s size and potential needs during any type of incident.A relationship with regulators -- Organizations with a collaborative relationship with government stakeholders and regulators will likely have the support of those key groups during a data breach.Global considerations -- If your business operates internationally, consider a partner with a knowledge of breach laws in different countries. This partner should also be able to operate multilingual call centers.3. Conduct response exercises regularly.Once you’ve developed your response team and finalized your response plan, put the plan into action. Practice and test your preparedness plan at least twice a year and perform regular reviews to ensure you’re prepared. Make sure everyone understands his or her specific duties, both individually and as part of any specific department.Some activities that the U.S. Small Business Administration recommends in this regard include establishing security practices and policies in order to protect sensitive information. Also on the list: requiring employees to use strong passwords, creating and updating data security and mobile device policies and establishing limits on the types of data employees can access based on their job level.Mobile devices, in particular, pose additional risks, as more businesses adopt bring your own device (BYOD) policies. Additionally, business leaders should update and re-evaluate their security measures often, and conduct annual trainings.4. Develop a simulation exercise.Some companies do have a response plan in place, though a recent CSID study found that more than half of small business owners participating weren't allocating any budget at all to risk mitigation. What’s more, only about a third of respondents in a recent Experian survey said they put a priority on employees understanding how a data breach affects them and the company.You never know how people will respond in a high-stress situation, so a breach-simulation exercise can put your plan into action and allow your entire team to run through the different stages of a breach.Ways to do this? Schedule at least a half-day for any simulation exercise. Have someone outside the organization serve as moderator, and include every team member who will be involved in responding to a data breach.Also, think of as many “what if” scenarios as possible. Consider what might take place before, during and after a data breach. At the conclusion of the session, have the team debrief, review the lessons learned and determine where improvements can be made.Related: 4 Reasons You Need Developers With Cybersecurity Skills in All Tech Teams Taking these actions now will benefit your organization in the short term and, in the long term, empower your employees to be a part of driving security companywide.
+
+
+
+
+
+
+
+
+Joe Ross
+
+
+
+
+
+
+
+Joe Ross is president and co-founder of CSID, a provider of global identity protection and fraud detection technologies for businesses, their employees and consumers. Ross is a member of the Young President's Organization and also serve...
+Read more
+
+
+
+
+
+
+
+Growth Strategies
+Technology
+Cybersecurity
+Data Breach
+Data Security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Company
+Advertise
+Brand Licensing
+Contact Us
+Staff
+Contribute
+
+
+
+
+
+
+
+
+Upcoming Events
+ Entrepreneur 360™ Livestream
+Products
+Business Books
+Reprints & Licensing
+Classifieds
+
+
+Editions
+United States
+Middle East
+India
+Español
+Philippines
+South Africa
+China
+
+
+Connect
+Facebook
+Twitter
+LinkedIn
+Google+
+Pinterest
+Instagram
+YouTube
+Flickr
+Tumblr
+RSS
+
+Feedly
+
+
+
+
+
+
+
+
+
+
+Subscribe Now
+Gift Subscriptions
+Subscriber Services
+
+
+
+
+Digital Editions
+iOSAndroidKindle
+
+
+
+
+
+
+		Copyright © 2017 Entrepreneur Media, Inc. All rights reserved.
+			
+
+Terms of Use
+Privacy Policy
+Site Map
+
+ 
+
+
+
+
+Follow Us
+
+
+
+
+
+ 
+
+Current Edition
+
+
+United States
+
+India Middle East Español 
+
+
+Sections
+
+Latest
+Top 50
+How To
+Magazine
+
+Leadership
+
+
+
+Growth Strategies
+
+
+
+Marketing
+
+
+
+Technology
+
+
+
+Social Media
+
+
+
+Finance
+
+
+
+Entrepreneurs
+
+
+
+Starting a Business
+
+
+
+Franchises
+
+
+
+Magazine
+
+
+
+More
+
+
+Business Forms
+
+
+Video
+
+
+Events
+
+
+Newsletters
+
+
+Bookstore
+
+
+About Us
+
+
+Contact Us
+
+
+Advertise
+
+
+Reprints & Licensing
+
+
+Privacy Policy
+
+
+Terms of Use
+
+
+
+		© 2017 Entrepreneur Media, Inc.
+	
+
+
+
+
+
+
+
+
+
+
+
+Skip Advertisement
+			This ad will close in 15 seconds...
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+STAY INFORMED. GET INSPIRED.
+Get our Best of the Week Newsletter direct to your inbox
+
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+
+

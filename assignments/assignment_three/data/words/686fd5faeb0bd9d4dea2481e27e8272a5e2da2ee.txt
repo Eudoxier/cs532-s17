@@ -1,0 +1,970 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+InformatiqueNews.fr
+openNewsMobilité
+Sécurité
+Infrastructures
+Applications
+Cloud
+Poste de travail
+stockage
+Avis des fournisseurs
+Economie
+RH
+
+
+
+L’état de la 4G en une infographie
+
+
+
+Le marché des drones prend son envol
+
+
+
+CES 2017 : la bataille du visible et de l’invisible Pascal Malotti, Valtech
+
+
+
+Le mobile en entreprise en une infographie
+
+
+
+Le retour de Nokia dans les smartphones
+
+
+
+Apple accapare 90% des bénéfices du marché des smartphones
+
+
+
+
+
+
+Fortinet dévoile la première appliance pare-feu en Terabit
+
+
+
+Ivanti rationalise ses gammes
+
+
+
+Cybersécurité : Citius, Altius, Fortius
+
+
+
+Fortinet ouvre l’accès à son programme de formation
+
+
+
+Conséquences de la mise en place de la RGPD
+
+
+
+6 acteurs IT forment l’IoT Cybersecurity Alliance
+
+
+
+
+
+
+Red Hat propose le provisioning dynamique du stockage
+
+
+
+Arcserve évolue vers le cloud
+
+
+
+HPE signe un accord OEM avec Mesosphere
+
+
+
+Ivanti pour gérer le parc logiciel
+
+
+
+MapR prend en charge Docker
+
+
+
+Microsoft aurait des appliances virtuelles dans ses tuyaux
+
+
+
+
+
+
+Hadoop et NoSQL en panne de financement ?
+
+
+
+La collaboration : un atout stratégique pour l’attractivité des entreprises  Hugues de Bonnaventure, Lifesize
+
+
+
+Les détails de l’évolution de la dépense IT mondiale selon IDC
+
+
+
+Dynatrace applique l’IA à la gestion des performances
+
+
+
+Veritas prend le virage du management de la donnée
+
+
+
+Le Big data diffuse dans les métiers
+
+
+
+
+
+
+Cisco lance à son tour son appliance Azure Stack
+
+
+
+Les JO d’hiver de PyeongChang en plein nuage
+
+
+
+3 DSI sur 4 souhaitent une IT hybride maîtrisée
+
+
+
+Cegid lance un service cloud pour le retail sur Azure
+
+
+
+Cheops Technology lance une offre IaaS et une offre SAP S/4 Hana hébergée
+
+
+
+Le cloud, un marché à 150 milliards de dollars
+
+
+
+
+
+
+Dell EMC annonce des PCs et des moniteurs pour l’éducation
+
+
+
+PC : 5 années de baisse
+
+
+
+HP dévoile des ordinateurs portables équipés d’écrans anti-piratage intégrés
+
+
+
+Baisse des ventes de tablettes mais rebond à venir
+
+
+
+Apple va lancer l’iPhone 7, et alors ?
+
+
+
+La fin des mises à jour gratuites se traduit par la chute des migrations vers Windows 10
+
+
+
+
+
+
+Comprendre les principes de la cryptologie et du chiffrement
+
+
+
+Mangstor propose des SAN ultra-rapides
+
+
+
+NetApp Insight 2015 : le flash de plus en plus accessible
+
+
+
+Red Hat veut s’imposer sur le stockage et la virtualisation
+
+
+
+Un milliard en cash pour des cartes flash
+
+
+
+Explosion des mémoires SSD
+
+
+
+
+
+
+Comment garder l’esprit start-upMichel Cohen, Exclusive Networks
+
+
+
+Les applications dans la ligne de mire des cybercriminels Vincent Lavergne, F5 Networks
+
+
+
+Software Defined Storage : le futur du stockage Laurent Sirgy, Kingston
+
+
+
+Comment réussir un Product Design Sprint dans une grande entreprise ?  Stephen Demange SQLI
+
+
+
+Des failles de données toujours plus grandes Jason Hart, Gemalto
+
+
+
+L’AS/400, vecteur de convoitise des pirates Frédéric Saulet, LogPoint
+
+
+
+
+
+
+Capgemini rachète les sociétés de conseil Idean et d’infogérance TCube Solutions
+
+
+
+L’IoT s’élargit
+
+
+
+Vers un nouveau scandale Toshiba ?
+
+
+
+Amazon loin devant
+
+
+
+Encore une réorganisation chez Dell Technologies
+
+
+
+Christian Hiller, qui devait prendre la tête de Dell EMC France, cède la place à Stéphane Barberet
+
+
+
+
+
+
+Les développeurs français sont plutôt mal payés
+
+
+
+IBM accusé de double langage concernant sa politique d’emploi aux USA
+
+
+
+Quels défis pour les RH ?
+
+
+
+Le télétravail, remède à la grippe
+
+
+
+Perspectives du marché des solutions RH
+
+
+
+Etude de Syntec Numérique  Editeurs : Quels besoins en compétences ?
+
+
+
+
+
+
+VidéosInvité de la semaine
+Evénement
+InfoNews Hebo
+
+
+
+Interview Christian Carle, CEO & fondateur de Pole Star, pionnier de la localisation indoor
+
+
+
+L’invité de la semaine : Thomas Desrues, DG France Juniper Networks
+
+
+
+L’invité de la semaine : Frédéric Batut VP Europe du sud Polycom
+
+
+
+L’invité de la semaine : Edouard Fourcade DG France ANAPLAN
+
+
+
+L’invité de la semaine : Richard Frajnd, DG France CA Technologies
+
+
+
+L’invité de la semaine : Sylvain Cazard DG France VMware
+
+
+
+
+
+
+Christian Buchel, CDIO Enedis « S’immerger dans le bain de l’innovation »
+
+
+
+Interview Christian Guillemot : Des jeux vidéos à la télémédecine !
+
+
+
+Interview Olivier Gresle, Engie : un cercle vertueux avec les startups
+
+
+
+Octave Klaba, « OVH n’est pas soumis au Patriot Act US »
+
+
+
+« Exploit Kit » : Comprendre et réagir à la menace
+
+
+
+Protection des données en Europe, où en sommes-nous ?
+
+
+
+
+
+
+InfoNews Hebdo 13/02 : IT & Externalisation, SAP S/4 HANA, IOT & sécurité, Windows 10, Data US
+
+
+
+InfoNews Hebdo 06/02 : Le Très Haut Débit, Data4, Microsoft Juniper, Privacy Shield, Thalès &PNIJ
+
+
+
+InfoNews Hebdo 23/01 : Rachats en rafale, IA & Poker, RSE, Campus Microsoft, EDF
+
+
+
+InfoNews Hebdo 23/01 : HPE & Simplivity, Conteneurs, IBM, Anaplan, FIC, Cisco
+
+
+
+InfoNews Hebdo 16/01 : Les PC en berne, IA et emploi, NRAM, Data & Analytics, CA Technologies, Amazon
+
+
+
+InfoNews Hebdo 01/09 : 50 ans de CES, l’informatique d’Autolib dérape, déconnexion, bourse et Lego
+
+
+
+
+
+
+Partner ZoneDell
+Box
+Numergy
+EasyVista
+IBM
+Malwarebytes
+
+
+
+Migrer votre messagerie dans le cloud, pourquoi, comment, les bonnes questions à se poser !
+
+
+
+Evoluer vers Exchange 2013 : migraine ou migration ?
+
+
+
+Les 10 etapes clés pour assurer une migration réussie vers exchange 2013
+
+
+
+
+
+
+Classement des fournisseurs: le partage de fichiers sur le Cloud
+
+
+
+Etude de cas :  Lorsque P&G a eu besoin d’une solution de partage de contenu simple à utiliser
+
+
+
+Nouvelles tendances sur le marché du partage et de la synchronisation de fichiers mobiles
+
+
+
+Box fait coup double sur sa stratégie de plate-forme d’entreprise
+
+
+
+
+
+
+Stockage : Comment gérer le cycle de vie de la donnée
+
+
+
+Cloud computing : le tour de la question en 90 secondes
+
+
+
+Cloud Computing : la sécurisation des données
+
+
+
+
+
+
+EASYVISTA | Webinar Market Place d’entreprise et Mobilité
+
+
+
+
+
+
+Réussir son projet de migration EDI
+
+
+
+
+
+
+Tout savoir sur les « ransomwares »
+
+
+
+Pourquoi une sécurité multicouche est importante ?
+
+
+
+La fin des antivirus ?
+
+
+
+Comment protéger votre entreprise des ransomwares
+
+
+
+Comment calculer le retour sur investissement avec la sécurité multicouche
+
+
+
+5 arguments en faveur de la sécurité multicouche
+
+
+
+
+
+
+ 
+Nous suivre
+
+
+Twitter
+Google+
+Linkedin
+Flux RSS
+ Recevoir l'actualité
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+                        Sécurité                       
+6 acteurs IT forment l’IoT Cybersecurity Alliance
+
+
+ 
+le 09-02-2017
+Par La rédaction 
+
+
+
+
+Email
+Print
+ Facebook
+ Twitter
+
+AT&T, IBM, Nokia, Palo Alto Networks, Symantec et Trustonic forment l’IoT Cybersecurity Alliance avec comme objectif de relever les défis liés à la cybersécurité et de démystifier la sécurité dans l’Internet des Objets en partageant leurs meilleures pratiques.
+L’IoT Cybersecurity Alliance a pour objectifs de :
+– Collaborer et étudier les défis sécuritaires de l’IoT dans les secteurs verticaux tels que la voiture connectée, l’industrie, les villes intelligentes et la santé. Cette alliance se basera sur des cas concrets ou des défis commerciaux dans le domaine de la cybersécurité de l’IoT pour identifier les principales préoccupations et définir les meilleurs moyens pour implémenter la sécurité.
+– Disséquer et résoudre les problèmes de sécurité IoT tels que les paramètres de connectivité, de cloud et de données/application.
+– Faciliter l’accès à la sécurité pour tous. La sécurité doit exister à travers toute la chaîne de valeur. Les utilisateurs bénéficieront de services et d’infrastructures IoT pour faire face aux nouvelles menaces constamment existantes.
+– Influencer sur les normes et les politiques de sécurité. L’expertise de chaque membre du groupe permettra de mieux sensibiliser aux enjeux de la cybersécurité. Ces derniers s’investiront régulièrement auprès des décideurs et des organisations. L’IoT offre d’énormes avantages aux entreprises, mais les préoccupations autour de la sécurité empêchent souvent les entreprises d’opter pleinement pour ces nouvelles technologies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+Comment garder l’esprit start-upMichel Cohen, Exclusive Networks
+17 février - 16h26
+
+
+
+
+
+Les applications dans la ligne de mire des cybercriminels Vincent Lavergne, F5 Networks
+17 février - 16h12
+
+
+
+Hadoop et NoSQL en panne de financement ?
+17 février - 09h00
+
+
+
+
+Le TOP50 mondial de l’innovation
+17 février - 08h26
+
+
+
+L’état de la 4G en une infographie
+16 février - 11h28
+
+
+
+
+Software Defined Storage : le futur du stockage Laurent Sirgy, Kingston
+16 février - 09h40
+
+
+
+
+
+Comment réussir un Product Design Sprint dans une grande entreprise ?  Stephen Demange SQLI
+16 février - 09h11
+
+
+
+Les développeurs français sont plutôt mal payés
+16 février - 09h01
+
+
+Capgemini rachète les sociétés de conseil Idean et d’infogérance TCube Solutions
+16 février - 08h57
+
+
+
+
+L’innovation jaillit des pôles de compétitivité
+16 février - 08h45
+
+
+
+
+
+Fortinet dévoile la première appliance pare-feu en Terabit
+15 février - 19h39
+
+
+
+
+
+L’IoT s’élargit
+15 février - 19h33
+
+
+
+Ivanti rationalise ses gammes
+15 février - 19h25
+
+
+Vers un nouveau scandale Toshiba ?
+15 février - 19h03
+
+
+
+
+Des failles de données toujours plus grandes Jason Hart, Gemalto
+15 février - 18h59
+
+
+
+
+
+L’AS/400, vecteur de convoitise des pirates Frédéric Saulet, LogPoint
+15 février - 17h18
+
+
+
+
+
+Les développements prometteurs de la Blockchain
+15 février - 09h54
+
+
+
+
+
+L’infogérance pour tirer profit du SD-WAN  Maurice Abécassis, Silver Peak
+14 février - 15h16
+
+
+
+
+
+La clotûre, le chien de garde et le drone patrouilleur William Culbert, Bomgar
+14 février - 15h10
+
+
+
+Cisco lance à son tour son appliance Azure Stack
+14 février - 15h05
+
+
+
+
+Cybersécurité : Citius, Altius, Fortius
+14 février - 15h02
+
+
+
+
+
+Fortinet ouvre l’accès à son programme de formation
+14 février - 14h50
+
+
+
+
+
+Le cloud est reparti à la hausse
+14 février - 10h30
+
+
+
+
+
+Conséquences de la mise en place de la RGPD
+14 février - 08h00
+
+
+
+
+
+Quelles tendances dans les infrastructures hyperconvergées ?Madgaleine Bourgoin, VMware
+13 février - 18h28
+
+
+
+
+
+La collaboration : un atout stratégique pour l’attractivité des entreprises  Hugues de Bonnaventure, Lifesize
+13 février - 18h18
+
+
+
+Les détails de l’évolution de la dépense IT mondiale selon IDC
+13 février - 18h12
+
+
+Red Hat propose le provisioning dynamique du stockage
+13 février - 18h01
+
+
+
+
+InfoNews Hebdo 13/02 : IT & Externalisation, SAP S/4 HANA, IOT & sécurité, Windows 10, Data US
+12 février - 19h00
+
+
+
+
+
+Interview Christian Carle, CEO & fondateur de Pole Star, pionnier de la localisation indoor
+12 février - 18h54
+
+
+
+
+
+La nécessaire transformation numérique
+11 février - 10h51
+
+
+
+
+
+Le marché des drones prend son envol
+10 février - 11h08
+
+
+
+
+
+SAP injecte de l’IA dans son ERP S/4HANA Cloud
+10 février - 08h51
+
+
+
+
+
+Les JO d’hiver de PyeongChang en plein nuage
+09 février - 18h09
+
+
+
+Dynatrace applique l’IA à la gestion des performances
+09 février - 17h51
+
+
+
+
+AWS fait du prosélytisme
+09 février - 13h46
+
+
+
+6 acteurs IT forment l’IoT Cybersecurity Alliance
+09 février - 13h37
+
+
+Amazon loin devant
+09 février - 07h51
+
+
+
+
+PYRENE : un robot humanoïde nouvelle génération
+09 février - 07h43
+
+
+
+
+
+Cybersécurité: à quoi s’attendre ?NTT Security
+09 février - 07h08
+
+
+
+
+
+Arcserve évolue vers le cloud
+08 février - 11h47
+
+
+
+
+
+Associer sécurité et expérience utilisateur en situation de mobilité Par Tim Phipps, HID Global
+08 février - 11h18
+
+
+
+Encore une réorganisation chez Dell Technologies
+08 février - 11h07
+
+
+
+
+L’externalisation de l’IT s’accélère
+08 février - 10h58
+
+
+
+HPE signe un accord OEM avec Mesosphere
+07 février - 16h59
+
+
+Ivanti pour gérer le parc logiciel
+07 février - 16h52
+
+
+MapR prend en charge Docker
+07 février - 16h40
+
+
+
+
+Quelles tendances dans l’infrastructures cloud et connectivité en France Fabrice Coquio, Interxion
+07 février - 08h06
+
+
+
+
+
+Pourquoi faire appel à fournisseur de services de sécurité ? Himanshu Verma, WatchGuard Technologies
+07 février - 08h02
+
+
+
+Christian Hiller, qui devait prendre la tête de Dell EMC France, cède la place à Stéphane Barberet
+07 février - 07h52
+
+
+
+
+La montée en puissance des services de sécurité managés
+07 février - 07h15
+
+
+
+
+
+L’Uberisation des Applications : Quel impact sur le SI et sa Sécurité ? Yogi Chandiramani, Zscaler
+06 février - 08h55
+
+
+
+
+
+Du green IT au Green by IT
+06 février - 07h15
+
+
+
+Qwant lève 18,5 millions d’euros
+05 février - 16h54
+
+
+
+
+InfoNews Hebdo 06/02 : Le Très Haut Débit, Data4, Microsoft Juniper, Privacy Shield, Thalès &PNIJ
+05 février - 15h25
+
+
+
+
+
+L’invité de la semaine : Thomas Desrues, DG France Juniper Networks
+05 février - 15h03
+
+
+
+3 DSI sur 4 souhaitent une IT hybride maîtrisée
+02 février - 19h38
+
+
+
+
+DSI : le nouveau transformateur de business  Fabrice Coudray, Robert Half
+02 février - 19h27
+
+
+
+
+
+Microsoft met plein cap sur le cloud
+02 février - 17h40
+
+
+
+
+
+Ransomware : un hôtel 4* autrichien pris en otage
+02 février - 15h29
+
+
+
+
+ 
+
+
+
+ 
+Nous proposons aux professionnels de l'informatique et des télécoms français un espace unique pour s'informer sans concession sur l'actualité du secteur, discerner les nouvelles tendances, commenter et échanger en toute sérénité avec leurs pairs et leurs fournisseurs.
+
+Cloud privé  | 
+Infogérance 
+
+PLAN DU SITEApplications
+Cloud
+Economie
+Infrastructures
+Mobilité
+Poste de travail
+Sécurité
+En bref
+Avis des fournisseurs
+Tribunes
+Emploi
+Livres blancs
+LIVRES BLANCSDataManagement
+Réseau&télécoms
+Virtualisation
+NOS SITES 
+ChannelNews.fr
+Projets-Informatiques.fr
+BtoBMarketers.fr
+ CONTACTSRédaction
+Publicité
+Advertising
+Editorial
+Communiquer en vidéo
+MENTIONS LEGALESMentions légales
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lire les articles précédents :Le TOP50 mondial de l’innovationQuasiment tous les GAFA et les NATU, nombre de grands acteurs IT et trois sociétés françaises (AXA, Renault et Orange)...Fermer
+
+
+

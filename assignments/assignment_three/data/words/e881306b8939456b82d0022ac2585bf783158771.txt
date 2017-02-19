@@ -1,0 +1,699 @@
+
+
+
+
+Schneier on Security
+
+
+
+Blog
+Newsletter
+Books
+Essays
+News
+Talks
+Academic
+About Me
+
+
+
+
+Search
+Powered by DuckDuckGo
+
+
+
+
+blog
+essays
+whole site 
+
+
+Subscribe
+
+
+
+
+
+
+
+
+
+
+Blog >
+
+
+
+
+
+
+
+Cryptkeeper Bug
+The Linux encryption app Cryptkeeper has a rather stunning security bug: the single-character decryption key "p" decrypts everything:
+The flawed version is in Debian 9 (Stretch), currently in testing, but not in Debian 8 (Jessie). The bug appears to be a result of a bad interaction with the encfs encrypted filesystem's command line interface: Cryptkeeper invokes encfs and attempts to enter paranoia mode with a simulated 'p' keypress -- instead, it sets passwords for folders to just that letter.
+In 2013, I wrote an essay about how an organization might go about designing a perfect backdoor. This one seems much more like a bad mistake than deliberate action. It's just too dumb, and too obvious. If anyone actually used Cryptkeeper, it would have been discovered long ago.
+Tags: backdoors, encryption, Linux, security engineering
+Posted on February  7, 2017 at  9:50 AM
+	 • 
+	60 Comments
+	
+	
+
+
+Comments
+
+Who? • February  7, 2017 10:34 AM
+
+It is called a backdoor... just convince hardware manufacturers to not sell keyboards with the "p" (except to the NSA) and it will immediately become a NOBUS.
+It is not just a bug in the way Cryptkeeper communicates with encfs, it shows there is something fundamentally broken in the development model for this application.  It seems Cryptkeeper lacks some basic testing.
+
+
+Andrew • February  7, 2017 10:44 AM
+
+I was wondering... 
+If you're asked to insert a backdoor in a code wouldn't you want the plausible deniability of "bad mistake" and "It's just too dumb". Well, may be not the "too obvious". 
+Just thinking aloud...
+
+
+Anura • February  7, 2017 10:47 AM
+
+How often must we relearn that a shell is not an API?
+
+
+What • February  7, 2017 10:49 AM
+
+It's just too obvious of a bug to be a deliberate backdoor, because it's so broken that everything becomes completely unusable from the user's perspective.  But it does illustrate how broken everything is, in that it's so easy to get things wrong and so hard to get things right...  We need to make better security practices easier and more common somehow, or things can't improve overall...
+
+
+What • February  7, 2017 10:58 AM
+
+@Anura
+I'd say it's more like, a shell is a poor API, because it's expected to be a UI not an API, therefore it often doesn't get as rigorous of testing as an API should... which is exactly how this bug got into encfs and horribly affected things layering GUIs on top of it.
+The solution is better testing in the full stack of everything, from the hardware to the firmware to the operating systems to lower level software and libraries and higher level stuff... but not just from the perspective of "100% test coverage" but from the perspective of "make this 100% absolutely certain (i.e. mathematically proven) there can be no bugs possible"... which is a high and lofty goal that costs too much right now... we need to make that cheaper and easier.
+
+
+Collaborators S.A. • February  7, 2017 11:04 AM
+
+The 'too stupid to be a backdoor' presumption is no longer convincing, based on the crudity of state software sabotage we've seen. You can't deduce anything from the code - the question is whether Tom Morton is an imbecile or a saboteur. His background fits the profile of the struggling 'entrepreneurial' technicians GCHQ use to sabotage open source software. His purported speciality includes search and seizure, digital evidence procedures, and chain of custody. The undemanding DISCTRACK commission is just the sort of bribe that might induce him to play along. 
+
+
+Dirk Praet • February  7, 2017 11:07 AM
+
+Friggin' unbelievable. 
+If anyone was using it, I recommend Zulucrypt as a replacement. GUI and CLI-interface. Supports dm-crypt, LUKS, TrueCrypt and VeraCrypt encrypted volumes while also being an easy-to-use front-end for  encfs,  gocryptfs, securefs, ecryptfs and cryfs. Downside: Linux only.
+
+
+U235 • February  7, 2017 11:46 AM
+
+Encrypted volumes, encrypted drives.. as soon as you enter the key (string, file, etc), it's wide open. Right? It reminds me of carjackers. They wait for you to unlock your car, open the door, then they jump you. Except, I guess you could encrypt hierarchically. More keys and more keys and more keys. Then you can encrypt the keys, with more keys. 
+
+
+Anura • February  7, 2017 11:59 AM
+
+@What
+The more important distinction between an API and not an API is whether it has a well-defined interface that you can rely on. The whole point here is that the interface changed, breaking the program that called it. Thus, the shell is not an API. Now, technically, standards such as POSIX define shell commands and the interface; although I would not personally rely on POSIX compliance, if you do have a POSIX-compliant OS then those commands should be standard - I would still hesitate to consider them an API, however. EncFS is not a standard, and thus you should never interface with it as if it was an API.
+
+
+What • February  7, 2017 11:59 AM
+
+@Collaborators S.A.
+Let's say I wanted to plant a bug on your phone, so I could listen in on all your calls... but the bug I planted caused your phone to stop functioning AT ALL... so that you could no longer make ANY phone calls at all.... would that be a useful bug?  No, not at all...  Because you wouldn't be able to use your phone, and therefore I couldn't listen in on anything!
+Likewise, this bug in encfs/cryptkeeper also causes ALL newly encrypted directories to become encrypted with the password of "p"... regardless of what password you've tried to set it at....  it's not a good backdoor therefore, it's a total meltdown of all functionality, making the entire product completely unusable, from a normal user's perspective that can't read the code and discover the "p" bug to get their files back.  In fact, if you want to assign deliberate bad motives to it, then it's closer to ransomware than backdoor.
+So it's not merely "too stupid to be a backdoor" it's "makes the whole product itself too unusable to be a viable/usable backdoor"  Makes more sense that way?
+
+
+Piper • February  7, 2017 12:09 PM
+
+Many years ago, I worked at a company developing a multitasking OS that ran on IBM PCs (years before Windows even existed.)
+Our system was installed in numerous high-schools around Ontario.  One day, a report came in that a student had accidentally discovered a back-door in our system.  He discovered that you could log into any account using the password "Pet Sematary" (spelled wrong, just the title of the Stephen King novel.)
+This came as quite a shock to us, because we certainly had not inserted any back-door.  Investigating the bug, they found an optimization that short-circuited the password-checking code when the password was empty.  The optimization was quite buggy.  An empty password was recognized by "strlen(encrypted_password) == 0".  And the encrypted form of "Pet Sematary" happened to end up with a 0x00 in the first byte.
+
+
+Barfolemew • February  7, 2017 12:13 PM
+
+You mean it wasn't respecting my "12345" passphrase that I have been using since seeing Spaceballs?
+
+
+
+What • February  7, 2017 12:13 PM
+
+@Anura
+Yes... but I was digging at it from a more low level.  A "well-defined interface that you can rely on" in theory could be a shell interaction... if it were well defined, and you could rely on it...   Why is it not well defined and why can't you rely on it?  Because it's expected to be a USER interaction!  Not a programmatic interaction.  People just tend to think that user interactions don't matter as much (because they'll "be obvious" to a user), so they don't bother to test that they don't break/change as much...
+My point is that we need to make systems easier to test for 100% proven correctness, so that bugs will be less widespread...  see: https://en.wikipedia.org/wiki/Formal_verification  It's too hard and expensive now, so everything's always broken like this!  And yes! part of such proven correctness (or "formal verification") would be to define all interfaces well between any different parts, of course!
+
+
+Collaborators S.A. • February  7, 2017  1:54 PM
+
+@What, true. So, statistically speaking, for a time after release of the defective version, a certain number of users will create files on their computer that they can't decrypt but others can. Some users might never delete those files - the Cryptkeeper GUI doesn't bother to tell users where the image is. And frightening people away from privacy software is another goal of the security services, so eventual disclosure of the bug has a chilling effect of its own.
+So you could certainly see a third-rate programmer on the make trying to curry favor with his bug as a zero-day of sorts. Police states would certainly exploit it. Knowing what to look for could be handy for an investigation that coincides with release of Stretch. Many 'investigations' are simply trawling for some random category of Internet users. FBI NIT design shows they just aim to catch a few poor bastards to brag about. You could also recommend the worthless software to one of the mental defectives that government provocateurs trick into loading toy bombs on trucks.  
+Every rent-a-cop thinks he's a superspy nowadays. We can't all be TAO whiz kids, Can we? This is a cop-grade APT.
+
+
+rhw • February  7, 2017  2:06 PM
+
+Bruce, FYI the link to Ken Thompson's Trusting Trust seminal ACM paper is broken in your 2013 essay. Seems AT&T has removed his home directory. There are ample copies of the paper floating around.
+
+
+Anon • February  7, 2017  2:16 PM
+
+@What:
+"we need better security practices".
+Actually, we need better PROGRAMMERS. This is just crap software design, and has no place in a security-critical application.
+Too many stupid people out there writing software.
+
+
+John Carter • February  7, 2017  2:35 PM
+
+
+Heh! Fascinating.
+When I saw this title I thought, this must be an old story, this is the bug my ex-colleague found years ago….
+On closer inspection it’s an entirely different bug in an entirely different package.
+It’s a curious mode of failure common to crypto….
+Something screws up the password handling so the space of all possible passwords is squished down to something much much smaller. In this case “p”.
+(In the other case UTF codepoints outside of the ascii set got squished to '?')
+Anyhoo, it appears that the crypto magic is working and working well… everything is unintelligible until decrypted.
+And in some cases unintelligible unless the right password (for a curiously broad definition of right) is used for decryption.
+But how do you test for this class of bug?
+In this particular case testing is relatively easy.
+In general it’s extraordinarily hard!
+In some cases, like in the Ashley Madison hack, the squishing is deliberate (they squished the space of all possible passwords to lower case so as to reduce support queries from people who had forgotten which letter they had made uppercase!)
+Even if the crypto library is perfect…. you still can’t combat at the library level stupidity at the UI.
+
+
+
+Who? • February  7, 2017  2:53 PM
+
+It seems developers only tested these changes upgrading a previously-encrypted system, so the bug was unnoticed on the snapshot.  Developers should run a set of tests as wide as possible.  What bugs me (pun intended) is that no-one has tried setting a password after changing that part of the encryption tool's source code.
+
+
+tas • February  7, 2017  4:22 PM
+
+The problem occurred with a newer version of encfs in Stretch that changed the interface.  Cryptkeeper still works with the older version of encfs in Jessie.  Also, if you created your encrypted folder with encfs and just have cryptkeeper open the folder then it works correctly.
+If you create an encrypted folder with cryptkeeper with the newer version of encfs in Stretch then the password is 'p'.  Once the folder is closed and the user attempts to reopen then they will immediately notice the problem in that they cannot open the file with their expected password. Creating the folder with encfs at the command line will avoid the issue.
+
+
+
+Corn on the Cob • February  7, 2017  4:44 PM
+
+ "the question is whether Tom Morton is an imbecile or a saboteur."
+I have never understood this kind of thinking. What difference does it make to anyone what the developer's motivations happen to be? If my adversary has my data it is no comfort to me at all that the developer was inept as opposed to malicious--my adversary still has my data either way. So the net result is the same: no sane person trusts this fellow anymore. 
+
+
+Dirk Praet • February  7, 2017  5:06 PM
+
+@ tas 
+The problem occurred with a newer version of encfs in Stretch that changed the interface.
+Thanks for the clarification. If the encfs interface has changed, that means that other front-ends like zulucrypt, kencfs and the like may be affected some way or another too. 
+
+
+Nick P • February  7, 2017  5:47 PM
+
+Seems like a nice time to bring back Brian Snow's write-up: 
+We Need Assurance!
+As predicted, stuff is still shit over 10 years later. Fortunately, we have groups such as CHERI producing secure CPU’s with open hardware. The popularity of Rust, better automation for SPARK proofs, availability of tools such as Cap n' Proto, and increasing use of TLA+ is an improvement in others. Formal verification results in imperative and functional styles have also been pretty incredible. Also still a niche of people building higher quality or security software in both FOSS and commercial sectors.
+Far from hope being lost point. Unless we’re talking about what will get mass adoption. ;)
+
+
+Dirk Praet • February  7, 2017  6:30 PM
+
+@ Nick P
+Also still a niche of people building higher quality or security software in both FOSS and commercial sectors.
+Yes, but how does all of this protect against a 3rd party front-end blowing up when the API of the underlying piece of code suddenly changes? I see as much fault with the developers of encfs as with those of cryptkeeper at this point. Surely they knew that there had been folks developing front-ends on top of it, so they should either have thought about some sort of default compatibility mode or throwing fatal exception errors instead of just breaking stuff.
+
+
+r • February  7, 2017  6:34 PM
+
+@What,
+It could be a redteam injection and disclosure to discredit them, the disclosure part would be disadvantageous and rookie if it was part of the same plan.
+Either way, it's curious and I'm glad I don't use them.
+
+
+Nick P • February  7, 2017  6:59 PM
+
+@ Dirk Praet
+"Yes, but how does all of this protect against a 3rd party front-end blowing up when the API of the underlying piece of code suddenly changes?"
+Interface specifications and checks have been a requirement in high-integrity systems for a long time for good reason. They'd have possibly prevented this. The idea is you formally specify the behavior of the programs in a style such as Design-by-Contract. Any changes in dependencies' code are reviewed for correctness of specs and implementation. The specs or interface checks will likely mismatch at some point due to a bad change. Languages such as Eiffel, Ada 2012, or SPARK 2014 have this built-in. It can be simulated in others within the modules or objects. 
+The alternative was blindly trusting a third party to do something that works with one's own code that does stuff that third party is unaware of or doesn't care about. That naturally leads to problems. 
+
+
+Dirk Praet • February  7, 2017  7:01 PM
+
+@ r, @ What, @ Corn on the Cob
+It could be a redteam injection and disclosure to discredit them
+Please re-read the comments made by @tas . This has nothing to do with malice, but with unintended consequences of breaking an existing API. Everyone who's ever written any code is familiar with this problem.
+
+
+Dirk Praet • February  7, 2017  7:13 PM
+
+@ Nick P
+Interface specifications and checks have been a requirement in high-integrity systems for a long time for good reason. They'd have possibly prevented this.
+Exactly my point. The problem here is with encfs, not with cryptkeeper. I'm using encfs for certain purposes, so I now have to closely watch all impacted systems that both have encfs and 3rd party front-ends. Although I don't use cryptkeeper on any of them (never been much of a Gnome/Unity fan), it may certainly have served as a canary in a coalmine for me.
+
+
+tas • February  7, 2017  7:32 PM
+
+This is compounded by cryptkeeper looking like it is not maintained any longer.  The last update was November 2013 and updated to Debian testing in October 2014.
+At this time cryptkeeper is removed from Stretch and Sid.
+
+
+
+Nick P • February  7, 2017  7:44 PM
+
+@ Dirk Praet
+"Exactly my point. The problem here is with encfs, not with cryptkeeper."
+The problem is with both. One isn't specifying what it's doing. One is foolishly assuming a changed version does the same thing. They should both be doing the opposite of what they're doing. What you're doing now is what they and you should've been doing all along for security-critical software. Especially if developed under the casually-scratching-and-itch model of unpaid development that is open-source. 
+@ tas
+Just saw your comment. It just adds to what I just wrote. You can't even assume these things are maintained at all much less correctly. 
+
+
+Clive Robinson • February  7, 2017  9:00 PM
+
+@ Anura, Dirk Praet, Nick P,
+The usual solution to a UI not API change is to have a revision number check in the UI of the called programe which is checked by the calling program.
+However there are a number of problems that need to be considered.
+The first is the "chain" problem, where there might be more than two programs involved. Basically changes or errors have to get reported consistently up the chain or stream. That is there needs to be a standard format for the changes or errors to be reported. If not then the program at the top of the chain has to check each program lower down and have a quite complex logic to check for interactions.
+A second problem is the revision number it's self. Obviously each time a program is changed then the revision number should be updated to reflect this. However if you just have a single number this makes things problematical when it's used in a chain. That is the change of revision number could be due to internal changes that do not effect how it is called or behaves as far as the calling program is concerned. Likewise it could be added features where legacy behaviour is unaffected etc. Thus a partial solution is to have multipart revision numbers, where each part reflects a different area of the program. Thus if the upper side UI has not changed then that part of the revision number remains unchanged, and the calling program might or might not safely ignore the actual changes. Thus not only does the revision number have to be multipart it has to be multipart in a standard format...
+But... It begets another issue which is "change reporting". There has to be a standard way for the changes with a part of the revision number that is changed to be reported back up the chain...
+Most code cutters fail to handle errors or exceptions in a sane way in their programs, they tend to just "exit on error" or in otherways "bail out", which often means data is lost, which can with the likes of crypto have realy serious side effects such as blowing the "data container" out of the water, with compleat loss of the container be it a file, directory, archive or entire database, filesystem or hard drive. Worse it can cause fragments to be left in the container that are out of step, which can be used by an attacker to break the encryption thus the entire security...
+One way to get a feeling of the issues involved is to have a look at the *nix "Streams Interface" and it's mechanisms for charecter devices, which only deals with a fraction of what you will need to do in practice...
+http://www.shrubbery.net/solaris9ab/SUNWdev/STREAMS/p4.html
+
+
+Clive Robinson • February  7, 2017 10:31 PM
+
+@ Anura, Dirk Praet, Nick P,
+Oh I forgot to mention the "herding cats" issue of trying to get a bunch of programs written by different people that are only loosely aligned to work together.
+To see what it involves you need to look back in time, when Apple and Sun were the kings of graphical desktops and MicroSoft had not got into let alone left the graphics starting gate and was staring moodily into GEMs for inspiration.
+A tiny organisation called NeXT was being talked about and Apple thought up it's colour card projects of which the "Pink Project" offered much. It was to be Object Oriented but the objects were to be independent and cooperative alowing you to select the parts you wanted to use and develop your own.
+I was a "working stiff" back then looking to climb out of the coffin like box the PC world was in, towards the joy that was NeXT Step. Pink looked like an answer a potential shining path to walk into the bright light of day...
+Yup was I ever deluded :$
+You can read a bit of the history,
+http://www.roughlydrafted.com/RD/Q4.06/36A61A87-064B-470D-8870-736DD59CEF48.html
+These days Apples Pink Project is not famed for it's vision but given as the prime example of a software managment "Death March"... A clasic example of the "Corporate immune response" in any existing company it was viewed as a bitter rival not a step to the future.
+We have seen this repeated over and over, the aspiration of a rising tide to an open future, draged down by turf wars and infighting. It also happens in the FOSS communities, where standards are seen as a burden on inspirational development. With the ever present truism of "Standards are like toothbrushes, every one agrees you need one, but nobody want's to use anyone elses.".  
+
+
+Anura • February  7, 2017 10:39 PM
+
+@Clive Robinson
+Well, the real solution, IMO, is to write a proper, well documented API, and then just write the UI on top of that. Now you have an API that is guaranteed to do at least everything your UI can do, and you just do not allow packages that use a UI as an API.
+
+
+ab praeceptis • February  8, 2017 12:16 AM
+
+Dirk Praet
+Which brings us to an interesting point. I'm telling my people and occasional students to *not* just properly spec *their* stuff but to also spec both interfaces, those to OS, libs, etc. and those to their users.
+Unfortunately, this point is often not seen or ignored. One day some changes their API and Bang!
+
+
+Thoth • February  8, 2017  3:16 AM
+
+@ab praeceptis, Nick P, Clive Robinson
+I guess we can continue to bang on about proper assured codes, stress testing, modelling and all the techniques to bring security assurance higher but I guess few ever bothers and even find our work laughable.
+I guess we should just let them do their software keys on dubious OSes and such. Good luck trying to convince the majority on these topics. We have tried but I guess we just hit a steel wall.
+
+
+Thoth • February  8, 2017  3:19 AM
+
+Also, I am too busy with my work and I think I would leave my code development and open source projects as it is. I don't have much time for side projects these days.
+
+
+Clive Robinson • February  8, 2017  3:41 AM
+
+@ Anura,
+Well, the real solution, ... and you just do not allow packages that use a UI as an API.
+As we both know the real world does not work that way. As a primary distribution maintainer you will have a bit of a political fight on your hands, but might --if you can find them all-- manage to keep them out. But with FOSS you can not stop secondary distributions or others making such packages available.
+You only have to see the history of the kernel and the entertainingly blunt responses from Linus to see you need a skin tougher than a Rhino and a sense of purpose that would try the patience of all but the toughest of saints. 
+But people still break the rules, especially if there is money to be made by doing so. As can be seen in the commercial world where you only need look at the Oracle -v- Google dust up to see similar can and does happen with APIs and the amounts of money eye watering,
+https://www.theguardian.com/technology/2016/may/26/google-wins-copyright-lawsuit-oracle-java-code
+
+
+Clive Robinson • February  8, 2017  4:59 AM
+
+@ Thoth,
+I guess we can continue to bang on about proper assured codes, stress testing, modelling and all the techniques to bring security assurance higher but I guess few ever bothers and even find our work laughable.
+Then as the history of this blog shows they will steal our ideas without credit.
+As in many things timing is key. A few can see further into the future, not by some luck of genetics but by solid experience. To see a likely occurance, problem or solution ahead of the pack when the majority are fighting over yesterdays scraps is often a curse. Because others do not want to get out of the frey or even put their heads up to see what is comming, they instead want to drag you back to their way, where they think they have the advantage.
+As I've mentioned before as have others, people you work with steal from you, the ridicule etc is an easy way to distract others. I've actually had to see an idea I had fully worked out be given to another and been told to assist them doing the development and correct them when they were wrong. Then get told to do all the work on getting the patent arguing with the assesors and getting it through. Was my name on the patent? As they say "Don't be silly" such is politics in companies. Then you see the patent used to tie up a market sector, which closes down your employment options. It is not a good feeling either, which is why I put my ideas out for free. It atleast gives some prior art, which means it does not close down the employment and other options.
+Yes I know, some will see me as being selfish --I've actually been told that in the past-- but then their ideas on the common good is to "Rent Seek off of others work" so their view is shall we say a little self centered at best.
+I've found the best thing to do is "publish and not be dammed to fight fight fight" because you don't waste your time with worthless people and their pointless political infighting. I guess I'm by no means the first as the prose poem "Desiderata" (by American writer Max Ehrmann in 1927) suggests avoiding such people,
+https://en.m.wikipedia.org/wiki/Desiderata
+Though from the above, you will see that the poem became subject to that which it advised against. Such apparently is the way of life.
+
+
+Dirk Praet • February  8, 2017  8:33 AM
+
+@ Thoth, @ Clive, @ ab praeceptis, @ Nick P, @ Anura
+I guess we can continue to bang on about proper assured codes, stress testing, modelling and all the techniques to bring security assurance higher but I guess few ever bothers and even find our work laughable.
+There is only so much you can do as an "evangelist". Our business is what it is, and the reality on the shop floor is that there is little interest - let alone money to make - in high assurance systems, unless you get to work for a little niche of customers that for whatever reason need such systems indeed. The average user, company and - as a consequence developer/code cutter - in practice doesn't give a rat's *ss. Over the years, I have become more pragmatic about it and try to work with what sucks less all while keeping an eye open to stuff that's better. Like some of the ideas and more tangible stuff some of the usual suspects here are generating.   
+
+
+Gerard van Vooren • February  8, 2017 10:19 AM
+
+@ Nick P,
+Especially if developed under the casually-scratching-and-itch model of unpaid development that is open-source.
+That's probably also why Bruce is lobbying for a tech department at US gov.
+@ Clive Robinson,
+The first is the "chain" problem, where there might be more than two programs involved.
+I agree with Nick P here. Always distrusts the input.
+A second problem is the revision number it's self.
+That problem has been solved a long time ago, as you (I am quite sure) know, with the 1.2.3 numbering system where changes in 1.x.x means breaking, in x.2.x means adding or changing without external consequences and in x.x.3 means slight cleanup/bug fixes without changing behavior of the product/program.
+What would be interesting (and it probably exists) is a software repository system that "understands" this version scheme and disallows api changes in x.2.x or x.x.3 releases.
+Most code cutters fail to handle errors or exceptions in a sane way in their programs, they tend to just "exit on error"
+Better that than accepting undefined behavior. The motto "Be conservative in what you send, be liberal in what you accept" (Postel's law) is totally ridiculous. It has resulted in way to much code that is hard to understand. In fact OpenBSD's Pledge works with deliberately crashing the program if it doesn't live up to its promises and it's remarkably simple.
+
+
+Anura • February  8, 2017 10:34 AM
+
+@Clive Robinson
+As we both know the real world does not work that way. As a primary distribution maintainer you will have a bit of a political fight on your hands, but might --if you can find them all-- manage to keep them out. But with FOSS you can not stop secondary distributions or others making such packages available.
+That's why I prefer to avoid the real world.
+But yeah, it's the same problem with convincing people to maintain a well documented UI - coming up with solutions is often easy (especially when everyone pretty much already knows the solution to begin with!), but convincing people to actually follow best practices is like getting blood from a stone. Honestly, I think this is mostly a structural issue with the software industry that is built around encourages doing things fast and cheap rather than doing things right.
+In this case, however, we are talking a filesystem. This is a core component of an operating system, and something we could do properly with high security assurances. I've mentioned before that we should dump a ton of resources into developing the basic components for an OS, designed from the ground up with strict enforcement of best practices. If we could do that, and we can really ensure that it is maintained properly, it could go a very long way. I know there's been regular discussion here about providing assurance at the hardware level, but that's out of my domain.
+As for the rest, I mean, you're basically describing dependency hell, which is a problem whether you have a proper API or a UI - that I don't have a real solution for (I mean, there are only trade-offs, not solutions for that problem, as far as I'm aware - but most people here are fully aware of these trade-offs).
+
+
+Anura • February  8, 2017 10:55 AM
+
+Of course, I remember working with some of the COM objects in .NET for an administrative service we had for our servers (this was about a decade ago). Every so often, the service would just start failing until we restarted it. Even with the most isolated usage of COM objects, this problem would not go away, and we determined that the problem was in those COM objects. The solution we found was to simply go out to the shell and call the commands, spawning a new process that terminates on exit.
+I hate Windows development.
+
+
+Figureitout • February  9, 2017  1:14 AM
+
+Thoth
+--High assurance doesn't just come easy, takes years, is expensive, and it still doesn't guarantee success.  That these remain side projects is the problem, I want to work on computer security full-time during the work week.  We just have to wait for "the big one" that encrypts millions upon millions of harddisks and deletes the keys, shuts down power plants long enough for battery backups to go down, generates false traffic on markets,etc.  That never comes though...
+Clive Robinson
+Most code cutters fail to handle errors or exceptions in a sane way in their programs, they tend to just "exit on error" or in otherways "bail out
+--That was your advice a few years ago, remember that?  Fail long and hard on errors.  Now you don't like it eh?  What's your sane way to exit from an error now or you just wanna moan and groan?
+
+
+Clive Robinson • February  9, 2017  3:47 AM
+
+@ Figureitout,
+That was your advice a few years ago, remember that? Fail long and hard on errors.
+That was advice about reducing covert channels in an information communications --not storage or processing-- system. 
+The advice was specifically about "aborting a transmission and re-sending at a later point in time". This was to be done at the instrumented choke points in a compartmentalized secure high reliability system.
+Importantly to do the fail hard and long, then resend means it is clearly a "store and forward" system so data would not be lost. Which is the key point to note.
+Most code cutters however develop code  for an information processing system which then might feed a storage system.
+The code cutter usuall assumption is down stream is reliable, that is they feed a "reliable" data sink, which does not have errors or exceptions. They also assume that all checking of data is done before processing, thus have no way to deal with processing errors or exceptions. Thus they do not even attempt a way to hand data back to the data source. As this occures at each stage in a pipeline there is the issue of each stage storing a data object which means that on fail the number of data objects lost is the same as the number of stages in the pipeline...
+There are known ways of dealing with these problems which you see implemented in communications systems and occasionaly and imperfectly in storage systems. But I've yet to see them used effectively in "information processing" systems.
+The simplest example that most will be familiar with is "auto-save" in editors. In modern editors they are generaly far from perfect and you can lose 10-60minutes of work. Nor are they anywhere as good as they used to be when storage and communications systems were less reliable.
+I've mentioned these problems in the past and will no doubt be mentioning them for the foreseeable future. Because the general case is that for errors or exceptions the coding time spent on them is proportional to their likelyhood of happening, not the effect of what happens when they do.
+Look at it this way, if your editor crashes out once in a blue moon, if you lose a few keypresses then it's an anoyance. But if the underlying --say networked-- file system crashes about the same rate and wipes out your PhD thesis then you are going to be some what more put out. Older style editor designers were aware of the unreliability of the file store thus they used to copy the file onto disk first, then would update the copy. Thus if either the editor or the network file system crashed out the original work would be safe. 
+More modern systems being considerably more reliable, the code cutters / designers tend not to build in the same level of data protection, thus whilst problems are less frequent, the harms are considerably greater when they do happen.
+Now before people try to bite my head off and jump down my throat, I'm aware that a large part of the problem is shortening project time scales. But a very real part of that is the need for defensive programing is not getting passed on to successive generations of programmers. Worse where it is mentioned the attitude is that such defensive measures are a waste of coding time as the events they protect against "just don't happen any more". So the easy win on project time scale is to cut defensive coding that surounds errors and exceptions. It's a more insidious problem than the notion of "input data is clean" because "it's been checked upstream", which as we know has given rise to the abundantly fruitfull hunting ground of "attack vectors" that "little bobby tables" is joked about.  
+
+
+Nick P • February  9, 2017  5:27 AM
+
+@ Gerard
+The concept of limiting what you accept was shown formally to be superior for correctness with Abstract, State Machines in the 90's and LANGSEC recently. It should be considered a fact by now that it's wrong to accept things liberally if security/reliability is priority. Unless one's priority is maximizing commercial adoption or ecosystem where groups like Microsoft shows it's an effective strategy.
+@ Anura
+Look up COGENT language homepage. On the bottom is a publication where they use it on filesystems. That includes ext2. Supports your point given it's not theoretical: quite doable today.
+
+
+asdpij • February  9, 2017  8:09 AM
+
+If you want to interact with other software, send them a fucking patch to add a command line option instead of simulating key presses. How is this not obvious?
+
+
+Moderator • February  9, 2017  9:44 AM
+
+@asdpij, @Daniel, @all: Please avoid using the word "f*ck" in comments; the word is offensive to our host and to many visitors.
+
+
+Bong-Smoking Primitive Monkey-Brained Spook • February  9, 2017  5:25 PM
+
+Please avoid using the word ...
+Sir, yes sir!
+And just like that, 0.071428571428571% of my vocabulary went down the sh*tter!
+
+
+Clive Robinson • February  9, 2017  9:35 PM
+
+@ Bong-Smoking Primitive Monkey-Brained Spook,
+And just like that, 0.071428571428571% of my vocabulary went down...
+Hmmm a 1400 word vocabulary... Are you sure?
+After all even Charlie Babage found the organ grinders monkey to be more erudite than the grinder...
+
+
+Bong-Smoking Primitive Monkey-Brained Spook • February  9, 2017 10:48 PM
+
+@Clive Robinson,
+Bong-Smoking Primitive Monkey-Brained Spook
+You're off by two orders of magnitude. At the time I wrote that I had amassed an impressive 14 words of vocabulary. 14 - one word = 13. 1/14 = 0.071428571. I made a mistake and pasted the value twice.
+
+
+Ratio • February  9, 2017 11:11 PM
+
+@Bong-Smoking Primitive Monkey-Brained Spook,
+You're off by two orders of magnitude.
+Not this time he's not. (Percentages...)
+
+
+@Bong-Smoking Primitive Monkey-Brained Spook • February  9, 2017 11:27 PM
+
+@Ratio, 
+You are absolutely correct! I forgot about that little sign. Who am I to argue with Mr. Ratio! @Clive Robinson is spot on !
+
+
+Andy • February 10, 2017 12:04 AM
+
+@:-) 
+50000/0.071 = 704,225words
+304942679/0.071 = 1 and -1
+
+
+Andy • February 10, 2017 12:19 AM
+
+Note pad and the recycle bin had that error.
+The alphabet was broken into 1-7 maths variables, with some special char, if you had like 300mb file with the count 0xfffffffa, the next char like tab or newline, then a five to seven char, the function loop would go to zero, ad start counting again, while the heap got overflowed.
+Are :-P.
+
+
+Figureitout • February 10, 2017 12:21 AM
+
+Clive Robinson
+The advice was specifically about "aborting a transmission and re-sending at a later point in time"
+--Well it could still be sending a file, if it's huge then that would be a problem to fail near the end.  And information is still being communicated to a storage processing system (memory), if that comm path is being tampered w/, I'd want to know about it.
+In the "fail long and hard", why would that not include having a copy of data, then fail?
+There's always a risk when you have new information being copied, like at the last instant say you switch pointers or delete a temp copy of the data and turns out it was a bad copy over.  I don't see how any method really eliminates this risk completely, always a risk say something happens at the worst, most critical time.
+RE: modern vs older editors
+--I don't know...I've definitely lost data on older editors before auto save, and newer editors saved my file through a random reboot (recovery mode).  Few times I was getting weirdness on a google drive editing docs.  I definitely don't wanna lose my code I just write, going to back up my stuff again this week (already on cloud, don't care who looks, just want a copy of it).
+Yeah you love saying code cutter this or that, but it's the way the systems are today, way too huge and too many parts.  I get told at school I have too many checks, don't need them.  I figure I can remove them if more speed is needed or the risk is low enough to not care, but I like my checks and my style (line by line comments on "tricky code" where I'll forget why I'm doing what I'm doing a few months later).  People don't value simple, robust; they want crazy and flashy, new territory where there's no design guidelines you learn in school and have existed for centuries.  I say give it to them until they get burned enough and demand more robustness.  Then we can spend more time on "boring" things like designing fail-safes which is really hard, the lower you go.  Why I like embedded, keep the crazy rat race that web devs put up w/ (which there's more and more of them saying "no more rat race insanity") to a minimum and make pretty designs that last longer.  
+
+
+Thomas D Dial • February 10, 2017 12:46 AM
+
+The bug (#852751) is reported (to Debian) on 26 January, tracked down and Cryptkeeper removed from testing ("Stretch") by 31 January, and reported in The Register on the same day.
+Then, again, it is reported here a full week later with links that if followed will lead to a full understanding of the problem and the fact that it has been resolved. However, unless one follows the links, the post is written to nearly imply that this was a genuine vulnerability that still exists in the testing repository. It is not (although the files are not protected by the intended password); and it does not.
+This occurred in a testing repository, of which users can be presumed knowledgeable enough to understand and accept the risk. Breakage is to be expected.
+Many of the comments, however, make valid points and indicate the difficulty of maintaining a large collection of related programs by a large group of developers and maintainers. I suspect there is no solution that will entirely prevent this type of thing.
+It seems possible that Debian and similar distributions with good dependency enforcement could tighten things a bit by tightening the dependencies to limit the version range of dependencies. In Jessie, for example, cryptkeeper has a dependency on any version of encfs, rather than the version in Jessie (1.7.4-5), although that may be the latest version with which cryptkeeper actually worked (and was tested). It still would be incumbent on packagers to do reasonable testing, something at which, in my experience, many programmers are not very good at.
+
+
+Bong-Smoking Primitive Monkey-Brained Spook • February 10, 2017  1:03 AM
+
+@Clive Robinson,
+I should have said: 7.1%
+organ grinders monkey to be more erudite than the grinder
+The organ grinder:
+The tired primitive brain isn't able to decipher this parable.
+@Andy,
+Ditto! I need some rest. Too many mistakes.
+
+
+Clive Robinson • February 10, 2017  1:56 AM
+
+@ ,
+No it was not that phrase I was refering to.
+Charles Babage --supposed-- inventor of the computer hated Organ Grinders, who would play outside his house disturbing his peace. A war broke out between him and them and they won in the short term by congregating in groups outside his house at all hour's of the day to make his life even more unbearable. In the longterm he won by act of Parliament, though the grinders got revenge on his final days as he lay dying.
+He was known to have made comments about them involving a comparison between the monkey and the grinders respective intelligences, or lack there of in the case of the grinders.
+https://www.newscientist.com/article/mg17924085-100-blasts-from-the-past-mr-babbage-and-the-buskers
+
+
+Clive Robinson • February 10, 2017  2:43 AM
+
+@ Bong-Smoking Primitive Monkey-Brained Spook,
+Ditto! I need some rest. Too many mistakes.
+I've had some rest but the head is befuddled and Public Transport in London is it's usuall dire mess up on a Friday winters morning, where there is salt thrown down under foot making life dificult with the crutches, with delays cancellations causing platform changes... So I'm in overload mode with a 1201 alarm going off ;-)
+And thus neglected to address my above. Any way I'm now supping on a cup of strong Brownian Motion producer and my reality is approaching normal without the assistance of "simply hooking the logic circuits of a Bambleweeny 57 Sub-Meson Brain to an atomic vector plotter" into it or myself :-o
+
+
+
+Bong-Smoking Primitive Monkey-Brained Spook • February 10, 2017  5:48 AM
+
+@Clive Robinson,
+And thus neglected to address my above. 
+I gathered you're talking to me. That's easy. Metadata is my game, the content. is a little dark. Getting used to it, but I'll do something about it -- that... you can bet on.
+I've had some rest but the head is befuddled
+So did I. Although I woke up to drain the bong, so to speak.
+where there is salt thrown down under foot making life dificult with the crutches
+If life gives you salt, make margaritas...
+supping on a cup of strong Brownian Motion producer
+Or coffee!
+Bambleweeny 57 Sub-Meson Brain to an atomic vector plotter" into it or myself
+I'm trying very very hard to not use the prohibited 14th word of my vocabulary. Please don't quiz me!
+
+
+Clive Robinson • February 10, 2017  6:04 AM
+
+@ Bong-Smoking Primitive Monkey-Brained Spook,
+The bambleweenie 57 is part of Douglas Adams little joke about "Hyperspace" along with a hostesses undergarments moving to the left...
+As Zapgod would say "Sheesh man you are so unhip it's amazing your bottom does not fall off" B-)
+
+Subscribe to comments on this entry
+
+
+Leave a comment
+
+
+
+
+
+
+
+
+
+Name (required):
+
+
+
+E-mail Address:
+
+
+
+URL:
+
+
+
+
+Fill in the blank: the name of this blog is Schneier on ___________ (required):
+
+
+Comments:
+
+
+Allowed HTML: <a href="URL"> • <em> <cite> <i> • <strong> <b> • <sub> <sup> • <ul> <ol> <li> • <blockquote> <pre>
+
+
+
+
+
+
+
+
+
+
+
+
+← Hacker Leaks Cellebrite's Phone-Hacking Tools
+Profile of Citizen Lab and Ron Diebert →
+
+Photo of Bruce Schneier by Per Ervland.
+	
+	Schneier on Security is a personal website.  Opinions expressed are not necessarily those of Resilient, an IBM Company.
+
+
+	
+	
+
+
+About Bruce Schneier
+I've been writing about security issues on my blog since 2004, and in my monthly newsletter since 1998. I write books, articles, and academic papers. Currently, I'm the Chief Technology Officer of Resilient, an IBM Company, a fellow at Harvard's Berkman Center, and a board member of EFF.
+
+
+Related Entries
+
+The Importance of Strong Encryption to Security
+Worldwide Encryption Products Survey
+WhatsApp Security Vulnerability
+Encryption Working Group Annual Report from the US House of Representatives
+My Priorities for the Next Four Years
+
+
+
+Featured Essays
+
+The Value of Encryption
+Data Is a Toxic Asset, So Why Not Throw It Out?
+How the NSA Threatens National Security
+Terrorists May Use Google Earth, But Fear Is No Reason to Ban It
+In Praise of Security Theater
+Refuse to be Terrorized
+The Eternal Value of Privacy
+Terrorists Don't Do Movie Plots
+
+more essays
+
+
+Blog Archives
+
+Archives by Month
+100 Latest Comments
+
+Blog Tags
+
+privacy
+terrorism
+surveillance
+squid
+academic papers
+NSA
+air travel
+hacking
+cryptography
+national security policy
+law enforcement
+encryption
+DHS
+homeland security
+economics of security
+crime
+Schneier news
+malware
+essays
+TSA
+laws
+computer security
+fraud
+vulnerabilities
+psychology of security
+police
+courts
+cost-benefit analysis
+cell phones
+physical security
+
+more tags
+
+
+Latest Book
+
+more books
+
+
+
+
+
+
+
+
+
+
+
+Blog
+Newsletter
+Books
+Essays
+News
+Talks
+Academic
+About Me
+
+
+
+
+
+

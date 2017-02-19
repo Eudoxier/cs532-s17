@@ -1,0 +1,631 @@
+
+
+
+
+
+
+
+info@edgescan.com
+ +353 (1) 681 5330
+
+
+
+Sign up for newsletter
+
+
+
+×
+
+
+
+
+
+
+
+
+
+
+Sign up
+
+
+
+
+
+
+ Login
+
+
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+Approach
+
+
+Features
+
+
+Cloud Security
+
+Solutions
+
+Resources
+
+Contact Us
+Our Team
+
+More 
+
+Awards
+Careers
+Events
+Partners
+
+Login
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                2016 edgescan Stats Report
+                
+                  click to view:
+                  infographic | full report
+
+
+
+
+
+
+
+
+edgescan - Fullstack Vulnerability Management
+                    
+
+                        edgescan™ provides unparalleled vulnerability management & system visibility.
+                        
+
+
+
+ Continuous security testing
+ "Full-stack coverage" - Web applications/sites & hosting /cloud environments
+ False positive-free results
+ Highly Customisable reporting
+ 24/7 Governance Risk and Compliance Metrics
+ Continuous system visibility
+ Alerting & a Super Rich API for painless integration
+
+
+
+
+edgescan Managed Security Service
+                    
+
+                        edgescan™ provides unparalleled vulnerability management & system visibility.
+                        
+ Continuous security testing
+ "Full-stack coverage" - Web applications/sites & hosting /cloud environments
+ False positive-free results
+ Highly Customisable reporting
+ 24/7 Governance Risk and Compliance Metrics
+ Continuous system visibility
+ Alerting & a Super Rich API for painless integration
+
+
+
+
+
+
+
+
+
+
+The edgescan vulnerability management approach
+
+
+                              edgescan™ delivers a unique service combining fullstack vulnerability management, asset profiling, alerting and risk metrics.
+                              The on-demand service approach maps to modern agile development and devops approaches to system development:
+                              
+
+ Frequent/continuous assessments
+ Expert validation of all discovered security issues
+ Bug tracking Integration via our API
+ WAF rule generation & SEIM Integration
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Main benefits
+
+
+
+
+
+Accuracy
+
+                              edgescan security analysts are experts in vulnerability management and penetration testing. They manually verify all discovered security vulnerabilities, so our clients benefit from accurate (false positive free) vulnerability intelligence.
+                          
+
+
+
+
+
+Continuity
+
+                              edgescan provides continuous or on-demand security assessments in a production safe manner so you can be assured your business is getting the coverage as required.
+                          
+
+
+
+
+
+Cost Benefits
+
+                              edgescan is a managed security service provider (MSSP) that can save your business significant costs. With edgescan, there is no need for hiring and training additional security staff, and no need to purchase further hardware or software licenses.
+                          
+
+
+
+
+Check our awesome features
+
+
+
+ 
+
+ 
+
+
+
+
+
+edgescan can help you with
+
+
+
+
+
+
+Data Protection
+
+                                    Protecting client's data, reputation, financial, privacy, intellectual property (IP).
+                                
+
+
+
+
+Compliance
+
+                                    edgescan helps you to comply with auditing and compliance standards (ISO 27001, PCI, etc.).
+                                
+
+
+
+
+Productivity
+
+                                    edgescan helps you to free up security staff to focus on other issues.
+                                
+
+
+
+
+Speed
+
+                                    edgescan enables you to react quickly to security threats, by knowing what issues you face.
+                                
+
+
+
+
+
+
+ 
+
+
+
+
+
+Continuous vulnerability management by edgescan
+
+
+
+
+
+
+
+
+
+
+                                    Our expert security analysts on-board, enumerate and prioritise your assets (e.g. websites, mobile applications, web applications, cloud applications, endpoints  & hosting servers) into edgescan.
+                                
+
+
+                                    We perform continuous vulnerability assessments of all assets, as much or as little as you require.  edgescan  assessments cover both technical to logical testing and cover all OWASP vulnerabilities, WASC threat classification and CWE known vulnerabilities. edgescan also aligns and surpasses PCI compliance requirements. (Click here for the full list of edgescan’s vulnerability licensing types.)
+                                
+
+
+                                    False Positive Free: Manual verification by our expert security analysts ensures that all application and network vulnerabilities found are verified as real and ranked by security risk. This procedure allows for a false positive free vulnerability intelligence for all assets.
+                                
+
+
+                                    The edgescan online portal provides 24/7 visibility of security metrics, trending data, key performance indicators (KPI's) and enables users to generate custom reports to manage and remediate cybersecurity risk. Our fully extensible API provides users with the ability to integrate edgescan vulnerability intelligence into any GRC or bug tracking system.
+                                
+
+
+                                    Ultimately, edgescan users benefit from continuous vulnerability management, asset visibility and security intelligence.
+                                
+
+
+
+
+
+
+
+
+ 
+
+
+
+Request a demo
+
+30 Days Free Trial
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+                        View more videos and screencasts 
+
+
+
+
+
+
+
+
+
+Why choose a managed security service like edgescan
+
+edgescan provides an active vulnerability management solution
+
+
+
+                            edgescan offers outstanding support in relation to vulnerability management. This includes integration with SIEM and GRC solutions (via an open XML API), mobile application support, reporting and metrics on demand.
+                        
+
+                            Being a SaaS (Security-as-a-Service ) solution, edgescan is highly scalable. Our managed security service implements proprietary delta-analysis algorithms which give the ability to deliver accurate results and trending information coupled with risk metrics.
+                        
+
+                            Our blending of sensible security metrics, ease of use and filtering within the client’s portal makes it easy for a client even with a large amount of assets under management to view the most important cyber risks facing them.
+                        
+
+
+The portal
+
+                        The edgescan online portal allows users to quickly view their security posture as well as asset performance over time. Clients can generate useful reports, from executive summaries to detailed technical reports with remediation advice.
+                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Choose a plan to suit your needs
+
+Choose edgescan standard for full-stack vulnerability assessments with manual verification. For additional deep dive penetration tests, talk to us about edgescan advanced
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+edgescan solutions
+
+
+
+
+
+
+
+What do we offer
+
+
+
+On Demand Testing
+SANS Top 20/WASC/OWASP 
+Zero False Positive
+App. Vuln Assessment
+Net. Vuln Assessment
+Manual Validation
+Robust API
+Secure Datacentres
+Engineer Support
+Deep Dive Pen Testing*
+
+
+
+
+
+
+
+edgescan™ standard
+
+
+
+On Demand Testing 
+SANS Top 20 / WASC / OWASP 
+Zero False Positive 
+App. Vuln Assessment 
+Net. Vuln Assessment 
+Manual Validation 
+Robust API 
+Secure Datacentres 
+Engineer Support 
+Deep Dive Pen Testing* 
+
+
+
+Enquire 
+
+
+
+
+
+
+edgescan™ advanced
+
+
+
+On Demand Testing 
+SANS Top 20 / WASC / OWASP 
+Zero False Positive 
+App. Vuln Assessment 
+Net. Vuln Assessment 
+Manual Validation 
+Robust API 
+Secure Datacentres 
+Engineer Support 
+Deep Dive Pen Testing* 
+
+
+
+Enquire 
+
+
+
+
+
+
+                                *Deep Dive Pen Testing includes: Behavioural and business logic testing, State logic weaknesses, Horizontal and Vertical Authorisation, Authentication logic testing, Session management bypass, Anti-Automation Controls, Weak Password recovery, Brute Force and Reverse Brute force resiliency.
+                            
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+
+edgescan, your SaaS Managed Security Service
+                    
+
+
+Request a demo
+
+30 Days Free Trial
+
+
+
+ 
+
+
+
+
+
+
+contact info
+ ADDRESS
+Unit 701 Northwest Business Park
+  Ballycoolin
+  Dublin 15
+  Ireland
+
+
+  = PHONE
+For sales, support or general queries.
+IRL: +353 (0) 1 6815330
+  UK: +44 (0) 203 807 3933
+  US: +1 646 506 4977
+
+
+ EMAIL
+Sales and general enquiries
+info@edgescan.com
+Edgescan support
+shout@edgescan.com
+
+
+
+
+
+Follow us
+
+
+
+
+
+
+
+
+
+
+Latest blog posts &amp news
+
+Ruby secure coding  New!
+Rahim Jina @ Appsec Cali 2016   Free training material!
+Eoin Keary @ Appsec Cali 2016   Free training material!
+Global Gambling Company - Case Study  New!
+Global Telecom Company - Case Study  New!
+Continuous Asset Profiling
+Security Done Wrong And Blowing The Budget 
+Eoin Keary @ Daggercon 2015  Free training material!
+
+
+
+
+
+Partners
+
+Accutech
+Amazon Web Services
+Arkphire
+Avantgarde
+Checkmarx
+Continuum Security
+Ixtel
+PlanetVerify
+RealServe IT
+SendSafely
+Shepard
+Securestorm
+Become a partner
+
+
+
+
+
+
+
+ 
+
+©2016 all rights reserved. | Privacy Statement | Site Map
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

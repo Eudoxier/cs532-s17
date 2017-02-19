@@ -1,0 +1,460 @@
+
+
+
+
+
+
+CNET
+
+ 
+
+
+Reviews
+
+
+Best Products
+Appliances
+Audio
+Cameras
+Cars
+Networking
+Desktops
+Drones
+Headphones
+Laptops
+Phones
+Printers
+Software
+Smart Home
+Tablets
+TVs
+Virtual Reality
+Wearable Tech
+Web Hosting
+Forums
+ 
+
+
+News
+
+
+Apple
+Computers
+Deals
+Google
+Internet
+Microsoft
+Mobile
+Photography
+Security
+Sci-Tech
+Tech Culture
+Tech Industry
+Photo Galleries
+Video
+Forums
+ 
+
+
+Video
+
+
+Apple Byte
+CNET Top 5
+How To
+Googlicious
+Smart Home
+Tech Today
+News
+Next Big Thing
+Special Features
+CNET Podcasts
+Laptops
+Phones
+Tablets
+TVs
+ 
+
+
+How To
+
+
+Appliances
+Computers
+Gaming
+Home Entertainment
+Internet
+Mobile Apps
+Phones
+Photography
+Security
+Smart Home
+Tablets
+Wearable Tech
+Forums
+Speed Test
+ 
+
+
+Smart Home
+
+
+Best smart home devices
+How To
+News
+Tour our smart apartment
+Tour our smart house
+
+Product Compatibility
+
+Amazon Alexa
+Apple HomeKit
+Belkin WeMo
+Google Home
+Lutron
+Nest
+Philips Hue
+Samsung SmartThings
+Wink
+
+
+ 
+
+
+Cars
+
+
+Car Reviews
+Best Cars
+New Cars
+Used Cars
+ 
+
+
+Deals
+
+Cheapskate
+Best Tech Under $50
+All Deals
+Tech Deals
+Non-Tech Deals
+Audio Deals
+Cell Phone Deals
+Desktop Deals
+Laptop Deals
+Hard Drive & Storage Deals
+Printer Deals
+Tablet Deals
+Camera Deals
+Monitor Deals
+Software Deals
+TV Deals
+Web Hosting
+VPN Services
+WordPress Hosting
+Domain Names
+
+
+ 
+Download
+
+
+
+
+
+
+
+
+
+
+
+
+
+Join CNET
+
+Member Benefits
+
+Sign In to CNET
+
+Signed in as My Profile
+My Profile
+Forums
+Sign Out
+
+
+
+
+
+
+Australia
+China
+France
+Germany
+Japan
+Korea
+United Kingdom
+US Editions
+English
+Español
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hack your Amazon Dash for one-button donations to the ACLU
+Designer Nathan Pryor has converted Amazon's "buy now" button into an easy way to donate to the American Civil Liberties Union whenever he feels the need.
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tech Culture
+
+
+
+
+
+
+by 
+
+Luke Lancaster
+
+February 7, 2017 7:59 PM PST
+
+
+
+
+
+
+                                @lglancaster
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Enlarge Image
+                                                    Amazon
+                                                While having instant access to Cheez-Its and Pop Tarts may be the future we were promised, the Amazon Dash has the potential to do much more. Nathan Pryor has done just that, converting an Amazon Dash into an easy way to donate to the American Civil Liberties Union. Pryor writes that the idea came from a friend: "It was my friend Katherine who made the comment 'I wish there was an ACLU Dash button I could push to donate any time I read about the latest offense from Trump.'" Pryor then put his money where his mouth was, cludging together code that would convert a Dash into a way to donate $5 to the ACLU every time he pressed the button.The Amazon Dash is normally tied to a specific product. Hit the one on your washing machine to automatically order more detergent, the one on your toilet for more toilet paper, the one on your fridge for more Red Bull.Amazon responded to huge customer demand for a programmable Dash button in 2016 with the Amazon Web Services Internet of Things button, letting you program the single button to do anything you might be able to manage with a single, internet connected button.
+
+ The hack required some clever coding, since there wasn't an existing API Pryor could use for the donation process. In the end, he wrote a custom script for his Dash along with the Amazon AWS Lambda service. There's a link to download the script for yourself from Pryor's Medium page, but Pryor stresses that he can't make claims "as to its suitability or security. It isn't robust in any way -- if they change a field name or the way the donation page works, it'll break... Use it at your own risk."Have you been using any clever hacks on your Amazon Dash buttons? Let us know in the comments below.
+
+ Solving for XX: The industry seeks to overcome outdated ideas about "women in tech." Special Reports: All of CNET's most in-depth features in one easy spot.
+
+
+Share your voice
+
+
+
+
+0
+comments
+
+
+
+
+
+Tags
+Tech Culture
+Amazon
+ 
+
+
+
+ 
+
+
+More stories
+
+
+Stephen King's creepy 'Castle Rock' coming to life on Hulu
+
+
+
+
+'Hidden Figures' and the true NASA stories behind the movie
+
+
+
+
+New 'Twin Peaks' teasers bring back dark memories
+
+
+
+
+Trump tweets media is 'enemy of the American people'
+
+
+ 
+
+
+ 
+
+
+ Close
+
+
+ 
+
+Discuss: Hack your Amazon Dash for one-button donations...
+
+
+
+Conversation powered by Livefyre
+
+
+
+
+
+
+Up Next:
+            The Zuckerberg Manifesto: Facebook will save the world
+        
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Find a parking spot without going crazy
+Stop driving around in circles! Use these apps and websites to easily find a parking spot.
+by Lexy Savvides
+
+1:09 
+
+
+
+
+
+
+
+Samsung's top boss arrested
+In this week's wrap-up, a South Korean court orders the arrest of Samsung's acting leader. Meanwhile in the US, Verizon jumps back on the unlimited data wagon causing every other wireless carrier to take note.
+by Iyaz Akhtar
+
+1:33 
+
+
+
+Close
+
+
+
+
+Drag
+
+
+
+Autoplay: ON
+Autoplay: OFF
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+CNET
+
+ 
+© CBS Interactive Inc.  /  All Rights Reserved.
+About CNET
+Privacy Policy
+Ad Choice
+Terms of Use
+Mobile User Agreement
+Help Center
+
+
+
+ 
+
+

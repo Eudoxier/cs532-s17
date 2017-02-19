@@ -1,0 +1,283 @@
+jump to contentmy subredditsannouncementsArtAskRedditaskscienceawwblogbookscreepydataisbeautifulDIYDocumentariesEarthPornexplainlikeimfivefoodfunnyFuturologygadgetsgamingGetMotivatedgifshistoryIAmAInternetIsBeautifulJokesLifeProTipslistentothismildlyinterestingmoviesMusicnewsnosleepnottheonionOldSchoolCoolpersonalfinancephilosophyphotoshopbattlespicsscienceShowerthoughtsspacesportstelevisiontifutodayilearnedTwoXChromosomesUpliftingNewsvideosworldnewsWritingPromptsedit subscriptionspopular-all-random | AskReddit-funny-pics-videos-worldnews-todayilearned-news-gaming-gifs-aww-movies-Showerthoughts-mildlyinteresting-television-IAmA-OldSchoolCool-Jokes-nottheonion-Futurology-LifeProTips-space-personalfinance-explainlikeimfive-science-food-dataisbeautiful-photoshopbattles-WritingPrompts-Music-tifu-Art-EarthPorn-DIY-GetMotivated-UpliftingNews-TwoXChromosomes-nosleep-Documentaries-history-creepy-sports-gadgets-books-askscience-listentothis-philosophy-InternetIsBeautiful-announcements-blogmore » jailbreakcommentsWant to join? Log in or sign up in seconds.|Englishlimit my search to r/jailbreakuse the following search parameters to narrow your results:subreddit:subredditfind submissions in "subreddit"author:usernamefind submissions by "username"site:example.comfind submissions from "example.com"url:textsearch for "text" in urlselftext:textsearch for "text" in self post contentsself:yes (or self:no)include (or exclude) self postsnsfw:yes (or nsfw:no)include (or exclude) results marked as NSFWe.g. subreddit:aww site:imgur.com dogsee the search faq for details.advanced search: by author, subreddit...this post was submitted on  09 Feb 2017108 points (92% upvoted)shortlink:  remember mereset passwordloginSubmit a new linkSubmit a new text postjailbreaksubscribeunsubscribe158,833 readers1,146 users here nowThe iOS 10.0.1-10.2 jailbreak is in beta so may be unstable.
+Want your device type and iOS version next to your username? Assign your device and iOS flair here!
+Latest Jailbreaks
+iOS 10.0.1-10.2 jailbreak is in beta.
+iOS 9.1-9.3.4 jailbreak for some 32-bit devices here.
+iOS 10.2.1 and 9.3.5 don't have a jailbreak.
+Visit the wiki for a full list of firmwares and jailbreak tools.
+Subreddit Filters
+
+
+Releases Releases
+News & Disc. News & Disc.
+Questions Questions
+Requests Requests
+Tutorials Tutorials
+Giveaways Giveaways
+
+
+
+Reset Post Filtering ?
+Useful Wiki Pages
+Upgrade/downgrade/restore: you can find out what your options are on the downgrade wiki page.
+Escape Plan: you can contribute to our list of recommended tweaks.
+More: subreddit styling options, volunteer translators for tweaks, developers on Twitter.
+Help and Answers
+
+Is my device jailbreakable?
+Your answer is on canijailbreak.com.
+Got a confusing Cydia error message?
+How to fix Cydia errors.
+Jailbreaking question?
+First try searching /r/jailbreak and sorting by "new". Also consider trying the /r/jailbreak FAQ.
+Curious about learning how to develop tweaks?
+Check out the iPhoneDevWiki (and its IRC channels), including Getting Started. 
+Curious about how jailbreaks work? 
+Check out "Up to Speed" on TheiPhoneWiki.
+What to install?
+
+Check out the weekly and monthly roundups of tweak releases, updates, and other interesting news discussed on /r/jailbreak.
+Unofficial Cydia search sites: ModMyi, Planet-iPhones.
+
+
+Discord
+Rules
+
+/r/jailbreak does not allow piracy tools, sources, or websites.
+No pirated tweaks, apps, etc. Please also do not post or advertise products or services that are in violation of the trademarks of others or mirrors. Why?
+Themes (and theme-related questions or news) should be posted in /r/iOSthemes.
+Use tags in your title. Posts without tags will be automatically removed by AutoModerator.
+Tags let readers automatically hide posts using RES and sort through topics that interest them.
+No misleading or sensationalized titles. Use detailed titles for both news and questions. Also, link to the source of news, such as the developer who made the announcement, instead of linking to blogspam.
+No memes or image macros.
+No posts about removing passcodes from locked devices or bypassing Activation Lock.
+Giveaways cannot require more than comments for people to be eligible - no requiring likes/follows/etc.
+Do not make posts asking for people to donate money to you by free will or by the sale of any item. If you're in need of free money, check out /r/beermoney.
+Be civil and friendly. No egregiously insulting/rude, sexist, racist, homophobic, transphobic, etc. comments or posts. Additionally, do not be rude or unhelpful when responding to posts tagged [Question].
+
+Visit the wiki for a full list and explanation of our rules
+Subreddits We Like
+/r/iOSthemes • /r/sideloaded • /r/iPhone • /r/iPad • /r/AppleTV • /r/LegacyJailbreak • /r/iOSfonts • /r/TweakBounty
+Subreddits for specific tweaks:
+/r/activator • /r/Convergance • /r/cylinder • /r/FlexTweak • /r/Gifpaper • /r/hbang • /r/jormy • /r/LockHTML3 • /r/Springtomize • /r/iOStraverse/
+This subreddit is night mode compatible
+Subreddit banner by /u/RAiN5HT
+
+Frequently Asked Questions
+Friendliness in Support/Question Posts
+Simple Questions Saturday for February 18, 2017
+
+
+created by Rick-DeckardiPhone 4Sa community for 7 yearsmessage the moderatorsMODERATORSRick-DeckardiPhone 4SsaurikSaurikITXuzzchpwncomexHackerhizinfiziPhone 7s, iOS 11.0ibbignerdiPhone 6, iOS 10.2JailbreakFlairBotBotZiph0nDeveloperhbfamailaiPhone 6sAutoModeratorjust wants to be loved...and 3 more »discussions in r/jailbreak<>X213  · 64 comments [Request] Tweak that shows how much data you've used next to the 4G sign. It'd be great if it only resets when you want it to and not every time you turn your data on and off194  · 52 comments [Discussion] How do you think about global dark & translucent mode? (demo: settings app)· 9 comments [Meta] Weekly Update: JB is still beta, Cydia update is much faster, AppSync is back, new devs are popping up, and loose lips sink ships.53  · 10 comments [Discussion] This App Does It Right107  · 197 comments [Discussion] I made a Yalu Logo pack with some of your favorite world leaders!47  · 37 comments [Update] Sonus has been added to BigBoss42  · 24 comments [Discussion] My iPhone 7 10.2.1 took a crap, took it to the Apple Store an hour ago. They replaced it with 10.1.1. Thanks Apple!38  · 13 comments [Update] Apex 2 (iOS 7,8,9) - Grouping apps has never been so fun. - Changelog inside (Bigboss - Free)53  · 14 comments [Request] Tinybar+Messages quick reply compatibility31  · 35 comments [Update] PerfectFit - Stretch apps to fit your screen107108109News[News] Openssh updated, should be out soon. (twitter.com)submitted 9 days ago by Russianwaff1371 commentsshareloading...all 71 commentssorted by: besttopnewcontroversialoldrandomq&alive (beta)[–]boolean10iPhone SE, iOS 10.2 18 points19 points20 points 9 days ago (2 children)"I submitted OpenSSH for dropbear to BigBoss repo."
+I don't understand. OpenSSH = SSH daemon; Dropbear = SSH daemon
+Did he meant SCP for Dropbear or SFTP for OpenSSH, or ???
+
+permalinkembedsavereportgive goldreply[–]qwertyoruiop 20 points21 points22 points 9 days ago (1 child)to be fair openssh is also a client. maybe this only installs the client? i dunno
+
+permalinkembedsaveparentreportgive goldreply[–]boolean10iPhone SE, iOS 10.2 2 points3 points4 points 9 days ago (0 children)true, but that's very unlikely. we'll see
+
+permalinkembedsaveparentreportgive goldreply[–]kemerystudios 13 points14 points15 points 9 days ago (25 children)Wait... Should we even install? Luca said he included SSH in his jailbreak...
+
+permalinkembedsavereportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 3 points4 points5 points 9 days ago (17 children)No. Dropbear works fine and you can already get SFTP/SCP with some hacking. This is pointless.
+
+permalinkembedsaveparentreportgive goldreply[–]taylorbasedswagiPhone 6s, iOS 10.2 10 points11 points12 points 9 days ago (5 children)Assuming it allows sftp over wifi, why is it pointless? Just because it takes something that is already possible and makes it more convenient?
+
+permalinkembedsaveparentreportgive goldreply[–]derpherp128iPhone 5S, iOS 10.2 0 points1 point2 points 9 days ago (4 children)Because the combination of SFTP for dropbear + Wifi SSH already do the same thing.
+
+permalinkembedsaveparentreportgive goldreply[–]taylorbasedswagiPhone 6s, iOS 10.2 1 point2 points3 points 9 days ago (3 children)By wifi ssh, do you mean changing the dropbear.plist or another package?
+
+permalinkembedsaveparentreportgive goldreply[–]derpherp128iPhone 5S, iOS 10.2 2 points3 points4 points 9 days ago (2 children)BrunoNFL made a package that simply creates another dropbear daemon, as is recommended.
+
+permalinkembedsaveparentreportgive goldreply[–]taylorbasedswagiPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (0 children)Okay then yeah we'll see what this one actually does, it might be the same thing
+
+permalinkembedsaveparentreportgive goldreply[–]BWA_DallasiPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (0 children)Link?
+
+permalinkembedsaveparentreportgive goldreply[–]vipzeniPhone 5S, iOS 10.2 2 points3 points4 points 9 days ago (10 children)How? Every tutorial I've seen is confusing as hell.
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 1 point2 points3 points 8 days ago* (9 children)I wrote a tutorial for this but it got removed:
+https://www.reddit.com/r/jailbreak/comments/5qu3xw/tutorial_how_to_get_sftp_on_ios_102_with/
+I can copy and paste it to you if it doesn't show up. To SSH into your phone use usbmuxd or ifunbox.
+Edit: a letter
+
+permalinkembedsaveparentreportgive goldreply[–]Trencheel303 0 points1 point2 points 8 days ago (8 children)could you post it please? it must have been removed. You can SSH via terminal but I noticed pretty soon after that you can't use something like cyberduck. I'd quite like to be able to.
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 1 point2 points3 points 8 days ago (7 children)Pasted below (if this also gets removed, I'll pm it to you):
+For those who don't know, OpenSSH is no longer being included due to issues it has with iOS 10.X. Qwertyoruiop included an alternative, a lightweight SSH
+Daemon known as Dropbear; however, Dropbear does not come with an SFTP server.
+SFTP is a method of interacting with your device's filesystem, much like FTP but via SSH (significantly more secure). I mainly use it to upload ringtones and other media, as well as download recordings, but it can be used for anything from editing files locally to pulling logs down to your main system. Until a package is created to remedy this, here are the steps I took to get SFTP back on iOS 10.2. For reference, I'm running Yalu102 Alpha on an iPhone 6S. I don't take responsibility for devices being bricked or bootlooped; only embark on this if you know what you're doing.
+
+From the Cydia/Telesphoreo repo, download APT 0.7 Strict. You must get the version that only says strict, not the lib (although the lib should install later). This will allow us to use apt-get over SSH.
+Connect to your device via SSH. If you haven't changed your password yet, the default username is 'root' and the password is 'alpine'. MTerminal may also work, though I have never used it.
+NOTE: It's beyond the scope of this tutorial, but you should take immediate steps to secure your SSHD if you have not already. This is critical!
+The following steps will involve typing commands into the terminal. I try my best to explain what each one does, but be mindful that you get these correct.
+Download OpenSSH: apt-get install openssh
+Copy the SFTP-server executable that OpenSSH installs to another directory, such as the root directory: cp /usr/libexec/sftp-server /var/root/
+Remove OpenSSH. This is the most important step here: if you do not remove OpenSSH, you will no longer have access to the SSH server next time you jailbreak, PERIOD. Type: apt-get remove openssh
+Move your previously copied sftp-server executable back to the /usr/libexec directory: mv /var/root/sftp-server /usr/libexec/
+Reboot your device: reboot
+Rejailbreak and enjoy SFTP!
+
+Let me know if this works for anyone who desperately wanted SFTP back. Good luck!
+
+permalinkembedsaveparentreportgive goldreply[–]Trencheel303 1 point2 points3 points 8 days ago (1 child)Thanks. You say you are running yalu102 alpha, things may have changed now with beta 7? I said above I could ssh using terminal but not use sftp/scp (so gui utilities like cyberduck were out). That was on beta 3; now on beta 7 ssh is acting altogether like it is disabled as I can't ssh from terminal on my Mac and if I try from the iPhone it says ssh doesn't exist. 
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 8 days ago* (0 children)Indeed, this tutorial was written a week or so ago when the only thing out was Alpha. To get wifi access, you'll need to follow this tutorial
+And to get SFTP/SSH over USB, this should help you along.
+Sorry for the confusion! At least once you set this sort of thing up it's "set it and forget it". Good luck.
+Edit: Note that my initial tutorial is also necessary. Neither of the links will give you SFTP capabilities, they merely allow you to connect to the server itself via one way or another.
+
+permalinkembedsaveparentreportgive goldreply[–]TopbrowseiPhone 7, iOS 10.1.1 0 points1 point2 points 8 days ago* (2 children)I get timed out when I try to ftp onto my device. I installed openssh before but I removed it quickly. What can I do to fix it? I'm on 10.1.1 iPhone 7. 192.168.1.122:22 is in CLOSE_WAIT for some reason 
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 8 days ago* (1 child)Indeed, this tutorial was written a week or so ago when the only thing out was Alpha. To get wifi access, you'll need to follow this tutorial
+And to get SFTP/SSH over USB, this should help you along.
+Sorry for the confusion! At least once you set this sort of thing up it's "set it and forget it". Good luck.
+Edit: Note that my initial tutorial is also necessary. Neither of the links will give you SFTP capabilities, they merely allow you to connect to the server itself via one way or another.
+
+permalinkembedsaveparentreportgive goldreply[–]TopbrowseiPhone 7, iOS 10.1.1 0 points1 point2 points 8 days ago (0 children)Doesn't Yalu b3 already have wifi enabled? It's unmodified. I have -F-R 22 in my dropbear plist right now, and it's not working. 
+
+permalinkembedsaveparentreportgive goldreply[–]vipzeniPhone 5S, iOS 10.2 0 points1 point2 points 8 days ago (1 child)
+Connect to your device via SSH.
+
+Thats the problem, I always get “Connection refused”.
+Perhaps because the latest betas no longer allow SSH access over wifi. I dont know how to connect via USB…
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 8 days ago (0 children)https://www.reddit.com/r/jailbreak/comments/5t0cwz/news_openssh_updated_should_be_out_soon/ddjvmf7/
+
+permalinkembedsaveparentreportgive goldreply[–]taylorbasedswagiPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (4 children)Yeah but that's only over usb unless you change the dropbear.plist. I'm assuming this just makes it so you don't have to edit that plist. Ssh/sftp will just be enabled by default.
+
+permalinkembedsaveparentreportgive goldreply[–]drake90001 0 points1 point2 points 9 days ago (3 children)Yes it will and anyone can access it remotely then. Luca didn't disable it over wifi just for fun. It was for a reason. Not to mention a USB connection will transfer files much faster and reliably than a wifi connection. 
+
+permalinkembedsaveparentreportgive goldreply[–]taylorbasedswagiPhone 6s, iOS 10.2 6 points7 points8 points 9 days ago (1 child)Anyone can't access if your passwords are changed. Luca's concern is legitimate but everyone should be able to decide for themselves since it's their device. Personally, I'm okay with the risk for the convenience. I'd rather not have to plug in my device or even have it on my person (just on the same network) to transfer files. The speed difference is negligible for me. 
+
+permalinkembedsaveparentreportgive goldreply[–]gangtraet 1 point2 points3 points 9 days ago (0 children)Luca had to close it since the default password is known. Once you have changed it, ssh over wifi shouls be safe. 
+
+permalinkembedsaveparentreportgive goldreply[–]smartimp98 -1 points0 points1 point 9 days ago (0 children)It's called a password.
+
+permalinkembedsaveparentreportgive goldreply[–]2teeman2iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (0 children)This is OpenSSH for dropbear, will not break it because it is for it.
+
+permalinkembedsaveparentreportgive goldreply[–]carmshlongeriPhone 7 Plus, iOS 10.1.1 -5 points-4 points-3 points 9 days ago (0 children)Bump
+
+permalinkembedsaveparentreportgive goldreply[–]EthanRDoesMCiPhone 5S, iOS 10.2 2 points3 points4 points 9 days ago (0 children)I'm confused on how to do this for Gandalf... clarification is needed. 
+
+permalinkembedsavereportgive goldreply[–]leftyfl1p 8 points9 points10 points 9 days ago (0 children)https://twitter.com/ichitaso/status/825381802151858179
+Same kid that cried when he couldn't immediately publish his paid iOS 10 tweak and claimed his time was "wasted". 
+Wouldn't trust. 
+
+permalinkembedsavereportgive goldreply[–]dutchstreetdog 4 points5 points6 points 9 days ago (0 children)Who is this ? Little saurik
+
+permalinkembedsavereportgive goldreply[–]ichitasoDeveloper 1 point2 points3 points 8 days ago (1 child)Sorry, I made a mistake in naming.  
+We are looking for cool and easy-to-understand names.
+
+permalinkembedsavereportgive goldreply[–]ichitasoDeveloper 1 point2 points3 points 8 days ago (0 children)/u/angelXwind said "Dropbear Control", but I am thinking of other names.
+http://i.imgur.com/YsHJxtb.jpg
+
+permalinkembedsaveparentreportgive goldreply[–]BWA_DallasiPhone 6s, iOS 10.2 1 point2 points3 points 9 days ago (0 children)I'm assuming the "OpenSSH for DropBear" means enabling wifi connectivity as well.
+
+permalinkembedsavereportgive goldreply[–]Carlyd95iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (1 child)Does this fix git? or allow you to run ssh-keygen? Cause that's what I want! 
+
+permalinkembedsavereportgive goldreply[–]Gb160 -1 points0 points1 point 9 days ago (0 children)Check my other post in this thread...no idea about git but ssh-keygen is working fine with my tool, I've already used it.
+
+permalinkembedsaveparentreportgive goldreply[–]candoizoDeveloper 0 points1 point2 points 9 days ago (0 children)Pretty sure all this does is enable "open"(meaning free/less restricted, as opposed to the same word used in "OpenSSH") SSH access over wifi for Dropbear, kinda awkwardly worded tweet but should be useful for anyone who doesn't wanna go editing the plist
+
+permalinkembedsavereportgive goldreply[–]Oilers974 0 points1 point2 points 9 days ago (0 children)What would I need openSSH for, I'm not a Dev on IOS 10 2 ipad 
+
+permalinkembedsavereportgive goldreply[–]DeleroweniPhone 6, iOS 10.2 0 points1 point2 points 9 days ago (0 children)I was having trouble running ssh over USB because of Windows 10. I installed the current OpenSSH and it works fine. I'm on 10.2b7 fwiw
+
+permalinkembedsavereportgive goldreply[–]Russianwaff13[S] 0 points1 point2 points 8 days ago (0 children)Tried with and with out coolstars sftp/scp adding and I've tried with terminal and cyber duck.
+
+permalinkembedsavereportgive goldreply[–]clckwerk 0 points1 point2 points 8 days ago (0 children)who is the girl violinist in dp?
+
+permalinkembedsavereportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (27 children)
+I submitted OpenSSH for dropbear to BigBoss repo.
+
+What?!? OpenSSH and Dropbear are two entirely different SSH Daemons. How does one submit "OpenSSH for Dropbear"? Unless they meant SFTP/SCP, in which case this has already been done, repeatedly for 10.2.
+Not sure why this is even worthy of a news post.
+
+permalinkembedsavereportgive goldreply[–]Russianwaff13[S] -1 points0 points1 point 9 days ago (26 children)Because dropbear is only over USB, and OpenSSh is over wifi? And coolstars tweaks still requires you to manually modify the dropbear.plist on every reboot this I imagine won't. That makes it more useful for the basic user who doesn't want to edit a plist. 
+
+permalinkembedsaveparentreportgive goldreply[–]nullpixelDeveloper 5 points6 points7 points 9 days ago (3 children)
+Because dropbear is only over USB
+
+no, just no.
+Luca chose to make it USB only
+
+permalinkembedsaveparentreportgive goldreply[–]vipzeniPhone 5S, iOS 10.2 0 points1 point2 points 9 days ago (2 children)OK, so how to chance that in a correct and reliable way, please? Every tutorial looks confusing and just a dirty hack.
+
+permalinkembedsaveparentreportgive goldreply[–]IAMA_LION_AMADeveloper 1 point2 points3 points 9 days ago (1 child)Open the yalu source code in Xcode, open dropbear.plist, change '127.0.0.1:22' to '22', install on your phone. Now you'll always have wifi SSH enabled when re-jailbreaking.
+
+permalinkembedsaveparentreportgive goldreply[–]vipzeniPhone 5S, iOS 10.2 0 points1 point2 points 8 days ago (0 children)Wow, so I need to have Xcode and recompile the application? Thanks, but I was hoping for a tweak or something simple for simple users.
+
+permalinkembedsaveparentreportgive goldreply[–]Gb160 1 point2 points3 points 9 days ago (5 children)I already made a tool that acheives this, my tool doesn't touch the usb only instance of dropbear which runs as default, it starts another instance on port 2222 which is available over wifi/3g/4g, also includes sftp/scp. If anyone wants to try my repo is :
+http://gb160.github.io/
+Note, tool is called simplesftp-yalu...a different version is available for Yalu and Mixtape/HomeDepot jailbreak.
+
+permalinkembedsaveparentreportgive goldreply[–]derpherp128iPhone 5S, iOS 10.2 1 point2 points3 points 9 days ago (1 child)Q: what does this do differently than WiFi SSH / SFTP for dropbear? Does it just consolidate it into one?
+
+permalinkembedsaveparentreportgive goldreply[–]Gb160 1 point2 points3 points 9 days ago (0 children)Yep, with scp as well...just note it uses port 2222, as i didn't want to change the default (usb only) instance which already uses port 22.
+
+permalinkembedsaveparentreportgive goldreply[–]marksolomon32iPhone 7 Plus, iOS 10.1.1 0 points1 point2 points 9 days ago (2 children)Have you tested it on 10.1.1 or will it only work with 10.2. I don't know how different the dropbear Dameon is between the two. I have devices on 10.1.1 and 10.2.
+
+permalinkembedsaveparentreportgive goldreply[+][deleted] 9 days ago (1 child)[deleted]
+
+[–]marksolomon32iPhone 7 Plus, iOS 10.1.1 0 points1 point2 points 9 days ago (0 children)Actually, I went ahead and looked at it and saw that it's already configured I just needed to load it. I then made bash scripts for turning it on and off. Pretty easy actually I was over thinking it. Thanks though. Now I just run
+sshon
+
+to turn it on and
+sshoff
+
+to turn it off.
+
+permalinkembedsavereportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (15 children)Still doesn't answer what "OpenSSH for Dropbear" means.
+Also, Dropbear is not limited to USB as you imply; it's a choice that was consciously made by /u/qwertyoruiop. If you can't run usbmuxd or another client to get SSH or change it to work over wifi by yourself, you probably shouldn't really be running a network-facing SSH daemon at all.
+
+permalinkembedsaveparentreportgive goldreply[–]Russianwaff13[S] 1 point2 points3 points 9 days ago (8 children)I have no idea what it means we will know once it's released. And I know dropbear isn't limited to USB but what I'm saying is basic users are still going to want it this makes it easier for them if it does what I think it does (ssh over wifi) and that's the main thing. 
+
+permalinkembedsaveparentreportgive goldreply[–]BrunoNFLDeveloper 0 points1 point2 points 9 days ago (7 children)Well, there are many of those tools already released that enable the Wi-Fi access for dropbear (including one of my own haha) and I don't know if this name will be allowed by Optimo. We'll see
+
+permalinkembedsaveparentreportgive goldreply[–]Russianwaff13[S] 0 points1 point2 points 9 days ago (6 children)Yes but your tweak doesn't work I just test it, with a reboot on a spare device and nothing works. 
+
+permalinkembedsaveparentreportgive goldreply[–]BrunoNFLDeveloper 0 points1 point2 points 9 days ago (0 children)I'm aware of the issue and an update is already coming in the next 5 hours.
+It's just that I'm in university now and I'll only be able to do the final testing later today.
+
+permalinkembedsaveparentreportgive goldreply[–]BrunoNFLDeveloper 0 points1 point2 points 8 days ago (4 children)Check out the update in my repo :)
+Now it works
+
+permalinkembedsaveparentreportgive goldreply[–]Russianwaff13[S] 0 points1 point2 points 8 days ago (3 children)Doesnt work on iOS 10.2 5s. 
+
+permalinkembedsaveparentreportgive goldreply[–]BrunoNFLDeveloper 0 points1 point2 points 8 days ago (2 children)Great! Glad it worked :)
+
+permalinkembedsaveparentreportgive goldreply[–]Russianwaff13[S] 0 points1 point2 points 8 days ago (1 child)Sorry I meant doesn't. 
+
+permalinkembedsaveparentreportgive goldreplycontinue this thread[–]Carlyd95iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (4 children)Any idea how to make keys with dropbear or use git?
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (3 children)You can still ssh-keygen and place keys in a .authorized_keys file with Dropbear. I'm doing it right now.
+
+permalinkembedsaveparentreportgive goldreply[–]Carlyd95iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (2 children)I took a leap of faith and just assumed open ssh daemon is what's broken, so I'm just using the binaries from the deb, ssh and ssh-keygen, working fine. Don't think it would mess anything up. At least I hope not
+
+permalinkembedsaveparentreportgive goldreply[–]Anomalous11iPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (1 child)Yeah, you're right. The daemon is what's broken; importing sftp-server, scp and ssh-keygen won't cause any problems as far as I know.
+
+permalinkembedsaveparentreportgive goldreply[–]Carlyd95iPhone 6s, iOS 10.2 0 points1 point2 points 8 days ago (0 children)Sweet, I don't know why he didn't just add those in. I don't think a lot of people know that it's only the server
+
+permalinkembedsaveparentreportgive goldreply[–]taylorbasedswagiPhone 6s, iOS 10.2 0 points1 point2 points 9 days ago (0 children)Says who? It's more convenient to install a package that automatically enables sftp over wifi automatically than it is to manually do it. Just because someone doesn't want to manually do it doesn't mean they can't.
+And even if they couldn't do it manually, whether they should or should not have this convenience is up to them. It's their device.
+
+permalinkembedsaveparentreportgive goldreply[–]xxHoBoZxxiPhone SE, iOS 10.2 -1 points0 points1 point 9 days ago (1 child)remindme!
+
+permalinkembedsavereportgive goldreply[–]RemindMeBot -1 points0 points1 point 9 days ago (0 children)Defaulted to one day.
+I will be messaging you on 2017-02-10 17:46:28 UTC to remind you of this link.
+CLICK THIS LINK to send a PM to also be reminded and to reduce spam.
+Parent commenter can  delete this message to hide from others.
+
+
+
+FAQs
+Custom
+Your Reminders
+Feedback
+Code
+Browser Extensions
+
+
+
+
+permalinkembedsaveparentreportgive goldreplyaboutblogaboutsource codeadvertisejobshelpsite rulesFAQwikireddiquettetransparencycontact usapps & toolsReddit for iPhoneReddit for Androidmobile websitebuttons<3reddit goldredditgiftsUse of this site constitutes acceptance of our User Agreement and Privacy Policy (updated). © 2017 reddit inc. All rights reserved.REDDIT and the ALIEN Logo are registered trademarks of reddit inc.Advertise - localπ Rendered by PID 5135 on  app-188  at 2017-02-18 21:35:54.505658+00:00 running a8721ca country code: US.

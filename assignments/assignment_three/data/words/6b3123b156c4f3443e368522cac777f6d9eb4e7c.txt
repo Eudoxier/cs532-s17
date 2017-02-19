@@ -1,0 +1,1139 @@
+ 
+
+
+
+
+
+Skip to: Start of article
+
+
+Visually Open Nav.
+
+
+
+
+
+Go to Wired Home Page.
+
+
+
+
+
+
+						The Next Big Blue-Collar Job Is Coding					
+
+
+
+
+
+
+
+subscribe
+
+
+
+Open Search Field.
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Business
+
+
+
+
+
+
+
+culture
+
+
+
+
+
+
+
+Design
+
+
+
+
+
+
+
+Gear
+
+
+
+
+
+
+
+Science
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+transportation
+
+
+
+
+
+
+
+photo
+
+
+
+
+
+
+
+video
+
+
+
+
+
+
+
+
+Photo
+
+
+Video
+
+
+Magazine
+
+
+WIRED INSIDER
+
+
+Future of Mobility
+
+
+
+
+
+
+Fallback Image
+
+
+Get TheMagazine
+
+
+
+
+
+				Subscribe now to get 6 months for $5 - plus a FREE Portable Phone Charger.
+			
+
+
+
+
+
+Subscribe
+ 
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advertisement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Slide:  1 / of  1.
+Caption: 
+Zohar Lazar 
+
+
+
+
+
+Skip Article Header. Skip to: Start of Article.
+
+
+
+Author: Clive Thompson.
+
+Clive Thompson 
+
+Business 
+
+
+Date of Publication: 02.08.17.
+02.08.17
+
+
+Time of Publication: 12:30 pm.
+12:30 pm
+
+
+
+
+The Next Big Blue-Collar Job Is Coding
+
+
+ Zohar Lazar 
+
+
+When I ask people to picture a coder, they usually imagine someone like Mark Zuckerberg: a hoodied college dropout who builds an app in a feverish 72-hour programming jag—with the goal of getting insanely rich and, as they say, “changing the world.”
+But this Silicon Valley stereotype isn’t even geographically accurate. The Valley employs only 8 percent of the nation’s coders. All the other millions? They’re more like Devon, a programmer I met who helps maintain a ­security-software service in Portland, Oregon. He isn’t going to get fabulously rich, but his job is stable and rewarding: It’s 40 hours a week, well paid, and intellectually challenging. “My dad was a blue-­collar guy,” he tells me—and in many ways, Devon is too.
+
+Related Stories
+
+
+
+ 
+Davey Alba
+The Google Lab That’s Building a Legion of Diverse Coders
+
+
+
+
+
+
+ 
+Cade Metz
+Clever New GitHub Tool Lets Coders Build Software Like Bridges
+
+
+
+
+
+
+ 
+Cade Metz
+Robots Will Steal Our Jobs, But They’ll Give Us New Ones
+
+
+
+
+
+
+Politicians routinely bemoan the loss of good blue-collar jobs. Work like that is correctly seen as a pillar of civil middle-class society. And it may yet be again. What if the next big blue-collar job category is already here—and it’s programming? What if we regarded code not as a high-stakes, sexy affair, but the equivalent of skilled work at a Chrysler plant?
+Among other things, it would change training for programming jobs—and who gets encouraged to pursue them. As my friend Anil Dash, a technology thinker and entrepreneur, notes, teachers and businesses would spend less time urging kids to do expensive four-year computer-­science degrees and instead introduce more code at the vocational level in high school. You could learn how to do it at a community college; midcareer folks would attend intense months-long programs like Dev Bootcamp. There’d be less focus on the wunderkinds and more on the proletariat.
+These sorts of coders won’t have the deep knowledge to craft wild new algorithms for flash trading or neural networks. Why would they need to? That level of expertise is rarely necessary at a job. But any blue-collar coder will be plenty qualified to sling Java­Script for their local bank. That’s a solidly middle-class job, and middle-class jobs are growing: The national average salary for IT jobs is about $81,000 (more than double the national average for all jobs), and the field is set to expand by 12 percent from 2014 to 2024, faster than most other occupations.
+Across the country, people are seizing this opportunity, particularly in states hit hardest by deindustrialization. In Kentucky, mining veteran Rusty Justice decided that code could replace coal. He cofounded Bit Source, a code shop that builds its workforce by retraining coal miners as programmers. Enthusiasm is sky high: Justice got 950 applications for his first 11 positions. Miners, it turns out, are accustomed to deep focus, team play, and working with complex engineering tech. “Coal miners are really technology workers who get dirty,” Justice says.
+Meanwhile, the Tennessee nonprofit CodeTN is trying to nudge high school kids into coding programs at community colleges. Some students (and teachers) worry that the kids don’t fit the Zuckerbergian cliché. That’s a cultural albatross, CodeTN cofounder Caleb Fristoe says. “We need to get more employers saying, ‘Yeah, we just need someone to manage the login page,’” he says. “You don’t have to be a superstar.”
+Now, to be sure, society does need some superstars! Serious innovators, at companies and in academia, are the ones who create new fields like machine learning. But that doesn’t preclude a new mainstream vision of what most programming work actually is. For decades, pop culture (and, frankly, writers like me) have overpromoted the “lone genius” coder. We’ve cooed over the billionaire programmers of The Social Network and the Anonymized, emo, leather-clad hackers of Mr. Robot. But the real heroes are people who go to work every day and turn out good stuff—whether it’s cars, coal, or code.
+
+This article appears in the December 2016 issue. Subscribe now.
+
+Go Back to Top. Skip To: Start of Article.
+automationcodingmagazine-24.12 
+
+
+Skip Social. Skip to: Latest News.
+
+
+Share
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+Skip Social. Skip to: Latest News.
+
+
+Share
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+Tweet
+
+
+
+
+
+
+
+
+
+
+
+Comment
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+Skip Latest News. Skip to: Comments.
+
+
+
+
+
+
+Most Popular
+
+
+
+
+							The Cognitive Bias President Trump Understands Better Than You						
+
+
+
+psychology
+The Cognitive Bias President Trump Understands Better Than You
+Emily Dreyfuss
+
+
+
+
+
+
+
+							The Macedonian Teens Who Mastered Fake News						
+
+
+
+media
+The Macedonian Teens Who Mastered Fake News
+Samanth Subramanian
+
+
+
+
+
+
+
+
+
+
+							PewDiePie’s Fall Shows the Limits of ‘LOL JK’						
+
+
+
+Internet Culture
+PewDiePie’s Fall Shows the Limits of ‘LOL JK’
+Emma Grey Ellis
+
+
+
+
+
+
+
+							Security News This Week: Yahoo Got Hacked Again. No, Seriously						
+
+
+
+Security This Week
+Security News This Week: Yahoo Got Hacked Again. No, Seriously
+Brian Barrett
+
+
+
+
+
+
+
+							A Guide to Getting Past Customs With Your Digital Privacy Intact						
+
+
+
+Security
+A Guide to Getting Past Customs With Your Digital Privacy Intact
+Andy Greenberg
+
+
+
+
+
+
+
+							The Secret to Hacking Ikea Furniture Is More Ikea Furniture, Says Ikea						
+
+
+
+DIY
+The Secret to Hacking Ikea Furniture Is More Ikea Furniture, Says Ikea
+Margaret Rhodes
+
+
+
+
+
+
+
+							How The New York Times Is Clawing Its Way Into the Future						
+
+
+
+media
+How The New York Times Is Clawing Its Way Into the Future
+Gabriel Snyder
+
+
+
+
+
+
+
+							Spanner, the Google Database That Mastered Time, Is Now Open to Everyone						
+
+
+
+Cloud Computing
+Spanner, the Google Database That Mastered Time, Is Now Open to Everyone
+Cade Metz
+
+
+
+
+
+
+
+More Stories
+
+
+
+
+
+
+
+
+Skip Comments. Skip to: Footer.
+
+
+View comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sponsored Stories
+Powered By Outbrain
+
+
+Powered By Outbrain
+
+
+
+
+
+
+
+More Business
+
+
+
+
+
+ 
+
+cities
+
+									How Tech Campuses Hinder Diversity and Help Gentrification								
+Emma Grey Ellis
+
+
+
+
+
+
+
+
+
+ 
+
+Cable
+
+									The Sad Way Trump’s War with CNN Could Keep Cable Cheaper								
+Klint Finley
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+media
+
+									Journalism Fights for Survival in the Post-Truth Era								
+ echo esc_html( wired_get_the_byline_name( $related_video ) ); ?>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+social media
+
+											Mark Zuckerberg’s Answer to a World Divided by Facebook Is More Facebook										
+Cade Metz
+
+
+
+
+
+
+
+ 
+
+Joe Keohane
+
+											What News-Writing Bots Mean for the Future of Journalism										
+Joe Keohane
+
+
+
+
+
+
+
+
+
+ 
+
+								Photo Gallery							
+
+								Space Photos of the Week: Milky Way Dazzles in Zodiacal Light							
+WIRED Photo Department
+
+
+
+
+
+
+
+
+We Recommend
+Powered By Outbrain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get TheMagazine
+
+
+
+
+
+				Subscribe now to get 6 months for $5 - plus a FREE Portable Phone Charger.
+			
+
+
+
+
+
+Subscribe
+ 
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+Get OurNewsletter
+
+
+WIRED's biggest stories, delivered to your inbox.
+
+
+
+
+
+
+
+
+
+
+Submit
+
+
+
+Thank You
+
+
+
+Invalid Email
+
+
+
+
+
+
+
+
+
+
+Follow UsOn Twitter
+
+
+
+
+
+8 hours
+The dangers of internet-connected cars is made clear once again bit.ly/2lt5W7B
+
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Facebook
+
+
+
+Don't miss our latest news, features and videos.
+
+
+
+
+Follow
+
+
+
+
+We’re OnPinterest
+
+
+
+See what's inspiring us.
+
+
+
+
+Follow
+
+
+
+
+Follow UsOn Youtube
+
+
+
+Don't miss out on WIRED's latest videos.
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+
+
+
+Here’s The Thing With Ad Blockers
+
+
+
+
+
+
+
+We get it: Ads aren’t what you’re here for. But ads help us keep the lights on. So, add us to your ad blocker’s whitelist or pay $1 per week for an ad-free version of WIRED. Either way, you are supporting our journalism. We’d really appreciate it.
+
+
+
+Sign Up
+
+
+Already a member? Log in
+
+
+
+
+
+
+Thank You
+
+
+
+
+All of us at WIRED appreciate your support!
+
+
+Continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wired Facebook
+
+
+
+
+
+
+Wired Twitter
+
+
+
+
+
+
+Wired Pinterest
+
+
+
+
+
+
+Wired Youtube
+
+
+
+
+
+
+Wired Tumblr
+
+
+
+
+
+
+Wired Instagram
+
+
+
+
+
+
+
+Login
+
+
+Subscribe
+
+
+Advertise
+
+
+Site Map
+
+
+Press Center
+
+
+FAQ
+
+
+Customer Care
+
+
+Contact Us
+
+
+T-Shirt Collection
+
+
+Newsletter
+
+
+Wired Staff
+
+
+Jobs
+
+
+RSS
+
+
+Use of this site constitutes acceptance of our user agreement (effective 3/21/12) and privacy policy (effective 3/21/12). Affiliate link policy. Your California privacy rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+

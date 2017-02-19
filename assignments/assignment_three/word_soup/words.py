@@ -41,8 +41,8 @@ def parse(thread, q, output, in_dir):
         _logger.debug("[*] Thread {} parsing file {}".format(thread, path))
 
         mime = magic.from_file(path, mime=True)
-        if path[-5] != ".html" or mime == 'application/pdf':
-            _logger.debug("[*] Thread {}: file {} is not HTML best guess is {}"\
+        if mime != 'text/html':
+            _logger.debug("[*] Thread {} parsing file {}: not HTML best guess is {}"\
                     .format(thread, path, mime))
             q.task_done()
 

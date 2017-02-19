@@ -1,0 +1,1244 @@
+ 
+
+
+
+
+
+Show navigation
+Hide navigation
+
+Home
+About
+Resume'
+Presentations
+Appearances
+Writing
+Patents
+Blog
+Media
+Life
+Contact
+ 
+ 
+
+
+Jeremiah Grossman
+
+Chief of Security Strategy (SentinelOne), Professional Hacker, Black Belt in Brazilian Jiu-Jitsu, Off-Road Race Car Driver, Founder of WhiteHat Security, and Maui resident.	
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+About "Jer"
+
+            	Founder of WhiteHat Security. World-Renowned Professional Hacker. Brazilian Jiu-Jitsu Black Belt. Published Author. Influential Blogger. Off-Road Race Driver.
+				
+
+				Jeremiah Grossman's career spans nearly 20 years and has lived a literal lifetime in computer security to become one of the industry's biggest names. And since Jeremiah earned a Brazilian Jiu-Jitsu black belt, the media has described him as "the embodiment of converged IT and physical security.” Preventing attacks from the scariest cyber-criminals is all in a day's work for Jeremiah, but staying a keystroke ahead of the bad guys isn't easy. In 2001, Jeremiah founded WhiteHat Security, which today has one of the largest professional hacking armies on the planet. Let it sink in. Professional. Hacker. Army. 
+				
+
+				Jeremiah has received a number of industry awards, been publicly thanked by Microsoft, Mozilla, Google, Facebook, and many others for privately informing them of weaknesses in their systems -- a polite way of saying, ‘hacking them'. His research has included new ways to surreptitiously turn on anyone's computer video camera and microphone from anywhere across the Internet, sidestep corporate firewalls, abuse online advertising networks to take any website offline, hijack the email and bank accounts of millions, silently rip out saved passwords and surfing history from web browsers, and many other innovative cyber-attack techniques – some so insidious and fundamental that many still have not been fixed to this day. 
+				
+
+				Collectively, it's no surprise Jeremiah has been featured in the Wall Street Journal, Forbes, NY Times and hundreds of other media outlets around the world who rely upon his expertise regularly. Just type “Jeremiah Grossman” into your favorite search engine, you'll see.  Of course, all of this was after Mr. Grossman served as information security officer at Yahoo! Being both technical and business savvy, Jeremiah Grossman is the ultimate ‘white hat.' 
+            	
+ 
+
+ 
+
+
+
+
+Resume'
+
+
+
+ 
+
+
+
+SentinelOne 
+Palo Alto, CA
+Chief of Security Strategy May 2016 — Present
+ 
+WhiteHat Security 
+Santa Clara, CA
+Founder  2015 — Present
+Interim Chief Executive Officer  February 2014 — March 2015
+Founder & Chief Technology Officer  March 2004 — February 2014
+Founder & Chief Executive Officer  October 2001 — March 2004
+ 
+
+
+Yahoo! 
+Santa Clara, CA
+"The Hacker Yahoo"  December 1999 — July 2001
+ 
+Amgen 
+Thousand Oaks, CA
+Unix Systems Administrator  February 1998 — November 1999
+
+ 
+ 
+ 
+
+
+
+
+Presentations
+
+				The following are some of the more popular and content rich presentation slide decks Jeremiah has delivered over the years. This content has been delivered at top companies and universities around the world.
+        	    
+
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+
+
+
+
+
+An Insider's Guide to Cyber-Insurance and Security Guarantees  
+
+15 Years of Web Security: The Rebellious Teenage Years  
+
+7 Business Logic Flaws that put your Website at Risk  
+
+7 Ways to Scale Web Security  
+
+First-look Into the Future of Web Server Fingerprinting  
+
+Breaking Browsers: Auto-Complete  
+
+Challenges of Automated Web App Scanning  
+
+Correlating Static & Dynamic Analysis  
+
+Cross-Site Request Forgery  
+
+Security Religions & Risk Windows  
+
+Web App Sec: The Land that Information Security Forgot  
+
+Intranet Websites from the Outside  
+
+Intranet Websites from the Outside (Take 2)  
+
+An Insiders Guide to Cyber-Insurance and Security Guarantees  
+
+
+
+Why Web Security Is Fundamentally Broken  
+
+Million Browser Botnet  
+
+Phishing with Super Bait  
+
+Rich Web Application Security  
+
+Get Rich or Die Trying  
+
+Mo' Money Mo' Problems  
+
+Web App Sec: In theory & practice  
+
+15th Website Security Statistics Report  
+
+14th Website Security Statistics Report  
+
+13th Website Security Statistics Report  
+
+12th Website Security Statistics Report  
+
+11th Website Security Statistics Report  
+
+Ransomware is Here: Fundamentals Everyone Needs to Know  
+
+
+ 
+
+ 
+
+
+
+
+Appearances
+
+				Jeremiah has delivered nearly 400 speaking appearances, on 6 continents, and in 19 countries – so far. His subjects include hacking (of course), technology advancements, business success, effective leadership, and government policy. When Jeremiah speaks publicly, whether to small handfuls or audiences or many thousands, he targets events where he can have the most positive impact on the  lives of people and the security of the Internet. One thing is for sure, when Jeremiah is on stage, no one in the audience is ever bored.
+
+If you're a conference organizer interested in booking Jeremiah for an event, please email: .
+
+
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+2016
+
+
+
+Security Week's Security Conversations • May 2016   
+SnowFROC • February 2016 
+Black Hat Briefings USA • August 2016 
+ISSA Los Angeles • May 2016 
+
+
+Whistlekick Martial Arts Radio • April 2016   
+Stanford Business School • February 2016 
+Black Hat CISO Summit • August 2016 
+
+
+Command and Control • April 2016   
+AppSec Cali • January 2016 
+Greenhat • July 2016 
+
+
+
+2015
+
+
+
+DaggerCon • October 2015
+IT DEFENSE • February 2016
+
+
+DigitalDNA • October 2015
+RSA USA • February 2015
+
+
+OWASP AppSec Israel • October 2015
+
+
+
+2014
+
+
+
+OWASP Belfast • December 2014
+ISSA Los Angeles • May 2014
+
+
+AGC • February 2014
+
+
+Hackid • April 2014
+
+
+
+
+‹
+›
+
+
+
+
+
+
+2013
+
+
+
+OWASP Dublin • July 2013
+ISSA Honolulu • February 2013
+HackPra • July 2013
+
+
+Trust in US  • September 2013
+OWASP AppSec • November 2013
+AMEX Cyber Threat Summit • October 2013
+
+
+ShakaCon (Honolulu) • June 2013
+Blackhat USA • August 2013
+AISA National Conference • October 2013
+
+
+
+2012
+
+
+
+TEDxMaui • February 2012
+Goldman Sachs Global TechRisk Forum • March 2012
+RSA USA • February 2012
+
+
+ShakaCon (Honolulu) • June 2012
+OWASP AsiaPac (Sydney) • April 2012
+SANS AppSec Summit (Las Vegas) • April 2012
+
+
+OWASP AppSec EU (Ireland) • September 2012
+InnoTech • May 2012
+Hacker Halted (Miami) • May 2012
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2011
+
+
+
+ZonCon • February 2011
+OWASP Cincinnati • March 2011
+IT-Defense (Germany) • February 2011
+CFI-CERT • March 2011
+OWASP San Diego • July 2011
+CyLab (Pittsburg) • October 2011
+
+
+Confabulation • July 2011
+FS-ISAC • July 2011
+Blackhat USA • August 2011
+Infraguard Honoluly • September 2011
+LASCON (Austin) • October 2011
+BlueHat • November 2011
+
+
+Hacker Halted (Miami) • October 2011
+ISSA Los Angeles Summit • June 2011
+OWASP Boston • December 2011
+RSA USA • February 2011
+Ruxcon • April 2011
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2010
+
+
+
+BlueHat • October 2010
+RSA USA • March 2010
+IT Web • May 2010
+Blackhat USA • July 2010
+OWASP Bay Area • May 2010
+BayThreat • November 2010
+
+
+Stanford University • May 2010
+OWASP FROC • June 2010
+Web 2.0 Security & Privacy • May 2010
+SANS • June 2010
+ISSA LA • June 2010
+
+
+OWASP San Antonio • August 2010
+OWASP AppSec USA • October 2010
+San Jose State University • September 2010
+AppSec Brazil • November 2010
+HouSec • November 2010
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2009
+
+
+
+Confabulation III • December 2009
+Source Boston • March 2009
+OWASP SnowFROC • March 2009
+Blackhat USA • July 2009
+San Jose State University • March 2009
+USENIX Montreal • August 2009
+
+
+Cloud Computing Conference • November 2009
+SANS What Works • June 2009
+ISSA Infraguard Tampa • June 2009
+SC World • September 2009
+OWASP NY • October 2009
+OWASP Atlanta • October 2009
+
+
+SANS • April 2009
+IT Web • May 2009
+FS-ISAC • May 2009
+RSA USA • April 2009
+OWASP Los Angeles • May 2009
+IT Web • May 2009
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2008
+
+
+
+InfoSec World • March 2008
+RSA USA • April 2008
+Mini Metricon 2.5 • April 2008
+Hack in the Box (Dubai) • April 2008
+BlueHat • May 2008
+OWASP FROC • June 2008
+ISSA LA • May 2008
+
+
+FISC • July 2008
+Harvard University • July 2008
+Harvard University • July 2008
+OWASP Minneapolis • September 2008
+Hack in the Box (Kuala Lumpur) • October 2008
+OWASP AppSec USA • September 2008
+
+
+Web 2.0 Expo • April 2008
+Mini Metricon 3.5 • February 2008
+Stanford University ACSS • July 2008
+Blackhat USA • August 2008
+OWASP Chicago • August 2008
+OWASP Northern Virgina • April 2008
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2007
+
+
+
+ISSA NY Metro • May 2007
+Backhat USA • August 2007
+InfoSecurity NY • September 2007
+CSI Washington D.C. • November 2007
+CSI Washington D.C. • November 2007
+ISSA Sacramento • August 2007
+OWASP Philadelphia • March 2007
+OWASP Boston • March 2007
+Metricon 2.0 • August 2007
+ISACA NetSec • September 2007
+CSI • October 2007
+Vanguard • June 2007
+
+
+Washington State Software Users Group • March 2007
+OWASP Boulder • September 2007
+IT Security World • September 2007
+ISSA Symposium LA • October 2007
+ISSA Pugeot Sound • June 2007
+ISSA Portland • October 2007
+ISSA Los Angeles • July 2007
+Lockdown • August 2007
+CSI NetSec • June 2007
+OWASP New York Metro • September 2007
+OWASP Houston • October 2007
+
+
+TRISC • May 2007
+SANS AppSec Summit • August 2007
+Yahoo Security Conference • March 2007
+RSA USA • November 2007
+CB Technology Conference • May 2007
+OWASP Taiwan • September 2007
+OWASP San Antonio • October 2007
+ISSA Los Angeles / Orange County • October 2007
+OWASP AppSec USA • November 2007
+RSA USA • November 2007
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2006
+
+
+
+Stanford University • November 2006
+OWASP San Jose • June 2006
+Blackhat Japen • October 2006
+NSC / ISMC • September 2006
+
+
+Credit Union InfoSec • June 2006
+CUISPA • September 2006
+ISSA Portland • February 2006
+OWASP San Jose • December 2006
+
+
+OWASP San Francisco • September 2006
+Akamai Experience • July 2006
+Network Security Las Vegas • June 2006
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2005
+
+
+
+ISSA Sacramento • May 2005
+OWASP San Jose • April 2005
+ISACA Sacramento • May 2005
+Blackhat USA • August 2005
+
+
+NATEA • June 2005
+OWASP San Jose • June 2005
+Washington Software Alliance • September 2005
+Stanford University • November 2005
+
+
+ISACA NW Ohio • November 2005
+Backhat Japan • October 2005
+NetSecCon • March 2005
+
+
+
+2004
+
+
+
+AIPT Central Valley • June 2004
+ISSA Sacramento • March 2004
+ISACA Sacramento • March 2004
+
+
+NetSecCon • March 2004
+ISSA NorCal • October 2004
+
+
+ISSA San Francisco • January 2004
+Backhat Seattle • January 2004
+
+
+
+‹
+›
+
+
+
+
+
+
+
+2003
+
+
+
+NASA's Ames • November 2003
+SuperCIO • October 2003
+
+
+ISSA Puget Sound • June 2003
+Washington Software Alliance • August 2003
+
+
+Backhat Federal • October 2003
+Blackhat Seattle • February 2003
+
+
+
+2002
+
+
+
+Backhat Singapore • October 2002
+
+
+Backhat New Orleans • February 2002
+
+
+Backhat Seattle • October 2002
+
+
+
+2001
+
+
+
+Defcon 9 • August 2001
+
+
+Backhat Amsterdam • November 2001
+
+
+Air Force Information Technology Conference • June 2001
+
+
+
+‹
+›
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+
+
+
+
+Writing
+
+				Raising awareness about the many computer security threats people face is extremely important to Jeremiah, as is helping them best protect themselves. This is why for years Jeremiah has written extensively. Sometimes he published on his blog, sometimes for white papers, and sometimes for major media publications.
+				
+
+
+ 
+
+
+ 
+
+
+
+Website Security for Dummies
+
+
+
+
+XSS Attacks: Cross Site Scripting Exploits and Defense  
+
+
+
+
+
+
+201x: The Year of the Security Industry Breach  
+
+Clickjacking: Web pages can see and hear you  
+
+Advanced Web Attack Techniques using GMail  
+
+Stealing AutoComplete form data in Internet Explorer 6 & 7  
+
+The Safari AutoFill hack LIVES!  
+
+I know who your name, where you work, and live (Safari v4 & v5)  
+
+I used to know what you watched, on YouTube  
+
+I know if you're logged-in, anywhere  
+
+I know where you've been  
+
+Jeremiah's "I Know" series...  
+
+Thwarting SQL Web Hacks  
+
+Dark Reading: Obama’s War On Hackers  
+
+Web Application Security Today - Are We All Insane?  
+
+
+
+The Web Won't Be Safe or Secure until We Break It  
+
+An idea to help secure U.S. cybersecurity…  
+
+The Ad Blocking Wars: Ad Blockers vs. Ad-Tech  
+
+Hack Yourself First: National and Economic Security  
+
+How I got my start  
+
+5 Characteristics of a 'Sophisticated' Attack  
+
+How I got my start -- in Brazilian Jiu-Jitsu  
+
+TEDxMaui -- Hack Yourself First  
+
+Technology helps, but people matter most  
+
+In a cyber-war, we fight for economic well-being  
+
+All about Website Password Policies  
+
+Sandboxing: Welcome to the Dawn of the Two-Exploit Era  
+
+Infrastructure vs. Application Security Spending  
+
+
+ 
+
+
+
+
+Patents
+
+				As a testament to Jeremiah's creative mind and innovative ideas, he has been awarded several patents relating to his work in computer security.
+				
+
+ 
+
+
+
+
+Method for managing security vulnerability lifecycles  
+Patent #: 9239745
+
+
+
+
+Automated login session extender for use in security analysis systems  
+Patent #: 8925051
+
+
+
+
+System for detecting vulns in applications w/ client-side interfaces  
+Patent #: 8893282
+
+
+
+
+Auto response culling for web application security scan spidering  
+Patent #: 8863280
+
+
+
+
+Fuzzy classification matching in web app security scanners  
+Patent #: 8621639
+
+
+
+
+Pattern tracking and capturing human insight in a web app security scanner  
+Patent #: 8789187
+
+
+
+ 
+ 
+
+
+
+
+Media
+
+				From business press, to tech press, large and small, and everything in between, Jeremiah has been featured or quoted hundreds (maybe thousands) of times all over the world. He’s considered my many as the go to source for understanding a variety of topics across computer security. 
+				
+
+If you're working on a story and would like to ask Jeremiah a few questions, please email: .
+
+
+
+ 
+
+
+
+
+Famed WhiteHat Security Founder Joins SentinelOne  
+
+
+
+SentinelOne hires prominent cyber-security expert Jeremiah Grossman  
+
+
+
+Why Your Company Needs To Hack Itself  
+
+
+
+Apple Vs. FBI: Tech, Politics Weigh In On iPhone Case  
+
+
+
+ 
+
+
+
+
+How a security ninja cracked the password guarding his most valued assets  
+
+
+
+Building a Million Browser Botnet for Cheap  
+
+
+
+Expert hacks Hotmail in 1 line of code  
+
+
+
+Is Antivirus Software a Waste of Money?  
+
+
+
+ 
+
+
+
+
+Jeremiah Grossman on His New Role as CEO of WhiteHat Security  
+
+
+
+Hacked Opinions: The legalities of hacking – Jeremiah Grossman  
+
+
+
+WhiteHat Is Guaranteeing Security  
+
+
+
+Exclusive Interview with Jeremiah Grossman, professional HACKER  
+
+
+
+ 
+
+
+
+
+Apps to Manage Passwords So They Are Harder to Crack Than 'Password'  
+
+
+
+NSA leak rattles cybersecurity industry  
+
+	
+		  			 
+				
+	
+		  			 
+				
+
+
+ 
+
+
+
+
+Life
+
+				This man works hard and plays hard. When not hacking anything and everything, Jeremiah is often engaged in industry groups he founded, mentoring entrepreneurs, participating on a handful of company advisory boards, and racing around a dirt oval, swapping paint in his souped-up Toyota 4-Runner. Jeremiah is also a Brazilian Jiu-Jitsu black belt under Professor Luis Heredia at Maui Jiu-Jitsu, regularly trains with pro mixed martial arts fighters, and seeks adrenaline wherever he can find it. In his home life on Maui, Jeremiah is the devoted husband and father of three crazy whiz-kids.
+				
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+Get In Touch.
+
+
+
+				If you'd like to get in touch with Jeremiah directly, please email: . As Jeremiah already receives a tremendous volume of email, please keep your note as short and concise as possible. He promises not to take brevity as a lack of respect.
+                
+
+For media inquires: .
+
+For speaking inquires: . 
+
+Also, you may review Jeremiah's many past presentations and appearances.
+
+
+
+                
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

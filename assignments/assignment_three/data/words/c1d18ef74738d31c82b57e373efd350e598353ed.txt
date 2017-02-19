@@ -1,0 +1,383 @@
+
+
+
+
+
+
+CNET
+
+ 
+
+
+Análisis
+
+
+Audio
+Automotriz
+Cámaras
+Celulares
+Computadoras
+Electrodomésticos
+Portátiles
+Seguridad
+Sistemas Operativos
+Tabletas
+Tecnología de vestir
+Televisores
+Videojuegos
+ 
+
+
+Noticias
+
+
+CES
+Ciencia
+Cultura tecnológica
+Industria de la tecnología
+Mundial 2014
+MWC
+ 
+
+
+Videos
+
+
+Audio & Bocinas
+Cámaras
+Celulares
+CNET Top 5
+Cómo se Hace
+Conectados con CNET
+Entretenimiento en casa
+Informatica de vestir
+Portátiles
+Primer Vistazo
+Software y Apps
+Tabletas
+Televisores
+ 
+
+ 
+Cómo se hace
+
+
+Casa inteligente
+
+
+Carros
+
+
+
+Listas
+
+Los mejores celulares
+Los mejores celulares con Android
+Los mejores celulares con Windows Phone
+Los teléfonos con las mejores cámaras
+Las mejores tabletas
+Las mejores tabletas pequeñas
+Las mejores tabletas económicas
+Las tabletas con las mejores pantallas
+Las mejores portátiles
+Lo mejor de CES
+Lo mejor de MWC
+Guía de celulares
+Guía de celulares desbloqueados
+Guía de tabletas
+Guía de televisores
+Guía de compras navideñas
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Únete a CNET en Español
+
+Ventajas de ser miembro
+
+Ingresar a CNET en Español
+
+Registrado como Mi perfil
+Mi perfil
+Forums
+Salir
+
+
+
+
+
+
+Australia
+China
+Francia
+Alemania
+Japón
+Corea
+Reino Unido
+US Ediciones
+Inglés
+Español
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nuevo 'malware' dirigido a la Mac aprovecha 'bug' en Word
+El 'malware' aprovecha los macros de Word y, de infectar una computadora, puede monitorizar la cámara Web, robar llaveros de contraseñas e historial.
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Seguridad
+
+
+
+
+
+
+por 
+
+Óscar Gutiérrez
+
+9 de febrero de 2017 6:45 AM PST
+
+
+
+
+
+
+                                @oscargutiez
+                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                    Getty Images
+                                                Un nuevo malware poco amenazante fue localizado esta semana, y su objetivo eran las computadoras Mac, de acuerdo con Ars Technica. El malware, creado en el lenguaje de programación Python, está incluido en un documento de Word llamado "U.S. Allies and Rivals Digest Trump's Victory - Carnegie Endowment for International Peace", según el reporte. Cabe resaltar que el documento se comparte abiertamente en redes sociales.Cuando el usuario abre el archivo, el malware ejecuta un macro (o secuencia de acciones) y revisa si el sistema tiene instalado un firewall llamado LittleSnitch, descarga un paquete de archivos desde un sitio seguro, descarga el paquete y lo ejecuta. 
+
+Artículos relacionados
+
+​Nuevo 'malware' para Mac viene escondido dentro de un app común
+'Malware' enfocado en Apple usa Macs para infectar iPhones
+Cómo mantener tu seguridad en Internet: una lista imprescindible
+El reporte no es muy específico en el daño que podía hacer el malware una vez descargado el paquete de archivos, pero monitorizar cámaras Web, robar contraseñas y llaveros cifrados y acceder al historial de un navegador, está entre sus posibilidades. 
+
+ Como destaca el sitio 9to5Mac, este tipo de malware es muy primitivo, pues necesita de un error del usuario para ejecutarse. Para ejecutar un macro, Word primero solicita permiso del usuario para ejecutarse; incluso, el propio administrador de documentos sugiere deshabilitar los macros. "Al usar macros en un documento de Word, ellos [los hackers] están aprovechando el eslabón más débil: ¡humanos!", dice Patrick Wardle, director de investigación en la firma de seguridad informática Synack, quien encontró este malware. 
+
+
+Comparte tu opinión
+
+
+
+
+0
+comentarios
+
+
+
+
+
+Etiquetas
+Seguridad
+Computadoras
+Microsoft Office
+ 
+
+
+
+ 
+
+
+Artículos relacionados
+
+
+Yahoo notifica a usuarios afectados cómo ocurrió uno de sus ataques cibernéticos
+
+
+
+
+¡Atención, usuarios de Xbox y PSP! Su cuenta pudo haber sido 'hackeada'
+
+
+
+
+Esta herramienta de Facebook protege tus otras cuentas ante un ciberataque
+
+
+
+
+Agentes fronterizos están revisando perfiles de Facebook: abogada
+
+
+ 
+
+
+ 
+
+
+ Cerrar
+
+
+ 
+
+Comenta: Nuevo 'malware' dirigido a la Mac aprovecha...
+
+
+
+Conversación impulsada por Livefyre
+
+
+
+
+
+
+Siguiente artículo:
+            Los BeatsX están aquí para quedarse, e igual de fuerte pisa la TV de Facebook
+        
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+El ZTE Blade A610 Plus tiene mucha batería por poco precio
+El nuevo teléfono de ZTE pretende meterse en tu bolsillo con buenas características y una batería de 5,000mAh.
+por César Salza
+
+1:45 
+
+
+
+Close
+
+
+
+
+Drag
+
+
+
+Autoplay: SI
+Autoplay: NO
+
+
+
+
+
+
+ 
+
+
+
+
+
+CNET
+
+ 
+© CBS Interactive Inc.  /  Derechos reservados.
+Acerca de CNET
+Política de privacidad
+Acuerdo del usuario
+Condiciones de uso
+Acuerdo del usuario
+Centro de ayuda
+
+
+
+ 
+
+

@@ -1,0 +1,250 @@
+
+
+
+Products
+BackAlienVault USM
+BackUnified Security Management (USM) OverviewUSM for MSSPSecurity-as-a-ServiceThreat IntelligenceHow It WorksOSSIM (Open Source)Learn More
+BackPricingDeployment OptionsCompare ProductsProduct ReviewsData SheetsDocumentation Center
+Explore the Live Demo ›Solutions
+BackSecurity Essentials
+BackAsset Discovery & InventoryVulnerability Assessment & RemediationIntrusion Detection (IDS)Log Management & SIEM OverviewBehavioral MonitoringCompliance Management
+BackPCI DSS Compliance ManagementHIPAA ComplianceNERC CIP ComplianceISO 27001 ComplianceProtective Monitoring GPG13 ComplianceAlienVault for...
+BackBanking Cyber Security MonitoringCloud Security ManagementFederal EnvironmentsMSSPs
+See all solutions ›
+Get The New GuideOpen Threat Exchange
+BackAlienVault OTX
+BackOverviewIntegrate OTX with USMLoginTechnology PartnersPowered by OTX
+BackFree Threat DashboardFree Reputation Monitor
+Join OTX NowResources
+BackExplore ResourcesWatch Now
+BackVideosWebcastsProduct DemosRead Now
+BackHot TopicsUnified Security Management (USM)Intrusion DetectionSIEM & Log ManagementIncident ResponseThreat IntelligenceBlogsProduct Support
+BackSupport OverviewDocumentation CenterTrainingCertificationForums
+Read it NowAbout Us
+BackWho We Are
+BackMeet AlienVaultAlienVault LabsManagement Team, Board & AdvisorsOur CustomersCareersNewsroom
+BackNewsroom CentralPress CoveragePress ReleasesAwardsEventsBlogsCorporate Fact SheetCustomer Success
+BackSupport OverviewCustomer ResourcesLogin to Support PortalDocumentation CenterProduct ForumsTrainingCertificationAlienVault Professional ServicesPartners
+BackPartner Program OverviewPartner PortalResellersMSSPs/MSPsTechnology PartnersProfessional Services Partners
+Support
+Contact
+Online Demo ›
+
+
+
+
+Who We AreMeet AlienVaultAlienVault LabsManagement Team, Board & AdvisorsOur CustomersCareersNewsroomNewsroom CentralPress CoveragePress ReleasesAwardsEventsBlogsCorporate Fact SheetCustomer SuccessSupport OverviewLogin to Support PortalCustomer ResourcesDocumentation CenterProduct ForumsTrainingCertificationAlienVault Professional ServicesPartnersPartner Program OverviewLocate a PartnerPartner PortalResellersMSSPs/MSPsTechnology PartnersProfessional Services Partners
+
+Products
+
+Unified Security Management (USM) OverviewAccelerate threat detection & response with a unified approach
+Learn more about AlienVault's comprehensive approach to security monitoring and threat detection.
+USM Overview
+Threat Intelligence
+Deployment Options
+Compare USM Product Options
+Explore Our Online Demos 
+USM Anywhere (In the Cloud)Secure hybrid cloud infrastructure with a cloud-based platform
+Get complete security for AWS, Azure, on-premises environments, and more with our cloud-based platform!
+Product Overview
+How It Works
+Pricing
+Free Trial
+Online Demo
+Start a Free Trial 
+USM Appliance (On-Premises)Monitor on-premises environments from your own datacenter
+See how AlienVault's appliance-based security monitoring platform delivers complete visibility into your on-premises environments.
+Product Overview
+How It Works
+Pricing
+Free Trial
+Online Demo
+Explore Our Online Demo 
+Security as a Service (MSSP)Outsource to a MSSP or become a certified AlienVault MSSP
+Discover the benefits of outsourcing your security monitoring to an AlienVault Managed Security Solution Provider (MSSP) or becoming an AlienVault MSSP partner.
+Security as a Service Overview
+Find a MSSP
+USM for MSSPs
+Find a Partner 
+Open Threat Exchange (OTX) & OSSIMExplore our open threat sharing network & open source SIEM
+Learn more about AlienVault's open source SIEM offering and OTX, the world's largest open threat information sharing network.
+OSSIM (Open Source)
+Compare OSSIM to USM Products
+Open Threat Exchange (OTX)
+Compare Products 
+Free Trials & Product ResourcesStart a free trial or read product reviews, documentation, & more
+Learn more about Unified Security Management products or start a free test drive!
+Product Reviews
+Compare Products
+Data Sheets
+Documentation
+Online Demos & Free Trials
+Product Forums
+All Product ResourcesSolutions
+Cloud Security ManagementSecure your cloud & hybrid cloud environments
+Get complete security visibility and accelerate threat detection across your cloud environments.
+Cloud Security Management
+AWS Shared Responsibility Model
+SIEM for AWS
+SIEM for Azure
+AWS Intrusion Detection
+Azure Intrusion Detection
+See All Solutions 
+Asset Discovery + Vulnerability AssessmentIdentify your assets & remediate vulnerabilities
+Automate asset discovery, schedule vulnerability scans, and get remediation guidance all in one solution.
+Asset Discovery
+Vulnerability Assessment
+Network Vulnerability Scanning
+AWS Vulnerability Scanning
+Azure Vulnerability Scanning
+See All Solutions 
+Intrusion Detection + Behavioral MonitoringDetect threats & spot suspicious behavior
+Inspect traffic between devices, protect critical assets and systems, and spot potentially malicious behavior.
+Intrusion Detection Overview
+Host-based Intrusion Detection
+AWS Intrusion Detection
+Azure Intrusion Detection
+Behavioral Monitoring
+User Activity Monitoring
+See All Solutions 
+SIEM + Log ManagementAchieve advanced threat detection capabilities on Day One
+Discover how USM's integrated approach delivers powerful SIEM and log management in the cloud and on-premises.
+SIEM Overview
+SIEM for AWS
+SIEM for Azure
+Log Management for AWS
+Log Management for Azure
+See All Solutions 
+Compliance ManagementImplement essential controls to support compliance initiatives
+Get complete IT compliance management capabilities for your cloud and on-premises environments.
+FFIEC
+FISMA
+GLBA
+GPG13
+HIPAA
+ISO 27001
+NERC CIP
+PCI DSS
+See All Solutions 
+Solutions by IndustryExplore AlienVault’s industry-specific security solutions
+Each industry faces specific regulatory and security concerns. Discover how USM can meet your organization’s needs.
+Banking and Finance
+Education
+Energy Sector
+Federal
+Healthcare
+MSSPs
+Retail
+SCADA
+See All Solutions Open Threat Exchange
+AlienVault Open Threat Exchange (OTX)Join the world's first open threat intelligence community
+Learn how OTX enables collaborative defense with actionable, community-powered threat data.
+OTX Overview
+Integrate OTX with USM
+Login
+Join OTX
+Join The Open threat Exchange 
+Technology PartnersMeet our awesome technology partners leveraging OTX
+We work closely with leading technology partners to help organizations of all sizes achieve world-class security.
+Learn More
+Join The Open threat Exchange 
+Free Dashboards + Tools Powered by OTXCheck out our threat dashboards & free tools
+Explore global threat data and see if your organization is communicating with malicious hosts.
+Free Threat Dashboard
+Free Reputation Monitor
+Join The Open Threat Exchange Resources
+Hot TopicsExplore our most popular security resources
+Explore our extensive library of security ebooks, guides, white papers, infographics, and more.
+Intrusion Detection
+SIEM & Log Management
+Incident Response
+Threat Intelligence
+Security Operations Center
+Regulatory Compliance
+Explore All Resources 
+AlienVault BlogsGet practical security advice, new research & InfoSec insights
+Stay up-to-date on the latest trends in cybersecurity with AlienVault's blogs, contributed by industry-leading security experts.
+Read Our Blogs
+Subscribe to Blog Updates 
+Videos & WebcastsExplore our extensive library of watchable security content
+Tap into the deep knowledge of our security experts — explore our awesome collection of videos and webcasts!
+Videos
+Webcasts
+Product Demos
+Explore All Resources 
+Product Reviews, Case Studies, & DatasheetsDive into product details & see what customers have to say
+Read real feedback from customers and get in-depth information on how USM works.
+Product Reviews
+Case Studies
+Solution Briefs
+Data Sheets
+Explore All Resources 
+Product Support, Documentation, & TrainingGet answers to questions & become an AlienVault power user
+We are committed to your success. Explore our support resources, training opportunities, documentation, and more!
+Support Overview
+Support Portal
+Documentation Center
+Training
+Certification
+Professional Services
+Get Support Now 
+Community & Customer ResourcesContribute to forums & find resources in Mission Control
+Explore our product forums, connect with other AlienVault users, and peruse our collection of customer resources!
+Customer Resources (Mission Control)
+Product Forums
+Visit Mission Control 
+
+MoreSupportContactPartners
+Online Demo ›
+
+AlienVault® TrainingGet expert instruction and hands-on practice with Unified Security Management™ (USM™).
+
+
+Training Overview
+Overview
+
+
+Schedule
+Schedule
+
+
+Course descriptions
+Courses
+
+AlienVault® USM Appliance™ for Security Engineers (AUSE)
+AlienVault USM Appliance™: Advanced Deployment
+Launchpad for USM Anywhere™
+Launchpad for USM Appliance™
+USM Anywhere™: Deployment and Configuration
+
+FAQ
+FAQ
+
+Check out our courses:
+AlienVault® USM Appliance™ for Security Engineers (AUSE)5 Days*This 5-day course teaches you how to take advantage of the full power of USM Appliance, from deployment and architecture to reporting to threat detection and behavioral monitoring.Learn more ›
+See the schedule ›AlienVault USM Appliance™: Advanced Deployment2 DaysThis 2-day course follows the 5-day course and is designed for federated environments run by MSSPs and multi-tier environments operated by customersLearn more ›
+See the schedule ›Launchpad for USM Anywhere™Included with your purchase of USM AnywhereA self-paced, recorded course to introduce USM Anywhere and give an orientation to setup, configuration and product functionality.Learn more ›Launchpad for USM Appliance™Included with your purchase of USM AnywhereThe Launchpad On Demand course teaches you the basics of using USM Appliance to help you get started quickly. This self-paced course is an excellent introduction for security engineers and analysts, as well as other project team members and managers.Learn more ›USM Anywhere™: Deployment and Configuration2 daysThe 2-day AlienVault USM Anywhere: Deployment and Configuration course prepares you to implement and operate the AlienVault Unified Security Manager Anywhere product.Learn more ›
+See the schedule ›  Launchpad or 5-day course ›* Don’t have 5 days in a row to spare?Split up the course by attending the first two days of one session, and the last three days of a different session. See the details ›“The instructor for AlienVault’s Enterprise Security training class was a fountain of information and it was clear he understood the product at many levels. I feel comfortable with AlienVault USM since taking the class.”Stuart Irons SLM Asset & Security Management, Acora“I feel much more confident in my ability to administer AlienVault since taking the training.” Richard Kale IT Security, DUO NZ“I’m very satisfied with the course. Useful labs and great balance between theory and labs. The instructor has been a very knowledgeable trainer.” Rafael Rueda Director, OYDIA Strategic Security“The training provided our employee with the knowledge he needs to work with AlienVault and has given him additional ideas about what he can do with the product.” Susan L. Ellsworth Director, Information Technology, United Way of Central New MexicoQuestions? Email us: training@alienvault.comComparing the 5 Day Course with LaunchpadSubjectLaunchpad5 Day CourseUSM OverviewBasic Configuration Verifying OperationsAsset ManagementPolicies & ActionsCorrelation Directives Threat Detection Behavior Monitoring OTX Security AnalysisSystem Maintenance User Management Deployment Upgrading the USM Reporting Custom Plugins The Fine Print on Splitting Your 5-Day Course:This only applies to public classes. It is not available for private deliveries.The split is 2 days then 3 days. We regret that we cannot support any other combination.Students can attend either part In Person or Live Online.This doesn't change what is taught in class. It’s just a different way to take the class. All students still need to go through the entire class to learn how to plan, deploy, implement and operate USM to detect and mitigate modern threats.There is a chance you will have two different instructors. We can not guarantee the same instructor. This is a great opportunity for you to learn from two experts.Our SKU allows 180 days to take the training. Both parts of the training should be completed by 180 days after purchase.No substitutions: One person must take the entire course, no changing attendee after the split.
+
+From the Blog
+
+Javvad Malik
+Feb 17, 2017Planning for an InfoSec Conference
+
+Explore All Blog Posts ›
+Twitter
+LinkedIn
+Facebook
+Youtube
+Google Plus
+Slideshare
+SpiceworksWho We AreMeet AlienVaultAlienVault LabsManagement Team, Board & AdvisorsCustomersCareersContact UsNewsroomNewsroom CentralEventsBlogsPartnersPartner ProgramsPartner PortalProductsAlienVault USM OverviewUSM Anywhere (Cloud)USM Appliance (On-Premises)Security as a Service (MSSP)Community & Open Source OfferingsFree Trials & Product ResourcesOpen Threat ExchangeOpen Threat Exchange (OTX) OverviewTechnology PartnersOTX Dashboards & ToolsSolutionsCloud Security ManagementThreat DetectionIntrusion DetectionSIEM and Log ManagementVulnerability AssessmentResourcesResourcesAlienVault BlogsForumsCustomer SuccessSupport & ServicesLogin to Support PortalDocumentation CenterTrainingCertification
+Contact Us ›Questions?
+hello@alienvault.com© Copyright 2017  AlienVault, Inc.Privacy PolicyWebsite Terms of Use
+
+   
+      
+
+
+   
+
