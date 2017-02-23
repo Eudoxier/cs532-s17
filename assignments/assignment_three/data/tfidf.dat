@@ -1,0 +1,11 @@
+uri,hash,file,word_count,term_occurrences
+www.theatlantic.com/technology/archive/2017/02/what-happened-to-trumps-secret-hacking-intel/515889/,6391ce21cc8816c106a4e70af11628146b723bcc,../data/words/6391ce21cc8816c106a4e70af11628146b723bcc.txt,3341,1
+www.bloomberg.com/features/2016-how-to-hack-an-election/,6d848ad239a403faa9e6eec774e5f04dd3d9b347,../data/words/6d848ad239a403faa9e6eec774e5f04dd3d9b347.txt,5006,2
+www.generation-nt.com/nsa-harold-martin-vol-outils-hacking-tao-actualite-1939093.html,61b814f84bfbc8d437fb16e15df5901fbda3a6e3,../data/words/61b814f84bfbc8d437fb16e15df5901fbda3a6e3.txt,1355,6
+www.independent.co.uk/news/uk/crime/isis-islamist-hackers-nhs-websites-cyber-attack-syrian-civil-war-images-islamic-state-a7567236.html,eb0ba593fbec45be4001ee46433713d25cb615fb,../data/words/eb0ba593fbec45be4001ee46433713d25cb615fb.txt,1281,1
+www.bbc.com/news/technology-38918498,83a5dea4c531b9951d34d09ed620ac55acaeb05e,../data/words/83a5dea4c531b9951d34d09ed620ac55acaeb05e.txt,825,1
+www.wired.com/2017/02/tom-bossert-trump-cybersecurity/,543fe6f1309fabf6a4e8cf220370cd7f81d876b7,../data/words/543fe6f1309fabf6a4e8cf220370cd7f81d876b7.txt,1807,2
+www.redmondpie.com/firm-that-helped-fbi-break-into-san-bernardino-iphone-gets-hacked-tools-leaked-online/,74ee2852ae0adb0dcedd9cb50913cfbe291f7f6d,../data/words/74ee2852ae0adb0dcedd9cb50913cfbe291f7f6d.txt,845,4
+www.generation-nt.com/nsa-harold-martin-vol-outils-hacking-tao-actualite-1939093.html,61b814f84bfbc8d437fb16e15df5901fbda3a6e3,../data/words/61b814f84bfbc8d437fb16e15df5901fbda3a6e3.txt,1355,6
+www.redmondpie.com/firm-that-helped-fbi-break-into-san-bernardino-iphone-gets-hacked-tools-leaked-online/,74ee2852ae0adb0dcedd9cb50913cfbe291f7f6d,../data/words/74ee2852ae0adb0dcedd9cb50913cfbe291f7f6d.txt,845,4
+www.theregister.co.uk/2017/02/08/honeypots_feature_and_how_to_guide/?mt=1486645650097,fd5691128573f174a6f6b8bb1357e2dde087b99e,../data/words/fd5691128573f174a6f6b8bb1357e2dde087b99e.txt,1389,2

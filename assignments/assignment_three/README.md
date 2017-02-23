@@ -7,7 +7,7 @@
     *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
 
 &nbsp;
-## Download the 1000 URIs from [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
+## 1. Download the 1000 URIs from [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
 
 The `get_html.sh` script will download the HTML for all links in the
 file specified by the path passed to it. It uses `wget` with the
@@ -23,6 +23,13 @@ are large enough that the default recursion limit for Python must
 be increased, this can be done using the `-r` flag to pass a limit
 suitable for the machine running the program.
 
+
+&nbsp;
+## 2. Choose a query term and compute TFIDF values
+
+
+&nbsp;
+##  3. Now rank the same 10 URIs from question #2
 
 
 &nbsp;
@@ -120,6 +127,8 @@ for TF), you can use `wc`:
 It won't be completely accurate, but it will be probably be
 consistently inaccurate across all files.  You can use more 
 accurate methods if you'd like, just explain how you did it.  
+
+*   Term Frequency: number of times a word appears in a document.
 
 Don't forget the log base 2 for IDF, and mind your significant
 digits!

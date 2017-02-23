@@ -1,0 +1,13 @@
+rpy2
+pandas
+wcwidth
+ptyprocess
+ipykernel
+jsonschema
+backports_abc
+zmq
+markupsafe
+packaging
+appdirs
+jupyter
+jupyterthemes

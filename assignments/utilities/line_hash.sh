@@ -18,10 +18,10 @@ warning() {
 }
 
 fetch() {
-    echo "link, hash" > $OUT_FILE
+    echo "link,hash" > $OUT_FILE
     while read uri; do
         local hash=$(echo -n "$uri" | sha1sum | cut -d ' ' -f 1)
-        echo "$uri, $hash" | tee -a  $OUT_FILE
+        echo "$uri,$hash" | tee -a  $OUT_FILE
     done < "$IN_FILE"
 }
 
