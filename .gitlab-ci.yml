@@ -22,19 +22,19 @@ variables:
 
 # Python
 
-build_assignment_one:
-    image: python 
-    stage: build 
-    script:
-        - cd assignments/assignment_one/
-        - pip3 install -r requirements.txt
-        - python3 setup.py sdist bdist_wheel
-    artifacts:
-        name: "${CI_PROJECT_NAME}_${CI_PIPELINE_ID}"
-        paths:
-            - assignments/assignment_one/dist/
-    only:
-        - master
+#build_assignment_one:
+#    image: python 
+#    stage: build 
+#    script:
+#        - cd assignments/assignment_one/
+#        - pip3 install -r requirements.txt
+#        - python3 setup.py sdist bdist_wheel
+#    artifacts:
+#        name: "${CI_PROJECT_NAME}_${CI_PIPELINE_ID}"
+#        paths:
+#            - assignments/assignment_one/dist/
+#    only:
+#        - master
         
 
 test_assignment_one:
