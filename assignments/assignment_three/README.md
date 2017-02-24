@@ -2,8 +2,7 @@
 &nbsp;
 
 *   [Assignment Three Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_three.pdf)
-*   Jupyter Notebook
-    *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/tfidf.html)
+*   [TFIDF Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
 
 &nbsp;
 ## 1. Download the 1000 URIs from [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
@@ -26,10 +25,15 @@ suitable for the machine running the program.
 &nbsp;
 ## 2. Choose a query term and compute TFIDF values
 
+The [TFIDF Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
+gathers the data and calculates the TFIDF values.
+To run it for a differenet term just change the
+`TERM` variable.
 
 &nbsp;
 ##  3. Now rank the same 10 URIs from question #2
 
+The results are detailed in the assignment report.
 
 &nbsp;
 # Assignment Description
