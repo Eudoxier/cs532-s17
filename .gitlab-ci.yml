@@ -139,7 +139,7 @@ release_carbon_date:
 
 # Paper
 
-build_assignment_two_report:
+build_assignment_three_report:
     image: datenstrom/debian-latex
     stage: build
     script:
