@@ -133,6 +133,31 @@ release_carbon_date:
         - master
 
 
+####################
+# Assignment three #
+####################
+
+# Paper
+
+build_assignment_two_report:
+    image: datenstrom/debian-latex
+    stage: build
+    script:
+        - apt-get --yes update && apt-get --yes install texlive-latex-extra python-pygments
+        - apt-get --yes install build-essential
+        - pdflatex --version
+        - cd assignments/assignment_three/docs/
+        - make -k
+    tags:
+        - docker
+    artifacts:
+        paths:
+            - assignments/assignment_two/docs/assignment_three.pdf
+    only:
+        - master
+        - site
+
+
 
 ########
 # Site #
@@ -159,10 +184,12 @@ pages:
           #        - cat assignments/assignment_two/notebook-requirements.txt | xargs -n 1 -L 1 pip install
         - jupyter nbconvert -y --to html assignments/assignment_one/graph_structure/graph_structure.ipynb
         - jupyter nbconvert -y --to html assignments/assignment_two/notebooks/*.ipynb
+        - jupyter nbconvert -y --to html assignments/assignment_three/notebooks/*.ipynb
         - mkdir -p public/notebooks/
         - cp assignments/assignment_one/graph_structure/graph_structure.html public/notebooks
         - cp assignments/assignment_two/notebooks/*.html public/notebooks
         - cp assignments/assignment_two/notebooks/*.png public/notebooks
+        - cp assignments/assignment_three/notebooks/*.html public/notebooks
     tags:
         - docker
     artifacts:
