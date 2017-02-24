@@ -25,7 +25,7 @@ fetch() {
         wget -O data/raw_html/"$hash" "$uri"
         if [[ "$?" != 0 ]]; then
             echo >&2 '[*] Error downloading file'
-            FAILURES=$(expr FAILURES + !)
+            FAILURES=$(expr FAILURES + 1)
         else
             echo >&2 '[*] Success'
         fi
