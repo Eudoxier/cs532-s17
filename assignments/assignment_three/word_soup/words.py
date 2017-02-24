@@ -49,9 +49,6 @@ def parse(thread, q, output, in_dir):
         with codecs.open(path, 'r', encoding='utf-8', errors='ignore') as html:
             try:
                 soup = bs(html, 'lxml')
-#            except html.parser.HTMLParseError as e:
-#                _logger.error("[*] BeautifulSoup Python html.parser failed \
-#                        for file {} with error:\n".format(path, e))
             except RuntimeError as e:
                 _logger.error("[*] BeautifulSoup failed parsing \
                         file {} with error:\n".format(path, e))
