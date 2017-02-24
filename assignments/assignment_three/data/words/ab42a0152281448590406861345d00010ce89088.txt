@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+David R. MacIver
+
+
+
+Menu
+Skip to content
+Home
+Blog
+CV
+Consulting
+Contact Me
+Support my writing
+ 
+
+
+
+
+
+
+Home
+
+
+Hi. I’m David.
+I’m the primary author of Hypothesis, a property-based testing system for Python.
+I consult on software quality and testing, and offer a variety of training courses and workshops, especially centred around the use of Hypothesis.
+I’m also various other things. By training I’m a mathematician, but my work these days is as a software developer. I have a tendency to rant entertainingly, a fondness for quality and an annoying tendency to tell you why you’re doing it wrong and you should do it my way instead.
+If that sounds like the sort of thing you just can’t wait to have more of, there’s a blog here. Have a read if you want. It’s mostly about programming and mathematics, but also ranges across anything else I happen to be thinking about at the moment, including feminism, general philosophy, cooking, fiction, game design and my manifesto for what I will do when I eventually take over the world. If you want to see some highlights, I’ve collected a list of some of what I regard as the “best” posts. This contains all of my most popular ones and a bunch of others besides.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

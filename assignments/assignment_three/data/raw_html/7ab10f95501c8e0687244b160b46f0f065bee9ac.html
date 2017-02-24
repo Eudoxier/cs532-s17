@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+<link rel="icon" href="//www.irishnews.com/static/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="theme-color" content="#000000">
+<link rel="manifest" href="https://www.irishnews.com/static/manifest.webmanifest">
+
+<!-- PICTUREFILL -->
+<script src="//www.irishnews.com/static/dist/assets/matchmedia.js"></script>
+<script src="//www.irishnews.com/static/dist/assets/picturefill12.js"></script>
+
+<!-- Fonts -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="//use.typekit.net/yiy0gko.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<!-- core css for irishnews -->
+
+<link href="//i0n0.com/widgets/css/widget.css" rel="stylesheet" />
+<script src="//i0n0.com/widgets/scripts/widget.js" async></script>
+
+<link href="//www.irishnews.com/static/dist/css/irishnews.css" rel="stylesheet">
+<link href="//www.irishnews.com/static/dist/css/skins.css" rel="stylesheet">
+<!-- no core css -->
+<link href="//www.irishnews.com/static/dist/css/irishnews-nocore.css" rel="stylesheet">
+
+<!--[if lt IE 8]>
+<link href="//www.irishnews.com/static/dist/assets/bootstrap-ie7.css" rel="stylesheet">
+<link href="//www.irishnews.com/static/dist/assets/font-awesome-3.2.1.min.css" rel="stylesheet" >
+<link href="//www.irishnews.com/static/dist/assets/font-awesome-ie7-3.2.1.min.css" rel="stylesheet" >
+<link href="//www.irishnews.com/static/dist/assets/ie7.css" rel="stylesheet">
+<script src="//cdnjs.cloudflare.com/ajax/libs/json3/3.3.2/json3.min.js"></script>
+<![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+<!-- PRINT -->
+<link href="//www.irishnews.com/static/dist/css/print.css" rel="stylesheet" media="print">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="//www.irishnews.com/static/dist/js/jquery.min.js">\x3C/script>')</script>
+
+<script src="//www.irishnews.com/static/dist/js/jquery.cookie.js"></script>
+<script src="//www.irishnews.com/static/dist/js/jquery.lazy.min.js"></script>
+
+<!-- ADV LOTAME -->
+<script src="//tags.crwdcntrl.net/c/6250/cc.js?ns=_cc6250" id="LOTCC_6250"></script>
+<script>_cc6250.bcp();</script>
+<script type="text/javascript">
+var cc_client_id= 4299;
+document.write('<scr'+'ipt type="text/javascript" src="//ad.crwdcntrl.net/5/c='+cc_client_id.toString()+'/pe=y/callback=processauds"></scr'+'ipt>');
+var adtechCCvals = "";
+function processauds(adtechccauds) {
+	if (typeof(adtechccauds) != 'undefined'){
+		for (var cci = 0; cci < adtechccauds.Profile.Audiences.Audience.length;cci++){
+			if (cci > 0) adtechCCvals += ":";
+			adtechCCvals +=adtechccauds.Profile.Audiences.Audience[cci].abbr;
+		}
+	}
+}
+</script>
+
+<script>
+    var path = window.location.pathname;
+    var pathParts = path.split('/');
+    if (pathParts.length > 2) {
+        var fileName = pathParts.pop(); // should be empty string, but may be content.html
+        var headLineAndID = pathParts.pop(); // headline and articleId hyphen separated
+        var articleId = headLineAndID.split('-').pop();
+        if (adtechCCvals != '') {
+            adtechCCvals += ":";
+        }
+        adtechCCvals += "articleId:" + articleId;
+    }
+</script>
+
+	<!--ADV GRAPESHOT -->
+	<script type="text/javascript">
+	var gs_channels="DEFAULT";
+	var gsurl=window.location!=window.top.location?document.referrer:window.location;
+	document.write('<scr'+'ipt type="text/javascript" src="//mediaforce.grapeshot.co.uk/irishnews/channels.cgi?url='+encodeURIComponent(gsurl)+'"></scr'+'ipt>');
+	</script>
+
+
+<!-- ADV -->
+<!--
+<script type="text/javascript" src="//aka-cdn.adtech.de/dt/common/DAC.js"></script>
+<script>
+var urlprotocol   = window.location.protocol;
+urlprotocol = urlprotocol.replace(":","");
+ADTECH.config.website = { protocol: urlprotocol, server: 'adserver.adtech.de', network: '1641.1',siteid: '763393',kv: {  KVabbr: adtechCCvals }, fif: {usefif: true}};
+</script>
+-->
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+    var pathParts = window.location.pathname.split('/');
+	var sectionName = 'home';
+	if (pathParts.length > 1 && pathParts[1] != "") {
+		sectionName = pathParts[1];
+	}
+	var isProduction = (window.location.host == 'www.irishnews.com') ? "production" : "stage";
+    googletag.cmd.push(function () {
+        var curtainMapping = googletag.sizeMapping().
+        addSize([0,0],[]).
+        addSize([1200, 200], [170,1086]).
+        build();
+
+        var leaderboardMapping = googletag.sizeMapping().
+        addSize([0,0], [[300,50], [320, 50]]).
+        addSize([728, 90], [728,90]).
+        addSize([1024, 768], [[728,90], [970, 250]]).
+        build();
+
+        var mpu4Mapping = googletag.sizeMapping().
+        addSize([0,0], [300,250]).
+        addSize([768, 90], []).
+        build();
+
+        var mpu1Mapping = googletag.sizeMapping().
+        addSize([0,0], [[300,250], [300,600]]).
+        build();
+
+        googletag.defineSlot('/29764278/IrishNews_Page_Right_Side', [170, 1086], 'irishnews_ad_right_side').
+        defineSizeMapping(curtainMapping).
+        setCollapseEmptyDiv(true).
+        addService(googletag.pubads());
+
+        googletag.defineSlot('/29764278/IrishNews_Page_Left_Side', [170, 1086], 'irishnews_ad_left_side').
+        defineSizeMapping(curtainMapping).
+        setCollapseEmptyDiv(true).
+        addService(googletag.pubads());
+
+		googletag.defineSlot('/29764278/IrishNews_MPU_1', [[300, 250], [300, 600]], 'irishnews_ad_slot_mpu_1')
+			.defineSizeMapping(mpu1Mapping)
+			.setCollapseEmptyDiv(true)
+			.addService(googletag.pubads());
+
+        googletag.defineSlot('/29764278/IrishNews_MPU_4', [[300, 250], [300, 600]], 'irishnews_ad_slot_mpu_4')
+            .defineSizeMapping(mpu4Mapping)
+			.setCollapseEmptyDiv(true)
+            .addService(googletag.pubads());
+
+        googletag.defineSlot('/29764278/Irish_News_MPU_2', [300, 250], 'irishnews_ad_slot_mpu_2')
+            .setCollapseEmptyDiv(true)
+			.addService(googletag.pubads());
+        googletag.defineSlot('/29764278/IrishNews_MPU_3', [300, 250], 'irishnews_ad_slot_mpu_3')
+            .setCollapseEmptyDiv(true)
+			.addService(googletag.pubads());
+        googletag.defineSlot('/29764278/IrishNews_Page_Top', [[728, 90], [320, 50], [300, 50], [970, 250]], 'irishnews_ad_slot_page_top')
+			.defineSizeMapping(leaderboardMapping)
+            .setCollapseEmptyDiv(true)
+			.addService(googletag.pubads());
+
+        googletag.pubads().setTargeting("sitename", "irishnews");
+        googletag.pubads().setTargeting("section", 'in_' + sectionName);
+		googletag.pubads().setTargeting("in_environment", isProduction);
+
+        var path = window.location.pathname;
+        var pathParts = path.split('/');
+        if (pathParts.length > 2) {
+            var fileName = pathParts.pop(); // should be empty string, but may be content.html
+            var headLineAndID = pathParts.pop(); // headline and articleId hyphen separated
+            var articleId = headLineAndID.split('-').pop();
+            googletag.pubads().setTargeting("in_articleid", articleId);
+        }
+
+        googletag.enableServices();
+    });
+
+    /*
+	 * This code disables adtech and uses DFP instead
+	 */
+    ADTECH = {};
+    ADTECH.config = {};
+    ADTECH.config.placements = [];
+    ADTECH.enqueueAd = function (placement) {
+        var adSize = placement.split('_').pop();
+        var adPosition = '';
+        switch (adSize) {
+			case "728x90":
+			    adPosition = 'irishnews_ad_slot_page_top';
+			    break;
+            case "1":
+                adPosition = 'irishnews_ad_slot_mpu_1';
+				break;
+		}
+		document.getElementById(placement).setAttribute('id' , adPosition);
+        googletag.cmd.push(function () {
+            googletag.display(adPosition);
+        });
+    };
+    ADTECH.executeQueue = function () {
+    };
+
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n; n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','//connect.facebook.net/en_US/fbevents.js');
+fbq('init', '901398199913408');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=901398199913408&ev=PageView&noscript=1" /></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script>
+    (function (t, h, u, n, d, e, r) {
+        t[d] = t[d] || function () {
+                (t[d].q = t[d].q || []).push(arguments)
+            };
+        e = h.createElement(u);
+        r = h.getElementsByTagName(u)[0];
+        e.async = 1;
+        e.src = n;
+        r.parentNode.insertBefore(e, r);
+    })(window, document, 'script', '//cdn.socialhoney.co/widget/sh.js', 'sh');
+
+    sh('create', 'SH-77699495-7');
+</script>
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/includes/customheader--><title>Hacker reveals contacts with Russian spy agency - The Irish News</title>
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@irish_news">
+	<meta name="twitter:title" content="Hacker reveals contacts with Russian spy agency">
+	<meta name="twitter:description" content="A member of a Russian hacking group involved in blackmailing top officials has said that it had contacts with Russia&#39;s top domestic security agency.">
+	<meta name="twitter:creator" content="@irish_news">
+    <meta name="twitter:domain" content="www.irishnews.com">
+
+	<meta property="og:url" content="http://www.irishnews.com/news/2017/02/10/news/hacker-reveals-contacts-with-russian-spy-agency-926781/" >
+	<meta property="og:title" content="Hacker reveals contacts with Russian spy agency">
+	<meta property="og:description" content="A member of a Russian hacking group involved in blackmailing top officials has said that it had contacts with Russia&#39;s top domestic security agency.">
+    <meta property="og:site_name" content="The Irish News"/>
+
+    <meta property="article:published_time" content="2017-02-09T14:00:00Z" />
+        <meta name="author" content="Vladimir Isachenkov">
+    <meta name="description" content="A member of a Russian hacking group involved in blackmailing top officials has said that it had contacts with Russia&#39;s top domestic security agency.">
+
+
+
+<meta name="ff:page-type" content="article">
+  <meta name="ff:theme-category" content="news">
+  <meta name="kt:page-type" content="article">
+  <meta name="kt:section-path" content="/news">
+  <meta name="kt:id" content="926781">
+  <meta name="kt:title" content="Hacker reveals contacts with Russian spy agency">
+
+  <meta name="keywords" content="Shaltai Boltai,russia,Federal Security Service,hacking]," >
+  <meta property="og:image" content="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/09/143009799-e83753c4-4899-4284-b9f4-4ae63711d97b.jpg">
+    
+    <meta name="twitter:image" content="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/09/143009799-e83753c4-4899-4284-b9f4-4ae63711d97b.jpg">
+  </head>
+
+<body class="masthead-banner article-single-template section-news">
+
+<script type="text/javascript">
+var confs = {
+  'title'       : 'IrishNews',
+  'baseUrl'     : '//www.irishnews.com',
+  'collection'  : 'irishnews',
+  'scheme'      : 'http://www.irishnews.com',
+  'solr': {
+    'core'      : '',
+    'server'    : '',
+    'port'      : ''
+  },
+  'piwik': {
+      'serverUrl' : 'irishnews.com/piwik/',
+      'site'      : '',
+      'siteId'  : '1',
+      'port'      : '80'
+  }
+};
+</script>
+<header id="main-header">
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PP8SCB"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PP8SCB');</script>
+<!-- End Google Tag Manager -->
+
+   <!-- HEADER for desktop -->
+
+<div id="topbar" class="hidden-xs hidden-sm">
+        <div class="container">
+          <ul id="topbar__personalbar" class="list-inline">
+            <li class="personalbar__subscription-button"><a title="subscriptions" href="http://www.irishnews.com/subscriptions">Subscribe from &pound;1</a></li>
+            <li class="personalbar__registereduser hide"><span class="fa fa-user icon-user"></span>&nbsp;<a title="Manage your profile" href="#">User</a></li>
+            <li class="personalbar__logout hide"><a title="Logout" href="#"><span class="fa fa-sign-out icon-signout"></span></a></li>
+            <li class="personalbar__login halfOpacity" ><a title="Login" href="http://www.irishnews.com/login" >Log in</a></li>
+            <li class="personalbar__needhelp">
+              <a class="personalbar__needhelp_button" href="#">Need help?</a>
+              <ul class="list-unstyled hide">
+                <li><a href="/faq" title="FAQ">FAQ</a></li>
+                <li><a href="/contactus" title="Contact us">Contact us</a></li>
+              </ul>
+            </li>
+          </ul><!-- /#topbar__list -->
+          <ul id="topbar-list" class="list-inline">
+<li><a href="http://www.irishnews.com/epaper/newsstand/newsstand.php">Today's paper</a></li>
+			<li><a href="http://www.irishnews.com/notices">Notices</a></li>
+            <li><a href="https://www.irishnews.com/notice/new">Place a notice</a></li>
+            <li><a href="https://shop.irishnews.com/">Shop</a></li>
+          </ul><!-- /#topbar__list -->
+        </div><!-- /.container -->
+</div><!-- /#topbar --><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/includes/topbar--><div id="" class="banner-container text-center">
+      <div id="irishnews_ad_slot_page_top"><script>
+          googletag.cmd.push(function() { googletag.display('irishnews_ad_slot_page_top'); });
+      </script></div>
+  </div>
+
+  <div id="irish-header" class="hidden-xs hidden-sm">
+    <div class="container">
+        <div class="col-sm-2 col-md-3 nopadding-sm">
+        </div><!-- col-sm-3 -->
+        <div class="col-sm-8 col-md-6">
+            <div id="irish-header-logo-wrapper" class="text-center">
+        <span id="irish-header-fit_the_logo">
+          <a href="http://www.irishnews.com" title="Back to home"><img alt="Irishnews Logo" src="/static/images/header-logo.jpg" id="irishnews-logo" class="img-responsive" /></a>
+          <span id="irish-header-date"></span>
+        </span><!-- /#irish-header-fit_the_logo -->
+            </div><!-- /#irishnews-logo-wrapper -->
+        </div><!-- col-sm-6 -->
+        <div class="col-sm-2 col-md-3">
+            <div id="irish-header-social-wrapper" class="text-right">
+                <a href="https://twitter.com/irish_news" title="IrishNews Twitter account" class="fa fa-twitter icon-twitter" target="_blank"></a>
+                <a href="https://www.facebook.com/IrishNewsLtd" title="IrishNews Facebook Page" class="fa fa-facebook-square icon-facebook-sign" target="_blank"></a>
+                <a href="https://instagram.com/theirishnews" title="IrishNews Instagram" class="fa fa-instagram icon-instagram" target="_blank"></a>
+            </div><!-- /#irish-header-social-wrapper -->
+        </div><!-- col-sm-3 -->
+    </div><!-- /.container -->
+</div><!--/#irish-header -->
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/includes/masthead--><nav id="main-nav" class="hidden-xs hidden-sm">
+  <div class="container" id="main-nav-inset-wrapper">
+    <div id="main-navul-wrapper">
+      <div id="navpanel-sharing" >
+        <div class="navpanel-sharing__wrapper">
+          <div class="navpanel-sharing__logo">
+            <a href="/" title="Back to homepage"><img src="//www.irishnews.com/static/images/header-affixedlogo.gif" id="irishnews-logo-affix1" class="img-responsive" alt="Logo" /></a>
+          </div><!-- ./navpanel-sharing__logo-->
+
+          <div class="navpanel-sharing__socialbuttons">
+            <ul class="list-inline">
+              <li><a href="#" class="navpanel-sharing__socialbuttons__facebook" ><span class="fa fa-facebook icon-facebook"></span>&nbsp;Share on facebook</a></li>
+              <li><a href="#" class="navpanel-sharing__socialbuttons__twitter" ><span class="fa fa-twitter icon-twitter"></span>&nbsp;Share on twitter</a></li>
+              <li><a href="#" class="navpanel-sharing__socialbuttons__email" ><span class="fa fa-envelope icon-envelope"></span>&nbsp;Share via email</a></li>
+              <li><a href="#" class="navpanel-sharing__socialbuttons__gplus" ><span class="fa fa-google-plus icon-google-plus"></span></a></li>
+              <li><a href="#" class="navpanel-sharing__socialbuttons__pinterest" ><span class="fa fa-pinterest icon-pinterest"></span></a></li>
+            </ul>
+          </div><!-- /.navpanel-sharing__socialbuttons -->
+
+        </div><!-- /.navpanel-sharing__wrapper -->
+      </div><!-- /#navpanel-sharing -->
+
+      <ul id="navpanel" class="nav nav-justified">
+        <li id="affixedlogo" ><a href="/" title="Back to homepage"><img src="//www.irishnews.com/static/images/header-affixedlogo.gif" id="irishnews-logo-affix2" class="img-responsive" alt="Logo" /></a></li>
+        <li><a href="/" title="Back in home"><span class="fa fa-home icon-home"></span></a></li>
+        <!-- LISTA ITEMS -->
+          <li class="tabmenu"><a class="section-news"  href="http://www.irishnews.com/news/">News</a></li>
+          <li class="tabmenu"><a class="section-sport"  href="http://www.irishnews.com/sport/">Sport</a></li>
+          <li class="tabmenu"><a class="section-business"  href="http://www.irishnews.com/business/">Business</a></li>
+          <li class="tabmenu"><a class="section-lifestyle"  href="http://www.irishnews.com/lifestyle/">Life</a></li>
+          <li class="tabmenu"><a class="section-magazine"  href="http://www.irishnews.com/magazine/">Magazine</a></li>
+          <li class="tabmenu"><a class="section-arts"  href="http://www.irishnews.com/arts/">Arts</a></li>
+          <li class="tabmenu"><a class="section-familynotices"  href="http://www.irishnews.com/notices/">Notices</a></li>
+          <li class="tabmenu"><a class="section-opinion"  href="http://www.irishnews.com/opinion/">Opinion</a></li>
+          <li class="tabmenu"><a class="section-other"  href="http://www.irishnews.com/puzzles/">Puzzles</a></li>
+          <li class="tabmenu"><a class="section-galleries"  href="http://www.irishnews.com/photos/">Photos</a></li>
+          <li class="tabmenu"><a class="section-"  href="http://www.irishnews.com/photos/videodiaries/">Videos</a></li>
+          <li class="tabmenu"><a class="section-SHOP"  href="http://shop.irishnews.com/">SHOP</a></li>
+        <!-- -->
+
+        <li id="nav-search" class="tabmenu"><form class="search-block" method="post"><input type="hidden" class="site" value="http://www.irishnews.com" /><input type="text" placeholder="search" name="searchterm"><button class="btn btn-default nav-search__glass "><span class="fa fa-search icon-search"></span></button></form></li>
+      </ul><!-- /#navpanel -->
+
+    </div><!-- /#main-navul-wrapper -->
+  </div><!-- /#main-nav-inset-wrapper -->
+
+  <div id="main-subnav-panel-wrapper" class="container">
+    <div id="main-subnav-panel__searchontablet">
+      <form method="post" class="search-block">
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Search</button>
+          </span>
+          <span class="input-group-btn">
+            <button class="btn btn-default main-subnav-panel__close" type="button"><span class="fa fa-times icon-remove"></span></button>
+          </span>
+        </div><!-- /input-group -->
+      </form>
+    </div><!-- #main-subnav-panel__searchontablet -->
+
+    <!-- LISTA SUBMENU + CONTENUTI PER OGNI ITEMS -->
+    <div class="main-subnav-panel section-news bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/brexit/">Brexit</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/northernirelandnews/">Northern Ireland</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/assemblyelection/">Assembly Election</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/uknews/">UK News</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/republicofirelandnews/">Republic of Ireland</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/worldnews/">World news</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/politicalnews/">Political news</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/educationnews/">Education news</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/healthcarenews/">Healthcare news</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/nama/">Nama</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-news string-coloured" href="http://www.irishnews.com/news/easterrising/">Easter Rising</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-sport bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/thechampionship/">The Championship</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/rioolympics/">Rio Olympics</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/gaafootball/">GAA Football</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/gaafixtures/">GAA Fixtures</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/clubcall/">Club Call</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/hurlingandcamogie/">Hurling and camogie</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/footballsoccer/">Soccer</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/boxing/">Boxing</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/rugbyunion/">Rugby</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/golf/">Golf</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/athletics/">Athletics</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/offthefence/">Off The Fence</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/racing/">Racing</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/opinion/">Opinion</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/othersports/">Other Sports</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-sport string-coloured" href="http://www.irishnews.com/sport/euro2016/">Euro 2016</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-business bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/businessnews/">Business news</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/economics/">Economics</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/personalfinance/">Personal finance</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/businesscolumnists/">Business columnists</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/businessinsight/">Business Insight</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/profit-margin/">Profit Margin</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-business string-coloured" href="http://www.irishnews.com/business/wea/">Workplace &amp; Employment Awards</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-lifestyle bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/familyandparenting/">Family and Parenting</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/property/">Property</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/holidays/">Holidays &amp; Travel</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/fashion/">Fashion &amp; Beauty</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/motorsdrive/">Motors/drive</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/foodanddrink/">Food &amp; drink</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/slebsafari/">Celebrity</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/gardening/">Gardening</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/environment/">Environment</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/health/">Health</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/faithmatters/">Faith Matters</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-lifestyle string-coloured" href="http://www.irishnews.com/lifestyle/tvandradio/">TV and Radio</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-arts bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-arts string-coloured" href="http://www.irishnews.com/arts/film/">Film</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-arts string-coloured" href="http://www.irishnews.com/arts/music/">Music</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-arts string-coloured" href="http://www.irishnews.com/arts/books/">Books</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-arts string-coloured" href="http://www.irishnews.com/arts/pipebanddigest/">Pipe Band Digest</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-arts string-coloured" href="http://www.irishnews.com/arts/stage/">Stage</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-arts string-coloured" href="http://www.irishnews.com/arts/thebluffer/">Irish language</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-familynotices bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-familynotices string-coloured" href="http://www.irishnews.com/notices/familynotices/">Family Notices</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-familynotices string-coloured" href="http://www.irishnews.com/notices/livesremembered/">Lives Remembered</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-opinion bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-opinion string-coloured" href="http://www.irishnews.com/opinion/letterstotheeditor/">Letters to the Editor</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-opinion string-coloured" href="http://www.irishnews.com/opinion/leadingarticle/">Leading article</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-opinion string-coloured" href="http://www.irishnews.com/opinion/cartoons/">Cartoons</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-opinion string-coloured" href="http://www.irishnews.com/opinion/columnists/">Columnists</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <div class="main-subnav-panel section-galleries bottom-coloured top-coloured">
+      <div class="row">
+        <div class="">
+          <div class="main-subnav-panel__taglist col-md-12">
+            <ul class="list-unstyled">
+            <!-- SUBITEMS -->
+                <li class="bg-coloured subnavitem"><a style="" class="section-galleries string-coloured" href="http://www.irishnews.com/photos/photooftheday/">Photo of the Day</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-galleries string-coloured" href="http://www.irishnews.com/photos/graduationpictures/">Graduation pictures</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-galleries string-coloured" href="http://www.irishnews.com/photos/picturegalleries/">Picture galleries</a></li>
+                <li class="bg-coloured subnavitem"><a style="" class="section-galleries string-coloured" href="http://www.irishnews.com/photos/videodiaries/">Video</a></li>
+            <!-- -->
+            </ul>
+          </div>
+        </div>
+
+
+
+      </div><!-- /.row -->
+    </div>
+    <!-- -->
+
+
+    <div class="main-nav-hrule bottom-coloured"></div>
+  </div><!-- /#main-subnav-panel-wrapper -->
+
+</nav>
+<script>
+    $(function(){
+        var p=$('#main-nav').offset();
+        $('#main-nav').affix({
+              offset: {
+                top: p.top
+              }
+        });
+    });
+</script>
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/custom/menu?id=1039--><!-- HEADER for mobile -->
+
+	<div id="topbar-mobile" class="visible-xs visible-sm">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-xs-2 hamburger-icon">
+	        <nav id="navpanel-mobile" >
+	          <button id="navpanel-mobile__hicon" >
+
+	          </button>
+	        </nav>
+	      </div><!-- /col-xs-2-->
+	      <div class="col-xs-8">
+	        <div id="irish-header-logomobile-wrapper" class="text-center">
+	          <a href="http://www.irishnews.com" title="Back to home" >
+	          <img alt="Irishnews Logo" src="/static/images/header-logo-mobile.png" width="189" height="26"  id="irishnews-logo-mobile"  />
+	     	  </a>
+	        </div>
+	      </div><!-- col-xs-8 -->
+	      <div class="col-xs-2 nopadding">
+	        <div id="nav-search-mobile">
+	          <button type="submit" class="btn btn-default" id="nav-search-mobile__button"><span class="fa fa-search icon-search"></span></button>
+	        </div>
+	      </div><!-- col-xs-2 -->
+	    </div><!-- /row -->
+
+    	<ul id="navpanel-mobile__list">
+  <li class="navpanel-mobile__directlink bg-primary">
+    <a href="/login" class="navpanel-mobile__login halfOpacity">Login</a>
+    <a href="#" class="navpanel-mobile__registereduser hide">User</a>
+    <a href="#" class="navpanel-mobile__logout hide">&nbsp;&nbsp;/&nbsp;&nbsp;Logout</a>
+  </li>
+  <li class="navpanel-mobile__subscriptions navpanel-mobile__directlink">
+    <a href="/subscriptions" >Subscriptions</a>
+  </li>
+  <li class="navpanel-mobile__backhome">
+    <a href="http://www.irishnews.com" >Home</a>
+  </li>
+  <li class="navpanel-mobile__todayspaper">
+     <a href="http://www.irishnews.com/epaper/newsstand/newsstand.php" >Today's paper</a>
+  </li>
+  <!-- LISTA ITEMS -->
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/news/" class="section-news">News</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/brexit/">Brexit</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/northernirelandnews/">Northern Ireland</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/assemblyelection/">Assembly Election</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/uknews/">UK News</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/republicofirelandnews/">Republic of Ireland</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/worldnews/">World news</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/politicalnews/">Political news</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/educationnews/">Education news</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/healthcarenews/">Healthcare news</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/nama/">Nama</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/news/easterrising/">Easter Rising</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/sport/" class="section-sport">Sport</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/thechampionship/">The Championship</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/rioolympics/">Rio Olympics</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/gaafootball/">GAA Football</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/gaafixtures/">GAA Fixtures</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/clubcall/">Club Call</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/hurlingandcamogie/">Hurling and camogie</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/footballsoccer/">Soccer</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/boxing/">Boxing</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/rugbyunion/">Rugby</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/golf/">Golf</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/athletics/">Athletics</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/offthefence/">Off The Fence</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/racing/">Racing</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/opinion/">Opinion</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/othersports/">Other Sports</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/sport/euro2016/">Euro 2016</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/business/" class="section-business">Business</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/businessnews/">Business news</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/economics/">Economics</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/personalfinance/">Personal finance</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/businesscolumnists/">Business columnists</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/businessinsight/">Business Insight</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/profit-margin/">Profit Margin</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/business/wea/">Workplace &amp; Employment Awards</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/lifestyle/" class="section-lifestyle">Life</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/familyandparenting/">Family and Parenting</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/property/">Property</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/holidays/">Holidays &amp; Travel</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/fashion/">Fashion &amp; Beauty</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/motorsdrive/">Motors/drive</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/foodanddrink/">Food &amp; drink</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/slebsafari/">Celebrity</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/gardening/">Gardening</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/environment/">Environment</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/health/">Health</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/faithmatters/">Faith Matters</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/lifestyle/tvandradio/">TV and Radio</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__directlink
+  ">
+    <a href="http://www.irishnews.com/magazine/" class="section-magazine">Magazine</a>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/arts/" class="section-arts">Arts</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/arts/film/">Film</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/arts/music/">Music</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/arts/books/">Books</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/arts/pipebanddigest/">Pipe Band Digest</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/arts/stage/">Stage</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/arts/thebluffer/">Irish language</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/notices/" class="section-familynotices">Notices</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/notices/familynotices/">Family Notices</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/notices/livesremembered/">Lives Remembered</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/opinion/" class="section-opinion">Opinion</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/opinion/letterstotheeditor/">Letters to the Editor</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/opinion/leadingarticle/">Leading article</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/opinion/cartoons/">Cartoons</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/opinion/columnists/">Columnists</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__directlink
+  ">
+    <a href="http://www.irishnews.com/puzzles/" class="section-other">Puzzles</a>
+  </li>
+    <li class="
+    navpanel-mobile__whitsubmenu
+  ">
+    <a href="http://www.irishnews.com/photos/" class="section-galleries">Photos</a>
+      <a href="#" class="navpanel-mobile__callsubmenu">Sections</a>
+      <ul class="navpanel-mobile__sub">
+        <li class="navpanel-mobile__directlink navpanel-mobile__backlink">
+          <a href="#">Back</a>
+        </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/photos/photooftheday/">Photo of the Day</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/photos/graduationpictures/">Graduation pictures</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/photos/picturegalleries/">Picture galleries</a>
+          </li>
+          <li class="navpanel-mobile__directlink">
+            <a href="http://www.irishnews.com/photos/videodiaries/">Video</a>
+          </li>
+      </ul>
+  </li>
+    <li class="
+    navpanel-mobile__directlink
+  ">
+    <a href="http://www.irishnews.com/photos/videodiaries/" class="section-">Videos</a>
+  </li>
+    <li class="
+    navpanel-mobile__directlink
+  ">
+    <a href="http://shop.irishnews.com/" class="section-SHOP">SHOP</a>
+  </li>
+  <li class="navpanel-mobile__ourjournalists">
+    <a href="http://www.irishnews.com/other/ourjournalists" >Our journalists</a>
+  </li>
+  <li class="navpanel-mobile__horoscopes">
+    <a href="http://www.irishnews.com/other/horoscopes" >Horoscopes</a>
+  </li>
+  <li class="navpanel-mobile__placeanotice">
+    <a href="http://www.irishnews.com/notice" >Place a notice</a>
+  </li>
+</ul><!-- /#navpanel-mobile__list-->
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/custom/menu-mobile?id=1039--><div id="searchonmobile">
+	      <form method="post" class="search-block">
+	        <div class="input-group" id="searchonmobile__wrapper">
+	          <input type="hidden" class="site" value="http://www.irishnews.com" />
+	          <input type="text" class="form-control" name="searchterm">
+	          <span class="input-group-btn">
+	          <button class="btn btn-default" type="submit">Search</button>
+	          </span>
+	          <span class="input-group-btn">
+	            <button class="btn btn-default main-subnav-panel__close" type="button"><span class="fa fa-times icon-remove"></span></button>
+	          </span>
+
+	        </div><!-- /input-group -->
+	      </form>
+	      </div><!-- #main-subnav-panel__search -->
+	  </div><!-- /.container -->
+	</div><!-- /#topbar-mobile -->
+<!-- REMOTE INCLUDE - INCLUDE VIRTUAL: /zones/menu/index.html--></header>
+
+  <div id="main-content">
+    <div class="section-news bg-coloured visible-xs visible-sm" id="category-strip">
+      <a href="//www.irishnews.com/news"><i class="fa fa-arrow-left" aria-hidden="true"></i> News</a>
+    </div>
+  <div class="container" id="main-content-wrapper">
+    <div id="irishnews_ad_left_side"></div>
+    <script type="text/javascript">
+      googletag.cmd.push(function() { googletag.display('irishnews_ad_left_side'); });
+    </script>
+    <div id="irishnews_ad_right_side"></div>
+    <script type="text/javascript">
+      googletag.cmd.push(function() { googletag.display('irishnews_ad_right_side'); });
+    </script>
+
+    <div id="fullarticle" class="row">
+      <div class="zone-column-sx col-sm-8 col-md-9">
+        <article class="lancio--opening">
+    <h1 class="lancio-title">
+      Hacker reveals contacts with Russian spy agency </h1>
+    <figure class="lancio-figure">
+      <span class="img-responsive" data-picture data-alt="Hacker reveals contacts with Russian spy agency ">
+            <span class="img-forcedwidth" data-src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/09/143008033-ba44b994-aa2f-450b-8250-a5cc93a7b8dc.jpg" ></span>
+            <span data-src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/09/143010271-a1b39908-ffc8-4ab2-b659-e9c93fa7fc66.jpg" data-media="(min-width: 480px)">
+            </span>
+            <!--[if (lt IE 9) & (!IEMobile)]>
+              <span data-src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/09/143010271-a1b39908-ffc8-4ab2-b659-e9c93fa7fc66.jpg"></span>
+            <![endif]-->
+            <noscript>
+                <img src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/09/143010271-a1b39908-ffc8-4ab2-b659-e9c93fa7fc66.jpg" alt="Hacker reveals contacts with Russian spy agency" title="Hacker reveals contacts with Russian spy agency" class="img-responsive"  /></noscript>
+          </span>
+          <figcaption class="lancio-figure__caption section-news bottom-coloured">
+	            The Kremlin in Moscow, Russia</figcaption>
+	                </figure>
+    <div class="lancio-maincontent">
+    <div class="lancio-maincontent__top">
+        <div class="lancio-sharebar pull-right">
+          <ul class="list-inline">
+            <li><span class="fa fa-whatsapp"></span></li>
+            <li><span class="fa fa-twitter"></span></li>
+            <li><span class="fa fa-facebook"></span></li>
+            <li><span class="fa fa-google-plus"></span></li>
+            <li><span class="fa fa-envelope"></span></li>
+            <li><span class="fa fa-linkedin"></span></li>
+            <li><span class="fa fa-print"></span></li>
+          </ul>
+        </div><!-- /.lancio-sharebar -->
+        <div class="lancio-author">
+          <span class="lancio-authorname">
+          	    Vladimir Isachenkov
+<!-- REMOTE INCLUDE - IMPORT: http://www.irishnews.com/dyna/custom/author-link?name=Vladimir+Isachenkov--></span>
+          </div><!-- /.lancio-author -->
+        <div class="lancio-datetime">
+          <time class="lancio-datetime-string" datetime="09-02-2017 14:00">
+            09 February, 2017 14:00</time>
+        </div>
+      <div class="tag-container">
+<h2 class="title">Topics</h2>
+<ul class="list-unstyled">
+    <li class="btn btn-sm btn-default"><a href="/tags/Federal-Security-Service">Federal Security Service</a></li>
+    <li class="btn btn-sm btn-default"><a href="/tags/hacking]">hacking]</a></li>
+    <li class="btn btn-sm btn-default"><a href="/tags/russia">russia</a></li>
+    <li class="btn btn-sm btn-default"><a href="/tags/Shaltai-Boltai">Shaltai Boltai</a></li>
+</ul>
+</div>
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/tags/include?url=http%3a%2f%2fwww.irishnews.com%2fnews%2f2017%2f02%2f10%2fnews%2fhacker-reveals-contacts-with-russian-spy-agency-926781%2f--></div><!-- /.lancio-maincontent__top -->
+    <div class="lancio-text">
+
+      <aside class="related hidden-xs">
+        <div class="related-stories section-news top-coloured bottom-coloured">
+            <div class="related-stories__title">
+            Related stories
+            </div><!-- /.related-stories__title -->
+            <div class="lancio-summary">
+                <span class="lancio-bullet"><img src="http://www.irishnews.com/static/images/lancio-bullet.png"></span>
+                <a href="http://www.irishnews.com/magazine/2017/02/01/news/this-russian-beach-has-turned-broken-bottles-into-something-amazing-915582/">This Russian beach has turned broken bottles into something amazing</a>
+              </div><!-- /.lancio-summary -->
+              <div class="lancio-summary">
+                <span class="lancio-bullet"><img src="http://www.irishnews.com/static/images/lancio-bullet.png"></span>
+                <a href="http://www.irishnews.com/news/2017/01/21/news/champagne-corks-pop-in-moscow-over-trump-inauguration-895923/">Champagne corks pop in Moscow over Trump inauguration </a>
+              </div><!-- /.lancio-summary -->
+              <div class="lancio-summary">
+                <span class="lancio-bullet"><img src="http://www.irishnews.com/static/images/lancio-bullet.png"></span>
+                <a href="http://www.irishnews.com/news/worldnews/2017/02/01/news/at-least-eight-dead-following-renewed-fighting-in-eastern-ukraine-914200/">At least eight dead following renewed fighting in eastern Ukraine </a>
+              </div><!-- /.lancio-summary -->
+              </div><!-- /.related-stories -->
+        </aside>
+      <p>A member of a Russian hacking group involved in blackmailing top officials has said that it had contacts with Russia&#39;s top domestic security agency.</p>
+
+<p>For several years the Shaltai Boltai (Humpty Dumpty) group had been posting letters and documents stolen from senior Russian officials with impunity, before the nation&#39;s spy agency tracked them down and offered them a deal, according to Alexander Glazastikov.</p>
+
+<p>Glazastikov said in an interview that the hackers accepted the offer from the Federal Security Service, or FSB, the top KGB successor agency: show their spoils before publishing in exchange for protection.</p>
+
+<p>But somehow things went wrong for the group, and its leader and two other men have ended up behind bars.</p>
+
+<p>Glazastikov, who spoke to the independent Dozhd TV from Tallinn, Estonia, where he is seeking political asylum, said his group had no connection to the hacking of Democratic Party emails during the 2016 US election campaign.</p>
+
+<p>Former president Barack Obama&#39;s administration had accused Russia of launching the hacking campaign to help Republican Donald Trump win, accusations that the Kremlin has denied.</p>
+
+<p>&quot;Our group has never attacked targets outside Russia,&quot; Glazastikov told Dozhd.</p>
+
+<p>&quot;We weren&#39;t interested in the Democrats or the Republicans.&quot;</p>
+
+<p>He did not say if the FSB officers who approached the group were those who were arrested in December on charges of spying for the United States.</p>
+
+<p>The arrests reported by Russian media outlets fuelled speculation that the officers could have been connected to hacking the Democrats.</p>
+
+<p>While the interview provided no new information about Russian meddling in the US elections, it offered a rare glimpse into the shadowy world of Russian politics, where hackers serve as a weapon for competing Kremlin clans and rival spy agencies.</p>
+
+<p>Glazastikov said the hacking group&#39;s leader, Vladimir Anikeyev, had offered to set up Shaltai Boltai as a resource that would release information serving public interests.</p>
+
+<p>Glazastikov said he joined the group because he was bored with his marketing job.</p>
+
+<p>The group quickly won the limelight by publishing letters written by government officials, Kremlin-connected tycoons and artists that cast them as unscrupulous and cynical.</p>
+
+<p>And then Shaltai Boltai began to cash in on its fame by blackmailing its victims to make them pay to prevent the publication of their personal data.</p>
+
+<p>Glazastikov said he believed the group crossed a red line for Russian officials in 2015, when it posted letters and documents from the chief of the defence ministry&#39;s construction department and then followed up with an open letter to the head of military counterintelligence mocking the agency&#39;s inability to keep secrets.</p>
+
+<p>&quot;We were playing with fire,&quot; Glazastikov said. &quot;The counterintelligence got very interested in us after that letter.&quot;</p>
+
+<p>He said unidentified people, possibly from the defence ministry, bought the cache of documents stolen from the military construction department chief for about 100,000 dollars.</p>
+
+<p>Separately, the FSB, competing for influence with other spy agencies, got the hacking group in its crosshairs.</p>
+
+<p>Glazastikov said Anikeyev, the hacking group&#39;s leader, had told him the FSB contacted him via proxies to give a message: &quot;Guys, we know all about you. We won&#39;t arrest you, but we would like to know what you are doing.&quot;</p>
+
+<p>Neither the defence ministry nor the FSB has had any immediate comment about Glazastikov&#39;s claims.</p>
+
+<p>Glazastikov said Anikeyev did not name the FSB officers he was dealing with, and added that he does not know if they were the officers of the FSB&#39;s cyber crime division arrested on treason charges in December.</p>
+
+<p>Two of them have been named in Russian media as Colonel Sergei Mikhailov, deputy head of the FSB&#39;s Information Security Centre (TsIB), and his subordinate, Major Dmitry Dokuchayev.</p>
+
+<p>According to Russian media reports, Mikhailov was arrested in a way designed to sow fear in the ranks: He had a bag placed over his head while attending a meeting of senior FSB officials.</p>
+
+<p>Glazastikov said Anikeyev had asked him to come to Russia, but he refused because he had a feeling that Anikeyev had been arrested and was making the request on officials&#39; orders.</p>
+
+<p>Another hacking group member, Konstantin Teplyakov, agreed to come and was arrested.</p>
+
+<p>Anikeyev&#39;s arrest was later officially announced.</p>
+
+<p>Glazastikov said he did not know another alleged group member, Alexander Filinov, who was also arrested.</p>
+
+<p>Filinov showed up on Thursday at a Moscow court, which extended his arrest until April.</p>
+
+<p>Glazastikov said Anikeyev was maintaining links to hackers who stole personal data and also dealing with the victims and those who ordered the hackings.</p>
+
+<p>Glazastikov estimated the group had earned up to two million dollars since 2014, but a large share of the money was spent to cover &quot;operational expenses&quot;.</p>
+
+<p>He said he himself made less than 100,000 dollars.</p>
+</div><!-- /.lancio-text -->
+      <div class="lancio-maincontent__bottom">
+          <div class="tag-container">
+<h2 class="title">Topics</h2>
+<ul class="list-unstyled">
+    <li class="btn btn-sm btn-default"><a href="/tags/Federal-Security-Service">Federal Security Service</a></li>
+    <li class="btn btn-sm btn-default"><a href="/tags/hacking]">hacking]</a></li>
+    <li class="btn btn-sm btn-default"><a href="/tags/russia">russia</a></li>
+    <li class="btn btn-sm btn-default"><a href="/tags/Shaltai-Boltai">Shaltai Boltai</a></li>
+</ul>
+</div>
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/tags/include?url=http%3a%2f%2fwww.irishnews.com%2fnews%2f2017%2f02%2f10%2fnews%2fhacker-reveals-contacts-with-russian-spy-agency-926781%2f--><div class="lancio-details">
+          <div class="lancio-sharebar pull-right">
+          <ul class="list-inline">
+            <li><span class="fa fa-whatsapp"></span></li>
+            <li><span class="fa fa-twitter"></span></li>
+            <li><span class="fa fa-facebook"></span></li>
+            <li><span class="fa fa-google-plus"></span></li>
+            <li><span class="fa fa-envelope"></span></li>
+            <li><span class="fa fa-linkedin"></span></li>
+            <li><span class="fa fa-print"></span></li>
+          </ul>
+          </div><!-- /.lancio-sharebar -->
+          <span class="lancio-datetime">
+            <time class="lancio-datetime-string"
+                datetime="09-02-2017 02:00">
+            09 February, 2017 14:00</time>
+          </span>
+          <span class="lancio-tag">
+            <span class="lancio-tag-string">News</span>
+          </span>
+
+        </div><!-- /.lancio-details -->
+      </div><!-- /.lancio-maincontent__bottom -->
+        <div class="related bottom_related visible-xs">
+                <br />
+                    <h3 sclass="related-stories bottom-coloured zone-title">
+                        Related stories
+                    </h3><!-- /.related-stories__title -->
+                    <div class="row setmarginBottom">
+                                <div class="col-xs-3 nopaddingRight">
+                                        <a href="http://www.irishnews.com/magazine/2017/02/01/news/this-russian-beach-has-turned-broken-bottles-into-something-amazing-915582/">
+                                            <img src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/01/111012443-9a96382b-4e55-46a8-8cfd-c1ed5dd62d42.jpg" alt="This Russian beach has turned broken bottles into something amazing" title="This Russian beach has turned broken bottles into something amazing" class="img-responsive lazy"  /></a>
+                                    </div>
+                                <div class="col-xs-9">
+                                    <h4 class="nomargin"><a href="http://www.irishnews.com/magazine/2017/02/01/news/this-russian-beach-has-turned-broken-bottles-into-something-amazing-915582/">This Russian beach has turned broken bottles into something amazing</a></h4>
+                                </div>
+                            </div>
+                        <div class="row setmarginBottom">
+                                <div class="col-xs-3 nopaddingRight">
+                                        <a href="http://www.irishnews.com/news/2017/01/21/news/champagne-corks-pop-in-moscow-over-trump-inauguration-895923/">
+                                            <img src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/01/20/191708479-5b2f436e-e35f-4e68-963b-c1c7d412017c.jpg" alt="Champagne corks pop in Moscow over Trump inauguration" title="Champagne corks pop in Moscow over Trump inauguration" class="img-responsive lazy"  /></a>
+                                    </div>
+                                <div class="col-xs-9">
+                                    <h4 class="nomargin"><a href="http://www.irishnews.com/news/2017/01/21/news/champagne-corks-pop-in-moscow-over-trump-inauguration-895923/">Champagne corks pop in Moscow over Trump inauguration </a></h4>
+                                </div>
+                            </div>
+                        <div class="row setmarginBottom">
+                                <div class="col-xs-3 nopaddingRight">
+                                        <a href="http://www.irishnews.com/news/worldnews/2017/02/01/news/at-least-eight-dead-following-renewed-fighting-in-eastern-ukraine-914200/">
+                                            <img src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/01/31/155809228-dab91d09-aa1d-4cc5-a212-0cfb88b99fbd.jpg" alt="At least eight dead following renewed fighting in eastern Ukraine" title="At least eight dead following renewed fighting in eastern Ukraine" class="img-responsive lazy"  /></a>
+                                    </div>
+                                <div class="col-xs-9">
+                                    <h4 class="nomargin"><a href="http://www.irishnews.com/news/worldnews/2017/02/01/news/at-least-eight-dead-following-renewed-fighting-in-eastern-ukraine-914200/">At least eight dead following renewed fighting in eastern Ukraine </a></h4>
+                                </div>
+                            </div>
+                        </div>
+        <div class="disqus-container">
+		<!-- <i>disqus</i> -->
+		<input value="enableSSO=true" type="hidden"/><script type="text/javascript">
+			var disqus_config;
+			var userCookie = $.cookie("kolumbus-disqus-sso-data");
+			if(userCookie){
+				userCookie = JSON.parse(userCookie);
+				disqus_config = function () {
+				    this.page.remote_auth_s3 = userCookie.authPayload;
+				    this.page.api_key = userCookie.publicKey;
+				};
+			}
+		</script><input value="disqusCommentsEnabled=true_draft=false_showInPreview=true_showDisqusBox=true" type="hidden"/><div class="" id="disqus_thread"><script type="text/javascript">
+		        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+		        var disqus_shortname = 'wwwirishnewscom'; // required: replace example with your forum shortname
+		        
+		
+		        /* * * DON'T EDIT BELOW THIS LINE * * */
+		        (function() {
+		            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		        })();
+		    </script></div></div>
+	<!-- /.disqus-container -->
+</div><!-- /.lancio-maincontent -->
+  </article>
+<script>
+$(document).ready(function() {
+  $(".zoomable").fancybox();
+});
+</script>
+</div>
+      <!-- /.zone-column-sx -->
+
+      <!-- SIDEBAR -->
+<div class="zone-column-dx col-sm-4 col-md-3 nopadding nomargin-xs nomargin-sm">
+  <!-- More in -->
+	  <aside class="portlet--morein">
+  <h1 class="portlet-title top-coloured">
+    More in News
+  </h1><!-- /.portlet-title -->
+
+    <article class="lancio">
+      <figure class="lancio-figure">
+        <a href="http://www.irishnews.com/news/2017/02/18/news/pressure-mounts-on-dup-to-reveal-brexit-advert-funder-936201/" class="position-relative">
+        <img alt="Pressure mounts on DUP to reveal Brexit advert funder  " src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/18/094616342-de676485-e9dc-4a6c-be98-c43a071b1d68.jpg" class="img-responsive lazy">
+        </a>
+      </figure>
+      <h1 class="lancio-title">
+        <a href="http://www.irishnews.com/news/2017/02/18/news/pressure-mounts-on-dup-to-reveal-brexit-advert-funder-936201/">Pressure mounts on DUP to reveal Brexit advert funder  </a>
+      </h1>
+    </article>
+    <article class="lancio">
+      <figure class="lancio-figure">
+        <a href="http://www.irishnews.com/news/2017/02/18/news/legislation-may-protect-former-soldiers-from-prosecution-936188/" class="position-relative">
+        <img alt="Legislation may protect former soldiers from prosecution  " src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/17/175708459-2d9c6275-ea50-4c6d-a47c-39457d86b228.jpg" class="img-responsive lazy">
+        </a>
+      </figure>
+      <h1 class="lancio-title">
+        <a href="http://www.irishnews.com/news/2017/02/18/news/legislation-may-protect-former-soldiers-from-prosecution-936188/">Legislation may protect former soldiers from prosecution  </a>
+      </h1>
+    </article>
+    <article class="lancio">
+      <figure class="lancio-figure">
+        <a href="http://www.irishnews.com/news/2017/02/18/news/a6-road-scheme-work-criticised-936227/" class="position-relative">
+        <img alt="A6 road scheme work criticised " src="http://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/17/184813020-ed92ffb3-d851-4ae4-9e71-671b20a0e3c4.jpg" class="img-responsive lazy">
+        </a>
+      </figure>
+      <h1 class="lancio-title">
+        <a href="http://www.irishnews.com/news/2017/02/18/news/a6-road-scheme-work-criticised-936227/">A6 road scheme work criticised </a>
+      </h1>
+    </article>
+</aside>
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://localhost/kolumbus-fe/dyna/widget/irishnews/morein?categoryTerm=%2firishnews%2fnews&categoryLabel=News&articlesToExclude=926781--><!-- /.portlet morein -->
+  <div class="banner-container text-center">
+        <div id="irishnews_ad_slot_mpu_1"><script>
+            googletag.cmd.push(function() { googletag.display('irishnews_ad_slot_mpu_1'); });
+        </script></div>
+    </div>
+  <!-- /.banner-container -->
+
+	<!-- More Blogs -->
+  <!-- -->
+
+  <!-- Most read -->
+   <!-- Most read -->
+
+<!-- REMOTE INCLUDE - ESI INCLUDE: http://localhost/kolumbus-fe/dyna/widget/irishnews/mostread--><article class="portlet--horoscope">
+          <h1 class="portlet-title">Today's horoscope</h1>
+          <!-- /.portlet-title -->
+          <a href="http://www.irishnews.com/other/horoscopes">
+            <div class="horoscope-title">
+              <div class="horoscope-icon pull-left">
+                <img alt="Horoscope" src="" class="img-responsive" />
+              </div>
+              <!-- /.horoscope-icon -->
+              <div class="horoscope-sign"></div>
+              <!-- /.horoscope-sign -->
+              <div class="horoscope-date"></div>
+              <!-- /.horoscope-date -->
+            </div>
+          </a>
+          <!-- /.horoscope-title -->
+          <div class="clearfix"></div>
+          <div class="portlet-content">
+            <p></p>
+            <hr class="hr-gray" />
+            <p class="horoscope-select">
+              See a different horoscope: &nbsp;<select><option>Select
+                  sign</option></select>
+            </p>
+          </div>
+          <!-- /.portlet-content -->
+        </article>
+  <article class="portlet--newsletter">
+    <h1 class="portlet-title top-coloured">Stay connected</h1>
+    <!-- /.portlet-title -->
+    <div class="form-group">
+      <form class="mailchimp-form" action="//irishnews.us10.list-manage.com/subscribe/post?u=cf321e909e6be6b0f929c9f7a&amp;id=c994fce791" method="get">
+	    <p>Get the day's headlines delivered directly to your inbox</p>
+	    <input name="EMAIL" type="email" class="form-control" id="email-newsletter" placeholder="Email address" required>
+	    <button type="submit" class="btn btn-default">Sign Up</button>
+      </form>
+    </div>
+    <!-- /.form-group-->
+  </article>
+</div>
+<!-- /.zone-column-dx -->
+</div>
+    <!-- /#fullarticle -->
+
+    <hr class="hr-gray-double row"/>
+<section id="zone-sections" class="container-fuild">
+	
+	<div class="row" style="">
+		<h1 class="zone-title">Sections</h1>
+		 <div class="zone-column-sx col-sm-12 col-md-9" style="">
+    		<div class="container-fluid" id="container-sections">
+    			
+				<div class="row">
+	  <div class="col-sm-4 container-sections__section-wrapper">
+  <div class="container-sections__section section-news top-coloured">
+    <div class="container-sections__section__title">
+      News
+    </div><!-- /.container-sections__section__title -->
+
+    <div class="container-sections__section__image">
+      <a href="http://www.irishnews.com/news/2017/02/18/news/can-jonathan-bell-fight-the-dup-machine-for-strangford-re-election--935850/" class="position-relative">
+          <img class="img-responsive hidden-xs lazy" alt="Can Jonathan Bell fight the DUP machine for Strangford re-election? " src="//www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/17/140712863-7d0687d4-69e1-4f10-99e1-d7ecd4ad9526.jpg">
+      </a>
+    </div>
+
+    <div class="container-sections__section__links">
+      <ol class="list-unstyled">
+        <li><a href="http://www.irishnews.com/news/2017/02/18/news/can-jonathan-bell-fight-the-dup-machine-for-strangford-re-election--935850/">Can Jonathan Bell fight the DUP machine for Strangford re-election? </a></li>
+        <li><a href="http://www.irishnews.com/news/2017/02/18/news/new-science-practicals-will-not-count-towards-gcse-grades-935858/">New science practicals will not count towards GCSE grades </a></li>
+      </ol>
+    </div><!-- /.container-sections__section__links -->
+
+  </div><!-- /.container-sections__section -->
+</div><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/partial/dynamic-portrait-section?s=0&e=2&t=Articolo%2ccartoon%2cphoto_of_day&category=%2firishnews%2fnews&onlyPrimary=true&optdata=%5bcategoryLabel%3aNews%5d%5bsectionStyleClass%3anews%5d--><div class="col-sm-4 container-sections__section-wrapper">
+  <div class="container-sections__section section-lifestyle top-coloured">
+    <div class="container-sections__section__title">
+      Life
+    </div><!-- /.container-sections__section__title -->
+
+    <div class="container-sections__section__image">
+      <a href="http://www.irishnews.com/lifestyle/2017/02/18/news/celtic-connections-a-fine-showcase-for-wonderful-city-of-glasgow-922074/" class="position-relative">
+          <img class="img-responsive hidden-xs lazy" alt="Celtic Connections a fine showcase for wonderful city of Glasgow " src="//www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/06/144619131-b5dfa29a-7445-48a8-89ca-662d2b50f704.jpg">
+      </a>
+    </div>
+
+    <div class="container-sections__section__links">
+      <ol class="list-unstyled">
+        <li><a href="http://www.irishnews.com/lifestyle/2017/02/18/news/celtic-connections-a-fine-showcase-for-wonderful-city-of-glasgow-922074/">Celtic Connections a fine showcase for wonderful city of Glasgow </a></li>
+        <li><a href="http://www.irishnews.com/lifestyle/2017/02/18/news/belfast-man-jimmy-murdock-a-markets-man-through-and-through-928789/">Belfast man Jimmy Murdock a Markets man through and through </a></li>
+      </ol>
+    </div><!-- /.container-sections__section__links -->
+
+  </div><!-- /.container-sections__section -->
+</div><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/partial/dynamic-portrait-section?s=0&e=2&t=Articolo%2ccartoon%2cphoto_of_day&category=%2firishnews%2flifestyle&onlyPrimary=true&optdata=%5bcategoryLabel%3aLife%5d%5bsectionStyleClass%3alifestyle%5d--><div class="col-sm-4 container-sections__section-wrapper">
+  <div class="container-sections__section section-business top-coloured">
+    <div class="container-sections__section__title">
+      Business
+    </div><!-- /.container-sections__section__title -->
+
+    <div class="container-sections__section__image">
+      <a href="http://www.irishnews.com/business/2017/02/18/news/deliveroo-serves-up-tasty-increase-in-orders-as-it-cooks-up-new-business-936035/" class="position-relative">
+          <img class="img-responsive hidden-xs lazy" alt="Deliveroo serves up tasty increase in orders as it cooks up new business " src="//www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/17/160108701-278d26ef-b92c-427e-982a-dd2b7226eca2.jpg">
+      </a>
+    </div>
+
+    <div class="container-sections__section__links">
+      <ol class="list-unstyled">
+        <li><a href="http://www.irishnews.com/business/2017/02/18/news/deliveroo-serves-up-tasty-increase-in-orders-as-it-cooks-up-new-business-936035/">Deliveroo serves up tasty increase in orders as it cooks up new business </a></li>
+        <li><a href="http://www.irishnews.com/business/2017/02/17/news/wrightbus-plan-massive-expansion-in-ballymena-facility-935973/">Wrightbus plan massive expansion in Ballymena facility </a></li>
+      </ol>
+    </div><!-- /.container-sections__section__links -->
+
+  </div><!-- /.container-sections__section -->
+</div><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/partial/dynamic-portrait-section?s=0&e=2&t=Articolo%2ccartoon%2cphoto_of_day&category=%2firishnews%2fbusiness&onlyPrimary=true&optdata=%5bcategoryLabel%3aBusiness%5d%5bsectionStyleClass%3abusiness%5d--></div>
+	  <div class="row">
+	  <div class="col-sm-4 container-sections__section-wrapper">
+  <div class="container-sections__section section-arts top-coloured">
+    <div class="container-sections__section__title">
+      Arts
+    </div><!-- /.container-sections__section__title -->
+
+    <div class="container-sections__section__image">
+      <a href="http://www.irishnews.com/arts/2017/02/17/news/cult-movie-the-rebel-with-tony-hancock-932334/" class="position-relative">
+          <img class="img-responsive hidden-xs lazy" alt="Cult Movie: The Rebel with Tony Hancock " src="//www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/14/155508951-5db1c704-77a6-46ab-9d87-e826be0ed6b0.jpg">
+      </a>
+    </div>
+
+    <div class="container-sections__section__links">
+      <ol class="list-unstyled">
+        <li><a href="http://www.irishnews.com/arts/2017/02/17/news/cult-movie-the-rebel-with-tony-hancock-932334/">Cult Movie: The Rebel with Tony Hancock </a></li>
+        <li><a href="http://www.irishnews.com/arts/2017/02/17/news/nanny-state-932484/">Nanny state </a></li>
+      </ol>
+    </div><!-- /.container-sections__section__links -->
+
+  </div><!-- /.container-sections__section -->
+</div><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/partial/dynamic-portrait-section?s=0&e=2&t=Articolo%2ccartoon%2cphoto_of_day&category=%2firishnews%2farts&onlyPrimary=true&optdata=%5bcategoryLabel%3aArts%5d%5bsectionStyleClass%3aarts%5d--><div class="col-sm-4 container-sections__section-wrapper">
+  <div class="container-sections__section section-opinion top-coloured">
+    <div class="container-sections__section__title">
+      Columnists
+    </div><!-- /.container-sections__section__title -->
+
+    <div class="container-sections__section__image">
+      <a href="http://www.irishnews.com/opinion/columnists/2017/02/18/news/patrick-murphy-irish-language-needs-to-be-taken-out-of-politics-934428/" class="position-relative">
+          <img class="img-responsive hidden-xs lazy" alt="Patrick Murphy: Irish language needs to be taken out of politics " src="//www.irishnews.com/picturesarchive/irishnews/irishnews/2017/02/16/120408772-02151a01-b323-4d5b-ad2b-36916dbacdfb.jpg">
+      </a>
+    </div>
+
+    <div class="container-sections__section__links">
+      <ol class="list-unstyled">
+        <li><a href="http://www.irishnews.com/opinion/columnists/2017/02/18/news/patrick-murphy-irish-language-needs-to-be-taken-out-of-politics-934428/">Patrick Murphy: Irish language needs to be taken out of politics </a></li>
+        <li><a href="http://www.irishnews.com/opinion/columnists/2017/02/18/news/newton-emerson-michelle-o-neill-s-red-line-makes-direct-rule-more-likely-934791/">Newton Emerson: Michelle O'Neill's red line makes direct rule more likely  </a></li>
+      </ol>
+    </div><!-- /.container-sections__section__links -->
+
+  </div><!-- /.container-sections__section -->
+</div><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/partial/dynamic-portrait-section?s=0&e=2&t=Articolo%2ccartoon%2cphoto_of_day&category=%2firishnews%2fopinion%2fcolumnists&onlyPrimary=true&optdata=%5bcategoryLabel%3aColumnists%5d%5bsectionStyleClass%3aopinion%5d--><div class="col-sm-4 container-sections__section-wrapper">
+  <div class="container-sections__section section-sport top-coloured">
+    <div class="container-sections__section__title">
+      Sport
+    </div><!-- /.container-sections__section__title -->
+
+    <div class="container-sections__section__image">
+      <a href="http://www.irishnews.com/sport/2017/02/18/news/toals-bookmakers-and-the-irish-news-sports-quiz-february-18-2017-936184/" class="position-relative">
+        <img class="img-responsive lazy hidden-xs" alt="Toals Bookmakers and The Irish News Sports Quiz February 18 2017"  src="/static/images/placeholder.300x190.jpg" width="300" height="190" />
+      </a>
+    </div>
+
+    <div class="container-sections__section__links">
+      <ol class="list-unstyled">
+        <li><a href="http://www.irishnews.com/sport/2017/02/18/news/toals-bookmakers-and-the-irish-news-sports-quiz-february-18-2017-936184/">Toals Bookmakers and The Irish News Sports Quiz February 18 2017</a></li>
+        <li><a href="http://www.irishnews.com/sport/2017/02/18/news/saffrons-aim-for-another-reversal-936248/">Antrim hurlers aim to build on win over London as they take on Carlow</a></li>
+      </ol>
+    </div><!-- /.container-sections__section__links -->
+
+  </div><!-- /.container-sections__section -->
+</div><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/dyna/partial/dynamic-portrait-section?s=0&e=2&t=Articolo%2ccartoon%2cphoto_of_day&category=%2firishnews%2fsport&onlyPrimary=true&optdata=%5bcategoryLabel%3aSport%5d%5bsectionStyleClass%3asport%5d--></div>
+	  
+<!-- REMOTE INCLUDE - IMPORT: http://www.irishnews.com/zones/sections/index.html--></div>
+		</div>
+		
+		<div class="zone-column-dx col-sm-12 col-md-3 nopadding" style="">
+
+<article class="portlet--crossword visible-md visible-lg">
+					<h1 class="portlet-title">Tackle today's puzzles</h1>
+					<!-- /.portlet-title -->
+					<div class="portlet-content">
+						<figure class="crossword-image pull-right">
+							<img
+								src="/static/images/homepage-crossword.jpg"
+								class="img-responsive" alt="Crosswords">
+						</figure>
+						<!-- /.crossword-image -->
+						<a class="font-family-sans" href="http://www.irishnews.com/puzzles" title="Solve today's crossword">
+							From gentle to deadly -<br/>
+							Crosswords, Suduko, Codewords, Wordwheels and quizzes
+						</a>
+						<p></p>
+					</div>
+					<!-- /.portlet-content -->
+				</article>
+		<div class="banner-container text-center">
+						<div id="irishnews_ad_slot_mpu_3"><script>
+                            googletag.cmd.push(function() { googletag.display('irishnews_ad_slot_mpu_3'); });
+						</script></div>
+					</div>
+				  	<!-- REMOTE INCLUDE - IMPORT: http://www.irishnews.com/zones/widget_manager_5/index.html--></div><!-- /.zone-column-dx -->
+		
+		</div><!-- /.row -->
+</section><!-- /#zone-sections -->  		</div><!-- /#main-content-wrapper --><!-- REMOTE INCLUDE - ESI INCLUDE: http://localhost/kolumbus-fe/delivery/irishnews/irishnews/irishnews?sections=true&adv_path=irishnews_news&adv_type=sa--></div>
+  <!-- /#main-content-wrapper --> </div>
+  <!-- /#main-content-->
+
+  <footer id="main-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img class="img-responsive logo-footer" alt="Irishnews Logo" src="/static/images/footer-logo.jpg">
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-8">
+        <ul id="navfooter" class="list-inline" >
+          <li><a href="http://www.irishnews.com/other/supplements">Supplements</a></li>
+          <li><a href="mailto:newsdesk@irishnews.com?Subject=Send us your story">Send us your story</a></li>
+          <li><a href="http://www.irishnews.com/contactus">Contact us</a></li>
+          <li><a href="http://www.irishnews.com/faq">FAQ</a></li>
+          <li><a href="http://www.irishnews.com/aboutus">About us</a></li>
+          <li><a href="http://www.irishnews.com/other/ourjournalists">Our Journalists</a></li>
+          <li><a href="http://www.dipintosales.co.uk/IrishNews/" target="_blank">Photo Sales</a></li>
+          <li><a href="https://irishnews.erecruit.co.uk/erecruit/company/jobs.do" target="_blank">Careers</a></li>
+          <li><a href="http://www.irishnews.com/wea" target="_blank">WEA</a></li>
+<!--      <li><a href="http://www.memoriams.ie" target="_blank">Memoriam Cards</a></li> -->
+          <li><a href="http://www.irishnews.com/coachingdays/" target="_blank">Coaching Days</a></li>
+          <li><a href="//www.irishnews.com/static/advertising/Advertise-with-The-Irish-News.pdf" target="_blank">Advertise with the Irish News (pdf)</a></li>
+          <li><a href="/notice/new">Place a family notice</a></li>
+        </ul><!-- /#navpanel -->
+      </div><!-- /.col-sm-8 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</footer><!-- /#main-footer -->
+
+<script src="//www.irishnews.com/static/dist/assets/bowser.min.js"></script>
+<script src="//www.irishnews.com/static/build/js/bundle.js"></script>
+<script src="//www.irishnews.com/static/dist/js/mpppaywall.js"></script>
+<script src="//www.irishnews.com/static/dist/js/identityModule.min.js"></script>
+<script>
+//  if (window.location.pathname.split('/').length > 4) {
+//    // prevent redirects on index pages
+//    var endpoint = 'https://emeter.mppapi.io/';
+//    var xTokenId = '1A9EDCF0F0474588B2D25C234174BD90';
+//    var identityModule = new IdentityModule(xTokenId, endpoint);
+//    identityModule.GenerateIdentity('AccessToken');
+//  }
+</script>
+<!--[if lt IE 8]>
+<script src="http://www.irishnews.com/static/dist/js/ie7.js"></script>
+<![endif]-->
+
+<!-- ADV -->
+<script>
+ADTECH.executeQueue();
+</script>
+
+<script type="text/javascript">
+(function(){var isSecure=('https:'==document.location.protocol);var ff=document.createElement('script');ff.type='text/javascript';ff.async=true;ff.src=(isSecure?'https':'http')+'://'+(isSecure?'secure.':'lb.')+'liveviewer.ez.no/statjs/sst-267-2071448535/stat.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ff,s);})();
+</script>
+
+
+<!-- Twitter ADV track -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('l6oyp', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l6oyp&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l6oyp&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript><!-- REMOTE INCLUDE - ESI INCLUDE: http://www.irishnews.com/includes/footer--><!-- Piwik -->
+<script type="text/javascript" src="//www.irishnews.com/static/dist/js/piwik.helper.js"></script>
+	<script type="text/javascript">
+
+	$().ready(function(){
+
+	    PiwikHelper.getInstance().init();
+
+	    
+		  var type = 'articolo';
+
+		  
+				PiwikHelper.getInstance().trackCustomVariable(type, 1, 'contentid', '926781', 'page');
+				PiwikHelper.getInstance().trackCustomVariable(type, 2, 'category', '/irishnews/news', 'page');
+				PiwikHelper.getInstance().track();
+			
+				PiwikHelper.getInstance().trackCustomVariable(type, 1, 'contentid', '926781', 'page');
+				PiwikHelper.getInstance().trackCustomVariable(type, 2, 'category', '/irishnews/news/worldnews', 'page');
+				PiwikHelper.getInstance().track();
+			
+
+	});
+	</script>
+	<!-- 	saves a cookie with the current page address for redirecting in the paywall flow -->
+	<script type="text/javascript">
+		// excludes login, createAccount, forgottenpassword pages
+		
+			$().ready(function(){
+				var articleUrl = window.location.href;
+ 				$.cookie("articleUrl",articleUrl, { path: '/', domain: 'irishnews.com'});
+			});
+		</script>
+	<script type="text/javascript" src="//www.irishnews.com/static/dist/js/cookies-compliant.js"></script>
+<!-- End Piwik Code -->
+
+</body>
+</html>
+

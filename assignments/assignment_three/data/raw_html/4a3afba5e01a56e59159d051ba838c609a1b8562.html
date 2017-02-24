@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>RSC</title>
+
+  <link rel="shortcut icon" href="/assets/img/favicon.png" />
+
+  <meta name="description" content="">
+
+  <!-- CSS -->
+  <link href="/assets/css/preload.css" rel="stylesheet">
+  <link href="/assets/css/vendors.css" rel="stylesheet">
+  <link href="/assets/css/syntaxhighlighter/shCore.css" rel="stylesheet">
+  <link href="/assets/css/style-blue.css" rel="stylesheet" title="default">
+  <link href="/assets/css/width-full.css" rel="stylesheet" title="default">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src=~/assets/js/html5shiv.min.js"></script>
+  <script src=~/assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+
+<body>
+  <div id="sb-site">
+    <div class="boxed">
+      <header id="header-full-top" class="hidden-xs header-full-dark">
+        <div class="container">
+          <div class="header-full-title">
+            <h1 class="animated fadeInRight"><a href="/">Recon <span>Secure Computing</span></a></h1>
+            <p class="animated fadeInRight">"Knowledge is Power and Understanding is Empowerment"</p>
+          </div>
+          <nav class="top-nav">
+            <ul class="top-nav-social hidden-sm">
+              <li>
+                <a href="https://twitter.com/secrecon" target="_blank"
+                   class="animated fadeIn animation-delay-7 twitter"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/tamara-davis-6138b237" target="_blank" class="animated fadeIn animation-delay-7 linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+
+            <div class="dropdown animated fadeInDown animation-delay-11">
+              
+              <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated fadeInUp">
+                <form role="form">
+                  <h4>Login Form</h4>
+
+                  <div class="form-group">
+                    <div class="input-group login-input">
+                      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                      <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <br>
+                    <div class="input-group login-input">
+                      <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                      <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="checkbox pull-left">
+                      <label>
+                        <input type="checkbox"> Remember me
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                    <div class="clearfix"></div>
+                  </div>
+                </form>
+              </div>
+            </div> <!-- dropdown -->
+
+            <div class="dropdown animated fadeInDown animation-delay-13">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+              <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
+                <form role="form">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-ar btn-primary" type="button">Go!</button>
+                    </span>
+                  </div><!-- /input-group -->
+                </form>
+              </div>
+            </div> <!-- dropdown -->
+          </nav>
+        </div> <!-- container -->
+      </header> <!-- header-full -->
+      <nav class="navbar navbar-static-top navbar-default navbar-header-full navbar-dark yamm" role="navigation"
+           id="header">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <i class="fa fa-bars"></i>
+            </button>
+            <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm navbar-dark" href="index.html">
+              Recon
+              <span>Secure Computing</span>
+            </a>
+          </div> <!-- navbar-header -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="pull-right">
+            <a href="javascript:void(0);" class="sb-icon-navbar sb-toggle-right"><i class="fa fa-bars"></i></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">RSC</a>
+                <ul class="dropdown-menu dropdown-menu-left">
+                  <li><a href="/">RSC Home</a></li>
+                  <li><a href="/Home/Cws">CyberWar Shield</a></li>
+                  <li><a href="/Home/Cat">Cyber Awareness Training</a></li>
+                  <li><a href="/Home/Irp">Incident Response</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+                <ul class="dropdown-menu dropdown-menu-left">
+                  <li><a href="/RscServices/VulnerabilityAssessments">Vulnerability Scanning &amp; Assessments</a></li>
+                  <li><a href="/RscServices/SecureApp">Secure App Review/Development</a></li>
+                  <li><a href="/RscServices/Policy">Information Security Policy</a></li>
+                  <li><a href="/RscServices/Forensics">Forensics</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="/Tohara/ToharaIndex" target="_blank">Tohara Project</a></li>
+              <li><a href="/Home/ContactUs">Contact Us</a></li>
+            </ul>
+          </div><!-- navbar-collapse -->
+        </div><!-- container -->
+      </nav>
+
+     
+      
+
+
+<section class="carousel-section">
+  <div id="carousel-example-generic" class="carousel carousel-razon slide" data-ride="carousel"
+       data-interval="5000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-7">
+              <div class="carousel-caption">
+                <div class="carousel-text">
+                  <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">
+                    Cyberwar Shield
+                  </h1>
+                  <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">
+                    CWS does everything cyber...except make the coffee.
+                  </h2>
+                  <ul class="list-unstyled carousel-list">
+                    <li class="animated bounceInLeft animation-delay-11">
+                      <i class="fa fa-check"></i>More than Network Monitoring
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-13">
+                      <i class="fa fa-check"></i>Cyber Management from Perimeter to Data
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-15">
+                      <i class="fa fa-check"></i>Real-Time Incident Response, Brewed in...
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-15">
+                      <i class="fa fa-check"></i>Single Pane Dashboard
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-5 hidden-xs carousel-img-wrap">
+              <div class="carousel-img">
+                <img src="/assets/img/CwsCarousel.png"
+                     class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-8">
+              <div class="carousel-caption">
+                <div class="carousel-text">
+                  <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">
+                    Cyber Awareness Training
+                  </h1>
+                  <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">
+                    Engaging Video Training for Cyber Awareness
+                  </h2>
+                  <ul class="list-unstyled carousel-list">
+                    <li class="animated bounceInLeft animation-delay-11">
+                      <i class="fa fa-check"></i>Up-to-date on current Cyber events
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-13">
+                      <i class="fa fa-check"></i>Customizable Video Catalogs and Quizzes
+                    </li>
+                    <li>
+                      <i class="fa fa-check"></i>Increase Regulatory Compliance
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-15">
+                      <i class="fa fa-check"></i>Establish Employee Baselines
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-4 hidden-xs carousel-img-wrap">
+              <div class="carousel-img">
+                <img src="/assets/img/CatCarousel.png"
+                     class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-7 col-sm-9">
+              <div class="carousel-caption">
+                <div class="carousel-text">
+                  <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">
+                    Secure Application Development
+                  </h1>
+                  <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">
+                    Integrating Security from Start to Finish...
+                  </h2>
+                  <ul class="list-unstyled carousel-list">
+                    <li class="animated bounceInLeft animation-delay-11">
+                      <i class="fa fa-check"></i>User Identity Protocols
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-13">
+                      <i class="fa fa-check"></i>Storage, Memory, and Network Encryption
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-15">
+                      <i class="fa fa-check"></i>Proven and Teachable Methodologies
+                    </li>
+                    <li class="animated bounceInLeft animation-delay-15">
+                      <i class="fa fa-check"></i>Application Testing & Review
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-3 hidden-xs carousel-img-wrap">
+              <div class="carousel-img">
+                <img src="/assets/img/RscSecureAppReview.png"
+                     class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</section> <!-- carousel -->
+
+<section class="margin-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="content-box box-default animated fadeInUp animation-delay-10">
+          <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse">
+            <i class="fa fa-shield"></i>
+          </span>
+          <h4 class="content-box-title"><a href="/Home/Cws">CyberWar Shield</a></h4>
+          <p>
+            More than just Monitoring and Analysis; it’s about using Real-Time Actions when Detecting Cyber Security Events.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="content-box box-default animated fadeInUp animation-delay-14">
+          <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse">
+            <i class="fa fa-group"></i>
+          </span>
+          <h4 class="content-box-title"><a href="/Home/Cat">Cyber Awareness</a></h4>
+          <p>
+            Increase your Employees <b><i>Cyber Awareness</i></b> skills with a customizable, video based learning path that fits your corporate
+            culture.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="content-box box-default animated fadeInUp animation-delay-16">
+          <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse"><i class="fa fa-signal"></i></span>
+          <h4 class="content-box-title"><a href="/Home/Irp">Incident Response</a></h4>
+          <p>
+            Informative and in-depth Incident Response system that is tuned to your regulatory compliance
+            and reporting requirements.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="content-box box-default animated fadeInUp animation-delay-12">
+          <span class="icon-ar icon-ar-lg icon-ar-round icon-ar-inverse">
+            <i class="fa fa-mobile-phone"></i>
+          </span>
+          <h4 class="content-box-title"><a href="/RscServices/SecureApp">Secure Application Development</a></h4>
+          <p>
+            From Conception to Development to Encryption; RSC will Engineer your next State-Of-The-Art, Cyber-Secure Application.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-lines">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="home-devices">
+          <h3>Cyber Security for all Devices</h3>
+          <p>
+            CWS enables users to Define, Detect, and Deny Hackers access to Computing Devices through Active
+            Management between your Data and the Perimeter, including the Endpoints; Mere Endpoint Security
+            is no longer enough!
+          </p>
+          <p>
+            <a href="/Home/Cws">CWS</a> furnishes the capability to define, detect, and deny the goal of all
+            Hackers; Access to your Computing Devices!
+          </p>
+          <ul class="icon-devices">
+            <li class="active">
+              <a href="#desktop" data-toggle="tab">
+                <i class="fa fa-desktop"></i>
+              </a>
+            </li>
+            <li><a href="#laptop" data-toggle="tab"><i class="fa fa-laptop"></i></a></li>
+            <li><a href="#tablet" data-toggle="tab"><i class="fa fa-tablet"></i></a></li>
+            <li><a href="#mobile" data-toggle="tab"><i class="fa fa-mobile"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content">
+          <div class="tab-pane active" id="desktop">
+            <img src="/assets/img/CyberDevices.png" alt="" class="img-responsive">
+          </div>
+          <div class="tab-pane" id="laptop">
+            <img src="/assets/img/iMacBriefing.png" alt="" class="img-responsive">
+          </div>
+          <div class="tab-pane" id="tablet">
+            <img src="/assets/img/iPadBriefing.png" alt="" class="img-responsive">
+          </div>
+          <div class="tab-pane" id="mobile">
+            <img src="/assets/img/iPhoneBriefing.png" alt="" class="img-responsive" style="margin-top: 2em; margin-left: 1em;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <section class="margin-bottom">
+    <p class="lead lead-lg text-center primary-color margin-bottom">
+      Partner with <strong>RSC</strong> and protect your organization
+    </p>
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="no-margin-top">About us</h2>
+        <i><b>Bringing Clarity to securing Computing Devices and Networks within the Business and Home Environments.</b></i>
+        <p>
+          The Risk to Personal Information, Sensitive Corporate Data, and Reputation continues to grow as Technology
+          advances towards an increasingly connected World. Individuals and Businesses need to be more aware of the
+          types of Risks they may be facing; and more importantly, how to successfully overcome those risks.
+        </p>
+        <p>
+          RSC is committed to Proactively Defending our Customers against any known or unknown Threats. RSC Develops,
+          Designs, and Deploys the best Tools and Procedures in the Cyber Security Industry.
+        </p>
+        <p>
+          At RSC, we believe that Information Security is more than just another buzzword. Our <b>Mission Statement</b> is,
+          <b><i>“Knowledge is Power, and Understanding is Empowerment.”</i></b> With our proprietary software/hardware suite of products, we enable our
+          customers to understand HOW, WHY, WHEN, WHERE, and WHO is on their networks in real-time.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="no-margin-top">Our Goals</h2>
+        <p>
+          <i><b>To Lead by Example</b></i>
+        </p>
+        <p>
+          At Recon Secure Computing, we don't just talk about it, we accomplish it.
+        </p>
+        <p>
+          <i><b>Dignity and Respect</b></i>
+        </p>
+        <p>
+          We realize that dealing with Information Security can be frustrating and maybe a bit
+          overwhelming. We treat all people
+          that we meet with the dignity and respect that they deserve.
+        </p>
+        <p>
+          <i><b>To be the Light that God calls us to be</b></i>
+        </p>
+        <p>
+          We believe that God gives people eternal life through his Son, Jesus Christ. He sent his son
+          to earth to die and
+          rise again to make this possible for us all. <i>John 3:16</i>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h2 class="no-margin-top">Our Mission</h2>
+        <i><b>Information and Awareness</b></i>
+        <p>
+          Cyber Awareness Training to increase Customer and Employee Awareness of Risks, with the goal
+          of reducing risks by promoting safer actions, and avoiding unintended Data Breaches.
+        </p>
+        <i><b>Tools</b></i>
+        <p>
+          Provide the right Software and Hardware controls to monitor and proactively resist attacks against
+          Information Technology resources, data, and personal/corporate reputation.
+        </p>
+        <i><b>Professional Services</b></i>
+        <p>
+          Professional Consulting Services to ensure that our customers meet and exceed all of their
+          Regulatory Compliance Requirements.
+        </p>
+        <p>
+          Cyber Security Policies and Procedures customized for each individual corporate entity,
+          focused on each specific industry’s Regulatory Compliance needs.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="slogan text-center">
+      Partner with an organization that has over <span>30 years of experience</span> in all
+      levels of <span>CYBER-Security</span>.
+    </p>
+    <h2 class="section-title">Our Clients</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScaleStreckLogo.png" alt=""
+                 class="img-responsive">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScaleAnLogo.png" alt=""
+                 class="img-responsive">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScaleDempseyDillingLogo.png" alt=""
+                 class="img-responsive">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScalemail-services-logo.png" alt=""
+                 class="img-responsive">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScaleEnterprise-Logo3.png" alt=""
+                 class="img-responsive">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScalePresort-plus-logo.png" alt=""
+                 class="img-responsive">
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <img src="/assets/img/GrayScaleQualified-presort-service-logo.png" alt=""
+                 class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+      <aside id="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="footer-widget-title">Sitemap</h3>
+              <ul class="list-unstyled three_cols">
+                <li><a href="/">RSC Home</a></li>
+                <li><a href="/Home/Cws">CWS</a></li>
+                <li><a href="/Home/Cat"> Awareness</a></li>
+                <li><a href="/RscServices/SecureApp">Secure App</a></li>
+                <li><a href="/Home/Irp">Incident</a></li>
+                <li><a href="/RscServices/VulnerabilityAssessments">Vulnerability Scan</a></li>
+                <li><a href="/RscServices/Policy">Policy</a></li>
+                <li><a href="/Home/TermsOfUse">Terms of Use</a></li>
+                <li><a href="/Home/PrivacyPolicy">Privacy Policy</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-md-4 pull-right" style="margin-top: 1.5em;">
+              <div class="row">
+                <img src="/assets/img/cbbb-badge-horz.png" />
+                <img src="/assets/img/cbbb-accred-a-plus.png" />
+              </div>
+            </div>
+          </div> <!-- row -->
+        </div> <!-- container -->
+      </aside> <!-- footer-widgets -->
+      <footer id="footer">
+        <p>&copy; 2016 <a href="#">Recon Secure Computing</a>, inc. All rights reserved.</p>
+      </footer>
+
+    </div> <!-- boxed -->
+  </div> <!-- sb-site -->
+
+  <div class="sb-slidebar sb-right">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+      </span>
+    </div><!-- /input-group -->
+
+    <h2 class="slidebar-header no-margin-bottom">Navigation</h2>
+    <ul class="slidebar-menu">
+      <li><a href="/">RSC Home</a></li>
+      <li><a href="/Home/Cws">Cyberwar Shield</a></li>
+      <li><a href="/Home/Cat">Cyber Awareness</a></li>
+      <li><a href="/RscServices/SecureApp">Secure App Dev</a></li>
+      <li><a href="/Home/Irp">Incident Response</a></li>
+      
+    </ul>
+
+    <h2 class="slidebar-header">Social Media</h2>
+    <div class="slidebar-social-icons">
+      <a href="https://twitter.com/secrecon" target="_blank" class="social-icon-ar twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/tamara-davis-6138b237" target="_blank" class="social-icon-ar linkedin"><i class="fa fa-linkedin"></i></a>
+    </div>
+  </div> <!-- sb-slidebar sb-right -->
+  <div id="back-top">
+    <a href="#header"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+  <script src="/assets/js/vendors.js"></script>
+
+  <!-- Syntaxhighlighter -->
+  <script src="/assets/js/syntaxhighlighter/shCore.js"></script>
+  <script src="/assets/js/syntaxhighlighter/shBrushXml.js"></script>
+  <script src="/assets/js/syntaxhighlighter/shBrushJScript.js"></script>
+
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/index.js"></script>
+
+</body>
+
+</html>
+

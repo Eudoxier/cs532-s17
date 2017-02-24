@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<title>RedTeam Pentesting GmbH - Seeing your network from the attacker's perspective</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="RedTeam Pentesting GmbH" name="author" />
+        <meta content="all" name="robots" />
+        <link href="/touch-icon-128.png" rel="icon" sizes="128x128" />
+        <link href="/apple-touch-icon-144.png" rel="apple-touch-icon" sizes="144x144" />
+        <link href="/apple-touch-icon-114.png" rel="apple-touch-icon" sizes="114x114" />
+        <link href="/apple-touch-icon-72.png" rel="apple-touch-icon" sizes="72x72" />
+        <link href="/apple-touch-icon-57.png" rel="apple-touch-icon" />
+        <link href="/favicon.ico" type="image/vnd.microsoft.icon" rel="shortcut icon" />
+        <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+        <meta content="de" name="language" http-equiv="content-language" />
+        <meta content="RedTeam Pentesting ist spezialisiert auf die Durchführung von Penetrationstests. Im Auftrag von Kunden werden weltweit Schwachstellen in IT-Systemen aufgedeckt." name="description" />
+        <meta content="Penetrationstest, Pentest, IT-Sicherheit, Schwachstellen, Sicherheitslücken, Analyse, Experten, Dienstleistung, Industriespionage, Audit" name="keywords" />
+        <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="/yaml/redteam.css" type="text/css" rel="stylesheet" />
+        <link href="/feeds/news_de.xml" type="application/rss+xml" rel="alternate" title="Neuigkeiten von RedTeam Pentesting als RSS feed" />
+        <link href="/feeds/advisories.xml" type="application/rss+xml" rel="alternate" title="Neue Sicherheits-Advisories von RedTeam Pentesting" />
+        <link href="/yaml/print/print_redteam.css" type="text/css" rel="stylesheet" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+<!--[if lte IE 7]>
+<link href="/yaml/patches/patch_redteam.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if (gte IE 7)&(!IE 8)]>
+<link href="/yaml/patches/patch_redteam_ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<div class="ym-wrapper">
+  <div class="ym-wbox">
+    <div id="header">
+        <a href="#navigation" class="ym-skip" title="skip link">skip to navigation</a><span class="ym-hideme">.</span>
+        <a href="#content" class="ym-skip" title="skip link">Skip to the content</a><span class="ym-hideme">.</span>
+        <a href="/de/home/-seeing-your-network-from-the-attackers-perspective" class="internal"><img src="/images/redteam-logo-red.png" style="" id="logo" alt="RedTeam Pentesting GmbH - seeing your network from the attacker's perspective" title="RedTeam Pentesting GmbH Logo" /></a>
+      </div>
+    <div id="main" class="ym-column linearize-level-1">
+      <div class="ym-col1">
+        <div class="ym-clearfix ym-cbox-left">
+          <a id="navigation" name="navigation"></a>
+          <div class="hlist">
+                  <div id="mobile_header" class="ym-column">
+                      <div class="ym-col1"><div class="ym-clearfix ym-cbox-left"><label for="menu"><i style="height: 40px; font-size: 32px; line-height: 40px" class="fa fa-bars"></i></label></div></div>
+                      <div class="ym-col2"><div class="ym-clearfix ym-cbox-right"> <a href="tel:+49-241-510081-0"><i style="height: 40px; font-size: 32px; line-height: 40px;" class="fa fa-phone"></i></a></div></div>
+                      <div class="ym-col3"><div class="ym-clearfix ym-cbox"><a href="/home/-seeing-your-network-from-the-attackers-perspective"><img src="/touch-icon-128.png" style="vertical-align: middle; height: 32px;" /><span style="line-height: 40px; margin-left: .25em;">RedTeam Pentesting</span></a></div></div>
+              </div>
+              <input type="checkbox" class="menu" id="menu" />
+              <nav role="navigation" id="sitenav" class="ym-vlist fix">
+                    <ul>
+                        <li style="border-top-style:none" class="menuitem1 active">
+<a href="/de/home/-seeing-your-network-from-the-attackers-perspective" class="internal" title="Seeing your network from the attacker's perspective">
+    <span class="menuitem1_linktitle active">Home<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            <ul class="active">
+                                <li class="menuitem2">
+                                    <a href="/de/home/archive/-aktuelles-und-neuigkeiten" class="internal" title="Aktuelles und Neuigkeiten">
+                                    <span style=";border-top-style:none;" class="menuitem2_linktitle">News-Archiv</span></a>
+                                </li>
+                            </ul>
+                       </li><li style="" class="menuitem1">
+<a href="/de/redteam/-ueber-redteam-pentesting-unsere-penetrationstester" class="internal" title="Über RedTeam Pentesting - Unsere Penetrationstester">
+    <span class="menuitem1_linktitle">RedTeam<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            <ul class="inactive">
+                                <li class="menuitem2">
+                                    <a href="/de/redteam/history/-die-firmengeschichte" class="internal" title="Die Firmengeschichte">
+                                    <span style=";border-top-style:none;" class="menuitem2_linktitle">Firmengeschichte</span></a>
+                                </li>
+                            </ul>
+                       </li><li style="" class="menuitem1">
+<a href="/de/pentest/-was-ist-ein-penetrationstest" class="internal" title="Was ist ein Penetrationstest?">
+    <span class="menuitem1_linktitle">Pentest<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            <ul class="inactive">
+                                <li class="menuitem2">
+                                    <a href="/de/pentest/benefits/-vorteile-eines-penetrationstests" class="internal" title="Vorteile eines Penetrationstests">
+                                    <span style=";border-top-style:none;" class="menuitem2_linktitle">Vorteile</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/pentest/product_test/-produktpentests-penetrationstests-von-produkten" class="internal" title="Produktpentests: Penetrationstests von Produkten">
+                                    <span style="" class="menuitem2_linktitle">Produktpentests</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/pentest/reconnaissance/-penetrationstest-reconnaissance-informationsbeschaffung-vor-dem-angriff" class="internal" title="Penetrationstest / Reconnaissance: Informationsbeschaffung vor dem Angriff">
+                                    <span style="" class="menuitem2_linktitle">Reconnaissance</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/pentest/enumeration/-penetrationstest-enumeration-angriffsvektoren-finden" class="internal" title="Penetrationstest / Enumeration: Angriffsvektoren finden">
+                                    <span style="" class="menuitem2_linktitle">Enumeration</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/pentest/exploitation/-penetrationstest-exploitation-verifizieren-von-angriffsmoeglichkeiten" class="internal" title="Penetrationstest / Exploitation: Verifizieren von Angriffsmöglichkeiten">
+                                    <span style="" class="menuitem2_linktitle">Exploitation</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/pentest/documentation/-penetrationstest-documentation-ergebnisse-festhalten" class="internal" title="Penetrationstest / Documentation: Ergebnisse festhalten">
+                                    <span style="" class="menuitem2_linktitle">Documentation</span></a>
+                                </li>
+                            </ul>
+                       </li><li style="" class="menuitem1">
+<a href="/de/faq/-haeufig-gestellte-fragen-zu-penetrationstests" class="internal" title="Häufig gestellte Fragen zu Penetrationstests">
+    <span class="menuitem1_linktitle">FAQ<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                       </li><li style="" class="menuitem1">
+<a href="/de/advisories/-advisories-veroeffentlichte-schwachstellenanalysen" class="internal" title="Advisories: Veröffentlichte Schwachstellenanalysen">
+    <span class="menuitem1_linktitle">Advisories<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            
+                       </li><li style="" class="menuitem1">
+<a href="/de/publications/-publikationen-veroeffentlichungen-vortraege-und-paper" class="internal" title="Publikationen: Veröffentlichungen, Vorträge und Paper">
+    <span class="menuitem1_linktitle">Publikationen<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            <ul class="inactive">
+                                <li class="menuitem2">
+                                    <a href="/de/publications/MitM-chipTAN-comfort/-man-in-the-middle-angriffe-gegen-chiptan-comfort" class="internal" title="Man-in-the-Middle-Angriffe gegen chipTAN comfort">
+                                    <span style="" class="menuitem2_linktitle">chipTAN comfort</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/publications/jboss/-bridging-the-gap-between-the-enterprise-and-you-or-whos-the-jboss-now" class="internal" title="Bridging the Gap between the Enterprise and You - or - Who's the JBoss now?">
+                                    <span style="" class="menuitem2_linktitle">JBoss-Sicherheit</span></a>
+                                </li><li class="menuitem2">
+                                    <a href="/de/publications/tls-renegotiation/-tls-renegotiation-schwachstelle-proof-of-concept-code" class="internal" title="TLS Renegotiation-Schwachstelle: Proof of Concept-Code">
+                                    <span style="" class="menuitem2_linktitle">TLS Renegotiation</span></a>
+                                </li>
+                            </ul>
+                       </li><li style="" class="menuitem1">
+<a href="/de/press/-fernsehbeitraege-zeitungsberichte-und-andere-medien" class="internal" title="Fernsehbeiträge, Zeitungsberichte und andere Medien">
+    <span class="menuitem1_linktitle">Presse<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                       </li><li style="" class="menuitem1">
+<a href="/de/jobs/-jobs-stellenangebote-offene-stellen-bei-redteam-pentesting" class="internal" title="Jobs, Stellenangebote, offene Stellen bei RedTeam Pentesting">
+    <span class="menuitem1_linktitle">Karriere<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                       </li><li style="" class="menuitem1">
+<a href="/de/testimonials/-unsere-kunden-ueber-unsere-pentest-dienstleistung" class="internal" title="Unsere Kunden über unsere Pentest-Dienstleistung">
+    <span class="menuitem1_linktitle">Testimonials<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                       </li><li style="" class="menuitem1">
+<a href="/de/contact/-wie-sie-uns-erreichen-koennen" class="internal" title="Wie Sie uns erreichen können">
+    <span class="menuitem1_linktitle">Kontakt<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            <ul class="inactive">
+                                <li class="menuitem2">
+                                    <a href="/de/contact/contactform/-schreiben-sie-uns" class="internal" title="Schreiben Sie uns!">
+                                    <span style=";border-top-style:none;" class="menuitem2_linktitle">Kontaktformular</span></a>
+                                </li><li class="menuitem2">
+                                        <a href="/files/anfahrtsbeschreibung-redteam.pdf" class="misc" title="Anfahrtsbeschreibung"><span class="menuitem2_linktitle">Anfahrt</span></a>
+                                </li>
+                            </ul>
+                       </li><li style="" class="menuitem1">
+<a href="/de/imprint/-impressum" class="internal" title="Impressum">
+    <span class="menuitem1_linktitle">Impressum<span class="rtl"></span><span class="rtr"></span><span class="rbl"></span><span class="rbr "></span></span></a>
+                            <ul class="inactive">
+                                <li class="menuitem2">
+                                    <a href="/de/imprint/privacy/-datenschutzerklaerung" class="internal" title="Datenschutzerklärung">
+                                    <span style=";border-top-style:none;" class="menuitem2_linktitle">Datenschutz</span></a>
+                                </li>
+                            </ul>
+                       </li>
+                    </ul>
+                    <div class="langswitch">
+                <a href="/en/home/-seeing-your-network-from-the-attackers-perspective" id="langswitch" class="internal"><img src="/images/lang_en.png" alt="English Version" class="langimg" title="English Version" /></a></div>
+                    </nav>
+                    <a href="/de/contact/-wie-sie-uns-erreichen-koennen" class="internal"><img src="/images/phone_de.png" alt="Rufen Sie uns an!" border="0" id="phone" title="Rufen Sie uns an!" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="ym-col2">
+        <div class="ym-clearfix ym-cbox-right">
+            <div class="sidebar">
+    <h3><a href="/de/publications/-publikationen-veroeffentlichungen-vortraege-und-paper" class="internal">Publikationen</a></h3>
+    <ul>
+        <li><span class="timestamp">15.02.2017</span><br clear="none" />
+            <a href="/publications/2017-02-15-Daten-löschen-aber-richtig_RedTeam-Pentesting_24-DFN-CERT.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Daten löschen, aber richtig – Über die Besonderheiten von SSDs”</a>, <a href="https://www.dfn-cert.de/veranstaltungen/Sicherheitskonferenz2017.html" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />24. DFN-Konferenz „Sicherheit in vernetzten Systemen”</a>, Folien
+        </li>
+        <li><span class="timestamp">19.12.2016</span><br clear="none" />
+            <a href="/publications/2016-12-19-Operating-Systems-Security_RedTeam-Pentesting_Guest-Lecture-Radboud-Universiteit-2016.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Operating Systems Security And Why It (Mostly) Doesn't Matter”</a>, Folien (Englisch)
+        </li>
+        <li><span class="timestamp">02.11.2016</span><br clear="none" />
+            <a href="/publications/2016-11-02-Daten-löschen-aber-richtig_RedTeam-Pentesting_LeetCon-2016.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Daten löschen, aber richtig – Über die Besonderheiten von SSDs”</a>, <a href="https://www.leetcon.de" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />LeetCon 2016</a>, Folien
+        </li>
+        <li><span class="timestamp">02.11.2016</span><br clear="none" />
+            <a href="/publications/2016-11-02-Alles-wird-gut_RedTeam-Pentesting_LeetCon-2016.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Alles wird gut? – Über Menschen, Angreifer und die Zukunft”</a>, <a href="https://www.leetcon.de" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />LeetCon 2016</a>, Folien
+        </li>
+        <li><span class="timestamp">10.05.2016</span><br clear="none" />
+            <a href="/publications/2016-05-10-Penetration-Tester_Click-Monkey-or-Creative-Hacker_Security-Lab-2016_ITSec-RWTH-Aachen_RedTeam-Pentesting.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Penetration Tester – Click Monkey or Creative Hacker?”</a>, <a href="https://itsec.rwth-aachen.de/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Research Group IT-Security</a>, Folien (Englisch)
+        </li>
+        <li><span class="timestamp">06.02.2016</span><br clear="none" />
+            <a href="/publications/2016-02-06-Lets-Encrypt-with-Best-Practices_DevConf.cz-2016.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Let's Encrypt with Best Practices”</a>, <a href="http://devconf.cz/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />DevConf.cz 2016</a>, Folien (Englisch)
+        </li>
+        <li><span class="timestamp">21.12.2015</span><br clear="none" />
+            <a href="/publications/2015-12-21-Physical-Security_RedTeam-Pentesting_ITSec-RWTH-Aachen.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Physical Security – Wenn Türen zu Firewalls werden”</a>, <a href="https://itsec.rwth-aachen.de/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Research Group IT-Security</a>, Folien
+        </li>
+        <li><span class="timestamp">12.08.2015</span><br clear="none" />
+           <a href="/publications/2015-08-12-Security-Threats-At-Conferences_Flock-2015_RedTeam-Pentesting.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Security Threats at Conferences”</a>, <a href="http://www.flocktofedora.org/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Flock 2015</a>, Folien (Englisch)
+        </li>
+        <li><span class="timestamp">18.06.2015</span><br clear="none" />
+            <a href="/publications/2015-06-18-Your-Home-is-My-Castle_Angriffe-auf-die-Updates-eines-Heimrouters.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Your Home is My Castle – Angriffe auf die Updates eines Heimrouters”</a>, <a href="https://osak.fsmpi.rwth-aachen.de/posts/2015-06-11-cryptoparty-programm.html" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Cryptoparty</a> der <a href="https://www.fsmpi.rwth-aachen.de/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Fachschaft Mathematik/Physik/Informatik</a>, Folien
+        </li>
+        <li><span class="timestamp">11.06.2015</span><br clear="none" />
+            <a href="/publications/2015-06-11-Angriff-zur-Verteidigung_Audit-Challenge_RedTeam-Pentesting.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />„Angriff zur Verteidigung – Erfolgsfaktoren für gute Penetrationstests”</a>, <a href="http://audit-challenge.com/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Audit Challenge 2015</a>, Folien
+        </li>
+    </ul>
+</div><div class="sidebar">
+  <h3><a href="/de/advisories/-advisories-veroeffentlichte-schwachstellenanalysen" class="internal">Advisories</a></h3>
+  <ul>
+    <li>
+      <b>rt-sa-2016-001</b><br clear="none" />
+      <a href="/de/advisories/rt-sa-2016-001/-padding-oracle-in-apache-mod-session-crypto" class="internal">Padding Oracle in Apache mod_session_crypto</a>
+    </li>
+    <li>
+      <b>rt-sa-2016-003</b><br clear="none" />
+      <a href="/de/advisories/rt-sa-2016-003/-less-js-compilation-of-untrusted-less-files-may-lead-to-code-execution-through-the-javascript-less-compiler" class="internal">Compilation of Untrusted LESS Files May Lead to Code Execution through the JavaScript Less Compiler</a>
+    </li>
+    <li>
+      <b>rt-sa-2016-005</b><br clear="none" />
+      <a href="/de/advisories/rt-sa-2016-005/-unauthenticated-file-upload-in-relay-ajax-directory-manager-may-lead-to-remote-command-execution" class="internal">Unauthenticated File Upload in Relay Ajax Directory Manager may Lead to Remote Command Execution</a>
+    </li>
+    <li>
+      <b>rt-sa-2016-004</b><br clear="none" />
+      <a href="/de/advisories/rt-sa-2016-004/-websockify-remote-code-execution-via-buffer-overflow" class="internal">Websockify: Remote Code Execution via Buffer Overflow</a>
+    </li>
+    <li>
+      <b>rt-sa-2015-012</b><br clear="none" />
+      <a href="/de/advisories/rt-sa-2015-012/-xml-external-entity-expansion-in-paessler-prtg-network-monitor" class="internal">XML External Entity Expansion in Paessler PRTG Network Monitor</a>
+    </li>
+    <li>
+      <b>rt-sa-2016-002</b><br clear="none" />
+      <a href="/de/advisories/rt-sa-2016-002/-cross-site-scripting-in-securimage-3-6-2" class="internal">Cross-site Scripting in Securimage 3.6.22</a>
+    </li>
+  </ul>
+</div>
+        </div>
+      </div>
+      <div class="ym-col3">
+        <div class="ym-clearfix ym-cbox"> <a id="content" name="content"></a>
+              <span style="color:#990000" id="nav_helper">&gt; <a href="/de/home/-seeing-your-network-from-the-attackers-perspective" class="internal">Home</a></span>
+              <img src="/images/bildleiste.png" alt="vertical divider" class="divider" />
+              <div>
+<div class="content">
+<div>
+<p>
+RedTeam Pentesting bietet individuelle Penetrationstests, kurz Pentests,
+durchgeführt von einem <a href="/de/redteam/-ueber-redteam-pentesting-unsere-penetrationstester" class="internal">Team</a>
+spezialisierter IT-Sicherheitsexperten, an. Hierdurch werden Sicherheitslücken
+in IT-Systemen (z.B. Netzwerken, Anwendungen oder Geräten) aufgedeckt und
+können anschließend behoben werden.</p>
+<p>
+Da es im Bereich Netzwerksicherheit zur Zeit nur sehr wenige Experten gibt,
+möchte RedTeam Pentesting die Wissensvermittlung auf diesem Gebiet vorantreiben
+und mit aktueller Forschung im Bereich von sicherheitsrelevanten Themen
+unterstützen. Die zur Zeit veröffentlichten Ergebnisse sind unter <a href="/de/advisories/-advisories-veroeffentlichte-schwachstellenanalysen" class="internal">Advisories</a> hinterlegt und fanden
+national und international <a href="/de/press/-fernsehbeitraege-zeitungsberichte-und-andere-medien" class="internal">Beachtung</a>.
+</p>
+<p>
+Im Unterschied zu vielen anderen Firmen ist RedTeam Pentesting auf die
+Durchführung von Pentests spezialisiert. Eine ausführliche Beschreibung von
+Pentests finden Sie auf der <a href="/de/pentest/-was-ist-ein-penetrationstest" class="internal">Pentest</a>-Seite, Antworten auf häufig gestellte Fragen finden
+Sie in den <a href="/de/faq/-haeufig-gestellte-fragen-zu-penetrationstests" class="internal">FAQ</a>.
+</p>
+<p>
+Gerne beantworten wir Ihnen weitere Fragen per <a href="/de/contact/-wie-sie-uns-erreichen-koennen" class="internal">E-Mail, Fax oder Telefon</a>.
+</p>
+<p>
+Immer aktuell informiert bleiben Sie mit dem <a href="/de/../feeds/news_de.xml" class="internal">RSS-Feed</a>.
+</p>
+</div>
+<h3>Aktuelles</h3>
+<ul>
+<li class="newsitem"><span class="timestamp">30.01.2017</span> - 
+
+	<span class="summary">
+        Ab sofort informiert Sie RedTeam Pentesting auch auf <a href="https://twitter.com/redteampt" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Twitter</a> über Neuigkeiten rund um RedTeam und aktuelle IT-Security-Themen.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">23.12.2016</span> - 
+
+  <span class="summary">
+    Neues <a href="/de/advisories/-advisories-veroeffentlichte-schwachstellenanalysen" class="internal">Advisory</a> veröffentlicht: <a href="/de/advisories/rt-sa-2016-001/-padding-oracle-in-apache-mod-session-crypto" class="internal">Padding Oracle in Apache mod_session_crypto</a>.
+  </span>
+  
+</li><li class="newsitem"><span class="timestamp">16.12.2016</span> - 
+
+	<span class="summary">
+          Am 19. Dezember 2016 wird Patrick Hof eine Gastvorlesung im Modul <a href="http://www.studiegids.science.ru.nl/2016/science/prospectus/inf_ba/course/40577/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Operating Systems Security</a> mit dem Titel „Operating Systems Security And Why It (Mostly) Doesn't Matter” an der <a href="http://www.ru.nl/deutsch/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Radboud Universiteit in Nijmegen</a> halten.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">24.11.2016</span> - 
+
+  <span class="summary">
+    Neues <a href="/de/advisories/-advisories-veroeffentlichte-schwachstellenanalysen" class="internal">Advisory</a> veröffentlicht: <a href="/de/advisories/rt-sa-2016-003/-less-js-compilation-of-untrusted-less-files-may-lead-to-code-execution-through-the-javascript-less-compiler" class="internal">Compilation of Untrusted LESS Files May Lead to Code Execution through the JavaScript Less Compiler</a>.
+  </span>
+  
+</li><li class="newsitem"><span class="timestamp">17.11.2016</span> - 
+
+	<span class="summary">
+		Am 07.11.2016 lief in der WDR-Sendung <a href="https://www1.wdr.de/verbraucher/digital/sicherheitsluecke-fritz-box-100.html" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Servicezeit</a> ein Bericht mit RedTeam Pentesting über eine Schwachstelle in AVM FRITZ!Boxen, die es Angreifern erlaubte auf fremde Kosten zu telefonieren.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">24.10.2016</span> - 
+
+	<span class="summary">
+		Am 2. November 2016 wird Alexander Neumann den Vortrag „Daten löschen, aber richtig - über die Besonderheiten von SSDs” auf der <a href="https://www.leetcon.de" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Leetcon</a> halten.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">24.10.2016</span> - 
+
+	<span class="summary">
+		Am 2. November 2016 wird Jens Liebchen den Vortrag „Alles wird gut? Über Menschen, Angreifer &amp; die Zukunft” auf der <a href="https://www.leetcon.de" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Leetcon</a> halten.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">17.10.2016</span> - 
+
+	<span class="summary">
+		Am 20. Oktober 2016 wird Jens Liebchen den Vortrag „Physical Security - Wenn Türen zu Firewalls werden” am <a href="http://www1.cs.fau.de/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" /> Lehrstuhl für IT-Sicherheitsinfrastrukturen </a> der <a href="http://www.fau.de/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" /> Friedrich-Alexander-Universität Erlangen-Nürnberg </a> im Rahmen der Vorlesung „Angewandte IT-Sicherheit” halten. Im Anschluss findet eine praktische Einführung zu Lockpicking statt. RedTeam Pentesting freut sich, erneut die Universität mit Vorträgen und Fachwissen unterstützen zu können.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">10.10.2016</span> - 
+
+    <span class="summary">Das Handelsblatt berichtet in dem Artikel <a href="http://www.handelsblatt.com/technik/sicherheit-im-netz/it-sicherheit-im-fadenkreuz-der-hacker-als-helfer/14613978.html" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />„Der Hacker als Helfer”</a> über RedTeam Pentesting.</span>
+    
+</li><li class="newsitem"><span class="timestamp">31.05.2016</span> - 
+
+  <span class="summary">
+    Drei neue <a href="/de/advisories/-advisories-veroeffentlichte-schwachstellenanalysen" class="internal">Advisories</a> veröffentlicht: <a href="/de/advisories/rt-sa-2015-012/-xml-external-entity-expansion-in-paessler-prtg-network-monitor" class="internal">XML External Entity Expansion in Paessler PRTG Network Monitor</a>, <a href="/de/advisories/rt-sa-2016-004/-websockify-remote-code-execution-via-buffer-overflow" class="internal">Websockify: Remote Code Execution via Buffer Overflow</a> und <a href="/de/advisories/rt-sa-2016-005/-unauthenticated-file-upload-in-relay-ajax-directory-manager-may-lead-to-remote-command-execution" class="internal">Unauthenticated File Upload in Relay Ajax Directory Manager may Lead to Remote Command Execution</a>.
+  </span>
+  
+</li><li class="newsitem"><span class="timestamp">11.05.2016</span> - 
+
+	<span class="summary">
+    Die Folien zum Vortrag „Penetration Tester – Click Monkey or Creative Hacker?”, gehalten von Sebastian Chrobak im Rahmen der Veranstaltung <a href="https://itsec.rwth-aachen.de/teaching" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Security Lab 2016</a> der <a href="https://itsec.rwth-aachen.de/" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />Research Group IT-Security</a> der <a href="https://www.rwth-aachen.de" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />RWTH Aachen University</a>, stehen unter den <a href="/de/publications/-publikationen-veroeffentlichungen-vortraege-und-paper" class="internal">Publikationen</a> bereit.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">26.04.2016</span> - 
+
+	<span class="summary">
+    Die Folien zum Vortrag „Was Dein ist, ist Mein – Datensicherheit aus der Angreiferperspektive”, gehalten von Jens Liebchen anlässlich des Welttags des geistigen Eigentums am <a href="http://www.agit.de/technologiezentren-aachen/beitrag/artikel/pm-0616-26-april-ist-welttag-des-geistigen-eigentums-veranstaltung-schutz-von-ideen-in-eine.html" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />TZ Aachen</a>, stehen unter den <a href="/de/publications/-publikationen-veroeffentlichungen-vortraege-und-paper" class="internal">Publikationen</a> bereit.
+	</span>
+	
+</li><li class="newsitem"><span class="timestamp">25.04.2016</span> - 
+
+  <span class="summary">Heute ist der Artikel „Immer auf der Suche nach Schwachstellen” über die Arbeit von RedTeam Pentesting in den Aachener Nachrichten und der Aachener Zeitung erschienen (Ausgabe 25. April 2015, Seite 6). Dieser ist auch online abrufbar (<a href="https://www.aachener-nachrichten.de/news/wirtschaft/redteam-pentesting-immer-auf-der-suche-nach-schwachstellen-1.1345065" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />AN</a>/<a href="https://www.aachener-zeitung.de/news/wirtschaft/redteam-pentesting-immer-auf-der-suche-nach-schwachstellen-1.1345065" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />AZ</a>).</span>
+  
+</li><li class="newsitem"><span class="timestamp">24.03.2016</span> - 
+
+        <span class="summary">
+RedTeam Pentesting ist im Rahmen der Kampagne
+<a href="http://germanyatitsbest.de/de/best_performances/categories/?c=2&amp;d=2962" class="external"><img title="Externer Verweis" class="exlink" src="/images/external.png" alt="Externer Verweis" />
+GERMANY AT ITS BEST</a> des Landes NRW für die Bestleistung als „Weltweit
+führendes auf Penetrationstests spezialisiertes Unternehmen”
+ausgezeichnet worden. Die Urkunde des Wirtschaftsministeriums steht zum
+<a href="/files/GERMANY_AT_ITS_BEST_RedTeam_Pentesting_Urkunde.pdf"><img title="PDF-Dokument" class="pdficon" src="/images/pdf.png" alt="PDF-Dokument" />
+Download</a> bereit.
+        </span>
+        
+</li><li class="newsitem"><span class="timestamp">22.03.2016</span> - 
+
+       <span class="summary">
+        Neues Sicherheits-Advisory veröffentlicht:
+        <a href="/de/advisories/rt-sa-2016-002/-cross-site-scripting-in-securimage-3-6-2" class="internal">Cross-site Scripting in Securimage 3.6.22</a>
+       </span>
+       
+</li>
+</ul>
+<a href="/de/home/archive/-aktuelles-und-neuigkeiten" class="internal">News-Archiv</a>
+</div>
+</div>
+        </div>
+        <div class="ym-ie-clearing"> </div>
+      </div>
+    </div>
+</div>
+</div>
+    <div id="footer">
+        <div><span>RedTeam Pentesting GmbH</span> <span>Technologiezentrum Aachen</span> <span>Dennewartstraße 25-27</span> <span>52068 Aachen</span> <span>Deutschland</span><br clear="none" />
+            <span>Telefon: <a href="tel:+49-241-510081-0">+49 241 510081-0</a></span> <span>Fax: +49 241 510081-99</span> <span>E-Mail: <a href="mailto:kontakt@redteam-pentesting.de">kontakt@redteam-pentesting.de</a>
+(<a href="/gpg/RedTeam-Pentesting-GPG-Kontakt-Key.asc" class="misc">GnuPG/PGP-Public-Key</a>)</span>
+</div>
+    </div>
+<div><img src="https://redteam-pentesting.de/images/HSTS.png" style="border:0; display:none; visibility:hidden; width:0px; height:0px;" height="0" alt="" width="0" /></div>
+</body>
+</html>

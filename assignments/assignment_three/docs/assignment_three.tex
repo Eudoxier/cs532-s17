@@ -1,0 +1,254 @@
+% Add `ngerman` to documentclass for German docs
+\documentclass[12pt, a4paper]{article}
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage[utf8]{inputenc}
+
+\usepackage{url}
+\usepackage[hidelinks, breaklinks=true]{hyperref}
+\usepackage{minted}
+\usemintedstyle{perldoc}
+
+% inline code
+\newcommand{\code}[1]{\texttt{#1}}
+
+% Uncomment for German
+%\usepackage[ngerman]{babel}
+
+% For generating template dummy text
+\usepackage{lipsum}
+
+\usepackage{myColors}
+\usepackage{myFooter}
+\usepackage{myTitle}
+
+% Libraries outside of template
+\usepackage[T1]{fontenc}
+\usepackage{upquote}
+\AtBeginDocument{%
+    \def\PYZsq{\textquotesingle}%
+}
+
+\usepackage{breakurl}
+\usepackage{tabularx}
+\usepackage{amsmath}
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
+\def\UrlBreaks{\do\/\do-}
+
+\project{CS 432 Web Science}
+\author{Derek Goddeau}
+\title{Assignment Three}
+\supervisor{Michael L. Nelson}
+
+\doublespace
+\pagestyle{hacker}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% Download URI HTML %
+%%%%%%%%%%%%%%%%%%%%%
+\section{Download the HTML for the 1000 URIs}
+
+To download the HTML for the URIs the bash script \code{get\_html.sh}
+is used. The \code{fetch()} function does all the work, downloading the
+HTML using \code{wget} and creating a \code{SHA-1} hash of the URI
+to store locally.
+
+\begin{minipage}{\linewidth} % prevent splitting between pages
+\vspace{2em}
+\begin{minted}[fontfamily=tt]{bash}
+fetch() {
+    while read uri; do
+        local hash=$(echo -n "$uri" | sha1sum | cut -d ' ' -f 1)
+        local hash+=".html"
+        wget -O data/raw_html/"$hash" "$uri"
+    done < "$FILE"
+}
+\end{minted}
+\vspace{2em}
+\end{minipage}
+
+Then to remove the HTML and leave only words the \code{word\_soup}
+program was used. The program is multithreaded and accepts an
+\code{-t} parameter to specify the number of threads to use.
+Because BeautifulSoup is used, and it uses recursion internally
+to find child elements the \code{-r} flag is available to change
+the default Python recursion limit 1000 to prevent \code{RuntimeError}
+from being thrown on very large documents, but the system must still have
+the memory to handle the maximum runtime recursion level. Finally
+input and output files must be specified.
+
+After spawning the number of threads specified,
+before parsing the file the MIME type is checked using the
+\code{magic} package, if it is not \enquote{\code{text/html}} then it is ignored.
+Then \code{BeautifulSoup} is used to parse the HTML using the \code{lxml}
+parser and the unwanted portions of the document are removed using
+list comprehensions over the elements and the \code{extract()} method.
+The result for each is written to a file named after the hash concatenated
+with \enquote{\code{.txt}} in the specified output directory.
+
+%%%%%%%%%
+% TFIDF %
+%%%%%%%%%
+\section{Calculate TFIDF}
+Mixing \code{bash} with Python using bash magic in a Jupyter notebook a
+list of all files with the term \code{TERM} is created. Then from the
+list using the Python \code{random} package a random sample of 10 URIs
+is chosen.
+
+\begin{minipage}{\linewidth} % prevent splitting between pages
+\vspace{2em}
+\begin{minted}[fontfamily=tt]{python}
+TERM = 'hacker'
+term = ' ' + TERM + ' '
+files = ! grep -H -r "{term}" ../data/words/* | cut -d ':' -f 1 | sort -u
+
+import random
+files = random.sample(files, 10)
+\end{minted}
+\vspace{2em}
+\end{minipage}
+
+From there the data needed to preform the calculations and build
+the table are collected into a \code{pandas} dataframe and written
+to a CSV file for safe keeping and import to R. While Python does
+have many capable utilities now for dealing data sets, its natural
+syntax does not lend itself to vectorized calculations like other
+mathematically specialized languages such as R and GNU Octave.
+The formulas used to compute the values are as follows,
+
+\vspace{-2em}
+\begin{align*}
+\text{Let}\ t&=\text{Term}\\
+\text{Let}\ IDF&=\text{Inverse Document Frequency}\\
+\text{Let}\ TF&=\text{Term Frequency}\\[2em]
+TF \:&=\: \frac{\text{term frequency in document}}{\text{total words in document}}\\[1em]
+IDF(t) \:&=\: \log_2\left(\frac{\text{total documents in corpus}}{\text{documents with term}}\right)
+\end{align*}
+
+The value for \code{corpus\_size}
+from \url{http://www.worldwidewebsize.com/} \today and 
+\code{docs\_with\_term} was obtained from google on \today.
+The equations which are performed in the following code are
+the same but vectorized so that the division becomes elementwise
+division of vectors,
+
+\vspace{2em}
+$$
+\begin{bmatrix}
+    x_1\\
+    \vdots\\
+    x_n
+\end{bmatrix} \odot
+\begin{bmatrix}
+    \frac{1}{y_1}\\
+    \vdots\\
+    \frac{1}{y_n}
+\end{bmatrix}\:=\:
+\begin{bmatrix}
+    \frac{x_1}{y_1}\\
+    \vdots\\
+    \frac{x_n}{y_n}
+\end{bmatrix}
+$$
+
+\begin{minipage}{\linewidth} % prevent splitting between pages
+\vspace{3em}
+\begin{minted}[fontfamily=tt]{r}
+%%R
+
+df.words <- read.csv('../data/tfidf.dat')
+corpus_size <- 4460000000
+docs_with_term <- 230000000
+
+df.words$TF <- (df.words$term_occurrences / df.words$word_count)
+idf <- log2(corpus_size / docs_with_term)
+df.words$TFIDF <- (df.words$TF * idf)
+
+df <- arrange(df, -TF.IDF)
+latex <- xtable(df)
+digits(latex) <- c(0, 3, 3, 3, 0)
+\end{minted}
+\vspace{2em}
+\end{minipage}
+
+\newpage
+Finally the \code{plyr} package is used to arrange the data in
+the proper order and \code{xtable} is used to generate a \LaTeX table
+with the desired significant digits.
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{\textwidth}{rrrX }
+  \hline
+  TF-IDF & TF & IDF & URI \\ 
+  \hline
+  0.019 & 0.004 & 4.277 & \url{www.generation-nt.com/nsa-harold-martin-vol-outils-hacking-tao-actualite-1939093.html} \\ 
+  0.010 & 0.002 & 4.277 & \url{www.tekbotic.com} \\ 
+  0.008 & 0.002 & 4.277 & \url{www.securezoo.com} \\ 
+  0.007 & 0.002 & 4.277 & \url{www.govtech.com/security/national-cybersecurity-center-works-quickly-to-help-its-clients-recover.html} \\ 
+  0.007 & 0.002 & 4.277 & \url{www.24brasil.com} \\ 
+  0.004 & 0.001 & 4.277 & \url{www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/} \\ 
+  0.003 & 0.001 & 4.277 & \url{www.rtinsights.com/blockchain-technology-and-iot-security/} \\ 
+  0.003 & 0.001 & 4.277 & \url{www.esquire.com/news-politics/a49791/russian-dnc-emails-hacked/} \\ 
+  0.003 & 0.001 & 4.277 & \url{www.vanguardngr.com/2017/02/6-ways-bank-account-can-hacked/} \\ 
+  0.001 & 0.000 & 4.277 & \url{www.theatlantic.com/technology/archive/2017/02/what-happened-to-trumps-secret-hacking-intel/515889/} \\ 
+  \hline
+\end{tabularx}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%
+% Rank by PageRank %
+%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Rank by PageRank}
+
+The PageRank scores below were obtained using
+\url{http://pr.eyedomain.com/} and the URIs have
+been adjusted to show that they only calculate
+PageRank for the domain not the actual page.
+
+\begin{table}[H]
+\centering
+\begin{tabularx}{0.55\textwidth}{ll}
+  \hline
+  PageRank & URI \\ 
+  \hline
+  0.8 & \url{www.theatlantic.com/} \\ 
+  0.7 & \url{www.esquire.com/} \\ 
+  0.6 & \url{www.vanguardngr.com/} \\ 
+  0.5 & \url{www.generation-nt.com} \\ 
+  0.5 & \url{www.grahamcluley.com/} \\ 
+  0.4 & \url{www.rtinsights.com/} \\ 
+  0.0 & \url{www.securezoo.com} \\ 
+  N/A & \url{www.tekbotic.com} \\ 
+  N/A & \url{www.govtech.com/} \\ 
+  N/A & \url{www.24brasil.com} \\ 
+  \hline
+\end{tabularx}
+\caption{Source: \url{http://pr.eyedomain.com/}}
+\end{table}
+
+The PageRank results are only concerned with the popularity of the site and not
+the content, for example a news site may only have one page that is
+relevant but is popular so it has more links and a higher page rank,
+but a site entirely devoted to the topic that has very relevant pages
+would be very low. In this regard the results from the TF-IDF
+calculations are a much better metric for topic.
+None of the sample URIs are of very high relevance and the sample
+is very small so it is hard to speculate, but both popularity
+(PageRank) and TF-IDF can certainly have false positives for
+relevance, perhaps the set of URIs with the highest results
+with both would hold the most relevance.
+
+\end{document}

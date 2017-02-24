@@ -1,0 +1,8886 @@
+
+
+
+
+
+
+
+
+
+
+            Experts Corner
+          
+
+
+
+            Equal Respect
+          
+
+
+
+            The Academy
+          
+
+
+
+            An InfoSec Life
+          
+
+
+
+            Their Story
+          
+
+
+
+              ITSP Chronicles
+            
+
+
+
+            ITSP TV
+          
+
+
+
+            RSAC 2017
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Experts Corner
+          
+
+
+
+            Equal Respect
+          
+
+
+
+            The Academy
+          
+
+
+
+            An InfoSec Life
+          
+
+
+
+            Their Story
+          
+
+
+
+              ITSP Chronicles
+            
+
+
+
+            ITSP TV
+          
+
+
+
+            RSAC 2017
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Did You Read Our Latest Newsletter?It was sent out February 12, 2017.It's OK if you missed it, you can still read it here.Or, you could subscribe to it, and get the next ones directly in your inbox, once a week.BTW, this newsletter reached over 15,500 IT Pros and was sponsored by:
+
+
+
+
+
+
+
+
+
+Under The Spotlight
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RSA Conference 2017 News & CoverageITSPmagazine is an Official Media Sponsor for RSA Conference 2017.We will have a team of analysts and journalists dedicated to capturing all of the latest news, stories and trends as they happen at the intersection of IT security and society.Read more...ITSPmagazine ChroniclesBy The ITSP Team & Friends As you know, a chronicle |ˈkränək(ə)l| is a factual written account of important or historical events in the order of their occurrence.Well, sorry, that is not 'exactly' what this is. We like to think of it as a mixture of comment and factual information....Learn More 
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+
+We Have No Choice. We MUST Make 2017 the Year of Cybersecurity
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+
+It’s 2017 and we can no longer afford to ignore good cybersecurity practices. In this ITSPmagazine exclusive, we connected with top cybersecurity experts to get their recommendations on protecting business and users from malicious attacks.
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+
+Video Killed the Radio Star. Nah, It Did Not
+
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+
+Back in the 1920s people thought radio would kill the newspaper, but it didn't. Just as TV didn't kill radio, and the Internet didn't kill TV. As it turned out, an unexpected twist in the plot took place and no media is dead in the end.
+
+
+
+
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+
+If You Think Judi Dench Is a Cool “M” in 007 Movies, Meet the Real One: Dame Stella Rimington
+
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+
+The keynote that summed up women in security for me was, without a doubt, from the eloquent and engaging Dame Stella Rimington. She is a former Director General of MI5, Britain’s domestic counter-intelligence and security agency, and whom Judi Dench’s character “M” in the James Bond films was based on. In fact, when Rimington saw the film, she recognized many details of herself, down to her three-quarter trench coat and choice of heels.
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+
+AI, ML, Phishing, Ransomware: Initial Findings From RSA Conference 2017
+
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+
+During the first couple days of the RSA Conference, I've spent most of my time having informal conversations with attendees, taking briefings from vendors, and engaging in deep-dive interviews with executives and leaders from cybersecurity firms of all sizes. The two common themes thus far? Artificial intelligence/machine learning and a focus on ransomware and phishing.
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ITSP Chronicles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+
+Video Killed the Radio Star. Nah, It Did Not
+
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+
+Back in the 1920s people thought radio would kill the newspaper, but it didn't. Just as TV didn't kill radio, and the Internet didn't kill TV. As it turned out, an unexpected twist in the plot took place and no media is dead in the end.
+
+
+
+
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+
+Feb 18, 2017
+
+Home Chronicles, Home Featured Chronicle
+
+Marco Ciappelli
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+
+If You Think Judi Dench Is a Cool “M” in 007 Movies, Meet the Real One: Dame Stella Rimington
+
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+
+The keynote that summed up women in security for me was, without a doubt, from the eloquent and engaging Dame Stella Rimington. She is a former Director General of MI5, Britain’s domestic counter-intelligence and security agency, and whom Judi Dench’s character “M” in the James Bond films was based on. In fact, when Rimington saw the film, she recognized many details of herself, down to her three-quarter trench coat and choice of heels.
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+
+Feb 16, 2017
+
+Home Chronicles, Home Featured Chronicle, Selena Templeton
+
+RSA Conference 2017 News, RSA Conference, RSA 2017 News, RSAC, RSAC2017, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+
+AI, ML, Phishing, Ransomware: Initial Findings From RSA Conference 2017
+
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+
+During the first couple days of the RSA Conference, I've spent most of my time having informal conversations with attendees, taking briefings from vendors, and engaging in deep-dive interviews with executives and leaders from cybersecurity firms of all sizes. The two common themes thus far? Artificial intelligence/machine learning and a focus on ransomware and phishing.
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+
+Feb 16, 2017
+
+Sean Martin, Home Chronicles, Home Featured Chronicle
+
+artificial intelligence, AI, machine learning, phishing, spearphishing, whaling, ransomware, RSA Conference, RSAC2017, RSAC, RSA Conference 2017 Coverage, RSA Conference 2017, Featured RSAC2017
+
+Sean Martin
+
+
+ 
+ 
+ 
+ 
+Read All Our Chronicles
+
+
+
+
+
+
+
+
+
+ITSP TVDid You Miss Our Live Panels from RSA Conference 2017?Good news... you can watch the replays!From a partnership with BrightTALK, a new venture by ITSPmagazine.We are developing a brand new approach to bring our readers to the Intersection of IT Security & Society.Stay tuned, it is going to be a fun ride, especially as we get ready to cover RSA Conference 2017.We think that these webinars are already a good start. Be sure to watch them - they were incredible!
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+
+Diversity and the Art of Cybersecurity | A Live Experts Panel at RSAC
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+
+Date: Tuesday, February 14, 2017Time: 1:00 pm - 2:00 pm PST  |  4:00 pm - 5:00 pm ESTModerator:  Diana Kelley, Global Executive Security Advisor, IBMPanelists:  Jennifer Steffens, CEO, IOActive  Dug Song, CEO, Duo Security  Ayelet Steinitz, VP of Business Development, Imperva  Larry Whiteside Jr., VP, ICMCPWATCH THE REPLAY
+
+
+
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, Webcast, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, Webcast, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+
+CyberSecurity: Ignorance is not an Excuse | A Live Experts Panel at RSAC
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, Webcast, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, Webcast, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+
+Date: Tuesday, February 14, 2017Time: 11:30 am - 12:30 pm PST  |  2:30 pm - 3:30 pm ESTModerator:  Sean Martin, Editor in Chief, ITSPmagazinePanelists:  Jeremiah Grossman, Chief of Security Strategy, SentinelOne  Ian Glazer, Chairman, ID Professionals Working Group, Kantara Initiative  Uma Karmarkar, Decision Neuroscientist | Harvard Business School  Michael Landewe, Co-Founder, Avanan Cloud SecurityWATCH THE REPLAY
+
+
+
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, Webcast, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, Webcast, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+
+Internet and the Insecurity of Things | A Live Experts Panel at RSAC
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+
+Date: Tuesday, February 14, 2017Time: 10:00 am - 11:00 am PST  |  1:00 pm - 2:00 pm ESTModerator:  Chenxi Wang, Chief Strategy Officer at Twistlock and Strategic Advisor at ITSPmagazinePanelists:  Ryan O'Leary, VP Threat Research Center at White Hat Security  Josh Corman, Director, Cyber Statecraft Initiative at Atlantic Council  Rich Mason, President & Chief Security Officer, Critical Infrastructure  Billy Rios, Founder of WhiteScope LLCWATCH THE REPLAY
+
+
+
+
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+
+Jan 10, 2017
+
+BrightTALK, Panel, Live!, RSAC 2017 LIVE PANEL
+
+RSAC2017
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan  9, 2017
+
+Upcoming, Panel, BrightTALK
+
+Sven Krasser, Igor Baikalov, Stephan Jou, Engin Akyol, CrowdStrike, Securonix, Interset, Distil Networks, Kevin Mullenex, Mi3 Security, artificial intelligence, machine learning, deep learning, cybersecurity
+
+Editor
+
+
+
+Jan  9, 2017
+
+Upcoming, Panel, BrightTALK
+
+Sven Krasser, Igor Baikalov, Stephan Jou, Engin Akyol, CrowdStrike, Securonix, Interset, Distil Networks, Kevin Mullenex, Mi3 Security, artificial intelligence, machine learning, deep learning, cybersecurity
+
+Editor
+
+
+
+
+Expert Panel: AI & Machine Learning in CyberSecurity. What Is the Difference?
+
+
+
+
+Jan  9, 2017
+
+Upcoming, Panel, BrightTALK
+
+Sven Krasser, Igor Baikalov, Stephan Jou, Engin Akyol, CrowdStrike, Securonix, Interset, Distil Networks, Kevin Mullenex, Mi3 Security, artificial intelligence, machine learning, deep learning, cybersecurity
+
+Editor
+
+
+
+Jan  9, 2017
+
+Upcoming, Panel, BrightTALK
+
+Sven Krasser, Igor Baikalov, Stephan Jou, Engin Akyol, CrowdStrike, Securonix, Interset, Distil Networks, Kevin Mullenex, Mi3 Security, artificial intelligence, machine learning, deep learning, cybersecurity
+
+Editor
+
+
+
+
+Date: Wednesday, February 22, 2017Time: 8:00 am PST  |  11:00 am ESTModerator:  Sean Martin, CISSP and Editor-in-Chief at ITSPmagazinePanelists:  Sven Krasser, Chief Scientist at CrowdStrike  Igor Baikalov, Chief Scientist at Securonix  Stephan Jou, CTO of Interset  Engin Akyol, Co-Founder & CTO of Distil NetworkREGISTER NOW
+
+
+
+
+
+
+
+Jan  9, 2017
+
+Upcoming, Panel, BrightTALK
+
+Sven Krasser, Igor Baikalov, Stephan Jou, Engin Akyol, CrowdStrike, Securonix, Interset, Distil Networks, Kevin Mullenex, Mi3 Security, artificial intelligence, machine learning, deep learning, cybersecurity
+
+Editor
+
+
+
+Jan  9, 2017
+
+Upcoming, Panel, BrightTALK
+
+Sven Krasser, Igor Baikalov, Stephan Jou, Engin Akyol, CrowdStrike, Securonix, Interset, Distil Networks, Kevin Mullenex, Mi3 Security, artificial intelligence, machine learning, deep learning, cybersecurity
+
+Editor
+
+
+ 
+ 
+ 
+ 
+Equal Respect | An ITSPmagazine ColumnIn the Equal Respect column here on ITSPmagazine, Dr. Chenxi Wang, Selena Templeton, and team explore the lack of diversity in the technology industry. Here you'll find diversity leaders sharing their experience, strength and, most importantly, inspiration to help truly advance diversity in cybersecurity and technology....Learn MoreEqual Respect Column | Featured Article
+
+
+
+
+
+From the Newsroom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+
+The Modern-Day James Bond Is Autistic, Dyslexic or a Mother
+
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+
+Britain’s GCHQ has been actively recruiting neurodiverse people into their foreign espionage workforce, but it doesn’t take a 007 to figure out that the cybersecurity industry needs to broaden their pipeline and get more creative about recruiting more diverse individuals.
+
+
+
+
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+Equal Respect Column | Most Recent Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+
+The Modern-Day James Bond Is Autistic, Dyslexic or a Mother
+
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+
+Britain’s GCHQ has been actively recruiting neurodiverse people into their foreign espionage workforce, but it doesn’t take a 007 to figure out that the cybersecurity industry needs to broaden their pipeline and get more creative about recruiting more diverse individuals.
+
+
+
+
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+
+Feb  9, 2017
+
+Equal Respect, Selena Templeton
+
+James Bond, spy, GCHQ, Government Communications Headquarters, foreign espionage, global terrorism, dyslexia, Asperger's, Cyber Security Challenge, Stephanie Daman, autism, dyspraxia, neurodiversity, society, cybersecurity jobs, infosec jobs, diversity in tech, diversity, diversity program
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 27, 2017
+
+Equal Respect, Featured Equal Respect, Selena Templeton, Women in Security
+
+OWASP, AppSec California, AppSecCA, application security, women in cybersecurity, women in technology, women in security, women in tech, cybersecurity workforce, NICE, NIST, Marian Merritt, Deidre Diamond, CyberSN, #brainbabe, Kelly FitzGerald, Veritas, information security analyst, Julie Medero, Harvey Mudd College, Chenxi Wang, Twistlock, cybersecurity jobs, infosec jobs, infosec education, STEM, hoodie, Grace Hopper, soft skills, Google, equal respect, Featured Equal Respect, equal pay, gender equality, gender diversity, Leyla Seka, Marc Benioff, Salesforce
+
+Selena Templeton
+
+
+
+Jan 27, 2017
+
+Equal Respect, Featured Equal Respect, Selena Templeton, Women in Security
+
+OWASP, AppSec California, AppSecCA, application security, women in cybersecurity, women in technology, women in security, women in tech, cybersecurity workforce, NICE, NIST, Marian Merritt, Deidre Diamond, CyberSN, #brainbabe, Kelly FitzGerald, Veritas, information security analyst, Julie Medero, Harvey Mudd College, Chenxi Wang, Twistlock, cybersecurity jobs, infosec jobs, infosec education, STEM, hoodie, Grace Hopper, soft skills, Google, equal respect, Featured Equal Respect, equal pay, gender equality, gender diversity, Leyla Seka, Marc Benioff, Salesforce
+
+Selena Templeton
+
+
+
+
+OWASP AppSec California Brings Diversity to the Beach
+
+
+
+
+Jan 27, 2017
+
+Equal Respect, Featured Equal Respect, Selena Templeton, Women in Security
+
+OWASP, AppSec California, AppSecCA, application security, women in cybersecurity, women in technology, women in security, women in tech, cybersecurity workforce, NICE, NIST, Marian Merritt, Deidre Diamond, CyberSN, #brainbabe, Kelly FitzGerald, Veritas, information security analyst, Julie Medero, Harvey Mudd College, Chenxi Wang, Twistlock, cybersecurity jobs, infosec jobs, infosec education, STEM, hoodie, Grace Hopper, soft skills, Google, equal respect, Featured Equal Respect, equal pay, gender equality, gender diversity, Leyla Seka, Marc Benioff, Salesforce
+
+Selena Templeton
+
+
+
+Jan 27, 2017
+
+Equal Respect, Featured Equal Respect, Selena Templeton, Women in Security
+
+OWASP, AppSec California, AppSecCA, application security, women in cybersecurity, women in technology, women in security, women in tech, cybersecurity workforce, NICE, NIST, Marian Merritt, Deidre Diamond, CyberSN, #brainbabe, Kelly FitzGerald, Veritas, information security analyst, Julie Medero, Harvey Mudd College, Chenxi Wang, Twistlock, cybersecurity jobs, infosec jobs, infosec education, STEM, hoodie, Grace Hopper, soft skills, Google, equal respect, Featured Equal Respect, equal pay, gender equality, gender diversity, Leyla Seka, Marc Benioff, Salesforce
+
+Selena Templeton
+
+
+
+
+At this year’s AppSec California conference – a yearly event for InfoSec professionals, developers, pentesters, and QA and testing professionals – the Women in Security panel was among the most highly attended, a very clear indication that this topic resonates strongly with both women and men.
+
+
+
+
+
+
+
+Jan 27, 2017
+
+Equal Respect, Featured Equal Respect, Selena Templeton, Women in Security
+
+OWASP, AppSec California, AppSecCA, application security, women in cybersecurity, women in technology, women in security, women in tech, cybersecurity workforce, NICE, NIST, Marian Merritt, Deidre Diamond, CyberSN, #brainbabe, Kelly FitzGerald, Veritas, information security analyst, Julie Medero, Harvey Mudd College, Chenxi Wang, Twistlock, cybersecurity jobs, infosec jobs, infosec education, STEM, hoodie, Grace Hopper, soft skills, Google, equal respect, Featured Equal Respect, equal pay, gender equality, gender diversity, Leyla Seka, Marc Benioff, Salesforce
+
+Selena Templeton
+
+
+
+Jan 27, 2017
+
+Equal Respect, Featured Equal Respect, Selena Templeton, Women in Security
+
+OWASP, AppSec California, AppSecCA, application security, women in cybersecurity, women in technology, women in security, women in tech, cybersecurity workforce, NICE, NIST, Marian Merritt, Deidre Diamond, CyberSN, #brainbabe, Kelly FitzGerald, Veritas, information security analyst, Julie Medero, Harvey Mudd College, Chenxi Wang, Twistlock, cybersecurity jobs, infosec jobs, infosec education, STEM, hoodie, Grace Hopper, soft skills, Google, equal respect, Featured Equal Respect, equal pay, gender equality, gender diversity, Leyla Seka, Marc Benioff, Salesforce
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 19, 2017
+
+Equal Respect, Selena Templeton, Women in Security, Featured Equal Respect
+
+Hidden Figures Movie, STEM, NASA, Katherine Johnson, Mary Jackson, Dorothy Vaughan, Executive Order 8802, Dr. Chandra Prescod-Weinstein, African-American, Techbridge, Martin Luther King Jr., Octavia Spencer, Taylor Richardson, GoFundMe, Black Girls Code
+
+Selena Templeton
+
+
+
+Jan 19, 2017
+
+Equal Respect, Selena Templeton, Women in Security, Featured Equal Respect
+
+Hidden Figures Movie, STEM, NASA, Katherine Johnson, Mary Jackson, Dorothy Vaughan, Executive Order 8802, Dr. Chandra Prescod-Weinstein, African-American, Techbridge, Martin Luther King Jr., Octavia Spencer, Taylor Richardson, GoFundMe, Black Girls Code
+
+Selena Templeton
+
+
+
+
+Hidden Figures of Past and Present, as Inspiration for Future Generations
+
+
+
+
+Jan 19, 2017
+
+Equal Respect, Selena Templeton, Women in Security, Featured Equal Respect
+
+Hidden Figures Movie, STEM, NASA, Katherine Johnson, Mary Jackson, Dorothy Vaughan, Executive Order 8802, Dr. Chandra Prescod-Weinstein, African-American, Techbridge, Martin Luther King Jr., Octavia Spencer, Taylor Richardson, GoFundMe, Black Girls Code
+
+Selena Templeton
+
+
+
+Jan 19, 2017
+
+Equal Respect, Selena Templeton, Women in Security, Featured Equal Respect
+
+Hidden Figures Movie, STEM, NASA, Katherine Johnson, Mary Jackson, Dorothy Vaughan, Executive Order 8802, Dr. Chandra Prescod-Weinstein, African-American, Techbridge, Martin Luther King Jr., Octavia Spencer, Taylor Richardson, GoFundMe, Black Girls Code
+
+Selena Templeton
+
+
+
+
+The new movie Hidden Figures, about three black female mathematicians at NASA who were key figures in the space program that sent the first American astronauts into space, is proving that role models who look like you makes all the difference.
+
+
+
+
+
+
+
+Jan 19, 2017
+
+Equal Respect, Selena Templeton, Women in Security, Featured Equal Respect
+
+Hidden Figures Movie, STEM, NASA, Katherine Johnson, Mary Jackson, Dorothy Vaughan, Executive Order 8802, Dr. Chandra Prescod-Weinstein, African-American, Techbridge, Martin Luther King Jr., Octavia Spencer, Taylor Richardson, GoFundMe, Black Girls Code
+
+Selena Templeton
+
+
+
+Jan 19, 2017
+
+Equal Respect, Selena Templeton, Women in Security, Featured Equal Respect
+
+Hidden Figures Movie, STEM, NASA, Katherine Johnson, Mary Jackson, Dorothy Vaughan, Executive Order 8802, Dr. Chandra Prescod-Weinstein, African-American, Techbridge, Martin Luther King Jr., Octavia Spencer, Taylor Richardson, GoFundMe, Black Girls Code
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 12, 2017
+
+Sandee Kastrul, Women in Security, Equal Respect
+
+school teacher, diversity, adversity, learning experience, math, mathematics, data science, computer science, i.c.stars, teens in tech, CIO, Chicago, children in Chicago, Chicago technology, women in Chicago, STEM, business leadership, technology consulting, technology recruiting, interns
+
+Selena Templeton
+
+
+
+Jan 12, 2017
+
+Sandee Kastrul, Women in Security, Equal Respect
+
+school teacher, diversity, adversity, learning experience, math, mathematics, data science, computer science, i.c.stars, teens in tech, CIO, Chicago, children in Chicago, Chicago technology, women in Chicago, STEM, business leadership, technology consulting, technology recruiting, interns
+
+Selena Templeton
+
+
+
+
+Support Someone by Saying “I See You” and “You Are Not Alone.”
+
+
+
+
+Jan 12, 2017
+
+Sandee Kastrul, Women in Security, Equal Respect
+
+school teacher, diversity, adversity, learning experience, math, mathematics, data science, computer science, i.c.stars, teens in tech, CIO, Chicago, children in Chicago, Chicago technology, women in Chicago, STEM, business leadership, technology consulting, technology recruiting, interns
+
+Selena Templeton
+
+
+
+Jan 12, 2017
+
+Sandee Kastrul, Women in Security, Equal Respect
+
+school teacher, diversity, adversity, learning experience, math, mathematics, data science, computer science, i.c.stars, teens in tech, CIO, Chicago, children in Chicago, Chicago technology, women in Chicago, STEM, business leadership, technology consulting, technology recruiting, interns
+
+Selena Templeton
+
+
+
+
+Through the experience of working with school kids and teachers across the Midwest — in rural, suburban and urban communities — the idea kept resurfacing: kids who face adversity develop resiliency. In this Equal Respect article, Sandee Kastrul asks: "How Can We Even Begin to Dream It if We Cannot See It?"
+
+
+
+
+
+
+
+Jan 12, 2017
+
+Sandee Kastrul, Women in Security, Equal Respect
+
+school teacher, diversity, adversity, learning experience, math, mathematics, data science, computer science, i.c.stars, teens in tech, CIO, Chicago, children in Chicago, Chicago technology, women in Chicago, STEM, business leadership, technology consulting, technology recruiting, interns
+
+Selena Templeton
+
+
+
+Jan 12, 2017
+
+Sandee Kastrul, Women in Security, Equal Respect
+
+school teacher, diversity, adversity, learning experience, math, mathematics, data science, computer science, i.c.stars, teens in tech, CIO, Chicago, children in Chicago, Chicago technology, women in Chicago, STEM, business leadership, technology consulting, technology recruiting, interns
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan  5, 2017
+
+Equal Respect, Selena Templeton, Women in Security
+
+Katherine Johnson, women in technology, women in engineering, women in cybersecurity, women in security, women in tech, NASA, Hidden Figures Movie, medal of freedom, NACA, diversity, gender diversity, diversity in tech, Clayman Institute, gender research, gender equality, computer science, computer programming, Black Girls Code
+
+Selena Templeton
+
+
+
+Jan  5, 2017
+
+Equal Respect, Selena Templeton, Women in Security
+
+Katherine Johnson, women in technology, women in engineering, women in cybersecurity, women in security, women in tech, NASA, Hidden Figures Movie, medal of freedom, NACA, diversity, gender diversity, diversity in tech, Clayman Institute, gender research, gender equality, computer science, computer programming, Black Girls Code
+
+Selena Templeton
+
+
+
+
+Katherine Johnson, a Hidden Figure, a Woman in Technology
+
+
+
+
+Jan  5, 2017
+
+Equal Respect, Selena Templeton, Women in Security
+
+Katherine Johnson, women in technology, women in engineering, women in cybersecurity, women in security, women in tech, NASA, Hidden Figures Movie, medal of freedom, NACA, diversity, gender diversity, diversity in tech, Clayman Institute, gender research, gender equality, computer science, computer programming, Black Girls Code
+
+Selena Templeton
+
+
+
+Jan  5, 2017
+
+Equal Respect, Selena Templeton, Women in Security
+
+Katherine Johnson, women in technology, women in engineering, women in cybersecurity, women in security, women in tech, NASA, Hidden Figures Movie, medal of freedom, NACA, diversity, gender diversity, diversity in tech, Clayman Institute, gender research, gender equality, computer science, computer programming, Black Girls Code
+
+Selena Templeton
+
+
+
+
+Hidden Figures, the true story of three female African-American mathematicians whose expertise allows NASA to launch the program's first successful space mission, puts black women front and center in this movie as well as back on the history pages — where they belong.
+
+
+
+
+
+
+
+Jan  5, 2017
+
+Equal Respect, Selena Templeton, Women in Security
+
+Katherine Johnson, women in technology, women in engineering, women in cybersecurity, women in security, women in tech, NASA, Hidden Figures Movie, medal of freedom, NACA, diversity, gender diversity, diversity in tech, Clayman Institute, gender research, gender equality, computer science, computer programming, Black Girls Code
+
+Selena Templeton
+
+
+
+Jan  5, 2017
+
+Equal Respect, Selena Templeton, Women in Security
+
+Katherine Johnson, women in technology, women in engineering, women in cybersecurity, women in security, women in tech, NASA, Hidden Figures Movie, medal of freedom, NACA, diversity, gender diversity, diversity in tech, Clayman Institute, gender research, gender equality, computer science, computer programming, Black Girls Code
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 29, 2016
+
+Equal Respect, Selena Templeton, Featured Equal Respect
+
+equal respect, diversity, gender diversity, neurodiversity, Women’s Entrepreneurship Day, Twistlock, code like a girl, Moss Adams, Xuan Zhao, data science, data scientist, Cylance, Microsoft, Salesforce, SAP, Freddie Mac, EY, Textio, University of New Haven, UNH, armed forces, Dr. Dena Tsamitis
+
+Selena Templeton
+
+
+
+Dec 29, 2016
+
+Equal Respect, Selena Templeton, Featured Equal Respect
+
+equal respect, diversity, gender diversity, neurodiversity, Women’s Entrepreneurship Day, Twistlock, code like a girl, Moss Adams, Xuan Zhao, data science, data scientist, Cylance, Microsoft, Salesforce, SAP, Freddie Mac, EY, Textio, University of New Haven, UNH, armed forces, Dr. Dena Tsamitis
+
+Selena Templeton
+
+
+
+
+Join Us, as We Look Back at Diversity in Tech in 2016
+
+
+
+
+Dec 29, 2016
+
+Equal Respect, Selena Templeton, Featured Equal Respect
+
+equal respect, diversity, gender diversity, neurodiversity, Women’s Entrepreneurship Day, Twistlock, code like a girl, Moss Adams, Xuan Zhao, data science, data scientist, Cylance, Microsoft, Salesforce, SAP, Freddie Mac, EY, Textio, University of New Haven, UNH, armed forces, Dr. Dena Tsamitis
+
+Selena Templeton
+
+
+
+Dec 29, 2016
+
+Equal Respect, Selena Templeton, Featured Equal Respect
+
+equal respect, diversity, gender diversity, neurodiversity, Women’s Entrepreneurship Day, Twistlock, code like a girl, Moss Adams, Xuan Zhao, data science, data scientist, Cylance, Microsoft, Salesforce, SAP, Freddie Mac, EY, Textio, University of New Haven, UNH, armed forces, Dr. Dena Tsamitis
+
+Selena Templeton
+
+
+
+
+The mission of our Equal Respect column for ITSPmagazine is to provide a platform for the lack of diversity in the tech, InfoSec or cybersecurity fields. We’ve published 30 articles written by 24 experts, and here is a quick recap of some of our most popular, humorous, touching and amazing stories.
+
+
+
+
+
+
+
+Dec 29, 2016
+
+Equal Respect, Selena Templeton, Featured Equal Respect
+
+equal respect, diversity, gender diversity, neurodiversity, Women’s Entrepreneurship Day, Twistlock, code like a girl, Moss Adams, Xuan Zhao, data science, data scientist, Cylance, Microsoft, Salesforce, SAP, Freddie Mac, EY, Textio, University of New Haven, UNH, armed forces, Dr. Dena Tsamitis
+
+Selena Templeton
+
+
+
+Dec 29, 2016
+
+Equal Respect, Selena Templeton, Featured Equal Respect
+
+equal respect, diversity, gender diversity, neurodiversity, Women’s Entrepreneurship Day, Twistlock, code like a girl, Moss Adams, Xuan Zhao, data science, data scientist, Cylance, Microsoft, Salesforce, SAP, Freddie Mac, EY, Textio, University of New Haven, UNH, armed forces, Dr. Dena Tsamitis
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 28, 2016
+
+Equal Respect, Selena Templeton
+
+racism, ageism, neurodiversity, Mark Zuckerberg, Facebook, HubSpot, Brian Halligan, Gen Y, infosec jobs, infosec career, Hank Blank, BuzzFeed, Patty McCord, age bias, Dropbox, Ipsos Mori, Apple
+
+Selena Templeton
+
+
+
+Dec 28, 2016
+
+Equal Respect, Selena Templeton
+
+racism, ageism, neurodiversity, Mark Zuckerberg, Facebook, HubSpot, Brian Halligan, Gen Y, infosec jobs, infosec career, Hank Blank, BuzzFeed, Patty McCord, age bias, Dropbox, Ipsos Mori, Apple
+
+Selena Templeton
+
+
+
+
+Ageism in the Tech Industry & Other Bias. Let’s Fight ‘Em All
+
+
+
+
+Dec 28, 2016
+
+Equal Respect, Selena Templeton
+
+racism, ageism, neurodiversity, Mark Zuckerberg, Facebook, HubSpot, Brian Halligan, Gen Y, infosec jobs, infosec career, Hank Blank, BuzzFeed, Patty McCord, age bias, Dropbox, Ipsos Mori, Apple
+
+Selena Templeton
+
+
+
+Dec 28, 2016
+
+Equal Respect, Selena Templeton
+
+racism, ageism, neurodiversity, Mark Zuckerberg, Facebook, HubSpot, Brian Halligan, Gen Y, infosec jobs, infosec career, Hank Blank, BuzzFeed, Patty McCord, age bias, Dropbox, Ipsos Mori, Apple
+
+Selena Templeton
+
+
+
+
+When it comes to the tech/InfoSec/cybersecurity industries, how important is age? Should the number of times you’ve gone around the sun be irrelevant or does growing up with technology actually make you better qualified for a tech job?
+
+
+
+
+
+
+
+Dec 28, 2016
+
+Equal Respect, Selena Templeton
+
+racism, ageism, neurodiversity, Mark Zuckerberg, Facebook, HubSpot, Brian Halligan, Gen Y, infosec jobs, infosec career, Hank Blank, BuzzFeed, Patty McCord, age bias, Dropbox, Ipsos Mori, Apple
+
+Selena Templeton
+
+
+
+Dec 28, 2016
+
+Equal Respect, Selena Templeton
+
+racism, ageism, neurodiversity, Mark Zuckerberg, Facebook, HubSpot, Brian Halligan, Gen Y, infosec jobs, infosec career, Hank Blank, BuzzFeed, Patty McCord, age bias, Dropbox, Ipsos Mori, Apple
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 21, 2016
+
+Chenxi Wang, Equal Respect, Women in Security, Panel RSA Conference 2017
+
+Salesforce, IOActive, Twistlock, MKA Cyber, RSAC, RSAC2017, Marc Benioff, Leyla Seka, Cindy Robbins, Jennifer Sunshine Steffens, Mischel Kwon, diversity, diversity program, women in engineering, women in cybersecurity, women in security, women in technology, CEO, infosec career, infosec jobs
+
+Selena Templeton
+
+
+
+Dec 21, 2016
+
+Chenxi Wang, Equal Respect, Women in Security, Panel RSA Conference 2017
+
+Salesforce, IOActive, Twistlock, MKA Cyber, RSAC, RSAC2017, Marc Benioff, Leyla Seka, Cindy Robbins, Jennifer Sunshine Steffens, Mischel Kwon, diversity, diversity program, women in engineering, women in cybersecurity, women in security, women in technology, CEO, infosec career, infosec jobs
+
+Selena Templeton
+
+
+
+
+Don't Talk Diversity, Live It! Panel at RSA 2017
+
+
+
+
+Dec 21, 2016
+
+Chenxi Wang, Equal Respect, Women in Security, Panel RSA Conference 2017
+
+Salesforce, IOActive, Twistlock, MKA Cyber, RSAC, RSAC2017, Marc Benioff, Leyla Seka, Cindy Robbins, Jennifer Sunshine Steffens, Mischel Kwon, diversity, diversity program, women in engineering, women in cybersecurity, women in security, women in technology, CEO, infosec career, infosec jobs
+
+Selena Templeton
+
+
+
+Dec 21, 2016
+
+Chenxi Wang, Equal Respect, Women in Security, Panel RSA Conference 2017
+
+Salesforce, IOActive, Twistlock, MKA Cyber, RSAC, RSAC2017, Marc Benioff, Leyla Seka, Cindy Robbins, Jennifer Sunshine Steffens, Mischel Kwon, diversity, diversity program, women in engineering, women in cybersecurity, women in security, women in technology, CEO, infosec career, infosec jobs
+
+Selena Templeton
+
+
+
+
+Join Chenxi, Jennifer, Mischel, and Leyla on February 13th for the “Don’t Talk Diversity, Live It!” panel at the RSA Conference 2017. Read this first so you can arrive prepared for the discussion.
+
+
+
+
+
+
+
+Dec 21, 2016
+
+Chenxi Wang, Equal Respect, Women in Security, Panel RSA Conference 2017
+
+Salesforce, IOActive, Twistlock, MKA Cyber, RSAC, RSAC2017, Marc Benioff, Leyla Seka, Cindy Robbins, Jennifer Sunshine Steffens, Mischel Kwon, diversity, diversity program, women in engineering, women in cybersecurity, women in security, women in technology, CEO, infosec career, infosec jobs
+
+Selena Templeton
+
+
+
+Dec 21, 2016
+
+Chenxi Wang, Equal Respect, Women in Security, Panel RSA Conference 2017
+
+Salesforce, IOActive, Twistlock, MKA Cyber, RSAC, RSAC2017, Marc Benioff, Leyla Seka, Cindy Robbins, Jennifer Sunshine Steffens, Mischel Kwon, diversity, diversity program, women in engineering, women in cybersecurity, women in security, women in technology, CEO, infosec career, infosec jobs
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 15, 2016
+
+Equal Respect, Heather Corallo
+
+Groupon, unicorn, women in security, women in technology, women in Chicago, Grace Hopper, neurodiversity, Interest Leagues, LGBT, LGBTQ, diversity, gender diversity, gender equality, human resources
+
+Selena Templeton
+
+
+
+Dec 15, 2016
+
+Equal Respect, Heather Corallo
+
+Groupon, unicorn, women in security, women in technology, women in Chicago, Grace Hopper, neurodiversity, Interest Leagues, LGBT, LGBTQ, diversity, gender diversity, gender equality, human resources
+
+Selena Templeton
+
+
+
+
+Most Companies Believe They Understand Diversity. Do They?
+
+
+
+
+Dec 15, 2016
+
+Equal Respect, Heather Corallo
+
+Groupon, unicorn, women in security, women in technology, women in Chicago, Grace Hopper, neurodiversity, Interest Leagues, LGBT, LGBTQ, diversity, gender diversity, gender equality, human resources
+
+Selena Templeton
+
+
+
+Dec 15, 2016
+
+Equal Respect, Heather Corallo
+
+Groupon, unicorn, women in security, women in technology, women in Chicago, Grace Hopper, neurodiversity, Interest Leagues, LGBT, LGBTQ, diversity, gender diversity, gender equality, human resources
+
+Selena Templeton
+
+
+
+
+CTO2 co-founder Heather Corallo learned the hard way that all the research and best practices in the world won’t make a difference to diversity in tech if the policies are still being created without the input of these minorities.
+
+
+
+
+
+
+
+Dec 15, 2016
+
+Equal Respect, Heather Corallo
+
+Groupon, unicorn, women in security, women in technology, women in Chicago, Grace Hopper, neurodiversity, Interest Leagues, LGBT, LGBTQ, diversity, gender diversity, gender equality, human resources
+
+Selena Templeton
+
+
+
+Dec 15, 2016
+
+Equal Respect, Heather Corallo
+
+Groupon, unicorn, women in security, women in technology, women in Chicago, Grace Hopper, neurodiversity, Interest Leagues, LGBT, LGBTQ, diversity, gender diversity, gender equality, human resources
+
+Selena Templeton
+
+
+ 
+ 
+ 
+ 
+Visit The Equal Respect Column
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest From Our Experts CornerThe Experts Corner is where great minds share their expert opinion on information security news and trends.Visit the Experts Corner | Meet the Experts The Experts Corner | Featured Article
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+
+We Have No Choice. We MUST Make 2017 the Year of Cybersecurity
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+
+It’s 2017 and we can no longer afford to ignore good cybersecurity practices. In this ITSPmagazine exclusive, we connected with top cybersecurity experts to get their recommendations on protecting business and users from malicious attacks.
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+Experts Corner | Most Recent Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  9, 2017
+
+Experts Corner, Tin Zaw
+
+Verizon, mega breach, biggest breach ever, credential stuffing, credentials, user credentials, user identity, login identity, login password, password reset, OWASP, OWASP Automated Threat Handbook, password re-use, two-factor authentication, two-step authentication, 2FA, fingerprinting, password recovery, Verizon Digital Media Services
+
+Editor
+
+
+
+Feb  9, 2017
+
+Experts Corner, Tin Zaw
+
+Verizon, mega breach, biggest breach ever, credential stuffing, credentials, user credentials, user identity, login identity, login password, password reset, OWASP, OWASP Automated Threat Handbook, password re-use, two-factor authentication, two-step authentication, 2FA, fingerprinting, password recovery, Verizon Digital Media Services
+
+Editor
+
+
+
+
+How Can You Protect Yourself From Data Breaches & Stolen Passwords?
+
+
+
+
+Feb  9, 2017
+
+Experts Corner, Tin Zaw
+
+Verizon, mega breach, biggest breach ever, credential stuffing, credentials, user credentials, user identity, login identity, login password, password reset, OWASP, OWASP Automated Threat Handbook, password re-use, two-factor authentication, two-step authentication, 2FA, fingerprinting, password recovery, Verizon Digital Media Services
+
+Editor
+
+
+
+Feb  9, 2017
+
+Experts Corner, Tin Zaw
+
+Verizon, mega breach, biggest breach ever, credential stuffing, credentials, user credentials, user identity, login identity, login password, password reset, OWASP, OWASP Automated Threat Handbook, password re-use, two-factor authentication, two-step authentication, 2FA, fingerprinting, password recovery, Verizon Digital Media Services
+
+Editor
+
+
+
+
+With numerous breaches and a record number of compromised records; 2016 was the year of the mega breach. Expert Tin Zaw explores credential stuffing attacks that follow these mega breaches -- and the impact they have on society.
+
+
+
+
+
+
+
+Feb  9, 2017
+
+Experts Corner, Tin Zaw
+
+Verizon, mega breach, biggest breach ever, credential stuffing, credentials, user credentials, user identity, login identity, login password, password reset, OWASP, OWASP Automated Threat Handbook, password re-use, two-factor authentication, two-step authentication, 2FA, fingerprinting, password recovery, Verizon Digital Media Services
+
+Editor
+
+
+
+Feb  9, 2017
+
+Experts Corner, Tin Zaw
+
+Verizon, mega breach, biggest breach ever, credential stuffing, credentials, user credentials, user identity, login identity, login password, password reset, OWASP, OWASP Automated Threat Handbook, password re-use, two-factor authentication, two-step authentication, 2FA, fingerprinting, password recovery, Verizon Digital Media Services
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  8, 2017
+
+Experts Corner, Paige Schaffer
+
+cybercrime, cybercriminals, cybersecurity training, identity theft, Internal Revenue Service, IRS, IRS scams, federal government, federal tax, identity protection, Treasury Department, Federal Tax Treatment, Generali Global Assistance, W-2, 1099-MISC
+
+Sean Martin
+
+
+
+Feb  8, 2017
+
+Experts Corner, Paige Schaffer
+
+cybercrime, cybercriminals, cybersecurity training, identity theft, Internal Revenue Service, IRS, IRS scams, federal government, federal tax, identity protection, Treasury Department, Federal Tax Treatment, Generali Global Assistance, W-2, 1099-MISC
+
+Sean Martin
+
+
+
+
+An Unexpected Champion in the Fight Against Identity Theft - The IRS
+
+
+
+
+Feb  8, 2017
+
+Experts Corner, Paige Schaffer
+
+cybercrime, cybercriminals, cybersecurity training, identity theft, Internal Revenue Service, IRS, IRS scams, federal government, federal tax, identity protection, Treasury Department, Federal Tax Treatment, Generali Global Assistance, W-2, 1099-MISC
+
+Sean Martin
+
+
+
+Feb  8, 2017
+
+Experts Corner, Paige Schaffer
+
+cybercrime, cybercriminals, cybersecurity training, identity theft, Internal Revenue Service, IRS, IRS scams, federal government, federal tax, identity protection, Treasury Department, Federal Tax Treatment, Generali Global Assistance, W-2, 1099-MISC
+
+Sean Martin
+
+
+
+
+While the US has been slow to legislate meaningful ID protection safeguards, an unexpected agency is taking a leadership position - The IRS.
+
+
+
+
+
+
+
+Feb  8, 2017
+
+Experts Corner, Paige Schaffer
+
+cybercrime, cybercriminals, cybersecurity training, identity theft, Internal Revenue Service, IRS, IRS scams, federal government, federal tax, identity protection, Treasury Department, Federal Tax Treatment, Generali Global Assistance, W-2, 1099-MISC
+
+Sean Martin
+
+
+
+Feb  8, 2017
+
+Experts Corner, Paige Schaffer
+
+cybercrime, cybercriminals, cybersecurity training, identity theft, Internal Revenue Service, IRS, IRS scams, federal government, federal tax, identity protection, Treasury Department, Federal Tax Treatment, Generali Global Assistance, W-2, 1099-MISC
+
+Sean Martin
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+
+We Have No Choice. We MUST Make 2017 the Year of Cybersecurity
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+
+It’s 2017 and we can no longer afford to ignore good cybersecurity practices. In this ITSPmagazine exclusive, we connected with top cybersecurity experts to get their recommendations on protecting business and users from malicious attacks.
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+
+Jan 30, 2017
+
+Experts Corner, Experts Home Featured, Home Experts Corner, Homepage Top Article, Sean Martin, Home Spotlight
+
+cybersecurity jobs, cybercrime, cybercriminals, society, 2017 predictions, Dana Epp, CTO, Kaseya, Amichai Shulman, Imperva, financial services, data breach, Stephen Boyer, BitSight, data theft, internet of things, IoT, Mandeep Khera, Arxan, security strategy, McAfee Labs, Mark Bloom, compliance, Sumo Logic, year of cybersecurity, Adam Rosen, governance, STEALTHbits, password management, password re-use, bad bots, botnets, Stephen Singam, Distil Networks, security research, access control, CIO, cybersecurity professional, credit card fraud, privileged identity management, privilege escalation, federal government, Brad Bussie, Alvaro Hoyos, OneLogin, security operations, malware, third-party risk, third-party vendors, supply chain, defense-in-depth, David Berman, CipherCloud, CES2017, botnet traffic, smart devices, connected homes, yahoo breach, #YahooBreach, incident response, cybersecurity awareness
+
+Sean Martin
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Event Coverage, Selena Templeton
+
+AppSecCA, AppSec California, Caroline Wong, Cobalt, security strategy, OWASP, appsec, crowdsourced security, Airbnb, crowdsourcing, application development, application security, security scanner, bug bounty programs, bug bounty, penetration test, security consultant, scalability, coverage, ease of use
+
+Selena Templeton
+
+
+
+Jan 30, 2017
+
+Experts Corner, Event Coverage, Selena Templeton
+
+AppSecCA, AppSec California, Caroline Wong, Cobalt, security strategy, OWASP, appsec, crowdsourced security, Airbnb, crowdsourcing, application development, application security, security scanner, bug bounty programs, bug bounty, penetration test, security consultant, scalability, coverage, ease of use
+
+Selena Templeton
+
+
+
+
+Crowdsourced Application Security: The Human Power
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Event Coverage, Selena Templeton
+
+AppSecCA, AppSec California, Caroline Wong, Cobalt, security strategy, OWASP, appsec, crowdsourced security, Airbnb, crowdsourcing, application development, application security, security scanner, bug bounty programs, bug bounty, penetration test, security consultant, scalability, coverage, ease of use
+
+Selena Templeton
+
+
+
+Jan 30, 2017
+
+Experts Corner, Event Coverage, Selena Templeton
+
+AppSecCA, AppSec California, Caroline Wong, Cobalt, security strategy, OWASP, appsec, crowdsourced security, Airbnb, crowdsourcing, application development, application security, security scanner, bug bounty programs, bug bounty, penetration test, security consultant, scalability, coverage, ease of use
+
+Selena Templeton
+
+
+
+
+Would you feel comfortable hiring a hacker? Caroline Wong, CISSP and VP of Security Strategy at Cobalt, discusses the benefits and risks to using the power of the people – crowdsourced application security programs – at this OWASP AppSec session.
+
+
+
+
+
+
+
+Jan 30, 2017
+
+Experts Corner, Event Coverage, Selena Templeton
+
+AppSecCA, AppSec California, Caroline Wong, Cobalt, security strategy, OWASP, appsec, crowdsourced security, Airbnb, crowdsourcing, application development, application security, security scanner, bug bounty programs, bug bounty, penetration test, security consultant, scalability, coverage, ease of use
+
+Selena Templeton
+
+
+
+Jan 30, 2017
+
+Experts Corner, Event Coverage, Selena Templeton
+
+AppSecCA, AppSec California, Caroline Wong, Cobalt, security strategy, OWASP, appsec, crowdsourced security, Airbnb, crowdsourcing, application development, application security, security scanner, bug bounty programs, bug bounty, penetration test, security consultant, scalability, coverage, ease of use
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 29, 2017
+
+IoT Society, Ariel Robinson, Home Experts Corner, Experts Corner, Experts Home Featured
+
+ethics, artificial intelligence, AI, autonomous systems, society, infosec and society, risk, socio-technical, IEEE, autonomous intelligent systems, autonomous cars, humanity, ethical language, computer science, Davi Ottenheimer, FDA, accountability
+
+Selena Templeton
+
+
+
+Jan 29, 2017
+
+IoT Society, Ariel Robinson, Home Experts Corner, Experts Corner, Experts Home Featured
+
+ethics, artificial intelligence, AI, autonomous systems, society, infosec and society, risk, socio-technical, IEEE, autonomous intelligent systems, autonomous cars, humanity, ethical language, computer science, Davi Ottenheimer, FDA, accountability
+
+Selena Templeton
+
+
+
+
+Ethical AI and the Need for a More Values-Driven Sociotechnical Future
+
+
+
+
+Jan 29, 2017
+
+IoT Society, Ariel Robinson, Home Experts Corner, Experts Corner, Experts Home Featured
+
+ethics, artificial intelligence, AI, autonomous systems, society, infosec and society, risk, socio-technical, IEEE, autonomous intelligent systems, autonomous cars, humanity, ethical language, computer science, Davi Ottenheimer, FDA, accountability
+
+Selena Templeton
+
+
+
+Jan 29, 2017
+
+IoT Society, Ariel Robinson, Home Experts Corner, Experts Corner, Experts Home Featured
+
+ethics, artificial intelligence, AI, autonomous systems, society, infosec and society, risk, socio-technical, IEEE, autonomous intelligent systems, autonomous cars, humanity, ethical language, computer science, Davi Ottenheimer, FDA, accountability
+
+Selena Templeton
+
+
+
+
+As systems become increasingly autonomous and capable of learning about and acting on environments without human input, how do we maximize their benefit to society while minimizing their risks? And who is liable for their actions?
+
+
+
+
+
+
+
+Jan 29, 2017
+
+IoT Society, Ariel Robinson, Home Experts Corner, Experts Corner, Experts Home Featured
+
+ethics, artificial intelligence, AI, autonomous systems, society, infosec and society, risk, socio-technical, IEEE, autonomous intelligent systems, autonomous cars, humanity, ethical language, computer science, Davi Ottenheimer, FDA, accountability
+
+Selena Templeton
+
+
+
+Jan 29, 2017
+
+IoT Society, Ariel Robinson, Home Experts Corner, Experts Corner, Experts Home Featured
+
+ethics, artificial intelligence, AI, autonomous systems, society, infosec and society, risk, socio-technical, IEEE, autonomous intelligent systems, autonomous cars, humanity, ethical language, computer science, Davi Ottenheimer, FDA, accountability
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 28, 2017
+
+Selena Templeton, Experts Corner, Event Coverage
+
+Jack Bicer, Sekur Me, password management, password cracking, phishing, social hacking, password re-use, strong passwords, one-time password, data breach, QR code, login request, encryption, user identity, public key, fingerprinting, OWASP, AppSec California, AppSecCA
+
+Selena Templeton
+
+
+
+Jan 28, 2017
+
+Selena Templeton, Experts Corner, Event Coverage
+
+Jack Bicer, Sekur Me, password management, password cracking, phishing, social hacking, password re-use, strong passwords, one-time password, data breach, QR code, login request, encryption, user identity, public key, fingerprinting, OWASP, AppSec California, AppSecCA
+
+Selena Templeton
+
+
+
+
+Do We Want to Be Secure? Eliminating Passwords May Be the Only Way
+
+
+
+
+Jan 28, 2017
+
+Selena Templeton, Experts Corner, Event Coverage
+
+Jack Bicer, Sekur Me, password management, password cracking, phishing, social hacking, password re-use, strong passwords, one-time password, data breach, QR code, login request, encryption, user identity, public key, fingerprinting, OWASP, AppSec California, AppSecCA
+
+Selena Templeton
+
+
+
+Jan 28, 2017
+
+Selena Templeton, Experts Corner, Event Coverage
+
+Jack Bicer, Sekur Me, password management, password cracking, phishing, social hacking, password re-use, strong passwords, one-time password, data breach, QR code, login request, encryption, user identity, public key, fingerprinting, OWASP, AppSec California, AppSecCA
+
+Selena Templeton
+
+
+
+
+Since 76% of data breaches are from stolen login information. Jack Bicer, CEO of Sekur Me, says that eliminating passwords and using instant, automatic 2-factor authentication will eliminate fraudulent activities.
+
+
+
+
+
+
+
+Jan 28, 2017
+
+Selena Templeton, Experts Corner, Event Coverage
+
+Jack Bicer, Sekur Me, password management, password cracking, phishing, social hacking, password re-use, strong passwords, one-time password, data breach, QR code, login request, encryption, user identity, public key, fingerprinting, OWASP, AppSec California, AppSecCA
+
+Selena Templeton
+
+
+
+Jan 28, 2017
+
+Selena Templeton, Experts Corner, Event Coverage
+
+Jack Bicer, Sekur Me, password management, password cracking, phishing, social hacking, password re-use, strong passwords, one-time password, data breach, QR code, login request, encryption, user identity, public key, fingerprinting, OWASP, AppSec California, AppSecCA
+
+Selena Templeton
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 18, 2017
+
+Experts Corner, David Wagner
+
+data breach, email scams, email security, small business risk, small medium business, SMB, human error, employee training, Data Privacy Day, strong passwords, password management, device management, internal audit, social engineering, DLP, data loss, cell phone, mobile security
+
+Editor
+
+
+
+Jan 18, 2017
+
+Experts Corner, David Wagner
+
+data breach, email scams, email security, small business risk, small medium business, SMB, human error, employee training, Data Privacy Day, strong passwords, password management, device management, internal audit, social engineering, DLP, data loss, cell phone, mobile security
+
+Editor
+
+
+
+
+Data Breaches Happen to SMBs Too. Often Because of Human Error
+
+
+
+
+Jan 18, 2017
+
+Experts Corner, David Wagner
+
+data breach, email scams, email security, small business risk, small medium business, SMB, human error, employee training, Data Privacy Day, strong passwords, password management, device management, internal audit, social engineering, DLP, data loss, cell phone, mobile security
+
+Editor
+
+
+
+Jan 18, 2017
+
+Experts Corner, David Wagner
+
+data breach, email scams, email security, small business risk, small medium business, SMB, human error, employee training, Data Privacy Day, strong passwords, password management, device management, internal audit, social engineering, DLP, data loss, cell phone, mobile security
+
+Editor
+
+
+
+
+Many SMB employees out there put themselves – and their sensitive data – in harm’s way because they are unaware of the risks and the proper security measures to take. In fact, in many data breach cases, human error is often the culprit.
+
+
+
+
+
+
+
+Jan 18, 2017
+
+Experts Corner, David Wagner
+
+data breach, email scams, email security, small business risk, small medium business, SMB, human error, employee training, Data Privacy Day, strong passwords, password management, device management, internal audit, social engineering, DLP, data loss, cell phone, mobile security
+
+Editor
+
+
+
+Jan 18, 2017
+
+Experts Corner, David Wagner
+
+data breach, email scams, email security, small business risk, small medium business, SMB, human error, employee training, Data Privacy Day, strong passwords, password management, device management, internal audit, social engineering, DLP, data loss, cell phone, mobile security
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 18, 2017
+
+Experts Corner, Experts Home Featured, IoT Society
+
+CES, CES2017, nVidia, autonomous cars, IoT, virtual reality, AI, internet of things, Internet of Things, Gary Shapiro, Jen-Hsun Wong, Comdex, Tesla, Audi, Bosch, AlphaGo, Xavier, digital assistants, Samsung, Consumer Technology Association, Ericsson, Jack Cutts, Shawn DuBravac, Amazon Alexa, Google Home, Danielle Cassagnol, Brian Markwalter, Symantec, Apple, Mercedes, car hacking, Underarmour, Fitbit
+
+Editor
+
+
+
+Jan 18, 2017
+
+Experts Corner, Experts Home Featured, IoT Society
+
+CES, CES2017, nVidia, autonomous cars, IoT, virtual reality, AI, internet of things, Internet of Things, Gary Shapiro, Jen-Hsun Wong, Comdex, Tesla, Audi, Bosch, AlphaGo, Xavier, digital assistants, Samsung, Consumer Technology Association, Ericsson, Jack Cutts, Shawn DuBravac, Amazon Alexa, Google Home, Danielle Cassagnol, Brian Markwalter, Symantec, Apple, Mercedes, car hacking, Underarmour, Fitbit
+
+Editor
+
+
+
+
+CES 2017, Where the Future Looked Exhilarating, Shiny, and Insecure
+
+
+
+
+Jan 18, 2017
+
+Experts Corner, Experts Home Featured, IoT Society
+
+CES, CES2017, nVidia, autonomous cars, IoT, virtual reality, AI, internet of things, Internet of Things, Gary Shapiro, Jen-Hsun Wong, Comdex, Tesla, Audi, Bosch, AlphaGo, Xavier, digital assistants, Samsung, Consumer Technology Association, Ericsson, Jack Cutts, Shawn DuBravac, Amazon Alexa, Google Home, Danielle Cassagnol, Brian Markwalter, Symantec, Apple, Mercedes, car hacking, Underarmour, Fitbit
+
+Editor
+
+
+
+Jan 18, 2017
+
+Experts Corner, Experts Home Featured, IoT Society
+
+CES, CES2017, nVidia, autonomous cars, IoT, virtual reality, AI, internet of things, Internet of Things, Gary Shapiro, Jen-Hsun Wong, Comdex, Tesla, Audi, Bosch, AlphaGo, Xavier, digital assistants, Samsung, Consumer Technology Association, Ericsson, Jack Cutts, Shawn DuBravac, Amazon Alexa, Google Home, Danielle Cassagnol, Brian Markwalter, Symantec, Apple, Mercedes, car hacking, Underarmour, Fitbit
+
+Editor
+
+
+
+
+At the recent Consumer Electronics Show (CES) 2017 in Las Vegas, NV, everything was shiny, new, and exciting - but security certainly took a back seat to the autonomous vehicles ... and everything else connected to the Internet.
+
+
+
+
+
+
+
+Jan 18, 2017
+
+Experts Corner, Experts Home Featured, IoT Society
+
+CES, CES2017, nVidia, autonomous cars, IoT, virtual reality, AI, internet of things, Internet of Things, Gary Shapiro, Jen-Hsun Wong, Comdex, Tesla, Audi, Bosch, AlphaGo, Xavier, digital assistants, Samsung, Consumer Technology Association, Ericsson, Jack Cutts, Shawn DuBravac, Amazon Alexa, Google Home, Danielle Cassagnol, Brian Markwalter, Symantec, Apple, Mercedes, car hacking, Underarmour, Fitbit
+
+Editor
+
+
+
+Jan 18, 2017
+
+Experts Corner, Experts Home Featured, IoT Society
+
+CES, CES2017, nVidia, autonomous cars, IoT, virtual reality, AI, internet of things, Internet of Things, Gary Shapiro, Jen-Hsun Wong, Comdex, Tesla, Audi, Bosch, AlphaGo, Xavier, digital assistants, Samsung, Consumer Technology Association, Ericsson, Jack Cutts, Shawn DuBravac, Amazon Alexa, Google Home, Danielle Cassagnol, Brian Markwalter, Symantec, Apple, Mercedes, car hacking, Underarmour, Fitbit
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 13, 2017
+
+Experts Corner, Anita Sathe
+
+biggest breach of 2017, small medium business, SMB, University of Connecticut, CyberPolicy, CoverHound, cybersecurity awareness, cyberinsurance, cyber insurance, cyber attack, cybersecurity experts, strong passwords, password management, password re-use, authentication, two-factor authentication, two-party authentication, touch ID, one-time password
+
+Editor
+
+
+
+Jan 13, 2017
+
+Experts Corner, Anita Sathe
+
+biggest breach of 2017, small medium business, SMB, University of Connecticut, CyberPolicy, CoverHound, cybersecurity awareness, cyberinsurance, cyber insurance, cyber attack, cybersecurity experts, strong passwords, password management, password re-use, authentication, two-factor authentication, two-party authentication, touch ID, one-time password
+
+Editor
+
+
+
+
+5 Best Practices to Protect Your Small Business from Cyber Attacks
+
+
+
+
+Jan 13, 2017
+
+Experts Corner, Anita Sathe
+
+biggest breach of 2017, small medium business, SMB, University of Connecticut, CyberPolicy, CoverHound, cybersecurity awareness, cyberinsurance, cyber insurance, cyber attack, cybersecurity experts, strong passwords, password management, password re-use, authentication, two-factor authentication, two-party authentication, touch ID, one-time password
+
+Editor
+
+
+
+Jan 13, 2017
+
+Experts Corner, Anita Sathe
+
+biggest breach of 2017, small medium business, SMB, University of Connecticut, CyberPolicy, CoverHound, cybersecurity awareness, cyberinsurance, cyber insurance, cyber attack, cybersecurity experts, strong passwords, password management, password re-use, authentication, two-factor authentication, two-party authentication, touch ID, one-time password
+
+Editor
+
+
+
+
+Most small businesses think that they can’t or won’t be the victims of cyber attack — that fraudsters and hackers are only interested in going after large corporations. Think again — and consider these 5 best practices when you do.
+
+
+
+
+
+
+
+Jan 13, 2017
+
+Experts Corner, Anita Sathe
+
+biggest breach of 2017, small medium business, SMB, University of Connecticut, CyberPolicy, CoverHound, cybersecurity awareness, cyberinsurance, cyber insurance, cyber attack, cybersecurity experts, strong passwords, password management, password re-use, authentication, two-factor authentication, two-party authentication, touch ID, one-time password
+
+Editor
+
+
+
+Jan 13, 2017
+
+Experts Corner, Anita Sathe
+
+biggest breach of 2017, small medium business, SMB, University of Connecticut, CyberPolicy, CoverHound, cybersecurity awareness, cyberinsurance, cyber insurance, cyber attack, cybersecurity experts, strong passwords, password management, password re-use, authentication, two-factor authentication, two-party authentication, touch ID, one-time password
+
+Editor
+
+
+ 
+ 
+ 
+ 
+Visit The Experts Corner 
+
+
+
+
+
+
+
+
+
+The Academy | An ITSPmagazine ColumnIn ITSPmagazine’s column, The Academy, Sean Coons and the team will feature stories by cutting-edge IT educators, leading industry experts, and students who will offer insights to those seeking to navigate the mercurial field of cybersecurity....Learn More The Academy | Featured Article
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+
+To Be, or Not To Be— Certified? That Is the Question. Or, Is It?
+
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+
+Thinking about adding an acronym to the end of your name to get your foot in the InfoSec door? Rick McElroy, security strategist for Carbon Black, offers direction for those navigating the ever-changing certification game.
+
+
+
+
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+The Academy Column | Most Recent Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+
+To Be, or Not To Be— Certified? That Is the Question. Or, Is It?
+
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+
+Thinking about adding an acronym to the end of your name to get your foot in the InfoSec door? Rick McElroy, security strategist for Carbon Black, offers direction for those navigating the ever-changing certification game.
+
+
+
+
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+
+Jan 31, 2017
+
+Home The Academy, Rick McElroy, The Academy, Featured the academy
+
+certifications, security certifications, CISSP, Carbon Black, CCNA, CCA, MCSE, CISM, CRISC, CEH, certified ethical hacker, OSCP, Coursera, department of defense, cloud security
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 23, 2017
+
+The Academy, Ajit Sancheti, Home The Academy
+
+computer science, engineering, cybersecurity experts, infosec education, cybersecurity awareness, security analysts, information security professionals, certified cloud security professional, education, social engineering, cybercrime, cybercriminals, academia, Featured Academy, big data, data intelligence, Internet of Things, IoT, IoT security, healthcare, skills development
+
+Sean Coons
+
+
+
+Jan 23, 2017
+
+The Academy, Ajit Sancheti, Home The Academy
+
+computer science, engineering, cybersecurity experts, infosec education, cybersecurity awareness, security analysts, information security professionals, certified cloud security professional, education, social engineering, cybercrime, cybercriminals, academia, Featured Academy, big data, data intelligence, Internet of Things, IoT, IoT security, healthcare, skills development
+
+Sean Coons
+
+
+
+
+Cybersecurity: Part Science, Part Business, and Part Psychic?
+
+
+
+
+Jan 23, 2017
+
+The Academy, Ajit Sancheti, Home The Academy
+
+computer science, engineering, cybersecurity experts, infosec education, cybersecurity awareness, security analysts, information security professionals, certified cloud security professional, education, social engineering, cybercrime, cybercriminals, academia, Featured Academy, big data, data intelligence, Internet of Things, IoT, IoT security, healthcare, skills development
+
+Sean Coons
+
+
+
+Jan 23, 2017
+
+The Academy, Ajit Sancheti, Home The Academy
+
+computer science, engineering, cybersecurity experts, infosec education, cybersecurity awareness, security analysts, information security professionals, certified cloud security professional, education, social engineering, cybercrime, cybercriminals, academia, Featured Academy, big data, data intelligence, Internet of Things, IoT, IoT security, healthcare, skills development
+
+Sean Coons
+
+
+
+
+Bridging the talent gap means more than producing a diverse cybersecurity workforce today – it will require looking into the future of the criminal mind.
+
+
+
+
+
+
+
+Jan 23, 2017
+
+The Academy, Ajit Sancheti, Home The Academy
+
+computer science, engineering, cybersecurity experts, infosec education, cybersecurity awareness, security analysts, information security professionals, certified cloud security professional, education, social engineering, cybercrime, cybercriminals, academia, Featured Academy, big data, data intelligence, Internet of Things, IoT, IoT security, healthcare, skills development
+
+Sean Coons
+
+
+
+Jan 23, 2017
+
+The Academy, Ajit Sancheti, Home The Academy
+
+computer science, engineering, cybersecurity experts, infosec education, cybersecurity awareness, security analysts, information security professionals, certified cloud security professional, education, social engineering, cybercrime, cybercriminals, academia, Featured Academy, big data, data intelligence, Internet of Things, IoT, IoT security, healthcare, skills development
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan  6, 2017
+
+The Academy, Mike Davis, Alan Watkins
+
+National University, it take a village, cybersecurity training, cybersecurity workforce, infosec jobs, NIST, ISACA, ISSA, NICE, NCWF, small business risk, small medium business, DHS, CSF, InfraGard
+
+Sean Coons
+
+
+
+Jan  6, 2017
+
+The Academy, Mike Davis, Alan Watkins
+
+National University, it take a village, cybersecurity training, cybersecurity workforce, infosec jobs, NIST, ISACA, ISSA, NICE, NCWF, small business risk, small medium business, DHS, CSF, InfraGard
+
+Sean Coons
+
+
+
+
+Small Businesses Need an Affordable, Qualified Cybersecurity Workforce
+
+
+
+
+Jan  6, 2017
+
+The Academy, Mike Davis, Alan Watkins
+
+National University, it take a village, cybersecurity training, cybersecurity workforce, infosec jobs, NIST, ISACA, ISSA, NICE, NCWF, small business risk, small medium business, DHS, CSF, InfraGard
+
+Sean Coons
+
+
+
+Jan  6, 2017
+
+The Academy, Mike Davis, Alan Watkins
+
+National University, it take a village, cybersecurity training, cybersecurity workforce, infosec jobs, NIST, ISACA, ISSA, NICE, NCWF, small business risk, small medium business, DHS, CSF, InfraGard
+
+Sean Coons
+
+
+
+
+In the fragmented world of cybersecurity, equipping small businesses for cyber threats and preparing the next generation of infosec professionals will require community-based workforce development.
+
+
+
+
+
+
+
+Jan  6, 2017
+
+The Academy, Mike Davis, Alan Watkins
+
+National University, it take a village, cybersecurity training, cybersecurity workforce, infosec jobs, NIST, ISACA, ISSA, NICE, NCWF, small business risk, small medium business, DHS, CSF, InfraGard
+
+Sean Coons
+
+
+
+Jan  6, 2017
+
+The Academy, Mike Davis, Alan Watkins
+
+National University, it take a village, cybersecurity training, cybersecurity workforce, infosec jobs, NIST, ISACA, ISSA, NICE, NCWF, small business risk, small medium business, DHS, CSF, InfraGard
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 29, 2016
+
+Sean Coons, The Academy, Home The Academy
+
+RSAC2017, rsa conference coverage, RSAC, RSAC2016Newsroom, rsac2016, rsac, RSA Conference, RSA Conference News, education, infosec career, infosec jobs, infosec education, AdvancedU, cybersecurity awareness, cybersecurity courses
+
+Sean Coons
+
+
+
+Dec 29, 2016
+
+Sean Coons, The Academy, Home The Academy
+
+RSAC2017, rsa conference coverage, RSAC, RSAC2016Newsroom, rsac2016, rsac, RSA Conference, RSA Conference News, education, infosec career, infosec jobs, infosec education, AdvancedU, cybersecurity awareness, cybersecurity courses
+
+Sean Coons
+
+
+
+
+The Future of Cybersecurity Is Education. RSA Conference is Leading the Way.
+
+
+
+
+Dec 29, 2016
+
+Sean Coons, The Academy, Home The Academy
+
+RSAC2017, rsa conference coverage, RSAC, RSAC2016Newsroom, rsac2016, rsac, RSA Conference, RSA Conference News, education, infosec career, infosec jobs, infosec education, AdvancedU, cybersecurity awareness, cybersecurity courses
+
+Sean Coons
+
+
+
+Dec 29, 2016
+
+Sean Coons, The Academy, Home The Academy
+
+RSAC2017, rsa conference coverage, RSAC, RSAC2016Newsroom, rsac2016, rsac, RSA Conference, RSA Conference News, education, infosec career, infosec jobs, infosec education, AdvancedU, cybersecurity awareness, cybersecurity courses
+
+Sean Coons
+
+
+
+
+Who will take the lead in turning talk about InfoSec education into action? Look to AdvancedU, RSAC 2017’s new academic enterprise focused on encouraging careers in cybersecurity and equipping parents to safeguard their children from cyber-based threats.
+
+
+
+
+
+
+
+Dec 29, 2016
+
+Sean Coons, The Academy, Home The Academy
+
+RSAC2017, rsa conference coverage, RSAC, RSAC2016Newsroom, rsac2016, rsac, RSA Conference, RSA Conference News, education, infosec career, infosec jobs, infosec education, AdvancedU, cybersecurity awareness, cybersecurity courses
+
+Sean Coons
+
+
+
+Dec 29, 2016
+
+Sean Coons, The Academy, Home The Academy
+
+RSAC2017, rsa conference coverage, RSAC, RSAC2016Newsroom, rsac2016, rsac, RSA Conference, RSA Conference News, education, infosec career, infosec jobs, infosec education, AdvancedU, cybersecurity awareness, cybersecurity courses
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 21, 2016
+
+Candy Alexander, The Academy, Home The Academy
+
+budget, cybersecurity training, cybersecurity courses, ESG, ISSA, cybersecurity workforce, cybersecurity experts, infosec budget, skills development, CEO
+
+Sean Coons
+
+
+
+Dec 21, 2016
+
+Candy Alexander, The Academy, Home The Academy
+
+budget, cybersecurity training, cybersecurity courses, ESG, ISSA, cybersecurity workforce, cybersecurity experts, infosec budget, skills development, CEO
+
+Sean Coons
+
+
+
+
+Here is Your Cybersecurity Budget. Spend It Wisely
+
+
+
+
+Dec 21, 2016
+
+Candy Alexander, The Academy, Home The Academy
+
+budget, cybersecurity training, cybersecurity courses, ESG, ISSA, cybersecurity workforce, cybersecurity experts, infosec budget, skills development, CEO
+
+Sean Coons
+
+
+
+Dec 21, 2016
+
+Candy Alexander, The Academy, Home The Academy
+
+budget, cybersecurity training, cybersecurity courses, ESG, ISSA, cybersecurity workforce, cybersecurity experts, infosec budget, skills development, CEO
+
+Sean Coons
+
+
+
+
+How can businesses pour millions into cybersecurity and still miss the mark? CISSP and CISM Candy Alexander explores the blind spot leaving many businesses open to costly attack.
+
+
+
+
+
+
+
+Dec 21, 2016
+
+Candy Alexander, The Academy, Home The Academy
+
+budget, cybersecurity training, cybersecurity courses, ESG, ISSA, cybersecurity workforce, cybersecurity experts, infosec budget, skills development, CEO
+
+Sean Coons
+
+
+
+Dec 21, 2016
+
+Candy Alexander, The Academy, Home The Academy
+
+budget, cybersecurity training, cybersecurity courses, ESG, ISSA, cybersecurity workforce, cybersecurity experts, infosec budget, skills development, CEO
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 15, 2016
+
+Featured the academy, The Academy, Gretchen Koch, Home The Academy
+
+diversity, diversity program, information security professionals, career lifecycle, infosec career, IT careers, CompTIA, Creating IT Futures, Christopher Brito, Latin America, youth center, career academy, teens in tech, infosec internships, Chicago technology, children in Chicago, work-based learning, STEM
+
+Sean Coons
+
+
+
+Dec 15, 2016
+
+Featured the academy, The Academy, Gretchen Koch, Home The Academy
+
+diversity, diversity program, information security professionals, career lifecycle, infosec career, IT careers, CompTIA, Creating IT Futures, Christopher Brito, Latin America, youth center, career academy, teens in tech, infosec internships, Chicago technology, children in Chicago, work-based learning, STEM
+
+Sean Coons
+
+
+
+
+Diversity in Infosec and How to Connect More Kids to IT Careers
+
+
+
+
+Dec 15, 2016
+
+Featured the academy, The Academy, Gretchen Koch, Home The Academy
+
+diversity, diversity program, information security professionals, career lifecycle, infosec career, IT careers, CompTIA, Creating IT Futures, Christopher Brito, Latin America, youth center, career academy, teens in tech, infosec internships, Chicago technology, children in Chicago, work-based learning, STEM
+
+Sean Coons
+
+
+
+Dec 15, 2016
+
+Featured the academy, The Academy, Gretchen Koch, Home The Academy
+
+diversity, diversity program, information security professionals, career lifecycle, infosec career, IT careers, CompTIA, Creating IT Futures, Christopher Brito, Latin America, youth center, career academy, teens in tech, infosec internships, Chicago technology, children in Chicago, work-based learning, STEM
+
+Sean Coons
+
+
+
+
+For the past year or more, one of the hottest discussions in the IT industry is how to get more diversity into the tech workforce. To dismantle the status quo, the industry needs to dive deep and form partnerships with academia, government, and nonprofits to get more people interested in IT careers and diversify the workforce for the long term.
+
+
+
+
+
+
+
+Dec 15, 2016
+
+Featured the academy, The Academy, Gretchen Koch, Home The Academy
+
+diversity, diversity program, information security professionals, career lifecycle, infosec career, IT careers, CompTIA, Creating IT Futures, Christopher Brito, Latin America, youth center, career academy, teens in tech, infosec internships, Chicago technology, children in Chicago, work-based learning, STEM
+
+Sean Coons
+
+
+
+Dec 15, 2016
+
+Featured the academy, The Academy, Gretchen Koch, Home The Academy
+
+diversity, diversity program, information security professionals, career lifecycle, infosec career, IT careers, CompTIA, Creating IT Futures, Christopher Brito, Latin America, youth center, career academy, teens in tech, infosec internships, Chicago technology, children in Chicago, work-based learning, STEM
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 30, 2016
+
+The Academy, Candy Alexander, Home The Academy
+
+ISSA, ESG, infosec resumes, infosec training, infosec ireland, infosec certifications, infosec education, infosec career, cybersecurity experts, cybersecurity workforce, cybersecurity courses, NICE, NIST, career lifecycle, SB1386, CISO
+
+Sean Coons
+
+
+
+Nov 30, 2016
+
+The Academy, Candy Alexander, Home The Academy
+
+ISSA, ESG, infosec resumes, infosec training, infosec ireland, infosec certifications, infosec education, infosec career, cybersecurity experts, cybersecurity workforce, cybersecurity courses, NICE, NIST, career lifecycle, SB1386, CISO
+
+Sean Coons
+
+
+
+
+The Cybersecurity Profession Has a Clear Career Path. LOL. Just Kidding
+
+
+
+
+Nov 30, 2016
+
+The Academy, Candy Alexander, Home The Academy
+
+ISSA, ESG, infosec resumes, infosec training, infosec ireland, infosec certifications, infosec education, infosec career, cybersecurity experts, cybersecurity workforce, cybersecurity courses, NICE, NIST, career lifecycle, SB1386, CISO
+
+Sean Coons
+
+
+
+Nov 30, 2016
+
+The Academy, Candy Alexander, Home The Academy
+
+ISSA, ESG, infosec resumes, infosec training, infosec ireland, infosec certifications, infosec education, infosec career, cybersecurity experts, cybersecurity workforce, cybersecurity courses, NICE, NIST, career lifecycle, SB1386, CISO
+
+Sean Coons
+
+
+
+
+Expert analysis by Candy Alexander of a recent study from ISSA and ESG emphasizes the need for more formal planning in career advancement in cybersecurity.
+
+
+
+
+
+
+
+Nov 30, 2016
+
+The Academy, Candy Alexander, Home The Academy
+
+ISSA, ESG, infosec resumes, infosec training, infosec ireland, infosec certifications, infosec education, infosec career, cybersecurity experts, cybersecurity workforce, cybersecurity courses, NICE, NIST, career lifecycle, SB1386, CISO
+
+Sean Coons
+
+
+
+Nov 30, 2016
+
+The Academy, Candy Alexander, Home The Academy
+
+ISSA, ESG, infosec resumes, infosec training, infosec ireland, infosec certifications, infosec education, infosec career, cybersecurity experts, cybersecurity workforce, cybersecurity courses, NICE, NIST, career lifecycle, SB1386, CISO
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 30, 2016
+
+The Academy, Ken Slaght
+
+CCOE, center of excellence, SPAWAR, US Navy, veterans in infosec, veterans in technology, veterans in cybersecurity, San Diego, cybersecurity, University of San Diego, California State University San Marcos, master's program, NIST, NICE, infosec jobs, infosec scholarships
+
+Sean Coons
+
+
+
+Nov 30, 2016
+
+The Academy, Ken Slaght
+
+CCOE, center of excellence, SPAWAR, US Navy, veterans in infosec, veterans in technology, veterans in cybersecurity, San Diego, cybersecurity, University of San Diego, California State University San Marcos, master's program, NIST, NICE, infosec jobs, infosec scholarships
+
+Sean Coons
+
+
+
+
+Another Good Day Ahead for Vets & Cybersecurity Industry in San Diego
+
+
+
+
+Nov 30, 2016
+
+The Academy, Ken Slaght
+
+CCOE, center of excellence, SPAWAR, US Navy, veterans in infosec, veterans in technology, veterans in cybersecurity, San Diego, cybersecurity, University of San Diego, California State University San Marcos, master's program, NIST, NICE, infosec jobs, infosec scholarships
+
+Sean Coons
+
+
+
+Nov 30, 2016
+
+The Academy, Ken Slaght
+
+CCOE, center of excellence, SPAWAR, US Navy, veterans in infosec, veterans in technology, veterans in cybersecurity, San Diego, cybersecurity, University of San Diego, California State University San Marcos, master's program, NIST, NICE, infosec jobs, infosec scholarships
+
+Sean Coons
+
+
+
+
+San Diego is a boomtown for transitioning service members and veterans entering cybersecurity. Ken Slaght shares opportunities and resources offered by the San Diego Cyber Center of Excellence.
+
+
+
+
+
+
+
+Nov 30, 2016
+
+The Academy, Ken Slaght
+
+CCOE, center of excellence, SPAWAR, US Navy, veterans in infosec, veterans in technology, veterans in cybersecurity, San Diego, cybersecurity, University of San Diego, California State University San Marcos, master's program, NIST, NICE, infosec jobs, infosec scholarships
+
+Sean Coons
+
+
+
+Nov 30, 2016
+
+The Academy, Ken Slaght
+
+CCOE, center of excellence, SPAWAR, US Navy, veterans in infosec, veterans in technology, veterans in cybersecurity, San Diego, cybersecurity, University of San Diego, California State University San Marcos, master's program, NIST, NICE, infosec jobs, infosec scholarships
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 23, 2016
+
+Kris Rides, The Academy, Home The Academy
+
+cybersecurity workforce, infosec jobs, infosec resumes, information security professionals, infosec projects, infosec career, Tiro Security
+
+Sean Coons
+
+
+
+Nov 23, 2016
+
+Kris Rides, The Academy, Home The Academy
+
+cybersecurity workforce, infosec jobs, infosec resumes, information security professionals, infosec projects, infosec career, Tiro Security
+
+Sean Coons
+
+
+
+
+Do You Want to Work in Infosec or Win a Nobel Prize for Literature?
+
+
+
+
+Nov 23, 2016
+
+Kris Rides, The Academy, Home The Academy
+
+cybersecurity workforce, infosec jobs, infosec resumes, information security professionals, infosec projects, infosec career, Tiro Security
+
+Sean Coons
+
+
+
+Nov 23, 2016
+
+Kris Rides, The Academy, Home The Academy
+
+cybersecurity workforce, infosec jobs, infosec resumes, information security professionals, infosec projects, infosec career, Tiro Security
+
+Sean Coons
+
+
+
+
+Is your resume keeping you from landing your dream job in InfoSec? CEO and Co-Founder of Tiro Security Kris Rides offers 5 Tips for crafting a resume that will get you the interview.
+
+
+
+
+
+
+
+Nov 23, 2016
+
+Kris Rides, The Academy, Home The Academy
+
+cybersecurity workforce, infosec jobs, infosec resumes, information security professionals, infosec projects, infosec career, Tiro Security
+
+Sean Coons
+
+
+
+Nov 23, 2016
+
+Kris Rides, The Academy, Home The Academy
+
+cybersecurity workforce, infosec jobs, infosec resumes, information security professionals, infosec projects, infosec career, Tiro Security
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 10, 2016
+
+Sean Coons, The Academy
+
+veterans in technology, veterans in cybersecurity, veterans in infosec, Veterans Day, education, infosec internships, infosec scholarships, infosec education, Featured Academy
+
+Sean Coons
+
+
+
+Nov 10, 2016
+
+Sean Coons, The Academy
+
+veterans in technology, veterans in cybersecurity, veterans in infosec, Veterans Day, education, infosec internships, infosec scholarships, infosec education, Featured Academy
+
+Sean Coons
+
+
+
+
+10 Twitter Profiles Supporting Veterans Education
+
+
+
+
+Nov 10, 2016
+
+Sean Coons, The Academy
+
+veterans in technology, veterans in cybersecurity, veterans in infosec, Veterans Day, education, infosec internships, infosec scholarships, infosec education, Featured Academy
+
+Sean Coons
+
+
+
+Nov 10, 2016
+
+Sean Coons, The Academy
+
+veterans in technology, veterans in cybersecurity, veterans in infosec, Veterans Day, education, infosec internships, infosec scholarships, infosec education, Featured Academy
+
+Sean Coons
+
+
+
+
+In honor of Veterans Day, ITSPmagazine’s The Academy has put together a list of Twitter Profiles for 10 Groups Supporting Veterans in Education and Cybersecurity as a resource for the quarter-million members of the U.S. Armed Services who transition to civilian life every year.
+
+
+
+
+
+
+
+Nov 10, 2016
+
+Sean Coons, The Academy
+
+veterans in technology, veterans in cybersecurity, veterans in infosec, Veterans Day, education, infosec internships, infosec scholarships, infosec education, Featured Academy
+
+Sean Coons
+
+
+
+Nov 10, 2016
+
+Sean Coons, The Academy
+
+veterans in technology, veterans in cybersecurity, veterans in infosec, Veterans Day, education, infosec internships, infosec scholarships, infosec education, Featured Academy
+
+Sean Coons
+
+
+ 
+ 
+ 
+ 
+Visit The Academy Column
+
+
+
+
+
+
+
+
+
+An InfoSec Life | An ITSPmagazine ColumnIn the new ITSPmagazine column, An InfoSec Life, Larry Jaffee and team take things deeper, exploring the intersection of society and technology. Here you'll find InfoSec professionals explaining how they view the work they do, how it impacts humanity, and vice versa. The mission of the column is to humanize the technology and processes that IT Security Professionals employ as they have devoted their livelihoods to protecting the world’s systems and information....Learn More
+
+
+
+
+
+An InfoSec Life | Featured Article
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+
+Knowledge, Passion, Determination and a Sense of Social Responsibility
+
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+
+Robert Simmons thinks of his mom and grandmother when defending all computer users from cyber threats that can strip them of their identities and money. This InfoSec professional believes a safe and level Internet playing field will be achieved by meticulously observing data patterns to illuminate the most dangerous network risks.
+
+
+
+
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+An InfoSec Life Column | Most Recent Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+
+Knowledge, Passion, Determination and a Sense of Social Responsibility
+
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+
+Robert Simmons thinks of his mom and grandmother when defending all computer users from cyber threats that can strip them of their identities and money. This InfoSec professional believes a safe and level Internet playing field will be achieved by meticulously observing data patterns to illuminate the most dangerous network risks.
+
+
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+
+Jan 30, 2017
+
+InfoSec Life, Robert Simmons
+
+ThreatConnect, information security, infosec, infosec and society, breaking computers, systems administrator, cybersecurity jobs, infosec education, malware, phishing, cybercriminals, data patterns, big data, cybersecurity awareness, risk assessments, cybercrime
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 23, 2017
+
+InfoSec Life, Roland Cloutier
+
+ADP, CSO, CISO, Chief Security Officer, security management, global security operations, incident response center, incident response program, confidential information, availability, integrity, Internet of Things, IoT, IoT security, law enforcement
+
+Sean Coons
+
+
+
+Jan 23, 2017
+
+InfoSec Life, Roland Cloutier
+
+ADP, CSO, CISO, Chief Security Officer, security management, global security operations, incident response center, incident response program, confidential information, availability, integrity, Internet of Things, IoT, IoT security, law enforcement
+
+Sean Coons
+
+
+
+
+A Dialogue with Roland Cloutier - SVP & CSO of ADP
+
+
+
+
+Jan 23, 2017
+
+InfoSec Life, Roland Cloutier
+
+ADP, CSO, CISO, Chief Security Officer, security management, global security operations, incident response center, incident response program, confidential information, availability, integrity, Internet of Things, IoT, IoT security, law enforcement
+
+Sean Coons
+
+
+
+Jan 23, 2017
+
+InfoSec Life, Roland Cloutier
+
+ADP, CSO, CISO, Chief Security Officer, security management, global security operations, incident response center, incident response program, confidential information, availability, integrity, Internet of Things, IoT, IoT security, law enforcement
+
+Sean Coons
+
+
+
+
+Learn how a powerful sense of mission can provide motivation to solve complex problems and meaning in the InfoSec life from ADP SVP/CSO Roland Cloutier.
+
+
+
+
+
+Jan 23, 2017
+
+InfoSec Life, Roland Cloutier
+
+ADP, CSO, CISO, Chief Security Officer, security management, global security operations, incident response center, incident response program, confidential information, availability, integrity, Internet of Things, IoT, IoT security, law enforcement
+
+Sean Coons
+
+
+
+Jan 23, 2017
+
+InfoSec Life, Roland Cloutier
+
+ADP, CSO, CISO, Chief Security Officer, security management, global security operations, incident response center, incident response program, confidential information, availability, integrity, Internet of Things, IoT, IoT security, law enforcement
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 29, 2016
+
+InfoSec Life, Paige Schaffer, Dialogues
+
+computer science, technology and society, STEM, identity, breach, Generali Global Assistance, cyberspace, cybersecurity, identity theft, University of Texas, awareness training, SaaS, cyberinsurance, dark web, deep web, IT operations, Internet of Things, IoT
+
+Larry Jaffee
+
+
+
+Dec 29, 2016
+
+InfoSec Life, Paige Schaffer, Dialogues
+
+computer science, technology and society, STEM, identity, breach, Generali Global Assistance, cyberspace, cybersecurity, identity theft, University of Texas, awareness training, SaaS, cyberinsurance, dark web, deep web, IT operations, Internet of Things, IoT
+
+Larry Jaffee
+
+
+
+
+A Dialogue with Paige Schaffer - Generali Global Assistance
+
+
+
+
+Dec 29, 2016
+
+InfoSec Life, Paige Schaffer, Dialogues
+
+computer science, technology and society, STEM, identity, breach, Generali Global Assistance, cyberspace, cybersecurity, identity theft, University of Texas, awareness training, SaaS, cyberinsurance, dark web, deep web, IT operations, Internet of Things, IoT
+
+Larry Jaffee
+
+
+
+Dec 29, 2016
+
+InfoSec Life, Paige Schaffer, Dialogues
+
+computer science, technology and society, STEM, identity, breach, Generali Global Assistance, cyberspace, cybersecurity, identity theft, University of Texas, awareness training, SaaS, cyberinsurance, dark web, deep web, IT operations, Internet of Things, IoT
+
+Larry Jaffee
+
+
+
+
+ITSPmagazine had a chance to connect with Paige Schaffer from Generali Global Assistance. We wanted to find out what inspires her; why she does what she does, and how what she and her company are looking to make a positive impact on society.
+
+
+
+
+
+Dec 29, 2016
+
+InfoSec Life, Paige Schaffer, Dialogues
+
+computer science, technology and society, STEM, identity, breach, Generali Global Assistance, cyberspace, cybersecurity, identity theft, University of Texas, awareness training, SaaS, cyberinsurance, dark web, deep web, IT operations, Internet of Things, IoT
+
+Larry Jaffee
+
+
+
+Dec 29, 2016
+
+InfoSec Life, Paige Schaffer, Dialogues
+
+computer science, technology and society, STEM, identity, breach, Generali Global Assistance, cyberspace, cybersecurity, identity theft, University of Texas, awareness training, SaaS, cyberinsurance, dark web, deep web, IT operations, Internet of Things, IoT
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec 14, 2016
+
+InfoSec Life, Vishal Gupta, Home Spotlight
+
+Seclore, privacy, data privacy, empathy, cybersecurity, cybersecurity workforce, career lifecycle, infosec career, surveillance, artificial intelligence
+
+Larry Jaffee
+
+
+
+Dec 14, 2016
+
+InfoSec Life, Vishal Gupta, Home Spotlight
+
+Seclore, privacy, data privacy, empathy, cybersecurity, cybersecurity workforce, career lifecycle, infosec career, surveillance, artificial intelligence
+
+Larry Jaffee
+
+
+
+
+Cybersecurity Is About Privacy, Empathy, and the Real World
+
+
+
+
+Dec 14, 2016
+
+InfoSec Life, Vishal Gupta, Home Spotlight
+
+Seclore, privacy, data privacy, empathy, cybersecurity, cybersecurity workforce, career lifecycle, infosec career, surveillance, artificial intelligence
+
+Larry Jaffee
+
+
+
+Dec 14, 2016
+
+InfoSec Life, Vishal Gupta, Home Spotlight
+
+Seclore, privacy, data privacy, empathy, cybersecurity, cybersecurity workforce, career lifecycle, infosec career, surveillance, artificial intelligence
+
+Larry Jaffee
+
+
+
+
+Technology entrepreneur Vishal Gupta explains how living by the principles of empathizing with the individuals whose data his firm is charged with protecting frames the way he approaches his InfoSec Life.
+
+
+
+
+
+Dec 14, 2016
+
+InfoSec Life, Vishal Gupta, Home Spotlight
+
+Seclore, privacy, data privacy, empathy, cybersecurity, cybersecurity workforce, career lifecycle, infosec career, surveillance, artificial intelligence
+
+Larry Jaffee
+
+
+
+Dec 14, 2016
+
+InfoSec Life, Vishal Gupta, Home Spotlight
+
+Seclore, privacy, data privacy, empathy, cybersecurity, cybersecurity workforce, career lifecycle, infosec career, surveillance, artificial intelligence
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 18, 2016
+
+InfoSec Life, Larry Jaffee, Vikas Bhatia
+
+cybersecurity, Kalki, information security, entrepreneurship, immigration
+
+Larry Jaffee
+
+
+
+Nov 18, 2016
+
+InfoSec Life, Larry Jaffee, Vikas Bhatia
+
+cybersecurity, Kalki, information security, entrepreneurship, immigration
+
+Larry Jaffee
+
+
+
+
+Writing from a NYC Subway: “Blood, Sweat & Cyber”
+
+
+
+
+Nov 18, 2016
+
+InfoSec Life, Larry Jaffee, Vikas Bhatia
+
+cybersecurity, Kalki, information security, entrepreneurship, immigration
+
+Larry Jaffee
+
+
+
+Nov 18, 2016
+
+InfoSec Life, Larry Jaffee, Vikas Bhatia
+
+cybersecurity, Kalki, information security, entrepreneurship, immigration
+
+Larry Jaffee
+
+
+
+
+Sometimes life pushes you in a direction, and you finally realize what you were meant to do. Such is the case with Vikas Bhatia. Introducing Vikas Bhatia and his Blood, Sweat, and Cyber Chronicles on ITSPmagazine.
+
+
+
+
+
+Nov 18, 2016
+
+InfoSec Life, Larry Jaffee, Vikas Bhatia
+
+cybersecurity, Kalki, information security, entrepreneurship, immigration
+
+Larry Jaffee
+
+
+
+Nov 18, 2016
+
+InfoSec Life, Larry Jaffee, Vikas Bhatia
+
+cybersecurity, Kalki, information security, entrepreneurship, immigration
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov 11, 2016
+
+InfoSec Life
+
+military, infosec education, infosec training, infosec jobs, Fortinet, Veterans Day, veterans in cybersecurity, veterans in infosec, veterans in technology, USMC, marine corps, marines
+
+Larry Jaffee
+
+
+
+Nov 11, 2016
+
+InfoSec Life
+
+military, infosec education, infosec training, infosec jobs, Fortinet, Veterans Day, veterans in cybersecurity, veterans in infosec, veterans in technology, USMC, marine corps, marines
+
+Larry Jaffee
+
+
+
+
+Transitioning from a Military to a Commercial Culture
+
+
+
+
+Nov 11, 2016
+
+InfoSec Life
+
+military, infosec education, infosec training, infosec jobs, Fortinet, Veterans Day, veterans in cybersecurity, veterans in infosec, veterans in technology, USMC, marine corps, marines
+
+Larry Jaffee
+
+
+
+Nov 11, 2016
+
+InfoSec Life
+
+military, infosec education, infosec training, infosec jobs, Fortinet, Veterans Day, veterans in cybersecurity, veterans in infosec, veterans in technology, USMC, marine corps, marines
+
+Larry Jaffee
+
+
+
+
+Veteran’s Day is a great opportunity to highlight the success of our veterans.  In this spotlight, Chris Armstrong, a former Marine Officer who was stationed at Camp Pendleton in California, is recognized for being a “graduate” of Fortinet’s Fortinet Veterans Program.
+
+
+
+
+
+Nov 11, 2016
+
+InfoSec Life
+
+military, infosec education, infosec training, infosec jobs, Fortinet, Veterans Day, veterans in cybersecurity, veterans in infosec, veterans in technology, USMC, marine corps, marines
+
+Larry Jaffee
+
+
+
+Nov 11, 2016
+
+InfoSec Life
+
+military, infosec education, infosec training, infosec jobs, Fortinet, Veterans Day, veterans in cybersecurity, veterans in infosec, veterans in technology, USMC, marine corps, marines
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nov  4, 2016
+
+InfoSec Life, Larry Jaffee
+
+cyber forensics, forensics research, Tagliatela College, wearable device security, computer science, veterans in infosec, veterans in technology, veterans in cybersecurity, infosec scholarships, infosec education, military, University of New Haven
+
+Larry Jaffee
+
+
+
+Nov  4, 2016
+
+InfoSec Life, Larry Jaffee
+
+cyber forensics, forensics research, Tagliatela College, wearable device security, computer science, veterans in infosec, veterans in technology, veterans in cybersecurity, infosec scholarships, infosec education, military, University of New Haven
+
+Larry Jaffee
+
+
+
+
+Military Trained, Infosec Approved
+
+
+
+
+Nov  4, 2016
+
+InfoSec Life, Larry Jaffee
+
+cyber forensics, forensics research, Tagliatela College, wearable device security, computer science, veterans in infosec, veterans in technology, veterans in cybersecurity, infosec scholarships, infosec education, military, University of New Haven
+
+Larry Jaffee
+
+
+
+Nov  4, 2016
+
+InfoSec Life, Larry Jaffee
+
+cyber forensics, forensics research, Tagliatela College, wearable device security, computer science, veterans in infosec, veterans in technology, veterans in cybersecurity, infosec scholarships, infosec education, military, University of New Haven
+
+Larry Jaffee
+
+
+
+
+Work ethic and attention to detail are two traits that these three University of New Haven cybersecurity students developed while they were in the military.
+
+
+
+
+
+Nov  4, 2016
+
+InfoSec Life, Larry Jaffee
+
+cyber forensics, forensics research, Tagliatela College, wearable device security, computer science, veterans in infosec, veterans in technology, veterans in cybersecurity, infosec scholarships, infosec education, military, University of New Haven
+
+Larry Jaffee
+
+
+
+Nov  4, 2016
+
+InfoSec Life, Larry Jaffee
+
+cyber forensics, forensics research, Tagliatela College, wearable device security, computer science, veterans in infosec, veterans in technology, veterans in cybersecurity, infosec scholarships, infosec education, military, University of New Haven
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oct 27, 2016
+
+Women in Security, InfoSec Life, Jo Stewart-Rattray, Featured infosec life
+
+information security market, information security, information technology, IT talent, talent acquisition, security talent, cybersecurity workforce, ISACA, credentials, security certifications, cybersecurity courses, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 27, 2016
+
+Women in Security, InfoSec Life, Jo Stewart-Rattray, Featured infosec life
+
+information security market, information security, information technology, IT talent, talent acquisition, security talent, cybersecurity workforce, ISACA, credentials, security certifications, cybersecurity courses, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+
+Looking For Creative People To Fill Positions in Technology Space. True Story
+
+
+
+
+Oct 27, 2016
+
+Women in Security, InfoSec Life, Jo Stewart-Rattray, Featured infosec life
+
+information security market, information security, information technology, IT talent, talent acquisition, security talent, cybersecurity workforce, ISACA, credentials, security certifications, cybersecurity courses, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 27, 2016
+
+Women in Security, InfoSec Life, Jo Stewart-Rattray, Featured infosec life
+
+information security market, information security, information technology, IT talent, talent acquisition, security talent, cybersecurity workforce, ISACA, credentials, security certifications, cybersecurity courses, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+
+With more than 25 years’ experience in the IT field, ISACA Director Jo Stewart-Rattray has a lot of experience and advice to share. Determine what you want to do in technology, find your own path, and make it happen. And until you’ve actually tried something, don’t place imaginary obstacles in your own path.
+
+
+
+
+
+Oct 27, 2016
+
+Women in Security, InfoSec Life, Jo Stewart-Rattray, Featured infosec life
+
+information security market, information security, information technology, IT talent, talent acquisition, security talent, cybersecurity workforce, ISACA, credentials, security certifications, cybersecurity courses, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 27, 2016
+
+Women in Security, InfoSec Life, Jo Stewart-Rattray, Featured infosec life
+
+information security market, information security, information technology, IT talent, talent acquisition, security talent, cybersecurity workforce, ISACA, credentials, security certifications, cybersecurity courses, Featured InfoSec Life
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oct 24, 2016
+
+Featured infosec life, InfoSec Life, Alphonzo Albright
+
+email scams, spoofing, email security, classified email, spoofing attack, scams, FTC, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 24, 2016
+
+Featured infosec life, InfoSec Life, Alphonzo Albright
+
+email scams, spoofing, email security, classified email, spoofing attack, scams, FTC, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+
+Abracadabra! Hocus Pocus! I Was Spoofed Once, Never Again
+
+
+
+
+Oct 24, 2016
+
+Featured infosec life, InfoSec Life, Alphonzo Albright
+
+email scams, spoofing, email security, classified email, spoofing attack, scams, FTC, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 24, 2016
+
+Featured infosec life, InfoSec Life, Alphonzo Albright
+
+email scams, spoofing, email security, classified email, spoofing attack, scams, FTC, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+
+Even an Info Security professional can fall victim to a prevalent hacker ploy: spoofing, as Alphonzo Albright learned. Luckily he caught it before damage had occurred. Here are tips how you can protect yourself from such a scam.
+
+
+
+
+
+Oct 24, 2016
+
+Featured infosec life, InfoSec Life, Alphonzo Albright
+
+email scams, spoofing, email security, classified email, spoofing attack, scams, FTC, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 24, 2016
+
+Featured infosec life, InfoSec Life, Alphonzo Albright
+
+email scams, spoofing, email security, classified email, spoofing attack, scams, FTC, Featured InfoSec Life
+
+Larry Jaffee
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Oct 14, 2016
+
+Gene Fredriksen, InfoSec Life, Featured infosec life
+
+cybersecurity experts, cybersecurity, security talent, superhero, CISO, dream job, dream team, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 14, 2016
+
+Gene Fredriksen, InfoSec Life, Featured infosec life
+
+cybersecurity experts, cybersecurity, security talent, superhero, CISO, dream job, dream team, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+
+Can You Make My Cybersecurity Super Hero Dream Team?
+
+
+
+
+Oct 14, 2016
+
+Gene Fredriksen, InfoSec Life, Featured infosec life
+
+cybersecurity experts, cybersecurity, security talent, superhero, CISO, dream job, dream team, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 14, 2016
+
+Gene Fredriksen, InfoSec Life, Featured infosec life
+
+cybersecurity experts, cybersecurity, security talent, superhero, CISO, dream job, dream team, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+
+Putting together a cybersecurity workforce is similar to assembling a Super Hero Dream Team, explains Gene Fredriksen, CISO for PSCU, which services more than 800 credit unions. In this An InfoSec Life piece, Gene explains how he harks back to his love for superhero comic books in coming up with his cybersecurity dream team.
+
+
+
+
+
+Oct 14, 2016
+
+Gene Fredriksen, InfoSec Life, Featured infosec life
+
+cybersecurity experts, cybersecurity, security talent, superhero, CISO, dream job, dream team, Featured InfoSec Life
+
+Larry Jaffee
+
+
+
+Oct 14, 2016
+
+Gene Fredriksen, InfoSec Life, Featured infosec life
+
+cybersecurity experts, cybersecurity, security talent, superhero, CISO, dream job, dream team, Featured InfoSec Life
+
+Larry Jaffee
+
+
+ 
+ 
+ 
+ 
+Visit An InfoSec Life Column
+
+
+
+
+
+
+
+
+
+Their Story | By ITSPmagazineIn this ITSPmagazine section, Their Story, you'll find companies in the InfoSec and CyberSecurity community explaining how they view the work they do, what they bring to the table to help protect our privacy & security, and how what they do impacts our society, and vice versa. ...Learn MoreTheir Story | Latest Article
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+
+You Can’t Change The Future, But You Can Foresee It, and Be Ready
+
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+
+When it comes to ingesting, digesting, and applying threat intelligence in a meaningful way, it can seem like information overload. With their Threat Catalogue, HITRUST is helping the healthcare industry overcome this challenge with a complete list of security and privacy threats geared toward the threats the industry faces on a daily basis.
+
+
+
+
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+Latest from "Their Story" Articles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+
+You Can’t Change The Future, But You Can Foresee It, and Be Ready
+
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+
+When it comes to ingesting, digesting, and applying threat intelligence in a meaningful way, it can seem like information overload. With their Threat Catalogue, HITRUST is helping the healthcare industry overcome this challenge with a complete list of security and privacy threats geared toward the threats the industry faces on a daily basis.
+
+
+
+
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+
+Feb  1, 2017
+
+Alan Zeichick, Their Stories
+
+HITRUST, threat intelligence, CISO, Chief Security Officer, regulatory compliance, healthtech, healthcare, compliance management, NIST, Dan Nutkis, CSF, HIPAA, infosec education, third-party risk, threat catalogue, Roy Mellinger, Anthem, cybercriminals, cybercrime
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 26, 2017
+
+Their Stories, Jack Jones, John Dasher
+
+FAIR Institue, RiskLens, risk management, vendor risk management, CISO, Nationwide Insurance, Huntington Bank, CBC Innovis, ISSA, CSO, cybersecurity, antivirus, entrepreneurship, insider threat, password management, cybercriminals, risk ratings, risk assessments, risk scores, cyber risk, San Jose State University, risk tolerance, financial services, Federal Reserve, Chief Risk Officer
+
+Editor
+
+
+
+Jan 26, 2017
+
+Their Stories, Jack Jones, John Dasher
+
+FAIR Institue, RiskLens, risk management, vendor risk management, CISO, Nationwide Insurance, Huntington Bank, CBC Innovis, ISSA, CSO, cybersecurity, antivirus, entrepreneurship, insider threat, password management, cybercriminals, risk ratings, risk assessments, risk scores, cyber risk, San Jose State University, risk tolerance, financial services, Federal Reserve, Chief Risk Officer
+
+Editor
+
+
+
+
+A Dialogue with Jack Jones, Co-Founder and EVP Research and Development, RiskLens
+
+
+
+
+Jan 26, 2017
+
+Their Stories, Jack Jones, John Dasher
+
+FAIR Institue, RiskLens, risk management, vendor risk management, CISO, Nationwide Insurance, Huntington Bank, CBC Innovis, ISSA, CSO, cybersecurity, antivirus, entrepreneurship, insider threat, password management, cybercriminals, risk ratings, risk assessments, risk scores, cyber risk, San Jose State University, risk tolerance, financial services, Federal Reserve, Chief Risk Officer
+
+Editor
+
+
+
+Jan 26, 2017
+
+Their Stories, Jack Jones, John Dasher
+
+FAIR Institue, RiskLens, risk management, vendor risk management, CISO, Nationwide Insurance, Huntington Bank, CBC Innovis, ISSA, CSO, cybersecurity, antivirus, entrepreneurship, insider threat, password management, cybercriminals, risk ratings, risk assessments, risk scores, cyber risk, San Jose State University, risk tolerance, financial services, Federal Reserve, Chief Risk Officer
+
+Editor
+
+
+
+
+In today’s increasingly hostile cybersecurity climate, with more CISOs finding they report directly to the CEO and the Board, the language of “risk” has reached epic levels of importance. Join us for a fascinating chat with RiskLens’ Jack Jones, Co-Founder and EVP Research and Development.
+
+
+
+
+
+
+
+Jan 26, 2017
+
+Their Stories, Jack Jones, John Dasher
+
+FAIR Institue, RiskLens, risk management, vendor risk management, CISO, Nationwide Insurance, Huntington Bank, CBC Innovis, ISSA, CSO, cybersecurity, antivirus, entrepreneurship, insider threat, password management, cybercriminals, risk ratings, risk assessments, risk scores, cyber risk, San Jose State University, risk tolerance, financial services, Federal Reserve, Chief Risk Officer
+
+Editor
+
+
+
+Jan 26, 2017
+
+Their Stories, Jack Jones, John Dasher
+
+FAIR Institue, RiskLens, risk management, vendor risk management, CISO, Nationwide Insurance, Huntington Bank, CBC Innovis, ISSA, CSO, cybersecurity, antivirus, entrepreneurship, insider threat, password management, cybercriminals, risk ratings, risk assessments, risk scores, cyber risk, San Jose State University, risk tolerance, financial services, Federal Reserve, Chief Risk Officer
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 23, 2017
+
+Their Stories, Zoltán Györkő
+
+BalaBit, computer engineering, computer programming, computer science, cybersecurity culture, privacy, security intelligence, intelligence platform, Featured Their Stories
+
+Editor
+
+
+
+Jan 23, 2017
+
+Their Stories, Zoltán Györkő
+
+BalaBit, computer engineering, computer programming, computer science, cybersecurity culture, privacy, security intelligence, intelligence platform, Featured Their Stories
+
+Editor
+
+
+
+
+A Dialogue with Zoltán Györkő, CEO and Co-Founder, Balabit
+
+
+
+
+Jan 23, 2017
+
+Their Stories, Zoltán Györkő
+
+BalaBit, computer engineering, computer programming, computer science, cybersecurity culture, privacy, security intelligence, intelligence platform, Featured Their Stories
+
+Editor
+
+
+
+Jan 23, 2017
+
+Their Stories, Zoltán Györkő
+
+BalaBit, computer engineering, computer programming, computer science, cybersecurity culture, privacy, security intelligence, intelligence platform, Featured Their Stories
+
+Editor
+
+
+
+
+Winners in the cybersecurity game will safeguard data without constraining business. Learn how Zoltán Györkő, CEO and co-Founder of Balabit, achieves success with real-time user analysis and authentication.
+
+
+
+
+
+
+
+Jan 23, 2017
+
+Their Stories, Zoltán Györkő
+
+BalaBit, computer engineering, computer programming, computer science, cybersecurity culture, privacy, security intelligence, intelligence platform, Featured Their Stories
+
+Editor
+
+
+
+Jan 23, 2017
+
+Their Stories, Zoltán Györkő
+
+BalaBit, computer engineering, computer programming, computer science, cybersecurity culture, privacy, security intelligence, intelligence platform, Featured Their Stories
+
+Editor
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan 11, 2017
+
+Their Stories, Steve Cochran
+
+STEALTHbits, CEO, cybersecurity, society, infosec and society, active directory, identity, credentials, user credentials, vulnerability management, breach analysis, data breach
+
+Sean Coons
+
+
+
+Jan 11, 2017
+
+Their Stories, Steve Cochran
+
+STEALTHbits, CEO, cybersecurity, society, infosec and society, active directory, identity, credentials, user credentials, vulnerability management, breach analysis, data breach
+
+Sean Coons
+
+
+
+
+A Dialogue with Steve Cochran, CEO STEALTHbits
+
+
+
+
+Jan 11, 2017
+
+Their Stories, Steve Cochran
+
+STEALTHbits, CEO, cybersecurity, society, infosec and society, active directory, identity, credentials, user credentials, vulnerability management, breach analysis, data breach
+
+Sean Coons
+
+
+
+Jan 11, 2017
+
+Their Stories, Steve Cochran
+
+STEALTHbits, CEO, cybersecurity, society, infosec and society, active directory, identity, credentials, user credentials, vulnerability management, breach analysis, data breach
+
+Sean Coons
+
+
+
+
+What's the connection between automating IT tasks and securing the world's identity directories? STEALTHbits CEO, Steve Cochran, describes the journey his company took to focus completely on information security.
+
+
+
+
+
+
+
+Jan 11, 2017
+
+Their Stories, Steve Cochran
+
+STEALTHbits, CEO, cybersecurity, society, infosec and society, active directory, identity, credentials, user credentials, vulnerability management, breach analysis, data breach
+
+Sean Coons
+
+
+
+Jan 11, 2017
+
+Their Stories, Steve Cochran
+
+STEALTHbits, CEO, cybersecurity, society, infosec and society, active directory, identity, credentials, user credentials, vulnerability management, breach analysis, data breach
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jan  9, 2017
+
+Their Stories, Julien Bellanger
+
+Prevoty, application security, CEO, inspiration, infosec, software security, application development, appsec, privacy, identity theft, confidential information, personal data, leadership, trust, CISO
+
+Sean Coons
+
+
+
+Jan  9, 2017
+
+Their Stories, Julien Bellanger
+
+Prevoty, application security, CEO, inspiration, infosec, software security, application development, appsec, privacy, identity theft, confidential information, personal data, leadership, trust, CISO
+
+Sean Coons
+
+
+
+
+A Dialogue with Julien Bellanger, CEO Prevoty
+
+
+
+
+Jan  9, 2017
+
+Their Stories, Julien Bellanger
+
+Prevoty, application security, CEO, inspiration, infosec, software security, application development, appsec, privacy, identity theft, confidential information, personal data, leadership, trust, CISO
+
+Sean Coons
+
+
+
+Jan  9, 2017
+
+Their Stories, Julien Bellanger
+
+Prevoty, application security, CEO, inspiration, infosec, software security, application development, appsec, privacy, identity theft, confidential information, personal data, leadership, trust, CISO
+
+Sean Coons
+
+
+
+
+How does a startup CEO with no cybersecurity experience end up a leader in runtime application security? Read about Prevoty co-founder and CEO Julien Bellanger’s journey in infosec in this exclusive ITSPmagazine interview.
+
+
+
+
+
+
+
+Jan  9, 2017
+
+Their Stories, Julien Bellanger
+
+Prevoty, application security, CEO, inspiration, infosec, software security, application development, appsec, privacy, identity theft, confidential information, personal data, leadership, trust, CISO
+
+Sean Coons
+
+
+
+Jan  9, 2017
+
+Their Stories, Julien Bellanger
+
+Prevoty, application security, CEO, inspiration, infosec, software security, application development, appsec, privacy, identity theft, confidential information, personal data, leadership, trust, CISO
+
+Sean Coons
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dec  5, 2016
+
+Eoin Keary, Their Stories, Alan Zeichick
+
+vulnerabilities, vulnerability research, vulnerability management, risk assessments, risk management, Edgescan, MSSP, security services, security specialists, infosec career, full stack vulnerability management, automation, Ireland, security analysts, Featured Their Stories
+
+Editor
+
+
+
+Dec  5, 2016
+
+Eoin Keary, Their Stories, Alan Zeichick
+
+vulnerabilities, vulnerability research, vulnerability management, risk assessments, risk management, Edgescan, MSSP, security services, security specialists, infosec career, full stack vulnerability management, automation, Ireland, security analysts, Featured Their Stories
+
+Editor
+
+
+
+
+Apparently, We Love To Do What Most Companies Hate. Lucky You!
+
+
+
+
+Dec  5, 2016
+
+Eoin Keary, Their Stories, Alan Zeichick
+
+vulnerabilities, vulnerability research, vulnerability management, risk assessments, risk management, Edgescan, MSSP, security services, security specialists, infosec career, full stack vulnerability management, automation, Ireland, security analysts, Featured Their Stories
+
+Editor
+
+
+
+Dec  5, 2016
+
+Eoin Keary, Their Stories, Alan Zeichick
+
+vulnerabilities, vulnerability research, vulnerability management, risk assessments, risk management, Edgescan, MSSP, security services, security specialists, infosec career, full stack vulnerability management, automation, Ireland, security analysts, Featured Their Stories
+
+Editor
+
+
+
+
+When it comes to managing vulnerabilities for an organization, it's not always fun and games. Sometimes you can get by with a bit of Irish luck, but most times it takes a ton of training, skill, and focus.
+
+
+
+
+
+
+
+Dec  5, 2016
+
+Eoin Keary, Their Stories, Alan Zeichick
+
+vulnerabilities, vulnerability research, vulnerability management, risk assessments, risk management, Edgescan, MSSP, security services, security specialists, infosec career, full stack vulnerability management, automation, Ireland, security analysts, Featured Their Stories
+
+Editor
+
+
+
+Dec  5, 2016
+
+Eoin Keary, Their Stories, Alan Zeichick
+
+vulnerabilities, vulnerability research, vulnerability management, risk assessments, risk management, Edgescan, MSSP, security services, security specialists, infosec career, full stack vulnerability management, automation, Ireland, security analysts, Featured Their Stories
+
+Editor
+
+
+ 
+ 
+ 
+ 
+Visit "Their Story" SectionCybersecurity Conferences & EventsLet's Go!
+
+
+
+
+
+
+
+
+NINTEXInspirex ConferenceMon, Feb 13-15 2017Sheraton New Orleans | New Orleans, UsaSave the date for the 2nd annual Nintex customer and partner conference. If you missed InspireX 2016 in Las Vegas, check out the recorded sessions in the Nintex Learning Center.Learn more...
+
+
+
+
+
+
+
+
+
+
+
+
+MOBILE WORLD CONGRESSThe Next ElementFeb 27 - Mar 2, 2017 L'Hospitalet de Llobrega | Barcelona, SpainMobile World Congress is the world’s largest gathering for the mobile industry. Learn more...
+
+
+
+
+
+
+
+
+
+
+
+
+HIMSS17 Conference & ExhibitionFeb 19 - Feb 23, 2017Orange County C. Center | Orlando, FL | USA40,000+ health IT professionals, clinicians, executives and vendors from around the world. Exceptional education, world-class speakers, cutting-edge health IT products and powerful networkingLearn more...
+
+
+
+
+
+
+
+
+
+More CyberSecurity Conferences & Events 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 17, 2017 – Feb 18, 2017
+
+10:00am10:00
+
+Summit
+
+National Cyber Safety & Security Standards Summit 2017
+
+Connie McLellan
+
+Birla Institute of Technology and Science
+
+
+
+Feb 17, 2017 – Feb 18, 2017
+
+10:00am10:00
+
+Summit
+
+National Cyber Safety & Security Standards Summit 2017
+
+Connie McLellan
+
+Birla Institute of Technology and Science
+
+
+
+
+National Cyber Safety & Security Standards Summit 2017
+
+
+
+
+Feb 17, 2017 – Feb 18, 2017
+
+10:00am10:00
+
+Summit
+
+National Cyber Safety & Security Standards Summit 2017
+
+Connie McLellan
+
+Birla Institute of Technology and Science
+
+
+
+Feb 17, 2017 – Feb 18, 2017
+
+10:00am10:00
+
+Summit
+
+National Cyber Safety & Security Standards Summit 2017
+
+Connie McLellan
+
+Birla Institute of Technology and Science
+
+
+
+
+National Cyber Safety and Security Standards Summit ’17 (VI Edition) is organized in support & association with various State and Central Governments...
+
+
+
+
+
+Feb 17, 2017 – Feb 18, 2017
+
+10:00am10:00
+
+Summit
+
+National Cyber Safety & Security Standards Summit 2017
+
+Connie McLellan
+
+Birla Institute of Technology and Science
+
+
+
+Feb 17, 2017 – Feb 18, 2017
+
+10:00am10:00
+
+Summit
+
+National Cyber Safety & Security Standards Summit 2017
+
+Connie McLellan
+
+Birla Institute of Technology and Science
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 19, 2017 – Feb 21, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICISSP 2017
+
+Connie McLellan
+
+
+
+Feb 19, 2017 – Feb 21, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICISSP 2017
+
+Connie McLellan
+
+
+
+
+ICISSP 2017
+
+
+
+
+Feb 19, 2017 – Feb 21, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICISSP 2017
+
+Connie McLellan
+
+
+
+Feb 19, 2017 – Feb 21, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICISSP 2017
+
+Connie McLellan
+
+
+
+
+The International Conference on Information Systems Security and Privacy aims at creating a meeting point for researchers and practitioners that address security and privacy challenges that concern information systems, especially in organizations, including not only technological issues but also social issues.
+
+
+
+
+
+Feb 19, 2017 – Feb 21, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICISSP 2017
+
+Connie McLellan
+
+
+
+Feb 19, 2017 – Feb 21, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICISSP 2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 19, 2017 – Feb 23, 2017
+
+ 8:00am08:00
+
+Conference
+
+HIMSS17, HIMSS Annual Conference & Exhibition
+
+Connie McLellan
+
+Orange County Convention Center
+
+
+
+Feb 19, 2017 – Feb 23, 2017
+
+ 8:00am08:00
+
+Conference
+
+HIMSS17, HIMSS Annual Conference & Exhibition
+
+Connie McLellan
+
+Orange County Convention Center
+
+
+
+
+HIMSS17 Conference & Exhibition
+
+
+
+
+Feb 19, 2017 – Feb 23, 2017
+
+ 8:00am08:00
+
+Conference
+
+HIMSS17, HIMSS Annual Conference & Exhibition
+
+Connie McLellan
+
+Orange County Convention Center
+
+
+
+Feb 19, 2017 – Feb 23, 2017
+
+ 8:00am08:00
+
+Conference
+
+HIMSS17, HIMSS Annual Conference & Exhibition
+
+Connie McLellan
+
+Orange County Convention Center
+
+
+
+
+The 2017 HIMSS Annual Conference & Exhibition, February 19–23, 2017 in Orlando, brings together 40,000+ health IT professionals, clinicians, executives and vendors from around the world.
+
+
+
+
+
+Feb 19, 2017 – Feb 23, 2017
+
+ 8:00am08:00
+
+Conference
+
+HIMSS17, HIMSS Annual Conference & Exhibition
+
+Connie McLellan
+
+Orange County Convention Center
+
+
+
+Feb 19, 2017 – Feb 23, 2017
+
+ 8:00am08:00
+
+Conference
+
+HIMSS17, HIMSS Annual Conference & Exhibition
+
+Connie McLellan
+
+Orange County Convention Center
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 23, 2017
+
+ 8:30am –  6:30pm08:30 – 18:30
+
+Conference
+
+SC Congress London
+
+Connie McLellan
+
+
+
+Feb 23, 2017
+
+ 8:30am –  6:30pm08:30 – 18:30
+
+Conference
+
+SC Congress London
+
+Connie McLellan
+
+
+
+
+SC Congress London
+
+
+
+
+Feb 23, 2017
+
+ 8:30am –  6:30pm08:30 – 18:30
+
+Conference
+
+SC Congress London
+
+Connie McLellan
+
+
+
+Feb 23, 2017
+
+ 8:30am –  6:30pm08:30 – 18:30
+
+Conference
+
+SC Congress London
+
+Connie McLellan
+
+
+
+
+SC Magazine UK arms senior cyber-security professionals like you with in-depth, unbiased business and technical information that you need to tackle the countless security challenges your organisation faces.
+
+
+
+
+
+Feb 23, 2017
+
+ 8:30am –  6:30pm08:30 – 18:30
+
+Conference
+
+SC Congress London
+
+Connie McLellan
+
+
+
+Feb 23, 2017
+
+ 8:30am –  6:30pm08:30 – 18:30
+
+Conference
+
+SC Congress London
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 26, 2017 – Mar  1, 2017
+
+ 8:00am08:00
+
+Conference
+
+NDSS Symposium 2017
+
+Connie McLellan
+
+Catamaran Resort Hotel & Spa
+
+
+
+Feb 26, 2017 – Mar  1, 2017
+
+ 8:00am08:00
+
+Conference
+
+NDSS Symposium 2017
+
+Connie McLellan
+
+Catamaran Resort Hotel & Spa
+
+
+
+
+NDSS Symposium 2017
+
+
+
+
+Feb 26, 2017 – Mar  1, 2017
+
+ 8:00am08:00
+
+Conference
+
+NDSS Symposium 2017
+
+Connie McLellan
+
+Catamaran Resort Hotel & Spa
+
+
+
+Feb 26, 2017 – Mar  1, 2017
+
+ 8:00am08:00
+
+Conference
+
+NDSS Symposium 2017
+
+Connie McLellan
+
+Catamaran Resort Hotel & Spa
+
+
+
+
+The Network and Distributed System Security Symposium fosters information exchange among researchers and practitioners of network and distributed system security.
+
+
+
+
+
+Feb 26, 2017 – Mar  1, 2017
+
+ 8:00am08:00
+
+Conference
+
+NDSS Symposium 2017
+
+Connie McLellan
+
+Catamaran Resort Hotel & Spa
+
+
+
+Feb 26, 2017 – Mar  1, 2017
+
+ 8:00am08:00
+
+Conference
+
+NDSS Symposium 2017
+
+Connie McLellan
+
+Catamaran Resort Hotel & Spa
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 8:00am08:00
+
+Conference
+
+USENIX, File and Storage Technologies (FAST '17)
+
+Connie McLellan
+
+Hyatt Regency Santa Clara
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 8:00am08:00
+
+Conference
+
+USENIX, File and Storage Technologies (FAST '17)
+
+Connie McLellan
+
+Hyatt Regency Santa Clara
+
+
+
+
+15th USENIX Conference on File and Storage Technologies (FAST '17)
+
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 8:00am08:00
+
+Conference
+
+USENIX, File and Storage Technologies (FAST '17)
+
+Connie McLellan
+
+Hyatt Regency Santa Clara
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 8:00am08:00
+
+Conference
+
+USENIX, File and Storage Technologies (FAST '17)
+
+Connie McLellan
+
+Hyatt Regency Santa Clara
+
+
+
+
+The 15th USENIX Conference on File and Storage Technologies (FAST '17) brings together storage-system researchers and practitioners to explore new directions in the design, implementation, evaluation, and deployment of storage systems.
+
+
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 8:00am08:00
+
+Conference
+
+USENIX, File and Storage Technologies (FAST '17)
+
+Connie McLellan
+
+Hyatt Regency Santa Clara
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 8:00am08:00
+
+Conference
+
+USENIX, File and Storage Technologies (FAST '17)
+
+Connie McLellan
+
+Hyatt Regency Santa Clara
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 27, 2017 – Feb 28, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICSC 2017
+
+Connie McLellan
+
+Security Forces Officers Club
+
+
+
+Feb 27, 2017 – Feb 28, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICSC 2017
+
+Connie McLellan
+
+Security Forces Officers Club
+
+
+
+
+International Cyber Security Conference - ICSC 2017
+
+
+
+
+Feb 27, 2017 – Feb 28, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICSC 2017
+
+Connie McLellan
+
+Security Forces Officers Club
+
+
+
+Feb 27, 2017 – Feb 28, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICSC 2017
+
+Connie McLellan
+
+Security Forces Officers Club
+
+
+
+
+Position Saudi Arabia as the cyber security hub and a key driver of security innovation in the Arab world.
+
+
+
+
+
+Feb 27, 2017 – Feb 28, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICSC 2017
+
+Connie McLellan
+
+Security Forces Officers Club
+
+
+
+Feb 27, 2017 – Feb 28, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICSC 2017
+
+Connie McLellan
+
+Security Forces Officers Club
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 9:00am09:00
+
+Conference
+
+Mobile World Congress, Barcelona
+
+Connie McLellan
+
+Fira Gran Via
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 9:00am09:00
+
+Conference
+
+Mobile World Congress, Barcelona
+
+Connie McLellan
+
+Fira Gran Via
+
+
+
+
+Mobile World Congress
+
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 9:00am09:00
+
+Conference
+
+Mobile World Congress, Barcelona
+
+Connie McLellan
+
+Fira Gran Via
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 9:00am09:00
+
+Conference
+
+Mobile World Congress, Barcelona
+
+Connie McLellan
+
+Fira Gran Via
+
+
+
+
+Mobile World Congress (MWC) is the world’s biggest and best mobile industry event comprising of a massive exhibition, an award-winning conference, outstanding networking opportunities, partner programmes, the Glomo Awards and much, much more. 
+
+
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 9:00am09:00
+
+Conference
+
+Mobile World Congress, Barcelona
+
+Connie McLellan
+
+Fira Gran Via
+
+
+
+Feb 27, 2017 – Mar  2, 2017
+
+ 9:00am09:00
+
+Conference
+
+Mobile World Congress, Barcelona
+
+Connie McLellan
+
+Fira Gran Via
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 28, 2017 – Mar  4, 2017
+
+ 8:00am08:00
+
+Conference
+
+Nullcon
+
+Connie McLellan
+
+
+
+Feb 28, 2017 – Mar  4, 2017
+
+ 8:00am08:00
+
+Conference
+
+Nullcon
+
+Connie McLellan
+
+
+
+
+Nullcon Conference
+
+
+
+
+Feb 28, 2017 – Mar  4, 2017
+
+ 8:00am08:00
+
+Conference
+
+Nullcon
+
+Connie McLellan
+
+
+
+Feb 28, 2017 – Mar  4, 2017
+
+ 8:00am08:00
+
+Conference
+
+Nullcon
+
+Connie McLellan
+
+
+
+
+Nullcon was founded in 2010 with the idea of providing an integrated platform for exchanging information on the latest attack vectors, zero day vulnerabilities and unknown threats.
+
+
+
+
+
+Feb 28, 2017 – Mar  4, 2017
+
+ 8:00am08:00
+
+Conference
+
+Nullcon
+
+Connie McLellan
+
+
+
+Feb 28, 2017 – Mar  4, 2017
+
+ 8:00am08:00
+
+Conference
+
+Nullcon
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 28, 2017
+
+ 9:00am –  6:00pm09:00 – 18:00
+
+Conference
+
+wt², Equal Respect, Women Transforming Technology, Women in Tech
+
+Connie McLellan
+
+VMware Campus
+
+
+
+Feb 28, 2017
+
+ 9:00am –  6:00pm09:00 – 18:00
+
+Conference
+
+wt², Equal Respect, Women Transforming Technology, Women in Tech
+
+Connie McLellan
+
+VMware Campus
+
+
+
+
+wt² - Women Transforming Technology 
+
+
+
+
+Feb 28, 2017
+
+ 9:00am –  6:00pm09:00 – 18:00
+
+Conference
+
+wt², Equal Respect, Women Transforming Technology, Women in Tech
+
+Connie McLellan
+
+VMware Campus
+
+
+
+Feb 28, 2017
+
+ 9:00am –  6:00pm09:00 – 18:00
+
+Conference
+
+wt², Equal Respect, Women Transforming Technology, Women in Tech
+
+Connie McLellan
+
+VMware Campus
+
+
+
+
+Women Transforming Technology is a consortium of companies and organizations in industry, academia, and non-profit sectors committed to building a community and tackling issues that are top of mind for women in technology.
+
+
+
+
+
+Feb 28, 2017
+
+ 9:00am –  6:00pm09:00 – 18:00
+
+Conference
+
+wt², Equal Respect, Women Transforming Technology, Women in Tech
+
+Connie McLellan
+
+VMware Campus
+
+
+
+Feb 28, 2017
+
+ 9:00am –  6:00pm09:00 – 18:00
+
+Conference
+
+wt², Equal Respect, Women Transforming Technology, Women in Tech
+
+Connie McLellan
+
+VMware Campus
+
+
+ 
+ 
+
+
+
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 7:30am07:30
+
+Conference
+
+International Cyber Risk Management Conference, Toronto
+
+Connie McLellan
+
+Allstream Centre
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 7:30am07:30
+
+Conference
+
+International Cyber Risk Management Conference, Toronto
+
+Connie McLellan
+
+Allstream Centre
+
+
+
+
+International Cyber Risk Management Conference
+
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 7:30am07:30
+
+Conference
+
+International Cyber Risk Management Conference, Toronto
+
+Connie McLellan
+
+Allstream Centre
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 7:30am07:30
+
+Conference
+
+International Cyber Risk Management Conference, Toronto
+
+Connie McLellan
+
+Allstream Centre
+
+
+
+
+Learn how to fill the holes in your cyber security business plan, and protect your organization against future risk. Register for the 3rd Annual International Cyber Risk Management Conference.
+
+
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 7:30am07:30
+
+Conference
+
+International Cyber Risk Management Conference, Toronto
+
+Connie McLellan
+
+Allstream Centre
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 7:30am07:30
+
+Conference
+
+International Cyber Risk Management Conference, Toronto
+
+Connie McLellan
+
+Allstream Centre
+
+
+ 
+ 
+
+
+
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICCWS
+
+Connie McLellan
+
+Wright State University & the Center for Cyberspace Research, Air Force Institute of Technology
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICCWS
+
+Connie McLellan
+
+Wright State University & the Center for Cyberspace Research, Air Force Institute of Technology
+
+
+
+
+12th International Conference on Cyber Warfare and Security
+
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICCWS
+
+Connie McLellan
+
+Wright State University & the Center for Cyberspace Research, Air Force Institute of Technology
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICCWS
+
+Connie McLellan
+
+Wright State University & the Center for Cyberspace Research, Air Force Institute of Technology
+
+
+
+
+ICCWS uniquely addresses cyber security, cyber warfare and information warfare.
+
+
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICCWS
+
+Connie McLellan
+
+Wright State University & the Center for Cyberspace Research, Air Force Institute of Technology
+
+
+
+Mar  2, 2017 – Mar  3, 2017
+
+ 8:00am08:00
+
+Conference
+
+ICCWS
+
+Connie McLellan
+
+Wright State University & the Center for Cyberspace Research, Air Force Institute of Technology
+
+
+ 
+ 
+ 
+ 
+View All Upcoming Cybersecurity Conferences & EventsThe Word On The StreetThe Word On The Street Archive
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Threat intelligence, Recorded Future
+
+Connie McLellan
+
+
+
+Feb 16, 2017
+
+Threat intelligence, Recorded Future
+
+Connie McLellan
+
+
+
+
+5 Doubts You Should Clarify About Threat Intelligence
+
+
+
+
+Feb 16, 2017
+
+Threat intelligence, Recorded Future
+
+Connie McLellan
+
+
+
+Feb 16, 2017
+
+Threat intelligence, Recorded Future
+
+Connie McLellan
+
+
+
+
+Threat intelligence can be one of the most valuable tools in your information security toolbox, especially when it comes to providing visibility into potential attackers’ strategies and tactics.
+
+
+
+
+
+
+
+Feb 16, 2017
+
+Threat intelligence, Recorded Future
+
+Connie McLellan
+
+
+
+Feb 16, 2017
+
+Threat intelligence, Recorded Future
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb  6, 2017
+
+IOAsis, IOActive, RSAC2017
+
+Connie McLellan
+
+
+
+Feb  6, 2017
+
+IOAsis, IOActive, RSAC2017
+
+Connie McLellan
+
+
+
+
+IOAsis San Francisco 2017
+
+
+
+
+Feb  6, 2017
+
+IOAsis, IOActive, RSAC2017
+
+Connie McLellan
+
+
+
+Feb  6, 2017
+
+IOAsis, IOActive, RSAC2017
+
+Connie McLellan
+
+
+
+
+If you’re going to be in San Francisco for RSA Conference 2017 you don’t want to miss IOActive IOAsis.
+
+
+
+
+
+
+
+Feb  6, 2017
+
+IOAsis, IOActive, RSAC2017
+
+Connie McLellan
+
+
+
+Feb  6, 2017
+
+IOAsis, IOActive, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 26, 2017
+
+RSAC2017, Forrester, FireMon
+
+Connie McLellan
+
+
+
+Jan 26, 2017
+
+RSAC2017, Forrester, FireMon
+
+Connie McLellan
+
+
+
+
+INFOGRAPHIC: Improve Network Security and Staff Productivity with a Firewall Auditing Tool
+
+
+
+
+Jan 26, 2017
+
+RSAC2017, Forrester, FireMon
+
+Connie McLellan
+
+
+
+Jan 26, 2017
+
+RSAC2017, Forrester, FireMon
+
+Connie McLellan
+
+
+
+
+In a study commissioned by FireMon, Forrester Consulting found that organizations with firewall auditing and configuration tools realize more benefits that those without.
+
+
+
+
+
+
+
+Jan 26, 2017
+
+RSAC2017, Forrester, FireMon
+
+Connie McLellan
+
+
+
+Jan 26, 2017
+
+RSAC2017, Forrester, FireMon
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 24, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 24, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+
+Strengthen Your Cybersecurity Readiness in 2017
+
+
+
+
+Jan 24, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 24, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+
+Once again, 2016 was a noteworthy year for cybersecurity. With major data breaches affecting millions of customers and companies from the IRS, LinkedIn, Dropbox, Yahoo!...
+
+
+
+
+
+
+
+Jan 24, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 24, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+Equal Respect
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect
+
+Connie McLellan
+
+
+
+
+It’s 2017. Why are we still telling women to act like men at work?
+
+
+
+
+Jan 23, 2017
+
+Equal Respect
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect
+
+Connie McLellan
+
+
+
+
+You may be familiar with some of the research on the power of diversity in driving company performance: that more gender diverse leadership teams can...
+
+
+
+
+
+
+
+Jan 23, 2017
+
+Equal Respect
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+cellphone only
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+cellphone only
+
+Connie McLellan
+
+
+
+
+Over half of US adults live in "cellphone-only" households
+
+
+
+
+Jan 23, 2017
+
+cellphone only
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+cellphone only
+
+Connie McLellan
+
+
+
+
+GfK MRI findings show doubling of cell-only population in past six years
+
+
+
+
+
+
+
+Jan 23, 2017
+
+cellphone only
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+cellphone only
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+
+A few new names you’ll see gracing our stage in 2017
+
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+
+This past week RSA Conference was proud to roll out its 2017 line up of marquis keynote speakers.
+
+
+
+
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+
+4 tips RSA Conference 2017 will teach you about cybersecurity
+
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+
+You wouldn’t leave the door to your home unlocked when you go out for the day, right? No intelligent business person would. 
+
+
+
+
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+Equal Respect, Women in Security
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect, Women in Security
+
+Connie McLellan
+
+
+
+
+Why Aren’t Women Working in Cybersecurity?
+
+
+
+
+Jan 23, 2017
+
+Equal Respect, Women in Security
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect, Women in Security
+
+Connie McLellan
+
+
+
+
+Industry professionals say companies can close the gender gap in the cybersecurity field by working with schools to educate girls, marketing cybersecurity career...
+
+
+
+
+
+
+
+Jan 23, 2017
+
+Equal Respect, Women in Security
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect, Women in Security
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+Veterans, USAA, Geekdom
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Veterans, USAA, Geekdom
+
+Connie McLellan
+
+
+
+
+USAA to Subsidize Geekdom’s Growing Military Membership
+
+
+
+
+Jan 23, 2017
+
+Veterans, USAA, Geekdom
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Veterans, USAA, Geekdom
+
+Connie McLellan
+
+
+
+
+USAA launched an initiative Wednesday that will underwrite 50% of Geekdom membership fees for military veterans, active duty military, and military spouses...
+
+
+
+
+
+
+
+Jan 23, 2017
+
+Veterans, USAA, Geekdom
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Veterans, USAA, Geekdom
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+Equal Respect, diversity
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect, diversity
+
+Connie McLellan
+
+
+
+
+Facebook’s Hiring Process Hinders Its Effort to Create a Diverse Workforce
+
+
+
+
+Jan 23, 2017
+
+Equal Respect, diversity
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect, diversity
+
+Connie McLellan
+
+
+
+
+Facebook has put itself at the forefront of efforts to recruit a more diverse workforce, including a targeted internal recruiting strategy...
+
+
+
+
+
+
+
+Jan 23, 2017
+
+Equal Respect, diversity
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+Equal Respect, diversity
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Jan 23, 2017
+
+FIDO, passwords
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+FIDO, passwords
+
+Connie McLellan
+
+
+
+
+FIDO authentication standard could signal the passing of passwords
+
+
+
+
+Jan 23, 2017
+
+FIDO, passwords
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+FIDO, passwords
+
+Connie McLellan
+
+
+
+
+The inability of many online services to keep their users' passwords secure from cybercriminals, combined with the inherent weaknesses of passwords...
+
+
+
+
+
+
+
+Jan 23, 2017
+
+FIDO, passwords
+
+Connie McLellan
+
+
+
+Jan 23, 2017
+
+FIDO, passwords
+
+Connie McLellan
+
+
+ 
+ 
+ 
+ 
+Press Release BroadcastPress Release Broadcast Archive
+
+
+
+
+
+Featured
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Feb 15, 2017
+
+Synack, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 15, 2017
+
+Synack, RSAC2017
+
+Connie McLellan
+
+
+
+
+Synack Launches Coverage Analytics & Reporting Product Feature at RSAC 2017
+
+
+
+
+Feb 15, 2017
+
+Synack, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 15, 2017
+
+Synack, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 15, 2017
+
+Synack, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 15, 2017
+
+Synack, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 15, 2017
+
+Netwrix
+
+Connie McLellan
+
+
+
+Feb 15, 2017
+
+Netwrix
+
+Connie McLellan
+
+
+
+
+Government Agency Keeps its IT Environment Secure and Saves 40–60 Hours on Compliance Audits with Netwrix Auditor
+
+
+
+
+Feb 15, 2017
+
+Netwrix
+
+Connie McLellan
+
+
+
+Feb 15, 2017
+
+Netwrix
+
+Connie McLellan
+
+
+
+
+
+
+Feb 15, 2017
+
+Netwrix
+
+Connie McLellan
+
+
+
+Feb 15, 2017
+
+Netwrix
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 14, 2017
+
+Corero Network Security, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 14, 2017
+
+Corero Network Security, RSAC2017
+
+Connie McLellan
+
+
+
+
+Corero Network Security’s SmartWall® Threat Defense System Honored for Innovation and Product Leadership at RSA 2017
+
+
+
+
+Feb 14, 2017
+
+Corero Network Security, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 14, 2017
+
+Corero Network Security, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 14, 2017
+
+Corero Network Security, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 14, 2017
+
+Corero Network Security, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 14, 2017
+
+Imperva, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 14, 2017
+
+Imperva, RSAC2017
+
+Connie McLellan
+
+
+
+
+Imperva Detects and Protects Against Ransomware with the Introduction of SecureSphere v12
+
+
+
+
+Feb 14, 2017
+
+Imperva, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 14, 2017
+
+Imperva, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 14, 2017
+
+Imperva, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 14, 2017
+
+Imperva, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 13, 2017
+
+ThreatSTOP, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+ThreatSTOP, RSAC2017
+
+Connie McLellan
+
+
+
+
+ThreatSTOP to Launch New Roaming DNS Protection Service at RSA
+
+
+
+
+Feb 13, 2017
+
+ThreatSTOP, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+ThreatSTOP, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 13, 2017
+
+ThreatSTOP, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+ThreatSTOP, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 13, 2017
+
+RSAC2017, Lynx Software Technologies
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+RSAC2017, Lynx Software Technologies
+
+Connie McLellan
+
+
+
+
+ Lynx demos IoT security in the real world at RSA 2017
+
+
+
+
+Feb 13, 2017
+
+RSAC2017, Lynx Software Technologies
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+RSAC2017, Lynx Software Technologies
+
+Connie McLellan
+
+
+
+
+
+
+Feb 13, 2017
+
+RSAC2017, Lynx Software Technologies
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+RSAC2017, Lynx Software Technologies
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 13, 2017
+
+Bayshore Networks, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+Bayshore Networks, RSAC2017
+
+Connie McLellan
+
+
+
+
+Bayshore Networks® Receives Strategic Equity Investment from Samsung NEXT
+
+
+
+
+Feb 13, 2017
+
+Bayshore Networks, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+Bayshore Networks, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 13, 2017
+
+Bayshore Networks, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+Bayshore Networks, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 13, 2017
+
+Crossmatch, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+Crossmatch, RSAC2017
+
+Connie McLellan
+
+
+
+
+Crossmatch announces its DigitalPersona Composite Authentication platform is Citrix-Ready
+
+
+
+
+Feb 13, 2017
+
+Crossmatch, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+Crossmatch, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 13, 2017
+
+Crossmatch, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+Crossmatch, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 13, 2017
+
+GuardCore, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+GuardCore, RSAC2017
+
+Connie McLellan
+
+
+
+
+GuardiCore Expands Breach Detection and Response Capabilities to Cover More Attack Types Aimed at Data Centers and Clouds	
+
+
+
+
+Feb 13, 2017
+
+GuardCore, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+GuardCore, RSAC2017
+
+Connie McLellan
+
+
+
+
+
+
+Feb 13, 2017
+
+GuardCore, RSAC2017
+
+Connie McLellan
+
+
+
+Feb 13, 2017
+
+GuardCore, RSAC2017
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb 11, 2017
+
+RiskRecon
+
+Connie McLellan
+
+
+
+Feb 11, 2017
+
+RiskRecon
+
+Connie McLellan
+
+
+
+
+RiskRecon Continues To Build Advisory Team
+
+
+
+
+Feb 11, 2017
+
+RiskRecon
+
+Connie McLellan
+
+
+
+Feb 11, 2017
+
+RiskRecon
+
+Connie McLellan
+
+
+
+
+
+
+Feb 11, 2017
+
+RiskRecon
+
+Connie McLellan
+
+
+
+Feb 11, 2017
+
+RiskRecon
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb  9, 2017
+
+Capsule8
+
+Connie McLellan
+
+
+
+Feb  9, 2017
+
+Capsule8
+
+Connie McLellan
+
+
+
+
+Introducing Capsule8: Industry's First Container-Aware, Real-time Threat Protection for Linux
+
+
+
+
+Feb  9, 2017
+
+Capsule8
+
+Connie McLellan
+
+
+
+Feb  9, 2017
+
+Capsule8
+
+Connie McLellan
+
+
+
+
+
+
+Feb  9, 2017
+
+Capsule8
+
+Connie McLellan
+
+
+
+Feb  9, 2017
+
+Capsule8
+
+Connie McLellan
+
+
+ 
+ 
+
+
+
+
+
+
+Feb  9, 2017
+
+CipherCloud
+
+Connie McLellan
+
+
+
+Feb  9, 2017
+
+CipherCloud
+
+Connie McLellan
+
+
+
+
+CipherCloud Extends End-to-End Encryption From Cloud Apps to Mobile Devices
+
+
+
+
+Feb  9, 2017
+
+CipherCloud
+
+Connie McLellan
+
+
+
+Feb  9, 2017
+
+CipherCloud
+
+Connie McLellan
+
+
+
+
+
+
+Feb  9, 2017
+
+CipherCloud
+
+Connie McLellan
+
+
+
+Feb  9, 2017
+
+CipherCloud
+
+Connie McLellan
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+ITSPmagazineAt the Intersection of IT Security & Society™
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe to the ITSPmagazine Newsletter
+
+
+
+
+
+Email Address
+
+
+
+
+Submit
+
+
+We always respect your privacy.
+Thank you!
+
+
+
+View newsletter archive
+
+
+
+
+Back to Top
+
+
+
+
+About ITSPmagazine
+
+
+
+
+ITSP Sponsorship & Advertising Opportunities
+
+
+
+
+Submit A Story
+
+
+
+
+Meet The Experts
+
+
+
+
+Be An Expert
+
+
+
+
+Events
+
+
+
+
+Webinars
+
+
+
+
+Add an Event
+
+
+
+
+Press Coverage
+
+
+
+
+Submit Press
+
+
+
+
+Directory
+
+
+
+
+Join The Directory
+
+
+
+
+The Word
+
+
+
+
+Newsletter Archive
+
+
+
+
+Contact Us
+
+
+
+
+ITSP Magazine, Los Angeles, CAhello@itsecurityplanet.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Become an ITSPmagazine Sponsor
+
+Make a Donation to Support CyberSecurity Awareness
+ITSPmagazine is an imsmartin publication © Copyright 2015-2017 imsmartin, LLC, All Rights ReservedSome Stories Are Better Than Others™
+
+
+
+
+
+
+
+
+
+
+
+
+
+

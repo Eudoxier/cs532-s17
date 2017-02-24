@@ -1,0 +1,338 @@
+
+
+
+
+
+Infosecurity Group Websites
+
+
+
+
+
+Magazine
+
+Events
+
+
+Infosecurity Europe
+
+
+Infosecurity Leadership Summit
+
+
+Infosecurity Magazine Conferences
+
+
+Infosecurity Netherlands
+
+
+Infosecurity Belgium
+
+
+Infosecurity Russia
+
+
+Infosecurity Mexico
+
+
+Infosecurity Middle East
+
+
+
+
+Leaders Network
+
+
+Insight
+
+
+Infosecurity Webinars
+
+
+Infosecurity Whitepapers
+
+
+Infosecurity Virtual Conferences
+
+
+
+
+
+
+
+
+
+
+
+Our website uses cookies
+
+                    Cookies enable us to provide the best experience possible and help us understand
+                    how visitors use our website.  
+            By browsing Infosecurity Magazine, you agree to our use of cookies.
+                
+Okay, I understand
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest
+
+
+Germany Calls on Parents to Destroy Cayla Dolls
+(ISC)2 Opens Applications for Undergrad Cyber-Scholarships
+Russian Election Hackers Target iPhone, Mac Users
+A New Goverment - Who's Hacking Whom?
+New York State Unveils Strict New Cybersecurity Regulations
+
+
+
+
+
+
+
+
+
+ 
+News
+Topics
+
+
+Features
+
+
+Webinars
+White Papers
+Events & Conferences
+
+
+Directory
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Infosecurity Magazine Home » News » Invisible Attacks Breach Enterprises in 40 Countries
+
+
+
+
+
+
+
+
+
+
+8 Feb 2017
+News
+Invisible Attacks Breach Enterprises in 40 Countries
+
+
+
+
+
+
+
+Tara Seals US/North America News Reporter, Infosecurity MagazineEmail Tara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kaspersky Lab experts have discovered a series of “invisible” targeted attacks that use only legitimate software. The primary suspects are the infamous GCMAN and Carbanak groups.
+The attackers are aiming at banks, telecommunications companies and government organizations in 40 countries on a massive scale: They have hit more than 140 enterprise networks in a range of business sectors, with most victims located in the US, France, Ecuador, Kenya, the UK and Russia.
+Kaspersky said the gambit allows attackers to evade widely available penetration-testing and administration tools as well as the PowerShell framework for task automation in Windows—dropping no malware files onto the hard drive, but hiding in the memory. While data in a hard drive can remain available for a year after an event, artefacts hiding in the memory will be wiped on the first reboot of the computer.
+The normal process during incident response is for an investigator to follow the traces and samples left in the network by the attackers. But this approach helps to avoid detection by whitelisting technologies, and leaves forensic investigators with almost no artefacts or malware samples to work with. The attackers stay around just long enough to gather information before their traces are wiped from the system on the first reboot.
+“The determination of attackers to hide their activity and make detection and incident response increasingly difficult explains the latest trend of anti-forensic techniques and memory-based malware,” said Sergey Golovanov, principal security researcher at Kaspersky Lab. “That is why memory forensics is becoming critical to the analysis of malware and its functions. In these particular incidents, the attackers used every conceivable anti-forensic technique; demonstrating how no malware files are needed for the successful exfiltration of data from a network, and how the use of legitimate and open source utilities makes attribution almost impossible.
+At the end of 2016, Kaspersky Lab experts were contacted by banks in CIS, which had found the penetration-testing software, Meterpreter, now often used for malicious purposes, in the memory of their servers when it was not supposed to be there. Kaspersky Lab discovered that the Meterpreter code was combined with a number of legitimate PowerShell scripts and other utilities. The combined tools had been adapted into malicious code that could hide in the memory, invisibly collecting the passwords of system administrators so that the attackers could remotely control the victim’s systems. The ultimate goal appears to have been access to financial processes.
+It is not known who is behind the attacks. The use of open-source exploit code, common Windows utilities and unknown domains makes it almost impossible to determine the group responsible—or even whether it is a single group or several groups sharing the same tools. However, Kaspersky said that known groups that have the most similar approaches are GCMAN and Carbanak.
+
+
+
+
+
+
+
+
+
+
+
+Why Not Watch?
+4 Oct 2016Yahoo! A Breach Too Far or the Reality of Consumer Privacy in 2016?5 Mar 2015How to Build a Next-generation Security Programme29 Jan 2015Sony Pictures Entertainment: The Fallout from 2014’s Biggest Breach 30 Jun 2016Shutting the Door on the Attacker
+
+
+
+Related to This Story
+
+
+Stealer Trojan Becomes Mobile Malware Leader 
+
+
+Cancer Care data breach compromises 55K patients
+
+
+Heartland takes US$12.6m hit for breach
+
+
+More details emerge on Kaspersky hack
+
+
+Someone’s got to pay
+
+
+
+
+What’s Hot on Infosecurity Magazine?
+
+Read
+Shared
+Watched
+Editor's Choice
+
+
+
+115 Feb 2017 NewsCyber-Workforce Shortage to Increase to 1.8 Million Positions by 2022217 Feb 2017 NewsNew York State Unveils Strict New Cybersecurity Regulations328 Apr 2015 NewsPorn Site xHamster Crushed by Fresh Malvertising Attack416 Feb 2017 News#RSAC: Security Blogger Awards Winners Announced 517 Feb 2017 NewsGermany Calls on Parents to Destroy Cayla Dolls618 Apr 2016 News3.8M Porn Users Compromised in Naughty America Hack
+
+
+
+121 Nov 2016 NewsFBI: US ATMs Could Be Hacked to Spew Cash218 Nov 2016 NewsUS Government Releases New IoT Security Guidance322 Nov 2016 NewsConficker Still on Top as Malware Jumps 5% in October421 Nov 2016 NewsData Protection Disputes to Soar Over Next Five Years518 Nov 2016 NewsUK Retailers Facing One Million Fraud Attempts Per Day617 Nov 2016 NewsSHA-1 Time Bomb: One Third of Websites Have Yet to Upgrade
+
+
+
+123 Feb 2017, 15:00 GMT, 10:00 EST WebinarHyper-Realistic Simulation - the New Approach to Cybersecurity Training29 Mar 2017, 13:00 EST, 10:00 PST WebinarHow IoT Enabled a DDoS, and How to Avoid Being Part of It32 Mar 2017, 15:00 GMT, 10:00 EST WebinarAutomation, Machine Learning and AI: Saving Security or Job Stealing Digital Overlords?49 Mar 2017, 15:00 GMT, 10:00 EST WebinarMind the Security Gap - Transforming the Effectiveness of End Point Protection57 Jan 2016 WebinarThe ‘Dark’ Web Inside Your Enterprise – Shining a Light on the Hazards of Encrypted Traffic64 Apr 2017, 16:00 BST, 11:00 EDT WebinarLife of: A Penetration Tester
+
+
+
+18 Feb 2017 NewsSentry MBA Tool Used in Attacks on Login Forms213 Feb 2017 News FeatureHelp Save the Youth of Cyber313 Feb 2017 NewsGlobal Banks Hit by Watering Hole Blitz410 Feb 2017 BlogDigesting the Diversity of Data Breaches510 Feb 2017 NewsArby's Gets Roasted in Breach of 300K Payment Cards610 Feb 2017 NewsEast-West Co-operation Stalls Following Kaspersky Lab Arrest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Magazine
+About Infosecurity
+Subscription
+Meet the Team
+Contact Us
+
+
+
+
+Advertisers
+Media Pack
+
+
+Contributors
+Forward Features
+Op-ed
+
+
+
+
+
+Copright © 2017 Reed Exhibitions Ltd.
+Terms and Conditions
+Privacy Policy
+Use of Cookies
+Sitemap
+
+
+
+
+
+
+
+
+
+                Please wait…
+            
+
+
+
+
+
+
+
+
+
+
+
+
+

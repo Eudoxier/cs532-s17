@@ -1,0 +1,421 @@
+
+
+
+
+
+
+
+
+
+
+
+About | Advertise | Privacy Policy | Tip Us | Join Microsoft BizSpark
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+Microsoft
+
+Windows
+Mobile
+Office
+Xbox One
+
+
+Apple
+
+
+ iPhone
+
+iPhone Activity Center
+iPhone Apps
+iPhone Themes
+
+
+
+ iPad
+
+iPad Activity Center
+iPad Apps
+
+
+
+ Mac OS X
+
+ Apple Watch
+
+
+Google
+
+Google Services
+Android
+
+
+
+Reviews
+Wearables
+Web
+IoT
+
+Home Automation
+
+
+Developer Tools
+
+Deals
+
+More
+
+Apps
+
+Sprink
+Turn Off LCD
+Drive Icon Changer
+
+
+About Us
+Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RPon
+
+
+
+
+Tool To Auto-Sign iOS 10.2 Jailbreak And Other Apps Certificate On The Horizon
+By Paul Morris | February 9th, 2017  
+
+
+
+
+
+
+
+
+
+It seems that the modern world of semi-untether jailbreaks is about to get a fair bit simpler thanks to an auto-signing solution that would eliminate the need for jailbreakers to manually re-sign apps such as the yalu102 jailbreak app with a new certificate every seven days or so, therefore removing one of the biggest pain points of these modern jailbreaks.
+A post by Jay Freeman Saurik had earlier confirmed that a solution to solve this problem has been in the works for quite some time, but that it has encountered a number of errors in the way it has been built.
+
+Now, with some assistance on board – who Saurik refuses to name at this point in time – it looks as though the auto-signing solution has been recreated, allowing Freeman to confidently suggest that anyone signing the jailbreak app today using Cydia Impactor could be doing it for the last time:
+
+
+
+
+Correct. I’m also now getting help on this (I’m not going to say who, to protect them from an onslaught of attention on this topic; they might say themselves, but I’ll wait until that happens; but we’ve rearchitected my concept to rely more on simple implementation and less on my crazy indirection), and so it feels even more comfortable saying something like “if you install the app today by signing it with Impactor, it will likely be your last time.”
+Following Freeman’s announcement, Luca Todesco has confirmed his belief that a “solution for the 7 day cert is seemingly in the works”, and has requested that jailbreakers “bear with Cydia Impactor for another week or so.” Maybe Todesco is probably the one helping Freeman develop this solution?
+
+It’s definitely great news for those avid and hardcore jailbreak fans who make sure they stay on a firmware that can be jailbroken, but who abhor the fact that they have to continually re-sign the jailbreak app’s certificate manually every seven days or so, depending on the type of developer account they have with Apple, through the use of Cydia Impactor on a desktop computer.
+When released, this new auto-signing tool, in whatever form it takes, will hopefully permanently resolve that issue and make the world of semi-untether jailbreaks slightly more pleasant and user-friendly for everyday jailbreakers.
+(@qwertyoruiopz [Twitter])
+You may also like to check out:
+
+Re-Jailbreak iOS 10.2 Yalu102 After Reboot, Here’s How
+How To Jailbreak iOS 10.2 With Yalu102 [Tutorial]
+Jailbreak iOS 10 / 10.2 / 10.1.1 On iPhone 7, Plus, 6s, iPad Pro Using Yalu [Updated]
+Jailbreak iOS 10.2.1 / 10.3 For iPhone And iPad [Latest Status Update]
+
+You can follow us on Twitter, add us to your circle on Google+ or like our Facebook page to keep yourself updated on all the latest from Microsoft, Google, Apple and the Web.
+
+
+
+
+
+
+Related Stories
+
+
+
+
+
+
+Tweet
+
+ Subscribe to our RSS Feed !
+
+
+
+
+
+Like this post on Facebook
+
+
+
+
+
+
+
+Redmond Pie Channels
+
+
+Follow Us On Facebook
+
+
+Subscribe To RSS Feed
+
+
+Follow Us On Twitter
+
+
+Subscribe On YouTube
+
+
+
+
+
+
+
+
+
+
+
+Justin Case
+
+
+
+Immortal 1.2.1-1 does the same
+
+
+
+
+
+
+Simon says
+
+
+
+Only works whilst you are in a jailbroken state
+
+
+
+
+
+
+Brenton
+
+
+
+So would this allow a downgrade from iOS 10.2.1?
+
+
+
+
+
+
+Pureburn
+
+
+
+On a story about jailbreaks and 10.2, why is the logo Jailbreak over an iPhone 7 which cannot be jailbroken?
+
+
+
+
+
+
+Stephen Hedger
+
+
+
+the iphone 7 can be jailbroken…
+
+
+
+
+
+
+Pureburn
+
+
+
+Not on iOS 10.2, which is the subject of this article.
+
+
+
+
+
+
+Stephen Hedger
+
+
+
+i thought you meant cant be jailbroken “at all” but yeah your right, its laziness on thier part for showing a 7 in the main headline.
+
+
+
+
+
+
+ggbf
+
+
+
+Any idea when this is coming out?
+
+
+
+
+
+
+
+
+
+Subscribe To Redmond Pie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+Follow @RedmondPie
+
+
+
+
+
+
+
+
+
+
+Popular Stories
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Redmond Pie's Latest
+ 
+ 
+
+Recent Stories
+
+
+
+ Install WhatsApp On iPad Running iOS 10 Without Jailbreak [Tutorial]February 19th, 2017 | Paul Morris  
+iOS 10 / 10.2 / 10.1.1 Compatible Jailbreak Tweaks On Cydia [List]February 19th, 2017 | Paul Morris  
+Pokemon Go Gen 2 Tip: Evolve Eevee Into Espeon And Umbreon, Here’s HowFebruary 18th, 2017 | Oliver Haslam  
+PickPocket 2 For iOS 10 Adds Several More Anti-Theft Features To iPhoneFebruary 18th, 2017 | Oliver Haslam  
+Leaked Photos Show Stealth Case Apple Uses To Transport iPhone PrototypesFebruary 18th, 2017 | Oliver Haslam  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2008-2017 Redmond Pie. All Rights Reserved.
+About | Advertise | Privacy Policy | Tip Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

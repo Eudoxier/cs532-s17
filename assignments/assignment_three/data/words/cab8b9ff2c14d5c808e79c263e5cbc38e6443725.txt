@@ -1,0 +1,251 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Impressum
+           | 
+          Datenschutz
+           | 
+          Registrieren
+           | 
+          Kontakt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+
+
+Über CERT-Bund
+
+
+
+
+Links
+
+
+
+
+Warn- und Informationsdienste
+
+
+
+
+Meldungen Suchen
+
+
+
+
+Übersicht Meldungen
+
+
+
+
+Kurzinfos
+
+
+
+
+Infomeldungen
+
+
+
+
+Hersteller-Meldungen
+
+
+
+
+Digitale Signatur
+
+
+
+
+Fragen und Antworten
+
+
+
+
+Schwachstellenampel
+
+
+
+
+
+
+
+
+
+
+
+
+// home
+
+ CERT-Bund — Das Computer-Notfallteam des BSI  
+
+Herzlich willkommen beim Computer Emergency Response Team der Bundesverwaltung — CERT-Bund. CERT-Bund hat das Ziel als zentrale Anlaufstelle für präventive und reaktive Maßnahmen mit Bezug auf sicherheits- und verfügbarkeitsrelevante Vorfälle in Computersystemen zu wirken.
+
+        
+
+» weiter
+
+
+
+
+ Warn- und Informationsdienst 
+
+Eine maßgebliche Aufgabe des Teams CERT-Bund ist der Betrieb eines Warn- und Informationsdienstes - WID. Über den WID werden Informationen zu neuen Schwachstellen und Sicherheitslücken sowie aktuellen Bedrohungen für IT-Systeme publiziert. Zu den Anwendern des WID zählen die Bundesverwaltung, Unternehmen kritischer Infrastrukturen, CERTs sowie Bürgerinnen und Bürger.
+
+
+
+» weiter
+
+
+ Letzte Meldungen 
+
+
+Kurzinfos
+
+
+
+
+Datum
+Risiko
+ID #
+Titel
+
+
+
+
+
+
+17.02.17
+
+3
+
+
+CB-K17/0293
+
+
+Linux-Kernel: Zwei Schwachstellen ermöglichen einen Denial-of-Service-Angriff und das Ausspähen von Informationen
+
+
+
+
+» Mehr Kurzinfos
+
+
+
+Infomeldungen
+
+
+
+
+Datum
+Risiko
+ID #
+Titel
+
+
+
+
+
+
+17.01.13
+
+3
+
+
+CB-I13/0001
+
+
+Neue Kategorien
+
+
+
+
+» Mehr Infomeldungen
+
+
+
+
+
+
+
+» Anmelden
+
+              Als registrierter Benutzer können Sie sich anmelden und 
+              die personalisierten Warn- und Informationsdienste nutzen.
+              Als angemeldeter Benutzer können Sie sich auch deregistrieren.
+              Sie haben Ihr Kennwort vergessen? Dann können Sie einfach
+              ein neues Kennwort beantragen.
+            
+
+
+» Registrieren
+
+CERT-Bund bietet personalisierte
+              Warn- und Informationsdienste an.
+              Bitte registrieren Sie sich, um diese Angebote nutzen zu können.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+              
+
+
+                  © Bundesamt für Sicherheit in der Informationstechnik.
+                  All Rights Reserved.
+                
+
+
+Nach oben
+
+
+
+
+
+
+
+
+

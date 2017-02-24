@@ -1,0 +1,391 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Authentication
+Phone Fraud
+Social Engineering
+More
+
+By the Numbers
+Identity
+Podcast
+Q&A
+Vishing
+About
+
+
+
+
+
+Home
+Authentication
+Phone Fraud
+Social Engineering
+More
+
+By the Numbers
+Identity
+Podcast
+Q&A
+Vishing
+About
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+Podcast, Privacy
+On the Wire Podcast: RSA 2017
+
+February 17, 2017 0 comments 
+
+
+
+
+
+
+Hacking, Privacy
+Security Lessons From Snowden
+
+February 16, 2017 0 comments 
+
+
+
+
+
+
+Hacking
+Security Teams Are Becoming Cyber Espionage Investigators
+
+February 15, 2017 0 comments 
+
+
+
+
+
+
+Device Security, Hacking
+‘When Computers Start Killing People, There Are Going to Be Consequences’
+
+February 14, 2017 0 comments 
+
+
+
+
+
+
+Hacking
+Microsoft President: We Need to Create a Digital Geneva Convention
+
+February 14, 2017 0 comments 
+
+
+
+
+
+
+
+
+        
+            Latest news
+        
+     
+
+
+
+
+
+
+Authentication, Privacy
+Cryptographers Question the Promise of AI, Machine Learning in Security 
+
+by Dennis Fisher February 14, 2017 0 comments
+
+
+SAN FRANCISCO–Artificial intelligence and machine learning are the two dominant buzzphrases at the RSA Conference this year, but some of the founding fathers of the security community are questioning how much use those technologies will be for security. “I’m actually skeptical that there will be much impact on security from […]
+
+
+
+
+
+
+
+
+Device Security, Hacking
+Ransomware Gangs Have Become the High-Seas Pirates of the Internet 
+
+by Dennis Fisher February 13, 2017 0 comments
+
+
+SAN FRANCISCO–As bad as the ransomware problem is right now–and it’s plenty bad–we’re likely only at the beginning of what could become a crisis, experts say. “Lots of people are being infected and lots of people are paying. The bottom line its it’s getting worse and it’s going to continue […]
+
+
+
+
+
+
+
+
+Identity, Privacy
+The Joy and Pain of RSA Week 
+
+by Dennis Fisher February 13, 2017 0 comments
+
+
+It’s that time of year again, when the security industry looks westward with a mixture of anxiety, dread, and expense-account induced giddiness: RSA week. When people who have never been to the RSA Conference before ask me what to expect, I never have a good answer. A lot of it […]
+
+
+
+
+
+
+
+
+Podcast
+On the Wire Podcast: RSA Preview with Mike Mimoso 
+
+by Dennis Fisher February 13, 2017 0 comments
+
+
+It’s been 16 years since the first time I went to the RSA Conference and a whole lot of things have changed since then. For one, there are about 30 times as many people now. And the conference has morphed from being a crypto-heavy gathering to a sales feeding frenzy. […]
+
+
+
+
+
+
+
+
+Phone Fraud, Podcast
+On the Wire Podcast: Roger Anderson 
+
+by Dennis Fisher February 10, 2017 0 comments
+
+
+Last year, we talked to Roger Anderson about his Jolly Roger Telephone company bot, a system he designed to frustrate and annoy telemarketers by sending them through an infinite loop of robot responses. Now, Anderson is taking aim at the Windows support scammers who try to scare victims into calling […]
+
+
+
+
+
+
+
+
+Privacy
+Senators Push Trump Administration for Clarity on Privacy Act 
+
+by Dennis Fisher February 10, 2017 0 comments
+
+
+A group of influential lawmakers, including Sen. Ed Markey and Sen. Ron Wyden, are pressing the Trump administration for answers about how an executive order that includes changes to the Privacy Act will affect non-U.S. persons and whether the administration plans to release immigrants’ private data. The letter comes from six […]
+
+
+
+
+
+
+
+
+Hacking
+Macro-Enabled Malware Targets macOS 
+
+by Dennis Fisher February 9, 2017 0 comments
+
+
+A new piece of malware that targets macOS appears to be the first one that includes one of the favorite tricks of Windows malware authors: the use of macros. The malware, discovered recently by researchers, is delivered through the use of a rigged Microsoft Word document that is disguised as […]
+
+
+
+
+
+
+
+
+Phone Fraud, Vishing
+Phone Bot to Target Windows Support Scammers 
+
+by Dennis Fisher February 8, 2017 2 comments
+
+
+The man who developed a bot that frustrates and annoys robocallers is planning to take on the infamous Windows support scam callers head-on. Roger Anderson last year debuted his Jolly Roger bot, a system that intercepts robocalls and puts the caller into a never-ending loop of pre-recorded phrases designed to waste […]
+
+
+
+
+
+
+
+
+Privacy
+House Passes Bill to Require Warrant for Old Emails 
+
+by Dennis Fisher February 7, 2017 0 comments
+
+
+The House of Representatives has passed the Email Privacy Act, which requires law enforcement agencies to get a search warrant in order to obtain emails and some other stored records that are older than six months. The legislation is an effort to modify the old Electronic Communications Privacy Act to […]
+
+
+
+
+
+
+
+
+Privacy
+Vizio Settles FTC Charges Over Data Collection 
+
+by Dennis Fisher February 6, 2017 0 comments
+
+
+Vizio has settled charges with the FTC and the state of New Jersey that it secretly collected TV owners’ viewing data, and will pay a $2.2 million fine and delete the data it gathered. The settlement is the result of Vizio using proprietary software that continuously tracked what TV owners […]
+
+
+
+
+
+1
+2
+3
+…
+50
+Next →
+
+
+ 
+
+
+
+
+
+Subscribe to our newsletter
+
+
+
+
+
+
+
+
+  Recent Posts 
+
+On the Wire Podcast: RSA 2017
+
+
+Security Lessons From Snowden
+
+
+Security Teams Are Becoming Cyber Espionage Investigators
+
+
+‘When Computers Start Killing People, There Are Going to Be Consequences’
+
+
+Microsoft President: We Need to Create a Digital Geneva Convention
+
+
+ Archives 
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+
+Categories 
+Authentication
+
+By the Numbers
+
+Device Security
+
+Hacking
+
+Identity
+
+Phone Fraud
+
+Podcast
+
+Privacy
+
+Q&A
+
+Social Engineering
+
+Uncategorized
+
+Vishing
+
+
+
+
+
+
+
+
+                Copyright © 2017 On the Wire            
+
+                Back to Pindrop.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

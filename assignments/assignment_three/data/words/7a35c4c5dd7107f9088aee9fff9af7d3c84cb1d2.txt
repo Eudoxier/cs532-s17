@@ -1,0 +1,326 @@
+
+
+
+
+
+
+
+
+
+ 
+ Cult of Mac
+
+News
+How-To
+Reviews
+App Business
+ 
+Deals
+Buyback
+Podcast
+Magazine
+Watch Store
+
+
+ 
+
+
+
+
+
+
+
+
+
+Get 3 lengthy Lightning cables for one low price [Week’s Best Deals]
+
+
+
+
+The big changes coming to iPhone 8, this week on The CultCast
+
+
+
+
+Should Apple give iPhone 8 a mini Touch Bar? [Friday Night Fights]
+
+
+
+
+This incredible iPhone 8 concept will make your jaw drop
+
+
+
+
+Boost your house’s IQ with these smart home accessories [Deals]
+
+
+
+
+Today in Apple history: Apple introduces ‘world’s fastest’ PowerBook
+
+
+
+
+Microsoft Office now supports the MacBook Pro’s Touch Bar
+
+
+
+
+Beats X are better than AirPods in almost every way [Reviews]
+
+
+
+
+Simple twist of the Digital Crown could charge future Apple Watches
+
+
+
+
+Working a side gig or two? This bundle’s for you [Deals]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New Mac malware targets Microsoft Word users
+
+
+
+						By Killian Bell • 7:31 am, February 9, 2017
+
+
+
+
+
+
+
+
+NewsTop stories
+
+
+
+ 
+							Beware bogus Word macros. Screenshot: Patrick Wardle.
+
+
+
+After spreading viruses among Windows PCs for years, malicious Microsoft Word documents are now infecting Macs.
+The files contain a macro that silently executes in the background and downloads an application that can monitor webcams, steal passwords, read browser history and more.
+
+
+
+
+Macro malware has been targeting PC users for well over a decade. Though the number of attacks has fallen, there has been a resurgence of malicious macros in recent years — mostly due to the fact that they are so effective.
+That’s because the malware goes undetected for so long. When buried inside a Word macro — a seemingly legitimate piece of software — the malicious code doesn’t set off any alarm bells until a virus has successfully been installed and the damage has been done.
+Mac malware on the rise
+Mac users never had to worry about this in the past, but that’s no longer the case. Security researchers have now discovered the first Mac virus that stems from a malicious macro buried inside a Word document, reports Ars Technica.
+The document is titled “U.S. Allies and Rivals Digest Trump’s Victory – Carnegie Endowment for International Peace.” When opened in Word that’s configured to allow macros automatically, it carries out its attack.
+First, the software checks to ensure that the LittleSnith security firewall isn’t running. It then downloads an encrypted payload from securitychecking.org and decrypts it using a hard-coded key. Finally, the payload is executed and the virus is active.
+The payload is no longer being served, so researchers were unable to determine exactly what it did. However, the open-source framework it is based on has a number of capabilities, like the ability to monitor webcams, take encrypted keys from Keychain and more.
+It is thought this particular malware wasn’t very advanced, but Word macros have been able to cause carnage in the past. Just over a year ago, a malicious macro was responsible for a virus that left 225,000 Ukrainian homes without electricity.
+“By using macros in Word documents, they are exploiting the weakest link; humans!” wrote Patrick Wardle, director of research at Synack, which first stumbled across the Mac malware. “And moreover since macros are ‘legitimate’ functionality (vs. say a memory corruption vulnerability) the malware’s infection vector doesn’t have to worry about crashing the system nor being ‘patched’ out.”
+Mac malware still has some way to go before it’s as mainstream as Windows attacks, but as Apple’s platform becomes increasingly popular, there’s no question it is catching up.		
+
+
+
+
+
+
+
+Leave a comment 
+
+
+ 
+
+
+
+
+
+Deals of the Day
+
+
+
+
+                See all deals            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Protogon
+
+
+
+Mac users tend to be much easier to fool,  as they bought into Apple’s ecosystem .So much easier targets as many of them still believe wrongly Macs are secure by default.
+
+
+
+
+
+
+WaywardOne
+
+
+
+On a secure scale of 1 to 10, Macs are 1 and Windows are 8. 99.9% of malware is written for Windows.
+
+
+
+
+
+
+Protogon
+
+
+
+Windows is much more hardened than any Mac, Apple relied on “security through obscurit”‘ to their downfall.
+
+
+
+
+
+
+Mike
+
+
+
+…and it comes as no surprise that this particular virus relies on a MICROSOFT product as its origination. PC = Perpetual Crap.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Posted in: News, Newsstand, Top stories
+Tagged: Mac, macOS, macro, malware, Microsoft, n4, pc, Synack, Windows, word
+
+
+
+
+
+
+
+
+
+
+
+ 
+News
+How-To
+Reviews
+App Business
+Deals
+Buyback
+Podcast
+Magazine
+Watch Store
+
+ 
+
+
+
+ 
+
+
+
+About
+Advertising
+Privacy
+  
+
+ 
+Most popular 
+ 
+Latest Posts 
+Deal of the Day 
+
+
+
+                See all the latest Cult of Mac Deals.            
+
+
+ 
+
+
+
+
+
+
+
+News
+Reviews
+How-To
+App Business
+Deals
+Buyback
+Podcast
+Magazine
+Watch Store
+ 
+About
+Advertising
+Privacy
+ 
+
+x
+
+
+
+Please enable JavaScript to view thecomments powered by Disqus.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

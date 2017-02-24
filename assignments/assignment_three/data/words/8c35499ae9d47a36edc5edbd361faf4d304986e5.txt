@@ -1,0 +1,889 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu
+
+
+
+
+
+
+
+
+
+
+
+SC US
+SC UK
+
+
+Show Search Bar
+
+
+
+
+
+
+
+
+News
+
+
+ 
+Opinions
+Blogs
+SC Fast Facts
+Reboot 2016
+
+
+
+Cybercrime
+
+
+Ransomware
+Data breaches
+APTs/Cyberespionage
+Malware
+Phishing
+Insider Threats
+
+
+
+Network Security
+
+
+Mobile Security
+Cloud Security
+Privacy & compliance
+Vulnerabilities
+IoT
+Email Security
+
+
+
+Product Reviews
+
+
+Group Tests
+First Looks
+About product reviews
+
+
+
+In Depth
+
+
+Features
+Video
+In Depth
+SC Magazine Archive
+
+
+
+Events
+
+
+Virtual Conferences
+Webcasts
+RiskSec NY 2017
+RiskSec Toronto 2017
+SC Awards 2017
+
+
+
+Whitepapers
+
+
+
+
+
+Log in
+
+Register
+
+
+The Cybersecurity source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Magazine US
+>
+
+
+Blogs
+>
+
+
+The Threat Hunter Blog
+>
+
+
+Devilish New Ransomware Hits the Street                
+
+
+February 06, 2017
+Devilish New Ransomware Hits the Street
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peter Stephenson
+
+I've been holding this for a couple of days for a couple of reasons. First, I want to be sure this really is going somewhere (it is), and, second, I wanted a bit more than the easy-to-get screen shots that have been appearing in other blogs (got it). So, we'll start with some background. 
+Some of this you can get at other blogs but I think this will provide some insight for you.  Finally, before we hit the bricks running, this ransomware is on the street.  I have found at least four samples plus the two I created and at least one actor is talking in the underground about how he is just waiting for his victim to pay (on the 0day forum from 23 January to 1 February):
+Actor-1: Did you use it already is there any feed back about it?
+Actor-2: yes there is. feedback is good. i saw few feedbacks on exploit
+Actor-3: looks promising, am gonna try it. thanks for information Actor-10
+Actor-4: anyone got infections -> payment with Satan yet?
+Actor-5: Any successful payments from Satan ransomware?
+Actor-6: im waiting for victim to pay :/
+ Actor-10 in the exchange above is the marketer for the ransomware and he claims that he is not the author.  He has been selling in at least three forums on the Dark Web.  The program hit the streets around the January 17 with the following announcement from Actor 10:
+______________________________________________________________________________________________ 
+
+"Satan is a free to use ransomware kit, you only need to register on the site to start making your viruses. Satan only requires a user name and password to create an account, althrough, if you wish, you can set a public key for two-factor authentication. Satan has a initial fee of 30% over the victim's payment, however, this fee will get lower as you get more infections and payments. All of the user transactions are covered by the server, you'll always get what the victim paid, minus the fee of course.
+ 
+When creating your malware you can specify the ransom value (in bitcoins), a multiplier for the ransom after X days have passed, the number of days after the multiplier takes place, a private note so you can keep track of your victims.
+
+ Satan is free. You just have to register on the site.
+Satan is very easy to deploy, you can create your ransomware in less than a minute.
+Satan uses TOR and Bitcoin for anonymity.
+Satan's executable is only 170kb.
+
+
+ If english is not your first language or you speak a second language you can translate the ransom notes to help your victims understand better what is happening.
+In case you're looking for a way to spread the ransomware, there is a droppers page, where you can generate a crude code for a Microsoft Word macro and CHM file.
+If you have any problem with the ransomware, you can report it using the leftmost button on the malwares table. The middle blue button is used to update the malware to a newer version, if available, and the green one is used to edit your malware configuration."
+_____________________________________________________________________________________________ 
+
+The ransomware is written mostly in C++ and the author has asked that you not upload to virus scanners such as VirusTotal.  Of course we - and several other researchers, apparently - have and here are our results.  There is a caveat, though.  If an actor creates a copy of the ransomware - more on that shortly - that ransomware will have very limited anti-malware recognition until a sample gets into the wild and the A-M vendors get it into their systems. I ran a sample that I created through VirusTotal and OPSWAT Metadefender.  
+V-T did not pick it up at all.  Metadefender showed nine products that appeared to recognize it but of those four were false positives based upon the compile dates, four thought that it was Zbot and only two recognized it as Satan ransomware. The point is that this can be quite difficult to spot by your antimalware software. However, most AV vendors are writing generic detection for it. The only one I found that hit on my sample instantly, even though it was less than an hour old. was Cylance. 
+I am not going through all of the screens - other bloggers have done that - but here, in Figure 1, is the landing (after you log in) - and malware creation - screen. All you need to do is set up an account, give it your bitcoin wallet and build ransomware.
+Figure 1 - Satan RaaS Landing Page
+
+
+Now, on to some details.  First, I took a sample that I obtained from one of the on-line malware scanners that shared samples.  I put it in Maltego and looked for associations.  I found some as you can see in Figure 2.  Then I added my new sample and ran the tool again.  Again, as you can see in Figure 2 it was not detected by anything reported anywhere on the Web ( my sample is at the top of the figure marked Satan-RaaS  --  2-1-17).
+Figure 2 - Maltego Scan of the Web Showing Samples Discovered by AV Scan Engines and Entries in Underground Forums
+
+
+The OPSWAT Metadefender scans show clearly the impact of a copy of the malware being in the wild for a while.  Figure 3 shows a version that is a few - very few - days old and Figure 4 shows my sample less than an hour old.
+Figure 3 - Metadefender scan of a Sample of Satan a Few Days Old
+
+
+Figure 4 - Metadefender Scan of My Sample of Satan Less than an Hour Old
+
+
+When I ran my sample in VirusTotal I got nothing - see Figure 5.
+Figure 5 - VirusTotal Scan of My Sample
+
+
+However, when I ran an early sample hash - first seen on 18 January, just a day after it hit the street - I got a good hit from our instance of Recorded Future - see Figure 6.
+Figure 6 - Recorded Future Intel Card for the First Sample to Appear on the Web
+
+
+Besides using a cryptor, Satan has some obfuscation capabilities such as an anti-reversing engine that checks for known debuggers - such as OLLYDBG, Immunity Debugger, Zeta Debugger and others.    It uses the Microsoft Enhanced Cryptographic Provider and that means AES and RSA strong encryption. 
+I am not going into a deep code analysis here because in my roaming around the Web looking for work already done in this area I came across a very interesting tool from Switzerland called JoeSandbox Cloud. You can learn more at https://www.joesecurity.org but there is a very nice and complete analysis from Joe's automated sandbox at https://www.joesecurity.org/reports/report-406a8a6a3bafee2fa00af938cfb27353.html. Joe has both a commercial version and a community (free) version of its cloud product.
+While Joe has a lot of down-and-dirty detail about the reversing - the most complete I've seen so far - there also is a radar display of the malware classification showing the ransomware's broad functionality for the sample of Satan they analyzed. The hash of the sample was 406a8a6a3bafee2fa00af938cfb27353 and it also was analyzed in VirusTotal on 23 January.  Here is Joe's classification display:
+Figure 7 - Classification display of Satan Sample 406a8a6a3bafee2fa00af938cfb27353 From Joe Security
+
+
+The bottom line is that this is a very nasty piece of malware.  If you look carefully at the Joe analysis you'll see that it shares some code/characteristics with Locky (which does not make it, as one maven opined, just another Locky), one of the more prolific and unpleasant ransomwares around. 
+The AV companies will get Satan under control eventually - except for Cylance, which already has - but in the meantime the old ransomware advice stands.  You just need to do three things to protect yourself: backup, backup and backup some more. Remember Stephenson's First Axiom: There are only two kinds of computer users (or administrators) - those who backup and those who wish they had.
+The tools I used this week were:
+
+Intel 471
+Silobreaker
+Metadefender
+JoeSandbox
+Payload Security
+VirusTotal
+OLLYDEBUG
+IDA Pro
+PE-Bear
+PEiD
+Recorded Future
+Packetsled
+Niksun NetDetector
+AlienVault and OTX
+Maltego
+
+Our friends at Cylance have done a really nice deep analysis of the ransomware and you can catch it here. 
+Now, here are your numbers for this week.
+
+--Dr. S
+Figure 8 - Top 10 Command and Control IPs Hitting the Packetsled Sensor on our Honeynet 
+
+Figure 9 - Top 10 IPs Hitting the Packetsled Sensor on our Honeynet
+
+
+Figure 10 - This Week's New Malicious Domains from MDL
+
+
+Figure11 - Top Attack Types as Seen by our Niksun NetDetector against our Honeynet
+
+
+Figure 12 - STIX Analysis of the 5 Most Malicious IP Addresses from our RecordedFuture Live Cyber Feed
+
+
+Figure 13 - Top Event Categories Against our Honeynet from our AlienVault USM
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        You must be a registered member of SC Magazine US to post a comment.
+                    
+
+Click here to login
+  | 
+ Click here to register
+
+
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+
+                                    IoT? I don't care
+                                
+
+
+                                 Feb 2, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    It's 2017: Is anything not critical infrastructure?
+                                
+
+
+                                 Jan 31, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    Measuring Your Incident Response Program
+                                
+
+
+                                 Jan 29, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    Supply chains: Many targets for one email attack 
+                                
+
+
+BY
+
+Ed Jenning, chief operating officer, Mimecast.    
+                                 Feb 1, 2017
+                            
+
+
+
+
+
+
+
+
+
+
+
+Most read on SC
+
+
+Banks worldwide under attack from new malware, report
+2017 SC Awards Honored in the United States
+'Internet of Evil Things' challenges security pros
+Yahoo issues new breach warning; Verizon shaves $300M off its Yahoo offer
+Adobe issues patches, Microsoft's usual Patch Tuesday fixes delayed
+
+
+
+
+
+
+
+
+
+
+Get SC Media delivered to your inbox
+
+
+
+
+
+SC Media Featured White Paper of the Day
+
+
+
+
+
+
+SC Media Newswire
+
+
+
+
+
+
+SC Media Product/Industry Buzz
+
+
+
+
+
+
+I would like to receive relevant information via email from Haymarket Media.
+
+
+
+
+
+
+United States
+United Kingdom
+Canada
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (DRC)
+Cook Islands
+Costa Rica
+Côte D'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji Islands
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia-Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands
+Virgin Islands, British
+Wallis and Futuna
+Western Samoa
+Yemen
+Yugoslavia
+Zambia
+Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Media arms cybersecurity professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.
+
+
+User Center
+
+About
+Contact
+Advisory Board
+Meet the team
+Subscribe
+Advertise
+
+
+
+Product Reviews
+
+About/Contact
+FAQ
+Reprints
+
+
+
+Other
+
+Privacy Policy
+Terms & Conditions
+
+
+
+More SC Sites
+
+RiskSec
+SC Whitepaper & Resource Library
+SC Awards
+SC Online Events
+
+
+
+
+
+Follow SC Media
+
+
+
+
+
+
+Copyright © 2016 Haymarket Media, Inc. All Rights Reserved
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorization.
+Your use of this website constitutes acceptance of Haymarket Media's Privacy Policy and Terms & Conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ close
+
+
+
+{{{ form.header }}}
+{{{ form.title }}}
+
+
+
+
+
+{{{error}}}
+
+
+
+
+{{error}}
+
+
+
+
+
+
+
+
+
+
+{{ option.label }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Free Newsletters:
+
+
+
+
+
+
+
+
+{{ field.label }}
+
+
+
+
+
+
+
+
+{{ form.postButtonLabel }}
+
+
+
+
+
+                              By registering you agree with our
+                              Terms And Conditions  |
+                              Privacy Policy
+
+
+
+
+{{{ form.footer }}}
+
+
+Don't have an SC Media account?
+            Sign up for free now »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,324 @@
+
+
+
+
+
+
+skip to navigation.
+Skip to the content.
+
+
+
+
+
+
+
+
+
+ 
+RedTeam Pentesting
+
+
+
+
+
+
+Home
+
+
+
+News-Archiv
+
+
+
+
+RedTeam
+
+
+
+Firmengeschichte
+
+
+
+
+Pentest
+
+
+
+Vorteile
+
+
+Produktpentests
+
+
+Reconnaissance
+
+
+Enumeration
+
+
+Exploitation
+
+
+Documentation
+
+
+
+
+FAQ
+
+
+Advisories
+
+
+Publikationen
+
+
+
+chipTAN comfort
+
+
+JBoss-Sicherheit
+
+
+TLS Renegotiation
+
+
+
+
+Presse
+
+
+Karriere
+
+
+Testimonials
+
+
+Kontakt
+
+
+
+Kontaktformular
+
+Anfahrt
+
+
+
+
+Impressum
+
+
+
+Datenschutz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Publikationen
+
+15.02.2017
+„Daten löschen, aber richtig – Über die Besonderheiten von SSDs”, 24. DFN-Konferenz „Sicherheit in vernetzten Systemen”, Folien
+        
+19.12.2016
+„Operating Systems Security And Why It (Mostly) Doesn't Matter”, Folien (Englisch)
+        
+02.11.2016
+„Daten löschen, aber richtig – Über die Besonderheiten von SSDs”, LeetCon 2016, Folien
+        
+02.11.2016
+„Alles wird gut? – Über Menschen, Angreifer und die Zukunft”, LeetCon 2016, Folien
+        
+10.05.2016
+„Penetration Tester – Click Monkey or Creative Hacker?”, Research Group IT-Security, Folien (Englisch)
+        
+06.02.2016
+„Let's Encrypt with Best Practices”, DevConf.cz 2016, Folien (Englisch)
+        
+21.12.2015
+„Physical Security – Wenn Türen zu Firewalls werden”, Research Group IT-Security, Folien
+        
+12.08.2015
+„Security Threats at Conferences”, Flock 2015, Folien (Englisch)
+        
+18.06.2015
+„Your Home is My Castle – Angriffe auf die Updates eines Heimrouters”, Cryptoparty der Fachschaft Mathematik/Physik/Informatik, Folien
+        
+11.06.2015
+„Angriff zur Verteidigung – Erfolgsfaktoren für gute Penetrationstests”, Audit Challenge 2015, Folien
+        
+
+
+Advisories
+
+
+rt-sa-2016-001
+Padding Oracle in Apache mod_session_crypto
+
+
+rt-sa-2016-003
+Compilation of Untrusted LESS Files May Lead to Code Execution through the JavaScript Less Compiler
+
+
+rt-sa-2016-005
+Unauthenticated File Upload in Relay Ajax Directory Manager may Lead to Remote Command Execution
+
+
+rt-sa-2016-004
+Websockify: Remote Code Execution via Buffer Overflow
+
+
+rt-sa-2015-012
+XML External Entity Expansion in Paessler PRTG Network Monitor
+
+
+rt-sa-2016-002
+Cross-site Scripting in Securimage 3.6.22
+
+
+
+
+
+
+ 
+> Home
+
+
+
+
+
+RedTeam Pentesting bietet individuelle Penetrationstests, kurz Pentests,
+durchgeführt von einem Team
+spezialisierter IT-Sicherheitsexperten, an. Hierdurch werden Sicherheitslücken
+in IT-Systemen (z.B. Netzwerken, Anwendungen oder Geräten) aufgedeckt und
+können anschließend behoben werden.
+
+Da es im Bereich Netzwerksicherheit zur Zeit nur sehr wenige Experten gibt,
+möchte RedTeam Pentesting die Wissensvermittlung auf diesem Gebiet vorantreiben
+und mit aktueller Forschung im Bereich von sicherheitsrelevanten Themen
+unterstützen. Die zur Zeit veröffentlichten Ergebnisse sind unter Advisories hinterlegt und fanden
+national und international Beachtung.
+
+
+Im Unterschied zu vielen anderen Firmen ist RedTeam Pentesting auf die
+Durchführung von Pentests spezialisiert. Eine ausführliche Beschreibung von
+Pentests finden Sie auf der Pentest-Seite, Antworten auf häufig gestellte Fragen finden
+Sie in den FAQ.
+
+
+Gerne beantworten wir Ihnen weitere Fragen per E-Mail, Fax oder Telefon.
+
+
+Immer aktuell informiert bleiben Sie mit dem RSS-Feed.
+
+
+Aktuelles
+
+30.01.2017 - 
+
+	
+        Ab sofort informiert Sie RedTeam Pentesting auch auf Twitter über Neuigkeiten rund um RedTeam und aktuelle IT-Security-Themen.
+	
+23.12.2016 - 
+
+  
+    Neues Advisory veröffentlicht: Padding Oracle in Apache mod_session_crypto.
+  
+16.12.2016 - 
+
+	
+          Am 19. Dezember 2016 wird Patrick Hof eine Gastvorlesung im Modul Operating Systems Security mit dem Titel „Operating Systems Security And Why It (Mostly) Doesn't Matter” an der Radboud Universiteit in Nijmegen halten.
+	
+24.11.2016 - 
+
+  
+    Neues Advisory veröffentlicht: Compilation of Untrusted LESS Files May Lead to Code Execution through the JavaScript Less Compiler.
+  
+17.11.2016 - 
+
+	
+		Am 07.11.2016 lief in der WDR-Sendung Servicezeit ein Bericht mit RedTeam Pentesting über eine Schwachstelle in AVM FRITZ!Boxen, die es Angreifern erlaubte auf fremde Kosten zu telefonieren.
+	
+24.10.2016 - 
+
+	
+		Am 2. November 2016 wird Alexander Neumann den Vortrag „Daten löschen, aber richtig - über die Besonderheiten von SSDs” auf der Leetcon halten.
+	
+24.10.2016 - 
+
+	
+		Am 2. November 2016 wird Jens Liebchen den Vortrag „Alles wird gut? Über Menschen, Angreifer & die Zukunft” auf der Leetcon halten.
+	
+17.10.2016 - 
+
+	
+		Am 20. Oktober 2016 wird Jens Liebchen den Vortrag „Physical Security - Wenn Türen zu Firewalls werden” am  Lehrstuhl für IT-Sicherheitsinfrastrukturen  der  Friedrich-Alexander-Universität Erlangen-Nürnberg  im Rahmen der Vorlesung „Angewandte IT-Sicherheit” halten. Im Anschluss findet eine praktische Einführung zu Lockpicking statt. RedTeam Pentesting freut sich, erneut die Universität mit Vorträgen und Fachwissen unterstützen zu können.
+	
+10.10.2016 - 
+
+    Das Handelsblatt berichtet in dem Artikel „Der Hacker als Helfer” über RedTeam Pentesting.
+31.05.2016 - 
+
+  
+    Drei neue Advisories veröffentlicht: XML External Entity Expansion in Paessler PRTG Network Monitor, Websockify: Remote Code Execution via Buffer Overflow und Unauthenticated File Upload in Relay Ajax Directory Manager may Lead to Remote Command Execution.
+  
+11.05.2016 - 
+
+	
+    Die Folien zum Vortrag „Penetration Tester – Click Monkey or Creative Hacker?”, gehalten von Sebastian Chrobak im Rahmen der Veranstaltung Security Lab 2016 der Research Group IT-Security der RWTH Aachen University, stehen unter den Publikationen bereit.
+	
+26.04.2016 - 
+
+	
+    Die Folien zum Vortrag „Was Dein ist, ist Mein – Datensicherheit aus der Angreiferperspektive”, gehalten von Jens Liebchen anlässlich des Welttags des geistigen Eigentums am TZ Aachen, stehen unter den Publikationen bereit.
+	
+25.04.2016 - 
+
+  Heute ist der Artikel „Immer auf der Suche nach Schwachstellen” über die Arbeit von RedTeam Pentesting in den Aachener Nachrichten und der Aachener Zeitung erschienen (Ausgabe 25. April 2015, Seite 6). Dieser ist auch online abrufbar (AN/AZ).
+24.03.2016 - 
+
+        
+RedTeam Pentesting ist im Rahmen der Kampagne
+
+GERMANY AT ITS BEST des Landes NRW für die Bestleistung als „Weltweit
+führendes auf Penetrationstests spezialisiertes Unternehmen”
+ausgezeichnet worden. Die Urkunde des Wirtschaftsministeriums steht zum
+
+Download bereit.
+        
+22.03.2016 - 
+
+       
+        Neues Sicherheits-Advisory veröffentlicht:
+        Cross-site Scripting in Securimage 3.6.22
+
+
+
+News-Archiv
+
+
+
+ 
+
+
+
+
+
+RedTeam Pentesting GmbH Technologiezentrum Aachen Dennewartstraße 25-27 52068 Aachen Deutschland
+Telefon: +49 241 510081-0 Fax: +49 241 510081-99 E-Mail: kontakt@redteam-pentesting.de
+(GnuPG/PGP-Public-Key)
+
+
+
+
+

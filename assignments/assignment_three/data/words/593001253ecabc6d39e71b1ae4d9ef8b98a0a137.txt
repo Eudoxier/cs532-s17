@@ -1,0 +1,242 @@
+
+
+
+
+
+Skip to content ↓ | 
+	Skip to navigation ↓
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+The State of Security
+
+
+News. Trends. Insights.
+
+
+Tripwire, Inc.
+
+
+
+
+
+
+Featured Articles
+Latest Security News
+Topics
+
+Endpoint Detection & Response
+Government
+ICS Security
+Incident Detection
+IT Security and Data Protection
+Off Topic
+Regulatory Compliance
+Risk-Based Security for Executives
+Security Awareness
+Security Slice
+Tripwire News
+Vulnerability Management
+
+
+Resources
+
+Podcasts
+Videos
+
+
+About
+
+About The State Of Security
+Tripwire Contributors
+Contact Us
+
+
+Explore Tripwire
+
+Security Configuration Management
+Vulnerability Management
+Endpoint Detection & Response
+Log Management
+Security Intelligence
+PCI Compliance
+NERC Compliance
+
+
+Tripwire.com  
+
+
+
+
+
+
+
+ Home » News » Memory-Based Malware Uses PowerShell Scripts, Pentest Tools to…
+ Memory-Based Malware Uses PowerShell Scripts, Pentest Tools to Evade Detection
+David BissonFeb 8, 2017Latest Security News
+
+ 
+A memory-based malware is using PowerShell scripts within the Windows registry and penetration testing tools to evade detection.
+Security researchers at Kaspersky Lab came across the malware when they discovered code for Meterpreter, a post-exploitation tool of the Metasploit penetration testing software, inside the physical memory of a domain controller. Analysis of the malware, detected as MEM:Trojan.Win32.Cometer and MEM:Trojan.Win32.Metasploit, yielded PowerShell scripts used from within the Windows registry. Kaspersky’s researchers also found the attackers had used the NETSH network configuration scripting utility to tunnel traffic from the host to their command and control (C&C) server.
+The scripts used by the attackers allocate memory and install Meterpreter to RAM. Using the SC utility, the attackers installed a malicious service to execute one of those scripts on the target computer. They then set up a tunneling service using NETSH to forward all network traffic to their C&C server, allowing them to steal passwords and sensitive information.
+NETSH, SC, and PowerShell scripts all require privilege escalation. But that’s no hurdle for attackers who are familiar with Mimikatz, another Metasploit post-exploitation tool. They simply created a payload that allowed them to steal system administrators’ credentials.
+
+As of this writing, the malware has affected 140 organizations located in 40 countries. It’s not clear if the same attacker targeted all those enterprises. That’s because attribution in this case is particularly difficult.
+Kaspersky’s researchers elaborate on that point in a blog post:
+“During our analysis of the affected bank we learned that the attackers had used several third level domains and domains in the .GA, .ML, .CF ccTLDs. The trick of using such domains is that they are free and missing WHOIS information after domain expiration. Given that the attackers used the Metasploit framework, standard Windows utilities and unknown domains with no WHOIS information, this makes attribution almost impossible.”
+Nevertheless, some evidence suggests GCMAN and Carbanak could be the responsible parties.
+This attack is detectable in RAM, network, and registry only. With that in mind, organizations should use Kaspersky’s indicators of compromise (IoCs) to protect against this malware. Should they come across it, they should remove the malware from their systems and then change all administrator passwords.
+ 
+
+
+
+
+
+
+ 
+Categories Latest Security News
+Tags malware, memory, penetration testing
+
+
+
+
+About David BissonDavid Bisson has contributed 845 posts to The State of Security.View all posts by David BissonFollow @DMBisson 
+
+
+
+
+
+
+
+Twitter
+LinkedIn
+RSS
+Google+
+Facebook
+SlideShare
+YouTube
+Flickr
+
+
+
+
+Free eBook
+
+Security Configuration Management For Dummies
+Download Now
+Latest Security News
+Canada to Enact Legislation that Will Require All Businesses to Report Data BreachesFeb 17, 2017Rasputin Hacker Uses SQLi to Hack 60 Universities and Government AgenciesFeb 16, 2017Romance Scams Cost Victims $230M in 2016, Reports FBIFeb 15, 2017New Proof-of-Concept Ransomware Can Target PLCs at Industrial SitesFeb 14, 2017Man Jailed Indefinitely for Refusing to Decrypt Hard DrivesFeb 13, 2017
+
+
+
+Featured
+Recent
+
+
+
+
+
+Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesFeb 16, 2017Cyber Insurance Coverage ConcernsFeb 15, 2017New Research Highlights Top Cyber-Attack Concerns for 2017Feb 15, 20174 Tips for a Successful OT & IT Security MarriageFeb 14, 2017
+
+
+Canada to Enact Legislation that Will Require All Businesses to Report Data BreachesFeb 17, 2017Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksFeb 16, 2017Rasputin Hacker Uses SQLi to Hack 60 Universities and Government AgenciesFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesFeb 16, 2017Cyber Insurance Coverage ConcernsFeb 15, 2017
+
+
+
+Tweets by @TripwireInc
+
+
+Topics 
+Government
+
+ICS Security
+
+Incident Detection
+
+IT Security and Data Protection
+
+Latest Security News
+
+Off Topic
+
+Regulatory Compliance
+
+Risk-Based Security for Executives
+
+Security Awareness
+
+Security Slice
+
+Tripwire News
+
+Vulnerability Management
+
+
+ 
+
+
+
+
+
+
+
+
+© 2017 Tripwire, Inc. All rights reserved. 
+
+
+Featured Articles
+Topics
+About
+Contributors
+Privacy Policy
+Tripwire.com
+ 
+
+
+Follow us
+Twitter
+LinkedIn
+Flickr
+YouTube
+Google+
+SlideShare
+Facebook The State of Security
+RSS
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

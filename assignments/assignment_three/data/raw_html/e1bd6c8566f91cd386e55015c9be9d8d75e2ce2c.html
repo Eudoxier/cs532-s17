@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>New malware uses auto-running macros in Word documents to infect your Mac</title>
+	<link rel="stylesheet" href="https://media.idownloadblog.com/wp-content/themes/idownloadblog/style.css?v031" type="text/css" media="screen" />
+	<link rel="alternate" type="application/rss+xml" title="iDownloadBlog.com RSS Feed" href="http://www.idownloadblog.com/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="iDownloadBlog.com Apple News RSS Feed" href="http://www.idownloadblog.com/feed/apple/" />
+	<link rel="alternate" type="application/atom+xml" title="iDownloadBlog.com Atom Feed" href="http://www.idownloadblog.com/feed/atom/" />
+	<link rel="shortcut icon" href="http://media.idownloadblog.com/wp-content/themes/idownloadblog/images/favicon.ico" /> 
+	<link rel="apple-touch-icon-precomposed" sizes="32x32" href="http://media.idownloadblog.com/wp-content/themes/idownloadblog/images/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://media.idownloadblog.com/wp-content/themes/idownloadblog/images/favicon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="http://media.idownloadblog.com/wp-content/themes/idownloadblog/images/favicon-114x114.png" />
+
+	<link rel="pingback" href="http://www.idownloadblog.com/xmlrpc.php" />
+	<link href="https://plus.google.com/b/111910843959038324995/" rel="publisher" />
+	<!--[if IE ]>
+	<style type="text/css" media="screen">
+	.sf-menu li {font-weight:600;}#side_search input.text {width:220px !important;}
+	</style>
+	<![endif]-->	
+		
+	
+<!-- All in One SEO Pack 2.3.11.4 by Michael Torbert of Semper Fi Web Design[107,215] -->
+<link rel="author" href="https://plus.google.com/103371752469276377978/posts" />
+<meta name="description"  content="Taking advantage of a primitive Windows technique relying on automatically-running macros embedded in Microsoft Word documents, a new type of Mac malware attack" />
+
+<meta name="keywords"  content="apple,mac,macos,malware,microsoft,microsoft office,news,office,privacy,security,word" />
+
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//media.idownloadblog.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="iDownloadBlog.com &raquo; New malware uses auto-running macros in Word documents to infect your Mac Comments Feed" href="http://www.idownloadblog.com/2017/02/09/mac-malware-microsoft-word-macros/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/media.idownloadblog.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layout-css-css'  href='http://media.idownloadblog.com/wp-content/themes/idownloadblog/style-960_24_col.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://media.idownloadblog.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://media.idownloadblog.com/wp-content/themes/idownloadblog/js/superfish.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://media.idownloadblog.com/wp-content/plugins/wp_safari_pusher_v3/js/safari_pusher.js?ver=4.7.2'></script>
+<link rel='https://api.w.org/' href='http://www.idownloadblog.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.idownloadblog.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://media.idownloadblog.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='How to skip forward and back 10 seconds in YouTube for iPhone and iPad' href='http://www.idownloadblog.com/2017/02/09/how-to-skip-forward-and-back-10-seconds-in-youtube-for-iphone-and-ipad/' />
+<link rel='next' title='KGI: all 2017 iPhones to have wireless charging, iPhone 8&#8217;s 3D Touch pricier to build' href='http://www.idownloadblog.com/2017/02/09/kgi-all-2017-iphones-to-have-wireless-charging-iphone-8s-3d-touch-pricier-to-build/' />
+<meta name="generator" content="WordPress 4.7.2" />
+<link rel="canonical" href="http://www.idownloadblog.com/2017/02/09/mac-malware-microsoft-word-macros/" />
+<link rel='shortlink' href='http://www.idownloadblog.com/?p=460123' />
+<link rel="alternate" type="application/json+oembed" href="http://www.idownloadblog.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.idownloadblog.com%2F2017%2F02%2F09%2Fmac-malware-microsoft-word-macros%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.idownloadblog.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.idownloadblog.com%2F2017%2F02%2F09%2Fmac-malware-microsoft-word-macros%2F&#038;format=xml" />
+	<script type="text/javascript">
+		(function () {
+			var xauth = document.createElement('script');
+			xauth.type = 'text/javascript';
+			xauth.async = true;
+			var host = 'http://www.idownloadblog.com';
+			if ('https:' == document.location.protocol) {
+				host = host.replace('http://', 'https://');
+			}
+			xauth.src = host + '/presslabs.js?ts=' + Math.floor((Math.random() * 100000) + 1);
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(xauth, s);
+		})();
+	</script>
+
+<!-- WP Youtube Player 1.7 by unijimpe -->
+ 
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1143782-6']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: underline;
+}</style>	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('ul.sf-menu').superfish();
+			$("#page").css("background", "URL(http://media.idownloadblog.com/wp-content/themes/idownloadblog/images/bg-bottom.gif)  bottom repeat-x");  
+			$("#footer").css("background", "URL(http://media.idownloadblog.com/wp-content/themes/idownloadblog/images/footer-bg-bottom.gif)  bottom left repeat-x");  
+		});
+	</script>
+	<!-- DFP HEADER CODE -->
+<script async src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/19083943/iDB_Desktop_Below_Content', [[300, 250], [336, 280]], 'div-gpt-ad-1466452170113-0').addService(googletag.pubads());
+googletag.defineSlot('/19083943/iDB_Desktop_Footer', [[728, 90], [970, 90]], 'iDB_Desktop_Footer').addService(googletag.pubads());
+googletag.defineSlot('/19083943/iDB_Desktop_Header_728x90', [728, 90], 'iDB_Desktop_Header_728x90').addService(googletag.pubads());
+googletag.defineSlot('/19083943/iDB_Desktop_Home_Below_First_Post_300x250', [[300, 250], [336, 280]], 'iDB_Desktop_Home_Below_First_Post_300x250').addService(googletag.pubads());
+googletag.defineSlot('/19083943/iDB_Desktop_Sidebar1_300x250', [[300, 250], [300, 600]], 'iDB_Desktop_Sidebar1_300x250').addService(googletag.pubads());
+googletag.defineSlot('/19083943/iDB_Dektop_Sidebar2_300x250', [300, 250], 'iDB_Dektop_Sidebar2_300x250').addService(googletag.pubads());
+googletag.defineSlot('/19083943/iDB_Desktop_Sidebar3_300x250', [300, 250], 'iDB_Desktop_Sidebar3_300x250').addService(googletag.pubads());
+googletag.defineSlot('/7346874/iDB-300x250-2', [300, 250], 'div-gpt-ad-1422309248801-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+googletag.enableServices();
+});
+</script>
+<!-- END DFP HEADER CODE -->
+
+<!-- START TABOOLA -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  'http://cdn.taboola.com/libtrc/idownloadblog/loader.js');
+</script>
+<!-- END TABOOLA -->
+
+</head>
+
+<body class="post-template-default single single-post postid-460123 single-format-standard">
+	
+	<div id="logo_banner">
+ 		<div id="logo">
+ 			<a href="http://www.idownloadblog.com">iDownloadBlog</a>
+ 		</div>   
+		<div id="top_banner">  
+<!-- iDB Desktop Header 728x90 -->
+<div id='iDB_Desktop_Header_728x90' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('iDB_Desktop_Header_728x90'); });
+</script>
+</div>
+		</div>
+	</div>	
+	
+	<div id="nav_container">
+		<div id="top_nav">
+			<ul id="main_nav" class="sf-menu">
+				<li id="nav-home"><a href="http://www.idownloadblog.com/">Home</a></li>
+				<li id="nav-jailbreak"><a href="http://www.idownloadblog.com/#">Jailbreak</a>
+					<ul>
+						<li><a href="http://www.idownloadblog.com/jailbreak/">How to Jailbreak</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/jailbreak/">Jailbreak News</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/jailbreak-apps-tweaks/">Jailbreak Tweaks</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/cydia/">Cydia</a></li>
+					</ul>
+				</li>
+				<li id="nav-unlock"><a href="http://www.idownloadblog.com/unlock/">Unlock</a>
+					<ul>
+						<li><a href="http://www.idownloadblog.com/unlock/">How to Unlock</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/unlock/">Unlock News</a></li>
+					</ul>
+				</li>
+
+				<li id="nav-goodies"><a href="http://www.idownloadblog.com/#">Apps</a>
+					<ul>
+						<li><a href="http://www.idownloadblog.com/tag/app-store-apps/">iOS Apps</a></li>						
+						<li><a href="http://www.idownloadblog.com/tag/mac-apps/">Mac Apps</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/widget/">Widgets</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/best-apps/">Best Apps</a></li>
+						<li><a href="http://www.idownloadblog.com/app-finder/">App Finder</a></li>	
+					</ul>
+				</li>		
+				<li id="nav-hottopics"><a href="http://www.idownloadblog.com/#">Tips</a>
+					<ul>
+						<li><a href="http://www.idownloadblog.com/tag/tips/">Tips</a></li>	
+						<li><a href="http://www.idownloadblog.com/tag/how-to/">How to</a></li>	
+						<li><a href="http://www.idownloadblog.com/tag/tutorial/">Tutorial</a></li>					
+						<li><a href="http://www.idownloadblog.com/iphone-photography/">iPhone Photography</a></li>					
+					</ul>
+				</li>
+				<li id="nav-iphone"><a href="http://www.idownloadblog.com/#">iPhone</a>
+					<ul>
+						<li><a href="http://www.idownloadblog.com/tag/iphone/">iPhone News</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/iphone-6s/">iPhone 6s</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/iphone-6-plus/">iPhone 6 Plus</a></li>
+						<li><a href="http://www.idownloadblog.com/tag/iphone-6/">iPhone 6</a></li>
+						<li><a href="http://www.idownloadblog.com/iphone-photography/">iPhone Photography</a></li>
+					</ul>
+				</li>
+
+				<li id="nav-ipad"><a href="http://www.idownloadblog.com/tag/ipad/">iPad</a></li>
+
+				<li id="nav-goodies"><a href="http://www.idownloadblog.com/tag/mac/">Mac</a></li>
+
+				<li id="nav-itv"><a href="http://www.idownloadblog.com/tag/apple-watch/">Watch</a>
+<ul><li><a href="http://www.idownloadblog.com/apple-watch-guide/">Apple Watch Guide</a></ul></li>
+
+
+		
+				<li id="nav-itv"><a href="http://www.idownloadblog.com/tag/apple-tv/">TV</a>
+					<ul>
+						<li><a href="http://www.idownloadblog.com/apple-tv-guide/">Apple TV guide</a></li>
+					</ul>
+				</li>
+
+
+				<li id="nav-forums"><a href="http://www.idownloadblog.com/download/">Download</a></li>
+				<li id="nav-videos"><a href="https://deals.idownloadblog.com/?utm_source=idownloadblog.com&utm_medium=homepage&utm_campaign=navbar">Deals</a></li>
+	
+				
+				
+			</ul>
+     	</div>
+     </div>       
+
+	<div id="page">
+  		<div id="header">
+    		<div class="container_24">
+    			<!-- Featured Thumbs -->
+				 <ul id="featured_posts" class="grid_24">
+         								<li class="featured_post">
+						<div class="featured_thumbnail">
+                     		<a href="http://www.idownloadblog.com/2017/02/18/apps-of-the-week-february-18-2/"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/01/Apps-to-check-out-this-weekend-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/01/Apps-to-check-out-this-weekend-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/01/Apps-to-check-out-this-weekend-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+ 						</div>	
+                    	<div class="featured_title">
+                         	<h2><a href="http://www.idownloadblog.com/2017/02/18/apps-of-the-week-february-18-2/">Crawlies, Cleanfox, TwIM and other apps to check out this weekend</a></h2>
+                    	</div>
+                	 </li>
+                						<li class="featured_post">
+						<div class="featured_thumbnail">
+                     		<a href="http://www.idownloadblog.com/2017/02/17/daily-deals-friday-february-17/"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/01/daily_deals-2-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/01/daily_deals-2-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/01/daily_deals-2-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+ 						</div>	
+                    	<div class="featured_title">
+                         	<h2><a href="http://www.idownloadblog.com/2017/02/17/daily-deals-friday-february-17/">Daily Deals: $210 Dyson V6 vacuum, $25 iTunes movie bundles, and more</a></h2>
+                    	</div>
+                	 </li>
+                						<li class="featured_post">
+						<div class="featured_thumbnail">
+                     		<a href="http://www.idownloadblog.com/2017/02/16/apple-announces-wwc-2017-returning-to-san-jose-kicking-off-june-5/"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/WWDC-2017-teaser-003-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/WWDC-2017-teaser-003-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/WWDC-2017-teaser-003-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+ 						</div>	
+                    	<div class="featured_title">
+                         	<h2><a href="http://www.idownloadblog.com/2017/02/16/apple-announces-wwc-2017-returning-to-san-jose-kicking-off-june-5/">Apple announces WWDC 2017 returning to San Jose, kicking off June 5</a></h2>
+                    	</div>
+                	 </li>
+                						<li class="featured_post">
+						<div class="featured_thumbnail">
+                     		<a href="http://www.idownloadblog.com/2017/02/14/lets-talk-ios-174-we-talked-this-rumor-to-death/"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-55x55.png" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-55x55.png 55w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-400x400.png 400w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-768x768.png 768w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-1024x1024.png 1024w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-144x144.png 144w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-593x593.png 593w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-220x220.png 220w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect-900x900.png 900w, http://media.idownloadblog.com/wp-content/uploads/2013/11/Lets-Talk-iOS-podcast-cover-no-matrix-effect.png 1400w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+ 						</div>	
+                    	<div class="featured_title">
+                         	<h2><a href="http://www.idownloadblog.com/2017/02/14/lets-talk-ios-174-we-talked-this-rumor-to-death/">Let’s Talk iOS 174: We talked this rumor to death</a></h2>
+                    	</div>
+                	 </li>
+                	 
+            	</ul>
+            	<div class="clear">&nbsp;</div>
+            
+				<div id="skip">
+                	<p><a href="#wrapper" title="skip to main content">skip to main content</a></p>
+                	<p><a href="#main-menu" title="skip to main menu">skip to main menu</a></p>
+				</div>
+				<div class="clear">&nbsp;</div>
+			</div>
+		</div>
+		<div class="clear">&nbsp;</div>
+		
+		<div id="wrapper" class="container_24">    
+    <div id="single_wrap" class="grid_16">
+   	  <div id="content">
+				
+			<div class="post-460123 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-apple tag-mac tag-macos tag-malware tag-microsoft tag-microsoft-office tag-news tag-office tag-privacy tag-security tag-word" id="post-460123">
+				<h1><a href="http://www.idownloadblog.com/2017/02/09/mac-malware-microsoft-word-macros/" rel="bookmark" title="Permanent Link to New malware uses auto-running macros in Word documents to infect your Mac">New malware uses auto-running macros in Word documents to infect your Mac</a></h1>
+        		<div class="post_subhead">
+					<span class="grid_6">By <span class="author_link"><a href="http://www.idownloadblog.com/author/dujkan/" title="Posts by Christian Zibreg" rel="author">Christian Zibreg</a></span>, Feb 9, 2017 </span>
+					<span class="right">
+						<ul class="h_list">
+							<li class="twitter_list"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="iDownloadBlog">Tweet</a></li> 
+							<li class="facebook_list"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.idownloadblog.com%2F2017%2F02%2F09%2Fmac-malware-microsoft-word-macros%2F%2F&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe></li>
+ 							<li class="comment_bubble"><strong class="title"><a href="http://www.idownloadblog.com/2017/02/09/mac-malware-microsoft-word-macros/#respond"><span class="dsq-postid" data-dsqidentifier="460123 http://www.idownloadblog.com/?p=460123">Leave a Comment</span></a></strong></li>
+						</ul>
+            		</span>
+				</div>
+				<div class="entry" style="border-bottom:0px;">
+					<p style="text-align: center;"><img class="alignnone size-full wp-image-460124" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/macro-warning.png" alt="" width="480" height="223" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/macro-warning.png 658w, http://media.idownloadblog.com/wp-content/uploads/2017/02/macro-warning-500x233.png 500w, http://media.idownloadblog.com/wp-content/uploads/2017/02/macro-warning-593x276.png 593w, http://media.idownloadblog.com/wp-content/uploads/2017/02/macro-warning-220x102.png 220w" sizes="(max-width: 480px) 100vw, 480px" /></p>
+<p>Taking advantage of a primitive Windows technique relying on automatically-running macros embedded in Microsoft Word documents, a new type of Mac malware attack has been discovered recently. As first noted in a <a href="https://objective-see.com/blog/blog_0x17.html">research compiled</a> by Objective-See, the technique used may be crude but once an unsuspecting user opens an infected Word document and chooses to run the macros, the malware installs itself silently on the target Mac and immediately attempts to download a hazardous payload.<span id="more-460123"></span></p>
+<p>The attack was first discovered in a Word file titled “U.S. Allies and Rivals Digest Trump&#8217;s Victory &#8211; Carnegie Endowment for International Peace.”</p>
+<p>After opening an infected document in Word for Mac and clicking <strong>Enable Macros</strong> in the dialog, the embedded macro does the following things:</p>
+<ul>
+<li>Checks to make sure the <a href="https://www.obdev.at/products/littlesnitch/index.html">LittleSnitch security firewall</a> isn&#8217;t running.</li>
+<li>Downloads an encrypted second-stage payload.</li>
+<li>Decrypts the payload using a hard-coded key.</li>
+<li>Executes the payload.</li>
+</ul>
+<p>Once installed, the payload could potentially log your keystrokes, monitor the camera and the system clipboard, take screenshots, access iMessage, retrieve your browsing history and more. It also automatically executes itself after a reboot.</p>
+<p>Thankfully, the remote payload file has since been removed from the server.</p>
+<p>Although dangerous, this isn&#8217;t a particularly advanced form of attack.</p>
+<p>You can protect yourself from these kinds of attacks by ensuring that you click <strong>Disable Macros</strong> when opening a suspicious Word document. Given the prevalence of macros-based malware on Windows, small wonder Microsoft included a clear warning about viruses in Word&#8217;s dialog.</p>
+<p>Source: <a href="https://objective-see.com/blog/blog_0x17.html">Objective-See</a> via <a href="https://arstechnica.com/security/2017/02/mac-malware-has-a-way-to-go-but-its-slowly-catching-up-to-windows/">Ars Technica</a></p>
+
+									</div>
+				
+				<!--
+				<div class="single_share_bar">
+           	 		<div class="share_left">
+   						<div class="share_text">Share:</div>
+						<div><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="iDownloadBlog">Tweet</a></div>
+						<div><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.idownloadblog.com%2F2017%2F02%2F09%2Fmac-malware-microsoft-word-macros%2F%2F&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe></div>
+					</div>
+ 					<div class="follow_right">
+ 						<div class="share_text">Follow:</div>
+ 						<div><a href="http://www.facebook.com/iPhoneDownloadBlog" target="_blank"><span class="share_icon" id="facebook_icon"></span></a></div>
+						<div><a href="http://twitter.com/iDownloadBlog" target="_blank"><span class="share_icon" id="twitter_icon"></span></a></div>
+						<div><a href="http://www.idownloadblog.com/feed/"><span class="share_icon" id="rss_icon"></span></a></div>
+						<div><a href="http://www.youtube.com/myjailbreakmovies" target="_blank"><span class="share_icon" id="youtube_icon"></span></a></div>
+						<div><a href="https://plus.google.com/u/0/b/111910843959038324995/" target="_blank"><span class="share_icon" id="tip_icon"></span></a></div>
+ 					</div>
+           	 	</div>
+           	 	-->
+           	 	<div class="single_share_bar">
+           	 		<ul class="h_list">
+           	 			<li><strong>Share:</strong></li>
+           	 			<li class="twitter_list"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="iDownloadBlog">Tweet</a></li> 
+						<li class="facebook_list"><iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.idownloadblog.com%2F2017%2F02%2F09%2Fmac-malware-microsoft-word-macros%2F%2F&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe></li>
+						<li><strong>Follow:</strong></li>
+						<li><a href="https://twitter.com/iDownloadBlog" class="twitter-follow-button" data-show-count="false">Follow @iDownloadBlog</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li> 
+						<li><iframe src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FiDownloadBlog%2F&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:90px; height:20px;" allowTransparency="true"></iframe></li>
+					</ul>
+				</div>		
+           	 	<div class="ad300x600">
+           	 		<div>
+           	 		<!-- begin ad tag (tile=4) -->
+<!-- /19083943/iDB_Desktop_Below_Content -->
+<div id='div-gpt-ad-1466452170113-0' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1466452170113-0'); });
+</script>
+</div>
+				<!-- end ad tag -->
+				</div>
+           	 	</div>
+           	 	
+           	 	<div class="top_posts special">
+					<h3>We Recommend</h3>
+					<ul class="related_post"><li><a href="http://www.idownloadblog.com/2017/02/15/new-mac-malware-from-russia-targets-your-saved-passwords-and-iphone-backups/" title="New Mac malware from Russia targets your saved passwords and iPhone backups"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-desktop-Siri-image-001-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-desktop-Siri-image-001-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/06/macOS-Sierra-desktop-Siri-image-001-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a><a href="http://www.idownloadblog.com/2017/02/15/new-mac-malware-from-russia-targets-your-saved-passwords-and-iphone-backups/" title="New Mac malware from Russia targets your saved passwords and iPhone backups">New Mac malware from Russia targets your saved passwords and iPhone backups</a></li><li><a href="http://www.idownloadblog.com/2017/01/19/malwarebytes-reports-first-case-of-mac-malware-for-2017-points-out-antiquated-tactics/" title="Malwarebytes reports first case of Mac malware for 2017, points out antiquated tactics"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-55x55.png" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-55x55.png 55w, http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-403x400.png 403w, http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-768x763.png 768w, http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-144x144.png 144w, http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-593x589.png 593w, http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon-220x220.png 220w, http://media.idownloadblog.com/wp-content/uploads/2017/01/malwarebytes-icon.png 898w" sizes="(max-width: 55px) 100vw, 55px" /></a><a href="http://www.idownloadblog.com/2017/01/19/malwarebytes-reports-first-case-of-mac-malware-for-2017-points-out-antiquated-tactics/" title="Malwarebytes reports first case of Mac malware for 2017, points out antiquated tactics">Malwarebytes reports first case of Mac malware for 2017, points out antiquated tactics</a></li><li><a href="http://www.idownloadblog.com/2016/07/07/macos-sierra-preview-auto-unlock/" title="macOS Sierra preview: Auto Unlock your Mac with your Apple Watch"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/07/macOS-Sierra-Preview-Auto-Unlock-teaser-001-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/07/macOS-Sierra-Preview-Auto-Unlock-teaser-001-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/07/macOS-Sierra-Preview-Auto-Unlock-teaser-001-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a><a href="http://www.idownloadblog.com/2016/07/07/macos-sierra-preview-auto-unlock/" title="macOS Sierra preview: Auto Unlock your Mac with your Apple Watch">macOS Sierra preview: Auto Unlock your Mac with your Apple Watch</a></li><li><a href="http://www.idownloadblog.com/2016/06/25/differential-privacy-overview/" title="A closer look at Differential Privacy in iOS 10 and macOS Sierra"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/01/ios-privacy-icon-55x55.png" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/01/ios-privacy-icon-55x55.png 55w, http://media.idownloadblog.com/wp-content/uploads/2016/01/ios-privacy-icon-144x144.png 144w" sizes="(max-width: 55px) 100vw, 55px" /></a><a href="http://www.idownloadblog.com/2016/06/25/differential-privacy-overview/" title="A closer look at Differential Privacy in iOS 10 and macOS Sierra">A closer look at Differential Privacy in iOS 10 and macOS Sierra</a></li></ul>					<div class="clear"></div>
+				</div>
+					
+				<div id="related_posts">
+					<h3>Related Topics</h3><div class="tags_list"><a href="http://www.idownloadblog.com/tag/apple/" rel="tag">Apple</a>, <a href="http://www.idownloadblog.com/tag/mac/" rel="tag">Mac</a>, <a href="http://www.idownloadblog.com/tag/macos/" rel="tag">macOS</a>, <a href="http://www.idownloadblog.com/tag/malware/" rel="tag">Malware</a>, <a href="http://www.idownloadblog.com/tag/microsoft/" rel="tag">Microsoft</a>, <a href="http://www.idownloadblog.com/tag/microsoft-office/" rel="tag">Microsoft Office</a>, <a href="http://www.idownloadblog.com/tag/news/" rel="tag">News</a>, <a href="http://www.idownloadblog.com/tag/office/" rel="tag">Office</a>, <a href="http://www.idownloadblog.com/tag/privacy/" rel="tag">Privacy</a>, <a href="http://www.idownloadblog.com/tag/security/" rel="tag">Security</a>, <a href="http://www.idownloadblog.com/tag/word/" rel="tag">Word</a></div>				</div>
+<!-- Start Google related content -->
+<br/>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="autorelaxed"
+     data-ad-client="ca-pub-2130162217902648"
+     data-ad-slot="3663148822"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- End Google related content -->
+			</div>	
+   			
+		<div id="single_comments">
+    		
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://www.idownloadblog.com/2017/02/09/mac-malware-microsoft-word-macros/';
+var disqus_identifier = '460123 http://www.idownloadblog.com/?p=460123';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'idownloadblog';
+var disqus_title = "New malware uses auto-running macros in Word documents to infect your Mac";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=460123';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+    	</div>	
+	</div>
+	</div>
+  
+	<div id="sidebar" class="grid_8">
+
+        	<div class="ad_panel" style="margin-top:0">
+			<div align="center">
+				<div id="top_side_ad">
+                                	<!-- begin ad tag (tile=2) -->
+					<!-- iDB Desktop Sidebar1 300x250 -->
+					<div id='iDB_Desktop_Sidebar1_300x250'>
+						<script type='text/javascript'>
+							googletag.cmd.push(function() { googletag.display('iDB_Desktop_Sidebar1_300x250'); });
+						</script>
+					</div>
+                	                <!-- end ad tag -->
+              			</div>
+			</div>
+        		<div class="clear">&nbsp;</div>
+    		</div>
+                        <div class="clearjz"></div>
+
+
+                <div id="side_search">
+                        <form action="http://www.idownloadblog.com/search/" id="cse-search-box" name="google_search">
+                                <div>
+                                <input type="hidden" name="cx" value="partner-pub-2130162217902648:dgi3x3-xedb" />
+                                <input type="hidden" name="cof" value="FORID:11" />
+                                <input type="hidden" name="ie" value="ISO-8859-1" />
+                                <input type="text" class="text" name="q" size="31" id="search_input" value=" " />
+                                <a id="google_search" onclick="document.google_search.submit()"">Search</a>
+                                </div>
+                        </form>
+                        <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+                </div>
+
+
+
+		<div id="stay_connected">
+			<h3>Connect with iDownloadBlog</h3>
+			<div id="share_links">
+				<div id="share_icons">
+					<div class="share_outside" id="fb_button">
+						<iframe src="http://www.facebook.com/plugins/like.php?href=https://www.idownloadblog.com%2F&amp;layout=button_count&amp;show_faces=false&amp;width=50&amp;action=like&amp;font=lucida+grande&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:20px;" allowTransparency="true"></iframe>
+					</div>
+					<div class="share_outside" id="tw_button">
+						<a href="http://twitter.com/iDownloadBlog" class="twitter-follow-button" data-show-count="false"></a>
+					</div>
+					<div class="share_outside" id="p1_button">
+						<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+						 <g:plusone size="medium" count="false" href="http://www.idownloadblog.com"></g:plusone>
+					</div>
+				</div>
+				<div id="share_options">
+					<div id="share_left">
+						<div class="share_option">
+							<a href="http://www.facebook.com/iDownloadBlog" target="_blank"><span class="share_icon" id="facebook_icon"></span></a>
+							<div class="share_text">
+								<h4><a href="http://www.facebook.com/iDownloadBlog" target="_blank">Facebook</a></h4>
+								<p><a href="http://www.facebook.com/iDownloadBlog" target="_blank">Become a fan</a></p>
+							</div>	
+						</div>
+						<div class="share_option">
+							<a href="http://www.idownloadblog.com/feed/"><span class="share_icon" id="rss_icon"></span></a>
+							<div class="share_text">
+								<h4><a href="http://www.idownloadblog.com/feed/">RSS</a></h4>
+								<p><a href="http://www.idownloadblog.com/feed/">Get the latest news</a></p>
+							</div>	
+						</div>
+						<div class="share_option">
+							<a href="http://www.youtube.com/myjailbreakmovies" target="_blank"><span class="share_icon" id="youtube_icon"></span></a>
+							<div class="share_text">
+								<h4><a href="http://www.youtube.com/myjailbreakmovies" target="_blank">YouTube</a></h4>
+								<p><a href="http://www.youtube.com/myjailbreakmovies" target="_blank">Watch Us</a></p>
+							</div>	
+						</div>
+					</div>
+					<div id="share_right">
+						<div class="share_option">
+							<a href="http://twitter.com/iDownloadBlog" target="_blank"><span class="share_icon" id="twitter_icon"></span></a>
+							<div class="share_text">
+								<h4><a href="http://twitter.com/iDownloadBlog" target="_blank">Twitter</a></h4>
+								<p><a href="http://twitter.com/iDownloadBlog" target="_blank">Stay up to date</a></p>
+							</div>	
+						</div>
+						<div class="share_option">
+							<a href="http://feedburner.google.com/fb/a/mailverify?uri=iphonedlb&loc=en_US" target="_blank"><span class="share_icon" id="newsletter_icon"></span></a>
+							<div class="share_text">
+								<h4><a href="http://feedburner.google.com/fb/a/mailverify?uri=iphonedlb&loc=en_US" target="_blank">Newsletter</a></h4>
+								<p><a href="http://feedburner.google.com/fb/a/mailverify?uri=iphonedlb&loc=en_US" target="_blank">News delivered to you</a></p>
+							</div>	
+						</div>
+						<div class="share_option">
+							<a href="https://plus.google.com/u/0/b/111910843959038324995/" target="_blank"><span class="share_icon" id="tip_icon"></span></a>
+							<div class="share_text">
+								<h4><a href="https://plus.google.com/u/0/b/111910843959038324995/" target="_blank">Google+</a></h4>
+								<p><a href="https://plus.google.com/u/0/b/111910843959038324995/" target="_blank">Add us to your circle</a></p>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="clearjz"></div>
+			</div>	
+		</div>
+		
+    	<div class="ad_panel">
+         <div align="center">		
+			<div id="top_side_ad" style="margin-bottom: 15px;">
+				<!-- begin ad tag (tile=4) -->
+<!-- iDB Desktop Sidebar2 300x250 -->
+<div id='iDB_Dektop_Sidebar2_300x250' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('iDB_Dektop_Sidebar2_300x250'); });
+</script>
+</div>
+				<!-- end ad tag -->
+			</div>
+         </div>
+        <div class="clear">&nbsp;</div>
+        
+        
+        
+    </div>
+	<!-- END 300 AD CODE -->
+
+
+		<div class="clearjz"></div>
+		
+		
+		
+	
+	<!-- START Most Recent -->
+					<div class="most_recent_posts">
+				<h3>The most recent headlines</h3>
+				<div class="most_recent_list">
+										<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/translucentmessages/" rel="bookmark" title="TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-144x144.jpg 144w, http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-1472x1472.jpg 1472w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/translucentmessages/" rel="bookmark" title="TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects">TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/nowifiwhenrunthisplz/" rel="bookmark" title="This tweak will let you force cellular network connections when launching certain apps"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/10/iPhone-Cellular-Data-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/10/iPhone-Cellular-Data-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/10/iPhone-Cellular-Data-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/nowifiwhenrunthisplz/" rel="bookmark" title="This tweak will let you force cellular network connections when launching certain apps">This tweak will let you force cellular network connections when launching certain apps</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/apps-of-the-week-february-18-2/" rel="bookmark" title="Crawlies, Cleanfox, TwIM and other apps to check out this weekend"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/01/Apps-to-check-out-this-weekend-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/01/Apps-to-check-out-this-weekend-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/01/Apps-to-check-out-this-weekend-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/apps-of-the-week-february-18-2/" rel="bookmark" title="Crawlies, Cleanfox, TwIM and other apps to check out this weekend">Crawlies, Cleanfox, TwIM and other apps to check out this weekend</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/accesswithinapps/" rel="bookmark" title="AccessWithinApps prevents launch of Control and Notification Centers in specific apps"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-144x144.jpg 144w, http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-1472x1472.jpg 1472w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/accesswithinapps/" rel="bookmark" title="AccessWithinApps prevents launch of Control and Notification Centers in specific apps">AccessWithinApps prevents launch of Control and Notification Centers in specific apps</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post last">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/noclose/" rel="bookmark" title="NoClose prevents you from accidentally force-quitting apps that are currently playing media"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/NoClose-Prompt-55x55.png" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/NoClose-Prompt-55x55.png 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/NoClose-Prompt-144x144.png 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/noclose/" rel="bookmark" title="NoClose prevents you from accidentally force-quitting apps that are currently playing media">NoClose prevents you from accidentally force-quitting apps that are currently playing media</a></h4>
+						</div>
+					</div>
+							<div class="clearjz"></div>
+			</div>
+		</div>
+		<!-- END Most Recent -->
+		
+		<!-- Edited -->
+
+<!-- START 300 AD CODE 2 -->
+    	<div class="ad_panel">
+         
+         <div align="center">		
+			<div id="top_side_ad" style="margin-bottom: 15px;">
+				<!-- begin ad tag (tile=4) -->
+<!-- iDB Desktop Sidebar3 300x250 -->
+<div id='iDB_Desktop_Sidebar3_300x250' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('iDB_Desktop_Sidebar3_300x250'); });
+</script>
+</div>
+				<!-- end ad tag -->
+			</div>
+         </div>
+        <div class="clear">&nbsp;</div>
+    </div>
+<!-- END 300 AD CODE 2 -->
+		
+		<!-- START Popular Tag -->
+					<div class="most_recent_posts">
+				<h3>The latest jailbreak news</h3>
+				<div class="most_recent_list">
+										<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/translucentmessages/" rel="bookmark" title="TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-144x144.jpg 144w, http://media.idownloadblog.com/wp-content/uploads/2017/02/TranslucentMessages-Full-Messages-App-Translucency-1472x1472.jpg 1472w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/translucentmessages/" rel="bookmark" title="TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects">TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/nowifiwhenrunthisplz/" rel="bookmark" title="This tweak will let you force cellular network connections when launching certain apps"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/10/iPhone-Cellular-Data-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/10/iPhone-Cellular-Data-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2016/10/iPhone-Cellular-Data-144x144.jpg 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/nowifiwhenrunthisplz/" rel="bookmark" title="This tweak will let you force cellular network connections when launching certain apps">This tweak will let you force cellular network connections when launching certain apps</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/accesswithinapps/" rel="bookmark" title="AccessWithinApps prevents launch of Control and Notification Centers in specific apps"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-55x55.jpg" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-55x55.jpg 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-144x144.jpg 144w, http://media.idownloadblog.com/wp-content/uploads/2017/02/AccessWithinApps-Banner-1472x1472.jpg 1472w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/accesswithinapps/" rel="bookmark" title="AccessWithinApps prevents launch of Control and Notification Centers in specific apps">AccessWithinApps prevents launch of Control and Notification Centers in specific apps</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/18/noclose/" rel="bookmark" title="NoClose prevents you from accidentally force-quitting apps that are currently playing media"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2017/02/NoClose-Prompt-55x55.png" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2017/02/NoClose-Prompt-55x55.png 55w, http://media.idownloadblog.com/wp-content/uploads/2017/02/NoClose-Prompt-144x144.png 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/18/noclose/" rel="bookmark" title="NoClose prevents you from accidentally force-quitting apps that are currently playing media">NoClose prevents you from accidentally force-quitting apps that are currently playing media</a></h4>
+						</div>
+					</div>
+									<div class="most_recent_post last">
+						<div class="recent_thumb">
+							<a href="http://www.idownloadblog.com/2017/02/17/makerespringsgreatagain/" rel="bookmark" title="Jailbroken on iOS 10 and miss the Apple logo respring screen? This tweak brings it back"><img width="55" height="55" src="http://media.idownloadblog.com/wp-content/uploads/2016/06/iPhone-Rebooting-55x55.png" class="attachment-featured-small size-featured-small wp-post-image" alt="" srcset="http://media.idownloadblog.com/wp-content/uploads/2016/06/iPhone-Rebooting-55x55.png 55w, http://media.idownloadblog.com/wp-content/uploads/2016/06/iPhone-Rebooting-144x144.png 144w" sizes="(max-width: 55px) 100vw, 55px" /></a>
+						</div>
+						<div class="recent_title">
+							<h4><a href="http://www.idownloadblog.com/2017/02/17/makerespringsgreatagain/" rel="bookmark" title="Jailbroken on iOS 10 and miss the Apple logo respring screen? This tweak brings it back">Jailbroken on iOS 10 and miss the Apple logo respring screen? This tweak brings it back</a></h4>
+						</div>
+					</div>
+							<div class="clearjz"></div>
+			</div>
+		</div>
+		<!-- END Most Popular Tag -->
+
+
+   <!-- START Facebook -->
+                <div class="ad_panel" id="facebook_box">
+            <div class="ad_panel_header"></div>
+                        <div align="center">
+                                <div class="fb-page" data-href="https://www.facebook.com/idownloadblog" data-width="300" data-height="287" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/idownloadblog"><a href="https://www.facebook.com/idownloadblog">iDownloadBlog</a></blockquote></div></div>
+                <div class="clear">&nbsp;</div>
+             </div>
+            <div class="clear">&nbsp;</div>
+        </div>
+                <!-- END Facebook -->
+
+<!-- START STACK AD CODE -->
+    	<div class="ad_panel">
+         <div align="center">		
+			<div id="top_side_ad" style="margin-bottom: 15px;">
+				
+<!-- iDB-300x250-2 -->
+<div id='div-gpt-ad-1422309248801-0' style='width:300px; height:250px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1422309248801-0'); });
+</script>
+</div>		
+			</div>
+         </div>
+         <div class="clear">&nbsp;</div>  
+        </div>
+<!-- END STACK AD CODE -->
+
+
+</div>
+</div>
+<div class="clear">&nbsp;</div>			<div class="clear">&nbsp;</div>
+			<div class="footer_ad" style="width:728px;margin:15px auto">
+				<!-- begin ad tag (tile=5) -->
+<!-- iDB Desktop Footer -->
+<div id='iDB_Desktop_Footer'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('iDB_Desktop_Footer'); });
+</script>
+</div>
+				<!-- end ad tag -->
+			</div>
+			
+			</div><!-- end wrapper -->
+		</div><!-- end page -->	
+		<div id="footer">
+			<div class="container_24 footer_wrap">
+				<div id="footer_logo" class="grid_5">
+					<a href="/">iDownloadblog.com</a>
+				</div>
+				<div id="footer_content" class="grid_19">
+					<ul id="menu-footer_menu" class="menu">
+						<li id="menu-item-83503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83503"><a>About</a>
+							<ul class="sub-menu">
+								<li id="menu-item-83504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83504"><a href="http://www.idownloadblog.com/about/">About</a></li>
+								<li id="menu-item-83625" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83625"><a href="http://www.idownloadblog.com/advertise/">Advertise</a></li>
+								<li id="menu-item-83507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83507"><a href="http://www.idownloadblog.com/contact/">Contact</a></li>
+							</ul>
+						</li>
+						<li id="menu-item-83508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83508"><a>Keep in Touch</a>
+							<ul class="sub-menu">
+								<li id="menu-item-83516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83516"><a href="http://twitter.com/idownloadblog">Twitter</a></li>
+								<li id="menu-item-83517" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83517"><a href="http://www.facebook.com/iDownloadBlog">Facebook</a></li>
+								<li id="menu-item-83515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83515"><a href="http://feedproxy.google.com/iphonedlb">RSS Feed</a></li>
+								<li id="menu-item-83513" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83513"><a href="http://feedburner.google.com/fb/a/mailverify?uri=iphonedlb&amp;loc=en_US">Newsletter</a></li>
+								<li id="menu-item-83515" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83515"><a href="http://www.idownloadblog.com/push/">Push Notifications</a></li>
+							</ul>
+						</li>
+						<li id="menu-item-83508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83508"><a>Podcasts</a>
+							<ul class="sub-menu">
+								<li id="menu-item-83516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83516"><a href="https://itunes.apple.com/us/podcast/lets-talk-ios/id738213189?mt=2">Let's Talk iOS</a></li>
+								<li id="menu-item-83517" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83517"><a href="http://www.idownloadblog.com/2013/05/30/subscribe-lets-talk-jailbreak/">Let's Talk Jailbreak</a></li>
+							</ul>
+						</li>
+						<li id="menu-item-83564" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83564"><a>Site Stuff</a>
+							<ul class="sub-menu">
+
+								<li id="menu-item-98134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98134"><a href="http://www.idownloadblog.com/disclosure/">Disclosure</a></li>
+								<li id="menu-item-83506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83506"><a href="http://www.idownloadblog.com/privacy-policy/">Privacy Policy</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clear">&nbsp;</div>
+			</div><!-- end container -->
+		</div>
+	
+		<div id="copyright">
+    		Copyright iDownloadBlog 2017. This website is not affiliated with Apple.
+    	</div>
+
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'idownloadblog';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1 && nodes[i].parentNode.tagName == 'A') {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <!-- Powered by WPtouch Pro: 3.6.5 -->
+		<script type="text/javascript">
+			jQuery(document).ready( function( ) {
+            // Load Twitter widget script
+            	jQuery.getScript("http://platform.twitter.com/widgets.js");
+        });
+		</script>
+	<script type='text/javascript' src='http://media.idownloadblog.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript' src='http://media.idownloadblog.com/wp-includes/js/comment-reply.min.js?ver=4.7.2'></script>
+<script type='text/javascript' src='http://media.idownloadblog.com/wp-includes/js/wp-embed.min.js?ver=4.7.2'></script>
+<!-- START Taboola -->
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>
+<!-- END Taboola -->
+<!-- START VIBRANT -->
+<script type="text/javascript" src="http://idownloadblog.us.intellitxt.com/intellitxt/front.asp?ipid=82288"></script>
+<!-- END VIBRANT -->
+<!-- START FB SIDEBAR WIDGET -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- END FB SIDEBAR WIDGET -->
+<!-- START SOURCEPOINT -->
+<script async="async" data-client-id="cGxtsXGLiRhplgx" type="text/javascript" src="//d2lv4zbk7v5f93.cloudfront.net/khp.js"></script>
+<!-- END SOURCEPOINT -->
+</body>
+</html>

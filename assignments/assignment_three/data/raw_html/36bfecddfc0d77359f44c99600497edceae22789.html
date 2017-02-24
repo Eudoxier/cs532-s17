@@ -1,0 +1,2613 @@
+<!DOCTYPE html>
+<html class="no-svg no-js" itemscope itemtype="http://schema.org/WebPage" lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"30b3ffac80","applicationID":"29725091","transactionName":"dAwPFRELDlhUFBpDQkRMEQAEAREbXQ9GQFtZBA==","queueTime":0,"applicationTime":18332,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="HandheldFriendly" content="True"/>
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta name="google-site-verification" content="tGci50LRnB4lh1psBDfiQOWlat0mJE3zFqgK11txjNE" />
+<meta name="msvalidate.01" content="EBEF18626E74108AF52FD6A90AA49369" />
+
+	<title>Computing - The UK&#39;s leading source for the analysis of business technology</title>
+	<meta name="description" content="Computing is the leading information resource for UK technology decision makers, providing the latest market news and hard-hitting opinion." />
+	<meta name="keywords" content="it computing uk, computing events, big data summit, cloud and infrastructure, it devops, computing security, HP, intel " />
+
+
+<!--Dont change the position of this file -->
+<link rel="canonical" href="http://www.computing.co.uk/" />
+
+<meta name="apple-itunes-app" content="app-id=1033854185">
+<meta http-equiv="Set-Cookie" content="last_visited_page=/;path=/;domain=.computing.co.uk;" />
+
+
+
+<link href="http://www.computing.co.uk/images/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="57x57">
+<link href="http://www.computing.co.uk/images/favicons/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+<link href="http://www.computing.co.uk/images/favicons/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+<link href="http://www.computing.co.uk/images/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+<link href="http://www.computing.co.uk/images/favicons/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+<link href="http://www.computing.co.uk/images/favicons/icon-hires.png" rel="icon" sizes="192x192">
+<link href="http://www.computing.co.uk/images/favicons/icon-normal.png" rel="icon" sizes="128x128">
+<link href="http://www.computing.co.uk/images/favicons/32x32.ico" rel="shortcut icon" type="image/png">
+
+<meta name="msapplication-TileImage" content="http://www.computing.co.uk/images/favicons/mstile-144x144.png">
+	<meta name="msapplication-TileColor" content="#094c81">
+
+<meta property="og:title" content="Computing - The UK&#39;s leading source for the analysis of business technology "/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://www.computing.co.uk/"/>
+<meta property="og:image" content="http://m.computing.co.uk/images/branding_logo.svg"/>
+<meta property="og:site_name" content="http://www.computing.co.uk"/>
+<meta property="og:description" content="Computing is the leading information resource for UK technology decision makers, providing the latest market news and hard-hitting opinion." />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="computing_news"/>
+<meta name="twitter:domain" content="http://www.computing.co.uk/">
+<meta property="twitter:url" content="http://www.computing.co.uk/"/>
+<meta property="twitter:image" content="http://m.computing.co.uk/images/branding_logo.svg"/>
+<meta property="twitter:description" content="Computing is the leading information resource for UK technology decision makers, providing the latest market news and hard-hitting opinion."/>
+<meta itemprop="name" content="Computing - The UK&#39;s leading source for the analysis of business technology"/>
+<meta itemprop="description" content="Computing is the leading information resource for UK technology decision makers, providing the latest market news and hard-hitting opinion."/>
+
+
+		
+		<link href="http://assets.incisivemedia.com/cdn/ctg/styles/styles.css" media="all" rel="stylesheet" type="text/css">
+
+		<!--[if lt IE 9]>
+		<script src="http://assets.incisivemedia.com/cdn/global/scripts/html5shiv.js"></script>
+		<link href="http://assets.incisivemedia.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+		<link href="/images/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+		<![endif]-->
+		
+		<!--[if lt IE 9]>
+        	<script src="http://assets.incisivemedia.com/cdn/global/scripts/respond.js"></script>
+           	<script src="/javascripts/respond.proxy.js"></script>
+		<![endif]-->
+              	<script type="text/javascript" language="Javascript">
+		universal_variable_string = '{ "page": { "url": "http://www.computing.co.uk/", "title": "Computing - The UK&#39;s leading source for the analysis of business technology", "description": "home::ctg_rails4", "type": "home", "category" : "null", "parentcategory": "null", "id": "null", "environment": "", "site":"computing.co.uk", "platform":"" } }';
+	</script>
+
+		<!-- Start: GIT head script -->
+                       <script type="text/javascript" src='//assets.incisivemedia.com/javascript/live/computing/javascript-computing.head.min.js'></script>
+               <!-- End: GIT head script -->
+		<!-- QUBIT OpenTag Start -->
+		<!-- (1:V9:IW: investmentweek.co.uk (Investment Week)) , loads V9:All and 0:Global as dependancies -->
+		<script src='//d3c3cq33003psk.cloudfront.net/opentag-53775-238477.js' async defer></script>
+		<!-- QUBIT OpenTag End -->
+		<script>
+		(function(H){H.className=H.className.replace(/\bno-js\b/,'')})(document.documentElement);
+		(function(H){H.className=H.className.replace(/\bno-svg\b/,'')})(document.documentElement);
+		 !function(){"use strict";function e(e,t,s){e.addEventListener?e.addEventListener(t,s,!1):e.attachEvent&&e.attachEvent("on"+t,s)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function s(){if(window.localStorage&&window.XMLHttpRequest)if(t(n))c(localStorage.font_css_cache);else{var e=new XMLHttpRequest;e.open("GET",n,!0),e.onreadystatechange=function(){4===e.readyState&&200===e.status&&(c(e.responseText),localStorage.font_css_cache=e.responseText,localStorage.font_css_cache_file=n)},e.send()}else{var s=document.createElement("link");s.href=n,s.rel="stylesheet",s.type="text/css",document.getElementsByTagName("head")[0].appendChild(s),document.cookie="font_css_cache"}}function c(e){var t=document.createElement("style");t.setAttribute("type","text/css"),document.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var n="http://assets.incisivemedia.com/cdn/iw/styles/fonts/sourcesans_sourcesansbold.css?ver=1";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?s():e(window,"load",s)}();
+		</script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	</head>
+	<body>
+	<div id="rdm-overlay" class="ad-slot-overlay"></div>
+	<div id="rdm-wallpaper" class="ad-slot-wallpaper"></div>
+			<div class="container">
+				<aside class="content">
+	<div class="content-inner content-full-width">
+		<div class="main-content">
+				<div id="rdm-above-header" class="ad-slot-full"></div>
+		</div>
+	</div>
+</aside>
+
+				<div class="menu-sidebar">
+	<div class="menu-sidebar-inner">
+		<div class="search-3 header-search-holder blur">
+			<form id="search_form" action="/search" accept-charset="UTF-8" method="get">
+				<input type="submit" value="" aria-labelledby="Search" />
+				<span>
+					 <input id="search_header" type="search" name="query" value="" required="" placeholder="Search here..." aria-labelledby="Search here">
+				</span>
+				<input type="hidden" name="per_page" id="per_page" value="24" class="hidden_style" />
+				<input type="hidden" name="sort" id="sort" value="relevance1" class="hidden_style" />
+				<input type="hidden" name="date" id="date" value="this_year" class="hidden_style" />
+</form>		</div>
+	</div>
+	<nav class="mobile-nav">
+	<ul class="mobile-nav-ul">
+		<li class="active">
+		    <div class="mobile-menu-title">
+		        <a title="Home" href="/">Home</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="News" href="/type/news">News</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Big Data &amp; Analytics" href="/category/big-data-and-analytics">Big Data &amp; Analytics</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="DevOps" href="/category/devops">DevOps</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Security" href="/category/security">Security</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Internet of Things" href="/category/internet-of-things">Internet of Things</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="OpenSource" href="/category/software/open-source">OpenSource</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Cloud &amp; Infrastructure" href="/category/cloud-and-infrastructure">Cloud &amp; Infrastructure</a>
+		    </div>
+		</li>
+		<li >
+		    <div class="mobile-menu-title">
+		        <a title="Leadership" href="/category/leadership">Leadership</a>
+		    </div>
+		</li>
+  </ul>
+</nav>
+<div class="menu-sidebar-inner">
+    <ul class="sidebar-list">
+		        <li>
+		        	<a href="/events" target="_blank">Events</a>
+		        </li>
+
+
+			        <li>
+			        	<a href="http://www.computing.co.uk/static/resources" target="_blank">Resources</a>
+			        </li>
+		        <li>
+		        	<a href="http://www.computing.co.uk/static/top-100-cios">Top 100 CIOs</a>
+		        </li>
+
+
+		        <li>
+		        	<a href="http://www.computing.co.uk/static/research">Research</a>
+		        </li>
+        <li><a href="http://www.computing.co.uk/ctg/special/2430208/smb-spotlight" target="_blank">SMB Spotlight</a></li>
+
+					<li>
+					    <a href="http://www.computing.co.uk/ctg/content-hub/2465586/uc-c-spotlight" target="_blank">UC&amp;C Spotlight</a>
+					</li>
+
+			<li class="nav-tools newsletters">
+				<a href="http://email.computing.co.uk/k/Incisive-Media/computing_sign_up_form?_ga=1.39528675.194303802.1453395573" target="_blank">Newsletters</a>
+			</li>
+        <li class="nav-tools login-icon menu-login-trigger"><a href="">Sign in</a></li>
+    </ul>
+</div>
+
+</div>
+
+<nav class="main-top-nav">
+	<ul class="main-top-content main-top-menu content-width">
+			<li class="main-top-title main-top-tab-panel main-top-events" id="events">
+				<a href="/events" target="_blank">Events</a>
+				<ul class="menu-top-panel">
+					<li>
+						<!-- ::::::::::::::::::::: events panel content start  ::::::::::::::::::::: -->
+						<div class="section group content">
+							<div class="col-lrg span-lrg_4_of_5 latest-events">
+		<header>
+			<div class="menu-top-panel-heading">
+				Upcoming events
+			</div>
+		</header>
+		<div class="latest-events-holder" id="featured-event">
+				<article>
+				    <div class="image-text-group-a">
+				        <a target="_blank" href="http://events.computing.co.uk/itleadersclub"><img alt="event logo" title="IT Leaders Club" src="http://www.incisive-events.com/IMG/073/47073/ctgits15-logo-club-130x80.jpg" /></a>
+				    </div>
+				    <div class="image-text-group-b">
+				        <h5 class="listings-article-title">
+				        	<a href="http://events.computing.co.uk/itleadersclub" title="IT Leaders Club" target="_blank">IT Leaders Club</a>
+				        </h5>
+							<p class="truncate-listing">
+								The IT Leaders Dining Club is an exclusive, invitation-only organisation comprising the UK’s top CIOs, CTOs and other technologists and business leaders. 
+							</p>
+				        <ul class="article-meta-details">
+							<li>
+								<time itemprop="datePublished" datetime="18-01-2017">
+									<strong>Date:</strong> 18 Jan 2017
+								</time>
+							</li>
+							<li>
+								 London
+							</li>
+						</ul> 
+				    </div>
+				</article>
+				<article>
+				    <div class="image-text-group-a">
+				        <a target="_blank" href="http://webinars.computing.co.uk/having-the-agility-of-public-cloud-inside-your-four-walls/register?redirect=%2Fhaving-the-agility-of-public-cloud-inside-your-four-walls"><img alt="event logo" title="Having the agility of public cloud inside your four walls" src="http://www.incisive-events.com/IMG/102/58102/computing-webinar-logo-130x80.jpg" /></a>
+				    </div>
+				    <div class="image-text-group-b">
+				        <h5 class="listings-article-title">
+				        	<a href="http://webinars.computing.co.uk/having-the-agility-of-public-cloud-inside-your-four-walls/register?redirect=%2Fhaving-the-agility-of-public-cloud-inside-your-four-walls" title="Having the agility of public cloud inside your four walls" target="_blank">Having the agility of public cloud inside your four walls</a>
+				        </h5>
+							<p class="truncate-listing">
+								During this web seminar our expert panellists will be investigating how public-cloud-like agility can be brought within the four walls of the data centre, what organisations should be looking for in a hybrid cloud architecture and what is made possible with building block architectures.
+							</p>
+				        <ul class="article-meta-details">
+							<li>
+								<time itemprop="datePublished" datetime="23-02-2017">
+									<strong>Date:</strong> 23 Feb 2017
+								</time>
+							</li>
+							<li>
+								 Your Computer
+							</li>
+						</ul> 
+				    </div>
+				</article>
+		</div>
+		<div class="latest-events-holder">
+				<article>
+				    <div class="image-text-group-a">
+				        <a target="_blank" href="http://www.itleadersforum.co.uk"><img alt="event logo" title="IT Leaders Forum" src="http://www.incisive-events.com/IMG/316/17316/scomitlf-logo-130x80.jpg" /></a>
+				    </div>
+				    <div class="image-text-group-b">
+				        <h5 class="listings-article-title">
+				        	<a href="http://www.itleadersforum.co.uk" title="IT Leaders Forum" target="_blank">IT Leaders Forum</a>
+				        </h5>
+							<p class="truncate-listing">
+								The IT Leaders Forum brings together the senior IT professionals who drive technology decisions within major UK enterprises. 
+							</p>
+				        <ul class="article-meta-details">
+							<li>
+								<time itemprop="datePublished" datetime="28-02-2017">
+									<strong>Date:</strong> 28 Feb 2017
+								</time>
+							</li>
+							<li>
+								 London
+							</li>
+						</ul> 
+				    </div>
+				</article>
+				<article>
+				    <div class="image-text-group-a">
+				        <a target="_blank" href="http://webinars.computing.co.uk/so-you-want-to-be-an-A1-billionaire/register"><img alt="event logo" title="So you want to be an AI billionaire?" src="http://www.incisive-events.com/IMG/102/58102/computing-webinar-logo-130x80.jpg" /></a>
+				    </div>
+				    <div class="image-text-group-b">
+				        <h5 class="listings-article-title">
+				        	<a href="http://webinars.computing.co.uk/so-you-want-to-be-an-A1-billionaire/register" title="So you want to be an AI billionaire?" target="_blank">So you want to be an AI billionaire?</a>
+				        </h5>
+							<p class="truncate-listing">
+								During this web seminar our expert panel will be looking at how cloud can support the various stages of innovation, what to look for at each stage, and how cloud is changing the way innovation happens.
+							</p>
+				        <ul class="article-meta-details">
+							<li>
+								<time itemprop="datePublished" datetime="01-03-2017">
+									<strong>Date:</strong> 01 Mar 2017
+								</time>
+							</li>
+							<li>
+								 Your Computer
+							</li>
+						</ul> 
+				    </div>
+				</article>
+		</div>
+	<div class="panel-section-footer">
+		<div class="more-holder">
+			<a class="more-link" href="/events" target="_blank">
+				<svg class="more-icon arrow-right" x="0" y="0" width="0.438em" height="0.938em">
+					<polygon points="0,3.553 3.947,7.5 0,11.447 0,14.5 7,7.5 0,0.5 "></polygon>
+				</svg> 
+				View all events
+			</a>
+		</div>
+	</div>
+</div>
+				
+							
+						</div>
+						<!-- ::::::::::::::::::::: events panel content end  ::::::::::::::::::::: -->
+					</li>
+				</ul>
+			</li>
+
+			<li class="main-top-title main-top-tab-panel main-top-hound" id="hound">
+				   <a href="http://www.computing.co.uk/static/resources" target="_blank">Resources</a>
+				<ul class="menu-top-panel">
+					<li>
+						<!-- ::::::::::::::::::::: hound panel content start  ::::::::::::::::::::: -->
+						<div class="section group content">
+							<div class="col span-lrg_4_of_5">
+									<header>
+										<div class="menu-top-panel-heading">LATEST WHITEPAPERS</div>
+									</header>
+								<section class="top-panel-paper">
+	<div class="image-text-group-a">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1694&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/7a35b947-57c7-4c2c-8a3d-51d4cd4bf10d/1/computingresourcess-120x194.png" alt="Computingresourcess 120x194" /></a>
+	</div>
+	<div class="image-text-group-b">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1694&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Security solutions: How hypervisor introspection can secure your systems</a>
+		<p>Traditional endpoint security is failing to keep us safe from cyberthreats. It takes companies an average of 5 months to detect a data breach - which is 5 months too long. Virtualisation has added a hypervisor layer below operating systems which can be used to secure your systems...</p>
+		<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1694&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+	</div>
+</section>
+	                            <section class="top-panel-paper">
+	<div class="image-text-group-a">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1854&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/6615e910-d80e-4cab-8d27-76e2b31cbe3f/1/computingresourcess-120x194.png" alt="Computingresourcess 120x194" /></a>
+	</div>
+	<div class="image-text-group-b">
+		<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1854&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Chameleon storage – finding the software-defined storage solutions which suit you</a>
+		<p>Software-defined storage (SDS) has not been blessed with a universally accepted definition. It's more useful to think of it as storage which repositions itself to provide functionality to storage. Find out about creative and flexible SDS solutions to suit you by downloading this whitepaper now.</p>
+		<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1854&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+	</div>
+</section>
+							</div>
+							
+<div class="col span-lrg_1_of_5">
+	<section class="hound-search">
+		<header>
+			<div class="menu-top-panel-heading">Find resources</div>
+			<div class="menu-top-panel-subheading">Search by title or subject area</div>
+		</header>
+		<aside>
+			<form target="_blank" name="multi" method="get" id="hound-search" enctype="multipart/form-data" action="http://www.computing.co.uk/static/resources-search-results">
+				<input type="search" id="search-hound" placeholder="Search papers here" tabindex="1" required="" name="wpSearch">
+					<input type="hidden" value="computing" name="publisher">
+				<input type="submit" class="btn search-hound">
+			</form>		
+		</aside>
+	</section>
+	<div class="panel-section-footer">
+		<div class="more-holder">
+			<a class="more-link" href="http://www.computing.co.uk/static/resources" target="_blank">
+				<svg class="more-icon arrow-right" x="0" y="0" width="0.438em" height="0.938em">
+					<polygon points="0,3.553 3.947,7.5 0,11.447 0,14.5 7,7.5 0,0.5 "></polygon>
+				</svg> 
+				View all resources
+			</a>
+		</div>
+	</div>
+</div>
+
+						</div>
+						<!-- ::::::::::::::::::::: hound panel content end  ::::::::::::::::::::::: -->
+					</li>
+				</ul>
+			</li>
+
+
+		        <li class="main-top-title main-top-tab-link main-top-fundcentre" id="">
+		            <a href="http://www.computing.co.uk/static/top-100-cios">Top 100 CIOs</a>
+		        </li>
+				<li class="main-top-title main-top-tab-link main-top-advertise" id="">
+				    <a href="http://www.computing.co.uk/static/research">Research</a>
+				</li>
+
+
+		<li class="main-top-title main-top-align-right main-top-tab-infobox main-top-login" id="login" style="display:none;">	
+	<a href="/userlogin">Sign in</a>
+</li>
+<li class="main-top-title main-top-align-right main-top-tab-infobox main-top-user" id="user" style="display: none;">
+	<a href="/home/manage_account" class="user-info"></a>
+	
+<div id="rdm-above-corp-menu">&nbsp;</div>
+<ul class="header-tools-content institutional" style="display: none;">
+<li>
+<div class="corporate-menu-information">
+<p class="corporate-menu-information-introduction">You are currently accessing Computing via your Enterprise account.</p>
+<p>If you already have an account please use the link below to <a href="http://www.computing.co.uk/userlogin" title="Sign in">sign in</a>.</p>
+<p>If you have any problems with your access or would like to request an individual access account please contact our customer service team.</p>
+<p>Phone: <a href="tel:+441858438800">+44 (0) 1858 438800</a></p>
+<p>Email: <a href="mailto:customerservices@incisivemedia.com">customerservices@incisivemedia.com</a></p>
+</div>
+<ul class="user-menu">
+<li><a href="http://www.computing.co.uk/userlogin" title="Sign in" class="sign-in-user-link">Sign in</a></li>
+</ul>
+</li>
+</ul>
+<div id="rdm-below-corp-menu">&nbsp;</div>
+	
+<div id="rdm-above-user-menu">&nbsp;</div>
+<ul class="header-tools-content individual" style="display: none;">
+<li>
+<ul class="user-menu"><!-- <li><a href="http://www.computing.co.uk/home/manage_account" title="Saved articles" class="saved-articles-user-link">Saved articles</a></li> -->
+<li><a href="http://email.computing.co.uk/k/Incisive-Media/computing_sign_up_form" title="Newsletters" class="newsletters-user-link">Newsletters</a></li>
+<li><a href="http://www.computing.co.uk/static/apps" title="Apps" class="apps-user-link">Apps</a></li>
+<li><a href="http://www.computing.co.uk/home/manage_account#myaccount" title="Account details" class="account-user-link">Account details</a></li>
+<li><a href="http://www.computing.co.uk/home/manage_account#contact" title="Contact support" class="contact-user-link">Contact support</a></li>
+<li><a href="http://www.computing.co.uk/home/logout" title="Sign out" class="sign-out-user-link">Sign out</a></li>
+</ul>
+</li>
+</ul>
+<div id="rdm-below-user-menu">&nbsp;</div>
+</li>	
+		<li class="main-top-title main-top-align-right main-top-tab-infobox main-top-sociallinks" id="follow" style="display:none;">
+			<a href="#">Follow us</a>
+			<ul class="header-tools-content">
+				<li>
+	<div class="nav-tools rss-icon">
+		<a href="http://www.computing.co.uk/rss-feeds" target="_blank">RSS</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools twitter-icon">
+		<a href="http://twitter.com/computing_news" target="_blank">Twitter</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools linkedin">
+		<a href="http://www.linkedin.com/groups?gid=2366689" target="_blank">LinkedIn</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools newsletters">
+		<a href="http://email.computing.co.uk/k/Incisive-Media/computing_sign_up_form?_ga=1.39528675.194303802.1453395573" target="_blank">Newsletters</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools apps">
+		<a href="http://www.computing.co.uk/static/apps" target="_blank">Apps</a>
+	</div>
+</li>
+
+			</ul>
+		</li>
+			<li class="main-top-title main-top-align-right main-top-tab-link main-top-register" id="register" style="display:none;">
+		<a href="http://www.computing.co.uk/static/register" target="_blank">Register</a>
+	</li>
+<li class="main-top-title main-top-align-right main-top-user-status" id="rdm_header_user_status_link"></li>
+					   <li class="main-top-title main-top-tab-link main-top-fundcentre" id="fundcentre">
+				    <a href="http://www.computing.co.uk/ctg/special/2430208/smb-spotlight">SMB Spotlight</a>
+				</li>
+        
+		<li class="main-top-title main-top-tab-link main-top-fundcentre" id="fundcentre">
+		 <a href="http://www.computing.co.uk/ctg/content-hub/2465586/uc-c-spotlight">UC&amp;C Spotlight</a>
+		</li>
+
+
+	</ul>
+</nav>
+
+
+<header role="banner" class="main-head">
+
+<div class="main-head-content content-width">
+    <div class="site-header">
+    	    <div class="site-logo-holder" itemscope itemtype="http://schema.org/Organization">
+	<div itemprop="name" class="screen-reader-text">
+		Computing
+	</div>
+	<a href="/" title="Return to homepage" class="site-logo"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Computing" class="sprite investmentweek-logo"></a>
+</div>
+			<div class="search-1 header-search-holder blur">
+				<form id="search_form_bottom" action="/search" accept-charset="UTF-8" method="get">
+					<input type="submit" value="" aria-labelledby="Search" />
+					<span>
+						 <input id="search_header" type="search" name="query" value="" required="" placeholder="Search here..." aria-labelledby="Search here">
+					</span>
+					<input type="hidden" name="per_page" id="per_page" value="24" class="hidden_style" />
+					<input type="hidden" name="sort" id="sort" value="relevance1" class="hidden_style" />
+					<input type="hidden" name="date" id="date" value="this_year" class="hidden_style" />
+</form>			</div>
+			<!-- search-1 header-search-holder blur end -->
+		</div>
+	</div>
+</header>
+
+<nav class="nav">
+	<div class="holder">
+		<div class="hamburger-style" id="nav-toggle" aria-label="Menu">
+			<span></span>
+		</div>
+		<div class="clicker4" aria-label="Login"></div>
+		<script type="text/conditional-html" id="tablet-conditional-navigation">
+			
+			<nav class="primary-nav nav-colour01" role="navigation" aria-label="Primary">
+				<div class="nav-branding"></div>
+				<ul class="main-menu main-top-content content-width">
+						<li class="menu-title">
+							<a title="Home" href="/">Home</a>
+						</li>
+						<li class="menu-title">
+							<a title="News" href="/type/news">News</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order"><img title="" alt="" src="/w-images/3019a95d-b7ea-42f1-bee4-8c8485c258b3/2/RiseupNetworkRainbowLogosvg-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Riseup confirms receipt of FBI warrant and gagging order" href="/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order">Riseup confirms receipt of FBI warrant and gagging order</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004857/amazon-chime-is-underwhelming-and-merely-enterprise-facetime-says-rival-uc-vendor"><img title="angry-old-lady" alt="angry-old-lady" src="/w-images/cb06e86c-fe0d-4ab2-bd45-36d6374fa01c/0/angryoldlady-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Amazon Chime is &#39;underwhelming&#39; and merely &#39;enterprise FaceTime&#39; says rival UC vendor" href="/ctg/news/3004857/amazon-chime-is-underwhelming-and-merely-enterprise-facetime-says-rival-uc-vendor">Amazon Chime is &#39;underwhelming&#39; and merely &#39;enterprise FaceTime&#39; says rival UC vendor</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004843/the-top-amiga-games-you-can-play-on-your-iphone-or-android"><img title="Sensible Soccer" alt="Sensible Soccer" src="/w-images/0e3969a6-bdf4-42fb-a9fb-ed694688de37/1/gol-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The top Amiga games you can play on your iPhone or Android" href="/ctg/news/3004843/the-top-amiga-games-you-can-play-on-your-iphone-or-android">The top Amiga games you can play on your iPhone or Android</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004828/samsung-vice-chairman-arrested-over-corruption"><img title="" alt="" src="/w-images/9ffc30bd-e272-4316-9c18-9a6074d41d87/1/courtbigjpg-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Samsung vice chairman Lee Jae-yong arrested over new corruption evidence" href="/ctg/news/3004828/samsung-vice-chairman-arrested-over-corruption">Samsung vice chairman Lee Jae-yong arrested over new corruption evidence</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004815/verizon-knocks-up-to-usd350m-off-yahoo-acquisition-price-with-deal-to-be-signed-in-days"><img title="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" alt="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" src="/w-images/87c57111-9f16-4b4a-9a3a-405f80c0198f/1/yahoodesktoplogo-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" href="/ctg/news/3004815/verizon-knocks-up-to-usd350m-off-yahoo-acquisition-price-with-deal-to-be-signed-in-days">Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="Big Data &amp; Analytics" href="/category/big-data-and-analytics">Big Data &amp; Analytics</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/feature/3004827/earlham-institute-plans-to-save-70-per-cent-on-energy-costs-by-moving-its-supercomputers-to-iceland"><img title="" alt="" src="/w-images/caa1c733-f70f-4fb8-b6a5-7ab4449a132c/2/icelandgeothermal-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Earlham Institute plans to save 70 per cent on energy costs by moving its supercomputers to Iceland " href="/ctg/feature/3004827/earlham-institute-plans-to-save-70-per-cent-on-energy-costs-by-moving-its-supercomputers-to-iceland">Earlham Institute plans to save 70 per cent on energy costs by moving its supercomputers to Iceland </a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004733/enterprisedb-continues-its-travels-in-big-data-space-with-postgres-platform-2017"><img title="" alt="" src="/w-images/0c80b4de-aa0b-4e95-b335-c9f92ff61455/1/serverfarm-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="EnterpriseDB continues its travels in big data space with Postgres Platform 2017" href="/ctg/news/3004733/enterprisedb-continues-its-travels-in-big-data-space-with-postgres-platform-2017">EnterpriseDB continues its travels in big data space with Postgres Platform 2017</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/feature/3004459/digital-is-very-hard-to-do-says-first-utility-cio-bill-wilkins"><img title="" alt="" src="/w-images/f704e825-8c57-4fe8-bbbd-1a38c666107d/2/BillWilkinsFirstUtility-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Digital transformation is &#39;very hard to do&#39; says First Utility CIO Bill Wilkins" href="/ctg/feature/3004459/digital-is-very-hard-to-do-says-first-utility-cio-bill-wilkins">Digital transformation is &#39;very hard to do&#39; says First Utility CIO Bill Wilkins</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004374/autonomous-vehicles-will-require-two-in-one-insurance-policies-suggest-leaks-from-the-department-for-transport"><img title="Autonomous vehicles will require two-in-one insurance policies, suggest leaks from the Department for Transport" alt="Autonomous vehicles will require two-in-one insurance policies, suggest leaks from the Department for Transport" src="/w-images/f51400e8-ccbc-44d6-ae46-3ca4f146c973/1/driverlesscarslutzpathfindermiltonkeynestrials-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Autonomous vehicles will require two-in-one insurance policies, suggest leaks from the Department for Transport" href="/ctg/news/3004374/autonomous-vehicles-will-require-two-in-one-insurance-policies-suggest-leaks-from-the-department-for-transport">Autonomous vehicles will require two-in-one insurance policies, suggest leaks from the Department for Transport</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004162/-call-me-dave-dynatrace-brings-alexa-supported-voice-recognition-to-performance-management-consoles"><img title="“Call me Dave”: Dynatrace brings Alexa-supported voice recognition to performance management consoles" alt="“Call me Dave”: Dynatrace brings Alexa-supported voice recognition to performance management consoles" src="/w-images/279ca680-917c-4704-b3ab-1b02154a8968/3/DelboyRodneyandTriggerOnlyfoolsandhorses-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="&quot;Call me Dave&quot;: Dynatrace brings Alexa-supported voice recognition to performance management consoles" href="/ctg/news/3004162/-call-me-dave-dynatrace-brings-alexa-supported-voice-recognition-to-performance-management-consoles">&quot;Call me Dave&quot;: Dynatrace brings Alexa-supported voice recognition to performance management consoles</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="DevOps" href="/category/devops">DevOps</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004197/metro-bank-turns-to-delphix-to-speed-up-application-delivery-as-part-of-shift-to-devops"><img title="Metro Bank turns to Delphix to speed-up application delivery as part of shift to DevOps" alt="Metro Bank turns to Delphix to speed-up application delivery as part of shift to DevOps" src="/w-images/ebb9f9d4-60e7-4fcf-a6ac-81676c0879b5/1/metrobankuk-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Metro Bank turns to Delphix to speed-up application delivery as part of shift to DevOps" href="/ctg/news/3004197/metro-bank-turns-to-delphix-to-speed-up-application-delivery-as-part-of-shift-to-devops">Metro Bank turns to Delphix to speed-up application delivery as part of shift to DevOps</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/opinion/3004023/stop-wasting-money-on-digital-transformation-start-building-the-team-to-make-it-happen"><img title="" alt="" src="/w-images/002882c4-1eb2-403b-a66a-0fbcf960a1ac/2/AArribasLab-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Stop wasting money on digital transformation, start building the team to make it happen" href="/ctg/opinion/3004023/stop-wasting-money-on-digital-transformation-start-building-the-team-to-make-it-happen">Stop wasting money on digital transformation, start building the team to make it happen</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3003816/devops-excellence-awards-2017-finalists-announced"><img title="DevOps Excellence Awards 2017: Finalists announced" alt="DevOps Excellence Awards 2017: Finalists announced" src="/w-images/343231e7-8687-4daf-a777-4969aa2e37e4/1/devopsconceptjigsaw-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="DevOps Excellence Awards 2017: Finalists announced" href="/ctg/news/3003816/devops-excellence-awards-2017-finalists-announced">DevOps Excellence Awards 2017: Finalists announced</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/analysis/3003123/the-slow-but-steady-rise-of-functional-programming"><img title="" alt="" src="/w-images/39af9efa-87d1-41ca-9653-98bc9bde7ec7/1/haskelllogo-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The stealthy rise of functional programming" href="/ctg/analysis/3003123/the-slow-but-steady-rise-of-functional-programming">The stealthy rise of functional programming</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/2478668/the-devops-excellence-awards-are-open-for-entries"><img title="devops-digital" alt="devops-digital" src="/w-images/c37dc69c-9756-4be1-b6fa-9f1f3172ac2f/1/devopsdigitalnew-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The DevOps Excellence Awards - FINAL DAY TO ENTER!" href="/ctg/news/2478668/the-devops-excellence-awards-are-open-for-entries">The DevOps Excellence Awards - FINAL DAY TO ENTER!</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="Security" href="/category/security">Security</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order"><img title="" alt="" src="/w-images/3019a95d-b7ea-42f1-bee4-8c8485c258b3/2/RiseupNetworkRainbowLogosvg-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Riseup confirms receipt of FBI warrant and gagging order" href="/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order">Riseup confirms receipt of FBI warrant and gagging order</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004815/verizon-knocks-up-to-usd350m-off-yahoo-acquisition-price-with-deal-to-be-signed-in-days"><img title="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" alt="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" src="/w-images/87c57111-9f16-4b4a-9a3a-405f80c0198f/1/yahoodesktoplogo-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" href="/ctg/news/3004815/verizon-knocks-up-to-usd350m-off-yahoo-acquisition-price-with-deal-to-be-signed-in-days">Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004795/nhs-plan-to-access-users-web-browsing-history-to-provide-personalised-nhsuk-health-advice"><img title="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" alt="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" src="/w-images/5ce9114f-d2b5-46b3-bb66-06c9c0445b6f/1/nhsitdoctor-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" href="/ctg/news/3004795/nhs-plan-to-access-users-web-browsing-history-to-provide-personalised-nhsuk-health-advice">NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004727/digital-economy-bill-could-empower-government-to-force-internet-companies-to-act-on-piracy"><img title="The government is planning to use the Digital Economy Bill to clamp down on people like this chap" alt="The government is planning to use the Digital Economy Bill to clamp down on people like this chap" src="/w-images/43fd71b3-fbd0-42eb-a44d-6e6ae729e82b/1/softwarepirate-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Digital Economy Bill could empower government to force internet companies to act on piracy " href="/ctg/news/3004727/digital-economy-bill-could-empower-government-to-force-internet-companies-to-act-on-piracy">Digital Economy Bill could empower government to force internet companies to act on piracy </a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004717/security-warning-over-intel-chip-design-flaw"><img title="Engineers at Intel have a new headache to solve" alt="Engineers at Intel have a new headache to solve" src="/w-images/997b75e9-0d89-421c-b92f-daa4a093cd60/1/intelhqmuseumvisitsantaclaraentrancelogo-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Security warning over Intel chip design flaw" href="/ctg/news/3004717/security-warning-over-intel-chip-design-flaw">Security warning over Intel chip design flaw</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="Internet of Things" href="/category/internet-of-things">Internet of Things</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004452/tweet-theft-sits-vac-one-ciso-reporting-to-the-new-us-president-any-takers"><img title="President Trump is looking for a new CISO" alt="President Trump is looking for a new CISO" src="/w-images/72f50457-cb01-4660-a0bd-5bd97e409b07/0/trumppesogold1-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Tweet theft: Sits vac. One CISO reporting to the new US president. Any takers?" href="/ctg/news/3004452/tweet-theft-sits-vac-one-ciso-reporting-to-the-new-us-president-any-takers">Tweet theft: Sits vac. One CISO reporting to the new US president. Any takers?</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/opinion/3003913/iot-security-first-innovation-second"><img title="" alt="" src="/w-images/fda3d22d-cf7a-4660-aa2f-daf812433cea/3/HansZandbelt-230x142.png" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="IoT: security first, innovation second?" href="/ctg/opinion/3003913/iot-security-first-innovation-second">IoT: security first, innovation second?</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3003625/ocado-shows-off-robot-arm-for-picking-products-in-warehouse-without-breaking-eggs"><img title="Ocado&#39;s &#39;sensitive&#39; robot arm picking up an apple without squashing it" alt="Ocado&#39;s &#39;sensitive&#39; robot arm picking up an apple without squashing it" src="/w-images/10e3265f-9d69-4c89-9f9f-a91e6ab9e142/3/Ocadorobotarm-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Ocado shows off robot hand for picking products in warehouse - without breaking eggs" href="/ctg/news/3003625/ocado-shows-off-robot-arm-for-picking-products-in-warehouse-without-breaking-eggs">Ocado shows off robot hand for picking products in warehouse - without breaking eggs</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3002665/raspberry-pi-shifts-upmarket-as-it-targets-pi-compute-module-3-at-industrial-systems"><img title="Raspberry Pi shifts upmarket as it targets Pi Compute Module 3 at industrial systems " alt="Raspberry Pi shifts upmarket as it targets Pi Compute Module 3 at industrial systems " src="/w-images/4c79f0f8-155b-405c-b3f1-bba550c6046e/1/raspberrypimodelbplusos-230x142.JPG" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Raspberry Pi shifts upmarket as it targets Pi Compute Module 3 at industrial systems " href="/ctg/news/3002665/raspberry-pi-shifts-upmarket-as-it-targets-pi-compute-module-3-at-industrial-systems">Raspberry Pi shifts upmarket as it targets Pi Compute Module 3 at industrial systems </a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3002533/eu-to-consult-on-laws-requiring-the-free-movement-of-data"><img title="EU to consult on laws requiring the “free movement” of data" alt="EU to consult on laws requiring the “free movement” of data" src="/w-images/766a24de-cadb-4108-8d8d-0f330c7791f8/1/europeancentralbank-230x142.gif" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="EU to consult on laws requiring the &quot;free movement&quot; of data" href="/ctg/news/3002533/eu-to-consult-on-laws-requiring-the-free-movement-of-data">EU to consult on laws requiring the &quot;free movement&quot; of data</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="OpenSource" href="/category/software/open-source">OpenSource</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3003799/gitlab-sysadmin-accidentally-deletes-300gb-of-data"><img title="Gitlab sysadmin accidentally deletes 300GB of data" alt="Gitlab sysadmin accidentally deletes 300GB of data" src="/w-images/33187d3e-c40b-42e0-9226-7d7bc4abeb92/1/explosioninaction-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Red faces at Gitlab as sysadmin expunges 300GB of data" href="/ctg/news/3003799/gitlab-sysadmin-accidentally-deletes-300gb-of-data">Red faces at Gitlab as sysadmin expunges 300GB of data</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/2478815/qubes-os-to-offer-commercial-editions-to-raise-funds"><img title="qubes-os1" alt="qubes-os1" src="/w-images/0f052d57-dd07-4cd7-b9fc-c44abeff49e0/1/qubesos1-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Qubes OS to offer commercial editions to raise funds" href="/ctg/news/2478815/qubes-os-to-offer-commercial-editions-to-raise-funds">Qubes OS to offer commercial editions to raise funds</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/2476569/thoughtworks-bi-annual-technology-radar-highlights-emerging-trends-in-augmented-reality-and-changing-structure-of-software-teams"><img title="light-through-cloud" alt="light-through-cloud" src="/w-images/c540a968-e38a-4517-817c-f6b0a0dd673a/1/rayoflightthroughstormclouds-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="ThoughtWorks&#39; bi-annual Technology Radar highlights emerging trends in augmented reality and changing structure of software teams" href="/ctg/news/2476569/thoughtworks-bi-annual-technology-radar-highlights-emerging-trends-in-augmented-reality-and-changing-structure-of-software-teams">ThoughtWorks&#39; bi-annual Technology Radar highlights emerging trends in augmented reality and changing structure of software teams</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/2476415/how-to-become-a-data-driven-algorithmic-enterprise"><img title="question-thought" alt="question-thought" src="/w-images/8fb79d7f-a167-489f-aa9e-8c500ada4972/1/questionthought-230x142.gif" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="How to become a data-driven &#39;algorithmic enterprise&#39;" href="/ctg/news/2476415/how-to-become-a-data-driven-algorithmic-enterprise">How to become a data-driven &#39;algorithmic enterprise&#39;</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/2474831/-dirty-cow-linux-kernel-security-vulnerability-being-exploited-in-the-wild-warns-red-hat"><img title="purple-cow-marketing" alt="purple-cow-marketing" src="/w-images/a10309fc-5dec-42af-a502-5a7fde6aa8d5/1/purplecowmarketing-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="&#39;Dirty COW&#39; Linux kernel security vulnerability being exploited in the wild, warns Red Hat" href="/ctg/news/2474831/-dirty-cow-linux-kernel-security-vulnerability-being-exploited-in-the-wild-warns-red-hat">&#39;Dirty COW&#39; Linux kernel security vulnerability being exploited in the wild, warns Red Hat</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="Cloud &amp; Infrastructure" href="/category/cloud-and-infrastructure">Cloud &amp; Infrastructure</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004843/the-top-amiga-games-you-can-play-on-your-iphone-or-android"><img title="Sensible Soccer" alt="Sensible Soccer" src="/w-images/0e3969a6-bdf4-42fb-a9fb-ed694688de37/1/gol-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The top Amiga games you can play on your iPhone or Android" href="/ctg/news/3004843/the-top-amiga-games-you-can-play-on-your-iphone-or-android">The top Amiga games you can play on your iPhone or Android</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004795/nhs-plan-to-access-users-web-browsing-history-to-provide-personalised-nhsuk-health-advice"><img title="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" alt="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" src="/w-images/5ce9114f-d2b5-46b3-bb66-06c9c0445b6f/1/nhsitdoctor-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" href="/ctg/news/3004795/nhs-plan-to-access-users-web-browsing-history-to-provide-personalised-nhsuk-health-advice">NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004757/cio-the-best-job-in-the-world"><img title="" alt="" src="/w-images/6c4ab353-2e7b-4492-85ae-b55349ac4bb8/1/duncanstotts-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="CIO - the best job in the world?" href="/ctg/news/3004757/cio-the-best-job-in-the-world">CIO - the best job in the world?</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004727/digital-economy-bill-could-empower-government-to-force-internet-companies-to-act-on-piracy"><img title="The government is planning to use the Digital Economy Bill to clamp down on people like this chap" alt="The government is planning to use the Digital Economy Bill to clamp down on people like this chap" src="/w-images/43fd71b3-fbd0-42eb-a44d-6e6ae729e82b/1/softwarepirate-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Digital Economy Bill could empower government to force internet companies to act on piracy " href="/ctg/news/3004727/digital-economy-bill-could-empower-government-to-force-internet-companies-to-act-on-piracy">Digital Economy Bill could empower government to force internet companies to act on piracy </a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004711/microsofts-top-lawyer-calls-for-digital-geneva-convention"><img title="" alt="" src="/w-images/56236490-b629-4fd6-8b92-ffb6cdbf9d5b/0/eyespysnoopnumbers185x185-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Microsoft&#39;s top lawyer calls for &#39;digital Geneva Convention&#39; " href="/ctg/news/3004711/microsofts-top-lawyer-calls-for-digital-geneva-convention">Microsoft&#39;s top lawyer calls for &#39;digital Geneva Convention&#39; </a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+						<li class="menu-title">
+							<a title="Leadership" href="/category/leadership">Leadership</a>
+								<ul class="menu-content">
+									<li>
+											<div class="section group content"><article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/opinion/3004874/why-you-should-ms-azure-ip-advantage-with-a-pinch-of-salt"><img title="Peter Arrowsmith" alt="Peter Arrowsmith" src="/w-images/dead3408-abc9-4f84-9b1c-2b882ee3f3ec/2/GillJenningsEveryPeterArrowsmith-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="Why you should take MS Azure IP Advantage with a pinch of salt" href="/ctg/opinion/3004874/why-you-should-ms-azure-ip-advantage-with-a-pinch-of-salt">Why you should take MS Azure IP Advantage with a pinch of salt</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004786/53-per-cent-of-london-boroughs-consider-their-it-infrastructures-out-of-date"><img title="" alt="" src="/w-images/a4a4e06c-cf8d-4ccd-9ceb-cf5508b39ff1/1/cityoflondon-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="53 per cent of London Boroughs consider their IT infrastructures out of date" href="/ctg/news/3004786/53-per-cent-of-london-boroughs-consider-their-it-infrastructures-out-of-date">53 per cent of London Boroughs consider their IT infrastructures out of date</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004584/there-is-still-no-decent-enterprise-replacement-for-consumer-messenger-apps-agree-uk-it-leaders"><img title="" alt="" src="/w-images/768a3e71-f872-414f-ad98-3aaea57f7bf6/0/emoticon-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="There is still no decent enterprise replacement for consumer messenger apps, agree UK IT leaders" href="/ctg/news/3004584/there-is-still-no-decent-enterprise-replacement-for-consumer-messenger-apps-agree-uk-it-leaders">There is still no decent enterprise replacement for consumer messenger apps, agree UK IT leaders</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/opinion/3004474/the-sociology-of-things-what-will-truly-self-aware-devices-mean-for-us-and-our-data"><img title="" alt="" src="/w-images/1048447c-ebf0-45b1-a5cb-28d7a0a48270/1/petercochraneprofile-230x142.jpeg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="The Sociology of Things: What will truly self-aware devices mean for us, and our data?" href="/ctg/opinion/3004474/the-sociology-of-things-what-will-truly-self-aware-devices-mean-for-us-and-our-data">The Sociology of Things: What will truly self-aware devices mean for us, and our data?</a>
+			</div>
+	</article>
+</article>
+<article class="col-lrg span-lrg_1_of_5 menu-contents">
+	<article>
+		
+<a href="/ctg/news/3004448/-people-are-the-problem-in-enterprise-security-agree-uk-it-leaders"><img title="" alt="" src="/w-images/b3f4f6fd-e022-4358-a207-18d1d5c4717c/0/postitnote-230x142.jpg" /></a>
+
+
+
+ 
+			<div class="listings-article-title">
+			    <a title="&quot;People are the problem&quot; in enterprise security, agree UK IT leaders" href="/ctg/news/3004448/-people-are-the-problem-in-enterprise-security-agree-uk-it-leaders">&quot;People are the problem&quot; in enterprise security, agree UK IT leaders</a>
+			</div>
+	</article>
+</article>
+</div>
+
+									</li>
+								</ul>
+						</li>
+					<li class="menu-title">
+	<a href="#" class="more-panel"><span></span>All sections</a>
+	<ul class="menu-content more-panel navigation-all-sections">
+		<li>
+			<div class="section group content">
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-1">
+						
+<section>
+<div class="navigation-all-sections-subheading">Register</div>
+<ul>
+<li><a href="http://www.computing.co.uk/static/register"> Register for free access</a></li>
+<li><a href="http://email.computing.co.uk/k/Incisive-Media/computing_sign_up_form"> Sign up for free email alerts</a></li>
+<li><a href="http://www.computing.co.uk/static/apps">Download our app</a></li>
+<li><a href="http://www.computing.co.uk/type/digital-edition">Download the latest issue</a></li>
+</ul>
+</section><section>
+<div class="navigation-all-sections-subheading">Connect with us</div>
+<ul>
+<li><a href="http://www.computing.co.uk/static/about-us">Contact us</a></li>
+<li><a href="https://twitter.com/computing_news">Twitter</a></li>
+<li><a href="https://www.youtube.com/user/computing">YouTube</a></li>
+<li><a href="https://www.linkedin.com/groups/2366689/profile">LinkedIn</a></li>
+</ul>
+</section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-2">
+						
+<section>
+<div class="navigation-all-sections-subheading">Authors</div>
+<ul>
+<li><a href="http://www.computing.co.uk/author/1484/stuart-sumner">Stuart Sumner</a></li>
+<li><a href="http://www.computing.co.uk/author/170/john-leonard">John Leonard</a></li>
+<li><a href="http://www.computing.co.uk/author/2354/graeme-burton">Graeme Burton</a></li>
+<li><a href="http://www.computing.co.uk/author/2384/peter-gothard">Peter Gothard</a></li>
+<li><a href="http://www.computing.co.uk/author/2353/carly-page">Carly Page</a></li>
+<li><a href="http://www.computing.co.uk/author/1523/dan-worth">Dan Worth</a></li>
+<li><a href="http://www.computing.co.uk/author/3968/matt-farrington-smith">Matt Farrington-Smith</a></li>
+</ul>
+</section><section></section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-3">
+						
+<section>
+<div class="navigation-all-sections-subheading">Most popular content</div>
+<ul>
+<li><a href="http://www.computing.co.uk/category/big-data-and-analytics">Big Data &amp; Analytics</a></li>
+<li><a href="http://www.computing.co.uk/category/cloud-and-infrastructure"> Cloud </a></li>
+<li><a href="http://www.computing.co.uk/category/leadership">Leadership and Strategy</a></li>
+<li><a href="http://www.computing.co.uk/category/software/open-source">Open Source</a></li>
+<li><a href="http://www.computing.co.uk/category/hardware/storage">Storage</a></li>
+<li><a href="http://www.computing.co.uk/category/communications/telecoms">Telecoms</a></li>
+<li><a href="http://www.computing.co.uk/static/top-100-cios">Top 100 IT Leaders</a></li>
+</ul>
+<section></section></section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-4">
+						
+<div class="navigation-all-sections-subheading">Events</div>
+<p><a href="http://www.enterpriseitevents.com/">Essential for the senior IT professional, Computing produce high-calibre conferences, web-seminars, awards and events including the Computing IT Leaders Forum and the UK IT Industry Awards with the BCS.</a></p>
+<section>
+<div class="navigation-all-sections-subheading">RSS feeds</div>
+<ul>
+<li><a href="http://www.computing.co.uk/feeds/rss"> All Computing articles </a></li>
+</ul>
+<p>These RSS feeds are provided for personal use. Re-publication of Computing articles via RSS on another website is a breach of copyright and is prohibited.<a href="mailto:tom.wright@incisivemedia.com"> If in doubt please contact us. </a></p>
+</section>
+					</div>
+					<div class="col span_1_of_5 menu-contents navigation-all-sections-5">
+						
+<section>
+<div class="navigation-all-sections-subheading">About</div>
+<ul>
+<li><a href="http://www.incisivemedia.com/our-story/">About Incisive Media</a></li>
+<li><a href="http://www.incisivemedia.com/terms-and-conditions/">Terms and Conditions</a></li>
+<li><a href="http://www.incisivemedia.com/privacy-policy/">Privacy and cookie policy</a></li>
+</ul>
+</section><section>
+<div class="navigation-all-sections-subheading">Computing Resources</div>
+<ul>
+<li><a href="http://www.computingresources.co.uk/">English</a></li>
+<li><a href="https://www.computingresources.fr/">Fran&ccedil;ais</a></li>
+<li><a href="https://www.computingresources.de/">Deutsch</a></li>
+</ul>
+</section>
+					</div>
+			</div>
+		</li>
+	</ul>
+</li>
+					<!-- !PRODUCTION : Ommitted div.search-2 header-search-holder --->
+				</ul>
+			</nav>
+		</script>
+		<div id="conditional-navigation" class="" >
+			<!-- no script default fall back -->
+			<nav class="primary-nav nav-colour01" role="navigation" aria-label="Primary">
+				<ul class="main-menu main-top-content content-width">
+						<li class="menu-title">
+							<a title="Home" href="/">Home</a>
+						</li>
+						<li class="menu-title">
+							<a title="News" href="/type/news">News</a>
+						</li>
+						<li class="menu-title">
+							<a title="Big Data &amp; Analytics" href="/category/big-data-and-analytics">Big Data &amp; Analytics</a>
+						</li>
+						<li class="menu-title">
+							<a title="DevOps" href="/category/devops">DevOps</a>
+						</li>
+						<li class="menu-title">
+							<a title="Security" href="/category/security">Security</a>
+						</li>
+						<li class="menu-title">
+							<a title="Internet of Things" href="/category/internet-of-things">Internet of Things</a>
+						</li>
+						<li class="menu-title">
+							<a title="OpenSource" href="/category/software/open-source">OpenSource</a>
+						</li>
+						<li class="menu-title">
+							<a title="Cloud &amp; Infrastructure" href="/category/cloud-and-infrastructure">Cloud &amp; Infrastructure</a>
+						</li>
+						<li class="menu-title">
+							<a title="Leadership" href="/category/leadership">Leadership</a>
+						</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="mobile-branding"><a href="/" class="mobile-branding-link" alt="Computing" ></a></div> 
+	</div>
+	<div class="mask">
+	<div class="menu4">
+		<div>
+			<a href="/home/manage_account" class="user-info"></a>
+			
+<div id="rdm-above-corp-menu">&nbsp;</div>
+<ul class="header-tools-content institutional" style="display: none;">
+<li>
+<div class="corporate-menu-information">
+<p class="corporate-menu-information-introduction">You are currently accessing Computing via your Enterprise account.</p>
+<p>If you already have an account please use the link below to <a href="http://www.computing.co.uk/userlogin" title="Sign in">sign in</a>.</p>
+<p>If you have any problems with your access or would like to request an individual access account please contact our customer service team.</p>
+<p>Phone: <a href="tel:+441858438800">+44 (0) 1858 438800</a></p>
+<p>Email: <a href="mailto:customerservices@incisivemedia.com">customerservices@incisivemedia.com</a></p>
+</div>
+<ul class="user-menu">
+<li><a href="http://www.computing.co.uk/userlogin" title="Sign in" class="sign-in-user-link">Sign in</a></li>
+</ul>
+</li>
+</ul>
+<div id="rdm-below-corp-menu">&nbsp;</div>
+
+<div id="rdm-above-user-menu">&nbsp;</div>
+<ul class="header-tools-content individual" style="display: none;">
+<li>
+<ul class="user-menu"><!-- <li><a href="http://www.computing.co.uk/home/manage_account" title="Saved articles" class="saved-articles-user-link">Saved articles</a></li> -->
+<li><a href="http://email.computing.co.uk/k/Incisive-Media/computing_sign_up_form" title="Newsletters" class="newsletters-user-link">Newsletters</a></li>
+<li><a href="http://www.computing.co.uk/static/apps" title="Apps" class="apps-user-link">Apps</a></li>
+<li><a href="http://www.computing.co.uk/home/manage_account#myaccount" title="Account details" class="account-user-link">Account details</a></li>
+<li><a href="http://www.computing.co.uk/home/manage_account#contact" title="Contact support" class="contact-user-link">Contact support</a></li>
+<li><a href="http://www.computing.co.uk/home/logout" title="Sign out" class="sign-out-user-link">Sign out</a></li>
+</ul>
+</li>
+</ul>
+<div id="rdm-below-user-menu">&nbsp;</div>
+		</div>
+	</div>
+</div>
+</nav>
+
+<aside class="content">
+	<div class="content-inner content-full-width">
+		<div class="main-content">
+				<div id="rdm-below-header" class="ad-slot-full"></div>
+		</div>
+	</div>
+</aside>
+
+
+				<div class="homepage-content page-content ajax_search">
+	<!--News Comp Start-->
+		<div class="content">
+		<main role="main" class="content-inner content-full-width">
+			<div class="main-content">
+				<div itemtype="http://schema.org/Organization" itemscope="">
+					<h1 class="screen-reader-text" itemprop="name">Computing</h1>
+				</div>
+				<section class="component-news">
+					<header class="header-news">
+						<h4 itemprop="name"><div class="section-title-link">LATEST</div></h4>
+					</header>
+					<div class="section primary-news group">
+							<div class="col-lrg primary-news-top span-lrg_2_of_4">
+									<div class="image-text-group-a">
+										
+<a href="/ctg/news/3004757/cio-the-best-job-in-the-world"><img title="" alt="" src="/w-images/6c4ab353-2e7b-4492-85ae-b55349ac4bb8/1/duncanstotts-580x358.jpg" /></a>
+
+
+
+ 
+									</div>
+								<div class="image-text-group-b col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/management/careers-and-skills/">Careers and Skills</a>
+	</li>
+</ul>
+
+									<h5>      <a title="CIO - the best job in the world?" href="/ctg/news/3004757/cio-the-best-job-in-the-world">CIO - the best job in the world?</a>
+ </h5>
+									<p>
+										Duncan Stott, CIO of engineering firm Kier, explains why he thinks technology leadership is the best job in the world
+
+									</p>
+									<ul class="article-meta-details">
+	<li>
+		<time datetime="2017-02-16" itemprop="datePublished">
+			16 Feb
+		</time>
+	</li>
+</ul>
+									
+								</div><!-- col-inner end -->
+							</div>
+							<div class="col-lrg subsidary-news col-divider-news span-lrg_2_of_4">
+								<div class="section subsidary-news-top group">
+										<div class="col-lrg span-lrg_2_of_4">
+											
+<a href="/ctg/news/3004828/samsung-vice-chairman-arrested-over-corruption"><img title="" alt="" src="/w-images/9ffc30bd-e272-4316-9c18-9a6074d41d87/1/courtbigjpg-270x167.jpeg" /></a>
+
+
+
+ 
+											<div class="col-inner">
+												<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/hardware/mobile-phones/">Mobile Phones</a>
+	</li>
+</ul>
+
+												<h6>      <a title="Samsung vice chairman Lee Jae-yong arrested over new corruption evidence" href="/ctg/news/3004828/samsung-vice-chairman-arrested-over-corruption">Samsung vice chairman Lee Jae-yong arrested over new corruption evidence</a>
+ </h6>												<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>				
+										    </div>
+										</div>
+										<div class="col-lrg col-divider-news span-lrg_2_of_4">
+											
+<a href="/ctg/feature/3004827/earlham-institute-plans-to-save-70-per-cent-on-energy-costs-by-moving-its-supercomputers-to-iceland"><img title="" alt="" src="/w-images/caa1c733-f70f-4fb8-b6a5-7ab4449a132c/2/icelandgeothermal-270x167.png" /></a>
+
+
+
+ 
+											<div class="col-inner">
+												<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/big-data-and-analytics/">Big Data and Analytics</a>
+	</li>
+</ul>
+
+												<h6>      <a title="Earlham Institute plans to save 70 per cent on energy costs by moving its supercomputers to Iceland " href="/ctg/feature/3004827/earlham-institute-plans-to-save-70-per-cent-on-energy-costs-by-moving-its-supercomputers-to-iceland">Earlham Institute plans to save 70 per cent on energy costs by moving its supercomputers to Iceland </a>
+ </h6>												<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>					
+											</div>
+										</div>
+								</div>
+								<div class="section subsidary-news-second group">
+										<div class="col-lrg span-lrg_2_of_4">
+											
+<a href="/ctg/news/3004172/the-computing-digital-technology-leaders-awards-are-now-open-for-entries"><img title="" alt="" src="/w-images/089d2c37-06a6-47ff-9416-3051cdae4d89/3/ComputingDigitalLeaders-270x167.png" /></a>
+
+
+
+ 
+											<div class="col-inner">
+												<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/cloud-and-infrastructure/">Cloud and Infrastructure</a>
+	</li>
+</ul>
+
+												<h6>      <a title="The Computing Digital Technology Leaders Awards are now open for entries" href="/ctg/news/3004172/the-computing-digital-technology-leaders-awards-are-now-open-for-entries">The Computing Digital Technology Leaders Awards are now open for entries</a>
+ </h6>
+												<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-08" itemprop="datePublished">
+				08 Feb 2017
+			</time>
+		</li>
+</ul>				
+											</div>
+										</div>
+									<div class="col-lrg col-divider-news span-lrg_2_of_4">
+										    
+<a href="/ctg/news/3002041/computing-big-data-iot-excellence-awards-enter-now"><img title="" alt="" src="/w-images/6bc93d4f-d796-419b-9155-f7077dfcf3e1/1/champagnebucket-270x167.jpg" /></a>
+
+
+
+ 
+											<div class="col-inner">
+												<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/leadership/">Leadership</a>
+	</li>
+</ul>
+
+												<h6>      <a title="Computing Big Data &amp; IoT Excellence Awards - ENTER NOW" href="/ctg/news/3002041/computing-big-data-iot-excellence-awards-enter-now">Computing Big Data &amp; IoT Excellence Awards - ENTER NOW</a>
+ </h6>
+												<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-01-06" itemprop="datePublished">
+				06 Jan 2017
+			</time>
+		</li>
+</ul>						
+											</div>
+									</div>
+								</div>
+							</div>
+					</div>
+				</section>
+			</div>
+		</main>
+	</div>
+	<div class="content">
+		<div class="content-inner">
+			<div class="main-content">
+				<section class="component-news2">
+					<header class="header-news screen-reader-text">
+						<h4 itemprop="name">News continued</h4>
+					</header>
+					<div class="section group">
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order"><img title="" alt="" src="/w-images/3019a95d-b7ea-42f1-bee4-8c8485c258b3/2/RiseupNetworkRainbowLogosvg-270x167.png" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/privacy/">Privacy</a>
+	</li>
+</ul>
+
+									<h5>      <a title="Riseup confirms receipt of FBI warrant and gagging order" href="/ctg/news/3004893/riseup-confirms-receipt-of-fbi-warrant-and-gagging-order">Riseup confirms receipt of FBI warrant and gagging order</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/opinion/3004874/why-you-should-ms-azure-ip-advantage-with-a-pinch-of-salt"><img title="Peter Arrowsmith" alt="Peter Arrowsmith" src="/w-images/dead3408-abc9-4f84-9b1c-2b882ee3f3ec/2/GillJenningsEveryPeterArrowsmith-270x167.jpg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/leadership/">Leadership</a>
+	</li>
+</ul>
+
+									<h5>      <a title="Why you should take MS Azure IP Advantage with a pinch of salt" href="/ctg/opinion/3004874/why-you-should-ms-azure-ip-advantage-with-a-pinch-of-salt">Why you should take MS Azure IP Advantage with a pinch of salt</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004857/amazon-chime-is-underwhelming-and-merely-enterprise-facetime-says-rival-uc-vendor"><img title="angry-old-lady" alt="angry-old-lady" src="/w-images/cb06e86c-fe0d-4ab2-bd45-36d6374fa01c/0/angryoldlady-270x167.jpg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/communications/networks/">Networks</a>
+	</li>
+</ul>
+
+									<h5>      <a title="Amazon Chime is &#39;underwhelming&#39; and merely &#39;enterprise FaceTime&#39; says rival UC vendor" href="/ctg/news/3004857/amazon-chime-is-underwhelming-and-merely-enterprise-facetime-says-rival-uc-vendor">Amazon Chime is &#39;underwhelming&#39; and merely &#39;enterprise FaceTime&#39; says rival UC vendor</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+				    </div>
+					<div class="section group">
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004843/the-top-amiga-games-you-can-play-on-your-iphone-or-android"><img title="Sensible Soccer" alt="Sensible Soccer" src="/w-images/0e3969a6-bdf4-42fb-a9fb-ed694688de37/1/gol-270x167.jpeg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/cloud-and-infrastructure/">Cloud and Infrastructure</a>
+	</li>
+</ul>
+
+									<h5>      <a title="The top Amiga games you can play on your iPhone or Android" href="/ctg/news/3004843/the-top-amiga-games-you-can-play-on-your-iphone-or-android">The top Amiga games you can play on your iPhone or Android</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004815/verizon-knocks-up-to-usd350m-off-yahoo-acquisition-price-with-deal-to-be-signed-in-days"><img title="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" alt="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" src="/w-images/87c57111-9f16-4b4a-9a3a-405f80c0198f/1/yahoodesktoplogo-270x167.png" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/">Security</a>
+	</li>
+</ul>
+
+									<h5>      <a title="Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days" href="/ctg/news/3004815/verizon-knocks-up-to-usd350m-off-yahoo-acquisition-price-with-deal-to-be-signed-in-days">Verizon knocks up to $350m off Yahoo acquisition price with deal to be signed in days</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004795/nhs-plan-to-access-users-web-browsing-history-to-provide-personalised-nhsuk-health-advice"><img title="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" alt="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" src="/w-images/5ce9114f-d2b5-46b3-bb66-06c9c0445b6f/1/nhsitdoctor-270x167.jpg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/">Security</a>
+	</li>
+</ul>
+
+									<h5>      <a title="NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice" href="/ctg/news/3004795/nhs-plan-to-access-users-web-browsing-history-to-provide-personalised-nhsuk-health-advice">NHS plan to access users&#39; web browsing history to provide &#39;personalised&#39; NHS.uk health advice</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+				    </div>
+					<div class="section group">
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004786/53-per-cent-of-london-boroughs-consider-their-it-infrastructures-out-of-date"><img title="" alt="" src="/w-images/a4a4e06c-cf8d-4ccd-9ceb-cf5508b39ff1/1/cityoflondon-270x167.jpg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/leadership/">Leadership</a>
+	</li>
+</ul>
+
+									<h5>      <a title="53 per cent of London Boroughs consider their IT infrastructures out of date" href="/ctg/news/3004786/53-per-cent-of-london-boroughs-consider-their-it-infrastructures-out-of-date">53 per cent of London Boroughs consider their IT infrastructures out of date</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/opinion/3004777/twitters-results-warning-to-snap-as-it-pins-a-usd222bn-value-on-its-ipo"><img title="161 million daily active users right now, but by how many more users can Snap add to Snapchat?" alt="161 million daily active users right now, but by how many more users can Snap add to Snapchat?" src="/w-images/c7f034e6-13cc-48f3-893b-9a576f8aae49/1/snapchatlogoonsmartphone-270x167.jpeg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/communications/internet/">Internet</a>
+	</li>
+</ul>
+
+									<h5>      <a title="Twitter&#39;s results warning to Snap as it pins a $22.2bn value on its IPO" href="/ctg/opinion/3004777/twitters-results-warning-to-snap-as-it-pins-a-usd222bn-value-on-its-ipo">Twitter&#39;s results warning to Snap as it pins a $22.2bn value on its IPO</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004771/amazon-targets-unified-communications-sector-with-chime"><img title="" alt="" src="/w-images/c68b6352-cc34-4661-8cbf-ccff66e30a3f/1/amazonlogocomuk150x93-270x167.jpg" /></a>
+
+
+
+ 
+								<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/communications/networks/">Networks</a>
+	</li>
+</ul>
+
+									<h5>      <a title="Amazon targets unified communications sector with Chime" href="/ctg/news/3004771/amazon-targets-unified-communications-sector-with-chime">Amazon targets unified communications sector with Chime</a>
+ </h5>
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+								</div>
+							</article>
+				    </div>
+				</section>
+			</div>
+			<div role="complementary" class="component-news2 sidebar">
+				<div id="rdm-top-stories" class="ad-slot"></div>
+			</div>
+		</div>
+	</div>
+
+	<!--News Comp End-->
+
+
+	<!--  AD start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	<aside class="content">
+		<div class="content-inner content-full-width">
+			<div class="main-content">
+				<div id="rdm-below-top-stories" class="ad-slot-full"></div>
+			</div>
+		</div>
+	</aside>
+	<!--  AD end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	
+
+    <!--Monty-1 start-->
+    
+<div class="content">
+    <div class="content-inner content-full-width">
+        <div class="main-content">
+        <section class="component-hound">
+                <div class="col-inner">
+                    <header class="header-hound">
+                        <h4 itemprop="name"> 
+                        <a href="http://www.computing.co.uk/static/resources" target="_blank" class="section-title-link">                       
+                            LATEST WHITEPAPERS                        	 
+                        </a> 
+                        </h4> 
+                    </header>
+                <div class="section group">            
+               		 <div class="col span_1_of_3">
+                        <div class="col-inner">
+			               <article>			        		        
+			        	     			<div class="image-text-group-a">
+				<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1694&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/7a35b947-57c7-4c2c-8a3d-51d4cd4bf10d/1/computingresourcess-120x194.png" alt="Computingresourcess 120x194" /></a>
+			</div>
+			<div class="image-text-group-b">
+				<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1694&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Security solutions: How hypervisor introspection can secure your systems</a>
+				<p>Traditional endpoint security is failing to keep us safe from cyberthreats. It takes companies an average of 5 months to detect a data breach - which is 5 months too long. Virtualisation has added a hypervisor layer below operating systems which can be used to secure your systems...</p>
+				<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1694&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+			</div>
+					    			      </article>
+			            </div>
+			        </div>   
+			           <div class="col span_1_of_3">
+                          <div class="col-inner">	
+			                   <article>			        	       
+			        	       			<div class="image-text-group-a">
+				<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1854&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/6615e910-d80e-4cab-8d27-76e2b31cbe3f/1/computingresourcess-120x194.png" alt="Computingresourcess 120x194" /></a>
+			</div>
+			<div class="image-text-group-b">
+				<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1854&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Chameleon storage – finding the software-defined storage solutions which suit you</a>
+				<p>Software-defined storage (SDS) has not been blessed with a universally accepted definition. It's more useful to think of it as storage which repositions itself to provide functionality to storage. Find out about creative and flexible SDS solutions to suit you by downloading this whitepaper now.</p>
+				<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1854&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+			</div>
+					        
+			        	       </article>
+			        	  </div>
+			           </div>
+			         <div class="col span_1_of_3">
+                        <div class="col-inner">	
+			            <article>			        		        
+			        				<div class="image-text-group-a">
+				<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1740&amp;sid=$AMF_contact_id$-$AMF_contact_guid$"><img src="/w-images/cd167cd4-7f6c-4806-aaed-79348288cf06/1/computingresourcess-120x194.png" alt="Computingresourcess 120x194" /></a>
+			</div>
+			<div class="image-text-group-b">
+				<a target="_blank" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1740&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Plotting the data journey in the boardroom - The state of data analytics 2017</a>
+				<p>9 in 10 C-suite executives say that data analytics will be crucial to the future of their business! To understand the current state of Business Intelligence in UK organisations, this research explores boardroom attitudes to data analytics...</p>
+				<a target="_blank" class="btn download" href="https://incisivetrk.cvtr.io/click?pid=300000&amp;lid=1740&amp;sid=$AMF_contact_id$-$AMF_contact_guid$">Download</a>
+			</div>
+					     			       
+			            </article>
+			            </div>
+			         </div>
+			    </div>                  
+             <div class="component-hound-footer">                        
+	               <a href="http://www.computing.co.uk/static/resources" target="_blank">
+	                  <img src="http://images.incisivemedia.com/v9_dev/ux/ctg/images/CTGRes_logo.jpg">
+	               </a>	                	
+            </div>
+        </div>    
+</section>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+	<!--Monty-1 end-->
+	
+
+	<!--  AD start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	<aside class="content">
+		<div class="content-inner content-full-width">
+			<div class="main-content">
+				<div id="rdm-below-top-stories" class="ad-slot-full"></div>
+			</div>
+		</div>
+	</aside>
+	<!--  AD end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+
+	<!--News Comp Start-->
+	<div class="content">
+		<div class="content-inner">
+			<div class="main-content">
+				<section class="component-news2">
+					<header class="header-news screen-reader-text">
+						<h4 itemprop="name">News continued</h4>
+					</header>
+					<div class="section group">
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004770/microsoft-opens-up-windows-insider-program-to-business"><img title="Microsoft opens up Windows Insider Program to business" alt="Microsoft opens up Windows Insider Program to business" src="/w-images/c43a5d9f-2803-4e7c-bc04-e9d3a47b8b2b/1/windowssymbol-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/software/">Software</a>
+	</li>
+</ul>
+
+							<h5>     <a title="Microsoft opens up Windows Insider Program to business" href="/ctg/news/3004770/microsoft-opens-up-windows-insider-program-to-business">Microsoft opens up Windows Insider Program to business</a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/review/3004809/review-samsung-galaxy-a5-2017"><img title="The Samsung Galaxy A5 (2017)" alt="The Samsung Galaxy A5 (2017)" src="/w-images/ef867181-b9c3-404a-b702-b2b6dc00aa01/3/SamsungGalaxyA52017-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/hardware/mobile-phones/">Mobile Phones</a>
+	</li>
+</ul>
+
+							<h5>     <a title="Review: Samsung Galaxy A5 (2017) " href="/ctg/review/3004809/review-samsung-galaxy-a5-2017">Review: Samsung Galaxy A5 (2017) </a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004733/enterprisedb-continues-its-travels-in-big-data-space-with-postgres-platform-2017"><img title="" alt="" src="/w-images/0c80b4de-aa0b-4e95-b335-c9f92ff61455/1/serverfarm-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/big-data-and-analytics/">Big Data and Analytics</a>
+	</li>
+</ul>
+
+							<h5>     <a title="EnterpriseDB continues its travels in big data space with Postgres Platform 2017" href="/ctg/news/3004733/enterprisedb-continues-its-travels-in-big-data-space-with-postgres-platform-2017">EnterpriseDB continues its travels in big data space with Postgres Platform 2017</a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+				    </div>
+					<div class="section group">
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004727/digital-economy-bill-could-empower-government-to-force-internet-companies-to-act-on-piracy"><img title="The government is planning to use the Digital Economy Bill to clamp down on people like this chap" alt="The government is planning to use the Digital Economy Bill to clamp down on people like this chap" src="/w-images/43fd71b3-fbd0-42eb-a44d-6e6ae729e82b/1/softwarepirate-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/communications/">Communications</a>
+	</li>
+</ul>
+
+							<h5>     <a title="Digital Economy Bill could empower government to force internet companies to act on piracy " href="/ctg/news/3004727/digital-economy-bill-could-empower-government-to-force-internet-companies-to-act-on-piracy">Digital Economy Bill could empower government to force internet companies to act on piracy </a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004717/security-warning-over-intel-chip-design-flaw"><img title="Engineers at Intel have a new headache to solve" alt="Engineers at Intel have a new headache to solve" src="/w-images/997b75e9-0d89-421c-b92f-daa4a093cd60/1/intelhqmuseumvisitsantaclaraentrancelogo-270x167.png" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/">Security</a>
+	</li>
+</ul>
+
+							<h5>     <a title="Security warning over Intel chip design flaw" href="/ctg/news/3004717/security-warning-over-intel-chip-design-flaw">Security warning over Intel chip design flaw</a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004711/microsofts-top-lawyer-calls-for-digital-geneva-convention"><img title="" alt="" src="/w-images/56236490-b629-4fd6-8b92-ffb6cdbf9d5b/0/eyespysnoopnumbers185x185-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/">Security</a>
+	</li>
+</ul>
+
+							<h5>     <a title="Microsoft&#39;s top lawyer calls for &#39;digital Geneva Convention&#39; " href="/ctg/news/3004711/microsofts-top-lawyer-calls-for-digital-geneva-convention">Microsoft&#39;s top lawyer calls for &#39;digital Geneva Convention&#39; </a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+				    </div>
+					<div class="section group">
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004702/russian-hackers-alleged-to-be-behind-democratic-party-attacks-now-focusing-on-macos"><img title="Mac users: The Russians are (allegedly) coming for you!" alt="Mac users: The Russians are (allegedly) coming for you!" src="/w-images/36c8aacf-fa91-49c2-911c-cee0e108e83c/1/applemacbookairvideoreview23213-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/">Security</a>
+	</li>
+</ul>
+
+							<h5>     <a title="Russian hackers alleged to be behind Democratic Party attacks now focusing on MacOS" href="/ctg/news/3004702/russian-hackers-alleged-to-be-behind-democratic-party-attacks-now-focusing-on-macos">Russian hackers alleged to be behind Democratic Party attacks now focusing on MacOS</a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/opinion/3004697/how-the-internet-of-things-and-wearables-can-benefit-your-health"><img title="" alt="" src="/w-images/c7f38b86-a373-4715-9191-f1dc71cfd3b4/1/aheartrestsonakeyboard-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/hardware/">Hardware</a>
+	</li>
+</ul>
+
+							<h5>     <a title="How the Internet of Things and wearables can benefit your health" href="/ctg/opinion/3004697/how-the-internet-of-things-and-wearables-can-benefit-your-health">How the Internet of Things and wearables can benefit your health</a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+							<article class="col-lrg col-divider-news2 span-lrg_1_of_3">
+								 
+<a href="/ctg/news/3004690/hmrc-denies-reports-it-plans-to-develop-its-own-authentication-system-to-avoid-govuk-verify"><img title="HMRC denies reports it plans to develop its own authentication system to avoid Gov.UK Verify" alt="HMRC denies reports it plans to develop its own authentication system to avoid Gov.UK Verify" src="/w-images/cb7e194d-5a00-4a3a-8347-458d73763e1a/1/hmrclogo-270x167.jpg" /></a>
+
+
+
+ 
+							<div class="col-inner">
+									<ul class="article-meta-above-title">
+	<li>
+		<a class="ctg-link" href="/category/security/">Security</a>
+	</li>
+</ul>
+
+							<h5>     <a title="HMRC denies reports it plans to develop its own authentication system and dump Gov.UK Verify" href="/ctg/news/3004690/hmrc-denies-reports-it-plans-to-develop-its-own-authentication-system-to-avoid-govuk-verify">HMRC denies reports it plans to develop its own authentication system and dump Gov.UK Verify</a>
+ </h5>
+						            <ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>	
+							</div>
+							</article>
+				    </div>
+	           </section>
+			</div>
+			<div role="complementary" class="component-news2 sidebar">
+				<div id="rdm-top-stories-2" class="ad-slot"></div>
+			</div>
+		</div>
+	</div>
+
+	<!--News Comp End-->
+
+	<!--  AD start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	<aside class="content">
+		<div class="content-inner content-full-width">
+			<div class="main-content">
+				<div id="rdm-below-in-depth" class="ad-slot-full"></div>
+			</div>
+		</div>
+	</aside>
+	<!--  AD end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+	<!-- ---------------------------- latest white papers ---------------------------- -->
+
+  	<!--  Monty 1 start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+<div class="content">
+	<div class="content-inner content-full-width">
+		<div class="main-content homepage-monty-top">
+			<figure class="monty-1">
+				<a href="http://www.computingsummit.com/security"><img src="/w-images/62d64de5-1eed-4a56-8c7d-bae068df20a0/0/enterprisesecuritymontybar-1100x320.jpeg" alt="Enterprisesecuritymontybar 1100x320" /></a>
+<figcaption>
+	<div class="caption-text">
+		<div class="meta-details">
+			<h4><a href="http://www.computingsummit.com/security">Enterprise Security &amp; Risk Management 2016</a></h4>
+		</div>
+		<h5><a href="http://www.computingsummit.com/security">Ensuring your enterprise is cyber safe – book your place today!</a></h5>
+		<a href="http://www.computingsummit.com/security" class="btn">Read More</a>
+	</div>
+</figcaption>
+			</figure>
+			<figure class="monty-2">
+				<a href="http://www.itleadersforum.co.uk/static/agenda-for-22-november"><img src="/w-images/c06aba2f-7f7a-4d5a-bded-7cc01009607e/0/itleadersnovmonty-1100x320.jpeg" alt="Itleadersnovmonty 1100x320" /></a>
+<figcaption>
+	<div class="caption-text">
+		<div class="meta-details">
+			<h4><a href="http://www.itleadersforum.co.uk/static/agenda-for-22-november">Taming the data deluge</a></h4>
+		</div>
+		<h5><a href="http://www.itleadersforum.co.uk/static/agenda-for-22-november">How to build, operate and future-proof a Big Data storage infrastructure</a></h5>
+		<a href="http://www.itleadersforum.co.uk/static/agenda-for-22-november
+" class="btn">Read More</a>
+	</div>
+</figcaption>
+			</figure>
+		</div>
+	</div>
+</div>
+<!--  Monty 1 end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+  	
+    <!-- ---------------------------- latest white papers ---------------------------- -->  
+
+    <!--  AD start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	<aside class="content">
+		<div class="content-inner content-full-width">
+			<div class="main-content">
+				<div id="rdm-below-in-depth" class="ad-slot-full"></div>
+			</div>
+		</div>
+	</aside>
+	<!--  AD end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+	<!-- Opinion start -->
+	<div class="content component-risk-opinion">
+	<div class="content-inner">
+		<div class="main-content">
+			<section class="component-opinion">
+				<header class="header-opinion">
+					<h4 itemprop="name"><a href="/type/opinion" class="section-title-link">Opinion</a></h4>
+				</header>
+				<div class="section group">
+						<article class="col-lrg  span-lrg_2_of_4">
+							<div class="col-inner">
+								<div class="image-text-group-a">
+									
+<a href="/ctg/opinion/3004874/why-you-should-ms-azure-ip-advantage-with-a-pinch-of-salt"><img title="Peter Arrowsmith" alt="Peter Arrowsmith" src="/w-images/dead3408-abc9-4f84-9b1c-2b882ee3f3ec/2/GillJenningsEveryPeterArrowsmith-100x100.jpg" /></a>
+
+
+
+ 
+								</div>
+								<div class="image-text-group-b">									
+										<div class="article-author">
+		Peter Arrowsmith
+	</div>
+
+									<h5>     <a title="Why you should take MS Azure IP Advantage with a pinch of salt" href="/ctg/opinion/3004874/why-you-should-ms-azure-ip-advantage-with-a-pinch-of-salt">Why you should take MS Azure IP Advantage with a pinch of salt</a>
+</h5>									
+									<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-17" itemprop="datePublished">
+				17 Feb 2017
+			</time>
+		</li>
+</ul>
+								</div>
+							</div>
+						</article>
+						<article class="col-lrg col-divider-opinion span-lrg_2_of_4">
+							<div class="col-inner">
+								<div class="image-text-group-a">
+									
+<a href="/ctg/opinion/3004777/twitters-results-warning-to-snap-as-it-pins-a-usd222bn-value-on-its-ipo"><img title="161 million daily active users right now, but by how many more users can Snap add to Snapchat?" alt="161 million daily active users right now, but by how many more users can Snap add to Snapchat?" src="/w-images/c7f034e6-13cc-48f3-893b-9a576f8aae49/1/snapchatlogoonsmartphone-100x100.jpeg" /></a>
+
+
+
+ 
+								</div>
+								<div class="image-text-group-b">									
+										<div class="article-author">
+		<!--<a href=""></a>-->
+		<a href="/author//2354/graeme-burton">Graeme Burton</a>
+	</div>
+
+									<h5>     <a title="Twitter&#39;s results warning to Snap as it pins a $22.2bn value on its IPO" href="/ctg/opinion/3004777/twitters-results-warning-to-snap-as-it-pins-a-usd222bn-value-on-its-ipo">Twitter&#39;s results warning to Snap as it pins a $22.2bn value on its IPO</a>
+</h5>																		<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-16" itemprop="datePublished">
+				16 Feb 2017
+			</time>
+		</li>
+</ul>
+								</div>
+							</div>
+						</article>
+				</div>
+				<div style="" class="section group">
+					<article class="col-lrg span-lrg_2_of_4">
+						<div class="col-inner">
+							<div class="image-text-group-a">
+								
+<a href="/ctg/opinion/3004697/how-the-internet-of-things-and-wearables-can-benefit-your-health"><img title="" alt="" src="/w-images/c7f38b86-a373-4715-9191-f1dc71cfd3b4/1/aheartrestsonakeyboard-100x100.jpg" /></a>
+
+
+
+ 
+							</div>
+							<div class="image-text-group-b">								
+									<div class="article-author">
+		<!--<a href=""></a>-->
+		<a href="/author//2960/chris-merriman">Chris Merriman</a>
+	</div>
+
+								<h5>     <a title="How the Internet of Things and wearables can benefit your health" href="/ctg/opinion/3004697/how-the-internet-of-things-and-wearables-can-benefit-your-health">How the Internet of Things and wearables can benefit your health</a>
+</h5>								
+								<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-15" itemprop="datePublished">
+				15 Feb 2017
+			</time>
+		</li>
+</ul>
+							</div>
+						</div>
+					</article>
+					<article class="col-lrg col-divider-opinion span-lrg_2_of_4">
+						<div class="col-inner">
+							<div class="image-text-group-a">
+								
+<a href="/ctg/opinion/3004474/the-sociology-of-things-what-will-truly-self-aware-devices-mean-for-us-and-our-data"><img title="" alt="" src="/w-images/1048447c-ebf0-45b1-a5cb-28d7a0a48270/1/petercochraneprofile-100x100.jpeg" /></a>
+
+
+
+ 
+							</div>
+							<div class="image-text-group-b">								
+									<div class="article-author">
+		Peter Cochrane
+	</div>
+
+								<h5>     <a title="The Sociology of Things: What will truly self-aware devices mean for us, and our data?" href="/ctg/opinion/3004474/the-sociology-of-things-what-will-truly-self-aware-devices-mean-for-us-and-our-data">The Sociology of Things: What will truly self-aware devices mean for us, and our data?</a>
+</h5>								
+								<ul class="article-meta-details">
+		<li>
+			<time datetime="2017-02-13" itemprop="datePublished">
+				13 Feb 2017
+			</time>
+		</li>
+</ul>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+		</div>
+		<div role="complementary" class="component-opinion sidebar">
+			<div id="rdm-opinion" class="ad-slot"></div> 
+		</div>
+	</div>
+</div>
+
+	<!-- Opinion end -->
+	
+	<!--  AD start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	<aside class="content">
+		<div class="content-inner content-full-width">
+			<div class="main-content">
+				<div id="rdm-below-in-depth" class="ad-slot-full"></div>
+			</div>
+		</div>
+	</aside>
+	<!--  AD end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	
+	<!--  weekly wrap and most read start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+	<div class="content">
+	<div role="main" class="content-inner content-full-width">
+	    <div class="main-content">
+		  <section class="component-list">
+	    	 <div class="section group">
+		    	<div class="col-lrg span-lrg_1_of_3">
+	<div class="component-weekly-wrap">
+		<header class="header-weekly-wrap">
+			<h4 itemprop="name">
+				<a class="section-title-link" href="http://www.computing.co.uk/static/apps">Computing App</a>
+			</h4>
+		</header>
+		<article>
+			<a href="http://www.computing.co.uk/static/apps"><img alt="" src="/w-images/118a6280-4f3d-4db5-bb8b-6b16eb5ad526/9/appDevices10-370x229.png" /></a>
+			<div class="col-inner weekly-wrap-details">
+					<p><p>Download the Computing app to keep up with your favourite Computing content offline.</p>
+<p><a href="http://www.computing.co.uk/static/apps">Download now</a></p></p>
+			<!--<a class="btn download" href="#">More information</a> -->
+			
+			</div>
+			</article>
+	</div>
+</div>
+				<div class="col-lrg component-list-most-read span-lrg_2_of_3">
+	<div class="col-inner component-most-read">
+		<header class="header-most-read">
+			<h4 itemprop="name">Most read</h4>
+		</header>
+		<div class="ol">
+			<ol>
+				<li>
+					     <a title="Aecom to outsource entire IT estate to IBM" href="/ctg/news/3003425/aecom-to-outsource-entire-it-estate-to-ibm">Aecom to outsource entire IT estate to IBM</a>
+
+				</li>
+				<li>
+					     <a title="Aecom IT job losses: Only 50 out of 1,000 jobs being retained" href="/ctg/news/3003528/aecom-it-job-losses-only-50-out-of-1-000-jobs-being-retained">Aecom IT job losses: Only 50 out of 1,000 jobs being retained</a>
+
+				</li>
+				<li>
+					     <a title="CIOs are becoming more like COOs due to digital transformation, say IT leaders" href="/ctg/news/3003408/cios-are-becoming-more-like-coos-due-to-digital-transformation-say-it-leaders">CIOs are becoming more like COOs due to digital transformation, say IT leaders</a>
+
+				</li>
+				<li>
+					     <a title="Best Early Access games on Steam - and one to avoid!" href="/ctg/news/3003453/best-early-access-games-on-steam-and-one-to-avoid">Best Early Access games on Steam - and one to avoid!</a>
+
+				</li>
+				<li>
+					     <a title="Ransomware: Hotel pays out for a third time after hackers take over its electronic locks" href="/ctg/news/3003534/ransomware-hotel-pays-out-for-a-third-time-after-hackers-take-over-its-electronic-locks">Ransomware: Hotel pays out for a third time after hackers take over its electronic locks</a>
+
+				</li>
+			</ol>
+		</div>
+	</div>
+</div>
+
+			 </div>
+		 </section>
+	  </div>
+   </div>
+</div>
+
+	<!--  weekly wrap and most read end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+	<!--  AD start /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+	<aside class="content">
+		<div class="content-inner content-full-width">
+			<div class="main-content">
+				<div class="ad-slot-full" id="rdm-above-footer"></div>
+			</div>
+		</div>
+	</aside>
+	<!--  AD end /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/ -->
+
+   
+				<footer class="main-footer">
+	<div class="main-footer-content main-footer-links">
+		<div class="main-footer-content-inner content-width">
+			
+<ul class="main-footer-nav">
+<li class="menu-title"><a href="http://www.computing.co.uk/static/contacts" title="">Contact</a></li>
+<li class="menu-title"><a href="http://btgmarketingsolutions.incisivemedia.com/">Marketing solutions</a></li>
+<li class="menu-title"><a href="http://www.enterpriseitevents.com/">Enterprise IT Events</a></li>
+<li class="menu-title"><a href="http://www.incisivemedia.com/our-story/" target="_blank" title="">About Incisive Media</a></li>
+<li class="menu-title"><a href="http://www.incisivemedia.com/terms-conditions/" target="_blank" title="">Terms &amp; conditions</a></li>
+<li class="menu-title"><a href="http://www.incisivemedia.com/privacy-policy/" target="_blank" title="">Privacy policy</a></li>
+</ul>
+			<ul class="footer-tools-content main-footer-align-right">
+				<li>
+	<div class="nav-tools rss-icon">
+		<a href="http://www.computing.co.uk/rss-feeds" target="_blank">RSS</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools twitter-icon">
+		<a href="http://twitter.com/computing_news" target="_blank">Twitter</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools linkedin">
+		<a href="http://www.linkedin.com/groups?gid=2366689" target="_blank">LinkedIn</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools newsletters">
+		<a href="http://email.computing.co.uk/k/Incisive-Media/computing_sign_up_form?_ga=1.39528675.194303802.1453395573" target="_blank">Newsletters</a>
+	</div>
+</li>
+<li>
+	<div class="nav-tools apps">
+		<a href="http://www.computing.co.uk/static/apps" target="_blank">Apps</a>
+	</div>
+</li>
+
+			</ul>
+
+		</div>
+	</div>
+	<div class="main-footer-content main-footer-copyright">
+		<div class="main-footer-content-inner content-width">
+			<div class="incisivemedia-footer">
+				
+<p style="float: left;"><a href="http://www.incisivemedia.com/" target="_blank" title="Incisive Media 2016"> <span class="logo"> <span class="screen-reader-text">&copy; Incisive Business Media</span> </span> </a></p>
+<p class="copyright-full">&copy; Incisive Business Media (IP) Limited, Published by Incisive Business Media Limited, Haymarket House, 28-29 Haymarket, London SW1Y 4RX, are companies registered in England and Wales with company registration numbers 9177174 &amp; 9178013</p>
+			</div>
+			<div class="incisivemedia-accreditation">
+				
+<div class="accreditation-logos"><span class="screen-reader-text">Digital publisher of the year 2010, 2013 &amp; 2016</span></div>
+<p class="accredit-text"><a href="http://www.incisivemedia.com/our-news/incisive-voted-best-digital-publisher-uk-peers-record-third-time/" target="_blank">Digital publisher of the year 2010, 2013 &amp; 2016</a></p>
+			</div>
+
+		</div>
+	</div>
+</footer>
+			</div>
+	    <script src="/javascripts/cookie.js"></script> 
+
+		<script type="text/javascript">
+		  jQuery(document).ready(function() {
+		    if(getCookie("series_token_error_message")!=null && getCookie("series_token_error_message") !=""){
+			var userlogin_path=location.pathname;
+			if(userlogin_path == "/userlogin"){
+			$("span#login_error_message_header").html(getCookie("series_token_error_message").replace(/\+/g, " ")).show();
+			deleteCookie("series_token_error_message");
+			}}});
+			 jQuery(document).ready(function() {
+			$("#userlogin .btn.login").on("click",function(){
+			$("span#login_error_message_header").html("").hide();
+			})});
+		</script>
+		
+		<script type="text/javascript">
+		  jQuery(document).ready(function() {
+		      if(getCookie("series_token_error_message")!=null && getCookie("series_token_error_message") !=""){
+		      if(getCookie("series_token_error_message").match("articles$") !=null){
+		   $("span#login_error_message_teaser").html(getCookie("series_token_error_message").replace(/\+/g, " ").replace(/\w+$/,'')).show();
+		   deleteCookie("series_token_error_message");
+		   }
+		   }
+		   });
+		    jQuery(document).ready(function() {
+		   $("#login_barrier .login_submit").on("click",function(){
+		   $("span#login_error_message_teaser").html("").hide();
+		   });});
+		</script>
+
+         <script src="http://assets.incisivemedia.com/cdn/ctg/scripts/scripts.js"></script>
+                  
+            <script src="/javascripts/KRESearch.js"></script>
+		<script type="text/javascript">
+		    jQuery(document).ready(function() {
+		    	$("#login").hover(function(){
+			       $(".login-offset").hide();
+				});
+		    	 setTimeout(function(){ 
+		    	 	jQuery("#register,#login,#follow,#free-trial").show();
+					if(getCookie("logged_in") == "false"){
+							jQuery("#register,#login,#follow,#free-trial").show();
+						    jQuery("#user").hide();
+					}else if(getCookie("logged_in") == "true"  || getCookie("logged_in") == "expired"|| getCookie("logged_in") == null){
+							if(getCookie("first_name")!= null && getCookie("first_name")!="" && getCookie("subc")!=""){
+								$("#user,#follow").show();
+						        $("#register,#login,#free-trial").hide();
+						        jQuery(".user-info").html('My account');
+								if(getCookie("institutional_login") == "true"){
+									if(getCookie("individual_login") == "true"){
+										$(".individual").show();
+										$('.institutional').hide();
+										$(".user-info").html('My account');
+										$("#user").removeClass("main-top-institution");
+									}else{
+										$(".individual").hide();
+										$(".user-info").html('Welcome');
+										$("#user").addClass("main-top-institution");
+									}
+								}else{
+										$(".individual").show();
+										$("#user").removeClass("main-top-institution");
+								}
+							}else{
+									jQuery.ajax({
+			                        type : 'GET',
+			                        dataType : 'html',
+			                        beforeSend : function(xhr) {
+			                            xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'))
+			                        },
+			                        url : '/user_info',
+			                        success : function(data) {
+			                            if(getCookie("logged_in") == "true" || getCookie("logged_in") == "expired" ){
+			                                if(getCookie("first_name")!= null && getCookie("subc")!= null && getCookie("first_name")!="" && getCookie("subc")!=""){
+												$("#user,#follow").show();
+						        				$("#register,#login,#free-trial").hide();
+						        				jQuery(".user-info").html('My account');
+												if(getCookie("institutional_login") == "true"){
+													if(getCookie("individual_login") == "true"){
+														$(".individual").show();
+														$('.institutional').hide();
+														$(".user-info").html('My account');
+														$("#user").removeClass("main-top-institution");
+													}else{
+														$(".individual").hide();
+														$('.institutional').show();
+														$(".user-info").html('Welcome');
+														$("#user").addClass("main-top-institution");
+													}
+												}else{
+														$(".individual").show();
+														$("#user").removeClass("main-top-institution");
+												}
+			                                }
+			                            }
+			                           else{
+										   $("#register,#login,#follow,#free-trial").show();
+									if(getCookie("series_token_error_message")!=null && getCookie("series_token_error_message") !=""){
+										   var userlogin_path=location.pathname;
+										   if(userlogin_path != "/userlogin" &&  (getCookie("series_token_error_message").match("articles$") == null)){
+										   location.pathname="/userlogin";
+										   }}
+										}
+			                        }
+			                    });
+							}
+					}
+						}, 2000);
+				$("#user").hover(function(event){
+				   event.preventDefault();
+				   if(getCookie("institutional_login") == "true"){
+						if(getCookie("individual_login") == "true"){
+							$(".individual").show();
+							$('.institutional').hide();
+						}else{
+							$(".individual").hide();
+							$('.institutional').show();
+						}
+					}
+				});
+			});
+		</script>
+
+		<script type="text/javascript">
+		/* article teaser csrf token */
+		$(function(){
+			 jQuery.ajax({
+            url : '/article_teaser_login',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                $( "#export_loaders" ).show();              
+            },
+            success : function(data) {
+            	$( "#export_loaders" ).hide();
+                $(".art_teaser").html(data);
+            }
+        });
+		});
+		</script> 
+		
+		 <script type="text/javascript">
+/*script for login */
+
+    jQuery(document).on('click', '.login_form_submit.login_submit', function(event) {
+    	event.preventDefault();
+        jQuery.ajax({
+            url : '/wps/authentication/verify_subscription_login',
+            type : 'POST',
+            data : jQuery("#userloginpop").serialize(),
+            dataType : 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                 $("#follow,#register,#login,#free-trial").hide();
+                  $( "#export_loaders" ).show();
+            },
+            success : function(data) {
+                if (data.status == "true") {
+                	$( "#export_loaders" ).hide();
+                	$("#follow,#user").show();
+                    location.reload();
+                } else {
+                	jQuery("#register,#login,#follow,#free-trial").show();
+                	$( "#export_loaders" ).hide();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').show();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').text(data.message);
+                }
+            }
+        });
+
+    });
+    jQuery(document).on('click', '.btn.login', function(event) {
+    	event.preventDefault();
+        jQuery.ajax({
+            url : '/wps/authentication/verify_subscription_login',
+            type : 'POST',
+            data : jQuery("#userlogin").serialize(),
+            dataType : 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                  $( "#export_loaders" ).show();
+            },
+            success : function(data) {
+                if (data.status == "true") {
+                	$( "#export_loaders" ).hide();
+                	var a=$(".cls_redirect").attr("value");
+                	location.href=a;
+                } else {
+                	jQuery("#register,#login,#follow,#free-trial").show();
+                	$( "#export_loaders" ).hide();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').show();
+                    jQuery('#login_error_message_header,#login_error_message_teaser').text(data.message);
+                }
+            }
+        });
+
+    });
+    jQuery(document).on('click', '.submit_style.login_submit', function(event) {
+        event.preventDefault();
+
+        jQuery.ajax({
+            url : '/wps/authentication/verify_subscription_login',
+            type : 'POST',
+            data : jQuery('#login_barrier').serialize(),
+            dataType : 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader('X-CSRF-Token', jQuery('meta[name="csrf-token"]').attr('content'));
+                 setTimeout(function(){ 
+                  $( "#export_loaders" ).show();
+                 }, 1000);
+            },
+            success : function(data) {
+                if (data.status == "true") {
+                	$( "#export_loaders" ).hide();
+                    location.reload()
+                } else {
+                   jQuery("#register,#login,#follow,#free-trial").show();
+                   $( "#export_loaders" ).hide();
+                   jQuery('#login_error_message_header,#login_error_message_teaser').show();
+                   jQuery('#login_error_message_header,#login_error_message_teaser').text(data.message);
+                }
+            }
+        });
+    });
+    </script>
+	<!-- Start: GIT body script -->
+				   <script type="text/javascript" src='//assets.incisivemedia.com/javascript/live/computing/javascript-computing.body.min.js'></script>
+		<!-- End: GIT body script -->
+	</body>
+</html>

@@ -1,0 +1,387 @@
+<head>
+<!--[if !IE]><!--><script>if(!!window.MSStream){document.documentElement.className+=' ie10';}</script><!--<![endif]-->
+<meta charset="utf-8">
+
+<title> RackForest</title>
+
+<link media="all" type="text/css" rel="stylesheet" id="googleFonts-css" href="http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%2C700italic%2C400italic&#038;subset=latin%2Clatin-ext&#038;ver=3.8" />
+<style>
+
+body {
+
+	background:url(bg.jpg) top center repeat-y #1f2224;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	  margin: 0;
+  	font-size: 14px;
+  	line-height: 18px;
+ 	 color: #333333;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,300&subset=latin,latin-ext);
+
+
+
+#rainbow {
+	background: url(/rainbow.png) top center no-repeat;
+	height: 10px;
+	width: 100%;
+}
+#wrapper {
+}
+
+.headersection {
+	padding-top:15px;
+	font-size:12px;
+}
+#welcomeback {
+margin-top: 40px;
+}
+
+#welcomeback h3 {
+	line-height: 38px;
+	font-weight: normal;
+	color: #CCCCCC;
+}
+.darkshadow {
+	background: rgba(46, 186, 247, 0.1);
+	border: 1px solid #175D7B;
+	border-radius: 4px 4px 4px 4px;
+	padding: 4px;
+}
+
+footer {
+	border-top: 5px solid rgb(57, 57, 57);
+	background: none repeat scroll 0% 0% rgb(34, 34, 34);
+	color: #ccc;
+	font-size:12px ;
+	margin-top: 40px;
+	padding:0px 26px;
+}
+footer a {
+	color:#ccc;
+}
+footer a:hover {
+	color:#fff;
+}
+
+
+#headouter {
+	background: #070707; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA3MDcwNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzFiMWIxYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNzA3MDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: url(noise50.png), -moz-linear-gradient(left,  #070707 0%, #1b1b1b 50%, #070707 100%); /* FF3.6+ */
+	background: url(noise50.png), -webkit-gradient(linear, left top, right top, color-stop(0%,#070707), color-stop(50%,#1b1b1b), color-stop(100%,#070707)); /* Chrome,Safari4+ */
+	background: url(/noise50.png), -webkit-linear-gradient(left,  #070707 0%,#1b1b1b 50%,#070707 100%); /* Chrome10+,Safari5.1+ */
+	background: url(noise50.png), -o-linear-gradient(left,  #070707 0%,#1b1b1b 50%,#070707 100%); /* Opera 11.10+ */
+	background: url(/noise50.png), -ms-linear-gradient(left,  #070707 0%,#1b1b1b 50%,#070707 100%); /* IE10+ */
+	background: url(noise50.png), linear-gradient(to right,  #070707 0%,#1b1b1b 50%,#070707 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#070707', endColorstr='#070707',GradientType=1 ); /* IE6-8 */
+}
+#headpart {
+	height:80px;
+}
+#headlogo {
+	height:auto;
+	padding-top:16px;
+}
+
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.center {
+	margin: 0px auto !important;
+	float: none;
+	display: block;
+}
+.p19 {
+	padding:19px;
+}
+
+
+
+/*!
+ * Bootstrap v2.0.2
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 28px;
+  /* Make inputs at least the height of their button counterpart */
+
+  /* Makes inputs behave like true block-level elements */
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+a {
+  color: #0099dd;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+
+.container
+ {
+//  width: 960px;
+  width: 1030px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+}
+.container:after {
+  clear: both;
+}
+.container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+  *zoom: 1;
+}
+.container-fluid:before,
+.container-fluid:after {
+  display: table;
+  content: "";
+}
+.container-fluid:after {
+  clear: both;
+}
+p {
+  margin: 0 0 9px;
+  line-height: 18px;
+}
+p small {
+  font-size: 11px;
+  color: #999999;
+}
+.lead {
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 27px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  color: #999999;
+}
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+}
+h1 small {
+  font-size: 18px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h2 small {
+  font-size: 18px;
+}
+h3 {
+  line-height: 27px;
+  font-size: 18px;
+}
+
+
+
+
+</style>
+
+</head>
+<body class="Hungarian tpl_nextgen" >
+<div id="rainbow"></div>
+<div id="wrapper">
+<div id="headouter">
+<div class="container">
+<div id="headpart">
+
+<div id="headlogo">
+<!--<h1>RackForest</h1>-->
+<a href="http://rackforest.hu/"><img src="http://rackforest.hu/wp-content/uploads/2014/01/rackforest-logo1.png" alt="RackForest"/></a>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div id="submenu" >
+<div class="clear"></div>    </div>
+<div class="clear"></div>
+
+
+<section id="root">
+
+<div id="welcomeback">
+<center>
+<div class="box">  
+  <IMG src="uc.png" width="200"><div style="display: inline;margin-bottom: 3px;">
+  <h3>Az oldal fejesztás alatt áll!</h3>
+</div>  
+</div>  
+</center>
+</div>
+</div>
+<div class="clear"></div>
+</section>
+<div class="container">
+<footer>
+<span class="left p19">&copy; 2014 RackForest - Minden jog fenntartva.</span>
+<div class="clear"></div>
+</footer>
+</div>
+</div>
+</div>
+</html>

@@ -1,0 +1,375 @@
+
+
+
+
+
+
+
+
+
+
+
+ Call us now (760) 946 6428 
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+Home
+Our Capabilities
+Our Services
+Our Approach
+Contact Us
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(760) 946 6428
+
+askanything@securitystreak.com
+
+CONTACT US
+
+Check out our capabilities and services
+
+IT SECURITY
+
+
+
+WE ALL RELY ON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Homepaginaandrew2016-07-06T14:19:43+00:00
+
+
+
+
+SecurityStreak.com offers vendor-neutral consulting, professional audits, penetration tests, and risk assessments.
+
+
+Contact us now!or learn more.We build compliant high-assurance systems with the cloud provider of your choosing.Cyber security is the topic of conversation
+
+
+Your competitive edge and standing with stakeholders are on the line:
+
+
+
+
+
+$0 billionCybercrime cost to global economy
+
+
+$0 millionCost of an average data breach
+
+
+0%Intrusions due to compromised user credentials
+
+
+0+ daysTime attackers are in a network before detection
+
+
+Join it! Let us help you identify, quantify and take control of your business risk.
+
+
+
+
+Attacks and threats today are substantially more sophisticated in frequency and severity. Everything from customer privacy, to brand identity and executive reputations is at risk.
+Without strong defenses in place, companies lose control of trade secrets and intellectual property, lose customers and pay hefty fines, and could have executive identities and bank accounts hacked.
+
+
+Investing in IT security is no longer a luxury expense — it’s a business necessity.
+
+
+Good IT policy enables strong business, drives profits up and keeps risks low.
+
+
+Expert Capabilities
+We take great pride in using our expertise to benefit your organization.
+
+
+Architecture As security architects, we can speak credibly to the security landscape, architectural models and solutions.
+We review proposed and existing designs, provide recommendations, determine risk-appropriate security controls, ensuring alignment with business and regulatory requirements.    
+
+
+Cloud Security As cloud experts, we help clients take full advantage of everything Cloud Computing has to offer.
+We build fast, secure and compliant systems in the cloud and take care of the unique security and privacy considerations that come with it.    
+
+
+Compliance As risk consultants, we support clients who are pursuing compliance with industry standards and regulatory requirements.
+We know the privacy rules and compliance regulations for all markets in most major economies, as well as the frameworks used to achieve and maintain a compliant state.    
+
+
+Endpoint Security As security administrators, we know the hardships involved with protecting users and endpoints.
+We detect sophisticated attacks & remediate security issues. We know which solutions work as advertised and aid our clients in selecting, implementing and maintaining security across their devices.    
+
+
+Engineering As security engineers, we build high-assurance environments that remain dependable in the face of malice, error, and mischance.
+Combining our cross-disciplinary expertise, we work with clients to bring policy and risk-appropriate security controls together. Delivering easily maintainable solutions cybercriminals (and pentesters!) dread.    
+
+
+Manage Risk As risk consultants, we quickly identify, qualify & quantify unknown security issues in a business life-cycle.
+We perform professional risk assessments, deliver affordable solutions that eliminate, reduce or insure against your business risk. We work to ensure unimpeded future earnings and freedom from worry about loss.    
+
+
+Network Security As network operators, we understand networks are always evolving, continuously impacting the security posture of a business.
+We deliver professional penetration testing and comprehensive vulnerability scanning. We design, build and troubleshoot networks and appliances. We configure the latest intrusion detection and prevention technologies, ensuring your data remains secure.    
+
+
+Web Security As hackers we love the web! Most firewalls cannot detect nor block attacks against today’s business-critical applications. We offer professional web pentesting, critical vulnerability scanning and comprehensive remediation services.    Read more...
+
+
+Wireless Security As pentesters, we are often aided in our objective by wireless technologies such as WiFi, Bluetooth, ZigBee and LTE.
+We help clients design, tune and audit high-speed wireless environments, and are preparing them for the Internet of Things (IoT). With the attack surface extending far beyond the safety of your corporate office, WiFi enabled client devices and networks are an often overlooked cause of compromises.    What We Do
+
+
+SecurityStreak offers vendor-neutral consulting, professional audits, penetration tests, and risk assessments.
+
+
+
+
+We advise on important IT decisions and engineer compliant high-assurance systems in the cloud (public & private).
+
+
+
+
+
+
+Consulting First and foremost we are top-notch IT security consultants. Our commitment to honesty and integrity drives us to deliver exceptional advice and affordable solutions. On time and on budget, without vendor-bias. If we can make ourselves obsolete we call it a job well done!    
+
+
+Design & Hardening We rework existing environments, but when clients involve us from concept to implementation we are able to develop business-driven, risk and opportunity focused security architectures that traceably support their business objectives.    
+
+
+Load Testing Denial of Service (DoS) attacks and associated extortion schemes today have become substantially more sophisticated in frequency and severity.
+We help clients implement distributed DoS prevention strategies by executing performance & load testing on exposed systems and web services.    
+
+
+Malware Removal “Something is wrong – please fix it!” is a common starting point for us.
+We swiftly deal with any malware that has hijacked your website, Point of Sale (PoS) systems or infested your network. Undetected Remote Access Tools (trojans), Ransomware and viruses are no match for us.    
+
+
+Penetration Testing Using industry recognized methodologies, we exploit security risks and vulnerabilities before cybercriminals do.
+We perform a full-scale test of your network, systems and web applications. The results will inject fresh thinking into your organization, and your IT staff and development teams will benefit from our experience testing other clients.    
+
+
+Risk Assessment A fresh set of eyes examining your organization often exposes security vulnerabilities and policy violations missed by internal staff.
+We perform professional security and risk assessments. We verify that current security requirements set by industry standards, governmental regulations, and organizational policies are being met. Ensuring unimpeded future earnings and freedom from worry about loss.    
+
+
+Secure Software Development No silver bullet exists, it is impossible to produce 100% secure software. Incorporating security activities into your software development lifecycle avoids most security issues and human error.
+We help shape the mind-set and security culture of your development teams, and offer our expertise and capability as security professionals. Your ROI is significant, as fixing security bugs or retrofitting security into existing products is more expensive, if it is at all possible.    
+
+
+Vulnerability Scanning Critical vulnerability scanning is a cost-effective method to regularly test networked devices and web applications.
+We enable our clients to maintain a strong vulnerability management program and comply with industry and regulatory requirements. We are able to identify new vulnerabilities in your apps, sites, systems and networks.
+These scanners are a class of automated security tools of great benefit during web application development and after the configuration of systems or your network has changed.    Our Approach
+We approach Information Security with the belief that it is about more than simply amassing technical knowledge. Information Security requires a combined set of skills, including leadership, team building, communication, risk assessment and corporate business savvy.We build our solutions and base our advice on industry-vetted and peer reviewed frameworks and methodologies, as well as our collective experience gained from all our clients.We continuously invest our time and profits in advanced cyber security and risk management training & the professional tools we need to excel at our job.We work tirelessly to ensure our clients receive exceptional results.
+
+
+
+
+
+If I have seen further it is by standing on the shoulders of giants
+
+
+
+ BSIMM Building Security in Maturity Model
+ COSO Enterprise Risk Management (ERM) Integrated Framework
+ HITRUST Common Security Framework (CSF)
+ ITAF Information Technology Assurance Framework
+ NESCOR National Electronic Sector Cybersecurity Organization Resource
+ NIST National Institute of Standards and Technology
+ OSSTMM Open Source Security Testing Methodology Manual
+ OWASP Open Web Application Security Project
+ PTES Penetration Testing Standards
+ SABSA Sherwood Applied Business Security Architecture
+ TOGAF Open Group Architecture Framework
+
+
+
+Bernard of Chartres, a 12th-century scholar, compared modern man to dwarfs perched on the shoulders of giants. He pointed out that we see more and farther than our predecessors, not because we have keener vision or greater height, but because we are lifted up and borne aloft on their gigantic stature.We remain deeply humbled by all giants that have gone before us, and those fighting beside us.
+
+
+
+Consulting with a Global Reputation
+
+
+
+Ask AnythingWe offer a free 2 hour consultation for our prospective clients.
+We look forward to hearing from you: 
+
+
+
+
+
+
+
+
+
+
+Full name
+
+Email
+
+Phone
+
+Your message
+ 
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+askanything@securitystreak.com+1 (760) 946 6428
+
+
+
+
+
+
+
+We take on projects worldwide.
+
+
+
+
+Onsite services are available near:
+
+
+
+
+
+ Chicago, IL
+ Madison, WI
+ Minneapolis, MN
+
+
+
+
+
+Protect your communications further by using our GPG key.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terms and Conditions | © Copyright SecurityStreak.com
+
+
+
+
+
+
+
+ Call us now (760) 946 6428Home
+Our Capabilities
+Our Services
+Our Approach
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

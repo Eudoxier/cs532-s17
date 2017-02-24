@@ -1,0 +1,777 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="UTF-8">
+    <title>World, Meet MalwareScore | Endgame</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.endgame.com/sites/default/files/endgame-favicon.jpg" type="image/jpeg" />
+<meta name="description" content="Sharing ideas, tools, and techniques among our community of defenders makes everyone sharper and safer." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.endgame.com/blog/world-meet-malwarescore" />
+<link rel="shortlink" href="https://www.endgame.com/node/423" />
+   
+    <link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/default/files/css/css_Vts0XjaQXkIwBk9HNAoJwrvmmE9lw6S9oxqJuhh0OB0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/default/files/css/css_GqCqCmGspWzZsDVTgkFoFb2eEt4xaByq4GFNcVi8QG4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/default/files/css/css_QJjRsV_moFDL86wrnWjOvRaoFry8t8n9lSWVPBzXcZI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/default/files/css/css_iGM6kzYWgzWnJxVqk2_3kUAbl9GCRkJbKwNm8tYIJ7U.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/default/files/css/css_ZYprqJ3fXU5XZA04r5NdJcdsftnob8_82Hgj02eOSK8.css" media="screen" />
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/all/themes/endgame/css/ie.css?olj10w" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://www.endgame.com/sites/all/themes/endgame/css/ie6.css?olj10w" media="all" />
+<![endif]-->
+ 
+    
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300italic,300,400italic,500italic,500,600italic,600,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css'>
+    	<!--[if IE]>
+     	<script src="https://www.endgame.com/sites/all/themes/endgame/js/html5shiv.js"></script>
+    <![endif]-->
+         
+    <script type="text/javascript" src="https://www.endgame.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/drupal.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.core.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.widget.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.button.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.mouse.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.draggable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.position.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.resizable.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ui/jquery.ui.dialog.min.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/views/js/jquery.ui.dialog.patch.js?v=1.8.7"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/jquery.form.js?v=2.52"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/ajax.js?v=7.54"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/marketo_ma/js/marketo_ma.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/video/js/video.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/views_load_more/views_load_more.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/views/js/base.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/misc/progress.js?v=7.54"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/views/js/ajax_view.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/google_analytics/googleanalytics.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/modules/webform/js/webform.js?olj10w"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-37179841-2", {"cookieDomain":".endgame.com"});ga("require", "linkid", "linkid.js");ga("set", "anonymizeIp", true);ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/jquery-1.9.1.min.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/jquery.fancybox.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/jquery.fancybox-media.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/slick.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/jquery.gray.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/matchheight.js?olj10w"></script>
+<script type="text/javascript" src="https://www.endgame.com/sites/all/themes/endgame/js/script.js?olj10w"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"endgame","theme_token":"gbHD70vs7Vae939K4FvA5mNshCSUsym5dVqN-0nGCRc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.button.min.js":1,"misc\/ui\/jquery.ui.mouse.min.js":1,"misc\/ui\/jquery.ui.draggable.min.js":1,"misc\/ui\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.resizable.min.js":1,"misc\/ui\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/views\/js\/jquery.ui.dialog.patch.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/marketo_ma\/js\/marketo_ma.js":1,"sites\/all\/modules\/video\/js\/video.js":1,"sites\/all\/modules\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"0":1,"sites\/all\/themes\/endgame\/js\/jquery-1.9.1.min.js":1,"sites\/all\/themes\/endgame\/js\/jquery.fancybox.js":1,"sites\/all\/themes\/endgame\/js\/jquery.fancybox-media.js":1,"sites\/all\/themes\/endgame\/js\/slick.js":1,"sites\/all\/themes\/endgame\/js\/jquery.gray.js":1,"sites\/all\/themes\/endgame\/js\/matchheight.js":1,"sites\/all\/themes\/endgame\/js\/script.js":1},"css":{"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/video\/css\/video.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/endgame\/fonts\/generated\/generated-font.css":1,"sites\/all\/themes\/endgame\/fonts\/styles.css":1,"sites\/all\/themes\/endgame\/css\/jquery.fancybox.css":1,"sites\/all\/themes\/endgame\/css\/gray.css":1,"sites\/all\/themes\/endgame\/css\/style.css":1,"sites\/all\/themes\/endgame\/css\/my-style.css":1,"sites\/all\/themes\/endgame\/css\/ie.css":1,"sites\/all\/themes\/endgame\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/blog\/world-meet-malwarescore":true},"shortcode_wysiwyg":{"current_form":"form-y4UoG6AVO0mkDSUN56H8tUi2S3S4hVcsNFfuY3P5kGA"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:5a6d93b9a3115ca0486226953de52074":{"view_name":"blog_listing","view_display_id":"block_1","view_args":"","view_path":"node\/423","view_base_path":null,"view_dom_id":"5a6d93b9a3115ca0486226953de52074","pager_element":0}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":"1","trackUrlFragments":1},"marketo_ma":{"track":true,"key":"627-YBU-612","library":"\/\/munchkin.marketo.net\/munchkin.js","initParams":[]}});
+//--><!]]>
+</script>
+ 
+    
+    <script>
+        $(document).ready(function(){
+            $('#block-system-main-menu .content > ul.menu > li').addClass('col-sm-4');
+            $('.region-menu-block .block-block').addClass('promo-single');      
+            $(".latest-news-slider .block > h4").wrap( "<div class='container'></div>" ); 
+             $('.img-img .banner-content a,.banner-content .watch-video.fancybox').addClass('btn btn-default btn-big');    
+        })
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5FRVPB');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-423 node-type-blog footer-columns" >
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FRVPB"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <!-- start --> 
+   <div id="wrapper">
+    <!-- header part --> 
+    <header class="main-header black-header">
+    	<div class="container clearfix">
+       	    <!-- Logo part -->
+       	                  <a href="/" title="Home" rel="home" class="logo">
+                <img src="https://www.endgame.com/sites/all/themes/endgame/logo.png" alt="Home" />
+              </a>
+                    	<!-- navigation part -->
+            <a href="javascript:;" title="" class="menu-switch">
+      	        <span class="lines"></span>
+      	        <span class="open-txt hidden-xs">Menu</span>
+      	        <span class="close-txt hidden-xs">Close</span>
+       	    </a>
+        </div>
+    </header>
+    <!-- navigation part -->
+    <div class="main-navigation">
+        <div class="container nav-content">
+                        <div class="col-sm-4 promo-desc hidden-xs">
+                  <div class="region region-menu-block">
+     
+
+<aside>
+    <div id="block-block-1" class="block block-block " >
+                
+        <div class="content">
+    <h4>WHY ENDGAME</h4>
+<p>Earliest Endpoint Prevention and Threat Detection. Instant Response at Scale.</p>
+<p><a class="btn btn-default" href="/why-endgame">LEARN MORE</a></p>
+    </div>
+    </div>
+</aside>
+
+ 
+
+<aside>
+    <div id="block-block-2" class="block block-block " >
+                
+        <div class="content">
+    <h4>WHY WORK HERE</h4>
+<p>We’re hiring! Learn more about why people love working here.</p>
+<p><a class="btn btn-default" href="/careers">LEARN MORE</a></p>
+    </div>
+    </div>
+</aside>
+
+  </div>
+            </div>
+                               
+                             <div class="col-sm-8 listing-menu">
+                    <div class="row">
+                          <div class="region region-header">
+     
+
+<aside>
+    <div id="block-system-main-menu" class="block block-system block-menu " >
+                
+        <div class="content">
+    <ul class="menu clearfix"><li class="first expanded"><a href="/company">COMPANY</a><ul class="menu clearfix"><li class="first leaf"><a href="/why-endgame">Why Endgame</a></li>
+<li class="leaf"><a href="/platform">Platform</a></li>
+<li class="leaf"><a href="/partners">Partners</a></li>
+<li class="leaf"><a href="/leadership">Leadership</a></li>
+<li class="last leaf"><a href="/contact">Contact</a></li>
+</ul></li>
+<li class="expanded"><a href="/resources">RESOURCES</a><ul class="menu clearfix"><li class="first leaf"><a href="/blog">Blog</a></li>
+<li class="leaf"><a href="/news">Newsroom</a></li>
+<li class="last leaf"><a href="/customer-support">Customer Support</a></li>
+</ul></li>
+<li class="last expanded"><a href="/careers">CAREERS</a><ul class="menu clearfix"><li class="first leaf"><a href="/interview-process">Interview Process</a></li>
+<li class="last leaf"><a href="/career-openings">Career Openings</a></li>
+</ul></li>
+</ul>    </div>
+    </div>
+</aside>
+
+  </div>
+                    </div>
+                 </div> <!-- /#main-menu -->
+                            
+        </div>
+    </div>
+    <div class="menu-overlay"></div>        
+                  
+                  <!-- banner area part --> 
+              <div class="main-banner">
+                    <div class="main-banner-slider">
+                        <div class="single-slide lft-rgt">
+                            <div class="img-video" style="background-image: url(https://www.endgame.com/sites/default/files/default_images/4Endgame-Desktop-Generic-3Column-Rd2-v2-image1.jpg)">
+                                <div class="img-video-inner">
+                                    <div class="title h1 visible-xs">
+                                        <h1>World, Meet MalwareScore™</h1>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="dis-table">
+                                <div class="dis-table-cell">
+                                    <div class="container fadeInUp">
+                                        <div class="banner-content  textxent ">
+                                            <div class="title h1 hidden-xs">
+                                                World, Meet MalwareScore™                                            </div>
+                                            <p>By: Jonathan Woodbridge, Phil Roth & Hyrum Anderson // February 9, 2017</p>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                            
+         <div id="content-area" class="">
+                                    <div class="tabs">
+                                          </div>
+                 
+               
+                                                                                  <script>
+                            $(document).ready(function(){
+                            $(".field-name-body, .profile").addClass("container");                            
+                        })
+                      </script>
+                      <section class="main-content two-col" style="background-image: url(https://www.endgame.com/sites/all/themes/endgame/images/blog-detail-line.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="generic-left">
+                                   
+                                   <div class="left-block equal-height">
+                                          <div class="region region-content">
+     
+
+<div id="block-system-main" class="block block-system " >
+                
+        <div class="content">
+    <div id="node-423" class="node node-blog node-full clearfix" about="/blog/world-meet-malwarescore" typeof="sioc:Item foaf:Document">
+  
+  <span property="dc:title" content="World, Meet MalwareScore" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  <div class="posted clearfix">
+  <div class="date">February 09, 2017</div>
+  <h5>World, Meet MalwareScore</h5>
+  <div class="posted-row">
+    <figure class="blog-person author-image"><img src="/sites/all/themes/endgame/images/no-image.jpg" alt="blog-author-image" title="" /></figure>
+    <div class="post-title postby">
+      Posted By:      <ul>
+                <li>
+            <a href="https://www.endgame.com/our-experts/hyrum-anderson"> Hyrum Anderson</a>
+          </li>
+                    <li>
+            <a href="https://www.endgame.com/our-experts/jonathan-woodbridge"> Jonathan Woodbridge</a>
+          </li>
+                    <li>
+            <a href="https://www.endgame.com/our-experts/phil-roth"> Phil Roth</a>
+          </li>
+                </ul>
+    </div>
+    <div class="post-title">
+      Catagories :      <div class="field field-name-field-categories field-type-taxonomy-term-reference field-label-hidden clearfix"><ul class="links"><li class="taxonomy-term-reference-0"><a href="/blog-categories/data-science" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Data Science</a></li><li class="taxonomy-term-reference-1"><a href="/blog-categories/malware-research" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Malware Research</a></li><li class="taxonomy-term-reference-2"><a href="/blog-categories/threat-research-adversary-prevention-unit" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Threat Research &amp; Adversary Prevention Unit</a></li></ul></div>    </div>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5829e517b1a5c0fe"></script>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <div class="addthis_inline_share_toolbox"></div>
+
+    </div>
+  </div>
+
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Sharing ideas, tools, and techniques among our community of defenders makes everyone sharper and safer. To that end, we previously received<a href="https://www.endgame.com/article/endgame-machine-learning-engine-achieves-100-independent-malware-certification" target="_blank"> third party certification</a>,<a href="https://www.endgame.com/article/endgame-joins-anti-malware-testing-standards-organization-amtso" target="_blank"> joined AMTSO</a>, have <a href="https://arxiv.org/abs/1611.00791" target="_blank">published</a> and <a href="http://www.slideshare.net/AshwiniAlmad/deep-dga-adversariallytuned-domain-generation-and-detection" target="_blank">presented</a> in <a href="http://dl.acm.org/citation.cfm?id=2996767" target="_blank">peer-reviewed</a> settings, and have otherwise participated openly in the broader infosec community.  Continuing this pursuit of community engagement, we are pleased to announce that we have integrated MalwareScore™, Endgame's proprietary machine learning-powered malware detection and prevention engine, into <a href="http://virustotal.com/" target="_blank">VirusTotal</a>.</p>
+<p>While MalwareScore™ has been available to Endgame customers since last year as the earliest deployment of machine learning in our security platform, its worldwide availability through VirusTotal merits a broader explanation of its scope and design.</p>
+<p> </p>
+<p><span style="font-size: x-large;"><strong>Scope: Prevent and Detect Executable Malware with Machine Learning</strong></span></p>
+<p>Endgame’s approach to protecting the endpoint relies on unified and tightly-integrated layers of behavioral protection mechanisms that each cover a swath of an attacker’s life cycle.  These layers include exploit prevention, prevention of attacker techniques, detection of fileless attacks and signature-less malware detection.  Protection against malware is a foundational element of an endpoint security solution, preventing adversaries who may have gained access to an endpoint from establishing persistence, installing backdoors, or executing ransomware, for example.</p>
+<p>Critical to a modern malware prevention and detection solution is independence from rules, signatures and IOCs that are inherently reactive since they are derived from post-breach forensics.  While these traditional practices have their place, holistic prevention and detection must rely on a less brittle solution.  As detailed in our<a href="https://www.endgame.com/resource/white-paper/white-paper-hunting-malware-machine-learning"> whitepaper last year</a>, we built MalwareScore™ as the foundation for preventative malware protection using machine learning because it provides many advantages, including:</p>
+<ul style="list-style-type: square;"><li>a unified way to generalize to never-before-seen malware samples, families and variants (signatureless);</li>
+<li>an automated means to adapt malware prevention to emerging trends observed in malware or discovered by researchers; and</li>
+<li>deep insights learned from complex predictive relationships in the data that might only otherwise yield weak hand-crafted indicators of maliciousness.</li>
+</ul><p> </p>
+<p><span style="font-size: x-large;"><strong>Design: Lightweight but Lethal</strong></span></p>
+<p>Our design philosophy in MalwareScore™ was to include a machine learning model as one piece of a suite of tightly-integrated protective layers, with no need for cloud connectivity, and with a unified user experience.  As such, from the get-go, we had three primary requirements in scoping our malware prevention models:</p>
+<ul style="list-style-type: square;"><li>extremely small footprint,</li>
+<li>rapid execution (low CPU utilization), and</li>
+<li>very high detection rate at extremely low false positive rates.</li>
+</ul><p>After rigorous<a href="https://www.endgame.com/blog/its-bake-navigating-evolving-world-machine-learning-models" target="_blank"> competitive analysis</a>, we believe we've punctuated each objective with an exclamation point. For a typical executable file, our model takes 5 ms to evaluate, with a memory footprint of roughly 5 MB. It reproduces malicious and benign labels of our holdout validation sets with an area under the<a href="https://www.endgame.com/blog/machine-learning-you-gotta-tame-beast-you-let-it-out-its-cage" target="_blank"> ROC</a> curve (<a href="https://www.endgame.com/blog/its-bake-navigating-evolving-world-machine-learning-models" target="_blank">AUC</a>) of 0.9997.  In practice, this allows our customers to achieve a true positive rate exceeding 99% at false positive rates below 1:1000.  And, as our own harshest critics, we're continuously and relentlessly in pursuit of improvements to our models and methodology.</p>
+<p> </p>
+<p><span style="font-size: x-large;"><strong>Deployment: MalwareScore™ in Action</strong></span></p>
+<p>MalwareScore™ prevents malicious Windows executables from running on customers’ endpoints using wholly on-sensor machine learning models.  In addition, Endgame computes a MalwareScore™  for each PE file that is created or modified on an endpoint and triggers an alert for executables with a sufficiently high MalwareScore™. Endgame provides several user-selectable settings for MalwareScore™ to allow customers to adjust their detection and prevention postures to be either more conservative or more aggressive.  </p>
+<p>MalwareScore™ is a tightly integrated feature within our endpoint protection platform.  For deployment in VirusTotal, we extracted and wrapped the MalwareScore™ product feature as a standalone scanner that examines all incoming PE files.  As deployed in VirusTotal, MalwareScore™ currently outputs three categories: benign, malicious (moderate confidence), and malicious (high confidence).  </p>
+<p> </p>
+<p><span style="font-size: x-large;"><strong>Strengthening Defenses through Machine Learning</strong></span></p>
+<p>Machine learning and artificial intelligence are exciting fields that have many applications to security.  In addition to MalwareScore™, Endgame is applying machine learning and artificial intelligence to other areas to help defenders detect, prevent and respond to malicious activity in other phases of the attacker’s life cycle.  </p>
+<p>Our team at Endgame leveraged years of previous experience building data-driven products to research, develop, rigorously test and deploy MalwareScore™ into the Endgame platform.  Today’s inclusion into VirusTotal provides a tremendous opportunity to assist security analysts worldwide and is a validating step for MalwareScore™. But we’re not done yet! We’re continually improving MalwareScore™, aggressively seeking out corner cases and solving those problems through data collection and curation, engineering, and maintaining the perspective of an attacker.  Stay tuned as we incorporate updates to our endpoint detection and response product offering into the VirusTotal scanner in the months to come.</p>
+<p>We welcome your input to continue helping us support the community. Please send any feedback to: <a href="mailto:vt_feedback@endgame.com">vt_feedback@endgame.com</a> </p>
+</div></div></div>
+
+</div>    </div>
+</div>
+
+  </div>
+                                        <div class="stay-connected" style="background-image: url(https://www.endgame.com/sites/all/themes/endgame/images/stay-connected-bg.jpg)">
+                                            <div class="stay-inner">
+                                                   <div class="region region-content-form">
+     
+
+<aside>
+    <div id="block-webform-client-block-17" class="block block-webform " >
+                <h4>Stay Connected</h4>
+            
+        <div class="content">
+    <div id="node-17" class="node node-webform clearfix" about="/content/stay-connected" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/content/stay-connected">Stay Connected</a>
+    </h2>
+    <span property="dc:title" content="Stay Connected" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Sign up for our newsletter</p>
+</div></div></div><form class="webform-client-form webform-client-form-17" action="/blog/world-meet-malwarescore" method="post" id="webform-client-form-17" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-email webform-component--email-address">
+  <label class="element-invisible" for="edit-submitted-email-address">Email Address <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" class="email form-text form-email required" placeholder="Email Address" type="email" id="edit-submitted-email-address" name="submitted[email_address]" size="60" />
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-qaRogGGatsbltIDuMa1hk4y0HA4dAj0JJ56WSTZubpM" />
+<input type="hidden" name="form_id" value="webform_client_form_17" />
+<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit" /></div></div></form>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"></li>
+</ul>    </div>
+  
+  
+</div>
+    </div>
+    </div>
+</aside>
+
+  </div>
+   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="generic-right">
+                                    <div class="right-block equal-height" style="background-image: url(https://www.endgame.com/sites/all/themes/endgame/images/blog-sidebar-bg.jpg)">
+                                         <div class="region region-sidebar-first">
+     
+
+<aside>
+    <div id="block-views-blog_listing-block_1" class="block block-views " >
+                <h4>Recent Posts</h4>
+            
+        <div class="content">
+    <div class="view view-blog-listing view-id-blog_listing view-display-id-block_1 view-dom-id-5a6d93b9a3115ca0486226953de52074">
+        
+  
+  
+      <div class="view-content">
+        
+            
+  <div>        <span><div class="link">
+     <a href="/blog/rsa-keynote-call-digital-norms">The RSA Keynote &amp; A Call for Digital Norms</a>
+     <div class="date">February 15, 2017</div> 
+</div></span>  </div>    
+  
+            
+  <div>        <span><div class="link">
+     <a href="/article/endgame-edr-platform-wins-most-innovative-endpoint-security-suite">Endgame EDR Platform Wins Most Innovative Endpoint Security Suite</a>
+     <div class="date">February 14, 2017</div> 
+</div></span>  </div>    
+  
+            
+  <div>        <span><div class="link">
+     <a href="/blog/world-meet-malwarescore">World, Meet MalwareScore</a>
+     <div class="date">February 09, 2017</div> 
+</div></span>  </div>    
+  
+            
+  <div>        <span><div class="link">
+     <a href="/article/endgame-machine-learning-engine-featured-virustotal">Endgame Machine Learning Engine Featured in VirusTotal</a>
+     <div class="date">February 09, 2017</div> 
+</div></span>  </div>    
+  
+            
+  <div>        <span><div class="link">
+     <a href="/blog/endgame-and-morphick-closing-gap-advanced-cyber-threat-response">Endgame and Morphick: Closing the Gap in Advanced Cyber Threat Response</a>
+     <div class="date">February 08, 2017</div> 
+</div></span>  </div>    
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+    </div>
+</aside>
+
+ 
+
+<aside>
+    <div id="block-block-12" class="block block-block " >
+                <h4>Follow Us</h4>
+            
+        <div class="content">
+    <div class="row clearfix social_icon"><a href="https://www.facebook.com/EndgameInc/"><img src="/sites/default/files/fb-icon_0.png" width="46" height="44" /></a> <a href="https://twitter.com/endgameinc"><img src="/sites/default/files/twitter-icon_0.png" width="46" height="44" /></a> <a href="https://www.linkedin.com/company/endgame"><img src="/sites/default/files/linkedin-icon_1.png" width="46" height="44" /></a>   </div>
+    </div>
+    </div>
+</aside>
+
+ 
+
+<aside>
+    <div id="block-views-taxonomy_block-block_2" class="block block-views " >
+                <h4>Recent Categories</h4>
+            
+        <div class="content">
+    <div class="view view-taxonomy-block view-id-taxonomy_block view-display-id-block_2 view-dom-id-7e8490dfac9d6e812ffa9bdfc956760d">
+        
+  
+  
+      <div class="view-content">
+        
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/data-science">Data Science</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/devops">DevOps</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/exploits">Exploits</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/geopolitics-national-security">Geopolitics &amp; National Security</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/hunt">Hunt</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/machine-learning">Machine Learning</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/malware-research">Malware Research</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/policy">Policy</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/prevention">Prevention</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/threat-research-adversary-prevention-unit">Threat Research &amp; Adversary Prevention Unit</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/user-experience">User Experience</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/vulnerabilities">Vulnerabilities</a> </div></span>  </div>    
+  
+            
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="link"><a href="/blog-categories/workplace-trends-culture">Workplace Trends &amp; Culture</a> </div></span>  </div>    
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+    </div>
+</aside>
+
+  </div>
+                               
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                
+                  
+                              
+         </div>
+
+                     <section class="latest-news" style="background-image: url(https://www.endgame.com/sites/all/themes/endgame/images/background-img04.jpg)">
+                <div class="latest-news-slider clearfix">
+                      <div class="region region-news-blog-rotator">
+     
+
+<aside>
+    <div id="block-views-news_blog_rotator-block" class="block block-views " >
+                <h4>Latest News and Blog Posts</h4>
+            
+        <div class="content">
+    <div class="view view-news-blog-rotator view-id-news_blog_rotator view-display-id-block view-dom-id-74fe20a8b075cf7ce1dcd28dd1b70a18">
+        
+  
+  
+      <div class="view-content">
+        
+            
+          <div class="single-news">
+<a href="/blog/rsa-keynote-call-digital-norms">
+<figure><img typeof="foaf:Image" src="https://www.endgame.com/sites/default/files/styles/news___blog_rotator/public/Screen%20Shot%202017-02-15%20at%204.06.57%20PM.png?itok=mY7Kl2ef" width="110" height="68" /></figure>
+<span class="red-label">NEWS</span>
+<h6>The RSA Keynote &amp; A Call for Digital Norms</h6>
+<p><p>Yesterday’s RSA keynote by Brad Smith, Microsoft’s President and Chief Legal Officer, has the industry finally buzzing about the creation of global digital norms. In his accompanying blogpost, “<a href="https://blogs.microsoft.com/on-the-issues/2017/02/14/need-digital-geneva-convention/#sm.00000e9dxvgm5udn8u0ks3lpy98ag">The Need for a Digital Geneva Convention</a>”, Mr. Smith moves beyond simply reiterating the stats behind the breadth and depth of digital attacks.</p></p>
+</a>
+</div>      
+  
+            
+          <div class="single-news">
+<a href="/article/endgame-edr-platform-wins-most-innovative-endpoint-security-suite">
+<figure><img typeof="foaf:Image" src="https://www.endgame.com/sites/default/files/styles/news___blog_rotator/public/field/image/Endgamelogo_37.jpg?itok=ip7X125i" width="110" height="68" alt="" /></figure>
+<span class="red-label">NEWS</span>
+<h6>Endgame EDR Platform Wins Most Innovative Endpoint Security Suite</h6>
+<p><p><em><strong style="font-size: medium;">Cyber Defense Magazine awards Endgame during RSA 2017 for novel prevention, detection and response, and hunt capabilities</strong></em></p>
+<p> </p></p>
+</a>
+</div>      
+  
+            
+          <div class="single-news">
+<a href="/blog/world-meet-malwarescore">
+<figure><img typeof="foaf:Image" src="https://www.endgame.com/sites/default/files/styles/news___blog_rotator/public/malwarescore.png?itok=LQcljpBA" width="110" height="68" /></figure>
+<span class="red-label">NEWS</span>
+<h6>World, Meet MalwareScore</h6>
+<p><p>Sharing ideas, tools, and techniques among our community of defenders makes everyone sharper and safer.</p></p>
+</a>
+</div>      
+  
+            
+          <div class="single-news">
+<a href="/article/endgame-machine-learning-engine-featured-virustotal">
+<figure><img typeof="foaf:Image" src="https://www.endgame.com/sites/default/files/styles/news___blog_rotator/public/field/image/Endgamelogo_36.jpg?itok=2zkcIBn7" width="110" height="68" alt="" /></figure>
+<span class="red-label">NEWS</span>
+<h6>Endgame Machine Learning Engine Featured in VirusTotal</h6>
+<p><p><em>Signature-Less Endpoint Prevention and Detection Proven to Anticipate Latest Attacker Innovations</em></p></p>
+</a>
+</div>      
+  
+            
+          <div class="single-news">
+<a href="/blog/endgame-and-morphick-closing-gap-advanced-cyber-threat-response">
+<figure><img typeof="foaf:Image" src="https://www.endgame.com/sites/default/files/styles/news___blog_rotator/public/morphick.png?itok=FtrXfdS0" width="110" height="68" /></figure>
+<span class="red-label">NEWS</span>
+<h6>Endgame and Morphick: Closing the Gap in Advanced Cyber Threat Response</h6>
+<p><p>In my recently released book <a href="http://www.morphick.com/resources/facing-cyber-threats-head-on"><em>Facing Cyber Threats Head On</em></a><em>,</em> I spend a lot of time discussing how contemporary cyber security is just as much about stopping people (the attackers) as it is about stopping malware.  When you look at it, stopping people is a different problem and requires a different approach than stopping malware.  At the end of the day, people create and adjust strategies based on what</p></p>
+</a>
+</div>      
+  
+            
+          <div class="single-news">
+<a href="/article/accenture-expand-proactive-cybersecurity-defense-services-capabilities-acquisition-endgame">
+<figure><img typeof="foaf:Image" src="https://www.endgame.com/sites/default/files/styles/news___blog_rotator/public/field/image/Endgamelogo_35.jpg?itok=ZgFvXs5Y" width="110" height="68" alt="" /></figure>
+<span class="red-label">NEWS</span>
+<h6>Accenture to Expand Proactive Cybersecurity Defense Services Capabilities with Acquisition of Endgame Federal Services Business </h6>
+<p><p><strong>ARLINGTON, VA - February 8, 2017 —</strong> Accenture (NYSE: ACN) has entered into an agreement to acquire the U.S. federal government services business of <a href="https://www.endgame.com/">Endgame</a> Inc., a privately held endpoint detection and response (EDR) cybersecurity software company based in Arlington, VA.</p></p>
+</a>
+</div>      
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+    </div>
+</aside>
+
+  </div>
+ 
+                </div>
+            </section>
+                  <script>
+            $(document).ready(function(){
+                $(".stay-inner .webform-submit").addClass("btn btn-default btn-big");                            
+            })
+         </script>
+         
+        
+        <!-- footer part --> 
+    <div class="footer-push"></div>
+    </div>
+    <footer class="main-footer">
+        <div class="foot-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 contact-left">
+                        <div class="number">
+                              <div class="region region-contact-info">
+     
+
+<aside>
+    <div id="block-block-11" class="block block-block " >
+                <h4>contact us</h4>
+            
+        <div class="content">
+    <p><span style="font-family: Calibri, sans-serif; font-size: xx-large;">844-357-7047</span></p>
+    </div>
+    </div>
+</aside>
+
+  </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 contact-right">
+                        <script>
+                            $(document).ready(function(){
+                                $(".col-sm-7.contact-right .email").addClass("form-control"); 
+                                $(".col-sm-7.contact-right .webform-submit").addClass("btn btn-default");                            
+                            })
+                        </script> 
+                        <div class="subscribe-form">
+                              <div class="region region-subscribe-form">
+     
+
+<aside>
+    <div id="block-webform-client-block-15" class="block block-webform " >
+                
+        <div class="content">
+    <div id="node-15" class="node node-webform clearfix" about="/subscribe-form" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/subscribe-form">Subscribe Form</a>
+    </h2>
+    <span property="dc:title" content="Subscribe Form" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Subscribe to our Newsletter for More Information</p>
+</div></div></div><form class="webform-client-form webform-client-form-15" action="/blog/world-meet-malwarescore" method="post" id="webform-client-form-15" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-email webform-component--email">
+  <label class="element-invisible" for="edit-submitted-email--2">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input required="required" class="email form-text form-email required" placeholder="Email" type="email" id="edit-submitted-email--2" name="submitted[email]" size="60" />
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-JsaLJ8ClgvyUkq3NKX-I8BAH0wnga-G3jhXYOGokshA" />
+<input type="hidden" name="form_id" value="webform_client_form_15" />
+<div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit" /></div></div></form>  </div>
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"></li>
+</ul>    </div>
+  
+  
+</div>
+    </div>
+    </div>
+</aside>
+
+  </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-menu hidden-xs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 single-menu">
+                          <div class="region region-footer-firstcolumn">
+     
+
+<aside>
+    <div id="block-block-3" class="block block-block " >
+                <h4>Explore</h4>
+            
+        <div class="content">
+    <ul><li><a href="/why-endgame">Why Endgame</a></li>
+<li><a href="/platform">Platform</a></li>
+<li><a href="/company">Company</a></li>
+<li><a href="/resources">Resources</a></li>
+<li><a href="/news">News</a></li>
+</ul>    </div>
+    </div>
+</aside>
+
+  </div>
+                    </div>
+                    <div class="col-sm-6 single-menu second-nav">
+                          <div class="region region-footer-secondcolumn">
+     
+
+<aside>
+    <div id="block-block-4" class="block block-block " >
+                <h4>Cyber Security Dictionary</h4>
+            
+        <div class="content">
+    <ul><li><a href="/blog/top-3-requirements-adversary-hunting">Threat Hunting</a></li>
+<li><a href="/resource/solution-brief/accenture-hunting-service-powered-endgame">Security Service</a></li>
+<li><a href="http://pages.endgame.com/rs/627-YBU-612/images/Ransomware%20Case%20Study.pdf">Ransomware</a></li>
+<li><a href="/blog/machine-learning-you-gotta-tame-beast-you-let-it-out-its-cage">Machine Learning </a></li>
+<li><a href="/news">Security News</a></li>
+<li><a href="/why-endgame">Endpoint Protection</a></li>
+<li><a href="http://pages.endgame.com/rs/627-YBU-612/images/Endgame%20Threat%20Hunting%20Data%20Sheet%20Final.pdf">Cyber Hunting</a></li>
+<li><a href="/blog/jamie-butler-cigital-podcast-security-research-thinking-hacker-and-rootkit-development">Enterprise Security</a></li>
+<li><a href="http://pages.endgame.com/2016-01-Financial-Services-Whitepaper.html">Cybersecurity Financial Services</a></li>
+<li><a href="/resource/white-paper-automate-hunt">Automated Hunt</a></li>
+<li><a href="/blog/hackers-guide-not-having-your-passwords-stolen">Cyber Attack</a></li>
+</ul>    </div>
+    </div>
+</aside>
+
+  </div>
+                    </div>
+                    <div class="col-sm-3 single-menu">
+                          <div class="region region-footer-thirdcolumn">
+     
+
+<aside>
+    <div id="block-block-5" class="block block-block " >
+                <h4>Connect</h4>
+            
+        <div class="content">
+    <ul><li><span style="font-size: 13.008px; line-height: 1.538em;">3101 Wilson Blvd</span></li>
+<li><span style="font-size: 13.008px; line-height: 1.538em;">Arlington, VA 22201</span></li>
+<li><a href="tel:%20844-357-7047">844-357-7047</a></li>
+<li><a href="https://www.endgame.com/contact">Contact Us</a></li>
+<li><a href="http://pages.endgame.com/request-demo-website.html">Request a Demo</a></li>
+</ul>    </div>
+    </div>
+</aside>
+
+  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-copyright">
+            <div class="container clearfix">
+                <div class="left">
+                    <p>&copy; Endgame 2017</p>
+                </div>
+                <div class="right hidden-xs clearfix">
+                    <div class="footer-social">
+                          <div class="region region-footer">
+     
+
+<aside>
+    <div id="block-block-6" class="block block-block " >
+                
+        <div class="content">
+    <a class="icon icon-facebook" target="_blank" href="https://www.facebook.com/EndgameInc/"></a>
+ <a class="icon icon-twitter" target="_blank" href="https://twitter.com/endgameinc"></a>
+<a class="icon icon-linkedin" target="_blank" href="https://www.linkedin.com/company/endgame"></a>    </div>
+    </div>
+</aside>
+
+  </div>
+                       
+                    </div>
+                    <a href="/" class="footer-logo"> <img src="https://www.endgame.com/sites/all/themes/endgame/images/footer-logo.png" alt="" title=""> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>

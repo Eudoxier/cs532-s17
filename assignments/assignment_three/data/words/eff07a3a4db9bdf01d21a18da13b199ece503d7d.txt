@@ -1,0 +1,414 @@
+
+
+
+
+Skip to content
+
+
+
+
+
+
+First Markets
+
+
+Menu
+About
+Contact
+ 
+
+
+
+
+A blog by Petr Pinkhasov: Quantitative and qualitative look at the markets.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Some thought on rates
+
+Published on February 13, 2017February 13, 2017 by First MarketsLeave a comment 
+
+
+In light of this article, I thought it might be good to share some thoughts about what happens to interest rates as the economy gets closer to full employment. I think the conventional thought sequence would be that as jobs fill up:
+
+Wages increase
+Inflation builds more upside pressure
+Prices rise, dollar gets weaker
+Interest rates rise
+
+Unfortunately, the article’s author made more of a point to discredit where we are in an economic cycle standpoint and put the slump in treasury’s blame onto the current president. Below is a chart of the 30-year yield.
+US 30-year Treasury Yield
+I think its important to take sentiment and positioning into context when these kind of headlines and articles are written in such a one-dimensional matter. Clearly towards the end of the year, yield generating securities like bonds and utility stocks had significant inflows — some of which were record setting as the 30-year yield made a new all-time low.
+Below is a chart of YoY change in federal debt holdings vs change in the 30-year yield. It should not come as a surprise that as yields have a sharp rise, ownership comes down. However, this is pretty much the case with any asset. If one were to look at sovereign wealth fund holdings of oil stocks as crude oil dropped 50%, you don’t have to be a genius to speculate that there would be significant outflows. Clearly, as was with the case of oil dropping an underrepresented amount the last couple of years, a presidential election’s result which is still coming as a shock to a lot of people, will be setting some outflow/inflow records.
+Here is an article from Forbes showing record inflows into the Utility sector last year.
+
+I guess my larger point is that I think its intellectually lazy and extremely narrow-sighted for blaming our current president on rising yields. The pieces are set for yields to continue to go higher: crude oil giants in his corner, economy is pretty much at full employment, food price are starting to rise, wages are starting to come up.
+If those sell-side institutions who pitched yield and income generating securities at the all time low in rates are now sour about bottom ticking it, grow up.
+
+
+Categories economics, federal reserve, interest rates 
+
+
+
+
+
+
+
+
+Ray Dalio Essay
+
+Published on January 11, 2017 by First MarketsLeave a comment 
+
+
+While we figure out if this information about Trump’s golden endeavors is true or not, regardless, I think this essay from Ray Dalio timely and a great read!
+“If you have a society where people can’t agree on the basic facts, how do you have a functioning democracy?” Distorted pictures lead us to make bad decisions. In my opinion, if people don’t correct such inaccuracies and don’t fight against this problem, continued distortions in the media will prevent the public’s accurate understanding of what is happening, which will threaten our society’s well-being. We in the financial community now openly talk about fake or distorted media being used to manipulate market prices to the harm of many, and similar conversations are taking place in most areas.
+
+
+Categories Uncategorized 
+
+
+
+IWM Post TD-13 Countdown
+
+Published on March 23, 2016February 2, 2017 by First MarketsLeave a comment 
+
+
+On Monday, March 21st, Small-caps recorded a TD 13 sell countdown. Tuesday had a gap fill day. What is the significance here?
+
+
+
+
+Categories Uncategorized 
+
+
+
+CMRE
+
+Published on March 17, 2016February 2, 2017 by First MarketsLeave a comment 
+
+
+
+
+Costamare is a non-operating containership owner. It charters vessels out on term contracts to co’s like Maersk, CMA CGM, Evergreen etc.
+
+Fleet of 54 containerships. 
+49% ownership in 6 vessels through joint venture deal with York Capital Management
+JV w/ York Capital also has part ownership (<50%) in 12 newbuild Post-Panamax containerships to be delivered starting in 2Q2016
+
+Catalysts:
+23 vessels rolling off contract during the next 12 months. 
+Deleveraging should continue as debt repayments efforts continue (dividend yield could be lower?)
+7/12 of the newbuild’s add ~400MM to CMRE’s contracted backlog. With 5 charters unannounced from the JV. 
+Low oil,
+Higher interest rates  higher Panamax rates 
+Lower euro.
+
+Debt side:
+CS expects 461MM in operating cash flows over next 2 years. 
+413MM in debt repayments over next 2 years.
+At a 13% yield, this leaves only 50MM to fund dividends. CS expects management to refinance a portion of the debt to free up liquidity.
+
+Deleveraging has been successful so far: Net debt / capital is at 53% from 70% in 2013
+
+
+Categories Uncategorized 
+
+
+
+And then there were the dealers
+
+Published on March 17, 2016February 2, 2017 by First MarketsLeave a comment 
+
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     ZN   R-squared:                       0.431
+Model:                            OLS   Adj. R-squared:                  0.418
+Method:                 Least Squares   F-statistic:                     31.84
+Date:                Thu, 17 Mar 2016   Prob (F-statistic):           1.29e-06
+Time:                        10:29:31   Log-Likelihood:                -70.070
+No. Observations:                  44   AIC:                             144.1
+Df Residuals:                      42   BIC:                             147.7
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [95.0% Conf. Int.]
+-----------------------------------------------------------------------------------------
+const                     0.1198      0.186      0.646      0.522        -0.255     0.494
+Dealer Long Positions  1.733e-05   3.07e-06      5.643      0.000      1.11e-05  2.35e-05
+==============================================================================
+Omnibus:                       17.799   Durbin-Watson:                   1.160
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               24.466
+Skew:                          -1.271   Prob(JB):                     4.87e-06
+Kurtosis:                       5.623   Cond. No.                     6.11e+04
+==============================================================================
+
+
+
+
+
+
+Categories Uncategorized 
+
+
+
+Mid-March return cluster
+
+Published on March 16, 2016February 2, 2017 by First MarketsLeave a comment 
+
+
+S&P futures have rallied significantly over the last 30 days. The stock to bond ratio is at 20/50 day highs. However, the negative sentiment still persists. I still wish there is a way to quantify the hubris, but unfortunately, I haven’t found a non-qualitative way. 
+
+Attached below is a chart of what typically happens to the S&P during the middle of March. Over the last 9 years, the S&P was up an average of 1.5% during the next 5 days. Bear in mind we do have a Fed meeting on Wednesday. 
+
+
+
+
+
+Categories Uncategorized 
+
+
+
+Short-term exhaustion
+
+Published on March 14, 2016February 2, 2017 by First MarketsLeave a comment 
+
+
+OLS Regression Results                            
+==============================================================================Dep. Variable:                    Spu   R-squared:                       0.056Model:                            OLS   Adj. R-squared:                  0.053Method:                 Least Squares   F-statistic:                     15.68Date:                Mon, 14 Mar 2016   Prob (F-statistic):           9.68e-05Time:                        00:20:06   Log-Likelihood:                -1413.3No. Observations:                 264   AIC:                             2831.Df Residuals:                     262   BIC:                             2838.Df Model:                           1                                         Covariance Type:            nonrobust                                         ==============================================================================coef    std err          t      P>|t|      [95.0% Conf. Int.]——————————————————————————const         -2.1659      3.748     -0.578      0.564        -9.545     5.213Spu           -0.2006      0.051     -3.960      0.000        -0.300    -0.101==============================================================================Omnibus:                       89.947   Durbin-Watson:                   0.259Prob(Omnibus):                  0.000   Jarque-Bera (JB):              241.013Skew:                          -1.559   Prob(JB):                     4.62e-53Kurtosis:                       6.492   Cond. No.                         87.8
+
+
+
+
+
+
+
+
+Categories Uncategorized 
+
+
+
+Time to buy bonds again
+
+Published on January 18, 2016 by First MarketsLeave a comment 
+
+
+Back in 2013 I made a post about betting on the long end of the curve to come down. This was really against the consensus at the time. I use a very simple model to forecast interest rates. Right now I think you can buy the 5-30 spread or just flat out TLT.
+
+The fascinating part about this trade is that people don’t think that US interest rates can really come down much further. With financial assets still close to all time highs, and if we do get an environment where they start to come off, what is the most obvious trade? Yields come down. How low can rates go? Well, they are practically negative in Europe. The Japanese ten-year is yielding at 25 basis points. It can go fucking lower. The Bank Of Norway has even  stated that they don’t see much opportunity in US bonds. More fuel for the fire (higher) in my opinion.
+Its very simple. You get positive carry, a good risk:reward opportunity and the potential to look like a genius to your counterparts. What’s not to love about this trade?
+
+
+Categories Uncategorized 
+
+
+
+Recession? Nonsense
+
+Published on September 24, 2015 by First MarketsLeave a comment 
+
+
+I’m back. I’ve been very busy working on the professional side of money management and have not had the chance to let my thoughts flow. I like to think that I have a pretty good grasp of the macro environment and so far my track record has been spot on, so here is some forecasts for the end of 2015 / 2016.
+
+Late cycle business growth will slow down.
+Emerging market / early cycle will outperform
+Relative value trading will pay huge if you are long/short the right sectors/regions.
+US Economy is starting to reach full employment with the housing sector stronger than ever.
+Recessionary headwinds will not come until 2018
+
+
+
+
+
+Categories Uncategorized 
+
+
+
+Value-at-Risk for a portfolio
+
+Published on June 24, 2015 by First MarketsLeave a comment 
+
+
+I have yet to see a comprehensive variance/co-variance method for getting VaR values for individual securities in a portfolio. So lets begin.First, we need pandas, numpy, scipy and a datasource for our portfolio. I prefer ‘bt’ for the later.
+import pandas as pdimport numpy as npimport pandas.io.data as webimport datetimeimport matplotlib.pyplot as pltimport bt
+from scipy.stats import norm
+
+
+So lets pull the data
+
+
+start = datetime.datetime(2013, 5, 1)portfolio = bt.get('aapl, tlt, fxe, gs, c, fb, ms, ko, bac', start=start)port = pd.DataFrame(index=portfolio.columns)
+
+
+Now we have two dataframes. One with our historical values as portfolio, the other as port which holds the security names which we will later store our VaR values in. Next we create the actual VaRCoV function:
+
+
+
+def var_cov_var(P, c, mu, sigma):    alpha = norm.ppf(1-c, mu, sigma)    return P - P*(alpha + 1)
+
+
+portfolio dataframe, confidence interval P = 15000 #each position % of portfolio, should create a new one to store marketvalue of each position to be more precise #c = 0.99 #confidence interval, moved to function totalrisk = 0 for i in portfolio: rets = portfolio[i].pct_change() mu = np.mean(rets)
+
+def getVar(portfolio, c):         mu = np.mean(rets)        sigma = np.std(rets)        var = var_cov_var(P, c, mu, sigma)        port["VaR"][i] = var        totalrisk += var    return port, totalrisk
+
+
+getVar(portfolio, .95)
+Out[471]: (             VaR aapl  328.585833 tlt   205.453309 fxe   136.978460 gs    274.577792 c     315.838626 fb    566.777609 ms    332.530446 ko    220.500392 bac   319.658819, 2700.9012842524335)
+
+
+
+
+
+			
+		
+
+Categories Uncategorized 
+
+
+Posts navigation
+Older posts
+
+
+
+
+Search
+
+Search for:
+
+
+
+
+February 2017
+
+
+M
+T
+W
+T
+F
+S
+S
+
+
+
+
+« Jan
+ 
+ 
+
+
+
+
+ 12345
+
+
+6789101112
+
+
+13141516171819
+
+
+20212223242526
+
+
+2728
+ 
+
+
+Follow me on TwitterMy Tweets
+
+
+
+
+
+Follow Blog via Email
+
+Enter your email address to follow this blog and receive notifications of new posts by email.
+Join 1,203 other followers
+
+
+
+
+
+
+
+ 
+
+
+
+Follow First Markets on WordPress.com
+
+ 
+
+
+
+
+
+AboutAbout / PerformancelinksPremiumtwitterContact
+
+
+Powered by WordPress.com.
+				
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Post to
+
+
+
+Cancel
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+

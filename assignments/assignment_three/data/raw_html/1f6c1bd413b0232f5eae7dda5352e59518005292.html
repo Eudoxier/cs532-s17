@@ -1,0 +1,2804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" /><title>
+	ELF_BEIKDOR.W - Threat Encyclopedia - Trend Micro USA
+</title>
+     <meta name="description" content="This backdoor  arrives on a system as a file dropped by other malware or as a file downloaded unknowingly by users when visiting malicious sites."/>
+     
+     
+<meta http-equiv="X-UA-Compatible" content="IE=100" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta http-equiv="X-UA-Compatible" content="IE=9" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="http://www.trendmicro.com/favicon.ico" type="image/x-icon" /><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+
+   <link href="/vinfo/css/TEx.css" type="text/css" rel="stylesheet" />
+    
+   
+    
+
+
+
+    
+    <link rel="stylesheet" href="/vinfo/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/vinfo/css/clientlibs.min.css" type="text/css">
+    <link rel="stylesheet" href="/vinfo/css/customSiteStyle.css?Ver2.0" type="text/css">
+    <script type="text/javascript" src="/vinfo/js/clientlibs.js"></script>
+<script type="text/javascript" src="/vinfo/js/analytics.js?v1"></script>
+    <script src="//tags.tiqcdn.com/utag/trendmicro/nabucms/prod/utag.sync.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet" /></head>
+
+<body class="context-business hero-behind-breadcrumbs">
+  
+   <script type="text/javascript">
+       var utag_data = { "customer_cookie_type": "business", "language_code": "en_us", "page_name": "business/en_us", "category_id": "en_us/business", "page_type": "home page", "site_section": "business" };
+		</script>
+
+		<script type="text/javascript">(function (a, b, c, d) { a = '//tags.tiqcdn.com/utag/trendmicro/nabucms/prod/utag.js'; b = document; c = 'script'; d = b.createElement(c); d.src = a; d.type = 'text/java' + c; d.async = true; a = b.getElementsByTagName(c)[0]; a.parentNode.insertBefore(d, a); })();</script>
+    
+
+  
+
+    <!-- start header-->
+<header class="container-fluid container-fluid--hybrid">
+
+    <div class="globalHeader section">
+
+        <div class="disruptorPanel"></div>
+        
+        <!-- start main header -->
+        <div class="main-header">
+             
+    <div class="inner-container">
+		<div class="row">
+			<div class="col-sm-6 clearfix">
+				<div class="logo"><a href="/en_us/business.html">
+	<img class="hidden-xs" src="https://www.trendmicro.com/content/dam/trendmicro/en/global/logo/logo-desktop.png" alt="Trend Micro  Security">
+	<img class="hidden-sm hidden-md hidden-lg" src="https://www.trendmicro.com/content/dam/trendmicro/en/global/logo/trend-micro-mobile.png" alt="Trend Micro  Security">
+</a>
+
+
+</div>
+				<div class="toggle"><div class="toggle-button active">
+	<a href="/en_us/business.html" data-businesscontext="true">
+		Business 
+		<span class="icon-chevron-right"></span>
+	</a>
+</div>
+<div class="toggle-button">
+	<a href="/en_us/forHome.html" data-businesscontext="false">
+		For Home 
+		<span class="icon-chevron-right"></span>
+	</a>
+</div>
+
+</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="utilityMenu"><nav class="utilityMenu__wrapper">
+
+	<div class="dropdown utilityAlerts">
+
+<button class="menu-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	
+	<span class="menu-button__icon icon-alert"></span>
+	<span class="menu-button__text">Alerts</span>
+	
+</button>
+
+
+<ul class="dropdown-menu no-alerts">
+	<li>No new notifications at this time.</li>
+</ul>
+</div>
+
+	<!-- /* Each menu tab should have an Asset Page paragraph system with children to iterate over (assetsParsys). */ -->
+	
+
+		
+			<div class="dropdown">
+
+				<button class="menu-button desktop-text" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+					<span class="menu-button__icon icon-cart"></span>
+					<span class="menu-button__text">Buy</span>
+				</button>
+				
+					<ul class="dropdown-menu align-">
+						
+							<li class=" hidden-context-business">
+
+								<a href="http://store.trendmicro.com/store/tmamer/Content/pbPage.Home/pgm.4823570300/">
+
+									
+									
+									Home Office Online Store
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="http://store.trendmicro.com/store/tmamer/html/pbPage.ManualRenew/ThemeID.7735600?cm_sp=Lightbox-_-Where+To+Buy-_-For+Home%3ARenew" class="no-border">
+
+									
+									
+									Renew Online
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header hidden-context-home">
+
+								
+
+									
+									
+									Business
+									
+									
+								
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/partners/find-a-partner.html">
+
+									
+									
+									Find a Partner
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/business/get-info-form.html">
+
+									
+									
+									Contact Us
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header hidden-context-home is-phone-number">
+
+								
+
+									
+									
+									1-877-218-7353 (M-F 8am - 5pm CST)
+									
+									
+								
+							</li>
+						
+							<li class="dropdown-header hidden-context-home">
+
+								
+
+									
+									
+									Small Business
+									
+									
+								
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="http://buyonline.trendmicro.com/?cm_sp=Lightbox-_-Where+To+Buy-_-Small+Business%3AStore">
+
+									
+									
+									Small Business Online Store
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="http://renewonline.trendmicro.com/?cm_sp=Lightbox-_-Where+To+Buy-_-Small+Business%3ARenew+Online">
+
+									
+									
+									Renew Online
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/partners/find-a-partner.html">
+
+									
+									
+									Find a Partner
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/business/get-info-form.html">
+
+									
+									
+									Contact us
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header hidden-context-home is-phone-number">
+
+								
+
+									
+									
+									1-877-762-8736 (M-F 8am - 5pm CST)
+									
+									
+								
+							</li>
+						
+					</ul>
+				
+			</div>
+		<!--?*</sly>*/-->
+	
+
+
+	
+
+	<!-- /* Each menu tab should have an Asset Page paragraph system with children to iterate over (assetsParsys). */ -->
+	
+
+		
+			<div class="dropdown">
+
+				<button class="menu-button desktop-text" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+					<span class="menu-button__icon icon-download"></span>
+					<span class="menu-button__text">Download</span>
+				</button>
+				
+					<ul class="dropdown-menu align-">
+						
+							<li>
+
+								<a href="http://downloadcenter.trendmicro.com/index.php?clk=left_nav&clkval=scan_engine&regs=NABU">
+
+									
+									
+									Scan Engines
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://downloadcenter.trendmicro.com/index.php?clk=left_nav&clkval=pattern_file&regs=NABU">
+
+									
+									
+									All Pattern Files
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://downloadcenter.trendmicro.com/index.php?clk=left_nav&clkval=all_download&regs=NABU">
+
+									
+									
+									All Downloads
+									
+									
+								</a>
+							</li>
+						
+							<li class=" is-phone-number">
+
+								<a href="http://downloadcenter.trendmicro.com/index.php?clk=left_nav&clkval=rss_feed&regs=NABU" class="no-border">
+
+									
+									
+									Subscribe to Download Center RSS
+									
+									
+								</a>
+							</li>
+						
+					</ul>
+				
+			</div>
+		<!--?*</sly>*/-->
+	
+
+
+	
+
+	<!-- /* Each menu tab should have an Asset Page paragraph system with children to iterate over (assetsParsys). */ -->
+	
+
+		
+			<div class="dropdown">
+
+				<button class="menu-button" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+					<span class="menu-button__icon icon-region"></span>
+					<span class="menu-button__text">Region</span>
+				</button>
+				
+					<ul class="dropdown-menu align-">
+						
+							<li class="dropdown-header">
+
+								
+
+									
+									
+									The Americas
+									
+									
+								
+							</li>
+						
+							<li>
+
+								<a href="/en_us/business.html">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-united-states-region.png" class="img-left">
+									
+									United States
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.br/?cm_sp=lightbox-_-country-_-americas%3abrazil">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-brasil-region.png" class="img-left">
+									
+									Brasil
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="/en_ca/business.html">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-canada-region.png" class="img-left">
+									
+									Canada
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://la.trendmicro.com/?cm_sp=Lightbox-_-Country-_-Americas%3AMexico" class="no-border">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-mexico-region.png" class="img-left">
+									
+									México
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header">
+
+								
+
+									
+									
+									Asia Pacific Region
+									
+									
+								
+							</li>
+						
+							<li>
+
+								<a href="http://apac.trendmicro.com/apac/index.html?cm_sp=Lightbox-_-Country-_-APAC%3AAPAC">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-apac-region.png" class="img-left">
+									
+									APAC
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.com.au/au/index.html?cm_sp=lightbox-_-country-_-apac%3aaustralia">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-australia-region.png" class="img-left">
+									
+									Australia
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://cn.trendmicro.com/cn/index.html?cm_sp=Lightbox-_-Country-_-APAC%3AChina">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-china-region.png" class="img-left">
+									
+									中国 (China)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.hk/hk/index.html?cm_sp=lightbox-_-country-_-apac%3ahong+kong">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-hong-kong-region.png" class="img-left">
+									
+									Hong Kong (English)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.hk/cn-hk/index.html?cm_sp=lightbox-_-country-_-apac%3ahong+kong">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-hong-kong-region.png" class="img-left">
+									
+									香港 (中文)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.co.in/in/index.html?cm_sp=Lightbox-_-Country-_-APAC%3AIndia">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-india-region.png" class="img-left">
+									
+									भारत गणराज्य (India)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.co.id/id/?cm_sp=Lightbox-_-Country-_-APAC%3AIndonesia">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-indonesia-region.png" class="img-left">
+									
+									Indonesia
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://jp.trendmicro.com/jp/index.html?cm_sp=Lightbox-_-Country-_-APAC%3AJapan">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-japan-region.png" class="img-left">
+									
+									日本 (Japan)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.co.kr/index.html?cm_sp=Lightbox-_-Country-_-APAC%3ASouth+Korea">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-south-korea-region.png" class="img-left">
+									
+									대한민국 (South Korea)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.my/my/?cm_sp=lightbox-_-country-_-apac%3amalaysia">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-malaysia-region.png" class="img-left">
+									
+									Malaysia
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.co.nz/nz/index.html?cm_sp=Lightbox-_-Country-_-APAC%3ANew+Zealand">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-new-zealand-region.png" class="img-left">
+									
+									New Zealand
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.ph/ph/?cm_sp=lightbox-_-country-_-apac%3aphilippines">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-phillipines-region.png" class="img-left">
+									
+									Philippines
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.sg/sg/?cm_sp=lightbox-_-country-_-apac%3asingapore">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-singapore-region.png" class="img-left">
+									
+									Singapore
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.tw/tw/index.html?cm_sp=Lightbox-_-Country-_-APAC%3ATaiwan">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-taiwan-region.png" class="img-left">
+									
+									台灣 (Taiwan)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.co.th/th/?cm_sp=Lightbox-_-Country-_-APAC%3AThailand">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-thailand-region.png" class="img-left">
+									
+									ราชอาณาจักรไทย (Thailand)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://vn.trendmicro.com/vn/?cm_sp=Lightbox-_-Country-_-APAC%3AVietnam" class="no-border">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-veitnam-region.png" class="img-left">
+									
+									Việt Nam
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header">
+
+								
+
+									
+									
+									EUROPE
+									
+									
+								
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.be/?cm_sp=Lightbox-_-Country-_-Europe%3ABelgium">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-belgium-region.png" class="img-left">
+									
+									België (Belgium)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.cz/?cm_sp=Lightbox-_-Country-_-Europe%3ACzech+Republic">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-czech-republic-region.png" class="img-left">
+									
+									Česká Republika
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.dk/?cm_sp=Lightbox-_-Country-_-Europe%3ADenmark">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-danmark-region.png" class="img-left">
+									
+									Danmark
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.de/?cm_sp=Lightbox-_-Country-_-Europe%3ADACH">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-deutsch-region.png" class="img-left">
+									
+									Deutschland, Österreich Schweiz
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.es/?cm_sp=Lightbox-_-Country-_-Europe%3ASpain">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-spain-region.png" class="img-left">
+									
+									España
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.fr/?cm_sp=Lightbox-_-Country-_-Europe%3AFrance">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-france-region.png" class="img-left">
+									
+									France
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.it/?cm_sp=Lightbox-_-Country-_-Europe%3AItaly">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-italy-region.png" class="img-left">
+									
+									Italia
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.nl/?cm_sp=Lightbox-_-Country-_-Europe%3ANetherlands">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-netherlands-region.png" class="img-left">
+									
+									Nederland
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.no/?cm_sp=Lightbox-_-Country-_-Europe%3ANorway">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-norway-region.png" class="img-left">
+									
+									Norge (Norway)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.pl/?cm_sp=Lightbox-_-Country-_-Europe%3APoland">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-poland-region.png" class="img-left">
+									
+									Polska (Poland)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.ru/?cm_sp=lightbox-_-country-_-europe%3arussia">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-russia-region.png" class="img-left">
+									
+									Россия (Russia)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.ae/?cm_sp=Lightbox-_-Country-_-Europe%3ASouth+Africa">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-south-africa-region.png" class="img-left">
+									
+									South Africa
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.fi/?cm_sp=Lightbox-_-Country-_-Europe%3AFinland">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-finland-region.png" class="img-left">
+									
+									Suomi (Finland)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.se/?cm_sp=Lightbox-_-Country-_-Europe%3ASweden">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-sweden-region.png" class="img-left">
+									
+									Sverige (Sweden)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="https://www.trendmicro.com.tr/">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-turkey-region.png" class="img-left">
+									
+									Türkiye (Turkey)
+									
+									
+								</a>
+							</li>
+						
+							<li>
+
+								<a href="http://www.trendmicro.ae/?cm_sp=Lightbox-_-Country-_-Europe%3AUAE" class="no-border">
+
+									<img src="/content/dam/trendmicro/en/global/icons/regions/tm-united-arab-emirates-region.png" class="img-left">
+									
+									United Arab Emirates
+									
+									
+								</a>
+							</li>
+						
+					</ul>
+				
+			</div>
+		<!--?*</sly>*/-->
+	
+
+
+	
+
+	<!-- /* Each menu tab should have an Asset Page paragraph system with children to iterate over (assetsParsys). */ -->
+	
+
+		
+			<div class="dropdown hidden-context-home">
+
+				<button class="menu-button desktop-text" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+					<span class="menu-button__icon icon-partners"></span>
+					<span class="menu-button__text">Partners</span>
+				</button>
+				
+					<ul class="dropdown-menu align-">
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/partners.html">
+
+									
+									
+									Partner Overview
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/partners/find-a-partner.html">
+
+									
+									
+									Find a Partner (Reseller, CSP, MSP)
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://community-trendmicro.force.com/Partner/GlobalPRM_Registration">
+
+									
+									
+									Become a Partner (Reseller, Integrator)
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/partners/explore-alliance-partners.html">
+
+									
+									
+									All Alliance Partners
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://community-trendmicro.force.com/Partner">
+
+									
+									
+									Partner Login
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="/en_us/partners/partner-stories.html" class="no-border">
+
+									
+									
+									Success Stories
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="https://community-trendmicro.force.com/Partner/GlobalPRM_Registration" class="no-border">
+
+									
+									
+									Become an Affiliate
+									
+									
+								</a>
+							</li>
+						
+					</ul>
+				
+			</div>
+		<!--?*</sly>*/-->
+	
+
+
+	
+
+	<!-- /* Each menu tab should have an Asset Page paragraph system with children to iterate over (assetsParsys). */ -->
+	
+
+		
+			<div class="dropdown">
+
+				<button class="menu-button desktop-text" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+					<span class="menu-button__icon icon-login"></span>
+					<span class="menu-button__text">Login</span>
+				</button>
+				
+					<ul class="dropdown-menu align-">
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://success.trendmicro.com/sign-in">
+
+									
+									
+									Login to eSupport
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="https://esupport.trendmicro.com/en-us/home/pages/resources.aspx" class="no-border">
+
+									
+									
+									Login to eSupport
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://community-trendmicro.force.com/Partner" class="no-border">
+
+									
+									
+									Login to Partner Portal
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header hidden-context-business">
+
+								
+
+									
+									
+									Home Solutions
+									
+									
+								
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="https://www.trendsecure.com/my_account/signin/login?cm_sp=Lightbox-_-Login-_-For+Home%3AMy+Account">
+
+									
+									
+									My Account
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="http://www.safesync.com/?cm_sp=Lightbox-_-Login-_-For+Home%3ASafeSync">
+
+									
+									
+									SafeSync
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="http://www.theonlineguardian.com/?cm_sp=Lightbox-_-Login-_-For+Home%3AOnline+Guardian">
+
+									
+									
+									Online Guardian
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="https://www.trendmicro.com/ilostmyandroid?cm_sp=lightbox-_-login-_-for+home%3alost+device">
+
+									
+									
+									Lost Device Portal
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="https://www.trendsecure.com/report_stolen/locker/report?cm_sp=Lightbox-_-Login-_-For+Home%3ATrend+Micro+Vault">
+
+									
+									
+									Trend Micro Vault
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-business">
+
+								<a href="http://pwm.trendmicro.com/?cm_sp=Lightbox-_-Login-_-For+Home%3APassword+Manager" class="no-border">
+
+									
+									
+									Password Manager
+									
+									
+								</a>
+							</li>
+						
+							<li class="dropdown-header hidden-context-home">
+
+								
+
+									
+									
+									Business Solutions
+									
+									
+								
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="http://safesync.com/?cm_sp=Lightbox-_-Login-_-For+Business%3ASafeSync">
+
+									
+									
+									SafeSync
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://esupport.trendmicro.com/oct?cm_sp=Lightbox-_-Login-_-For+Business%3ACase+Tracking">
+
+									
+									
+									Online Case Tracking
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://psc.trendmicro.com/?cm_sp=Lightbox-_-Login-_-For+Business%3APremium+Support">
+
+									
+									
+									Premium Support
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://sso.trendmicro.com/sso/form/authenticate.aspx?cm_sp=Lightbox-_-Login-_-For+Business%3AWFBS+Services">
+
+									
+									
+									Worry-Free Business Security Services
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://tmrm.trendmicro.com/?request_locale=en&cm_sp=Lightbox-_-Login-_-For+Business%3ARemote+Manager">
+
+									
+									
+									Worry-Free Remote Manager
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://app.deepsecurity.trendmicro.com/">
+
+									
+									
+									Deep Security as a Service
+									
+									
+								</a>
+							</li>
+						
+							<li class=" hidden-context-home">
+
+								<a href="https://ssl-portal.trendmicro.com/index">
+
+									
+									
+									Trend Micro SSL
+									
+									
+								</a>
+							</li>
+						
+					</ul>
+				
+			</div>
+		<!--?*</sly>*/-->
+	
+</nav>
+
+</div>
+			</div>
+		</div>
+	</div>
+
+<nav class="mainNavMenu"><div class="inner-container">
+	<div class="row">
+		<div style="max-width: 30px; margin-right: 10px;
+margin-top: -5px;" class="logo"><a href="/en_us/business.html">
+	<img class="hidden-xs" src="/content/dam/trendmicro/en/global/logo/logo-desktop.png" alt="Trend Micro  Security">
+	<img class="hidden-sm hidden-md hidden-lg" src="/content/dam/trendmicro/en/global/logo/trend-micro-mobile.png" alt="Trend Micro  Security">
+</a>
+
+
+</div>
+		
+			<div class="dropdown hidden-xs hidden-sm">
+				
+				
+					<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Products & Solutions
+					</button>
+					<div class="dropdown-menu">
+						<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-fff0fc80-1642-4f86-a181-712508b281a5 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-fff0fc80-1642-4f86-a181-712508b281a5">
+
+	<div class="col-sm-9 col-xs-12 col-md-9"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-9913310e-3a36-4d4a-8e43-95a1817dedce {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-9913310e-3a36-4d4a-8e43-95a1817dedce">
+
+	<div class="col-sm-8 col-xs-12 col-md-8"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-18952c6c-264c-4e90-b181-e7ba9563bafe {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-18952c6c-264c-4e90-b181-e7ba9563bafe">
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a title="hybrid Cloud Security" href="/en_us/business/products/hybrid-cloud.html"><span class="rte-red-text"><b>Hybrid Cloud Security</b></span></a></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/hybrid-cloud/deep-security-data-center.html" title="Data Center Security">Data Center Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/hybrid-cloud/deep-security-for-cloud.html" title="Cloud Security">Cloud Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="https://www.trendmicro.com/vmware/" title="virtualization security" target="_blank">Virtualization Security</a></span></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a title="Network Security" href="/en_us/business/products/network.html"><b><span class="rte-red-text">Network Security</span></b></a></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/network/integrated-atp.html" title="Integrated ATP">Integrated Advanced Threat Prevention</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/network/deep-discovery.html" title="Advanced Threat Detection">Advanced Threat Detection</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><b><a title="User Protection Security" href="/en_us/business/products/user-protection.html"><span class="rte-red-text">User Protection Security</span></a></b></p>
+<p><span class="rte-sub-menu-text"><a title="Smart Protection Suites" href="/en_us/business/products/user-protection/sps.html">Endpoint and Gateway Suites</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/endpoint.html" title="Endpoint Security">Endpoint Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/email-and-collaboration.html" title="Email Security">Email Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/web-security.html" title="Web Security">Web Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/email-and-collaboration/cloud-app-security.html" title="Saas Application Security">SaaS Application Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/network/deep-discovery/sandboxing.html" title="Deep Discovery Analyzer">Forensics</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-3 col-xs-12 col-md-3"><div class="richText section">
+
+<p><b>Solutions for:</b></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column- {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-21892245-5d86-447e-af23-efdb5b929208">
+
+	<div class="col-sm-12 col-xs-6 col-md-12"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Ransomware" href="/en_us/business/campaigns/ransomware.html">Ransomware</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Compliance" href="/en_us/business/capabilities/solutions-for/compliance.html">Compliance</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Cloud" href="/en_us/business/capabilities/solutions-for/cloud.html">Cloud</a></span></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-6 col-md-12"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Healthcare" href="/en_us/business/capabilities/solutions-for/healthcare.html">Healthcare</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Point-of-Sale" href="/en_us/business/capabilities/solutions-for/point-of-sale.html">Point-of-Sale</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="End-of-support systems" href="/en_us/business/capabilities/solutions-for/end-of-support-systems.html">End-of-support systems</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="productDescriptionContainer vitl section full-browser-width-wrap">
+
+
+
+
+<style>
+#product-description-containerd98bcf69-9d1d-48f3-aea3-a2ffa9bc0aa9 .color-opacity{
+	background-color:rgba(26,26,26,.8);
+	padding-top:40px;
+	padding-bottom:40px;
+
+}
+
+@media ( min-width: 1024px ){
+	#product-description-containerd98bcf69-9d1d-48f3-aea3-a2ffa9bc0aa9 {
+		height: auto;
+		background-image: url(/content/dam/trendmicro/en/global/color-backgrounds/primary-color-palette/e7e7e8-cool-gray-1.png);
+
+
+	}
+}
+
+@media ( max-width: 1023px ) and ( min-width: 768px ){
+	#product-description-containerd98bcf69-9d1d-48f3-aea3-a2ffa9bc0aa9 {
+		height: auto;
+		background-image: url(/content/dam/trendmicro/en/global/color-backgrounds/primary-color-palette/e7e7e8-cool-gray-1.png);
+	}
+}
+
+@media ( max-width: 767px ){
+	#product-description-containerd98bcf69-9d1d-48f3-aea3-a2ffa9bc0aa9 {
+		height: auto;
+		background-image: url(/content/dam/trendmicro/en/global/color-backgrounds/primary-color-palette/e7e7e8-cool-gray-1.png);
+	}
+}
+
+#product-description-containerd98bcf69-9d1d-48f3-aea3-a2ffa9bc0aa9 {
+		margin-top:20px;
+		padding-top:40px;
+		padding-bottom:40px;
+		margin-bottom:0;
+}
+</style>
+
+<div id="product-description-containerd98bcf69-9d1d-48f3-aea3-a2ffa9bc0aa9" class="product-description-wrap bg-cover bg-cover-mobile   gray-separator ">
+	<span>
+		
+		
+	</span>
+	<section>
+		<div class="prod-desc-content prod-desc-full-width inner-container">
+			<div class="prod-content"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-bfd35bde-4908-457d-a19d-90f4da0ce09a {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-bfd35bde-4908-457d-a19d-90f4da0ce09a">
+
+	<div class="col-sm-12 col-xs-6 col-md-6"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-ea6ba27f-dc31-4677-8bc0-0146131bc40d {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	            row--extra-padding" id="responsive-column-ea6ba27f-dc31-4677-8bc0-0146131bc40d">
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="All Products" href="/en_us/business/products.html"><b>All Products</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="All Solutions" href="/en_us/business/products/all-solutions.html"><b>All Solutions</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a href="/en_us/small-business/worry-free.html" title="small business 1-100 employees"><b>Small business<br>
+ </b></a></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-6 col-md-6"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-38b3223d-76fd-4c3f-ad64-c97191118da6 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	            row--extra-padding" id="responsive-column-38b3223d-76fd-4c3f-ad64-c97191118da6">
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Control Manager" href="/en_us/business/technologies/control-manager.html"><b>Centralized Visibility & Control</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Global Threat Intelligence" href="/en_us/business/technologies/smart-protection-network.html"><b>Global Threat Intelligence</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Connected Threat Defense" href="/en_us/business/technologies/connected-threat-defense.html"><b>Connected Threat Defense</b></a></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+		</div>
+	</section>
+
+	
+</div>
+</div>
+
+
+					</div>
+				
+			</div>
+		
+			<div class="dropdown hidden-md hidden-lg">
+				
+				
+					<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Products
+					</button>
+					<div class="dropdown-menu">
+						<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-71de50e3-d05f-42ef-afc7-93eab9b53eeb {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-71de50e3-d05f-42ef-afc7-93eab9b53eeb">
+
+	<div class="col-sm-9 col-xs-12 col-md-9"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-b2c6edc9-76c8-4546-9add-2e055435d431 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-b2c6edc9-76c8-4546-9add-2e055435d431">
+
+	<div class="col-sm-8 col-xs-12 col-md-8"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-8ee65fea-055b-4809-84fb-fcc579a2a7cb {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-8ee65fea-055b-4809-84fb-fcc579a2a7cb">
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a title="hybrid Cloud Security" href="/en_us/business/products/hybrid-cloud.html"><span class="rte-red-text"><b>Hybrid Cloud Security</b></span></a></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/hybrid-cloud/deep-security-data-center.html" title="Data Center Security">Data Center Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/hybrid-cloud/deep-security-for-cloud.html" title="Cloud Security">Cloud Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="https://www.trendmicro.com/vmware/" title="virtualization security" target="_blank">Virtualization Security</a></span></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a title="Network Security" href="/en_us/business/products/network.html"><b><span class="rte-red-text">Network Security</span></b></a></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/network/integrated-atp.html" title="Integrated ATP">Integrated Advanced Threat Prevention</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/network/deep-discovery.html" title="Advanced Threat Detection">Advanced Threat Detection</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><b><a title="User Protection Security" href="/en_us/business/products/user-protection.html"><span class="rte-red-text">User Protection Security</span></a></b></p>
+<p><span class="rte-sub-menu-text"><a title="Smart Protection Suites" href="/en_us/business/products/user-protection/sps.html">Endpoint and Gateway Suites</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/endpoint.html" title="Endpoint Security">Endpoint Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/email-and-collaboration.html" title="Email Security">Email Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/web-security.html" title="Web Security">Web Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/user-protection/sps/email-and-collaboration/cloud-app-security.html" title="Saas Application Security">SaaS Application Security</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="/en_us/business/products/network/deep-discovery/sandboxing.html" title="Deep Discovery Analyzer">Forensics</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-3 col-xs-12 col-md-3"><div class="richText section">
+
+<p><b>Solutions for:</b></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-ab6f5307-19f8-4aaa-bd09-26a5a45311b1 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-ab6f5307-19f8-4aaa-bd09-26a5a45311b1">
+
+	<div class="col-sm-12 col-xs-6 col-md-12"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Ransomware" href="/en_us/business/campaigns/ransomware.html">Ransomware</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Compliance" href="/en_us/business/capabilities/solutions-for/compliance.html">Compliance</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Cloud" href="/en_us/business/capabilities/solutions-for/cloud.html">Cloud</a></span></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-6 col-md-12"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Healthcare" href="/en_us/business/capabilities/solutions-for/healthcare.html">Healthcare</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Point-of-Sale" href="/en_us/business/capabilities/solutions-for/point-of-sale.html">Point-of-Sale</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="End-of-support systems" href="/en_us/business/capabilities/solutions-for/end-of-support-systems.html">End-of-support systems</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+<div class="productDescriptionContainer vitl section full-browser-width-wrap">
+
+
+
+
+<style>
+#product-description-container70ffab49-e3d2-432a-ad74-0cefa19f1c71 .color-opacity{
+	background-color:rgba(26,26,26,.8);
+	padding-top:40px;
+	padding-bottom:40px;
+
+}
+
+@media ( min-width: 1024px ){
+	#product-description-container70ffab49-e3d2-432a-ad74-0cefa19f1c71 {
+		height: auto;
+		background-image: url(/content/dam/trendmicro/en/global/color-backgrounds/primary-color-palette/e7e7e8-cool-gray-1.png);
+
+
+	}
+}
+
+@media ( max-width: 1023px ) and ( min-width: 768px ){
+	#product-description-container70ffab49-e3d2-432a-ad74-0cefa19f1c71 {
+		height: auto;
+		background-image: url(/content/dam/trendmicro/en/global/color-backgrounds/primary-color-palette/e7e7e8-cool-gray-1.png);
+	}
+}
+
+@media ( max-width: 767px ){
+	#product-description-container70ffab49-e3d2-432a-ad74-0cefa19f1c71 {
+		height: auto;
+		background-image: url(/content/dam/trendmicro/en/global/color-backgrounds/primary-color-palette/e7e7e8-cool-gray-1.png);
+	}
+}
+
+#product-description-container70ffab49-e3d2-432a-ad74-0cefa19f1c71 {
+		margin-top:20px;
+		padding-top:40px;
+		padding-bottom:40px;
+		margin-bottom:0;
+}
+</style>
+
+<div id="product-description-container70ffab49-e3d2-432a-ad74-0cefa19f1c71" class="product-description-wrap bg-cover bg-cover-mobile   gray-separator ">
+	<span>
+		
+		
+	</span>
+	<section>
+		<div class="prod-desc-content prod-desc-full-width inner-container">
+			<div class="prod-content"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-0b4acd53-e5b7-4335-abfc-05986a4bdce1 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-0b4acd53-e5b7-4335-abfc-05986a4bdce1">
+
+	<div class="col-sm-12 col-xs-6 col-md-6"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-404cbb4f-0ee3-4d7e-b13b-88c9781dd879 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	            row--extra-padding" id="responsive-column-404cbb4f-0ee3-4d7e-b13b-88c9781dd879">
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="All Products" href="/en_us/business/products.html"><b>All Products</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="All Solutions" href="/en_us/business/products/all-solutions.html"><b>All Solutions</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a href="/en_us/small-business/worry-free.html" title="small business 1-100 employees"><b>Small business<br>
+ </b></a></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-6 col-md-6"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-7d99951f-6bb3-4fb5-91e2-c60cfc51d001 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	            row--extra-padding" id="responsive-column-7d99951f-6bb3-4fb5-91e2-c60cfc51d001">
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Control Manager" href="/en_us/business/technologies/control-manager.html"><b>Centralized Visibility & Control</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Global Threat Intelligence" href="/en_us/business/technologies/smart-protection-network.html"><b>Global Threat Intelligence</b></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Connected Threat Defense" href="/en_us/business/technologies/connected-threat-defense.html"><b>Connected Threat Defense</b></a></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+		</div>
+	</section>
+
+	
+</div>
+</div>
+
+
+					</div>
+				
+			</div>
+		
+			<div class="dropdown">
+				
+				
+					<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Intelligence
+					</button>
+					<div class="dropdown-menu">
+						<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-8d2d639d-b58b-45bd-895c-b8b1d2dc7f8e {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:40px;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-8d2d639d-b58b-45bd-895c-b8b1d2dc7f8e">
+
+	<div class="col-sm-6 col-xs-6 col-md-6"><div class="richText section">
+
+<p><b><a title="Breaking News" href="/en_us/security-intelligence/breaking-news.html"><span class="rte-red-text">Breaking News & Intelligence</span></a><span class="rte-red-text"></span></b></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-dd503e8f-4e0b-48e8-a815-ddc020980800 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-dd503e8f-4e0b-48e8-a815-ddc020980800">
+
+	<div class="col-sm-12 col-xs-12 col-md-6"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a href="https://www.trendmicro.com/vinfo/us/security/news/" title="Security News" target="_blank">Security News</a></span></p>
+<p><a title="Simply Security Blog" href="http://blog.trendmicro.com/" target="_blank"><span class="rte-sub-menu-text">Simply Security Blog</span></a></p>
+<p><a title="Security Intelligence" href="http://blog.trendmicro.com/trendlabs-security-intelligence/" target="_blank"><span class="rte-sub-menu-text">Security Intelligence Blog</span></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a href="/en_us/about/events.html" title="Events & Webcasts"><span class="rte-sub-menu-text">Events and Webinars</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="  Glossary of Terms" href="https://www.trendmicro.com/vinfo/us/security/definition/" target="_blank">Glossary of Terms</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Threat Encyclopedia" href="https://www.trendmicro.com/vinfo/us/threat-encyclopedia/" target="_blank">Threat Encyclopedia</a></span></p>
+<p><span class="rte-sub-menu-text"> </span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-6 col-xs-6 col-md-6"><div class="richText section">
+
+<p><a title="Research & reports" href="https://www.trendmicro.com/vinfo/us/security/research-and-analysis" target="_blank"><span class="rte-red-text"><b>Research & Reports</b></span><b></b></a></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-a099038e-594f-4b2b-a07c-8678108929c3 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-a099038e-594f-4b2b-a07c-8678108929c3">
+
+	<div class="col-sm-12 col-xs-12 col-md-6"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a href="https://www.trendmicro.com/vinfo/us/security/threat-intelligence-center/deep-web/" title="The Deep Web" target="_blank">The Deep Web</a></span></p>
+<p><span class="rte-sub-menu-text"><a href="https://www.trendmicro.com/vinfo/us/security/threat-intelligence-center/internet-of-things/" title="Internet of things">Internet of things</a></span></p>
+<p><a href="https://www.trendmicro.com/vinfo/us/security/threat-intelligence-center/security-strategies-for-enterprises" title="Enterprise Guides"><span class="rte-sub-menu-text">Enterprise Guides</span></a></p>
+<p><a title="Vulnerabilities" href="https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability" target="_blank"><span class="rte-sub-menu-text">Vulnerabilities</span></a><br>
+</p>
+<p><span class="rte-sub-menu-text"> </span></p>
+<p><span class="rte-sub-menu-text"> </span></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-12 col-md-6"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Secuirty Reports" href="https://www.trendmicro.com/vinfo/us/security/research-and-analysis/threat-reports" target="_blank">Security Reports</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Annual Predictions" href="https://www.trendmicro.com/vinfo/us/security/research-and-analysis/predictions/2017" target="_blank">Annual Predictions</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Zero Data Initiative (ZDI)" href="http://www.zerodayinitiative.com/about/" target="_blank">Zero Day Initiative (ZDI)</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="All Research" href="https://www.trendmicro.com/vinfo/us/security/research-and-analysis/research" target="_blank">All Research</a></span></p>
+<p><span class="rte-sub-menu-text"> </span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+					</div>
+				
+			</div>
+		
+			<div class="dropdown hidden-xs">
+				
+				
+					<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Support
+					</button>
+					<div class="dropdown-menu">
+						<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-c952faf6-7ae9-4ca9-aeb0-b9dbaa940b06 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:40px;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-c952faf6-7ae9-4ca9-aeb0-b9dbaa940b06">
+
+	<div class="col-sm-12 col-xs-12 col-md-8"><div class="richText section">
+
+<p><a title="Business Support" href="https://success.trendmicro.com/technical-support" target="_blank"><b><span class="rte-red-text">Business Support</span></b></a></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-607c921c-b4a6-4b79-b35c-581f9443d6a4 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-607c921c-b4a6-4b79-b35c-581f9443d6a4">
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Login to eSupport" href="https://success.trendmicro.com/sign-in" target="_blank">Login to eSupport</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="FAQs" href="https://success.trendmicro.com/faq" target="_blank">FAQs</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Contact Support" href="https://success.trendmicro.com/contact-support-north-america" target="_blank">Contact Support</a></span></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a title="Download center" href="#" target="_blank"><span class="rte-sub-menu-text">Downloads</span></a></p>
+<p><span class="rte-sub-menu-text"><a title="Updates and Renewals" href="https://success.trendmicro.com/renewals-and-registration" target="_blank">Updates and Renewals</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Virus and Threat help" href="https://success.trendmicro.com/virus-and-threat-help" target="_blank">Virus & Threat Help</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-12 col-xs-12 col-md-4"><div class="richText section">
+
+<p><b>Get support for:</b></p>
+
+</div>
+<div class="richText section">
+
+<p><span class="rte-sub-menu-text"><a title="Worry Free" href="https://success.trendmicro.com/product-support/worry-free-business-security" target="_blank">Worry Free</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="OfficeScan" href="https://success.trendmicro.com/product-support/officescan" target="_blank">OfficeScan</a></span></p>
+<p><span class="rte-sub-menu-text"><a title="Hosted Email Security" href="https://success.trendmicro.com/product-support/officescan" target="_blank">Hosted Email Security</a></span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+					</div>
+				
+			</div>
+		
+			<div class="dropdown">
+				
+				
+					<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						About
+					</button>
+					<div class="dropdown-menu">
+						<div class="richText section">
+
+<p><a title="Overview" href="/en_us/about/history-vision-values.html"><b><span class="rte-red-text">Overview</span></b></a></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-4ae6e85b-9994-4bea-aaa4-cdec3444cf02 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:40px;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	            row--extra-padding" id="responsive-column-4ae6e85b-9994-4bea-aaa4-cdec3444cf02">
+
+	<div class="col-sm-8 col-xs-12 col-md-8"><div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-e3494899-6861-45ec-b643-b323c06b8d97 {
+	margin-top:0;
+	padding-top:10px;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	            row--extra-padding" id="responsive-column-e3494899-6861-45ec-b643-b323c06b8d97">
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="richText section">
+
+<p><a href="/en_us/about/leaders.html" title="Leaders"><span class="rte-sub-menu-text">Leadership</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="Global citizenship" href="/en_us/about/global-citizenship.html"><span class="rte-sub-menu-text">Global Citizenship</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="Internet Safety for kids" href="/en_us/about/global-citizenship/internet-safety-for-kids.html"><span class="rte-sub-menu-text">Internet Safety for kids</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="History" href="/en_us/about/history-vision-values.html"><span class="rte-sub-menu-text">History</span></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-6 col-xs-12 col-md-6"><div class="productDescriptionContainer vitl section">
+
+
+
+
+<style>
+#product-description-container71df129d-410a-4cc9-8939-7531d6b78313 .color-opacity{
+	background-color:rgba(26,26,26,.8);
+	padding-top:0;
+	padding-bottom:0;
+
+}
+
+@media ( min-width: 1024px ){
+	#product-description-container71df129d-410a-4cc9-8939-7531d6b78313 {
+		height: auto;
+		background-image: url();
+
+
+	}
+}
+
+@media ( max-width: 1023px ) and ( min-width: 768px ){
+	#product-description-container71df129d-410a-4cc9-8939-7531d6b78313 {
+		height: auto;
+		background-image: url();
+	}
+}
+
+@media ( max-width: 767px ){
+	#product-description-container71df129d-410a-4cc9-8939-7531d6b78313 {
+		height: auto;
+		background-image: url();
+	}
+}
+
+#product-description-container71df129d-410a-4cc9-8939-7531d6b78313 {
+		margin-top:0;
+		padding-top:0;
+		padding-bottom:0;
+		margin-bottom:0;
+}
+</style>
+
+<div id="product-description-container71df129d-410a-4cc9-8939-7531d6b78313" class="product-description-wrap bg-full bg-full-mobile   gray-separator hide-on-tablet">
+	<span>
+		
+		
+	</span>
+	<section>
+		<div class="prod-desc-content ">
+			<div class="prod-content"><div class="richText section">
+
+<p><a href="/en_us/about/customer-stories.html" title="Customers"><span class="rte-sub-menu-text">Customer Success Stories</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="Security Experts" href="/en_us/about/leading-experts.html"><span class="rte-sub-menu-text">Security Experts</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a href="/en_us/about/awards.html" title="Awards"><span class="rte-sub-menu-text">Awards</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a href="/en_us/about/careers.html" title="Careers"><span class="rte-sub-menu-text">Careers</span></a></p>
+
+</div>
+
+</div>
+		</div>
+	</section>
+
+	
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a href="http://newsroom.trendmicro.com/" title="News" target="_blank"><span class="rte-sub-menu-text">News</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="Events" href="/en_us/about/events.html"><span class="rte-sub-menu-text">Events</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a href="/en_us/about/investor-relations.html" title="Investors"><span class="rte-sub-menu-text">Investors</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="legal" href="/en_us/about/legal.html"><span class="rte-sub-menu-text">Legal</span></a></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-f36025ba-6c99-4e0a-bfe3-57c693700bd0 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+</style>
+
+
+
+<div class="row
+	            hidden-sm
+	            hidden-md hidden-lg
+	           " id="responsive-column-f36025ba-6c99-4e0a-bfe3-57c693700bd0">
+
+	<div class="col-sm-12 col-xs-12"><div class="richText section">
+
+<p><a title="Find a partner" href="/en_us/partners/find-a-partner.html"><span class="rte-sub-menu-text">Find a Partner</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a href="/en_us/business/get-info-form.html"><span class="rte-sub-menu-text">Stay Connected</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="join the community" href="/en_us/contact/community.html"><span class="rte-sub-menu-text">Join the Community</span></a></p>
+
+</div>
+<div class="socialIcons section">
+
+	
+		<a href="https://www.facebook.com/Trendmicro/" target="_blank">
+			<span class="icons icon-facebook"></span>
+		</a>
+	
+		<a href="https://twitter.com/trendmicro" target="_blank">
+			<span class="icons icon-twitter"></span>
+		</a>
+	
+		<a href="https://www.linkedin.com/company/trend-micro" target="_blank">
+			<span class="icons icon-linkedin"></span>
+		</a>
+	
+		<a href="https://www.youtube.com/user/TrendMicroInc" target="_blank">
+			<span class="icons icon-youtube"></span>
+		</a>
+	
+
+</div>
+<div class="richText section">
+
+<p><a title="contact sales" href="/en_us/contact.html"><span class="rte-sub-menu-text">Contact Sales</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><span class="rte-sub-menu-text">1-877-218-7353(M-F 8-5 CST)</span></p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+					</div>
+				
+			</div>
+		
+			<div class="dropdown hidden-xs">
+				
+				
+					<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Contact
+					</button>
+					<div class="dropdown-menu">
+						<div class="richText section">
+
+<p><a title="Contact us" href="/en_us/business/get-info-form.html"><b><span class="rte-red-text">Contact us</span></b></a></p>
+
+</div>
+<div class="responsiveColumnControl section">
+
+<style>
+#responsive-column-2853fb12-208f-411c-ae45-ca4f2ad01392 {
+	margin-top:0;
+	padding-top:0;
+	padding-bottom:0;
+	margin-bottom:40px;
+}
+</style>
+
+
+
+<div class="row
+	           
+	           
+	           " id="responsive-column-2853fb12-208f-411c-ae45-ca4f2ad01392">
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="Support for business" href="/en_us/business/support-links.html"><span class="rte-sub-menu-text">Support</span></a></p>
+
+</div>
+<div class="richText section">
+
+<p><a title="Find a Partner" href="/en_us/partners/find-a-partner.html"><span class="rte-sub-menu-text">Find a Partner</span></a></p>
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p><a title="events" href="/en_us/about/events.html"><span class="rte-sub-menu-text">Learn of upcoming events<b></b></span></a></p>
+<p><b><span class="rte-red-text">Social Media Networks</span></b></p>
+
+</div>
+<div class="socialIcons section">
+
+	
+		<a href="https://www.facebook.com/Trendmicro/" target="_blank">
+			<span class="icons icon-facebook"></span>
+		</a>
+	
+		<a href="https://twitter.com/trendmicro" target="_blank">
+			<span class="icons icon-twitter"></span>
+		</a>
+	
+		<a href="https://www.linkedin.com/company/trend-micro" target="_blank">
+			<span class="icons icon-linkedin"></span>
+		</a>
+	
+		<a href="https://www.youtube.com/user/TrendMicroInc" target="_blank">
+			<span class="icons icon-youtube"></span>
+		</a>
+	
+
+</div>
+
+</div>
+
+
+	<div class="col-sm-4 col-xs-12 col-md-4"><div class="richText section">
+
+<p>1-877-218-7353(M-F 8-5 CST)</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+					</div>
+				
+			</div>
+		
+		
+		<div class="dropdown">
+			<button class="menu-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<span class="icon-search"></span>
+			</button>
+			<div class="dropdown-menu">
+				<form class="main-menu-search">
+					<div class="main-menu-search__field-wrapper">
+						
+							<script type="text/javascript" async="true" src="https://www.google.com/cse/cse.js?cx=013367862051834635962:weqaqrwmoaw">
+							</script>
+							
+														<gcse:searchbox-only resultsUrl="/content/trendmicro/en_us/common/cse.html.html"></gcse:searchbox-only>
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+</nav>
+
+	       
+        </div>
+        <!-- end main header -->
+
+        <!-- start bread crumb -->
+         <div class="breadcrumb">
+
+            <ul class="inner-container crumbs">
+                 
+    <li><a href="https://www.trendmicro.com">Home</a><span class="icon-chevron-right"> </span></li><li><a href="https://www.trendmicro.com/us/security-intelligence/index.html">Security Intelligence</a><span class="icon-chevron-right"> </span></li><li><a href='/vinfo/us/threat-encyclopedia/'>Threat Encyclopedia</a><span class="icon-chevron-right"> </span> </li><li id="herenow">ELF_BEIKDOR.W</li><div id="here" style="display:none !important;">Malware</div>
+
+	            
+            </ul>
+
+        </div>
+         <!-- end start bread crumb -->
+
+    </div>
+
+</header>
+    <!-- end header-->
+
+    <!-- start main -->
+<main class="container-fluid container-fluid--hybrid">
+
+    <div class="productDescriptionContainer vitl section full-browser-width-wrap">
+
+       <div id="product-description-container9f04cf29-dfcf-4e2f-a234-dd6427b568aa" class="product-description-wrap  bg-full bg-full-mobile">
+<section>
+     
+    </section>
+    	<section>
+	    	<div class="prod-desc-content prod-desc-full-width inner-container">
+		    	<div class="prod-content"><div class="responsiveColumnControl section">
+
+                    <div id="responsive-column-a5be6e57-87c6-4f01-9619-5c6917831e89">
+                        
+     
+
+
+                        
+     
+
+    
+
+    
+<!-- START CONTENT -->
+<section class="TEArticle" role="main" > 
+
+    <section class="artileContent"> 
+
+
+        <h1 class='lessen_h1'>ELF_BEIKDOR.W</h1>Publish date: June 03, 2015  
+
+    
+        <ul class="sharebuttons">
+
+                  <li> 
+                        <a href='mailto:?subject=ELF_BEIKDOR.W&amp;body=http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/elf_beikdor.w'>                     
+                     
+                            <div class="iconemail"> <i class="fa fa-envelope" aria-hidden="true"></i>                     
+                            </div>
+                            <div class="text">Email</div>
+                        </a>
+                    </li>
+
+                 <li>
+                   
+                        <a href='https://www.facebook.com/sharer/sharer.php?u=http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/elf_beikdor.w' target='_blank'> 
+                         <div class="share iconfb" data-action="facebook"><i class="fa fa-facebook" aria-hidden="true"></i>                      
+                            </div>
+                            <div class="text">Facebook</div>
+                         </a>
+                     </li>
+                  
+                 <li>
+                      <a href='https://twitter.com/intent/tweet?original_referer=http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/elf_beikdor.w&text=ELF_BEIKDOR.W&tw_p=tweetbutton&url=http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/elf_beikdor.w' target='_blank'> 
+                    <div class="icontwitter share" data-action="twitter"  >                      
+                            <i class="fa fa-twitter" aria-hidden="true"></i></div>
+                            <div class="text">Twitter</div>
+                         </a>
+                     </li>
+
+                 <li>
+                     <a href='https://plus.google.com/share?url=ELF_BEIKDOR.W http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/elf_beikdor.w' target='_blank'> 
+
+                         <div class="icongplus share" data-action="google"> <i class="fa fa-google-plus" aria-hidden="true"></i>                     
+                            </div>
+                            <div class="text">Google+</div>
+                         </a>
+                     </li>
+
+                 
+                  <li>
+                      <a href=' https://www.linkedin.com/shareArticle?mini=true&url=http://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/elf_beikdor.w&title=ELF_BEIKDOR.W&summary=ELF_BEIKDOR.W' target='_blank'> 
+                     
+                         <div class="iconIn"> <i class="fa fa-linkedin" aria-hidden="true"></i>                     
+                            </div>
+                            <div class="text">Linkedin</div>
+                         </a>
+                     </li>
+
+                 
+        </ul>
+
+        <div class="articleContainer"><div class="smallArticleInfoContainer"><div  class= "articleSmallDetail"><h2>ANALYSIS BY</h2><p>Miguel Carlo Ang</p></div><div style="margin-bottom: 40px;"><hr></div></div><div class="malwareHeader"><div class="headerLeft"><div class="entityHeader"><strong>ALIASES:</strong><p>HEUR:Backdoor.Linux.Ganiw.a(Kaspersky);Linux/Setag.B(ESET-NOD32);Linux/Backdoor.J(AVG)</p></div><div class="entityHeader"><strong>PLATFORM:</strong><p>Linux</div></div> <div class="headerRight"><div class="entityHeader"><div class = "labelRating"><strong>OVERALL RISK RATING:</strong></div><div class ="ratingImage"><img src="/vinfo/imgFiles/low.jpg"></div><div style="clear:both;"></div></div><div class="entityHeader"><div class = "labelRating"><strong>DAMAGE POTENTIAL:</strong></div><div class ="ratingImage"><img src="/vinfo/imgFiles/medium.jpg"></div><div style="clear:both;"></div></div><div class="entityHeader"><div class = "labelRating"><strong>DISTRIBUTION POTENTIAL:</strong></div><div class ="ratingImage"><img src="/vinfo/imgFiles/low.jpg"></div><div style="clear:both;"></div></div><div class="entityHeader"><div class = "labelRating"><strong>REPORTED INFECTION:</strong></div><div class ="ratingImage"><img src="/vinfo/imgFiles/low.jpg"></div><div style="clear:both;"></div></div><div class="entityHeader"><div class = "labelRating"><strong>INFORMATION EXPOSURE:</strong></div><div class ="ratingImage"><img src="/vinfo/imgFiles/low.jpg"></div><div style="clear:both;"></div></div> <img src="/vinfo/imgFiles/legend.jpg" class="legend"></div></div><div style="clear:both"></div><div class="iconDetails" style="border-top: 1px solid #ddd;"><ul><li style="width: 32%;border-right: 1px solid #ddd;"><img src="/vinfo/imgFiles/backdoor.png"><br>Threat Type:Backdoor  </li><li><img src="/vinfo/imgFiles/no.png"><br>Destructiveness:No</li><li><img src="/vinfo/imgFiles/no.png"><br>Encrypted:   </li><li class="noborder" style="border: 0px;"><img src="/vinfo/imgFiles/in-the-wild.png"><br>In the wild: Yes  </li></ul></div><div class="mainArticleContainer"><section class="details-single"> <section class="accordion" style="margin-left:-10px; margin: 0 auto;"><div class="articleHeader top-articleHeader"><div class="pane-title current">     <p></p>     <h2 id="descHeader">OVERVIEW</h2>    </div> </div>    <div id="listDesc"class="pane" style="background-color:#FFFFFF;padding:15px;display:block; width: 96%;"><br><p>This backdoor  arrives on a system as a file dropped by other malware or as a file downloaded unknowingly by users when visiting malicious sites.</p></div><div class="articleHeader"><div class="pane-title current">     <p></p>     <h2 id="descHeader">TECHNICAL DETAILS</h2>    </div> </div>    <div id="listDesc"class="pane" style="background-color:#FFFFFF;padding:15px;display:block; width: 96%;"><div class = "malwareHeaderDetail"><div class='malwareHeader'><strong>File Size: </strong><p>716,936 bytes</p></div><div class='malwareHeader'><strong>File Type: </strong><p>ELF</p></div><div class='malwareHeader'><strong>Memory Resident: </strong><p>Yes</p></div><div class='malwareHeader'><strong>Initial Samples Received Date: </strong><p>16 May 2015</p></div></div><p><b>Arrival Details</b></p><p>This backdoor  arrives on a system as a file dropped by other malware or as a file downloaded unknowingly by users when visiting malicious sites.</p><p><b>Installation</b></p><p>This backdoor  drops the following files: <ul><li>/tmp/notify.file</li><li>/tmp/gates.lock</li><li>/usr/bin/bsd-port/getty.lock</li><li>/tmp/notify.file</li><li>/usr/bin/bsd-port/udevd.lock</li><li>/usr/bin/dpkgd/{module path}</li><li>/tmp/moni.lock</li><li>/tmp/notify.file</li></ul></p><p><b>NOTES: </b><br/><p>This malware adds the following script in <i>/etc/rc{1-5}.d/</i> and <i>/etc/init.d/</i> to automatically execute itself when the system starts up:</p>
+
+<p class='quote'>
+/etc/rc1.d/SS97DbSecuritySpt<br>
+/etc/rc2.d/SS97DbSecuritySpt<br>
+/etc/rc3.d/SS97DbSecuritySpt<br>
+/etc/rc4.d/SS97DbSecuritySpt<br>
+/etc/rc5.d/SS97DbSecuritySpt<br>
+/etc/rc1.d/S99selinux<br>
+/etc/rc2.d/S99selinux<br>
+/etc/rc3.d/S99selinux<br>
+/etc/rc4.d/S99selinux<br>
+/etc/rc5.d/S99selinux<br>
+/etc/init.d/DbSecuritySpt<br>
+/etc/init.d/selinux</p></p></div><div class="articleHeader"><div class="pane-title current">     <p></p>     <h2 id="descHeader">SOLUTION</h2>    </div></div>    <div id="listDesc"class="pane" style="background-color:#FFFFFF;padding:15px;display:block; width: 96%;"><div class = "malwareHeaderDetail"><div class='malwareHeader'><strong>Minimum Scan Engine: </strong><p>9.750</p></div><div class='malwareHeader'><strong>FIRST VSAPI PATTERN FILE: </strong><p>11.672.04</p></div><div class='malwareHeader'><strong>FIRST VSAPI PATTERN DATE: </strong><p>16 May 2015</p></div><div class='malwareHeader'><strong>VSAPI OPR PATTERN File: </strong><p>11.673.00</p></div><div class='malwareHeader'><strong>VSAPI OPR PATTERN Date: </strong><p>17 May 2015</p></div></div><p><b>NOTES: </b><br/><div><p><b>Step 1</p></b>
+
+<p>Scan your computer with your Trend Micro product and note files detected as ELF_BEIKDOR.W.</p>
+
+</div><div><p><b>Step 2</p></b>
+
+<p>Terminate the malware process.</p>
+
+<ol>
+<li>Open the Terminal. Access Applications>Accessories>Terminal or press CTRL + ALT then T.
+<li>Type the following in the terminal:<br>
+<b>ps –A</b>
+<li>Look for the detected files and take note of their PIDs.  Enter the following commands for each PIDs:<br>
+<b>kill {PID}</b>
+</ol>
+
+</div><div><p><b>Step 3</b></p>
+
+<p>Remove autostart scripts. In the same Terminal, type the following command:</p>
+<p class='quote'>
+sudo rm -f /etc/rc1.d/SS97DbSecuritySpt<bR> 
+sudo rm -f /etc/rc2.d/SS97DbSecuritySpt<br>
+sudo rm -f /etc/rc3.d/SS97DbSecuritySpt<br>
+sudo rm -f /etc/rc4.d/SS97DbSecuritySpt<br>
+sudo rm -f /etc/rc5.d/SS97DbSecuritySpt<br>
+sudo rm -f /etc/init.d/DbSecuritySpt<br> 
+sudo rm -f /etc/rc1.d/S99selinux<br>
+sudo rm -f /etc/rc2.d/S99selinux<br>
+sudo rm -f /etc/rc3.d/S99selinux<br>
+sudo rm -f /etc/rc4.d/S99selinux<br>
+sudo rm -f /etc/rc5.d/S99selinux<br>
+sudo rm -f /etc/init.d/selinux</p>
+
+</div><div><p><b>Step 4</b></p>
+
+<p>Remove dropped files. In the same Terminal, type the following command:</p>
+<p class='quote'>
+sudo rm -f /tmp/notify.file<br>
+sudo rm -f /tmp/gates.lock<br>
+sudo rm -f /usr/bin/bsd-port/getty.lock<br>
+sudo rm -f /usr/bin/bsd-port/udevd.lock<br>
+sudo rm -f /usr/bin/dpkgd/{module path}<br>
+sudo rm -f /tmp/moni.lock<br>
+sudo rm -f /tmp/notify.file</p>
+
+</div><div><p><b>Step 5</b></p>
+
+<p>Scan your computer with your Trend Micro product to delete files detected as ELF_BEIKDOR.W. If the detected files have already been cleaned, deleted, or quarantined by your Trend Micro product, no further step is required. You may opt to simply delete the quarantined files.</p></p></div><br/><a id="surveylink1" href="http://www.zoomerang.com/Survey/WEB22CWQU9N2PR" target="_blank" rel="floatbox" rev="width:595 height:600 scrollbar=yes">Did this description help? Tell us how we did.</a></div></section></section></div></div>
+
+
+
+
+
+
+        </section>
+
+
+     <div class="articleSidepanel">
+          <div class="RelatedEntitties">
+                
+        </div>
+         </div>
+</section>
+<!-- END CONTENT -->
+
+
+    
+    <script>
+        jQuery('div[id*="Step"]').css('width', 'inherit');
+
+        function learnMore(detailid, shortid, detailheaderid) {
+            var e = jQuery('#' + detailid);
+            if (e.css('display') == "none") {
+
+
+
+                jQuery('#' + detailid).css('display', 'block');
+                jQuery('#' + shortid).css('display', 'block');
+                jQuery('#' + detailheaderid).css('display', 'none');
+            }
+            else {
+                jQuery('#' + detailid).css('display', 'none');
+                jQuery('#' + shortid).css('display', 'none');
+                jQuery('#' + detailheaderid).css('display', 'block');
+            }
+        }
+
+        
+  </script>
+
+
+
+
+
+
+                       
+                    </div>
+
+                </div>
+		    </div>
+	    </section>
+
+	
+        </div>
+    </div>
+
+</main>
+    <!-- end main -->
+
+   
+    
+    
+    
+    
+    
+
+
+    <footer class="container-fluid container-fluid--hybrid">
+     
+  <div class="footer section"><nav class="links-row">
+	<div class="inner-container">
+		<div class="row">
+			<ul class="col-sm-4 links-col links-col--left">
+				<li>
+					<a href="/en_us/contact.html">
+						Contact Us
+					</a>
+				</li>
+			
+				<li>
+					<a href="/en_us/about/careers.html">
+						Careers
+					</a>
+				</li>
+			
+				<li>
+					<a href="http://newsroom.trendmicro.com/" target="_blank">
+						Newsroom
+					</a>
+				</li>
+			</ul>
+			<ul class="col-sm-4 links-col links-col--right">
+				<li>
+					<a href="/en_us/about/legal/privacy-policy-web.html">
+						Privacy
+					</a>
+				</li>
+			
+				<li>
+					<a href="/en_us/business/support-links.html">
+						Support
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="social-copyright-row">
+	<div class="inner-container">
+		<div class="row">
+			<ul class="col-md-6 social-media-links">
+				<li>
+					<a href="https://www.linkedin.com/company/trend-micro" class="icon-" target="_blank">
+						linkedin
+					</a>
+				</li>
+			
+				<li>
+					<a href="https://twitter.com/trendmicro" class="icon-" target="_blank">
+						twitter
+					</a>
+				</li>
+			
+				<li>
+					<a href="https://www.facebook.com/Trendmicro/" class="icon-" target="_blank">
+						facebook
+					</a>
+				</li>
+			
+				<li>
+					<a href="https://www.youtube.com/user/TrendMicroInc" class="icon-" target="_blank">
+						youtube
+					</a>
+				</li>
+			
+				<li>
+					<a href="http://newsroom.trendmicro.com/?s=95" class="icon-" target="_blank">
+						rss
+					</a>
+				</li>
+			</ul>
+			<div class="col-md-6">
+				<span class="copyright">Copyright © 2017 Trend Micro Incorporated. All rights reserved.</span>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+    </footer>
+
+    
+    
+
+    <script type="text/javascript" src="/vinfo/js/share.js"></script>
+    <script type="text/javascript" src="/vinfo/js/TEX.tooltip.js"></script>
+    <script type="text/javascript" src="/vinfo/js/customPageScripts.js?Ver2.0"></script>
+    <script type="text/javascript" src="/vinfo/js/eqlcolList.js"></script>
+    <script type="text/javascript" src="/vinfo/js/viewportchecker.js"></script>
+    <script type="text/javascript" src="/vinfo/js/scroller.js"></script>
+ 
+
+
+
+
+
+
+       
+
+
+
+</body>
+</html>

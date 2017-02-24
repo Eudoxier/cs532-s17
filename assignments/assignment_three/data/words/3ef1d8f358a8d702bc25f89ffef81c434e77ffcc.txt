@@ -1,0 +1,198 @@
+
+
+
+
+
+
+ 
+
+Nicholas Weaver
+
+
+
+
+
+
+
+
+
+
+ICSI »
+	ICIR »
+	Nicholas Weaver
+
+
+
+
+
+
+Contact (vCard)
+
+
+email
+nweaver@icsi.berkeley.edu
+
+
+mail
+
+ICSI1947 Center St Suite 600
+Berkeley CA 94704
+
+
+
+office
+(510) 666-2903
+
+
+cell
+{ASK ME}
+
+
+
+
+Related
+
+
+My personal blog
+The ICIR blog
+My SSH public key
+My PGP public key
+
+Tweets by @NCWeaver
+
+
+
+
+
+
+
+
+Short Bio
+
+
+I received a B.A. in Astrophysics and Computer Science in 1995, and my
+Ph.D. in Computer Science in 2003 from
+the University of California at
+Berkeley.  Although
+my dissertation was on novel
+FPGA architectures, I also was highly interested in Computer Security,
+including postulating the possibility of very fast computer worms in
+2001.
+
+In 2003, I joined ICSI, first as a postdoc and then as a staff
+researcher.  My primary research focus is on network security, notably
+worms, botnets, and other internet-scale attacks, and network
+measurement.  Other areas have included both hardware acceleration and
+software parallelization of network intrusion detection, defenses for
+DNS resolvers, and tools for detecting ISP-introduced manipulations of
+a user's network connection.
+
+For Spring 2016, my office hours will be in 329 Soda Hall on Mondays
+M: 12-1
+W: 10-12
+F: 10-11.
+
+
+
+
+
+
+Recent Publications
+My full CV with all publications is here.
+
+
+
+PharmaLeaks: Understanding the Business of Online Pharmaceutical Affiliate Programs
+
+pdf
+bib
+
+
+
+          D. McCoy, A. Pitsillidis, G. Jordan, N. Weaver, C. Kreibich, B. Krebs, G. Voelker, S. Savage, K. Levchenko. USENIX Security Symposium, 2012, Bellevue/WA, USA.
+	
+
+		    This paper presents an in-depth look at the
+		    business of rogue internet pharmacies.
+		    See Brian's
+		    article for a high-level summary.
+		  
+
+
+
+GQ: Practical Containment for Measuring Modern Malware Systems
+
+pdf
+bib
+6 citations
+
+
+
+          C. Kreibich, N. Weaver, C. Kanich, W. Cui, V. Paxson. Internet Measurement Conference (IMC) 2011, Berlin, Germany.
+	
+
+		    This paper presents the malware habitat that
+		    enabled all
+		    of our botnet
+		    infiltrations and spam harvests, and also
+		    describes lessons learned from 5+ years of
+		    building and (safely!) running one of the most
+		    wretched hives of malware scum and villainy
+		    around.
+		  
+
+
+
+Netalyzr: Illuminating The Edge Network
+
+pdf
+bib
+35 citations
+
+
+
+          C. Kreibich, N. Weaver, B. Nechaev, V. Paxson.  Internet Measurement Conference (IMC), 2010, Melbourne, Australia.
+        
+
+	We believe that Netalyzr represents the
+most comprehensive edge-network testing tool available today.  Its
+easy-to-use interface allows users to obtain profiles of their
+connectivity with just two mouse clicks.
+	
+
+
+
+
+
+
+Projects
+Netalyzr » debug your internet
+Priv3 » practical third-party privacy for the social web
+Fathom » turn your browser into a measurement platform
+Web Tripwires » enabling web pages to check themselves for possible modifications
+Click Trajectories » end-to-end analysis of the spam value chain
+CCIED » fighting internet epidemics
+
+
+
+
+
+
+
+
+
+
+
+      updated on September 26, 2012 
+    
+
+	built with TT |
+	Template & Structure (cc) Christian Kreibich
+    
+
+
+
+
+ 
+
+

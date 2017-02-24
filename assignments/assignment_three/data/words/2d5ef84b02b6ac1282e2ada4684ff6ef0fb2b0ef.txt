@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+Crypto Sheriff
+Ransomware: Q&A
+Prevention Advice
+Decryption Tools
+Report a Crime
+Partners
+About the Project
+
+
+English
+
+Dutch
+Français
+Italiano
+Português
+Русский
+
+
+
+
+
+
+
+
+NEED HELP unlocking your digital life without paying your attackers*?
+
+yes
+no
+
+Ransomware is malware that locks your computer and mobile devices or encrypts your electronic files. When this happens, you can’t get to the data unless you pay a ransom. However this is not guaranteed and you should never pay!
+
+
+
+
+
+
+Good news
+Prevention is possible. Following simple cyber security advice can help you to avoid becoming a victim of ransomware.
+
+
+
+
+
+
+
+Bad news
+Unfortunately, in many cases, once the ransomware has been released into your device there is little you can do unless you have a backup or security software in place.
+
+
+
+
+
+
+
+Good news
+Nevertheless, it is sometimes possible to help infected users to regain access to their encrypted files or locked systems, without having to pay. We have created a repository of keys and applications that can decrypt data locked by different types of ransomware.
+
+
+
+At the moment, not every type of ransomware has a solution. Keep checking this website as new keys and applications are added when available.
+
+
+
+
+
+
+
+
+
+Decrypted
+
+Crysis
+Marsjoke/Polyglot
+WildFire
+Chimera
+TeslaCrypt
+Shade
+CoinVault
+Rannoh
+Rakhni
+
+The battle is over for these ransomware threats. If you have been infected with one of these types of ransomware click on the link under its name and it will lead you to a decryption tool
+
+
+
+
+
+*The general advice is not to pay the ransom. By sending your money to cybercriminals you’ll only confirm that ransomware works, and there’s no guarantee you’ll get the decryption key you need in return.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    Powered by: 
+                    
+
+
+
+
+
+
+Website disclamer
+
+
+
+
+
+
+

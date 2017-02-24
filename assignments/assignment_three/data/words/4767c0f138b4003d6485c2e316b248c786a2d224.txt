@@ -1,0 +1,229 @@
+
+
+
+
+
+
+
+Welcome
+Why Real Random™?
+Our Technology
+News
+Team
+Contact
+
+
+
+
+
+
+
+
+
+
+show live cyberattack map
+
+
+
+
+
+
+Why Real Random™?
+At Real Random we aim to make the internet a safer place to roam. We believe that consumers are entitled to a safe digital environment, free from the constant threat of being compromised. We don’t want you to worry about making a purchase online, in person at a retailer, or submitting personally identifiable information on a website.
+We are challenging the status quo for cyber security products by innovating at the core of all security software, the “seeds” or entropy of encryption. In today’s world, the use of algorithms is an acceptable and expected method for creating secure encrypted files. While algorithms are extremely useful, the entropy used to generate the algorithms are pre-determined and therefore can be predicted. This is the heart of the password and data breach epidemic we face today.
+Real Random has a solution. We have created a method of generating entropy based on a physical process that is impossible to predict, replicate or compromise.
+If you are truly committed to providing a secure method of communication for any internet connected device, Real Random needs to be in your stack!
+
+
+
+
+Our Technology
+
+
+Cryptonite app coming soon!
+
+
+
+Our Genesis
+
+
+
+
+
+
+
+
+
+Hardware
+We use physical media to generate randomness, which is can be verified with the human eye
+
+
+
+Software
+
+
+
+
+
+
+
+
+
+Testing
+
+
+
+
+
+
+
+
+
+Secure Containers
+Not enough entropy to support /dev/random in docker containers running in boot2docker
+
+
+
+
+
+
+News
+
+Tweets by realrandomrolls 
+
+
+
+
+
+
+
+Our Team
+Doug Hill
+Co-Founder, Entrepreneur
+
+
+
+
+
+
+
+
+Theo Fleck
+Co-Founder, Computer Engineer
+
+
+
+
+
+
+
+
+Mike Hawley
+Co-Founder, Mechanical Engineer
+
+
+
+
+
+
+
+
+Henry Tumblin
+Co-Founder, Technologist
+
+
+
+
+
+
+
+
+Ron Porter
+Director of Global Business Development
+
+
+
+
+
+
+
+
+Zack Nichols
+Software Developer
+
+
+
+
+
+
+
+
+Get in touch
+Got questions? We have answers!
+
+
+
+
+
+Name
+
+
+
+Email
+
+
+
+Message
+
+
+
+Send Message
+
+
+
+
+
+
+Address
+Suite 605
+606 Bald Eagle Drive
+Marco Island, FL 34145
+
+
+Email
+info@realrandom.co
+
+
+Social
+
+Twitter
+Facebook
+LinkedIn
+
+
+
+
+
+
+
+
+
+
+
+© 2017 Real Random, LLC. All rights reserved.
+Norse Attack Map © Norse Corporation
+HTML5 UP Hyperspace Template
+
+
+
+
+
+
+
+
+
+
+
+
+
+

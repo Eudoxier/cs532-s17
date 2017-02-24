@@ -1,0 +1,511 @@
+
+
+
+
+
+iDownloadBlog
+
+
+
+
+
+
+
+
+
+
+
+Home
+Jailbreak
+
+How to Jailbreak
+Jailbreak News
+Jailbreak Tweaks
+Cydia
+
+
+Unlock
+
+How to Unlock
+Unlock News
+
+
+Apps
+
+iOS Apps
+Mac Apps
+Widgets
+Best Apps
+App Finder
+
+
+Tips
+
+Tips
+How to
+Tutorial
+iPhone Photography
+
+
+iPhone
+
+iPhone News
+iPhone 6s
+iPhone 6 Plus
+iPhone 6
+iPhone Photography
+
+
+iPad
+Mac
+Watch
+Apple Watch Guide
+TV
+
+Apple TV guide
+
+
+Download
+Deals
+
+
+
+
+
+
+
+
+
+
+
+
+
+Crawlies, Cleanfox, TwIM and other apps to check out this weekend
+
+
+
+
+
+
+
+Daily Deals: $210 Dyson V6 vacuum, $25 iTunes movie bundles, and more
+
+
+
+
+
+
+
+Apple announces WWDC 2017 returning to San Jose, kicking off June 5
+
+
+
+
+
+
+
+Let’s Talk iOS 174: We talked this rumor to death
+
+
+
+ 
+
+skip to main content
+skip to main menu
+
+ 
+
+
+ 
+
+
+
+
+New malware uses auto-running macros in Word documents to infect your Mac
+
+By Christian Zibreg, Feb 9, 2017 
+
+
+Tweet
+
+Leave a Comment
+
+
+
+
+
+Taking advantage of a primitive Windows technique relying on automatically-running macros embedded in Microsoft Word documents, a new type of Mac malware attack has been discovered recently. As first noted in a research compiled by Objective-See, the technique used may be crude but once an unsuspecting user opens an infected Word document and chooses to run the macros, the malware installs itself silently on the target Mac and immediately attempts to download a hazardous payload.
+The attack was first discovered in a Word file titled “U.S. Allies and Rivals Digest Trump’s Victory – Carnegie Endowment for International Peace.”
+After opening an infected document in Word for Mac and clicking Enable Macros in the dialog, the embedded macro does the following things:
+
+Checks to make sure the LittleSnitch security firewall isn’t running.
+Downloads an encrypted second-stage payload.
+Decrypts the payload using a hard-coded key.
+Executes the payload.
+
+Once installed, the payload could potentially log your keystrokes, monitor the camera and the system clipboard, take screenshots, access iMessage, retrieve your browsing history and more. It also automatically executes itself after a reboot.
+Thankfully, the remote payload file has since been removed from the server.
+Although dangerous, this isn’t a particularly advanced form of attack.
+You can protect yourself from these kinds of attacks by ensuring that you click Disable Macros when opening a suspicious Word document. Given the prevalence of macros-based malware on Windows, small wonder Microsoft included a clear warning about viruses in Word’s dialog.
+Source: Objective-See via Ars Technica
+
+
+
+
+Share:
+Tweet
+
+Follow:
+Follow @iDownloadBlog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We Recommend
+New Mac malware from Russia targets your saved passwords and iPhone backupsMalwarebytes reports first case of Mac malware for 2017, points out antiquated tacticsmacOS Sierra preview: Auto Unlock your Mac with your Apple WatchA closer look at Differential Privacy in iOS 10 and macOS Sierra 
+
+
+Related TopicsApple, Mac, macOS, Malware, Microsoft, Microsoft Office, News, Office, Privacy, Security, Word 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+Connect with iDownloadBlog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Facebook
+Become a fan
+
+
+
+
+
+RSS
+Get the latest news
+
+
+
+
+
+YouTube
+Watch Us
+
+
+
+
+
+
+
+Twitter
+Stay up to date
+
+
+
+
+
+Newsletter
+News delivered to you
+
+
+
+
+
+Google+
+Add us to your circle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+The most recent headlines
+
+
+
+
+
+
+TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects
+
+
+
+
+
+
+
+This tweak will let you force cellular network connections when launching certain apps
+
+
+
+
+
+
+
+Crawlies, Cleanfox, TwIM and other apps to check out this weekend
+
+
+
+
+
+
+
+AccessWithinApps prevents launch of Control and Notification Centers in specific apps
+
+
+
+
+
+
+
+NoClose prevents you from accidentally force-quitting apps that are currently playing media
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+The latest jailbreak news
+
+
+
+
+
+
+TranslucentMessages makes the iOS 10 Messages app translucent with stunning blur effects
+
+
+
+
+
+
+
+This tweak will let you force cellular network connections when launching certain apps
+
+
+
+
+
+
+
+AccessWithinApps prevents launch of Control and Notification Centers in specific apps
+
+
+
+
+
+
+
+NoClose prevents you from accidentally force-quitting apps that are currently playing media
+
+
+
+
+
+
+
+Jailbroken on iOS 10 and miss the Apple logo respring screen? This tweak brings it back
+
+
+
+
+
+
+
+
+
+
+iDownloadBlog
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+iDownloadblog.com
+
+
+
+About
+
+About
+Advertise
+Contact
+
+
+Keep in Touch
+
+Twitter
+Facebook
+RSS Feed
+Newsletter
+Push Notifications
+
+
+Podcasts
+
+Let's Talk iOS
+Let's Talk Jailbreak
+
+
+Site Stuff
+
+Disclosure
+Privacy Policy
+
+
+
+
+ 
+
+
+
+    		Copyright iDownloadBlog 2017. This website is not affiliated with Apple.
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,718 @@
+<!doctype html>
+<html lang="en">	
+<head>
+
+
+<meta charset="utf-8"/>
+<title>Trojan.Mirai | Symantec</title>
+<meta http-equiv="Content-Language" content="en-US"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Remove Trojan.Mirai - Symantec Security Response provides comprehensive internet protection expertise to guard against complex threats, information about latest new computer viruses and spyware."/>
+<meta name="keywords" content="Trojan.Mirai, remove Trojan.Mirai"/>
+<meta name="symc.page" content="/security_response/writeup.jsp"/>
+
+<meta name="om.site_language" content="en"/>
+<meta name="om.site_country" content="us"/>
+<meta name="om.content_format" content="html"/>
+<meta name="om.content_type" content="page"/>
+<meta name="om.content_title" content="Trojan.Mirai"/>
+<meta name="om.visitor_segment" content="Business"/>
+<meta name="om.visitor_sub_segment" content="Security Response"/>
+<meta name="om.site_section" content="Security Response"/>
+<meta name="om.site_section_us" content="Security Response"/>
+<meta name="om.site_sub_section" content="Writeup"/>
+<meta name="om.page_name" content="en/us: biz: security response: writeup: trojan.mirai"/>
+<!-[if IE]><![endif]->
+<link href="/styles/version-3/symantec.css?20161215" media="screen, projection" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="screen, projection" rel="stylesheet"/>
+<link href="/styles/version-3/print.css?20120712" media="print" rel="stylesheet"/>
+<!--[if IE 6]><link href="/styles/version-3/ie1.css?20130412" media="screen, projection" rel="stylesheet"/><![endif]-->
+<!--[if IE 7]><link href="/styles/version-3/ie2.css?20130412" media="screen, projection" rel="stylesheet"/><![endif]-->
+<!--[if IE 8]><link href="/styles/version-3/ie3.css?20130412" media="screen, projection" rel="stylesheet"/><![endif]-->
+	<link href="/security_response/writeup.jsp?docid=2017-020911-4918-99&amp;om_rssid=sr-latestthreats30days" rel="canonical"/>
+<script src="/scripts/version-3/rum/rum-min.js?20160204"></script>
+<script src="/scripts/library/jquery-1.7.2.min.js?20140127"></script>
+<script src="//nexus.ensighten.com/symantec/symEnterprise/Bootstrap.js"></script>
+<script src="/script/omniture/om_code.js?20160523"></script>
+<script src="/script/omniture/s_code.js?20160811"></script><script>s.pageName=metaData['page_name'];</script>
+<script src="/scripts/version-3/symantec-min.js?20161209"></script>
+<link href="/styles/version-3/interim-us.css?20161215" media="screen, projection" rel="stylesheet"/>
+</head>
+<body>
+
+<a class="hide" href="#startcontent"></a>
+
+<div class="ssPane fontMD mrgnBtmMD unit bckGry noBorder">
+<div class="ssUtil" style="width:1366px">
+
+
+
+<div class="unitRight">
+
+
+	
+	<script src="/scripts/version-3/login/aes.js" language="javascript" type="text/javascript"></script>
+	<div id="hideLoginSAML" style="display: none;" class="unit">
+			
+		<div class="mod-linkSites unit"><div class="auth-login"><a href="https://www.symantec.com/bin/symantec/signin?returnUrl=/partner-landing"><i class="fa fa-lock"></i> Login to PartnerNet</a></div></div>	
+	</div>
+
+	<div id="hideLoggedSAML" style="display: none;" class="unit">	
+		
+		<script>
+			var authVal = getCookie('SymcLogin');
+			var authString = CryptoJS.AES.decrypt(authVal, "SymcEncryptLogin");	
+			var authCookie = authString.toString(CryptoJS.enc.Utf8);	
+		</script>
+		<div class="auth-selector mod-linkSites unit">
+			<ul class="flyout auth-nav">
+				<li class="auth-menu"><a href="#" onclick="return false;"><i class="fa fa-user"></i> Hi,&nbsp;<script>document.write(authCookie);</script></a>
+				<div class="flyoutConnect flyoutAuthConnect hide"></div>
+					<div class="flyoutContainer">
+						<div class="flyoutContent flyouAuthContent">
+							<div class="bckYellow unit" style="padding:1px;">
+								<div class="bckSolidWht unit">
+									<div class="mod-flyoutContent unit">
+										<div class="mod-flyoutContentLft bckSolidWht unit" style="margin-top:20px;">
+											<div class="unit">
+												<ul class="listNone">
+													
+														<li><a href="https://partnernet.symantec.com/portal/faces/home/ManageAccount/MyAccountInfo">My Details</a></li>	
+														<li><a href="https://partnernet.symantec.com/portal/faces/home/ManageAccount/Overview">Overview</a></li>	
+														<li><a href="https://symaccount.symantec.com/SymAccount/processLogout.do" class="logout">Logout</a></li>		
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						<div class="clear"></div>												
+					</div>	
+				</div> 
+				</li> 
+			</ul>
+		</div>
+				
+		<script type="text/javascript">
+			$('.logout').click(function(e) {
+				eraseCookie('SymcLogin');			
+				e.preventDefault();
+				window.open('https://symaccount.symantec.com/SymAccount/processLogout.do', '_blank');
+				window.open('https://www.symantec.com/system/sling/logout', '_self');
+			});
+		</script>
+		
+	</div>	
+
+<div class="mod-linkSites unit">
+	
+	<a href="/globalsites/index.jsp" title="Change Country"><i class="fa fa-globe"></i><span>United States</span></a>	
+</div>	
+</div>
+</div>
+</div>
+
+<div class="headerPane clear">
+<div class="colOneMain mrgnTopMD mrgnBtmLG clearfix" style="width:1366px;">
+		
+<div class="symLogo unit">
+
+<a href="/index.jsp"><img src="/images/version-3/symantec-logo-top.png" alt="Symantec | United States" title="Symantec | United States" height="" width=""/></a>
+</div>
+
+		
+	<div class="unitRight bckPadTopMD">
+
+<div class="bckPadBtmSM unit mrgnRgtLG">
+	 <div>
+			<ul id="flyout" class="flyout">
+				 
+						<li class="flyoutTitle">
+						
+													
+								 <a href="/products/"  title="Products"> PRODUCTS
+ </a>	
+						
+							 <div class="flyoutConnect hide" ></div>
+							 <div class="flyoutContainer ">
+									<div class="flyoutContent">
+										 
+												<div class="bckPadXSM bckSolidMedGry unit">
+													 <div class="bckSolidWht unit">
+															
+															<div class="mod-flyoutContent unit">
+																 <div class="mod-flyoutContentLft bckSolidWht bckPadMD unit">
+																		<div class="unit">
+																			 
+    <ul class="listNone">
+      
+ <li><a href="/products/threat-protection">Threat Protection</a></li> 
+ <li><a href="/products/information-protection">Information Protection</a></li> 
+ <li><a href="/products/cyber-security-services">Cyber Security Services</a></li> 
+ <li><a href="https://www.symantec.com/website-security/">Website Security</a></li> 
+ <li><a href="/products/products-az">Products A-Z</a></li> 
+ </ul> 
+																		</div>
+																		
+																 </div>
+															</div>
+													 </div>
+												</div>
+												<div class="clear"></div>
+												
+	</div>	
+ </div> 
+	</li> 
+						<li class="flyoutTitle">
+						
+													
+								 <a href="/services/"  title="Services"> SERVICES
+ </a>	
+						
+							 <div class="flyoutConnect hide" ></div>
+							 <div class="flyoutContainer ">
+									<div class="flyoutContent">
+										 
+												<div class="bckPadXSM bckSolidMedGry unit">
+													 <div class="bckSolidWht unit">
+															
+															<div class="mod-flyoutContent unit">
+																 <div class="mod-flyoutContentLft bckSolidWht bckPadMD unit">
+																		<div class="unit">
+																			 
+    <ul class="listNone">
+      
+ <li><a href="/services/consulting-services">Consulting Services</a></li> 
+ <li><a href="/services/customer-success-services">Customer Success Service</a></li> 
+ <li><a href="/services/cyber-security-services">Cyber Security Services</a></li> 
+ <li><a href="/services/education-services">Education Services</a></li> 
+ </ul> 
+																		</div>
+																		
+																 </div>
+															</div>
+													 </div>
+												</div>
+												<div class="clear"></div>
+												
+	</div>	
+ </div> 
+	</li> 
+						<li class="flyoutTitle">
+						
+													
+								 <a href="/solutions/"  title="Solutions"> SOLUTIONS
+ </a>	
+						
+							 <div class="flyoutConnect hide" ></div>
+							 <div class="flyoutContainer ">
+									<div class="flyoutContent">
+										 
+												<div class="bckPadXSM bckSolidMedGry unit">
+													 <div class="bckSolidWht unit">
+															
+															<div class="mod-flyoutContent unit">
+																 <div class="mod-flyoutContentLft bckSolidWht bckPadMD unit">
+																		<div class="unit">
+																			 
+    <ul class="listNone">
+      
+ <li><a href="/solutions/internet-of-things">Internet of Things</a></li> 
+ <li><a href="/solutions/office365">Office 365</a></li> 
+ <li><a href="/solutions/automotive">Automotive</a></li> 
+ <li><a href="/solutions/education">Education</a></li> 
+ <li><a href="/solutions/federal-gov">Federal Government</a></li> 
+ <li><a href="/solutions/financial-services">Financial Services</a></li> 
+ <li><a href="/solutions/global-service">Global Service Providers</a></li> 
+ <li><a href="/solutions/industrial-control">Industrial Control Systems</a></li> 
+ <li><a href="/solutions/healthcare">Healthcare</a></li> 
+ <li><a href="/solutions/retail">Retail</a></li> 
+ <li><a href="/solutions/state-local-gov">State & Local</a></li> 
+ </ul> 
+																		</div>
+																		
+																 </div>
+															</div>
+													 </div>
+												</div>
+												<div class="clear"></div>
+												
+	</div>	
+ </div> 
+	</li> 
+						<li class="flyoutTitle">
+						
+													
+								 <a href="https://support.symantec.com/en_US.html"  title="Support Center"> SUPPORT CENTER
+ </a>	
+						
+							 <div class="flyoutConnect hide" ></div>
+							 <div class="flyoutContainer ">
+									<div class="flyoutContent">
+										 
+												<div class="bckPadXSM bckSolidMedGry unit">
+													 <div class="bckSolidWht unit">
+															
+															<div class="mod-flyoutContent unit">
+																 <div class="mod-flyoutContentLft bckSolidWht bckPadMD unit">
+																		<div class="unit">
+																			 
+    <ul class="listNone">
+      
+ <li><a href="https://support.symantec.com/en_US.html">Technical Support</a></li> 
+ <li><a href="http://www.symantec.com/connect/">Symantec Connect</a></li> 
+ <li><a href="/support-center/buying-programs">Buying Programs</a></li> 
+ <li><a href="/support-center/upgrades">Upgrades</a></li> 
+ <li><a href="/support-center/renewals">Renewals</a></li> 
+ <li><a href="/services/education-services">Training</a></li> 
+ </ul> 
+																		</div>
+																		
+																 </div>
+															</div>
+													 </div>
+												</div>
+												<div class="clear"></div>
+												
+	</div>	
+ </div> 
+	</li> 
+						<li class="flyoutTitle">
+						
+													
+								 <a href="/security_response/"  title="Security Response"> SECURITY CENTER
+ </a>	
+						
+							 <div class="flyoutConnect hide" ></div>
+							 <div class="flyoutContainer ">
+									<div class="flyoutContent">
+										 
+												<div class="bckPadXSM bckSolidMedGry unit">
+													 <div class="bckSolidWht unit">
+															
+															<div class="mod-flyoutContent unit">
+																 <div class="mod-flyoutContentLft bckSolidWht bckPadMD unit">
+																		<div class="unit">
+																			 
+    <ul class="listNone">
+      
+ <li><a href="http://www.symantec.com/connect/symantec-blogs/symantec-security-response">Blogs</a></li> 
+ <li><a href="http://www.symantec.com/security_response/publications/threatreport.jsp">ISTR</a></li> 
+ <li><a href="http://www.symantec.com/security_response/landing/threats.jsp">Threats</a></li> 
+ <li><a href="https://www.symantec.com/security_response/definitions.jsp">Virus Definitions and Security Updates</a></li> 
+ <li><a href="http://www.symantec.com/security_response/removaltools.jsp">Removal Tools</a></li> 
+ </ul> 
+																		</div>
+																		
+																 </div>
+															</div>
+													 </div>
+												</div>
+												<div class="clear"></div>
+												
+	</div>	
+ </div> 
+	</li> 
+						<li class="flyoutTitle">
+						
+													
+								 <a href="https://partnernet.symantec.com"  title="Partner"> PARTNER
+ </a>	
+						
+							 <div class="flyoutConnect hide" ></div>
+							 <div class="flyoutContainer ">
+									<div class="flyoutContent">
+										 
+												<div class="bckPadXSM bckSolidMedGry unit">
+													 <div class="bckSolidWht unit">
+															
+															<div class="mod-flyoutContent unit">
+																 <div class="mod-flyoutContentLft bckSolidWht bckPadMD unit">
+																		<div class="unit">
+																			 
+    <ul class="listNone">
+      
+ <li><a href="http://partnerlocator.symantec.com/">Find a Partner</a></li> 
+ <li><a href="https://partnernet.symantec.com/portal/faces/programs">Become a Partner</a></li> 
+ </ul> 
+ <h4>Login Required</h4> 
+    <ul class="listNone">
+      
+ <li><a href="https://partnernet.symantec.com/">Login into Partner Portal</a></li> 
+ <li>Partner Licensing</li> 
+ <li>Partner Renewals</li> 
+ <li>Partner Training</li> 
+ <li>Margin Builder</li> 
+ <li>Opportunity Registration</li> 
+ <li>Financial Benefits</li> 
+ </ul> 
+																		</div>
+																		
+																 </div>
+															</div>
+													 </div>
+												</div>
+												<div class="clear"></div>
+												
+	</div>	
+ </div> 
+	</li> 
+	</ul> </div>
+</div>	
+		<div class="symUtil unitRight">
+		
+		<div class="mod-search unit">
+			<a href="/search.html" class="show-search "><i class="fa fa-search"></i></a> 
+		</div>
+		
+	</div>	</div>	</div>	
+		
+<div class="clear"></div>
+</div>
+		
+<a id="startcontent"></a>
+		
+<!--ng-->
+
+
+<div class="contentPane megaNav">
+	<div class="cbMrgnBtmMD cbMrgnTopSM">
+		<div class="unit colTwoStyle11">
+<ol class="crumbs">
+	<li><a href="/index.jsp"><img src="/images/version-3/icons/home-icon.png" width="11" height="10" alt="Symantec"/><span>/</span></a></li><li><a href="/security_response/">Security Response</a><span>/</span></li> 
+ <li>Trojan.Mirai</li>	
+</ol>
+</div>
+
+<div class="unitRight colTwoStyle21">
+<div class="unitRight">
+    <div class="utilNav unit">
+		<ul class="unit">
+			<li class="addAction">
+				<div><span class="addTitle">
+					Add
+					</span>
+					<div class="transitionSmall hide"></div>
+				</div>
+			</li>
+		</ul>
+		<div class="utilMenu mod-add-dropdown relative clear hide upperzIndex">
+			<ul class="addItems unit trackSBOmniture" data-omniture="sb_widget_small">	
+	<li>	Add Bookmark or Share
+	</li>	
+	<li ><img 
+					src="/content/en/us/global/images/version3/social-media-icons/google-plus.png" alt="Google+"/><a 
+					href="https://plus.google.com/share?url=THE_PAGE_URL" target="_blank" title="Google+" class="pixCon4434">Google+</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/technorati-logo.gif" alt="Technorati"/><a 
+					href="http://technorati.com/faves?add=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="Technorati" class="pixCon3106">Technorati</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/digg-logo.gif" alt="Digg"/><a 
+					href="http://digg.com/submit?url=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="Digg" class="pixCon3100">Digg</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/delicious-logo.gif" alt="Delicious"/><a 
+					href="http://del.icio.us/post?url=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="Delicious" class="pixCon3099">Delicious</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/reddit-logo.gif" alt="Reddit"/><a 
+					href="http://reddit.com/submit?url=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="Reddit" class="pixCon3104">Reddit</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/stumbleupon-logo.gif" alt="StumbleUpon"/><a 
+					href="http://www.stumbleupon.com/submit?url=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="StumbleUpon" class="pixCon3105">StumbleUpon</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/twitter.gif" alt="Twitter"/><a 
+					href="http://twitter.com/home?status=THE_PAGE_TITLE&#43;THE_PAGE_URL" target="_blank" title="Twitter" class="pixCon3107">Twitter</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/linkedin-logo.gif" alt="LinkedIn"/><a 
+					href="http://www.linkedin.com/shareArticle?mini=true&amp;url=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="LinkedIn" >LinkedIn</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/facebook.gif" alt="Facebook"/><a 
+					href="http://www.facebook.com/share.php?u=THE_PAGE_URL&amp;t=THE_PAGE_TITLE" target="_blank" title="Facebook" class="pixCon3101">Facebook</a></li>	
+						<div class="hr"></div>
+					
+	<li ><img 
+					src="/content/en/us/global/images/utilityicons/socialbookmark/logos/newsvine-logo.gif" alt="Newsvine"/><a 
+					href="http://www.newsvine.com/_wine/save?popoff=0&amp;url=THE_PAGE_URL&amp;title=THE_PAGE_TITLE" target="_blank" title="Newsvine" class="pixCon3103">Newsvine</a></li>	
+	</ul>	</div>	
+	</div>	
+</div>
+</div>
+<div class="clear"></div>
+	</div>	
+	<h1>Trojan.Mirai</h1> 
+
+	<div class="colTwoMain unit">
+	<div class="bckBrdr bckGry">
+      <div class="bckPadSmall introTxt1">
+<h2>Risk Level 1: Very Low</h2>
+</div><div class="upperCase">
+<ul class="clearfix tabsNav unit">
+<li class="unit">
+<a href="/security_response/writeup.jsp?docid=2017-020911-4918-99" class="on">summary</a>
+</li>
+<li class="unit">
+<a href="/security_response/writeup.jsp?docid=2017-020911-4918-99&amp;tabid=2">technical details</a>
+</li>
+<li class="unit">
+<a href="/security_response/writeup.jsp?docid=2017-020911-4918-99&amp;tabid=3">removal</a>
+</li>
+</ul>
+<div class="unitRight mrgnTopXLG tabsNavSubNav">
+<strong><a class="popup" href="#" onclick="javascript:window.open('/security_response/print_writeup.jsp?docid=2017-020911-4918-99','','width=800,height=600, scrollbars=yes, menubar=yes, resizable=yes'); return false;">Printer Friendly Page</a></strong>
+</div>
+</div><div class="clear"></div><div id="tab1" class="bckSolidBlk bckBrdr clearfix">
+<div class="bckSolidGry bckBrdr clearfix">
+<div class="bckSolidWht bckPadLarge clearfix">
+<dl class="fontXLG">
+<dt class="unit mrgnRgtXSM">
+<strong>Discovered: </strong>
+</dt>
+<dd>February 8, 2017</dd>
+<dt class="unit mrgnRgtXSM">
+<strong>Updated: </strong>
+</dt>
+<dd>February 10, 2017 6:30:39 PM</dd>
+<dt class="unit mrgnRgtXSM">
+<strong>Type: </strong>
+</dt>
+<dd>Trojan</dd>
+<dt class="unit mrgnRgtXSM">
+<strong>Infection Length: </strong>
+</dt>
+<dd>Varies</dd>
+<dt class="unit mrgnRgtXSM">
+<strong>Systems Affected: </strong>
+</dt>
+<dd>Windows</dd>
+</dl>
+<div style="clear: both;"></div>
+<div class="imgMrgnTopLG imgMrgnBtmLG listBullet">Trojan.Mirai is a Trojan horse that may perform malicious activities on the compromised computer.
+<br>
+<br></div>
+<h3>Antivirus Protection Dates</h3>
+<ul class="listSQbl">
+<li>
+<strong>Initial Rapid Release version </strong>February 9, 2017 revision 005</li>
+<li>
+<strong>Latest Rapid Release version </strong>February 16, 2017 revision 004</li>
+<li>
+<strong>Initial Daily Certified version </strong>February 9, 2017 revision 008</li>
+<li>
+<strong>Latest Daily Certified version </strong>February 16, 2017 revision 009</li>
+<li>
+<strong>Initial Weekly Certified release date </strong>February 15, 2017</li>
+</ul>
+<div class="imgMrgnTopMD imgMrgnBtmLG">Click <a onclick="javascript:window.open('/enterprise/popup.jsp?popupid=sr_help_popup','','width=815,height=605,scrollbars=yes'); return false;" href="#" class="popup">here</a> for a more detailed description of Rapid Release and Daily Certified virus definitions.</div>
+<div class="imgMrgnTopLG">
+<strong>Writeup By: </strong>Ke Zhang</div>
+<div class="hr2 mrgnTopMD"></div>
+<div class="imgMrgnTopLG">
+<strong><span class="txtLgtGray">Summary</span><span class="mrgnLftSM mrgnRgtSM">| </span><a href="/security_response/writeup.jsp?docid=2017-020911-4918-99&amp;tabid=2">Technical Details</a><span class="mrgnLftSM mrgnRgtSM">| </span><a href="/security_response/writeup.jsp?docid=2017-020911-4918-99&amp;tabid=3">Removal</a></strong>
+</div>
+</div>
+</div>
+</div>
+
+	</div>	</div>	
+	<div class="colSide unitRight" >
+      
+            <div class="bckSolidGry bckBrdr">
+                <div class="bckSolidWht bckPadSmall bckPadLftMD">
+                    <h3>Search Threats</h3>
+                    <div class="fontSM mrgnTopSM"><div class="mrgnBtmSM"><strong>Search by name</strong><br/>Example: W32.Beagle.AG@mm</div><div class="mod-search unit">
+
+<form method="get" id="search" name="searchSR" action="http://searchg.symantec.com/search?">
+<input name="q" size="16" value="Search Threats" class="inputBdr unit txtLgtGray" maxlength="100" type="text" onfocus="clearInputValue(this); $(this).addClass('colorBlack')" onblur="writeInputValue(this, 'Search Glossary'); $(this).removeClass('colorBlack')"/>
+<input type="image" src="/images/version-3/header/g-search-icon.png" alt="search" />
+<input value="utf-8" name="charset" type="hidden" />
+<input value="10" name="nh" type="hidden" />
+<input value="100" name="hitsceil" type="hidden" />
+<input value="1" name="st" type="hidden" />
+<input value="symc_en_US" name="proxystylesheet" type="hidden" />
+<input value="symc_en_US" name="client" type="hidden" />
+<input value="symc_en_US_vir" name="site" type="hidden" />
+<input type="hidden" name="output" value="xml_no_dtd" />
+<input value="ent" name="context" type="hidden" />
+</form>		
+
+</div><div class="clear"></div></div> </div> </div> 
+      <div class="promoWdgt mrgnTopMD">
+	      <a href="/business/theme.jsp?themeid=star"><img src="/content/en/us/enterprise/images/promo/b-star-technologies-promo.png" alt="STAR Antimalware Protection Technologies" title="STAR Antimalware Protection Technologies" class="imgFltTop" width="180" height="130"/></a>
+      </div>
+      <div class="promoWdgt mrgnTopMD">
+	      <a href="https://resource.elq.symantec.com/LP=2899"><img src="/content/en/us/enterprise/images/promo/istr.png" alt="2016 Internet Security Threat Report, Volume 21" title="2016 Internet Security Threat Report, Volume 21" class="imgFltTop" width="180" height="190"/></a>
+      </div>			
+      <div class="promoWdgt mrgnTopMD">	    
+      				
+	  </div>
+</div>
+<div class="clear"></div>
+</div>
+
+		<div class="footerPane">
+		
+			<div class="colOneMain">
+				<div class="symLogo mrgnTopXLG mrgnBtmMD unit">
+					
+					<a href="/index.jsp"><img src="/images/version-3/symantec-logo-120x32.png" alt="Symantec | United States" title="Symantec | United States"/></a>
+				</div>
+				
+				<div class="unit mrgnBtmXLG fatFooter">
+					<div class="mrgnRgtXXXLG txtWidgetFacet unit">
+						
+ <h4>INFORMATION FOR:</h4> 
+    <ul class="listNone">
+      
+ <li><a href="https://www.symantec.com/">Enterprise</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/small-business">Small Business</a></li> 
+ <li><a href="http://us.norton.com/">Consumer (Norton)</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/partners">Partners</a></li> 
+ </ul> 
+					</div>
+					<div class="mrgnRgtXXXLG txtWidgetFacet unit">
+						
+ <h4>OUR OFFERINGS:</h4> 
+    <ul class="listNone">
+      
+ <li><a href="https://www.symantec.com/content/symantec/english/en/products">Products</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/products/products-az">Products A-Z</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/services">Services</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/solutions">Solutions</a></li> 
+ </ul> 
+					</div>
+					<div class="mrgnRgtXXXLG txtWidgetFacet unit">				
+						
+ <h4>CONNECT WITH US:</h4> 
+    <ul class="listNone">
+      
+ <li><a href="https://support.symantec.com/">Support</a></li> 
+ <li><a href="https://www.symantec.com/connect/">Connect Communities</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/security_response">Security Center</a></li> 
+ <li><a href="http://partnerlocator.symantec.com/">Find a Partner</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/about/events">Events</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/about/webcasts">Webcasts</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/contact-us">Contact Us</a></li> 
+ </ul> 
+					</div>
+					<div class="mrgnRgtXXXLG txtWidgetFacet unit">
+						
+ <h4><a href="https://www.symantec.com/content/symantec/english/en/about">ABOUT SYMANTEC</a></h4> 
+    <ul class="listNone">
+      
+ <li><a href="https://www.symantec.com/content/symantec/english/en/about/customerone">CustomerOne</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/products/performance-center">Performance Center</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/about/newsroom">Newsroom</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/about/careers">Careers</a></li> 
+ <li><a href="http://investor.symantec.com/About/Investors/default.aspx">Investor Relations</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/about/corporate-responsibility">Corporate Responsibility</a></li> 
+ <li><a href="https://www.symantec.com/content/symantec/english/en/theme/blue-coat-acquisition">Blue Coat Acquisition</a></li> 
+ </ul> 
+					</div>
+					<div class="txtWidgetFacet unit">				
+						
+	</div>	</div>	
+			
+		<div class="unit fullWidth">
+			
+	</div>
+	<div class="unitRight mrgnTopXLG mrgnBtmLG">	
+				
+				<div class="unit mrgnRgtLG bckPadTopLG">  		
+					<div class="unit">
+						
+		<div class="unit clearfix">
+			<ul class=" trackSBOmniture" >	
+	<li class="mrgnRgtMD unit"><a 
+					href="http://twitter.com/symantec" target="_blank" title="Twitter" ><img 
+					src="/content/en/us/global/images/version3/social-media-icons/social-twitter-33x33.png" alt="Twitter"/></a></li>	
+	<li class="mrgnRgtMD unit"><a 
+					href="http://www.facebook.com/Symantec" target="_blank" title="Facebook" ><img 
+					src="/content/en/us/global/images/version3/social-media-icons/social-facebook-33x33.png" alt="Facebook"/></a></li>	
+	<li class="mrgnRgtMD unit"><a 
+					href="https://www.linkedin.com/company/1231" target="_blank" title="LinkedIn" ><img 
+					src="/content/en/us/global/images/version3/social-media-icons/social-linkedin-33x33.png" alt="LinkedIn"/></a></li>	
+	<li class="mrgnRgtMD unit"><a 
+					href="https://plus.google.com/&#43;symantec/posts" target="_blank" title="Google+" ><img 
+					src="/content/en/us/global/images/version3/social-media-icons/social-googleplus-33x33.png" alt="Google+"/></a></li>	
+	<li class="mrgnRgtMD unit"><a 
+					href="https://www.youtube.com/user/symantec/home" target="_blank" title="YouTube" ><img 
+					src="/content/en/us/global/images/version3/social-media-icons/social-youtube-33x33.png" alt="YouTube"/></a></li>	
+	</ul>	</div>	
+	</div>	</div>	<div class="unitRight" >
+		<script src="/scripts/getverisignsealimage-min.js?20160421"></script>
+		</div>
+	</div>	</div>	
+		<div class="fullWidth bckYellow unit" >
+		<div class="footer">
+		<div class="">   
+		©1995 - 2017 Symantec Corporation 	</div><div class="">
+		<ul class="footerNav">
+		<li><a href="/about/" title="About Symantec">About Symantec</a><span>|</span></li><li><a href="/about/careers/" title="Careers">Careers</a><span>|</span></li><li><a href="https://symantecevents.verite.com/?action=public.dsp_calendar&amp;view=list" title="Events">Events</a><span>|</span></li><li><a href="/about/newsroom/" title="News">News</a><span>|</span></li><li><a href="/site-map/" title="Site Map">Site Map</a><span>|</span></li><li><a href="/about/legal/repository/" title="Legal Repository">Legal Repository</a><span>|</span></li><li><a href="/privacy/" title="Privacy">Privacy</a><span>|</span></li><li><a href="/privacy/#about_cookies" title="Cookies">Cookies</a><span>|</span></li><li><a href="/contact-us/" title="Contact">Contact</a></li>
+	</ul>	</div>	</div>	</div>
+	</div>	
+<script src="/scripts/version-3/search/google-min.js?20120403"></script>	
+<!--om-->
+<!-- SiteCatalyst code. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
+        <script><!--
+        /* You may give each page an identifying name, server, and channel on the next lines. */
+        s.server="symantec"
+        s.channel=metaData['visitor_segment'] + ': ' + metaData['site_section']
+        s.prop2=metaData['site_country']
+        s.prop3=metaData['site_language']
+        s.prop27=metaData['visitor_segment']
+        s.prop30=metaData['user_id']
+        s.prop41=metaData['site_section']
+        s.prop42=metaData['product_name']
+        s.prop43=metaData['product_category_name']
+        s.prop44=metaData['product_sub_category_name']
+        s.prop45=metaData['product_version_name']
+        s.prop46=metaData['content_format']
+        s.prop47=metaData['content_type']
+        s.prop48=metaData['content_title']
+        s.prop49=metaData['site_sub_section']
+        s.prop54=metaData['site_section_us']
+        s.prop58=metaData['site_sub_sub_section']
+        s.prop64=metaData['visitor_sub_segment']
+        s.prop52=metaData['site_section_4']
+        s.prop53=metaData['site_section_5']
+        /* Conversion Variables */
+        s.products=metaData['products']
+        s.eVar27=metaData['site_country']
+        s.eVar28=metaData['site_language']
+        s.eVar29=metaData['visitor_segment'] + ': ' + metaData['site_section']
+        s.eVar32=metaData['user_id']
+        s.eVar41=metaData['site_section']
+        s.eVar48=metaData['site_sub_section']
+        s.eVar49=metaData['content_title']
+        s.eVar50=metaData['visitor_segment']
+        s.eVar58=metaData['site_sub_sub_section']
+        s.eVar75=metaData['visitor_sub_segment']      
+if(typeof(metaData['score_id']) != "undefined" && typeof(metaData['score_value']) != "undefined") {
+    s.eVar7=metaData['score_id'];
+    s.eVar8="+"+metaData['score_value'];
+    s.events="event18="+metaData['score_value'];
+}        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+        <script language="JavaScript" type="text/javascript"><!--
+        if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+        //--></script><noscript><img src="http://om.symantec.com/b/ss/veritasnonconsumer/1/H.24.1--NS/0" height="1" width="1" border="0" alt="" />
+        </noscript>
+        <!--/DO NOT REMOVE/-->
+        <!-- End SiteCatalyst code version: H.24.1. -->
+</body>
+</html>

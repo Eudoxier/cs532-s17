@@ -1,0 +1,1175 @@
+
+
+//]]>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Menu
+
+ 
+
+
+Sign Up
+Log In
+
+Access Issues? 
+
+Recover Password
+Recover User ID
+Resend Activation Email
+
+
+
+About 
+
+Company
+Contact
+Terms
+Privacy
+Affiliates
+
+
+
+Help 
+
+Self-Help Center
+Send Support Request
+Site Map
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boost your social media productivity -- it doesn't have to be a manual time-consuming process! Twitter, Facebook, Pinterest, LinkedIn, Tumblr, RSS feeds, blogs, and Plurk! Easily schedule updates, find quality people to follow, and monitor social media activity! Join hundreds of thousands of satisfied users today!
+
+
+"This is a terrific service and I appreciate all you do to keep us informed. Great customer service," Rod wrote. 
+
+Sign Up Now »
+
+
+
+
+Base Features
+Free
+Professional
+
+
+
+
+
+Schedule tweets — Plan, set & forget [more]
+
+Schedule tweets and keep your Twitter streams ticking over with new tweets even when you're not in front of your computer. Publish tweets when you know your international followers are online and you're asleep.
+
+
+
+
+
+
+
+
+
+
+
+Track keywords — Empower yourself [more]
+
+Set up alerts and track keywords in the public Twitter stream. We will monitor the Twitter tweet stream and periodically email you a digest of the tweets that contain those keywords. You can also use this to track your @replies.
+
+
+
+
+
+
+
+
+
+
+
+Save and reuse drafts — Save hours of typing [more]
+
+Save draft tweets, frequently used text snippets and URLs and reuse them in your scheduled tweets. Save tons of time by avoiding repetitive typing. Save a draft once and use it as a template for updates on Twitter accounts, plus other types of accounts for Professional users.
+
+
+
+
+
+
+
+
+
+
+
+dld.bz URL shortening — Track your clicks [more]
+
+With our own in-house URL shortening service, dld.bz, you can track the clicks on your shortened links, and get all kinds of useful and insightful click statistics.
+
+
+
+
+
+
+
+
+
+
+
+View @Mentions & Retweets — Efficiency [more]
+
+With more than one Twitter account it can become a real chore to keep track of your @mentions and everyone who has retweeted your tweets.
+
+
+
+
+
+
+
+
+
+
+
+Purge your DM Inbox — Keep it tidy [more]
+
+You will probably agree that it's a bit of a pain to manually delete DMs from your Inbox, especially since they accumulate so quickly. You can run a purge on your Inbox to delete everything, or DMs older than 7 days, or DMs older than 30 days.
+
+
+
+
+
+
+
+
+
+
+
+Purge your Twitter Tweets — Start over [more]
+
+Sometimes you want to start over with your Twitter account, without losing all the people who follow you and whom you follow. With our tweet purge you can delete all the tweets currently on your Twitter account, and start over with a clean slate.
+
+
+
+
+
+
+
+
+
+
+
+Secure Twitter access — No passwords [more]
+
+We use Twitter's secure OAuth method to access your Twitter accounts. That means you never have to give us your Twitter password password.
+
+
+
+
+
+
+
+
+
+
+
+Up to five Twitter accounts — No charge [more]
+
+Add and manage up to five Twitter accounts. We don't charge you a dime. This is ideal for people who are responsible for managing multiple social accounts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Follow-Back & Auto-DM Features (Additional Fee* Applies)
+Free
+Professional
+
+
+
+
+
+*Additional Fee: For a few pennies per day, enable the above automation on all your Twitter accounts. Your total cost is a low $2.97 once every two weeks to unlock the Follow-Back & Auto-DM features of your SocialOomph.com account. The one fee covers all your Twitter accounts. This automation fee applies even when you have a Professional account. This automation fee does not give you access to Professional features.
+
+
+
+
+Follow those who follow you — Easy [more]
+
+Review new people who follow you and approve those whom you want to follow back. Build a quality Friends list.
+
+
+ 
+ 
+
+
+
+Send DMs to new followers — Automate [more]
+
+Send a nice non-promotional DM to new followers that focus on them and your future interaction with them, or simply to thank them for choosing to follow you. With this feature DMs can be sent only to new followers, not to existing followers.
+
+
+ 
+ 
+
+
+
+Vet new followers — Semi-automation [more]
+
+We will interrupt the auto-DM process for 72 hours and give you an opportunity to manually review new followers and decide if you want to send that person a welcome DM. What's more, you vet all your Twitter followers on one integrated console. You can add new followers into any of your Twitter lists, straight from the vetting page.
+
+
+ 
+ 
+
+
+
+
+
+
+Find Quality People to Follow On Twitter
+Free
+Professional
+
+
+
+
+
+Keyword searches — Find targeted friends [more]
+
+Enter your keywords and we will search for Twitter users who tweet about those topics and present them to you so that you can decide whether you want to follow them or not. A maximum number of new friends can be followed per day with this feature, and you need to manually approve each account before it is followed.
+
+
+
+ 
+
+
+
+
+
+
+
+Mimic follow — Replicate the following of others [more]
+
+Replicate the Following list of up to five Twitter accounts at a time. We will present the Following lists of those accounts to you over time to decide which of those accounts from the Following list you want to follow.
+
+
+
+ 
+
+
+
+
+
+
+
+Sort into Twitter Lists — Organize new friends [more]
+
+The system will automatically add new friends (once you approve them) into your Twitter lists. You can connect a list to a specific keyword or to several keywords. Friends that are found with that keyword will be added to the list of your choice. For example, you could define a keyword of "@yourusername" (which will find people who mention you) and create a private list called "Mentioned Me", which you connect to that keyword. Friend Finder will then add the people who mention you to your Mentioned Me list. Instruct the system to maintain the list at a size of your choice (up to a maximum 500 Twitter accounts), and the system will automatically rotate out the oldest entries when it adds new ones to the list.
+
+
+
+ 
+
+
+
+
+
+
+
+Filter profiles — Avoid spammy accounts [more]
+
+Configure the finder so that it will look only for Twitter users that conform to your specific criteria. You can filter on following-to-follower ratio, number of friends, number of followers, age of the account, number of tweets, and much more. Set up words and phrases that you consider as SPAM and we will automatically ignore any user that has those words in its profile bio or latest tweet. You can also tell us to filter out any username that contains certain text or character strings, which you define.
+
+
+
+ 
+
+
+
+
+
+
+
+Apply decisions of others — SPAM protection [more]
+
+Tell the system to automatically ignore any Twitter account that has been flagged as SPAM or has been blocked by any of your fellow SocialOomph users.
+
+
+
+ 
+
+
+
+
+
+
+
+Auto select & human review — Full control [more]
+
+The system selects candidate Twitter users, according to your criteria, and places them on a queue where you can very easily review them and decide whether you want to follow or ignore the person.
+
+
+
+ 
+
+
+
+
+
+
+Automated limits — Quality, not quantity [more]
+
+The Friend Finder is not a mass following tool. It is a tool to easily find quality users whom you can follow if you choose to do so.
+
+
+
+ 
+
+
+
+
+
+
+
+We work, you decide — Save hours [more]
+
+Why spend hours searching for and ferreting out quality Twitter users to follow? You need to do searches, view their profiles, check the numbers and then hit the calculator to compute the ratios. We remove all that time and effort for you. The only thing you need to do is quickly review those profiles that have passed through your filters and decide whether you want to follow them or not in one easy step.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Facebook Features
+Free
+Professional
+
+
+
+
+
+Unlimited Facebook accounts — Maximize efficiency [more]
+
+Add and manage an unlimited number of Facebook accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule status updates — Free up time [more]
+
+Now you can keep your Facebook status updates fresh by scheduling them to appear on your Facebook account at the dates and times of your choosing. No need to rush or find online access just to login to Facebook and post a time-sensitive update. Schedule it in our system and we will make sure that it gets on Facebook at the right time.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule page wall updates — Be productive [more]
+
+In similar vein of updating your Facebook status, you can schedule updates to be posted to the wall of any Facebook Page of which you are an administrator.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule group updates — Be efficient [more]
+
+In similar vein of updating your Facebook status, you can schedule updates to be posted to the wall of any Facebook Group of which you are an administrator.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule photo uploads — Be awesome [more]
+
+Upload and schedule photos to be published on the wall of your Facebook account, Facebook Page, or Facebook Group.
+
+
+
+ 
+
+
+
+
+
+
+
+Secure Facebook Connect access — Peace of mind [more]
+
+We never ask for your Facebook login credentials. Our application uses the secure Facebook Connect technology, as provided by Facebook, to perform the tasks you request on your account. You explicitly grant our application limited access only for what we need to do, and revoking that access is easily done from your Facebook account.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Pinterest Features
+Free
+Professional
+
+
+
+
+
+Unlimited Pinterest Boards — Maximum visibility [more]
+
+Add and manage an unlimited number of Pinterest Boards that belong to multiple Pinterest user accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule photo uploads for Pins — Get attention [more]
+
+Upload and schedule photos to be published as Pins on your Pinterest Boards.
+
+
+
+ 
+
+
+
+
+
+
+
+Secure Pinterest account access — Peace of mind [more]
+
+We never ask for your Pinterest login credentials. Our application uses secure Pinterest technology, as provided by Pinterest, to perform the tasks you request on your account. You explicitly grant our application limited access only for what we need to do.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+LinkedIn Features
+Free
+Professional
+
+
+
+
+
+Unlimited LinkedIn accounts — Maximize efficiency [more]
+
+Add and manage an unlimited number of LinkedIn accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule shares — Free up time [more]
+
+Keep the shares on your LinkedIn profile and LinkedIn Company Page ticking over with interesting content for your connections. Schedule them in SocialOomph and we will make sure that they are posted to LinkedIn at the date and time of your choosing.
+
+
+
+ 
+
+
+
+
+
+
+
+Secure LinkedIn access — Password security [more]
+
+We never ask for your LinkedIn login credentials. Our application uses the secure LinkedIn application-to-application integration technology, as provided by LinkedIn, to perform the tasks you request on your account.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Plurk Features
+Free
+Professional
+
+
+
+
+
+Unlimited Plurk accounts — Maximize efficiency [more]
+
+Add and manage an unlimited number of Plurk accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Schedule updates — Free up time [more]
+
+Keep the updates on your Plurk profile fresh by scheduling them in SocialOomph and we will make sure that they are posted to your Plurk profile at the date and time of your choosing.
+
+
+
+ 
+
+
+
+
+
+
+
+Secure Plurk access — Password security [more]
+
+We never ask for your Plurk login credentials. Our application uses the secure Plurk application-to-application integration technology, as provided by Plurk, to perform the tasks you request on your account.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Create Social Updates from RSS Feed Entries
+Free
+Professional
+
+
+
+
+
+Automated updates — Ease Of Use [more]
+
+Use RSS feeds to automatically create updates that are published to selected social accounts and/or dropped into one or more of our powerful queue reservoirs for later publishing.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Submit Social Updates via Email
+Free
+Professional
+
+
+
+
+
+Tweet via email — Extremely convenient [more]
+
+Send emails from your existing email address to an email address that you own (on your own server, or on Gmail, Hotmail, etc.) and have those emails turned into standard social updates and published on your Twitter account(s), your Facebook account(s), your Facebook Page(s), LinkedIn shares, and other social accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Many employees feed one social account — With email only [more]
+
+Imagine if Mary sends an email from mary@yourdomain.com to technicaltips@yourdomain.com, that email will be published as a social update on your Twitter account, tagged with ^Mary, and on your Facebook Page with no author tag. If she sends an email from mary@yourdomain.com to marketingtweets@yourdomain.com, the email will be published as a social update to your Twitter account and will be tagged with ^MaryM. When Peter sends an email from peter@yourdomain.com to marketingtweets@yourdomain.com, the email will be published to your Twitter account and will be tagged with ^Peter. That's what you can do with this feature, and more.
+
+
+
+ 
+
+
+
+
+
+
+
+Auto append author tags — Employees cannot override [more]
+
+Have the updates automatically tagged with author tags that you define (eg., ^Mary or ^JohnD). The tags are under your control. The employees cannot change or override them.
+
+
+
+ 
+
+
+
+
+
+
+
+Only authorized staff can email in updates — Secure [more]
+
+Only emails sent from an authorized email address (you do the granting and removal of authorization) to a specific target email address that you own are processed and turned into social updates. Meaning, you approve the specific From --> To path, and only you and the owner of the From address know the fact that the path is approved. Anyone else's emails to the To address are ignored. The chances of someone correctly guessing an approved path and then spoofing the From address is very remote.
+
+
+
+ 
+
+
+
+
+
+
+
+Staff use only email — No additional training [more]
+
+Your employees need only their existing email accounts, nothing more. They do not need a SocialOomph account. All you need is one SocialOomph Professional account, where you authorize the email addresses of the employees whom you want to submit updates to your social accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Flat fee pricing — Very affordable [more]
+
+This feature is included in the price of a SocialOomph Professional account. There are no additional fees, regardless of how many people you authorize to email in updates for your social accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Schedule & Publish Blog Posts and Pages
+Free
+Professional
+
+
+
+
+
+Integrate blog and social media updates — Set & forget [more]
+
+Integrate your social media updates with your blog posts in one central command center, namely your SocialOomph account. Your blog posts are shown integrated with your social media updates so that you can see exactly when what is going to publish.
+
+
+
+ 
+
+
+
+
+
+
+
+Manage unlimited number of blogs — Centralization [more]
+
+You can add as many blogs as you want in your one SocialOomph account, and schedule posts for them all.
+
+
+
+ 
+
+
+
+
+
+
+
+Write posts with the WYSIWYG editor — Powerful [more]
+
+We provide you with a feature-rich WYSIWYG editor to write your blog posts, so that you can create and format them exactly the way you want.
+
+
+
+ 
+
+
+
+
+
+
+
+WordPress, Tumblr, & more — Everything [more]
+
+As long as your blog has one of the following remote publishing APIs, you can schedule posts for it: Tumblr, WordPress API (wordpress.com and self-hosted), metaWeblog API, Movable Type API, Blogger API, and Atom API.
+
+
+
+ 
+
+
+
+
+
+
+
+RSS to Blog — Auto feed your blog [more]
+
+In addition to writing and scheduling blog posts, you can also grab one or more (in fact as many as you like) RSS feed(s) and automatically create blog post entries from the entries on the RSS feed(s). At the same time, you can also publish updates to social networking sites (Twitter, Facebook, etc.) using those same entries on the RSS feed.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Private Tweet Interests Channels
+Free
+Professional
+
+
+
+
+
+View predefined channels — Zoom in on interests [more]
+
+With our predefined tweet channels, you can view the tweets from selected breaking news sites, technology news sites, celebrities, musicians, and more, grouped together for easy viewing of tweets that relate to a specific topic.
+
+
+
+
+
+
+
+
+
+
+
+Define your own channels — Unlimited groupings [more]
+
+Define your own tweet channels so that you can see tweets from a selected number of friends, or from other selected Twitter accounts, or from Twitter Search keywords, in your own private viewing channel. It's like your own tweet timeline on Twitter, except a channel contains only the tweets from those Twitter users that you include in the channel. You can define an unlimited number of channels. You don't even have to follow someone to include that person in a channel. In addition, you can include Twitter users, and Twitter Search keywords in the same channel.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Manage Many Accounts with TweetCOCKPIT
+Free
+Professional
+
+
+
+
+
+Manage all your accounts — Integrated console [more]
+
+Wear your coolest shades when you climb into your TweetCOCKPIT where you easily manage all your Twitter accounts from one central and integrated console.
+
+
+
+ 
+
+
+
+
+
+
+
+Integrated timelines — Boost your productivity [more]
+
+On one page in TweetCockpit, see your normal timelines (integrated) and pull in additional tweets that contain certain keywords regardless of whether you follow the tweeter or not. Find new folks to follow or new friends and business contacts at one easy glance. See an integrated view of your Twitter timelines, sorted by date and time.
+
+
+
+ 
+
+
+
+
+
+
+
+Filter timelines — Tune in on favorite friends [more]
+
+Even though you follow thousands, configure your timeline in TweetCockpit to display tweets only from the handful of people you're more interested in hearing from.
+
+
+
+ 
+
+
+
+
+
+
+
+Highly configurable — Suit your exact needs [more]
+
+Include or exclude Twitter accounts, or sections of accounts (timeline, favorites, DMs, search results). Color-code accounts to make them easy to identify. Specify the number of tweets you want to see for each section of each account.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+Other Highly Sought After Features
+Free
+Professional
+
+
+
+
+
+Unlimited Twitter accounts — Maximize efficiency [more]
+
+Add and manage an unlimited number of Twitter accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Daily DM Digest Via Email — Easily view all new DMs [more]
+
+Receive a daily email that shows you all the new DMs that you received on all your Twitter accounts.
+
+
+
+ 
+
+
+
+
+
+
+
+Delegate account management — Free up time [more]
+
+If you have an assistant, you can delegate the management of your Twitter account(s) to that person while keeping the master account entry in your SocialOomph profile and keeping your password secret. This is also a great feature for corporations who want to enable several employees to manage an account, without having to know the password. For example, a media company could delegate the account of a TV station to the station manager, the regional manager, and the VP's personal assistant. The VP can easily schedule a tweet on all TV station accounts in one single action, the regional manager on all TV stations in her region, and the station manager only on his station's account.
+
+
+
+ 
+
+
+
+
+
+
+
+Self-destructing (time-limited) updates — Facebook and Twitter [more]
+
+Post updates to Twitter and Facebook that will automatically be deleted from your Twitter account and Facebook feed after the period of time that you select. Keep your feed clean of out-dated information that can confuse people.
+
+
+
+ 
+
+
+
+
+
+
+
+Recurring updates — Without being repetitive [more]
+
+Schedule updates that will be published every X number of hours, days, or weeks. To avoid having the update say exactly the same thing every time it is published, provide alternate update text options (multi-level spinnable update text) from which the final update text is compiled every time a recur is published.
+
+
+
+ 
+
+
+
+
+
+
+
+Pause recurring updates — Fine-tune campaigns [more]
+
+While a recurring update is going through its cycles of publishing, pause the publishing if you don't want it to unexpectedly appear in your timeline while you're doing a demonstration or presentation, or don't want a longer term recurring campaign for a product to go out while you're doing a short-term promotion of another product.
+
+
+
+ 
+
+
+
+
+
+
+
+Drip-feed social accounts — Without lifting a finger [more]
+
+Connect one or more update reservoirs to a social account and/or feed more than one social account from an update reservoir. The system drip-feeds the updates to the social accounts. All you need to do is fill the reservoir. You don't need to worry about scheduling the updates.
+
+
+
+ 
+
+
+
+
+
+
+
+Bulk upload tweets — Save time [more]
+
+If you have many tweets to schedule, prepare them offline, put them in a simple text file, and upload them in bulk. Save time by not having to enter and schedule them by hand in the system.
+
+
+
+ 
+
+
+
+
+
+
+
+Increased Follower Checking — Higher frequency [more]
+
+The Twitter accounts of Free users are checked for new followers once every 6 hours. With a Professional account, your Twitter accounts are checked once every 3 hours.
+
+
+
+ 
+
+
+
+
+
+
+
+Get all new enhancements — No extra charge [more]
+
+All future enhancements (there are many) are included in your subscription.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Really Cool Folks Are Using SocialOomph. Start Using It Right Now. It's Free.
+"Where do I sign up?" Register a free account, and then login.
+Sign Up Now!
+You gain immediate access to all the features listed in the Free column above.
+100% FREE!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Then Take The 7-Day FREE TRIAL of SocialOomph Professional
+Once you've registered a free account, take the FREE and fully functional trial of SocialOomph Professional. Use the Professional features for a full 7 days. If you don't upgrade during your free trial, your account just automatically reverts back to SocialOomph Free. There are no obligations and no catches.
+Register your free account now. You will easily find the buttons to start your free trial once you've logged in to your account.
+100% FREE!
+
+
+
+
+
+
+
+
+
+
+
+
+Upgrade To SocialOomph Professional
+Once every two weeks payments. No long-term contracts.
+With a paid SocialOomph Professional account, you can cancel at any time. If you cancel, your account remains at Professional level for the full billing period. In other words, we don't downgrade your account on the date of cancellation, we downgrade your account at the end of the billing cycle (when your next payment would have been due).
+Pay either via PayPal, or direct Visa or MasterCard credit card payments.
+Only $17.97
+
+
+
+
+
+
+
+
+
+
+Upgrade To SocialOomph Twitter Unlimited
+Once every two weeks payments. No long-term contracts.
+If you need just a subset of SocialOomph Professional to put your update scheduling for Twitter on steroids, or if you need to connect more than five Twitter accounts, then our SocialOomph Twitter Unlimited subscription is your solution. Low once every two weeks payments, cancel at any time.
+Pay either via PayPal, or direct Visa or MasterCard credit card payments.
+Only $6.97
+
+
+
+
+
+
+
+
+
+
+Site Map Help Support Terms Privacy Affiliates 
+                                            Copyright ©
+                                            2008-2017, SocialOomph.com. All Rights Reserved.                                        
+
+
+
+
+ 
+
+   
+
+
+

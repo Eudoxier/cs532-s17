@@ -1,0 +1,2384 @@
+
+
+
+
+
+
+
+M³
+CLL
+Events
+Whitepapers
+The Next Platform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Data Center
+            
+
+                Software
+            
+
+                Security
+            
+
+                Transformation
+            
+
+                DevOps
+            
+
+                Business
+            
+
+                Personal Tech
+            
+
+                Science
+            
+
+                Emergent Tech
+            
+
+                Bootnotes
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            Alerts
+                        
+
+
+
+                            Newsletters
+                        
+
+
+
+
+
+Florida Man jailed for 4 years after raking in a million bucks from spam
+
+
+
+Jun-OH-NO! NASA's Jupiter probe in busted helium-valve drama
+
+
+
+Paper factory fired its sysadmin. He returned via VPN and caused $1m in damage. Now jailed
+
+
+
+BlackBerry sued by hundreds of staffers 'fooled' into quitting
+
+
+
+
+
+
+
+                            Servers
+                        
+
+
+
+                            HPC
+                        
+
+
+
+                            Cloud
+                        
+
+
+
+                            Storage
+                        
+
+
+
+                            Networks
+                        
+
+
+
+                            Virtualization
+                        
+
+
+
+                            BOFH
+                        
+
+
+
+
+
+UK Snoopers' Charter gagging order drafted for London Internet Exchange directors
+
+
+
+Yee-haw! It's the Friday storage round-up
+
+
+
+Brit watchdog spanks Microsoft, Amazon, Apple into promising fairer cloud contracts
+
+
+
+Did Oracle just sign tape's death warrant? Depends what 'no comment' means
+
+
+
+
+
+
+
+
+Microsoft makes cheeky bid for MongoDB devs on Azure security grounds
+
+
+
+Microsoft ups Surface slab prices for Brits. Darn weak pound, eh?
+
+
+
+Dirty data, flogged cores: YES, Microsoft SQL Server R Services has its positives
+
+
+
+Talk of tech innovation is bullsh*t. Shut up and get the work done – says Linus Torvalds
+
+
+
+
+
+
+
+
+Florida Man jailed for 4 years after raking in a million bucks from spam
+
+
+
+Paper factory fired its sysadmin. He returned via VPN and caused $1m in damage. Now jailed
+
+
+
+Probe President Trump and his crappy Samsung Twitter-o-phone, demand angry congressfolk
+
+
+
+Smash up your kid's Bluetooth-connected Cayla 'surveillance' doll, Germany urges parents
+
+
+
+
+
+
+
+
+Hyperconverged market gets hyper-competitive as new riders enter field
+
+
+
+Cloud industry body sets up new data protection code
+
+
+
+World to spend US$2.4 TRILLION on tech in 2017
+
+
+
+Brought to you by UK.gov: 'Most ambitious programme of change of any government anywhere in the world'
+
+
+
+
+
+
+
+
+GitLab invokes the startup defence to explain data loss woes
+
+
+
+With nearly 1m users on its books, DigitalOcean touts load balancers
+
+
+
+Continuous Lifecycle London: More workshops, more speakers
+
+
+
+Why software engineers should ditch Silicon Valley for Austin
+
+
+
+
+
+
+
+                            Policy
+                        
+
+
+
+                            The Channel
+                        
+
+
+
+
+
+BlackBerry sued by hundreds of staffers 'fooled' into quitting
+
+
+
+Round-filed 'paperless' projects: Barriers remain to Blighty's Digital NHS
+
+
+
+UK recruitment biz Coal Intelligent Technology ceases trading
+
+
+
+Installing disks is basically LEGO, right? This admin failed LEGO
+
+
+
+
+
+
+
+
+Huge if true: iPhone 8 will feature 3D selfies, rodent defibrillator
+
+
+
+Nokia's 3310 revival – what's NEXT? Vote now
+
+
+
+Standards Australia might send Tesla's PowerWalls outside
+
+
+
+Vinyl, filofaxes – why not us too, pleads Nokia
+
+
+
+
+
+
+
+                            SPB
+                        
+
+
+
+                            Geek's Guide
+                        
+
+
+
+
+
+Jun-OH-NO! NASA's Jupiter probe in busted helium-valve drama
+
+
+
+Dead cockroaches make excellent magnets – now what are we supposed to do with this info?
+
+
+
+Baby supernova spotted, just three hours old and a real cutie
+
+
+
+Get it while it's hot: NASA's Space Poo contest winners wipe up $30k
+
+
+
+
+
+
+
+                            Artificial Intelligence
+                        
+
+
+
+                            Internet of Things
+                        
+
+
+
+
+
+Errors in Australia's Centrelink debt recovery system were inevitable
+
+
+
+What does a complex AI model look like? Here's some Friday eye candy from UK biz Graphcore
+
+
+
+Oracle's IoT play: Teach business apps and things to talk together
+
+
+
+THE SCHMIDT HITS THE BAN: Keep your gloves off AI, military top brass
+
+
+
+
+
+
+
+                            Verity Stob
+                        
+
+
+
+
+
+A webcam is not so much a leering eye as the barrel of a gun
+
+
+
+FAKE BREWS: America rocked by 'craft beer' scandal allegations
+
+
+
+Nul points for Ukraine's Eurovision ticket site fail
+
+
+
+Kings College London bods recruit members for penis ring study
+
+
+
+
+
+
+
+Top stories
+
+Huge if true: iPhone 8 will feature 3D selfies, rodent defibrillator
+
+                    Set aside rational thought, it's Apple click-click story time
+                
+
+
+New Royal Navy Wildcat helicopters can't transmit vital data
+
+                    Crews have to land and move tactical info around via USB sticks. No, really
+                
+
+
+Installing disks is basically LEGO, right? This admin failed LEGO
+
+On-CallThis bit goes here, this bit goes there and - huh! - why aren't the lights blinking?
+                
+
+
+
+
+                UK Snoopers' Charter gagging order drafted for London Internet Exchange directors
+            
+
+
+
+
+
+
+Security
+
+Florida Man jailed for 4 years after raking in a million bucks from spam
+Miscreant used stolen email accounts to cram crap into inboxes
+
+18 Comments
+18 Feb 14:32
+
+
+
+
+Science
+
+Jun-OH-NO! NASA's Jupiter probe in busted helium-valve drama
+Science lab stuck on 53-day orbit, unable to catch a closer glimpse of alien gas world
+
+10 Comments
+18 Feb 01:28
+
+
+
+
+Security
+
+Paper factory fired its sysadmin. He returned via VPN and caused $1m in damage. Now jailed
+34-month sentence and he has to pay his old bosses back
+
+27 Comments
+18 Feb 00:24
+
+
+
+
+
+Business
+
+BlackBerry sued by hundreds of staffers 'fooled' into quitting
+And it's suing Nokia for patent infringement on wireless comms
+
+23 Comments
+17 Feb 22:50
+
+
+
+
+Security
+
+Probe President Trump and his crappy Samsung Twitter-o-phone, demand angry congressfolk
+The Galaxy S3 is real but is its security FAKE NEWS?
+
+41 Comments
+17 Feb 21:40
+
+
+
+
+Personal Tech
+
+Huge if true: iPhone 8 will feature 3D selfies, rodent defibrillator
+Set aside rational thought, it's Apple click-click story time
+
+40 Comments
+17 Feb 20:50
+
+
+
+
+
+
+Don't miss
+      A webcam is not so much a leering eye as the barrel of a gun
+    
+
+
+
+DevOps
+
+Continuous Lifecycle London: More workshops, more speakers
+Join us in London this May to talk DevOps, CD, containers and more
+
+10 Feb 08:00
+
+
+
+
+
+Security
+
+Smash up your kid's Bluetooth-connected Cayla 'surveillance' doll, Germany urges parents
+Or switch it off, bin it, bury it, whatever's necessary
+
+42 Comments
+17 Feb 19:45
+
+
+
+
+Security
+
+US account holders more likely to switch banks following fraud
+More evidence that security = happy customers
+
+17 Feb 16:30
+
+
+
+
+Policy
+
+Round-filed 'paperless' projects: Barriers remain to Blighty's Digital NHS
+Report: It's not going to save money or anything. Plus we'll still need paper
+
+20 Comments
+17 Feb 16:02
+
+
+
+
+
+Networks
+
+
+
+
+UK Snoopers' Charter gagging order drafted for London Internet Exchange directors
+ ExclusiveRushed proposal opens rift in internet giants' club
+
+69 Comments
+17 Feb 15:24
+
+
+
+
+Software
+
+
+
+
+Microsoft makes cheeky bid for MongoDB devs on Azure security grounds
+Come and use DocumentDB, we've fired up Photoshop
+
+17 Feb 14:25
+
+
+
+
+Storage
+
+
+
+
+Yee-haw! It's the Friday storage round-up
+Getting those pesky ponies into that there corral, yessiree
+
+17 Feb 13:35
+
+
+
+
+
+Security
+
+Mystery deepens over Android spyware targeting Israeli soldiers
+'Unlikely Hamas is responsible' – researchers
+
+14 Comments
+17 Feb 12:59
+
+
+
+
+Personal Tech
+
+Nokia's 3310 revival – what's NEXT? Vote now
+You loved it, they killed it: Now bring it back
+
+135 Comments
+17 Feb 12:42
+
+
+
+
+Security
+
+New Royal Navy Wildcat helicopters can't transmit vital data
+Crews have to land and move tactical info around via USB sticks. No, really
+
+97 Comments
+17 Feb 12:17
+
+
+
+
+
+Transformation
+
+Hyperconverged market gets hyper-competitive as new riders enter field
+ AnalysisBut they'll be hard-pressed to catch Dell and Nutanix
+
+17 Feb 11:52
+
+
+
+
+Cloud
+
+Brit watchdog spanks Microsoft, Amazon, Apple into promising fairer cloud contracts
+Smackdown on random hikes and service tweaks
+
+17 Feb 11:22
+
+
+
+
+Storage
+
+Did Oracle just sign tape's death warrant? Depends what 'no comment' means
+Big Red keeps schtum over the status of StreamLine
+
+24 Comments
+17 Feb 10:44
+
+
+
+
+
+Bootnotes
+
+A webcam is not so much a leering eye as the barrel of a gun
+ Something for the Weekend, Sir?It wants to see me stripped
+
+61 Comments
+17 Feb 10:05
+
+
+
+
+Artificial Intelligence
+
+Errors in Australia's Centrelink debt recovery system were inevitable
+... as in all complex systems
+
+11 Comments
+17 Feb 09:35
+
+
+
+
+Business
+
+UK recruitment biz Coal Intelligent Technology ceases trading
+Contractors and staff may be left out of pocket
+
+17 Feb 09:01
+
+
+
+
+
+Business
+
+
+
+
+Installing disks is basically LEGO, right? This admin failed LEGO
+ On-CallThis bit goes here, this bit goes there and - huh! - why aren't the lights blinking?
+
+86 Comments
+17 Feb 08:32
+
+
+
+
+Policy
+
+
+
+
+Déjà vu: Euro Patent Office prez ignores yet another formal rebuke
+King Battistelli tries to reconstitute Appeals Committee – staff union refuses
+
+10 Comments
+17 Feb 08:01
+
+
+
+
+Artificial Intelligence
+
+
+
+
+What does a complex AI model look like? Here's some Friday eye candy from UK biz Graphcore
+ PicsVivid images of machine learning graph processing
+
+17 Feb 07:28
+
+
+
+
+
+Cloud
+
+'I'm innocent!' says IT contractor on trial after Office 365 bill row spiraled out of control
+Bloke cuffed, charged after customer's subscription axed
+
+68 Comments
+17 Feb 07:02
+
+
+
+
+Bootnotes
+
+FAKE BREWS: America rocked by 'craft beer' scandal allegations
+Retail mega-giant accused in lawsuit of being lying IPA-holes
+
+94 Comments
+17 Feb 06:26
+
+
+
+
+Science
+
+Dead cockroaches make excellent magnets – now what are we supposed to do with this info?
+They'll stick notes to fridges in the aftermath of nuclear war?
+
+35 Comments
+17 Feb 06:01
+
+
+
+
+
+Business
+
+Knock knock. Who's there? A Lenovo server salesperson, because revenue dip's no joke
+PCs are going great, but enterprise and mobile divisions are in turnaround mode
+
+17 Feb 04:56
+
+
+
+
+Internet of Things
+
+Oracle's IoT play: Teach business apps and things to talk together
+There's lots of things out there and Big Red wants to dig 'em out of silos and cloud 'em up
+
+17 Feb 03:58
+
+
+
+
+Business
+
+Samsung heir Lee Jae-yong cuffed in $40m corruption, perjury bust
+Explosive news that, for once, doesn't involve a self-detonating battery
+
+17 Feb 01:42
+
+
+
+
+
+Security
+
+US visitors must hand over Twitter, Facebook handles by law – newbie Rep starts ball rolling
+Rookie's bill targets visa applicants, may never happen
+
+97 Comments
+17 Feb 01:08
+
+
+
+
+Policy
+
+Zuckerberg thinks he's cyber-Jesus – and publishes a 6,000-word world-saving manifesto
+ CommentWe took one for the team and deciphered it for you
+
+128 Comments
+17 Feb 00:01
+
+
+
+
+Storage
+
+HPE blames solid state drive failure for outages at Australian Tax Office
+'Rare issue under a set of circumstances that have never previously been encountered'
+
+29 Comments
+16 Feb 23:44
+
+
+
+
+
+Storage
+
+Enterprise IT storage – where being fat and very dense is, um, a good thing. Right, Cloudian?
+Cali upstart peddles 4U HyperStore 4000 box
+
+16 Feb 23:03
+
+
+
+
+Security
+
+Don’t panic over cyber-terrorism: Daesh-bags still at script kiddie level
+ RSA USAMedieval terror bastards not great at hacking says ex-top NSA lawyer
+
+29 Comments
+16 Feb 21:44
+
+
+
+
+Networks
+
+Google yanks workers from ISP outfit, it's THE FIBER COUNTDOWN
+Will things ever be the same again?
+
+16 Comments
+16 Feb 20:58
+
+
+
+
+
+Security
+
+
+
+
+Corpse of US anti-spying law unearthed, reanimated, pushed blinking into the sunlight
+Bill reintroduced to crack down on location snooping
+
+16 Feb 20:16
+
+
+
+
+Artificial Intelligence
+
+
+
+
+THE SCHMIDT HITS THE BAN: Keep your gloves off AI, military top brass
+ RSA USAPlus: Alphabet boss tells us not to worry about the Singularity
+
+11 Comments
+16 Feb 19:48
+
+
+
+
+Networks
+
+
+
+
+Why I had to sue the FCC – VoIP granddaddy Dan Berninger
+ InterviewIt's life or death, says guru unhappy with net neutrality regulations
+
+40 Comments
+16 Feb 18:11
+
+
+
+
+
+Policy
+
+MEPs in 'urgent' call for new laws on artificial intelligence and robotics
+Liability issues with self-driving cars is key concern
+
+17 Comments
+16 Feb 17:03
+
+
+
+
+Artificial Intelligence
+
+Analyse this: IBM moves Watson machine learning to mainframes
+Real time results from old time data
+
+16 Feb 15:57
+
+
+
+
+Bootnotes
+
+Nul points for Ukraine's Eurovision ticket site fail
+Glitch left fans without seats
+
+12 Comments
+16 Feb 15:06
+
+
+
+
+
+Security
+
+Haven't deleted your Yahoo account yet? Reminder: Hackers forged login cookies
+We're! not! even! bothering! with! exclamation! mark! this! time!
+
+39 Comments
+16 Feb 14:33
+
+
+
+
+Storage
+
+Dell EMC plans to use VxRail for mutant cloud cargo
+Hyper-converged nodes get turnkey hybrid cloud software
+
+16 Feb 14:04
+
+
+
+
+Internet of Things
+
+Sigfox leads with its chin on security for internet-connected things
+ Comment'Imagineer's declaration' betrays industry-wide apathy
+
+16 Feb 13:25
+
+
+
+
+
+Software
+
+Microsoft ups Surface slab prices for Brits. Darn weak pound, eh?
+If we had a pound for every time a biz cited UK currency woes
+
+37 Comments
+16 Feb 13:02
+
+
+
+
+Networks
+
+Virgin Media swallows 215,000 new fibre customers in Blighty
+UK broadband biz posts unexciting results
+
+21 Comments
+16 Feb 12:42
+
+
+
+
+Security
+
+F-Secure buys industrial control security firm
+Also locks down automotive and aviation electronics
+
+16 Feb 12:19
+
+
+
+
+
+Security
+
+Former NSA techies raise $8m for their data governance startup
+Immuta to free up data scientists in 'highly regulated' environments
+
+16 Feb 12:00
+
+
+
+
+Artificial Intelligence
+
+Just finished your first TensorFlow app? Might be time for a rewrite...
+Google's machine learning library hits 1.0
+
+16 Feb 11:25
+
+
+
+
+Storage
+
+NetApp confirms: SolidFire hyperconverged appliance is coming
+ +CommentHCI plans reveal overshadows Q3 numbers
+
+11 Comments
+16 Feb 11:01
+
+
+
+
+
+Software
+
+
+
+
+Dirty data, flogged cores: YES, Microsoft SQL Server R Services has its positives
+The language isn't the problem, it's you and your PC
+
+16 Comments
+16 Feb 10:32
+
+
+
+
+Policy
+
+
+
+
+Identity disorder: Does UK govt need Verify more than we do?
+ CommentA bit less self-assurance goes a long way
+
+31 Comments
+16 Feb 09:39
+
+
+
+
+Transformation
+
+
+
+
+Cloud industry body sets up new data protection code
+European providers team up
+
+16 Feb 09:04
+
+
+
+
+
+Data Centre
+
+Reg tours submarine cable survey ship
+
+'Geo Resolution'
+ SlideshowFormer US sub-hunter boasts 1980s décor, serious sonar, workstations galore and so much printer ink
+
+19 Comments
+16 Feb 08:31
+
+
+
+
+Security
+
+Revealed: Web servers used by disk-nuking Shamoon cyberweapon
+Avoid this wonderful malware on your network by black-holing connections
+
+14 Comments
+16 Feb 07:58
+
+
+
+
+DevOps
+
+GitLab invokes the startup defence to explain data loss woes
+'We're learning every day'. But does 'test your backups' really need to be learned?
+
+38 Comments
+16 Feb 07:28
+
+
+
+
+
+Artificial Intelligence
+
+Watch how Google's starving DeepMind AI turns hostile, attacks other bots to survive
+ VideosReally, guys? Really?
+
+20 Comments
+16 Feb 07:01
+
+
+
+
+Virtualization
+
+Xen Project wants permission to reveal fewer vulnerabilities
+ PollShould bugs that don't expose user data be left alone, saving time and effort?
+
+24 Comments
+16 Feb 06:27
+
+
+
+
+Science
+
+Baby supernova spotted, just three hours old and a real cutie
+If 'cute' means 'explosively re-writes plenty of our theories about how stars behave'
+
+15 Comments
+16 Feb 06:02
+
+
+
+
+
+Security
+
+Crypto-curious? Wickr's opened its kimono for code review
+Look, don't copy: 'this is not an open source license'
+
+16 Feb 04:54
+
+
+
+
+Security
+
+ITU ponders whether blockchain belongs in its security standards
+Security working group has decided it wants to know what it needs to know
+
+16 Feb 04:02
+
+
+
+
+Business
+
+Cisco shrinks: Revenue, profit and margin all dipped in Q2 2017
+Big headaches in big iron, hyper-servers aren't taking off, but software biz all smiles
+
+16 Feb 02:03
+
+
+
+
+
+Security
+
+As Microsoft touts Windows Insider for biz, let's take a look at W10's broken 2FA logins
+Smart card support busted? Redmond says: ¯\_(ツ)_/¯
+
+45 Comments
+16 Feb 00:36
+
+
+
+
+Security
+
+Republicans send anti-Signal signal to US EPA
+Resistance is futile as probe demanded into environment agency staffers
+
+54 Comments
+15 Feb 23:41
+
+
+
+
+Networks
+
+Global IPv4 address drought: Seriously, we're done now. We're done
+Exhausted with never-ending internet exhaustion
+
+168 Comments
+15 Feb 23:07
+
+
+
+
+
+Security
+
+
+
+
+OK, it's time to talk mass spying again: America's Section 702 powers are up for renewal
+ AnalysisAnd tech groups are starting the fightback now
+
+37 Comments
+15 Feb 22:34
+
+
+
+
+Software
+
+
+
+
+Talk of tech innovation is bullsh*t. Shut up and get the work done – says Linus Torvalds
+ OSLSA top life tip, there, from the Linux kernel chieftain
+
+75 Comments
+15 Feb 21:17
+
+
+
+
+Internet of Things
+
+
+
+
+You know IoT security is bad when libertarians call for strict regulation
+ RSA USA'When the internet crashes into the real world and people get killed' you'll be sorry
+
+56 Comments
+15 Feb 20:55
+
+
+
+
+
+Security
+
+Rasputin whips out large intimidating tool, penetrates uni, city, govt databases – new claim
+Ra, Ra Rasputin. SQL injection is his thing
+
+21 Comments
+15 Feb 20:20
+
+
+
+
+Security
+
+Verizon! surprisingly! OK! with! Yahoo! despite! mega-hack!
+Can't get that bonus if the merger falls through, so meh, shave off 5% and let's go
+
+15 Feb 19:48
+
+
+
+
+Software
+
+IBM hooks up with Hortonworks to Hadoop Big Blue products
+ +CommentBut customers welcome to taste IBM's own-brand Hadoop sauce...
+
+15 Feb 17:02
+
+
+
+
+
+Security
+
+UK credit broker fined £120k for spamming folk with five million texts
+ UpdatedConsent wording not enough to prevent a spanking by the ICO
+
+21 Comments
+15 Feb 16:35
+
+
+
+
+Servers
+
+IBM to launch cheap 'n' cheerful Power server for i and AIX userbase
+Doctor Blue says a little of what you like does you good
+
+15 Feb 16:05
+
+
+
+
+Artificial Intelligence
+
+Microsoft offers drone lovers a simulator
+Get to keep hardware home, gain machine learning anyway
+
+12 Comments
+15 Feb 15:33
+
+
+
+
+
+Security
+
+Pwnd Android conference phone exposes risk of spies in the boardroom
+Researchers could listen in on meetings and plant backdoors
+
+18 Comments
+15 Feb 15:00
+
+
+
+
+Science
+
+Get it while it's hot: NASA's Space Poo contest winners wipe up $30k
+As promised, story about space poo
+
+43 Comments
+15 Feb 14:00
+
+
+
+
+Security
+
+Kremlin-linked hackers believed to be behind Mac spyware Xagent
+iPhone backups can be slurped for Mother Russia, say researchers
+
+17 Comments
+15 Feb 13:22
+
+
+
+
+
+Software
+
+Oracle hatches 'incubator' OpenJDK APIs idea
+Unfinished APIs in JDK and Java SE
+
+15 Feb 12:52
+
+
+
+
+Storage
+
+Prepare for an acquisition whirlwind? Private equity owners sweep up Nexsan
+ CommentNew Orleans firm partner takes charge
+
+15 Feb 12:10
+
+
+
+
+Servers
+
+Next Superdome CPU chips amble into HPE
+Intel shipping Kittson samples into Itanium-land
+
+25 Comments
+15 Feb 11:01
+
+
+
+
+
+Business
+
+
+
+
+Hold the phone! Crap customer service cost telcos £2.9 BEEEELLION in 2016
+More moaned about than rail and energy, says ombudsman
+
+44 Comments
+15 Feb 10:35
+
+
+
+
+Cloud
+
+
+
+
+Speaking in Tech: There must be 50 ways to leave your cloud provider
+ PodcastDumping a mainframe – now that's another story
+
+15 Feb 10:02
+
+
+
+
+Networks
+
+
+
+
+Hutchison's 3UK and Google push 3.5 GHz on both sides of the pond
+ AnalysisBroaderband fight
+
+12 Comments
+15 Feb 09:35
+
+
+
+
+
+Software
+
+Two words, Mozilla: SPEED! NOW! Quit fiddling and get serious
+ OpinionUnleash operation Thrash Chrome
+
+164 Comments
+15 Feb 09:03
+
+
+
+
+Business
+
+Apple nabs smartphone top spot from Samsung, but for how long?
+Santa's sack helps out in Cupertino
+
+37 Comments
+15 Feb 08:31
+
+
+
+
+Security
+
+Forget quantum and AI security hype, just write bug-free code, dammit
+ RSA USACrypto panel lets loose at conference
+
+44 Comments
+15 Feb 08:02
+
+
+
+
+
+Security
+
+Google claims ‘massive’ Stagefright Android bug had 'sod all effect'
+ RSA USAAnd hackers didn't have much luck either with other flaws in the mobe OS
+
+30 Comments
+15 Feb 07:27
+
+
+
+
+Networks
+
+Cheer up, pal: UK mobe networks are now 8% less crap, tests show
+At data, EE leads, Voda fails
+
+19 Comments
+15 Feb 06:58
+
+
+
+
+Science
+
+Finally, a use for your mobile phone: Snapping ALIEN signal blurts
+Citizen science project to find galactic bursts using selfie-taking pocket radio receivers
+
+30 Comments
+15 Feb 06:27
+
+
+
+
+
+Networks
+
+Remote unauthenticated OS re-install is a feature, not a bug, says Cisco
+If you think bad guys could abuse the Smart Install protocol, just turn it off
+
+23 Comments
+15 Feb 06:03
+
+
+
+
+Software
+
+IBM and ServiceNow lock eyes, vow long commitment
+Roses are red. 'Global strategic alliance' is … eeeww. We've written a more fun headline for you even though V-Day is over
+
+15 Feb 05:29
+
+
+
+
+Business
+
+Oracle 'systematically stiffed its salesforce' claims new sueball
+ UpdatedBig Red 'categorically denies' former worker's claims it re-writes commission rules and puts sales people in 'debt'
+
+23 Comments
+15 Feb 04:58
+
+
+
+
+
+Networks
+
+Riverbed bakes SD-WAN into WAN optimisation
+It's all cloudy, innit?
+
+15 Feb 04:04
+
+
+
+
+Security
+
+Meet LogicLocker: Boffin-built SCADA ransomware
+Pay the ransom, or restore from backup. Choose wisely!
+
+15 Feb 03:02
+
+
+
+
+Security
+
+Inside Confide, the chat app 'secretly used by Trump aides': OpenPGP, OpenSSL, and more
+Security experts skeptical of encrypted messenger's claims
+
+42 Comments
+15 Feb 02:52
+
+
+
+
+
+Cloud
+
+
+
+
+A spanner in the works: Google's cloud database hits beta, gets prices
+Ye canna' hand a man a grander (Cloud) Spanner
+
+10 Comments
+15 Feb 02:01
+
+
+
+
+Storage
+
+
+
+
+Australian Tax Office's HPE SAN failed twice in slightly different ways
+Rickety array still at work: In tax-speak 'Commissioned new SAN' doesn't mean it's live yet
+
+21 Comments
+14 Feb 23:37
+
+
+
+
+Business
+
+
+
+
+Toshiba chairman quits over $6bn nuclear loss
+May have to sell even more of its chip business to cover costs
+
+14 Comments
+14 Feb 23:27
+
+
+
+
+
+Security
+
+ASLR-security-busting JavaScript hack demo'd by university boffins
+Amster-damn, that's a hell of a vulnerability to make browser bug exploitation easier
+
+24 Comments
+14 Feb 23:15
+
+
+
+
+Security
+
+Apple: Don't panic, but your Mac can be pwned via GarageBand .bands
+macOS gets patch for critical flaw in music app
+
+14 Feb 22:29
+
+
+
+
+Security
+
+'We need a new Geneva Convention to protect all citizens from snoops'
+ RSA USAPrivate biz needs to push back against government pressure, says Microsoft prez
+
+33 Comments
+14 Feb 22:07
+
+
+
+
+
+Security
+
+Bruce Schneier: The US government is coming for YOUR code, techies
+ OSLSOpen source has won, but victory may be fleeting
+
+93 Comments
+14 Feb 21:36
+
+
+
+
+Policy
+
+Magic Leap sued for sex discrimination … by woman it hired to stamp out sex discrimination
+Oh yeah, and its technology still doesn't exist either
+
+70 Comments
+14 Feb 21:03
+
+
+
+
+Security
+
+No crypto backdoors, more immigration ... says Republican head of House Committee on Homeland Security
+ RSA USAIs there something in the water in San Francisco?
+
+45 Comments
+14 Feb 20:38
+
+
+
+
+
+Security
+
+Roses are red, bugs make you blue, Patch Tuesday is late, because Microsoft loves you
+Adobe and Nvidia on the other hand...
+
+14 Comments
+14 Feb 20:00
+
+
+
+
+Storage
+
+Fujitsu has its own line of storage boxes, so, uh, why is it reselling XtremIO in Japan?
+Extreme measures called for in an extreme geography
+
+14 Feb 19:27
+
+
+
+
+Policy
+
+Commissioner kisses Met goodbye, says it's set to be 'best digital police force'
+Never mind the cock-ups
+
+14 Feb 18:01
+
+
+
+
+
+Cloud
+
+Nifty website claims to make comparing cloud costs simple. Good luck with that
+Covers AWS, Azure, Google clouds and more
+
+14 Comments
+14 Feb 17:28
+
+
+
+
+Storage
+
+Cloud is the future, wait, what? Cohesity cloud software now touted for on-prem gear
+Cloud Platform becomes Virtual Edition for ROBO use
+
+14 Feb 16:57
+
+
+
+
+Bootnotes
+
+Kings College London bods recruit members for penis ring study
+'One Ring to bring them all and in the darkness... oh sh*t, it's come off'
+
+49 Comments
+14 Feb 16:17
+
+
+
+
+
+DevOps
+
+
+
+
+With nearly 1m users on its books, DigitalOcean touts load balancers
+CTO gets all loved up about customers on Valentine's Day
+
+14 Feb 16:00
+
+
+
+
+Personal Tech
+
+
+
+
+Vinyl, filofaxes – why not us too, pleads Nokia
+HMD cranks up the nostalgia ahead of comeback
+
+55 Comments
+14 Feb 15:40
+
+
+
+
+Security
+
+
+
+
+Battle of the botnets: My zombie horde's bigger than yours
+DDoSing over 100Gbps up 140%. Mirai worst but Spike peaks at 517Gbps
+
+14 Feb 15:15
+
+
+
+
+
+Artificial Intelligence
+
+What have you learned about machine learning and AI?
+ Reg EventsShow off your intelligence by answering the M3 call for papers
+
+14 Feb 14:33
+
+
+
+
+Storage
+
+XPoint: Leaked Intel specs reveal 'launch-ready' SSD – report
+Roses are nice, but SSDs from Chipzilla (if these specs are true) are DRAM-NAND gap-filler
+
+17 Comments
+14 Feb 14:01
+
+
+
+
+Software
+
+Amazon Chimes into video-conferencing: Watch out Skype and Google
+See this, Cisco?
+
+14 Feb 13:39
+
+
+
+
+
+Policy
+
+GoDaddy CEO says US is 'tech illiterate' (so, yeah, don't shut off that cheap H-1B supply)
+At least wait until there's a pipeline from schools, he says
+
+84 Comments
+14 Feb 13:00
+
+
+
+
+Security
+
+UK website data insecurity worries: Users in bits over car break-up emails
+ UpdatedDon't break my car... my achy brake-y car.. or is that do?
+
+33 Comments
+14 Feb 12:42
+
+
+
+
+Policy
+
+Roses are red, violets are blue, HMRC confirms Verify can STFU
+Taxmen to press on with own ID authenticating service... as we reported
+
+39 Comments
+14 Feb 11:38
+
+
+
+
+
+Networks
+
+Roses are reddish, exam-takers more so: Cisco's test price hike's a smack to the torso
+Soz, currency fluctuation
+
+11 Comments
+14 Feb 11:12
+
+
+
+
+Networks
+
+Cisco's Visual Networking Index: Rather optimistic traffic numbers, aren't they?
+ Updated5G, New Radio - how much of the hype should we really believe...
+
+14 Feb 10:24
+
+
+
+
+Science
+
+GRAPHENE: £120m down, UK.gov finds it's still a long way from commercial potential
+Wonder material, not wonder market
+
+45 Comments
+14 Feb 09:32
+
+
+
+
+
+Security
+
+The Register's guide to protecting your data when visiting the US
+Summary: You're (mostly) screwed without preparation
+
+221 Comments
+14 Feb 08:56
+
+
+
+
+Virtualization
+
+It's over? Pat Gelsinger's post vSphere VMware NSX-T opportunity
+ Sysadmin BlogSoftware-defined networking? Time for an open relationship
+
+14 Feb 08:41
+
+
+
+
+Security
+
+SaaS-y security outfit CrowdStrike falls out of love with test lab
+ UpdatedTries – and fails – to have court suppress review of its Falcon product
+
+14 Feb 08:21
+
+
+
+
+
+Artificial Intelligence
+
+
+
+
+Roses are red, violets are blue, fake-news-detecting AI is fake news, too
+ AnalysisHumanity's bulls*** is too much for software
+
+40 Comments
+14 Feb 07:58
+
+
+
+
+Cloud
+
+
+
+
+Oracle is red, violets are blue, we hope you'll integrate biz analytics in our cloud soon
+Blue, soon, close enough
+
+14 Feb 07:29
+
+
+
+
+Emergent Tech
+
+
+
+
+Roses are red, you're feeling blue, 'cos no one wants to watch VR telly with you
+A solution! You can now invite your equally sad mates
+
+15 Comments
+14 Feb 07:03
+
+
+
+
+
+Security
+
+Roses are red, you're over the moon, 'cos you work in infosec, and you're retiring soon
+'Cliff edge' drop for UK cybersecurity industry
+
+24 Comments
+14 Feb 06:28
+
+
+
+
+Data Centre
+
+Oracle teases 'easy-to-absorb' platform updates, wants 'all' your infrastructure biz
+Big Red admits to a lost half-decade in silicon, promises melding with software real soon
+
+17 Comments
+14 Feb 06:03
+
+
+
+
+Science
+
+NASA picks three Martian wet patches for 2020 splashdown
+Bug-hunting mission's final landing site candidates are thought to have seen water flow
+
+13 Comments
+14 Feb 05:34
+
+
+
+
+
+Cloud
+
+Clouds can compete with HPC, say boffins
+Azure hits the high notes in High Performance Linpack tests, SoftLayer strangles itself
+
+14 Feb 04:55
+
+
+
+
+Science
+
+Feel like a spot of planet-hunting? Here's 1,600 suns worth of data
+Decades of exoplanet observations are yours for the downloading
+
+14 Feb 04:06
+
+
+
+
+Personal Tech
+
+Apple joins one wireless power group, the other one responds with so-happy forced grin
+You've seen this movie before, on Betamax, and the ending isn't pretty
+
+36 Comments
+14 Feb 02:31
+
+
+
+
+
+Security
+
+Explain! yourself! US! senators! yell! at! Yahoo!
+Purple Palace pressed to come clean on its mega-breaches
+
+13 Comments
+14 Feb 01:57
+
+
+
+
+Security
+
+Infosec pros aren't too bothered by Trump – it's his cabinet sidekicks you need to worry about
+ BSidesSFCrackdown on H-1B abuse is fine, backdoors no way
+
+32 Comments
+14 Feb 00:43
+
+
+
+
+Internet of Things
+
+University DDoS'd by its own seafood-curious malware-infected vending machines
+2017's security headlines are starting to read like MadLibs
+
+49 Comments
+13 Feb 22:33
+
+
+
+
+
+Security
+
+WTF is up with the W3C, DRM and security bods threatened – we explain
+ AnalysisFive years on, attempts at compromise on web standards still fueling fights
+
+30 Comments
+13 Feb 22:25
+
+
+
+
+Security
+
+IT bosses: Get budgets for better security by rating threats on a scale of zero to Yahoo!
+ BSides SFTips for running a compliant but safe network
+
+13 Feb 21:48
+
+
+
+
+Emergent Tech
+
+Totally not-crazy billionaire Elon Musk: All of us – yes, even you – must become cyborgs
+SpaceX kingpin says slow-moving human brains will be obsolete shortly
+
+89 Comments
+13 Feb 19:53
+
+
+
+
+
+Software
+
+
+
+
+If you need an in-mem analytics cruncher – and, hey, who doesn't? – Microsoft Graph Engine is now open source
+Data wrangler with MIT license
+
+13 Feb 19:01
+
+
+
+
+Storage
+
+
+
+
+HPE brags its latest 3PAR OS shrinkwrapper better protects data
+And more automation helps admin staff
+
+32 Comments
+13 Feb 17:00
+
+
+
+
+Security
+
+
+
+
+Bloke, 27, arrested, tech gear seized by cops over UK Sports Direct hack
+ ExclusiveChap in Shirebrook, England, on bail as probe continues
+
+14 Comments
+13 Feb 16:34
+
+
+
+
+
+Security
+
+Brave VMs to destroy themselves, any malware they find on HP's new laptop
+1 like = 1 prayer for pre-baked Bromium virtualization tech
+
+17 Comments
+13 Feb 15:53
+
+
+
+
+Security
+
+Russia and China bombard Blighty with 188 cyberattacks in 3 months
+Security secrets and private businesses are all fair game
+
+63 Comments
+13 Feb 15:34
+
+
+
+
+Security
+
+Google to cough up $20m after Chrome rips off anti-malware patents
+Actual residents of Texas Eastern District prevail
+
+21 Comments
+13 Feb 15:04
+
+
+
+
+
+Business
+
+Tech Trailblazers Awards: Shortlist out - now it’s over to you
+Counting down to the final cut
+
+13 Feb 14:34
+
+
+
+
+Science
+
+UK prof claims to have first practical blueprint of a quantum computer
+Simultaneously is and isn't bollocks
+
+71 Comments
+13 Feb 14:06
+
+
+
+
+Business
+
+Co-op Bank up for sale while customers still feel effects of its creaking IT
+Three words businesses dread: IT system transformation
+
+50 Comments
+13 Feb 13:28
+
+
+
+
+Older stories
+
+
+
+
+
+
+
+
+
+
+
+
+
+Most read
+
+
+
+
+Zuckerberg thinks he's cyber-Jesus – and publishes a 6,000-word world-saving manifesto
+                
+
+
+
+
+
+'I'm innocent!' says IT contractor on trial after Office 365 bill row spiraled out of control
+                
+
+
+
+
+
+New Royal Navy Wildcat helicopters can't transmit vital data
+                
+
+
+
+
+
+Installing disks is basically LEGO, right? This admin failed LEGO
+                
+
+
+
+
+
+UK Snoopers' Charter gagging order drafted for London Internet Exchange directors
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Spotlight
+
+
+Dirty data, flogged cores: YES, Microsoft SQL Server R Services has its positives
+
+
+
+GitLab invokes the startup defence to explain data loss woes
+
+
+
+Speaking in Tech: There must be 50 ways to leave your cloud provider
+
+
+
+Hutchison's 3UK and Google push 3.5 GHz on both sides of the pond
+
+
+
+Two words, Mozilla: SPEED! NOW! Quit fiddling and get serious
+
+
+
+Vinyl, filofaxes – why not us too, pleads Nokia
+
+
+
+The Register's guide to protecting your data when visiting the US
+
+
+
+It's over? Pat Gelsinger's post vSphere VMware NSX-T opportunity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Follow us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More content
+
+Subscribe to newsletter
+Top 20 stories
+Week’s headlines
+Archive
+Webcasts
+
+
+
+About us
+
+Privacy
+Company info
+Advertise with us
+Syndication
+Send us news tips
+
+
+
+The Register
+
+                Biting the hand that feeds IT © 1998–2017
+
+            
+
+                Independent news, views, opinions and reviews on the latest in the IT industry. Offices in London, San Francisco and Sydney.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+

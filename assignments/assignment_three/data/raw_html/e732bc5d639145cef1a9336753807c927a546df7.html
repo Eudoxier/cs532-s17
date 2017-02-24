@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="fb: http://www.facebook.com/2008/fbml content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.apmg-cyber.com/sites/default/files/apmg-favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.apmg-cyber.com/" />
+<link rel="shortlink" href="https://www.apmg-cyber.com/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.apmg-cyber.com/" />
+<meta name="twitter:title" content="APMG International Cyber Security &amp; Resilience" />
+<meta itemprop="name" content="APMG International Cyber Security &amp; Resilience" />
+  <title>APMG International Cyber Security & Resilience</title>
+  <link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/default/files/css/css__K-DRNxxTUWBQZjNtSOk906oJ7mSk12I-rnP6akqkxk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/default/files/css/css_wMRSmjNPc4nDsr3mfx6YLe2_pUvvOSxSpa5BZ26JBvo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/default/files/css/css_zTXBVUJ3jv9DyKDkw_jxSAgz25ZguyjKZrSnYRi8X7o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/default/files/css/css_acbfHepYVV-_NWgU489nttHfGYQhi2kjbciMIWXn290.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/default/files/css/css_mDxCF8ImVBb6oiL7Rq6KarwvxmvDV5PjnhYNE29pt_0.css" media="print" />
+
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="https://www.apmg-cyber.com/sites/all/themes/basic/css/ie8.css?oletmp" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.apmg-cyber.com/sites/default/files/js/js_aczm2rRgH_slWBPnvD3KMrK7rwa1i99HOq8IUAb99Co.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.apmg-cyber.com/sites/default/files/js/js_obFUyTbqtcoGQtszVI46l1_oD927PzlDtlr_ilpYBqE.js"></script>
+<script type="text/javascript" src="https://www.apmg-cyber.com/sites/default/files/js/js_gPqjYq7fqdMzw8-29XWQIVoDSWTmZCGy9OqaHppNxuQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-874318-33", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.apmg-cyber.com/sites/default/files/js/js_gg27_1MtrVbzYTnor_qnbnBxIOd4YOwuTjQEBjQJMZg.js"></script>
+<script type="text/javascript" src="https://www.apmg-cyber.com/sites/default/files/js/js_pkKQs3EwrBO4TYu-wbLdsN9lS-sOc5m2VipIPKG7XCk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"basic","theme_token":"Z0usb0yWf1PALac4rYrnpRRq1aJiKLpKHApJS0IJphY","js":{"sites\/all\/modules\/addthis\/addthis.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/libraries\/json2\/json2.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/themes\/basic\/js\/build\/selectivizr-min.js":1,"sites\/all\/themes\/basic\/js\/build\/scripts.js":1,"sites\/all\/themes\/basic\/js\/build\/modernizr.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/basic\/css\/tabs.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/field_collection\/field_collection.theme.css":1,"sites\/all\/themes\/basic\/css\/default.css":1,"sites\/all\/themes\/basic\/css\/layout.css":1,"sites\/all\/themes\/basic\/css\/style.css":1,"sites\/all\/themes\/basic\/css\/normalize.css":1,"sites\/all\/themes\/basic\/css\/font-awesome-4.3.0\/css\/font-awesome.min.css":1,"sites\/all\/themes\/basic\/css\/overpass_regular_macroman\/stylesheet.css":1,"sites\/all\/themes\/basic\/css\/print.css":1,"sites\/all\/themes\/basic\/css\/ie8.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"viewsSlideshow":{"field_collection_slides_view-default":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"hero-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"hero-block_2":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"field_collection_slides_view-default":{"bottom":{"type":"viewsSlideshowPagerFields"}},"hero-block":{"bottom":{"type":"viewsSlideshowPagerFields"}},"hero-block_2":{"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"field_collection_slides_view-default":{"bottom":{"activatePauseOnHover":0}},"hero-block":{"bottom":{"activatePauseOnHover":0}},"hero-block_2":{"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowControls":{"field_collection_slides_view-default":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_field_collection_slides_view-default":{"num_divs":2,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"field_collection_slides_view-default","effect":"fade","transition_advanced":1,"timeout":0,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{\u0022nowrap\u0022:\u0022true\u0022}"},"#views_slideshow_cycle_main_hero-block":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"hero-block","effect":"fade","transition_advanced":1,"timeout":7000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_hero-block_2":{"num_divs":5,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"hero-block_2","effect":"fade","transition_advanced":1,"timeout":7000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"better_exposed_filters":{"views":{"field_collection_slides_view":{"displays":{"default":{"filters":[]}}},"field_collection_callout_view":{"displays":{"default":{"filters":[]}}},"field_collection_products":{"displays":{"default":{"filters":[]}}},"hero":{"displays":{"block":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/":true}});
+//--><!]]>
+</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-feature-page role-anonymous-user" >
+  <div id="skip">
+    <a href="#content">Jump to Navigation</a>
+  </div>
+    <div id="page" class="page with-navigation">
+
+  <!-- ______________________ HEADER _______________________ -->
+
+  <header id="header">
+    <div class="container">
+
+      <div id="header-bar">
+        
+
+        <div id="social-menu">
+                                        <ul class="menu"><li class="first leaf google- mid-505"><a href="http://google.com/+Apmg-international" title="">Google+</a></li>
+<li class="leaf linkedin mid-504"><a href="http://www.linkedin.com/company/apmg-international" title="">LinkedIn</a></li>
+<li class="leaf id-apmg_inter mid-1002"><a href="https://twitter.com/apmg_inter" title="">@APMG_Inter</a></li>
+<li class="leaf id-cyber_apmg mid-503"><a href="https://twitter.com/cyber_apmg" title="">@Cyber_APMG</a></li>
+<li class="last leaf id-apmgbusbooks mid-1003"><a href="https://twitter.com/apmgbusbooks" title="">@APMGBusBooks</a></li>
+</ul>        </div>
+      </div>
+
+      
+              <a href="/" title="Home" rel="home" id="logo">
+          <img src="https://www.apmg-cyber.com/sites/default/files/logo.png" alt="Home"/>
+        </a>
+      
+      
+              <div id="header-region">
+            <div id="block-search-form" class="block block-search block-odd first last clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <form autocomplete="off" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-1W_I4B5eclLYnrO0yvQmoNFiEiW003CD3Q2zGhdtJko" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+
+  </div>
+</div> <!-- /block-inner /block -->        </div>
+          </div>
+  </header> <!-- /header -->
+
+      <button type="button" class="js-menu-trigger sliding-menu-button">
+      MENU
+      <div class="mobile-menu-icon"></div>
+    </button>
+    <nav id="navigation" class="menu js-menu sliding-menu-content with-primary">
+      <div class="container">
+                                <ul class="menu"><li class="first expanded about mid-951"><a href="/about">About</a><ul class="menu"><li class="first leaf benefits-of-cyber-certification mid-953"><a href="/benefits-cyber-certification">Benefits of Cyber-Certification</a></li>
+<li class="leaf book-an-exam mid-955"><a href="/book-exam">Book an exam</a></li>
+<li class="last leaf get-apmg-accredited mid-954"><a href="/get-apmg-accredited">Get APMG-Accredited</a></li>
+</ul></li>
+<li class="leaf cyber-security-products mid-351"><a href="/cyber-security-products" title="">Cyber Security Products</a></li>
+<li class="leaf cyber-essentials mid-5462"><a href="/products/cyber-essentials" title="">Cyber Essentials</a></li>
+<li class="leaf company-search mid-352"><a href="/providers" title="">Company search</a></li>
+<li class="leaf get-your-business-accredited mid-354"><a href="/get-your-business-accredited">Get Your Business Accredited</a></li>
+<li class="leaf news mid-1004"><a href="/news" title="">News</a></li>
+<li class="leaf events mid-1053"><a href="/events" title="">Events</a></li>
+<li class="last leaf contact mid-979"><a href="/contact">Contact</a></li>
+</ul>      </div>
+    </nav> <!-- /navigation -->
+    <div class="js-menu-screen sliding-menu-fade-screen"></div>
+  
+  <!-- ______________________ MAIN _______________________ -->
+
+  <div id="main">
+    <div class="container">
+      <section id="content">
+  
+                      <div id="content-header">
+
+              
+                              <div id="highlighted">  <div id="block-views-hero-block" class="block block-views block-odd first last clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <div class="view view-hero view-id-hero view-display-id-block hero view-dom-id-e89b7c43c42548324374b045a434441f">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_hero-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_hero-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_hero-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_hero-block_0'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/hero/public/hero-images/CDCATBanner5.jpg?itok=QEEPMY3M" width="1024" height="320" alt="CDCAT® - Cyber Security Award Finalists " title="CDCAT® - Cyber Security Award Finalists " />    
+          <div class="details">    
+  <h2>        <a href="/products/CDCAT">CDCAT® – Cyber Defence Capability Assessment Tool</a>  </h2>  
+  <p>        A comprehensive way for organizations to assess their existing cyber defences, identify vulnerabilities and see what improvements should be made.
+  </p>  
+          <div class="field-content link"><a href="/products/CDCAT">Find out more</a></div>    
+          </div>  </div>
+</div>
+<div id="views_slideshow_cycle_div_hero-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_bottom_hero-block_1'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/hero/public/hero-images/iStock-540231918_0.jpg?itok=2LSYBePn" width="1024" height="320" alt="Cyber Essentials cyber security scheme " title="Cyber Essentials " />    
+          <div class="details">    
+  <h2>        <a href="https://apmg-cyber.com/products/cyber-essentials">Cyber Essentials </a>  </h2>  
+  <p>        Certify your organisation with the UK Government&#039;s low-cost cyber security scheme fast - with APMG&#039;s streamlined and secure online certification process.  </p>  
+          <div class="field-content link"><a href="https://apmg-cyber.com/products/cyber-essentials">Find out more</a></div>    
+          </div>  </div>
+</div>
+<div id="views_slideshow_cycle_div_hero-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_hero-block_2'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/hero/public/hero-images/CCP1024.jpg?itok=umzh5SXb" width="1024" height="320" alt="CCP - CESG Certified Professional Banner" title="CCP - CESG Certified Professional Banner" />    
+          <div class="details">    
+  <h2>        <a href="/file/1002/download?token=j83emVmb">CCP - CESG Certified Professional</a>  </h2>  
+  <p>        Learn how Laure Lydon achieved CCP certification, the HMG’s standard for Cyber Security professionals, in just six days.  </p>  
+          <div class="field-content link"><a href="/file/1002/download?token=j83emVmb">Find out more</a></div>    
+          </div>  </div>
+</div>
+<div id="views_slideshow_cycle_div_hero-block_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_bottom_hero-block_3'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/hero/public/hero-images/Cyber-Banner-homepage.jpg?itok=Y2QRiM0O" width="1024" height="320" alt="CCT is the benchmark for Cyber Security training" title="CCT is the benchmark for Cyber Security training" />    
+          <div class="details">    
+  <h2>        <a href="/products/gct-gchq-certified-training">GCT is the benchmark for Cyber Security training</a>  </h2>  
+  <p>        GCHQ Certified Training (GCT) is rigorous and ensures a high standard of training. GCT is a key market differentiator which sets your organisation’s courses apart from other cyber security training options.  </p>  
+          <div class="field-content link"><a href="/products/gct-gchq-certified-training">Find out more</a></div>    
+          </div>  </div>
+</div>
+<div id="views_slideshow_cycle_div_hero-block_4" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_hero-block_4'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd">
+    
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/hero/public/hero-images/4000.jpg?itok=6qNtUlw_" width="1024" height="320" />    
+          <div class="details">    
+  <h2>        <a href="/products/ccp-cesg-certified-professional">CCP Candidate feedback</a>  </h2>  
+  <p>        &quot;The  service that was provided by APMG was both professional and compassionate to the needs of modern Information Security strategic leaders. Their advice was clear and concise; the support provided by the team was very timely and I always felt that I simply had to ask for help and it would be sorted out – from feedback to clarification on preparation no request was too big or too small. I had a very favourable experience with APMG and would strongly recommend them to anyone seeking CCP accreditation” by Chris Crowther, Corsham Institute   </p>  
+          <div class="field-content link"><a href="/products/ccp-cesg-certified-professional">Find out more</a></div>    
+          </div>  </div>
+</div>
+</div>
+</div>
+          <div class="views-slideshow-controls-bottom clearfix">
+        <div id="widget_pager_bottom_hero-block" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_hero-block_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-first" aria-controls="views_slideshow_cycle_div_hero-block_0">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-0'>1</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_hero-block_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even" aria-controls="views_slideshow_cycle_div_hero-block_1">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-1'>2</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_hero-block_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd" aria-controls="views_slideshow_cycle_div_hero-block_2">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-2'>3</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_hero-block_3" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even" aria-controls="views_slideshow_cycle_div_hero-block_3">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-3'>4</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_hero-block_4" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-last" aria-controls="views_slideshow_cycle_div_hero-block_4">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-4'>5</a>  </div>
+</div>
+</div>
+</div>
+      </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+
+  </div>
+</div> <!-- /block-inner /block --></div>
+              
+              
+                              <h1 class="title">APMG International Cyber Security &amp; Resilience</h1>
+              
+                                          
+                              <div class="tabs"></div>
+              
+              
+            </div> <!-- /#content-header -->
+          
+          <div id="content-area">
+              <div id="block-system-main" class="block block-system block-odd first clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <article id="node-1" class="node node-feature-page node-odd">
+
+      <header>
+                  <span property="dc:title" content="APMG International Cyber Security &amp; Resilience" class="rdf-meta element-hidden"></span>
+      
+          </header>
+  
+  <div class="content">
+    
+  <div class="field field-name-field-services field-type-field-collection field-label-hidden">
+    <div class="view view-field-collection-products view-id-field_collection_products view-display-id-default view-dom-id-77e142a10a6450010107bbb530729915">
+        
+  
+  
+      <div class="view-content">
+      <div class="product-grid">    <ul>          <li class="item">  
+           <a href="/products/cyber-essentials">
+   <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/product_thumb/public/product-images/Cyber%20Essentials%20banner.jpg?itok=gT4gi-Bh" width="240" height="160" alt="Cyber Essentials banner" title="Cyber Essentials banner" />    
+   <h4>Cyber Essentials</h4>  
+  <p>APMG Cyber Essentials is the quickest and most secure way to get certified</p>  
+  <div class="view-details">Find out more</div></a>  </li>
+          <li class="item">  
+           <a href="/products/cdcat">
+   <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/product_thumb/public/iStock_000042864346_Large_0.jpg?itok=A6pxz3hA" width="240" height="160" />    
+   <h4>CDCAT® - Cyber Defence Capability Assessment Tool</h4>  
+  <p>An effective, comprehensive way to assess an organisation's existing cyber defences.</p>  
+  <div class="view-details">Find out more</div></a>  </li>
+          <li class="item">  
+           <a href="/products/certified-professional-ccp">
+   <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/product_thumb/public/iStock_000027617928_Large.jpg?itok=k2oI9oCe" width="240" height="160" />    
+   <h4>Certified Professional (CCP) </h4>  
+  <p>Please bear with us whilst we update this website and relevant information, to the ne</p>  
+  <div class="view-details">Find out more</div></a>  </li>
+          <li class="item">  
+           <a href="/products/gct-gchq-certified-training">
+   <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/product_thumb/public/hero-images/security1023x322.jpg?itok=yZbqKP-K" width="240" height="160" alt="CDCAT Control and manage the big picture" title="CDCAT Control and manage the big picture" />    
+   <h4>GCT - GCHQ Certified Training</h4>  
+  <p>GCHQ Certified Training (GCT) helps individuals and organisations quickly identify high quality r</p>  
+  <div class="view-details">Find out more</div></a>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+<div class="field-collection-container clearfix"><div class="field field-name-field-slider field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final">
+  <h3 class="field field-name-field-title field-type-text field-label-hidden">
+    Case Studies  </h3>
+<div class="field field-name-field-slides field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="view view-field-collection-slides-view view-id-field_collection_slides_view view-display-id-default view-dom-id-5c3b2422892486e5c4dc06d52271f91c">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="views_slideshow_cycle_main_field_collection_slides_view-default" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_field_collection_slides_view-default" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_field_collection_slides_view-default_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd" aria-labelledby='views_slideshow_pager_field_item_bottom_field_collection_slides_view-default_0'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first item">
+    
+          
+  <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div id="file-619" class="file file-video file-video-youtube">
+
+        <h2 class="element-invisible"><a href="/file/cdcat-understand-and-manage-big-picture-effectively">CDCAT - Understand and manage the big picture effectively</a></h2>
+    
+  
+  <div class="content">
+    <div class="media-youtube-video media-youtube-1">
+  <iframe class="media-youtube-player" width="500" height="281" title="CDCAT - Understand and manage the big picture effectively" src="//www.youtube.com/embed/cFbuCnW-GfY?wmode=opaque&rel=0&showinfo=0" frameborder="0" allowfullscreen>Video of CDCAT - Understand and manage the big picture effectively</iframe>
+</div>
+  </div>
+
+  
+</div>
+  </div>
+    
+          <div class="details">    
+  <h4>        CDCAT - Assess an organisation&#039;s cyber defences  </h4>  
+  <p>        CDCAT is a comprehensive way for organizations to assess their existing cyber defences, identify any vulnerability(s) and see what improvements can be made. CDCAT was developed by the Defence Science and Technology Laboratory (Dstl), for the Ministry of Defence.  </p>  
+          <a href="/products/cdcat" class="primary-link">Find out more</a>    
+          <a href="/contact" class="secondary-link">Contact us</a>    
+          </div>  </div>
+</div>
+<div id="views_slideshow_cycle_div_field_collection_slides_view-default_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even" aria-labelledby='views_slideshow_pager_field_item_bottom_field_collection_slides_view-default_1'>
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd item">
+    
+          
+  <div class="field field-name-field-image field-type-image field-label-hidden">
+    <div id="file-1085" class="file file-video file-video-youtube">
+
+        <h2 class="element-invisible"><a href="/file/10851481733040">Introducing COBIT5 certification scheme</a></h2>
+    
+  
+  <div class="content">
+    <div class="media-youtube-video media-youtube-2">
+  <iframe class="media-youtube-player" width="500" height="281" title="Introducing COBIT5 certification scheme" src="//www.youtube.com/embed/eYRvSIZzGHc?wmode=opaque&rel=0&showinfo=0" frameborder="0" allowfullscreen>Video of Introducing COBIT5 certification scheme</iframe>
+</div>
+  </div>
+
+  
+</div>
+  </div>
+    
+          <div class="details">    
+  <h4>        Video interview with Gary Bannister, Chief Examiner for COBIT5  </h4>  
+  <p>        Watch our video interview with Gary Bannister, Chief Examiner and find out how COBIT5 focuses on business needs.
+  </p>  
+          <a href="/providers?country=All&amp;product=280&amp;company=" class="primary-link">Find a training provider</a>    
+          <a href="/contact" class="secondary-link">Contact us</a>    
+          </div>  </div>
+</div>
+</div>
+</div>
+          <div class="views-slideshow-controls-bottom clearfix">
+        <div id="widget_pager_bottom_field_collection_slides_view-default" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_field_collection_slides_view-default_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-first" aria-controls="views_slideshow_cycle_div_field_collection_slides_view-default_0">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-0'>1</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_field_collection_slides_view-default_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even views-row-last" aria-controls="views_slideshow_cycle_div_field_collection_slides_view-default_1">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href='#slideshow-1'>2</a>  </div>
+</div>
+</div>
+</div>
+<div id="views_slideshow_controls_text_field_collection_slides_view-default" class="views-slideshow-controls-text views_slideshow_controls_text">
+  <span id="views_slideshow_controls_text_previous_field_collection_slides_view-default" class="views-slideshow-controls-text-previous views_slideshow_controls_text_previous">
+  <a href="#" rel="prev">Previous</a>
+</span>
+  <span id="views_slideshow_controls_text_pause_field_collection_slides_view-default" class="views-slideshow-controls-text-pause views_slideshow_controls_text_pause  views-slideshow-controls-text-status-play"><a href="#">Pause</a></span>
+  <span id="views_slideshow_controls_text_next_field_collection_slides_view-default" class="views-slideshow-controls-text-next views_slideshow_controls_text_next">
+  <a href="#" rel="next">Next</a>
+</span>
+</div>
+      </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div></div></div></div></div></div></div></div>
+  <div class="field field-name-field-feature-links field-type-field-collection field-label-hidden">
+    
+  <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/slider_image/public/iStock_000042864346_Large_0.jpg?itok=LTLr0_kk" width="360" height="270" />
+  <a href="/benefits-cyber-certification" class="feature-link">Benefits of Cyber-Certification</a>  </div>
+  <div class="field field-name-field-feature-links field-type-field-collection field-label-hidden">
+    
+  <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/slider_image/public/iStock_000038124684_Large.jpg?itok=oOOMUQuo" width="360" height="270" />
+  <a href="/get-your-business-accredited" class="feature-link">Get Your Business Accredited</a>  </div>
+  <div class="field field-name-field-feature-links field-type-field-collection field-label-hidden">
+    
+  <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/slider_image/public/feature-link-images/Screen%20Shot%202015-03-18%20at%2016.44.07.png?itok=9kQxpnty" width="360" height="270" />
+  <a href="/book-exam" class="feature-link">Book an exam</a>  </div>
+
+  <div class="field field-name-field-call-to-actions field-type-field-collection field-label-hidden">
+    <div class="view view-field-collection-callout-view view-id-field_collection_callout_view view-display-id-default view-dom-id-8da9a84caa87b0551ebdc269bd0a1a48">
+        
+  
+  
+      <div class="view-content">
+      <div class="callouts">    <ul>          <li class="grid-1">  
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/callout_image/public/callout-images/free-bg.jpg?itok=pLz80-_L" width="1024" height="145" />    
+          <div class="details">    
+  <p>        <h2 style="text-align: center;"><span class="text-light"><strong>Speak to our Accreditation Team</strong></span></h2>
+<p style="text-align: center;"><span class="text-light">(+)44 1494 836 122</span></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"> </p>
+  </p>  
+          </div>  </li>
+          <li class="grid-1">  
+          <img typeof="foaf:Image" src="https://www.apmg-cyber.com/sites/default/files/styles/callout_image/public/callout-images/lightblue-bg.jpg?itok=NuYQFNiM" width="1024" height="145" />    
+          <div class="details">    
+  <p>        <h2 style="text-align: center;"><span class="text-light"><strong><a href="/events">COME &amp; MEET US!</a></strong></span></h2>
+<p style="text-align: center;"><span class="text-dark"><a href="/events">Join our professional and reliable network</a></span></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;"> </p>
+  </p>  
+          </div>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+  </div> <!-- /content -->
+
+  
+      <div class="links">
+          </div> <!-- /links -->
+  
+  </article> <!-- /article #node -->    </div>
+
+  </div>
+</div> <!-- /block-inner /block --><div id="block-campaignmonitor-ef20ae0c695c9b44e8ef726dbed6faa6" class="block block-campaignmonitor newsletter block-even last clearfix">
+  <div class="block-inner">
+
+              <h2 class="block-title">Subscribe to our newsletter </h2>
+        
+
+    <div class="content" >
+      <form class="campaignmonitor-subscribe-form campaignmonitor-subscribe-form-business-books-newsletter" autocomplete="off" action="/" method="post" id="campaignmonitor-subscribe-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Name <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Name" type="text" id="edit-name" name="name" value="" size="60" maxlength="200" class="form-text required" />
+</div>
+<div class="form-item form-type-textfield form-item-email">
+  <label for="edit-email">Email <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Email address" type="text" id="edit-email" name="email" value="" size="60" maxlength="200" class="form-text required" />
+</div>
+<input type="hidden" name="list_id" value="ef20ae0c695c9b44e8ef726dbed6faa6" />
+<input type="submit" id="edit-submit--2" name="op" value="Subscribe" class="form-submit" /><input type="hidden" name="form_build_id" value="form-XqPCXIaS9EqPNtj61nBjkVSAb07EZIQ9wy5B297Ly1A" />
+<input type="hidden" name="form_id" value="campaignmonitor_subscribe_form" />
+</div></form>    </div>
+
+  </div>
+</div> <!-- /block-inner /block -->          </div>
+
+          
+      </section> <!-- /content-inner /content -->
+
+       <!-- /sidebar-first -->
+
+       <!-- /sidebar-second -->
+    </div>
+  </div> <!-- /main -->
+
+  <!-- ______________________ FOOTER _______________________ -->
+
+      <footer id="footer">
+      <div class="container">
+        <div id="block-menu-menu-footer-highlight-menu" class="block block-menu block-odd first clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <ul class="menu"><li class="first leaf contact-us mid-470"><a href="/contact" title="">Contact us</a></li>
+<li class="leaf apmg-business-books mid-471"><a href="http://www.apmg-businessbooks.com/" title="">APMG Business Books</a></li>
+<li class="leaf apmg-international-certification-schemes mid-472"><a href="http://www.apmg-international.com/en/qualifications/certifications.aspx" title="">APMG International Certification Schemes</a></li>
+<li class="last leaf apmg-international-blog mid-473"><a href="http://blog.apmg-international.com/" title="">APMG International Blog</a></li>
+</ul>    </div>
+
+  </div>
+</div> <!-- /block-inner /block --><div id="block-addthis-addthis_block" class="block block-addthis block-even last clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+          </div>
+
+  </div>
+</div> <!-- /block-inner /block -->
+              <div id="footer-one">
+            <div id="block-menu-menu-social-menu" class="block block-menu block-odd first last clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <ul class="menu"><li class="first leaf google- mid-505"><a href="http://google.com/+Apmg-international" title="">Google+</a></li>
+<li class="leaf linkedin mid-504"><a href="http://www.linkedin.com/company/apmg-international" title="">LinkedIn</a></li>
+<li class="leaf id-apmg_inter mid-1002"><a href="https://twitter.com/apmg_inter" title="">@APMG_Inter</a></li>
+<li class="leaf id-cyber_apmg mid-503"><a href="https://twitter.com/cyber_apmg" title="">@Cyber_APMG</a></li>
+<li class="last leaf id-apmgbusbooks mid-1003"><a href="https://twitter.com/apmgbusbooks" title="">@APMGBusBooks</a></li>
+</ul>    </div>
+
+  </div>
+</div> <!-- /block-inner /block -->        </div>
+      
+              <div id="footer-two">
+            <div id="block-menu-menu-footer-menu" class="block block-menu block-odd first clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <ul class="menu"><li class="first leaf privacy-cookie-policy mid-497"><a href="/privacy-cookie-policy" title="">Privacy &amp; Cookie Policy</a></li>
+<li class="leaf accessibility mid-498"><a href="/accessibility" title="">Accessibility</a></li>
+<li class="last leaf copyright-trademarks mid-501"><a href="/copyright-trademarks" title="">Copyright &amp; Trademarks</a></li>
+</ul>    </div>
+
+  </div>
+</div> <!-- /block-inner /block --><div id="block-block-7" class="block block-block block-even last clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <p><img height="116" width="134" class="media-element file-default" data-delta="1" alt="" title="" typeof="foaf:Image" src="https://apmg-cyber.com/sites/default/files/styles/full_width/public/ce-badge-plus_1.png?itok=yAQUVcT1" /></p>
+    </div>
+
+  </div>
+</div> <!-- /block-inner /block -->        </div>
+      
+              <div id="footer-three">
+            <div id="block-block-1" class="block block-block block-odd first last clearfix">
+  <div class="block-inner">
+
+            
+
+    <div class="content" >
+      <p>© 2017 APM Group Ltd.</p>
+<p>Registered in England No. 2861902<br />VAT No. 603 820668</p>
+<p>The APM Group Limited, Sword House, Totteridge Road, High Wycombe, Buckinghamshire, UK, HP13 6DG</p>
+    </div>
+
+  </div>
+</div> <!-- /block-inner /block -->        </div>
+            </div>
+    </footer> <!-- /footer -->
+  
+</div> <!-- /page -->
+  <script type="text/javascript" src="https://www.apmg-cyber.com/sites/default/files/js/js_MLVgtzZ1ORq9krYqkeOsRay6ou_T-0QZytivuM9tTT8.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b1a15a2cd0","applicationID":"37299666","transactionName":"NlUEMhNUX0pQVhJeXA8fMxQIGlhXVVAeGUMJQA==","queueTime":0,"applicationTime":27,"atts":"GhIHRFtOTEQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

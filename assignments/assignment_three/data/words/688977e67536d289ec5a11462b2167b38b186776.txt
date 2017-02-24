@@ -1,0 +1,456 @@
+
+
+
+
+
+
+Home
+About EnterpriseTech
+Subscribe
+Events
+Markets
+Contacts
+Social
+RSS Feeds
+ Inside Advanced Scale Challenges|Saturday, February 18, 2017
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+Home
+Systems
+Software
+Datacenter
+Cloud
+Storage
+Networks
+Security
+Sectors
+
+Financial Services
+Government
+Healthcare
+Life Sciences
+Energy
+Manufacturing
+Retail
+Media
+Academia
+
+
+Subscribe
+ 
+
+
+
+ 
+
+
+
+
+
+ Subscribe to EnterpriseTech Weekly Updates: 
+
+
+ 
+
+
+
+
+
+
+
+
+
+Machine Learning and Online Security in 2017 
+
+
+
+January 5, 2017 by Kris Lahiri
+
+ (Pasko Maksim/Shutterstock)
+
+As companies increase their digital footprints, ‘identify and diagnose’ capabilities will not defend against the growing array of security threats, according to analysts at Gartner Group. Because the types of data ingested by analytics packages are evolving from structured to hybrid data–containing text, objects and other formats– the market will respond to that transition by offering packaged applications that utilize more powerful predictive and prescriptive analytics.
+Machine Learning (ML) and Artificial Intelligence (AI) (I use these terms interchangeably) continue to be hotly debated in security circles. The pessimists believe hackers will always outmaneuver ML, while the believers view AI as an essential companion to finding and displaying threat patterns in a complex, cloud-enhanced IT environment. While both sides have merit, the market itself is moving ahead with real-life ML applications in 2017.
+Here are three of the most powerful.
+Data Curation
+When the International Institute for Analytics (IIA) released its predictions for analytics trends in 2016, data curation was included as an important tool in the management of data throughout its lifecycle. According to the IIA, rather than approach data management from a centralized, top-down approach, “the new data analytic tools work from the bottom up, leveraging machine learning to curate and clean the data.” As data volumes and sources continue to grow, cleaning data for threat analysis will become a costly and time-consuming process. Data curation not only makes data readily retrievable for future research purposes or reuse, it also ensures enterprise compliance.
+Behavioral Biometrics
+Every time we turn on our PCs, our keystrokes, mouse movements and web browsing habits act as digital fingerprints. When it comes to interactions in healthcare, law and other data-sensitive sectors, such as financial services, which spends approximately $80 billion a year on fraud prevention, behavioral biometrics can be used to analyze end user fingerprints to identify who’s on the other end and what they’re trying to do.
+Combining behavioral biometrics and ML can significantly cut costs. ML algorithms identify critical fraud-related data points while learning the signifiers of good users, reducing false-positive results. Because behavioral biometrics is a collection of data, instead of a single data point, it is extremely difficult for fraudsters to mimic. Behavioral biometrics also makes it easy to distinguish human from non-human behavior. Heavily repeated patterns, such as multiple “users” all acting in exactly the same way, is a conspicuous red flag of a programmed threat.
+Sift, Sort and Secure Sprawled Data
+CSOs continually track how files are shared and with whom, auditing what gets used and what to archive. Because content is so sprawled across networks—one department might use Box, the other a custom integration of SharePoint and a third operate purely in-house—audits take an inordinate amount of effort. In the past, when data was more structured and the scope was limited, it was easy to define the rules. But with today’s massive amounts of unstructured data from multiple sources, rule writing is simply no longer practical or effective. ML can help 'discover' the rules by noticing patterns in how data is used.
+When dealing with unstructured, structured and semi-structured data inputs, ML is a convenient, scalable and cost effective solution that eliminates the manual task of repeatedly classifying and tweaking rules. ML provides the ability to measure effectiveness and improve it by scientifically changing algorithms or algorithm parameters, making it easier to iterate and get better predictions than a rules-based system.
+There are a number of ways to prepare for a successful data-driven security strategy. These include looking at data’s relationship to company problems and opportunities, and working with CIOs to prioritize IT requirements. Another is to utilize hypothesis-led modeling to generate faster outcomes and develop more practical data relationships that are understood by managers. Finally, developing business-relevant analytics that complement existing decision processes allows managers to coordinate their actions with broader company goals.
+Kris Lahiri is chief security officer at Egnyte.
+
+Share this:
+Tweet
+
+
+
+
+
+
+
+
+ 
+
+
+Related
+
+
+
+Categories:  Slider: Front Page, Slider: Security, Software
+
+
+Tags:
+cybersecurity,Machine Learning
+
+
+
+
+One Response to Machine Learning and Online Security in 2017
+
+
+
+
+
+
+
+
+Megan Wright
+
+					January 10, 2017				
+I use Purevpn to protect myself from online threats. I think that has protected me from many threats and also maintained my privacy
+
+
+  
+
+
+
+
+
+
+
+			Add a Comment
+Click here to cancel reply 
+
+
+
+							Name							*
+
+
+
+
+
+							Email							*
+
+
+
+
+
+							Website						
+
+
+
+
+							Your Comments						
+
+
+
+
+
+
+
+
+ Notify me of follow-up comments by email.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ Visit additional Tabor Communication Publications
+
+
+
+
+Search 
+
+
+
+  Recent News 
+
+
+
+
+ExxonMobil, NCSA, Cray Scale Reservoir Simulation to 700,000+ Processors
+February 17, 2017
+
+
+
+
+
+
+Software Woes Seen Fueling ‘Low-Code’ Approach
+February 17, 2017
+
+
+
+
+
+
+Tokyo Tech’s TSUBAMI3.0 Will Be First HPE-SGI Super
+February 17, 2017
+
+
+
+
+
+
+Drug Developers Enlist Google Cloud HPC in the Fight Against ALS
+February 16, 2017
+
+
+
+
+
+
+Public Cloud Adoption Up, Private Cloud Flat
+February 16, 2017
+
+
+
+ 
+Along These LinesHow Retailers Can Fend Off FlokiBot MalwareForecast: Hackers Target Software-Based NetsThe New Cyber Security Minefield: A Proactive, Not Reactive, ApproachOnset of AI Prompts New Security Concerns
+Contributors 
+Doug Black
+
+Managing Editor
+
+
+John Russell
+
+Editorial Director
+
+
+George Leopold
+
+Senior Editor
+
+
+Tiffany Trader
+
+Senior Editor
+
+
+Thomas Ayres
+
+Contributing Editor
+
+
+Alex Woodie
+
+Contributing Editor
+
+
+Steve Conway
+
+IDC
+
+
+Upcoming Events
+
+
+
+
+Business Intelligence, Analytics & Information Management Summit 2017
+
+
+
+February 20 - February 21 
+
+
+
+
+Industry of Things World USA 2017
+
+
+
+February 20 - February 21 
+
+
+
+
+Container World
+
+
+
+February 21 - February 23 
+
+
+
+
+Dinner: Women in Machine Intelligence
+
+
+
+February 21 @ 6:30 pm - 10:00 pm 
+
+
+
+
+2nd Big Data & CEM World Show
+
+
+
+March 1 - March 2 
+
+
+
+View All Events
+
+
+
+
+
+
+
+
+	© 2017 EnterpriseTech. All Rights Reserved. A Tabor Communications Publication
+	
+
+About EnterpriseTech
+Contacts
+Back to Top
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share This
+
+
+
+
+
+Twitter
+
+
+
+
+
+Facebook
+
+
+
+
+
+LinkedIn
+
+
+
+
+
+reddit
+
+
+
+
+
+Print Friendly
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

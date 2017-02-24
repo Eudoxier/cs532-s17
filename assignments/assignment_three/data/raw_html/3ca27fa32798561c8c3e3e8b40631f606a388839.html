@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The all-in-one tool for managing and growing your Twitter accounts. Start for FREE now!">
+		<meta name="keywords" content="tweetsuite, recurred tweets, recurring tweets, best time to tweet, schedule tweets, social media manager, white-label, twitter manager, twitter analytics, twitter stats, twitter statistics, twitter tools, twitter archive, twitter reports">
+		
+		<base href="https://tweetsuite.com/" />
+		
+		<link href="assets/img/favicon.png" rel="shortcut icon" >
+		<title>TweetSuite - The all-in-one tool for managing and growing your Twitter accounts.</title>
+		
+		<!-- Bootstrap core CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Plugins -->
+		<link href="assets/css/social-icons.css" rel="stylesheet">
+		<link href="assets/css/icomoon.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="assets/css/style.css?v2" rel="stylesheet">
+		<!-- Web Fonts -->
+		<link href='//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script src="assets/js/modernizr.custom.js"></script>
+		
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-60734733-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+	</head>
+	
+	<style type="text/css">
+	.tooltip-inner { white-space: nowrap; }
+	#features h4 { color: #007EA3; font-size: 22px; }
+	#features .desc { margin-top: 10px; height: 125px; }
+	a.learn_more { text-align: left; display: block; font-size: 14px; margin-top: 10px; margin-left: 10px; }
+	
+	body { padding-top: 20px; }
+	#navigation { padding-top: 5px; padding-bottom: 5px; }
+	
+	.feature-img {
+		margin: auto;
+		width: 250px;
+		height: 150px;
+		-webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+		-moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+		box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,0.2);
+	}
+	</style>
+
+	<body data-spy="scroll" data-offset="0" data-target="#navigation">
+
+		<!-- Fixed navbar -->
+		<nav id="navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/"><span class="icon-stack"></span> <b>TWEETSUITE</b></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="navbar-collapse collapse" id="bs-navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#home" class="smoothScroll">Home</a></li>
+						<li><a href="#features" class="smoothScroll">Features</a></li>
+						<li><a href="#pricing" class="smoothScroll">Pricing</a></li>
+					</ul>
+
+					<!-- Sign In / Sign Up -->
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown"><a href="#signin" data-toggle="modal" data-target=".bs-modal-signin"><span class="icon-lock"></span> Sign In</a></li>
+						<div class="navbar-form pull-left">
+							<a href="twitter/signup" type="button" class="btn btn-sm btn-theme" style="background: #55acee !important; border: 0 !important; color: white !important;"><span class="icon-twitter" style="vertical-align: middle; padding-right: 5px;"></span> Sign up with Twitter</a>
+						</div>
+					</ul>
+				</div><!--/nav-collapse -->
+			</div><!-- /container -->
+		</nav><!-- /fixed-navbar -->
+
+		<div class="modal fade bs-modal-signin" id="signin-modal" tabindex="-1" role="dialog" aria-labelledby="signinmodal" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="signin">
+						<h3>Sign in</h3>
+												<form id="signin-form" class="form-horizontal">
+							<fieldset>
+								<a href="twitter/signup" type="button" class="btn btn-block btn-theme" style="background: #55acee !important; border: 0 !important; color: white !important; margin-top: 10px;"><span class="icon-twitter" style="vertical-align: middle; padding-right: 5px;"></span> Sign in with Twitter</a>
+								
+								<div style="width: 100%; height: 20px; line-height: 35px; border-bottom: 1px solid black; text-align: center; margin: 10px 0;">
+									<span style="background-color: white; padding: 0 10px;">
+									or
+									</span>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="signin-email">E-mail:</label>
+									<div class="controls">
+										<input id="signin-email" name="email" class="form-control input-large" type="text" placeholder="Your e-mail address" autofocus>
+									</div>
+								</div>
+
+								<div class="control-group">
+									<label class="control-label" for="signin-password">Password:</label>
+									<div class="controls">
+										<input id="signin-password" name="password" class="form-control input-large" type="password" placeholder="********">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<div class="controls">
+										<label class="checkbox-inline" for="signin-remember">
+											<input type="checkbox" name="remember" id="signin-remember" value=1 checked>
+											Stay logged in
+										</label>
+									</div>
+									<br />
+								</div>
+
+								<div class="control-group">
+									<div class="controls">
+										<button id="signin-submit" name="signin" class="btn btn-theme btn-block">Sign in</button>
+									</div>
+									<br />
+								</div>
+								
+								<div class="control-group">
+									<a id="link-lostpw" href="javascript: void(0);">Lost your password?</a>
+								</div>
+							</fieldset>
+						</form>
+					</div><!-- /signin -->
+				</div><!-- /tab-content -->
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal -->
+
+<div class="modal fade bs-modal-lostpw" id="lostpw-modal" tabindex="-1" role="dialog" aria-labelledby="lostpasswordmodal" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="lostpw">
+						<h3>Lost password</h3>
+						<div class="form-success" style="display: none;">
+							<div class="alert alert-success" role="alert"></div>
+							<div class="control-group">
+								<div class="controls">
+									<button id="lostpw-return" class="btn btn-theme btn-block">Return to form</button>
+								</div>
+							</div>
+						</div>
+						<form id="lostpw-form" class="form-horizontal">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label" for="lostpw-email">E-mail:</label>
+									<div class="controls">
+										<input id="lostpw-email" name="email" class="form-control input-large" type="text" placeholder="Your e-mail address" autofocus>
+									</div>
+									<br />
+								</div>
+
+								<div class="control-group">
+									<div class="controls">
+										<button id="lostpw-submit" name="recover" class="btn btn-theme btn-block">Recover</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div><!-- /lostpw -->
+				</div><!-- /tab-content -->
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal -->
+
+<div class="modal bs-modal-lostpw2" id="lostpw2-modal" tabindex="-1" role="dialog" aria-labelledby="lostpasswordmodal" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="lostpw2">
+						<h3>Lost password</h3>
+						<div class="form-success" style="display: none;">
+							<div class="alert alert-success" role="alert"></div>
+							<div class="control-group">
+								<div class="controls">
+									<button id="lostpw2-continue" class="btn btn-theme btn-block">Continue to sign in</button>
+								</div>
+							</div>
+						</div>
+						<form id="lostpw2-form" class="form-horizontal">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label" for="lostpw2-code">Code:</label>
+									<div class="controls">
+										<input autocomplete="off" id="lostpw2-code" name="code" class="form-control input-large" type="text" placeholder="Your recovery code">
+									</div>
+									<br />
+								</div>
+
+								<div class="control-group">
+									<div class="controls">
+										<button id="lostpw2-submit" name="recover" class="btn btn-theme btn-block">Recover</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div><!-- /lostpw -->
+				</div><!-- /tab-content -->
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal -->
+
+<div class="modal fade bs-modal-register" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="registermodal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="register">
+						<h2><b>Start your 14 day free trial now.</b></h2>
+						<h4>Give TweetSuite a try. We're sure you will love it.</h4>
+						<div class="form-success" style="display: none;">
+							<div class="alert alert-success" role="alert"></div>
+						</div>
+						<form id="register-form" class="form-horizontal">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label" for="register-firstname" style="margin-bottom: 5px;">Your name</label>
+									<div class="controls">
+										<input style="display: inline; width: 49%; height: 40px; font-size: 18px;" id="register-firstname" name="firstname" class="form-control input-large" type="text" placeholder="First name" autocomplete="off" autofocus>
+										<input style="display: inline; width: 49%; height: 40px; font-size: 18px;" id="register-surname" name="surname" class="form-control input-large" type="text" placeholder="Surname" autocomplete="off">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="register-email" style="margin-top: 10px; margin-bottom: 5px;">Your e-mail</label>
+									<div class="controls">
+										<input id="register-email" name="email" class="form-control input-large" type="text" placeholder="name@example.com" autocomplete="off" style="height: 40px; font-size: 18px;">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="register-password" style="margin-top: 10px; margin-bottom: 5px;">Choose a password</label>
+									<div class="controls">
+										<input id="register-password" name="password" class="form-control input-large" type="password" placeholder="Choose a password" autocomplete="off" style="height: 40px; font-size: 18px;">
+									</div>
+									<br />
+								</div>
+
+								<div class="control-group">
+									<div class="controls">
+										<button id="register-submit" name="register" class="btn btn-theme btn-block">Okay, let's get started!</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div><!-- /register -->
+				</div><!-- /tab-content -->
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal -->
+
+<div class="modal fade bs-modal-contact" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contactmodal" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="contact">
+						<h3>Contact</h3>
+						<div class="form-success" style="display: none;">
+							<div class="alert alert-success" role="alert"></div>
+							<div class="control-group">
+								<div class="controls">
+									<button id="contact-return" class="btn btn-theme btn-block">Return to form</button>
+								</div>
+							</div>
+						</div>
+						<form id="contact-form" class="form-horizontal">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label" for="contact-name">Your name:</label>
+									<div class="controls">
+										<input id="contact-name" name="name" class="form-control input-large" type="text" placeholder="Your first and/or last name" autofocus>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="contact-email">E-mail address (optional):</label>
+									<div class="controls">
+										<input id="contact-email" name="email" class="form-control input-large" type="text" placeholder="Your e-mail address">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="contact-department">Department:</label>
+									<div class="controls">
+										<select style="width: 100%;" id="contact-department" class="form-control input-large" name="department">
+												<option value="support">Support</option>
+												<option value="suggestion">Suggestion</option>
+												<option value="security">Security issue</option>
+												<option value="billing">Billing</option>
+												<option value="other">Other</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="control-group">
+									<label class="control-label" for="contact-subject">Subject:</label>
+									<div class="controls">
+										<input id="contact-subject" name="subject" class="form-control input-large" type="text" placeholder="Subject">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="contact-message">Message:</label>
+									<div class="controls">
+										<textarea style="width: 100%;" id="contact-message" name="message" class="form-control input-large" placeholder="Enter your message"></textarea>
+									</div>
+									<br />
+								</div>
+
+								<div class="control-group">
+									<div class="controls">
+										<button id="contact-submit" name="contact" class="btn btn-theme btn-block">Send</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div><!-- /contact -->
+				</div><!-- /tab-content -->
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal -->
+
+<div class="modal fade bs-modal-quote" id="quote-modal" tabindex="-1" role="dialog" aria-labelledby="quotemodal" aria-hidden="true">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade active in" id="quote">
+						<h3>Request quote</h3>
+						<div class="form-success" style="display: none;">
+							<div class="alert alert-success" role="alert"></div>
+							<div class="control-group">
+								<div class="controls">
+									<button id="quote-return" class="btn btn-theme btn-block">Return to form</button>
+								</div>
+							</div>
+						</div>
+						<form id="quote-form" class="form-horizontal">
+							<fieldset>
+								<div class="control-group">
+									<label class="control-label" for="quote-name">Your name</label>
+									<div class="controls">
+										<input id="quote-name" name="name" class="form-control input-large" type="text" placeholder="Your first and last name" autofocus>
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="quote-email">Your e-mail</label>
+									<div class="controls">
+										<input id="quote-email" name="email" class="form-control input-large" type="text" placeholder="Your e-mail address">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="quote-website">Company website</label>
+									<div class="controls">
+										<input id="quote-website" name="website" class="form-control input-large" type="text" placeholder="http://www.example.com">
+									</div>
+								</div>
+								
+								<div class="control-group">
+									<label class="control-label" for="quote-message">Message</label>
+									<div class="controls">
+										<textarea id="quote-message" name="message" class="form-control" type="text" placeholder="Please tell us about your needs"></textarea>
+									</div>
+									<br />
+								</div>
+								
+								<div class="control-group">
+									<div class="controls">
+										<button id="quote-submit" name="quote" class="btn btn-theme btn-block">Request</button>
+									</div>
+								</div>
+							</fieldset>
+						</form>
+					</div><!-- /quote -->
+				</div><!-- /tab-content -->
+			</div><!-- /modal-body -->
+		</div><!-- /modal-content -->
+	</div><!-- /modal-dialog -->
+</div><!-- /modal -->		
+		<!-- Header Wrap -->
+		<section id="home">
+			<div class="headerwrap">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-lg-12">
+							<h3>The all-in-one tool for managing and growing your Twitter accounts</h3>
+							<br>
+						</div>
+
+						<div style="height: 400px; width: 100%; max-width: 800px; margin: auto; float: none; overflow-y: hidden;">
+							
+							<div style="background: #d2d3d5; padding: 2px; border-radius: 18px;">
+								<div style="background: #242424; padding: 2px; border-radius: 15px;">
+									<div style="background: #181818; padding: 20px; border-radius: 15px;">
+										<div style="border: 1px solid #0c0c11; background: url(assets/img/video_poster.png);">
+											<video preload autoplay loop style="width: 100%;" src="assets/img/video.mp4"></video>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+													</div>
+					</div>
+				</div> <!-- /container -->
+			</div><!-- /headerwrap -->
+			
+			<!-- Intro Wrap -->
+			<div id="features" class="intro">
+				<div class="container">
+					<div class="row text-center">
+										<div style="font-size: 19px; font-weight: normal;">Tired of using 3 or more different services? Time for a change.</div>
+					<h1><b>All you need</b> is TweetSuite</h1>
+					<hr>
+					<br>
+					<br>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Account cleanup</h4>
+							<div class="feature-img" style="background: url(assets/img/features/insights.png);"></div>
+							<p class="desc">Remove followers who recently unfollowed you, aren't following back and more.<a href="support/analytics-insights" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Keyword search</h4>
+							<div class="feature-img" style="background: url(assets/img/features/keywordsearch.gif);"></div>
+							<p class="desc">Find new people to follow by using keywords. It's fast, it's easy!<a href="support/analytics-insights" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>@username search</h4>
+							<div class="feature-img" style="background: url(assets/img/features/usernamesearch.png);"></div>
+							<p class="desc">Get a searchable list of followers from a specific user. Use it to grow your own account!<a href="support/analytics-insights" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Find influencers</h4>
+							<div class="feature-img" style="background: url(assets/img/features/filters.png);"></div>
+							<p class="desc">Search in your (or someone else's) audience to home in on valuable users.<a href="support/analytics-insights" class="learn_more">» Learn more</a></p>
+						</div>
+					<!--</div>
+					<div class="row text-center">-->
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Best time to tweet</h4>
+							<div class="feature-img" style="background: url(assets/img/features/activity.png);"></div>
+							<p class="desc">Don't leave this to chance! Maximize your reach by finding the optimum time to post or schedule your tweets.<a href="support/analytics-activity" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Demographics</h4>
+							<div class="feature-img" style="background: url(assets/img/features/demographics.png);"></div>
+							<p class="desc">Get to know your followers by identifying where they come from and which languages they speak.<a href="support/analytics-demographics?q=35" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Engagement analysis</h4>
+							<div class="feature-img" style="background: url(assets/img/features/engagement.png);"></div>
+							<p class="desc">Track engagement levels to make data-driven decisions on what content to publish and when.<a href="support/analytics-overview" class="learn_more">» Learn more</a></p>
+						</div>
+												<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>RSS feeds</h4>
+							<div class="feature-img" style="background: url(assets/img/features/rss.png);"></div>
+							<p class="desc">Link your RSS feeds and let us do the tweeting for you.<a href="support/rss" class="learn_more">» Learn more</a></p>
+						</div>
+																	<!--</div>
+					<div class="row text-center">-->
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Recurring tweets</h4>
+							<div class="feature-img" style="background: url(assets/img/features/rotate.png);"></div>
+							<p class="desc">Periodically repeat tweets on specific days and times. Ideal for randomly tweeting quotes.<a href="support/rotation" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Schedule</h4>
+							<div class="feature-img" style="background: url(assets/img/features/schedule.png);"></div>
+							<p class="desc">Post tweets in the future by scheduling them ahead.<a href="support/scheduling" class="learn_more">» Learn more</a></p>
+						</div>
+																	<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Bulk uploading</h4>
+							<div class="feature-img" style="background: url(assets/img/features/bulk.png);"></div>
+							<p class="desc">Schedule or rotate 1,000 tweets at once with our Bulk Uploader (media and geolocation are supported).<a href="support/scheduling?q=3" class="learn_more">» Learn more</a></p>
+						</div>
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Reports</h4>
+							<div class="feature-img" style="background: url(assets/img/features/report.png);"></div>
+							<p class="desc">Create customized reports about how your Twitter accounts are doing.<a href="support/analytics-reports" class="learn_more">» Learn more</a></p>
+						</div>
+					<!--</div>
+					<div class="row text-center">-->
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3 col-lg-offset-3">
+							<h4>Streams</h4>
+							<div class="feature-img" style="background: url(assets/img/features/streams.png);"></div>
+							<p class="desc">Manage multiple timelines real-time using powerful filters to exclude unwanted noise.</p>
+						</div>
+						<!--<div class="col-lg-3 col-lg-offset-3">
+							<h4>Templates</h4>
+							<div class="feature-img" style="background: url(assets/img/features/templates.png);"></div>
+							<p class="desc">Save your tweets as templates and use them later.</p>
+						</div>-->
+						<div class="feature-box col-sm-6 col-md-4 col-lg-3">
+							<h4>Collaborate</h4>
+							<div class="feature-img" style="background: url(assets/img/features/collaborate.png);"></div>
+							<p class="desc">Create teams and securely share your Twitter accounts with other users.<a href="support/collaboration" class="learn_more">» Learn more</a></p>
+						</div>
+					</div>
+					<br>
+				</div> <!-- /container -->
+			</div><!-- /introwrap -->
+		</section>
+		
+		<!-- Pricing Section -->
+		<section id="pricing">
+			<div class="pricingwrap">
+				<div class="container text-center">
+					<br>
+					<h2>Not sure yet? Our <b>low prices</b> will make you!</h2>
+					<hr><br><br>
+					<div class="row hidden-xs hidden-sm">
+						<div class="col-md-3 col-lg-3" style="width: 215px; padding-left: 0; padding-right: 0; margin-top: 98px;">
+							<div class="panel panel-custom" style="border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+								<div class="panel-body">
+									<table class="table" style="text-align: left;">
+										<tr>
+											<td>Account cleanup & grow</td>
+										</tr>
+										<tr>
+											<td>Analytics & reporting</td>
+										</tr>
+										<tr>
+											<td>Tweeting tools</td>
+										</tr>
+										<tr>
+											<td data-content="You can analyze any account, whether it's yours or not! This is ideal for keeping an eye on the competition.<br /><br /><b>Example:</b><br />With the Premium plan, you may add 50 Twitter accounts of your own + 5 external accounts." class="info-tooltip">External accounts<span style="float: right; line-height: inherit;" class="glyphicon glyphicon-info-sign"></span></td>
+										</tr>
+										<tr>
+											<td data-content="Work together in teams with our collaboration functionality. Various permission levels are possible to restrict the access of a team member." class="info-tooltip">Team members<span style="float: right; line-height: inherit;" class="glyphicon glyphicon-info-sign"></span></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-lg-3" style="padding-left: 0; padding-right: 0;">
+							<div class="panel panel-custom" style="border-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+								<div class="panel-heading" style="border-top-right-radius: 0;">
+									<h3 class="panel-title">Basic</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+										<h2 style="font-size: 20px;">10 accounts</h2>
+									</div>
+									<table class="table">
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<h2 style="font-size: 20px; font-weight: bold; margin-top: 0;">&euro;9<span style="font-size: 15px;">/mo</span></h2>
+									<a id="register-basic" href="#register" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-register">Get started</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-lg-3" style="padding-left: 0; padding-right: 0;">
+							<div class="panel panel-custom" style="border-left: 0; border-right: 0; border-radius: 0;">
+								<div class="panel-heading" style="border-radius: 0;">
+									<h3 class="panel-title">Premium</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+										<h2 style="font-size: 20px;">50 accounts</h2>
+									</div>
+									<table class="table">
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>5</td>
+										</tr>
+										<tr>
+											<td>5 users</td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<h2 style="font-size: 20px; font-weight: bold; margin-top: 0;">&euro;39<span style="font-size: 15px;">/mo</span></h2>
+									<a id="register-premium" href="#register" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-register">Get started</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-lg-3" style="padding-left: 0; padding-right: 0;">
+							<div class="panel panel-custom" style="border-left: 0; border-radius: 0; border-top-right-radius: 4px; border-bottom-right-radius: 4px;">
+								<div class="panel-heading" style="border-radius: 0;">
+									<h3 class="panel-title">Agency</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+										<h2 style="font-size: 20px;">100 accounts</h2>
+									</div>
+									<table class="table">
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td><span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>10</td>
+										</tr>
+										<tr>
+											<td>25 users</td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<h2 style="font-size: 20px; font-weight: bold; margin-top: 0;">&euro;69<span style="font-size: 15px;">/mo</span></h2>
+									<a id="register-agency" href="#register" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-register">Get started</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<br />
+						
+						<b>Do you have more than 100 Twitter accounts?</b> Let us make you a great deal &mdash; <a href="#quote" data-toggle="modal" data-target=".bs-modal-quote">click here to contact us</a>.
+						
+						<br />
+						<br />
+						
+						<div style="font-size: 19px; font-weight: bold;">All plans include a 14 day FREE trial.</div>
+					</div><!-- /row -->
+					<div class="row visible-xs-block visible-sm-block">
+						<div class="col-xs-12">
+							<div class="panel panel-custom">
+								<div class="panel-heading">
+									<h3 class="panel-title">Basic</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+																				<h2 style="font-size: 20px;">&euro;9/mo</h2>
+										<small>14 day free trial</small>
+									</div>
+									<table class="table">
+										<tr>
+											<td>Core functionality <span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>10 Twitter accounts</td>
+										</tr>
+										<tr>
+											<td>Unlimited followers</td>
+										</tr>
+										<tr>
+											<td>Collaboration <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+																				<tr>
+											<td>Professional services <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td>On-location training <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td>Best effort support</td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<a id="register-basic" href="#register" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-register">Register now</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="panel panel-custom">
+								<div class="panel-heading">
+									<h3 class="panel-title">Premium</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+										<h2 style="font-size: 20px;">&euro;39/mo</h2>
+										<small>14 day free trial</small>
+									</div>
+									<table class="table">
+										<tr>
+											<td>Core functionality <span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>50 Twitter accounts</td>
+										</tr>
+										<tr>
+											<td>Unlimited followers</td>
+										</tr>
+										<tr>
+											<td>Collaborate with 5 users</td>
+										</tr>
+																				<tr>
+											<td>Professional services <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td>On-location training <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td>Priority support</td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<a id="register-premium" href="#register" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-register">Register now</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="panel panel-custom">
+								<div class="panel-heading">
+									<h3 class="panel-title">Agency</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+										<h2 style="font-size: 20px;">&euro;69/mo</h2>
+										<small>14 day free trial</small>
+									</div>
+									<table class="table">
+										<tr>
+											<td>Core functionality <span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>100 Twitter accounts</td>
+										</tr>
+										<tr>
+											<td>Unlimited followers</td>
+										</tr>
+										<tr>
+											<td>Collaborate with 25 users</td>
+										</tr>
+																				<tr>
+											<td>Professional services <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td>On-location training <span style="color: red;" class="glyphicon glyphicon-remove"></span></td>
+										</tr>
+										<tr>
+											<td>Priority support</td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<a id="register-agency" href="#register" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-register">Register now</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="panel panel-custom">
+								<div class="panel-heading">
+									<h3 class="panel-title">Enterprise</h3>
+								</div>
+								<div class="panel-body">
+									<div class="the-price">
+										<h2 style="font-size: 20px;">Request quote</h2>
+										<small></small>
+									</div>
+									<table class="table">
+										<tr>
+											<td>Core functionality <span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>Unlimited Twitter accounts</td>
+										</tr>
+										<tr>
+											<td>Unlimited followers</td>
+										</tr>
+										<tr>
+											<td>Custom amount of team members</td>
+										</tr>
+																				<tr>
+											<td>Professional services <span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>On-location training <span style="color: green;" class="glyphicon glyphicon-ok"></span></td>
+										</tr>
+										<tr>
+											<td>Custom support agreements</td>
+										</tr>
+									</table>
+								</div>
+								<div class="panel-footer">
+									<a href="#quote" class="btn btn-theme" data-toggle="modal" data-target=".bs-modal-quote">Request quote</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /container -->
+			</div><!-- /pricingwrap -->
+		</section>
+
+
+		<!-- Divider 2 Section -->
+		<div id="contact-us" class="divider02">
+			<div class="container text-center">
+				<h3>Need help? Let us know.</h3>
+				<a href="#contact" type="button" class="btn btn-lg btn-theme2" data-toggle="modal" data-target=".bs-modal-contact">Contact us</a>
+			</div>
+		</div><!-- /divider02 -->
+		
+				<!-- About Section -->
+		<section id="about">
+			<div class="footerwrap">
+				<div class="container text-center">
+					<h2>The team</h2>
+					<br><br>
+					<div class="row">
+						<div class="col-lg-2">
+							<img style="border-radius: 50%; margin-top: 15px;" src="assets/img/sam.png">
+						</div>
+						<div class="col-lg-10" style="text-align: left;">
+							<h3>Sam Hariri</h3>
+							When I founded TweetSuite, I knew the idea wasn't new. I knew there were big competitors offering a similar service. What motivated me to create TweetSuite? It's simple. Most competitors are either overpriced, lack key functionality or are unintuitive to use. Tackling all these aspects is a massive technical and business challenge, but one we are confident we can take on. Try out TweetSuite and judge by yourself whether we have succeeded!
+						</div>
+					</div><!-- /row -->
+					<br><br>
+					<div class="row">
+						<div class="col-lg-2">
+							<img style="border-radius: 50%; margin-top: 15px;" src="assets/img/cas.png">
+						</div>
+						<div class="col-lg-10" style="text-align: left;">
+							<h3>Cas Hariri</h3>
+							My work for TweetSuite started some time later when resource optimization became a point of focus. When I looked at the technological challenges that had to be overcome, I realized conventional methods would not suffice. Countless hours were invested in developing new algorithms to improve the efficiency of our services. In the end I'm very pleased with the practical implementation, which enables the smooth user experience that our clients love to come back for.
+						</div>
+					</div><!-- /row -->
+				</div><!-- /container -->
+			</div><!-- /pricingwrap -->
+		</section>
+		
+		<!-- Copyright Wrap -->
+		<div class="copywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<center>
+							<p>&copy; Copyright 2017 TweetSuite. KvK: 60951869. Follow us: <a target=_BLANK href="https://twitter.com/tweet_suite"><span class="icon-twitter"></span></p></a>
+						</center>
+					</div>
+				</div><!-- /row -->
+			</div><!-- /container -->
+		</div><!-- /copywrap (copyright) -->
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="assets/js/jquery-2.1.1.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.easing.1.3.js"></script>
+		<script src="assets/js/detectmobilebrowser.js"></script>
+		<script src="assets/js/smoothscroll.js"></script>
+		<script src="assets/js/waypoints.js"></script>
+		<script src="assets/js/main_intro.js"></script>
+		
+		<script>
+		jQuery(document).ready(function() {
+		  $(function() {
+		  
+		  $(".modal").each(
+			function(k, element)
+			{
+			  $(element).on("shown.bs.modal", function(e)
+			  {
+				  console.log(e.relatedTarget);
+				$.ajax({
+					url: "ajax/event?page=intro&e=" + this.id + "&trigger=" + e.relatedTarget.id
+				});
+			  });
+			}
+		  );
+		  
+		  $(".info-tooltip").popover({
+			trigger: "hover",
+			html: true,
+			container: "body",
+			placement: "right"
+		  });
+		  
+		  if(location.hash && location.hash.indexOf("recovery=") === 1)
+		  {
+			  $("#lostpw2-code").val(location.hash.substr(("recovery=").length + 1));
+			  $("#lostpw2-modal").modal("show").addClass("fade");
+			  $("#lostpw2-submit").click();
+			  
+			  location.hash = "";
+		  }
+		  
+		  });
+		});
+		</script>
+		
+				<!--Start of Tawk.to Script-->
+		<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/56545fa350e84b53668c6fa0/default';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+		</script>
+		<!--End of Tawk.to Script-->
+		
+				
+		<script type="text/javascript">
+		var google_conversion_id = 1014022910;
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+		<div style="display:none;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1014022910/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
+		</noscript>
+		
+		<script src="https://tweetsuite.co/usertrack/tracker.js" integrity="sha384-HANsfWTGFp50J0b5SVQ+s20WX4w+D/fPISNTau7KrM4FVut2bvq88nDif4Nj4Rw4" crossorigin="anonymous"></script>
+	</body>
+</html>

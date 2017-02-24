@@ -1,0 +1,16 @@
+  Security #​{{::display_hashtag}} Security #​{{::display_hashtag}} {{article.article.pretty_date}} {{article.metrics.page_views}} views   Edit Post{{circ_link.title}} New Mac Malware Found Hiding In A Fake Adobe Flash Update{{article.article.images.featured.caption}}Most Read{{contrib_block.display_advoice_brand}} {{contrib_block.display_voice_type}}{{contrib_block.display_author.name}}Voice Lee Mathews ,  {{contrib_block.display_author.type}}   Contributor {{contrib_block.display_author.type}} Contributor   Opinions expressed by Forbes Contributors are their own.Full BioRecent PostsPopular PostsFull profile →'">The author is a Forbes contributor. The opinions expressed are those of the writer.Loading ...Loading ...This story appears in the {{article.article.magazine.pretty_date}} issue of {{article.article.magazine.pubName}}. SubscribeSuppose you're surfing and suddenly you see a notification that software on your computer needs to be patched. Sounds urgent, right? You don't want to be wandering the Web with outdated software, and you might be inclined to click through the update process without a second though.
+
+
+Image: Pexels
+
+That's exactly what the criminals behind a new malware campaign targeting Mac users are counting on. Researchers found the MacDownloader malware hiding inside a fake Adobe Flash update installer.
+Run it, and midway through the bogus installation process you'll be alerted to the discovery of some nasty adware on your Mac. There's no adware, of course. It's just the next step in the scam.
+
+
+
+Image: Intego
+
+Click to "remove" the adware, and you'll be prompted to enter your admin password. Once MacDownloader has your password it tries to establish a connection to a remote server so that it can transmit data. What kind of data? The contents of your Keychain: usernames, passwords, PINs, credit card numbers... whatever private information a Mac user has stored in it.
+
+Fortunately, MacDownloader doesn't appear to pose a major risk to Mac users at the moment. The remote server it tries to connect to has been taken offline, so there's nothing controlling its activities at the moment. It's quite likely, however, that its authors will fix the flaws that security researchers discovered in its code (and poorly-written dialogues) and release an updated version.
+How To Protect YourselfStart Gallery Page {{article.article.page + 1}} / {{article.article.pages.length}} Continue {{article.article.calledOutCommentCount||''}}Comment on this story Print Report Corrections Reprints & PermissionsTrending on Forbes {{channel_name}}false 

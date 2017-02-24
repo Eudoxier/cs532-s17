@@ -1,0 +1,816 @@
+
+
+
+
+
+
+
+M³
+CLL
+Events
+Whitepapers
+The Next Platform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Data Center
+            
+
+                Software
+            
+
+                Security
+            
+
+                Transformation
+            
+
+                DevOps
+            
+
+                Business
+            
+
+                Personal Tech
+            
+
+                Science
+            
+
+                Emergent Tech
+            
+
+                Bootnotes
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            Alerts
+                        
+
+
+
+                            Newsletters
+                        
+
+
+
+
+
+Florida Man jailed for 4 years after raking in a million bucks from spam
+
+
+
+Jun-OH-NO! NASA's Jupiter probe in busted helium-valve drama
+
+
+
+Paper factory fired its sysadmin. He returned via VPN and caused $1m in damage. Now jailed
+
+
+
+BlackBerry sued by hundreds of staffers 'fooled' into quitting
+
+
+
+
+
+
+
+                            Servers
+                        
+
+
+
+                            HPC
+                        
+
+
+
+                            Cloud
+                        
+
+
+
+                            Storage
+                        
+
+
+
+                            Networks
+                        
+
+
+
+                            Virtualization
+                        
+
+
+
+                            BOFH
+                        
+
+
+
+
+
+UK Snoopers' Charter gagging order drafted for London Internet Exchange directors
+
+
+
+Yee-haw! It's the Friday storage round-up
+
+
+
+Brit watchdog spanks Microsoft, Amazon, Apple into promising fairer cloud contracts
+
+
+
+Did Oracle just sign tape's death warrant? Depends what 'no comment' means
+
+
+
+
+
+
+
+
+Microsoft makes cheeky bid for MongoDB devs on Azure security grounds
+
+
+
+Microsoft ups Surface slab prices for Brits. Darn weak pound, eh?
+
+
+
+Dirty data, flogged cores: YES, Microsoft SQL Server R Services has its positives
+
+
+
+Talk of tech innovation is bullsh*t. Shut up and get the work done – says Linus Torvalds
+
+
+
+
+
+
+
+
+Florida Man jailed for 4 years after raking in a million bucks from spam
+
+
+
+Paper factory fired its sysadmin. He returned via VPN and caused $1m in damage. Now jailed
+
+
+
+Probe President Trump and his crappy Samsung Twitter-o-phone, demand angry congressfolk
+
+
+
+Smash up your kid's Bluetooth-connected Cayla 'surveillance' doll, Germany urges parents
+
+
+
+
+
+
+
+
+Hyperconverged market gets hyper-competitive as new riders enter field
+
+
+
+Cloud industry body sets up new data protection code
+
+
+
+World to spend US$2.4 TRILLION on tech in 2017
+
+
+
+Brought to you by UK.gov: 'Most ambitious programme of change of any government anywhere in the world'
+
+
+
+
+
+
+
+
+GitLab invokes the startup defence to explain data loss woes
+
+
+
+With nearly 1m users on its books, DigitalOcean touts load balancers
+
+
+
+Continuous Lifecycle London: More workshops, more speakers
+
+
+
+Why software engineers should ditch Silicon Valley for Austin
+
+
+
+
+
+
+
+                            Policy
+                        
+
+
+
+                            The Channel
+                        
+
+
+
+
+
+BlackBerry sued by hundreds of staffers 'fooled' into quitting
+
+
+
+Round-filed 'paperless' projects: Barriers remain to Blighty's Digital NHS
+
+
+
+UK recruitment biz Coal Intelligent Technology ceases trading
+
+
+
+Installing disks is basically LEGO, right? This admin failed LEGO
+
+
+
+
+
+
+
+
+Huge if true: iPhone 8 will feature 3D selfies, rodent defibrillator
+
+
+
+Nokia's 3310 revival – what's NEXT? Vote now
+
+
+
+Standards Australia might send Tesla's PowerWalls outside
+
+
+
+Vinyl, filofaxes – why not us too, pleads Nokia
+
+
+
+
+
+
+
+                            SPB
+                        
+
+
+
+                            Geek's Guide
+                        
+
+
+
+
+
+Jun-OH-NO! NASA's Jupiter probe in busted helium-valve drama
+
+
+
+Dead cockroaches make excellent magnets – now what are we supposed to do with this info?
+
+
+
+Baby supernova spotted, just three hours old and a real cutie
+
+
+
+Get it while it's hot: NASA's Space Poo contest winners wipe up $30k
+
+
+
+
+
+
+
+                            Artificial Intelligence
+                        
+
+
+
+                            Internet of Things
+                        
+
+
+
+
+
+Errors in Australia's Centrelink debt recovery system were inevitable
+
+
+
+What does a complex AI model look like? Here's some Friday eye candy from UK biz Graphcore
+
+
+
+Oracle's IoT play: Teach business apps and things to talk together
+
+
+
+THE SCHMIDT HITS THE BAN: Keep your gloves off AI, military top brass
+
+
+
+
+
+
+
+                            Verity Stob
+                        
+
+
+
+
+
+A webcam is not so much a leering eye as the barrel of a gun
+
+
+
+FAKE BREWS: America rocked by 'craft beer' scandal allegations
+
+
+
+Nul points for Ukraine's Eurovision ticket site fail
+
+
+
+Kings College London bods recruit members for penis ring study
+
+
+
+
+
+
+
+More like this
+
+
+Anti-Malware
+
+
+Machine Learning
+
+
+
+
+
+
+Security
+
+
+
+
+
+Sophos to assimilate Invincea's intelligent machine tech to fight malware
+Machine learning IP snapped up in $100m deal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        8 Feb 2017 at 10:24,
+                    
+John Leyden
+
+
+
+
+Sophos has announced a deal to acquire the core technologies of anti-malware protection outfit Invincea for $100m plus up to $20m, dependent on first-year revenues.
+Invincea makes a line of signature-less endpoint procession technologies that rely on machine learning and behavioural monitoring to block malware.
+
+
+
+
+Sophos plans to integrate Invincea's tech into the Sophos Central endpoint product line, before releasing revamped products later his year. The plan parallels the integration of SurfRight's technology into Sophos's product line following a smaller December 2015 acquisition.
+In the 12 months to 31 March 2016, Invincea recorded billings of $13.4m, revenue of $9.8m and a loss before tax of $11.8m.
+Invincea Labs, a division of Invincea that has been separately managed and operated since 2010, will be spun out prior to the acquisition and does not form part of this transaction.
+Sophos expects to complete the acquisition around the end of this fiscal year. It anticipates the deal to be "broadly neutral" to its balance sheet in its first year before adding to its revenues thereafter.
+Sophos CEO Kris Hagerman commented: "Invincea is leading the market in machine learning-based threat detection with the combination of superior detection rates and minimal false positives. Invincea will strengthen Sophos's leading next-gen endpoint protection with complementary predictive defences that we believe will become increasingly important to the future of endpoint protection and allow us to take full advantage of this significant new growth opportunity." ®
+
+
+
+
+                        Tips and corrections
+                    
+
+
+
+3
+                        Comments
+                    
+
+
+
+
+More from The Register
+
+
+
+
+
+
+Sophos update borks systems at London NHS trust
+
+Updated
+                            Rubber gloves on as techies probe root cause
+                        
+
+
+                                13 Comments
+                            
+
+
+
+
+
+
+
+
+Security FUD and malware outbreaks boost Sophos' coffers
+
+                            Targeting the 'underserved mid-market' pays off nicely
+                        
+
+
+                                2 Comments
+                            
+
+
+
+
+
+
+
+
+Despite the spiel, we're still some decades from true anti-malware AI
+
+Opinion
+                            Vendors stuff jargon into antivirus marketing mix
+                        
+
+
+                                35 Comments
+                            
+
+
+
+
+
+
+
+
+
+
+Sophos Windows users face black screens after false positive snafu
+
+                            Black is the new BSOD
+                        
+
+
+                                49 Comments
+                            
+
+
+
+
+
+
+
+
+Google to cough up $20m after Chrome rips off anti-malware patents
+
+                            Actual residents of Texas Eastern District prevail
+                        
+
+
+                                21 Comments
+                            
+
+
+
+
+
+
+
+
+Google pays $100k to anti-malware crusader Giovanni Vigna
+
+                            Prolific malware murderer bags Mountain View's Security, Privacy and Anti-Abuse award
+                        
+
+
+
+
+
+
+
+
+
+
+Whitepapers
+
+
+
+Nimble Storage Vision Drives to Leadership Position in Gartner Magic Quadrant
+
+                    Pioneering the use of predictive analytics and machine learning capabilities across the infrastructure stack.
+                
+
+
+
+Your top 5 cloud Data challenges solved
+
+                    The cloud s changing everything, Its transforming IT orgnisations with agility and efficiency like never before, enabling them to realise new IT as a service delivery models.
+                
+
+
+
+Work and the modern content platform
+
+                    For tech leaders ready to improve the way they manage information.
+                
+
+
+
+Build scalable and secure public cloud services
+
+                    Scalability, flexibility, and efficiency are essential to differentiating your business.
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+Most read
+
+
+
+
+Zuckerberg thinks he's cyber-Jesus – and publishes a 6,000-word world-saving manifesto
+                
+
+
+
+
+
+'I'm innocent!' says IT contractor on trial after Office 365 bill row spiraled out of control
+                
+
+
+
+
+
+New Royal Navy Wildcat helicopters can't transmit vital data
+                
+
+
+
+
+
+Installing disks is basically LEGO, right? This admin failed LEGO
+                
+
+
+
+
+
+UK Snoopers' Charter gagging order drafted for London Internet Exchange directors
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Spotlight
+
+
+The Register's guide to protecting your data when visiting the US
+
+
+
+Despite the spiel, we're still some decades from true anti-malware AI
+
+
+
+Honeypots: Free psy-ops weapons that can protect your network before defences fail
+
+
+
+Cyber-spying, leaking to meddle in foreign politics is the New Normal
+
+
+
+Security hardened, pah! Expert doubts Kaymera's mighty Google's Pixel
+
+
+
+How to secure MongoDB – because it isn't by default and thousands of DBs are being hacked
+
+
+
+Because I'm bad, I'm bad, Shamoon: PC wiper tried to shut down Saudi snapshot defences
+
+
+
+Top cop: Strap Wi-Fi jammers to teen web crims as punishment
+
+
+
+Sponsored links
+
+All-Flash Arrays - A flash of brilliance or just a flash in the pan? Have your say in our reader survey
+
+Sign up to The Register to receive newsletters and alerts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Follow us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+More content
+
+Subscribe to newsletter
+Top 20 stories
+Week’s headlines
+Archive
+Webcasts
+
+
+
+About us
+
+Privacy
+Company info
+Advertise with us
+Syndication
+Send us news tips
+
+
+
+The Register
+
+                Biting the hand that feeds IT © 1998–2017
+
+            
+
+                Independent news, views, opinions and reviews on the latest in the IT industry. Offices in London, San Francisco and Sydney.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+

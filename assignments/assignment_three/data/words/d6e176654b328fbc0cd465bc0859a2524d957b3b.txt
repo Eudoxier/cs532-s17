@@ -1,0 +1,649 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product
+Customers
+Resources
+Company
+
+
+
+Blog
+Contact
+Support
+Request a Demo
+ 
+
+
+
+
+
+
+
+
+Our Platform
+Cloud Access Security Broker
+
+
+
+
+
+
+
+The Latest
+Forrester Wave Ranks CASB Vendors
+
+
+
+
+
+
+
+Contact Us
+Talk to a Cloud Enablement Specialist
+
+
+
+
+
+
+The Skyhigh Platform
+Featured Solutions
+
+Visibility
+Threat Protection
+Compliance
+Data Security
+
+
+ Featured Products
+
+Skyhigh for Shadow IT
+Skyhigh for Office 365
+Skyhigh for Box
+Skyhigh for Salesforce
+Skyhigh for Slack
+Skyhigh for Amazon Web Services
+Skyhigh for Custom Applications
+Skyhigh for ServiceNow
+Skyhigh for Dropbox
+Skyhigh for Google Drive
+
+
+ Industry Solutions
+
+Financial Services
+Government
+Healthcare
+Manufacturing
+Education
+
+
+ 
+
+Resources
+
+Guides & Reports
+Case Studies
+Cheat Sheets
+Videos
+Datasheets
+Slideshares
+Chalktalk Videos
+Webcasts
+Templates
+
+
+ Cloud Security University
+
+What is a Cloud Access Security Broker (CASB)?
+What is a Cloud Security Gateway (CSG)?
+What is Shadow IT?
+Is the Cloud Secure?
+What is a Cloud Service Broker?
+Cloud Computing Trends 2017
+Tokenization vs Encryption
+IT Security in the Age of Cloud
+Custom Applications and IaaS Trends 2017
+
+
+ Cloud Adoption Report
+On-Demand Webcasts
+Blog
+CloudTrust Program
+Compliance Center
+Skyhigh Cloud Security Labs
+ 
+
+About Skyhigh
+
+Leadership
+Board of Directors
+Investors
+
+
+ Press Center
+Partners
+Cryptography Advisory Board
+ Careers
+Contact
+Events
+Support
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product
+Customers
+Resources
+Company
+
+
+
+
+Blog
+Contact
+Support
+Request a Demo
+ 
+
+
+
+
+
+
+
+
+Our Platform
+Cloud Access Security Broker
+
+
+
+
+
+
+
+The Latest
+Forrester Wave Ranks CASB Vendors
+
+
+
+
+
+
+
+Contact Us
+Talk to a Cloud Enablement Specialist
+
+
+
+
+
+
+The Skyhigh Platform
+Featured Solutions
+
+Visibility
+Threat Protection
+Compliance
+Data Security
+
+
+ Featured Products
+
+Skyhigh for Shadow IT
+Skyhigh for Office 365
+Skyhigh for Box
+Skyhigh for Salesforce
+Skyhigh for Slack
+Skyhigh for Amazon Web Services
+Skyhigh for Custom Applications
+Skyhigh for ServiceNow
+Skyhigh for Dropbox
+Skyhigh for Google Drive
+
+
+ Industry Solutions
+
+Financial Services
+Government
+Healthcare
+Manufacturing
+Education
+
+
+ 
+
+Resources
+
+Guides & Reports
+Case Studies
+Cheat Sheets
+Videos
+Datasheets
+Slideshares
+Chalktalk Videos
+Webcasts
+Templates
+
+
+ Cloud Security University
+
+What is a Cloud Access Security Broker (CASB)?
+What is a Cloud Security Gateway (CSG)?
+What is Shadow IT?
+Is the Cloud Secure?
+What is a Cloud Service Broker?
+Cloud Computing Trends 2017
+Tokenization vs Encryption
+IT Security in the Age of Cloud
+Custom Applications and IaaS Trends 2017
+
+
+ Cloud Adoption Report
+On-Demand Webcasts
+Blog
+CloudTrust Program
+Compliance Center
+Skyhigh Cloud Security Labs
+ 
+
+About Skyhigh
+
+Leadership
+Board of Directors
+Investors
+
+
+ Press Center
+Partners
+Cryptography Advisory Board
+ Careers
+Contact
+Events
+Support
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Product
+
+The Skyhigh Platform
+Featured Solutions
+
+Visibility
+Threat Protection
+Compliance
+Data Security
+
+
+Featured Products
+
+Skyhigh for Shadow IT
+Skyhigh for Box
+Skyhigh for Dropbox
+Skyhigh for Google Drive
+Skyhigh for Salesforce
+Skyhigh for ServiceNow
+Skyhigh for Office 365
+
+
+Industry Solutions
+
+Financial Services
+Government
+Healthcare
+Manufacturing
+Education
+
+
+
+
+Customers
+Resources
+
+Resources
+
+Guides & Reports
+Case Studies
+Cheat Sheets
+Videos
+Datasheets
+Slideshares
+Chalktalk Videos
+Webcasts
+Templates
+
+
+Cloud Security University
+
+What is a Cloud Access Security Broker (CASB)?
+What is Shadow IT?
+Is the Cloud Secure?
+What is a Cloud Service Broker?
+Tokenization vs Encryption
+CSA Report
+
+
+Cloud Adoption Report
+Blog
+CloudTrust Program
+Compliance Center
+Cloud Security Labs
+
+
+Company
+
+About Skyhigh
+
+Leadership
+Board of Directors
+Investors
+
+
+Press Center
+Partners
+Cryptography Advisory Board
+Careers
+Events
+Contact
+Support
+
+
+
+
+
+
+
+
+
+
+ 
+
+Prasida Menon
+
+ @pmenonkp
+
+
+
+
+
+
+
+
+ 
+
+How Data Loss Prevention (DLP) Technology Works
+Data loss prevention solutions are growing in popularity as enterprises look for ways to reduce...
+By Prasida Menon | December 2, 2016
+
+
+
+
+ 
+
+Can Cyber-Attacks Be Predicted?
+According to the Global Economic Crime Survey 2016 published by PwC, cybercrime is now the...
+By Prasida Menon | August 22, 2016
+
+
+
+
+ 
+
+What is a Salt and How Does It Make Password Hashing More Secure?
+LinkedIn’s massive data breach of 2012 continues to be a source of agony for the...
+By Prasida Menon | July 20, 2016
+
+
+
+
+ 
+
+Behind the Curtains: The Data Science Powering Cloud Threat Protection Part 3
+For earlier posts in this series, see: part 1 and part 2 The deadline for...
+By Prasida Menon | May 31, 2016
+
+
+
+
+ 
+
+272 Million Password Dump Highlights Need for Strong, Unique Passwords
+With the recent password dump of 272 million email credentials including Gmail, Hotmail, Microsoft, Yahoo...
+By Prasida Menon | May 17, 2016
+
+
+
+
+ 
+
+Data Integrity: The Next Trend in Cyber Attacks?
+…The most destructive scenarios involve cyber actors launching several attacks on our critical infrastructure at...
+By Prasida Menon | March 4, 2016
+
+
+
+
+ 
+
+Is UEBA a Feature or a Product?
+According to a 2015 report by Mandiant, the average targeted malware compromise was present for...
+By Prasida Menon | January 22, 2016
+
+
+
+
+ 
+
+Insider Threat Detection – Privileged User Threats
+2015 was a watershed year for cybercrime, and what startled many observers was that a...
+By Prasida Menon | January 6, 2016
+
+
+
+
+ 
+
+Behind the Curtains: The Data Science Powering Cloud Threat Protection
+Security breaches have risen by 48% in the last year according to the IDG CSO...
+By Prasida Menon | December 10, 2015
+
+
+
+
+ 
+
+How to Catch a Data Thief by Inspecting Their Cloud Usage
+A recent study by Juniper Research suggests that with such rapid digitization of consumers’ lives...
+By Prasida Menon | November 16, 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+English
+
+日本語
+
+
+
+
+
+
+
+
+Cloud Compliance
+
+HIPAA Compliance
+FISMA Compliance
+GDPR Compliance
+ITAR Compliance
+FIPS 140-2 Compliance
+Sarbanes-Oxley Compliance
+GLBA Compliance
+FITARA Compliance
+PCI DSS Compliance
+
+
+Solutions
+
+Skyhigh Visibility
+Skyhigh Threat Protection
+Skyhigh Compliance
+Skyhigh Data Security
+Cloud Data Loss Prevention
+Cloud Encryption
+
+
+Featured Resources
+
+What is a Cloud Access Security Broker?
+What is a Cloud Security Gateway?
+What is Shadow IT?
+Tokenization vs Encryption
+How Safe is My Data in Office 365?
+Office 365 Benefits
+SharePoint Online Security Best Practices
+OneDrive Security Best Practices
+Salesforce Data Security Best Practices
+Advantages of the Cloud
+Cloud Computing Trends 2017
+Cloud Computing Security Risks
+Top Data Loss Prevention Tools?
+Incident Response Plan Template
+Most Common Passwords
+Information Rights Management (IRM)?
+Cloud Usage Statistics
+Azure vs AWS vs Google
+Top Cyber Security Companies and Vendors
+Box Security Best Practices
+What Is HIPAA Security Rule and Privacy Rule?
+HIPAA Violations Examples and Cases
+Top 5 HIPAA-Compliant Cloud Storage Services
+CISM vs CISSP
+Top Cloud Security Vendors
+225 IT Interview Questions
+200 IT Security Interview Questions
+
+
+ 
+
+
+
+
+
+Copyright © 2017 Skyhigh Networks
+Blog
+Careers
+Security
+Terms
+Privacy
+Contact
+Sitemap
+ 
+
+
+
+
+
+
+
+
+
+
+

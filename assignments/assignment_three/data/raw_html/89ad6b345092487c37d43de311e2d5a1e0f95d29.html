@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+	        <title>PatentBuddy</title><meta http-equiv="X-UA-Compatible" content="IE=9" />
+    		<base href='http://www.patentbuddy.com/'>		
+    
+			<meta name="keywords"
+				content="patents, patent, patent attorney, patent agent, inventors, patent lawyers,
+					patent law, patent searches, patent search, patent application, patent analytics, patent
+					agent jobs, patent attorney jobs">
+			
+			<meta name="description"
+				content="Patent Buddy offers a free search of patents, inventors, and current
+				patent owners. Over 250,000 people use our patent analytics each month. Sign up Today!">
+			
+		    <link type='text/css' href='style/pbstyle/modal/basic.css'	rel='stylesheet' media='screen' />
+		    <link rel="Stylesheet" href="style/pbstyle/loginbox.css"	type="text/css"  />
+    		<link rel="stylesheet" href="style/pbstyle/home_screen.css">
+    		<link rel="stylesheet" href="style/pbstyle/select2.css">
+    
+			<script src="scripts/jquery/jquery-1.6.4.min.js"></script>
+			
+		   	<script type="text/javascript" src="scripts/commonUtil.js"></script>
+			<script type='text/javascript' src='scripts/modal/jquery.js'></script>
+			<script type='text/javascript'
+					src='scripts/modal/jquery.simplemodal.js'></script>
+			<script type='text/javascript' src='scripts/modal/basic.js'></script>
+			
+
+
+
+
+	<link rel="shortcut icon" type="image/x-icon" href='http://www.patentbuddy.com/pb.ico'/>
+	
+
+			
+	<!--[if lt IE 9]>
+        <link href="style/pbstyle/modal/Styleie.css" rel="stylesheet" />
+        <script src="scripts/modal/html5shiv.js"></script>
+    <![endif]-->
+    <style type="text/css">
+    
+    .simplemodal-container{
+      height: 318px;
+    }
+  .span{
+  	font-size: 13px;
+  }
+  
+  /* HTML */
+html { font-family: Arial, Helvetica, sans-serif; color: #333; background: url(style/pbnewstyles/images/main-bg-small.png) repeat-x; }
+  
+  /* LOGO */
+div#logo { float: left; width: 220px; height: 22px; padding: 11px; text-indent: -99999px; background: url(images/patent-buddy-logo-01.png) 50% 50% no-repeat; }
+div#logo a { display: block; width: 128px; height: 22px; }
+  
+    </style>
+
+	<script type="text/javascript">
+		window.onunload = function(){};
+		$(document).ready(function(){
+			$("input").attr("autocomplete","off");			
+		});
+		var clickedCount = 0;
+
+		function searchAction() {
+			if(!validateSearchBox()) {
+    			return false;
+    		}
+    		var contextPath = "";  
+        	var searchValue1= document.getElementById('Text1').value;
+        	var searchFor= document.getElementById('include-firms').value;
+        	
+        	if(searchValue1.length < 1){
+        		document.getElementById('errorDiv').style.display='block';
+        		document.getElementById('errorMsg').innerHTML="Please Provide Text to Search";
+        		return false;
+        	} else if(searchFor == "technology" && searchValue1.replace(/^\s*/, "").replace(/\s*$/, "").length<4){
+        		document.getElementById('errorDiv').style.display='block';
+        		document.getElementById('errorMsg').innerHTML="Search Text Too Short. Please Provide Minimum 4 Characters";
+        		return false;
+            	}
+        	else if(searchValue1.length<2){
+        		document.getElementById('errorDiv').style.display='block';
+        		document.getElementById('errorMsg').innerHTML="Search Text Too Short. Please Provide Minimum 2 Characters";
+        		return false;
+        	}
+        	else if(document.getElementById('errorDiv').style.display='block'){
+      		  document.getElementById('errorDiv').style.display='none';
+        	}
+        	return true;    		
+    	}
+
+		function refreshSearchDropDown(that) {			
+			if(document.getElementById('errorDiv').style.display='block'){
+				document.getElementById('errorDiv').style.display='none';
+				return false;
+			}
+		}
+    
+	function onPressEnter(evt) {
+		
+		var keyCode = evt.keyCode ? evt.keyCode : evt.which ? evt.which : evt.charCode;
+		if (keyCode == 13) {
+			searchAction();
+			return false;
+		}
+		document.getElementById('errorDiv').style.display='none';
+		document.getElementById('searchDiv').className='SearchPatentOwner';
+		return true;
+		
+	}	
+	function openTAndCPopup(){
+		var tAndCWindow = window.open("termsandcondition.jsf","tAndC","width=550,height=280,toolbar=no,menubar=no,resizable=yes,scrollbars=yes");
+		tAndCWindow.focus();
+	}
+	function openHelp(){
+		var tAndCWindow = window.open("help-function.html","tAndC","width=550,height=280,toolbar=no,menubar=no,resizable=yes,scrollbars=yes");
+		tAndCWindow.focus();
+	}
+	
+    function onSubmit(){
+    var selectMenu =document.getElementById('selectmenu').value;    
+    var fp=selectMenu;
+        if(selectMenu != "Inventor")
+        {
+            if(selectMenu=='Vendor'){
+            	selectMenu="mode=attorney&loginType=firm";
+            }  
+            else{
+        		selectMenu="mode=attorney";
+            }
+        }  
+        else{
+        	selectMenu="mode=inventor";
+        }     
+        var signIn=document.getElementById('sign_in');
+        signIn.setAttribute("onclick", "this.form.action='admin/j_acegi_security_check?"+selectMenu+"';this.form.submit();");    
+		if(fp !="Inventor")
+		{
+			if(fp=="Vendor")
+			{
+				fp="firm";
+			}
+			else if(fp=="Research")
+			{
+				fp="researcher";
+			}
+			
+			else
+			{
+				fp="attorney";
+			}
+		}	
+		else{
+			fp="inventer";
+		}
+			
+         var forgotPassward=document.getElementById('forgot_pass');
+        forgotPassward.href="trouble_login.jsf";
+
+
+         }
+    function onforgotPassward(){
+        var selectMenu =document.getElementById('selectmenu').value;    
+            if(selectMenu != "Inventor")
+            {
+                if(selectMenu=='Vendor'){
+                	selectMenu="mode=attorney&loginType=firm";
+                }  
+                else{
+            		selectMenu="mode=attorney";
+                }
+            }  
+            else{
+            	selectMenu="mode=inventor";
+            }     
+                
+         }
+        
+    	function pressSearchButton(evt) {    		
+			var keyCode = evt.keyCode ? evt.keyCode : evt.which ? evt.which : evt.charCode;
+			
+			
+			if($.trim($(".searchTextCointer").val()) != '') {
+				$("#errorDiv").hide();	
+			}
+			if (keyCode == 13) {
+				if(!validateSearchBox()) {
+	    			return false;
+	    		}
+				document.getElementById('pagerGo').click();
+				return false;		
+			}
+			
+			return true;
+		}
+		function validateSearchBox() {
+			var selectedType = $("#include-firms").val();
+			
+			var searchBox = $(".searchTextCointer");
+			var searchText = $.trim(searchBox.val());
+			if(searchText == '') {				
+				searchBox.val("");
+				if(selectedType == "patent") {
+					$('#errorMsg').text('Please Provide Patent Number to Search');	
+				} else {
+					$('#errorMsg').text('Please Provide Text to Search');
+				}
+				$("#errorDiv").show();				
+				return false;
+			} else if(selectedType == 'patent') {
+				if(!(/^(0|[0-9a-z](\,|\/|\-|\w|\d)*)$/i.test(searchText))) {
+					$('#errorMsg').text('Please provide valid Patent Number');
+					$("#errorDiv").show();
+					return false;
+				}
+			}
+			return true;
+		}
+
+    	$(document).ready(function(){
+    		
+    		  if($.browser.msie == true) {
+    			  $(".hidden-label").css("display","block");
+    		  }else{
+	    		$('#quickSignup\\:Text1first').attr("placeholder","First Name");
+	    		$('#quickSignup\\:Text1last').attr("placeholder","Last Name");
+	    		$('#quickSignup\\:Text1email').attr("placeholder","Email");    		
+	    		$('#quickSignup\\:Text1pass').attr("placeholder","Password (minimum 6 characters)");
+    		  }
+    		  
+    		  $('.basic').click(function (e) {
+    	    		$('#basic-modal-content').modal();
+    	    		return false;
+    	    	});
+    		
+    	});
+    	function validate(){
+    		var fieldRequired = false; 
+    		$('.required').each(function(i, obj) {
+    			if(!fieldRequired){
+	    				if($.trim($(obj).attr('value')) == ""){
+	    				alert("Please Enter required fields.");
+	    				$(obj).focus();
+	    				$(obj).val("");
+	    				fieldRequired = true;
+    				}
+    			}
+        	});
+    		
+    		if(fieldRequired){
+    			return false;
+    		}else{
+    			if (emailCheck($('#quickSignup\\:Text1email').val())==false){
+					alert("Please enter a valid email address.");
+					$('#quickSignup\\:Text1email').focus();
+					return false;
+				}
+    			if ($('#quickSignup\\:Text1pass').val().length < 6){
+					alert("Password should be of minimum 6 characters.");
+					$('#quickSignup\\:Text1pass').focus();
+					return false;
+				}
+    			if(clickedCount == 0 ){
+    				document.getElementById('quickSignup:idQuickRegistration').click();
+    			}
+    			clickedCount++;
+    		}
+    	}
+    	
+    	
+    	
+    	
+    </script>
+    
+    
+    	</head>
+
+    <body>
+    
+    	<header>
+				<div id="logo"><a href="#">PatentBuddy</a>
+				<!-- <span style="color: white;">A Black Hills IP Company</span> --></div>
+				<ul>
+					<li><a class="basic" id="idSignInText" href="javascript:void(0)">Sign In</a></li>
+					<li><a href="pages/planPricingWithFeatures.jsf">Plans &amp; Pricing</a></li>
+				</ul>
+		</header>
+    
+        <div class="wrapper">
+        
+						<section class="headline">
+								<h2><em>It's easy to understand</em> what's going on with your patents.</h2>
+								<p>Patent Buddy offers advanced analytics to help you gain insight into patents, patent owners and inventors.</p>
+								<p>Sign up today and discover why over <span class="green">250,000</span> people currently use Patent Buddy as a patent analytics resource.</p>
+						</section>
+
+						<section class="join group">
+								<img src="style/pbstyle/images/home/screenshots.png" class="right"/>
+								<div class="signup left">
+										<h3>Join now!</h3>
+												<form id="quickSignup" name="quickSignup" method="post" action="/home.jsf;jsessionid=AC9C730206DE207E988CAE4E93000C94" enctype="application/x-www-form-urlencoded">
+														 <span id="quickSignup:Text1firstLabel" style="display:none;font-size:15px;" class="hidden-label span">First Name</span>
+                    									 <input id="quickSignup:Text1first" name="quickSignup:Text1first" type="text" value="" maxlength="60" class="textfield searchText required" />
+                    									 
+                    									 <span id="quickSignup:Text1lastLabel" style="display:none;font-size:15px;" class="hidden-label span">Last Name</span>
+                    									<input id="quickSignup:Text1last" name="quickSignup:Text1last" type="text" value="" maxlength="60" class="textfield searchText required" />
+                    									
+                    									 <span id="quickSignup:Text1emailLabel" style="display:none;font-size:15px;" class="hidden-label span">Email</span>
+                    									<input id="quickSignup:Text1email" name="quickSignup:Text1email" type="text" value="" class="textfield searchText required" />
+                    									
+                    									 <span id="quickSignup:Text1passLabel" style="display:none;font-size:15px;" class="hidden-label span">Password (minimum 6 characters)</span>
+                    									<input type="password" id="quickSignup:Text1pass" name="quickSignup:Text1pass" class="textfield searchText required" />
+                    									
+                    									
+                    									
+	                    									<button class="btn-submit" value="JOIN NOW" onclick="if(!validate()) return false; " style="cursor:pointer">
+																Join Now
+																<em>No credit card required</em>
+															</button>	
+														
+														<a href="#" onclick="clear_quickSignup();if(window.getScrolling!=undefined){document.forms['quickSignup'].elements['autoScroll'].value=getScrolling();}document.forms['quickSignup'].elements['quickSignup:_link_hidden_'].value='quickSignup:idQuickRegistration';if(document.forms['quickSignup'].onsubmit){var result=document.forms['quickSignup'].onsubmit();  if( (typeof result == 'undefined') || result ) {document.forms['quickSignup'].submit();}}else{document.forms['quickSignup'].submit();}return false;" id="quickSignup:idQuickRegistration" style="display:none;"></a>
+												<input type="hidden" name="quickSignup_SUBMIT" value="1" /><input type="hidden" name="autoScroll" /><input type="hidden" name="quickSignup:_link_hidden_" /><script type="text/javascript"><!--
+function clear_quickSignup() {
+  var f = document.forms['quickSignup'];
+  f.elements['quickSignup:_link_hidden_'].value='';
+  f.target='';
+}
+clear_quickSignup();
+//--></script><input type="hidden" name="jsf_tree_64" id="jsf_tree_64" value="H4sIAAAAAAAAAK1Vy27TQBSdlla05VEVkFjzEBQk7KZOX+oKWrWkpKpoChLKIprak3RSezwdX6dhw449H8AXoH4BX8COLT/BljV3HNdORw41iM3E986cc+6dOTM5+0kmI0W2Q9WxqKTuEbOC923qsghD6XOXAg+FdaAYa4CKXYgV26WCdph6mCc3wkCGggnYenf3x+edX9/HyUSTTLfcI+57CvNkp1lHCXsgYacS9pCEXVZivU5mW+55tOHTKAJyq96lPWr7VHRsXM9FB5ddz5fVvBPygYw3ydWWVgaE3G4OYfYOu8yF9b6MVVrq/9iN9a9nj7/Nffz0ZZyQviSEzEa6DCKBVAsksmqtIwh8i/XBeokfezHIGA4wBCyfezuRXJApkR6nsvRimo71OIl6Y0Y8nek/0b33rUJhU3RW/1TaXEVQp4fMlxnL/CUsNZGRzOQkw8XPAbmZzOA5XmTX4x0g09msARtUxQLK/SLcTD5dqCfRN0Y3T8t002CuYnBel2YpT4DGCKjw6lwco/+49zrm7vE+6/AIVOIs5HhwCcdWqAIg1040tME7IpYIulfkpjiCMLA83rM2eS/zyJLpEaI/5rP5NXP+ihFPZO3eLy71Ta3BfLxNNWBY6dSAtuIMn8Jinq+OyC+NyC+j8Er5yzMoZU+wXSZiIDe4cP3YY8/QiMHQyTnlGYc8PTnwQMbyF3WlVngRA4T4PF6V+g3ZDpNuH+XdXnqjxy56O8UtLpS+4gMznuutIc7+g5koUB/dmuA3MahjkKNX/7HaapKo5QknSbzKE6P2wWRaMZmWSwLXTOCoXgygUzGAzkJJoGMCS/boLJnAakmguTlOyc1xzM1xVmXhwmpF/yck9unSfrUbta22ogE7DdVxkrKe4/CWs9P9MNRvaKuXfsvfIhlBt4gIAAA=" /><input type="hidden" name="jsf_state_64" id="jsf_state_64" value="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" /><input type="hidden" name="jsf_viewid" id="jsf_viewid" value="/home.jsp" /></form>
+										<a id="idSignIn" href="javascript:void(0)">Already have an account? Sign in &rsaquo;</a>
+								</div>
+								
+								
+								
+						</section>
+
+						<section class="search">
+								<p>Search for a patent, patent owner, inventor, or technology:</p>
+								
+                				<form id="_idJsp12" name="_idJsp12" method="post" action="/home.jsf;jsessionid=AC9C730206DE207E988CAE4E93000C94" enctype="application/x-www-form-urlencoded" style="height:40px;">
+									
+										
+										
+										
+										
+									<select id="include-firms" name="include-firms" size="1" style="width: auto;" onchange="return refreshSearchDropDown(this);">	<option value="patent" selected="selected">Search Patents</option>	<option value="patentowner">Search Patent Owners</option>	<option value="technology">Search Technologies</option>	<option value="inventor">Search Inventors</option></select> 
+									<input id="Text1" name="Text1" type="text" value="" onkeyup="return pressSearchButton(event)" class="textfield searchTextCointer" />
+									<input id="pagerGo" name="pagerGo" type="submit" value="Search" onclick="return searchAction();this.form.submit();;if(typeof window.clearFormHiddenParams__idJsp12!='undefined'){clearFormHiddenParams__idJsp12('_idJsp12');}if(typeof window.getScrolling!='undefined'){oamSetHiddenInput('_idJsp12','autoScroll',getScrolling());}" style="margin-top:-3px;vertical-align: middle;cursor:pointer;" class="btn-search" /><input type="hidden" name="autoScroll" />
+								<input type="hidden" name="_idJsp12_SUBMIT" value="1" /><input type="hidden" name="autoScroll" /><input type="hidden" name="jsf_tree_64" id="jsf_tree_64" value="H4sIAAAAAAAAAK1Vy27TQBSdlla05VEVkFjzEBQk7KZOX+oKWrWkpKpoChLKIprak3RSezwdX6dhw449H8AXoH4BX8COLT/BljV3HNdORw41iM3E986cc+6dOTM5+0kmI0W2Q9WxqKTuEbOC923qsghD6XOXAg+FdaAYa4CKXYgV26WCdph6mCc3wkCGggnYenf3x+edX9/HyUSTTLfcI+57CvNkp1lHCXsgYacS9pCEXVZivU5mW+55tOHTKAJyq96lPWr7VHRsXM9FB5ddz5fVvBPygYw3ydWWVgaE3G4OYfYOu8yF9b6MVVrq/9iN9a9nj7/Nffz0ZZyQviSEzEa6DCKBVAsksmqtIwh8i/XBeokfezHIGA4wBCyfezuRXJApkR6nsvRimo71OIl6Y0Y8nek/0b33rUJhU3RW/1TaXEVQp4fMlxnL/CUsNZGRzOQkw8XPAbmZzOA5XmTX4x0g09msARtUxQLK/SLcTD5dqCfRN0Y3T8t002CuYnBel2YpT4DGCKjw6lwco/+49zrm7vE+6/AIVOIs5HhwCcdWqAIg1040tME7IpYIulfkpjiCMLA83rM2eS/zyJLpEaI/5rP5NXP+ihFPZO3eLy71Ta3BfLxNNWBY6dSAtuIMn8Jinq+OyC+NyC+j8Er5yzMoZU+wXSZiIDe4cP3YY8/QiMHQyTnlGYc8PTnwQMbyF3WlVngRA4T4PF6V+g3ZDpNuH+XdXnqjxy56O8UtLpS+4gMznuutIc7+g5koUB/dmuA3MahjkKNX/7HaapKo5QknSbzKE6P2wWRaMZmWSwLXTOCoXgygUzGAzkJJoGMCS/boLJnAakmguTlOyc1xzM1xVmXhwmpF/yck9unSfrUbta22ogE7DdVxkrKe4/CWs9P9MNRvaKuXfsvfIhlBt4gIAAA=" /><input type="hidden" name="jsf_state_64" id="jsf_state_64" value="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" /><input type="hidden" name="jsf_viewid" id="jsf_viewid" value="/home.jsp" /></form>
+								
+								<div class="errorDiv" id="errorDiv">
+									<span class="errorMSS" id="errorMsg" style="font-size:12px;font-weight:bold"></span>
+								</div>
+						</section>
+				</div>
+				<div class="browse-wrapper">
+						<div class="wrapper">
+									<section class="browse">
+									<div class="browse-list"><span>Browse Inventors:</span>
+											<a id="_idJsp18:0:_idJsp19" name="_idJsp18:0:_idJsp19" href="browseinventors/byname/A;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">A</a><a id="_idJsp18:1:_idJsp19" name="_idJsp18:1:_idJsp19" href="browseinventors/byname/B;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">B</a><a id="_idJsp18:2:_idJsp19" name="_idJsp18:2:_idJsp19" href="browseinventors/byname/C;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">C</a><a id="_idJsp18:3:_idJsp19" name="_idJsp18:3:_idJsp19" href="browseinventors/byname/D;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">D</a><a id="_idJsp18:4:_idJsp19" name="_idJsp18:4:_idJsp19" href="browseinventors/byname/E;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">E</a><a id="_idJsp18:5:_idJsp19" name="_idJsp18:5:_idJsp19" href="browseinventors/byname/F;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">F</a><a id="_idJsp18:6:_idJsp19" name="_idJsp18:6:_idJsp19" href="browseinventors/byname/G;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">G</a><a id="_idJsp18:7:_idJsp19" name="_idJsp18:7:_idJsp19" href="browseinventors/byname/H;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">H</a><a id="_idJsp18:8:_idJsp19" name="_idJsp18:8:_idJsp19" href="browseinventors/byname/I;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">I</a><a id="_idJsp18:9:_idJsp19" name="_idJsp18:9:_idJsp19" href="browseinventors/byname/J;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">J</a><a id="_idJsp18:10:_idJsp19" name="_idJsp18:10:_idJsp19" href="browseinventors/byname/K;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">K</a><a id="_idJsp18:11:_idJsp19" name="_idJsp18:11:_idJsp19" href="browseinventors/byname/L;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">L</a><a id="_idJsp18:12:_idJsp19" name="_idJsp18:12:_idJsp19" href="browseinventors/byname/M;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">M</a><a id="_idJsp18:13:_idJsp19" name="_idJsp18:13:_idJsp19" href="browseinventors/byname/N;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">N</a><a id="_idJsp18:14:_idJsp19" name="_idJsp18:14:_idJsp19" href="browseinventors/byname/O;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">O</a><a id="_idJsp18:15:_idJsp19" name="_idJsp18:15:_idJsp19" href="browseinventors/byname/P;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">P</a><a id="_idJsp18:16:_idJsp19" name="_idJsp18:16:_idJsp19" href="browseinventors/byname/Q;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">Q</a><a id="_idJsp18:17:_idJsp19" name="_idJsp18:17:_idJsp19" href="browseinventors/byname/R;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">R</a><a id="_idJsp18:18:_idJsp19" name="_idJsp18:18:_idJsp19" href="browseinventors/byname/S;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">S</a><a id="_idJsp18:19:_idJsp19" name="_idJsp18:19:_idJsp19" href="browseinventors/byname/T;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">T</a><a id="_idJsp18:20:_idJsp19" name="_idJsp18:20:_idJsp19" href="browseinventors/byname/U;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">U</a><a id="_idJsp18:21:_idJsp19" name="_idJsp18:21:_idJsp19" href="browseinventors/byname/V;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">V</a><a id="_idJsp18:22:_idJsp19" name="_idJsp18:22:_idJsp19" href="browseinventors/byname/W;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">W</a><a id="_idJsp18:23:_idJsp19" name="_idJsp18:23:_idJsp19" href="browseinventors/byname/X;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">X</a><a id="_idJsp18:24:_idJsp19" name="_idJsp18:24:_idJsp19" href="browseinventors/byname/Y;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">Y</a><a id="_idJsp18:25:_idJsp19" name="_idJsp18:25:_idJsp19" href="browseinventors/byname/Z;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">Z</a>
+									</div>
+									<div class="browse-list"><span>Browse Patent Owners:</span>
+											<a id="_idJsp22:0:_idJsp23" name="_idJsp22:0:_idJsp23" href="browseAssignees/A/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">A</a><a id="_idJsp22:1:_idJsp23" name="_idJsp22:1:_idJsp23" href="browseAssignees/B/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">B</a><a id="_idJsp22:2:_idJsp23" name="_idJsp22:2:_idJsp23" href="browseAssignees/C/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">C</a><a id="_idJsp22:3:_idJsp23" name="_idJsp22:3:_idJsp23" href="browseAssignees/D/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">D</a><a id="_idJsp22:4:_idJsp23" name="_idJsp22:4:_idJsp23" href="browseAssignees/E/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">E</a><a id="_idJsp22:5:_idJsp23" name="_idJsp22:5:_idJsp23" href="browseAssignees/F/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">F</a><a id="_idJsp22:6:_idJsp23" name="_idJsp22:6:_idJsp23" href="browseAssignees/G/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">G</a><a id="_idJsp22:7:_idJsp23" name="_idJsp22:7:_idJsp23" href="browseAssignees/H/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">H</a><a id="_idJsp22:8:_idJsp23" name="_idJsp22:8:_idJsp23" href="browseAssignees/I/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">I</a><a id="_idJsp22:9:_idJsp23" name="_idJsp22:9:_idJsp23" href="browseAssignees/J/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">J</a><a id="_idJsp22:10:_idJsp23" name="_idJsp22:10:_idJsp23" href="browseAssignees/K/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">K</a><a id="_idJsp22:11:_idJsp23" name="_idJsp22:11:_idJsp23" href="browseAssignees/L/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">L</a><a id="_idJsp22:12:_idJsp23" name="_idJsp22:12:_idJsp23" href="browseAssignees/M/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">M</a><a id="_idJsp22:13:_idJsp23" name="_idJsp22:13:_idJsp23" href="browseAssignees/N/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">N</a><a id="_idJsp22:14:_idJsp23" name="_idJsp22:14:_idJsp23" href="browseAssignees/O/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">O</a><a id="_idJsp22:15:_idJsp23" name="_idJsp22:15:_idJsp23" href="browseAssignees/P/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">P</a><a id="_idJsp22:16:_idJsp23" name="_idJsp22:16:_idJsp23" href="browseAssignees/Q/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">Q</a><a id="_idJsp22:17:_idJsp23" name="_idJsp22:17:_idJsp23" href="browseAssignees/R/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">R</a><a id="_idJsp22:18:_idJsp23" name="_idJsp22:18:_idJsp23" href="browseAssignees/S/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">S</a><a id="_idJsp22:19:_idJsp23" name="_idJsp22:19:_idJsp23" href="browseAssignees/T/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">T</a><a id="_idJsp22:20:_idJsp23" name="_idJsp22:20:_idJsp23" href="browseAssignees/U/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">U</a><a id="_idJsp22:21:_idJsp23" name="_idJsp22:21:_idJsp23" href="browseAssignees/V/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">V</a><a id="_idJsp22:22:_idJsp23" name="_idJsp22:22:_idJsp23" href="browseAssignees/W/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">W</a><a id="_idJsp22:23:_idJsp23" name="_idJsp22:23:_idJsp23" href="browseAssignees/X/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">X</a><a id="_idJsp22:24:_idJsp23" name="_idJsp22:24:_idJsp23" href="browseAssignees/Y/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">Y</a><a id="_idJsp22:25:_idJsp23" name="_idJsp22:25:_idJsp23" href="browseAssignees/Z/1;jsessionid=AC9C730206DE207E988CAE4E93000C94" style="text-transform: lowercase;">Z</a>
+									</div>
+									<div class="browse-list"><span>Browse Patents By Years:</span>
+											
+													
+											<a id="_idJsp26" name="_idJsp26" href="browsePatents/1980 - 1985;jsessionid=AC9C730206DE207E988CAE4E93000C94">1980 - 1985</a>
+											 
+														
+											<a id="_idJsp28" name="_idJsp28" href="browsePatents/1986 - 1990;jsessionid=AC9C730206DE207E988CAE4E93000C94">1986 - 1990</a>			
+											 
+														
+											<a id="_idJsp30" name="_idJsp30" href="browsePatents/1991 - 1995;jsessionid=AC9C730206DE207E988CAE4E93000C94">1991 - 1995</a>			
+											 
+														
+											<a id="_idJsp32" name="_idJsp32" href="browsePatents/1996 - 2000;jsessionid=AC9C730206DE207E988CAE4E93000C94">1996 - 2000</a>			
+											 
+														
+											<a id="_idJsp34" name="_idJsp34" href="browsePatents/2001 - 2005;jsessionid=AC9C730206DE207E988CAE4E93000C94">2001 - 2005</a>			
+											 
+														
+											<a id="_idJsp36" name="_idJsp36" href="browsePatents/2006 - 2010;jsessionid=AC9C730206DE207E988CAE4E93000C94">2006 - 2010</a>			
+											 
+														
+											<a id="_idJsp38" name="_idJsp38" href="browsePatents/2011 - 2016;jsessionid=AC9C730206DE207E988CAE4E93000C94">2011 - 2016</a>
+									</div>
+									<div class="browse-list"><span>Explore Patents & More:</span>
+											 <a href="Top500PatentOwner/All">Top Patent Owners</a>
+								            <a href="pages/browseTechnologies.jsf">Technologies</a>
+								            <a href="patent/patent-attorney/firms/state/">Attorneys/Agents by State</a>
+									</div>
+							</section>
+						</div>
+				</div>
+				  		<div id="basic-modal-content" style="overflow:hidden;">
+
+
+		<form method="POST" action="">
+		<div style="float: left; width: 575px; margin-top: 20px;">
+		<div style="float: left; width: 100px;">&nbsp;</div>
+		<div
+			style="float: left; width: 375px; border: 2px solid #ffffff; padding: 30px 0pt;">
+		
+		<div style="float: left; width: 300px; jeight: 5px;">&nbsp;</div>
+		<span
+			style="float: left; width: 122px; text-align: right; color: rgb(255, 255, 255); font-weight: bold; padding: 3px 0;font-size:13px;">User
+		Name/Email:</span>
+		<input id="j_username" name="j_username" type="text"
+			style="width: 194px; padding: 2px; border: 1px solid rgb(181, 181, 181); float: left; margin-left: 5px;">
+		<div style="float: left; width: 300px; jeight: 5px;">&nbsp;</div>
+		<span
+			style="float: left; width: 122px; text-align: right; color: rgb(255, 255, 255); font-weight: bold; padding: 3px 0;font-size:13px;">Password:</span>
+		<input id="j_password" name="j_password" type="password"
+			style="width: 194px; padding: 2px; border: 1px solid rgb(181, 181, 181); float: left; margin-left: 5px;">
+		<div style="float: left; width: 300px; jeight: 5px;">&nbsp;</div>
+		<span
+			style="float: left; width: 122px; text-align: right; color: rgb(255, 255, 255); font-weight: bold;">&nbsp;</span>
+		<a id="forgot_pass" style="float: left; margin-left: 5px;font-size:13px;" href="trouble_login.jsf">Forgot
+		Password</a>
+		<input style="cursor:pointer;" type="submit" value="Sign In " id="sign_in"
+			class="green_bg_button"
+			onclick="this.form.action='admin/j_acegi_security_check?mode=inventor';this.form.submit();">
+		</div>
+		<div style="float: left; width: 100px;">&nbsp;</div>
+		</div>
+		</form>
+		<br></br>
+		<span
+			style="float: left; width: 600px; color: rgb(255, 255, 255); padding: 10px 0px; font-size: 15px; font-weight: bold;">Not
+		a Member ?</span>
+		<br></br>
+		<a title="Sign Up Free" class="signupfree" href="registration"
+			style="width: 210px;"></a>
+
+		</div>
+		
+		
+				<footer>
+						<p class="left">&copy; 2017 Patent Buddy. All Rights Reserved. <span><a href="privacypolicy.jsf">Privacy Policy</a> | <a href="javascript:openTAndCPopup();">Website Terms</a> | <a target="_blank" href="help-function.html">Help</a> | <a href="pages/aboutUs.jsf">About Us</a> | <a href="mailto:support@patentbuddy.com">Contact</a> | <a href="pages/advertiseinfo-pages/advertiseInfo.jsf">Advertise</a></span></p>
+						<p class="right">Email us at <a href="mailto:support@patentbuddy.com">support@patentbuddy.com</a>
+				</footer>
+				
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2725653-1']);
+  _gaq.push(['_trackPageview','home.jsp']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	    
+    <!-- MYFACES JAVASCRIPT -->
+<script type="text/javascript"><!--
+function getScrolling(){var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset){x = self.pageXOffset;y = self.pageYOffset;} else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop)){x = document.documentElement.scrollLeft;y = document.documentElement.scrollTop;} else if (document.body) {x = document.body.scrollLeft;y = document.body.scrollTop;}return x + "," + y;}
+//--></script>
+</body>
+</html>

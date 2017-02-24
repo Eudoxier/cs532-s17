@@ -1,0 +1,586 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+Topics
+
+
+
+Business Impact
+Connectivity
+Intelligent Machines
+Rewriting Life
+Sustainable Energy
+
+
+
+
+10 Breakthrough Technologies
+35 Innovators Under 35
+50 Smartest Companies
+
+
+Views
+Views from the Marketplace
+
+
+Top Stories
+Magazine
+Events
+
+More
+
+Events
+Special Publications
+MIT News Magazine
+Help/Support
+
+
+
+
+Log in / Register
+
+
+
+
+Subscribe
+
+
+
+
+
+Log in / Register
+
+
+Search
+
+
+
+
+
+
+
+
+
+Click search or press enter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connectivity
+
+Neuroscience Explains Why We Get Hacked So Easily
+A study of how the brain reacts to security alerts led Google to test a new way to warn people that their computers may have been infected with malware.
+
+
+					by 
+Tom Simonite
+
+February 2, 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			MRI brain scans reveal the way we perceive, or simply ignore, security warnings.
+			
+		
+
+Companies spend nearly $100 billion on securing computers each year, yet incidents such as ransomware crippling hospitals and personal data leaking online remain common. Anthony Vance thinks that defensive measures could be more effective if we paid more attention to the hardware between our ears.
+
+
+Recommended for You
+
+
+
+Who’s Brave Enough to Be a Test Pilot for Flying Cars?
+
+
+AI Software Juggles Probabilities to Learn from Less Data
+
+
+As Goldman Embraces Automation, Even the Masters of the Universe Are Threatened
+
+
+Patent Office Hands Win in CRISPR Battle to Broad Institute
+
+
+“The Relentless Pace of Automation”
+
+“Security professionals need to worry not only about attackers but the neurobiology of their users,” said Vance, an associate professor at Brigham Young University, this week at the Enigma security conference in Oakland, California. His lab uses functional MRI scans of people’s brains to reveal the unconscious mechanisms behind the way they perceive—or ignore—security warnings.One of Vance’s studies led him to collaborate with Google on tests of a new approach to displaying security warnings in the Chrome Web browser that people were less likely to dismiss offhand. Vance says Google's engineers told him they plan to add the feature to an upcoming version of Chrome. Google did not respond to a request for confirmation of when it would be added.Daniela Olivera, an associate professor at the University of Florida, says such research can help suggest ways to refine the usability of security tools and features—an area many researchers say the industry has tended to overlook. Incidents ranging from common malware infections to high-profile breaches like the DNC one that exposed John Podesta’s e-mails often involve a person making a hasty decision about a warning message or strange e-mail.Multitasking is partly to blame. Vance’s collaboration with Google grew out of experiments that showed when people reacted to security warnings while also performing another task, brain activity in areas associated with fully engaging with a warning was significantly reduced. People were three times less likely to correctly interpret a message when they reacted to security warnings while also performing another task.Vance’s lab teamed up with Google to test a version of Chrome modified to deliver warnings about a person’s computer possibly being infected by malware or adware only when they weren’t deeply engaged in something. For example, it would wait until someone finished watching a video, or was waiting for a file to download or upload, to pop up the message.
+
+
+
+
+
+
+			Brain scans reveal that we’re far more likely to ignore security warnings when we’re engaged in another task.
+			
+		
+
+Testing showed that people using the interruption-sensitive version of Chrome ignored the message only about a third of the time, compared to about 80 percent of the time without it.Other studies in Vance’s lab have shown that people very rapidly become habituated to security warnings—he’s shown how the brain’s response to a message drops significantly even on just the second time someone sees it.The researchers also did follow-up experiments in which people were asked to download mobile apps that asked for alarming permissions (for example, “Can delete your photos”). By breaking the usual rules of software design and having the security-related messages change in appearance slightly each time—for example, with different colors—it was possible to reduce the habituation effect.“This shows the potential to use neuroscience to understand people’s behavior and validate new user interface designs,” said Vance. “Our security UI should be designed to be compatible with the way our brains work.”
+
+			Become an MIT Technology Review Insider for in-depth analysis and unparalleled perspective.
+Subscribe today 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tagged
+
+Google, 
+					
+					Chrome, 
+					
+					computer security, 
+					
+					online security
+
+
+
+Credit
+Images courtesy of Department of Psychology & Neuroscience Center at Brigham Young University
+
+
+
+
+
+
+
+
+Tom Simonite
+San Francisco Bureau Chief
+
+I’m MIT Technology Review’s San Francisco bureau chief and enjoy a diverse diet of algorithms, Internet, and human-computer interaction with chips on the side. I lead our coverage of new ideas from Silicon Valley, whether they spring from tech… More giants, new startups, or academic labs. My journey to the West Coast started in a small English market town and took in the University of Cambridge, Imperial College London, and five years writing and editing technology news coverage at New Scientist magazine.
+
+
+
+
+
+
+Subscribe to Continue Reading
+Uh oh–you've read all five of your free articles for this month.
+
+Become an Insider for unlimited access to online stories for less than $15 per month.
+
+
+Insider Premium
+$179.95/yr US PRICE
+
+
+Subscribe
+
+
+
+See international, alumni and other pricing options
+Already an Insider?
+Log in.
+
+Have a magazine subscription?
+Activate your Insider account.
+
+
+
+
+
+
+
+
+
+Recommended for You
+
+
+
+Who’s Brave Enough to Be a Test Pilot for Flying Cars?
+
+
+AI Software Juggles Probabilities to Learn from Less Data
+
+
+As Goldman Embraces Automation, Even the Masters of the Universe Are Threatened
+
+
+Patent Office Hands Win in CRISPR Battle to Broad Institute
+
+
+“The Relentless Pace of Automation”
+
+
+
+
+
+
+More from Connectivity
+What it means to be constantly connected with each other and vast sources of information.
+
+
+
+
+This Super-Fast 3-D Printer Is Powered by Holograms
+A startup called Daqri has technology that can print solid objects faster and also powers a new kind of head-up display.
+by 
+	
+		
+			Jamie Condliffe
+		
+	
+
+
+
+
+
+
+
+
+
+Why Congress Can’t Seem to Fix This 30-Year-Old Law Governing Your Electronic Data
+New questions about the FBI’s power to access data have shifted the years-long political debate over reform of the Electronic Communications Privacy Act.
+by 
+	
+		
+			Mike Orcutt
+		
+	
+
+
+
+
+
+
+
+
+
+Mark Zuckerberg Has Laid Out His Vision of a World United by Facebook
+Zuck plans to use his powerful social network to make the world a better place—but the details are a bit sketchy.
+by 
+	
+		
+			Jamie Condliffe
+		
+	
+
+
+
+
+
+
+
+
+
+More from Connectivity
+
+
+
+
+From Our Advertisers
+
+
+
+
+						
+							In partnership with
+						
+						Alibaba
+
+Alibaba Targets the Global Market with Apsara Aliware Platform
+
+
+
+
+
+						
+							In partnership with
+						
+						Lenovo
+
+Video: 5 Data-Center Hyperconvergence Myths
+
+
+
+
+
+						
+							In partnership with
+						
+						Lenovo
+
+Video: Is That Data for Here or to Go?
+
+
+
+
+
+						
+							In partnership with
+						
+						Lenovo
+
+Video: Working in the Big Data Mine
+
+
+
+
+
+
+
+
+		Want more award-winning journalism?
+		
+			Subscribe to Insider Premium.
+		
+	
+
+
+
+
+
+							Insider Premium
+							{! insider.prices.premium !}*
+
+
+							{! insider.display.menuOptionsLabel !}
+						
+
+							Our award winning magazine, unlimited access to our story archive, special discounts to MIT Technology Review Events, and exclusive content.
+						
+
+{! insider.buttons.premium.buttonText !}
+
+
+
+
+
+See details+
+
+What's Included
+Bimonthly home delivery and unlimited 24/7 access to MIT Technology Review’s website.
+The Download. Our daily newsletter of what's important in technology and innovation.
+Access to the Magazine archive. Over 24,000 articles going back to 1899 at your fingertips.
+Special Discounts to select partner offerings
+Discount to MIT Technology Review events
+Ad-free web experience
+First Look. Exclusive early access to stories.
+Insider Conversations. Join in and ask questions as our editors talk to innovators from around the world.
+
+
+
+
+
+*
+					{! insider.display.footerLabel !}
+				
+
+See international prices
+
+
+See U.S. prices
+
+
+Revert to MIT Enterprise Forum pricing
+
+
+Revert to standard pricing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Download What's important in technology and innovation, delivered to you every day.
+
+
+
+
+Follow us
+
+Twitter
+Facebook
+RSS
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+The mission of MIT Technology Review is to equip its audiences with the intelligence to understand a world shaped by technology.
+
+
+BrowseInternationalEditions
+
+
+
+
+Company
+
+About Us
+Careers
+Advertise with Us
+Reprints and Permissions
+Press Room
+
+
+Your Account
+
+Log In / Create Account
+Newsletters
+Manage Account
+Manage Subscription
+
+
+Customer Support
+
+Help/FAQs
+Contact Us
+Feedback
+Sitemap
+
+
+More
+
+Events
+MIT Enterprise Forum
+MIT News
+
+
+Policies
+
+Ethics Statement
+Terms of Service
+Privacy
+Commenting Guidelines
+
+
+
+
+MIT Technology Review © 2016
+v.|eiπ|
+
+
+
+
+
+
+
+
+You've read
+
+ of 
+
+				free articles this month.
+
+
+Subscribe
+Become an Insider
+
+ or 
+Sign in
+
+ for unlimited access
+ to online articles
+.
+
+
+
+
+
+
+
+
+
+
+

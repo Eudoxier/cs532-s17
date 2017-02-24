@@ -1,0 +1,466 @@
+
+
+
+Skip to Article
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+Home
+About
+Administration
+From the President
+Monday Mission
+Presidential Staff
+
+
+Academic Affairs
+Advancement
+Business Affairs
+Marketing & Communication
+Student Affairs
+Overseers
+Trustees
+
+
+By the Numbers
+Campus & Community
+Departments
+Directory
+History & Traditions
+Presidents
+Founders
+Traditions
+
+
+Life at Samford
+Maps & Directions
+Mission, Vision & Values
+
+
+Academics
+Undergraduate
+General Education: Core
+
+Cultural Perspectives
+Communication Arts
+Biblical Perspectives
+Concepts of Fitness & Health
+
+
+General Education: Distribution
+Majors
+Minors
+Air Force ROTC
+Honors Programs
+Scholars Programs
+Special Programs
+Evening Studies
+Undergraduate Research
+
+
+Graduate Programs
+Masters Programs
+Doctoral Programs
+
+
+Continuing Education
+Non-Degree Programs
+Schools & Departments
+University Library
+Academic Centers
+Global Engagement
+
+
+Admission
+Undergraduate
+Apply
+Visit Campus
+Request More Info
+Tuition & Fees
+Scholarships
+Financial Aid
+Payment Plans
+Student Loans
+Student Employment
+
+
+Orientation
+Contact Us
+
+
+Graduate
+Tuition & Fees
+Financial Aid
+Payment Plans
+Student Loans
+Student Employment
+
+
+High School Counselors
+Legal Disclosures
+
+
+Athletics
+Community
+
+Alumni
+Employees
+Faculty
+Parents
+Students
+Cafeteria Menu
+Student Life
+Campus Recreation
+Student Leadership
+Greek Life
+Student Activities
+Staff
+
+
+International Students
+Residence Life
+Residence Halls
+Policies & Procedures
+Move-in
+What to Bring
+FAQs
+Staff
+
+
+Spiritual Life
+Student Services
+
+
+Volunteers
+
+
+Giving
+
+Giving Opportunities
+Giving Societies
+How to Give
+Share Your Story
+
+
+Events
+Academic Calendar
+Arts Calendar
+Athletic Calendar
+School Calendars
+Student Life Calendar
+
+
+News
+Media Experts
+News Releases
+Publications
+Videos
+
+
+
+
+
+
+
+
+
+Security and Compliance
+The Office of IT Security & Compliance serves a management and coordination role for the university's information security and compliance policy, communication, education, practice development, project development, and auditing. We work with constituents and departments of the university to ensure compliance in the following areas:
+
+Family Educational Rights and Privacy Act (FERPA)
+Health Insurance Portability and Accountability Act (HIPAA)
+Higher Education Opportunity Act (HEOA)
+Gramm-Leach-Bliley Act (GLB)
+Payment Card Industry Data Security Standards (PCI DSS)
+Red Flag Rules (Fair and Accurate Credit Transactions Act, Federal Trade Commission)
+
+We also actively participate in various IT security organizations, stay abreast of developments, assess products and services to aid the university in improving and managing IT security operations and actively deal with significant security issues that may occur.
+
+Creating a Strong Password+
+
+Creating a password you can remember is very important and not especially difficult to accomplish. You can make your password safer and easy to remember. Let’s say you really like the movie Hunt for Red October and the number seven. Let’s also say your favorite military branch is the Navy and blue is a common color used by the Navy. Using this information, you can derive the password HfRo7Navyblue. Notice the mix of capital letters and use of a number. It is also 13 positions long.
+
+Encrypting Your Email+
+
+Encryption of sensitive information in email is required to comply with various laws and regulations. This function is provided to employees as a part of email services.
+What does it do?
+It encrypts outbound email and attachments, providing security for the contents while in transit and storage.
+When should it be used?
+When sensitive information is being sent to any non-employee. Email from a Samford employee account to another Samford employee account is automatically encrypted when in transit or storage.
+How do I use it?
+By entering [encrypt] in the subject line (Note that the square brackets are required). This tells the email security appliance to encrypt the email and attachments. The [encrypt] indication is stripped from what the recipient receives. Here is a sample: (figure)
+What does the recipient have to do differently?
+The recipient receives this message: (figure)
+When the recipient clicks on the “Click here” link, they will be taken to a page to log in to the security appliance. (figure)
+If it is their first time to use it, they must set a password that will be used to process this and any subsequent encrypted email messages from Samford’s security appliance. The ID used is the recipient’s email address. The password can be used subsequently for additional encrypted email sent to the recipient. Upon authentication, the attached encrypted email is decrypted and displayed for the user. Notice there is a time limit. If the recipient does not authenticate within seven days, the message cannot be read. As the sender, you can extend the expiration time, restore or revoke an encrypted message. You do not have to resend the message. The email security appliance can be accessed at spam.samford.edu for managing encrypted messages, as well as managing your safe senders list and blocked senders list, your email security profile on the appliance, and quarantined email.
+Outbound encrypted messages are limited to 20 megabytes in total size.
+Can I use it now?
+The service is fully functional and ready for use.
+
+Email Protection
+
+Targeted Attack Protection (TAP)
+To protect Samford email users and the university’s network, TS now employs an email security product called Targeted Attack Protection (TAP) from the security company Proofpoint.
+Cybercriminals commonly send malicious attachments and hyperlinks via email in order to infect computers with malware or direct users to websites designed to trick them into revealing their account credentials. TAP protects users by blocking links to known malicious websites and removing email attachments containing malware.
+TAP works behind-the-scenes, which means you do not need to do anything to activate or take advantage of the system.
+How TAP Works
+TAP scans incoming email for known malicious hyperlinks and for attachments containing malware. TAP rewrites scanned URLs as Proofpoint URLs. TAP works behind-the-scenes, which means you do not need to do anything to activate or take advantage of the system.
+In most cases, you will not notice anything: the change will not affect the displayed content of the message itself, with the exception of plain-text emails (see note below). However, if you hover your mouse over a hyperlink, the embedded URL displayed will show the destination URL rewritten as a Proofpoint URL. The URL will function normally from the user’s perspective.
+Proofpoint URLs will begin with https://urldefense.proofpoint.com. If you were to receive an email sent from someone outside of Samford that included a link to the EDUCAUSE homepage, you would notice the following:
+
+Display URL (what you will see in the email): www.educause.edu
+Embedded URL (what you will see if you hover your mouse over the link in the email): https://urldefense.proofpoint.com/v2/url?=http-3A__www.educause.edu&[….]
+
+These rewritten URLs allow Proofpoint to check the hyperlink’s destination against its continuously updated database of malicious sites. If the destination site is considered safe, the hyperlink will function normally and will take you to the intended destination website.
+If the destination site is compromised, the site will be blocked. If you click a link to a blocked site, you will be redirected a page on the Proofpoint website, which will explain why the site has been blocked:
+
+For more information about how TAP works, see www.proofpoint.com/us/solutions/products/targeted-attack-protection.
+Plain-Text Emails
+Emails sent and received in plain text do not include HTML markup, such as embedded URLs. When TAP detects a hyperlink in a plain-text email, it will rewrite the URL in plain text. In this case, you will see the rewritten URL directly in the body of the email.
+Most modern email applications send and receive HTML-enhanced or rich-text emails, and function as described in the How TAP Works section above.
+Email Attachments
+TAP does not rewrite URLs in email attachments. However, it scans the attachments for hyperlinks and, if it detects a URL to a known malicious site, will block the attachment.
+Forwarded Emails
+Once TAP has rewritten a URL, the new URL will persist if you reply to or forward the message, even if you include recipients not covered by the TAP program. The rewritten URLs will remain functional and work for recipients as described above. If you are concerned that your recipients may have questions, you might consider including a note in your signature file along the lines of:
+“Samford email is protected by Proofpoint’s Targeted Attack Protection. Hyperlinks in this email may begin with ‘urldefense.proofpoint.com’ and include a unique serial number.”
+NOTE: TAP does not scan outgoing email. Any links you add to the forwarded email will not be rewritten.
+Additional Assistance
+If you believe a URL has been blocked unnecessarily (false positive) or believe a fraudulent site has not been blocked (false negative), please contact the Service Desk at (205) 726-2662.
+
+Locking Your Screen When You Walk Away+
+
+A best practice is to lock you computer screen when you walk away from it. Use your password to reactivate when you return. Here is how to lock your screen:
+Windows
+To immediately lock your computer, simultaneously press the Windows logo key (typically beside the Spacebar) and the L key.
+Mac
+Activate the screen saver using a hot corner. Open system preferences, then desktop and screen saver, activate the screen saver tab, and click the hot corners button. Decide which corner of your screen you’d like to use, then click the corresponding pop-up menu and select Start Screen Saver. Now when it is time to walk away, just fling your mouse into that corner of the screen, and you’ll trigger the screen saver.
+
+Reporting a Computer Security Incident+
+
+In the event of a security incident concerning a computer hosting sensitive institutional or personal data, the unit must take immediate action to report the incident to the university IT Security and Compliance Office (ITSCO) as soon as the incident is suspected.
+Examples of Incidents
+
+Denial of Service—an attack that prevents or impairs the authorized use of network, systems, or applications by exhausting resources.
+Malicious Code—a virus, work, Trojan horse, or other code-based malicious entity that successfully infects a host.
+Unauthorized Access—a person gains logical or physical access without permission to a network, system, application, data, or other IT resource.
+Inappropriate Usage—a person violates acceptable use of any network or computer policies.
+Multiple Component—a single incident that encompasses two or more incidents; for example, a malicious code infection leads to unauthorized access to a host, which is then used to gain unauthorized access to additional hosts.
+
+Of greater concern is the loss of control of vital systems and loss of sensitive data in the care of Samford University.
+
+Immediately call until you get to a human. Try in this order: Technology Services Service Desk at 205-726-2662; John Bandy at 205-726-2692. If you reach the Service Desk, ask them to page the IT Security and Compliance Office (ITSCO). A representative from the ITSCO will then call you back. Please also email it-incident@samford.edu with details of the suspected exposure. Please do not simply leave voicemail or send email. Please ensure you reach a human because it is critical that we begin response procedures immediately.
+Do not take any action until advised by the IT Security and Compliance Office.
+Do not touch, attempt to login or alter the compromised system. Do not power it off. These actions will delete forensic evidence that may be critical to your incident.
+Do unplug the network cable from the computer to disable any further Internet operation. If WiFi or Bluetooth is in use, notify ITSCO immediately.
+Do not talk about the incident with any other parties until you are authorized as part of the process.
+
+ITSCO is charged with investigation and coordination of incidents where sensitive institutional or personal data is suspected to have been exposed. ITSCO has arranged for licensed forensic engineers to assist if warranted. Official records of the incident are maintained and tracked.
+When ITSCO is notified, an incident team will immediately be assembled to advise and assist in containing and limiting the exposure; to investigate the attack, obtain the appropriate approvals and handle notification to the affected individuals and agencies. The incident still "belongs" to the unit experiencing the exposure; ITSCO’s mission is to assist you.
+A procedure document (kit) that contains the information needed by your unit, in cooperation with the other individuals on your incident team will be provided to handle the incident. The university IT Security and Compliance Office in Technology Services has oversight responsibility to assist the unit in taking all necessary steps and in obtaining all necessary approvals. However, it is the responsibility of the unit to identify the resources needed to lead and accomplish an appropriate and timely resolution to the incident. Collect and record staff time spent weekly during the event in order to be able to track the cost of the incident, especially if the suspect will be charged with a crime.
+Time is critical. Immediately containing and limiting the exposure is first priority. In certain situations, we must notify legal entities within a brief period on becoming aware of the incident. In others, we must notify our Merchant Bank involved within 24 hours. The forensic process can vary widely on each incident. Please be patient and cooperative during this process. Also, individuals involved in such incidents expect expeditious notification to them so they can monitor their accounts. The most common complaints after an incident are about how long it took the organization to contain the exposure and to send notifications. At Samford University, our goal is to notify the individuals affected within one week of our becoming aware of the exposure.
+Examples of Sensitive Data
+This list is not exhaustive. Often context plays a role in data sensitivity.
+Although laws or regulations might not require notification to individuals for some types of data, Samford University may still choose to do so, and in fact will usually err on the side of caution and go ahead and notify. Always report the incident to ITSCO, so that the appropriate university officials have the opportunity to evaluate whether notification is the right thing to do.
+
+Social Security number
+Credit card number, also called Primary Account Number (PAN)—Visa, MC, AMEX, Discover, Diner's Club—Account number, expiration date, cardholder name, cardholder address, Track 1, Track 2, CVC2, CVV2, PIN
+Banking information
+Driver's license number, other financial account numbers/security codes.
+FERPA protected information—student information, grades, etc.
+HIPAA protected information—health, medical, psychological information
+University–restricted data—limited access, university internal
+Anything that can be used to facilitate identity theft (ex. birth date, mother’s maiden name).
+Tax information
+Credit reports
+Passwords
+Illegal data (child pornography, etc.)
+Human subjects research data
+
+Examples of Non-Sensitive Data
+
+Publicly available information that is lawfully made available to the public from records of another federal or local agency
+Information that would appear in the telephone directory
+Only last four digits of social security number or credit card number
+Faculty/staff email
+Encrypted data (if encryption is strong enough and encryption key is sufficiently secured)
+In some cases, password-protected data
+
+ 
+Confidentiality-Security Agreement+
+
+The confidentiality-security agreement is available at the end of policy 6.02 in the Policy Manual in the Samford University Portal, and is also available for online signing. Once logged in, click the Banner tab, Employee tab, Confidentiality-Security Agreement link and follow instructions to complete the process.
+Access the Portal
+
+Payment Card Industry Data Security Standards+
+
+The Payment Card Industry Security Standards Council (PCI SSC) sets the standards for processing credit card transactions for its member corporations. Cards represented by its members include Visa, MasterCard, American Express, Discover and JCB International. The standard is the Payment Card Industry Data Security Standards (PCI DSS), which is an extensive set of standards that all merchants must follow in conducting credit card transactions.
+Samford University began implementing solutions to become PCI DSS compliant in 2009 when it moved online tuition payment processing systems offsite to a company dedicated to credit card processing for higher education. In 2011 the university formed a PCI Compliance Working Group and engaged an outside firm specializing in PCI compliance. A qualified security assessor was part of the engagement and has aided Samford University in its progress toward PCI compliance in all its credit card processing activities.
+The PCI Compliance Working Group is a body that is called into session as needed. The group reviews PCI DSS changes, policy and process changes, and considers major changes in operations, major new products or technologies, and how they may affect compliance status of the university. This group originally met regularly, until compliance was reached and now meets only when called for. The group is intended to directly engage with departments of the university who take or want to take credit cards to assure that operations are PCI compliant, that personnel are trained and that necessary controls are in place to assure reliability of transactions and protection of our customers.
+
+
+
+
+Technology Services
+
+About Us
+Self Help
+Services
+Projects
+Security & Compliance
+Policies
+
+
+
+TechResources
+Service Desk Support
+Online Training
+Password Reset
+Speed Test
+Wireless Assistance
+Samford System Status
+Employee Resources
+Technology in Learning
+Telephone User Guide
+Webmail Access
+Student Resources
+Bulldog Mail
+
+
+Have Questions?Contact Us
+Service Desk
+University Library, Room 012
+support@samford.edu
+(205) 726-2662
+
+
+
+
+Software Plugins for this Page
+
+
+Microsoft Excel®
+You will need Microsoft Excel® or compatible software like Open Office to read XLS, XLT, XLSX or XLTX files.
+
+
+Microsoft Power Point®
+You will need Microsoft Power Point® or compatible software like Open Office to read POT, POTX, PPS, PPSX, PPT or PPTX files.
+
+
+Microsoft Word®
+You will need Microsoft Word® or compatible software like Open Office to read DOC, DOT, DOCX or DOTX files.
+
+
+Adobe Portable Document Format
+You will need Adobe Acrobat Reader® or compatible software like SumatraPDF to read PDF files.
+
+ 
+
+
+Software Plugin Information
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quick Links
+
+Bookstore
+Bulldog Bucks
+Bulldog Mail
+Caf Menu
+Form Central
+Library
+Moodle Login
+Portal Login
+Registrar
+Title IX Reporting
+WVSU
+
+
+
+Employees
+
+Accounting
+Benefits
+Employment
+Faculty Resources
+Human Resources
+Insurance
+Manager Resources
+Payroll
+Purchasing
+Retirement
+Time Off
+Training
+
+
+
+Services
+
+Dining
+Disability Resources
+Event Planning
+Facilities
+Financial Services
+Health Services
+Post Office
+Printing
+Public Safety
+Technology Services
+Transportation
+
+
+
+Administration
+
+Academic Affairs
+Advancement
+Business Affairs
+Marketing & Communication
+President
+Student Affairs
+
+Giving
+
+Estate Planning
+Gift Planning
+Online Giving
+
+
+
+Maps & Directions
+
+
+800 Lakeshore Drive, Birmingham, AL 35229
+205-726-2011 • Privacy Policy
+
+
+
+
+
+

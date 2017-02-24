@@ -1,0 +1,89 @@
+  Asia #​{{::display_hashtag}} Asia #​{{::display_hashtag}} {{article.article.pretty_date}} {{article.metrics.page_views}} views   Edit Post{{circ_link.title}} India's Cyber Security Startups Are Gaining Traction, Thanks To Demonetization{{article.article.images.featured.caption}}Most Read{{contrib_block.display_advoice_brand}} {{contrib_block.display_voice_type}}{{contrib_block.display_author.name}}Voice Suparna Goswami ,  {{contrib_block.display_author.type}}   Contributor {{contrib_block.display_author.type}} Contributor   Opinions expressed by Forbes Contributors are their own.Full BioRecent PostsPopular PostsFull profile →'">The author is a Forbes contributor. The opinions expressed are those of the writer.Loading ...Loading ...This story appears in the {{article.article.magazine.pretty_date}} issue of {{article.article.magazine.pubName}}. Subscribe
+
+Enterprises in India are now prioritizing cyber security, which now occupies 30-40% of overall IT budgets. (Photo by Morris MacMatzen/Getty Images)
+
+A push towards digital economy (otherwise known as demonetization) by the Indian government is changing the way businesses and governments are run in the country. However, at the same time, these recent changes are creating vulnerabilities by moving processes online, resulting in an increased incidence of cyber-attacks among enterprises in India. 
+Further contributing to the problem is a lack of understanding among most Indians on how dangerous hacking can be to the reputation of an enterprise. According to various sources, between 2011 and 2015, there has been around 300% increase in reported cyber crimes among enterprises; the actual numbers though could be higher. 
+Consequently, it’s unsurprising to see a number of startups targeting this new business need in India. The Data Security Council of India (DSCI), an industry body on data protection, has incubated 80 cyber security startups in the past two years. According to Rama Vedashree, CEO at DSCI, cyber security is no longer a choice for companies. “It’s not a matter of whether your company will be hacked, but when and what can be done to prevent the inevitable,” she says. “Startups in this space will provide the much needed support to Indian firms in terms of enterprise security. We’re already late in the journey, but nevertheless we have made a beginning,” says Vedashree.
+
+From 2015 to 2016, Gartner, an American technology research firm, saw a 10.6% jump in India’s enterprise security spending (hardware, software and services). It’s growing numbers like this that are pushing entrepreneurs like Pavan Kushwaha, founder at Kratikal Tech, a startup in security testing, to explore the Indian market. 
+“The government is advocating digital services which are becoming the hotspots for hackers,” says Kushawa. “The year 2016 saw 3.2 million debit cards getting hacked in India as the banking system relies on obsolete software and security solutions.”
+
+Understanding the magnitude of the problem, enterprises in India are now prioritizing cyber security, which now occupies 30-40% of most overall IT budgets.  Even industry veterans have seen the landscape change in the past four to five years. While businesses like banks, telecom companies and insurance firms have always been mandated to have cyber protection in place, now new-age companies (like ecommerce companies or online food portals), with their increasing online presence, also have little choice left. 
+Challenges
+Although India in recent times has launched a series of cyber security initiatives, cyber-attacks have also doubled year over year. At present, there is no national agency to assess the nature of threats and respond to them. According to a study done by IBM titled The 2016 Cost of Data Breach Study: India, the average total cost of a data breach paid by Indian companies increased by 9.5%, while the per capita cost increased by 8.7%. 
+The problem is not all this information is publicized, and as a result many companies aren’t aware of potential cyber security breaches. Ashish Tandon, founder and CEO at Indusface, a managed service security provider, feels it’s futile to expect big progress on this front. “Too much publicity can lead to a slowing down of the government’s digital India movement,” says Tandon. “At a time when people are getting introduced to digital payments, coverage on its negative aspects will cause a panic.” 
+Another challenge for cyber security startups is that gaining big firms as clients can be tough for startups. Dhruv Khanna, CEO at startup firm Data Resolve Technologies, says that sometimes it’s difficult to win a client’s trust no matter how good your product is. “Most firms, especially the big ones, would want to associate themselves with more established cyber security companies which can be challenging for startups,” says Khanna. 
+VC activity in this space
+
+
+
+
+Year
+Number of Companies Founded
+Number of Companies Funded
+Number of Funding Rounds
+Total Funding ($M)
+
+
+2010
+13
+3
+3
+$14.42
+
+
+2011
+10
+3
+3
+$2.60
+
+
+2012
+15
+3
+3
+$0.58
+
+
+2013
+16
+9
+9
+$12.86
+
+
+2014
+13
+7
+7
+$15.38
+
+
+2015
+26
+4
+4
+$2.50
+
+
+2016
+12
+7
+8
+$13.74
+
+
+2017
+0
+3
+3
+$0.52
+
+
+
+
+Source: Tracxn
+Since cyber security (both in consumer and enterprise space) in India is still nascent, VCs are yet to invest in big numbers in this new business. Data by Tracxn, a startup intelligence and market research platform, shows that the number of companies funded every year has failed to cross the single digit mark. Nevertheless, there are a few VC firms that recognize the potential of this industry. Chandrasekar Kandasamy, a VC at Stakeboat Capital, believes IP will play a key role for the sustenance of revenue models. “Companies are providing end to end solutions, and services based on proprietary IP will be able to scale exponentially and will also be attractive for strategic buyers,” says Kandasamy.  
+But, he adds, Indian firms having a global presence will find it easier to raise capital as compared to pure play domestic companies. “I am not sure whether the Indian cyber security start up industry is mature enough to attract global VCs not having an India presence. Israel and U.S. will continue to dominate the industry,” says Kandasamy. Start Gallery Page {{article.article.page + 1}} / {{article.article.pages.length}} Continue {{article.article.calledOutCommentCount||''}}Comment on this story Print Report Corrections Reprints & PermissionsTrending on Forbes {{channel_name}}false 

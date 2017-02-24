@@ -1,0 +1,342 @@
+
+
+
+
+
+Infosecurity Group Websites
+
+
+
+
+
+Magazine
+
+Events
+
+
+Infosecurity Europe
+
+
+Infosecurity Leadership Summit
+
+
+Infosecurity Magazine Conferences
+
+
+Infosecurity Netherlands
+
+
+Infosecurity Belgium
+
+
+Infosecurity Russia
+
+
+Infosecurity Mexico
+
+
+Infosecurity Middle East
+
+
+
+
+Leaders Network
+
+
+Insight
+
+
+Infosecurity Webinars
+
+
+Infosecurity Whitepapers
+
+
+Infosecurity Virtual Conferences
+
+
+
+
+
+
+
+
+
+
+
+Our website uses cookies
+
+                    Cookies enable us to provide the best experience possible and help us understand
+                    how visitors use our website.  
+            By browsing Infosecurity Magazine, you agree to our use of cookies.
+                
+Okay, I understand
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest
+
+
+Germany Calls on Parents to Destroy Cayla Dolls
+(ISC)2 Opens Applications for Undergrad Cyber-Scholarships
+Russian Election Hackers Target iPhone, Mac Users
+A New Goverment - Who's Hacking Whom?
+New York State Unveils Strict New Cybersecurity Regulations
+
+
+
+
+
+
+
+
+
+ 
+News
+Topics
+
+
+Features
+
+
+Webinars
+White Papers
+Events & Conferences
+
+
+Directory
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Infosecurity Magazine Home » News » Triada Replaces Hummingbad as No 1 Mobile Threat
+
+
+
+
+
+
+
+
+
+
+8 Feb 2017
+News
+Triada Replaces Hummingbad as No 1 Mobile Threat
+
+
+
+
+
+
+
+Tara Seals US/North America News Reporter, Infosecurity MagazineEmail Tara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hummingbad has been replaced as the top mobile malware threat. It has been usurped by Triada, a modular backdoor for Android.
+According to Check Point Security, Triada grants super-user privileges to downloaded malware, helping it to be embedded into system processes. It has also been seen spoofing URLs loaded in the browser. And in January, based on data from the World Cyber Threat Map, Triada edged past Hummingbad, ending that baddie’s year-long reign.
+Hummingbad is an Android malware that establishes a persistent rootkit on the device, installs fraudulent applications, and with slight modifications, could enable additional malicious activity such as installing a key-logger, stealing credentials and bypassing encrypted email containers used by enterprises. It’s still in second place in terms of prevalence.
+Over the summer, Check Point said that it was found to control 85 million devices globally, generating an estimated $300,000 per month in fraudulent ad revenue for the criminals behind it, i.e., Yingmob, a group of Chinese cyber-criminals. Yingmob also happens to operate a legitimate ad network.
+The No 3 mobile malware threat is Hiddad—an Android malware which repackages legitimate apps and then releases them to a third-party store. Its main function is displaying ads; however, it is also able to gain access to key security details built into the OS, allowing an attacker to obtain sensitive user data.
+In total, mobile malware accounted for 9% of all recognized malware attacks by Check Point.
+On the non-mobile front, the Index ranked Kelihos, a botnet used in bitcoin theft and spamming, as the most prevalent malware family overall, with 5% of organizations globally is impacted by it. It utilizes peer-to-peer communications, enabling each individual node to act as a Command & Control server.
+It’s followed by HackerDefender and Cryptowall in second and third place respectively, with both impacting 4.5% of companies.
+Overall, the top 3 malware families revealed that hackers were using a wide range of attack vectors and tactics to target businesses. These threats impact all steps of the infection chain, including spam emails which are spread by botnets, and contain downloaders that place ransomware or a Trojan on the victim’s machine. 
+“The wide range of threats seen during January, utilizing all the available tactics in the infection chain, demonstrates the size of the task IT teams face in securing their networks against attack,” said Nathan Shuchami, head of threat prevention at Check Point. “To defend themselves, organizations need to apply advanced threat prevention measures on their networks, endpoints and mobile devices to stop malware at the pre-infection stage, such as Check Point’s SandBlast Zero-Day Protection and Mobile Threat Prevention solutions, to ensure that they are secured against both known and unknown threats.”
+Interestingly, the UK came in as the 53rd most attacked country globally, higher than the US (100th), Germany (65th) and France (61st).
+
+
+
+
+
+
+
+
+
+
+
+Why Not Watch?
+14 Apr 2016The Next Step in Cyber Defense and Response – How to Respond to Today’s Cyber Attack Trends and Security IT Challenges9 Jul 2015How Outsiders Become Insiders: Understanding and Combating Today's Threats29 Jan 2015Sony Pictures Entertainment: The Fallout from 2014’s Biggest Breach 26 Mar 2015Insights into Incident Response – A View from the Front Lines
+
+
+
+Related to This Story
+
+
+Highly Organized Chinese 'Yingmob' Rakes in $300K Monthly from Mobile Malware
+
+
+Ransomware, Mobile Botnets and EK Trends Swell in 2016
+
+
+Autorooting, Overlay Malware Are Rising Android Threats
+
+
+Mobile Malware? You’ve More Chance of Being Hit By Lightning
+
+
+Fake Netflix App Relentlessly Spies on All Mobile Activity
+
+
+
+
+What’s Hot on Infosecurity Magazine?
+
+Read
+Shared
+Watched
+Editor's Choice
+
+
+
+115 Feb 2017 NewsCyber-Workforce Shortage to Increase to 1.8 Million Positions by 2022217 Feb 2017 NewsNew York State Unveils Strict New Cybersecurity Regulations328 Apr 2015 NewsPorn Site xHamster Crushed by Fresh Malvertising Attack416 Feb 2017 News#RSAC: Security Blogger Awards Winners Announced 517 Feb 2017 NewsGermany Calls on Parents to Destroy Cayla Dolls618 Apr 2016 News3.8M Porn Users Compromised in Naughty America Hack
+
+
+
+121 Nov 2016 NewsFBI: US ATMs Could Be Hacked to Spew Cash218 Nov 2016 NewsUS Government Releases New IoT Security Guidance322 Nov 2016 NewsConficker Still on Top as Malware Jumps 5% in October421 Nov 2016 NewsData Protection Disputes to Soar Over Next Five Years518 Nov 2016 NewsUK Retailers Facing One Million Fraud Attempts Per Day617 Nov 2016 NewsSHA-1 Time Bomb: One Third of Websites Have Yet to Upgrade
+
+
+
+123 Feb 2017, 15:00 GMT, 10:00 EST WebinarHyper-Realistic Simulation - the New Approach to Cybersecurity Training29 Mar 2017, 13:00 EST, 10:00 PST WebinarHow IoT Enabled a DDoS, and How to Avoid Being Part of It32 Mar 2017, 15:00 GMT, 10:00 EST WebinarAutomation, Machine Learning and AI: Saving Security or Job Stealing Digital Overlords?49 Mar 2017, 15:00 GMT, 10:00 EST WebinarMind the Security Gap - Transforming the Effectiveness of End Point Protection57 Jan 2016 WebinarThe ‘Dark’ Web Inside Your Enterprise – Shining a Light on the Hazards of Encrypted Traffic64 Apr 2017, 16:00 BST, 11:00 EDT WebinarLife of: A Penetration Tester
+
+
+
+18 Feb 2017 NewsSentry MBA Tool Used in Attacks on Login Forms213 Feb 2017 News FeatureHelp Save the Youth of Cyber313 Feb 2017 NewsGlobal Banks Hit by Watering Hole Blitz410 Feb 2017 BlogDigesting the Diversity of Data Breaches510 Feb 2017 NewsArby's Gets Roasted in Breach of 300K Payment Cards610 Feb 2017 NewsEast-West Co-operation Stalls Following Kaspersky Lab Arrest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Magazine
+About Infosecurity
+Subscription
+Meet the Team
+Contact Us
+
+
+
+
+Advertisers
+Media Pack
+
+
+Contributors
+Forward Features
+Op-ed
+
+
+
+
+
+Copright © 2017 Reed Exhibitions Ltd.
+Terms and Conditions
+Privacy Policy
+Use of Cookies
+Sitemap
+
+
+
+
+
+
+
+
+
+                Please wait…
+            
+
+
+
+
+
+
+
+
+
+
+
+
+

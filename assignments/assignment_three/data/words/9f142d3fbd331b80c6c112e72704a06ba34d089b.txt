@@ -1,0 +1,1081 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Thème :
+Clair
+Sombre
+Nostalgique
+
+Découvrez également :
+
+ Versión en español
+ Deutsch Version
+
+
+
+
+
+Connexion
+
+
+Connexion avec Facebook
+
+
+
+Identifiant
+
+
+
+Mot de passe
+
+
+
+
+
+
+Identifiants perdus ?
+
+
+
+Inscription
+
+
+
+ 
+
+
+
+
+
+
+
+Actualité
+
+
+Dossiers
+
+
+Téléchargements
+
+
+Astuces
+
+
+Vidéos
+
+
+Forums
+
+
+Comparateur
+
+
+
+
+
+
+
+
+
+
+
+En ce moment
+
+Galaxy S8
+Nintendo Switch
+AMD Ryzen
+iPhone 8
+Promo Amazon
+
+Découvrez GNT Premium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Accueil
+
+
+Actualités
+
+
+
+Internet
+
+
+
+Divers
+
+
+
+Les banques du monde entier aux prises avec un malware furtif
+
+
+                        Le jeudi 09 Février 2017 à 15:10 par
+						                        Mathieu M.
+
+                              |  16 commentaire(s)
+							                                Source : Kaspersky
+
+
+
+
+
+
+
+					La société spécialiste de la sécurité Kaspersky annonce avoir découvert un malware très furtif qui officie au sein des serveurs Windows des banques ainsi que de divers organismes.                
+
+
+
+
+
+
+
+
+
+La situation est très préoccupante selon Kaspersky : un malware presque invisible sévirait sur les serveurs Windows utilisés par des banques, des organisations gouvernementales et opérateurs de télécom. Pour l'instant, on estime à plus de 140 le nombre d'entreprises infectées, réparties dans plus de 40 pays.
+
+Le malware en question s'appuie sur la back door Meterpreter ainsi que le collecteur de mot de passe Mimikatz, deux outils utilisés dans Metasploit, une plateforme de sécurité généralement utilisée pour des tests de vulnérabilité.
+Quand un pirate réussit à installer le malware dans un serveur, ce dernier lance un script qui écrit directement dans la base de registre de la machine afin d'ouvrir la back door. Les communications sont établies avec la commande Netsh et les pirates peuvent ensuite accéder à distance aux serveurs.
+
+Puisque ce sont les outils standard de Windows qui sont utilisés tout du long et que les activités ne génèrent aucun log ni n'entrainent de création de fichiers, le malware est presque invisible. Seule une analyse de la RAM permet de le mettre en évidence.
+Kaspersky n'indique pas pour l'instant qui est à l'origine du malware ni quels sont ses objectifs principaux. On sait toutefois qu'il permettait d'accéder aux distributeurs de billets de banque, ce qui laisse supposer d'une fraude ciblant avant tout les banques. 
+
+
+
+Complément d'information
+
+
+
+
+
+
+Les banques traditionnelles ont-elles réussi leur transition vers le numérique ?
+
+
+									À l'heure du tout numérique, il est un secteur qui cherche toujours à profiter des nouveaux outils pour parfaire sa révolution : celui de la banque.                                
+
+
+
+
+
+
+
+Piratage de banques : un gang russe démantelé
+
+
+									Adepte du malware Lurk, un réseau de cybercrimels vient d'être démantelé en Russie. Il est responsable du vol de plus de 22 millions d'euros à des banques.                                
+
+
+
+
+
+
+
+Avez-vous trouvé cet article intéressant ?
+
+
+ Oui
+                        
+
+
+
+
+
+
+                                (Oui 1,
+                                Non 0)
+                            
+
+
+ Non
+                        
+
+
+ Voir les 16 commentaires
+
+
+
+J'aime
+
+
+Tweet
+
+
++1
+
+
+
+                        Tags :
+                        
+Kaspersky
+banques
+Malware
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+                    Vos commentaires
+					                        
+                            Page 1 / 2                        
+
+
+
+
+
+                            Gagnez chaque mois un abonnement Premium avec GNT : Inscrivez-vous !
+            			
+
+
+ Trier par :
+            date
+            /
+            pertinence
+
+
+
+
+
+
+
+
+kerlutinoec
+
+ 
+Hors ligne
+
+VIP
+
+
+
+6848 points
+
+
+Inscrit le 14/11/2008
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 15:31
+#1951083
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+>  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+
+ +1
+
+
+
+
+
+
+
+        (3  aiment, 
+        1  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+skynet
+
+ 
+Hors ligne
+
+VIP
+
+
+
+31748 points
+
+
+Inscrit le 20/05/2015
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 15:42
+#1951085
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+Surtout que sur les DAB on retrouve pas mal de WinXP  
+
+>  kerlutinoec a écrit : 
+>  >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  Surtout que sur les DAB on retrouve pas mal de WinXP  :facepalm:
+
+
+
+ +1
+
+
+
+
+
+
+
+        (3  aiment, 
+        1  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+mouksone91
+
+ 
+Hors ligne
+
+Senior
+
+
+
+319 points
+
+
+Inscrit le 29/09/2014
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 16:15
+#1951088
+
+skynet a écrit :
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+Surtout que sur les DAB on retrouve pas mal de WinXP  
+
+
+voir windows 2000 il parait ....
+
+>  skynet a écrit : 
+>  >  kerlutinoec a écrit : 
+>  > >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  >  Surtout que sur les DAB on retrouve pas mal de WinXP  :facepalm:
+>  voir windows 2000 il parait ....
+
+
+
+ +1
+
+
+
+
+
+
+
+        (1  aime, 
+        1  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+Ulysse2K
+
+ 
+Hors ligne
+
+VIP
+
+
+
+29100 points
+
+
+Inscrit le 01/03/2005
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 16:20
+#1951091
+
+Malware ou (encore) un prétexte pour excuser de mauvais placements à risque ? Plus rien ne m'étonnerait avec ces bestiaux là  
+
+>  Malware ou (encore) un prétexte pour excuser de mauvais placements à risque ? Plus rien ne m'étonnerait avec ces bestiaux là  :annoyed:
+
+
+
+ +1
+
+
+
+
+
+
+
+        (3  aiment, 
+        1  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+Xarkam
+
+ 
+Hors ligne
+
+Vétéran
+
+
+
+1248 points
+
+
+Inscrit le 01/03/2005
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 16:39
+#1951097
+
+Pour Olga Kochetova, également ingénieur chez Kaspersky après avoir travaillé plusieurs années sur le marché des distributeurs bancaires, la réponse est encore plus simple. Ces machines étant désormais trop vieilles pour faire tourner des versions plus récentes et sécurisées de Windows, elles nécessitent donc d’être remplacées, or « l’investissement serait trop coûteux ». En outre, ça impliquerait aussi d’embaucher un nouveau personnel mieux formé vis à vis des nouveaux risques de piratage.
+
+Source: http://www.phonandroid.com/95-distributeurs-de-billets-vulnerables-piratage.html
+
+>  Pour Olga Kochetova, également ingénieur chez Kaspersky après avoir travaillé plusieurs années sur le marché des distributeurs bancaires, la réponse est encore plus simple. Ces machines étant désormais trop vieilles pour faire tourner des versions plus récentes et sécurisées de Windows, elles nécessitent donc d’être remplacées, or « l’investissement serait trop coûteux ». En outre, ça impliquerait aussi d’embaucher un nouveau personnel mieux formé vis à vis des nouveaux risques de piratage.
+>  
+>  Source: http://www.phonandroid.com/95-distributeurs-de-billets-vulnerables-piratage.html
+
+
+
+ +1
+
+
+
+
+
+
+
+        (1  aime, 
+        0  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+lebonga
+
+ 
+Hors ligne
+
+VIP
+
+
+
+17189 points
+
+
+Inscrit le 28/11/2005
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 17:53
+#1951110
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+Ce ne sont pas "nos" sous... Mais ceux que la banque te prête... 
+
+
+
+>  kerlutinoec a écrit : 
+>  >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  Ce ne sont pas "nos" sous... Mais ceux que la banque te prête... ;)
+
+
+
+ +1
+
+
+
+
+
+
+
+        (1  aime, 
+        0  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+oldjohn
+
+ 
+Absent
+
+VIP
+
+
+
+6887 points
+
+
+Inscrit le 26/05/2008
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 19:32
+#1951132
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+C'est toi qui est débile !
+
+>  kerlutinoec a écrit : 
+>  >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  C'est toi qui est débile !
+
+
+
+ +1
+
+
+
+
+
+
+
+        (0  aime, 
+        2  n'aiment pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+Ulysse2K
+
+ 
+Hors ligne
+
+VIP
+
+
+
+29100 points
+
+
+Inscrit le 01/03/2005
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 19:55
+#1951135
+
+oldjohn a écrit :
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+C'est toi qui est débile !
+
+
+Tu nous fais une poussée d'acné mon petit ?  
+
+>  oldjohn a écrit : 
+>  >  kerlutinoec a écrit : 
+>  > >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  >  C'est toi qui est débile !
+>  Tu nous fais une poussée d'acné mon petit ?  :p
+
+
+
+ +1
+
+
+
+
+
+
+
+        (2  aiment, 
+        0  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+Vikingfr
+
+ 
+Hors ligne
+
+Vénéré
+
+
+
+2667 points
+
+
+Inscrit le 31/12/2010
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 22:31
+#1951149
+
+skynet a écrit :
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+Surtout que sur les DAB on retrouve pas mal de WinXP  
+
+
+Il y a quelques années, il n'était pas rare de voir des écrans bleu ou des bureaux XP sur les écrans des DAB.
+
+
+>  skynet a écrit : 
+>  >  kerlutinoec a écrit : 
+>  > >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  >  Surtout que sur les DAB on retrouve pas mal de WinXP  :facepalm:
+>  Il y a quelques années, il n'était pas rare de voir des écrans bleu ou des bureaux XP sur les écrans des DAB.
+
+
+
+ +1
+
+
+
+
+
+
+
+        (0  aime, 
+        0  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+
+
+
+
+Vikingfr
+
+ 
+Hors ligne
+
+Vénéré
+
+
+
+2667 points
+
+
+Inscrit le 31/12/2010
+
+Suivre
+
+Voir le profil
+Message privé
+
+
+
+
+                Le 09/02/2017 à 22:32
+#1951150
+
+lebonga a écrit :
+
+kerlutinoec a écrit :
+
+Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+
+
+Ce ne sont pas "nos" sous... Mais ceux que la banque te prête... 
+
+
+non, c'est l'inverse, les banques travaillent avec les sous qu'on leur confie.
+
+>  lebonga a écrit : 
+>  >  kerlutinoec a écrit : 
+>  > >  Putain la vache ! Gérer nos sous avec windows, faut être débiles quand même !
+>  >  Ce ne sont pas "nos" sous... Mais ceux que la banque te prête... ;)
+>  non, c'est l'inverse, les banques travaillent avec les sous qu'on leur confie.
+
+
+
+ +1
+
+
+
+
+
+
+
+        (0  aime, 
+        0  n'aime pas)
+    
+
+
+ -1
+ 
+Répondre en citant
+Masquer
+
+
+
+
+
+
+
+12 
+
+
+Suivre les commentaires
+
+
+Cette option est réservée aux membres de GNT. Merci de vous inscrire, c'est gratuit !.
+Cette option est réservée aux membres premium de GNT. Pour en savoir plus, cliquez ici.
+
+
+Poster un commentaire
+
+
+
+
+Anonyme
+
+
+Se connecter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A propos
+Contacts
+Publicité
+Partenaires
+Conditions d'utilisation
+Signaler un bug
+
+
+Copyright © 2001-2017 GNT Media, tous droits réservés
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

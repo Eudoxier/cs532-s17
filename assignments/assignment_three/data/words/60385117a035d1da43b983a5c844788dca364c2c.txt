@@ -1,0 +1,263 @@
+
+
+
+
+
+Skip to content ↓ | 
+	Skip to navigation ↓
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+The State of Security
+
+
+News. Trends. Insights.
+
+
+Tripwire, Inc.
+
+
+
+
+
+
+Featured Articles
+Latest Security News
+Topics
+
+Endpoint Detection & Response
+Government
+ICS Security
+Incident Detection
+IT Security and Data Protection
+Off Topic
+Regulatory Compliance
+Risk-Based Security for Executives
+Security Awareness
+Security Slice
+Tripwire News
+Vulnerability Management
+
+
+Resources
+
+Podcasts
+Videos
+
+
+About
+
+About The State Of Security
+Tripwire Contributors
+Contact Us
+
+
+Explore Tripwire
+
+Security Configuration Management
+Vulnerability Management
+Endpoint Detection & Response
+Log Management
+Security Intelligence
+PCI Compliance
+NERC Compliance
+
+
+Tripwire.com  
+
+
+
+
+
+
+
+ Home » News » French man sues Uber after privacy bug led…
+ French man sues Uber after privacy bug led wife to suspect adultery
+Graham CluleyFeb 9, 2017IT Security and Data Protection
+
+ 
+Modern technology has probably done more than its fair share to ignite illicit relationships, but it can also lead to a romantic affair’s unravelling.
+But if your wife or husband becomes aware of an adulterous entanglement through a buggy app, do you blame yourself for having the affair in the first place, or do you blame the software that couldn’t be trusted to keep its mouth shut?
+That’s the question that some will be pondering, as French media reports that a man has filed an eye-watering €45 million lawsuit against Uber, alleging that the taxi app’s notifications to his wife precipitated their divorce after she suspected him of cheating.
+The unnamed businessman, who is based in Côte d’Azur in the south of France, claims that Uber failed to maintain his privacy, sending notifications to his wife’s iPhone whenever he took a ride with the firm, revealing where and when he was being picked up, the name of the driver, the car’s license plate, and – of course – his destination.
+The problem all started, reports The Local, when the man used his wife’s smartphone to log into Uber:
+And he says it all began when he borrowed his wife’s phone and logged in to Uber.
+Despite logging out of the app, notifications of his journeys continued to roll in to her phone, revealing what she suspected was evidence of his extra-marital encounters and leading to the couple’s divorce.
+Logic suggests that that’s not the best way to keep an illicit affair secret.
+French newspaper Le Figaro says that it has been able to replicate the man’s experiences – with notifications of Uber journeys sent to an iPhone even after it has been supposedly disconnected from the account.
+Le Figaro says that the issue does not appear to affect Android versions of the Uber app, or iOS versions updated since mid-December 2016. The newspaper speculates that the problem could have arisen because of a failure by Uber to properly revoke notification tokens on devices after an account is disconnected.
+For its part, Uber is declining keeping its lips tightly sealed:
+“Uber does not publicly comment on individual cases, including the case of divorce proceedings between spouses.”
+Far be it from me to advise adulterers on how to keep their affairs secret from their partners, but maybe it would be a good idea to not rely on technology so much to arrange your assignations. Rather than reach to your pocket for an app to hail a cab, maybe you would do better standing on a street corner and whistling instead.
+You know how to whistle don’t you?
+ 
+Editor’s Note: The opinions expressed in this guest author article are solely those of the contributor, and do not necessarily reflect those of Tripwire, Inc.
+ 
+
+
+
+
+
+
+ 
+Categories Featured Articles, IT Security and Data Protection
+Tags Privacy, Uber
+
+
+
+
+
+
+
+
+MsJoanne
+
+
+
+I would so love to hear the legal argument this guy is arguing.
+
+
+
+
+
+
+About Graham CluleyGraham Cluley has contributed 117 posts to The State of Security.View all posts by Graham CluleyFollow @gcluley 
+
+
+
+
+
+
+
+Twitter
+LinkedIn
+RSS
+Google+
+Facebook
+SlideShare
+YouTube
+Flickr
+
+
+
+
+Free eBook
+
+Security Configuration Management For Dummies
+Download Now
+Latest Security News
+Canada to Enact Legislation that Will Require All Businesses to Report Data BreachesFeb 17, 2017Rasputin Hacker Uses SQLi to Hack 60 Universities and Government AgenciesFeb 16, 2017Romance Scams Cost Victims $230M in 2016, Reports FBIFeb 15, 2017New Proof-of-Concept Ransomware Can Target PLCs at Industrial SitesFeb 14, 2017Man Jailed Indefinitely for Refusing to Decrypt Hard DrivesFeb 13, 2017
+
+
+
+Featured
+Recent
+
+
+
+
+
+Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesFeb 16, 2017Cyber Insurance Coverage ConcernsFeb 15, 2017New Research Highlights Top Cyber-Attack Concerns for 2017Feb 15, 20174 Tips for a Successful OT & IT Security MarriageFeb 14, 2017
+
+
+Canada to Enact Legislation that Will Require All Businesses to Report Data BreachesFeb 17, 2017Raking in the Ransoms: How the Russian Ransomware Threat Landscape TicksFeb 16, 2017Rasputin Hacker Uses SQLi to Hack 60 Universities and Government AgenciesFeb 16, 2017More Yahoo users warned of malicious account access via forged cookiesFeb 16, 2017Cyber Insurance Coverage ConcernsFeb 15, 2017
+
+
+
+Tweets by @TripwireInc
+
+
+Topics 
+Government
+
+ICS Security
+
+Incident Detection
+
+IT Security and Data Protection
+
+Latest Security News
+
+Off Topic
+
+Regulatory Compliance
+
+Risk-Based Security for Executives
+
+Security Awareness
+
+Security Slice
+
+Tripwire News
+
+Vulnerability Management
+
+
+ 
+
+
+
+
+
+
+
+
+© 2017 Tripwire, Inc. All rights reserved. 
+
+
+Featured Articles
+Topics
+About
+Contributors
+Privacy Policy
+Tripwire.com
+ 
+
+
+Follow us
+Twitter
+LinkedIn
+Flickr
+YouTube
+Google+
+SlideShare
+Facebook The State of Security
+RSS
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

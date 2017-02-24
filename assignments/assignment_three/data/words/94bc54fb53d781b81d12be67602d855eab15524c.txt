@@ -1,0 +1,479 @@
+
+
+
+
+
+
+
+
+
+ Login to PartnerNet
+
+
+
+
+
+ Hi, 
+
+
+
+
+
+
+
+
+
+My Details
+Overview
+Logout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+United States
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ PRODUCTS
+ 
+
+
+
+
+
+
+
+
+
+Threat Protection
+Information Protection
+Cyber Security Services
+Website Security
+Products A-Z
+
+
+
+
+
+
+
+
+
+
+
+ SERVICES
+ 
+
+
+
+
+
+
+
+
+
+Consulting Services
+Customer Success Service
+Cyber Security Services
+Education Services
+
+
+
+
+
+
+
+
+
+
+
+ SOLUTIONS
+ 
+
+
+
+
+
+
+
+
+
+Internet of Things
+Office 365
+Automotive
+Education
+Federal Government
+Financial Services
+Global Service Providers
+Industrial Control Systems
+Healthcare
+Retail
+State & Local
+
+
+
+
+
+
+
+
+
+
+
+ SUPPORT CENTER
+ 
+
+
+
+
+
+
+
+
+
+Technical Support
+Symantec Connect
+Buying Programs
+Upgrades
+Renewals
+Training
+
+
+
+
+
+
+
+
+
+
+
+ SECURITY CENTER
+ 
+
+
+
+
+
+
+
+
+
+Blogs
+ISTR
+Threats
+Virus Definitions and Security Updates
+Removal Tools
+
+
+
+
+
+
+
+
+
+
+
+ PARTNER
+ 
+
+
+
+
+
+
+
+
+
+Find a Partner
+Become a Partner
+
+Login Required
+
+Login into Partner Portal
+Partner Licensing
+Partner Renewals
+Partner Training
+Margin Builder
+Opportunity Registration
+Financial Benefits
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+/Security Response/
+Trojan.Mirai
+
+
+
+
+
+
+
+
+					Add
+					
+
+
+
+
+
+
+	Add Bookmark or Share
+	
+Google+
+
+Technorati
+
+Digg
+
+Delicious
+
+Reddit
+
+StumbleUpon
+
+Twitter
+
+LinkedIn
+
+Facebook
+
+Newsvine
+ 
+
+
+
+
+
+Trojan.Mirai
+
+
+
+Risk Level 1: Very Low
+
+
+
+summary
+
+
+technical details
+
+
+removal
+
+
+
+Printer Friendly Page
+
+
+
+
+
+
+Discovered: 
+
+February 8, 2017
+
+Updated: 
+
+February 10, 2017 6:30:39 PM
+
+Type: 
+
+Trojan
+
+Infection Length: 
+
+Varies
+
+Systems Affected: 
+
+Windows
+
+
+Trojan.Mirai is a Trojan horse that may perform malicious activities on the compromised computer.
+
+
+Antivirus Protection Dates
+
+
+Initial Rapid Release version February 9, 2017 revision 005
+
+Latest Rapid Release version February 16, 2017 revision 004
+
+Initial Daily Certified version February 9, 2017 revision 008
+
+Latest Daily Certified version February 16, 2017 revision 009
+
+Initial Weekly Certified release date February 15, 2017
+
+Click here for a more detailed description of Rapid Release and Daily Certified virus definitions.
+
+Writeup By: Ke Zhang
+
+
+Summary| Technical Details| Removal
+
+
+
+
+ 
+
+
+
+Search Threats
+Search by nameExample: W32.Beagle.AG@mm
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFORMATION FOR:
+
+Enterprise
+Small Business
+Consumer (Norton)
+Partners
+
+
+
+OUR OFFERINGS:
+
+Products
+Products A-Z
+Services
+Solutions
+
+
+
+CONNECT WITH US:
+
+Support
+Connect Communities
+Security Center
+Find a Partner
+Events
+Webcasts
+Contact Us
+
+
+
+ABOUT SYMANTEC
+
+CustomerOne
+Performance Center
+Newsroom
+Careers
+Investor Relations
+Corporate Responsibility
+Blue Coat Acquisition
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+ 
+
+
+   
+		©1995 - 2017 Symantec Corporation 	
+
+About Symantec|Careers|Events|News|Site Map|Legal Repository|Privacy|Cookies|Contact
+   
+
+
+
+
+
+
+
+
+
+

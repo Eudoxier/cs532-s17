@@ -1,0 +1,489 @@
+ 
+
+
+
+
+ 
+
+
+The Seven Most Dangerous New Attack Techniques: Summary of the RSA 2017 keynote session featuring top SANS experts5 Days Left to Save $400 on Threat Hunting and IR Summit
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+SANS Site Network
+
+Current SiteSecurity Training
+Choose a different site HelpSecurity Certification
+Internet Storm Center
+Graduate Degree Programs
+Security Awareness Training
+Cyber Defense
+Forensics & Incident Response
+Penetration Testing
+Industrial Control Systems
+Software Security
+Government Private Training
+
+
+
+
+
+
+
+
+
+
+
+
+Login  Create Account   
+
+
+
+
+
+Find Training
+
+Search For Training
+Upcoming Events
+Online Training
+Private Training
+Course List
+NetWars
+Without Travel
+Training Curricula »
+
+Cyber Defense
+System Administration
+Digital Forensic Investigations and Media Exploitation
+Penetration Testing
+Incident Response and Threat Hunting
+Management
+Secure Software Development
+Audit
+Intrusion Analysis
+Cyber Guardian
+Legal
+Industrial Control Systems
+
+
+
+
+Live Training
+
+Overview
+Search For Training
+Upcoming Events
+Summits
+Community Events
+Mentor
+Private Training
+Work Study
+COINS
+
+
+Online Training
+
+Overview
+Search For Training
+OnDemand
+vLive: Live Evening Courses
+Simulcast
+SelfStudy
+NetWars: Continuous
+DFIR NetWars: Continuous
+Private Training
+Security Awareness
+Specials
+
+
+Programs
+
+Overview
+Voucher Program
+CyberTalent
+ICS/SCADA
+Industrials & Infrastructure
+Cyber Guardian
+NetWars
+Cybersecurity Innovation Awards
+Commercial Enterprise Solutions
+CISSP Get Certified
+DoDD 8570
+DoDD 8140
+Instructor Development
+NICE Framework
+
+
+Resources
+
+Overview
+Reading Room
+Webcasts
+Newsletters
+Blogs
+Tip of The Day
+Posters
+Top 25 Programming Errors
+The Critical Security Controls
+Security Policy Project
+From Vendors
+Additional Resources
+Critical Vulnerability Recaps
+Affiliate Directory
+
+
+Vendor
+
+Overview
+Sponsorship
+Demographics
+Analyst Program
+Affiliate Program
+Webcasts
+Events
+WhatWorks
+CIS Critical Security Controls
+Contact
+
+
+About
+
+About SANS
+Why SANS?
+Instructors
+Contact
+FAQ
+Link to SANS
+Press Room
+
+PGP Key
+
+
+
+
+
+
+
+
+
+
+
+
+ Pen Test Austin 2017
+Austin, TX | Mon, Mar 27, 2017 - Sat, Apr 1, 2017
+
+
+
+
+
+
+Event starts in 37 Days  
+
+
+
+
+
+
+
+
+      Welcome to  Pen Test Austin 2017 10 courses 10 instructors 1 disciplines   
+ 
+
+
+Save 200 USD! Enter discount code "EarlyBird17" and pay for any 4-6 day course by February 22. 
+
+ 
+
+Penetration Testing, Ethical Hacking, and Exploit Development training is coming to Austin, TX from SANS Institute, the global leader in information security training. 
+"Hackers" - individuals who enjoy the intellectual challenge of creatively overcoming and circumventing limitations of systems to achieve novel and clever outcomes.
+If this sounds like you, you can't afford to miss SANS Pen Test Austin 2017. There will be six-days of nonstop in-depth hands-on ethical hacking, penetration testing, and exploit development training.  
+Every organization needs skilled people who know how to find vulnerabilities, understand risk, and help prioritize resources based on mitigating potential real-world attacks. That's what SANS Pen Test Austin is all about! If you like to break things, put them back together, find out how they work, and mimic the actions of real-world bad guys, all the while providing real business value to your organization, then this event is exactly what you need.
+This SANS training event isn't just for penetration testers & red team members; it is for any information security professional who wants to understand the mindset, tools, and techniques used by the ones who intrude where they don't belong.
+What's special about SANS Pen Test Austin?
+SANS Training: Learn hands-on skills that you can directly apply the day you get back to your job. Courses are for every level of information security practitioner, from SEC401 (Introductory) to SEC660 (Advanced Pen Test).
+The NetWars Experience (version 4.0): Enjoy three exciting nights of the SANS NetWars Experience, where you can have some fun while building serious InfoSec skills.
+Coin-A-Palooza: Earn up to five additional SANS Pen Test Challenge Coins (each with an integrated cipher challenge) based on your performance in the SANS NetWars Experience! 
+SANS CyberCity Missions: Hone your skills as you protect the fictional citizens of CyberCity from the threat of nefarious cyber-attackers insides this real physical model city. You'll see what it looks like to hack a modern city.
+Much more...
+I urge you to check out all the great stuff we are offering at this event. It's a truly special SANS training experience, and I hope to see you there!
+Ed Skoudis
+SANS Pen Test Curriculum Lead
+Learn about how you can attend remotely.
+
+
+Available Courses
+
+
+
+
+Title
+Certification
+Instructor
+
+
+
+ New
+SEC642: Advanced Web App Penetration Testing, Ethical Hacking, and Exploitation Techniques 
+
+—
+
+
+Adrien de Beaupre 
+
+
+
+SEC401: Security Essentials Bootcamp Style 
+Simulcast Available
+
+
+
+GSEC
+
+
+Keith Palmgren 
+
+
+
+SEC504: Hacker Tools, Techniques, Exploits, and Incident Handling 
+Simulcast Available
+
+
+
+GCIH
+
+
+Donald Williams 
+
+
+
+SEC542: Web App Penetration Testing and Ethical Hacking 
+
+GWAPT
+
+
+Eric Conrad 
+
+
+
+SEC550: Active Defense, Offensive Countermeasures and Cyber Deception 
+
+—
+
+
+Chris Pizor 
+
+
+
+SEC560: Network Penetration Testing and Ethical Hacking 
+Simulcast Available
+
+
+
+GPEN
+
+
+Ed Skoudis 
+
+
+
+SEC562: CyberCity Hands-on Kinetic Cyber Range Exercise  
+
+—
+
+
+Tim Medin 
+
+
+
+SEC617: Wireless Ethical Hacking, Penetration Testing, and Defenses 
+
+GAWN
+
+
+James Leyte-Vidal 
+
+
+
+SEC660: Advanced Penetration Testing, Exploit Writing, and Ethical Hacking 
+
+GXPN
+
+
+Stephen Sims 
+
+
+
+Core NetWars Experience - Add-on (FREE with any 4-6 Day SANS Course Registration) 
+
+—
+
+
+Tim Medin 
+
+
+
+NetWars - CyberCity - Add-on (FREE with any 4-6 Day SANS Course Registration) 
+
+—
+
+
+Tim Medin 
+
+
+
+HOSTED: Physical Security Specialist - Full Comprehensive Edition 
+
+—
+
+
+The CORE Group 
+
+
+
+
+
+
+
+
+
+
+
+
+ Pen Test Austin 2017 
+
+
+Event starts in 37 Days  
+
+Event HomeLocationAttend RemotelyCourses / PricesScheduleInstructorsExhibitorsAttendee Info
+
+
+
+
+
+
+Downloads
+
+Event Brochure
+
+
+
+
+
+
+Share
+
+
+
+
+
+
+
+
+
+
+
+
+We just purchased Securing the Human, which I think is the best I have ever seen. In addition it's backed up by SANS extensive experience and knowledge base in infosec.- Karen McDowell
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest Whitepapers
+Indicators of Compromise TeslaCrypt MalwareBy Kevin Kelly
+The DevSecOps Approach to Securing Your Code and Your CloudBy Dave Shackleford
+PLC Device Security - Tailoring needsBy Wen Chinn Yew
+Last 25 Papers »
+
+
+Latest Tweets @SANSInstituteSANS Newsletters keep you informed on #infosec news, attacks [...]February 18, 2017 - 3:35 PM2 HOURS to @RobertMLee webcast Analyzing the Enhanced Analys [...]February 18, 2017 - 3:05 AMCloud-based or in-house #SOC? Tell us what you think in the  [...]February 17, 2017 - 9:45 PM
+
+Contact Us
+301-654-SANS(7267)
+        Mon-Fri 9am - 8pm EST/EDT
+info@sans.org
+
+
+
+
+"It was a great learning experience that helped open my eyes wider. The instructor's knowledge was fantastic."- Manuja Wikesekera, Melbourne Cricket Club
+"SANS is a great place to enhance your technical and hands-on skills and tools. I thoroughly recommend it."- Aaron Waugh, Datacom NZ Ltd
+"Expertise of the trainer is impressive, real life situations explained, very good manuals. Best training ever!"- Jerry Robles de Medina, Godo CU
+
+
+
+
+
+
+
+
+SANS Site Network
+
+Current SiteSecurity Training
+Choose a different site HelpSecurity Certification
+Internet Storm Center
+Graduate Degree Programs
+Security Awareness Training
+Cyber Defense
+Forensics & Incident Response
+Penetration Testing
+Industrial Control Systems
+Software Security
+Government Private Training
+
+
+
+
+
+
+
+
+
+
+
+
+Find Training
+Live Training
+Online Training
+Programs
+Resources
+Vendor
+About
+
+
+Privacy Policy
+Trademark Usage Policy
+Credits
+© 2000-2017 SANS™ Institute
+
+
+
+
+

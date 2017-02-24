@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Social Jukebox - Thinking Inside the Box">
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <title>SocialJukebox</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/jquery.bxslider.css">
+    <link rel='stylesheet' id='kiwi-logo-carousel-styles-css' href='./assets/css/custom-styles.css' type='text/css'/>
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,300italic,100italic,400italic,500italic,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <!-- PLANS STYLE-->
+<link rel="stylesheet" href="/assets/css/plans-style.css"></head>
+<body>
+<header class="hero-section">
+
+    <div class="sticky-wrapper" style="height: 74px;">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="./assets/images/logo.png" alt=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/">Home</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <!--<li><a href="/">Blog</a></li>-->
+                        <li><a href="/contact/">Contact us</a></li>
+                        <li><a href="/faq/">FAQ</a></li>
+                        <!--<li><a href="/TOC/redirect.php">Log in</a></li>-->
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li><a href="/TOC/redirect.php">Sign in</a></li>-->
+                        <li><a class="btn-border" href="/TOC/redirect.php"><span>Get started</span></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+
+    <section class="container text-center welcome-message">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Best automated social networks management tool</h1>
+                <h2>To get started, just sign in and we'll walk you through the process.</h2>
+                <br>
+                <br>
+                <!--<div class="cta-btn"> <a href="/members/addFbAccount.php" class="btn">Sign in with Facebook</a></div>
+                <div class="cta-btn"> <a href="/TOC/redirect.php" class="btn">Sign in with Twitter</a></div>
+                <div class="cta-btn"> <a href="/members/addLnAccount.php" class="btn">Sign in with Linkedin</a></div>-->
+                <div class="row">
+                    <div class="cta-btn">
+                        <div class="social-signin">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <a href="/members/addAccount.php?provider=facebook"
+                                           class="social-signin__btn btn btn-facebook btn-block btn-lg"
+                                           id="signInFacebook"><i class="fa fa-facebook"></i> Sign In with Facebook</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <a href="/TOC/redirect.php"
+                                           class="social-signin__btn btn btn-twitter btn-block btn-lg"><i
+                                                class="fa fa-twitter"></i> Sign In with Twitter</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <a href="/members/addAccount.php?provider=linkedin"
+                                           class="social-signin__btn btn btn-linkedin btn-block btn-lg"
+                                           id="signInLinkedin"><i class="fa fa-linkedin"></i> Sign In with LinkedIn</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="play-btn"><a href="https://www.youtube.com/watch?v=8kp_vLWhSMU" class="play litebox-hero"><i
+                            class="fa fa-youtube-play" aria-hidden="true"></i> See How it Works</a></div>
+            </div>
+        </div>
+    </section>
+
+</header>
+
+<!-- Logo slider -->
+
+<section class="logo-slider">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="kiwi-logo-carousel kiwi-logo-carousel-logo-image grayhovercolor align-center col4">
+                    <li>
+                        <div class="helper"><img src="/assets/images/logo-1.jpg"
+                                                 alt="image one" title="image one"></div>
+                    </li>
+                    <li>
+                        <div class="helper"><img src="/assets/images/logo-2.jpg"
+                                                 alt="image two" title="image two"></div>
+                    </li>
+                    <li>
+                        <div class="helper"><img src="/assets/images/logo-3.jpg"
+                                                 alt="image three" title="image three"></div>
+                    </li>
+                    <li>
+                        <div class="helper"><img src="/assets/images/logo-4.jpg"
+                                                 alt="image four" title="image four"></div>
+                    </li>
+                    <li>
+                        <div class="helper"><img src="/assets/images/logo-5.jpg"
+                                                 alt="image five" title="image five"></div>
+                    </li>
+                    <li>
+                        <div class="helper"><img src="/assets/images/logo-2.jpg"
+                                                 alt="image six" title="image six"></div>
+                    </li>
+                    <li>
+                        <div class="helper"><img src="/assets/images/forbes.png"
+                                                 alt="image seven" title="image seven"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Logo slider -->
+
+<!-- Plans section -->
+<section class="plans-section">
+    <div class="container">
+        <div class="section-title">
+            <div class="beefore"></div>
+            <div>Pricing</div>
+        </div>
+
+        <div class="row plans-list-home">
+                            <div class="plans-list-home__item">
+                    <div class="plan text-center">
+                                                <div
+                            class="plan__head" style="background-image: url(/assets/images/plan_free.jpg)">
+                            <h3 class="plan__title">Free</h3>
+                        </div>
+                        <div class="plan__body">
+
+                            <ul class="plan__list-group">
+                                                                    <li><strong>2</strong>
+                                        Jukeboxes
+                                    </li>
+                                
+
+                                                                    <li><strong>300</strong> Stored
+                                        Posts
+                                    </li>
+                                                                                                    <li><strong>5</strong>
+                                        Targeted Posts
+                                    </li>
+                                                                <li>
+                                                                            <strong>1 Social </strong>Account
+                                                                    </li>
+                                                                    <li><strong>50</strong> Thank
+                                        You Tweets (branded)
+                                    </li>
+                                                                                                    <li> Maximum 5 Tweets Per Day</li>
+                                    <li> Maximum 1 Post Per Day on Facebook and Linkedin</li>
+                                                            </ul>
+                            <div class="plan__month-price">
+                            <span class="plan__month-price__price">
+                                <span class="plan__month-price__price__sign">$</span>
+                                0                            </span>
+                                                            </div>
+                                                    </div>
+                        <div class="plan__content__footer">
+                            <button class="btn btn-info btn-block"
+                                    onclick="showSocialsForSubscription('free_new');">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                            <div class="plans-list-home__item">
+                    <div class="plan text-center">
+                                                <div
+                            class="plan__head" style="background-image: url(/assets/images/plan_advanced.jpg)">
+                            <h3 class="plan__title">Advanced</h3>
+                        </div>
+                        <div class="plan__body">
+
+                            <ul class="plan__list-group">
+                                                                    <li><strong>10</strong>
+                                        Jukeboxes per account
+                                    </li>
+                                
+
+                                                                    <li><strong>5000</strong> Stored
+                                        Posts per Account
+                                    </li>
+                                                                                                    <li><strong>50</strong>
+                                        Targeted Posts per Account
+                                    </li>
+                                                                <li>
+                                                                            <strong>Up
+                                            to 3</strong> Linked Social Accounts
+                                                                    </li>
+                                                                    <li><strong>100</strong> Customizable Thank
+                                        You Tweets
+                                    </li>
+                                                                                            </ul>
+                            <div class="plan__month-price">
+                            <span class="plan__month-price__price">
+                                <span class="plan__month-price__price__sign">$</span>
+                                19.99                            </span>
+                                                                    <span class="plan__month-price__text text-uppercase">monthly</span>
+                                                            </div>
+                                                            <div class="plan__year-price">
+                                    or
+                                <span class="plan__year-price__price">
+                                    199.90 annual
+                                </span>
+                                    (save $39.98)
+                                </div>
+                                                    </div>
+                        <div class="plan__content__footer">
+                            <button class="btn btn-info btn-block"
+                                    onclick="showSocialsForSubscription('advanced_new');">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                            <div class="plans-list-home__item">
+                    <div class="plan text-center">
+                                                    <div class="plan__popular text-uppercase">Most popular</div>
+                                                <div
+                            class="plan__head" style="background-image: url(/assets/images/plan_pro.jpg)">
+                            <h3 class="plan__title">Pro</h3>
+                        </div>
+                        <div class="plan__body">
+
+                            <ul class="plan__list-group">
+                                                                    <li><strong>30</strong>
+                                        Jukeboxes per account
+                                    </li>
+                                
+
+                                                                    <li><strong>10000</strong> Stored
+                                        Posts per Account
+                                    </li>
+                                                                                                    <li><strong>200</strong>
+                                        Targeted Posts per Account
+                                    </li>
+                                                                <li>
+                                                                            <strong>Up
+                                            to 10</strong> Linked Social Accounts
+                                                                    </li>
+                                                                    <li><strong>100</strong> Customizable Thank
+                                        You Tweets
+                                    </li>
+                                                                                            </ul>
+                            <div class="plan__month-price">
+                            <span class="plan__month-price__price">
+                                <span class="plan__month-price__price__sign">$</span>
+                                29.99                            </span>
+                                                                    <span class="plan__month-price__text text-uppercase">monthly</span>
+                                                            </div>
+                                                            <div class="plan__year-price">
+                                    or
+                                <span class="plan__year-price__price">
+                                    299.90 annual
+                                </span>
+                                    (save $59.98)
+                                </div>
+                                                    </div>
+                        <div class="plan__content__footer">
+                            <button class="btn btn-info btn-block"
+                                    onclick="showSocialsForSubscription('pro_new');">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                            <div class="plans-list-home__item">
+                    <div class="plan text-center">
+                                                <div
+                            class="plan__head" style="background-image: url(/assets/images/plan_business.jpg)">
+                            <h3 class="plan__title">Business</h3>
+                        </div>
+                        <div class="plan__body">
+
+                            <ul class="plan__list-group">
+                                                                    <li><strong>100</strong>
+                                        Jukeboxes per account
+                                    </li>
+                                
+
+                                                                    <li><strong>10000</strong> Stored
+                                        Posts per Account
+                                    </li>
+                                                                                                    <li><strong>50</strong>
+                                        Targeted Posts per Account
+                                    </li>
+                                                                <li>
+                                                                            <strong>Up
+                                            to 50</strong> Linked Social Accounts
+                                                                    </li>
+                                                                    <li><strong>200</strong> Customizable Thank
+                                        You Tweets
+                                    </li>
+                                                                                            </ul>
+                            <div class="plan__month-price">
+                            <span class="plan__month-price__price">
+                                <span class="plan__month-price__price__sign">$</span>
+                                49.99                            </span>
+                                                                    <span class="plan__month-price__text text-uppercase">monthly</span>
+                                                            </div>
+                                                            <div class="plan__year-price">
+                                    or
+                                <span class="plan__year-price__price">
+                                    499.90 annual
+                                </span>
+                                    (save $99.98)
+                                </div>
+                                                    </div>
+                        <div class="plan__content__footer">
+                            <button class="btn btn-info btn-block"
+                                    onclick="showSocialsForSubscription('business_new');">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                            <div class="plans-list-home__item">
+                    <div class="plan text-center">
+                                                <div
+                            class="plan__head" style="background-image: url(/assets/images/plan_ultimate.jpg)">
+                            <h3 class="plan__title">Ultimate</h3>
+                        </div>
+                        <div class="plan__body">
+
+                            <ul class="plan__list-group">
+                                                                    <li><strong>200</strong>
+                                        Jukeboxes per account
+                                    </li>
+                                
+
+                                                                    <li><strong>20000</strong> Stored
+                                        Posts per Account
+                                    </li>
+                                                                                                    <li><strong>1000</strong>
+                                        Targeted Posts per Account
+                                    </li>
+                                                                <li>
+                                                                            <strong>Up
+                                            to 200</strong> Linked Social Accounts
+                                                                    </li>
+                                                                    <li><strong>500</strong> Customizable Thank
+                                        You Tweets
+                                    </li>
+                                                                                            </ul>
+                            <div class="plan__month-price">
+                            <span class="plan__month-price__price">
+                                <span class="plan__month-price__price__sign">$</span>
+                                99.99                            </span>
+                                                                    <span class="plan__month-price__text text-uppercase">monthly</span>
+                                                            </div>
+                                                            <div class="plan__year-price">
+                                    or
+                                <span class="plan__year-price__price">
+                                    999.90 annual
+                                </span>
+                                    (save $199.98)
+                                </div>
+                                                    </div>
+                        <div class="plan__content__footer">
+                            <button class="btn btn-info btn-block"
+                                    onclick="showSocialsForSubscription('ultimate_new');">
+                                Subscribe Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</section>
+
+<!-- Text section -->
+
+<section class="text-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <div class="beefore"></div>
+                    <div>About Us</div>
+                    <p>You're probably busy. Most of us are.</p>
+                </div>
+                <p>Scheduling posts and live posting are very time consuming. Plus you have to remember when you last
+                    sent a particular piece of content. It's tiring just thinking about it. Social Jukebox will
+                    eliminate the
+                    need to continually schedule your posts, and manage your content. It's all right at your fingertips.
+                    Once you turn on your jukebox, it posts for you. Automatically. No more wasted time. How's that for
+                    good news?</p>
+                <div class="section-image text-center"><img src="./assets/images/text-section-bg.png"
+                                                            alt="text-section-bg"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Text section -->
+
+<!-- Text section -->
+
+<section class="text-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <div class="beefore"></div>
+                    <div>OUR FEATURES</div>
+                    <p>You're going to love your Jukeboxes…</p>
+                </div>
+                <p>Scheduling posts and live posting are very time consuming. Plus you have to remember when you last
+                    sent a particular piece of content.
+                    It's tiring just thinking about it. Social Jukebox will eliminate the need to continually schedule
+                    your posts, and manage your content.
+                    It's all right at your fingertips. Once you turn on your jukebox, it posts for you. Automatically.
+                    No more wasted time. How's that for good news?</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Text section -->
+
+<!-- Tab section -->
+<section class="tab-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md12">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">Juke Boxes</a></li>
+                    <li><a href="#profile" data-toggle="tab">Thank you tweets</a></li>
+                    <li><a href="#messages" data-toggle="tab">Targeted posts</a></li>
+                    <li><a href="#settings" data-toggle="tab">Mentions Database</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane fade in active clearfix" id="home">
+                        <div class="pic col-md-1 col-sm-1"><img src="./assets/images/box.png" alt="Juke Boxes"></div>
+                        <p class="col-md-11  col-sm-11">You're going to love your Jukeboxes. You load one with content ,
+                            figure out how often you'd like it to post, and then turn it on. With each Jukebox, you can
+                            store
+                            thousands of posts and set them up with our scheduling software. You can send posts from one
+                            to over
+                            a 100 times per day. Plus your scheduling is flexible, allowing you to set different
+                            schedules for each
+                            day of the week. When it runs out of posts, your Jukebox will turn over like an hourglass
+                            and keep posting. ]
+                            This is also completely automatic. You don't have to touch a thing. (PS – to make it super
+                            easy to start out,
+                            we even give you a FREE Jukebox with 200 quotes for you to try out.)</p>
+                    </div>
+                    <div class="tab-pane fade clearfix" id="profile">
+                        <div class="pic col-md-1 col-sm-1"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                        <p class="col-md-11  col-sm-11">When a user mentions you, where we come from it is common to
+                            "thank" them.
+                            Using our Thank You Tweet tool, you automatically thank up to 50 people for their
+                            interaction every Friday.
+                            Your jukebox system will thank the top Twitter™ users that mentioned you during the week.
+                            This feature is automatic,
+                            you don't have to do anything. Yes, that's right, more free time. Woohoo!
+                        </p>
+                    </div>
+                    <div class="tab-pane fade clearfix" id="messages">
+                        <div class="pic col-md-1 col-sm-1"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                        <p class="col-md-11  col-sm-11">Have a message you want to repeat a few times to ensure your
+                            followers see it? Want to have a birthday message that
+                            posts once a year? This is where it happens. Targeted posts are those that you want to send
+                            out on a specific date and, or frequency.
+                            By scheduling your post, you can get your information out to your followers daily, weekly,
+                            or several times each day.
+                            You'll find our targeted post engine to be very flexible to fit virtually any
+                            requirement.</p>
+                    </div>
+                    <div class="tab-pane fade clearfix" id="settings">
+                        <div class="pic col-md-1 col-sm-1"><i class="fa fa-database" aria-hidden="true"></i></div>
+                        <p class="col-md-11  col-sm-11">Your Social Jukebox will collect all "mentions" of your Twitter™
+                            24/7 automatically .
+                            We capture every mention and store it in your own database. You'll be able to see mentions
+                            over time in a graph format,
+                            see who your top "promoters" are using two different metrics (volume and reach). Did we
+                            mention it's automatic?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Tab section -->
+
+<!-- Text section -->
+
+<section class="text-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <div class="beefore"></div>
+                    <div>WHAT THEY THINK</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- /Text section -->
+<!-- Logo slider -->
+
+<section class="testimonials-slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" id="carousel_item_0">
+                            <div class="slider-item-img"><img src="./assets/images/pic_1.jpg" alt=""></div>
+                            <div class="item-name text-center">Lolly Daskal</div>
+                            <div class="item-info text-center">@LollyDaskal(1.24M followers)</div>
+                        </div>
+                        <div class="swiper-slide" id="carousel_item_1">
+                            <div class="slider-item-img"><img src="./assets/images/pic_4.png" alt=""></div>
+                            <div class="item-name text-center">ELAINE PERRY</div>
+                            <div class="item-info text-center">@Elaine_Perry(23K followers)</div>
+                        </div>
+                        <div class="swiper-slide" id="carousel_item_2">
+                            <div class="slider-item-img"><img src="./assets/images/pic_3.jpg" alt=""></div>
+                            <div class="item-name text-center">BRUCE VAN HORN</div>
+                            <div class="item-info text-center">@BruceVH (451K followers)</div>
+                        </div>
+                        <div class="swiper-slide" id="carousel_item_3">
+                            <div class="slider-item-img"><img src="./assets/images/pic_4.jpg" alt=""></div>
+                            <div class="item-name text-center">TED COINE</div>
+                            <div class="item-info text-center">@TedCoine (483K followers)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12  testimonials-slider-text">
+                    <div class="text_item" id="item_0">
+                        <p>Social Jukebox" is the best "time saving" social media tool that there is!</p>
+                    </div>
+                    <div class="text_item" id="item_1">
+                        <p>Easy to use, set-it-and-forget it...by far the best Twitter tool I've ever used!</p>
+                    </div>
+                    <div class="text_item" id="item_2">
+                        <p>Social JukeBox been a major part of the success of my book "Worry No More!"</p>
+                    </div>
+                    <div class="text_item" id="item_3">
+                        <p>Social Jukebox is an essential tool in building my personal brand. I love it. You will,
+                            too.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Logo slider -->
+
+
+<!-- Footer -->
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <!--<li><a href="/">Blog</a></li>-->
+                <li><a href="/contact/">Contact us</a></li>
+                <li><a href="/faq/">Faq</a></li>
+                <li><a href="/privacy/">Privacy Policy</a></li>
+                <li><a href="/terms/">Terms and Conditions</a></li>
+                                <li><a href="http://www.shareasale.com/shareasale.cfm?merchantID=69395">Affiliate Program</a></li>
+            </ul>
+            <p class="text-center copyright-section">www.SocialJukebox.com © - 2015</p>
+            <div class="text-center footer-logo"><img src="./assets/images/footer-logo.png" alt="SocialJukebox"></div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal fade" id="showSocialsForSubscription" tabindex="-1" role="dialog" aria-labelledby="mySocials"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="mySocials">Login via:</h4>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="chosenPlan" value=""/>
+                <div>
+                    <input type="radio" value="facebook" name="socials"/>
+                            <span class="nav-second-level__icn bg-facebook">
+                                <i style="color:#fff !important" class="fa fa-facebook"></i>
+                            </span>
+                    Facebook
+                </div>
+                <div>
+                    <input type="radio" value="twitter" name="socials" checked/>
+                            <span class="nav-second-level__icn bg-twitter">
+                                <i style="color:#fff !important" class="fa fa-twitter"></i>
+                            </span>
+                    Twitter
+                </div>
+                <div>
+                    <input type="radio" value="linkedin" name="socials"/>
+                            <span class="nav-second-level__icn bg-linkedin">
+                                <i style="color:#fff !important" class="fa fa-linkedin"></i>
+                            </span>
+                    Linkedin
+                </div>
+                <br>
+                <div class="row pull-right">
+                    <button type="button" class="btn btn-primary" style="font-size: 14px"
+                            onclick="loginWithSubscriptionPlan();">Login
+                    </button>
+                </div>
+
+            </div>
+            <br/>
+            <br/>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/jquery.magnific-popup.min.js"></script>
+<script src='./assets/js/jquery.bxslider.js'></script>
+<script src="./assets/js/swiper.min.js"></script>
+<script src="./assets/js/custome.js"></script>
+<script>
+    function showSocialsForSubscription($plan) {
+        $('#showSocialsForSubscription').modal('show');
+        $('#chosenPlan').val($plan);
+
+    }
+    function loginWithSubscriptionPlan() {
+        var chosenPlan = $('#chosenPlan').val(),
+            socType = $('input[name=socials]:checked').val();
+        switch (socType) {
+            case 'twitter':
+                window.location.href = "/TOC/redirect.php?subscriptionPlan=" + chosenPlan;
+                break;
+            case 'facebook':
+                window.location.href = "/members/addAccount.php?provider=facebook&subscriptionPlan=" + chosenPlan;
+                break;
+            case 'linkedin':
+                window.location.href = "/members/addAccount.php?provider=linkedin&subscriptionPlan=" + chosenPlan;
+                break;
+        }
+    }
+</script>
+</body>
+</html>
+<style>
+    .bg-twitter {
+        background-color: #56ACEE;
+    }
+
+    .bg-facebook {
+        background-color: #3E5998;
+    }
+
+    .bg-linkedin {
+        background-color: #0077B5;
+    }
+
+    .nav-second-level__icn {
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+        margin-left: 7px;
+        margin-right: 12px;
+        line-height: 24px;
+        border: 1px solid #FFFFFF;
+        text-align: center;
+    }
+</style>

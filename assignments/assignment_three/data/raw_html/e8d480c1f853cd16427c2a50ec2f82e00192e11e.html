@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8" />
+<title>Smashing Security podcast #007: &#039;ASCII art attack&#039;</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="pingback" href="https://www.grahamcluley.com/xmlrpc.php" />
+
+<!--  Mobile viewport scale -->
+<meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport"/>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v4.3.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="news_keywords" content="ascii art, privacy, smart tv, smashing security, twitter, vulnerability, computer security, internet privacy, malware" />
+<meta name="original-source" content="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/" />
+<link rel="canonical" href="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/" />
+<link rel="publisher" href="https://plus.google.com/+GrahamCluleyCom"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Smashing Security podcast #007: &#039;ASCII art attack&#039;" />
+<meta property="og:description" content="Printers start churning out ASCII art after a vigilante hacker hijacks 160,000 devices, a researcher reveals how you can get Donald Trump to tweet an embarrassing spoof video of himself, and has your smart TV been snooping on you?
+Check out our latest &quot;Smashing Security&quot; podcast." />
+<meta property="og:url" content="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/" />
+<meta property="og:site_name" content="Graham Cluley" />
+<meta property="article:publisher" content="https://facebook.com/grahamcluleycom" />
+<meta property="article:author" content="https://facebook.com/grahamcluleycom" />
+<meta property="article:tag" content="ASCII art" />
+<meta property="article:tag" content="Privacy" />
+<meta property="article:tag" content="Smart TV" />
+<meta property="article:tag" content="Smashing Security" />
+<meta property="article:tag" content="Twitter" />
+<meta property="article:tag" content="vulnerability" />
+<meta property="article:section" content="Podcast" />
+<meta property="article:published_time" content="2017-02-09T17:04:26+00:00" />
+<meta property="article:modified_time" content="2017-02-09T17:11:11+00:00" />
+<meta property="og:updated_time" content="2017-02-09T17:11:11+00:00" />
+<meta property="fb:admins" content="100003467490666" />
+<meta property="og:image" content="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/microphone.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Printers start churning out ASCII art after a vigilante hacker hijacks 160,000 devices, a researcher reveals how you can get Donald Trump to tweet an embarrassing spoof video of himself, and has your smart TV been snooping on you?
+Check out our latest &quot;Smashing Security&quot; podcast.
+" />
+<meta name="twitter:title" content="Smashing Security podcast #007: &#039;ASCII art attack&#039;" />
+<meta name="twitter:site" content="@gcluley" />
+<meta name="twitter:image" content="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/microphone.jpeg" />
+<meta name="twitter:creator" content="@gcluley" />
+<meta property="DC.date.issued" content="2017-02-09T17:04:26+00:00" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Graham Cluley &raquo; Feed" href="//www.grahamcluley.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Graham Cluley &raquo; Comments Feed" href="https://www.grahamcluley.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Graham Cluley &raquo; Smashing Security podcast #007: &#039;ASCII art attack&#039; Comments Feed" href="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.grahamcluley.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wpd-mycread-style-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/wpdiscuz-mycred/css/wpd-mycread.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='avatar-manager-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/avatar-manager/assets/css/avatar-manager.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dyamar_polls_style-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/dyamar-polls/css/polls.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mashsb-styles-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/mashsharer/assets/css/mashsb.min.css' type='text/css' media='all' />
+<style id='mashsb-styles-inline-css' type='text/css'>
+.mashsb-count {color:#cccccc;}[class^="mashicon-"] .text, [class*=" mashicon-"] .text{
+    text-indent: -9999px !important;
+    line-height: 0px;
+    display: block;
+    } 
+    [class^="mashicon-"] .text:after, [class*=" mashicon-"] .text:after {
+        content: "" !important;
+        text-indent: 0;
+        font-size:13px;
+        display: block !important;
+    }
+    [class^="mashicon-"], [class*=" mashicon-"] {
+        width:25%;
+        text-align: center !important;
+    }
+    [class^="mashicon-"] .icon:before, [class*=" mashicon-"] .icon:before {
+        float:none;
+        margin-right: 0;
+    }
+    .mashsb-buttons a{
+       margin-right: 3px;
+       margin-bottom:3px;
+       min-width: 0;
+       width: 41px;
+    }
+    .onoffswitch, 
+    .onoffswitch-inner:before, 
+    .onoffswitch-inner:after 
+    .onoffswitch2,
+    .onoffswitch2-inner:before, 
+    .onoffswitch2-inner:after  {
+        margin-right: 0px;
+        width: 41px;
+        line-height: 41px;
+    }
+</style>
+<link rel='stylesheet' id='tptn-style-left-thumbs-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/top-10/css/default-style.css' type='text/css' media='all' />
+<style id='tptn-style-left-thumbs-inline-css' type='text/css'>
+
+img.tptn_thumb {
+  width: 60px !important;
+  height: 60px !important;
+}
+                
+
+			.tptn_posts_widget2 img.tptn_thumb {
+				width: 75px !important;
+				height: 75px !important;
+			}
+			
+</style>
+<link rel='stylesheet' id='math-captcha-frontend-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/wp-math-captcha/css/frontend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-frontend-css-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mashnet-styles-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/mashshare-networks/assets/css/mashnet.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mashresp-styles-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/mashshare-responsive/assets/css/mashresp.min.css' type='text/css' media='all' />
+<style id='mashresp-styles-inline-css' type='text/css'>
+
+        @media only screen and (max-width: 568px){
+            .mashsb-buttons a {
+                width: 41px;
+            }
+        }
+        @media only screen and (max-width: 568px){
+            [class^="mashicon-"] .text, [class*=" mashicon-"] .text {
+                display: none;
+            }
+        }
+</style>
+<link rel='stylesheet' id='woo-jetpack-css'  href='https://cdn.grahamcluley.com/wp-content/themes/canvas/includes/integrations/jetpack/css/jetpack.css' type='text/css' media='all' />
+<link rel='stylesheet' id='youtube-channel-gallery-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/youtube-channel-gallery/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery.magnific-popup-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/youtube-channel-gallery/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mycred-front-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/mycred/assets/css/mycred-front.css' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-widget-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/author-avatars/css/widget.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.grahamcluley.com/wp-content/tablepress-combined.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-themes-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mc4wp-form-styles-builder-css'  href='//cdn.grahamcluley.com/wp-content/uploads/mc4wp-stylesheets/bundle.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-stylesheet-css'  href='https://cdn.grahamcluley.com/wp-content/themes/childcanvas/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='author-avatars-shortcode-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/author-avatars/css/shortcode.css' type='text/css' media='all' />
+<link rel='stylesheet' id='boxzilla-theme-pack-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/boxzilla-theme-pack/assets/css/themes.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
+<link rel='stylesheet' id='jetpack_css-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/jetpack/css/jetpack.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sabai-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/sabai/assets/css/main.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sabai-font-awesome-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/sabai/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='sabai-discuss-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/sabai-discuss/assets/css/main.min.css' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link href="https://cdn.grahamcluley.com/wp-content/themes/canvas/css/non-responsive.css" rel="stylesheet" type="text/css" />
+<style type="text/css">.col-full, #wrapper { width: 1080px; max-width: 1080px; } #inner-wrapper { padding: 0; } body.full-width #header, #nav-container, body.full-width #content, body.full-width #footer-widgets, body.full-width #footer { padding-left: 0; padding-right: 0; } body.fixed-mobile #top, body.fixed-mobile #header-container, body.fixed-mobile #footer-container, body.fixed-mobile #nav-container, body.fixed-mobile #footer-widgets-container { min-width: 1080px; padding: 0 1em; } body.full-width #content { width: auto; padding: 0 1em;}</style>
+<![endif]-->
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/wp-google-analytics-events/js/ga-scroll-events.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/www.grahamcluley.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/avatar-manager/assets/js/avatar-manager.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/dyamar-polls/js/polls.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashsb = {"shares":"54","round_shares":"1","animate_shares":"1","dynamic_buttons":"0","share_url":"https:\/\/www.grahamcluley.com\/smashing-security-podcast-007-ascii-art-attack\/","title":"Smashing+Security+podcast+%23007%3A+%26%23039%3BASCII+art+attack%26%23039%3B","image":"https:\/\/www.grahamcluley.com\/wp-content\/uploads\/2017\/02\/smashing-security-007-thumb-1.jpeg","desc":"<p>Printers start churning out ASCII art after a vigilante hacker hijacks 160,000 devices, a researcher reveals how you can get Donald Trump to tweet an embarrassing spoof video of himself, and has your smart TV been snooping on you?<\/p>\n<p>Check out our latest \"Smashing Security\" podcast.<\/p>\n","hashtag":"gcluley","subscribe":"content","subscribe_url":"","activestatus":"1","singular":"1","twitter_popup":"1","refresh":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/mashsharer/assets/js/mashsb.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_tptn_tracker = {"ajax_url":"https:\/\/www.grahamcluley.com\/wp-admin\/admin-ajax.php","top_ten_nonce":"59d4a576e5","top_ten_id":"263111","top_ten_blog_id":"1","activate_counter":"11","tptn_rnd":"198303905"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/top-10/includes/js/top-10-tracker.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/wpdiscuz/assets/third-party/cookie/jquery.cookie.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"url":"https:\/\/www.grahamcluley.com\/wp-admin\/admin-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide replies","wc_show_replies_text":"Show replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"2","commentListUpdateTimer":"180","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F0F0F0","wordpress_comment_order":"asc","commentsVoteOrder":false,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"facebookAppID":"","version":"4.0.4","wc_post_id":263111,"loadLastCommentId":"103790","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","is_email_field_required":"1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashnet = {"body":"","subject":"","pinterest_select":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/mashshare-networks/assets/js/mashnet.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/www.grahamcluley.com\/wp-admin\/admin-ajax.php","security":"085572c5b8","gallery_scrolloffset":"200","eppathtoscripts":"https:\/\/www.grahamcluley.com\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","epresponsiveselector":"[\"iframe[src*='youtube.com']\",\"iframe[src*='youtube-nocookie.com']\",\"iframe[data-ep-src*='youtube.com']\",\"iframe[data-ep-src*='youtube-nocookie.com']\",\"iframe[data-ep-gallerysrc*='youtube.com']\"]","epdovol":"1","version":"11.5","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/themes/canvas/includes/js/third-party.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/themes/canvas/includes/js/modernizr.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/themes/canvas/includes/js/general.min.js'></script>
+
+<!-- Adjust the website width -->
+<style type="text/css">
+	.col-full, #wrapper { max-width: 1080px !important; }
+</style>
+
+<link rel='https://api.w.org/' href='https://www.grahamcluley.com/wp-json/' />
+<link rel='shortlink' href='https://www.grahamcluley.com/?p=263111' />
+<link rel="alternate" type="application/json+oembed" href="https://www.grahamcluley.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.grahamcluley.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F&#038;format=xml" />
+<meta name="news_keywords" content="ASCII art, Privacy, Smart TV, Smashing Security, Twitter, vulnerability"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17328559-2', 'auto');
+  ga('send', 'pageview');
+setTimeout("ga('send','event','30 seconds','read')",30000);
+
+</script><script type="text/javascript">
+	window._zem_rp_post_id = '263111';
+	window._zem_rp_thumbnails = true;
+	window._zem_rp_post_title = 'Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27';
+	window._zem_rp_post_tags = ['ascii+art', 'privacy', 'smart+tv', 'smashing+security', 'twitter', 'vulnerability', 'privacy', 'twitter', 'podcast', 'music', 'kati', 'tv', 'comput', 'perri', 'art', 'playa', 'video', 'podcast', 'itun', 'secur', 'vizio', 'lg', 'snoop', 'googl'];
+	window._zem_rp_static_base_url = 'https://content.zemanta.com/static/';
+	window._zem_rp_wp_ajax_url = 'https://www.grahamcluley.com/wp-admin/admin-ajax.php';
+	window._zem_rp_plugin_version = '1.14';
+	window._zem_rp_num_rel_posts = '3';
+</script>
+<link rel="stylesheet" href="https://cdn.grahamcluley.com/wp-content/plugins/related-posts-by-zemanta/static/themes/vertical.css?version=1.14" />
+<style type="text/css">
+.related_post_title {
+width:70%!important;
+}
+ul.related_post {
+}
+ul.related_post li {
+width:28%!important;
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+height:100%!important;
+    display: block !important;
+    width: 90%!important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 2px !important;
+    background: none !important;
+    border: 4px solid #ccc !important;
+    float: none !important;
+    border-radius: 10px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2) !important;
+
+}
+
+.related_post .zem_rp_title {
+    width: 95%;
+}</style>
+<style type="text/css">#wpcomm .wc_new_comment{background:#4C759A;}#wpcomm .wc_new_reply{background:#4C759A;}#wpcomm .wc-form-wrapper{background:#F9F9F9;}#wpcomm select,#wpcomm input[type="text"],#wpcomm input[type="email"],#wpcomm input[type="url"],#wpcomm input[type="date"],#wpcomm input[type="color"]{border:#D5D5D5 1px solid;}#wpcomm .wc-comment .wc-comment-right{background:#FEFEFE;}#wpcomm .wc-reply .wc-comment-right{background:#F0F0F0;}#wpcomm .wc-comment-text{font-size:12px;color:#555;}#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author a{color:#4C759A;}#wpcomm .wc-blog-administrator > .wc-comment-left .wc-comment-label{background:#4C759A;}#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author a{color:#2C2D2D;}#wpcomm .wc-blog-editor > .wc-comment-left .wc-comment-label{background:#2C2D2D;}#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author a{color:#4C759A;}#wpcomm .wc-blog-author > .wc-comment-left .wc-comment-label{background:#4C759A;}#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author a{color:#4C759A;}#wpcomm .wc-blog-contributor > .wc-comment-left .wc-comment-label{background:#4C759A;}#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author a{color:#61798F;}#wpcomm .wc-blog-subscriber > .wc-comment-left .wc-comment-label{background:#61798F;}#wpcomm .wc-blog-techsupport > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-techsupport > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-techsupport > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-contributingeditor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-contributingeditor > .wc-comment-right .wc-comment-author a{color:#2C2D2D;}#wpcomm .wc-blog-contributingeditor > .wc-comment-left .wc-comment-label{background:#2C2D2D;}#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author a{color:#555555;}#wpcomm .wc-blog-post_author > .wc-comment-left .wc-comment-label{background:#555555;}#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a{color:#89B594;}#wpcomm .wc-blog-guest > .wc-comment-left .wc-comment-label{background:#89B594;}.wc-load-more-submit{border:1px solid #D5D5D5;}#wpcomm .wc-new-loaded-comment > .wc-comment-right{background:#FFFAD6;}.comments-area{width:auto;}.wpdiscuz-front-actions{background:#F9F9F9;}.wpdiscuz-subscribe-bar{background:#F9F9F9;}.wpdiscuz-sort-buttons{color:#bbbbbb;}.wpdiscuz-sort-button{color:#bbbbbb; cursor:pointer;}.wpdiscuz-sort-button:hover{color:#4C759A;cursor:pointer;}.wpdiscuz-sort-button-active{color:#4C759A!important;cursor:default!important;}#wpcomm .page-numbers{color:#555;border:#555 1px solid;}#wpcomm span.current{background:#555;}#wpcomm .wpdiscuz-readmore{cursor:pointer;color:#4C759A;} #wpcomm .wpdiscuz-textarea-wrap{border:#D5D5D5 1px solid;} .wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label {color: #DDDDDD;}#wpcomm .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover,.wpdiscuz-rating:not(:checked) > label:hover ~ label {   }#wpcomm .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color: #FFED85;} #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-activ-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{ color:#FFD700;} #wpcomm .wc-cta-button:hover{border: 1px solid #4C759A!important; background:#4C759A!important; color:#fff!important;} #wpcomm .wc-cta-active{border: 1px solid #4C759A!important; background:#4C759A!important; color:#fff!important;}#wpcomm .wpf-cta:hover{color:#fff!important; background:#4C759A!important; border:1px solid #4C759A!important;}
+        
+#wpcomm .wpf-cta{ border: 1px solid #cccccc; color:#bbbbbb; }
+#wpcomm .wc-cta-button{ background:#888888; border:1px solid #888888; color:#ffffff;}
+#wpcomm .wc-cta-button-x{ background:#888888; border:1px solid #888888; color:#ffffff;}
+#wpcomm .wc-vote-link{border:1px solid #bbbbbb; color:#aaaaaa;}
+#wpcomm .wc-vote-result{border-top: 1px solid #bbbbbb; border-bottom: 1px solid #bbbbbb; color:#aaaaaa;}
+#wpcomm .wc-vote-result.wc-vote-result-like{border:1px solid #bbbbbb;}
+#wpcomm .wc-vote-result.wc-vote-result-dislike{border:1px solid #bbbbbb;}
+</style>
+			<style type="text/css">.boxzilla-250083.boxzilla-theme a{ color: #58ba32; }
+.boxzilla-250083.boxzilla-theme a:hover { color: #3fa119; } 
+.boxzilla-250083.boxzilla-theme input[type="submit"], .boxzilla-250083.boxzilla-theme input[type="button"], .boxzilla-250083.boxzilla-theme button { background: #58ba32; } 
+.boxzilla-250083.boxzilla-theme input[type="submit"]:hover, .boxzilla-250083.boxzilla-theme input[type="button"]:hover, .boxzilla-250083.boxzilla-theme button:hover { background: #3fa119; }
+.boxzilla-250083.boxzilla-theme-striped-border { border-color: #4C759A; }
+</style>
+<link rel='dns-prefetch' href='//v0.wordpress.com'>
+<style type='text/css'>img#wpstats{display:none}</style>
+<!-- Custom CSS Styling -->
+<style type="text/css">
+#logo .site-title, #logo .site-description { display:none; }
+body {background-color:#ababab;background-repeat:no-repeat;background-position:top left;background-attachment:fixed;border-top:0px solid #000000;}
+a:link, a:visited, #loopedSlider a.flex-prev:hover, #loopedSlider a.flex-next:hover {color:#8E2927} .quantity .plus, .quantity .minus {background-color: #8E2927;}
+a:hover, .post-more a:hover, .post-meta a:hover, .post p.tags a:hover {color:#4c759a}
+#header {background-color:#fcfbf6;background-repeat:no-repeat;background-position:left top;margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;border:0px solid ;}
+#logo {padding-left:0px;}.header-widget {padding-right:0px;}
+#logo .site-title a {font:normal 50px/1em Arial, sans-serif;color:#d6d6d6;}
+#logo .site-description {font:300 16px/1em Arial, sans-serif;color:#ababab;}
+#inner-wrapper {padding-left:30px; padding-right:30px;background-color:#dddddd;margin-top:5px;margin-bottom:5px;border-radius:1px;box-shadow: 0px 1px 5px rgba(0,0,0,.1);} .col-full { width: auto; } @media only screen and (max-width:767px) { #inner-wrapper { margin:0; border-radius:none; padding-left:1em; padding-right: 1em; border: none; } } 
+body, p { font:normal 18px/1.5em Arial, sans-serif;color:#333333; }
+h1 { font:bold 26px/1.2em Arial, sans-serif;color:#333333; }h2 { font:bold 24px/1.2em Arial, sans-serif;color:#333333; }h3 { font:bold 20px/1.2em Arial, sans-serif;color:#333333; }h4 { font:bold 16px/1.2em Arial, sans-serif;color:#333333; }h5 { font:bold 14px/1.2em Arial, sans-serif;color:#333333; }h6 { font:bold 12px/1.2em Arial, sans-serif;color:#333333; }
+.page-title, .post .title, .page .title {font:bold 27px/1.1em Arial, sans-serif;color:#333333;}
+.post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {color:#333333}
+.post-meta { font:normal 12px/1.5em Arial, sans-serif;color:#999999; }
+.entry, .entry p{ font:normal 17px/1.5em Arial, sans-serif;color:#333333; }
+.post-more {font:normal 13px/1.5em Arial, sans-serif;color:;border-top:0px solid #e6e6e6;border-bottom:0px solid #e6e6e6;}
+#post-author, #connect {border-top:1px solid #d6d6d6;border-bottom:1px solid #d6d6d6;border-left:1px solid #d6d6d6;border-right:1px solid #d6d6d6;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background-color:#efefef}
+.nav-entries, .woo-pagination {background-color:#ffffff; padding: 12px 0px; }
+.nav-entries a, .woo-pagination { font:normal 13px/1em Arial, sans-serif;color:#333333; }
+.woo-pagination a, .woo-pagination a:hover {color:#333333!important}
+.widget h3 {font:bold 14px/1.2em Arial, sans-serif;color:#333333;border-bottom:1px solid #e6e6e6;}
+.widget_recent_comments li, #twitter li { border-color: #e6e6e6;}
+.widget p, .widget .textwidget { font:normal 13px/1.5em Arial, sans-serif;color:#333333; }
+.widget {font:normal 13px/1.5em Arial, sans-serif;color:#333333;padding:10px 10px;background-color:#FFFFFF;border:6px solid #cccccc;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+#tabs {border:6px solid #cccccc;}
+#tabs .inside li a, .widget_woodojo_tabs .tabbable .tab-pane li a { font:bold 12px/1.5em Arial, sans-serif;color:#333333; }
+#tabs .inside li span.meta, .widget_woodojo_tabs .tabbable .tab-pane li span.meta { font:normal 11px/1.5em Arial, sans-serif;color:#999999; }
+#tabs ul.wooTabs li a, .widget_woodojo_tabs .tabbable .nav-tabs li a { font:normal 11px/2em Arial, sans-serif;color:#999999; }
+@media only screen and (min-width:768px) {
+ul.nav li a, #navigation ul.rss a, #navigation ul.cart a.cart-contents, #navigation .cart-contents #navigation ul.rss, #navigation ul.nav-search, #navigation ul.nav-search a { font:normal 14px/1.2em Arial, sans-serif;color:#F6F6F6; } #navigation ul.rss li a:before, #navigation ul.nav-search a.search-contents:before { color:#F6F6F6;}
+#navigation ul.nav > li a:hover, #navigation ul.nav > li:hover a, #navigation ul.nav li ul li a, #navigation ul.cart > li:hover > a, #navigation ul.cart > li > ul > div, #navigation ul.cart > li > ul > div p, #navigation ul.cart > li > ul span, #navigation ul.cart .cart_list a, #navigation ul.nav li.current_page_item a, #navigation ul.nav li.current_page_parent a, #navigation ul.nav li.current-menu-ancestor a, #navigation ul.nav li.current-cat a, #navigation ul.nav li.current-menu-item a { color:#d6d6d6!important; }
+#navigation ul.nav > li a:hover, #navigation ul.nav > li:hover, #navigation ul.nav li ul, #navigation ul.cart li:hover a.cart-contents, #navigation ul.nav-search li:hover a.search-contents, #navigation ul.nav-search a.search-contents + ul, #navigation ul.cart a.cart-contents + ul, #navigation ul.nav li.current_page_item a, #navigation ul.nav li.current_page_parent a, #navigation ul.nav li.current-menu-ancestor a, #navigation ul.nav li.current-cat a, #navigation ul.nav li.current-menu-item a{background-color:#585859!important}
+#navigation ul.nav li ul, #navigation ul.cart > li > ul > div  { border: 0px solid #dbdbdb; }
+#navigation ul.nav > li:hover > ul  { left: 0; }
+#navigation ul.nav > li  { border-right: 0px solid #dbdbdb; }#navigation ul.nav > li:hover > ul  { left: 0; }
+#navigation { box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; }#navigation ul li:first-child, #navigation ul li:first-child a { border-radius:1px 0 0 1px; -moz-border-radius:1px 0 0 1px; -webkit-border-radius:1px 0 0 1px; }
+#navigation {background:#4c759a;border-top:0px solid #ffffff;border-bottom:0px solid #9e9e9e;border-left:0px solid #9e9e9e;border-right:0px solid #9e9e9e;border-radius:1px; -moz-border-radius:1px; -webkit-border-radius:1px;}
+#top ul.nav li a { font:normal 12px/1.6em Arial, sans-serif;color:#8f8f8f; }
+#top ul.nav li.parent > a:after { border-top-color:#8f8f8f;}
+}
+#footer, #footer p { font:normal 13px/1.4em Arial, sans-serif;color:#ffffff; }
+#footer {background-color:#242523;border-top:0px solid #242523;border-bottom:0px solid #242523;border-left:8px solid #242523;border-right:8px solid #242523;border-radius:1px; -moz-border-radius:1px; -webkit-border-radius:1px;}
+.magazine #loopedSlider .content h2.title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-magazine .slide-title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.magazine #loopedSlider .content .excerpt p { font:normal 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.wooslider-theme-magazine .slide-content p, .wooslider-theme-magazine .slide-excerpt p { font:normal 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.magazine .block .post .title a {font:bold 18px/1.2em Arial, sans-serif;color:#222222; }
+#loopedSlider.business-slider .content h2 { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+#loopedSlider.business-slider .content h2.title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-business .has-featured-image .slide-title { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+.wooslider-theme-business .has-featured-image .slide-title a { font:bold 24px/1em Arial, sans-serif;color:#ffffff; }
+#wrapper #loopedSlider.business-slider .content p { font:300 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.wooslider-theme-business .has-featured-image .slide-content p { font:300 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.wooslider-theme-business .has-featured-image .slide-excerpt p { font:300 13px/1.5em Arial, sans-serif;color:#cccccc; }
+.archive_header { font:bold 18px/1em Arial, sans-serif;color:#333333; }
+.archive_header {border-bottom:1px solid #e6e6e6;}
+</style>
+
+<!-- Custom Favicon -->
+<link rel="shortcut icon" href="//www.grahamcluley.com/favicon-16x16.png?v=2"/>
+
+<!-- Woo Shortcodes CSS -->
+<link href="https://cdn.grahamcluley.com/wp-content/themes/canvas/functions/css/shortcodes.css" rel="stylesheet" type="text/css" />
+
+<!-- Custom Stylesheet -->
+<link href="https://cdn.grahamcluley.com/wp-content/themes/canvas/custom.css" rel="stylesheet" type="text/css" />
+
+<!-- Theme version -->
+<meta name="generator" content="Child of the Canvas Theme 1.0" />
+<meta name="generator" content="Canvas 5.11.3" />
+<meta name="generator" content="WooFramework 6.2.8" />
+		<style type="text/css" id="woo-header-css">
+					.site-title,
+			.site-description {
+				clip: rect(1px 1px 1px 1px); /* IE7 */
+				clip: rect(1px, 1px, 1px, 1px);
+				position: absolute;
+			}
+				</style>
+		<link rel="icon" href="https://cdn.grahamcluley.com/wp-content/uploads/2015/08/cropped-gc-icon-site-32x32.jpeg" sizes="32x32" />
+<link rel="icon" href="https://cdn.grahamcluley.com/wp-content/uploads/2015/08/cropped-gc-icon-site-192x192.jpeg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://cdn.grahamcluley.com/wp-content/uploads/2015/08/cropped-gc-icon-site-180x180.jpeg" />
+<meta name="msapplication-TileImage" content="https://cdn.grahamcluley.com/wp-content/uploads/2015/08/cropped-gc-icon-site-270x270.jpeg" />
+			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="https://www.grahamcluley.com/?custom-css=bf55b4ac4c" />
+		<style id="yellow-pencil">
+/*
+	Following CSS Codes Generated By Yellow Pencil Editor.
+	http://waspthemes.com/yellow-pencil
+*/
+
+#wrapper #inner-wrapper #content #main-sidebar-container section#main .hentry{	border-width:3px !important;}#main .post-meta .time{	border-bottom-style:none;	border-bottom-width:0px;}#main .post-more{	font-weight:600;	font-size:17px;}.post-meta .updated{	border-bottom-style:none;	border-bottom-width:0px;}.post-meta .time{	border-bottom-style:none;}body .post-meta .time:hover{	cursor:text;}body .post-meta .updated:hover{	cursor:text;}#main .hentry{	background-color:#ffffff;	padding-bottom:10px;	padding-top:10px;	padding-right:10px;	padding-left:10px;	border-color:#cccccc;	border-width:4px !important;	border-style:solid;}#post-author .profile-content{	font-size:17px;	line-height:26px;}.profile-content h4{	font-size:20px;	line-height:26px;}.hentry .post-meta{	font-size:14px;	line-height:21px;}#wpcomm .wc-comment-link .wpf-cta{	border-style:none;}#wpcomm .wc-comment-footer .wc-vote-result{	border-style:none;}#wpcomm .wc-comment-footer .wc-vote-link{	border-style:none;}#wpcomm .wc-comment .wc-comment-right{	z-index:0 !important;	border-width:2px;	margin-left:96px !important;	border-bottom-right-radius:13px;	-moz-border-bottom-right-radius:13px;	-webkit-border-bottom-right-radius:13px;	border-bottom-left-radius:13px;	-moz-border-bottom-left-radius:13px;	-webkit-border-bottom-left-radius:13px;	border-top-right-radius:13px;	-moz-border-top-right-radius:13px;	-webkit-border-top-right-radius:13px;	border-top-left-radius:13px;	-moz-border-top-left-radius:13px;	-webkit-border-top-left-radius:13px;	margin-bottom:15px;	padding-bottom:0px;	position:relative;	bottom:auto;}#wpcomm .wc-comment-footer{	border-bottom-style:none;	padding-bottom:0px !important;}#wcThreadWrapper .wc-comment-left img{	width:72px;	margin-left:2px;	padding-left:1px;	margin-top:5px;}.related_post .zem_rp_title{	line-height:18px !important;	text-align:left;}.profile-link a{	padding-top:0px;	margin-top:0px;	top:0px;	position:relative;}.profile-content .profile-link{	padding-top:20px;}#wc-comment-header{	font-size:24px;}.wc-comment-bar .wc-comment-title{	font-size:18px !important;	line-height:23px !important;}#wc_show_hide_loggedin_username span{	font-size:18px;}.hentry .tags{	font-size:14px;	font-weight:400;}.hentry .su-box{	border-color:#cccccc !important;}.su-box .su-box-title{	color:#ffffff !important;	background-color:#3498db !important;	font-size:17px;	line-height:22.5px;}.su-box .su-box-content{	background-color:#eeeeee;	line-height:23px;	font-size:14px;}.hentry .tags a{	text-transform:lowercase;	-moz-transform:lowercase;	-webkit-transform:lowercase;}
+</style></head>
+<body class="post-template-default single single-post postid-263111 single-format-standard unknown alt-style-default boxed-layout two-col-left width-1080 two-col-left-1080">
+<div id="wrapper">
+
+	<div id="inner-wrapper">
+
+	<h3 class="nav-toggle icon"><a href="#navigation">Navigation</a></h3>
+
+	<header id="header" class="col-full">
+
+		<div id="logo">
+<a href="https://www.grahamcluley.com/" title="Graham Cluley - computer security news, advice and opinion"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2015/06/gc-logo-tagline2.png" alt="Graham Cluley" /></a>
+<span class="site-title"><a href="https://www.grahamcluley.com/">Graham Cluley</a></span>
+<span class="site-description">Graham Cluley - computer security news, advice and opinion</span>
+</div>
+	    <div class="header-widget">
+	        <div id="text-15" class="widget widget_text">			<div class="textwidget"><div class="follow-container">
+<table  style="width:100%">
+  <tr>
+    <td width="16%"><a href="https://twitter.com/intent/user?screen_name=gcluley" title="Follow Graham Cluley on Twitter"><i class="fa fa-twitter"></i></a></td>
+    <td width="16%"><a href="https://facebook.com/grahamcluleycom" title="Follow Graham Cluley on Facebook"><i class="fa fa-facebook"></i></a></td>	
+    <td width="16%"><a href="https://www.youtube.com/subscription_center?add_user=GrahamCluleyCom" title="Graham Cluley on YouTube"><i class="fa fa-youtube"></i></a></td>	
+    <td width="16%"><a href="//www.grahamcluley.com/newsletter/" title="Subscribe to free newsletter"><i class="fa fa-envelope-o"></i></a></td>
+
+    <td width="16%"><a href="//www.grahamcluley.com/feed" title="RSS feed"><i class="fa fa-rss"></i></a></td>	
+  </tr>
+  <tr>
+    <td>56,408</td>
+    <td>14,158</td>		
+    <td>2,573</td>
+  <td>15k</td>
+  <td></td>
+  </tr>
+  
+</table>
+</div></div>
+		</div>	    </div>
+	
+	</header>
+	<nav id="navigation" class="col-full" role="navigation">
+
+	
+	<section class="menus nav-icons nav-icons-1">
+
+		<a href="https://www.grahamcluley.com" class="nav-home"><span>Home</span></a>
+
+	<h3>Menu</h3><ul id="main-nav" class="nav fl"><li id="menu-item-226064" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-226064"><a title="Latest security news" href="/">News</a></li>
+<li id="menu-item-254424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-254424"><a title="GCHQ: Graham Cluley&#8217;s newsletter" href="https://www.grahamcluley.com/gchq-newsletter/">Newsletter</a></li>
+<li id="menu-item-244780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-244780"><a href="https://www.grahamcluley.com/videos/">Videos</a></li>
+<li id="menu-item-262024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-262024"><a href="https://www.grahamcluley.com/podcasts/">Podcasts</a></li>
+<li id="menu-item-224645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224645"><a title="Hire computer security expert Graham Cluley to speak at your event" href="https://www.grahamcluley.com/about-this-site/public-speaking/">Speaking</a></li>
+<li id="menu-item-229394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229394"><a title="Sponsor Graham Cluley&#8217;s computer security blog" href="https://www.grahamcluley.com/sponsorship/">Sponsor</a></li>
+<li id="menu-item-222419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-222419"><a title="About this website and Graham" href="https://www.grahamcluley.com/about-this-site/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-224345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224345"><a title="About Graham Cluley" href="https://www.grahamcluley.com/about-this-site/">About this website and Graham Cluley</a></li>
+	<li id="menu-item-240541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240541"><a href="https://www.grahamcluley.com/about-this-site/awards/">Awards</a></li>
+	<li id="menu-item-229181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-229181"><a title="What people say about Graham Cluley" href="https://www.grahamcluley.com/testimonials/">Testimonials</a></li>
+	<li id="menu-item-225320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-225320"><a title="Contributors" href="https://www.grahamcluley.com/about-this-site/contributors/">Contributors</a></li>
+	<li id="menu-item-231010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-231010"><a href="https://www.grahamcluley.com/about-this-site/contributor-guidelines/">Contributor guidelines</a></li>
+	<li id="menu-item-224344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224344"><a title="Recent media appearances by Graham Cluley" href="https://www.grahamcluley.com/about-this-site/media/">Recent media appearances</a></li>
+	<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a title="Contact Graham Cluley" href="https://www.grahamcluley.com/contact/">Contact</a></li>
+	<li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-18"><a title="Computer games" href="https://www.grahamcluley.com/misc/">Games</a>
+	<ul class="sub-menu">
+		<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22"><a title="Jacaranda Jim" href="https://www.grahamcluley.com/misc/jacaranda-jim/">Jacaranda Jim</a>
+		<ul class="sub-menu">
+			<li id="menu-item-222684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222684"><a title="Jacaranda Jim reviews" href="https://www.grahamcluley.com/misc/jacaranda-jim/reviews-jacaranda-jim/">Reviews of Jacaranda Jim</a></li>
+		</ul>
+</li>
+		<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a title="Tetris-style game" href="https://www.grahamcluley.com/misc/blox/">Blox</a></li>
+		<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-23"><a title="Humbug text adventure game" href="https://www.grahamcluley.com/misc/humbug/">Humbug</a>
+		<ul class="sub-menu">
+			<li id="menu-item-222439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222439"><a title="Humbug text adventure reviews" href="https://www.grahamcluley.com/misc/humbug/reviews-humbug/">Reviews of Humbug</a></li>
+		</ul>
+</li>
+		<li id="menu-item-222443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-222443"><a title="Pacman-style retro PC game" href="https://www.grahamcluley.com/misc/wibbling-wilf/">Wibbling Wilf</a>
+		<ul class="sub-menu">
+			<li id="menu-item-222449" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-222449"><a title="Review of Wilf" href="https://www.grahamcluley.com/misc/wibbling-wilf/reviews-wibbling-wilf/">Reviews of Wibbling Wilf</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul>	<div class="side-nav">
+		<ul class="nav-search">
+		<li>
+			<a class="search-contents" href="#"></a>
+			<ul>
+				<li>
+					<div class="widget widget_search"><div class="search_main">
+    <form method="get" class="searchform" action="https://www.grahamcluley.com/" >
+        <input type="text" class="field s" name="s" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
+        <button type="submit" class="fa fa-search submit" name="submit" value="Search"></button>
+    </form>
+    <div class="fix"></div>
+</div></div>				</li>
+			</ul>
+		</li>
+	</ul>
+		</div><!-- /#side-nav -->
+
+	</section><!-- /.menus -->
+
+	<a href="#top" class="nav-close"><span>Return to Content</span></a>
+
+</nav>
+<div class="sponsor"><strong>This week's sponsor:</strong> <a href="https://www.grahamcluley.com/go/recordedfuture/">Get trending info on hackers, exploits, and vulnerabilities for FREE with the Recorded Future Cyber Daily.</a>
+</div>
+       
+    <!-- #content Starts -->
+	    <div id="content" class="col-full">
+    
+    	<div id="main-sidebar-container">    
+
+            <!-- #main Starts -->
+                        <section id="main">                       
+
+
+
+
+<article class="post-263111 post type-post status-publish format-standard has-post-thumbnail hentry category-podcast category-privacy category-twitter tag-ascii-art tag-privacy tag-smart-tv tag-smashing-security tag-twitter tag-vulnerability-2">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+<!-- display featured image thumbnails inside single post for sponsor articles and deals -->
+
+
+	<header>
+	
+	<h1 class="title entry-title">Smashing Security podcast #007: 'ASCII art attack'</h1>	
+
+	
+	</header>
+	
+
+	
+		
+		<span class="entry-subtitle">Three security industry veterans, chatting about computer security and online privacy.</span>		
+			
+<div class="post-meta"><span class="author vcard"><span class="fn"><a href="https://www.grahamcluley.com/author/grahamcluley/" title="Posts by Graham Cluley" rel="author">Graham Cluley</a></span></span> <span class="small"> | </span><abbr class="date time published updated" title="2017-02-09T17:04:26+0000">February 9, 2017</abbr>  <abbr class="time published" title="2017-02-09T17:04:26+0000">5:04 pm</abbr>  <span class="metacats"> <span class="small"> | </span> Filed under: <span class="categories"><a href="https://www.grahamcluley.com/podcast/" title="View all items in Podcast">Podcast</a>, <a href="https://www.grahamcluley.com/privacy/" title="View all items in Privacy">Privacy</a>, <a href="https://www.grahamcluley.com/social-networks/twitter/" title="View all items in Twitter">Twitter</a></span>  </span> <span class="nobr"><span class="post-comments comments"><a href="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/#comments"><i class="fa fa-comment"></i> 2</a></span></span> </div>
+
+	
+	<section class="entry">
+
+
+<aside class="mashsb-container mashsb-main "><div class="mashsb-box"><div class="mashsb-count mash-large" style="float:left;"><div class="counts mashsbcount">54</div><span class="mashsb-sharetext">SHARES</span></div><div class="mashsb-buttons"><a  class="mashicon-twitter mash-large mashsb-noshadow" href="https://twitter.com/intent/tweet?text=Smashing%20Security%20podcast%20%23007%3A%20%27ASCII%20art%20attack%27&url=https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/&via=gcluley" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share&nbsp;on&nbsp;Twitter</span></a><a  class="mashicon-facebook mash-large mashsb-noshadow" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share&nbsp;on&nbsp;Facebook</span></a><div class="onoffswitch mash-large mashsb-noshadow"></div><div class="secondary-shares" style="display:none;"><a  class="mashicon-google mash-large mashsb-noshadow" href="https://plus.google.com/share?text=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27&amp;url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Google</span></a><a  class="mashicon-linkedin mash-large mashsb-noshadow" href="https://www.linkedin.com/shareArticle?trk=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27&amp;url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Linkedin</span></a><a  class="mashicon-reddit mash-large mashsb-noshadow" href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F&amp;title=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Reddit</span></a><a style="display:none;" class="mashicon-whatsapp mash-large mashsb-noshadow" href="whatsapp://send?text=Smashing%20Security%20podcast%20%23007%3A%20%27ASCII%20art%20attack%27%20https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Whatsapp</span></a><a  class="mashicon-buffer mash-large mashsb-noshadow" href="https://bufferapp.com/add?url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F&amp;text=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Buffer</span></a><div class="onoffswitch2 mash-large mashsb-noshadow" style="display:none;"></div></div></div>
+            </div>
+                <div style="clear:both;"></div><div class="mashsb-toggle-container"></div></aside>
+            <!-- Share buttons by mashshare.net - Version: 3.3.8--><p><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/microphone.jpeg" alt="Podcast Microphone" width="600" height="315" class="aligncenter size-full wp-image-262352" srcset="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/microphone.jpeg 600w, https://cdn.grahamcluley.com/wp-content/uploads/2017/01/microphone-300x158.jpeg 300w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>Join me and fellow computer security industry veterans Vanja Svajcer and Carole Theriault on the "Smashing Security" podcast, as we have another casual chat about the world of online privacy and computer security.</p>
+<div class="smart-track-player-container  stp-color-0192ff-2A2A2A" data-url="http://traffic.libsyn.com/smashingsecurity/smashing-security-007x.mp3" data-style="dark" data-background_color="#2A2A2A" data-image="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-box-80.jpeg" data-download="false" data-twitter_username="smashinsecurity" data-color="0192ff" data-title="007: ASCII art attack" data-paid="true"  data-social="true"  data-social_linkedin="true"  data-social_email="true" data-speedcontrol="true" data-uid="upJ2yKXV" data-download_id="4c39939963758817b7ba1f7d4d5df37a" ></div>
+<p><strong>Audio podcast: <a title="Link to Smashing Security on iTunes" href="https://itunes.apple.com/gb/podcast/smashing-security/id1195001633">iTunes</a> | <a title="Link to Smashing Security on Google Play Music" href="https://play.google.com/music/m/Iv4gpw7hyd6l2k4bb3dccbu5i5y?t=Smashing_Security">Google Play</a> | <a title="Link to Smashing Security on Stitcher" href="http://www.stitcher.com/s?fid=128568&amp;refid=stpr">Stitcher</a> | <a title="Link to Smashing Security RSS feed" href="http://smashingsecurity.libsyn.com/rss">RSS</a> for you nerds.</strong></p>
+<h2>Blurb:</h2>
+<p>Printers start churning out ASCII art after a vigilante hacker hijacks 160,000 devices, a researcher reveals how you can get Donald Trump to tweet an embarrassing spoof video of himself, and has your smart TV been snooping on you?</p>
+<h2>Show notes</h2>
+<ul>
+<li><a href="https://www.theregister.co.uk/2017/02/06/hacker_160000_printers/">Hacker: I made 160,000 printers spew out ASCII art around the world</a></li>
+<li><a href="http://www.chris.com/ascii/">ASCII art collection</a></li>
+<li><a href="https://hackernoon.com/how-i-hijacked-top-celebrities-tweets-including-katy-perry-shakira-fca3a0e751c6#.t6syx2lx8"> How I hijacked top celebrities tweets including Katy Perry, Shakira&hellip;</a></li>
+<li><a href="https://twitter.com/realDonaldTrump/status/190093504939163648">Donald Trump's hijacked tweet</a></li>
+<li><a href="https://www.consumer.ftc.gov/blog/vizio-settlement-smart-tvs-should-not-track-your-shows-without-your-ok"> VIZIO Settlement: Smart TVs should not track your shows without your O.K.</a></li>
+<li><a href="http://www.theverge.com/2017/2/6/14522582/vizio-ftc-lawsuit-tv-viewing-habits-tracking-privacy"> Vizio settles FTC lawsuit and agrees to get viewer consent before tracking TV habits</a></li>
+<li><a href="http://doctorbeet.blogspot.co.uk/2013/11/lg-smart-tvs-logging-usb-filenames-and.html"> LG Smart TVs logging USB filenames and viewing info to LG servers</a></li>
+</ul>
+<p>Hope you enjoy the show, and tell us what you think! You can follow the Smashing Security team at <a href="https://www.twitter.com/SmashinSecurity">@SmashinSecurity</a> on Twitter.</p>
+<aside class="mashsb-container mashsb-main "><div class="mashsb-box"><div class="mashsb-count mash-large" style="float:left;"><div class="counts mashsbcount">54</div><span class="mashsb-sharetext">SHARES</span></div><div class="mashsb-buttons"><a  class="mashicon-twitter mash-large mashsb-noshadow" href="https://twitter.com/intent/tweet?text=Smashing%20Security%20podcast%20%23007%3A%20%27ASCII%20art%20attack%27&url=https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/&via=gcluley" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share&nbsp;on&nbsp;Twitter</span></a><a  class="mashicon-facebook mash-large mashsb-noshadow" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Share&nbsp;on&nbsp;Facebook</span></a><div class="onoffswitch mash-large mashsb-noshadow"></div><div class="secondary-shares" style="display:none;"><a  class="mashicon-google mash-large mashsb-noshadow" href="https://plus.google.com/share?text=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27&amp;url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Google</span></a><a  class="mashicon-linkedin mash-large mashsb-noshadow" href="https://www.linkedin.com/shareArticle?trk=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27&amp;url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Linkedin</span></a><a  class="mashicon-reddit mash-large mashsb-noshadow" href="http://www.reddit.com/submit?url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F&amp;title=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Reddit</span></a><a style="display:none;" class="mashicon-whatsapp mash-large mashsb-noshadow" href="whatsapp://send?text=Smashing%20Security%20podcast%20%23007%3A%20%27ASCII%20art%20attack%27%20https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Whatsapp</span></a><a  class="mashicon-buffer mash-large mashsb-noshadow" href="https://bufferapp.com/add?url=https%3A%2F%2Fwww.grahamcluley.com%2Fsmashing-security-podcast-007-ascii-art-attack%2F&amp;text=Smashing+Security+podcast+%23007%3A+%27ASCII+art+attack%27" target="_blank" rel="nofollow"><span class="icon"></span><span class="text">Buffer</span></a><div class="onoffswitch2 mash-large mashsb-noshadow" style="display:none;"></div></div></div>
+            </div>
+                <div style="clear:both;"></div><div class="mashsb-toggle-container"></div></aside>
+            <!-- Share buttons by mashshare.net - Version: 3.3.8-->	</section><!-- /.entry -->
+	
+	
+
+		
+		
+		
+	<div class="fix"></div>
+	
+
+<!-- hide stuff at bottom of article unless on actual post page -->
+		
+
+<p class="tags"><i class="fa fa-tag"></i> Tags: <a href="https://www.grahamcluley.com/tag/ascii-art/" rel="tag">ASCII art</a>, <a href="https://www.grahamcluley.com/tag/privacy/" rel="tag">Privacy</a>, <a href="https://www.grahamcluley.com/tag/smart-tv/" rel="tag">Smart TV</a>, <a href="https://www.grahamcluley.com/tag/smashing-security/" rel="tag">Smashing Security</a>, <a href="https://www.grahamcluley.com/tag/twitter/" rel="tag">Twitter</a>, <a href="https://www.grahamcluley.com/tag/vulnerability-2/" rel="tag">vulnerability</a></p> <div class="su-box su-box-style-default" style="border-color:#292929;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;"><div class="su-box-title" style="background-color:#333333;color:#FFFFFF;-webkit-border-top-left-radius:2px;-webkit-border-top-right-radius:2px;-moz-border-radius-topleft:2px;-moz-border-radius-topright:2px;border-top-left-radius:2px;border-top-right-radius:2px;">Smashing Security audio podcast</div><div class="su-box-content su-clearfix"><a href="http://www.smashingsecurity.com" title="Listen to 'Smashing Security', the new podcast from Graham Cluley, Vanja Svajcer and Carole Theriault"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-box-125.jpeg" align="left" style="padding-right:10px;" ></a>
+Check out <strong>"Smashing Security"</strong>, the new weekly audio podcast, with Graham Cluley, Vanja Svajcer, and Carole Theriault.
+<br><br>
+<em> "Three people having fun in an industry often focused on bad news" • "It's brilliant!" • "The Top Gear of computer security"</em><br><br>
+<strong>Latest episode:<em><div class="su-feed"><ul><li><a href="http://smashingsecurity.libsyn.com/008-ill-give-you-my-android-when-you-pry-it-from-my-cold-dead-paws" title="Handbags at dawn for CrowdStrike and NSS Labs! Donald Trump&#039;s insecure Android phone! File-less malware - is that so new? And StalkScan makes it easier to reveal what Facebook users have been carelessly sharing...  Computer security veterans Graham Cluley, Carole Theriault and Vanja Svajcer discuss. SHOW NOTES   AEP Public Test Announcement  NSS Labs Report Confirms Testing of CrowdStrike Falcon was Incomplete and Wrong  Some thoughts on the CrowdStrike vs NSS Labs debacle  Which Android phone does Donald Trump use?  Senators raise concerns over Donald Trump&#039;s smartphone security  Google claims ‘massive’ Stagefright Android bug had &#039;sod all effect&#039;  A Scary New Kind of Malware Is Invading Banks All Over the World  Fileless attacks against enterprise networks StalkScan  This creepy Facebook tool is revealing a LOT about you    TWITTER : ▶ https://twitter.com/smashinsecurity  ITUNES : ▶  https://itunes.apple.com/gb/podcast/smashing-security/id1195001633  STITCHER : ▶ http://www.stitcher.com/s?fid=128568&amp;refid=stpr  WEB : ▶ http://www.smashingsecurity.com Subscribe and leave us a review on iTunes - it really helps!  https://itunes.apple.com/gb/podcast/smashing-security/id1195001633  ">008: I&#039;ll give you my Android when you pry it from my cold, dead paws</a></li></ul></div></em></strong>
+<h3 style="text-align:right;"><i class="fa fa-volume-up" aria-hidden="true"></i> <a href="http://www.smashingsecurity.com" title="Link to Smashing Security podcast">Listen now</a></h3></div></div>
+<div class="zem_rp_wrap zem_rp_th_vertical" id="zem_rp_first"><div class="zem_rp_content"><h3 class="related_post_title">You might also like</h3><ul class="related_post zem_rp"><li data-position="0" data-poid="in-262249" data-post-type="none"><a href="https://www.grahamcluley.com/smashing-security-005-upskirt-insecurity/" class="zem_rp_thumbnail"><img width="190" height="190" src="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-005-thumb.jpeg" class="attachment-190x190 size-190x190 wp-post-image" alt="Smashing Security #005: &#039;Upskirt insecurity&#039;" srcset="https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-005-thumb.jpeg 250w, https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-005-thumb-150x150.jpeg 150w, https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-005-thumb-75x75.jpeg 75w, https://cdn.grahamcluley.com/wp-content/uploads/2017/01/smashing-security-005-thumb-45x45.jpeg 45w" sizes="(max-width: 190px) 100vw, 190px" /></a><a href="https://www.grahamcluley.com/smashing-security-005-upskirt-insecurity/" class="zem_rp_title">Smashing Security podcast #005: &#8216;Upskirt insecurity&#8217;</a></li><li data-position="1" data-poid="in-263212" data-post-type="none"><a href="https://www.grahamcluley.com/smashing-security-podcast-using-public-wi-fi/" class="zem_rp_thumbnail"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007a-thumb-190x190.jpeg" alt="Smashing Security podcast: Using public Wi-Fi" width="190" height="190"  /></a><a href="https://www.grahamcluley.com/smashing-security-podcast-using-public-wi-fi/" class="zem_rp_title">Smashing Security podcast: Using public Wi-Fi</a></li><li data-position="2" data-poid="in-262951" data-post-type="none"><a href="https://www.grahamcluley.com/smashing-security-podcast-passwords/" class="zem_rp_thumbnail"><img width="190" height="190" src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007-thumb.jpeg" class="attachment-190x190 size-190x190 wp-post-image" alt="Smashing Security podcast: Passwords" srcset="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007-thumb.jpeg 250w, https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007-thumb-150x150.jpeg 150w, https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007-thumb-75x75.jpeg 75w, https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007-thumb-45x45.jpeg 45w" sizes="(max-width: 190px) 100vw, 190px" /></a><a href="https://www.grahamcluley.com/smashing-security-podcast-passwords/" class="zem_rp_title">Smashing Security podcast: Passwords</a></li></ul></div></div>
+	
+
+
+
+<script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.0.13 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-250093 mc4wp-form-styles-builder mc4wp-ajax" method="post" data-id="250093" data-name="End of article" ><div class="mc4wp-form-fields"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2016/07/gchq-newsletter-glyph.png" align="right" >
+<h2>Subscribe to the free GCHQ newsletter</h2>
+  
+<label>
+Over 75,000 people follow Graham Cluley for news and
+advice about computer security and internet privacy.</label> <input type="email" name="email" placeholder="Your email address" required />
+<input type="submit" value="Sign up"  /><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1487425575" /><input type="hidden" name="_mc4wp_form_id" value="250093" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --><aside id="post-author">
+	<div class="profile-image"><img alt='' src='https://secure.gravatar.com/avatar/aa9ea0686c5d1aa9086d4b12c3aa05f2?s=80&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/aa9ea0686c5d1aa9086d4b12c3aa05f2?s=160&amp;d=mm&amp;r=g 2x' class='avatar avatar-80 photo' height='80' width='80' /></div>
+	<div class="profile-content">
+		<h4>About the author, Graham Cluley</h4>
+		Graham Cluley is a veteran of the anti-virus industry having worked for a number of security companies  since the early 1990s when he wrote the first ever version of Dr Solomon's Anti-Virus Toolkit for Windows. Now an independent security analyst, he regularly makes <a href="//www.grahamcluley.com/about-this-site/media/">media appearances</a> and gives <a href="//www.grahamcluley.com/about-this-site/public-speaking/">presentations</a> on the topic of computer security and online privacy.
+
+Follow him on Twitter at <a href="https://www.twitter.com/gcluley" rel="me">@gcluley</a>, <a href="https://plus.google.com/+GrahamCluleyCom?rel=author">Google Plus</a>, <a href="https://facebook.com/GrahamCluleyCom">Facebook</a>, or <a href="//www.grahamcluley.com/contact">drop him an email</a>.				<div class="profile-link" align="right">
+			<a href="https://www.grahamcluley.com/author/grahamcluley/">
+				View all posts by Graham Cluley <span class="meta-nav">&rarr;</span>			</a>
+			
+			
+		</div><!--#profile-link-->
+	
+		<p>
+<span class="metacats">
+
+
+
+<a href="https://twitter.com/gcluley" class="su-button su-button-style-default" style="color:#FFFFFF;background-color:#55ACEE;border-color:#448abe;border-radius:29px;-moz-border-radius:29px;-webkit-border-radius:29px" target="_self"><span style="color:#FFFFFF;padding:0px 16px;font-size:13px;line-height:26px;border-color:#88c5f3;border-radius:29px;-moz-border-radius:29px;-webkit-border-radius:29px;text-shadow:none;-moz-text-shadow:none;-webkit-text-shadow:none">  <i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Follow @gcluley </span></a>  
+</p></span>
+
+
+	
+	
+	
+	
+			</div>
+	<div class="fix"></div>
+		
+</aside>
+
+
+<div class="post-utility"><p class="tags"><i class="fa fa-tag"></i> <a href="https://www.grahamcluley.com/tag/ascii-art/" rel="tag">ASCII art</a>, <a href="https://www.grahamcluley.com/tag/privacy/" rel="tag">Privacy</a>, <a href="https://www.grahamcluley.com/tag/smart-tv/" rel="tag">Smart TV</a>, <a href="https://www.grahamcluley.com/tag/smashing-security/" rel="tag">Smashing Security</a>, <a href="https://www.grahamcluley.com/tag/twitter/" rel="tag">Twitter</a>, <a href="https://www.grahamcluley.com/tag/vulnerability-2/" rel="tag">vulnerability</a></p> </div>
+
+
+
+
+
+
+
+
+
+
+</article><!-- /.post -->
+
+
+
+<!-- if there are deals posts, list them out -->
+
+
+
+	        <div class="post-entries">
+	            <div class="nav-prev fl"><a href="https://www.grahamcluley.com/tried-and-true-triada-supplants-hummingbad-as-top-mobile-malware/" rel="prev"><i class="fa fa-angle-left"></i> Tried-and-true Triada supplants Hummingbad as top mobile malware</a></div>
+	            <div class="nav-next fr"><a href="https://www.grahamcluley.com/crossing-border-security-heres-protect-data/" rel="next">Crossing border security? Here's how you protect your data <i class="fa fa-angle-right"></i></a></div>
+	            <div class="fix"></div>
+	        </div>
+
+		    <div class="wpdiscuz_top_clearing"></div>
+                    <div id="comments" class="comments-area">
+                    <div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div>
+                            <h3 id="wc-comment-header">Leave a reply</h3>
+                <div id="wpcomm" class="wpdiscuz_unauth">
+                            <div class="wc-comment-bar">
+                    <p class="wc-comment-title">
+                        <span class="wc_header_text_count">2</span> Comments on "Smashing Security podcast #007: 'ASCII art attack'"                    </p>
+                    <div class="wpdiscuz_clear"></div>
+                </div>
+                                    <div class="wc_social_plugin_wrapper">
+                            </div>
+                            <div class="wpdiscuz-subscribe-bar">
+                                            <form action="https://www.grahamcluley.com/wp-admin/admin-ajax.php?action=addSubscription" method="post" id="wpdiscuz-subscribe-form">
+                            <div class="wpdiscuz-subscribe-form-intro">Notify of </div>
+                            <div class="wpdiscuz-subscribe-form-option" style="width:40%;">
+                                <select class="wpdiscuz_select" name="wpdiscuzSubscriptionType" >
+                                                                            <option value="post">new follow-up comments</option>
+                                                                                                                <option value="all_comment" >new replies to my comments</option>
+                                                                    </select>
+                            </div>
+                                                            <div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+                                    <input id="" class="email" type="email" name="wpdiscuzSubscriptionEmail" required="required" value="" placeholder="Email"/>
+                                </div>
+                                                        <div class="wpdiscuz-subscribe-form-button">
+                                <input id="wpdiscuz_subscription_button" type="submit" value="&rsaquo;" name="wpdiscuz_subscription_button" />
+                            </div> 
+                            <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="185c4f57f5" /><input type="hidden" name="_wp_http_referer" value="//www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/" />                            <input type="hidden" value="263111" name="wpdiscuzSubscriptionPostId" />
+                        </form>
+                                        <div class="wpdiscuz_clear"></div>
+                                    </div>
+                        <div class="wc-form-wrapper wc-main-form-wrapper"  id='wc-main-form-wrapper-0_0' >
+            <div class="wpdiscuz-comment-message" style="display: block;"></div>
+                                        <form class="wc_comm_form wc_main_comm_form" method="post" action="" enctype="multipart/form-data">
+                    <div class="wc-field-comment">
+                                                                                <div class="wc-field-avatararea">
+                                <img alt='avatar' src='https://secure.gravatar.com/avatar/?s=48&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo avatar-default' height='48' width='48' />                            </div>
+                                                <div class="wpdiscuz-item wc-field-textarea" >
+                            <div class="wpdiscuz-textarea-wrap ">
+                                <textarea id="wc-textarea-0_0"   placeholder="Join the discussion" required name="wc_comment" class="wc_comment wpd-field"></textarea>
+                                                                                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="wc-form-footer"  style="display: none;"> 
+                                <div class="wpd-form-row">
+                    <div class="wpd-form-col-left">
+                        <div class="wpdiscuz-item wpd-has-icon">
+                                <div class="wpd-field-icon"><i class="fa fa-user"></i></div>
+                                                <input required="required" class="wc_name wpd-field" type="text" name="wc_name" value="" placeholder="Name" maxlength="30" pattern=".{3,30}" title="">
+                            </div>
+                        <div class="wpdiscuz-item wpd-has-icon">
+                                    <div class="wpd-field-icon"><i class="fa fa-at"></i></div>
+                                                <input required="required" class="wc_email wpd-field" type="email" name="wc_email" value="" placeholder="Email">
+                            </div>
+                    </div>
+                <div class="wpd-form-col-right">
+                    <div class="wc-field-submit">
+                                                <div class="wc_notification_checkboxes" style="display:block">
+                                                    <input id="wc_notification_new_comment-0_0" class="wc_notification_new_comment-0_0" value="comment"  type="checkbox" name="wpdiscuz_notification_type" /> <label class="wc-label-comment-notify" for="wc_notification_new_comment-0_0">Email me when someone replies</label><br />
+                                                </div>
+                                        <input class="wc_comm_submit button alt" type="submit" name="submit" value="Post Comment">
+        </div>
+                </div>
+                    <div class="clearfix"></div>
+        </div>
+                            </div>
+                    <div class="clearfix"></div>
+                    <input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id">
+                </form>
+                    </div>
+                <div id = "wpdiscuz_hidden_secondary_form" style = "display: none;">
+                    <div class="wc-form-wrapper wc-secondary-form-wrapper"  id='wc-secondary-form-wrapper-wpdiscuzuniqueid'  style='display: none;' >
+            <div class="wpdiscuz-comment-message" style="display: block;"></div>
+                            <div class="wc-secondary-forms-social-content"></div>
+                                        <form class="wc_comm_form wc-secondary-form-wrapper" method="post" action="" enctype="multipart/form-data">
+                    <div class="wc-field-comment">
+                                                                                <div class="wc-field-avatararea">
+                                <img alt='avatar' src='https://secure.gravatar.com/avatar/?s=48&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=96&amp;d=mm&amp;r=g 2x' class='avatar avatar-48 photo avatar-default' height='48' width='48' />                            </div>
+                                                <div class="wpdiscuz-item wc-field-textarea" >
+                            <div class="wpdiscuz-textarea-wrap ">
+                                <textarea id="wc-textarea-wpdiscuzuniqueid"   placeholder="Join the discussion" required name="wc_comment" class="wc_comment wpd-field"></textarea>
+                                                                                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="wc-form-footer"  style="display: none;"> 
+                                <div class="wpd-form-row">
+                    <div class="wpd-form-col-left">
+                        <div class="wpdiscuz-item wpd-has-icon">
+                                <div class="wpd-field-icon"><i class="fa fa-user"></i></div>
+                                                <input required="required" class="wc_name wpd-field" type="text" name="wc_name" value="" placeholder="Name" maxlength="30" pattern=".{3,30}" title="">
+                            </div>
+                        <div class="wpdiscuz-item wpd-has-icon">
+                                    <div class="wpd-field-icon"><i class="fa fa-at"></i></div>
+                                                <input required="required" class="wc_email wpd-field" type="email" name="wc_email" value="" placeholder="Email">
+                            </div>
+                    </div>
+                <div class="wpd-form-col-right">
+                    <div class="wc-field-submit">
+                                                <div class="wc_notification_checkboxes" style="display:block">
+                                                    <input id="wc_notification_new_comment-wpdiscuzuniqueid" class="wc_notification_new_comment-wpdiscuzuniqueid" value="comment"  type="checkbox" name="wpdiscuz_notification_type" /> <label class="wc-label-comment-notify" for="wc_notification_new_comment-wpdiscuzuniqueid">Email me when someone replies</label><br />
+                                                </div>
+                                        <input class="wc_comm_submit button alt" type="submit" name="submit" value="Post Comment">
+        </div>
+                </div>
+                    <div class="clearfix"></div>
+        </div>
+                            </div>
+                    <div class="clearfix"></div>
+                    <input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id">
+                </form>
+                    </div>
+                </div>
+                    
+
+                        
+                                    <div class="wpdiscuz-front-actions">
+                        <div class="wpdiscuz-sort-buttons" style="font-size:14px;">Sort by: &nbsp;
+                            <span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc">newest</span> | 
+                            <span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc">oldest</span>
+                                                            | <span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up">most voted</span>
+                                                    </div>
+                    </div>
+                
+                                    <div class="wc_new_comment_and_replies">
+                        <div class="wc_new_comment wc-update-on-click"></div>
+                        <div class="wc_new_reply wc-update-on-click"></div>
+                        <div class="wpdiscuz_clear"></div>
+                    </div>
+                    <div class="wpdiscuz_clear"></div>
+                                <div id="wcThreadWrapper" class="wc-thread-wrapper">
+                    <div id="wc-comm-103772_0" class="wc-comment wc-blog-guest wc_comment_level-1"><div class="wc-comment-left"><img alt='Bob' src='https://secure.gravatar.com/avatar/ac44a4013bce76d830571fcfa83bc76a?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ac44a4013bce76d830571fcfa83bc76a?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><div class="wc-blog-guest wc-comment-label"><span>Visitor</span></div><div class="wpdiscuz-mycred-wrap"><div class="wpdiscuz-mycred-rank-wrap"></div></div></div><div id="comment-103772" class="wc-comment-right " ><div class="wc-comment-header"><div class="wc-comment-author">Bob</div><div class="wc-comment-link"><span class="wc-comment-img-link-wrap"><i class="fa fa-link wc-comment-img-link wpf-cta" aria-hidden="true"/></i><span><input type="text" class="wc-comment-link-input" value="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/#comment-103772" /></span></div><div class="wpdiscuz_clear"></div></div><div class="wc-comment-text"><p>To be honest I&#039;ve long since stopped using my home scanner. A colleague got me onto Scanner Pro some time back (for iOS) and within just under 1 second I&#039;ve got a nicely scanned document which has all the creases, dark lines etc. removed and the file is automatically converted to PDF (or JPEG) prior to being uploaded, in the background, to my cloud service. I can then access it anywhere &#8211; my computer, mobile, tablet, the internet etc. Obviously the cloud upload is optional. It also has OCR built in.</p>
+<p>It&#039;s quicker than a conventional flatbed scanner, you can scan massive documents (e.g. A2 paper) and multiple pages are converted and compressed into one single PDF.</p>
+<p>Pro Version (£3.99)</p>
+<p>https://itunes.apple.com/gb/app/scanner-pro-pdf-document-scanner/id333710667?mt=8</p>
+<p>Free Version</p>
+<p>https://itunes.apple.com/gb/app/scanner-app-free-pdf-scanner/id581365763?mt=8</p>
+<p>Other software is available although this is the best in my experience.</p>
+</div><div class="wc-comment-footer"><div class="wc-footer-left"><span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote up</span></span><span class="wc-vote-result">0</span><span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote down</span></span>&nbsp;<span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span></div><div class="wc-footer-right"><div class="wc-comment-date"><i class="fa fa-clock-o" aria-hidden="true"></i>February 9, 2017 7:29 pm</div><div class="wc-toggle wpdiscuz-hidden"><i class="fa fa-chevron-up" aria-hidden="true"  title="Hide replies"></i></div></div><div class="wpdiscuz_clear"></div></div></div><div class="wpdiscuz-comment-message"></div><div id="wpdiscuz_form_anchor-103772_0"  style="clear:both"></div></div><div id="wc-comm-103790_0" class="wc-comment wc-blog-guest wc_comment_level-1"><div class="wc-comment-left"><img alt='furriephillips' src='https://secure.gravatar.com/avatar/13471ea0ab4a28865db4ee22cba547af?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/13471ea0ab4a28865db4ee22cba547af?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><div class="wc-blog-guest wc-comment-label"><span>Visitor</span></div><div class="wpdiscuz-mycred-wrap"><div class="wpdiscuz-mycred-rank-wrap"></div></div></div><div id="comment-103790" class="wc-comment-right " ><div class="wc-comment-header"><div class="wc-comment-author">furriephillips</div><div class="wc-comment-link"><span class="wc-comment-img-link-wrap"><i class="fa fa-link wc-comment-img-link wpf-cta" aria-hidden="true"/></i><span><input type="text" class="wc-comment-link-input" value="https://www.grahamcluley.com/smashing-security-podcast-007-ascii-art-attack/#comment-103790" /></span></div><div class="wpdiscuz_clear"></div></div><div class="wc-comment-text"><p>Grey[scale]-Hat Hacker</p>
+</div><div class="wc-comment-footer"><div class="wc-footer-left"><span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote up</span></span><span class="wc-vote-result">0</span><span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote down</span></span>&nbsp;<span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span></div><div class="wc-footer-right"><div class="wc-comment-date"><i class="fa fa-clock-o" aria-hidden="true"></i>February 10, 2017 10:50 am</div><div class="wc-toggle wpdiscuz-hidden"><i class="fa fa-chevron-up" aria-hidden="true"  title="Hide replies"></i></div></div><div class="wpdiscuz_clear"></div></div></div><div class="wpdiscuz-comment-message"></div><div id="wpdiscuz_form_anchor-103790_0"  style="clear:both"></div></div>                
+                    <div class="wpdiscuz-comment-pagination">
+                                            </div>
+                </div>
+                <div class="wpdiscuz_clear"></div>
+                                                                                </div>
+        </div>
+        <div class="wpdiscuz-loading-bar wpdiscuz-loading-bar-unauth"><img class="wpdiscuz-loading-bar-img" alt="wpDiscuz" src="https://cdn.grahamcluley.com/wp-content/plugins/wpdiscuz/assets/img/loading.gif" width="32" height="25" /></div>
+             
+            </section><!-- /#main -->
+                
+            <aside id="sidebar">
+<div id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h3>Stay informed with our free GCHQ newsletter</h3><script type="text/javascript">(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.0.13 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-3" class="mc4wp-form mc4wp-form-252487 mc4wp-form-styles-builder mc4wp-ajax" method="post" data-id="252487" data-name="Sidebar" ><div class="mc4wp-form-fields"> 
+<label>
+Over 75,000 people follow Graham Cluley for news and advice about computer security and internet privacy.</label>
+<br>
+<br>
+<input type="email" name="email" placeholder="Your email address" required />
+<input type="submit" value="Sign up"  /><div style="display: none;"><input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></div><input type="hidden" name="_mc4wp_timestamp" value="1487425575" /><input type="hidden" name="_mc4wp_form_id" value="252487" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-3" /></div><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></div><div id="youtubechannelgallery_widget-4" class="widget youtubechannelgallery ytccf"><h3>Latest videos</h3><div class="youtubechannelgallery"><div id="ytc-1"><div id="ytc-wrapper"><div class="ytc-pslb ytc-thumbnails container-fluid ytc-thumb16x9 ytc-thumb-align-none">
+
+
+		    	
+    	    				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="ytcthumb-cont public">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=fu08jcWEBrQ" data-playerid="ytcplayer1" data-quality="medium" title="What happened to the Smashing Security videos?" style="background-image:url(https://i.ytimg.com/vi/fu08jcWEBrQ/mqdefault.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=fu08jcWEBrQ" data-playerid="ytcplayer1" data-quality="medium" alt="What happened to the Smashing Security videos?" title="What happened to the Smashing Security videos?"  target="_blank">
+	  			What happened to the Smashing Security videos?			</a>
+	</h5><time datetime="2017-01-25T23:24:45.000Z" class="ytcpublishedAt">
+	January 25, 2017</time>		</div>     	
+				
+    	    					</div>
+				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="ytcthumb-cont public">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=DoYpoo8qyPI" data-playerid="ytcplayer1" data-quality="medium" title="One BILLION Yahoo users put at risk after hack - LIVE STREAM" style="background-image:url(https://i.ytimg.com/vi/DoYpoo8qyPI/mqdefault.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=DoYpoo8qyPI" data-playerid="ytcplayer1" data-quality="medium" alt="One BILLION Yahoo users put at risk after hack - LIVE STREAM" title="One BILLION Yahoo users put at risk after hack - LIVE STREAM"  target="_blank">
+	  			One BILLION Yahoo users put at risk after hack - LIVE STREAM			</a>
+	</h5><time datetime="2016-12-15T00:11:05.000Z" class="ytcpublishedAt">
+	December 15, 2016</time>		</div>     	
+				
+    	    					</div>
+				<div class="ytc-row row">
+							
+		<div class="ytc-column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="ytcthumb-cont public">
+  <a class="ytcthumb ytclink" href="https://www.youtube.com/watch?v=F_fzoqLgeUc" data-playerid="ytcplayer1" data-quality="medium" title="Backups - the best defence against ransomware (and other risks) | Graham Cluley" style="background-image:url(https://i.ytimg.com/vi/F_fzoqLgeUc/mqdefault.jpg);"  target="_blank">
+        <div class="ytcplay"></div>
+  </a>
+  </div>
+
+<h5 class="ytctitle">
+	  		<a class="ytclink" href="https://www.youtube.com/watch?v=F_fzoqLgeUc" data-playerid="ytcplayer1" data-quality="medium" alt="Backups - the best defence against ransomware (and other risks) | Graham Cluley" title="Backups - the best defence against ransomware (and other risks) | Graham Cluley"  target="_blank">
+	  			Backups - the best defence against ransomware (and other risks) | Graham Cluley			</a>
+	</h5><time datetime="2016-11-30T16:14:59.000Z" class="ytcpublishedAt">
+	November 30, 2016</time>		</div>     	
+				
+	</div> 
+		
+</div> 
+
+<div class="ytc-pslb ytc-links container-fluid">
+	<div class="ytc-row row">
+		
+					<div class="ytc-youtubelink col-xs-12">
+				<a href="https://www.youtube.com/playlist?list=PLRwg0TwaF9AI0XiPcBK9pkAuGXraRsKRM" class="ytcmore" >
+					Visit my YouTube channel for more videos				</a>
+			</div>
+			</div>
+</div>
+
+</div></div></div></div><div id="text-17" class="widget widget_text"><h3>Public speaking</h3>			<div class="textwidget"><p><a href="//www.grahamcluley.com/about-this-site/public-speaking/" title="Computer security public speaker Graham Cluley"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2016/04/sidebar-speaking.jpeg" title="Graham Cluley computer security expert, delivering keynote speech"></a></p>
+<p><a href="//www.grahamcluley.com/about-this-site/public-speaking/" title="Computer security public speaker Graham Cluley">Hire Graham Cluley to speak at your event</a></p>
+</div>
+		</div><div id="widget_tptn_pop-2" class="widget widget_widget_tptn_pop"><h3>Popular recent posts</h3><div class="tptn_posts_daily  tptn_posts_widget tptn_posts_widget2"><ul><li><a href="https://www.grahamcluley.com/how-to-enable-2-step-verification-2sv-on-your-whatsapp-account/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/whatsapp-2sv-thumb-75x75.jpeg" alt="How to better protect your WhatsApp account with two-step verification (2SV)" title="How to better protect your WhatsApp account with two-step verification (2SV)" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/how-to-enable-2-step-verification-2sv-on-your-whatsapp-account/"     class="tptn_link"><span class="tptn_title">How to better protect your WhatsApp account with two-step verification (2SV)</span></a></span></li><li><a href="https://www.grahamcluley.com/cerber-ransomware-avoids-security/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/cerber-thumb-75x75.jpeg" alt="Cerber ransomware takes special care not to encrypt security product files" title="Cerber ransomware takes special care not to encrypt security product files" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/cerber-ransomware-avoids-security/"     class="tptn_link"><span class="tptn_title">Cerber ransomware takes special care not to encrypt security product files</span></a></span></li><li><a href="https://www.grahamcluley.com/crossing-border-security-heres-protect-data/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/us-border-thumb-75x75.jpeg" alt="Crossing border security? Here&#039;s how you protect your data" title="Crossing border security? Here&#039;s how you protect your data" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/crossing-border-security-heres-protect-data/"     class="tptn_link"><span class="tptn_title">Crossing border security? Here's how you protect your data</span></a></span></li><li><a href="https://www.grahamcluley.com/senators-donald-trump-smartphone-security/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/trump-mobile-thumb-75x75.jpeg" alt="Senators raise concerns over Donald Trump&#039;s smartphone security" title="Senators raise concerns over Donald Trump&#039;s smartphone security" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/senators-donald-trump-smartphone-security/"     class="tptn_link"><span class="tptn_title">Senators raise concerns over Donald Trump's smartphone security</span></a></span></li><li><a href="https://www.grahamcluley.com/magento-stores-targeted-by-self-healing-malware/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/magento-malware-thumb-75x75.jpeg" alt="Magento stores targeted by self-healing malware that steals credit card details" title="Magento stores targeted by self-healing malware that steals credit card details" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/magento-stores-targeted-by-self-healing-malware/"     class="tptn_link"><span class="tptn_title">Magento stores targeted by self-healing malware that steals credit card details</span></a></span></li><li><a href="https://www.grahamcluley.com/smashing-security-podcast-using-public-wi-fi/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-007a-thumb-75x75.jpeg" alt="Smashing Security podcast: Using public Wi-Fi" title="Smashing Security podcast: Using public Wi-Fi" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/smashing-security-podcast-using-public-wi-fi/"     class="tptn_link"><span class="tptn_title">Smashing Security podcast: Using public Wi-Fi</span></a></span></li><li><a href="https://www.grahamcluley.com/sage-2-0-ransomware/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/sage-ransomware-thumb-75x75.jpeg" alt="Sage 2.0 ransomware wants to be just like Cerber when it grows up" title="Sage 2.0 ransomware wants to be just like Cerber when it grows up" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/sage-2-0-ransomware/"     class="tptn_link"><span class="tptn_title">Sage 2.0 ransomware wants to be just like Cerber when it grows up</span></a></span></li><li><a href="https://www.grahamcluley.com/lazarus-gang-possibly-behind-malware-attacks-polish-banks/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/lazarus-bowie-thumb-75x75.jpeg" alt="Lazarus mob possibly behind malware attacks against Polish banks" title="Lazarus mob possibly behind malware attacks against Polish banks" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/lazarus-gang-possibly-behind-malware-attacks-polish-banks/"     class="tptn_link"><span class="tptn_title">Lazarus mob possibly behind malware attacks against Polish banks</span></a></span></li><li><a href="https://www.grahamcluley.com/create-robust-data-backup-plan-make-sure-works/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/hard-drive-thumb-75x75.jpeg" alt="How to create a robust data backup plan (and make sure it works)" title="How to create a robust data backup plan (and make sure it works)" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/create-robust-data-backup-plan-make-sure-works/"     class="tptn_link"><span class="tptn_title">How to create a robust data backup plan (and make sure it works)</span></a></span></li><li><a href="https://www.grahamcluley.com/smashing-security-podcast-008-ill-give-android-pry-cold-dead-paws/"     class="tptn_link"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2017/02/smashing-security-005-thumb-75x75.jpeg" alt="Smashing Security podcast #008: &#039;I&#039;ll give you my Android when you pry it from my cold, dead paws&#039;" title="Smashing Security podcast #008: &#039;I&#039;ll give you my Android when you pry it from my cold, dead paws&#039;" width="75" height="75" class="tptn_thumb tptn_featured" /></a><span class="tptn_after_thumb"><a href="https://www.grahamcluley.com/smashing-security-podcast-008-ill-give-android-pry-cold-dead-paws/"     class="tptn_link"><span class="tptn_title">Smashing Security podcast #008: 'I'll give you my Android when you pry it from my cold, dead paws'</span></a></span></li></ul><p style="text-align:right;"><a href="//www.grahamcluley.com"><strong>Latest posts...</strong></a></p><div class="tptn_clear"></div></div></div><div id="text-24" class="widget widget_text">			<div class="textwidget"><a href="//www.grahamcluley.com/wp-login.php" class="woo-sc-button  custom large" style="background:;border-color:"><span class="woo-"><i class="fa fa-user"></i>&nbsp;&nbsp;Login</span></a>
+
+<p>No account? <a href="//www.grahamcluley.com/wp-login.php?action=register" rel="nofollow">Register now</a>.</p></div>
+		</div><div id="text-22" class="widget widget_text"><h3>This site is protected by Incapsula against DDoS attacks and other internet threats</h3>			<div class="textwidget"><a href="http://pages.incapsula.com/bot-or-not-shirt/?utm_source=grahamcluley&utm_medium=partner&utm_campaign=2015_Q4_T-Shirt_Offer"  target="_blank" title="Learn more about Incapsula"><img src="https://cdn.grahamcluley.com/wp-content/uploads/2015/12/incapsula-sidebar.jpeg"></a></div>
+		</div></aside><!-- /#sidebar -->
+
+		</div><!-- /#main-sidebar-container -->         
+
+		
+    </div><!-- /#content -->
+	
+<section id="footer-widgets" class="col-full col-3">
+				<div class="block footer-widget-1">
+    	<div id="ctc-3" class="widget ctc"><h3>Categories</h3><div class="ctc"><a href="https://www.grahamcluley.com/organisations/adobe/" class="ctc-tag tag-link-102" title="126 topics" rel="tag" style="font-size: 12px;">Adobe</a> (126)
+<a href="https://www.grahamcluley.com/technologies/adobe-flash/" class="ctc-tag tag-link-237" title="74 topics" rel="tag" style="font-size: 12px;">Adobe Flash</a> (74)
+<a href="https://www.grahamcluley.com/mobile/android/" class="ctc-tag tag-link-82" title="233 topics" rel="tag" style="font-size: 12px;">Android</a> (233)
+<a href="https://www.grahamcluley.com/organisations/apple/" class="ctc-tag tag-link-147" title="382 topics" rel="tag" style="font-size: 12px;">Apple</a> (382)
+<a href="https://www.grahamcluley.com/web-browsers/apple-safari/" class="ctc-tag tag-link-263" title="33 topics" rel="tag" style="font-size: 12px;">Apple Safari</a> (33)
+<a href="https://www.grahamcluley.com/awards/" class="ctc-tag tag-link-1200" title="18 topics" rel="tag" style="font-size: 12px;">Awards</a> (18)
+<a href="https://www.grahamcluley.com/mobile/blackberry/" class="ctc-tag tag-link-207" title="19 topics" rel="tag" style="font-size: 12px;">BlackBerry</a> (19)
+<a href="https://www.grahamcluley.com/security-threats/botnet-malware/" class="ctc-tag tag-link-347" title="102 topics" rel="tag" style="font-size: 12px;">Botnet</a> (102)
+<a href="https://www.grahamcluley.com/celebrities/" class="ctc-tag tag-link-13" title="123 topics" rel="tag" style="font-size: 12px;">Celebrities</a> (123)
+<a href="https://www.grahamcluley.com/social-networks/facebook/clickjacking-facebook/" class="ctc-tag tag-link-1465" title="32 topics" rel="tag" style="font-size: 12px;">Clickjacking</a> (32)
+<a href="https://www.grahamcluley.com/data-loss/" class="ctc-tag tag-link-111" title="849 topics" rel="tag" style="font-size: 12px;">Data loss</a> (849)
+<a href="https://www.grahamcluley.com/security-threats/denial-of-service-security-threats/" class="ctc-tag tag-link-209" title="194 topics" rel="tag" style="font-size: 12px;">Denial of Service</a> (194)
+<a href="https://www.grahamcluley.com/cryptography/" class="ctc-tag tag-link-5003" title="170 topics" rel="tag" style="font-size: 12px;">Encryption</a> (170)
+<a href="https://www.grahamcluley.com/social-networks/facebook/" class="ctc-tag tag-link-18" title="651 topics" rel="tag" style="font-size: 12px;">Facebook</a> (651)
+<a href="https://www.grahamcluley.com/security-threats/fake-anti-virus/" class="ctc-tag tag-link-76" title="36 topics" rel="tag" style="font-size: 12px;">Fake anti-virus</a> (36)
+<a href="https://www.grahamcluley.com/feed-only/" class="ctc-tag tag-link-4626" title="90 topics" rel="tag" style="font-size: 12px;">Feed only</a> (90)
+<a href="https://www.grahamcluley.com/web-browsers/firefox/" class="ctc-tag tag-link-265" title="38 topics" rel="tag" style="font-size: 12px;">Firefox</a> (38)
+<a href="https://www.grahamcluley.com/organisations/google/" class="ctc-tag tag-link-83" title="237 topics" rel="tag" style="font-size: 12px;">Google</a> (237)
+<a href="https://www.grahamcluley.com/web-browsers/google-chrome/" class="ctc-tag tag-link-266" title="28 topics" rel="tag" style="font-size: 12px;">Google Chrome</a> (28)
+<a href="https://www.grahamcluley.com/social-networks/google-plus/" class="ctc-tag tag-link-713" title="4 topics" rel="tag" style="font-size: 12px;">Google Plus</a> (4)
+<a href="https://www.grahamcluley.com/guest/" class="ctc-tag tag-link-3772" title="3237 topics" rel="tag" style="font-size: 12px;">Guest blog</a> (3237)
+<a href="https://www.grahamcluley.com/celebrities/hacked-celebrities/" class="ctc-tag tag-link-178" title="66 topics" rel="tag" style="font-size: 12px;">Hacked celebrities</a> (66)
+<a href="https://www.grahamcluley.com/web-browsers/internet-explorer/" class="ctc-tag tag-link-34" title="55 topics" rel="tag" style="font-size: 12px;">Internet Explorer</a> (55)
+<a href="https://www.grahamcluley.com/mobile/ios-mobile/" class="ctc-tag tag-link-230" title="225 topics" rel="tag" style="font-size: 12px;">iOS</a> (225)
+<a href="https://www.grahamcluley.com/technologies/java/" class="ctc-tag tag-link-72" title="42 topics" rel="tag" style="font-size: 12px;">Java</a> (42)
+<a href="https://www.grahamcluley.com/law-order/" class="ctc-tag tag-link-25" title="934 topics" rel="tag" style="font-size: 12px;">Law &amp; order</a> (934)
+<a href="https://www.grahamcluley.com/social-networks/linkedin-social-networks/" class="ctc-tag tag-link-3195" title="31 topics" rel="tag" style="font-size: 12px;">LinkedIn</a> (31)
+<a href="https://www.grahamcluley.com/link-list/" class="ctc-tag tag-link-5918" title="60 topics" rel="tag" style="font-size: 12px;">Link list</a> (60)
+<a href="https://www.grahamcluley.com/operating-systems/linux/" class="ctc-tag tag-link-312" title="38 topics" rel="tag" style="font-size: 12px;">Linux</a> (38)
+<a href="https://www.grahamcluley.com/operating-systems/os-x/" class="ctc-tag tag-link-150" title="129 topics" rel="tag" style="font-size: 12px;">macOS</a> (129)
+<a href="https://www.grahamcluley.com/security-threats/malware/" class="ctc-tag tag-link-4" title="1841 topics" rel="tag" style="font-size: 12px;">Malware</a> (1841)
+<a href="https://www.grahamcluley.com/organisations/microsoft/" class="ctc-tag tag-link-175" title="252 topics" rel="tag" style="font-size: 12px;">Microsoft</a> (252)
+<a href="https://www.grahamcluley.com/mobile/" class="ctc-tag tag-link-180" title="266 topics" rel="tag" style="font-size: 12px;">Mobile</a> (266)
+<a href="https://www.grahamcluley.com/naked-security/" class="ctc-tag tag-link-323" title="64 topics" rel="tag" style="font-size: 12px;">Naked Security</a> (64)
+<a href="https://www.grahamcluley.com/celebrities/nude-celebrities/" class="ctc-tag tag-link-398" title="44 topics" rel="tag" style="font-size: 12px;">Nude Celebrities</a> (44)
+<a href="https://www.grahamcluley.com/operating-systems/" class="ctc-tag tag-link-267" title="2 topics" rel="tag" style="font-size: 12px;">Operating Systems</a> (2)
+<a href="https://www.grahamcluley.com/organisations/oracle/" class="ctc-tag tag-link-108" title="27 topics" rel="tag" style="font-size: 12px;">Oracle</a> (27)
+<a href="https://www.grahamcluley.com/technologies/pdf/" class="ctc-tag tag-link-97" title="40 topics" rel="tag" style="font-size: 12px;">PDF</a> (40)
+<a href="https://www.grahamcluley.com/security-threats/phishing-malware/" class="ctc-tag tag-link-94" title="266 topics" rel="tag" style="font-size: 12px;">Phishing</a> (266)
+<a href="https://www.grahamcluley.com/podcast/" class="ctc-tag tag-link-627" title="51 topics" rel="tag" style="font-size: 12px;">Podcast</a> (51)
+<a href="https://www.grahamcluley.com/privacy/" class="ctc-tag tag-link-26" title="1218 topics" rel="tag" style="font-size: 12px;">Privacy</a> (1218)
+<a href="https://www.grahamcluley.com/security-threats/ransomware-malware/" class="ctc-tag tag-link-552" title="131 topics" rel="tag" style="font-size: 12px;">Ransomware</a> (131)
+<a href="https://www.grahamcluley.com/security-threats/rogue-applications/" class="ctc-tag tag-link-56" title="86 topics" rel="tag" style="font-size: 12px;">Rogue applications</a> (86)
+<a href="https://www.grahamcluley.com/security-threats/" class="ctc-tag tag-link-507" title="131 topics" rel="tag" style="font-size: 12px;">Security threats</a> (131)
+<a href="https://www.grahamcluley.com/social-networks/" class="ctc-tag tag-link-20" title="698 topics" rel="tag" style="font-size: 12px;">Social networks</a> (698)
+<a href="https://www.grahamcluley.com/security-threats/spam/" class="ctc-tag tag-link-5" title="1120 topics" rel="tag" style="font-size: 12px;">Spam</a> (1120)
+<a href="https://www.grahamcluley.com/sponsor/" class="ctc-tag tag-link-4627" title="65 topics" rel="tag" style="font-size: 12px;">Sponsor</a> (65)
+<a href="https://www.grahamcluley.com/social-networks/twitter/" class="ctc-tag tag-link-64" title="347 topics" rel="tag" style="font-size: 12px;">Twitter</a> (347)
+<a href="https://www.grahamcluley.com/uncategorized/" class="ctc-tag tag-link-766" title="2 topics" rel="tag" style="font-size: 12px;">Uncategorized</a> (2)
+<a href="https://www.grahamcluley.com/video/" class="ctc-tag tag-link-197" title="307 topics" rel="tag" style="font-size: 12px;">Video</a> (307)
+<a href="https://www.grahamcluley.com/security-threats/vulnerability/" class="ctc-tag tag-link-37" title="1215 topics" rel="tag" style="font-size: 12px;">Vulnerability</a> (1215)
+<a href="https://www.grahamcluley.com/web-browsers/" class="ctc-tag tag-link-50" title="69 topics" rel="tag" style="font-size: 12px;">Web Browsers</a> (69)
+<a href="https://www.grahamcluley.com/operating-systems/windows/" class="ctc-tag tag-link-277" title="175 topics" rel="tag" style="font-size: 12px;">Windows</a> (175)
+<a href="https://www.grahamcluley.com/mobile/windows-phone-mobile/" class="ctc-tag tag-link-735" title="9 topics" rel="tag" style="font-size: 12px;">Windows phone</a> (9)
+<a href="https://www.grahamcluley.com/organisations/yahoo-organisations/" class="ctc-tag tag-link-3221" title="63 topics" rel="tag" style="font-size: 12px;">Yahoo</a> (63)</div></div>	</div>
+        				<div class="block footer-widget-2">
+    	<div id="author_avatars-2" class="widget widget_author_avatars"><h3>Contributors</h3><div class="author-list"><div class="user with-name user-2"><a href="https://www.grahamcluley.com/author/grahamcluley/" title="Graham Cluley (4715 posts)"><span class="avatar" title="Graham Cluley (4715 posts)"><img src='https://secure.gravatar.com/avatar/aa9ea0686c5d1aa9086d4b12c3aa05f2?s=45&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/aa9ea0686c5d1aa9086d4b12c3aa05f2?s=90&amp;d=mm&amp;r=g 2x' class='avatar avatar-45 photo' height='45' width='45' title="Graham Cluley (4715 posts)" alt="Graham Cluley"  /></span><span class="name">Graham Cluley (4715)</span></a></div><div class="user with-name user-29"><a href="https://www.grahamcluley.com/author/davidbisson/" title="David Bisson (353 posts)"><span class="avatar" title="David Bisson (353 posts)"><img class="avatar avatar-45 photo avatar-default" height="45" src="https://cdn.grahamcluley.com/wp-content/uploads/2015/06/dbisson-45x45.jpeg" width="45"></span><span class="name">David Bisson (353)</span></a></div><div class="user with-name user-32"><a href="https://www.grahamcluley.com/author/bobcovello/" title="Bob Covello (26 posts)"><span class="avatar" title="Bob Covello (26 posts)"><img class="avatar avatar-45 photo avatar-default" height="45" src="https://cdn.grahamcluley.com/wp-content/uploads/2015/07/bob-covello-45x45.jpeg" width="45"></span><span class="name">Bob Covello (26)</span></a></div><div class="user with-name user-594"><a href="https://www.grahamcluley.com/author/yasinsoliman/" title="Yasin Soliman (14 posts)"><span class="avatar" title="Yasin Soliman (14 posts)"><img class="avatar avatar-45 photo avatar-default" height="45" src="https://cdn.grahamcluley.com/wp-content/uploads/2016/09/yasin-45x45.jpeg" width="45"></span><span class="name">Yasin Soliman (14)</span></a></div><div class="user with-name user-6"><a href="https://www.grahamcluley.com/author/philipleriche/" title="Philip Le Riche (5 posts)"><span class="avatar" title="Philip Le Riche (5 posts)"><img class="avatar avatar-45 photo avatar-default" height="45" src="https://cdn.grahamcluley.com/wp-content/uploads/2013/09/pleriche-64-45x45.jpeg" width="45"></span><span class="name">Philip Le Riche (5)</span></a></div></div></div><div id="text-20" class="widget widget_text">			<div class="textwidget"><a href="//www.grahamcluley.com/about-this-site/contributors/">More...</a></div>
+		</div><div id="text-7" class="widget widget_text"><h3>Want to write for this site?</h3>			<div class="textwidget"><p>If you have an article that you’d like to share on grahamcluley.com, check out our <a href="//www.grahamcluley.com/about-this-site/contributor-guidelines/">contributor guidelines</a>.</p></div>
+		</div>	</div>
+        				<div class="block footer-widget-3">
+    	<div id="text-19" class="widget widget_text"><h3>Follow</h3>			<div class="textwidget"><p><a href="https://twitter.com/intent/user?screen_name=gcluley" title="Follow Graham Cluley on Twitter"><i class="fa fa-twitter fa-3x"></i></a>&nbsp;
+<a href="https://facebook.com/grahamcluleycom" title="Like Graham Cluley Security News on Facebook"><i class="fa fa-facebook fa-3x"></i></a>&nbsp;
+<a href="https://plus.google.com/+GrahamCluleyCom" title="Add Graham Cluley to your Google+ circles">
+<i class="fa fa-google-plus fa-3x"></i></a>&nbsp;
+<a href="https://www.youtube.com/subscription_center?add_user=GrahamCluleyCom" title="Subscribe to Graham Cluley's YouTube channel">
+<i class="fa fa-youtube fa-3x"></i></a>&nbsp;
+<a href="http://uk.linkedin.com/in/grahamcluley" title="Connect with Graham Cluley on LinkedIn">
+<i class="fa fa-linkedin fa-3x"></i></a>&nbsp;
+<a href="//www.grahamcluley.com/feed" title="Subscribe to the RSS feed">
+<i class="fa fa-rss fa-3x"></i></a></p></div>
+		</div><div id="text-6" class="widget widget_text"><h3>Contact</h3>			<div class="textwidget"><p><a href="//www.grahamcluley.com/about-this-site/#tip">Send a tip or story idea</a></p>
+<p><a href="//www.grahamcluley.com/about-this-site/public-speaking/">Hire Graham Cluley to speak at your event</a></p>
+<p><a href="//www.grahamcluley.com/sponsorship">Sponsorship</a></p>
+<p><a href="//www.grahamcluley.com/about-this-site/#complaints">Complaints/Corrections</a></p>
+<p><a href="https://www.iubenda.com/privacy-policy/275637" class="iubenda-nostyle no-brand iubenda-embed" title="Privacy Policy">Privacy Policy</a></p>
+
+</div>
+		</div>	</div>
+        		<div class="fix"></div>
+</section><!--/#footer-widgets-->
+	<footer id="footer" class="col-full">
+
+		
+		<div id="copyright" class="col-left">
+			<p>Copyright © 2017 Cluley Associates Limited. All Rights Reserved.<p>
+Support us: BTC 1HsA79oAvzA2KghvoEDkVAbJFehhCNME2k
+</p></p>		</div>
+
+		<div id="credit" class="col-right">
+			<p><a href="//www.grahamcluley.com/about-this-site/">About</a> | <a href="//www.grahamcluley.com/cookie-policy/">Cookies</a> | <a href="//www.grahamcluley.com/about-this-site/website-terms-conditions/">Terms &amp; Conditions</a><p>Powered by <a href="https://wordpress.org/" title="Link to WordPress.org">WordPress</a> | Hosted by <a href="https://www.grahamcluley.com/go/pressidium/" title="Link to Pressidium">Pressidium</a></p>
+</p>		</div>
+
+	</footer>
+
+	
+	</div><!-- /#inner-wrapper -->
+
+</div><!-- /#wrapper -->
+
+<div class="fix"></div><!--/.fix-->
+
+<script type="text/javascript">(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><style>
+	/* Smart Podcast Player custom styles for color 0192ff */
+
+
+
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-main-region .spp-main-view .spp-controls .spp-play-pause-circle svg,
+.smart-track-player.stp-color-0192ff-2A2A2A .spp-track-layer-1 .spp-playback-controls .spp-play-pause svg {
+	fill: #0192ff ;
+}
+
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-playlist-region .spp-track-list .spp-track-row .spp-eq-svg,
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-playlist-region .spp-track-list .spp-track-row .spp-play-svg {
+	fill: #0192ff ;
+}
+
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-progress-played,
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-seek-time,
+.smart-track-player.stp-color-0192ff-2A2A2A .spp-track-layer-2 .spp-progress-bar .spp-progress-played,
+.smart-track-player.stp-color-0192ff-2A2A2A .spp-track-layer-2 .spp-progress-bar .spp-seek-time {
+	background-color: #0192ff ;
+}
+
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-time-elapsed ,
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-time-remaining ,
+.smart-podcast-player.spp-color-0192ff .spp-player-layout .spp-main-region .spp-main-view .spp-progress-bar .spp-seek-time,
+.smart-track-player.stp-color-0192ff-2A2A2A .spp-track-layer-2 .spp-progress-bar .spp-time-elapsed,
+.smart-track-player.stp-color-0192ff-2A2A2A .spp-track-layer-2 .spp-progress-bar .spp-time-remaining,
+.smart-track-player.stp-color-0192ff-2A2A2A .spp-track-layer-2 .spp-progress-bar .spp-seek-time {
+	color: #FFF ;
+}
+
+.smart-podcast-player.spp-color-0192ff .spp-show-notes a,
+.smart-podcast-player.spp-color-0192ff .spp-truncated-show-notes a {
+	color: #60b86c ;
+}
+</style>
+<link rel='stylesheet' id='askpat-player-plugin-styles-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/smart-podcast-player/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='askpat-player-plugin-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400italic%2C600italic%2C700italic%2C400%2C600%2C700&#038;ver=2.1.11' type='text/css' media='all' />
+<link rel='stylesheet' id='su-box-shortcodes-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/shortcodes-ultimate/assets/css/box-shortcodes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='su-content-shortcodes-css'  href='https://cdn.grahamcluley.com/wp-content/plugins/shortcodes-ultimate/assets/css/content-shortcodes.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-includes/js/jquery/jquery.form.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var boxzilla_options = {"testMode":"","boxes":[{"id":250083,"icon":"&times;","content":"<p><h3 style=\"text-align: center;\">The latest security alerts and news &#8211; in your inbox!<\/h3>\n<\/p>\n<script type=\"text\/javascript\">(function() {\n\tif (!window.mc4wp) {\n\t\twindow.mc4wp = {\n\t\t\tlisteners: [],\n\t\t\tforms    : {\n\t\t\t\ton: function (event, callback) {\n\t\t\t\t\twindow.mc4wp.listeners.push({\n\t\t\t\t\t\tevent   : event,\n\t\t\t\t\t\tcallback: callback\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n})();\n<\/script><!-- MailChimp for WordPress v4.0.13 - https:\/\/wordpress.org\/plugins\/mailchimp-for-wp\/ --><form id=\"mc4wp-form-1\" class=\"mc4wp-form mc4wp-form-250080 mc4wp-form-styles-builder mc4wp-ajax\" method=\"post\" data-id=\"250080\" data-name=\"Exit intent pop-up\" ><div class=\"mc4wp-form-fields\"><img src=\"http:\/\/www.grahamcluley.com\/wp-content\/uploads\/2016\/07\/gchq-newsletter-glyph.png\" align=\"right\" style=\"box-shadow:none; background: transparent; border:none; padding-left:25px;\">\r\n<p>\r\n<strong style=\"max-width:500px;\">Join the 75,000+ other people who follow Graham Cluley's security updates.<\/strong>\r\n<\/p>\r\n<p style=\"max-width:500px;\">\r\nIt's completely FREE to sign-up to the GCHQ* newsletter - you'll get breaking news and learn how to protect yourself, your company, and your family better online.\r\n<\/p>\r\n\r\n  \t<input type=\"email\" name=\"EMAIL\" placeholder=\"Your email address\" required \/>\r\n<p>\r\n  <input type=\"submit\" value=\"Let's do it!\" \/>\r\n<\/p>\r\n<p style=\"text-align:center; line-height:1em;\">\r\n<span style=\"font-size:small;\">It's easy to unsubscribe if you decide it isn't your cup of tea.<br>\r\nWe only use your email for the newsletter - we hate spammers too!\r\n<br>\r\n* Not to be confused with any other GCHQ, of course... :)\r\n<\/span>\r\n<\/p>\r\n<div style=\"display: none;\"><input type=\"text\" name=\"_mc4wp_honeypot\" value=\"\" tabindex=\"-1\" autocomplete=\"off\" \/><\/div><input type=\"hidden\" name=\"_mc4wp_timestamp\" value=\"1487425575\" \/><input type=\"hidden\" name=\"_mc4wp_form_id\" value=\"250080\" \/><input type=\"hidden\" name=\"_mc4wp_form_element_id\" value=\"mc4wp-form-1\" \/><\/div><div class=\"mc4wp-response\"><\/div><\/form><!-- \/ MailChimp for WordPress Plugin -->\n","css":{"theme_primary_color":"#4C759A","theme_darker_primary_color":"#335c81","theme_accent_color":"#58ba32","theme_darker_accent_color":"#3fa119","background_color":"#e1e1e1","border_width":8,"border_style":"solid","position":"center"},"trigger":{"method":"exit_intent"},"animation":"fade","cookie":{"triggered":0,"dismissed":720},"rehide":true,"position":"center","minimumScreenWidth":1024,"closable":true}]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/boxzilla/assets/js/script.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_ajax_vars = {"loading_character":"\u2022","ajax_url":"https:\/\/www.grahamcluley.com\/wp-admin\/admin-ajax.php?action=mc4wp-form","error_text":"Oops. Something went wrong. Please try again later, or retry via <a href=\"http:\/\/eepurl.com\/yNFRP\">this link<\/a>."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/mc4wp-premium/ajax-forms/assets/js/ajax-forms.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/boxzilla-google-analytics/assets/js/tracking.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-includes/js/underscore.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var AP_Player = {"homeUrl":"https:\/\/www.grahamcluley.com","baseUrl":"https:\/\/www.grahamcluley.com\/wp-content\/plugins\/smart-podcast-player\/assets\/js\/","ajaxurl":"https:\/\/www.grahamcluley.com\/wp-admin\/admin-ajax.php","soundcloudConsumerKey":"b38b3f6ee1cdb01e911c4d393c1f2f6e","version":"2.1.11","importantStr":"","licensed":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/smart-podcast-player/assets/js/main.2.1.11.min.js'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='https://cdn.grahamcluley.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js'></script>
+<![endif]-->
+
+    <!-- BEGIN: wpflow ga events array -->
+    <script>
+
+                jQuery(document).ready(function() {
+                    scroll_events.bind_events( {
+                        universal: 1,
+                        scroll_elements: [],
+                        click_elements: [{'select':'.mediapack','category':'Download media pack','action':'click','label':'Downloaded Media Pack PDF','bounce':''},{'select':'.sponsorclick','category':'Sponsor link','action':'click','label':'Sponsor click','bounce':''}],
+                    });
+                });
+
+    </script>
+    <!-- END: wpflow ga events array --><script type='text/javascript' src='https://stats.wp.com/e-201707.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.6',blog:'50731929',post:'263111',tz:'0',srv:'www.grahamcluley.com'} ]);
+	_stq.push([ 'clickTrackerInit', '50731929', '263111' ]);
+</script>
+<script type="text/javascript">var el = document.querySelector('.boxzilla-250083'); el.className = el.className + ' boxzilla-theme boxzilla-theme-striped-border';</script></body>
+</html>

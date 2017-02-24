@@ -1,0 +1,320 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+
+
+
+
+Startseite
+IT-Security 
+Nachrichten
+IT Security Tools
+IT Security Video
+Hacking
+Malware / Trojaner / Viren
+
+
+Reverse Engineering 
+Exploits 
+PoC
+
+
+Video
+Tools
+
+
+Betriebssysteme 
+Windows Tipps
+Android Tipps
+
+
+Downloads
+Nachrichten
+Server 
+Windows Server
+Unix Server
+
+
+RSS Feed hinzufügen
+
+
+
+
+
+
+
+					  
+					Startseite
+
+
+
+
+Select LanguageAfrikaansAlbanianArabicArmenianAzerbaijaniBasqueBelarusianBulgarianCatalanChinese (Simplified)Chinese (Traditional)CroatianCzechDanishDutchEnglishEstonianFilipinoFinnishFrenchGalicianGeorgianGermanGreekHaitian CreoleHebrewHindiHungarianIcelandicIndonesianIrishItalianJapaneseKoreanLatvianLithuanianMacedonianMalayMalteseNorwegianPersianPolishPortugueseRomanianRussianSerbianSlovakSlovenianSpanishSwahiliSwedishThaiTurkishUkrainianUrduVietnameseWelshYiddish
+
+
+
+
+
+
+
+
+
+ Webseiten News
+News vom: 13.01.2017 um 01:23 UhrHallo,es können jetzt RSS-Feeds von jedem hinzugefügt werden.Derzeit macht der Wired Feed ein paar Probleme mit der Darstellung der Seite, wird demnächst behoben.Weitere News Beiträge ansehen: Webseiten News (13) Startseite und alle Kategorien
+
+Suchen
+RSS-News Quellen: 112xKategorien unterhalb von Startseite und alle Kategorien: 19xRSS Feed dieser Startseite und alle Kategorien Kategorie:  Alle KategorienSeitennavigationSeite 1 von 3.589 Seiten (Bei Beitrag 1 - 35)125.586x Beiträge in dieser Kategorie  Nächste 2 Seite |  Letzte Seite [ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] [ 10 ] [ 11 ] 
+Vuln: EMC RSA Security Analytics CVE-2016-8215 Unspecified Cross Site Scripting VulnerabilityExploits vom 02.12.2017 um 01:00 Uhr  |  Quelle securityfocus.com
+ EMC RSA Security Analytics CVE-2016-8215 Unspecified Cross Site Scripting Vulnerability Weiterlesen Artikel komplett ansehen
+http://www.istitutocomprensivobovino.gov.it/0x0.htmlHacking vom 18.02.2017 um 22:43 Uhr  |  Quelle zone-h.org
+ http://www.istitutocomprensivobovino.gov.it/0x0.html notified by TeaM_CC Weiterlesen Artikel komplett ansehen
+German Government Tells Parents: Destroy This WiFi-Connected DollIT Security Nachrichten vom 18.02.2017 um 22:34 Uhr  |  Quelle entertainment.slashdot.org
+ It's illegal in Germany now to sell a talking doll named "My Friend Cayla," according to a story shared by Slashdot reader Bruce66423. And that's just the beginning. The Verge reports:
+
+A German government watchdog has ordered parents to "destroy" an internet-connected doll for fear it could be used as a surveillance device. According to a report from BBC News, the German Federal Network Agency said the doll (which contains a microphone and speaker) was equivalent to a "concealed transmitting device" and therefore prohibited under German telecom law... In December last year, privacy advocates said the toy recorded kids' conversations without proper consent, violating the Children's Online Privacy Protection Act.
+ 
+Cayla uses a microphone to listen to questions, sending this audio over Wi-Fi to a third-party company that converts it to text. This is then used to search the internet, allowing the doll to answer basic questions, like "What's a baby kangaroo called?" as well as play games. In addition to privacy concerns over data collection, security researchers found that Cayla can be easily hacked. The doll's insecure Bluetooth connection can be compromised, letting a third party record audio via the toy, or even speak to children using its voice. 
+
+ The Electronic Privacy Information Center has said toys like this "subject young children to ongoing surveillance...without any meaningful data protection standards." One researcher pointed out that the doll was accessible from up to 33 feet away -- even through walls -- using a bluetooth-enabled device.
+
+
+
+Read more of this story at Slashdot. Weiterlesen Artikel komplett ansehen
+Custom-ROM Hydrogen OS 3.0 ab sofort für OnePlus 3 und 3T verfügbarIT Security Nachrichten vom 18.02.2017 um 22:19 Uhr  |  Quelle winfuture.de
+ 
+			Für die beiden Smartphones OnePlus 3 und 3T ist ein neues Software-Update erschienen, welches auf dem neusten Google-Betriebssystem Android Nougat basiert. Hierbei handelt es sich allerdings nicht um das vorinstallierte OxygenOS, sondern um die Custom-ROM Hydrogen OS. Bei der Installation sollten jedoch einige Dinge beachtet werden.			(Weiter lesen) Weiterlesen Artikel komplett ansehen
+SAP License Fees Also Due For Indirect Users, Court RulesIT Security Nachrichten vom 18.02.2017 um 21:34 Uhr  |  Quelle yro.slashdot.org
+ SAP's licensing fees "apply even to related applications that only offer users indirect visibility of SAP data," according to a Thursday ruling by a U.K. judge. Slashdot reader ahbond quotes Network World:
+The consequences could be far-reaching for businesses that have integrated their customer-facing systems with an SAP database, potentially leaving them liable for license fees for every customer that accesses their online store. "If any SAP systems are being indirectly triggered, even if incidentally, and from anywhere in the world, then there are uncategorized and unpriced costs stacking up in the background," warned Robin Fry, a director at software licensing consultancy Cerno Professional Services, who has been following the case...
+ 
+ What's in dispute was whether the SAP PI license fee alone is sufficient to allow Diageo's sales staff and customers to access the SAP data store via the Salesforce apps, or whether, as SAP claims, those staff and customers had to be named as users and a corresponding license fee paid. On Thursday, the judge sided with SAP on that question.
+
+
+
+
+Read more of this story at Slashdot. Weiterlesen Artikel komplett ansehen
+http://azotey.gov.pyHacking vom 18.02.2017 um 21:08 Uhr  |  Quelle zone-h.org
+ http://azotey.gov.py notified by Arslann Bey Weiterlesen Artikel komplett ansehen
+Kali linux:. how to DoS a website with spoofed IP(Untraceable) || "hping3"IT Security Video vom 18.02.2017 um 20:48 Uhr  |  Quelle youtube.com
+ 
+ Weiterlesen Artikel komplett ansehen
+New Kit Turns A Raspberry Pi Into A Robot ArmIT Security Nachrichten vom 18.02.2017 um 20:34 Uhr  |  Quelle hardware.slashdot.org
+ An anonymous reader writes:
+A new kit turns your Raspberry Pi into a robotic arm. It's controlled by an on-board joystick, or even a web browser, and "because it's connected to the Pi you can program it through any of the various programming languages that already run on the Pi," according to its creators. "There's also free software available which lets you program it through a web interface using drag and drop programming environments like Scratch and Blockly or with Python and Javascript for the more experienced."
+ 
+They explain in a video on Kickstarter that "Our mission is to get children excited about technology through building and programming their own robots," and they've already raised three times their original $12,411 fundraising goal. The Raspberry Pi blog describes it as "a great kit for anyone wanting to step into the world of digital making."
+ 
+Long-time Slashdot reader bjpirt adds that "It's completely open source and hackable."
+
+
+
+Read more of this story at Slashdot. Weiterlesen Artikel komplett ansehen
+Neu: FRITZ!Box als Zeitserver im NetzwerkWindows Tipps vom 18.02.2017 um 20:27 Uhr  |  Quelle wintotal.de
+ Windows holt sich seine Zeitinformationen normalerweise von einem Zeitserver im Internet. Mit einer FRITZ!Box kann man aber auch diese als NTP-Server verwenden, was ohne viel Aufwand möglich ist.
+Dazu wechselt man erst in der FRITZ!Box zu "Heimnetz -> Heimnetzübersicht -> Netzwerkeinstellungen" und aktiviert bei Zeitsynchronisation die Option "FRITZ!Box als Zeitserver im Heimnetz bereitstellen".
+Im Anschluss tragen Sie bei den Clients in... Weiterlesen Artikel komplett ansehen
+http://dotab.gov.trHacking vom 18.02.2017 um 20:16 Uhr  |  Quelle zone-h.org
+ http://dotab.gov.tr notified by siyahi Weiterlesen Artikel komplett ansehen
+A Simple Typo In Zerocoin Source Code Helped Hackers Steal ZCoins Worth Over $585,000IT Security Nachrichten vom 18.02.2017 um 19:51 Uhr  |  Quelle feedproxy.google.com
+ Are you a programmer?
+
+If yes, then you would know the actual pain of... "forgetting a semicolon," the hide and seek champion since 1958.
+
+Typos annoy everyone. Remember how a hacker's typo stopped the biggest bank heist in the history, saved $1 billion of Bangladesh bank from getting stolen.
+
+But this time a typo in the Zerocoin source code costs the company more than $585,000 in losses.
+<!--
+
+ Weiterlesen Artikel komplett ansehen
+http://hospitalmfatocaima.gov.coHacking vom 18.02.2017 um 19:50 Uhr  |  Quelle zone-h.org
+ http://hospitalmfatocaima.gov.co notified by M9awdin Team DZ Weiterlesen Artikel komplett ansehen
+SpaceX's Next Launch Carries Colonies Of A Drug-Resistant SuperbugIT Security Nachrichten vom 18.02.2017 um 19:34 Uhr  |  Quelle science.slashdot.org
+ An anonymous reader quotes Business Insider:
+SpaceX is preparing to launch a lethal, antibiotic-resistant superbug into orbit...to live its days in the microgravity environment of the International Space Station. The idea is not to weaponize space with MRSA -- a bacterium that kills more Americans every year than HIV/AIDS, Parkinson's disease, emphysema, and homicide combined -- but to send its mutation rates into hyperdrive, allowing scientists to see the pathogen's next moves well before they appear on Earth. The NASA-funded study will see SpaceX's Falcon 9 rocket launch colonies of MRSA into space, to be cultivated in the US National Laboratory on the International Space Station.
+ 
+"We will leverage the microgravity environment on the ISS to accelerate the Precision Medicine revolution here on Earth," lead researcher Anita Goel, CEO of biotech company Nanobiosym, told Yahoo News... "Our ability to anticipate drug-resistant mutations with Gene-RADAR will lead to next generation antibiotics that are more precisely tailored to stop the spread of the world's most dangerous pathogens," says Goel. 
+That launch was scheduled for today, but postponed it to "take a closer look at positioning of the second stage engine nozzle." Two more externally-mounted payloads will conduct other experiments, with one monitoring lightning strikes on earth and the other measuring chemicals in the earth's atmosphere. In addition, there's also 21 science experiments that were submitted by high school students
+
+ Meanwhile, Slashdot reader tomhath brings news that researchers have discovered the red berries of a U.S. weed can help fight superbugs. The researchers found "extracts from the Brazilian peppertree, which traditional healers in the Amazon have used for hundreds of years to treat skin and soft-tissue infections, have the power to stop methicillin-resistant MRSA infections in mice." One of the researchers said the extract "weakens the bacteria so the mouse's own defenses work better."
+
+
+
+Read more of this story at Slashdot. Weiterlesen Artikel komplett ansehen
+http://www.icnazarethmusto.gov.it/0x0.htmlHacking vom 18.02.2017 um 19:30 Uhr  |  Quelle zone-h.org
+ http://www.icnazarethmusto.gov.it/0x0.html notified by TeaM_CC Weiterlesen Artikel komplett ansehen
+Opera Reborn - Verjüngungskur für den beliebten WebbrowserIT Security Nachrichten vom 18.02.2017 um 19:01 Uhr  |  Quelle winfuture.de
+ 
+			Opera bietet bereits seit 1995 einen kostenlosen, alternativen Internetbrowser an, der in den verschiedenen Projektenlinien des Unternehmens stetig weitergeführt wird. Nun hat das mittlerweile zu einem chinesischen Konsortium gehörende Unternehmen die erste Version seines Projekts Reborn präsentiert. Unter dem Codenamen Reborn entwickelt das Team ein neues Browser-Interface und legt es jetzt in Version 44.0.2505.0 vor. Einiges davon kennt man bereits aus den experimentellen Opera Neon-Builds. ...			(Weiter lesen) Weiterlesen Artikel komplett ansehen
+Opera Reborn - Verjüngungskur für den beliebten WebbrowserDownloads vom 18.02.2017 um 19:01 Uhr  |  Quelle winfuture.de
+ 
+			Opera bietet bereits seit 1995 einen kostenlosen, alternativen Internetbrowser an, der in den verschiedenen Projektenlinien des Unternehmens stetig weitergeführt wird. Nun hat das mittlerweile zu einem ...			(Weiter lesen) Weiterlesen Artikel komplett ansehen
+Lost Package Derails Project To Preserve Super Nintendo GamesIT Security Nachrichten vom 18.02.2017 um 18:34 Uhr  |  Quelle games.slashdot.org
+ A developer's quest to preserve (and validate) every game ROM for the Super Nintendo Entertainment System has hit a glitch -- thanks to the U.S. postal service. Byuu, the creator of the Higan SNES emulator, had been expecting a package with 100 games from the PAL region (covering most of Europe, Africa, South America, and Oceania).
+wertigon writes:
+As it turns out, someone at the USPS thought it was a good idea to lose the package, thereby robbing the project of roughly $5000 and the sad hopes of ever seeing a full indexing, like the one done to the U.S set. Byuu writes... "I do still want to dump and scan the Japanese games I already purchased. But we will never have a complete PAL set.
+
+Kotaku reports the games were worth up to £8,000, and though Byuu says the sender never requested reimbursement, it's going to happen "because I can't live with myself if it doesn't." He's asking for donations on Patreon, adding "If the package ultimately arrives, I will be refunding all donations."
+In that Thursday update, Byuu writes that the post office had finally shipped him the label from the package "and nothing else, claiming the machine ate it." They've launched an investigation, reports Byuu, adding "It's still an incredibly long shot that they'll find anything, but we'll see. I really, really hope that they do."
+
+
+
+Read more of this story at Slashdot. Weiterlesen Artikel komplett ansehen
+SpaceX: Start von Trägerrakete Falcon 9 verschobenNachrichten vom 18.02.2017 um 18:28 Uhr  |  Quelle golem.de
+ Ungewöhnliche Werte bei der Triebwerkssteuerung: SpaceX hat den Start einer Falcon-9-Rakete auf der historischen Startrampe LC-39A verlegt. (SpaceX, Raumfahrt)  Weiterlesen Artikel komplett ansehen
+SpaceX: Start der Trägerrakete Falcon 9 in letzter Minute verschobenNachrichten vom 18.02.2017 um 18:18 Uhr  |  Quelle heise.de
+ Laut SpaceX-Chef Elon Musk gab es eine Unsicherheit bei den hydraulischen Kolben. Der Start der Falcon 9 zur ISS ist nun für den morgigen Sonntag vorgesehen. Weiterlesen Artikel komplett ansehen
+http://www.icvillanterio.gov.it/0x0.htmlHacking vom 18.02.2017 um 18:17 Uhr  |  Quelle zone-h.org
+ http://www.icvillanterio.gov.it/0x0.html notified by TeaM_CC Weiterlesen Artikel komplett ansehen
+http://dghindia.gov.in/index.phpHacking vom 18.02.2017 um 18:11 Uhr  |  Quelle zone-h.org
+ http://dghindia.gov.in/index.php notified by Cyber Cat Weiterlesen Artikel komplett ansehen
+IT-Arbeitsplätze: massiver Stellenabbau in den USANachrichten vom 18.02.2017 um 18:03 Uhr  |  Quelle heise.de
+ An die 100.000 Beschäftigte in der US-amerikanischen IT-Branche haben laut einer US-Studie im vergangenen Jahr ihren Arbeitsplatz verloren. Gründe dafür liegen in Umstrukturierungen und im verstärkten Einsatz von Cloud-Servern. Weiterlesen Artikel komplett ansehen
+Weiteres Bild zum LG G6 aufgetaucht: Display zeigt Uhrzeit immer anIT Security Nachrichten vom 18.02.2017 um 17:59 Uhr  |  Quelle winfuture.de
+ 
+			Auch wenn der südkoreanische Elektonikhersteller LG sein neues Flaggschiff-Smartphone erst gegen Ende des Monats präsentieren wird, sind bereits einige Bilder geleakt worden. Jetzt ist ein neues Foto aufgetaucht, welches das permanent aktive Display des Geräts zeigt.			(Weiter lesen) Weiterlesen Artikel komplett ansehen
+VR Stand-alone: HTC bringt angeblich VR-Brille, die keinen PC benötigtNachrichten vom 18.02.2017 um 17:34 Uhr  |  Quelle heise.de
+ Zum MWC will HTC angeblich ein "VR-Spielzeug" bringen, das anders als die HTC Vive nicht von einem PC angetrieben wird. Stattdessen soll es kompatibel zum Smartphone HTC U Ultra sein – aber um eine Datenbrille handele es sich nicht. Weiterlesen Artikel komplett ansehen
+Thousands Of Disabled People Are Living In 'Virtual Utopias' In Second LifeIT Security Nachrichten vom 18.02.2017 um 17:34 Uhr  |  Quelle games.slashdot.org
+ "For many disabled residents, who may spend 12 hours a day or more in Second Life, the most important moments and relationships of their lives happen inside the virtual world," reports Backchanel. "For them, the fevered fantasies of a decade ago have become reality: Second Life is where they live." mirandakatz shares this article:
+
+Wagner James Au, who has written extensively about Second Life, estimates they may account for roughly 20 percent of users. Some active members estimate the number higher -- at as much as 50 percent...
+Abundant research shows imagining movement, without actually moving the body, can have positive effects on motor skills, balance, and learning... Studies suggest the therapeutic benefits of virtual reality extend beyond movement disorders -- to chronic pain, cognitive functioning in people with ADHD and PTSD, and social skills for people on the autism spectrum.
+ 
+The article describes a 90-year-old former nurse, now living in a retirement community, who's spent eight years living in a Second Life archipelago called "Virtual Ability Island" with over a thousand other members. "Watching her avatar hike trails and dance gave her the confidence to try things in the physical world that she hadn't tried in a half decade -- like stepping off a curb or standing up without any help."
+
+
+
+Read more of this story at Slashdot. Weiterlesen Artikel komplett ansehen
+Google stänkert: Microsoft lässt GDI-Sicherheitslücke ungepatchtIT Security Nachrichten vom 18.02.2017 um 17:16 Uhr  |  Quelle winfuture.de
+ 
+			Google macht es schon wieder: Die Sicherheitsforscher vom Projekt Zero haben eine ungepatchte Zero-Day-Lücke in Windows aufgedeckt und stellen damit jetzt Microsoft als unfähig bloß, umfangreiche Schwachstellen zu beheben.			(Weiter lesen) Weiterlesen Artikel komplett ansehen
+Google stänkert: Microsoft lässt GDI-Sicherheitslücke ungepatchtNachrichten vom 18.02.2017 um 17:16 Uhr  |  Quelle winfuture.de
+ Google macht es schon wieder: Die Sicherheitsforscher vom Projekt Zero haben eine ungepatchte Zero-Day-Lücke in Windows aufgedeckt und stellen damit jetzt Microsoft als unfähig bloß, umfangreiche Schwachstellen zu beheben. (Weiter lesen) Weiterlesen Artikel komplett ansehen
+Google Discloses Windows Vulnerability That Microsoft Fails To Patch, Again!IT Security Nachrichten vom 18.02.2017 um 17:10 Uhr  |  Quelle feedproxy.google.com
+ Microsoft is once again facing embarrassment for not patching a vulnerability on time.
+
+Yes, Google's Project Zero team has once again publicly disclosed a zero-day vulnerability affecting Microsoft's Windows operating systems ranging from Windows Vista Service Pack 2 to the latest Windows 10 that had yet to be patched.
+
+A few months back, the search engine giant disclosed a critical Windows
+
+ Weiterlesen Artikel komplett ansehen
+Adobe Flash MP4 AMF Parsing OverflowPoC vom 18.02.2017 um 16:56 Uhr  |  Quelle packetstormsecurity.com
+ Adobe Flash suffers from an overflow vulnerability during MP4 AMF parsing. Weiterlesen Artikel komplett ansehen
+Adobe Flash SWF Stack CorruptionPoC vom 18.02.2017 um 16:55 Uhr  |  Quelle packetstormsecurity.com
+ Adobe Flash suffers from a stack corruption vulnerability using a fuzzed SWF file. Weiterlesen Artikel komplett ansehen
+Adobe Flash YUVPlane Decoding Heap OverflowPoC vom 18.02.2017 um 16:55 Uhr  |  Quelle packetstormsecurity.com
+ Adobe Flash suffers from a heap overflow vulnerability during YUVPLane decoding. Weiterlesen Artikel komplett ansehen
+Adobe Flash Bitmapfilter Use-After-FreePoC vom 18.02.2017 um 16:53 Uhr  |  Quelle packetstormsecurity.com
+ Adobe Flash suffers from a use-after-free vulnerability in applying bitmapfilter. Weiterlesen Artikel komplett ansehen
+Google Chrome Download Filetype Blacklist BypassPoC vom 18.02.2017 um 16:52 Uhr  |  Quelle packetstormsecurity.com
+ Google Chrome suffers from a bypass vulnerability in the download filetype blacklist functionality. Versions 54.0.2840.100 stable is affected. Weiterlesen Artikel komplett ansehen
+UN-Generalsekretär: UN-Reform, digitale Diskursmöglichkeiten und Ethik neuer TechnologienNachrichten vom 18.02.2017 um 16:50 Uhr  |  Quelle heise.de
+ Er halte es mit Habermas, sagt der neue Generalsekretär der Vereinten Nationen Antonio Guterres bei der Münchner Sicherheitskonferenz und empfiehlt digitale Diskurse. Das klingt fast nach „liquid democracy“. Aber den Begriff hat Habermas nicht verwendet. Weiterlesen Artikel komplett ansehen
+GDI GDI32!ConvertDxArray Insufficient Bounds CheckPoC vom 18.02.2017 um 16:50 Uhr  |  Quelle packetstormsecurity.com
+ GDI suffers from an insufficient bounds check on GDI32!ConvertDxArray. Weiterlesen Artikel komplett ansehenSeitennavigationSeite 1 von 3.589 Seiten (Bei Beitrag 1 - 35)125.586x Beiträge in dieser Kategorie  Nächste 2 Seite |  Letzte Seite [ 2 ] [ 3 ] [ 4 ] [ 5 ] [ 6 ] [ 7 ] [ 8 ] [ 9 ] [ 10 ] [ 11 ]  Hauptkategorien
+ Betriebssysteme Downloads IT-Security Nachrichten Reverse Engineering RSS Feed hinzufügen Server++ Startseite Letzten 24 Std.
+ Startseite (30) http://www.tss.gob.ve (12) Reverse Engineering (10) Hackers Are Using Android Malware To Spy On Israeli Military Personnel (9) Ursnif Banking Trojan's Distribution Networks Exposed (8) Komodo Edit 9.2 / 9.3 Buffer Overflow (7) Researchers Discover Security Problems Under the Hood of Automobile Apps (7) Samsung Galaxy Tab S3 Manual Leaks Revealing New S Pen Features (7) Ubuntu 16.04.2 LTS Officially Released with Linux Kernel 4.8 from Ubuntu 16.10 (7) Raking in the Ransoms: How the Russian Ransomware Threat Landscape Ticks (7) Letzten 48 Std.
+ Startseite (25) Reverse Engineering (13) http://www.tss.gob.ve (12) Haven't deleted your Yahoo account yet? There's a new forged cookie hack risk (10) Hackers Are Using Android Malware To Spy On Israeli Military Personnel (9) Samsung: Neues 10,6-Zoll-Tablet mit Windows als Surface-3-Alternative (8) New Xagent Mac Malware Linked with the APT28 (8) Ursnif Banking Trojan's Distribution Networks Exposed (8) Essential Guide: Cloud-Nutzung, Benutzerkonten und EU-DSGVO im Griff behalten (7) Komodo Edit 9.2 / 9.3 Buffer Overflow (7) Letzten 30 Tage
+ Gigabyte GA-B250M-Gaming 5: Einsteiger-Mainboard mit M.2, USB Typ C und viel Licht (82) Microsoft Releases Windows 10 Critical Update KB3211320 (49) Kommentar: Zerschlagt das Taschenrechner-Kartell! (47) Vuln: Oracle Java SE CVE-2017-3289 Remote Security Vulnerability (29) Linux encryption app Cryptkeeper has universal password: 'p' (24) DDoS-Erpresser-Bande Stealth Raven bedroht Shops (24) Startseite (20) Windows Tipps (19) USN-3174-1: MySQL vulnerabilities (14) Cisco AnyConnect Secure Mobility Client vor 4.3.05017/4.4.00243 Start Before Logon erweiterte Rechte (14) TSecurity Newsletter
+
+
+Newsletter Anmeldung
+	Sie bekommen morgens um 7:00 Uhr eine Email mit allen News der letzten 24 Stunden.
+
+Nickname oder Name
+
+
+
+
+
+
+
+
+
+Email-Adresse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Social Media von TSEC
+
+Auf Twitter folgen
+Auf Facebook folgen
+
+						Email: info@tsecurity.de schreiben (24 / 7)
+
+
+Über TSEC
+
+Sitemap
+Impressum
+Datenschutz
+
+
+
+Diese Seite bewerten
+Seiteninhalt mit einem Klick bewerten
+
+
+
+
+
+RSS Feeds abonieren
+
+ TSEC alle NachrichtenNews
+ TSEC Webseiten Nachrichten
+
+© 2015-2017 TSecurity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

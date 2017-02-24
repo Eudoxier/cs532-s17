@@ -1,0 +1,584 @@
+
+
+
+Threatpost | The first stop for security news
+
+Categories
+
+Category List
+
+Cloud Security
+Critical Infrastructure
+Cryptography
+Government
+
+
+Category List
+
+Hacks
+Malware
+Mobile Security
+Privacy
+
+
+Category List
+
+SAS
+Vulnerabilities
+Web Security
+
+
+Authors
+
+Michael Mimoso
+Christopher Brook
+
+
+Additional Categories
+
+Slideshows
+
+
+The Kaspersky Lab News Service
+
+
+Featured
+
+Authors
+
+Michael Mimoso
+Christopher Brook
+
+
+The Kaspersky Lab News Service
+
+
+Featured Posts
+All
+
+Schneier Brings Campaign for IoT Regulation… 
+
+Adobe Patches 13 Code Execution Vulnerabilities… 
+
+Nation States Distancing Themselves from APTs
+ 
+Podcasts
+Latest Podcasts
+All
+
+Cris Thomas on Cyberwar Rhetoric
+
+Threatpost News Wrap, February 13, 2017
+
+Dino Dai Zovi on Securing Linux… 
+ 
+Threatpost News Wrap, February 3, 2017
+
+Nicolas Brulez on Malware Reverse Engineering… 
+
+Threatpost News Wrap, January 27, 2017
+
+
+Recommended
+The Kaspersky Lab Security News Service
+Videos
+Latest Videos
+All
+
+iOS 10 Passcode Bypass Can Access… 
+
+BASHLITE Family Of Malware Infects 1… 
+
+How to Leak Data From Air-Gapped… 
+ 
+Bruce Schneier on the Integration of… 
+
+Chris Valasek Talks Car Hacking, IoT,… 
+
+Patrick Wardle on OS X Malware… 
+
+
+Recommended
+The Kaspersky Lab Security News Service
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+TwitterFacebookGoogleLinkedInYouTubeRSS 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+No Firewalls, No Problem for Google 
+
+by Michael Mimoso
+February 15, 2017 , 7:00 am
+
+Categories:  Web Security 
+
+
+
+0 Google secures its perimeter with explicit trust in what it knows about users and the devices connecting to its corporate services. 
+
+read more...
+
+
+
+Latest posts
+
+
+ 
+
+
+
+0 
+
+February 17, 2017 , 12:30 pm
+
+
+Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid
+
+
+by Tom Spring
+
+
+Categories:  Critical Infrastructure,  Government 
+According to Marcus Sachs, CSO with the North American Electric Reliability Corporation, doomsday fears of a cyberattack against the U.S. electric grid are overblown.
+
+Read more...
+
+
+
+ 
+
+
+
+0 
+
+February 17, 2017 , 10:00 am
+
+
+SMTP Strict Transport Security Coming Soon to Gmail, Other Webmail Providers
+
+
+by Michael Mimoso
+
+
+Categories:  Web Security 
+SMTP Strict Transport Security is coming to major webmail providers this year, a Google engineer said at RSA Conference
+
+Read more...
+
+
+
+ 
+
+
+
+0 
+
+February 16, 2017 , 1:50 pm
+
+
+Divide Between Work, Personal Data on Android Breached
+
+
+by Tom Spring
+
+
+Categories:  Hacks,  Mobile Security 
+Researchers demonstrate how malicious apps can break into secure Android work containers on EMM managed phones. 
+
+Read more...
+
+
+
+ 
+
+
+
+0 
+
+February 16, 2017 , 9:00 am
+
+
+Cris Thomas on Cyberwar Rhetoric
+
+
+by Chris Brook
+
+
+Categories:  Government,  Hacks,  Podcasts 
+Cris Thomas of Tenable Networks, aka Space Rogue of the L0pht, talks to Mike Mimoso during RSA Conference about the rhetoric and hype surrounding cyberwar, as well as a quick trip down memory lane with the L0pht and its famous 1998 testimony before Congress.
+
+Read more...
+
+More Stories
+
+
+
+Latest podcasts and webcasts
+All
+
+
+
+
+Read More 
+Cris Thomas on Cyberwar Rhetoric 
+
+
+Read More 
+Threatpost News Wrap, February 13, 2017 
+
+
+Read More 
+Dino Dai Zovi on Securing Linux in Modern…  
+
+
+Read More 
+Threatpost News Wrap, February 3, 2017 
+
+
+Read More 
+Nicolas Brulez on Malware Reverse Engineering Tips and…  
+
+
+Read More 
+Threatpost News Wrap, January 27, 2017 
+
+
+
+
+ 
+
+Schneier Brings Campaign for IoT Regulation to RSA
+
+
+by Chris Brook
+February 14, 2017 , 6:36 pm
+
+
+
+
+
+0 
+Categories:  Featured,  Government,  IoT 
+Citing IoT insecurity, Bruce Schneier called on technologists to get involved with IoT policy at RSA.
+Read more...
+
+
+
+Adobe Patches 13 Code Execution Vulnerabilities in Flash
+
+
+by Michael Mimoso
+February 14, 2017 , 11:38 am
+
+
+
+
+
+0 
+Categories:  Featured,  Vulnerabilities,  Web Security 
+Adobe patched 13 code execution vulnerabilities in Flash Player today as part of its regular patch update cycle.
+Read more...
+
+
+
+Nation States Distancing Themselves from APTs
+
+
+by Tom Spring
+February 14, 2017 , 10:42 am
+
+
+
+
+
+0 
+Categories:  Featured,  Government,  Hacks,  Malware 
+Increasingly, governments are outsourcing state-sponsored attacks to mitigate risk and maximize intelligence.
+Read more...
+
+ 
+
+Featured slideshow
+All
+
+
+2 months agoTop Threatpost Stories of 2016 
+
+by Chris Brook
+December 30, 2016, 7:00AM
+
+
+
+
+
+0 2016 was a year to forget on many fronts, and security was certainly no exception. The most well-read stories on Threatpost reflect the ups and downs of the year, from critical vulnerabilities, to important policy debates, and some breakthroughs on the research front.
+read more...
+
+
+
+
+More posts 
+
+Turning Tables on Nigerian Business Email Scammers
+
+
+February 15, 2017
+
+
+
+
+Google Touts Progress in Android Security in 2016
+
+
+February 15, 2017
+
+
+
+
+DHS Chairman Paints Bleak US Cybersecurity Picture
+
+
+February 14, 2017
+
+
+
+
+Updated Firmware Due for Serious TP-Link Router Vulnerabilities
+
+
+February 13, 2017
+
+
+
+
+High Severity BIND Vulnerability Can Lead to A Crash
+
+
+February 9, 2017
+
+
+
+
+CryptoShield Infections from RIG EK Picking Up
+
+
+February 9, 2017
+
+
+
+
+Fileless Memory-Based Malware Plagues 140 Banks, Enterprises
+
+
+February 8, 2017
+
+
+
+
+Valve Patches Trivial XSS Bug in Steam
+
+
+February 8, 2017
+
+
+ 
+
+
+
+Popular
+Trend
+Comments
+Tags
+
+
+
+
+Divide Between Work, Personal Data on Android BreachedFebruary 16, 2017 ,1:50 pm 
+Schneier Brings Campaign for IoT Regulation to RSAFebruary 14, 2017 ,6:36 pm 
+Setting Expectations Between States on CyberwarFebruary 15, 2017 ,7:30 pm 
+Google Touts Progress in Android Security in 2016February 15, 2017 ,10:50 am 
+No Firewalls, No Problem for GoogleFebruary 15, 2017 ,7:00 amMore Posts 
+
+
+Google Touts Progress in Android Security in 2016
+
+
+								February 15, 2017 ,
+								10:50 am							
+
+
+
+Cryptographers Dismiss AI, Quantum Computing Threats
+
+
+								February 14, 2017 ,
+								3:44 pm							
+
+
+
+Squirrels, Not Hackers, Pose Biggest Threat to Electric Grid
+
+
+								February 17, 2017 ,
+								12:30 pm							
+
+
+
+Updated Firmware Due for Serious TP-Link Router Vulnerabilities
+
+
+								February 13, 2017 ,
+								12:02 pm							
+
+
+
+Nation States Distancing Themselves from APTs
+
+
+								February 14, 2017 ,
+								10:42 am							
+
+
+More Posts 
+
+Excellent article users participation is ultimately the right solution. Manufacturers need feedback for the industry to progress. The rewards system is a good step in the right direction.
+Reaction to viruses or malware after the fact, costly. Proactive approach is better. CEO must combine efforts with a shared commitment. Human habits are inherently lazy or denial only hurt all members in an open network.
+The industry needs tools that can be proactive against the darker half that is bent on ego driven, profiteering, nation-state motivated vectors. Manufacturers need support from our own governments supporting policies with backing of three branches: Legislative, Judicial and Executive. 
+Anything less is a recipe for disaster. 
+Encrytption, cooperation (trust) and acceptance of policies among other things are needed for the bad actor to become less effective, less profitable. Collectively it's doable.by Nelson on February 15, 2017, 11:51PMGoogle Touts Progress in Android Security in 2016I used wordfence in past, but got hacked again. Now, I've been using WPHackedHelp.com. My site hasn't been hacked since I started using them. They claim to have patent pending solution, and I'm assuming they do since it worked for me.by Dan Rath on February 15, 2017, 2:41AM1.5M Unpatched WordPress Sites Hacked Following Vulnerability DisclosureYes,it's the governments' responsibility to secure this nation from interior and exterior threats and invasion to preserve the growth and posterity of our nation.by leonardjckson1 on February 14, 2017, 9:18PMCryptographers Dismiss AI, Quantum Computing ThreatsWatching my tv or is it watching me .NGHFBby Pablo on February 14, 2017, 4:54PMSmart TV Manufacturer Vizio Fined $2.2M for Tracking CustomersThe logistics behind a collision attack is that it would take $75,000 measured against the computational and electrical power required to generate the forged certificates. When have cyber criminals EVER fronted that much cash on buying their own hardware? They don't have to. They can simply create a botnet large enough to do it for them. Buying a high-end PC costs upwards of $1,000 but botnets are bought for $5 per zombie on average. This attack is completely feasible if you consider that the most common botnets number in at least 100 systems, though organized cybercriminals have 500, even 1000 zombies under their control. If you believe that just because it has a high price-tag on the hardware necessary to generate a SHA-1 collision that cyber criminals won't try, you're fooling yourself.
+
+The reality is that app vendors and third-parties should have been pushing SHA-2 for years and because they procrastinated this long, it is up to the end-users and organizations that own the assets to make that decision.by Michael Piece on February 14, 2017, 11:59AMSHA-1 End Times Have Arrived 
+
+malware1359 postsvulnerabilities985 postsMicrosoft795 postsPrivacy724 postsgoogle710 postsapple467 postsMobile security391 postsHacking386 posts 
+
+
+ 
+
+The Final Say From Kaspersky Blogs
+
+
+
+
+
+
+PhwoahxPhwoah in the Desert....
+
+Ever driven across a desert – I mean, off-road – actually on the sand? Probably not – it generally can’t be done by all and sundry; only specially-trained, experienced drivers are permitted. But...
+Read more…
+
+
+
+
+
+
+Dissecting Malware...
+
+From March 30 through April 2, 2017, one of them — Principal Security Researcher at Kaspersky Lab Nicolas Brulez — will deliver a course on the subject he has been training people around the world on ...
+Read more…
+
+
+
+
+
+
+Android for cars: Secure connection?
+
+Kaspersky Lab researchers disclose vulnerabilities in connected car apps.
+Read more…
+
+
+
+
+
+
+RSA 2017: A thorough look into the threat landscap...
+
+We shared our general vision of today's threat landscape at Kaspersky Lab's RSA booth....
+Read more…
+
+
+
+
+
+
+Kaspersky Academy attended MIT (IC)3 Annual Confer...
+
+72 guests, among them a global security lead Gordon Morrison, attended the MIT (IC)3 Annual Conference to share the latest insights into the industry. Educational programs manager Christel Gampig-Avil...
+Read more…
+
+
+
+
+
+
+
+
+Threatpost | The first stop for security news
+The Kaspersky Lab Security News Service
+
+
+CategoriesBlack Hat | Cloud Security | Critical Infrastructure | Cryptography | Featured | Government | Hacks | IoT | Malware | Mobile Security | Podcasts | Privacy | Security Analyst Summit | Slideshow | Uncategorized | Videos | Vulnerabilities | Web Security 
+
+RSS Feeds
+Home
+About Us
+Contact Us
+ 
+
+
+
+Authors 
+Michael Mimoso
+Tom Spring
+Christopher Brook
+
+ 
+
+
+
+
+			Copyright © 2017 Threatpost | The first stop for security news  | Terms of Service
+ | Privacy
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+

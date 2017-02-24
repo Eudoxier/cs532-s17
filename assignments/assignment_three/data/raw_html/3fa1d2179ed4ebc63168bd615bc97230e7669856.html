@@ -1,0 +1,499 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+
+    <meta charset="UTF-8"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"7c511b43ff","applicationID":"5052523","transactionName":"ZVRaY0RTWxJWVxFdW1weeWRmHUIEVRsNW1lXQVlQUxxUEkdM","queueTime":0,"applicationTime":1,"ttGuid":"B0A52A2FCA321D1B","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <link rel="stylesheet" type="text/css" href="https://www.launchticker.com/Content/lthome_66318165F73D3BAB784B8BFCCD20FAA7.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/lthomefont_1E6693847283755D40127157EA05A97F.css" />
+
+    <script type="text/javascript" src="https://www.launchticker.com/Scripts/LTV2_home_757ED182E5BFDE7E4ABD1DB38B7DE9F6.js"></script>
+  
+    <!--
+    <script>
+        function DisableForm() {
+            var srcButton = window.event.srcElement;
+            setTimeout(function () {
+                srcButton.disabled = true;
+                setTimeout(function () { srcButton.disabled = false; }, 2000);
+            }, 100);
+        }
+    </script>
+    -->
+    <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+
+    <title>LAUNCH Ticker</title>
+
+    
+    
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+        
+    _gaq.push(['_setAccount', 'UA-24710005-6']);
+    /*_gaq.push(['_setDomainName', 'launchticker.com']);*/
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }; if (!f._fbq) f._fbq = n;
+        n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window,
+    document, 'script', '//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1146109408751191');
+    fbq('track', "PageView");</script>
+<noscript>
+    <img height="1" width="1" style="display: none"
+        src="https://www.facebook.com/tr?id=1146109408751191&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+     
+    <script src="//cdn.optimizely.com/js/2917081691.js"></script>
+    
+</head>
+<body>
+    <form method="post" action="./" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTcyNjU1NDcwMGRkJmn6b0GHb4dPH6DweHUFF2y3DDcC6LkxXZmPlOWP2XA=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A61D46A5" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAURUlycuXkaQbpLDsyxo6FhFIgT8CHWYKDqGRh3xZr26gqDTPPjS8LK3wX4aBoAuC8fNNzJQwXQE28z1YB3DF6sz7uE5NHjy8hNybkurqqaXASf0JK7ZhfHZzwS4vD1XcG/6pXsm8CqCjwz2/pmViQV" />
+        <header class="header-section">
+            <div class="header-wrapper clearfix">
+                <a href="/" class="logo">
+                    <img src="https://www.launchticker.com/Content/images/launchtickerlogo1.png" alt="logo" style="width: 200px; height: 70px;" />
+                </a>
+
+                <div class="menu-btns clearfix">
+                    <a href="/signin" class="home-login-btn">Sign in</a>
+                    <a href="/plans" class="home-plans-btn">Plans</a>
+                    <a href="/partnerships" class="home-plans-btn">Partnerships</a>
+                </div>
+            </div>
+        </header>
+
+        
+     
+  
+    <script type="text/javascript">
+        $(function () {
+            var isTrialEmail='False';
+            if(isTrialEmail=='True'){
+                TrialNotify();
+            }
+            $("#MainContent_TrialEmail").focus(function () {
+                if ($(".notifyjs-wrapper").length > 0) {
+                    $(".notifyjs-wrapper").remove();
+                }
+            });
+
+        });
+        function TrialNotify() {
+            $("#MainContent_TrialEmail").notify("Your email is already used for a trial",
+                {
+                    clickToHide: false,
+                    autoHide: false,
+                    elementPosition: 'top',
+                    className: 'error',
+                    gap: 2
+                });
+        }
+        
+        
+    </script>
+
+
+        <section class="banner-section">
+        <div class="banner-wrapper clearfix">
+            <div class="service-desc">
+                <h2><!--The LAUNCH Ticker is a daily newsletter that--> Curated Top Stories in Tech</h2>
+                <h3>Need-to-know news in less than 10 minutes a day</h3>
+                <div class="clearfix subscribe-box">
+                    <div class="inpt-email">
+                    <!--<input type="text" name="" id="" placeholder="Email address"/>-->
+                    <input name="ctl00$MainContent$TrialEmail" type="text" id="MainContent_TrialEmail" class="popup-input" placeholder="Email address" name="TrialEmail" />
+                </div>
+                
+                 
+                <a id="MainContent_BaseTrialSubmitlink" class="trial-btn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$BaseTrialSubmitlink&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Sign up for free</a>
+                <!--<a href="#" class="trial-btn">Try free for 60 days</a>-->
+                </div>
+
+
+            </div>
+            <div class="sample-news">
+                
+                <div class="sample-img">
+                   
+                     <section class="stories-sections">
+     
+                        <div class="stories-wrapper">
+                            
+
+
+<li class="message clearfix sticky" id="m-28346d50-a0b5-4005-9dc4-b43927b8f71f"
+    data-message_id="28346d50-a0b5-4005-9dc4-b43927b8f71f" data-name="JWTicker" data-timestamp="1/10/2017 3:57:51 PM -08:00"
+    data-permalink="https%3A%2F%2Fgoo.gl%2FQYwjjT" data-sticky="1"
+    >
+
+    <div class="left"></div>
+
+    
+    <div class="header-media">
+
+
+        
+    </div>
+    
+
+
+    <div class="message-body">
+
+        <div class="middle">
+            <p><div>Friends</div><div><br></div><div>Going forward, our weekly Top 20 emails, which go out on Saturday morning and recap the 20 most significant items of the week, will be reserved for our paid subscribers. </div><div><br></div><div>Please consider joining the 1,000-plus readers who chose to support the Ticker with a $10-per-month subscription. </div><div><br></div><div><a href="https://goo.gl/kpJBg8" target="_blank" rel="nofollow" title="Link: https://goo.gl/kpJBg8">Click here to subscribe now</a></div></p>
+        </div>
+
+        
+
+        <div class="comment-box" style="display: block;">
+            
+
+            <div style="clear: both;">
+                <a href="/story/more-than-900-of-our-readers-choose-to-pay-10-mo-to" class="all-comments-link" target="_blank"
+                    
+                    style="display: none;"
+                    >
+                    <span class="comments-count">0</span> comment 
+                </a>
+            </div>
+        </div>
+        
+
+
+        <div class="cms-message-links">
+            <a href="http://twitter.com/share?url=https%3A%2F%2Fgoo.gl%2FQYwjjT&text=FriendsGoing%20forward%2C%20our%20weekly%20Top%2020%20emails%2C%20which%20go%20out%20on%20Saturday%20morning%20a...%20via%20@launchticker" target="_blank" title="Share by Twitter" class="twitter-link">
+                <div class="main-sprite icon-twitter message-link"></div>
+            </a>
+
+            <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fgoo.gl%2FQYwjjT" target="_blank" title="Share by Facebook" class="facebook-link">
+                <div class="main-sprite icon-facebook message-link"></div>
+            </a>
+
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fgoo.gl%2FQYwjjT&summary=FriendsGoing%20forward%2C%20our%20weekly%20Top%2020%20emails%2C%20which%20go%20out%20on%20Saturday%20morning%20a..." target="_blank" title="Share by LinkedIn" class="linkedin-link">
+                <div class="main-sprite icon-linkedin message-link"></div>
+            </a>
+            <a href="mailto:?subject=FriendsGoing%20forward%2C%20our%20weekly%20Top%2020%20emails%2C%20which%20go%20out%20on%20Saturday%20morning%20a...&amp;body=FriendsGoing%20forward%2C%20our%20weekly%20Top%2020%20emails%2C%20which%20go%20out%20on%20Saturday%20morning%20and%20recap%20the%2020%20most%20significant%20items%20of%20the%20week%2C%20will%20be%20reserved%20for%20our%20paid%20subscribers.%20Please%20consider%20joining%20the%201%2C000-plus%20readers%20who%20chose%20to%20support%20the%20Ticker%20with%20a%20%2410-per-month%20subscription.%20Click%20here%20to%20subscribe%20now%20https%3A%2F%2Fgoo.gl%2FQYwjjT" target="_blank" title="Share by Email" class="email-link">
+                <div class="main-sprite icon-email message-link"></div>
+            </a>
+
+
+
+            
+
+
+            
+        </div>
+
+
+        
+        <div class="share-button">
+            <a href="#" class="share-button-link main-sprite icon-share-gray"></a>
+        </div>
+
+    </div>
+
+</li>
+
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+            
+    </section>
+
+    <section class="features-reviews">
+        <div class="features-reviews-wrapper">
+
+            <div class="features-wrapper clearfix">
+                <div class="feature">
+                    <div class="feature-title clearfix">
+                        <img src="https://www.launchticker.com/Content/images/mailopen.png" alt=""/>
+                        <h3>Twice a day emails</h3>
+                    </div>
+                    <p class="feature-desc">One email goes out at 9 a.m. PT, and the other at 5 p.m. PT, keeping you fully informed</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-title clearfix"><img src="https://www.launchticker.com/Content/images/lighting.png" alt=""/><h3>300 characters or less</h3></div>
+                    <p class="feature-desc">All news stories are summarized into fact-packaged news bites under 300 characters</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-title clearfix"><img src="https://www.launchticker.com/Content/images/lightning.png" alt=""/><h3>Need-to-know tech news</h3></div>
+                    <p class="feature-desc">We curate the top stories of the day from every tech news source, saving you hours each day</p>
+                </div>
+            </div>
+            <!--/features-wrapper-->
+
+            <div class="reviews" id="sign-up-carousel">
+                <div>
+                    <ul>
+
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/jason.png" class="circular" alt="">
+                            <br>
+                            <span class="i">"I created the Ticker to get back an hour of my life a day--and it worked!"
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/jason" target="_blank">- @jason, Jason Calacanis</a>
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/skydayton.jpg" class="circular" alt="">
+                            <br>
+                            <span class="i">"The Ticker has become my most useful industry news source - in minutes, everything I need to know that day in tech."
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/skydayton" target="_blank">- @skydayton, Sky Dayton</a>
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/westcoastbill.jpg" class="circular" alt="">
+                            <br>
+                            <span class="i">"The Ticker covers everything in tech, VC, and the daily emails are really well done!"
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/westcoastbill" target="_blank">- @westcoastbill, Bill Lee</a>
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/semil.jpeg" class="circular">
+                            <br>
+                            <span class="i">"The best digest + commentary I've found in a single email."  
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/semil" target="_blank">- @semil, Semil Shah</a>
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/jtriest.png" width="100" height="100" class="circular" alt="">
+                            <br>
+                            <span class="i">"Excellent research. Saves me hours of time."
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/jtriest" target="_blank">- @jtriest, Jonathon Triest</a>
+
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/tomloverro.png" class="circular" alt="">
+                            <br>
+                            <span class="i">"I can sleep at night knowing I didn't miss anything thanks to the LAUNCH Ticker" 
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/tomloverro" target="_blank">- @tomloverro, Tom Loverro</a>
+                        </li>
+
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/samteller.jpg" class="circular" alt="">
+                            <br>
+                            <span class="i">"I read Ticker every morning. It's extremely useful and saves me tons of time getting the most important tech news." 
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/samteller" target="_blank">- @samteller, Sam Teller</a>
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/davidcohen.png" class="circular" alt="">
+                            <br>
+                            <span class="i">"My favorite email content of the day!" 
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/davidcohen" target="_blank">- @davidcohen, David Cohen</a>
+                        </li>
+                        <li>
+                            <img src="https://launchtickermedia.blob.core.windows.net/content/kerby.jpg" class="circular" alt="">
+                            <br>
+                            <span class="i">"Provides me with a great snapshot of what's going on in the world of tech." 
+                            </span>
+                            <br>
+                            <br>
+                            <a href="https://twitter.com/kerby" target="_blank">- @kerby, Richard Kerby</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+        <script type="text/javascript">
+            function comparePageValidators(a, b) {
+                if (!a.isvalid && b.isvalid) return 1;
+                if (a.isvalid && !b.isvalid) return -1;
+            
+                return 0;
+                    };
+            function WebForm_OnSubmit() {
+                if (typeof (ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) {
+                    Page_Validators.sort(comparePageValidators);
+                    for (var i in Page_Validators) {
+                        try {
+                            var control = document.getElementById(Page_Validators[i].controltovalidate);
+                            if (!Page_Validators[i].isvalid) {
+                                control.className = "ErrorControl";
+                            } else {
+                                control.className = "";
+                            }
+                        } catch (e) { }
+                            }
+                    return false;
+                        }
+                return true;
+                    }
+        </script>
+
+    <div class="popup-overlay" id="message-modal">
+        <div class="popup">
+            <span class="close-popup-btn"></span>
+            <p></p>
+        </div>
+    </div>
+
+ 
+    <div class="push"></div>
+
+
+        <footer class="footer-section">
+            <p class="copyright">&copy; 2015 LAUNCH Media, Inc. All rights reserved.</p>
+            <p>
+                    <a class="twitter-follow-button"
+                        href="https://twitter.com/launchticker"
+                        data-show-count="false"
+                        data-lang="en">Follow @launchticker
+                    </a>
+                    <script>window.twttr = (function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {}; if (d.getElementById(id)) return t; js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); t._e = []; t.ready = function (f) { t._e.push(f); }; return t; }(document, "script", "twitter-wjs"));</script>
+            </p>
+            <p>
+                <div class="footer-links">
+                    <a href="http://launch.co/">About</a> | <a href="mailto:ticker@launch.co">Contact</a>
+                </div>
+                <br />
+            </p>
+
+        </footer>
+
+        <div class="popup-overlay" id="trial-popup">
+            <div class="popup">
+                <span class="close-popup-btn"></span>
+                <h2>Welcome to the LAUNCH Ticker</h2>
+                <label class="input-title">Email</label>
+                <input name="ctl00$email" type="text" id="email" class="popup-input" placeholder="youremail@gmail.com" name="email" />
+                <p class="popup-desc">This will be the email address for receiving the Ticker emails.</p>
+                <a onclick="DisableForm();" id="BaseTrialSubmitlink" class="twitter-btn" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BaseTrialSubmitlink&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Sign up</a>
+                <br />
+            </div>
+        </div>
+        <!--
+        <div class="popup-overlay" id="login-popup">
+            <div class="popup">
+                <span class="close-popup-btn"></span>
+                <h2>Welcome to the LAUNCH Ticker</h2>
+
+                <a href="/logon" class="twitter-btn">Auth forms</a>
+                <a href="/Auth/Twitter?beginauth=true" class="twitter-btn">
+                    <img src="/Content/images/twitter-icon.png" alt="" />sign in with twitter</a>
+                <p class="popup-help-link">Need help? <a href="mailto:ticker@launch.co" target="_blank">Contact us!</a></p>
+            </div>
+        </div>
+        -->
+        <div class="popup-overlay" id="message-modal">
+            <div class="popup">
+                <span class="close-popup-btn"></span>
+                <h2>Welcome to the LAUNCH Ticker</h2>
+
+                <a href="/Auth/Twitter?beginauth=true" class="twitter-btn">
+                    <img src="/Content/images/twitter-icon.png" alt="" />sign in with twitter</a>
+                <p id="modal-text" class="popup-help-link">Need help? <a href="mailto:ticker@launch.co" target="_blank">Contact us!</a></p>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://www.launchticker.com/Scripts/LTV2_homesignup_BEF9966B8084798D0C5DCF4DD6EBEA1E.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                $('.trial-btn').click(function (e) {
+                    e.preventDefault();
+                    $('#trial-popup').fadeIn();
+                });
+                */
+                /*
+                $('.login-btn').click(function (e) {
+                    e.preventDefault();
+                    $('#login-popup').fadeIn();
+                });
+                */
+                $('.signup').click(function (e) {
+                    e.preventDefault();
+                    $('#login-popup').fadeIn();
+                });
+
+                $('.close-popup-btn').click(function () {
+                    $(this).parents('.popup-overlay').fadeOut();
+                });
+
+                $('.popup-overlay').click(function (e) {
+                    if ($(e.target).is('.popup')) {
+                        return false;
+                    }
+                    //$(this).fadeOut();
+                });
+            });
+        </script>
+    </form>
+
+    
+
+
+<script type="text/javascript">
+    var _sf_async_config = { uid: 15884, domain: 'launchticker.com', useCanonical: true };
+    (function () {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        };
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function () { oldonload(); loadChartbeat(); };
+    })();
+</script>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,716 @@
+
+
+
+
+
+
+
+
+
+Company
+Resource Center
+Careers
+Contact Ascendum
+ 
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+INDUSTRIES
+
+Industry Overview
+Retail
+Hi-Tech
+Healthcare
+Financial Services
+
+
+SERVICES
+
+Service Overview
+Product Engineering Services
+SharePoint Products & Services
+Quality Assurance
+On Demand Services
+CenterGrid. Infrastructure Delivered.
+
+
+PRACTICES
+
+Business Transformation (BTX)
+Internet of Things
+
+
+PRODUCTS
+Company
+Resource Center
+Careers
+Contact Ascendum
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+Rethink QA with DevOps on the Mainframe
+
+
+
+
+CASESTUDY								
+Mainframe Automation for a Leading Insurance Company
+
+
+
+
+
+
+
+
+
+Innovation Without Limits
+
+
+
+
+CASESTUDY								
+Mobile Application for Claims Submission
+
+
+
+CASESTUDY								
+Quality Assurance Testing for Mortgage Lender
+
+
+
+
+
+
+
+
+
+Leverage Data to Climb Higher
+
+
+
+
+CASESTUDY								
+M2M Product Engineering
+
+
+
+CASESTUDY								
+Parking Violation Enforcement
+
+
+
+
+
+
+
+
+
+Intelligent Business Transformation
+
+
+
+
+CASESTUDY								
+US Residential Mortgage Services
+
+
+
+CASESTUDY								
+Smart Parking with Sensors
+
+
+
+
+
+
+
+
+
+Cutting Edge Technology Solutions
+
+
+
+
+CASESTUDY								
+Medical Billing Services
+
+
+
+CASESTUDY								
+DNA Diagnostics
+
+
+
+
+
+
+
+
+
+Leading the Way with Uncommon Sense
+
+
+
+
+CASESTUDY								
+Realtime Offer and Analytics Deployment Solution
+
+
+
+CASESTUDY								
+Mobile Solutions for Retail Industry
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+
+February 15, 2017
+Ascendum Acquires Sourcebits, a Sequoia and IDG backed Digital Innovation Company: 
+Cincinnati-based technology solutions company buys leading-edge digital solutions company headquartered in San Francisco to accelerate business growth and deliver creative solutions to customers. San Francisco, Cincinnati and Bangalore – Ascendum Solutions, a leading provider of information technology solutions and services, today
+
+
+October 20, 2016
+Ascendum Solutions to Introduce Contract Underwriting Services at Mortgage Bankers Association’s Annual Convention & Expo 2016: 
+Ascendum Solutions, a leading provider of process, analytics and technology solutions for the mortgage industry, announced today that it will showcase their Contract Underwriting Services at the MBA Annual Convention in Boston. Ascendum supports leading mortgage lenders, end-to-end in the
+
+
+May 2, 2016
+Barclaycard begins journey at Vora Technology Park in Ohio: 
+Senator Rob Portman (R-Ohio), Senator Sherrod Brown (D-Ohio), along with Mary Taylor, Ohio Lieutenant Governor, Curt Hess, CEO for Barclaycard U.S. of Barclays and Mahendra Vora, Executive Chairman of Vora Ventures cut the ribbon at an official ceremony and tour of Barclaycard facility
+
+
+February 12, 2016
+Dr. Yousuf J. Ahmad Takes the Helm at AssureCare as the CEO: 
+Former Health System President and CEO to Fuel and Manage the Company Growth CINCINNATI, OH – February 12, 2016 – AssureCare, the leading provider of healthcare management software and solutions, announced today the appointment of Dr. Yousuf Ahmad as its new
+
+
+August 17, 2015
+Vora Technology Park lands Barclaycard US Customer Care Center: 
+Plans to create up to 1,500 Jobs in Hamilton, Ohio CINCINNATI, Ohio – August 17, 2015 – Vora Technology Park (VTP), one of the largest tech parks in the Midwest, announced today that Barclaycard US has selected VTP as the
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INDUSTRIESSERVICESPRODUCTSRESOURCE CENTER 
+
+
+
+
+
+INDUSTRIES 
+
+
+
+ 
+						Retail		
+ 
+Influence Consumers by Understanding Them
+  
+						Hi-Tech		
+ 
+Devices to decisions – turning data into actionable insight
+  
+						Healthcare		
+ 
+Keeping Healthcare Organizations... Healthy
+  
+						Financial Services		
+ 
+We offer QC & Compliance, Underwriting, Title & Claims Processing and Analytics services for the financial services industry.
+Ascendum Solutions, LLC's NMLS ID# is 1391022. Ref: NMLS Consumer Access
+  
+
+
+
+
+
+
+SERVICES 
+
+
+
+ 
+						Product Engineering Services		
+ 
+Leveraging the latest innovations to accelerate time to market
+  
+						Content Collaboration & Search		
+ 
+Streamlining internal communications and processes for leaner organizations
+  
+						Quality Assurance		
+ 
+Making quality a culture, rather than just a process
+  
+						On Demand Services		
+ 
+Moving with you to meet your needs at the speed of business
+  
+						CenterGrid Infrastructure Management		
+ 
+IT Solutions to free your business resources and sharpen your focus
+  
+
+
+
+
+
+
+PRODUCTS 
+
+
+
+ 
+						Zakta		
+ 
+The power of information in the palm of your hand
+  
+						Vinimaya		
+ 
+eProcurement solutions to streamline operations
+  
+						Bluespring		
+ 
+Business Transformation, transformed
+  
+						OpenCommerce		
+ 
+Maximizing retailing opportunities by meeting consumers where they are, moment by moment
+  
+
+
+
+
+
+
+RESOURCE CENTER 
+
+
+
+ 
+						Case Studies		
+ 
+Browse case studies and find relevant content to help your next business decision.
+ 
+  
+						Blog		
+ 
+Stay educated on the revolutionary services, practices and industries provided by Ascendum Solutions.
+  
+						News & Events		
+ 
+Up to date news and events occurring at Ascendum.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+THEY SPEAK FOR US
+Click to see few of our recent casestudies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mainframe Automation for Leading Insurance Company
+
+
+Build, Test and Deploy through Mainframe QA Automation
+Our client is a leading insurance company in the mid-west. A key issue they were facing was aligning the sprint cycle with mainframe dependent functionality (and it was a lot of it). The teams were not able to keep up as the mainframe testing was all manual. …
+Read full casestudy
+
+
+
+
+
+QA Testing forMortgage Lender
+
+
+Reduce rework, increase productivity, shorten SDLC...
+A leading direct to consumer lender with several initiatives underway including new sales channels, acquisitions and ongoing upgrades and enhancements.  The company needed a partner to ensure that IT was able to meet deadlines for these initiatives while keeping costs under control and reducing software rework……
+Read full casestudy
+
+
+
+
+
+Mobile Applicationfor Claims Submission
+
+
+Submit claims fast and easy...
+Submit claims easily from your cellphone. A leading P&C Claims Technology company developed a white labelled mobile app for faster claims submission. The application helps with faster submission of claims across leading mobile platforms. Due to the diversity in platform versions and devices the company needed a partner to ensure system stability and extensive platform testing……
+Read full casestudy
+
+
+
+
+
+Countsin the Cloud
+
+
+Integration Ready Platform For Parking Data
+Data collected with the current application is not accessible to other 3rd party application and remains locked.
+Build a technologically enhanced platform to enable application developers, auto manufacturers, in-vehicle navigation systems and technology partners, real-time access to parking data for there next generation parking lot availability, pricing, remote way-finding and other application solutions….
+Read full casestudy
+
+
+
+
+
+Handheld toolfor Field Services
+
+
+Field Services Productivity Enhancement
+A Fortune 100 beverage company was looking for better way to manage the product information in their vending machines. They also needed to integrate with a 3rd party dynamic scheduling system to deliver better efficiency in supply chain. Ascendum partnered with the OEM solution provider to build a solution….
+Read full casestudy
+
+
+
+
+
+SmarterVending Machines
+
+
+Drive Loyalty One Vend at a Time
+Large brands are looking at social platforms to build one on one relationships with their customers. A vending machine is a great interactive opportunity for brands to connect with clients and use the interaction to foster a relationship. Vending machines also are changing in terms of the capability they offer to channel marketing and targeting….
+Read full casestudy
+
+
+
+
+
+M2M ProductEngineering
+
+
+Regression Testing Delivers Better M2M Communication
+Our client is a market leader in Machine 2 Machine solutions. They work with industry leaders in verticals like Vending, Gaming, Transportation and Retail. The client has been recognized as a leader in their product lines. Ascendum has been working with the customer to develop the next generation solutions that help the transition to a cashless technology including credit cards, NFC and other forms of payment. Ascendum is the Product Engineering Partner and also works with the Professional Services team for end user customization and integration….
+Read full casestudy
+
+
+
+
+
+ParkingViolation Enforcement
+
+
+Smart Enforcement Delivers Higher Revenue
+Our client works with large municipalities, enforcement agencies and cities to deliver better revenue capture solutions. One of the areas where they looked for a specialist partner was their mobile hand held solution. This solution was developed nearly 10 years back on a windows platform. The solution was robust and worked flawlessly. However it was falling short in terms of the user experience and ability to leverage the latest innovations in mobile technologies. Ascendum was contracted to provide an architecture and development solution for an end to end technology refresh….
+Read full casestudy
+
+
+
+
+
+GarageMaster Data Management
+
+
+Facility Management - Higher Revenue & Utilization
+Large facility operators are looking for a software platform that can integrate with multiple OEM providers. This will help them manage their operations, generate actionable analytics and reduce the overhead. Operators are also looking at options to increase revenue capture and drive loyalty. In locations like universities and corporate campuses, there is also a need to policy management and enforcement. Our client worked with us in developing a new platform that helps operators achieve this capability….
+Read full casestudy
+
+
+
+
+
+SmartParking with Sensors
+
+
+Leader In Urban Mobility – Easier Parking, Increased Commerce
+Mall Businesses are leveraging social media to acquire new customers and build loyalty. They are leveraging tools like Groupon, Yelp and Local Response to enable local discovery. The critical element driving footfall in dense downtown areas is the availability of parking places. If the customer can easily locate the availability of parking in vicinity it improves the chances of doing business with the store. In fact en estimated 30% of motorists driving around in search of a parking space at any one time.
+Officials with the IR office identified 14 Key Performance Metrics they wished to monitor to prove the feasibility and effectiveness of a dashboard solution for Business Intelligence delivery to the Executive Board….
+Read full casestudy
+
+
+
+
+
+XavierUniversity
+
+
+Bringing business analytics to academia – and increasing efficiency through measurement.
+Xavier University, a premier higher education institution, sought to use SharePoint 2010 and dashboards that could be integrated with the individual sites. The goals were to: improve communications and efficiency; speed the access to information: share documents and other analytic information; and create an easy to use web-based interface. Xavier’s Office of Strategic Information Resources (IR) manages the information technology infrastructure for XU and is the key stakeholder of institutional data. Officials with the IR office identified 14 Key Performance Metrics they wished to monitor to prove the feasibility and effectiveness of a dashboard solution for Business Intelligence delivery to the Executive Board….
+Read full casestudy
+
+
+
+
+
+DNADiagnostics
+
+
+Streamlining Business Through Rapid Process Assessment And Custom-Designed Systems
+As the largest and most experienced private DNA laboratories in the world, DNA Diagnostics Center (DDC) provides DNA testing services in the areas of paternity and other family relationships, forensics, and genetics. Its subsidiary, Veterinary Diagnostics Center, has provided DNA testing for animals (canine, feline, avian, and equine) since 2003. The company processes approximately 1,500-2,000 samples per month, using a system that encompasses mostly manual processes and uses outdated technology. Only a few employees in the company have a complete understanding of the current system and process it follows, which adds to the risk of error while processing samples and reporting results….
+Read full casestudy
+
+
+
+
+
+Realtime Offer and AnalyticsDeployment Solution
+
+
+The Future of Retail is Here and Now
+With the variety of different types of devices and technologies customers support, the way they interact with their environment is changing fast. Many things are getting automated and realtime information is available effortlessly at a click of a mouse. This phenomenal change in landscape is challenging companies to reach out to their customers in a innovative and a differentiated manner. Organizations need to go beyond their traditional comfort zones to engage and retain their customer base….
+Read full casestudy
+
+
+
+
+
+Mobile Solutionsfor Retail Industry
+
+
+Developing Latest Mobile Devices Software For Retail Industry
+Our customer is market leader in Germany’s retail food sector and are considered to be the thought leaders in developing and deploying innovative mobile solution to retail and transport industry. With the recent fast paced changes in mobile domain wherein both the devices and the software that resides in those devices underwent a sea change, our Customer was looking at a reliable partner that can help incorporate newer technologies into their next-gen products and solutions….
+Read full casestudy
+
+
+
+
+
+Stop Running Reports.Start Analyzing Crime
+
+
+Best Practices For Crime Prevention
+Vast amounts of crime data capable of generating valuable insights into crime prevention remains locked and unused inside agency systems. There is an opportunity to help prevent, reduce and solve crime by effectively using available crime data….
+Read full casestudy
+
+
+
+
+
+Next Generation. Extensibleand Truly Global Platform
+
+
+Globally Accessible and Easy to Maintain
+The current desktop based systems was built using technology which was becoming increasingly difficult to maintain, used tightly coupled component architecture which requires huge amounts of FDA re-validation effort in case of enhancements to the system and does not support globally distributed studies….
+Read full casestudy
+
+
+
+
+
+US ResidentialMortgage Services
+
+
+Process Streamlining and Efficiency Enhancement
+One of the largest direct to consumer lenders in the US with retail and wholesale operations was experiencing processing delays due to submission errors and omissions leading to longer processing times. Effective Quality Control Mechanism. : Ascendum’s file intake audit solutions resulted in improving the quality of loans to greater than 98% and reduced the average time of loans to get to processed from file intake to 5 days from 11 days….
+Read full casestudy
+
+
+
+
+
+Medical Billing Services
+
+
+A Leading Medical Billing Company
+Our customer is a well-known medical billing organization that wanted to outsource charge entry.
+The task was to manage patient’s charge entry.
+Our customer was concerned about the quality of services from an offshore center.
+To ensure a smooth transition to an offshored center with the least amount of disruption to business.
+To bring down the error rate along with it maintaining productivity.
+To train our team on using software and methodology used by the customer….
+Read full casestudy
+
+
+
+
+
+US ResidentialMortgage Services
+
+
+Productivity Enhancement
+A leading US Residential lender with retail, wholesale and correspondent divisions lost 7-8% of profit on secondary condition fees & interest, with 1 deficient loan in every 5 loans sold to the investor….
+Read full casestudy
+
+
+
+
+
+VirtualAssistance Services
+
+
+Leading Virtual Assistance Company based out of New Jersey
+Handling the operations and support from US would not be cost efficient based on the fee charged for this service. Client was unable to concentrate upon Marketing and other activities that needed his attention….
+Read full casestudy
+
+
+
+
+
+TitleProcessing Services
+
+
+Cost Savings and Ability to Manage Volume Volatility
+Client was facing a number of challenges in processing the preliminary commitment at their end. The company was working in 50 states and it was getting increasingly difficult for them to handle the volume volatility while also ensuring quality & timeliness of delivery…
+Read full casestudy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ascendum was a great team to work with … the planning and logistics were well done and they have great expertise.
+
+
+
+Susana Luzuriaga, Xavier University’s Office of Strategic Information Resources				
+
+
+
+
+
+
+OUR EXPERTISE SPANS GLOBALLY
+
+
+
+35%+ YoY CAGR since inceptionCenters of excellence in the US and 3 locations in IndiaLeveraging innovative IP to deliver cutting edge solutionsISO 9001:2008 Certified / CMMI Level 3*2200+ families across the globe100+ Customers Fortune 1000 ClientsBest in the class InfrastructureAll facilities connected through video conferencingSecure data pipesBiometrics integration for access control 
+
+
+
+
+
+
+
+
+
+Vora Innovation Center10290 Alliance RoadBlue Ash OH 45242 USA(513) 792-5100 | info@ascendum.comVora Towers#170-172, Phase 2Export Promotion Industrial ParkWhitefield, Bangalore 560066 India+91 80 4931 0000 | info@ascendum.com A Vora Ventures Company
+
+
+
+
+
+
+
+Ascendum
+HomeCompanyCareersContact AscendumPrivacy & TrademarksTerms of Use
+Services
+Product Engineering ServicesSharePoint Products & ServicesQuality AssuranceOn Demand ServicesCenterGrid
+Industries
+RetailHi-TechFinanceHealthcare
+Practices
+Business Transformation (BTX)Internet of Things
+Resources
+Case StudiesNews & Events
+
+
+
+
+
+
+
+
+Copyright 2014 Ascendum, All Rights Reserved.
+All company names, product names logos included here may be registered trademarks or service marks of their respective owners.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,258 @@
+
+
+
+
+ 
+
+
+Select LanguageAlbanianArabicArmenianAzerbaijaniChinese (Simplified)Chinese (Traditional)CzechDanishDutchEnglishFilipinoFinnishFrenchGermanGreekHaitian CreoleHungarianIcelandicIndonesianIrishItalianJapaneseKoreanKurdish (Kurmanji)MalteseNepaliNorwegianPersianPolishPortuguesePunjabiRomanianRussianSerbianSlovenianSpanishSwedishThaiTurkishUkrainianVietnamese
+
+
+
+ 
+
+TwitterFacebookLinkedinGplus 
+
+
+About
+Initiatives
+Community Partners
+Blog
+Media
+Careers
+Contact
+ 
+
+
+
+
+
+
+
+
+Do something. Measure it. 
+Working Together to Eradicate Systemic Cyber Risk
+
+
+
+Less Talk. More Action.
+
+We are in a perpetual cat-and-mouse game between cyber attackers and the concerned cyber professionals that stand in their way. The reality of cyber risk is undeniable, but that does not mean we can not make measurable progress to reduce it.
+By addressing systemic cyber issues methodically, risk by risk, and taking action against threat actors, we can form a united front to eradicate these risks.
+
+Cyber Risks 
+As connectivity increases, so does network vulnerability. Personal and business data is perpetually at risk. Most attacks take months to identify, and the damage can take years to repair. We’re taking incremental steps to help businesses and individuals improve their security.
+Our Mission
+The Global Cyber Alliance (GCA) is an international, cross-sector effort dedicated to confronting cyber risk and improving our connected world. We are a catalyst to bring communities of interest and affiliations together in an environment that sparks innovation with concrete, measurable achievements.
+Current Initiatives
+We are addressing critical cyber risk issues with surgical precision. The initiatives we are currently pursuing center around the most common cyber threats individuals and businesses face – threats revolving around identity, authentication, and malware attacks.
+
+
+
+Recent Initiative
+
+
+
+
+DMARC is the simple, trusted solution that brings together email authentication protocols, and adds reporting and compliance. In just a few easy steps, you can set up DMARC today to protect your organization from email fraud.
+
+
+Start DMARC Setup
+
+UNITING A GLOBAL COMMUNITY
+
+Systemic cyber risks transcend borders and nation states. These truly are global challenges that require international cooperation to resolve. We are building a results-oriented collective of partners to help bridge the gaps between the public and private sectors, governments and concerned citizens alike. At GCA we bring people together to spark innovation and combat cyber risks, regardless of sector, industry or geographic location.
+
+
+LEARN MORE
+
+
+
+“The Global Cyber Alliance provides an important new approach to eliminating silos and barriers, focusing on collaboration and results.”
+janet napolitano, former U.S. secretary of homeland security
+“There are many existing regional and sector-based communities that address online threats. The Global Cyber Alliance plans to bridge these efforts with an operational platform focused on bringing concrete results to cybersecurity collaboration. I am pleased to contribute to this global effort and I look forward to its potential.”
+Vint Cerf, Chief Internet Evangelist, Google
+“The Global Cyber Alliance provides a critical component to the fight against cyber threats.”
+Ron Plesco, Chair, National Cyber Forensics Training Alliance (NCFTA)
+“The City University of New York is very pleased with Manhattan District Attorney Cyrus Vance as a charter member of the Global Cyber Alliance, dedicated to confronting cyber security risks.”
+James Milliken, Chancellor, The City University of New York
+“The GCA offers the most promising approach we have seen to meeting these global challenges, and we at SANS, on behalf of our more than 120,000 cyber security alumni in 70 countries, are fully committed to helping make it successful.”
+Alan Paller, Founder and Research Director, SANS Institute
+“Addressing risk as it relates to the cyber realm is truly a global issue, and the R-CISC is committed to helping achieve the global level of success that is the aim of the GCA.”
+Brian Engle, Executive Director, Retail Cyber Intelligence Sharing Center (R-CISC)
+“The Global Cyber Alliance takes on the task of fixing the fundamental problems associated with cyber vulnerabilities and attacks.”
+Denise Anderson, Executive Director, NH-ISAC
+“The Defense Security Information Exchange (DSIE) applauds the foresight, innovation, and commitment of the New York County District Attorney’s Office, the City of London Police, and the Center for Internet Security in developing the Global Cyber Alliance.”
+Carlos Kizzee, Executive Director of the Defense Sector Information Exchange
+“I am pleased to be part of this effort and to lend my experience in supporting the mission of the Global Cyber Alliance in its critical mission of improving internet security.”
+Lt. Gen. Harry Raduege, Jr., USAF (Ret.), Chairman, Center for Cyber Innovation
+“Just like any other global problem, we need a collective approach to fight the cyber security threats. Global Cyber Alliance is one such effort.”
+Bill Nelson, President, FS-ISAC
+“The mission of Global Cyber Alliance is essential to leverage transnational and cross-sector collaboration to confront cyber risks and address approaches that work across borders.”
+Jim Routh, Chief Information Security Officer
+“The Defense Industrial Base Information Sharing Analysis Center (DIB ISAC) believes that the only effective way to stay ahead of the adversary is through cross-sector and international cooperation. As such, we support the Global Cyber Alliance in its mission to support international collaboration.”
+Steve Lines, Executive Director, Defense Industrial Base ISAC
+PreviousNext
+
+
+
+FOUNDING ORGANIZATIONS
+
+GCA was founded by a partnership of law enforcement and research organizations focused on combating systemic cyber risk in real, measurable ways. Our founders sought to bring together an international coalition of partners to implement real solutions to systemic cyber risk. Learn more about our founding organizations below.
+
+logo-london2@2xlogo-nyda@2xlogo-cis
+LATEST FROM OUR TEAM
+
+Blog RSA: It's the People0 Comments/02/17/2017Read more  →
+
+/wp-content/uploads/blog-rsa.jpg
+646
+755
+
+renee
+
+/wp-content/uploads/logo_dark.png
+
+renee2017-02-17 13:51:222017-02-17 14:11:30RSA: It's the PeopleBlog Global Cyber Alliance: The Coalition of the Angry Turns to Action0 Comments/02/15/2017Read more  →
+
+/wp-content/uploads/blog-inforisk.jpg
+646
+755
+
+renee
+
+/wp-content/uploads/logo_dark.png
+
+renee2017-02-15 18:17:242017-02-16 09:41:26Global Cyber Alliance: The Coalition of the Angry Turns to ActionNews Reuters Interviews GCA CEO & President, Phil Reitinger, at RSAC0 Comments/02/15/2017Read more  →
+
+/wp-content/uploads/GCA-Logo.png
+400
+850
+
+renee
+
+/wp-content/uploads/logo_dark.png
+
+renee2017-02-15 07:13:142017-02-15 07:30:37Reuters Interviews GCA CEO & President, Phil Reitinger, at RSACBlog And Don't Forget About the NIST Cybersecurity Framework! RSAC, Day Two0 Comments/02/14/2017Read more  →
+
+/wp-content/uploads/blog-nist.jpg
+646
+755
+
+renee
+
+/wp-content/uploads/logo_dark.png
+
+renee2017-02-14 18:35:122017-02-15 10:12:10And Don't Forget About the NIST Cybersecurity Framework! RSAC, Day TwoPress Global Cyber Alliance Calls on Leading Cyber Companies To Improve Email Protections0 Comments/02/14/2017Read more  →
+
+/wp-content/uploads/blog-pressrelease-1.jpg
+646
+755
+
+renee
+
+/wp-content/uploads/logo_dark.png
+
+renee2017-02-14 05:42:502017-02-14 05:44:07Global Cyber Alliance Calls on Leading Cyber Companies To Improve Email ProtectionsBlog Step One of Our 12 Step Cyber Security Program: Admitting We Have a Problem: RSAC Blog, Day One0 Comments/02/13/2017Read more  →
+
+/wp-content/uploads/blog-steps-2.jpg
+646
+755
+
+renee
+
+/wp-content/uploads/logo_dark.png
+
+renee2017-02-13 14:24:532017-02-14 05:36:01Step One of Our 12 Step Cyber Security Program: Admitting We Have a Problem: RSAC Blog, Day OnePage 1 of 19123›»
+
+
+
+
+GET INVOLVED
+
+Whether you need a measurable solution, want to discuss partnership opportunities or simply have a question, get in touch with a member of our team.
+We are standing by and ready to help.
+
+CONTACT US
+
+
+JOIN OUR TEAM
+
+We are on the look-out for passionate individuals who would rather take action than talk about doing so. If you want to surround yourself with industry experts while working each day to make a difference, we are your team.
+
+
+Full TimeSoftware DeveloperLocation: FlexibleGCA is looking for a fully competent full stack developer who has a broad understanding of solutions and industry best practices.Read More →Full TimePartnership & Development Director, EULocation: Brussels, BelgiumGCA is seeking an experienced partnership development and communications professional to support our efforts in the EU.Read More →
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+AboutMission & Purpose
+Objectives
+Founding Organizations
+History
+Leadership
+InitiativesOverview
+Featured Projects
+CommunityGlobal Reach & Collaboration
+Partner Organizations
+InformationMedia
+Blog
+CareersJobs
+Contact info@globalcyberalliance.org 
++1.646.677.5535
+
+New York 731 Lexington Ave 
+New York, NY 10022
+
+London 65A Basinghall Street
+London, UK
+
+
+
+
+
+
+TwitterFacebookLinkedinGplus
+
+Copyright @ 2016 Global Cyber Alliance 
+Privacy Policy
+Data Policy
+Terms of Use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scroll to top
+

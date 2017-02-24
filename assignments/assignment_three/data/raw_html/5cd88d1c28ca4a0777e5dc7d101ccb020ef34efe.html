@@ -1,0 +1,2362 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1"/>
+
+  
+      <!-- Chartbeat top START -->
+        <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+      <!-- Chartbeat top END -->
+    
+
+  <script type="text/javascript">
+  if(typeof String.prototype.trim !== 'function') {
+    String.prototype.trim = function() {
+      return this.replace(/^\s+|\s+$/g, '');
+    }
+  }
+
+  function hasCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+      var c = ca[i].trim();
+      if (c.indexOf(name)==0) return true;
+    }
+    return false;
+  }
+
+  function deleteCookie(cname) {
+    //set to a past expiration to delete cookie
+    setCookie(cname, "delete", -2);
+  }
+
+  function setCookie(cname,cvalue,exdays) {
+    if (typeof exdays != "undefined") {
+      var d = new Date();
+      d.setTime(exdays);
+      var expires = "expires="+d.toGMTString();
+      document.cookie = cname + "=" + cvalue + "; " + expires + "; path=/";
+    } else {
+      document.cookie = cname + "=" + cvalue + "; path=/";
+    }
+  }
+
+  function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1);
+          if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+      }
+      return "";
+  }
+</script>
+
+  
+
+    <script type="text/javascript">
+      //<![CDATA[
+      
+  
+    
+        var suppressWelcomeAd = false;
+      
+  
+
+      var isiPad = navigator.userAgent.match(/iPad/i) != null;
+      var isFb = navigator.userAgent.match(/facebookexternalhit/i) != null;
+      // iPad detection and  check for onswipe_redirect=never in the URL
+      if (isiPad && !hasCookie("desktopPreferred")) {
+        function getUrlVar(key){
+          var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search);
+          return result && encodeURIComponent(result[1]) || "";
+        }
+        if (getUrlVar("onswipe_redirect") == "never") {
+          // set cookie to enable welcome ad for iPad
+          setCookie("desktopPreferred", "1");
+        }
+      }
+      if (!hasCookie("welcomeAdViewed") && (!isiPad || isiPad && hasCookie("desktopPreferred")) && !isFb) {
+        setCookie("cookiesEnabled", "1");
+        if (hasCookie("cookiesEnabled"))  {
+          deleteCookie("cookiesEnabled");
+          currentDate = new Date();
+          eod = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate(), 23, 59, 0, 0);
+          setCookie("welcomeAdViewed", "1", Math.round((eod.getTime())));
+
+          if (!suppressWelcomeAd) {
+
+            // Set cookie with referrer for Omniture script to use
+            if (document.referrer == "") {
+              setCookie("referrer:" + window.location, "Typed/Bookmarked");
+            } else {
+              // trick for getting the hostname
+              var host_tmp = document.createElement("a");
+              host_tmp.href = document.referrer;
+
+              setCookie("referrer:" + window.location, host_tmp.hostname);
+            }
+
+
+            window.location = 'http://cdn.nextgov.com/nextgov/interstitial.html?v=2.1.1&rf=' + encodeURIComponent(window.location);
+          }
+        }
+      }
+
+      //]]>
+    </script>
+
+  
+
+
+  
+  
+
+
+  <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"96589ef288","agent":"","transactionName":"YAQDN0JTXxdYBRUMDllOJxZeUUUNVghOEgRVEggXVUEfClweFQIOQT4XClVFQl5JEwMJCEQJBAdvQl4XTQ==","applicationID":"6113376","errorBeacon":"bam.nr-data.net","applicationTime":122}</script>
+
+  <meta property="article:publisher" content="http://www.facebook.com/Nextgov" />
+  <meta property="fb:admins" content="578600878" />
+  <meta property="og:site_name" content="Nextgov" />
+  
+  
+<meta name="sailthru.author" content="Joseph Marks"/>
+<meta name="sailthru.date" content="2017-02-08T17:36:17Z"/>
+<meta name="sailthru.description" content="The government faces numerous bad choices in the encryption debate, but the worst is doing nothing at all, a think tank report concludes."/>
+<meta name="sailthru.title" content="Government Must Pick Between Bad Options in Encryption Debate"/>
+<meta name="sailthru.tags" content="nsa,fbi,encryption,channel-nextgov-&gt;-cybersecurity,type-story,length-medium,site-nextgov"/>
+<meta name="sailthru.images.full" content="http://cdn.nextgov.com/media/img/upload/2017/02/08/020817encryptionNG.jpg"/>
+<meta name="sailthru.images.thumb" content="http://cdn.nextgov.com/media/img/upload/2017/02/08/020817encryptionNG/sailthru-thumbnail.jpg"/>
+  
+
+  <title>Government Must Pick Between Bad Options in Encryption Debate - Nextgov.com</title>
+
+  
+    
+        
+    
+      <link rel="canonical" href="http://www.nextgov.com/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/" />
+    
+  
+    
+
+
+  <meta name="keywords" content="nsa, fbi, james comey, encryption, csis" />
+  <meta name="description" content="The government faces numerous bad choices in the encryption debate, but the worst is doing nothing at all, a think tank report concludes." />
+
+  
+<script type="text/javascript">
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement("script");
+    gads.async = true;
+    gads.type = "text/javascript";
+    var useSSL = "https:" == document.location.protocol;
+    gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+    var node =document.getElementsByTagName("script")[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+
+  var GEMG = GEMG || {};
+  (function(){
+    GEMG.GPT = {
+      ad_unit: '/617/nextgov.com/section_cybersecurity/content/pid_135247',
+      base_ad_unit: '/617/nextgov.com',
+      targeting: {
+        page: {
+          
+          'keywords': ['csis','encryption','fbi','james-comey','nsa'],
+          
+          'post_id': ['135247'],
+          
+          'primary_category': ['cybersecurity'],
+          
+          'categories': ['cio-briefing','defense','federal-news','technology'],
+          
+          'referring_domain': ['Typed/Bookmarked']
+          
+        },
+        slot: {}
+      }
+    };
+  })();
+</script>
+
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,400,400italic,700,700italic&subset=latin' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript">
+  var GEMG = GEMG || {};
+  GEMG.OmnitureConfig = {"internalDomains": "www.nextgov.com", "account": "atlanticnextgov2012", "trackingServer": "metrics.govexec.com", "site": "www.nextgov.com"};
+  </script>
+
+  <script type="text/javascript" src="http://cdn.nextgov.com/compressed/jinja/js/6893e7306896.js"></script>
+
+  <link rel="stylesheet" href="http://cdn.nextgov.com/compressed/jinja/css/nextgov-a79d7ebe381f.css" type="text/css" media="all" />
+
+  <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="http://cdn.nextgov.com/nextgov/css/ie-all.css?v=6.0.0" media="screen"/>
+  <![endif]-->
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="http://cdn.nextgov.com/nextgov/css/ie.css?v=6.0.0" media="screen"/>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="http://cdn.nextgov.com/nextgov/css/ie-8.css?v=6.0.0" media="screen"/>
+    <script src="http://cdn.nextgov.com/base/js/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript">var switchTo5x=true;</script>
+  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+  <script type="text/javascript">
+    //<![CDATA[
+    stLight.options({
+      publisher: "3cf7ffb5-3f0d-4c31-9c9f-84d731418e4c",
+      onhover: false
+    });
+    //]]>
+  </script>
+  
+  <meta property="og:title" content="Government Must Pick Between Bad Options in Encryption Debate" />
+  <meta property="og:type" content="article" />
+
+  <meta property="og:description" content="The government faces numerous bad choices in the encryption debate, but the worst is doing nothing at all, a think tank report concludes." />
+  <meta property="og:image" content="http://cdn.nextgov.com/media/img/upload/2017/02/08/020817encryptionNG.jpg" />
+
+  
+  <meta property="og:url" content="http://www.nextgov.com/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/" />
+  
+
+  
+  <meta name="twitter:description" content="The government faces numerous bad choices in the encryption debate, but the worst is doing nothing at all, a think tank report concludes.">
+  
+  <meta name="twitter:image" content="http://cdn.nextgov.com/media/img/upload/2017/02/08/020817encryptionNG/open-graph.jpg">
+  
+  <meta name="twitter:title" content="Government Must Pick Between Bad Options in Encryption Debate">
+  
+  <meta name="twitter:site" content="@nextgov">
+  
+  <meta name="twitter:creator" content="@Joseph_Marks_">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  
+
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.nextgov.com/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/" />
+  <!-- Passes clicks through flyin. For most browsers, pointer-events:none handles this. -->
+  <!-- May need to include IE 10 later -->
+  <!--[if lte IE 9]>
+    <script type="text/javascript" src="http://cdn.nextgov.com/js/jquery.forward-clicks.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $(".flyin-container").forwardEvents(".flyin .label, .flyin .headline, .flyin .meta");
+      });
+    </script>
+  <![endif]-->
+
+  <link media="all" rel="stylesheet" type="text/css" href="http://cdn.nextgov.com/social_tools/css/social_tools.css?v=6.0.0" />
+  <link media="all" rel="stylesheet" type="text/css" href="http://cdn.nextgov.com/social_tools/css/social_tools_stacked.css?v=6.0.0" />
+  <link media="all" rel="stylesheet" type="text/css" href="http://cdn.nextgov.com/social_tools/css/social_tools_small_logo.css?v=6.0.0" />
+
+  <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://cdn.nextgov.com/social_tools/js/social_tools.js?v=6.0.0"></script>
+  <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  
+    <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-395628-3', 'auto');
+  
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+  
+
+  
+    <script type="text/javascript">
+  __reach_config = {
+    authors: ['Joseph Marks'],
+    channels: ['Nextgov','Nextgov::Cybersecurity'],
+    
+    date: '2017-02-08T17:36:17Z',
+    
+    iframe: true,
+    pid: '543d862cd70ba01425000003',
+    tags: ['Nextgov','Nextgov::Cybersecurity','nsa',' fbi',' james comey',' encryption',' csis'],
+    title: 'Government Must Pick Between Bad Options in Encryption Debate \u002D Nextgov.com',
+    url: 'http://www.nextgov.com/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/',
+    domain: 'www.nextgov.com',
+    ignore_errors: false
+  };
+  (function(){
+    var s = document.createElement('script');
+    s.async = true;
+    s.type = 'text/javascript';
+    s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+  })();
+</script>
+  
+
+</head>
+<body class="no-js  ng-post">
+
+  
+  <script type="text/javascript">
+//<![CDATA[
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.server="www.nextgov.com"
+s.channel="nextgov cybersecurity"
+s.pageName="government must pick between bad options in encryption debate - nextgov cybersecurity - joseph marks"
+s.prop1=""
+s.prop2="0"
+s.prop3="government must pick between bad options in encryption debate - nextgov cybersecurity - joseph marks"
+s.prop4="/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/"
+s.prop5=""
+s.prop6="Nextgov &gt; Cybersecurity"
+s.prop7="nextgov cybersecurity"
+s.prop8="nextgov cybersecurity - post"
+s.prop9=""
+s.prop10=""
+s.prop11="12:00"
+s.prop12="Wednesday"
+s.prop13="weekday"
+s.prop14=""
+s.prop15="joseph marks"
+s.prop16="nsa, fbi, james comey, encryption, csis"
+s.prop17="Government Must Pick Between Bad Options in Encryption Debate"
+s.prop18="february 08, 2017 12:36 pm"
+s.prop19="government must pick between bad options in encryption debate - nextgov cybersecurity - joseph marks"
+s.prop20=""
+s.prop21="government must pick between bad options in encryption debate - nextgov cybersecurity - joseph marks"
+s.prop22=""
+s.prop23=""
+s.prop24=""
+s.prop25=""
+s.prop26=""
+s.prop27=""
+s.prop32="False"
+s.prop34=""
+s.prop35=""
+s.prop36=""
+s.prop37=""
+s.prop38=""
+s.prop39="Error: not set"
+s.hier1="nextgov cybersecurity/post/government must pick between bad options in encryption debate"
+s.hier2=""
+s.hier3=""
+
+if ((typeof(Govexec) != "undefined") && (typeof(Govexec.get_format)=== 'function')){
+  s.prop38 = Govexec.get_format();
+}
+
+if (typeof(adblock) != 'undefined' && adblock) {
+  s.prop32 = "True";
+}
+
+// Collect referrer; override omniture referrer; clear cookie
+var referrerCookieName = "referrer:" + window.location;
+var referredThroughInterstitial = document.referrer.indexOf("interstitial.html") > -1;
+s.prop50 = (referredThroughInterstitial) ? "true" : "false";
+if (referredThroughInterstitial) {
+  if (hasCookie(referrerCookieName)) {
+    var originalReferrer = getCookie(referrerCookieName);
+
+    // Might be Typed/Bookmarked or Referrer (see layout file)
+    s.prop39 = originalReferrer;
+  } else {
+    // Referrer cookie lost
+    s.prop39 = "Referrer Lost"
+  }
+} else {
+  // Not routed through interstitial
+  if (document.referrer != "") {
+    // Not routed through interstitial; set prop39 to standard referrer
+
+    // trick for getting the hostname
+    var host_tmp = document.createElement("a");
+    host_tmp.href = document.referrer;
+
+    s.prop39 = host_tmp.hostname;
+  } else {
+    // No referrer; URL was directly entered / bookmarked
+    s.prop39 = "Typed/Bookmarked";
+  }
+}
+
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code) document.write(s_code)
+if(navigator.appVersion.indexOf('MSIE')>=0) document.write(unescape('%3C')+'\!-'+'-');
+//]]>
+</script> 
+<noscript>
+	<div>
+		<a href="http://www.omniture.com" title="Web Analytics" ><img
+src="http://metrics.govexec.com/b/ss/atlanticnextgov2012/1/H.17--NS/0"
+height="1" width="1" alt="" /></a>
+	</div>
+</noscript>
+<!--/DO NOT REMOVE/-->
+
+  
+    
+
+<div class="ng-skybox">
+  <p class="ng-skybox-title">
+    <span class="ng-skybox-title-text">
+      recommended reading
+    </span>
+    <span class="ng-skybox-title-slashes"></span>
+  </p>
+  <ul class="ng-skybox-posts">
+    
+      
+        <li class="ng-skybox-post">
+  <span class="ng-skybox-post-slashes"></span>
+  <div class="ng-skybox-post-inner">
+
+    
+
+    <a class="ng-skybox-post-link"
+      
+        href="/cio-briefing/2017/01/innovating-top-federal-chief-innovation-officers/134842/?oref=ng-skybox"
+      
+
+      
+    >
+      <span class="ng-skybox-post-title">
+         Innovating from the Top: Federal Chief Innovation Officers
+      </span>
+    </a>
+  </div>
+</li>
+      
+    
+      
+        <li class="ng-skybox-post">
+  <span class="ng-skybox-post-slashes"></span>
+  <div class="ng-skybox-post-inner">
+
+    
+
+    <a class="ng-skybox-post-link"
+      
+        href="/cybersecurity/2017/02/what-former-nsa-chief-keith-alexander-thinks-trumps-cyber-stance/135479/?oref=ng-skybox"
+      
+
+      
+    >
+      <span class="ng-skybox-post-title">
+        What Former NSA Chief Keith Alexander Thinks of Trump's Cyber Stance
+      </span>
+    </a>
+  </div>
+</li>
+      
+    
+      
+        <li class="ng-skybox-post">
+  <span class="ng-skybox-post-slashes"></span>
+  <div class="ng-skybox-post-inner">
+
+    
+
+    <a class="ng-skybox-post-link"
+      
+        href="/cybersecurity/2017/02/why-nists-framework-avoids-one-sized-fits-all-approach-cybersecurity/135481/?oref=ng-skybox"
+      
+
+      
+    >
+      <span class="ng-skybox-post-title">
+        Why NIST's Framework Avoids a One-Sized-Fits-All Approach to Cybersecurity
+      </span>
+    </a>
+  </div>
+</li>
+      
+    
+      
+        
+          <li class="ng-skybox-post ng-skybox-post-sponsor-content">
+  <span class="ng-skybox-post-slashes"></span>
+  <div class="ng-skybox-post-inner">
+
+    
+      <img class="ng-tracking-pixel" src="https://pubads.g.doubleclick.net/gampad/ad?iu=/617/nextgov.com/tracking-pixel&amp;sz=1x1&amp;t=tracking-pixel%3D00239&amp;c=12345" width="0" height="0" alt=""/>
+    
+
+    <a class="ng-skybox-post-link"
+      
+        href="http://pubads.g.doubleclick.net/gampad/clk?id=271653095&amp;iu=/617/nextgov.com/click-tracker"
+      
+
+      
+        target="_blank"
+      
+    >
+      <span class="ng-skybox-post-title">
+        Remove Cloud IT Blind Spots with Application Visibility
+      </span>
+    </a>
+  </div>
+</li>
+        
+      
+    
+  </ul>
+</div>
+  
+
+  <div class="ng-topad">
+    
+<div
+  
+  class="ad ad-topleader"
+>
+	<div class="ad-container">
+    
+    
+
+  
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/nextgov.com/section_cybersecurity/content/pid_135247"
+        data-ad-sizes="728x90,970x250"
+        
+        
+        
+          data-ad-targeting='d0c41daa-a7bc-4257-8fdb-d9d197a9c18f'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['d0c41daa-a7bc-4257-8fdb-d9d197a9c18f'] = {
+        
+          'pos': [
+            'topleader'
+          ],
+        
+          'level': [
+            '1'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+
+  
+    
+      <noscript class="ad-noscript">
+        
+          <a href="http://pubads.g.doubleclick.net/gampad/jump?tile=1&amp;sz=728x90%7C970x250&amp;c=255991066&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopleader%26level%3D1">
+            <img src="http://pubads.g.doubleclick.net/gampad/ad?tile=1&amp;sz=728x90%7C970x250&amp;c=255991066&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopleader%26level%3D1"/>
+          </a>
+        
+      </noscript>
+    
+  
+
+
+  </div>
+</div>
+
+
+  </div>
+
+  <div id="wrapper">
+    <div class="w1">
+      <div class="w2">
+        <header id="header">
+          <div class="container_12">
+
+            <div class="top-block">
+              <h1 class="logo"><a href="/?oref=ng-logo">Nextgov</a></h1>
+              
+                
+
+  <nav class="ng-header-contents">
+    <div class="ng-header-contents-toprow">
+      <span class="ng-header-contents-title">TRENDING</span>
+      <span class="ng-header-contents-title-slashes"></span>
+      <ul class="ng-social-follow">
+        <li class="ng-social-follow-item">
+          <a class="ng-social-follow-link facebook" href="http://www.facebook.com/Nextgov">facebook</a>
+        </li>
+        <li class="ng-social-follow-item">
+          <a class="ng-social-follow-link twitter" href="http://twitter.com/#!/nextgov/">twitter</a>
+        </li>
+        <li class="ng-social-follow-item">
+          <a class="ng-social-follow-link google-plus" href="https://plus.google.com/117520345336146276455" rel="publisher">google plus</a>
+        </li>
+        <li class="ng-social-follow-item">
+          <a class="ng-social-follow-link rss" href="/rss/all/">rss</a>
+        </li>
+      </ul>
+    </div>
+    <div class="ng-header-contents-bottomrow">
+      <ul class="ng-header-contents-posts">
+      
+        <li class="ng-header-contents-post">
+          <a class="ng-header-contents-post-link"
+            
+              href="/cio-briefing/2017/02/federal-information-systems-hits-20-years-gaos-high-risk-list/135467/?oref=ng-trending"
+            
+            
+          >
+            <span class="ng-header-contents-post-title">
+              GAO High-Risk List
+            </span>
+          </a>
+          
+            <span class="ng-header-contents-post-link-slashes">//</span>
+          
+        </li>
+      
+        <li class="ng-header-contents-post">
+          <a class="ng-header-contents-post-link"
+            
+              href="/defense/2017/02/outgoing-dod-cio-still-have-work-do/135499/?oref=ng-trending"
+            
+            
+          >
+            <span class="ng-header-contents-post-title">
+              DOD CIO
+            </span>
+          </a>
+          
+            <span class="ng-header-contents-post-link-slashes">//</span>
+          
+        </li>
+      
+        <li class="ng-header-contents-post">
+          <a class="ng-header-contents-post-link"
+            
+              href="/emerging-tech/2017/02/deloitte-highlights-tech-trends-watch/135456/?oref=ng-trending"
+            
+            
+          >
+            <span class="ng-header-contents-post-title">
+              Tech Trends
+            </span>
+          </a>
+          
+            <span class="ng-header-contents-post-link-slashes">//</span>
+          
+        </li>
+      
+        <li class="ng-header-contents-post">
+          <a class="ng-header-contents-post-link"
+            
+              href="/cybersecurity/2017/02/why-nists-framework-avoids-one-sized-fits-all-approach-cybersecurity/135481/?oref=ng-trending"
+            
+            
+          >
+            <span class="ng-header-contents-post-title">
+              NIST Cybersecurity Framework
+            </span>
+          </a>
+          
+            <span class="ng-header-contents-post-link-slashes">//</span>
+          
+        </li>
+      
+        <li class="ng-header-contents-post">
+          <a class="ng-header-contents-post-link"
+            
+              href="/health/2017/02/dods-next-gen-electronic-health-records-system-now-live-one-site/135474/?oref=ng-trending"
+            
+            
+          >
+            <span class="ng-header-contents-post-title">
+              DOD Health Records
+            </span>
+          </a>
+          
+            <span class="ng-header-contents-post-link-slashes">//</span>
+          
+        </li>
+      
+        <li class="ng-header-contents-post">
+          <a class="ng-header-contents-post-link"
+            
+              href="/health/2017/02/watchdog-better-data-needed-fight-medicaid-fraud/135410/?oref=ng-trending"
+            
+            
+          >
+            <span class="ng-header-contents-post-title">
+              Medicaid Fraud
+            </span>
+          </a>
+          
+        </li>
+      
+      </ul>
+      <form action="/search" method="get" class="ng-search-box search-form">
+        <fieldset class="ng-search-box-input-container">
+          <input class="ng-search-box-input ng-search-box-text" type="text" name="q" value="Search Nextgov ..."/>
+          <button class="ng-search-box-input ng-search-box-submit" type="submit">
+            <span class="ng-search-box-submit-arrow"></span>
+          </button>
+        </fieldset>
+      </form>
+    </div>
+  </nav>
+
+              
+            </div>
+          </div>
+        </header>
+
+        <nav class="skinny-nav">
+  <div class="skinny-nav-content-wrapper">
+    <ul class="skinny-nav-items">
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-technology-news"
+            href="/technology-news/?oref=ng-nav"
+          >News</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-cio-briefing"
+            href="/cio-briefing/?oref=ng-nav"
+          >CIO Briefing</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-emerging-tech"
+            href="/emerging-tech/?oref=ng-nav"
+          >Emerging Tech</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-cloud-computing"
+            href="/cloud-computing/?oref=ng-nav"
+          >Cloud</a>
+        </li>
+      
+        <li class="skinny-nav-item active">
+          <a
+            class="skinny-nav-item-link skinny-nav-cybersecurity"
+            href="/cybersecurity/?oref=ng-nav"
+          >Cybersecurity</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-mobile"
+            href="/mobile/?oref=ng-nav"
+          >Mobile</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-health"
+            href="/health/?oref=ng-nav"
+          >Health</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-defense"
+            href="/defense/?oref=ng-nav"
+          >Defense</a>
+        </li>
+      
+        <li class="skinny-nav-item">
+          <a
+            class="skinny-nav-item-link skinny-nav-big-data"
+            href="/big-data/?oref=ng-nav"
+          >Big Data</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+        <div class="main-holder container_12">
+          
+            <div id="content" class="grid_8">
+                
+  
+
+  
+
+
+
+  <section class="visual visual2">
+    <header class="heading with-background shortened">
+      <h2>
+        <span class="outer">
+          <span class="inner"><span class="inner-inner">Government Must Pick Between Bad Options in Encryption Debate</span></span>
+        </span>
+      </h2>
+    </header>
+    
+      <div class="image">
+        
+          <img src="http://cdn.nextgov.com/media/img/upload/2017/02/08/020817encryptionNG/nextgov-medium.jpg" alt="" title="" height="284" width="471" />
+        
+        <p>
+          
+          
+            enzozo/Shutterstock.com
+          
+        </p>
+      </div>
+    
+
+    
+      <div class="info-column with-image">
+        
+
+<div class="meta meta2">
+    
+  <span class="author">
+    By 
+    <a href="/voices/joseph-marks/2352/" >Joseph Marks</a>
+  </span>
+    
+    
+    <span class="date">February 8, 2017</span>
+    
+      <a href="#disqus_thread" class="comments disqus-count" data-disqus-identifier="post_135247"></a>
+    
+</div>
+
+        
+          
+            <a href="http://www.govexec.com/newsletters/?oref=ng-subscribe" class="subscribe-link" rel="external">
+  <strong class="title-newsletter"><span>NEXTGOV</span><br/><span>NEWSLETTER</span></strong>
+  <span class="btn-subscribe">SUBSCRIBE</span>
+</a>
+          
+        
+
+        
+  <section class="stories">
+    <header>
+      <h2>
+        
+          related stories
+        
+      </h2>
+    </header>
+    
+      <div class="block">
+        <a href="/cybersecurity/2016/07/fbi-director-time-discuss-encryption-something-terrible-happens/130287/?oref=ng-relatedstories">FBI Director: Time to Discuss Encryption Before 'Something Terrible Happens'</a>
+        
+          <a href="/cybersecurity/2016/07/fbi-director-time-discuss-encryption-something-terrible-happens/130287/?oref=ng-relatedstories#disqus_thread" class="comments disqus-count" data-disqus-identifier="post_130287"></a>
+        
+      </div>
+    
+      <div class="block">
+        <a href="/cybersecurity/2016/04/heres-how-much-fbi-paid-hackers-break-iphone/127725/?oref=ng-relatedstories">Here’s How Much the FBI Paid Hackers to Break Into that iPhone</a>
+        
+          <a href="/cybersecurity/2016/04/heres-how-much-fbi-paid-hackers-break-iphone/127725/?oref=ng-relatedstories#disqus_thread" class="comments disqus-count" data-disqus-identifier="post_127725"></a>
+        
+      </div>
+    
+      <div class="block">
+        <a href="/defense/2016/03/five-most-colorful-moments-apple-fbi-congressional-hearing/126381/?oref=ng-relatedstories">The Five Most Colorful Moments From the Apple-FBI Congressional Hearing</a>
+        
+          <a href="/defense/2016/03/five-most-colorful-moments-apple-fbi-congressional-hearing/126381/?oref=ng-relatedstories#disqus_thread" class="comments disqus-count" data-disqus-identifier="post_126381"></a>
+        
+      </div>
+    
+      <div class="block">
+        <a href="/cybersecurity/2016/03/fbi-director-gets-schooled-security-tech-congressman/126349/?oref=ng-relatedstories">FBI Director Gets Schooled on Security Tech by Congressman</a>
+        
+          <a href="/cybersecurity/2016/03/fbi-director-gets-schooled-security-tech-congressman/126349/?oref=ng-relatedstories#disqus_thread" class="comments disqus-count" data-disqus-identifier="post_126349"></a>
+        
+      </div>
+    
+  </section>
+
+      </div>
+    
+
+    <article class="article">
+      <div class="article-holder article-for-flyin">
+        <div class="wysiwyg-container">
+
+      
+        
+        
+        <div class="share-section stacked floating with-counts" data-url="http://www.nextgov.com/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/">
+  
+  
+
+    <ul class="social-buttons">
+      <li class="social-button facebook unavailable">
+        <a href="https://www.facebook.com/dialog/feed?picture=http%3A%2F%2Fcdn.nextgov.com%2Fmedia%2Fimg%2Fupload%2F2017%2F02%2F08%2F020817encryptionNG%2Fopen-graph.jpg&redirect_uri=http%3A%2F%2Fwww.nextgov.com&link=http%3A%2F%2Fwww.nextgov.com%2Fcybersecurity%2F2017%2F02%2Fgovernment-must-pick-between-bad-options-encryption-debate%2F135247%2F&app_id=622609557824468&display=popup"
+          target="_blank"
+        >Share this on Facebook</a>
+      </li>
+      <li class="social-button twitter unavailable">
+        <a href="https://twitter.com/share?url=http%3A%2F%2Fwww.nextgov.com%2Fcybersecurity%2F2017%2F02%2Fgovernment-must-pick-between-bad-options-encryption-debate%2F135247%2F&text=Government+Must+Pick+Between+Bad+Options+in+Encryption+Debate&via=nextgov"
+          target="_blank"
+        >Tweet this on Twitter</a>
+      </li>
+      <li class="social-button google-plus unavailable">
+        <a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.nextgov.com%2Fcybersecurity%2F2017%2F02%2Fgovernment-must-pick-between-bad-options-encryption-debate%2F135247%2F"
+          target="_blank"
+        >Share this on Google Plus</a>
+      </li>
+      <li class="social-button linkedin unavailable">
+      <a href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Fwww.nextgov.com%2Fcybersecurity%2F2017%2F02%2Fgovernment-must-pick-between-bad-options-encryption-debate%2F135247%2F&mini=true&summary=The+government+faces+numerous+bad+choices+in+the+encryption+debate%2C+but+the+worst+is+doing+nothing+at+all%2C+a+think+tank+report+concludes.&source=Nextgov.com&title=Government+Must+Pick+Between+Bad+Options+in+Encryption+Debate"
+          target="_blank"
+        >Share this on LinkedIn</a>
+      </li>
+      
+      
+    </ul>
+  
+
+
+<div class="tools">
+    <ul>
+        <li>
+          <a href="javascript:Void();" class="print" rel="nofollow" onclick="window.open('/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/print/', 'print', 'width=700, height=700, scrollbars=yes');return false;">
+            Print this article</a>
+        </li>
+        <li>
+          <a href="javascript:Void();" class="email st_email_custom" displayText='Email'>Email this article</a>
+        </li>
+        <li>
+          <a href="#" id="increaseFont" class="resize">Increase size</a>
+        </li>
+    </ul>
+</div>
+
+
+</div>
+      
+
+        <div class="wysiwyg">
+          
+            <p>There are no good options for government in the debate over encrypted communication systems, a top Washington think tank declared Thursday.</p>
+
+<p>But the worst option by far would be for government to merely fret about the issue while tech companies, authoritarian nations, terrorists and cyber criminals take the lead, according to the <a href="https://csis-prod.s3.amazonaws.com/s3fs-public/publication/170203_Lewis_EffectOfEncryption_Web.pdf?Gqb5hXxckXykb3WAphuoVHrHfDTwuFkN">report</a> from the Center for Strategic and International Studies.</p>
+
+<p>While the report authors stop short of endorsing a particular fix for the challenge encryption poses to law enforcement, they do conclude the risk posed by encryption &ldquo;has not reached the level that justifies restrictions or design mandates&rdquo; and that &ldquo;the encryption issue law enforcement faces, while frustrating, is currently manageable.&rdquo;</p>
+
+<p><strong>&raquo; Get the best federal technology news and ideas delivered right to your inbox. <a href="http://www.nextgov.com/f/nextgov-today-form/?oref=ng-article-intext">Sign up here.</a></strong></p>
+
+<p>That conclusion, which will please technologists and civil liberties advocates, puts the report authors in line with an earlier <a href="http://www.nextgov.com/cybersecurity/2016/12/dont-undermine-encryption-bipartisan-congressional-report-warns/134061/">report</a> by the House Judiciary and Energy and Commerce committees. House Judiciary Chairman Bob Goodlatte also described not undermining encryption as his committee&rsquo;s <a href="http://www.nextgov.com/cybersecurity/2017/02/undermining-encryption-not-option-house-judiciary-chair-pledges/135065/">starting point</a> this Congress.</p>
+
+<p>Other possible responses posed by the report carry their own challenges, however.</p>
+<div
+  
+  class="ad ad-injector"
+>
+	<div class="ad-container">
+    
+    
+
+  
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/nextgov.com/section_cybersecurity/content/pid_135247"
+        data-ad-sizes="300x300"
+        
+        
+        
+          data-ad-targeting='d7c73602-6d1e-4475-a3b4-f8d5fab68c62'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['d7c73602-6d1e-4475-a3b4-f8d5fab68c62'] = {
+        
+          'pos': [
+            'injector'
+          ],
+        
+          'level': [
+            '0'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+
+  
+    
+      <noscript class="ad-noscript">
+        
+          <a href="http://pubads.g.doubleclick.net/gampad/jump?sz=300x300&amp;c=665493384&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dinjector%26level%3D0">
+            <img src="http://pubads.g.doubleclick.net/gampad/ad?sz=300x300&amp;c=665493384&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dinjector%26level%3D0"/>
+          </a>
+        
+      </noscript>
+    
+  
+
+
+  </div>
+</div>
+
+
+
+<p>If the U.S. government does nothing to respond to the encryption challenge or allows the issue to fall victim to the &ldquo;usual Washington theatrics of commissions, enquiries, special committees&nbsp;and other mechanisms to give the appearance of movement,&rdquo; it risks ceding ground to terrorists and cybercriminals, the report states.</p>
+
+<p>A &ldquo;laissez-faire&rdquo; approach would also squander the U.S.&rsquo;&nbsp;opportunity to lead a global response to the global encryption challenge when there are no strong contenders to take over that leadership role, according to the report.</p>
+
+<p>The long-simmering debate over end-to-end encryption systems, which shield the contents of encrypted communications even from the companies that host those communication tools, burst into the public briefly last year when Apple fought back against an FBI demand that&nbsp;the company help crack into an encrypted iPhone used by San Bernardino shooter Syed Farook.</p>
+
+<p>The FBI ultimately withdrew its demand before the issue was settled in a courtroom when an unnamed company sold the bureau a tool to hack into the phone without Apple&rsquo;s help. FBI Director James Comey, who supports a &ldquo;legislative fix&rdquo; to unbreakable encryption systems, has warned additional encryption showdowns are sure to arise and urged Congress to tackle the issue soberly before it must do so in crisis mode.</p>
+
+<p>The CSIS report outlines numerous methods the government could use to help law enforcement crack though encryption used by terrorists and criminals without undermining that same encryption when used by average citizens. But each of those options comes with advantages and drawbacks of its own.</p>
+
+<p>The easiest method would be for the FBI and law enforcement to invest in their own hacking prowess to exploit vulnerabilities in encryption systems or in the way criminals and terrorists use them. That approach, however, risks &ldquo;creat[ing] an arms race dynamic between law enforcement and companies that could quickly escalate costs for both sides,&rdquo; the report notes.</p>
+
+<p>Police could also ramp up their reliance on metadata: information such as the date, time, sender and recipient of a message that typically cannot be encrypted and that forms the basis for much intelligence work. Metadata will remain less useful than content however, especially as evidence presented in a court of law, the report concludes.</p>
+
+<p>The government could create a new organization focused solely on aiding police decryption efforts, but it&rsquo;s unlikely such an agency&rsquo;s decryption efforts could keep pace with companies&rsquo; encryption capabilities, the report states.</p>
+
+<p>Finally, Congress could expand the legal authority for the National Security Agency, with its superior hacking skills, to help law enforcement conduct investigations. It would be very difficult, however, to admit into evidence anything NSA collected using classified tools and the nation&rsquo;s premier digital spy agency would likely be unwilling to risk exposing its sources and methods&mdash;and undermining its spying capabilities&mdash;for the sake of a single conviction.&nbsp;</p>
+
+          
+        </div>
+      </div>
+      </div>
+
+      
+
+
+      
+        <div >
+          <div id="ng-recommended-posts"
+               class="related-partner-posts box recommended-for-you ng">
+            <h5>recommended for you</h5>
+            <ul class="partner-related-posts"></ul>
+          </div>
+        </div>
+      
+
+      
+
+
+      
+
+      
+        <div class="post-threatwatch-promo">
+          
+            <a href="/cybersecurity/threatwatch/?oref=TW_article_module">
+              <h3>Threatwatch Alert</h3>
+              <div><h4>Thousands of cyber attacks occur each day</h4></div>
+              <span>See the latest threats</span>
+            </a>
+          
+        </div>
+      
+
+      
+      <div class="btn-holder">
+        <a href="#comments-container" class="btn-green">ADD A COMMENT</a>
+      </div>
+      
+
+    </article>
+  </section>
+
+  
+
+  
+
+  
+
+  <section class="featured earthbox">
+    <div class="col">
+      <ul>
+        
+          
+            <li >
+              <a href="http://www.govexec.com/govexec-sponsored/2017/01/data-analytics-can-improve-dod-decision-support/134384/?oref=earthbox" target="_blank">
+                <img src="http://cdn.nextgov.com/media/img/upload/2017/01/31/dod_2/skybox.png"
+     alt=""
+     title=""
+     
+     height="89" 
+     width="148" 
+/>
+
+
+                <strong>Data Analytics Can Improve DoD Decision Support</strong>
+              </a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="http://www.govexec.com/govexec-sponsored/2016/12/remove-cloud-it-blind-spots-application-visibility/134227/?oref=earthbox" target="_blank">
+                <img src="http://cdn.nextgov.com/media/img/upload/2016/12/29/cloud_image_--_riverbed_2/skybox.png"
+     alt=""
+     title=""
+     
+     height="89" 
+     width="148" 
+/>
+
+
+                <strong>Remove Cloud IT “Blind Spots” with Application Visibility</strong>
+              </a>
+            </li>
+          
+        
+          
+            <li >
+              <a href="http://www.defenseone.com/sponsored/2017/01/augmented-intelligence-requires-human-direction/134433/?oref=earthbox" target="_blank">
+                <img src="http://cdn.nextgov.com/media/img/upload/2017/02/03/ibm_ai_iBBvp3y/skybox.png"
+     alt=""
+     title=""
+     
+     height="89" 
+     width="148" 
+/>
+
+
+                <strong>Augmented Intelligence Requires Human Direction</strong>
+              </a>
+            </li>
+          
+        
+          
+            <li class="omega">
+              <a href="http://www.govexec.com/govexec-sponsored/2017/01/-123-aims-strengthen-government-enterprise-risk-management/134386/?oref=earthbox" target="_blank">
+                <img src="http://cdn.nextgov.com/media/img/upload/2017/02/03/kpmg_skybox/skybox.png"
+     alt=""
+     title=""
+     
+     height="89" 
+     width="148" 
+/>
+
+
+                <strong>A-123 Aims to Strengthen Government with Enterprise Risk Management</strong>
+              </a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </section>
+
+  
+
+
+
+  <section class="sponsor-area ad-converser-outer-container">
+    <div id="no-bg"  class="stories sponsor-area2">
+    <header class="heading">
+      <h2>FROM OUR SPONSORS</h2>
+    </header>
+      
+<div
+  
+  class="ad ad-converser"
+>
+	<div class="ad-container">
+    
+    
+
+  
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/nextgov.com/section_cybersecurity/content/pid_135247"
+        data-ad-sizes="600x300"
+        
+        
+        
+          data-ad-targeting='8a24eb0f-eab2-40c9-810d-49932875ca94'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['8a24eb0f-eab2-40c9-810d-49932875ca94'] = {
+        
+          'pos': [
+            'converser'
+          ],
+        
+          'level': [
+            '2'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+
+  
+    
+      <noscript class="ad-noscript">
+        
+          <a href="http://pubads.g.doubleclick.net/gampad/jump?tile=2&amp;sz=600x300&amp;c=566057269&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dconverser%26level%3D2">
+            <img src="http://pubads.g.doubleclick.net/gampad/ad?tile=2&amp;sz=600x300&amp;c=566057269&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dconverser%26level%3D2"/>
+          </a>
+        
+      </noscript>
+    
+  
+
+
+  </div>
+</div>
+
+
+    </div>
+  </section>
+
+  
+    <section class="sponsor-area full-width ad-converser-alt">
+      
+      <div id="sponsored-posts">
+        <header class="heading">
+          <h2 class="mark-heading">sponsored</h2>
+        </header>
+        <ul>
+        
+          <li>
+            <a href="http://www.defenseone.com/news/2014/10/d-brief/96299/?oref=ng-sponsored" class="link">Get Smart. Get The D Brief.  <span class="arrow"></span></a> Subscribe to Defense One&#39;s new national security newsletter.
+          </li>
+         
+        </ul>
+      </div>
+    </section>
+  
+
+  
+  <section class="comments-block">
+    <header class="heading">
+      <h2 class="mark-heading">JOIN THE DISCUSSION</h2>
+    </header>
+    <p class="legal">
+      By using this service you agree not to post material that is obscene, harassing, defamatory, or
+      otherwise objectionable. Although Nextgov does not monitor comments posted to this site (and has
+      no obligation to), it reserves the right to delete, edit, or move any material that it deems to
+      be in violation of this rule.
+    </p>
+  </section>
+  <section id="comments-container" class="comments-area">
+    <div id="disqus_thread"></div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+    
+    
+      var disqus_category_id ='1428860';
+    
+    //]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+    var disqus_shortname = 'nextgov';
+    var disqus_identifier = 'post_135247';
+    
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    //]]>
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+    <div id="static_comments" style="display:none;"></div>
+  </section>
+  
+
+            </div>
+            <aside id="sidebar" class="grid_4">
+              
+  
+    
+                
+                  
+<div
+  
+  class="ad ad-topblock"
+>
+	<div class="ad-container">
+    
+    
+
+  
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/nextgov.com/section_cybersecurity/content/pid_135247"
+        data-ad-sizes="300x250,300x1000,300x600"
+        
+        
+        
+          data-ad-targeting='ee6c815a-664d-4a4b-9a72-739adcaeed5d'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['ee6c815a-664d-4a4b-9a72-739adcaeed5d'] = {
+        
+          'pos': [
+            'topblock'
+          ],
+        
+          'level': [
+            '3'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+
+  
+    
+      <noscript class="ad-noscript">
+        
+          <a href="http://pubads.g.doubleclick.net/gampad/jump?tile=3&amp;sz=300x600%7C300x250%7C300x1000&amp;c=928928852&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopblock%26level%3D3">
+            <img src="http://pubads.g.doubleclick.net/gampad/ad?tile=3&amp;sz=300x600%7C300x250%7C300x1000&amp;c=928928852&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dtopblock%26level%3D3"/>
+          </a>
+        
+      </noscript>
+    
+  
+
+
+  </div>
+</div>
+
+
+                
+
+                
+                  
+                  
+                    <div class="side-block">
+                      <h3>PROMOTIONS</h3>
+                      <ul class="list">
+
+                      
+                        <li>
+                          <a href="http://www.nextgov.com/assets/innovating-top-federal-chief-innovation-officers/portal/?oref=ngpromotions" target="_blank">
+                            <img src="http://cdn.nextgov.com/media/img/upload/2017/01/25/innovation_cover/promoted.png"
+     alt=""
+     title=""
+     
+     height="50" 
+     width="80" 
+/>
+
+
+                            <span class="text-holder">
+
+                              
+                              <span class="sponsored">eBook</span>
+                              
+
+                            <strong>Innovating from the Top: Federal Chief Innovation Officers</strong> // his eBook explores the presence of a chief innovation officer—and how the job allows him or her to directly influence an agency’s tech policy, workplace culture or acquisitions within each federal government agency.
+
+                            </span>
+                          </a>
+                        </li>
+                      
+                        <li>
+                          <a href="http://www.nextgov.com/assets/2017-it-trends-forecast-ebook/portal/?oref=ngpromotions" target="_blank">
+                            <img src="http://cdn.nextgov.com/media/img/upload/2016/12/14/large_cover/promoted.png"
+     alt=""
+     title=""
+     
+     height="50" 
+     width="80" 
+/>
+
+
+                            <span class="text-holder">
+
+                              
+                              <span class="sponsored">eBook</span>
+                              
+
+                            <strong>2017 Federal IT Trends Forecast </strong> // At Nextgov, we partnered with Forrester Research to get its analysts’ take on what government technologies will be hot in 2017. Hint: Expect cyber, data and emerging technologies such as virtual reality to remain in the spotlight, while areas like customer service will see less momentum.
+
+                            </span>
+                          </a>
+                        </li>
+                      
+                      </ul>
+                    </div>
+                  
+                
+
+                
+
+
+<div class="ng-series-rail">
+  <img
+    class="ng-series-rail-header ng-series-rail-logo"
+    src="http://cdn.nextgov.com/nextgov/images/fitara-forward.png"
+    alt="FITARA Forward"
+  />
+  <div
+    
+      class="ng-series-rail-post ng-series-rail-post-with-img"
+    
+  >
+    
+      <a
+        class="ng-series-rail-post-img-container ng-series-rail-post-link"
+        href="/technology-news/tech-insider/2017/01/fitara-must-become-catalyst-change-federal-it/134801/?oref=fitara-module"
+      >
+        <img src="http://cdn.nextgov.com/media/img/upload/2017/01/23/012317modernizationNG/nextgov-series-rail.jpg"  />
+      </a>
+    
+    <a
+      class="ng-series-rail-post-title ng-series-rail-post-link"
+      href="/technology-news/tech-insider/2017/01/fitara-must-become-catalyst-change-federal-it/134801/?oref=fitara-module"
+    >
+      FITARA Must Become the Catalyst for Change in Federal IT
+    </a>
+    <a class="ng-series-rail-more" href="/cio-briefing/fitara-path-forward/127392/?oref=fitara-module">
+      See all coverage
+      <span class="ng-series-rail-more-arrow"></span>
+    </a>
+  </div>
+  <p class="ng-series-rail-underwriter">
+    Underwritten by
+    
+      <a class="ng-series-rail-underwriter-link" href="http://pubads.g.doubleclick.net/gampad/clk?id=125562335&amp;iu=/617/govexec.com/emailads" target="_blank">
+        <span class="ng-series-rail-underwriter-name">Dell</span>
+        <img class="ng-series-rail-underwriter-img" src="/media/dellemcintel_36h_(1).png"/>
+      </a>
+    
+  </p>
+</div>
+
+
+                <div class="side-block">
+                  <h3>FREE NEWSLETTERS</h3>
+                  <form action="/newsletters/subscribe/" data-form-name="right-column-subscribe" method="post" id="newsletter-signup" class="newsletters-form">
+                    <input type="hidden" name="newsletter_signup_source" value="ng-right-rail"/>
+
+                    <fieldset>
+                      <div class="form-block">
+                        <ul class="form-list">
+                          <li>
+                            <input type="checkbox" name="newsletter:newsletter_ng_today" id="newsletter:newsletter_ng_today" class="checkbox" value="1" >
+                            <label for="newsletter:newsletter_ng_today">Nextgov Today</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="newsletter:newsletter_ng_health_it" id="newsletter:newsletter_ng_health_it" class="checkbox" value="1"  >
+                            <label for="newsletter:newsletter_ng_health_it">Health IT</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="newsletter:newsletter_rf_today" id="newsletter:newsletter_rf_today" class="checkbox" value="1"  >
+                            <label for="newsletter:newsletter_rf_today">Route Fifty Today</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="newsletter:newsletter_research_and_insights" id="newsletter:newsletter_research_and_insights" class="checkbox" value="1"  >
+                            <label for="newsletter:newsletter_research_and_insights">Research &amp; Insights</label>
+                          </li>
+                          <li>
+                            <input type="checkbox" name="newsletter:newsletter_ng_fitara_forward" id="newsletter:newsletter_ng_fitara_forward" class="checkbox" value="1" />
+                            <label for="newsletter:newsletter_ng_fitara_forward">FITARA Forward</label>
+                          </li>
+                        </ul>
+                        <div class="btn-holder">
+                          <a href="http://www.govexec.com/newsletters/" class="link">see all</a>
+                        </div>
+                        <div class="text-box">
+                          <input type="text" id="email_address" name="email_address" value="Enter your email address here..." class="text">
+                        </div>
+                      </div>
+                      <input type="submit" value="subscribe" class="btn-submit">
+                    </fieldset>
+                  </form>
+                </div>
+
+                
+                  
+                    
+<div
+  
+  class="ad ad-bottomblock"
+>
+	<div class="ad-container">
+    
+    
+
+  
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/nextgov.com/section_cybersecurity/content/pid_135247"
+        data-ad-sizes="300x250"
+        
+        
+        
+          data-ad-targeting='a377d6ae-a5be-4a79-b6dc-b5896afdbac1'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['a377d6ae-a5be-4a79-b6dc-b5896afdbac1'] = {
+        
+          'pos': [
+            'bottomblock'
+          ],
+        
+          'level': [
+            '4'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+
+  
+    
+      <noscript class="ad-noscript">
+        
+          <a href="http://pubads.g.doubleclick.net/gampad/jump?tile=4&amp;sz=300x250&amp;c=569800216&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dbottomblock%26level%3D4">
+            <img src="http://pubads.g.doubleclick.net/gampad/ad?tile=4&amp;sz=300x250&amp;c=569800216&amp;iu=%2F617%2Fnextgov.com%2Fsection_cybersecurity%2Fcontent%2Fpid_135247&amp;t=noscript%3Dtrue%26referring_domain%3DTyped%252FBookmarked%26pos%3Dbottomblock%26level%3D4"/>
+          </a>
+        
+      </noscript>
+    
+  
+
+
+  </div>
+</div>
+
+
+                  
+                
+
+                
+
+
+
+<div class="side-block">
+  <h3>blogs</h3>
+  <ul class="list list2">
+    
+    
+    
+    
+      <li>
+        <a href="/emerging-tech/emerging-tech-blog/2017/02/come-see-how-government-using-drones-good/135548/?oref=voicesmodule">
+          <img src="http://cdn.nextgov.com/nextgov/images/blog-sidebar-emerging-tech-blog.jpg?v=6.0.0" alt="Emerging Tech" width="142" height="54" >
+          <span class="text-holder"><strong>Tech + Tequila: Come See How the Government is Using Drones for Good </strong><em class="text">Emerging Tech <em class="author">by 
+    Frank Konkel</em></em></span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/technology-news/tech-insider/2017/02/5-lessons-former-agency-customer-experience-leader/135296/?oref=voicesmodule">
+          <img src="http://cdn.nextgov.com/nextgov/images/blog-sidebar-tech-insider.jpg?v=6.0.0" alt="Tech Insider" width="142" height="54" >
+          <span class="text-holder"><strong>5 Lessons From a Former Agency Customer Experience Leader </strong><em class="text">Tech Insider <em class="author">by 
+    Stephanie Thum</em></em></span>
+        </a>
+      </li>
+    
+      <li>
+        <a href="/cio-briefing/wired-workplace/2017/02/silicon-valleys-gender-gap-result-computer-game-marketing-20-years-ago/135494/?oref=voicesmodule">
+          <img src="http://cdn.nextgov.com/nextgov/images/blog-sidebar-wired-workplace.jpg?v=6.0.0" alt="Wired Workplace" width="142" height="54" >
+          <span class="text-holder"><strong>Silicon Valley’s Gender Gap Is the Result of Computer-Game Marketing 20 Years Ago </strong><em class="text">Wired Workplace <em class="author">by 
+    TL Andrews</em></em></span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+                
+  
+    
+                  
+
+<div class="side-block">
+	<h3 class="text-links">sponsored links</h3>
+	<ul class="list list3">
+    <script type="text/javascript" src="http://jlinks.industrybrains.com/jsct?sid=885&amp;ct=GOVERNMENT_EXECUTIVE_ROS&amp;num=5&amp;layt=3&amp;fmt=simp"></script>
+	
+	</ul>
+</div>
+
+                
+  
+
+              
+  
+
+            </aside>
+          
+        </div>
+        
+      </div>
+    </div>
+    <div id="gutter">
+      
+<div
+  
+  class="ad ad-gutter"
+>
+	<div class="ad-container">
+    
+    
+
+  
+    
+      <script
+        class="ad-stub ad-stub-desktop"
+        data-ad-unit="/617/nextgov.com/section_cybersecurity/content/pid_135247"
+        data-ad-sizes="460x800"
+        
+        
+        
+          data-ad-targeting='aeaff3d0-e7f3-4bd4-95f0-9130c7ee4dfe'
+        
+        
+      >
+      
+        GEMG.GPT.targeting.slot['aeaff3d0-e7f3-4bd4-95f0-9130c7ee4dfe'] = {
+        
+          'pos': [
+            'gutter'
+          ],
+        
+          'level': [
+            '5'
+          ]
+        
+        };
+      
+      </script>
+    
+  
+
+  
+    
+  
+
+
+  </div>
+</div>
+
+
+    </div>
+
+    <footer id="footer">
+      <div class="footer-holder">
+        <div class="footer-frame container_12">
+          <strong class="logo"><a href="/">Nextgov</a></strong>
+          <div class="menus-holder">
+            <div class="row">
+              <ul class="footer-menu">
+                <li><a href="/about/">About</a></li>
+                <li><a href="/about/contact/">Contact Us</a></li>
+                <li><a href="http://www.govexec.com/events/">Events</a></li>
+                <li><a href="http://www.govexecmediagroup.com/">Advertise</a></li>
+                <li><a href="/about/list-rentals/">List Rentals</a></li>
+                <li><a href="/about/site-map/">Site Map</a></li>
+                <li><a href="/about/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="/about/terms-and-conditions/">Terms &amp; Conditions</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <ul class="footer-menu footer-menu2">
+                <li><a href="http://www.govexec.com/?oref=ng-footer">GovExec</a></li>
+                <li><a href="http://www.defenseone.com/?oref=ng-footer">Defense One</a></li>
+                <li><a href="http://www.routefifty.com/?oref=ng-footer">Route Fifty</a></li>
+                <li><a href="http://qz.com/" rel="external">Quartz</a></li>
+                <li><a href="http://www.nationaljournal.com/" rel="external">National Journal</a></li>
+                <li><a href="http://www.theatlantic.com/" rel="external">The Atlantic</a></li>
+                <li><a href="http://www.citylab.com/" rel="external">CityLab</a></li>
+              </ul>
+            </div>
+            <p class="copyright">&copy; 2017 by National Journal Group, Inc. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  
+    <!-- Newsletter modal -->
+    <div id="modal_window">
+      <div id="modal_window_content"><img src="http://cdn.nextgov.com/images/ajax-loading.gif" width="32" height="32" alt="Loading..." /></div>
+      <a href="#" class="close_button"><img src="http://cdn.nextgov.com/images/close-circle.png" alt="Close window" width="30" height="30" /></a>
+    </div>
+  
+
+  
+  
+    
+    
+    
+    
+    <div
+    id="flyin-container" 
+    class="flyin-container"
+    data-flyin-setting='sailthru'
+    data-flyin-site-name='Nextgov'
+    data-flyin-site-url='http://www.nextgov.com'
+    data-flyin-concierge-tag='site-nextgov'
+    data-flyin-title='Government Must Pick Between Bad Options in Encryption Debate'
+    data-flyin-url='http://www.nextgov.com/cybersecurity/2017/02/government-must-pick-between-bad-options-encryption-debate/135247/'
+    data-flyin-curated-urls=''
+    data-flyin-fb-app-id='622609557824468'
+    data-flyin-twitter-handle='@Nextgov'
+    data-flyin-facebook-site-name='Nextgov'
+    data-flyin-native-article-url='/emerging-tech/2017/02/spacexs-launch-weekend-monument-space-capitalismjust-ask-nasa/135560/'
+    data-flyin-native-article-title='SpaceX’s Launch This Weekend Is a Monument to Space Capitalism—Just Ask NASA'
+  >
+
+  <div class="flyin" id="flyin_open">
+    <div class="label">
+      <a href="#" id="closer">Close [ x ]</a>
+      <strong>More from Nextgov</strong>
+    </div>
+    <div id="sailthru-flyin">
+
+    </div>
+  </div>
+</div>
+
+<div class="flyin-container">
+  <div class="flyin closed" id="flyin_closed">
+    <div class="label">
+      &nbsp;
+    </div>
+    <div class="headline">
+      <a href="#" id="opener">Next Story</a>
+    </div>
+    <div class="meta addthis_toolbox">
+      &nbsp;
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+  
+    
+      <div class="conversion-module-bootstrap">
+  <div class="conversion-module hide conversion-module-mobile-disabled">
+    <div class="conversion-module-close">
+      <button class="conversion-module-close-btn close" type="button" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="conversion-module-nl-signup">
+      
+        
+
+<form
+  class="conversion-module-signup-form"
+  action='/newsletters/subscribe/conversion-module/nextgov-today/'
+  method="post"
+>
+  <fieldset>
+    <legend class="conversion-module-signup-form-title">
+      <span class="conversion-module-signup-form-title-line1">
+        Get top federal technology stories and news alerts in your inbox.
+      </span>
+      <span class="conversion-module-signup-form-title-line2">
+        Sign up for Nextgov Today
+      </span>
+    </legend>
+
+    
+
+    
+
+  
+    <input type="hidden" name="source_signup" value="ng-mod-conv-dt" id="conversion-module-nl-source_signup" />
+  
+    <input type="hidden" name="run_through_id" id="conversion-module-nl-run_through_id" />
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-email form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-nl-email"
+  >
+    My email is ...
+  </label>
+  
+    <input id="conversion-module-nl-email" type="text" placeholder="email@example.com" class="form-control input-lg" name="email" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-employer form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-nl-employer"
+  >
+    I work for ...
+  </label>
+  
+    <select id="conversion-module-nl-employer" class="form-control input-lg" name="employer">
+<option value="" selected="selected">--select--</option>
+<option value="Military">Military</option>
+<option value="Federal Government">Federal Government</option>
+<option value="State/Local Government">State/Local Government</option>
+<option value="Contractor">Contractor</option>
+<option value="Private Sector">Private Sector</option>
+<option value="Retired">Retired</option>
+</select>
+  
+</div>
+
+  
+
+
+
+    
+  <div class="conversion-module-signup-form-optin form-group">
+    
+    <div class="checkbox">
+      <label class="conversion-module-signup-form-label" for="conversion-module-nl-optin">
+        <input checked="checked" type="checkbox" name="optin" id="conversion-module-nl-optin" />
+        <span class="conversion-module-signup-form-label-text">Yes, Nextgov can email me on behalf of carefully selected companies and organizations.</span>
+      </label>
+    </div>
+  </div>
+
+
+    <div class="conversion-module-signup-form-submit form-group">
+      <button class="conversion-module-signup-form-submit-btn btn btn-default" type="submit">
+        <span class="conversion-module-signup-form-submit-text">
+          <span class="conversion-module-signup-form-submit-arrow"></span>
+          Sign up
+        </span>
+      </button>
+    </div>
+
+    <a class="conversion-module-signup-form-link" href="/about/privacy-policy/" target="_blank">View Privacy Policy</a>
+
+  </fieldset>
+</form>
+
+      
+    </div>
+    <div class="conversion-module-nl-thankyou hide">
+      
+        
+
+<form
+  class="conversion-module-signup-form"
+  action='/newsletters/subscribe/conversion-module/nextgov-today/thank-you/'
+  method="post"
+>
+  <fieldset>
+    <legend class="conversion-module-signup-form-title">
+      <span class="conversion-module-signup-form-title-line1">
+        Thank you.
+      </span>
+      <span class="conversion-module-signup-form-title-line2">
+        Help us tailor content specifically for you:
+      </span>
+    </legend>
+
+    
+
+    
+
+  
+    <input type="hidden" name="source_signup" value="ng-mod-conv-dt" id="conversion-module-thank-you-source_signup" />
+  
+    <input type="hidden" name="run_through_id" id="conversion-module-thank-you-run_through_id" />
+  
+    <input type="hidden" name="email" id="conversion-module-thank-you-email" />
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-full_name form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-full_name"
+  >
+    Full Name
+  </label>
+  
+    <input id="conversion-module-thank-you-full_name" type="text" placeholder="" class="form-control input-lg" name="full_name" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-agency_department form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-agency_department"
+  >
+    Agency/Department
+  </label>
+  
+    <select id="conversion-module-thank-you-agency_department" placeholder="" class="form-control input-lg" name="agency_department">
+<option value="" selected="selected">--select--</option>
+<option class="agency-department-military-branch" value="Air Force">Air Force</option>
+<option class="agency-department-military-branch" value="Army">Army</option>
+<option class="agency-department-military-branch" value="Coast Guard">Coast Guard</option>
+<option class="agency-department-military-branch" value="Navy">Navy</option>
+<option class="agency-department-military-branch" value="Marines">Marines</option>
+<option class="agency-department-federal-government" value="Department of Agriculture">Department of Agriculture</option>
+<option class="agency-department-federal-government" value="Department of Commerce">Department of Commerce</option>
+<option class="agency-department-federal-government" value="Department of Education">Department of Education</option>
+<option class="agency-department-federal-government" value="Department of Energy">Department of Energy</option>
+<option class="agency-department-federal-government" value="EPA">EPA</option>
+<option class="agency-department-federal-government" value="Executive Office of the President/Vice President">Executive Office of the President/Vice President</option>
+<option class="agency-department-federal-government" value="GSA">GSA</option>
+<option class="agency-department-federal-government" value="Department of Defense">Department of Defense</option>
+<option class="agency-department-federal-government" value="Department of HHS">Department of HHS</option>
+<option class="agency-department-federal-government" value="Department of Homeland Security">Department of Homeland Security</option>
+<option class="agency-department-federal-government" value="Department of HUD">Department of HUD</option>
+<option class="agency-department-federal-government" value="Department of Interior">Department of Interior</option>
+<option class="agency-department-federal-government" value="Judiciary Branch">Judiciary Branch</option>
+<option class="agency-department-federal-government" value="Office of the Secretary of Defense">Office of the Secretary of Defense</option>
+<option class="agency-department-federal-government" value="Department of Justice">Department of Justice</option>
+<option class="agency-department-federal-government" value="Department of Labor">Department of Labor</option>
+<option class="agency-department-federal-government" value="Legislative Branch">Legislative Branch</option>
+<option class="agency-department-federal-government" value="NASA">NASA</option>
+<option class="agency-department-federal-government" value="OMB">OMB</option>
+<option class="agency-department-federal-government" value="OPM">OPM</option>
+<option class="agency-department-federal-government" value="SSA">SSA</option>
+<option class="agency-department-federal-government" value="Department of State">Department of State</option>
+<option class="agency-department-federal-government" value="Department of Transportation">Department of Transportation</option>
+<option class="agency-department-federal-government" value="Department of Treasury">Department of Treasury</option>
+<option class="agency-department-federal-government" value="USPS">USPS</option>
+<option class="agency-department-federal-government" value="Department of Veterans Affairs">Department of Veterans Affairs</option>
+<option class="agency-department-federal-government" value="Other Agency">Other Agency</option>
+<option class="agency-department-state-and-local" value="Government Association">Government Association</option>
+<option class="agency-department-state-and-local" value="County">County</option>
+<option class="agency-department-state-and-local" value="Municipal">Municipal</option>
+<option class="agency-department-state-and-local" value="Higher Education">Higher Education</option>
+<option class="agency-department-state-and-local" value="K-12 Education">K-12 Education</option>
+<option class="agency-department-state-and-local" value="Special District">Special District</option>
+<option class="agency-department-state-and-local" value="State">State</option>
+</select>
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-job_function form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-job_function"
+  >
+    Job Function
+  </label>
+  
+    <select id="conversion-module-thank-you-job_function" placeholder="" class="form-control input-lg" name="job_function">
+<option value="" selected="selected">--select--</option>
+<option value="Agency Leadership">Agency Leadership</option>
+<option value="Business &amp; Operations">Business &amp; Operations</option>
+<option value="Technology Management">Technology Management</option>
+<option value="Financial/Contract Management">Financial/Contract Management</option>
+<option value="Human Resource Management">Human Resource Management</option>
+<option value="Sales &amp; Marketing">Sales &amp; Marketing</option>
+<option value="Other">Other</option>
+</select>
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-phone form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-phone"
+  >
+    Phone number
+  </label>
+  
+    <input id="conversion-module-thank-you-phone" type="text" placeholder="" class="form-control input-lg" name="phone" />
+  
+</div>
+
+  
+
+  
+    
+
+<div class="conversion-module-signup-form-state_and_zip form-group">
+  <label
+    class="conversion-module-signup-form-label control-label"
+    for="conversion-module-thank-you-state_and_zip_0"
+  >
+    Zip code
+  </label>
+  
+    <input id="conversion-module-thank-you-state_and_zip_0" placeholder="" type="text" name="state_and_zip_0" class="form-control input-lg" /><input id="conversion-module-thank-you-state_and_zip_1" placeholder="" type="hidden" name="state_and_zip_1" class="form-control input-lg" />
+  
+</div>
+
+  
+
+
+
+    
+    
+
+    <div class="conversion-module-signup-form-submit form-group">
+      <button class="conversion-module-signup-form-submit-btn btn btn-default" type="submit">
+        <span class="conversion-module-signup-form-submit-text">
+          <span class="conversion-module-signup-form-submit-arrow"></span>
+          Submit
+        </span>
+      </button>
+    </div>
+
+    <a class="conversion-module-signup-form-link" href="/about/privacy-policy/" target="_blank">View Privacy Policy</a>
+
+  </fieldset>
+</form>
+
+      
+    </div>
+    
+      
+
+<div class="conversion-module-download-section hide">
+  <p class="conversion-module-download-section-message">
+    Thank you for subscribing to newsletters from Nextgov.com.<br/>
+    We think these reports might interest you:
+  </p>
+  <ul class="conversion-module-downloads">
+    
+      <li class="conversion-module-download">
+        
+        <p class="conversion-module-download-title">It’s Time for the Federal Government to Embrace Wireless and Mobility</p>
+        <p class="conversion-module-download-description">The United States has turned a corner on the adoption of mobile phones, tablets and other smart devices,
+outpacing traditional desktop and laptop sales by a wide margin. This issue brief discusses the state of wireless and mobility in federal government and outlines why now is the time to embrace these technologies in government. </p>
+        <a 
+          class="conversion-module-download-link" 
+          href="/assets/sponsored-embrace-wireless-and-mobility.pdf?registration-funnel=ng-mod-conv-dt" 
+          target="_blank"
+          
+        >
+          
+            View
+          
+          <span class="gemg-icon icon-ico-arrowdown"></span>
+        </a>
+      </li>
+    
+      <li class="conversion-module-download">
+        
+        <p class="conversion-module-download-title">Featured Content from RSA Conference: Dissed by NIST</p>
+        <p class="conversion-module-download-description">Learn more about the latest draft of the U.S. National Institute of Standards and Technology guidance document on authentication and lifecycle management.</p>
+        <a 
+          class="conversion-module-download-link" 
+          href="/assets/featured-content-rsa-conference.pdf?registration-funnel=ng-mod-conv-dt" 
+          target="_blank"
+          
+        >
+          
+            View
+          
+          <span class="gemg-icon icon-ico-arrowdown"></span>
+        </a>
+      </li>
+    
+      <li class="conversion-module-download">
+        
+        <p class="conversion-module-download-title">A New Security Architecture for Federal Networks</p>
+        <p class="conversion-module-download-description">Federal government networks are under constant attack, and the number of those attacks is increasing. This issue brief discusses today&#39;s threats and a new model for the future. </p>
+        <a 
+          class="conversion-module-download-link" 
+          href="/assets/sponsored-new-security-architecture.pdf?registration-funnel=ng-mod-conv-dt" 
+          target="_blank"
+          
+        >
+          
+            View
+          
+          <span class="gemg-icon icon-ico-arrowdown"></span>
+        </a>
+      </li>
+    
+      <li class="conversion-module-download">
+        
+        <p class="conversion-module-download-title">Going Agile:Revolutionizing Federal Digital Services Delivery</p>
+        <p class="conversion-module-download-description">Here’s one indication that times have changed: Harriet Tubman is going to be the next face of the twenty dollar
+bill. Another sign of change? The way in which the federal government arrived at that decision. </p>
+        <a 
+          class="conversion-module-download-link" 
+          href="/assets/sponsored-going-agile.pdf?registration-funnel=ng-mod-conv-dt" 
+          target="_blank"
+          
+        >
+          
+            View
+          
+          <span class="gemg-icon icon-ico-arrowdown"></span>
+        </a>
+      </li>
+    
+      <li class="conversion-module-download">
+        
+        <p class="conversion-module-download-title">Software-Defined Networking</p>
+        <p class="conversion-module-download-description">So many demands are being placed on federal information technology networks, which must handle
+vast amounts of data, accommodate voice and video, and cope with a multitude of highly connected devices
+while keeping government information secure from cyber threats. This issue brief discusses the state of SDN in the federal government and the path forward. </p>
+        <a 
+          class="conversion-module-download-link" 
+          href="/assets/sponsored-software-defined-networking.pdf?registration-funnel=ng-mod-conv-dt" 
+          target="_blank"
+          
+        >
+          
+            View
+          
+          <span class="gemg-icon icon-ico-arrowdown"></span>
+        </a>
+      </li>
+    
+      <li class="conversion-module-download">
+        
+        <p class="conversion-module-download-title">The New IP: Moving Government Agencies Toward the Network of The Future</p>
+        <p class="conversion-module-download-description">Federal IT managers are looking to modernize legacy network infrastructures that are taxed by growing
+demands from mobile devices, video, vast amounts of data, and more. This issue brief discusses the federal government network landscape, as well as market, financial force drivers for network modernization. </p>
+        <a 
+          class="conversion-module-download-link" 
+          href="/assets/sponsored-new-ip.pdf?registration-funnel=ng-mod-conv-dt" 
+          target="_blank"
+          
+        >
+          
+            View
+          
+          <span class="gemg-icon icon-ico-arrowdown"></span>
+        </a>
+      </li>
+    
+  </ul>
+  <p class="conversion-module-download-section-intent">
+    When you download a report, your information may be shared with the
+    underwriters of that document.
+  </p>
+  <button class="conversion-module-download-section-btn btn btn-default" type="button">
+    <span class="conversion-module-download-section-btn-text">
+      Finished <span class="gemg-icon icon-ico-checkmark"></span>
+    </span>
+  </button>
+  <a class="conversion-module-signup-form-link" href="/about/privacy-policy/" target="_blank">Privacy Policy</a>
+</div>
+
+    
+  </div>
+</div>
+
+    
+  
+
+  
+
+    
+      
+      
+    
+
+    <script type="text/javascript">
+//<![CDATA[
+    var disqus_shortname = 'nextgov';
+    var disqus_all_shortnames = {'routefifty': 'routefifty', 'defenseone': 'defenseone', 'govexec': 'govexec', 'nextgov': 'nextgov'};
+    (function () {
+        var scriptElement = document.createElement('script'); scriptElement.async = true;
+        scriptElement.type = 'text/javascript';
+        scriptElement.src = 'http://cdn.nextgov.com/js/custom_disqus_count_ng.js?v=2.1.4';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(scriptElement);
+    }());
+    //]]>
+</script>
+
+    
+  
+    <script
+  src="//ak.sail-horizon.com/onsite/personalize.v0.0.4.min.js"
+  type="text/javascript"
+   data-sailthru-setup="true" 
+></script>
+  
+  <script type="text/javascript">
+    $(function() {
+      GEMG.Flyin.init();
+      GEMG.SPM.init(
+        'site-nextgov',
+        ["nextgov_article_recommended", "nextgov_article_flyin"]
+      );
+    });
+  </script>
+
+  
+
+  
+    <!-- Chartbeat bottom START -->
+<script type="text/javascript">
+  var _sf_async_config={};
+  _sf_async_config.uid = 17396;
+  _sf_async_config.domain = "nextgov.com";
+  
+    _sf_async_config.useCanonical = true;
+  
+  
+  _sf_async_config.title = "Government Must Pick Between Bad Options in Encryption Debate";
+  
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement("script");
+      e.setAttribute("language", "javascript");
+      e.setAttribute("type", "text/javascript");
+      e.setAttribute("src", "//static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != "function") ?
+    loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!-- Chartbeat bottom END -->
+
+  
+
+  <script type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+  
+  <!-- audience pixels -->
+<script type='text/javascript'>
+  var axel = Math.random() + '';
+  var a = axel * 10000000000000;
+  document.write('<img src="http://pubads.g.doubleclick.net/activity;dc_iu=/617/DFPAudiencePixel;ord=' + a + ';dc_seg=135756850?" width=1 height=1 border=0/>');
+</script>
+<noscript>
+  <img src="http://pubads.g.doubleclick.net/activity;dc_iu=/617/DFPAudiencePixel;ord=1;dc_seg=135756850?" width=1 height=1 border=0/>
+</noscript>
+
+  <script src="http://cdn.nextgov.com/js/handlebars-v1.3.0.js?v=6.0.0"></script>
+  <script id="handlebars-flyin" class="handlebars-template" type="text/x-handlebars-template">
+    
+<div class="share-section small-logo"
+   data-url="{{{share_url}}}">
+
+    <ul class="social-buttons">
+      <li class="social-button facebook unavailable">
+        <a href="https://www.facebook.com/dialog/feed?link={{{facebook_link}}}&amp;description={{{facebook_description}}}&amp;display=popup&amp;app_id={{{facebook_app_id}}}&amp;redirect_uri={{{facebook_redirect_uri}}}"
+          target="_blank"
+        >Share this on Facebook</a>
+      </li>
+      <li class="social-button twitter unavailable">
+        <a href="https://twitter.com/share?via={{{twitter_via}}}&amp;text={{{twitter_text}}}&amp;url={{{twitter_url}}}"
+          target="_blank"
+        >Tweet this on Twitter</a>
+      </li>
+      <li class="social-button google-plus unavailable">
+        <a href="https://plus.google.com/share?url={{{googleplus_url}}}"
+          target="_blank"
+        >Share this on Google Plus</a>
+      </li>
+      <li class="social-button linkedin unavailable">
+      <a href="http://www.linkedin.com/shareArticle?mini=true&amp;title={{{linkedin_title}}}&amp;source={{{linkedin_source}}}&amp;summary={{{linkedin_summary}}}&amp;url={{{linkedin_url}}}"
+          target="_blank"
+        >Share this on LinkedIn</a>
+      </li>
+      <li class="social-button comment disqus-handlebar">
+        <a class="disqus-count"
+          href="{{{disqus_share_url}}}?oref=flyin-disqus#disqus_thread"
+          data-disqus-identifier="post_{{{disqus_id}}}"
+        >Leave a comment</a>
+      </li>
+    </ul>
+</div>
+  </script>
+  
+  
+    <script src="//my.hellobar.com/8ae21c40b5c769c517be5afd24e3534b2573eb1e.js" type="text/javascript" charset="utf-8" async="async"></script>
+  
+
+
+
+  <script>
+  
+    GEMG.GPT.body.init();
+  
+  </script>
+
+  
+<script type="text/javascript">
+$(function() {
+  GEMG.SessionCoach.init("http://shared.govexec.com", false);
+});
+</script>
+
+
+</body>
+</html>

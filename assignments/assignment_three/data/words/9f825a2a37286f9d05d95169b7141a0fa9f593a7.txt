@@ -1,0 +1,410 @@
+
+
+
+
+
+
+
+
+
+
+
+Free Trial of Farsight DNSDB for Splunk®
+Call now: +1-650-489-7919
+Contact Us
+Login
+
+
+
+
+
+
+
+ Toggle navigation    
+
+
+
+
+
+
+Solutions 
+
+Solutions 
+
+
+Overview
+
+Threat Intelligence Team
+Newly Observed Domains
+Newly Observed Hostnames
+DNS Changes
+DNS Errors
+
+SOC Team
+DNSDB
+Farsight DNSDB App for Splunk
+
+Incident Response Team
+Brand Sentry
+Domain Sentry
+
+Technology
+Security Information Exchange
+
+
+
+
+Resources 
+
+Resources 
+
+
+Overview
+Technical
+FAQ
+
+
+
+
+News & Events 
+
+News & Events 
+
+
+Overview
+News
+Videos
+Events
+Press releases
+
+
+
+Blog
+
+
+Company 
+
+Company 
+
+
+About
+Team
+Jobs
+Contacts
+
+
+Order services
+Request demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Visit us at RSA Conference 2017
+Learn more and get your registration code
+
+
+
+
+
+
+
+
+
+Real-time global internet visibility!
+We provide the world’s most security-conscious organizations with threat intelligence to protect their users and infrastructure View our solutions 
+
+
+
+
+
+
+
+
+Latest news
+
+
+
+
+
+
+
+Connecting the Dots with Farsight DNSDBtm
+Resources
+
+
+
+
+
+
+
+
+
+Farsight Security DNSDB App for Phantom Automates DNS Lookups To Improve Productivity, Speed and Accuracy For Cybersecurity Investigations
+Press Releases
+
+
+
+
+
+
+
+
+
+Farsight's DNSDB Plugin for Splunk
+Our blog
+
+
+
+
+
+
+
+
+
+
+Previous
+
+
+
+Next
+
+
+
+
+
+
+
+We offer
+Real-time contextual information to increase the value of threat data for the enterprise, government and security industries.
+
+
+
+Research incidents with context using past and present domain, IP and hostname information.
+Detect anomalies across the Internet in real-time with actionable insights to block them.
+Protect users and infrastructure by proactively blocking bad actors before they cause damage.
+
+
+
+
+
+
+
+
+
+
+
+Answers we provide
+
+ 
+How does the outside world see my network?
+
+ 
+What are the newest domain threats in the last 30 seconds?
+
+ 
+What are the newest threats to my brand online?
+
+ 
+How is my network being abused, phished or copied?
+
+
+Download Newly Observed Domains Case Study 
+
+
+
+
+
+
+
+
+
+
+Why Farsight Security
+Leader in real-time Passive DNS solutions for threat intelligence context and cybercrime forensics data.
+
+
+2TB
+DNS data collected daily
+
+
+13+
+Billion domain names
+
+
+200K+
+Observations/second
+
+
+1Gb/sec
+Real-time streaming data
+
+
+
+
+
+
+
+
+
+
+
+“Farsight’s DNSDB provides a fantastic window into the world’s DNS infrastructure. Besides correlating domains and IP addresses. The data is terrific for learning about how organizations use dns.”
+Jason Schultz
+Threat Research Technical Lead, Cisco Systems
+
+
+
+
+
+
+
+
+
+
+
+Case study
+
+
+
+
+
+  
+
+ ThreatConnect, Inc. Case Study
+ThreatConnect used Farsight Security's DNSDB™ to investigate Anthem breach-related activity. Download
+
+
+
+
+
+
+
+  
+
+
+Red Canary, Inc. Case Study
+Red Canary uses Farsight NOD to enrich and confirm their findings during an investigation.
+Download
+
+
+
+
+
+
+From the blog
+
+
+Creating a Heatmap From SIE Channel 204 Data
+Geolocating & Mapping IP Address Data From SIE
+Farsight's DNSDB Plugin for Splunk
+
+
+
+
+
+
+
+
+
+
+
+
+
+Protect against cybercriminal activity in real-time. Request demo
+Email: sales@farsightsecurity.com Phone: +1-650-489-7919 
+
+
+
+
+
+
+
+
+
+Solutions
+Overview
+Newly Observed Domains
+Newly Observed Hostnames
+DNS Changes
+DNS Errors
+DNSDB
+Brand Sentry
+Domain Sentry
+Security Information Exchange
+
+
+
+
+Resources
+Overview
+Technical
+FAQ
+
+
+
+
+News & Events
+Overview
+News
+Videos
+Events
+Press releases
+
+
+
+
+Company
+About
+Team
+Jobs
+Contacts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© 2016 Farsight Security. All Rights Reserved.
+Privacy PolicyTerms & conditions
+
+
+
+
+
+
+
+
+

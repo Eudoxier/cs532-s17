@@ -1,0 +1,1066 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+General: Boeing Heard Nothing ‘Unreleasable’ in F-35 Call With Trump
+
+
+
+
+
+It’s About to Cost a Lot More Money to Launch a Nuclear Bomb
+
+
+
+
+
+THIS WEEK: How to do business with SOCOM; Aerospace and defense exports soared in 2016
+
+
+
+
+
+Donald Trump Will Defeat ISIS
+
+
+
+
+
+We’re Ignoring the Best Bad Option for Syria
+
+
+
+
+
+Sponsor Content
+How Well Do You Know the Role of Social Media in Defense?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Defense One
+
+
+
+
+
+
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+LinkedIn
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+
+
+→
+
+
+
+
+
+
+
+News
+
+
+Threats
+
+
+Politics
+
+
+Business
+
+
+Tech
+
+
+Ideas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Suspicious Death and Three Cyber Arrests Point to a New Twist in the US Election Hack
+
+
+
+
+
+
+
+
+
+
+
+        By
+        Steve LeVine
+      
+
+
+              Quartz
+            
+
+
+          Read bio
+
+
+
+
+          February 1, 2017
+        
+
+
+Topics
+
+
+
+
+
+
+                        Russia
+                      
+
+
+
+
+
+
+
+                        Intelligence
+                      
+
+
+
+
+
+
+
+
+
+
+                  Alexei Nikolsky/AP
+                  
+
+
+
+
+
+    AA
+Font size +
+
+Print
+
+
+            Russian President Vladimir Putin listens during a meeting of the council of trustees of the Moscow State University (MGU) in Moscow on Wednesday, Jan. 25, 2017.
+          
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+LinkedIn
+
+
+
+
+Email this article
+
+
+
+
+
+
+
+
+
+
+        By
+        Steve LeVine
+      
+
+
+              Quartz
+            
+
+
+          Read bio
+
+
+
+
+          February 1, 2017
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                Some wonder why the Kremlin wanted this news out. Others called it 'too big not to leak.’
+              
+
+
+
+
+In the eerie world of international espionage, nothing of late has topped the official US accusation that Russian president Vladimir Putin plotted to put US president Donald Trump in power. Now, the tale has become even more salacious with the reported arrest of three Russian cyber experts, one of whom was perp-walked out of a meeting with a bag over his head, and the suspicious death of a former KGB general.
+Russia experts say the episode suggests a possible purge related to the US election hack. In a twist of Kremlinology, others say Putin may only be pretending to have arrested and killed cyber operatives. Or, say still others, neither observation may be true. “Can we really trust Russian news?” asks Dave Aitel, a former analyst with the US National Security Agency, and now CEO of Immunity, a cyber intrusion protection firm.
+The story of the arrests appears to have broken at the Russian newspaper Kommersant on Jan. 25. The paper reported (link in Russian) the arrests of Sergei Mikhailov, who heads the Center for Information Security, an arm of the Russian intelligence agency known by the acronym FSB; and Ruslan Stoyanov, a senior researcher with Kaspersky Lab, the computer security company.
+Both men were last seen the first week of December. The independent newspaper Novaya Gazeta reported that (Russian), in a Stalin-style touch, a bag was suddenly thrown over Mikhailov’s head during a meeting of fellow intelligence officers, and he was led out. Mikhailov has not been seen since. The third arrest was of Dmitry Dokuchayev, a hacker known by the name “Forb.”
+
+Subscribe
+
+Receive daily email updates:
+Subscribe to the Defense One daily.
+Be the first to receive updates.
+
+
+
+
+
+
+
+
+In all three cases, the charge is treason, according to Russian news accounts.
+
+See also: By Lifting Sanctions, Trump Could Hand Russia’s Military a Lethal Technological Advantage
+And How Putin Weaponized Wikileaks to Influence the Election of an American President
+
+From here, the story gets hazy. One way or another, the arrests—according to the Russian media accounts—are linked to the country’s hacking of the US election. One suggestion is that those arrested are among the sources that led US intelligence agencies to conclude categorically that Russia hacked the election, that Putin ordered the hack, and that the objective was to help Trump.
+Russian media suggest that one or more of the trio either leaked details of Russia’s role directly to American intelligence, or to Christopher Steele, the former British spy believed to have compiled the so-called Trump dossier. The dossier is a 35-page memo that suggested various links between Trump and Russia, involving information that allegedly made him vulnerable to extortion.
+Which leads to the Dec. 26 death of a former KGB general named Oleg Erovinkin. An initial news account at the Russian website Life.ru said Erovinkin had been killed, shot twice in the head. That version quickly morphed into vaguer accounts of a death-under-investigation.
+But the larger interesting fact related to Erovinkin’s death was that Steele’s memo cites a a source close to Igor Sechin, the Putin intimate and chairman of Rosneft. And Erovinkin—a long-time senior aide to Sechin—must be that source, a number of the news accounts speculate. Thus, according to these news accounts, there is a link between the Steele memo and Erovinkin’s death.
+A big question is why the Kremlin, given its controls over almost all the country’s media, wanted this news out. Among the guesses is that the Kremlin wants firmer confirmation for the US, and perhaps the world, that it in fact did hack the US election.
+Aitel, the cyber expert, says the answer is simpler—that the news was “too big not to leak. It is not going to go unnoticed that Kaspersky’s lead researcher went missing.”
+
+
+
+
+                    Steve LeVine, Quartz's Washington correspondent, writes about the intersection of energy, technology and geopolitics, a juncture of some of the most important and quickly developing events and trends on the planet. Most recently, LeVine founded and ran The Oil and the Glory, a blog on energy and ...
+                  
+
+                    Full bio
+
+
+
+
+
+More from
+
+
+The tactics Russian intelligence uses to harass foreign diplomats
+To protest Trump, Mexicans locked arms to form a friendly human wall along the US border
+Russia’s call for a “post-fake era” sounds like fake news, as other countries warn of a propaganda blitz
+
+
+
+
+
+
+Facebook
+
+
+
+
+Twitter
+
+
+
+
+LinkedIn
+
+
+
+
+Email this article
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Most Read
+
+
+
+1
+
+
+Can a ‘Comparable’ Super Hornet Steal Orders from the F-35C?
+
+
+
+2
+
+
+So, American Mass Shooters and Islamic Terrorists Do Have Something in Common
+
+
+
+3
+
+
+This Is The Most Important Technology On the F-35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+Receive daily email updates:
+Subscribe to the Defense One daily.
+Be the first to receive updates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Don't Miss
+
+
+
+
+
+
+            Charted: Here’s How the Cost of Each Version of the F-35 is Changing
+          
+
+
+
+
+
+            For the Army, ‘Cyber War’ Is Quickly Becoming Just War
+          
+
+
+
+
+
+            Washington’s Dangerous Drums of War on North Korea
+          
+
+
+
+
+
+            Take Off the Pentagon’s Gloves in the ISIS War? Not So Fast.
+          
+
+
+
+
+
+            The Drones of ISIS
+
+
+
+
+
+
+            Pentagon Building Cruise Missile Shield to Defend US Cities From Russia
+          
+
+
+
+
+
+            The Middle East Has 4 Minutes To Act If Iran Fires a Missile
+          
+
+
+
+
+
+UPDATED: Mapping Trump’s National-Security Conflicts of Interest
+          
+
+
+
+
+
+            Weapons of the Syrian War: Airpower
+          
+
+
+
+
+
+
+
+Show Comments
+Loading...
+Hide Comments
+
+
+
+          By using this service you agree not to post material that is obscene, harassing, defamatory, or
+          otherwise objectionable. Although Defenseone.com does not monitor comments posted to this site (and
+          has no obligation to), it reserves the right to delete, edit, or move any material that it deems
+          to be in violation of this rule.
+        
+
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+« Previous
+DoD wants more 2017 funds; US ups support for Syrian Kurds; Escalation in Ukraine; How lifting sanctions could help Russia’s military; and just a bit more...
+
+
+
+Next »
+CIA, ODNI Get Exemption from Trump's Hiring Freeze
+
+
+
+
+
+
+
+
+
+General: Boeing Heard Nothing ‘Unreleasable’ in F-35 Call With Trump
+
+
+
+
+
+It’s About to Cost a Lot More Money to Launch a Nuclear Bomb
+
+
+
+
+
+THIS WEEK: How to do business with SOCOM; Aerospace and defense exports soared in 2016
+
+
+
+
+
+Donald Trump Will Defeat ISIS
+
+
+
+
+
+We’re Ignoring the Best Bad Option for Syria
+
+
+
+
+
+Sponsor Content
+How Well Do You Know the Role of Social Media in Defense?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+« Previous
+DoD wants more 2017 funds; US ups support for Syrian Kurds; Escalation in Ukraine; How lifting sanctions could help Russia’s military; and just a bit more...
+
+
+
+Next »
+CIA, ODNI Get Exemption from Trump's Hiring Freeze
+
+
+
+
+
+
+Defense One
+
+
+
+About
+Contact Us
+Events
+Advertise
+Site Map
+Privacy Policy
+Terms & Conditions
+
+
+Government Executive
+Nextgov
+Quartz
+National Journal
+The Atlantic
+CityLab
+
+© 2017 by National Journal Group, Inc. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Close [ x ]
+More from DefenseOne
+
+
+
+
+
+
+
+
+       
+    
+
+Next Story
+
+
+       
+    
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+
+        News, analysis, and ideas driving the future of U.S. defense: straight to your inbox.
+      
+
+
+
+            Sign up for Defense One Today
+          
+
+
+
+
+
+
+
+    My email is ...
+  
+
+
+
+
+    I work for ...
+  
+
+--select--
+Military
+Federal Government
+State/Local Government
+Contractor
+Private Sector
+Retired
+
+
+
+
+
+
+Also get The D Brief, your daily source for insights and analysis of the latest in defense news
+
+
+
+
+
+
+
+Yes, Defense One can email me on behalf of carefully selected companies and organizations.
+
+
+
+
+
+
+
+          Sign up
+        
+
+
+View Privacy Policy
+
+
+
+
+
+
+
+
+        Thank you.
+      
+
+
+
+            Help us tailor content specifically for you:
+          
+
+
+
+
+
+
+
+
+    Full Name
+  
+
+
+
+
+    Agency/Department
+  
+
+--select--
+Air Force
+Army
+Coast Guard
+Navy
+Marines
+Department of Agriculture
+Department of Commerce
+Department of Education
+Department of Energy
+EPA
+Executive Office of the President/Vice President
+GSA
+Department of Defense
+Department of HHS
+Department of Homeland Security
+Department of HUD
+Department of Interior
+Judiciary Branch
+Office of the Secretary of Defense
+Department of Justice
+Department of Labor
+Legislative Branch
+NASA
+OMB
+OPM
+SSA
+Department of State
+Department of Transportation
+Department of Treasury
+USPS
+Department of Veterans Affairs
+Other Agency
+Government Association
+County
+Municipal
+Higher Education
+K-12 Education
+Special District
+State
+
+
+
+
+    Job Function
+  
+
+--select--
+Agency Leadership
+Business & Operations
+Technology Management
+Financial/Contract Management
+Human Resource Management
+Sales & Marketing
+Other
+
+
+
+
+    Phone number
+  
+
+
+
+
+    Zip code
+  
+
+
+
+
+
+
+          Submit
+        
+
+
+View Privacy Policy
+
+
+
+
+
+    Thank you for subscribing to newsletters from DefenseOne.com.
+    We think these reports might interest you:
+  
+
+
+Software-Defined Networking
+So many demands are being placed on federal information technology networks, which must handle
+vast amounts of data, accommodate voice and video, and cope with a multitude of highly connected devices
+while keeping government information secure from cyber threats. This issue brief discusses the state of SDN in the federal government and the path forward. 
+
+          
+            View
+          
+          
+
+
+
+Military Readiness: Ensuring Readiness with Analytic Insight
+To determine military readiness, decision makers in defense organizations must develop an understanding of complex inter-relationships among readiness variables. For example, how will an anticipated change in a readiness input really impact readiness at the unit level and, equally important, how will it impact readiness outside of the unit? 
+ 
+Learn how to form a more sophisticated and accurate understanding of readiness and make decisions in a timely and cost-effective manner.
+
+          
+            View
+          
+          
+
+
+
+Cyber Risk Report: Cybercrime Trends from 2016
+In our first half 2016 cyber trends report, SurfWatch Labs threat intelligence analysts noted one key theme – the interconnected nature of cybercrime – and the second half of the year saw organizations continuing to struggle with that reality. The number of potential cyber threats, the pool of already compromised information, and the ease of finding increasingly sophisticated cybercriminal tools continued to snowball throughout the year.
+
+
+          
+            View
+          
+          
+
+
+
+A New Security Architecture for Federal Networks
+Federal government networks are under constant attack, and the number of those attacks is increasing. This issue brief discusses today's threats and a new model for the future. 
+
+          
+            View
+          
+          
+
+
+
+Information Operations: Retaking the High Ground
+Today's threats are fluent in rapidly evolving areas of the Internet, especially social media. Learn how military organizations can secure an advantage in this developing arena.
+
+          
+            View
+          
+          
+
+
+
+
+    When you download a report, your information may be shared with the
+    underwriters of that document.
+  
+
+
+      Finished 
+
+
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

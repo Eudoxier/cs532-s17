@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Client Side Detection - Webinject - RAT - Rogue apps - Android Overlay Attacks</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/overrides.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate-custom.css" rel="stylesheet">
+    <link href="css/font-raleway.css" rel="stylesheet">
+    <link href="css/font-lato.css" rel="stylesheet"> 
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+<div id="navbar-main">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                <a class="navbar-brand" href="#home">Client Side Detection</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#csd" class="smoothScroll"> CSD</a></li>
+                    <li><a href="#features" class="smoothScroll"> Features</a></li>
+                    <li><a href="#casestudy" class="smoothScroll"> Case study</a></li>
+ 					<li><a href="/blog.html" class="smoothScroll">Blog</a></li>
+                    <li><a href="#company" class="smoothScroll"> Company</a></li>
+                    <li><a href="#contact" class="smoothScroll"> Request a demo</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+</div>
+
+<!-- ==== HEADERWRAP ==== -->
+<div id="headerwrap" name="home">
+    <header class="clearfix">
+        <div><span class="headertitle">Adaptive Banking Malware Detection</span></div>
+        <div><span class="headersub">Webinjects - RAT - Android Overlay - Rogue apps</span></div>
+        <a href="#contact" class="smoothScroll btn btn-lg">Request a product demo</a>
+    </header>
+</div>
+
+<!-- ==== CSD ==== -->
+<div id="csd" name="csd">
+    <div class="container">
+        <div class="row white">
+            <h2 class="centered">CSD</h2>
+            <hr>
+            <div class="col-md-6"><img class="img-responsive" src="img/mac-dashboard.jpg" align=""></div>
+            <div class="col-md-6">
+                <h3>What is CSD for Web & Android?</h3>
+                <p>
+                    CSD for Web performs detection against Web based banking malware attacks such as Webinjects and Remote Access Trojan (RAT) sessions. <br><br>CSD for Android is a security library that integrates into a native Android app and performs detection of rogue apps and Android Overlay Attacks such as Marcher and Slempo Android malware families.
+                </p>
+                <h3>Proactive and adaptive fraud detection</h3>
+                <p>
+                    CSD has been created with proactive analysis and adaptability of ever changing banking malware attacks in mind. After many years of experience as malware consultants within anti-cybercrime teams of financial institutions we have learned that adaptability of detection approaches is the strongest weapon against everyday malware changes. In addition, CSD’s core detection engine relies on a proactive fraud detection approach without the need of updating blacklist signatures.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==== FEATURES ==== -->
+<div id="features" name="features">
+    <div class="container">
+        <div class="row">
+            <h2 class="centered">FEATURES</h2>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <!-- FEATURE 1 -->
+                <div class="col-md-4 ">
+                    <div class="grid mask">
+                        <figure>
+                            <a data-toggle="modal" href="#feature1Modal">
+                                <img class="img-responsive" src="img/features/proactivedetection.png" alt="">
+                            </a>
+                            <figcaption>
+                                <a data-toggle="modal" href="#feature1Modal" class="btn btn-default">More Details</a>
+                            </figcaption>
+                        </figure>
+                        <span class="subtitle"><strong class="fa fa-dot-circle-o"></strong> &nbsp; <strong>Proactive detection approach</strong></span>
+                    </div>
+                </div>
+
+                <!-- FEATURE 2 -->
+                <div class="col-md-4">
+                    <div class="grid mask">
+                        <figure>
+                            <a data-toggle="modal" href="#feature2Modal">
+                                <img class="img-responsive" src="img/features/config.png" alt="">
+                            </a>
+                            <figcaption>
+                                <a data-toggle="modal" href="#feature2Modal" class="btn btn-default">More Details</a>
+                            </figcaption>
+                        </figure>
+                        <span class="subtitle"><strong class="fa fa-dot-circle-o"></strong> &nbsp; <strong>Detection configurations</strong></span>
+                    </div>
+                </div>
+
+                <!-- FEATURE 3 -->
+                <div class="col-md-4">
+                    <div class="grid mask">
+                        <figure>
+                            <a data-toggle="modal" href="#feature3Modal">
+                                <img class="img-responsive" src="img/features/marcher.png" alt="">
+                            </a>
+                            <figcaption>
+                                <a data-toggle="modal" href="#feature3Modal" class="btn btn-default">More Details</a>
+                            </figcaption>
+                        </figure>
+                        <span class="subtitle"><strong class="fa fa-dot-circle-o"></strong> &nbsp; <strong>Android Overlay and Rogue Apps</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FEATURE 4 -->
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="grid mask">
+                        <figure>
+                            <a data-toggle="modal" href="#feature4Modal">
+                                <img class="img-responsive" src="img/features/clientless.png" alt="">
+                            </a>
+                            <figcaption>
+                                <a data-toggle="modal" href="#feature4Modal" class="btn btn-default">More Details</a>
+                            </figcaption>
+                        </figure>
+                        <span class="subtitle"><strong class="fa fa-dot-circle-o"></strong> &nbsp; <strong>Client-less</strong></span>
+                    </div>
+                </div>
+
+                <!-- FEATURE 5 -->
+                <div class="col-md-4">
+                    <div class="grid mask">
+                        <figure>
+                            <a data-toggle="modal" href="#feature5Modal">
+                                <img class="img-responsive" src="img/features/portal.jpg" alt="">
+                            </a>
+                            <figcaption>
+                                <a data-toggle="modal" href="#feature5Modal" class="btn btn-default">More Details</a>
+                            </figcaption>
+                        </figure>
+                        <span class="subtitle"><strong
+                                class="fa fa-dot-circle-o"></strong> &nbsp; <strong>Malware experts Portal</strong></span>
+                    </div>
+                </div>
+
+                <!-- FEATURE 6 -->
+                <div class="col-md-4">
+                    <div class="grid mask">
+                        <figure>
+                            <a data-toggle="modal" href="#feature6Modal">
+                                <img class="img-responsive" src="img/features/integration.png" alt="">
+                            </a>
+                            <figcaption>
+                                <a data-toggle="modal" href="#feature6Modal" class="btn btn-default">More Details</a>
+                            </figcaption>
+                        </figure>
+                        <span class="subtitle"><strong class="fa fa-dot-circle-o"></strong> &nbsp; <strong>Easy integration</strong></span>
+                    </div>
+                </div>
+
+                <!-- Feature 1 modal -->
+                <div class="modal fade" id="feature1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Proactive detection approach</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="img/features/proactivedetection.png" alt=""></p>
+                                <p>
+                                    CSD’s core detection engine uses a proactive detection mechanism that is based on the ‘known good’ design principle (white-list). This means that everything on the website that is not part of the original page (known good) will be marked as potential malicious and process by a malware expert in the CSD Portal (dashboard). The proactive approach allows us to detect test cases of malware writers and update the detection engine accordingly before the actual attack emerges.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 2 modal -->
+                <div class="modal fade" id="feature2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Detection configuration</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="img/features/config.png" alt=""></p>
+                                <p>
+                                The strongest part of the CSD dashboard is the configuration panel that allows malware experts to quickly change detection approaches, encryption keys or act on notification and trip wires that are triggered by malicious actors by switching between pretested detection configurations within one second.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 3 modal -->
+                <div class="modal fade" id="feature3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Android Overlay & Rogue apps</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="img/features/marcher.png" alt=""></p>
+                                <p>
+                                    Android overlay banking malware families are researched in our malware lab on a daily basis. The intel gathered from real life malware samples are used to improve detection of rogue apps. In addition, the known good approach is used in detection to build a proper intel base of potential rogue apps within the CSD Dashboard of a malware analyst.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 4 modal -->
+                <div class="modal fade" id="feature4Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Client-less</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="img/features/clientless.png" alt=""></p>
+                                <p>
+                                    CSD does not step outside the browser for security, privacy and maintenance reasons.
+                                    Hence, it does not require the bank to deploy client-software on their user’s
+                                    machine.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 5 modal -->
+                <div class="modal fade" id="feature5Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Malware experts Portal</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="img/features/portal.jpg" alt=""></p>
+                                <p>
+                                    The portal is easy to use and tailored for different user roles. Malware experts have access to advanced configurations to change or disable
+                                    detection approaches, signatures and detailed information about detections of malware.
+                                    Functional maintenance and management have access to the dashboard and get statistics of the detections over time. The dashboard also
+                                    includes geo-ip integration to show where detections are taking place.
+                                    Technical maintenance can enable or disable parts of the system.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature 6 modal -->
+                <div class="modal fade" id="feature6Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Easy integration</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="img/features/integration.png" alt=""></p>
+                                <p>
+                                    By collaborating with a large financial institution during the design of CSD we have
+                                    put many efforts in easy integration in online banking and back-end fraud engines.
+                                </p>
+                                <p>
+                                    CSD integrates in custom and 3-party backend fraud engines that handle message
+                                    formats such as JSON and XML without significant performance impact.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==== CASE STUDY ==== -->
+<div id="casestudy" name="casestudy" class="extra-top-margin-heading">
+    <div class="container">
+        <div class="row white">
+            <h2 class="centered">CASE STUDY</h2>
+            <hr>
+            <div class="col-md-6"><img class="img-responsive" src="img/abn.jpg" align=""></div>
+            <div class="col-md-6">
+                <h3>Collaboration with ABN AMRO Bank</h3>
+                <p>
+                    CSD been created in collaboration with designers, developers, and fraud experts of ABN AMRO Bank
+                    N.V. and has been successfully deployed in their online banking environment and fraud control
+                    engines for several years.
+                </p>
+                <h3>Results</h3>
+                <p>
+                    <i>"ABN AMRO Bank was able, thanks to development partner Securify, to get a reliable score on the chance that a
+                    transaction could
+                    be originated by criminals using malware. By using this score together with customer/transaction profiling,
+                    the bank remains in control on the majority of fraudulent transactions."
+                    </i>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==== COMPANY ==== -->
+<div id="company" name="company" class="extra-top-margin-heading">
+    <div class="container">
+        <div class="row white">
+            <h2 class="centered">COMPANY</h2>
+            <hr>
+            <div class="col-md-6">
+                <img class="img-responsive" src="img/securifylogo.png" align="">
+            </div>
+            <div class="col-md-6">
+                <h3>Securify B.V.</h3>
+                <p>
+                    We are a passionate team of application security specialists and malware experts that helps organizations to secure their web and mobile applications, from design to go-live.
+<br><br>
+                    We go beyond security pentesting alone. For our financial clients we are their trusted partner in malware analysis and in good collaboration improve and build fraud detection software for their large online financial landscape.
+                 </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==== CONTACT ==== -->
+<div id="contact" name="contact">
+    <div class="container">
+        <div class="row">
+            <h2 class="centered">REQUEST A DEMO</h2>
+            <hr>
+            <div class="col-md-4 centered"><i class="fa fa-map-marker fa-2x"></i>
+                <p>Securify B.V. <br>Naritaweg 106c<br>
+                    1043CA, Amsterdam</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/csdsecurify.png"/>
+            </div>
+            <div class="col-md-4">
+                <img src="img/tnr.png"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 centered">
+                <p>Fill out the form underneath in order to request a CSD demo.</p>
+                <form name="sentMessage" id="contactForm" class="form" novalidate>
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6 form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 form-group last-form-el">
+                            <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" class="form-control" rows="5" placeholder="Message"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+
+                    <div class="form-captcha">
+                        <div class="g-recaptcha" data-sitekey="6LfQ_ggUAAAAAGhtmhNxDGMfb98g-kgvEt524lo1"></div>
+                    </div>
+
+                    <button class="btn btn btn-lg" type="submit">Request demo</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8"><span class="copyright">Copyright &copy; 2016, Securify B.V. - Client Side Detection.</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li><a href="https://twitter.com/securifybv"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/securify-group"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+<!-- 
+NEVER GONNA GIVE YOU UP
+NEVER GONNA LET YOU DOWN
+-->
+</body>
+</html>

@@ -1,0 +1,792 @@
+
+
+
+
+
+
+
+
+
+IBM®
+
+Site map
+
+
+
+
+
+IBM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IBM Software
+Products
+IBM Security
+Security products
+
+
+Data security and protection
+
+
+Safeguard critical data wherever it resides
+
+
+
+
+
+
+
+
+
+
+
+
+											
+												Overview
+												
+											
+											
+
+												
+													Products
+													
+												
+											
+
+											
+												Downloads
+												
+											
+											
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IBM® Security Guardium is a comprehensive data security platform that provides a full range of capabilities – from discovery and classification of sensitive data to vulnerability assessment to data and file activity monitoring to masking, encryption, blocking, alerting and quarantining to protect sensitive data.
+Guardium helps secure sensitive data across a full range of environments – from databases to big data, cloud, file systems and more. Guardium also provides automated analysis to quickly uncover internal and external risks to sensitive data. The solution also easily adapts to changes in your IT environment – whether that includes adding new users, requiring more scalability, or adding new technologies.
+
+
+
+
+
+
+
+
+
+
+
+IBM Security Guardium helps clients support a full range of use cases – compliance initiatives, privacy initiatives, big data security projects, and projects to outthink insiders all the way through comprehensive data protection.
+IBM Security Guardium helps:
+Analyze your data risk:
+
+Discover and classify sensitive data – and uncover compliance risks – automatically
+Know who is accessing data, spot anomalies, and stop data loss with data activity monitoring across files, databases, Hadoop distributions, NoSQL platforms, and more
+Analyze data usage patterns to rapidly uncover and remediate risks with advanced, automated analytics and machine learning such as outlier detection
+A Threat Diagnostic Center scans and analyzes audited data to detect symptoms that may indicate a database attack underway – from the inside or from the outside – such as detecting SQL injections and malicious stored procedures
+A dynamic Data Protection Dashboard centralizes key indicators of data and data repository risk mitigation and compliance progress for key stakeholders, so they can see the data security heartbeat of the organization and act appropriately.
+
+Protect your critical data:
+
+Shield the business from liability with automated data compliance and extensive audit capabilities for data at rest and data in motion
+Protect critical data through encryption, masking, redaction, and dynamic blocking and alerting
+Alert or block elicit internal & external data and file access with real-time response, including identifying abnormal or suspicious behavior..
+
+Seamlessly adapt your data security to changes in your environment
+
+Support traditional and new data technologies - such as Hadoop, noSQL and Cloud
+Support your entire data protection journey – from compliance to end-to-end data protection with the same infrastructure and approach
+Reduce costs and improve results using a single data protection infrastructure for your entire environment
+
+Related solutions
+IBM Security Guardium is available to support different use cases. For example:
+IBM Security Guardium Data Protection for Databases
+IBM Security Guardium Express Data Protection for Databases
+IBM Security Guardium Data Protection for Files
+IBM Security Guardium Vulnerability Assessment
+
+Featured offers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IBM® Security Guardium® is designed to safeguard critical data, wherever it resides. This comprehensive data protection platform empowers security teams to automatically analyze what is happening across the data environment to help minimize risk, protect sensitive data from internal and external threats, and seamlessly adapt to changes that affect data security.
+IBM Security solutions for data security and protection include:
+
+
+
+
+
+
+
+IBM Security Guardium Data Protection for DatabasesProvides monitoring, threat detection analytics and protection for sensitive data in databases.
+IBM Security Guardium Express Data Protection for DatabasesEntry level solution that helps automate compliance, monitoring and auditing databases.
+IBM Security Guardium Data Protection for FilesProvides monitoring, threat detection analytics and protection for sensitive data in files and file systems.
+
+
+IBM Security Guardium Vulnerability AssessmentScan and detect vulnerabilities on a scheduled basis.
+IBM Security Guardium Data Activity MonitorMonitor access to databases and automate compliance controls.
+IBM Security Guardium Data EncryptionEncrypt and decrypt sensitive structured and unstructured data and comply with industry and regulatory requirements.
+
+
+
+
+
+All products - Data security and protection
+
+More
+
+
+
+IBM Security Guardium Data Encryption
+
+
+																
+																	IBM Security Guardium
+																	
+																
+														
+Data Encryption for DB2 and IMS Databases
+for Files
+
+
+
+IBM Security Guardium Data Protection for Big Data
+
+
+																
+																	IBM Security Guardium family
+																	
+																
+														
+IBM Security Data Privacy for Hadoop
+IBM Security Guardium Data Protection for Databases
+IBM Security Guardium Data Protection for Files
+Express Data Protection for Databases
+Vulnerability Assessment
+
+
+
+																
+																	IBM Security Guardium Products 
+																	
+																
+														
+IBM Security Guardium Data Redaction
+IBM Security Guardium Vulnerability Assessment
+
+
+
+																
+																	IBM Security Key Lifecycle Manager
+																	
+																
+														
+IBM Security Key Lifecycle Manager
+for Dell Migration Customers
+for z/OS
+
+
+
+InfoSphere Optim Data Privacy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Customer Case Studies
+ 
+
+
+
+
+
+MyEyeDr Case Study
+
+
+
+
+
+Infographics, Demos and Videos
+
+
+
+
+Morneau Shepell: Secure Sensitive Data
+ 
+Watch video
+
+
+
+
+
+
+Security starts from within
+ 
+View infographic
+
+
+
+
+ 
+
+
+
+
+Securing Big Data
+ 
+View infographic
+
+
+
+
+
+
+Security starts from within: How to protect sensitive data against internal and external threats
+ 
+Watch video
+
+
+
+
+
+
+
+
+Common customer trends for data security and protection
+ 
+Watch video
+
+
+
+
+
+
+Smarter Mainframe Data Security
+ 
+Watch video
+
+
+
+
+
+
+
+
+IBM Security Guardium: Analyze, Protect, Adapt
+ 
+Watch video
+
+
+
+
+
+
+The Forrester Total Economic Impact for IBM Security Guardium
+ 
+View infographic
+
+
+
+
+
+
+
+
+Overcome the mounting threats to your sensitive data
+ 
+View infographic (PDF, 146KB)
+
+
+
+
+
+
+Westfield Insurance: Protecting business data
+ 
+Watch video
+
+
+
+
+
+
+
+
+Progressive Insurance: Proactively Protecting Data by Creating Appropriate Controls
+ 
+Watch video
+
+
+
+
+
+
+MyEyeDr: Protection against Insider Threats
+ 
+Watch video
+
+
+
+
+
+
+
+
+Compliance is a pit stop – your destination lies ahead.
+ 
+View Infographic (86.2KB)
+
+
+
+
+
+Webcasts and Podcasts
+
+
+
+
+Avoiding the Data Compliance “Hot Seat”
+
+
+
+
+Don’t Let GDPR Blow You Away: 5 Tips to Help you Set Sail
+
+
+
+
+
+
+Compete To Win: Don’t Just Be Compliant – Be Secure!
+
+
+
+
+The Journey to GDPR: Your Guide to Data Protection Technology, Tools and Tips
+
+
+ 
+
+
+
+
+
+Criminal or Bank Teller: Who is Robbing You Blind?
+
+
+
+
+Spot Insider Threats to Data Security
+
+
+ 
+
+
+
+
+
+Big Data Opportunities Need Big Data Security
+
+
+
+
+X-Force Threat Intelligence: Fight Insider Threats and Protect Your Sensitive Data
+View on-demand recording
+
+
+
+
+
+
+It’s 2AM: Do You Know Who’s Accessing Your Sensitive Data?
+View on-demand recording
+
+
+
+
+Top tips for securing big data
+Listen to podcast
+
+
+ 
+
+
+
+
+
+218%: Your Potential ROI with the Right Data Security Solution
+View on-demand webinar
+
+
+
+
+The Road to True Data Protection
+Listen to podcast
+
+
+
+Solution Briefs, Whitepapers, and eBooks
+
+
+
+
+Finding the path to security in the big-data landscape
+ 
+Read the interactive white paper
+
+
+
+
+
+
+Secure the data that powers your business
+ 
+Read the brief
+
+
+
+
+
+
+
+
+Manage compliance and protect enterprise data
+ 
+Read the eBook
+
+
+
+
+
+
+Protecting Against Database Attacks and Insider Threats
+ 
+Read the eBook
+
+
+
+
+
+
+
+
+Four steps to a proactive big data security and privacy strategy
+ 
+Read the eBook
+
+
+
+
+
+
+Top tips for securing big data environments. Why big data doesn’t have to mean big security challenges
+ 
+Read the eBook
+
+
+
+
+
+
+
+
+Protecting your critical data with integrated security intelligence
+ 
+Read the white paper
+(352KB)
+
+
+
+
+
+
+Get smart to shut down insider threats
+ 
+Read the interactive white paper
+
+
+
+
+
+
+
+
+Taking the pain out of regulatory compliance
+ 
+Read the interactive whitepaper
+
+
+
+
+
+
+Comprehensive data protection for physical, virtual and cloud infrastructures
+ 
+Read the interactive white paper
+
+
+
+
+
+Analyst Reports
+
+
+
+
+
+The Future Of Data Security And Privacy
+Download the Forrester report
+
+
+
+
+
+
+
+Big Data Security Strategies for Hadoop Enterprise Data Lakes
+Download the Forrester report
+
+
+
+
+
+
+The Total Economic Impact of IBM Security Guardium
+ 
+Read paper
+
+
+
+
+
+
+Analyst Research: IBM X-Force Threat Intelligence Quarterly – 4Q 2015
+Learn the value of preparedness to combat the latest threats
+Download the report
+
+
+
+
+
+
+Magic Quadrant for Data Masking Technology
+A Gartner analyst report
+Read the Gartner report
+
+
+
+
+
+
+Market Guide for Data-Centric Audit and Protection
+Read the report
+
+
+
+
+
+
+
+
+IBM Security Guardium Benefit Estimator
+Try now
+
+
+
+
+
+
+
+
+
+
+												Not in United States?
+											
+
+
+Select your country from the list below to go to that country's IBM Web site
+
+Select another country.
+Algeria - French
+Argentina - Spanish
+Australia - English
+Austria - German
+Bahrain - English
+Bangladesh - English
+Belgium - English
+Bolivia - Spanish
+Brazil - Portuguese
+Bulgaria - Bulgarian
+Canada - English
+Canada - French
+Chile - Spanish
+China - Chinese
+Colombia - Spanish
+Croatia - Croatian
+Czech Republic - Czech
+Denmark - Danish
+Ecuador - Spanish
+Egypt - English
+Estonia - Estonian
+Finland - Finnish
+France - French
+Germany - German
+Hong Kong - English
+Hungary - Hungarian
+India - English
+Indonesia - English
+Ireland - English
+Italy - Italian
+Japan - Japanese
+Jordan - English
+Kuwait - English
+Latvia - Latvian
+Lebanon - English
+Lithuania - Lithuanian
+Malaysia - English
+Mexico - Spanish
+Morocco - French
+Netherlands - Dutch
+New Zealand - English
+Norway - Norwegian
+Oman - English
+Pakistan - English
+Paraguay - Spanish
+Peru - Spanish
+Philippines - English
+Poland - Polish
+Qatar - English
+Romania - Romanian
+Russia - Russian
+Saudi Arabia - English
+Serbia - Serbian
+Singapore - English
+Slovakia - Slovak
+Slovenia - Slovenian
+South Africa - English
+South Korea - Korean
+Spain - Spanish
+Sri Lanka - English
+Sweden - Swedish
+Switzerland - French
+Switzerland - German
+Taiwan - Chinese
+Thailand - English
+Tunisia - French
+Turkey - Turkish
+United Arab Emirates - English
+United Kingdom - English
+United States - English
+Uruguay - Spanish
+Venezuela - Spanish
+Vietnam - English
+
+
+
+
+
+Contact IBMConsidering a purchase?Email IBMOr call us at: 1-877-257-52271-877-257-5227Priority code: Security
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Footer links
+
+Contact
+Privacy
+Terms of use
+Accessibility
+
+
+
+
+
+
+

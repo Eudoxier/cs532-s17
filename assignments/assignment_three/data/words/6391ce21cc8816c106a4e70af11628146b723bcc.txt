@@ -1,0 +1,1380 @@
+
+
+
+
+
+
+
+Skip to content
+
+
+
+The Atlantic
+
+
+
+
+
+
+Popular
+
+
+
+
+
+Latest
+
+
+
+
+
+Sections
+
+
+
+Sections
+
+
+
+
+Politics & Policy
+Culture
+Business
+Science
+Technology
+Health
+Education
+U.S.
+Global
+News
+Notes
+
+
+
+
+Photo
+Video
+Events
+
+
+Writers
+Projects
+Next America
+
+
+
+
+
+
+
+Magazine
+
+
+
+Magazine
+
+
+
+
+Current issue
+All issues
+Manage subscription
+Subscribe
+
+
+
+
+
+
+
+More
+
+
+
+More
+
+
+
+
+
+Create account
+Your account
+
+
+Sign in
+Sign out
+
+
+
+
+
+Newsletters
+Events
+
+
+Books
+Shop
+
+
+
+
+
+
+
+View all
+
+
+
+
+Subscribe
+
+
+
+
+
+Search
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+Quick Links
+
+James Fallows
+Ta Nehisi Coates
+Manage subscription
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quick Links
+
+James Fallows
+Ta Nehisi Coates
+Manage subscription
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What Happened to Trump’s Secret Hacking Intel?
+New information that the president promised over a month ago never materialized.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Evan Vucci / AP
+
+
+
+
+
+
+
+
+
+
+
+Most Popular
+
+
+
+
+                    The Mark Zuckerberg Manifesto Is a Blueprint for Destroying Journalism
+                
+
+
+Adrienne LaFrance
+Feb 17, 2017
+
+
+
+
+
+                    'Before, Putin Was Unpredictable; Now It's Trump'
+                
+
+
+Julia Ioffe
+1:53 PM ET
+
+
+
+
+
+                    One Press Conference, Two Audiences
+                
+
+
+Conor Friedersdorf
+Feb 17, 2017
+
+
+
+
+
+                    Donald Trump’s Plan to Outsource Immigration Enforcement to Local Cops
+                
+
+
+Amanda Sakuma
+6:01 AM ET
+
+
+
+
+
+                    How to Build an Autocracy
+                
+
+
+David Frum
+Jan 30, 2017
+
+
+
+
+
+
+Kaveh Waddell
+
+Feb 7, 2017
+
+
+
+                        Technology
+
+
+
+
+Share
+
+
+Tweet
+
+
+…
+
+
+LinkedIn
+
+
+Email
+
+
+Print
+
+
+
+
+Text Size
+
+
+
+
+
+
+
+
+
+Hours before the new year, Donald Trump—then still the president-elect—was speaking to a few reporters outside Mar-a-Lago, his private club in Palm Beach, Florida. He was telling them about his doubts that the intelligence community would perform an accurate investigation into the cyberattacks that targeted Democrats in the months leading up to the election.Trump had often claimed before that it would be difficult or impossible to identify the culprit behind the attacks. The hacker could’ve been anyone, he was fond of saying: Russia, China, or some 400-pound guy in a basement in New Jersey. His earlier claims had been baseless—but this time, Trump promised, he had some evidence to back up his accusations.“I know a lot about hacking,” Trump said to the reporters, according to The New York Times. “And hacking is a very hard thing to prove. So it could be somebody else.” He was referring to the intelligence community’s determination that Russia was behind the cyberattacks.Then, a bombshell: “And I also know things that other people don’t know, and so they cannot be sure of the situation.” Asked what he was talking about, Trump replied, “You’ll find out on Tuesday or Wednesday.”Tuesday and Wednesday came and went without any new information on the cyberattacks from the president-elect. And on Friday, January 6, the intelligence community released a public version of its investigation into Russian interference in the lead-up to the election, which laid the blame for the hacking and the subsequent document leaks squarely at the feet of Vladimir Putin, Russia’s president.Trump, who was briefed on classified details not included in the public version of the report that same day, lashed out, declaring himself the victim of a “political witch hunt.” He called for a separate investigation, focused on how some classified details from the report were leaked to the press. At a press conference the following week, he got closer than ever to acknowledging Russia’s role—“As for hacking, I think it was Russian”—before tempering the admission with his trademark skepticism. “It could’ve been others also,” he said.But despite Trump’s clear dissatisfaction with the results of the intelligence report, the secret information he’d promised in December—the details Trump knew that others did not—didn’t seem to materialize.The White House didn’t respond to questions about Trump’s promise to release new information more than a month ago.A week after Trump received the classified briefing about Russia’s cyberattacks, he tweeted that he wanted to prepare his own version of the investigation, this time into the hacks themselves, rather than into the media coverage thereof. “My people will have a full report on hacking within 90 days!” Trump wrote just after 6 in the morning.A request for a White House comment about that investigation—which, based on the timeline in Trump’s tweet, would be released in April—also went unanswered.
+
+
+
+
+Share
+
+
+Tweet
+
+
+Comments
+
+
+
+
+
+
+
+
+
+
+
+Latest Video
+
+
+
+
+
+How Would Immortality Change the Way We Live?
+
+
+    Some people are taking steps now to prepare for a life without death.
+
+
+Jeremy Raff and Olga Khazan
+
+
+        
+            9:00 AM ET
+        
+        
+
+
+
+
+
+About the Author
+
+
+
+
+Kaveh Waddell is an associate editor at The Atlantic.
+
+                
+            
+        
+
+Twitter
+Facebook
+Email
+
+
+
+
+
+
+
+
+
+
+
+
+Most Popular
+
+            Presented by
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stephen Lam / Reuters
+
+The Mark Zuckerberg Manifesto Is a Blueprint for Destroying Journalism
+
+
+Adrienne LaFrance
+
+
+
+
+Lip service to the crucial function of the Fourth Estate is not enough to sustain it.
+
+It’s not that Mark Zuckerberg set out to dismantle the news business when he founded Facebook 13 years ago. Yet news organizations are perhaps the biggest casualty of the world Zuckerberg built.
+There’s reason to believe things are going to get worse.
+A sprawling new manifesto by Zuckerberg, published to Facebook on Thursday, should set off new alarm bells for journalists, and heighten news organizations’ sense of urgency about how they—and their industry—can survive in a Facebook-dominated world.
+Facebook’s existing threat to journalism is well established. It is, at its core, about the flow of the advertising dollars that news organizations once counted on. In this way, Facebook’s role is a continuation of what began in 1995, when Craigslist was founded. Its founder, Craig Newmark, didn’t actively aim to decimate newspapers, but Craigslist still eviscerated a crucial revenue stream for print when people stopped buying newspaper classifieds ads.
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alexei Druzhinin / Kremlin via Reuters
+
+'Before, Putin Was Unpredictable; Now It's Trump'
+
+
+Julia Ioffe
+
+
+
+
+Moscow grapples with a strange week in Washington.
+
+Well, that didn’t last long. As President Donald Trump wrapped up his fourth week in office, the romance between him and Russian president Vladimir Putin seemed to have cooled suddenly. The week began with the resignation of National Security Adviser Michael Flynn amid revelations that he lied about his phone calls to the Russian ambassador. Then came reports that members of the Trump team had been in repeated contact with Russian intelligence agents. It ended with Vice Admiral Bob Harward declining to replace Flynn, and Trump giving a press conference in which he said his administration is “running like a fine-tuned machine;” toyed aloud with the idea of firing on a Russian spy ship in international waters off the East Coast; and dismissed allegations of collusion between his aides and the Russian government by saying, “Russia is fake news.” It was a performance that raised eyebrows in Moscow, with one Kremlin-friendly paper saying Friday that “you need to be drunk to understand the U.S. president’s true position.”
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kevin Lamarque / Reuters
+
+One Press Conference, Two Audiences
+
+
+Conor Friedersdorf
+
+
+
+
+Viewers who watched it themselves saw a rambling, misleading performance. But those who relied on conservative cable newscasts or talk radio hosts got a very different impression.
+
+On Thursday, Donald Trump gave a press conference that was rife with untruths and evasions. Let’s begin with specific examples of demonstrable falsehoods, so that readers who are favorable to the president won’t have to trust my characterization:
+Bragging about all the electoral votes he won, Trump said, “We got 306 because people came out and voted like they've never seen before so that's the way it goes. I guess it was the biggest electoral college win since Ronald Reagan.” That is false. As CBS News notes, “In 2012, President Obama defeated his GOP rival, Mitt Romney, with 332 electoral votes. In 2008, Obama won the election against Sen. John McCain, R-Arizona, with 365 electoral votes. In 1996, President Clinton defeated Republican Bob Dole with 379 votes. In 1992, Clinton won against President George H.W. Bush, the incumbent, with 370 electoral votes. In 1988, Bush won the presidency with 426 votes.” And Trump even misstated how many votes he won. It was 304.
+“Let me tell you about the travel ban,” Trump said, referring to the executive order that his press secretary, Sean Spicer, heatedly said wasn’t a travel ban. “We had a very smooth rollout of the travel ban. But we had a bad court. Got a bad decision.” Even apart from multiple unfavorable court rulings, the roll-out was anything but smooth. There was massive confusion about whether the surprise policy would affect permanent U.S. residents with green cards. Many were detained or turned away as protesters flocked to airports. Later the administration reversed itself. Ben Wittes went deep in the weeds on the rest of the incompetent, dysfunctional implementation of the order. Trump later said, “the only problem that we had is a bad court. We had a court that gave us what I consider to be, with great respect, a very bad decision. Very bad for the safety and security of our country. The rollout was perfect.”
+Trump was asked, “Can you say whether you are aware that anyone who advised your campaign had contacts with Russia during the course of the election?” He said aside from Mike Flynn, the answer is no. In fact, he went even farther. “Russia is a ruse. I have nothing to do with Russia. Haven't made a phone call to Russia in years. Don't speak to people from Russia. Not that I wouldn't. I just have nobody to speak to. I spoke to Putin twice. He called me on the election. I told you this. And he called me on the inauguration, a few days ago. We had a very good talk, especially the second one, lasted for a pretty long period of time … I have nothing to do with Russia. To the best of my knowledge no person that I deal with does. Now, Manafort has totally denied it. He denied it. Now people knew that he was a consultant over in that part of the world for a while, but not for Russia. I think he represented Ukraine or people having to do with Ukraine, or people that—whoever.”
+	In doing so, Trump effectively denied the veracity of a recent New York Times report asserting, “phone records and intercepted calls show that members of Donald J. Trump’s 2016 presidential campaign and other Trump associates had repeated contacts with senior Russian intelligence officials in the year before the election, according to four current and former American officials.”
+	I don’t know if Trump or his team are guilty of any wrongdoing with regard to Russia. But Trump’s statement that he has “nothing to do with Russia” elides the fact that Trump made millions partnering with a Russian billionaire, Aras Agalarov, to host the Miss Universe pageant in Moscow in 2013. And in April 2016, when his campaign hosted an invitation-only campaign speech in Washington, D.C., that focused on foreign policy, Russian ambassador Sergey Kislyak attended Trump’s speech and sat in the front row.
+	As for people that he deals with, Rex Tillerson, his new secretary of state, was longtime director of a U.S.-Russia oil firm, and was awarded the Russian Order of Friendship by Vladamir Putin. “Carter Page, an early foreign policy adviser to Donald J. Trump who was scrutinized by the F.B.I. on suspicion of private communications with senior Russian officials over the summer, was back in Moscow on Thursday,” the New York Times reported in December. Page, Flynn, and Manafort all resigned over murky Russia ties.
+	Perhaps this is all a series of innocent coincidences. But Trump misleads Americans into thinking there is no valid reason for suspicion when he falsely claims outright that neither he nor any person he deals with has ties to Russia.  
+
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LM Otero / AP
+
+Donald Trump’s Plan to Outsource Immigration Enforcement to Local Cops
+
+
+Amanda Sakuma
+
+
+
+
+The president pledged to detain and deport millions of undocumented immigrants, but to do so, he’ll need to enlist the help of local authorities.
+
+Bed space was so hard to come by inside immigrant detention facilities across the country last fall that federal officials scrambled to rent out extra room in county prisons and jails. Immigration and Customs Enforcement, the Department of Homeland Security’s immigration-enforcement arm, had thousands more immigrants in custody than it had the capacity to detain. As a result, hundreds of Haitian immigrants wound up wherever there was open jail space, often in remote regions like the Yakima County jail in eastern-Washington state and far from where they were first apprehended at the southern border.
+The federal immigrant detention network was bursting at the seams even before President Donald Trump entered office. Those problems will likely exacerbate after the president vastly expanded the pool of immigrants up for deportation. The Obama administration put in place a solution that is already proving beneficial to Trump: a blueprint on how to outsource immigration enforcement to local cops, leveraging their resources and infrastructure to execute Trump’s proposal to detain and deport millions of undocumented immigrants who have “criminal records.”
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jeffrey Smith
+
+How to Build an Autocracy
+
+
+David Frum
+
+
+
+
+The preconditions are present in the U.S. today. Here’s the playbook Donald Trump could use to set the country down a path toward illiberalism.
+
+It’s 2021, and President Donald Trump will shortly be sworn in for his second term. The 45th president has visibly aged over the past four years. He rests heavily on his daughter Ivanka’s arm during his infrequent public appearances.
+Fortunately for him, he did not need to campaign hard for reelection. His has been a popular presidency: Big tax cuts, big spending, and big deficits have worked their familiar expansive magic. Wages have grown strongly in the Trump years, especially for men without a college degree, even if rising inflation is beginning to bite into the gains. The president’s supporters credit his restrictive immigration policies and his TrumpWorks infrastructure program.
+Listen to the audio version of this article:Download the Audm app for your iPhone to listen to more titles.
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kevin Lamarque / Reuters
+
+The Anti-Trump ‘Resistance’ in Red States 
+
+
+Clare Foran
+
+
+
+
+“This isn’t a fad, it’s not going away, and there’s nothing coastal or elite about it.”
+
+Massive crowds have gathered in cities like Washington, D.C., and New York to protest actions taken by the president since he took office. But outrage over the current state of American politics isn’t confined to liberal strongholds. Even in red states, frustrated and anxious voters are protesting the administration and putting pressure on Republican lawmakers to stand up to the White House.
+In some of the most conservative parts of the country, voters without much experience in political organizing are taking a page out of the Tea Party playbook in hopes of making their voices heard, while existing Democratic organizations are channeling discontent with the administration into protest. Red-state Democrats point to the agitation as evidence that opposition to Trump and his agenda is widespread, and they warn that elected officials of both parties may pay a price if they write off the activism as inconsequential.
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cait May / The Atlantic
+
+Should We Die?
+
+
+Olga Khazan
+
+
+
+
+Radical longevity may change the way we live—and not necessarily for the better.
+
+“So, you don’t want to die?” I asked Zoltan Istvan, then the Transhumanist candidate for president, as we sat in the lobby of the University of Baltimore one day last fall.
+“No,” he said, assuredly. “Never.”
+Istvan, an atheist who physically resembles the pure-hearted hero of a Soviet children’s book, explained that his life is awesome. In the future, it will grow awesomer still, and he wants to be the one to decide when it ends. Defying aging was the point of his presidential campaign, the slogan of which could have been “Make Death Optional for Once.” To (literally) drive the point home, he circled the nation in the “Immortality Bus,” a brown bus spray-painted to look like a coffin.
+He knew he’d lose, of course, but he wanted his candidacy to promote the cause of transhumanism—the idea that technology will allow humans to break free of their physical and mental limitations. His platform included, in part, declaring aging a disease. He implanted a chip in his hand so he could wave himself through his front door, and he wants to get his kids chipped, too. He’d be surprised, he told me, if soon “we don’t start merging our children with machines.” He’d like to replace his limbs with bionics so he can throw perfectly in water polo. Most of all, he wants to stick around for a couple centuries to see it all happen, perhaps joining a band or becoming a professional surfer, a long white beard trailing in his wake.
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Carlos Barria / Reuters 
+
+Why Trump Can't Answer Questions About Anti-Semitism 
+
+
+Peter Beinart
+
+
+
+
+Presidents are supposed to show empathy for their anxious constituents. But when it comes to anti-Semitism, the only person Trump shows empathy for is himself.
+
+The most bizarre and unsettling moment in President Trump’s bizarre and unsettling press conference this Thursday came near the end. Trump, who had been insulting the journalists questioning him for more than 90 minutes, declared that, “I want to find a friendly reporter.”
+Then he spied Jake Turx of the magazine Ami, a bearded man attired in the white shirt and black velvet kippa (skullcap) typical of ultra-Orthodox Jews. “Are you a friendly reporter?” Trump asked. “Watch how friendly he is. Wait. Wait. Watch how friendly he is. Go ahead.”
+This is not normal. Presidents don’t usually announce that they want an easy question. It’s possible that Trump saw Turx’s distinctive appearance and guessed that he would be “friendly,” since the ultra-Orthodox supported Trump at substantially higher rates than other Jews.
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+What Americans Keep Ignoring About Finland's School Success
+
+
+Anu Partanen
+
+
+
+
+The Scandinavian country is an education superpower because it values equality more than excellence.
+
+The Scandinavian country is an education superpower because it values equality more than excellence. 
+Sergey Ivanov/FlickrEveryone agrees the United States needs to improve its education system 
+  dramatically, but how? One of the hottest trends in education reform lately 
+  is looking at the stunning success of the West's reigning education 
+  superpower, Finland. 
+  Trouble is, when it comes to the lessons that Finnish schools have to offer, 
+  most of the discussion seems to be missing the point.
+The small Nordic country of Finland used to be known -- if it was known for 
+  anything at all -- as the home of Nokia, the mobile phone giant. But lately 
+  Finland has been attracting attention on global surveys of quality of 
+  life -- Newsweek ranked it number one last year -- and Finland's national 
+  education system has been receiving particular praise, because in recent 
+  years Finnish students have been turning in some of the highest test scores 
+  in the world.
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Str Old / Reuters
+
+What Mirrors Tell Us About Animal Minds
+
+
+Ed Yong
+
+
+
+
+… including our own.
+
+A couple of weeks ago, an editor at The Guardian tweeted an image of a bald eagle staring at its reflection in a body of water. “This photo of an eagle taking a hard look at itself is not a metaphor for anything that's been in the news recently,” he wrote.
+
+This photo of an Eagle taking a hard look at itself is not a metaphor for anything that's been in the news recently pic.twitter.com/FLyANNUg44
+— Sam Morris (@SamMorrisDesign) January 26, 2017
+At the time of this writing, the image has been retweeted 62,000 times.
+And it prompted one of my colleagues at The Atlantic to ask: “Are eagles intelligent enough to recognize their own reflections?”
+Well.
+In March 1838, a young and little-known biologist named Charles Darwin asked the same question. On a visit to London Zoo, he stepped into a cage with an orangutan named Jenny, and marveled as she played with a mirror. He noted that she was “astonished beyond measure” at the glass. She examined it, kissed it, made faces at it, and contorted her body as she approached it. What did she see in the mirror? Did she recognize herself? And perhaps most importantly, how could you even tell?
+
+
+
+        
+        Continue Reading
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Can It Happen Here?
+
+
+Daniel Lombroso and David Frum
+
+
+
+
+David Frum on Donald Trump's authoritarian tendencies
+
+
+        
+        Watch Video
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Crippling Fear of Everlasting Life
+
+
+Caitlin Cadieux and Daniel Lombroso
+
+
+
+
+While many dream of an afterlife, people with apeirophobia are terrified of eternal existence.
+
+
+        
+        Watch Video
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ta-Nehisi Coates on Asking Questions That Have No Answers
+
+
+Jackie Lay and Daniel Lombroso
+
+
+
+
+In a short animation, the writer describes the lifelong curiosity that led him into journalism.
+
+
+        
+        Watch Video
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+More Popular Stories
+
+
+
+
+
+
+
+
+
+Show Comments
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+
+
+
+Share
+
+
+
+
+
+Tweet
+
+
+
+Next story in Technology
+
+
+
+
+
+
+
+Subscribe
+Get 10 issues a year and save 65% off the cover price.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+State
+Alabama
+Alaska
+Alberta
+American Samoa
+APO/FPO-Africa
+APO/FPO-Canada
+APO/FPO-Europe
+APO/FPO-Middle East
+APO/FPO-Americas
+APO/FPO-Pacific
+Arizona
+Arkansas
+British Columbia
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Guam
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Manitoba
+Marshall Islands
+Maryland
+Massachusetts
+Michigan
+Micronesia
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Brunswick
+New Hampshire
+New Jersey
+New Mexico
+New York
+Newfoundland
+Newfoundland-Labrador
+North Carolina
+North Dakota
+Northern Mariana Isles
+Northwest Territories
+Nova Scotia
+Nunavut
+Ohio
+Oklahoma
+Ontario
+Oregon
+Palau
+Pennsylvania
+Prince Edward Island
+Puerto Rico
+Quebec
+Quebec
+Rhode Island
+Saskatchewan
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virgin Islands
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Yukon Territories
+
+
+
+
+
+
+
+
+
+Fraud Alert regarding The Atlantic
+
+
+
+
+
+Newsletters+
+
+
+
+
+
+
+                The Atlantic
+            
+
+
+
+
+The Atlantic Daily
+                    
+
+
+
+
+                        This Week
+                    
+
+
+
+
+                        This Month
+                    
+
+
+
+
+
+
+                        New Photo Galleries
+                    
+
+
+
+
+                        Top Videos This Week
+                    
+
+
+
+
+                        Politics & Policy Daily
+                    
+
+
+
+
+
+
+CityLab
+
+
+
+                    Today’s Top Stories
+                
+
+
+
+
+                    This Week's Most Popular Stories
+                
+
+
+
+
+
+
+I want to receive updates from partners and sponsors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Follow+
+
+
+
+Facebook
+Twitter
+LinkedIn
+Tumblr
+Pinterest
+RSS
+App Store
+
+
+
+
+
+About+
+
+
+
+
+Masthead
+FAQ
+Press
+Jobs
+
+
+Shop
+Books
+Emporium
+
+
+
+
+Contact Us
+Privacy Policy
+Advertise
+Advertising Guidelines
+
+
+Terms and Conditions
+Manage Subscription
+Responsible Disclosure
+Site Map
+
+
+
+
+
+
+ Copyright © 2017 by The Atlantic Monthly Group. All Rights Reserved. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Close
+
+
+
+
+
+
+
+
+Skip to article in 
+Skip Ad >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

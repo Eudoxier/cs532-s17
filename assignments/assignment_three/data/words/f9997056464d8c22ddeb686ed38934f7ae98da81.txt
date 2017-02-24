@@ -1,0 +1,982 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create a Meetup
+
+
+
+New App
+
+
+
+
+
+
+
+
+
+
+
+English
+English (Australia)
+Deutsch
+Español
+Español (España)
+Français
+Italiano
+Nederlands
+Português
+日本語
+한국어
+
+
+
+
+
+Log in
+
+
+Sign up
+
+
+
+
+
+
+
+
+
+
+Norfolk.js
+
+
+
+
+
+
+Home
+
+
+Members
+
+
+
+Sponsors
+
+
+
+Photos
+
+
+
+Pages
+
+
+
+
+Discussions
+
+
+
+Message Board
+
+
+Mailing List
+
+
+
+
+
+More
+
+
+
+Polls
+
+
+Files
+
+
+Report this group
+
+
+
+
+
+
+Join us!
+
+
+
+
+
+
+
+
+
+
+
+
+Open-source Hack Night
+
+
+
+
+
+
+
+
+3 days ago · 6:00 PM
+
+
+
+
+Hatch
+
+
+
+
+We're joining up with Code for Hampton Roads for a special hack night for open-source software. If you're never contributed to open-source, this is a great time to open your first pull-request. If you're a veteran, now is the time to get more commits under your belt or to mentor someone else.
+This is open to everyone no matter your preferred language or development experience. Many contributions to open-source are simply improvements to documentation!
+Agenda:
+• 6:00 pm -  Introductions 
+• 6:30 pm - Start Hacking!
+• 8:30 pm - Wrap Up/Discussion.
+Pizza will be sponsored by Langa.
+**Please take a minute to read our Code of Conduct.
+
+
+
+
+
+
+Join or login to comment.
+
+
+Hit enter to add your reply
+
+
+
+
+
+
+
+
+13 went
+								
+								
+							
+						
+					
+				
+				
+			
+			
+		
+
+		
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+Troy C.
+
+Event Host
+
+
+
+
+
+
+
+
+
+
+Blaine P.
+
+Event Host
+
+
+
+
+
+
+
+
+
+
+Linda N.
+
+
+								Co-Organizer
+							
+
+
+
+
+
+
+
+
+
+
+Tommy T.
+
+
+
+
+
+
+
+
+
+
+
+Vivian
+
+
+
+
+
+
+
+
+
+
+
+Stanley Z.
+
+
+								Co-Organizer
+							
+
+
+
+
+
+
+
+
+
+
+dal
+
+
+
+
+
+
+
+
+
+
+
+Josh
+
+
+
+
+
+
+
+
+
+
+
+Joshua H.
+
+
+
+
+
+
+
+
+
+
+
+Seairth J.
+
+
+
+
+
+
+
+
+
+
+
+James J.
+
+
+
+
+
+
+
+
+
+
+
+Alex R.
+
+
+
+
+
+
+
+
+
+
+
+Wayne M.
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+You're all set!
+
+
+Next: Invite friends
+
+
+
+Maybe later
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Norfolk.js
+
+
+
+Norfolk,
+
+VA
+
+
+
+
+Founded
+Nov 7, 2013 
+
+
+About us…
+
+
+
+
+
+JavaScript Ninjas
+541
+
+
+
+Group reviews
+24
+
+
+
+
+Upcoming Meetups
+18
+
+
+
+
+Past Meetups
+82
+
+
+
+
+Our calendar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Organizers:
+
+
+
+
+
+
+
+
+Travis Webb,
+Brandon Flade, Linda Nichols, Stanley Zheng and 4 more
+
+
+
+View The Leadership Team
+
+ Contact
+
+
+
+We're about:
+
+
+Web Development
+		 · 
+	
+		
+		
+		Software Development
+		 · 
+	
+		
+		
+		Technology
+		 · 
+	
+		
+		
+		JavaScript
+		 · 
+	
+		
+		
+		JavaScript Applications
+		 · 
+	
+		
+		
+		Web Technology
+		 · 
+	
+		
+		
+		Mobile Technology
+		 · 
+	
+		
+		
+		Arduino
+		 · 
+	
+		
+		
+		Meteor
+		 · 
+	
+		
+		
+		JavaScript Libraries
+		 · 
+	
+		
+		
+		HTML5
+		 · 
+	
+		
+		
+		JavaScript Frameworks
+		 · 
+	
+		
+		
+		nodeJS
+		 · 
+	
+		
+		
+		Robotics
+		 · 
+	
+		
+		
+		NodeBots
+
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+Join us in talking about, brainstorming, and building Javascript tools and applications. We typically have one lecture meetup per month or a social "Beer.js" event. We also have several other more specific meetups for robotics, front-end development, food/social, etc. See more information at norfolkjs.org or github.com/norfolkjs.
+
+
+
+
+ 
+
+
+
+
+
+
+Our Sponsors
+
+
+
+
+
+
+
+
+
+80|20
+
+Official Norfolk.js Drink sponsor.
+
+
+
+
+
+
+
+Pierce / McCoy
+
+
+Meetup Space
+
+
+
+
+
+
+Emerging Technology Advisors
+
+Food, meet-up support, robotics equipment.
+
+
+
+
+
+
+Langa
+
+General support
+
+
+
+
+
+
+Grow
+
+Meeting space, food, drinks
+
+
+
+
+
+
+757 Makerspace
+
+Community workshop and product accelerator. 
+
+
+
+
+
+
+CodeBetter.com
+
+Monthly monetary sponsorship for food, venues, etc..
+
+
+
+
+
+
+PluralSight
+
+Free monthly and annual training subscriptions.
+
+
+
+
+
+
+Sticker Mule
+
+Credit towards sticker printing on new sign-ups
+
+
+
+
+
+
+JetBrains
+
+Free Personal Licenses of WebStorm or another JetBrains product.
+
+
+
+
+
+
+Treehouse
+
+Free trial memberships
+
+
+
+
+
+People in this Meetup are also in:
+
+
+
+
+
+
+Norfolk Ruby Users Group (757.rb)
+324 Ruby programmers
+
+
+
+
+
+
+
+GDG Hampton Roads
+329 Google Tech Enthusiast
+
+
+
+
+
+
+
+Hatch: Empowering Entrepreneurs
+1,329 Entrepreneurs
+
+
+
+
+
+
+
+Code for Hampton Roads
+344 Brigade Members
+
+
+
+
+
+
+
+HAMPTON ROADS PADDLE AND SURF
+1,584 Paddlers/Surfers
+
+
+
+
+
+
+
+757 Python Users Group
+390 Pythonist
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Start a Meetup Group
+					
+
+						Start a Meetup Group
+					
+
+
+
+							Log in
+						
+
+
+
+
+Help
+
+
+About Us
+
+
+Jobs
+
+
+Apps
+
+
+API
+
+
+Topics
+
+
+Browse Countries
+
+
+Blog
+
+
+Tech Blog
+
+Made in NYC
+
+
+
+				© 2017 Meetup
+			
+Privacy
+Terms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				Sign up
+			
+
+
+
+
+
+
+
+
+Continue with Facebook
+
+
+
+Continue with Google
+
+
+Or sign up with email
+
+
+						Already a member? Log in.
+					
+
+
+
+
+
+
+
+
+
+Continue with Facebook
+
+
+
+Continue with Google
+
+
+Or sign up with email
+
+
+						Already a member? Log in.
+					
+
+
+
+
+
+
+
+
+
+Continue with Facebook
+
+
+
+Continue with Google
+
+
+Or sign up with email
+
+
+						Already a member? Log in.
+					
+
+
+
+
+
+
+
+
+
+Sign up
+Meetup members, Log in
+
+
+
+
+
+
+Your name
+
+
+
+Your name will be public.
+
+
+
+
+Your email
+
+
+
+
+
+
+
+Pick a password
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+or
+
+
+
+
+Sign up using Facebook
+
+
+
+
+
+
+
+By clicking "Sign up" or "Sign up using Facebook",  you confirm that you accept our Terms of Service & Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

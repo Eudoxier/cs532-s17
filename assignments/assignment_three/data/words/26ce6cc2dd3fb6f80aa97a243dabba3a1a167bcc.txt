@@ -1,0 +1,799 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+
+
+
+News
+
+
+
+
+Reviews
+
+
+
+
+Digital technology
+
+
+
+
+Cloud
+
+
+
+
+Data analytics
+
+
+
+
+Digital leaders
+
+
+
+
+IoT
+
+
+
+
+Opinion
+
+
+
+
+
+
+
+Events
+
+
+Resources
+
+
+SMB Spotlight
+
+
+Newsletters
+
+Sign in
+
+
+
+
+
+
+Events
+
+
+
+
+
+
+
+				Follow V3 Events
+			
+
+
+
+
+Sign up to receive email alerts about our eventsSign up
+
+
+
+
+
+
+
+
+
+
+Resources
+
+
+
+
+
+
+
+
+
+
+ Small business, big data: how SMEs can unlock big data's advantages
+The SME space is changing, and emerging leaders are utilising affordable, flexible and scalable big data and analytics tools. SMEs are confident about their ability to innovate, but much less certain about their ability to use big data and advanced analytics to do so... 
+Download
+
+
+
+
+
+
+
+10 ways to increase productivity with managed Office 365
+For businesses large and small, relying on a cloud-based collaboration and productivity suite such as Microsoft Office 365 is becoming the norm. Enhancing productivity in your organisation is vital to get ahead in 2017 - and using Office 365 can help, if it's used right...
+Download
+
+
+
+
+
+
+Find resources
+Search by title or subject area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+				View all resources
+			
+
+
+
+
+
+
+
+
+
+SMB Spotlight
+
+
+Sign in
+
+
+
+ 
+
+
+ 
+
+You are currently accessing V3 .co.uk via your Enterprise account.
+Personalise your on site experience
+Download and use the apps
+Access your subscription from outside of the office
+Get relevant news and insight straight to your inbox
+Request account
+
+
+Sign in
+
+
+
+ 
+
+
+
+Newsletters
+Apps
+Account details
+Contact support
+Sign out
+
+
+
+ 
+
+
+Follow us
+
+
+
+RSS
+
+
+
+
+Twitter
+
+
+
+
+Newsletters
+
+
+
+
+Facebook
+
+
+
+
+YouTube
+
+
+
+
+Apps
+
+
+
+
+
+Register
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+Reviews
+
+
+Digital technology
+
+
+Cloud
+
+
+Data analytics
+
+
+Digital leaders
+
+
+IoT
+
+
+Opinion
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+You are currently accessing V3 .co.uk via your Enterprise account.
+Personalise your on site experience
+Download and use the apps
+Access your subscription from outside of the office
+Get relevant news and insight straight to your inbox
+Request account
+
+
+Sign in
+
+
+
+ 
+
+
+
+Newsletters
+Apps
+Account details
+Contact support
+Sign out
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Public Sector
+
+
+
+
+
+Banks and governments hit by sophisticated malware attacks, with seven targets hit in UK
+Kasperksy believes nation-state attackers behind wave of sophisticated, security-evading malware
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Banks and governments hit by sophisticated malware attacks, including seven in UK 
+					
+
+
+
+
+
+Graeme Burton
+
+
+
+
+
+
+
+
+								@graemeburton
+							
+
+
+
+
+
+					09 February 2017
+				
+
+
+
+
+
+
+Tweet
+ 
+
+
+
+
+Facebook
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+Send to
+ 
+
+
+
+
+
+
+0 Comments
+
+
+
+
+
+
+
+
+
+
+Governments and the global banking system are being targeted by sophisticated in-memory malware that, security researchers claim, is almost undetectible using conventional security techniques.
+According to security software company Kaspersky, more than 140 major organisations in 40 countries, particularly banks, but also telecoms companies and governmental organisations, have been affected.
+
+Kaspersky claims to have identified seven organisations in the UK that have been affected, and ten in France. But the US appears to be the most targeted, with 21 organisations affected. Peculiarly, perhaps, Germany and China, according to Kaspersky's data, haven't been affected.
+"The attackers, who may be connected to the GCMAN and Carbanak groups, aren't using signature-based malware to carry out their attackers, instead they're using fileless malware hidden in the memory of the affected servers," claims Chris Brook, writing for Kaspersky's Threat Post website.
+"Researchers uncovered the attacks after banks in the Commonwealth of Independent States [former Soviet Union] found Meterpreter, an extensible payload component used by Metasploit, inside the physical memory of a domain controller. Researchers with Kaspersky Lab found the software had been combined with PowerShell scripts in order to invisibly siphon up the passwords of system administrators," continued Brook.
+Meterpreter is a legitimate penetration testing tool that Kaskersky has previously seen used maliciously by a group it calls GCMan.
+This gave the attackers remote access to the machines, "who also used Microsoft's command-line scripting utility NETSH to funnel traffic from the victim's host to the attacker's command and control system", according to Brook.
+Kaspersky believes that the attackers also used Mimikatz, an open-source ‘post exploitation' utility, to acquire credentials for administrative level accounts.
+According to Kaspersky, the attackers follow a fairly straighforward process. They gain initial entry by using a known exploit for an unpatched server vulnerability. Then, they use Meterpreter and PowerShell scripts to infect targeted computers.
+Third, their malware is hidden in memory, typically the Windows registry, to evade detection. At this stage, they are able to gather credentials and other valuable information. Standard utilities, such as NETSH, is used to exfiltrate compromised information.
+According to Kaspersky, nearly all traces of the malware will disappear on reboot and, because the malware leaves little trace behind it isn't detected by conventional anti-virus and other security software.
+The company hasn't been able to definitively identify a group behind the wave of attacks, but claim that the techniques deployed resemble groups such as GCMan and Carbanak, a gang also known as Anunak that Kaspersky claims has stolen as much as $1bn from up to 100 banks. 
+It re-emerged towards the end of last year in a string of attacks targeting call centres in the hospitality sector with the ultimate aim of compromising point-of-sale retail systems. 
+The claims from Kaspersky follows a year of disclosures over malicious attacks on banks targeting their payments systems. In one, on the central bank of Bangladesh, the attackers came close to executing transfers of $951m, but were thwarted by their own spelling mistakes.
+
+
+
+
+
+
+Tweet
+ 
+
+
+
+
+Facebook
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+Send to
+ 
+
+
+
+
+
+
+		Topics
+	
+
+Public Sector
+
+
+Security
+
+
+cloud
+
+
+Kaspersky
+
+
+malware
+
+
+security
+
+
+
+
+
+
+
+
+
+
+
+
+V3 Latest
+
+
+
+
+
+
+
+IoT 101: Getting started in home automation
+
+					The most important gadgets to make your home work for you
+
+				
+
+
+Software
+
+
+
+			17 February 2017
+		
+
+
+
+
+
+
+
+
+
+Google X uses AI to reduce number of balloons needed for sky-high WiFi coverage
+
+					Plans could cut number of balloons needed by 90 per cent
+
+				
+
+
+Telecoms
+
+
+
+			17 February 2017
+		
+
+
+
+
+
+
+
+
+
+Microsoft gives its Office for Mac suite support for MacBook Pro Touch Bar
+
+					Microsoft quick to adapt software to new tools
+
+				
+
+
+Developer
+
+
+
+			17 February 2017
+		
+
+
+
+
+
+
+
+
+
+EnterpriseDB aims at the digital enterprise with Postgres Platform 2017
+
+					New features to improve connectivity and integration
+
+				
+
+
+Databases
+
+
+
+			17 February 2017
+		
+
+
+
+
+
+
+
+
+
+
+
+
+Add a comment
+
+Add a comment
+
+
+
+
+
+
+
+					Please enable JavaScript to view the comments powered by Disqus.
+
+blog comments powered by Disqus
+
+
+
+
+
+
+		Back to Top
+	
+
+
+
+
+
+
+Most read
+
+
+
+
+
+
+
+ Hundreds of IT jobs to go at Aecom as it outsources to IBM
+
+
+
+
+
+
+
+
+ Top 10 Apple iPhone benefits over Android devices
+
+
+
+
+
+
+
+
+ iPhone 5S vs iPhone 5 head-to-head review
+
+
+
+
+
+
+
+
+ LeakedSource taken down following raid by FBI
+
+
+
+
+
+
+
+
+ Apple plans update to let Siri work on Apple Watch apps
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact
+Marketing solutions
+Enterprise IT Events
+About Incisive Media
+Terms & conditions
+Privacy policy
+
+
+
+
+
+
+
+RSS
+
+
+
+
+Twitter
+
+
+
+
+Newsletters
+
+
+
+
+Facebook
+
+
+
+
+YouTube
+
+
+
+
+Apps
+
+
+
+
+
+
+
+
+  © Incisive Business Media Limited  
+© Incisive Business Media (IP) Limited, Published by Incisive Business Media Limited, Haymarket House, 28-29 Haymarket, London SW1Y 4RX, are companies registered in England and Wales with company registration numbers 9177174 & 9178013
+
+
+Digital publisher of the year 2010, 2013 & 2016
+Digital publisher of the year 2010, 2013 & 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,267 @@
+ 
+
+
+
+Skip to main content
+
+
+
+
+            University of Oxford Department of Computer Science
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search for
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle
+                        Main Menu
+                        
+
+
+
+
+
+
+
+
+
+
+                                Home
+                                
+                            
+
+
+
+                                Admissions
+                                 
+                            
+
+
+
+                                Research
+                                
+                            
+
+
+
+                                News & Events
+                                
+                            
+
+
+
+                                About Us
+                                 (current)
+
+
+
+
+                                Alumni
+                                 
+                            
+
+
+
+                                Our Students
+                                 
+                            
+
+
+
+                                Innovation
+                                 
+                            
+
+
+
+
+
+
+HomeAbout UsPeopleStudentsMeredydd WilliamsMeredydd Williams
+ Meredydd Williams Doctoral StudentStudent, Wolfson CollegeE: firstname.lastname@cs.ox.ac.ukRobert Hooke Building,
+										 Parks Road, Oxford OX1 3PR
+										Themes:SecuritySee Also:http://www.meredydd-williams.com/BiographyI am currently studying for a PhD/DPhil in Cyber Security, specifically focusing on privacy and Internet-of-Things devices. I completed my initial Centre for Doctoral Training (CDT) year in which I studied the area from a multidisciplinary approach, with modules specialising in security architectures, ethics, data analysis, human factors, criminology, digital forensics and international relations.
+I also demonstrate for the Computer Security and Advanced Security practicals: the former specialising in linear and differential cryptanalysis, and the latter concerning steganography and homomorphic encryption. In addition to this, I have tutored the Computer Security Major Tutorial for the Worcester College Visiting Student Programme and the Computer Security Revision Class for the Department of Computer Science. Since November 2016 I am also a Student Ambassador, engaging in outreach activities to encourage prospective students to apply to top-tier universities. Alongside my studies, I am a member of Wolfson College, Cymdeithas Dafydd ap Gwilym (Oxford Welsh Society), and the Oxford University Liberal Democrat Society.
+Prior to joining Oxford, I completed an MPhil with Distinction in Advanced Computer Science at Christ's College, University of Cambridge, developing a taxonomy of Denial-of-Service attacks with Dr Robert N M Watson.
+I received my undergraduate degree from Aberystwyth University in Wales, completing a First-Class BEng (Hons) in Software Engineering and developing a cryptographic application alongside Prof Reyer Zwiggelaar.
+Outside of academia, I have had technical roles in the financial and pharmaceutical sectors.
+I also tweet on cybersecurity, privacy and all things technology. Follow me @MeredWilliams.Selected PublicationsView AllManage publications  
+            Future Scenarios and Challenges for Security and Privacy  
+  Meredydd Williams‚ Louise Axon‚ Jason R.C. Nurse and Sadie Creese   
+ 
+            In  
+            
+            2nd International Forum on Research and Technologies for Society and Industry (RTSI 2016).
+        IEEE.
+        2016.
+        
+  Details    about  Future Scenarios and Challenges for Security and Privacy    |  BibTeX   data for  Future Scenarios and Challenges for Security and Privacy    
+	    
+	     |
+                Download
+		     (pdf)
+		    
+		     of  Future Scenarios and Challenges for Security and Privacy  
+
+		
+		
+	     | 
+            DOI (10.1109/RTSI.2016.7740625)
+             
+					|  Link  to  Future Scenarios and Challenges for Security and Privacy   
+  
+            Perspectives on privacy in the use of online systems  
+  Meredydd Williams and Jason R.C. Nurse   
+ 
+            In  
+            
+            30th British Human Computer Interaction Conference (B−HCI).
+        BCS.
+        2016.
+        
+  Details    about  Perspectives on privacy in the use of online systems    |  BibTeX   data for  Perspectives on privacy in the use of online systems    
+	    
+	     |
+                Download
+		     (pdf)
+		    
+		     of  Perspectives on privacy in the use of online systems  
+
+		
+		
+	    
+					|  Link  to  Perspectives on privacy in the use of online systems   
+  
+            The Perfect Storm: The Privacy Paradox and the Internet−of−Things  
+  Jason R.C. Nurse‚ Meredydd Williams and Sadie Creese   
+ 
+            In  
+            
+            International Workshop on Challenges in Information Security and Privacy Management (ISPM)‚ associated with the 11th International Conference on Availability‚ Reliability and Security (ARES 2016).
+        IEEE.
+        2016.
+        
+  Details    about  The Perfect Storm: The Privacy Paradox and the Internet−of−Things    |  BibTeX   data for  The Perfect Storm: The Privacy Paradox and the Internet−of−Things    
+	    
+	     |
+                Download
+		     (pdf)
+		    
+		     of  The Perfect Storm: The Privacy Paradox and the Internet−of−Things  
+
+		
+		
+	     | 
+            DOI (10.1109/ARES.2016.25)
+             
+					|  Link  to  The Perfect Storm: The Privacy Paradox and the Internet−of−Things   
+SupervisorsSadie CreeseJason NurseAbout UsPeopleFacultyResearchStudentsAdmin & SupportVacanciesHistoryContact Us
+
+
+
+
+ Back to Top
+
+
+
+
+
+
+
+
+
+
+Calendars
+Internal
+RSS Feeds
+Sitemap
+Privacy & Cookies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© University of Oxford 
+
+
+			    /people/meredydd.williams/index.html
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+

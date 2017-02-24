@@ -1,0 +1,897 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      recommended reading
+    
+
+
+
+
+
+
+
+
+         Innovating from the Top: Federal Chief Innovation Officers
+      
+
+
+
+
+
+
+
+
+        What Former NSA Chief Keith Alexander Thinks of Trump's Cyber Stance
+      
+
+
+
+
+
+
+
+
+        Why NIST's Framework Avoids a One-Sized-Fits-All Approach to Cybersecurity
+      
+
+
+
+
+
+
+
+
+
+        Remove Cloud IT Blind Spots with Application Visibility
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nextgov
+
+
+TRENDING
+
+
+
+facebook
+
+
+twitter
+
+
+google plus
+
+
+rss
+
+
+
+
+
+
+
+
+              GAO High-Risk List
+            
+
+//
+
+
+
+
+              DOD CIO
+            
+
+//
+
+
+
+
+              Tech Trends
+            
+
+//
+
+
+
+
+              NIST Cybersecurity Framework
+            
+
+//
+
+
+
+
+              DOD Health Records
+            
+
+//
+
+
+
+
+              Medicaid Fraud
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+CIO Briefing
+
+
+Emerging Tech
+
+
+Cloud
+
+
+Cybersecurity
+
+
+Mobile
+
+
+Health
+
+
+Defense
+
+
+Big Data
+
+
+
+
+
+
+
+
+
+
+Government Must Pick Between Bad Options in Encryption Debate
+
+
+
+
+
+
+          
+          
+            enzozo/Shutterstock.com
+          
+        
+
+
+
+
+    By 
+    Joseph Marks
+
+February 8, 2017
+
+
+
+NEXTGOVNEWSLETTER
+SUBSCRIBE
+
+
+
+
+        
+          related stories
+        
+      
+
+
+FBI Director: Time to Discuss Encryption Before 'Something Terrible Happens'
+
+
+
+Here’s How Much the FBI Paid Hackers to Break Into that iPhone
+
+
+
+The Five Most Colorful Moments From the Apple-FBI Congressional Hearing
+
+
+
+FBI Director Gets Schooled on Security Tech by Congressman
+
+
+
+
+
+
+
+
+
+
+Share this on Facebook
+
+
+Tweet this on Twitter
+
+
+Share this on Google Plus
+
+
+Share this on LinkedIn
+
+
+
+
+
+
+            Print this article
+
+
+Email this article
+
+
+Increase size
+
+
+
+
+
+There are no good options for government in the debate over encrypted communication systems, a top Washington think tank declared Thursday.
+But the worst option by far would be for government to merely fret about the issue while tech companies, authoritarian nations, terrorists and cyber criminals take the lead, according to the report from the Center for Strategic and International Studies.
+While the report authors stop short of endorsing a particular fix for the challenge encryption poses to law enforcement, they do conclude the risk posed by encryption “has not reached the level that justifies restrictions or design mandates” and that “the encryption issue law enforcement faces, while frustrating, is currently manageable.”
+» Get the best federal technology news and ideas delivered right to your inbox. Sign up here.
+That conclusion, which will please technologists and civil liberties advocates, puts the report authors in line with an earlier report by the House Judiciary and Energy and Commerce committees. House Judiciary Chairman Bob Goodlatte also described not undermining encryption as his committee’s starting point this Congress.
+Other possible responses posed by the report carry their own challenges, however.
+
+
+
+
+
+
+
+
+
+
+If the U.S. government does nothing to respond to the encryption challenge or allows the issue to fall victim to the “usual Washington theatrics of commissions, enquiries, special committees and other mechanisms to give the appearance of movement,” it risks ceding ground to terrorists and cybercriminals, the report states.
+A “laissez-faire” approach would also squander the U.S.’ opportunity to lead a global response to the global encryption challenge when there are no strong contenders to take over that leadership role, according to the report.
+The long-simmering debate over end-to-end encryption systems, which shield the contents of encrypted communications even from the companies that host those communication tools, burst into the public briefly last year when Apple fought back against an FBI demand that the company help crack into an encrypted iPhone used by San Bernardino shooter Syed Farook.
+The FBI ultimately withdrew its demand before the issue was settled in a courtroom when an unnamed company sold the bureau a tool to hack into the phone without Apple’s help. FBI Director James Comey, who supports a “legislative fix” to unbreakable encryption systems, has warned additional encryption showdowns are sure to arise and urged Congress to tackle the issue soberly before it must do so in crisis mode.
+The CSIS report outlines numerous methods the government could use to help law enforcement crack though encryption used by terrorists and criminals without undermining that same encryption when used by average citizens. But each of those options comes with advantages and drawbacks of its own.
+The easiest method would be for the FBI and law enforcement to invest in their own hacking prowess to exploit vulnerabilities in encryption systems or in the way criminals and terrorists use them. That approach, however, risks “creat[ing] an arms race dynamic between law enforcement and companies that could quickly escalate costs for both sides,” the report notes.
+Police could also ramp up their reliance on metadata: information such as the date, time, sender and recipient of a message that typically cannot be encrypted and that forms the basis for much intelligence work. Metadata will remain less useful than content however, especially as evidence presented in a court of law, the report concludes.
+The government could create a new organization focused solely on aiding police decryption efforts, but it’s unlikely such an agency’s decryption efforts could keep pace with companies’ encryption capabilities, the report states.
+Finally, Congress could expand the legal authority for the National Security Agency, with its superior hacking skills, to help law enforcement conduct investigations. It would be very difficult, however, to admit into evidence anything NSA collected using classified tools and the nation’s premier digital spy agency would likely be unwilling to risk exposing its sources and methods—and undermining its spying capabilities—for the sake of a single conviction. 
+
+
+
+
+
+recommended for you
+
+
+
+
+
+Threatwatch Alert
+Thousands of cyber attacks occur each day
+See the latest threats
+
+
+
+ADD A COMMENT
+
+
+
+
+
+
+
+
+
+Data Analytics Can Improve DoD Decision Support
+
+
+
+
+
+Remove Cloud IT “Blind Spots” with Application Visibility
+
+
+
+
+
+Augmented Intelligence Requires Human Direction
+
+
+
+
+
+A-123 Aims to Strengthen Government with Enterprise Risk Management
+
+
+
+
+
+
+
+
+FROM OUR SPONSORS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sponsored
+
+
+
+Get Smart. Get The D Brief.   Subscribe to Defense One's new national security newsletter.
+          
+
+
+
+
+
+JOIN THE DISCUSSION
+
+
+      By using this service you agree not to post material that is obscene, harassing, defamatory, or
+      otherwise objectionable. Although Nextgov does not monitor comments posted to this site (and has
+      no obligation to), it reserves the right to delete, edit, or move any material that it deems to
+      be in violation of this rule.
+    
+
+
+
+
+
+Please enable JavaScript to view the comments powered by Disqus.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROMOTIONS
+
+
+
+
+
+eBook
+Innovating from the Top: Federal Chief Innovation Officers // his eBook explores the presence of a chief innovation officer—and how the job allows him or her to directly influence an agency’s tech policy, workplace culture or acquisitions within each federal government agency.
+
+                            
+
+
+
+
+
+
+eBook
+2017 Federal IT Trends Forecast  // At Nextgov, we partnered with Forrester Research to get its analysts’ take on what government technologies will be hot in 2017. Hint: Expect cyber, data and emerging technologies such as virtual reality to remain in the spotlight, while areas like customer service will see less momentum.
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+      FITARA Must Become the Catalyst for Change in Federal IT
+    
+
+      See all coverage
+      
+
+
+
+    Underwritten by
+    
+      
+Dell
+
+
+
+
+
+FREE NEWSLETTERS
+
+
+
+
+
+
+
+Nextgov Today
+
+
+
+Health IT
+
+
+
+Route Fifty Today
+
+
+
+Research & Insights
+
+
+
+FITARA Forward
+
+
+
+see all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+blogs
+
+
+
+
+Tech + Tequila: Come See How the Government is Using Drones for Good Emerging Tech by 
+    Frank Konkel
+
+
+
+
+
+5 Lessons From a Former Agency Customer Experience Leader Tech Insider by 
+    Stephanie Thum
+
+
+
+
+
+Silicon Valley’s Gender Gap Is the Result of Computer-Game Marketing 20 Years Ago Wired Workplace by 
+    TL Andrews
+
+
+
+
+
+sponsored links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nextgov
+
+
+
+About
+Contact Us
+Events
+Advertise
+List Rentals
+Site Map
+Privacy Policy
+Terms & Conditions
+
+
+
+
+GovExec
+Defense One
+Route Fifty
+Quartz
+National Journal
+The Atlantic
+CityLab
+
+
+© 2017 by National Journal Group, Inc. All rights reserved.
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+Close [ x ]
+More from Nextgov
+
+
+
+
+
+
+
+
+       
+    
+
+Next Story
+
+
+       
+    
+
+
+
+
+
+
+×
+
+
+
+
+
+
+
+        Get top federal technology stories and news alerts in your inbox.
+      
+
+        Sign up for Nextgov Today
+      
+
+
+
+
+
+    My email is ...
+  
+
+
+
+
+    I work for ...
+  
+
+--select--
+Military
+Federal Government
+State/Local Government
+Contractor
+Private Sector
+Retired
+
+
+
+
+
+
+Yes, Nextgov can email me on behalf of carefully selected companies and organizations.
+
+
+
+
+
+
+
+          Sign up
+        
+
+
+View Privacy Policy
+
+
+
+
+
+
+
+
+        Thank you.
+      
+
+        Help us tailor content specifically for you:
+      
+
+
+
+
+
+
+    Full Name
+  
+
+
+
+
+    Agency/Department
+  
+
+--select--
+Air Force
+Army
+Coast Guard
+Navy
+Marines
+Department of Agriculture
+Department of Commerce
+Department of Education
+Department of Energy
+EPA
+Executive Office of the President/Vice President
+GSA
+Department of Defense
+Department of HHS
+Department of Homeland Security
+Department of HUD
+Department of Interior
+Judiciary Branch
+Office of the Secretary of Defense
+Department of Justice
+Department of Labor
+Legislative Branch
+NASA
+OMB
+OPM
+SSA
+Department of State
+Department of Transportation
+Department of Treasury
+USPS
+Department of Veterans Affairs
+Other Agency
+Government Association
+County
+Municipal
+Higher Education
+K-12 Education
+Special District
+State
+
+
+
+
+    Job Function
+  
+
+--select--
+Agency Leadership
+Business & Operations
+Technology Management
+Financial/Contract Management
+Human Resource Management
+Sales & Marketing
+Other
+
+
+
+
+    Phone number
+  
+
+
+
+
+    Zip code
+  
+
+
+
+
+
+
+          Submit
+        
+
+
+View Privacy Policy
+
+
+
+
+
+    Thank you for subscribing to newsletters from Nextgov.com.
+    We think these reports might interest you:
+  
+
+
+It’s Time for the Federal Government to Embrace Wireless and Mobility
+The United States has turned a corner on the adoption of mobile phones, tablets and other smart devices,
+outpacing traditional desktop and laptop sales by a wide margin. This issue brief discusses the state of wireless and mobility in federal government and outlines why now is the time to embrace these technologies in government. 
+
+          
+            View
+          
+          
+
+
+
+Featured Content from RSA Conference: Dissed by NIST
+Learn more about the latest draft of the U.S. National Institute of Standards and Technology guidance document on authentication and lifecycle management.
+
+          
+            View
+          
+          
+
+
+
+A New Security Architecture for Federal Networks
+Federal government networks are under constant attack, and the number of those attacks is increasing. This issue brief discusses today's threats and a new model for the future. 
+
+          
+            View
+          
+          
+
+
+
+Going Agile:Revolutionizing Federal Digital Services Delivery
+Here’s one indication that times have changed: Harriet Tubman is going to be the next face of the twenty dollar
+bill. Another sign of change? The way in which the federal government arrived at that decision. 
+
+          
+            View
+          
+          
+
+
+
+Software-Defined Networking
+So many demands are being placed on federal information technology networks, which must handle
+vast amounts of data, accommodate voice and video, and cope with a multitude of highly connected devices
+while keeping government information secure from cyber threats. This issue brief discusses the state of SDN in the federal government and the path forward. 
+
+          
+            View
+          
+          
+
+
+
+The New IP: Moving Government Agencies Toward the Network of The Future
+Federal IT managers are looking to modernize legacy network infrastructures that are taxed by growing
+demands from mobile devices, video, vast amounts of data, and more. This issue brief discusses the federal government network landscape, as well as market, financial force drivers for network modernization. 
+
+          
+            View
+          
+          
+
+
+
+
+    When you download a report, your information may be shared with the
+    underwriters of that document.
+  
+
+
+      Finished 
+
+
+Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

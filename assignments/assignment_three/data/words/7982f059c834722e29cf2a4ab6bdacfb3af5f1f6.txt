@@ -1,0 +1,444 @@
+
+
+
+
+
+
+
+
+Our Experts
+Engage with Us
+Write for Us
+About Us
+Our Team
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+ 
+
+
+
+Select
+
+
+
+IoT
+
+Enterprise IoT platforms
+Edge computing
+Cybersecurity
+
+
+Real-Time Analytics
+
+Streaming analytics
+
+
+Artificial Intelligence
+
+Cognitive computing
+Machine learning
+
+
+Big Data
+
+Apache Hadoop, Spark, and Kafka
+Data visualization and discovery
+
+
+Industries
+
+Aviation
+Energy
+Financial Services
+Healthcare
+Manufacturing
+Retail, ecommerce
+Smart cities
+
+
+Use cases
+
+Compliance and anti-fraud
+Customer experience management
+Predictive maintenance
+Asset performance, production optimization
+Transportation management
+Supply chain / inventory control
+Sales, marketing, ecommerce
+Workforce management
+
+
+Technologies
+
+Blockchain
+Cloud technologies
+Data integration tools
+Decision management
+In-memory computing
+Intelligent integration and BPM
+
+
+Resources
+
+Red Hat IoT Resource Center
+First Look: Zoomdata
+TIBCO’s Accelerator for Apache Spark
+Empowering CIO Series with Rocana
+Operational Intelligence Resource Hub
+First Look at Stream Analytix (an Impetus Product)
+IIC Testbeds
+Special Reports
+Videos
+
+
+ 
+
+
+
+
+Home  /  Tools and Tactics  /  Blockchain  /  Can Blockchain Help Secure the Internet of Things? 
+
+Can Blockchain Help Secure the Internet of Things?
+November 1, 2016By Joe McKendrick  with 
+0 Comments
+
+
+Tweet 
+
+
+
+ 
+
+
+Some cyberattacks are simply not possible using blockchain, but data volume and storage are challenges for the technology.
+
+
+The internet had its own “October surprise” when DVR and IP cameras were infected with malware and created a massive outage that took down Twitter, Reddit, The New York Times, PayPal and other major websites. The malware targeted Internet of Things (IoT) devices such as routers, digital video recorders, and webcams/security cameras. Experts fear this may only be the beginning, and with millions of devices across the IoT, the internet remains vulnerable.
+The October IoT incident was only the latest security breach against this soft underbelly of the internet. Dennis Gada, VP and global client partner at Infosys, cautions that the vulnerability of IoT is increasingly be exploited.
+“There are numerous reports around hacking of connected devices and vehicles, including when security researchers took control of the steering and transmission of a Jeep Cherokee, traveling 70 mph on the highway,” he relates.
+Is there a way to prevent or at least minimize a future attack against the IoT?
+Blockchain technology may help offer an answer. Gada observes that blockchain offers inherent security not present in current, traditional networks. “Blockchain technology is seen as a way to add security and privacy to sensors and devices,” he states. “In traditional IT architectures, tampering can occur if a hacker is able to get through firewalls and other defenses built up by an organization. Once inside, tampering is often not recorded or noticed, and can occur unimpeded. This is simply not possible when using blockchain.”
+Blockchain, Gada explains, is “a suitable solution in at least three aspects of IoT, including big data management, security and transparency, as well as facilitation of micro-transactions based on the exchange of services between interconnected smart devices.”
+Blockchain technology and IoT security: pilots to live projects
+While momentum is building, and there is an increasingly urgent need for network security, it may take some time for blockchain-secured networks to evolve, Gada says, as the technology is still in its pilot stage. However, he predicts, live projects are likely to emerge soon.
+“There has been lot of traction in the pilot projects, especially in the financial services industry,” he observes. “Banks and financial services companies have been forming partnerships with each other and with technology companies to build blockchain proof-of-concepts — major areas of testing include payments, lending, as well as trading and settlements. The emerging areas of interest include smart contracts, loyalty rewards and loans and mortgages.”
+While the earliest instances of blockchain have been within financial sector, Gada says other industries can benefit in the near term.
+For example, he relates, “healthcare is an emerging area where blockchain could bring security and health data interoperability benefits using the technology’s privacy and trust features. While the growth of electronic health record systems in the healthcare industry could benefit the blockchain adoption, however, there is concern about the huge processing power, as well as the specialized hardware and software systems needed to harness the technology.”
+Gada also points to Filament, a US-based blockchain and IoT startup, as an example of IoT blockchains in action. “Its focus is long-range wireless networks, and its main product is the Tap, a device registered on the blockchain with environmental sensors that can integrate with other sensors,” he explains. “The sensors have a wireless range of over 15 km that does not depend on WiFi or cellular networks. These sensors help farmers to monitor soil quality, cities to control outdoor lighting and vending machine operators to optimize inventory, among a host of other potential applications.”
+Gada also cautions there are risks or challenges with employing blockchain to manage IoT networks or transactions. Along with getting security right, the sheer volume of data being collected may overwhelm some devices and networks.
+“Storage will also be a hurdle when employing blockchain, as it eliminates the need for a central server to store transactions and device IDs,” he predicts. “However, given that the ledger has to be stored on the nodes themselves, and the ledger will increase in size as time passes, this surpasses the capabilities of a wide range of smart devices, including sensors, which generally have very low storage capacity.”
+More on this topic:
+Blockchain
+IoT security
+ 
+
+Tagged blockchainFilamentInfosysIoT security 
+
+
+Tweet 
+
+
+ 
+
+About Joe McKendrick
+Joe McKendrick is RTINsights' Industry Insights Editor in charge of contributed case studies. He is a regular contributor to Forbes on digital, cloud and Big Data topics (full bio).  Follow him on Twitter @joemckendrick.
+
+
+									View all posts by Joe McKendrick → 
+
+
+
+
+Recommended Articles
+
+
+
+Microsoft-GE Deal Will Bring Industrial IoT to the Masses
+
+
+
+What Does the Hybrid Cloud Provide?
+
+
+
+IoT Projects: Who Pays For All That Stuff?
+
+
+
+Serving Up Real-Time Social Reactions for Wimbledon
+
+
+
+
+
+Leave a Reply Cancel reply
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+Connect with us 
+News 
+MultiTaction Rolls Out Real-Time Collaboration for Data VisualizationFebruary 14, 2017 | 0 CommentsSpark Summit East News RoundupFebruary 13, 2017 | 0 CommentsMajor Corporations Form IoT Cybersecurity AllianceFebruary 9, 2017 | 0 CommentsGartner: 8.4 Billion Connected “Things” Will Be in Use in 2017February 9, 2017 | 0 Comments  
+
+
+
+Spotlight 
+Special Report: Why Companies Use HadoopFebruary 6, 2017 | 0 CommentsGartner Report: Moving Analytics to Real TimeJanuary 30, 2017 | 0 CommentsAnalytics 3.0: Merging Big Data and Business Intelligence (report)January 23, 2017 | 0 CommentsEmbedded Analytics: the Future of Business IntelligenceJanuary 16, 2017 | 0 Comments From our blogs 
+What Will It Take to Land an IoT Job in 2017?November 8, 2016 | 0 CommentsWorld Bank Puts Anti-Poverty Goals on Real-Time DisplayNovember 7, 2016 | 0 CommentsCan Blockchain Help Secure the Internet of Things?November 1, 2016 | 0 Comments Videos and Podcasts 
+
+
+First Look: TIBCO’s Accelerator for Apache Spark
+
+
+
+Empowering the CIO Series: Rocana
+
+
+
+ First Look:
+      StreamAnalytix
+
+
+
+
+Real-time edge analytics: IBM and Apache Quarks
+
+Resource Hubs 
+
+
+
+
+Operational Intelligence Resource Hub
+
+
+
+
+Popular Articles 
+
+
+
+ Fog Computing: A New IoT Architecture?
+
+
+
+
+
+ How to Apply Machine Learning for Real-Time Analytics: An Online
+        Guide
+
+
+
+
+ How Machine Learning Algorithms Drive Business at Netflix
+
+
+
+
+
+ IoT and Blockchain: A 'Gig Economy' for Machines?
+
+
+
+
+
+IoT Architectures for Edge Analytics
+
+
+
+How India Saved $470m a Year With Real-Time Data
+
+
+
+Three
+      Types of IoT Analytics: Approaches and Use Cases
+
+
+
+The
+      Value of Bringing Analytics to the Edge
+
+
+
+Two Industrial IoT Standards: DDS vs. OPC-UA
+
+
+
+How a Walmart App Optimizes Inventory Control
+
+
+
+
+Get weekly updates!
+Our best content on big data, real-time analytics, and the IoT
+
+
+
+
+
+
+Recent Articles 
+Data in Disasters: Using Real-Time Analytics to Save LivesFebruary 13, 2017 | 0 CommentsHumana’s Real-Time Engine Flags Potential Adverse Drug EventsFebruary 13, 2017 | 0 CommentsTapping the IoT for Business ValueFebruary 11, 2017 | 0 CommentsHow Misys Used In-Memory Tech for Investment Risk ManagementFebruary 7, 2017 | 0 CommentsSpecial Report: Why Companies Use HadoopFebruary 6, 2017 | 0 Comments What’s Trendinganalytics
+Apache Spark
+artificial intelligence
+blockchain
+business intelligence
+Cisco
+cognitive computing
+customer experience management
+cybersecurity
+data
+Data Integration
+data visualization
+deep learning
+edge analytics
+edge computing
+event processing
+financial services
+Hadoop
+healthcare
+ibm
+IBM Watson
+IIC
+in-memory
+Industrial Internet Consortium
+Internet of Things
+inventory control
+iot
+IoT devices
+IoT interoperability
+IoT security
+machine learning
+manufacturing
+Microsoft Azure
+operational intelligence
+predictive analytics
+predictive maintenance
+real-time
+real-time analytics
+real-time marketing
+SAP
+smart cities
+supply chain
+systems
+TDWI
+workforce management
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+© 2016 RTInsights. All rights reserved. Terms of Use
+Submission Guidelines
+ | Privacy Policy | Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+[Malvinas][Malvinas][Malvinas][Malvinas] 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

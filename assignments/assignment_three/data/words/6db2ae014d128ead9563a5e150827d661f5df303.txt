@@ -1,0 +1,1461 @@
+
+
+  
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Open Search
+
+
+
+Search Query
+
+
+
+
+
+Search
+
+
+
+Join Login 
+
+
+
+Sponsored:
+
+SD-WAN
+3
+
+
+Network Virtualization
+1
+
+
+
+
+
+Show previous topics
+
+
+
+Containers
+1
+
+
+SDN
+5
+
+
+NFV
+4
+
+
+Cloud
+7
+
+
+Security
+5
+
+
+IoT
+3
+
+
+5G
+4
+
+
+
+
+Show next topics
+
+
+
+
+
+
+
+
+Open Menu
+
+
+
+
+Login to SDxCentral
+
+Email Address
+
+
+
+Login
+
+
+
+
+
+Enter Your Password
+
+Password
+
+
+
+Login
+
+Forgot your password?
+Login as a different user?
+
+
+
+Your login link has been emailed to you.  Or login with your password?
+
+
+
+
+
+
+Close Menu
+
+ARTICLESDIRECTORYUSE CASESRESOURCESREPORTSPARTICIPATE 
+
+
+
+Join SDxCentral and get information tailored to your particular interests everyday.
+
+
+Join 
+
+
+
+
+
+
+ 
+
+
+Sponsored:
+ Channels
+
+
+Arista
+
+
+Brocade
+
+
+Juniper Networks
+1
+
+
+Linux Foundation
+12
+
+
+Netcracker
+
+
+Nuage Networks
+
+
+OCP
+1
+
+
+OpenStack
+6
+
+
+VMware
+1
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Sections:
+
+Feature Stories
+News
+Analysis
+Events
+Opinions
+Announcements
+Sponsored Content
+Contributed Content
+
+
+
+
+
+Feature Stories
+
+
+
+
+
+
+News
+SDxCentral Weekly News Roundup — February 17, 2017
+AT&T and Broadcom partner to drive innovation in network hardware.
+By SDxCentral
+Full Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Intent-Based Security Gains Momentum at RSA
+Fortinet, vArmour, and Twistlock give 'intent' some RSA air time.
+By Craig Matsumoto
+Full Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Security for Serverless Functions Boils Down to the Basics
+You'll have to write things down and (gasp!) talk to people.
+By Craig Matsumoto
+Full Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Charter Jumps Into 5G Testing as Part of Its Mobile Ambitions
+Charter activated an MVNO agreement with Verizon.
+By Linda Hardesty
+Full Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+OPNFV Tests its Software on OCP Hardware
+It married open source software with open source hardware.
+By Linda Hardesty
+Full Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+News
+Dell EMC Extends Its Enterprise Hybrid Cloud to VxRail
+VxRail serves as the on-premises part of the hybrid cloud.
+By Wyatt Carlson
+Full Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+News
+SDxCentral Weekly News Roundup — February 17, 2017
+
+
+
+
+
+AT&T and Broadcom partner to drive innovation in network hardware.
+
+
+
+
+
+
+
+
+
+ 
+
+
+News
+Intent-Based Security Gains Momentum at RSA
+
+
+
+
+
+Fortinet, vArmour, and Twistlock give 'intent' some RSA air time.
+
+
+
+
+
+
+
+
+
+ 
+
+
+News
+Security for Serverless Functions Boils Down to the Basics
+
+
+
+
+
+You'll have to write things down and (gasp!) talk to people.
+
+
+
+
+
+
+
+
+
+ 
+
+
+News
+Charter Jumps Into 5G Testing as Part of Its Mobile Ambitions
+
+
+
+
+
+Charter activated an MVNO agreement with Verizon.
+
+
+
+
+
+
+
+
+
+ 
+
+
+News
+OPNFV Tests its Software on OCP Hardware
+
+
+
+
+
+It married open source software with open source hardware.
+
+
+
+
+
+
+
+
+
+ 
+
+
+News
+Dell EMC Extends Its Enterprise Hybrid Cloud to VxRail
+
+
+
+
+
+VxRail serves as the on-premises part of the hybrid cloud.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Big Switch Networks
+
+Next-Generation Networking – Drivers and Customer Use Cases
+
+
+
+
+									February 22, 201710:00 am - 11:00 am (PST)								
+
+Download .ics
+
+
+
+
+
+
+
+Register
+
+
+More Information
+
+
+
+
+
+
+
+News / Latest
+More News
+Weekly Roundups
+Summaries
+
+
+
+Why Tech Should Get Involved in Regulating IoT Security
+If the industry doesn't act, lawyers will.
+
+
+
+AT&T ICEs Vendors of Virtual Network Functions
+No snowflake VNFs — just Lego blocks, please.
+
+
+
+Cisco’s Switching and Routing Revenue Dragged in Q2
+Routing was down 10% and switching 5%.
+
+
+
+Datadog Launches APM to Complement NPM Platform
+The new offering will focus on cloud applications running at scale.
+
+
+
+Metaswitch Acquires OpenCloud to Extend VoLTE Portfolio
+OpenCloud's Rhino TAS will mix with Clearwater and Perimeta.
+
+
+
+Ericsson Unveils 5G-Ready Platform That Supports Network Slicing
+Deutsche Telekom and SK Telecom are testing federated network slicing.
+
+
+
+Microsoft President Calls for a Digital Geneva Convention
+As nation-states attack civilians, someone needs to draw the line, Brad...
+
+
+
+Neela Jacques Departs OpenDaylight for Bain Capital Ventures
+His gig at Bain Capital is only short-term.
+
+
+
+ADVA Hypervisor Brings SDN to Legacy Optical Networks
+The hypervisor works with open source and commercial SDN controllers
+
+
+
+Comcast Works on Virtualizing the Cable Modem Termination System
+A virtual CMTS would affect the hardware businesses of some big vendors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Huawei
+
+Why SDN Ecosystems Matter in the Data Center
+
+
+
+
+									February 24, 201710:00 am - 11:00 am (PST)								
+
+Download .ics
+
+
+
+
+
+
+
+Register
+
+
+More Information
+
+
+
+
+
+
+Analysis / Latest
+Show All
+
+
+
+
+
+
+
+
+
+
+February 09, 2017
+Michael Vizard
+
+HCI’s Scale-Out Architecture Can Stress the Network
+Hyperconverged infrastructure requires IT organizations to consider a scale out architecture.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+February 08, 2017
+Michael Vizard
+
+Open Source NFV Initiatives Begin to Mature
+As open source NFV technologies mature, the rate of adoption should soar in 2017.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+February 02, 2017
+Michael Vizard
+
+NFV Interoperability Testing Needs to Accelerate
+To foster NFV interoperability, many initiatives have launched to help organizations determine what NFV software is compatible.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+January 30, 2017
+Michael Vizard
+
+Accessing vCPE Processing Power Is Key to Reliability
+Service providers must accurately estimate vCPE processing power if they want to avoid ripping and replacing equipment down the road.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+DemoFridays/Webinars
+Show All
+
+
+Industry Events
+Show All
+
+
+
+
+
+
+
+
+
+											Webinar																					
+Next-Generation Networking - Drivers and Customer Use Cases
+In this webinar, Big Switch Networks will explore the drivers and trends in the adoption of next-generation data center networking, along with case...
+
+
+
+
+
+Download .ics
+
+
+													February 22, 201710:00 am - 11:00 am												
+
+
+
+
+Register
+
+
+
+
+
+
+
+
+
+
+											Webinar																					
+Why SDN Ecosystems Matter in the Data Center
+Join SDxCentral & Huawei on February 24th the 2017 Next-Gen Data Center Networking Architecture Report Webinar: Why SDN Ecosystems Matter in...
+
+
+
+
+
+Download .ics
+
+
+													February 24, 201710:00 am - 11:00 am												
+
+
+
+
+Register
+
+
+
+
+
+
+
+
+
+
+											Webinar											Archive										
+Lifecycle Service Orchestration – Moving From Promises to Production
+Blue Planet highlights multiple real-world LSO deployments with leading global service providers, as well as the latest LSO-related innovations...
+
+
+
+
+
+
+
+Watch Now
+
+
+
+
+
+
+
+
+
+
+											Webinar											Archive										
+SD-Access: Averting Another Network Transformation Catastrophe
+Learn how operators are applying SDN architectures to transform their broadband networks.
+
+
+
+
+
+
+
+Watch Now
+
+
+
+
+
+
+
+
+
+
+											Webinar											Archive										
+Five Critical Steps for Service Providers to Profit from Virtualized B2B Services
+In this webinar, Netcracker describes the 5 most critical business and technology components that service providers need as they continue to...
+
+
+
+
+
+
+
+Watch Now
+
+
+
+
+
+
+
+
+
+
+											Webinar											Archive										
+The Internet of Talk – Strategies to Monetize VoLTE
+VoLTE subscriptions are slated to grow 10x over next 5 years. Are the operators ready to monetize VoLTE in the next 20 billion users, things and apps?
+
+
+
+
+
+
+
+Watch Now
+
+
+
+
+
+
+
+
+
+February 13 - February 17, 2017
+RSA Conference 2017
+
+Moscone Center
+RSA Conference 2017 mission is to connect you with the people and insights that will empower you to stay ahead of...
+Details
+
+
+
+February 21 - February 23, 2017
+Embedded Linux Conference 2017
+
+Hilton Portland
+The Embedded Linux Conference (ELC) is the premier vendor-neutral technical conference for companies and developers...
+Details
+
+
+
+February 21 - February 23, 2017
+Container World 2017
+
+Santa Clara Convention Center
+Don't miss Container World 2017 from February 21-23, 2017 at the Santa Clara Convention Center in Santa Clara,...
+Details
+
+
+
+February 21 - February 23, 2017
+OpenIoT Summit 2017
+
+Hilton Portland
+OpenIoT Summit 2017 is created to serve the unique needs of system architects, firmware developers, software...
+Details
+
+
+
+February 23, 2017
+DevSecCon Asia 2017
+
+Singapore, Asia
+DevSecCon Asia 2017 on February 23, 2017 in Singapore brings together key figures from both the DevOps and Security...
+Details
+
+
+
+February 27 - March 2, 2017
+Mobile World Congress 2017
+
+Mobile World Capital Barcelona
+Mobile World Congress from February 27 - March 2, 2017 will provide an in-depth coverage of the contemporary and...
+Details
+
+
+
+March 8 - March 9, 2017
+OCP U.S. Summit 2017
+
+Santa Clara Convention Center
+The OCP U.S. Summit 2017 is a 2-day event that will feature a stellar lineup of speakers, announcements,...
+Details
+
+
+
+March 8 - March 9, 2017
+OCP U.S. SUMMIT 2017
+
+Santa Clara Convention Center
+The OCP US Summit 2017 is a 2-day event that will feature a stellar lineup of speakers, announcements,...
+Details
+
+
+
+
+
+
+Opinion / Latest
+Show All
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Sue Marek
+
+SDxCentral Team Will Be Front and Center at Mobile World Congress 2017
+We'll be delivering a steady stream of news, interviews and behind-the-scenes scoops.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Craig Matsumoto
+
+OpenDaylight Project Gets Its 'Intel Inside' Moment
+Remember 2013, when so many of us doubted OpenDaylight?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Three FREE offers from SDxCentral!
+
+SDxCentral Report: 2017 Next Gen Data Center Networking ReportCheck out the latest on data center networking solutions available today.DownloadSDxCentral Report: 2017 Next-Gen OSS and the Rise of LSO ReportCheck out the state of OSSs for the CSP market and the ongoing evolutionDownload
+
+SDxNews, our daily newsletter is a FREE benefit for site members. Our editors do the hard work to keep you in the know by picking the top stories every day and delivering it to your inbox. Join now and see why 35,000+ subscribers love our newsletter.
+
+First name
+
+
+
+Last name
+
+
+
+Email address
+
+
+
+Add Me
+
+
+
+
+
+
+
+
+Announcements
+Show All
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+February 02, 2017
+Roy Chua
+
+2017 Next Gen Data Center Networking Report Available Now
+Download now to learn the latest on data center networking solutions available today.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+January 19, 2017
+Roy Chua
+
+2017 Next-Gen OSS and the Rise of LSO Report Available Now
+Download now to learn the latest Next-gen OSS and LSO products today.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDxCentral Editorial and Analyst Team
+Learn more about the team that brings you the news.
+
+
+Meet the team
+
+
+
+
+
+Reporters
+
+
+Editorial Standards — we strive to provide reliable news, analysis, and editorial content for our community. Read more
+
+
+
+Craig MatsumotoManaging EditorBiographyArticlesSue MarekEditor-in-ChiefBiographyArticlesLinda HardestySenior EditorBiographyArticlesWyatt CarlsonAssociate EditorBiographyArticles 
+
+
+
+Analysis and Opinions
+ Close reporters panel
+
+Matthew PalmerCo-Founder and PartnerBiographyArticlesRoy ChuaCo-Founder and PartnerBiographyArticles 
+
+
+
+
+
+Sponsored Content / Latest
+Show All
+
+
+Learn more about Sponsorships
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+February 15, 2017
+
+HPE and Telco Partners Demonstrate Next-Gen Services at MWC
+Join HPE and its partners at the OpenNFV Partner Showcase at Booth 3E11 in Hall 3. Mobile World Congress is the world’s largest gathering for the...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+February 13, 2017
+
+The Importance of Carrier-grade VNFs
+Serving as Vice President of Solutions Marketing and Strategy for GENBAND, Sanjay Bhatia oversees the company’s product marketing organization and...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+January 31, 2017
+
+How Brocade's Virtual Traffic Manager is Supporting China Mobile’s Data Centers
+By deploying Brocade’s virtual traffic manager in its data centers, China Mobile will be able to deliver agile cloud services.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+January 26, 2017
+
+Brocade Webinar: Five Critical Considerations for IT Automation Q&A
+Thanks to all who joined us for the Brocade webinar Five Critical Considerations for IT Automation. Read the full Q&A here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contributed Articles / Latest
+Show All
+
+
+Interested in Contributing Content?
+
+
+
+
+
+
+
+
+
+
+
+February 07, 2017
+Antonella Corno
+
+Taking Control of the Programmable Network
+Organizations must build key programming skills in their network engineers.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+January 30, 2017
+Marc-Antoine Boutin
+
+Network Slicing Unleashes 5G Opportunities
+Network slicing lets service providers create the ideal virtual network.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+January 27, 2017
+Oded Nahum
+
+vCPE 2.0 - The Business Case for An Open vCPE Framework
+The only way to build the network of the future is to keep it open.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+January 24, 2017
+Patrick Hubbard
+
+The Dark Side of Software-Defined Sprawl
+Software defined infrastructure sprawl is worst where it is compound.
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+
+
+About SDxCentral
+About Us
+Editorial Team
+Editorial Calendar
+Advertise on SDxCentral
+Careers at SDxCentral
+FAQ
+Contact Us
+
+Engage With us
+
+
+
+ This material may not be copied, reproduced, or modified in whole or in part for any purpose except with express written permission from an authorized representative of SDNCentral, LLC. In addition to such written permission to copy, reproduce, or modify this document in whole or part, an acknowledgement of the authors of the document and all applicable portions of the copyright notice must be clearly referenced. All Rights Reserved.
+
+© 2012-2017 SDxCentral, SDxTech, SDNCentral LLC. SDNCentral, SDNNews, SDNTech, SDN University, DemoFriday are trademarks of SDNCentral LLC. All Rights Reserved.
+
+Terms of ServicePrivacy 
+
+ 
+ 
+
+
+Sections:
+
+Feature Stories
+News
+Analysis
+Events
+Opinions
+Announcements
+Sponsored Content
+Contributed Content
+
+Feature Stories
+News
+Analysis
+Events
+Opinions
+Announcements
+Sponsored Content
+Contributed Content
+
+
+
+
+
+
+
+
+
+
+
+
+

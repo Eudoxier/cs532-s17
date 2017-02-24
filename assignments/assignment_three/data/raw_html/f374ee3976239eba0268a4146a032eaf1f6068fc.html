@@ -1,0 +1,2061 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="og: http://ogp.me/ns#"><!--<![endif]-->
+
+    <head>
+
+        <meta charset="utf-8" />
+<script>window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta name="dcterms.format" content="text/html" />
+<meta property="og:type" content="article" />
+<meta name="dcterms.type" content="Text" />
+<meta property="og:site_name" content="Humphrey School of Public Affairs" />
+<link rel="shortcut icon" href="https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:url" content="https://www.hhh.umn.edu/certificate-programs/certificate-election-administration" />
+<link rel="shortlink" href="https://www.hhh.umn.edu/node/266" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="dcterms.creator" content="dickx075" />
+<meta name="dcterms.title" content="Certificate in Election Administration" />
+<meta name="dcterms.date" content="2015-07-08T14:03-05:00" />
+<meta name="dcterms.identifier" content="https://www.hhh.umn.edu/certificate-programs/certificate-election-administration" />
+<meta property="og:title" content="Certificate in Election Administration" />
+<meta name="dcterms.language" content="und" />
+<link rel="canonical" href="https://www.hhh.umn.edu/certificate-programs/certificate-election-administration" />
+        <title>Certificate in Election Administration | Humphrey School of Public Affairs</title>
+
+                <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+                <meta http-equiv="cleartype" content="on">
+
+        <style>
+@import url("https://www.hhh.umn.edu/modules/system/system.base.css?olk5x2");
+</style>
+<style>
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_core/css/panopoly-jquery-ui-theme.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?olk5x2");
+</style>
+<style>
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/date/date_api/date.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/date/date_popup/themes/datepicker.1.7.css?olk5x2");
+@import url("https://www.hhh.umn.edu/modules/field/theme/field.css?olk5x2");
+@import url("https://www.hhh.umn.edu/modules/node/node.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_admin/panopoly-admin.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_admin/panopoly-admin-navbar.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_core/css/panopoly-dropbutton.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_magic/css/panopoly-magic.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_magic/css/panopoly-modal.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_theme/css/panopoly-featured.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_theme/css/panopoly-accordian.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_theme/css/panopoly-layouts.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_widgets/panopoly-widgets.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_widgets/panopoly-widgets-spotlight.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_wysiwyg/panopoly-wysiwyg.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/radix_layouts/radix_layouts.css?olk5x2");
+@import url("https://www.hhh.umn.edu/modules/search/search.css?olk5x2");
+@import url("https://www.hhh.umn.edu/modules/user/user.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/views/css/views.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/caption_filter/caption-filter.css?olk5x2");
+</style>
+<style>
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/ctools/css/ctools.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/panels/css/panels.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/easy_social/css/easy_social.css?olk5x2");
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/contrib/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/modules/tb_megamenu/css/bootstrap.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/modules/tb_megamenu/css/base.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/modules/tb_megamenu/css/default.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/modules/tb_megamenu/css/compatibility.css?olk5x2");
+</style>
+<style>
+@import url("https://www.hhh.umn.edu/profiles/umncore/themes/umn/umn_base_theme/css/styles.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/subtheme_styles.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/colors.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/hhh.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/hhh_user_styles.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/hhh_news_events.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/hhh_tb_megamenu.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/css/font-awesome.css?olk5x2");
+</style>
+<style>
+@import url("https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_images/panopoly-images.css?olk5x2");
+</style>
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,800,regular&amp;subset=latin" media="all" />
+<style>
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/files/fontyourface/local_fonts/Georgia-italic-normal/stylesheet.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/files/fontyourface/local_fonts/Georgia-normal-bold/stylesheet.css?olk5x2");
+@import url("https://www.hhh.umn.edu/sites/hhh.umn.edu/files/fontyourface/local_fonts/Georgia-normal-normal/stylesheet.css?olk5x2");
+</style>
+        <script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script src="https://www.hhh.umn.edu/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.hhh.umn.edu/misc/drupal.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.10.2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.10.2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_images/panopoly-images.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_admin/panopoly-admin.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_magic/panopoly-magic.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_theme/js/panopoly-accordion.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/caption_filter/js/caption-filter.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/libraries/jquery.imagesloaded/jquery.imagesloaded.min.js?olk5x2"></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="//apis.google.com/js/plusone.js"></script>
+<script src="//platform.linkedin.com/in.js"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/contrib/google_analytics/googleanalytics.js?olk5x2"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-4403564-11", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="https://www.hhh.umn.edu/sites/hhh.umn.edu/modules/tb_megamenu/js/tb-megamenu-frontend.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/sites/hhh.umn.edu/modules/tb_megamenu/js/tb-megamenu-touch.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/themes/umn/umn_base_theme/js/umn_mobile_search.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/themes/umn/umn_base_theme/js/umn_accordin_custom.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/themes/umn/umn_base_theme/js/custom.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/themes/umn/umn_base_theme/js/aria-accordion.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/sites/hhh.umn.edu/themes/hhh_subtheme/js/hhh.js?olk5x2"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"hhh_subtheme","theme_token":"x1Ld07cuF0mq9WEGka7DXs7R-E4Q47YmXkUFbST3kb8","js":{"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets-spotlight.js":1,"0":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.tabs.min.js":1,"profiles\/umncore\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_images\/panopoly-images.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_admin\/panopoly-admin.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_magic\/panopoly-magic.js":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/js\/panopoly-accordion.js":1,"profiles\/umncore\/modules\/contrib\/caption_filter\/js\/caption-filter.js":1,"profiles\/umncore\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.min.js":1,"\/\/platform.twitter.com\/widgets.js":1,"\/\/apis.google.com\/js\/plusone.js":1,"\/\/platform.linkedin.com\/in.js":1,"profiles\/umncore\/modules\/contrib\/responsive_menus\/styles\/responsive_menus_simple\/js\/responsive_menus_simple.js":1,"profiles\/umncore\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/hhh.umn.edu\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/hhh.umn.edu\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"profiles\/umncore\/themes\/umn\/umn_base_theme\/js\/umn_mobile_search.js":1,"profiles\/umncore\/themes\/umn\/umn_base_theme\/js\/umn_accordin_custom.js":1,"profiles\/umncore\/themes\/umn\/umn_base_theme\/js\/custom.js":1,"profiles\/umncore\/themes\/umn\/umn_base_theme\/js\/aria-accordion.js":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/js\/hhh.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"profiles\/umncore\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/umncore\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_admin\/panopoly-admin.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_admin\/panopoly-admin-navbar.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_core\/css\/panopoly-dropbutton.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_magic\/css\/panopoly-magic.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_magic\/css\/panopoly-modal.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/css\/panopoly-featured.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/css\/panopoly-accordian.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_theme\/css\/panopoly-layouts.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_widgets\/panopoly-widgets-spotlight.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_wysiwyg\/panopoly-wysiwyg.css":1,"profiles\/umncore\/modules\/contrib\/radix_layouts\/radix_layouts.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"profiles\/umncore\/modules\/contrib\/views\/css\/views.css":1,"profiles\/umncore\/modules\/contrib\/caption_filter\/caption-filter.css":1,"profiles\/umncore\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/umncore\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/umncore\/modules\/contrib\/easy_social\/css\/easy_social.css":1,"profiles\/umncore\/modules\/contrib\/responsive_menus\/styles\/responsive_menus_simple\/css\/responsive_menus_simple.css":1,"sites\/hhh.umn.edu\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/hhh.umn.edu\/modules\/tb_megamenu\/css\/base.css":1,"sites\/hhh.umn.edu\/modules\/tb_megamenu\/css\/default.css":1,"sites\/hhh.umn.edu\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/system.menus.css":1,"profiles\/umncore\/themes\/umn\/umn_base_theme\/css\/styles.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/system.messages.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/system.theme.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/subtheme_styles.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/colors.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/hhh.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/hhh_user_styles.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/hhh_news_events.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/hhh_tb_megamenu.css":1,"sites\/hhh.umn.edu\/themes\/hhh_subtheme\/css\/font-awesome.css":1,"profiles\/umncore\/modules\/panopoly\/panopoly_images\/panopoly-images.css":1,"https:\/\/fonts.googleapis.com\/css?family=Open+Sans:300,600,700,800,regular\u0026subset=latin":1,"public:\/\/fontyourface\/local_fonts\/Georgia-italic-normal\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Georgia-normal-bold\/stylesheet.css":1,"public:\/\/fontyourface\/local_fonts\/Georgia-normal-normal\/stylesheet.css":1}},"CToolsModal":{"modalSize":{"type":"scale","width":".9","height":".9","addWidth":0,"addHeight":0,"contentRight":25,"contentBottom":75},"modalOptions":{"opacity":".55","background-color":"#FFF"},"animationSpeed":"fast","modalTheme":"CToolsModalDialog","throbberTheme":"CToolsModalThrobber"},"panopoly_magic":{"pane_add_preview_mode":"single"},"responsive_menus":[{"toggler_text":"\u2630 Menu","selectors":[".menu-block-umn_customizations-level-one"],"media_size":"520","disable_mouse_events":true,"remove_attributes":true,"responsive_menus_style":"responsive_menus_simple"}],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackCrossDomains":["www.hhh.umn.edu"]},"urlIsAjaxTrusted":{"\/\/google.umn.edu\/search":true}});</script>
+                <!--[if lt IE 9]>
+        <script src="/profiles/umncore/themes/zen/js/html5-respond.js"></script>
+        <![endif]-->
+            </head>
+    <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-266 node-type-general-page region-content section-certificate-programs page-panels" >
+
+      <!-- Google Tag Manager requested by FRWD -->
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MHJ9KB"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MHJ9KB');</script>
+      <!-- End Google Tag Manager -->
+
+      <nav id="skip-links" title="Skip Links">
+        <a href="#hhh-menu" onfocus="this.style.left='0px';" onblur="this.style.left='-1000px';">Skip to the main menu</a>
+        <a href="#hhh-body" onfocus="this.style.left='0px';" onblur="this.style.left='-1000px';">Skip to the main content</a>
+      </nav>
+
+        
+        <!-- Begin UMN Header -->
+        <div id="mandatory-header-wrapper" class="umnhf-campus-tc dtd umnhf-background-maroon dropdown nolinks">
+            <div class="umnhf" id="umnhf-h">
+                <div role="navigation" title="U of M Navigation" class="umnhf" id="umnhf-h-mast">
+                    <a class="umnhf" id="umnhf-h-wm" href="http://umn.edu"><span>Go to the U of M home page</span></a>
+                                        <ul class="umnhf" id="umnhf-h-ql">
+                        <li class="umnhf" id="umnhf-h-onestop"><a href="http://onestop.umn.edu">One Stop</a></li>
+                        <li class="umnhf" id="umnhf-h-myu"><a href="http://www.myu.umn.edu" title="Go to the MyU portal">MyU <span></span></a></li>
+                    </ul>
+                                        <!-- Button below is for dropdown toggle, only visible on mobile screens. If using a non-dropdown version you can delete this tag -->
+                    <button class="umnhf" id="umnhf-m-search" href="#">Search</button>
+                </div>
+                <form class="umnhf" id="umnhf-h-search" method="get" role="search" action="//google.umn.edu/search" accept-charset="UTF-8"><div><label class="umnhf" for="umnhf-h-st">Search</label><div class="form-item form-type-textfield form-item-q">
+ <input class="umnhf form-text" id="umnhf-h-st" placeholder="Search Websites and People" type="text" name="q" value="" size="60" maxlength="128" />
+</div>
+<input type="hidden" name="client" value="tc_hhh" />
+<input type="hidden" name="proxystylesheet" value="tc_hhh" />
+<input type="hidden" name="site" value="tc_hhh" />
+<input type="hidden" name="output" value="xml_no_dtd" />
+<input type="hidden" name="form_build_id" value="form-v4TiQEOxnpoK4WBk8c0G50fM0QER4oXUiWqtrF2YMlQ" />
+<input type="hidden" name="form_id" value="umn_search_gsa7_form" />
+<div class="form-actions form-wrapper" id="edit-actions"><input class="umnhf form-submit" id="umnhf-h-sb" type="submit" name="op" value="Search" /></div></div></form>            </div>
+        </div>
+        <!-- End UMN Header -->
+
+                
+
+<div id="header-wrapper-full-width" class="clearfix" role="banner">
+	<div id="sub-header-site-name"><div class="panel-pane pane-fieldable-panels-pane pane-uuid-a585ff3f-042a-48f8-8bcc-639d47e9c7af pane-bundle-text"  id="hhh-header" >
+  
+      
+  
+  <div class="fieldable-panels-pane">
+    <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div class="hhh-site-name" id="hhh-site-name">
+<h1><a href="/">Humphrey School of Public Affairs</a></h1>
+<ul>
+  <li><a href="/current-students" title="Go to the current Humphrey students page.">Current Students</a></li>
+  <li><a href="/alumni" title="Go to the Humphrey alumni page.">Alumni</a></li>
+</ul>
+</div>
+<div class="clearfix"></div>
+</div></div></div></div>
+
+  
+  </div>
+</div>
+
+	<div id="header-wrapper-internal">
+		<div id="sub-header" class="clearfix">
+			<a name="hhh-menu"></a><nav id="main-menu" title="Main Menu" tabindex="-1"><div class="panel-pane pane-block pane-tb-megamenu-main-menu"  >
+  
+      
+  
+  <div  class="tb-megamenu tb-megamenu-main-menu">
+      <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar tb-megamenu-button" type="button" aria-label="Main Menu">
+      <span class="icon-reorder"></span>
+    </button>
+    <div class="nav-collapse collapse">
+    <ul  class="tb-megamenu-nav nav level-0 items-8">
+  <li  data-id="7891" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown active">
+  <a href="/academics" class="dropdown-toggle">
+        
+    Academics      </a>
+    <div  data-class="" data-width="1200" style="width: 1200px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="hhh-menu-image" data-width="3" data-hidewcol="1" id="tb-megamenu-column-1" class="tb-megamenu-column span3  mega-col-nav hhh-menu-image hhh-menu-image hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--1" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-1" class="block block-block first odd">
+
+      
+  <p><a class="hhh-menu-image-title" href="/academics">Academics</a><img src="/sites/hhh.umn.edu/themes/hhh_subtheme/images/academics_mm.png" alt=""/>Acquire the skills, expertise, and real-world experience to transform your ideas into action at one of the country’s top-ranked public policy and planning schools.</p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-3" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="7921" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/academics/masters-degrees" class="mega-group-title">
+        
+    Master's Degrees      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-2" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-8">
+  <li  data-id="7936" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/master-development-practice" class="">
+        
+    Master of Development Practice      </a>
+    </li>
+
+<li  data-id="11721" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/master-human-rights" class="">
+        
+    Master of Human Rights      </a>
+    </li>
+
+<li  data-id="7941" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/master-public-affairs-mid-career" class="">
+        
+    Master of Public Affairs (Mid-Career)      </a>
+    </li>
+
+<li  data-id="7946" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/master-public-policy" class="">
+        
+    Master of Public Policy      </a>
+    </li>
+
+<li  data-id="7956" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/master-science-science-technology-and-environmental-policy" class="">
+        
+    Master of Science in Science, Technology, and Environmental Policy      </a>
+    </li>
+
+<li  data-id="7961" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/master-urban-and-regional-planning" class="">
+        
+    Master of Urban and Regional Planning      </a>
+    </li>
+
+<li  data-id="7966" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/dual-masters-degree-programs" class="">
+        
+    Dual Master's Degree Programs      </a>
+    </li>
+
+<li  data-id="7971" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/graduate-minors" class="">
+        
+    Graduate Minors      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-5" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="7976" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/academics/doctor-philosophy-phd-public-affairs" class="">
+        
+    PhD Program      </a>
+    </li>
+
+<li  data-id="7981" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group active">
+  <a href="/academics/certificate-programs" class="mega-group-title">
+        
+    Certificate Programs      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-4" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="7986" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/certificate-programs/certificate-early-childhood-policy" class="">
+        
+    Early Childhood Policy      </a>
+    </li>
+
+<li  data-id="9356" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega active">
+  <a href="/certificate-programs/certificate-election-administration" class="">
+        
+    Election Administration      </a>
+    </li>
+
+<li  data-id="33391" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/certificate-programs/certificate-human-services-leadership" class="">
+        
+    Human Services Leadership      </a>
+    </li>
+
+<li  data-id="7996" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/certificate-programs/certificate-nonprofit-management" class="">
+        
+    Nonprofit Management      </a>
+    </li>
+
+<li  data-id="8001" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/certificate-programs/certificate-policy-issues-work-and-pay" class="">
+        
+    Policy Issues on Work and Pay      </a>
+    </li>
+
+<li  data-id="8006" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/certificate-programs/certificate-public-affairs-leadership" class="">
+        
+    Public Affairs Leadership      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-10" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="8011" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/academics/undergraduate-opportunities" class="mega-group-title">
+        
+    Undergraduate Opportunities      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-6" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-3">
+  <li  data-id="8016" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/undergraduate-opportunities/bachelor-artsmaster-public-policy-political-engagement" class="">
+        
+    BA-MPP Early Admission Program      </a>
+    </li>
+
+<li  data-id="8021" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/undergraduate-opportunities/early-admissions-programs" class="">
+        
+    Additional Early Admissions      </a>
+    </li>
+
+<li  data-id="35706" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/undergraduate-opportunities/ppia-junior-summer-institute" class="">
+        
+    PPIA Junior Summer Institute      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="8026" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/academics/professional-development" class="mega-group-title">
+        
+    Professional Development      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-9" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="8031" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/professional-development/international-fellows-and-scholars" class="dropdown-toggle">
+        
+    International Fellows & Scholars      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-8" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-2">
+  <li  data-id="8546" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/international-fellows-scholars/international-visiting-scholars" class="">
+        
+    International Visiting Scholars      </a>
+    </li>
+
+<li  data-id="9361" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega dropdown-submenu">
+  <a href="/international-fellows-scholars/international-fellows" class="dropdown-toggle">
+        
+    International Fellows      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-7" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-4 items-2">
+  <li  data-id="9381" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/international-fellows/current-fellows" class="">
+        
+    Current Fellows      </a>
+    </li>
+
+<li  data-id="9366" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/international-fellows/alumni" class="">
+        
+    Alumni      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="8051" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/professional-development/minnesota-senior-leadership-institute" class="">
+        
+    Minnesota Senior Leadership Institute      </a>
+    </li>
+
+<li  data-id="8056" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/professional-development/policy-fellows-program" class="">
+        
+    Policy Fellows Program      </a>
+    </li>
+
+<li  data-id="8061" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/professional-development/public-safety-leadership-program" class="">
+        
+    Public Safety Leadership Program      </a>
+    </li>
+
+<li  data-id="8066" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/professional-development/training-public-policy-race" class="">
+        
+    Training in Public Policy & Race      </a>
+    </li>
+
+<li  data-id="38931" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/professional-development/equity-works" class="">
+        
+    Equity Works      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="7896" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/people-research" class="dropdown-toggle">
+        
+    People & Research      </a>
+    <div  data-class="" data-width="1200" style="width: 1200px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="hhh-menu-image" data-width="3" data-hidewcol="1" id="tb-megamenu-column-11" class="tb-megamenu-column span3  mega-col-nav hhh-menu-image hhh-menu-image hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--6" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-6" class="block block-block even">
+
+      
+  <p><a class="hhh-menu-image-title" href="/people-research">People &amp; Research</a><img src="/sites/hhh.umn.edu/themes/hhh_subtheme/images/people_mm.png" alt=""/>World-class faculty and staff fuel the Humphrey School with real-world experience, global connections, and leading scholarship.</p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-13" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="7926" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/people-research/areas-expertise" class="mega-group-title">
+        
+    Areas of Expertise      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-12" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-6">
+  <li  data-id="8551" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/areas-expertise/global-policy" class="">
+        
+    Global Policy      </a>
+    </li>
+
+<li  data-id="8556" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/areas-expertise/leadership-management" class="">
+        
+    Leadership & Management      </a>
+    </li>
+
+<li  data-id="8561" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/areas-expertise/politics-governance" class="">
+        
+    Politics & Governance      </a>
+    </li>
+
+<li  data-id="8566" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/areas-expertise/science-technology-environmental-policy" class="">
+        
+    Science, Technology & Environmental Policy      </a>
+    </li>
+
+<li  data-id="8571" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/areas-expertise/social-policy-policy-analysis" class="">
+        
+    Social Policy & Policy Analysis      </a>
+    </li>
+
+<li  data-id="8576" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/areas-expertise/urban-regional-planning" class="">
+        
+    Urban & Regional Planning      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-25" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="7931" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/people-research/research-centers" class="mega-group-title">
+        
+    Research Centers      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-24" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-9">
+  <li  data-id="9396" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/center-science-technology-and-environmental-policy" class="dropdown-toggle">
+        
+    Center for Science, Technology, and Environmental Policy      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-14" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-5">
+  <li  data-id="38821" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-science-technology-and-environmental-policy/urban-water-and-food-systems" class="">
+        
+    Urban Water and Food Systems      </a>
+    </li>
+
+<li  data-id="9426" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-science-technology-and-environmental-policy/technology-innovation-and-policy" class="">
+        
+    Technology Innovation and Policy      </a>
+    </li>
+
+<li  data-id="9431" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-science-technology-and-environmental-policy/sustainable-infrastructure-and-cities" class="">
+        
+    Sustainable Infrastructure and Cities      </a>
+    </li>
+
+<li  data-id="9421" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-science-technology-and-environmental-policy/risk-and-resilience" class="">
+        
+    Risk and Resilience      </a>
+    </li>
+
+<li  data-id="9416" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-science-technology-and-environmental-policy/energy-and-climate-policy" class="">
+        
+    Energy and Climate Policy      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9446" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/center-study-politics-and-governance" class="dropdown-toggle">
+        
+    Center for the Study of Politics and Governance      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-16" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-4">
+  <li  data-id="9451" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega dropdown-submenu">
+  <a href="/professional-development/policy-fellows-program" class="dropdown-toggle">
+        
+    Policy Fellows Program      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-15" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-4 items-2">
+  <li  data-id="29136" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/policy-fellows-program/how-apply-policy-fellows" class="">
+        
+    How to Apply: Policy Fellows      </a>
+    </li>
+
+<li  data-id="9456" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/policy-fellows-program/faqs-policy-fellows" class="">
+        
+    FAQs: Policy Fellows      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9461" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-study-politics-and-governance/election-academy" class="">
+        
+    Election Academy      </a>
+    </li>
+
+<li  data-id="9471" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-study-politics-and-governance/health-care-policy" class="">
+        
+    Health Care Policy      </a>
+    </li>
+
+<li  data-id="9466" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="http://editions.lib.umn.edu/smartpolitics/" class="">
+        
+    Smart Politics      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9506" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/center-women-gender-and-public-policy" class="dropdown-toggle">
+        
+    Center on Women, Gender, and Public Policy      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-17" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-3">
+  <li  data-id="9511" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-women-gender-and-public-policy/representation-and-leadership" class="">
+        
+    Representation and Leadership      </a>
+    </li>
+
+<li  data-id="9521" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-women-gender-and-public-policy/human-rights" class="">
+        
+    Human Rights      </a>
+    </li>
+
+<li  data-id="10236" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/center-women-gender-and-public-policy/social-and-economic-equity" class="">
+        
+    Social and Economic Equity      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9606" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/freeman-center-international-economic-policy" class="dropdown-toggle">
+        
+    Freeman Center for International Economic Policy      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-18" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-1">
+  <li  data-id="9611" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/freeman-center-international-economic-policy/about-freemans" class="">
+        
+    About the Freemans      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9531" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/public-and-nonprofit-leadership-center" class="dropdown-toggle">
+        
+    Public and Nonprofit Leadership Center      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-19" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-3">
+  <li  data-id="9556" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/public-and-nonprofit-leadership-center/government-innovation" class="">
+        
+    Government Innovation      </a>
+    </li>
+
+<li  data-id="9551" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/government-innovation/professional-development-programs" class="">
+        
+    Professional Development Programs      </a>
+    </li>
+
+<li  data-id="9561" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/public-and-nonprofit-leadership-center/research-projects" class="">
+        
+    Research Projects      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9626" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/roy-wilkins-center-human-relations-and-social-justice" class="dropdown-toggle">
+        
+    Roy Wilkins Center for Human Relations and Social Justice      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-22" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-4">
+  <li  data-id="9641" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega dropdown-submenu">
+  <a href="/roy-wilkins-center-human-relations-and-social-justice/technical-assistance" class="dropdown-toggle">
+        
+    Technical Assistance      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-20" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-4 items-1">
+  <li  data-id="9646" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/technical-assistance/disparity-studies" class="">
+        
+    Disparity Studies      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9656" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega dropdown-submenu">
+  <a href="/professional-development/training-public-policy-race" class="dropdown-toggle">
+        
+    Training in Public Policy & Race      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-21" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-4 items-1">
+  <li  data-id="30321" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/training-public-policy-race/wilkins-community-fellows-program" class="">
+        
+    Wilkins Community Fellows Program      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9651" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/roy-wilkins-center-human-relations-and-social-justice/research-roy-wilkins" class="">
+        
+    Research      </a>
+    </li>
+
+<li  data-id="10231" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/roy-wilkins-center-human-relations-and-social-justice/conferences" class="">
+        
+    Conferences      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9566" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/research-centers/state-and-local-policy-program" class="dropdown-toggle">
+        
+    State and Local Policy Program      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-23" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-4">
+  <li  data-id="9576" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/state-and-local-policy-program/economic-competitiveness" class="">
+        
+    Economic Competitiveness      </a>
+    </li>
+
+<li  data-id="9581" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/state-and-local-policy-program/technology" class="">
+        
+    Technology      </a>
+    </li>
+
+<li  data-id="9586" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/state-and-local-policy-program/transportation-finance" class="">
+        
+    Transportation Finance      </a>
+    </li>
+
+<li  data-id="9591" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/state-and-local-policy-program/transportation-safety" class="">
+        
+    Transportation Safety      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="8581" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="http://www.leadership.umn.edu" class="">
+        
+    Center for Integrative Leadership      </a>
+    </li>
+
+<li  data-id="8586" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="https://hcrc.umn.edu" class="">
+        
+    Human Capital Research Collaborative      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-28" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="9761" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/directory" class="">
+        
+    Faculty & Staff      </a>
+    </li>
+
+<li  data-id="8596" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title mega-group">
+  <a href="/people-research/access-humphrey-expertise" class="mega-group-title">
+        
+    Access Humphrey Expertise      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-27" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="10541" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/access-humphrey-expertise/student-expertise" class="dropdown-toggle">
+        
+    Student Expertise      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-26" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-1">
+  <li  data-id="20076" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/student-expertise/become-capstone-client" class="">
+        
+    Become a Capstone Client      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="18656" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="http://www.hubertproject.org" class="">
+        
+    Hubert Project Learning Materials      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="7901" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/admissions" class="dropdown-toggle">
+        
+    Admissions      </a>
+    <div  data-class="" data-width="1200" style="width: 1200px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="hhh-menu-image" data-width="3" data-hidewcol="1" id="tb-megamenu-column-29" class="tb-megamenu-column span3  mega-col-nav hhh-menu-image hhh-menu-image hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--11" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-11" class="block block-block odd">
+
+      
+  <p><a class="hhh-menu-image-title" href="/admissions">Admissions</a><img src="/sites/hhh.umn.edu/themes/hhh_subtheme/images/adminssions_mm.png" alt=""/>Choose from six master’s degrees, a PhD program, numerous certificate programs, ample undergraduate opportunities, and an array of professional development offerings.</p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-32" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8601" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/admissions/masters-degrees" class="mega-group-title">
+        
+    Master's Degrees      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-31" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-4">
+  <li  data-id="8616" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/masters-degrees/cost-aid" class="dropdown-toggle">
+        
+    Cost & Aid      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-30" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-5">
+  <li  data-id="8621" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/cost-aid/merit-based-aid" class="">
+        
+    Merit-Based Aid      </a>
+    </li>
+
+<li  data-id="8656" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/cost-aid/need-based-aid" class="">
+        
+    Need-Based Aid      </a>
+    </li>
+
+<li  data-id="8661" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/cost-aid/federal-loan-repayment-plans" class="">
+        
+    Federal Loan Repayment Plans      </a>
+    </li>
+
+<li  data-id="8666" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/cost-aid/public-service-loan-forgiveness" class="">
+        
+    Public Service Loan Forgiveness      </a>
+    </li>
+
+<li  data-id="8671" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/cost-aid/other-resources" class="">
+        
+    Other Resources      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="10436" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/how-apply-masters-degrees" class="">
+        
+    How to Apply      </a>
+    </li>
+
+<li  data-id="8606" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/faqs" class="">
+        
+    FAQs      </a>
+    </li>
+
+<li  data-id="10266" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/masters-degrees/class-profile" class="">
+        
+    Class Profile      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-34" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8676" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title mega-group">
+  <a href="/admissions/certificate-programs" class="mega-group-title">
+        
+    Certificate Programs      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-33" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="10446" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/certificate-programs/how-apply-certificate-programs" class="">
+        
+    How to Apply      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-36" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8681" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title mega-group">
+  <a href="/admissions/undergraduate-early-admissions" class="mega-group-title">
+        
+    Undergraduate Early Admissions      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-35" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="10456" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/undergraduate-early-admissions/how-apply-undergraduate-early-admissions" class="">
+        
+    How to Apply      </a>
+    </li>
+
+<li  data-id="10451" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/undergraduate-early-admissions/cost-aid" class="">
+        
+    Cost & Aid      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-37" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="8686" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/admissions/phd-program" class="">
+        
+    PhD Program      </a>
+    </li>
+
+<li  data-id="10651" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/admissions/admitted-student-info" class="">
+        
+    Admitted Student Info      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="7906" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/career-services" class="dropdown-toggle">
+        
+    Career Services      </a>
+    <div  data-class="" data-width="1200" style="width: 1200px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="hhh-menu-image" data-width="3" data-hidewcol="1" id="tb-megamenu-column-38" class="tb-megamenu-column span3  mega-col-nav hhh-menu-image hhh-menu-image hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--16" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-16" class="block block-block even">
+
+      
+  <p><a class="hhh-menu-image-title" href="/career-services">Career Services</a><img src="/sites/hhh.umn.edu/themes/hhh_subtheme/images/career_mm.png" alt=""/>Career Services can help you find meaningful work that matches your passions and areas of study.</p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-42" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8706" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/career-services/career-services-students" class="mega-group-title">
+        
+    Students      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-41" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-4">
+  <li  data-id="8726" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/students/career-development" class="">
+        
+    Career Development      </a>
+    </li>
+
+<li  data-id="8711" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega dropdown-submenu">
+  <a href="/students/internship-information" class="dropdown-toggle">
+        
+    Internship Information      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-40" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-3 items-2">
+  <li  data-id="8721" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega">
+  <a href="/internship-information/internship-documentation-process" class="">
+        
+    Internship Documentation Process      </a>
+    </li>
+
+<li  data-id="8716" data-level="4" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-4 mega dropdown-submenu">
+  <a href="/internship-information/internship-grant-opportunities" class="dropdown-toggle">
+        
+    Internship Grant Opportunities      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-39" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-4 items-1">
+  <li  data-id="12261" data-level="5" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-5 mega">
+  <a href="/internship-grant-opportunities/summer-unpaid-domestic-internship-grants" class="">
+        
+    Summer Unpaid Domestic Internship Grants      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="10221" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/students/job-internship-postings" class="">
+        
+    Job & Internship Postings      </a>
+    </li>
+
+<li  data-id="8731" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/students/professional-connections" class="">
+        
+    Professional Connections      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-43" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8736" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/career-services/career-services-alumni" class="">
+        
+    Alumni      </a>
+    </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-45" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8741" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/career-services/employers" class="mega-group-title">
+        
+    Employers      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-44" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="8746" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/employers/develop-effective-graduate-internships" class="">
+        
+    Effective Internships      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="7911" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/about-humphrey-school" class="dropdown-toggle">
+        
+    About      </a>
+    <div  data-class="" data-width="1200" style="width: 1200px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="hhh-menu-image" data-width="3" data-hidewcol="1" id="tb-megamenu-column-46" class="tb-megamenu-column span3  mega-col-nav hhh-menu-image hhh-menu-image hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--21" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-21" class="block block-block odd">
+
+      
+  <p><a class="hhh-menu-image-title" href="/about-humphrey-school">About</a><img src="/sites/hhh.umn.edu/themes/hhh_subtheme/images/about_mm.png" alt=""/>The Humphrey School is one of the country’s top-ranked professional public policy and planning schools, widely recognized for its success in advancing the common good.</p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-48" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8756" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega mega-group">
+  <a href="/about/our-leadership" class="mega-group-title">
+        
+    Our Leadership      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-47" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="8761" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/our-leadership/alumni-board" class="">
+        
+    Alumni Board      </a>
+    </li>
+
+<li  data-id="8766" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/our-leadership/deans-advisory-council" class="">
+        
+    Dean's Advisory Council      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-50" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-2">
+  <li  data-id="8771" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title mega-group">
+  <a href="/about/student-life" class="mega-group-title">
+        
+    Student Life      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-49" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="12256" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/student-life/student-organizations" class="">
+        
+    Student Organizations      </a>
+    </li>
+
+<li  data-id="10736" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/student-life/equity-diversity" class="">
+        
+    Equity & Diversity      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="10566" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/about/location-directions" class="">
+        
+    Location & Directions      </a>
+    </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-52" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8776" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="left" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title mega-align-left mega-group">
+  <a href="/about/history-legacy-awards" class="mega-group-title">
+        
+    History, Legacy & Awards      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu mega-group-ct nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-51" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-2">
+  <li  data-id="10271" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/history-legacy-awards/hubert-h-humphrey-public-leadership-awards" class="">
+        
+    Hubert H. Humphrey Public Leadership Awards      </a>
+    </li>
+
+<li  data-id="20071" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/history-legacy-awards/distinguished-carlson-lecture-series" class="">
+        
+    Distinguished Carlson Lecture Series      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="2" data-hidewcol="" id="tb-megamenu-column-53" class="tb-megamenu-column span2  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="8791" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="1" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/about/conference-center-rental" class="">
+        
+    Conference Center Rental      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9716" data-level="1" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="justify" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega mega-align-justify dropdown">
+  <a href="/content/news-events" class="dropdown-toggle">
+        
+    News & Events      </a>
+    <div  data-class="" data-width="1200" style="width: 1200px;" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-showblocktitle="0" data-class="hhh-menu-image" data-width="3" data-hidewcol="1" id="tb-megamenu-column-54" class="tb-megamenu-column span3  mega-col-nav hhh-menu-image hhh-menu-image hidden-collapse">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <div  data-type="block" data-block="block--31" class="tb-megamenu-block tb-block tb-megamenu-block">
+  <div class="block-inner">
+    <div id="block-block-31" class="block block-block even">
+
+      
+  <p><a class="hhh-menu-image-title" href="/news-events">News &amp; Events</a><img src="/sites/hhh.umn.edu/files/styles/panopoly_image_original/public/news_events_mm.png" alt="">Check out the latest news on faculty, staff, and alumni accomplishments and learn about upcoming public events at the Humphrey School.</p>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-55" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="10556" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/upcoming-events" class="">
+        
+    Upcoming Public Events      </a>
+    </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-56" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="10551" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/in-the-media" class="">
+        
+    In the Media      </a>
+    </li>
+</ul>
+  </div>
+</div>
+
+<div  data-class="" data-width="3" data-hidewcol="" id="tb-megamenu-column-57" class="tb-megamenu-column span3  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-1">
+  <li  data-id="10561" data-level="2" data-type="menu_item" data-class="hhh-mega-group-title" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega hhh-mega-group-title">
+  <a href="/news-archive" class="">
+        
+    News Archive      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9386" data-level="1" data-type="menu_item" data-class="hhh-hidden-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega hhh-hidden-menu dropdown">
+  <a href="/current-students" class="dropdown-toggle">
+        
+    Current Students      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-58" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-5">
+  <li  data-id="10731" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/classes-registration-info" class="">
+        
+    Classes & Registration Info      </a>
+    </li>
+
+<li  data-id="10516" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/degree-planning-completion-mdp-mhr-mpa-mpp-murp" class="">
+        
+    Degree Planning & Completion: MDP, MHR, MPA, MPP, MURP      </a>
+    </li>
+
+<li  data-id="9666" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/degree-planning-completion-ms%E2%88%92step" class="">
+        
+    Degree Planning & Completion: MS−STEP      </a>
+    </li>
+
+<li  data-id="10521" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/degree-overview-phd" class="">
+        
+    Degree Overview: PhD      </a>
+    </li>
+
+<li  data-id="10526" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/current-students/planning-completion-certificates" class="">
+        
+    Planning & Completion: Certificates      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+
+<li  data-id="9391" data-level="1" data-type="menu_item" data-class="hhh-hidden-menu" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-1 mega hhh-hidden-menu dropdown">
+  <a href="/alumni" class="dropdown-toggle">
+        
+    Alumni      </a>
+    <div  data-class="" data-width="" class="tb-megamenu-submenu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-60" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-1 items-3">
+  <li  data-id="9681" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/alumni/join-alumni-network" class="">
+        
+    Join an Alumni Network      </a>
+    </li>
+
+<li  data-id="9676" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega">
+  <a href="/alumni/lead-serve" class="">
+        
+    Lead & Serve      </a>
+    </li>
+
+<li  data-id="9671" data-level="2" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-2 mega dropdown-submenu">
+  <a href="/alumni/support-our-students" class="dropdown-toggle">
+        
+    Support Our Students      </a>
+    <div  data-class="hhh-hidden-menu" data-width="" class="tb-megamenu-submenu hhh-hidden-menu dropdown-menu mega-dropdown-menu nav-child">
+  <div class="mega-dropdown-inner">
+    <div  class="tb-megamenu-row row-fluid">
+  <div  data-class="" data-width="12" data-hidewcol="0" id="tb-megamenu-column-59" class="tb-megamenu-column span12  mega-col-nav">
+  <div class="tb-megamenu-column-inner mega-inner clearfix">
+        <ul  class="tb-megamenu-subnav mega-nav level-2 items-1">
+  <li  data-id="10486" data-level="3" data-type="menu_item" data-class="" data-xicon="" data-caption="" data-alignsub="" data-group="0" data-hidewcol="0" data-hidesub="0" class="tb-megamenu-item level-3 mega">
+  <a href="/support-our-students/alumni-mentor-programs" class="">
+        
+    Alumni Mentor Programs      </a>
+    </li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</li>
+</ul>
+      </div>
+  </div>
+
+  
+  </div>
+</nav>		</div>
+	</div>
+</div>
+
+
+<div role="main">
+<div id="full-page-wrapper">
+	<div id="page">
+		
+		<a name="hhh-body"></a>
+		<div id="content" class="column"><div class="panel-pane pane-page-breadcrumb hhh-breadcrumb"  >
+  
+      
+  
+  <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="/">Home</a> › </li><li><a href="/academics">Academics</a> › </li><li><a href="/academics/certificate-programs">Certificate Programs</a> › </li><li>Certificate in Election Administration</li></ol></nav>
+  
+  </div>
+<div class="panel-pane pane-pane-messages"  >
+  
+      
+  
+  
+
+
+  
+  </div>
+<div class="panel-pane pane-page-content"  >
+  
+      
+  
+  
+<div class="panelizer-view-mode node node-full node-general-page node-266 hhh-general-page">
+        
+<div class="panel-display moscone-flipped clearfix radix-moscone-flipped" >
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 radix-layouts-header panel-panel">
+        <div class="panel-panel-inner">
+          <div class="panel-pane pane-node-title"  >
+  
+      
+  
+  <h2>Certificate in Election Administration</h2>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-8 radix-layouts-content panel-panel">
+        <div class="panel-panel-inner">
+          <div class="panel-pane pane-entity-field pane-node-field-lead-video hhh-lead-video"  >
+  
+      
+  
+  <div class="field field-name-field-lead-video field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><div id="file-16571" class="file file-video file-video-youtube">
+
+        <h2 class="element-invisible"><a href="/files/certificate-election-administration">Certificate in Election Administration</a></h2>
+    
+  
+  <div class="content">
+    <div class="media-youtube-video media-youtube-1">
+  <iframe class="media-youtube-player" id="media-youtube-whxoejvqseg" width="765" height="510" title="Certificate in Election Administration" src="//www.youtube.com/embed/whxoejVqSEg?wmode=opaque&enablejsapi=1&modestbranding=1&playerapiid=media-youtube-whxoejvqseg" frameborder="0" allowfullscreen>Video of Certificate in Election Administration</iframe>
+</div>
+  </div>
+
+  
+</div>
+</div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-body"  >
+  
+      
+  
+  <div class="field field-name-field-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>America’s election system faces an urgent need for professionals who are well-trained in the latest technology and techniques in the field and well-versed in the legal and policy challenges facing our voting system. The Humphrey School of Public Affairs is responding to this widespread need with a pioneering, online program to prepare professionals in election administration.</p>
+<h3>Flexible Online Training</h3>
+<p>The Certificate in Election Administration is designed with maximum flexibility for those experienced individuals already managing state and local election offices, as well as those seeking to become part of the next generation of creative and committed leaders. Whether you are currently working in or considering a career in elections, this rigorous and relevant online 12-credit program will prepare you for advancement in the profession of election administration. The courses are taught by national expert Doug Chapin and other prominent leaders in election administration, and are accessible online 24 hours a day from anywhere in the world. <a href="https://www.youtube.com/watch?v=MWTSa8eQNKc&amp;feature=youtu.be" target="_blank" rel="nofollow">Watch this webinar </a>recorded before the 2016 presidential election for a glimpse at topics covered.</p>
+<h3>Meeting a National Need</h3>
+<p>This first-of-its-kind program in the U.S. is in direct response to the 2014 Presidential Commission on Election Administration report, which urged universities to integrate election administration into their curriculum in a concerted effort to expand professional expertise in the field. The program is presented in an accessible and stimulating online format that allows students to continue with their current employment while working toward a University certificate. </p>
+<h3>What You Will Gain:</h3>
+<ul>
+<li>Knowledge of ever-changing and complex election laws, regulations, and technology</li>
+<li>Career-enhancing connections that tap into the experience of your peers</li>
+<li>Ability to respond to the steady demand for experienced elections and voting professionals</li>
+</ul>
+</div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-accordion-content"  >
+  
+      
+  
+  <div class="field field-name-field-accordion-content field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><div class="hhh-accordion-content-wrapper"><div class="hhh-accordion-content-pane"><h3 name="tab1">Curriculum</h3><div class="hhh-accordion-content-pane-content"><p><span>The fully online Certificate in Election Administration requires 12 semester credits, including three core courses, one capstone project, and two elective credits.</span></p>
+<h4>Core Courses (required)</h4>
+<p><em>PA 5971 – Survey of Election Administration</em>  (3.0 cr)<br />Comprehensive course on the general building blocks of election administration from voter registration to recounts. </p>
+<p><em>PA 5972 – Elections and the Law</em> (3.0 cr)<br />A thorough examination of election laws at the federal, state, and local level and how they guide the conduct of elections by officials and voters alike.  </p>
+<p><em>PA 5973 – Strategic Management of Election Administration </em>(2.0 cr)<br />Strategic management for election administrators in the political environment.  The course will cover the distinct phases and hurdles of the policy process and skills for election officials to enact new policy.</p>
+<h4>Capstone Project (required)</h4>
+<p><em>PA 5974 – Election Administration Capstone Project</em> (2.0 cr)<br />Students are invited to identify an election administration issue or problem in a jurisdiction of their choice and proceed to research best practices and possible solutions and write a final paper or prepare a presentation on their findings. </p>
+<h4>Elective Courses (2 or more credits required)</h4>
+<p><em>PA 5975 – Election Design</em> (2.0 cr)<br />An innovative course on design principles and how they are used in election administration. Through small, weekly assignments you will learn and practice new skills in plain language, design, and usability with real election materials.</p>
+<p><em>PA 5976 – Voter Outreach and Participation</em> (1.0 cr)<br />Why do some voters turnout while others don’t? This course investigates the patterns and history of voter participation and practical steps to increase voter turnout. </p>
+<p><em>PA 5977 – Public Budgeting for Election Administration</em> (1.0 cr)<br />Learn the basics of budgeting and fiscal analysis. This valuable course introduces students to the budget process at state capitols and the techniques of budget and program analysis. </p>
+<p><em>PA 5978 – Management of Organizations for Election Administration</em> (1.0 cr)<br />Administering elections requires skills and knowledge of management. This essential course familiarizes students with organizational management strategies for effective government performance. </p>
+<p><em>PA 5979 – Communications for Election Administration</em> (1.0 cr)<br />Running an elections office often requires communications with the public and the press. This practical course prepares students to better handle public communications and media relations. </p>
+<p><em>PA 5982 – Data Analysis for Election Administration</em> (2.0 cr)<br />This course will highlight the importance of evidence-based election administration, which focuses on collection and analysis of quantitative data to solve problems and identify opportunities for improvement. There will be an emphasis on pre-election forecasting for planning purposes as well as post-election auditing of election results.</p>
+</div></div><div class="hhh-accordion-content-pane"><h3 name="tab2">Admission Criteria &amp; Materials</h3><div class="hhh-accordion-content-pane-content"><p><span>To be admitted into the Certificate in Election Administration you must have:</span></p>
+<ul>
+<li>A bachelor’s degree from an accredited institution</li>
+<li>A valid TOEFL or IELTS exam, with a minimum score of 100 (TOEFL) or 7.0 (IELTS) for non-native English speakers</li>
+</ul>
+<p><em>Application materials needed:</em></p>
+<ul>
+<li>Graduate School Application</li>
+<li>A personal statement (500 words or less, double spaced) that discusses your educational and professional experiences and goals related to elections and their administration</li>
+<li>A current resume or CV</li>
+<li>Post-secondary transcripts from your degree granting institution</li>
+<li>A valid TOEFL or IELTS score if you are a non-native English speaker</li>
+</ul>
+<p><span>To register for a course as a non-degree seeking student:</span></p>
+<p><span>For general information go to <a href="http://onestop.umn.edu/academics/non-degree-graduate-registration" rel="nofollow">Graduate non-degree registration options</a></span><span></span><span>.</span></p>
+<p>Non-degree students cannot register online</p>
+<ul>
+<li><span>Download and complete the form, <a href="http://policy.umn.edu/sites/policy.umn.edu/files/forms/otr026_1.pdf" rel="nofollow">Registration Request for Graduate Credit</a></span></li>
+<li><span></span>Send it to the authorized signer for the Humphrey School, Stacey Grimes (<a href="mailto:grime004@umn.edu">grime004@umn.edu</a>, 612-626-1329)</li>
+</ul>
+</div></div><div class="hhh-accordion-content-pane"><h3 name="tab3">Cost</h3><div class="hhh-accordion-content-pane-content"><p>$900 per credit plus fees*</p>
+<p>*If you are a nonresident or non-degree seeking student, please contact <a href="mailto:cspg@umn.edu">cspg@umn.edu</a> at time of enrollment or registration in CEA courses to verify your tuition rate is processed correctly.</p>
+<p>If you are a University of Minnesota student enrolled in a different degree program and taking CEA courses, check with your degree program for your tuition rate.</p>
+</p>
+</div></div></div></div></div></div>
+  
+  </div>
+        </div>
+      </div>
+      <div class="col-md-4 radix-layouts-sidebar panel-panel">
+        <div class="panel-panel-inner">
+          <div class="panel-pane pane-block pane-menu-block-4 hhh-sidebar-nav"  id="hhh-sidebar-nav-3" >
+  
+      
+  
+  <div class="menu-block-wrapper menu-block-4 menu-name-main-menu parent-mlid-0 menu-level-3">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-7986"><a href="/certificate-programs/certificate-early-childhood-policy" class="menu__link">Early Childhood Policy</a></li>
+<li class="menu__item is-active is-active-trail is-leaf leaf active-trail active menu-mlid-9356"><a href="/certificate-programs/certificate-election-administration" class="menu__link is-active-trail active-trail active">Election Administration</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33391"><a href="/certificate-programs/certificate-human-services-leadership" class="menu__link">Human Services Leadership</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-7996"><a href="/certificate-programs/certificate-nonprofit-management" class="menu__link">Nonprofit Management</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8001"><a href="/certificate-programs/certificate-policy-issues-work-and-pay" class="menu__link">Policy Issues on Work and Pay</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-8006"><a href="/certificate-programs/certificate-public-affairs-leadership" class="menu__link">Public Affairs Leadership</a></li>
+</ul></div>
+
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-sidebar-form hhh-sidebar-form"  >
+  
+      
+  
+  <div class="field field-name-field-sidebar-form field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><!-- Google Analytics Content Experiment code 1 -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='109204136-10',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code --></div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-sidebar-content hhh-sidebar-content"  >
+  
+      
+  
+  <div class="field field-name-field-sidebar-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><span><span class="hhh-user-icon-info"><a href="/admissions/election-administration-inquiry-form" rel="nofollow">Request Info</a><br /><a href="/admissions/certificate-programs" rel="nofollow"><span class="hhh-user-icon-arrow-right-1">Admission Requirements</span></a><br /><span class="hhh-user-icon-pencil"><a href="/certificate-programs/how-apply-certificate-programs" rel="nofollow">Apply Now</a><br /><span class="hhh-user-icon-info"></span><a href="/file/5136/download" rel="nofollow">Download Brochure</a></span></span></span></p>
+</div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-department-contact-informa"  >
+  
+      
+  
+  <div class="field field-name-field-department-contact-informa field-type-entityreference field-label-hidden"><div class="field-items"><div class="field-item even">
+<div class="panelizer-view-mode node node-default node-department-contact-information node-261 hhh-department-contact-info">
+        
+<div class="panel-display boxton clearfix radix-boxton" >
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 radix-layouts-content panel-panel">
+        <div class="panel-panel-inner">
+          <div class="panel-pane pane-node-title hhh-department-contact-info-title"  >
+  
+      
+  
+  Admissions
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-basic-text-text hhh-department-contact-info-address"  >
+  
+      
+  
+  <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p><span>280 Humphrey School<br />301 19th Avenue South<br /></span>Minneapolis, MN 55455</p>
+</div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-phone-number hhh-department-contact-info-phone"  >
+  
+      
+  
+  <div class="field field-name-field-phone-number field-type-phone field-label-hidden"><div class="field-items"><div class="field-item even">612-624-3800</div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-email-address hhh-department-contact-info-email"  >
+  
+      
+  
+  <div class="field field-name-field-email-address field-type-email field-label-hidden"><div class="field-items"><div class="field-item even"><a href="mailto:hhhadmit@umn.edu">hhhadmit@umn.edu</a></div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-twitter hhh-department-contact-info-twitter"  >
+  
+      
+  
+  <div class="field field-name-field-twitter field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://twitter.com/HHHSchool" target="_blank">@HHHSchool</a></div></div></div>
+  
+  </div>
+<div class="panel-pane pane-entity-field pane-node-field-facebook hhh-department-contact-info-facebook"  >
+  
+      
+  
+  <div class="field field-name-field-facebook field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="https://www.facebook.com/HumphreySchool" target="_blank">HHH on Facebook</a></div></div></div>
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /.boxton -->
+</div>
+</div></div></div>
+  
+  </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12 radix-layouts-footer panel-panel">
+        <div class="panel-panel-inner">
+                  </div>
+      </div>
+    </div>
+  </div>
+  
+</div><!-- /.moscone-flipped -->
+</div>
+
+  
+  </div>
+</div>
+	</div>
+</div>
+
+<div id="hhh-pre-footer-wrapper">
+		<div id="hhh-pre-footer-content">
+		<div class="panel-pane pane-entity-field pane-node-field-full-width-callout-title"  >
+  
+      
+  
+  <div class="field field-name-field-full-width-callout-title field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><div class="hhh-full-width-callout-wrapper">
+<div class="hhh-full-width-callout">
+<h2 class="hhh-full-width-callout-title">Preparing Tomorrow's Professionals</h2>
+<div class="hhh-full-width-callout-body">“Preparing the next generation of election officials, as well as furthering the professional development of existing election administrators, was a key recommendation of the Presidential Commission on Election Administration. Programs like the Humphrey School’s will help develop tomorrow’s professionals by preparing them to conduct elections in an environment that requires a comprehensive skillset.” —Tammy Patrick, Member, Presidential Commission on Election Administration</em></div>
+<div class="hhh-user-button hhh-full-width-callout-link"><a href="/certificate-programs/how-apply-certificate-programs">Apply Today</a></div></div><div class="clearfix"></div></div></div></div></div>
+  
+  </div>
+	</div>
+	</div>
+
+<div id="hhh-footer-wrapper">
+	
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="hhh-four-color-bar">
+		<defs>
+			<linearGradient id="hhh-color-1">
+				<stop offset="01%" stop-color="#3A0000"/>
+				<stop offset="50%" stop-color="#7A0019"/>
+				<stop offset="99%" stop-color="#3A0000"/>
+			</linearGradient>
+			<linearGradient id="hhh-color-2">
+				<stop offset="01%" stop-color="#BF8C03"/>
+				<stop offset="50%" stop-color="#FFCC33"/>
+				<stop offset="99%" stop-color="#BF8C03"/>
+			</linearGradient>
+			<linearGradient id="hhh-color-3">
+				<stop offset="01%" stop-color="#BFBAB0"/>
+				<stop offset="50%" stop-color="#FFFAF0"/>
+				<stop offset="99%" stop-color="#BFBAB0"/>
+			</linearGradient>
+			<linearGradient id="hhh-color-4">
+				<stop offset="01%" stop-color="#5A7381"/>
+				<stop offset="50%" stop-color="#9AB3C1"/>
+				<stop offset="99%" stop-color="#5A7381"/>
+			</linearGradient>
+		</defs>
+
+		<path id="hhh-four-color-bar-1" d="M    0,0 L  960,0  940,25    0,25 Z" fill="url(#hhh-color-1)"/>
+		<path id="hhh-four-color-bar-2" d="M  970,0 L 1280,0 1260,25  950,25 Z" fill="url(#hhh-color-2)"/>
+		<path id="hhh-four-color-bar-3" d="M 1290,0 L 1410,0 1390,25 1270,25 Z" fill="url(#hhh-color-3)"/>
+		<path id="hhh-four-color-bar-4" d="M 1420,0 L 1920,0 1920,25 1400,25 Z" fill="url(#hhh-color-4)"/>
+	</svg>
+
+	<div id="footer-wrapper">
+		<div id='sub-footer'><div class="panel-pane pane-fieldable-panels-pane pane-vuuid-f2193ee0-6302-4f43-a4f7-fdbcad1ed75f pane-bundle-text"  id="hhh-footer" >
+  
+      
+  
+  <div class="fieldable-panels-pane">
+    <div class="field field-name-field-basic-text-text field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div class="hhh-four-color-bar"></div>
+<div class="hhh-footer-row">
+  <div class="hhh-footer-column">
+    <div class="hhh-footer-header">Humphrey School of Public Affairs</div>
+    <div>130 Humphrey School</div>
+    <div>301 19th Avenue South</div>
+    <div>Minneapolis MN 55455</div>
+    <div>612-626-8910</div>
+    <div>&nbsp;</div>
+    <div><a href="http://www.foundation.umn.edu/pls/subscribe.paint_page?code_unit_subscribe=HHH">Sign up for news &amp; event information</a></div>
+    <div class="hhh-footer-social-icons"><a href="http://www.facebook.com/HumphreySchool" target="_blank" Title="Find us on Facebook"><span class="fa fa-facebook-square fa-fw"></span></a> <a href="http://twitter.com/?lang=en&logged_out=1#!/HHHSchool" target="_blank" Title="Follow us on Twitter"><span class="fa fa-twitter-square fa-fw"></span></a> <a href="https://www.linkedin.com/company/3073128" target="_blank" Title="Find us on LinkedIn"><span class="fa fa-linkedin-square fa-fw"></span></a> <a href="https://www.youtube.com/channel/UCV2QRKFiRKQCw1o81LJZ0lQ" target="_blank" Title="Find us on YouTube"><span class="fa fa-youtube-square fa-fw"></span></a> <!--a href="/" Title="Follow our RSS Feed"><span class="fa fa-rss-square fa-fw"></span></a--></div>
+  </div>
+  <div class="hhh-footer-column">
+    <div class="hhh-footer-header">Quick Links</div>
+    <ul>
+    <li class="hhh-footer-link"><a href="/directory">Faculty &amp; Staff Directory</a></li>
+    <li class="hhh-footer-link"><a href="/about/location-directions">Location &amp; Directions</a></li>
+    <li class="hhh-footer-link"><a href="/admissions/information-sessions">Visit Us</a></li>
+    <li class="hhh-footer-link"><a href="/about/conference-center-rental">Conference Center Rental</a></li>
+    <li class="hhh-footer-link"><a href="https://sites.google.com/a/umn.edu/humphrey-intranet/">Employee Intranet</a></li>
+    </ul>
+  </div>
+  <div class="hhh-footer-column">
+    <div class="hhh-footer-header">Academics</div>
+    <ul>
+    <li class="hhh-footer-link"><a href="/academics/masters-degrees" title="Go to the Master's Degrees academics page">Master's Degrees</a></li>
+    <li class="hhh-footer-link"><a href="/node/706" title="Go to the Ph. D. academics page"><abbr title="Doctor of Philosophy" style="border-bottom:none">PhD</abbr> Program</a></li>
+    <li class="hhh-footer-link"><a href="/admissions/certificate-programs" title="Go to the Graduate Certificates academics page">Certificate Programs</a></li>
+    <li class="hhh-footer-link"><a href="/academics/undergraduate-opportunities" title="Go to the undergraduate opportunities academics page">Undergraduate Opportunities</a></li>
+    <li class="hhh-footer-link"><a href="/academics/professional-development" title="Go to the professional development academics page">Professional Development</a></li>
+    </ul>
+  </div>
+  <div class="hhh-footer-column">
+    <div class="hhh-footer-header">Giving</div>
+    <ul>
+    <li class="hhh-footer-link"><a href="/node/1141">Donate Here</a></li>
+    </ul>
+  </div>
+</div>
+<div id="hhh-font-size-detect-px">&nbsp;</div>
+<div id="hhh-font-size-detect-em">&nbsp;</div>
+<div class="clearfix"></div>
+</div></div></div></div>
+
+  
+  </div>
+</div>	</div>
+</div>
+</div>
+
+        <script src="https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_widgets/panopoly-widgets.js?olk5x2"></script>
+<script src="https://www.hhh.umn.edu/profiles/umncore/modules/panopoly/panopoly_widgets/panopoly-widgets-spotlight.js?olk5x2"></script>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f70dde473a","applicationID":"28934591,22515785","transactionName":"Y1cAYUAAV0dZBRZaDVodI1ZGCFZaFxYDVAdrXwNbUwZcRmcIDVcHa0QLUEU+SVVfAw==","queueTime":0,"applicationTime":447,"atts":"TxADFwgaREk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+        <!-- Begin Footer Region -->
+        <div id="bottom-page-wrapper">
+            <!-- Begin Unit Footer -->
+                        <!-- End Unit Footer -->
+
+            <!-- Begin UMN Footer -->
+            <footer id="umnhf-f" class="umnhf" role="contentinfo">
+                <nav id="umnhf-f-myu">
+<!--                    <h3 class="umnhf-f-title visually-hidden">For Students, Faculty, and Staff</h3> -->
+                    <div class="umhf-f-title">For Students, Faculty and Staff</div>
+                    <ul>
+                        <li><a href="http://onestop.umn.edu/">One Stop</a></li>
+                        <li><a href="https://www.myu.umn.edu/" title="Go to the MyU portal">MyU <span></span></a></li>
+                    </ul>
+                </nav>
+                <small>© <span id="cdate">2017</span> Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. <a href="http://privacy.umn.edu" style="text-decoration:underline">Privacy Statement</a></small>
+                <!-- Optional last updated link-->
+                 <!-- add time tag w datetime attr -->
+            </footer>
+            <!-- End UMN Footer -->
+        </div>
+
+    </body>
+</html>

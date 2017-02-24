@@ -1,0 +1,215 @@
+
+
+
+
+
+SAM RUSTON
+DESIGNER & DEVELOPER
+
+
+
+
+
+
+Hey! I'm @Sam_Ruston, I'm a developer and designer mainly focused on building kick-ass Android apps. I most notably produced Weather Timeline & Flamingo, I'm a top developer on the Play store and have won a Material Design award at Google I/O. See some of my design and dev work below. Shoot me an email to get in touch!
+				
+
+Contact Me
+
+
+
+
+
+
+
+
+
+
+
+						Weather Timeline
+					
+
+						This is the home screen for a weather app I designed & developed for Android, the colours signify the weather conditions and the icons animate to delight the user. Iconic landmarks can be seen in some cards too.
+					
+
+
+
+
+
+
+						Weather Timeline
+					
+
+						This screen shows graphs and charts for future weather conditions, the precipitation graph ripples like water and each graph is custom built for its purpose.
+					
+
+
+
+
+
+
+						Flight Tracker
+					
+
+						This is a screen for a flight tracking screen, the header changes between red and green depending on the status of the flight and large text is used so the user can view the details whilst in a hurry.
+					
+
+
+
+
+
+
+
+
+
+						Flush Toilet Finder
+					
+
+						This is a toilet finder application with over 200,000 toilets, it has a very clean design so that users can get where they need to be fast. Pressing the blue action button, will instantly get you directions to the toilet.
+					
+
+
+
+
+
+
+						Flip Currency Converter
+					
+
+						This is a material design currency converter for Android, it's packed with animations and a focus on clean UI with currency rates for Bitcoin, Litecoin & Dogecoin updated every 15 minutes.
+					
+
+
+
+
+
+
+						Flamingo for Twitter
+					
+
+						This is a profile page for Flamingo, it pulls out bright colours in the imagery to theme the interface and provide a richer experience.
+					
+
+
+
+
+
+
+						Flip Currency Converter
+					
+
+						Tapping on the chart button will transition into the graph screen, with quick access to rates over the previous day, month or year. 
+					
+
+
+
+
+
+
+						Flamingo for Twitter
+					
+
+						This is the home screen for a Twitter client. It uses clean lines and bold colours to bring focus to the content.
+					
+
+
+
+
+
+
+						Weather Timeline
+					
+
+						This is the radar screen for the weather app, with a scrollable timeline so the user can pan through radar data. The user can also play the animation easily from the menu button or change layers.
+					
+
+
+
+
+
+
+						Weather Timeline
+					
+
+						This is the moon viewer screen in the weather app, the background is completely black, with animated parallaxing stars in the background to give the sense of space whilst providing an easy to use calendar as well as a gorgeous animated moon as the focus.
+					
+
+
+
+
+
+
+						Diolog
+					
+
+						This is the main screen for a discussion-based app showing a list of recent polls in the area. The structure is very intuitive and an easy action button is presented to add a new item.
+					
+
+
+
+
+
+
+						My Hurricane Tracker
+					
+
+						This is a hurricane tracker for iOS showing the active alerts screen. The theme colour changes between red, orange and green so the user can understand the possible danger to them from a quick glance at the screen.
+					
+
+
+
+
+
+
+						My Aurora Forecast
+					
+
+						This is a screen to help the users find tours to see the Northern Lights. A dark theme was used to give focus to the beautiful imagery with accent colours taken from the Aurora Borealis. 
+					
+
+
+
+
+
+
+						Flamingo for Twitter
+					
+
+						A customised version of the home screen, with quick access search bar as well as breaking up the timeline into cards to provide actions.
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,343 @@
+
+
+
+
+
+Infosecurity Group Websites
+
+
+
+
+
+Magazine
+
+Events
+
+
+Infosecurity Europe
+
+
+Infosecurity Leadership Summit
+
+
+Infosecurity Magazine Conferences
+
+
+Infosecurity Netherlands
+
+
+Infosecurity Belgium
+
+
+Infosecurity Russia
+
+
+Infosecurity Mexico
+
+
+Infosecurity Middle East
+
+
+
+
+Leaders Network
+
+
+Insight
+
+
+Infosecurity Webinars
+
+
+Infosecurity Whitepapers
+
+
+Infosecurity Virtual Conferences
+
+
+
+
+
+
+
+
+
+
+
+Our website uses cookies
+
+                    Cookies enable us to provide the best experience possible and help us understand
+                    how visitors use our website.  
+            By browsing Infosecurity Magazine, you agree to our use of cookies.
+                
+Okay, I understand
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest
+
+
+Germany Calls on Parents to Destroy Cayla Dolls
+(ISC)2 Opens Applications for Undergrad Cyber-Scholarships
+Russian Election Hackers Target iPhone, Mac Users
+A New Goverment - Who's Hacking Whom?
+New York State Unveils Strict New Cybersecurity Regulations
+
+
+
+
+
+
+
+
+
+ 
+News
+Topics
+
+
+Features
+
+
+Webinars
+White Papers
+Events & Conferences
+
+
+Directory
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Infosecurity Magazine Home » News » Contractor Faces Maximum 200-year Sentence for Hoarding Defense Docs
+
+
+
+
+
+
+
+
+
+
+9 Feb 2017
+News
+Contractor Faces Maximum 200-year Sentence for Hoarding Defense Docs
+
+
+
+
+
+
+
+Phil Muncaster UK / EMEA News Reporter , Infosecurity MagazineEmail PhilFollow @philmuncaster
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A former government contractor could spend the rest of his life behind bars if found guilty of hoarding top secret defense documents over a 20-year period.
+Harold Thomas Martin, 52, worked for at least seven different companies including Edward Snowden’s former employer Booz Allen Hamilton in jobs at several government agencies such as the NSA.
+Taken into custody last August, he is accused in an indictment issued on Wednesday of stealing and retaining top secret documents “relating to the national defense at his residence and in his vehicle.”
+He now faces a maximum 10-year stretch for each of the 20 counts of “willful retention of national defense information” against him.
+Curiously, there’s no information on exactly why Martin might have hoarded the data over such a long period.
+However, the indictment lists numerous top secret documents he obtained illegally from the NSA, US Cyber Command, CIA and the National Reconnaissance Office (NRO).
+These include a user guide for an NSA “intelligence gathering tool” and US Cyber Command documents containing information about the capabilities, targets and gaps in capability of the US military.
+All would be highly prized by foreign powers.
+An official told the New York Times when the news broke last year that Martin didn’t fit the typical profile for someone accused of pilfering state secrets as he wasn’t an outspoken critic of US surveillance like Snowden.
+In fact, Martin is said to have served in the US Navy for several years before beginning his employment as a government contractor in 1993, and stayed on as a Naval Reserve until 2000.
+“As a private contractor who worked on classified programs at various US government agencies, the defendant was entrusted with access to sensitive government materials," said acting assistant attorney general for national security, Mary McCord.
+“Martin allegedly violated the trust our nation put in him by stealing and retaining classified documents and other material relating to the national defense. Insider threats are a significant danger to our national security and we will continue to work relentlessly with our law enforcement and intelligence partners to identify, pursue and prosecute such individuals.”
+
+
+
+
+
+
+
+
+
+
+
+Why Not Watch?
+3 Sep 2015Secure Tomorrow Today – (ISC)2 Congress EMEA 2015, An Insider’s Look30 Jul 2015Addressing the Security Risks of Negligent Insiders8 Sep 2016In an Uncertain Era of Brexit and GDPR, What is the Best Approach for Protected Data Transfers?15 Sep 2016How to Understand, Manage and Control the Challenge of Privileged Access
+
+
+
+Related to This Story
+
+
+Roundtable: Former Deputy Director of NSA Talks Insider Threats
+
+
+Convenience Trumps Security Policy for 90% of Workers
+
+
+Sage Employee Arrested in Connection with Data Breach
+
+
+Aviva Employee Sells Customer Data to Claims Firms
+
+
+Getting the Right Balance between Employee Enablement and Control
+
+
+
+
+What’s Hot on Infosecurity Magazine?
+
+Read
+Shared
+Watched
+Editor's Choice
+
+
+
+115 Feb 2017 NewsCyber-Workforce Shortage to Increase to 1.8 Million Positions by 2022217 Feb 2017 NewsNew York State Unveils Strict New Cybersecurity Regulations328 Apr 2015 NewsPorn Site xHamster Crushed by Fresh Malvertising Attack416 Feb 2017 News#RSAC: Security Blogger Awards Winners Announced 517 Feb 2017 NewsGermany Calls on Parents to Destroy Cayla Dolls618 Apr 2016 News3.8M Porn Users Compromised in Naughty America Hack
+
+
+
+121 Nov 2016 NewsFBI: US ATMs Could Be Hacked to Spew Cash218 Nov 2016 NewsUS Government Releases New IoT Security Guidance322 Nov 2016 NewsConficker Still on Top as Malware Jumps 5% in October421 Nov 2016 NewsData Protection Disputes to Soar Over Next Five Years518 Nov 2016 NewsUK Retailers Facing One Million Fraud Attempts Per Day617 Nov 2016 NewsSHA-1 Time Bomb: One Third of Websites Have Yet to Upgrade
+
+
+
+123 Feb 2017, 15:00 GMT, 10:00 EST WebinarHyper-Realistic Simulation - the New Approach to Cybersecurity Training29 Mar 2017, 13:00 EST, 10:00 PST WebinarHow IoT Enabled a DDoS, and How to Avoid Being Part of It32 Mar 2017, 15:00 GMT, 10:00 EST WebinarAutomation, Machine Learning and AI: Saving Security or Job Stealing Digital Overlords?49 Mar 2017, 15:00 GMT, 10:00 EST WebinarMind the Security Gap - Transforming the Effectiveness of End Point Protection57 Jan 2016 WebinarThe ‘Dark’ Web Inside Your Enterprise – Shining a Light on the Hazards of Encrypted Traffic64 Apr 2017, 16:00 BST, 11:00 EDT WebinarLife of: A Penetration Tester
+
+
+
+18 Feb 2017 NewsSentry MBA Tool Used in Attacks on Login Forms213 Feb 2017 News FeatureHelp Save the Youth of Cyber313 Feb 2017 NewsGlobal Banks Hit by Watering Hole Blitz410 Feb 2017 BlogDigesting the Diversity of Data Breaches510 Feb 2017 NewsArby's Gets Roasted in Breach of 300K Payment Cards610 Feb 2017 NewsEast-West Co-operation Stalls Following Kaspersky Lab Arrest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Magazine
+About Infosecurity
+Subscription
+Meet the Team
+Contact Us
+
+
+
+
+Advertisers
+Media Pack
+
+
+Contributors
+Forward Features
+Op-ed
+
+
+
+
+
+Copright © 2017 Reed Exhibitions Ltd.
+Terms and Conditions
+Privacy Policy
+Use of Cookies
+Sitemap
+
+
+
+
+
+
+
+
+
+                Please wait…
+            
+
+
+
+
+
+
+
+
+
+
+
+
+

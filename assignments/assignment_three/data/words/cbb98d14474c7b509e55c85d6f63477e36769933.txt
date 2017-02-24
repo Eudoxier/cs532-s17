@@ -1,0 +1,580 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEWS l  l 
+
+
+
+
+
+
+CHANNELS
+
+
+
+
+GamesBeat
+AI
+AR/VR
+Big Data
+Bots
+Business
+
+
+
+
+Cloud
+Dev
+Enterprise
+Entrepreneur
+Esports
+Marketing
+
+
+
+
+Media
+Mobile
+PC Gaming
+Security
+Social
+Transportation
+
+
+
+
+
+
+
+
+
+Got a news tip?
+Press Releases
+
+
+
+
+Newsletters
+Webinars
+
+
+
+
+Advertise
+
+
+
+
+
+
+
+EVENTS l  l 
+
+
+
+
+
+
+VB EVENTS
+
+
+Upcoming Events
+
+
+
+
+
+GET INVOLVED
+
+
+
+
+Sponsor
+Speaker
+
+
+
+
+Media Partner
+Volunteer
+
+
+
+
+
+
+
+
+
+Got a news tip?
+Press Releases
+
+
+
+
+Newsletters
+Webinars
+
+
+
+
+Advertise
+
+
+
+
+
+
+
+RESEARCH l  l 
+
+
+
+
+
+
+CATEGORIES
+
+
+
+
+Marketing Tech
+Mobile
+
+
+
+
+Gaming
+Miscellaneous
+
+
+
+
+
+
+
+LEARN MORE
+
+
+VB Top Ten
+Subscription
+
+
+
+
+
+
+
+Got a news tip?
+Press Releases
+
+
+
+
+Newsletters
+Webinars
+
+
+
+
+Advertise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+‹
+								NEWS
+							›
+
+
+
+CHANNELS
+
+
+
+GamesBeat
+
+
+Entrepreneur
+
+
+
+
+AI
+
+
+Esports
+
+
+
+
+AR/VR
+
+
+Marketing
+
+
+
+
+Big Data
+
+
+Media
+
+
+
+
+Bots
+
+
+Mobile
+
+
+
+
+Business
+
+
+PC Gaming
+
+
+
+
+Cloud
+
+
+Security
+
+
+
+
+Dev
+
+
+Social
+
+
+
+
+Enterprise
+
+
+Transportation
+
+
+
+
+
+
+‹
+								EVENTS
+							›
+
+
+
+VB EVENTS
+
+
+
+Upcoming Events
+
+
+
+GET INVOLVED
+
+
+
+Sponsor
+
+
+Media Partner
+
+
+
+
+Speaker
+
+
+Volunteer
+
+
+
+
+
+
+‹
+								RESEARCH
+							›
+
+
+
+CATEGORIES
+
+
+
+Marketing Tech
+
+
+Gaming
+
+
+
+
+Mobile
+
+
+Miscellaneous
+
+
+
+LEARN MORE
+
+
+
+VB Top Ten
+
+
+Subscription
+
+
+
+
+
+
+‹
+								VENTUREBEAT
+							›
+
+
+
+
+About
+
+
+Advertise
+
+
+
+
+Careers
+
+
+Contact
+
+
+
+
+
+
+
+
+
+
+
+
+Got a news tip?
+Press Releases
+
+
+
+
+Newsletters
+Webinars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ENTREPRENEUR
+
+Trident Capital spins out cybersecurity-focused firm and launches $300 million fund
+
+Bérénice Magistretti@bmagistretti February 8, 2017 5:30 AM
+
+
+Tags: cybersecurity, funding daily, top-stories, Trident Capital, Trident Capital Cybersecurity 
+
+
+Above: Sean Cunningham, managing partner at Trident Capital CybersecurityImage Credit: Trident Capital Cybersecurity 
+
+
+
+
+
+Trident Capital Cybersecurity, which spun out of Trident Capital in 2015, announced today that it has closed a $300 million venture fund — Fund I — that will invest primarily in early stage cybersecurity companies.
+Managing directors Alberto Yépez and Don Dixon, who cofounded the new fund, were investing managing directors at Trident Capital. Sean Cunningham, former director of strategic investments at Intel Capital, joined as managing partner, and Will Lin, of Trident Capital, came on as vice president.
+Yépez, Cunningham, and Dixon together made 30 cybersecurity investments during a nearly 20-year period at Trident, Intel Capital, and now Trident Capital Cybersecurity, with 16 exits to date. These include Accertify (acquired by American Express), Qualys (Nasdaq: QLYS), Signio (acquired by Verisign), Solera Networks (acquired by Blue Coat Systems), and Sygate (acquired by Symantec).
+The San Mateo, Calif.-based VC firm will be investing in security startups across five sectors, namely Internet of Things (IoT), secure payments and fraud, next-generation identity platforms, behavioral analytics, and privacy and security.
+The team has already backed five companies through Fund I — 4iQ, Appthority, Bayshore Networks, ID Experts, and IronNet Cybersecurity — and will be sourcing investments globally, with a focus on the U.S., Canada, Israel, and Northern Europe.
+“There’s no question that sector-specific funds typically have better returns over the course of their life,” said Cunningham in an interview with VentureBeat. “The reason we raised a $300 million fund is because we wanted to be able to invest two-thirds of the money in early stage and a third in growth stage, as well as be able to actually lead investments and have a key holding in these companies.”
+According to Cunningham, cybersecurity used to be very expensive for investors. However, that’s changed over the past few years in both the private and the public markets. “We feel really bullish about the fact that we raised a fund now because we feel the pricing is very reasonable,” he said.
+Moreover, security needs have increased for both businesses and consumers. From mainframe to PCs, mobile, cloud, and IoT, devices are becoming increasingly connected and therefore increasingly vulnerable to hacks. The fact that hackers are able to monetize on the dark web is a major motivator, Cunningham said. Hackers’ “business models” allow them to make money via ransomware, phishing scams, and other types of attacks.
+“Passwords are the weakest links in the system right now,” said Cunningham. Yahoo is an example of millions of passwords and identities being stolen in the enterprise sector. But these threats are also extending to the state level, with state-sponsored attacks like North Korea’s Sony hack and Russia’s cyberattack on the Democratic National Convention. The heterogeneous nature of cyber attacks makes them difficult to counter.
+“That’s one of the things about cybersecurity, there is no silver bullet,” said Cunningham. “That’s why you see this proliferation of security companies trying to solve these problems. Everything has to be more automated, and that’s why you’re starting to see the AI (artificial intelligence) companies getting more traction.”
+SentinelOne, which just raised $70 million, is one example of a startup that is developing a more automated security response. Or take Exabeam, which is working on predictive software to fight security breaches. The San Mateo, Calif.-based startup just raised $30 million.
+According to Cunningham, all this activity spells opportunity for cybersecurity-focused funds. For instance, Jay Leek, who recently left Blackstone to join Florida-based VC firm ClearSky, will lead a $300 million cybersecurity fund.
+In terms of returns, Cunningham argues that the exit window for most cybersecurity companies is four to seven years, which is an aggressive timetable. He expects his portfolio companies to be acquired rather than go public.
+Yet the sector already has a handful of unicorns — including CloudFlare, Cylance, and Okta — some of which are widely expected to exit via an initial public offering (IPO). We’ll see whether their experiences lend credence to his prediction.
+Sign up for Funding Daily: Get the latest news in your inbox every weekday. 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ABOUT
+
+
+CONTACT
+
+
+CAREERS
+
+
+ADVERTISE
+
+
+
+
+
+
+
+
+
+
+
+Terms of Service
+Privacy Policy
+© 2017 VentureBeat. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

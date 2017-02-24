@@ -1,0 +1,846 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu
+
+
+
+
+
+
+
+
+
+
+
+SC US
+SC UK
+
+
+Show Search Bar
+
+
+
+
+
+
+
+
+News
+
+
+ 
+Opinions
+Blogs
+SC Fast Facts
+Reboot 2016
+
+
+
+Cybercrime
+
+
+Ransomware
+Data breaches
+APTs/Cyberespionage
+Malware
+Phishing
+Insider Threats
+
+
+
+Network Security
+
+
+Mobile Security
+Cloud Security
+Privacy & compliance
+Vulnerabilities
+IoT
+Email Security
+
+
+
+Product Reviews
+
+
+Group Tests
+First Looks
+About product reviews
+
+
+
+In Depth
+
+
+Features
+Video
+In Depth
+SC Magazine Archive
+
+
+
+Events
+
+
+Virtual Conferences
+Webcasts
+RiskSec NY 2017
+RiskSec Toronto 2017
+SC Awards 2017
+
+
+
+Whitepapers
+
+
+
+
+
+Log in
+
+Register
+
+
+The Cybersecurity source
+
+
+
+
+
+
+
+
+
+
+
+
+Mobile Security
+Cloud Security
+Privacy & Compliance
+Vulnerabilities
+IoT
+Email Security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Magazine US
+>
+
+
+Network Security
+>
+
+
+People claim better cybersecurity chops than Trump, their IT directors, study says                
+
+
+
+
+
+
+
+by Robert Abel, Content Coordinator/Reporter
+
+
+
+
+
+
+
+February 08, 2017
+People claim better cybersecurity chops than Trump, their IT directors, study says
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Respondents in a study didn't hold too much confidence in their IT directors, with 57 percent claiming to be more knowledgeable.
+
+A recent study found 63 percent of respondents rated their knowledge of “the cyber” security as being higher or equal to that of President Donald Trump. 
+IT directors didn't hold their confidence either as 57 percent of respondents felt they were as knowledgeable or more than their IT director when it came to cybersecurity issues while 63 percent felt the same about Hillary Clinton, according to Blumberg Capital's 2017 State of Cybersecurity report.
+
+The study queried just over a thousand people and found respondents also held drastically different views than their president concerning the best way to send confidential information to keep it safe and private, with only 1 percent saying using a courier is the safest while 55 percent said hand delivering it themselves is best. 
+Twenty-seven percent of respondents said unencrypted email was best while 25 percent felt commercially encrypted email was the most secure.
+The study also found the respondents have a false sense of security in who can protect their data with 61 percent believing their employer is extremely or very trustworthy at keeping their information secure and 52 of respondents feel the same about their doctors despite the prevalence of large scale W-2 phishing scams targeting Human Resource personnel and medical data breaches. 
+
+“Traditionally people had every reason to trust employers and doctors with their data because for decades the information was all offline,” Blumberg Capital Founder and Managing Partner David Blumberg told SC Media.” People see their employers and doctors as figures of authority and worthy of trust.”
+Now that these entities are storing more data online, hackers have more potential access to valuable and irreplaceable information that was previously unavailable and with current technology, the weakest link in an organization's security is often the human factor which contributes to the reason why these entities are targeted so frequently, he said. 
+Blumberg said he was surprised at how overconfident people were about their knowledge in cybersecurity and that just because someone knows how to change a password doesn't mean they know more about cybersecurity than they head of the FBI or CIA. 
+“The stakes are higher as more information and assets are online - from banking to health records to espionage,” Blumberg said. “Yet most people believe they've never been victimized, that they're more knowledgeable than their IT director, and that changing a password is a sufficient countermeasure to protect themselves.” 
+Blumberg noted that it's also surprising that most people trust e-Commerce sites dramatically more than they trust social media sites where they share a lot of personal information. According to the survey, 34 percent of respondents said they were somewhat confident that they would be able to recognize if they had been hacked and 13 percent said they were extremely confident in their abilities to self-detect a breach of their data. 
+“On a more serious note, the overconfidence combined with a lack of knowledge is what is truly a dangerous combination,” Blumberg said. “They don't know how much they don't know. That said, even for professionals in cybersecurity it is a moving target and in many ways it is getting more difficult all the time.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topics:
+
+
+Data Breach
+
+
+Government
+
+
+Network Security
+
+
+Privacy
+
+
+
+
+
+
+
+
+
+
+
+
+                        You must be a registered member of SC Magazine US to post a comment.
+                    
+
+Click here to login
+  | 
+ Click here to register
+
+
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+
+                                    80% of businesses hit by certificate-related outages, study
+                                
+
+
+BY
+            Greg Masters
+
+                                 Feb 2, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    Ransomware attacks will double in 2017, study
+                                
+
+
+BY
+            Greg Masters
+
+                                 Jan 30, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    SPY Car Study Act calls for research to secure connected cars
+                                
+
+
+BY
+            Robert Abel
+
+                                 Jan 27, 2017
+                            
+
+
+
+
+
+
+
+
+
+
+
+Most read on SC
+
+
+Banks worldwide under attack from new malware, report
+2017 SC Awards Honored in the United States
+'Internet of Evil Things' challenges security pros
+Yahoo issues new breach warning; Verizon shaves $300M off its Yahoo offer
+Adobe issues patches, Microsoft's usual Patch Tuesday fixes delayed
+
+
+
+
+
+
+
+
+
+
+Get SC Media delivered to your inbox
+
+
+
+
+
+SC Media Featured White Paper of the Day
+
+
+
+
+
+
+SC Media Newswire
+
+
+
+
+
+
+SC Media Product/Industry Buzz
+
+
+
+
+
+
+I would like to receive relevant information via email from Haymarket Media.
+
+
+
+
+
+
+United States
+United Kingdom
+Canada
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (DRC)
+Cook Islands
+Costa Rica
+Côte D'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji Islands
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia-Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands
+Virgin Islands, British
+Wallis and Futuna
+Western Samoa
+Yemen
+Yugoslavia
+Zambia
+Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Media arms cybersecurity professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.
+
+
+User Center
+
+About
+Contact
+Advisory Board
+Meet the team
+Subscribe
+Advertise
+
+
+
+Product Reviews
+
+About/Contact
+FAQ
+Reprints
+
+
+
+Other
+
+Privacy Policy
+Terms & Conditions
+
+
+
+More SC Sites
+
+RiskSec
+SC Whitepaper & Resource Library
+SC Awards
+SC Online Events
+
+
+
+
+
+Follow SC Media
+
+
+
+
+
+
+Copyright © 2016 Haymarket Media, Inc. All Rights Reserved
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorization.
+Your use of this website constitutes acceptance of Haymarket Media's Privacy Policy and Terms & Conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ close
+
+
+
+{{{ form.header }}}
+{{{ form.title }}}
+
+
+
+
+
+{{{error}}}
+
+
+
+
+{{error}}
+
+
+
+
+
+
+
+
+
+
+{{ option.label }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Free Newsletters:
+
+
+
+
+
+
+
+
+{{ field.label }}
+
+
+
+
+
+
+
+
+{{ form.postButtonLabel }}
+
+
+
+
+
+                              By registering you agree with our
+                              Terms And Conditions  |
+                              Privacy Policy
+
+
+
+
+{{{ form.footer }}}
+
+
+Don't have an SC Media account?
+            Sign up for free now »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

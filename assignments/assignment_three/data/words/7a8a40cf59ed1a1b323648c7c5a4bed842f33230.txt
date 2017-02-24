@@ -1,0 +1,48 @@
+
+
+
+Search for:
+
+Go
+HakkımızdaİletişimReklamYazarlıkAbonelikRSSTwitterANA SAYFAGENELNETWORKSİSTEMUÇ NOKTAVERİUYGULAMAKİMLİK & ERİŞİMGÜVENLİK YÖNETİMİSANAL & BULUTBir Web Uygulamasının Güvenliğini Değerlendirmenin En Hızlı YoluYAZAN: M. MEKİN PESEN ⋅ 06/02/2017  ⋅ KATEGORİ: UYGULAMA SIZMA TESTLERİ
+WPSecAnalyzer, bir web sayfası veya web uygulamasının güvenliğini çok pratik ve hızlı olarak ölçmeyi sağlayan bir Google Chrome eklentisidir. Eklenti herhangi ek bir araca ya da hizmete gerek kalmadan 11 kritere göre bir web uygulamasının güvenlik değerlendirmesini yapıyor. Web uygulamalarını kendi çapınızda ücretsiz olarak taramak için birebir. […]
+DevamıGCHQ’dan Açık Kaynak Veri Analizi AracıYAZAN: M. MEKİN PESEN ⋅ 01/12/2016  ⋅ KATEGORİ: GENEL
+CyberChef, İngiliz istihbarat kurumu GCHQ tarafından sadece bir web tarayıcısı kullanarak herhangi bir “data” üzerinde uygulanabilecek her türlü siber operasyonu ve işlemi yapabilmek için geliştirilmiş oldukça inovatif ve sezgisel bir veri analizi aracı uygulamasıdır. Bir web uygulaması şeklindeki bu veri analizi aracı, aynı veri üzerinde birden çok işlemi ardışık olarak yapabiliyor. […]
+DevamıABD’de Siber Güvenlik Kariyeri için Resmi RehberYAZAN: M. MEKİN PESEN ⋅ 14/11/2016  ⋅ KATEGORİ: GENEL
+CyberSeek, Amerika’daki eyaletlere ve şehirlere göre siber güvenlik ile ilgili iş potansiyellerini, maaş bilgilerini, kariyer yollarını ve pozisyonlar için sahip olunması gereken yetenekleri bütüncül bir şekilde sunan resmi bir interaktif kaynak olarak NIST tarafından geçenlerde yayınlandı. Site özellikle ABD’de siber güvenlik kariyeri ile ilgili  iş arayanlar ve işverenler için oldukça yararlı bir kaynak niteliğinde. […]
+DevamıBaşkasının İnternet Bağlantısını Bir Proxy Gibi KullanınYAZAN: M. MEKİN PESEN ⋅ 12/10/2016  ⋅ KATEGORİ: GİZLİLİK
+uProxy, başkalarının internet bağlantısı üzerinden (onu bir proxy/vekil sunucu gibi kullanarak) internette gezinmeyi ve böylece yerine göre internet engellemelerini aşmayı, yani başkasının internet bağlantısını bir proxy gibi kullanmayı sağlayan bir web tarayıcı (Firefox ve Chrome) eklentisidir. […]
+DevamıStandartlara Göre Web Sitesi Güvenliği TestiYAZAN: M. MEKİN PESEN ⋅ 29/08/2016  ⋅ KATEGORİ: UYGULAMA SIZMA TESTLERİ
+Mozilla Observatory, web sitelerinin güvenliğinin mevcut güvenlik teknolojileri ile standartlarına ne kadar uyumlu olup olmadığını test edip puanlayan bir web sitesi güvenliği testi aracı olarak Mozilla tarafından kullanıma açıldı. Araç ile mevcut web güvenlik teknolojilerinin durumunun yanında HTTPS implementasyonu ve önemli header’ların da durumlarını görebiliyorsunuz. […]
+Devamı
+1
+2
+3
+4
+…
+29
+Sonraki »YAZARIMIZ OLUN | SİBER GÜVENLİK KARARGÂHISiber güvenlik ve bilgi güvenliği hakkında yazmak için bize katılın. Başvuru için tıklayın.YAZARLARM. MEKİN PESEN (129)İNAN İŞÇİ (9)GÖKHAN GÖRMÜŞ (3)BARIŞ AYDOĞMUŞOĞLU (3)   
+ REVAÇTA OLAN YAZILAR
+
+Facebook ve Twitter'ın Cep Telefonu Rehberinizi Almalarını Denetleyin					
+
+İnternete Koyduğunuz Resimlerden Adresiniz Bulunabiliyor					
+
+Google'dan İçerik ve Kişisel Bilgileri Kaldırmanın Yolları					
+
+Telegram Bir Güvenli Mesajlaşma Aracı Değildir					
+
+Bilgi Güvenliği Nedir ve Nasıl Sınıflandırılır					
+
+Outlook.com'un Silinen E-Postaları Geri Getirmesini Önleyin					
+
+Kötücül Siteleri Online Tespit ve Tarama Araçları					
+
+İnternetin Takip Mekanizmalarından Korunma					
+
+Sosyal Ağlar ve Web Servislerin 3. Parti Uygulamalarını Engelleyin					
+
+Kurumlarda Mobil Cihaz Güvenliği (MDM)					
+ ÖZEL YAZI DİZİLERİBilgi Güvenliği Olayları Görselleştirmesi Yazı DizisiWeb Güvenlik Açıklarını Engellemede ModSecurity WAFAçık Kaynak Paket Analiz AraçlarıSosyal Ağlarda Güvenlik ve GizlilikVeri Sızıntısı Önleme (DLP)Online Takip MekanizmalarıIPv4/IPv6 Güvenlik KarşılaştırmasıHTML5 Güvenliği: Yeni Nesil Web Tehditleriİnternet Filtreleme ve Regülasyon
+M. MEKİN PESEN | E-Siber.com'un öncülüğünde© 2015-2016 SİBERGAH | SİBER GÜVENLİK KARARGÂHISibergah.com | Sibergah.net | RSS Akışı | Twitter/Sibergah | E-Bülten AboneliğiIP Adresiniz: 104.200.154.45  | Hakkımızda | Bize Ulaşın | Yazarlık | Reklam Verin | Site Politikaları
+     

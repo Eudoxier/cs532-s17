@@ -1,0 +1,2685 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+Solutions
+Services
+Community
+About Us
+
+
+
+
+SolvNet
+
+Global Sites
+
+日本サイ ト
+中文网站
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+All Products 
+
+Software Integrity
+Semiconductor IP
+Verification
+Design 
+Silicon Engineering
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software Integrity
+
+
+Application Security Testing 
+
+
+Software Security Services 
+
+
+Program Development 
+
+
+
+
+
+
+Semiconductor IP
+
+
+Interface IP
+
+
+Memories & Libraries
+
+
+Analog IP
+
+
+Processor Solutions
+
+
+IP Subsystems
+
+
+Security IP
+
+
+SoC Infrastructure IP
+
+
+IP Accelerated
+
+
+Market Segments
+
+
+
+
+
+
+
+
+Verification
+
+
+Verification Continuum
+
+
+Simulation
+
+
+AMS Verification
+
+
+Static & Formal Verification
+
+
+Debug & Coverage
+
+
+Verification IP 
+
+
+Virtual Prototyping
+
+
+Emulation
+
+
+Prototyping
+
+
+
+
+
+
+Design 
+
+
+Galaxy Design Platform
+
+
+RTL Synthesis
+
+
+Synthesis-Based Test
+
+
+Physical Implementation
+
+
+Custom Implementation
+
+
+Signoff
+
+
+Physical Verification
+
+
+FPGA Design
+
+
+Lynx Design System 
+
+
+
+
+
+
+
+
+Silicon Engineering 
+
+
+TCAD
+
+
+Mask Synthesis
+
+
+Mask Data Prep
+
+
+Yield Management
+
+
+
+
+
+
+Optical Solutions
+
+
+LightTools
+
+
+CODE V
+
+
+LucidShape
+
+
+RSoft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Application Security Testing
+
+
+Dynamic Analysis (DAST)
+
+
+Fuzz Testing
+
+
+Interactive Application Security Testing (IAST)
+
+
+Mobile Application Security
+
+
+Penetration Testing
+
+
+Software Composition Analysis
+
+
+Software Testing Optimization
+
+
+Static Analysis (SAST)
+
+
+Threat Intelligence 
+
+
+
+
+
+
+Training & Support
+
+
+Customer Education
+
+
+Technical Support
+
+
+
+
+
+
+
+
+Software Security Services
+
+
+Embedded Software Testing
+
+
+Insider Threat Detection
+
+
+Red Teaming
+
+
+Secure Coding Guidelines
+
+
+Software Architecture & Design
+
+
+Thick Client Testing
+
+
+
+
+
+
+Resources
+
+
+Analyst Reports
+
+
+Case Studies
+
+
+eBooks & Whitepapers
+
+
+Glossary
+
+
+Podcasts
+
+
+Standards & Compliance
+
+
+Videos
+
+
+Webinars
+
+
+
+
+
+
+
+
+Program Development
+
+
+Maturity Model (BSIMM)
+
+
+Maturity Action Plan (MAP)
+
+
+Policies & Standards
+
+
+Security Metrics
+
+
+Software Security-in-a-Box
+
+
+
+
+
+
+Blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interface IP
+
+
+USB
+
+
+PCI Express
+
+
+DDR
+
+
+MIPI
+
+
+Bluetooth
+
+
+Ethernet
+
+
+HDMI
+
+
+SATA
+
+
+Mobile Storage
+
+
+Multi-Protocol PHYs
+
+
+IP Prototyping Kits
+
+
+IP Virtualizer Development Kits
+
+
+Interface IP Subsystems
+
+
+All Interface IP 
+
+
+
+
+
+
+Memories & Libraries
+
+
+Logic Libraries
+
+
+Memory Compliers
+
+
+Duet Packages
+
+
+HPC Design Kit
+
+
+Embedded Test & Repair
+
+
+Non-Volatile Memory
+
+
+
+
+
+
+
+
+Analog IP
+
+
+Data Converters
+
+
+Audio Analog Codecs
+
+
+
+
+
+
+Processor Solutions
+
+
+ARC Processors
+
+
+Embedded Vision Processors
+
+
+Development Tools
+
+
+Operating Systems
+
+
+Ecosystems
+
+
+ASIP Tools
+
+
+
+
+
+
+IP Subsystems
+
+
+ARC Data Fusion IP Subsystem
+
+
+ARC Sensor & Control IP Subsystem
+
+
+ARC Audio IP Subsystem
+
+
+Interface IP Subsystem
+
+
+
+
+
+
+Security IP
+
+
+Cryptography IP
+
+
+Security Subsystems
+
+
+Platform Security
+
+
+Content Protection
+
+
+
+
+
+
+
+
+Market Segments
+
+
+Internet of Things
+
+
+Automotive
+
+
+Cloud Computing 
+
+
+Mobile
+
+
+
+
+
+
+IP Accelerated
+
+
+IP Prototyping Kits
+
+
+IP Virtualizer Development Kits
+
+
+IP Subsystems
+
+
+
+
+
+
+SoC Infrastructure IP
+
+
+DesignWare Library
+
+
+Foundation Cores
+
+
+minPower Components
+
+
+Verification IP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Verification
+
+
+Verification Continuum
+
+
+Simulation
+
+
+AMS Verification
+
+
+Static & Formal Verification
+
+
+Debug & Coverage
+
+
+Verification IP 
+
+
+Virtual Prototyping 
+
+
+Emulation
+
+
+Prototyping
+
+
+
+
+
+
+
+
+        Solutions
+      
+
+Automotive
+
+
+Low  Power
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Design 
+
+
+Galaxy Design Platform
+
+
+RTL Synthesis
+
+
+Synthesis-Based Test
+
+
+Physical Implementation
+
+
+Custom Implementation
+
+
+Signoff
+
+
+Physical Verification
+
+
+FPGA Design
+
+
+Lynx Design System 
+
+
+
+
+
+
+
+
+Power Electronic Systems
+
+
+Power Electronics
+
+
+Wire Harnesses
+
+
+
+
+
+
+
+
+Optical Solutions
+
+
+LightTools
+
+
+CODE V
+
+
+LucidShape
+
+
+RSoft
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Silicon Engineering
+
+
+TCAD
+
+
+Mask Synthesis
+
+
+Mask Data Prep
+
+
+Yield Management
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions
+
+
+Automotive
+
+
+Internet of Things
+
+
+Advanced Low Power
+
+
+FinFET
+
+
+
+
+
+
+
+
+Industry Solutions
+
+
+Automotive
+
+
+Cloud Computing
+
+
+Financial Services
+
+
+Industrial Controls Systems
+
+
+Healthcare
+
+
+Mobile Devices
+
+
+
+
+
+
+
+
+Technical Platforms 
+
+
+Verification Continuum
+
+
+FPGA Design
+
+
+Galaxy Design Platform
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+All Services
+
+Professional Services
+Support
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Services
+
+
+Software Integrity Services
+
+
+Silicon Design Services
+
+
+
+
+
+
+
+
+Support
+
+
+SolvNet
+
+
+Software Integrity Support
+
+
+Training
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Professional Services
+
+
+Tool & Methodology Consulting
+
+
+Core Optimization
+
+
+Design Flow Deployment 
+
+
+Physical Design Assistance
+
+
+SoC Integration & Verification
+
+
+Physical Prototyping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product Support
+
+
+Support Center Locations
+
+
+Licensing
+
+
+Installation
+
+
+Compute Platforms
+
+
+
+
+
+
+
+
+SolvNet
+
+
+Documentation
+
+
+Open a Support Case
+
+
+Download Center
+
+
+
+
+
+
+
+
+Training
+
+
+Course Catalog
+
+
+Training Options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+Community Overview
+
+
+
+
+
+
+SNUG
+
+
+Conferences
+
+
+Keynotes
+
+
+Proceedings
+
+
+Sponsors
+
+
+
+
+
+
+Partners
+
+
+ARM
+
+
+GLOBALFOUNDRIES
+
+
+Intel Custom Foundry
+
+
+Samsung
+
+
+TSMC
+
+
+All Partners
+
+
+
+
+
+
+
+
+Interoperability
+
+
+ARC Access
+
+
+HAPS Connect
+
+
+HSPICE Integrator
+
+
+In-Sync
+
+
+System-Level Catalyst
+
+
+TAP-in
+
+
+VC Apps Access
+
+
+
+
+
+
+University Program
+
+
+Curriculum 
+
+
+Members Only
+
+
+Support & Training
+
+
+Teaching Resources
+
+
+
+
+
+
+
+
+Company Blogs
+
+
+Software Integrity
+
+
+Code Review
+
+
+Custom Layout Insights
+
+
+To USB or Not to USB
+
+
+VIP Central
+
+
+A View from the Top
+
+
+Hitting the Mark
+
+
+Committed to Memory
+
+
+All Blogs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Us
+
+
+Company Overview
+
+
+Management Team
+
+
+Global Citizenship
+
+
+Board of Directors
+
+
+Governance & Values
+
+
+Publications
+
+
+
+
+
+
+
+
+Investor Relations
+
+
+Recent Financial News
+
+
+Financials
+
+
+Investor Presentations
+
+
+Governance & Values
+
+
+
+
+
+
+Newsroom
+
+
+News Releases
+
+
+Synopsys Speaking Engagements 
+
+
+Spokesperson Bios & Images
+
+
+Synopsys Logos
+
+
+Media Contacts
+
+
+
+
+
+
+
+
+Events
+
+
+Events
+
+
+Seminars
+
+
+Webinars
+
+
+Synopsys Users Group (SNUG)
+
+
+
+
+
+
+Careers
+
+
+Current Opportunities
+
+
+Values & Ethics
+
+
+Worldwide Locations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Discover
++
+Solutions
++
+Services
++
+Community
++
+About Us
+SolvNet
+
+
+
+Products
++
+All Products 
++
+Software Integrity
++
+Semiconductor IP
++
+Verification
++
+Design 
++
+Silicon Engineering
+
+
+Global SItes
+日本サイ ト
+中文网站
+
+
+
+
+< All Products 
+
+Software Integrity
+Application Security Testing 
+Software Security Services 
+Program Development 
+
+
+
+< All Products 
+
+Semiconductor IP
+Interface IP
+Memories & Libraries
+Analog IP
+Processor Solutions
+IP Subsystems
+Security IP
+SoC Infrastructure IP
+IP Accelerated
+Market Segments
+
+
+
+< All Products 
+
+Verification
+Verification Continuum
+Simulation
+AMS Verification
+Static & Formal Verification
+Debug & Coverage
+Verification IP 
+Virtual Prototyping
+Emulation
+Prototyping
+
+
+
+< All Products 
+
+Design 
+Galaxy Design Platform
+RTL Synthesis
+Synthesis-Based Test
+Physical Implementation
+Custom Implementation
+Signoff
+Physical Verification
+FPGA Design
+Lynx Design System 
+
+
+
+< All Products 
+
+Silicon Engineering 
+TCAD
+Mask Synthesis
+Mask Data Prep
+Yield Management
+
+
+
+< All Products 
+
+Optical Solutions
+LightTools
+CODE V
+LucidShape
+RSoft
+
+
+
+< overview
+
+All Products 
++
+Software Integrity
++
+Semiconductor IP
++
+Verification
++
+Design 
++
+Silicon Engineering 
++
+Optical Solutions
+
+
+
+< Software Integrity
+
+Application Security Testing
+Dynamic Analysis (DAST)
+Fuzz Testing
+Interactive Application Security Testing (IAST)
+Mobile Application Security
+Penetration Testing
+Software Composition Analysis
+Software Testing Optimization
+Static Analysis (SAST)
+Threat Intelligence 
+
+
+
+< Software Integrity
+
+Training & Support
+Customer Education
+Technical Support
+
+
+
+< Software Integrity
+
+Software Security Services
+Embedded Software Testing
+Insider Threat Detection
+Red Teaming
+Secure Coding Guidelines
+Software Architecture & Design
+Thick Client Testing
+
+
+
+< Software Integrity
+
+Resources
+Analyst Reports
+Case Studies
+eBooks & Whitepapers
+Glossary
+Podcasts
+Standards & Compliance
+Videos
+Webinars
+
+
+
+< Software Integrity
+
+Program Development
+Maturity Model (BSIMM)
+Maturity Action Plan (MAP)
+Policies & Standards
+Security Metrics
+Software Security-in-a-Box
+
+
+
+< Software Integrity
+
+Blog
+
+
+
+< overview
+
+Software Integrity
++
+Application Security Testing
++
+Training & Support
++
+Software Security Services
++
+Resources
++
+Program Development
+Blog
+
+
+
+< Semiconductor IP
+
+Interface IP
+USB
+PCI Express
+DDR
+MIPI
+Bluetooth
+Ethernet
+HDMI
+SATA
+Mobile Storage
+Multi-Protocol PHYs
+IP Prototyping Kits
+IP Virtualizer Development Kits
+Interface IP Subsystems
+All Interface IP 
+
+
+
+< Semiconductor IP
+
+Memories & Libraries
+Logic Libraries
+Memory Compliers
+Duet Packages
+HPC Design Kit
+Embedded Test & Repair
+Non-Volatile Memory
+
+
+
+< Semiconductor IP
+
+Analog IP
+Data Converters
+Audio Analog Codecs
+
+
+
+< Semiconductor IP
+
+Processor Solutions
+ARC Processors
+Embedded Vision Processors
+Development Tools
+Operating Systems
+Ecosystems
+ASIP Tools
+
+
+
+< Semiconductor IP
+
+IP Subsystems
+ARC Data Fusion IP Subsystem
+ARC Sensor & Control IP Subsystem
+ARC Audio IP Subsystem
+Interface IP Subsystem
+
+
+
+< Semiconductor IP
+
+Security IP
+Cryptography IP
+Security Subsystems
+Platform Security
+Content Protection
+
+
+
+< Semiconductor IP
+
+Market Segments
+Internet of Things
+Automotive
+Cloud Computing 
+Mobile
+
+
+
+< Semiconductor IP
+
+IP Accelerated
+IP Prototyping Kits
+IP Virtualizer Development Kits
+IP Subsystems
+
+
+
+< Semiconductor IP
+
+SoC Infrastructure IP
+DesignWare Library
+Foundation Cores
+minPower Components
+Verification IP
+
+
+
+< overview
+
+Semiconductor IP
++
+Interface IP
++
+Memories & Libraries
++
+Analog IP
++
+Processor Solutions
++
+IP Subsystems
++
+Security IP
++
+Market Segments
++
+IP Accelerated
++
+SoC Infrastructure IP
+
+
+
+< Verification
+
+Verification
+Verification Continuum
+Simulation
+AMS Verification
+Static & Formal Verification
+Debug & Coverage
+Verification IP 
+Virtual Prototyping 
+Emulation
+Prototyping
+
+
+
+< Verification
+
+Solutions
+Automotive
+Low  Power
+
+
+
+< overview
+
+Verification
++
+Verification
++
+Solutions
+
+
+
+< Design 
+
+Design 
+Galaxy Design Platform
+RTL Synthesis
+Synthesis-Based Test
+Physical Implementation
+Custom Implementation
+Signoff
+Physical Verification
+FPGA Design
+Lynx Design System 
+
+
+
+< Design 
+
+Power Electronic Systems
+Power Electronics
+Wire Harnesses
+
+
+
+< Design 
+
+Optical Solutions
+LightTools
+CODE V
+LucidShape
+RSoft
+
+
+
+< overview
+
+Design 
++
+Design 
++
+Power Electronic Systems
++
+Optical Solutions
+
+
+
+< Silicon Engineering
+
+Silicon Engineering
+TCAD
+Mask Synthesis
+Mask Data Prep
+Yield Management
+
+
+
+< overview
+
+Silicon Engineering
++
+Silicon Engineering
+
+
+
+< main menu
+
+Products
++
+All Products 
++
+Software Integrity
++
+Semiconductor IP
++
+Verification
++
+Design 
++
+Silicon Engineering
+
+
+
+< Solutions
+
+Solutions
+Automotive
+Internet of Things
+Advanced Low Power
+FinFET
+
+
+
+< Solutions
+
+Industry Solutions
+Automotive
+Cloud Computing
+Financial Services
+Industrial Controls Systems
+Healthcare
+Mobile Devices
+
+
+
+< Solutions
+
+Technical Platforms 
+Verification Continuum
+FPGA Design
+Galaxy Design Platform
+
+
+
+< overview
+
+Solutions
++
+Solutions
++
+Industry Solutions
++
+Technical Platforms 
+
+
+
+< main menu
+
+Solutions
++
+Solutions
+
+
+
+< All Services
+
+Services
+Software Integrity Services
+Silicon Design Services
+
+
+
+< All Services
+
+Support
+SolvNet
+Software Integrity Support
+Training
+
+
+
+< overview
+
+All Services
++
+Services
++
+Support
+
+
+
+< Professional Services
+
+Professional Services
+Tool & Methodology Consulting
+Core Optimization
+Design Flow Deployment 
+Physical Design Assistance
+SoC Integration & Verification
+Physical Prototyping
+
+
+
+< overview
+
+Professional Services
++
+Professional Services
+
+
+
+< Support
+
+Product Support
+Support Center Locations
+Licensing
+Installation
+Compute Platforms
+
+
+
+< Support
+
+SolvNet
+Documentation
+Open a Support Case
+Download Center
+
+
+
+< Support
+
+Training
+Course Catalog
+Training Options
+
+
+
+< overview
+
+Support
++
+Product Support
++
+SolvNet
++
+Training
+
+
+
+< main menu
+
+Services
++
+All Services
++
+Professional Services
++
+Support
+
+
+
+< Community
+
+Community
+Community Overview
+
+
+
+< Community
+
+SNUG
+Conferences
+Keynotes
+Proceedings
+Sponsors
+
+
+
+< Community
+
+Partners
+ARM
+GLOBALFOUNDRIES
+Intel Custom Foundry
+Samsung
+TSMC
+All Partners
+
+
+
+< Community
+
+Interoperability
+ARC Access
+HAPS Connect
+HSPICE Integrator
+In-Sync
+System-Level Catalyst
+TAP-in
+VC Apps Access
+
+
+
+< Community
+
+University Program
+Curriculum 
+Members Only
+Support & Training
+Teaching Resources
+
+
+
+< Community
+
+Company Blogs
+Software Integrity
+Code Review
+Custom Layout Insights
+To USB or Not to USB
+VIP Central
+A View from the Top
+Hitting the Mark
+Committed to Memory
+All Blogs
+
+
+
+< overview
+
+Community
++
+Community
++
+SNUG
++
+Partners
++
+Interoperability
++
+University Program
++
+Company Blogs
+
+
+
+< main menu
+
+Community
++
+Community
+
+
+
+< About Us
+
+About Us
+Company Overview
+Management Team
+Global Citizenship
+Board of Directors
+Governance & Values
+Publications
+
+
+
+< About Us
+
+Investor Relations
+Recent Financial News
+Financials
+Investor Presentations
+Governance & Values
+
+
+
+< About Us
+
+Newsroom
+News Releases
+Synopsys Speaking Engagements 
+Spokesperson Bios & Images
+Synopsys Logos
+Media Contacts
+
+
+
+< About Us
+
+Events
+Events
+Seminars
+Webinars
+Synopsys Users Group (SNUG)
+
+
+
+< About Us
+
+Careers
+Current Opportunities
+Values & Ethics
+Worldwide Locations
+
+
+
+< overview
+
+About Us
++
+About Us
++
+Investor Relations
++
+Newsroom
++
+Events
++
+Careers
+
+
+
+< main menu
+
+About Us
++
+About Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+
+Silicon Design
+Chip Design
+Verification Continuum
+Silicon Engineering
+DesignWare IP
+Software Integrity
+Optical Solutions
+Solutions
+Services
+Support
+Community
+About Us
+
+
+Software Integrity
+
+Security Testing
+Software Security Services
+Program Development
+Solutions
+Resources
+Technical Support and Training
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software Integrity
+
+
+The most comprehensive solution for building security and quality into your SDLC and supply chain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security + Quality = Integrity
+
+
+
+Our end-to-end offering gives companies a turnkey, scalable approach for minimizing software-related business risks, maximizing release predictability and speed, and ensuring internal and external standards compliance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Software security is a journey. Let us be your guide.
+
+We go beyond traditional application testing to empower you to build security into your software at every stage of your development process. We offer application testing and remediation expertise, guidance for structuring a software security initiative, training, and professional services for a proactive approach to application security.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Build Security Into Your SDLC
+
+
+
+Our platform offers the most advanced and complete set of tools and services for every step of the software lifecycle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Security Testing
+Select from our portfolio of industry-leading tools to test your applications at any depth and breadth.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Managed Services
+Close testing gaps, conduct testing at any depth, and quickly scale to manage high-demand testing periods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Professional Services
+Address your unique security needs with specialized consulting by skilled experts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Risk-based Approach
+
+
+
+
+
+
+
+
+
+
+
+Organizations are struggling to figure out the delta between "what can I fix" and "what will make the biggest difference,” with the pragmatic reality of the time and resources that I actually have." The answer is a risk-based approach.  
+
+
+Craig Lawson
+|
+Gartner Analyst, 2016
+
+
+
+
+
+
+
+
+
+See what’s new in Software Security
+
+
+
+
+
+
+
+
+
+
+Bring Science to Software Security
+Download the latest Building Security in Maturity Model (BSIMM)
+Learn more
+
+
+
+
+
+
+
+
+
+CodenomiCON is coming to Nuremberg for the first time ever! 
+
+                Reserve your place!
+                
+                    
+                    March 14, 2017
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Agile Security Manifesto
+
+                Learn the four guiding security principles to add to your agile process.
+                
+            
+
+
+
+
+
+
+
+
+The 6 Most Common Threat Modeling Misconceptions
+
+                Overcome the most common misconceptions and create a successful threat model.
+                
+            
+
+
+
+
+
+
+
+
+Total Economic Impact of Coverity and Defensics
+
+                See how one customer realized the benefit of $9.5M over three years.
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+Ready to get started? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Let's Talk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products 
+
+Software Integrity
+Semiconductor IP
+Verification
+Design
+Silicon Engineering
+
+
+
+Resources
+
+Solutions
+Services
+Support
+Community
+
+
+
+Corporate
+
+About Us
+Careers
+Global Citizenship
+Investor Relations
+
+
+
+
+
+Legal
+
+Privacy
+Trademarks & Brands
+
+
+
+Follow
+
+
+
+
+
+
+
+
+
+
+Follow
+
+
+
+
+
+
+
+
+            ©2017 Synopsys, Inc. All Rights Reserved
+          
+
+
+
+
+
+
+
+
+
+
+
+

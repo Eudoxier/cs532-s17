@@ -1,0 +1,1132 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+	
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1"/>
+
+	<link rel="STYLESHEET" type="text/css" href="https://www.schneier.com/main.css?v=20151202">
+	<link rel="alternate" type="application/atom+xml" title="Blog Feed (Atom 1.0)" href="https://www.schneier.com/blog/atom.xml">
+
+
+	<link rel="STYLESHEET" type="text/css" href="/scripts/jquery.socialshareprivacy.css">
+	<script type="text/javascript" src="/scripts/jquery-1.9.1.min.js"></script> 
+	<script type="text/javascript" src="/scripts/jquery.cookies.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.socialshareprivacy.2.js"></script>
+	<script type="text/javascript">
+	// <![CDATA[
+	// define the default order of the buttons:
+	$.fn.socialSharePrivacy.settings.order = ['facebook', 'twitter', 'gplus'];
+	$.fn.socialSharePrivacy.settings.path_prefix = '/';
+	// ]]>
+	</script>
+
+
+
+	
+		<link rel="alternate" type="application/atom+xml" title="Comments on Security and Privacy Guidelines for the Internet of Things (Atom 1.0)" href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.xml" >
+	
+	
+		<link rel="prev" href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html" title="Do-It-Yourself Online Privacy/Safety Guide">
+	
+	
+		<link rel="next" href="https://www.schneier.com/blog/archives/2017/02/de-anonymizing_1.html" title="De-Anonymizing Browser History Using Social-Network Data">
+	
+
+	<script type="text/javascript" src="/blog/mt.js"></script>
+
+	<title>Security and Privacy Guidelines for the Internet of Things - Schneier on Security</title>
+
+</head>
+<body class="section-blog"><div id="wrapper"><div id="main">
+	<header><div id="header">
+	<h1><a href="/">Schneier on Security</a></h1>
+	</div></header>
+	<nav><div class="nav" id="header-nav">
+<ul>
+	<li class="menu1 current"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+
+	</div></nav>
+
+
+<aside><div class="sidebar" id="sidebar-one">
+
+		<section><div class="sidesection" id="search-widget">
+		<h3>Search</h3>
+		<p class="small"><em>Powered by <a href="https://duckduckgo.com/">DuckDuckGo</a></em></p>
+		<form method="get" action="https://duckduckgo.com/">
+		<input type="hidden" name="kh" value="1"><!-- use https -->
+		<input id="search" name="q" size="15" maxlength="255">
+		<input type="submit" value="Go"><br>
+		<input type="radio" name="sites" id="searchblog" value="www.schneier.com/blog" checked><label for="searchblog">blog</label> 
+		<input type="radio" name="sites" id="searchessays" value="www.schneier.com/essays"><label for="searchessays">essays</label>
+		<input type="radio" name="sites" id="searchall" value="www.schneier.com" ><label for="searchall">whole site</label>		</form>
+		</div></section>
+	
+		<section><div class="sidesection">
+		<h3>Subscribe</h3>
+		
+			<div id="subscription-buttons">
+				<a href="https://www.schneier.com/blog/atom.xml"><img alt="Atom Feed" src="https://www.schneier.com/images/rss-32px.png"></a>
+				<a href="https://www.facebook.com/bruce.schneier"><img alt="Facebook" src="https://www.schneier.com/images/facebook-32px.png"></a>
+				<a href="https://twitter.com/schneierblog/"><img alt="Twitter" src="https://www.schneier.com/images/twitter-32px.png"></a>
+				<a href="http://www.amazon.com/Schneier-on-Security/dp/B0053HDDWW/"><img alt="Kindle" src="https://www.schneier.com/images/kindle-32px.png"></a>
+				<a href="/crypto-gram-sub.html"><img alt="E-Mail Newsletter (Crypto-Gram)" src="https://www.schneier.com/images/email-32px.png"></a>
+			</div><!--#subscription-buttons-->
+		</div></section>
+
+	</div></aside>
+
+
+	
+	<div id="content"><p id="breadcrumbs">
+
+
+<a href="https://www.schneier.com/blog/">Blog</a>&nbsp;&gt;
+
+
+
+
+</p>
+
+
+
+    
+    
+    <article><div class="article">
+	<script type="text/javascript">
+		// <![CDATA[
+		$(document).ready(function () {
+			$('#share010999').socialSharePrivacy({uri: 'https://www.schneier.com/blog/archives/2017/02/security_and_pr.html', title: 'Security and Privacy Guidelines for the Internet of Things'});
+			});
+		// ]]>
+	</script>
+	
+
+	<h2 class="entry" id="a010999">Security and Privacy Guidelines for the Internet of Things</h2>
+	
+	
+		
+	
+    
+	    <p>Lately, I have been collecting IoT security and privacy guidelines. Here's everything I've found:</p>
+
+<ol><li>"<a href="http://www.bitag.org/documents/BITAG_Report_-_Internet_of_Things_(IoT)_Security_and_Privacy_Recommendations.pdf">Internet of Things (IoT) Broadband Internet Technical Advisory Group</a>, Broadband Internet Technical Advisory Group, Nov 2016.
+
+<p><li>"<a href="https://www.owasp.org/index.php/IoT_Security_Guidance">IoT Security Guidance</a>," Open Web Application Security Project (OWASP), May 2016.</p>
+
+<p><li>"<a href="https://www.dhs.gov/sites/default/files/publications/Strategic_Principles_for_Securing_the_Internet_of_Things-2016-1115-FINAL_v2-dg11.pdf">Strategic Principles for Securing the Internet of Things (IoT)</a>," US Department of Homeland Security, Nov 2016.</p>
+
+<p><li>"<a href="http://www.onem2m.org/images/files/deliverables/Release2/TR-0008-Security-V2_0_0.pdf">Security</a>," OneM2M Technical Specification, Aug 2016.</p>
+
+<p><li>"<a href="http://onem2m.org/images/files/deliverables/Release2/TS-0003_Security_Solutions-v2_4_1.pdf">Security Solutions</a>," OneM2M Technical Specification, Aug 2016.</p>
+
+<p><li>"<a href="http://www.gsma.com/connectedliving/wp-content/uploads/2016/02/CLP.11-v1.1.pdf">IoT Security Guidelines Overview Document</a>," GSM Alliance, Feb 2016.</p>
+
+<p><li>"<a href="http://www.gsma.com/connectedliving/wp-content/uploads/2016/02/CLP.12-v1.0.pdf">IoT Security Guidelines For Service Ecosystems</a>," GSM Alliance, Feb 2016.</p>
+
+<p><li>"<a href="http://www.gsma.com/connectedliving/wp-content/uploads/2016/02/CLP.13-v1.0.pdf">IoT Security Guidelines for Endpoint Ecosystems</a>," GSM Alliance, Feb 2016.</p>
+
+<p><li>"<a href="http://www.gsma.com/connectedliving/wp-content/uploads/2016/02/CLP.14-v1.0.pdf">IoT Security Guidelines for Network Operators</a>," GSM Alliance, Feb 2016.</p>
+
+<p><li>"<a href="https://iotsecurityfoundation.org/wp-content/uploads/2015/09/IoTSF-Establishing-Principles-for-IoT-Security-Download.pdf">Establishing Principles for Internet of Things Security</a>," IoT Security Foundation, undated.</p>
+
+<p><li>"<a href="https://www.iotmanifesto.com/wp-content/themes/Manifesto/Manifesto.pdf">IoT Design Manifesto</a>," www.iotmanifesto.com, May 2015.</p>
+
+<p><li>"<a href="https://iot.cityofnewyork.us/">NYC Guidelines for the Internet of Things</a>," City of New York, undated.</p>
+
+<p><li>"<a href="https://iotsecurityfoundation.org/wp-content/uploads/2016/12/IoT-Security-Compliance-Framework.pdf">IoT Security Compliance Framework</a>," IoT Security Foundation, 2016.</p>
+
+<p><li>"<a href="http://www.iotiap.com/principles-2016_12_02.html">Principles, Practices and a Prescription for Responsible IoT and Embedded Systems Development</a>," IoTIAP, Nov 2016.</p>
+
+<p><li>"<a href="http://otalliance.actonsoftware.com/acton/attachment/6361/f-008d/1/-/-/-/-/IoT%20Trust%20Framework.pdf">IoT Trust Framework</a>," Online Trust Alliance, Jan 2017.</p>
+
+<p><li>"<a href="https://www.iamthecavalry.org/wp-content/uploads/2014/08/Five-Star-Automotive-Cyber-Safety-February-2015.pdf">Five Star Automotive Cyber Safety Framework</a>," I am the Cavalry, Feb 2015.</p>
+
+<p><li>"<a href="https://www.iamthecavalry.org/wp-content/uploads/2016/01/I-Am-The-Cavalry-Hippocratic-Oath-for-Connected-Medical-Devices.pdf">Hippocratic Oath for Connected Medical Devices</a>," I am the Cavalry, Jan 2016.</p>
+
+<p><li>"<a href="http://www.iiconsortium.org/pdf/IIC_PUB_G4_V1.00_PB-3.pdf">Industrial Internet of Things Volume G4: Security Framework</a>," Industrial Internet Consortium, 2016.</p>
+
+<p><li>"<a href="https://downloads.cloudsecurityalliance.org/assets/research/internet-of-things/future-proofing-the-connected-world.pdf">Future-proofing the Connected World: 13 Steps to Developing Secure IoT Products</a>," Cloud Security Alliance, 2016.</ol></p>
+
+<p>Other, related, items:</p>
+
+<ol><li>"<a href="https://drive.google.com/file/d/0B9qOTaXg3UmRZlhWQk5LOUo5Ykk/view">We All Live in the Computer Now</a>," The Netgain Partnership, Oct 2016.
+
+<p><li>"<a href="https://epic.org/privacy/ftc/EPIC-FTC-IoT-Cmts.pdf">Comments of EPIC to the FTC on the Privacy and Security Implications of the Internet of Things</a>," Electronic Privacy Information Center, Jun 2013.</p>
+
+<p><li>"<a href="https://www.iab.org/activities/workshops/iotsu/">Internet of Things Software Update Workshop (IoTSU)</a>," Internet Architecture Board, Jun 2016.</p>
+
+<p><li>"<a href="https://www.ntia.doc.gov/other-publication/2016/multistakeholder-process-iot-security">Multistakeholder Process; Internet of Things (IoT) Security Upgradability and Patching</a>," National Telecommunications & Information Administration, Jan 2017.</ol></p>
+
+<p>They all largely say the same things: avoid known vulnerabilities, don't have insecure defaults, make your systems patchable, and so on.</p>
+
+<p>My guess is that everyone knows that IoT <a href="http://nymag.com/selectall/2017/01/the-internet-of-things-dangerous-future-bruce-schneier.html">regulation is coming</a>, and is either trying to impose self-regulation to forestall government action or establish principles to influence government action. It'll be interesting to see how the next few years unfold.</p>
+
+<p>If there are any IoT security or privacy guideline documents that I'm missing, please tell me in the comments. </p>
+
+<p>EDITED TO ADD: Documents added to the list, above.</p>
+    
+	
+	
+	
+
+    
+	<p class="entry-tags">Tags: <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=Internet%20of%20things&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">Internet of things</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=privacy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">privacy</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=security%20engineering&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">security engineering</a>, <a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=security%20standards&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1" rel="tag">security standards</a></p>
+
+
+	
+	<p class="posted"><a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html">Posted on February  9, 2017 at  7:14 AM</a>
+	 &#8226; 
+	34 Comments
+	
+	</p>
+	<aside><div class="share" id="share010999"></div></aside>
+	</div></article>
+
+
+
+
+    
+    
+
+
+
+<h3 id="comments">Comments</h3>
+
+
+<article><div class="comment by-eric-v" id="c6745659">
+
+
+<p class="commentcredit"><span class="commenter"><a title="http://javacard.vetilles.com" href="http://javacard.vetilles.com" rel="nofollow">Eric V</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745659">February  9, 2017  7:58 AM</a>
+</p>
+
+<p>At least 2 are missing from the list:</p>
+
+<p>Cloud Security Alliance, <a href="https://cloudsecurityalliance.org/download/future-proofing-the-connected-world/" rel="nofollow">Future Proofing the Connected World</a>. Very practical view and a nice read.</p>
+
+<p>Industrial Internet Consortium, <a href="http://www.iiconsortium.org/pdf/IIC_PUB_G4_V1.00_PB-3.pdf" rel="nofollow">Industrial Internet of Things, Volume G4: Security Framework</a>. Comprehensive, more like a reference.</p>
+</div></article>
+
+
+
+<article><div class="comment by-ted" id="c6745664">
+
+
+<p class="commentcredit"><span class="commenter">Ted</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745664">February  9, 2017  8:45 AM</a>
+</p>
+
+<p>Multistakeholder Process; Internet of Things (IoT) Security Upgradability and Patching<br />
+<a href="https://www.ntia.doc.gov/other-publication/2016/multistakeholder-process-iot-security" rel="nofollow">https://www.ntia.doc.gov/other-publication/2016/multistakeholder-process-iot-security</a></p>
+
+<p>Four working groups composed presentations for a "IoT Security Upgradability and Patching" virtual meeting held on January 31, 2017. From the briefing provided by the "Existing Standards, Tools, and Initiatives Working Group":</p>
+
+<p>Initially Targeted Efforts<br />
+• Online Trust Alliance<br />
+• Organization: Industrial Internet Consortium (IIC)<br />
+• Open Connectivity Foundation<br />
+• National Institute of Standards and Technology<br />
+• IEEE Internet of Things<br />
+• Alliance for Internet of Things Innovation<br />
+• International Organization for Standardization (ISO) IoT Standards<br />
+• Industrial Automation and Control System Security<br />
+• Open Web Application Security Project<br />
+• Cloud Security Alliance<br />
+• Object Management Group<br />
+• Internet Engineering Task Force (IETF)<br />
+• European Telecommunications Standards Institute (ETSI)<br />
+• Thread Group<br />
+• oneM2M<br />
+• 3rd Generation Partnership Project (3GPP)<br />
+• ITU-T SG20<br />
+• IoT Security Foundation<br />
+• Internet of Things Consortium<br />
+• Cloud Standards Customer Council (CSCC)<br />
+• Smart Grid Interoperability Panel (SGIP)<br />
+• Groupe Spécial Mobile Assocation (GSMA)<br />
+• US Department of Homeland Security (DHS)<br />
+• Open Mobile Alliance (OMA)<br />
+• Underwriters Laboratories (UL)<br />
+• U.S. Food and Drug Administration (FDA)<br />
+• OpenFog Consortium<br />
+• Industrie 4.0<br />
+• North American Electric Reliability Corp</p>
+
+<p>Questions?<br />
+Want to help?<br />
+• WG1 Mailing List: ntia-iot-wg1@googlegroups.com<br />
+• WG1 Virtual Meeting frequency: Every two weeks</p>
+
+<p>Presentations are also available from the "Technical Capabilities and Patching Expectations Working Group," "Communicating Upgradability and Improving Transparency Working Group," and "Incentives, Barriers, and Adoption Working Group."</p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745665">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745665">February  9, 2017  8:46 AM</a>
+</p>
+
+<p>I think the <a href="https://en.wikipedia.org/wiki/Amish" rel="nofollow">Amish</a> have better ideas than anyone else how to handle this so-called "Internet of Things."</p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745666">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745666">February  9, 2017  8:54 AM</a>
+</p>
+
+<p>When it comes to Internet-connected toilets equipped with video cameras for automatic flush, I've reached my limit, and I'm more than ready to vomit.</p>
+
+<p>If even the Amish kids are known to tip over outhouses for a prank, I certainly do not want this entire generation of drug-addled Internet brats raised on corn smut to be "enabled" to commit all manner of similar but higher-tech pranks with the Internet of Things.</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745669">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745669">February  9, 2017  9:19 AM</a>
+</p>
+
+<p>@ Bruce</p>
+
+<p><i>If there are any IoT security or privacy guideline documents that I'm missing, please tell me in the comments.</i></p>
+
+<p>Yes. Follow @internetofshit on Twitter. For the layman, it's probably more comprehensive, educational and frightening than any essay, presentation or guideline can ever be. </p>
+</div></article>
+
+
+
+<article><div class="comment by-ion" id="c6745670">
+
+
+<p class="commentcredit"><span class="commenter"><a title="https://en.wikipedia.org/wiki/Main_Page" href="https://en.wikipedia.org/wiki/Main_Page" rel="nofollow">Ion</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745670">February  9, 2017  9:26 AM</a>
+</p>
+
+<p>Nice. But useless. The school teachers and university professors are about asserting their authority. And most of them are way over their heads. Yet parents don't know any better and are pushing their children to buy insurance - meaning the institutional paper instead of knowledge and practical experience. So security is somewhere at the end of the list for all the players, but a handful of geeks, most of whom have a real hard time interacting with anything but people alike them. And these few geeks are cheating the people anyway because all I can find online is these few dry tech documents. And lots of frustrated pointless howls. And psychiatric cases talking about alien lizard conspiracies.</p>
+
+<p>One way out would be to realize your position: you are not John the Baptist calling up for Jesus. You are not the Messiah to save the world from something. Most of the people reading this are barely qualified for their daily jobs. Not enough that they can quit tomorrow and rest assured that in June or 10 years from now they would still be employable.</p>
+
+<p>Rising awareness is for people like Bono from U2 and Leo diCaprio whose only competence is in reading the teleprompter.</p>
+
+<p>YOU COULD DO SOMETHING. Something practical.</p>
+
+<p>And there is anything to do.</p>
+
+<p>Open Source hardware is either 15 year old laptops that barely work with free software. Or so called advanced junk like Arduino. Sure, you can play with it. And it might be miraculous. For 1972.</p>
+
+<p>Open Source software is either the clone of a 10 year old software pack or labeled pre-alpha and partially functional.</p>
+
+<p>Information is scarce and of low to very low quality.</p>
+
+<p>So forget the lizards and the bilderbergs! Things happen because YOU DO ZERO.</p>
+
+<p>Nobody is stopping you do anything. But you have to learn enough to do the job. Nobody is stopping you make the next Facebook. You could be ethical and sh*t money at the same time. But if your product is sh*t like your life, the users are proportional with the quality of the product once the buzz is off.</p>
+</div></article>
+
+
+
+<article><div class="comment by-n" id="c6745671">
+
+
+<p class="commentcredit"><span class="commenter">N</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745671">February  9, 2017  9:30 AM</a>
+</p>
+
+<p>Interesting counter argument: <a href="http://reason.com/archives/2017/02/07/against-department-of-technology-policy" rel="nofollow">http://reason.com/archives/2017/02/07/against-department-of-technology-policy</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-sowhatdidyouexpect" id="c6745674">
+
+
+<p class="commentcredit"><span class="commenter">SoWhatDidYouExpect</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745674">February  9, 2017  9:54 AM</a>
+</p>
+
+<p>One needs to recognize that Internet of Things is likely to be considered all encompassing.  That is, the definition will eventually include all cell phones, devices that communicate in way whatever, your home computers, cars, medical implants, and your personal drones.  Ultimately, it will include YOU directly with your own implanted chip, medical or not.  </p>
+
+<p>The overall purpose is to KNOW everything about you for ultimate influence, imtimidation, and control.  Due to the advancment of the electronic age we are in, you are no longer a citizen but effectively a property of the state and/or big business.  </p>
+
+<p>Eventually, I expect laws to be passed requiring all such things or to the gulag you go.  Individuality no longer, humanity even less.  </p>
+
+<p>Stark?  Even a small part of the above qualifies.  </p>
+</div></article>
+
+
+
+<article><div class="comment by-hawk" id="c6745675">
+
+
+<p class="commentcredit"><span class="commenter">hawk</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745675">February  9, 2017 10:07 AM</a>
+</p>
+
+<p>"My guess is that everyone knows that IoT regulation is coming, and is either trying to impose self-regulation to forestall government action or establish principles to influence government action."</p>
+
+<p>Huh? Where in the world do you get that idea? Strange bias. The best I can tell, you never mentioned the Internet of Things until after it had become a pop buzzword. You invariably respond to anything new with contempt, dismissing it as hype. Like the Cloud. Later you compose a primer and get it published in, say, the Atlantic or The New Yorker or similar. As if you come around just in time to regain expertise. But this? It is a really weird statement given how some groups were hard at work long before you got out of bed. And your obsession with gov't regulation, I guess, is simply wishful thinking.</p>
+</div></article>
+
+
+
+<article><div class="comment by-oliver" id="c6745676">
+
+
+<p class="commentcredit"><span class="commenter">oliver</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745676">February  9, 2017 10:26 AM</a>
+</p>
+
+<p>How about the complete and correct implementation of BCP38?<br />
+That would lessen all those DDOS atttack to a significant degree.</p>
+</div></article>
+
+
+
+<article><div class="comment by-hawk" id="c6745677">
+
+
+<p class="commentcredit"><span class="commenter">hawk</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745677">February  9, 2017 10:46 AM</a>
+</p>
+
+<p>Yeah, I'm still looking for recommendations that may have been touted previously, for how the gov't needs to step in and commence regulation of routers and switches and, maybe some new committee could be established to force companies to use their new routing protocols. Of course, then you'll need to get the special certification and classes take a year to get into, and more fees and more fees. Wanna bet that big shots like IBM will be the only companies that afford to push out new products? How convenient. Hey, it'll be good for progress and it'll enhance innovation (just not ours). </p>
+</div></article>
+
+
+
+<article><div class="comment by-bear" id="c6745678">
+
+
+<p class="commentcredit"><span class="commenter">Bear</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745678">February  9, 2017 10:46 AM</a>
+</p>
+
+<p>It is telling that we have heard no news stories (except for transparent advertising ie press releases) about any IoT devices that actually follow these guidelines.</p>
+
+<p>The cynic in me thinks that we haven't heard of any such devices because there are no such devices.  And this would be backed up by my experience of the companies making them. Most of them have answered queries with statements like "Oh, security.  We don't have any engineers to spare for that..." and "but the customer database is how we develop marketing value!"</p>
+
+<p>And yet I have hope that they exist but we haven't heard about them because without breaches and exploits they don't make the news, and I haven't heard from those companies because they just don't need outside security people.  But that doesn't seem likely. </p>
+
+<p>I don't buy any IoT products for my own house.  I don't even install samples of IoT devices I'm working on in my house.  And most people who work with the security issues of IoT devices make the same decision.  It says something when the pros don't actually use the products....</p>
+</div></article>
+
+
+
+<article><div class="comment by-jones" id="c6745679">
+
+
+<p class="commentcredit"><span class="commenter"><a title="http://telesio.wordpress.com" href="http://telesio.wordpress.com" rel="nofollow">jones</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745679">February  9, 2017 10:53 AM</a>
+</p>
+
+<p>diminishing returns and mass delusion</p>
+</div></article>
+
+
+
+<article><div class="comment by-dirk-praet" id="c6745683">
+
+
+<p class="commentcredit"><span class="commenter">Dirk Praet</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745683">February  9, 2017 12:46 PM</a>
+</p>
+
+<p>@ hawk</p>
+
+<p><i>And your obsession with gov't regulation, I guess, is simply wishful thinking.</i></p>
+
+<p>More like a very sensible proposal as opposed to the usual crowd singing the praise of automagically self-regulating free markets, then crying "terrorism" when a script kiddie in Romania suddenly shuts down their ridiculously insecure fridge and their pacemaker. Just to carry on with the same radical rejection of any type of regulation once the dust has settled. Ever heard of cognitive dissonance ?</p>
+</div></article>
+
+
+
+<article><div class="comment by-ross-snider" id="c6745684">
+
+
+<p class="commentcredit"><span class="commenter">Ross Snider</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745684">February  9, 2017  1:51 PM</a>
+</p>
+
+<p>Hey Bruce mentioned this in another comment/post.</p>
+
+<p>Ideas for low-cost government involvement that doesn't lead to de facto surveillance and propaganda authorities:</p>
+
+<p>1. Software security labeling system (similar to FDA food labeling) so increase the level of market-consumable information available.</p>
+
+<p>2. Repository of publicly funded code snippets that achieve strong security properties (i.e. )</p>
+
+<p>3. Project to create a next-generation infrastructure, from silicon (Harvard vs VN vs Miller architecture) to routing protocols, to authentication protocols.</p>
+
+<p>4. A tax on insecure products.</p>
+
+<p>5. A customer advocacy pipeline to bring suit against companies that fraudulently overemphasize their security.</p>
+
+<p>6. Security research grant/funding for academia.</p>
+
+<p>7. Provisions to laws that makes security research and disclosure safer and less liable.</p>
+
+<p>8. Public support for free(dom) software principles, including the ability of people to investigate the software that behaves on their behalf.</p>
+
+<p>Let's think outside the box.</p>
+</div></article>
+
+
+
+<article><div class="comment by-arosha-k-bandara" id="c6745685">
+
+
+<p class="commentcredit"><span class="commenter"><a title="http://www.academic-marginalia.org" href="http://www.academic-marginalia.org" rel="nofollow">Arosha K Bandara</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745685">February  9, 2017  3:09 PM</a>
+</p>
+
+<p>Thanks for compiling this list - a useful resource for researchers and developers alike. </p>
+
+<p>Our research group have been working on developing some guidelines for designing privacy into IoT systems.  Our initial work on this was presented last year at the IoT conference:</p>
+
+<p>Perera, Charith; Mccormick, Ciaran; Bandara, Arosha; Price, Blaine and Nuseibeh, Bashar (2016). Privacy-by-Design Framework for Assessing Internet of Things Applications and Platforms. In: International Conference on the Internet of Things (IOT 2016), 7-9 November 2016, Stuttgart, Germany.</p>
+
+<p><a href="http://www.academic-marginalia.org/2016/11/privacy-by-design-framework-for_9.html" rel="nofollow">http://www.academic-marginalia.org/2016/11/privacy-by-design-framework-for_9.html</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745686">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745686">February  9, 2017  3:52 PM</a>
+</p>
+
+<p>@Ion</p>
+
+<blockquote>And these few geeks are cheating the people anyway because all I can find online is these few dry tech documents.</blockquote>
+
+<p>Nice.</p>
+
+<blockquote>And psychiatric cases talking about alien lizard conspiracies.</blockquote>
+
+<p>And highly intelligent ionic aliens who read and understand reams and reams of Freudian psychosexuality and Jungian psychotypology well enough to diagnose complex psychiatric cases online, yet are somehow unable or unwilling to read and comprehend a "few dry tech documents" for the benefit of their own cybersecurity.</p>
+
+<blockquote>One way out would be to realize your position: you are not John the Baptist calling up for Jesus. You are not the Messiah to save the world from something.</blockquote>
+
+<p>I realize it's "legal" in states such as Washington and Colorado, but it's time to get off the pot.</p>
+
+<blockquote>Most of the people reading this are barely qualified for their daily jobs.</blockquote>
+
+<p>You really do need random drug testing at your workplace.</p>
+
+<blockquote>Not enough that they can quit tomorrow and rest assured that in June or 10 years from now they would still be employable.</blockquote>
+
+<p>Right.  Just sober up and show up at the union hall.<br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-jostein-tveit" id="c6745688">
+
+
+<p class="commentcredit"><span class="commenter">Jostein Tveit</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745688">February  9, 2017  4:28 PM</a>
+</p>
+
+<p>Yesterday's press release from AT&T:</p>
+
+<p><a href="http://about.att.com/story/iot_cybersecurity_alliance.html" rel="nofollow">AT&T, IBM, Nokia, Palo Alto Networks, Symantec and Trustonic Form IoT Cybersecurity Alliance</a><br />
+</p>
+</div></article>
+
+
+
+<article><div class="comment by-ross-snider" id="c6745693">
+
+
+<p class="commentcredit"><span class="commenter">Ross Snider</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745693">February  9, 2017  5:31 PM</a>
+</p>
+
+<p>@My Info</p>
+
+<p>I read Ion's comment very differently. If I could translate how I perceived his comment:</p>
+
+<p>Nobody really cares about cyber security. It's an overblown problem with a simple solution. The people who are loud about it are generally paranoid or overly obsessed with their small corner of the world. These people (the loud ones about cyber security) think of themselves as saviors and noblemen, while really they are kind of pathetic people with superiority complexes.</p>
+
+<p>The simple solution is for programmers and security folks to stop the alarmist and build the solutions themselves - and not be lazy about building the solutions. Get the security right.</p>
+
+<p>Ion did I read that correctly? Is that what you were saying?</p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745696">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745696">February  9, 2017  6:21 PM</a>
+</p>
+
+<p>@ Bruce</p>
+
+<p>There's also already solutions on the market that cover quite a few bases. I haven't reviewed the ones below or thought on the implementation quality. Just giving them as examples:</p>
+
+<p><a href="http://www.iconlabs.com/prod/products/floodgate-iot-security-toolkit" rel="nofollow">Floodgate IOT Security Toolkit</a></p>
+
+<p>Green Hills has platforms for <a href="http://www.ghs.com/secure_networking.html" rel="nofollow">networking</a> and <a href="http://www.ghs.com/products/industrial_safety.html" rel="nofollow">industrial</a> that they're probably combining into an IOT-style solution for customers. Lynx has a dedicated <a href="http://www.lynx.com/meeting-the-needs-of-the-internet-of-things-iot/" rel="nofollow">IOT package</a>. Wind River <a href="https://www.windriver.com/news/press/pr.html?ID=13181" rel="nofollow">added</a> similar security to VxWorks platform. OK Labs' toolkit that General Dynamics bought should be usable for IOT but page is down. Mitre just <a href="https://www.mitre.org/news/press-releases/mitre-announces-winner-of-internet-of-things-iot-challenge" rel="nofollow">concluded</a> some competition with some other players. </p>
+
+<p>So, if people care to spend, there's solutions they can license right now to cover most of the bases companies are hitting them with. Several with good, endpoint protection on top of that. Combine with custom code done in SPARK Ada, high-integrity Java, or Rust for even better odds. It's sort of a financial & integration problem at this point to knock out vast majority of risk while maintaining fast, development pace. Apathy and greed prevail. </p>
+</div></article>
+
+
+
+<article><div class="comment by-nick-p" id="c6745699">
+
+
+<p class="commentcredit"><span class="commenter">Nick P</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745699">February  9, 2017  7:14 PM</a>
+</p>
+
+<p>@ Ross Snider</p>
+
+<p>It's already been done successfully via DOD's Computer Security Initiative. Bell describes its rise and fall <a href="http://lukemuehlhauser.com/wp-content/uploads/Bell-Looking-Back-Addendum.pdf" rel="nofollow">here</a>. It's being done for software safety right now under quite a few regimes of certification, esp DO-178B/C. The industry not only produced the high-quality components: third-party tools showed up all over the place to accelerate both productivity and assurance of correctness. SPARK Ada, Esterel SCADE, separation kernels I referenced above, and even <a href="http://richlandtechnologies.com/products/embedded-graphics-libraries/software-graphics-renderer/" rel="nofollow">graphics drivers/libraries</a>. Wasn't sure I'd ever see that last one done robustly on modern hardware. ;)</p>
+
+<p>So, a repeat of CSI or DO-178B-style regulation with sane, straight-forward profiles for requirements of given types of hardware (Common Criteria minus the bullshit) seem to be best route. It worked before. It should work again.</p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745702">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745702">February  9, 2017  8:05 PM</a>
+</p>
+
+<p>@Ross Snider</p>
+
+<blockquote>Nobody really cares about cyber security. It's an overblown problem with a simple solution. The people who are loud about it are generally paranoid or overly obsessed with their small corner of the world. These people (the loud ones about cyber security) think of themselves as saviors and noblemen, while really they are kind of pathetic people with superiority complexes.</blockquote>
+
+<p>I was going to be snarky again, but there is a lot of truth in what you say the way you have expressed it.  Nobody <i>in control</i> really cares <i>enough</i> about it.  Think <i>decision makers</i>.  Big business.  The simplest <i>correct</i> solution is often the best and often overlooked.  "The loud ones about cyber security" are of course those who profit the most from all the hype.  "Their small corner of the world" is of course some proprietary "solution" or another they offer to non-technical makers of technical business decisions.</p>
+
+<blockquote>The simple solution is for programmers and security folks to stop the alarmist and build the solutions themselves - and not be lazy about building the solutions. Get the security right.</blockquote>
+
+<p>This is exactly right.  But the main obstacles are in the domain of business and politics rather than technology.  This is because all too many of the "solutions" on the market are highly <i>proprietary</i>; incomplete; crippled; deliberately restricted in functionality, extensibility, and customers' access to their own data; and sold by huge corporations with immense international political lobbying power.</p>
+
+<p>This is why we discuss free and open source software so much on this forum.  The source code is available and subject to public audit and public modification, experimentation, and distribution.</p>
+</div></article>
+
+
+
+<article><div class="comment by-ross-snider" id="c6745714">
+
+
+<p class="commentcredit"><span class="commenter">Ross Snider</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745714">February 10, 2017  1:35 AM</a>
+</p>
+
+<p>@My Info</p>
+
+<p>To be clear I was just translating what I thought @Ion was saying. Nothing I wrote there or your responded to necessarily reflects an opinion of mine.</p>
+</div></article>
+
+
+
+<article><div class="comment by-john-moor" id="c6745720">
+
+
+<p class="commentcredit"><span class="commenter"><a title="https://iotsecurityfoundation.org" href="https://iotsecurityfoundation.org" rel="nofollow">John Moor</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745720">February 10, 2017  5:56 AM</a>
+</p>
+
+<p>Best Practice Guides:<br />
+Connected Consumer Products / Dec 16 IoT Security Foundation<br />
+Vulnerability Disclosure / Dec 16 IoT Security Foundation</p>
+
+<p>Both complement the IoT Security Compliance Framework... more in the making for 2017.</p>
+
+<p><a href="https://iotsecurityfoundation.org/best-practice-guidelines/" rel="nofollow">https://iotsecurityfoundation.org/best-practice-guidelines/</a></p>
+
+<p><a href="https://iotsecurityfoundation.org/best-practice-guidelines/" rel="nofollow"></a></p>
+
+<p>We've taken the approach to produce guidance for those that need it most in the first instance (and those that may be inclined to ignore their duty of care to the rest of us) - i.e. those who want to get to market quickly but lack understanding of security.</p>
+
+<p>Security needs to be consumable and the IoTSF Framework / Best Practice Guidelines are free of course, so few excuses.</p>
+
+<p>For completeness - Establishing Principles for IoT Security was early 2016 - a taster document.</p>
+
+<p>On regulation - we should welcome it because it is necessary. However, we need to make sure it's right-sized and that can only be considered with reference to the application. We're working on the concept of a Trustmark in Europe as part of the bigger picture... the threat of connection cannot be ignored.</p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745729">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745729">February 10, 2017  8:08 AM</a>
+</p>
+
+<p>@Ross Snider</p>
+
+<blockquote>To be clear I was just translating what I thought @Ion was saying. Nothing I wrote there or your responded to necessarily reflects an opinion of mine.</blockquote>
+
+<p>When we need a specious disclaimer like that for every online opinion or comment offered, supposedly in order to maintain potential employability at the aforementioned huge corporations, it just goes to show that those corporations have become all too powerful.  And I don't doubt it, either.</p>
+
+<p>Those corporations are definitely colluding to censor opinions expressed online, and they will definitely blacklist potential applicants for jobs.</p>
+</div></article>
+
+
+
+<article><div class="comment by-who" id="c6745731">
+
+
+<p class="commentcredit"><span class="commenter">Who?</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745731">February 10, 2017  9:41 AM</a>
+</p>
+
+<p>Most of the documents shown here, both by Bruce and readers like Eric V and Ted, fail on a fundamental level: these documents are targeted to IoT appliance designers and manufacturers, not to the few end users that appreciate security.</p>
+
+<p>Industry wants benefit so they try cutting costs, and most times they do it very hard.  Security, on the other hand, is expensive.  Now consider that most customers want something cool, not something secure or privacy-friendly and you have the perfect recipe to a disaster.</p>
+
+<p>IoT will be a security/privacy disaster and these papers will become a nice academic exercise only.  But don't worry, technology is full of profitable privacy disasters like Apple, Google, Microsoft and the National Security Agency.</p>
+</div></article>
+
+
+
+<article><div class="comment by-albert" id="c6745739">
+
+
+<p class="commentcredit"><span class="commenter">albert</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745739">February 10, 2017 11:33 AM</a>
+</p>
+
+<p>@Whomever,</p>
+
+<p>I don't care what happens to individual users of IoT devices; it's a case of buyer beware. I -do- care about the effects hacking them have on others who are not part of the IoT fad. </p>
+
+<p>Regulation: Government regulation happens at the will and pleasure of the Corporatocracy. That said, there is only one law I'd like to see passed.  </p>
+
+<p>"It will be illegal for any manufacturer, software or service provider, to absolve themselves of responsibility for their product or service, via TOS, EULA, etc."</p>
+
+<p>Given that perfect (or even decent) security is impossible, simple steps can reduce the effects of IoT hacking:</p>
+
+<p>1. Force strong passwords. <br />
+2. Disallow remote programmability.<br />
+3. Use simple, basic open-source code.</p>
+
+<p>I didn't expand these points because we've already discussed them, at length.</p>
+
+<p>. .. . .. --- ....</p>
+</div></article>
+
+
+
+<article><div class="comment by-my-info" id="c6745748">
+
+
+<p class="commentcredit"><span class="commenter">My Info</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745748">February 10, 2017  1:45 PM</a>
+</p>
+
+<p>@Who?, @albert</p>
+
+<blockquote>... these documents are targeted to IoT appliance designers and manufacturers, not to the few end users that appreciate security.</blockquote>
+
+<blockquote>I don't care what happens to individual users of IoT devices; it's a case of buyer beware. </blockquote>
+
+<p>Buyer beware indeed.  This is the attitude of the <a href="https://en.wikipedia.org/wiki/Übermensch#National_Socialism" rel="nofollow">National Socialist Übermensch</a>.  </p>
+</div></article>
+
+
+
+<article><div class="comment by-v" id="c6745750">
+
+
+<p class="commentcredit"><span class="commenter">V</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745750">February 10, 2017  3:13 PM</a>
+</p>
+
+<p>On the IoT:<br />
+<a href="http://onthefastrack.com/comics/february-10-2017/" rel="nofollow">http://onthefastrack.com/comics/february-10-2017/</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-tped" id="c6745784">
+
+
+<p class="commentcredit"><span class="commenter">tped</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745784">February 11, 2017  7:34 AM</a>
+</p>
+
+<p>Running collection of IoT Security and Privacy Resources (2014-present) is here -> <a href="http://ventures.tpedersen.net/errata/iotsecurity" rel="nofollow">http://ventures.tpedersen.net/errata/iotsecurity</a> w/ a section on Guidance/Guidelines.  Hope it helps</p>
+</div></article>
+
+
+
+<article><div class="comment by-gilad-rosner" id="c6745937">
+
+
+<p class="commentcredit"><span class="commenter"><a title="http://www.iotprivacyforum.org" href="http://www.iotprivacyforum.org" rel="nofollow">Gilad Rosner</a></span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745937">February 14, 2017  4:57 AM</a>
+</p>
+
+<p>Hi Bruce,</p>
+
+<p>I wrote an in-depth report called <a href="http://bit.ly/iotprivacyreport" rel="nofollow">Privacy and the Internet of Things</a> that explores IoT privacy risks and the existing frameworks to address them. It contains some approaches you've not listed. I run a nonprofit called the Internet of Things Privacy Forum that is dedicated to researching and discussing these topics.</p>
+
+<p>Best regards,<br />
+Dr Gilad Rosner</p>
+</div></article>
+
+
+
+<article><div class="comment by-rob-rothwell" id="c6745939">
+
+
+<p class="commentcredit"><span class="commenter">Rob Rothwell</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745939">February 14, 2017  6:14 AM</a>
+</p>
+
+<p>Depending on your definition of 'thing', there is the ISA/IEC 62443 series of standards also being developed. See <a href="http://isa99.isa.org/ISA99%20Wiki/Home.aspx." rel="nofollow">http://isa99.isa.org/ISA99%20Wiki/Home.aspx.</a></p>
+</div></article>
+
+
+
+<article><div class="comment by-craig-mcqueen" id="c6745973">
+
+
+<p class="commentcredit"><span class="commenter">Craig McQueen</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6745973">February 14, 2017  8:30 PM</a>
+</p>
+
+<p>For web servers with log-in, it is best to use HTTPS rather than HTTP to secure the connection.</p>
+
+<p>However, it seems difficult to implement HTTPS on IoT, because it's hard to maintain an up-to-date SSL certificate on IoT devices. A device-created self-signed certificate requires a user to either ignore browser warnings, or import a certificate into their browser. A manufacturer can't really get signed certificates, because that depends on the device's DNS name. A manufacturer could allow a user to load their own certificate, for those few users sophisticated enough to use that feature.</p>
+
+<p>I guess a manufacturer needs to provide a gateway to the devices through their own web site, which can provide centralised HTTPS access, which also gets around IPv4 NAT and firewall issues.</p>
+</div></article>
+
+
+
+<article><div class="comment by-jim-lawson" id="c6746036">
+
+
+<p class="commentcredit"><span class="commenter">Jim Lawson</span> &bull; <a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html#c6746036">February 15, 2017  6:56 PM</a>
+</p>
+
+<p>I think a strong argument can be made that IoT security is similar to public health - we want to prevent the general public from contracting infectious diseases in order to reduce the number of potential attack vectors capable of compromising individual health.<br />
+</p>
+</div></article>
+
+
+
+
+<p class="subscribe-comments"><a href="https://www.schneier.com/blog/archives/2017/02/security_and_pr.xml"><img alt="Atom Feed" src="/images/rss-16px.png">Subscribe to comments on this entry</a></p>
+
+  <div class="postcomment notpreviewed">
+
+    
+    
+    <div class="comments-open" id="comments-open">
+        <h2 class="comments-open-header">Leave a comment</h2>
+        <div class="comments-open-content">
+
+        
+            <div id="comment-greeting"></div>
+
+            <form method="post" action="https://www.schneier.com/cgi-bin/mt/mt-comments.cgi" name="comments_form" id="comments-form" onsubmit="return mtCommentOnSubmit(this)">
+                <input type="hidden" name="static" value="https://www.schneier.com/blog/archives/2017/02/security_and_pr.html?nc=34">
+                <input type="hidden" name="entry_id" value="10999" />
+                <input type="hidden" name="__lang" value="en-us" />
+
+                <script language="javascript" type="text/javascript"><!--
+	                document.write('<input type="hidden" name="armor" value="" /><input type="hidden" name="sid" value="" /><input type="hidden" name="preview" value="" />');
+                // --></script>
+                <div id="comments-open-data">
+                    <div id="comment-form-name">
+                        <label for="comment-author">Name (required):</label>
+                        <input id="comment-author" name="author" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                    <div id="comment-form-email">
+                        <label for="comment-email">E-mail Address:</label>
+                        <input id="comment-email" name="email" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                    <div id="comment-form-url">
+                        <label for="comment-url">URL:</label>
+                        <input id="comment-url" name="url" size="30" value="" onfocus="mtCommentFormOnFocus()" />
+                    </div>
+                <script language="javascript" type="text/javascript"><!--
+                document.write('<div id="comment-form-remember-me"><input type="checkbox" id="comment-bake-cookie" name="bakecookie" onclick="mtRememberMeOnClick(this)" value="1" accesskey="r" /><label class="checkbox" for="comment-bake-cookie">Remember personal info?<\/label><\/div>');
+                // --></script>
+                </div>
+<p id="comments-open-challenge"><input type="hidden" id="commchallenge_beacon" name="commchallenge_beacon" value="1" /><label for="commchallenge_answer">Fill in the blank: the name of this blog is Schneier on ___________ <strong>(required)</strong>:</label>
+<input type="text" id="commchallenge_answer" name="commchallenge_answer" size="30" value="" /></p><script type="text/javascript">
+<!--    
+if ((typeof commenter_name != 'undefined') ||
+    (typeof getCommenterName != 'undefined' &&  getCommenterName())) {
+    mtHide('comments-open-challenge');
+} else {
+    mtShow('comments-open-challenge');
+} 
+// -->
+</script>
+
+
+                <div id="comments-open-text">
+                    <label for="comment-text">Comments:</label>
+                    <textarea id="comment-text" name="text" onfocus="mtCommentFormOnFocus()"></textarea>
+                </div>
+		            <p id="allowed"><strong>Allowed HTML:</strong> &lt;a href="URL"&gt; &bull; &lt;em&gt; &lt;cite&gt; &lt;i&gt; &bull; &lt;strong&gt; &lt;b&gt; &bull; &lt;sub&gt; &lt;sup&gt; &bull; &lt;ul&gt; &lt;ol&gt; &lt;li&gt; &bull; &lt;blockquote&gt; &lt;pre&gt;</p>
+                <div id="comments-open-captcha"></div>
+                <div id="comments-open-footer">
+
+  	                <script language="javascript" type="text/javascript"><!--
+										document.write('<input type="submit" accesskey="v" name="preview_button" id="comment-preview" value="Preview" onclick="this.form.preview.value=\'1\';" />');
+		                // --></script>
+		                <noscript><input type="submit" accesskey="v" name="preview" id="comment-preview" value="Preview"></noscript>
+                    
+                    <input type="submit" accesskey="s" name="post" id="comment-submit" value="Submit" />
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+    <script type="text/javascript">
+    <!--
+    mtAttachEvent("load", mtEntryOnLoad);
+    mtAttachEvent("unload", mtEntryOnUnload);
+    //-->
+    </script>
+    
+    
+  </div>
+
+
+
+
+
+
+
+
+    
+    
+<div class="stepthrough">
+		
+		<a class="earlier" href="https://www.schneier.com/blog/archives/2017/02/do-it-yourself_.html">&larr; Do-It-Yourself Online Privacy/Safety Guide</a>
+		
+		
+		<a class="later" href="https://www.schneier.com/blog/archives/2017/02/de-anonymizing_1.html">De-Anonymizing Browser History Using Social-Network Data &rarr;</a>
+		
+	</div>
+
+    
+<p id="powered">Photo of Bruce Schneier by Per Ervland.
+	
+	<p id="disclaim">Schneier on Security is a personal website.  Opinions expressed are not necessarily those of <a href="https://www.resilientsystems.com/">Resilient</a>, an IBM Company.
+
+
+	
+	</div><!--#content-->
+<aside><div class="sidebar" id="sidebar-two">
+		<section><div class="sidesection" id="about">
+		
+		<h3>About Bruce Schneier</h3>
+	    
+	        
+	            <img id="authorphoto" src="/images/bruce-blog3.jpg" width="150" height="194" alt="Bruce Schneier"><p class="small">I've been writing about security issues on my <a href="/">blog</a> since 2004, and in my monthly <a href="/crypto-gram/">newsletter</a> since 1998. I write <a href="/books/">books</a>, <a href="/essays/">articles</a>, and <a href="/academic/">academic papers</a>. Currently, I'm the Chief Technology Officer of <a href="https://www.resilientsystems.com/">Resilient, an IBM Company</a>, a fellow at Harvard's <a href="http://berkman.harvard.edu/">Berkman Center</a>, and a board member of <a href="https://www.eff.org/">EFF</a>.</p>
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+	            
+	    
+
+		</div></section>
+
+
+		<section><div class="sidesection">
+			<h3>Related Entries</h3>
+			<ul>
+     			<li><a href="https://www.schneier.com/blog/archives/2017/01/law_enforcement_1.html">Law Enforcement Access to IoT Data</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/11/research_into_i.html">Research into IoT Security Is Finally Legal</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/10/security_lesson_3.html">Security Lessons from a Power Saw</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/09/the_cost_of_cyb.html">The Cost of Cyberattacks Is Less than You Might Think</a></li>
+   			
+     			<li><a href="https://www.schneier.com/blog/archives/2016/07/real-world_secu.html">Real-World Security and the Internet of Things</a></li>
+   			</ul>
+		</div></section>
+
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			<section><div class="sidesection">
+
+					<h3>Featured Essays</h3>
+					<ul>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/04/the_value_of_encrypt.html">The Value of Encryption</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2016/03/data_is_a_toxic_asse.html">Data Is a Toxic Asset, So Why Not Throw It Out?</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2014/01/how_the_nsa_threaten.html">How the NSA Threatens National Security</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2009/01/terrorists_may_use_g.html">Terrorists May Use Google Earth, But Fear Is No Reason to Ban It</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2007/01/in_praise_of_securit.html">In Praise of Security Theater</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/08/refuse_to_be_terrori.html">Refuse to be Terrorized</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2006/05/the_eternal_value_of.html">The Eternal Value of Privacy</a></li>
+						
+							<li><a href="https://www.schneier.com/essays/archives/2005/09/terrorists_dont_do_m.html">Terrorists Don't Do Movie Plots</a></li>
+						
+					</ul>
+
+	    <p><a href="https://www.schneier.com/essays/">more essays</a></p>
+		</div></section>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+
+    
+    <section><div class="sidesection">
+		
+			<h3>Blog Archives</h3>
+			<ul>
+				<li><a href="https://www.schneier.com/blog/calendar.html">Archives by Month</a></li>
+				<li><a href="https://www.schneier.com/blog/newcomments.html">100 Latest Comments</a></li>
+			</ul>
+        
+
+
+        
+
+		<h4>Blog Tags</h4>
+<ul class="top-tags">
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=privacy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">privacy</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=terrorism&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">terrorism</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=surveillance&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">surveillance</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=squid&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">squid</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=academic%20papers&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">academic papers</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=NSA&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">NSA</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=air%20travel&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">air travel</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=hacking&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">hacking</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cryptography&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cryptography</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=national%20security%20policy&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">national security policy</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=law%20enforcement&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">law enforcement</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=encryption&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">encryption</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=DHS&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">DHS</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=homeland%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">homeland security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=economics%20of%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">economics of security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=crime&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">crime</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=Schneier%20news&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">Schneier news</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=malware&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">malware</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=essays&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">essays</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=TSA&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">TSA</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=computer%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">computer security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=laws&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">laws</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=fraud&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">fraud</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=vulnerabilities&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">vulnerabilities</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=psychology%20of%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">psychology of security</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=police&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">police</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=courts&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">courts</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cost-benefit%20analysis&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cost-benefit analysis</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=cell%20phones&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">cell phones</a></li>
+
+		<li><a href="https://www.schneier.com/cgi-bin/mt/mt-search.cgi?search=physical%20security&amp;__mode=tag&amp;IncludeBlogs=2&amp;limit=10&amp;page=1">physical security</a></li>
+</ul>
+<p><a href="https://www.schneier.com/blog/tags.html">more tags</a></p>
+
+
+	
+    </div></section>
+
+
+    
+		<section><div class="sidesection">
+		<h3>Latest Book</h3>
+		<a href="https://www.schneier.com/books/data_and_goliath/"><img class="sidepic"  alt="Data and Goliath" src="https://www.schneier.com/images/book-dg-175w.jpg"></a>
+		<p><a href="https://www.schneier.com/books/">more books</a></p>
+		</div></section>
+		
+		<section><div class="sidesection">
+		<a href="https://www.eff.org/issues/bloggers/legal/join"><img id="effbutton" src="https://www.schneier.com/images/eff-150x40.gif" ALT="Support Bloggers' Rights!" width="150" height="40"></a>
+		
+		<a href="https://npo.networkforgood.org/Donate/Donate.aspx?npoSubscriptionId=8252"><img src="https://www.schneier.com/images/epic-150w.png" width="150" height="54" alt="Defend Privacy--Support Epic"></a>
+
+		</div></section>
+
+		<section><div class="sidesection">
+		<a href="https://www.resilientsystems.com/"><img class="sidepic" alt="Resilient Systems" src="https://www.schneier.com/images/resilient-logo2-175w.png"></a>	
+
+		</div></section>
+
+		
+	</div></aside>
+
+
+<footer><nav><div class="nav" id="footer-nav">
+<ul>
+	<li class="menu1 current"><a href="https://www.schneier.com/">Blog</a></li>
+	<li class="menu2"><a href="https://www.schneier.com/crypto-gram/">Newsletter</a></li>
+	<li class="menu3"><a href="https://www.schneier.com/books/">Books</a></li>
+	<li class="menu4"><a href="https://www.schneier.com/essays/">Essays</a></li>
+	<li class="menu5"><a href="https://www.schneier.com/news/">News</a></li>
+	<li class="menu6"><a href="https://www.schneier.com/talks/">Talks</a></li>
+	<li class="menu7"><a href="https://www.schneier.com/academic/">Academic</a></li>
+	<li class="menu8"><a href="https://www.schneier.com/blog/about/">About Me</a></li>
+</ul>
+
+	
+	</div></nav></footer>
+
+</div><!--#main-->
+</div><!--#wrapper-->
+
+</body>
+</html>
+
+
+

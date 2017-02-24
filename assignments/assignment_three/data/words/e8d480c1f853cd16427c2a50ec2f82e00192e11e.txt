@@ -1,0 +1,500 @@
+
+
+
+
+
+Navigation
+
+
+
+Graham Cluley
+Graham Cluley - computer security news, advice and opinion
+
+
+ 
+
+
+
+
+
+
+
+
+
+56,408
+14,158
+2,573
+15k
+
+
+
+
+ 
+
+
+
+Home
+MenuNews
+Newsletter
+Videos
+Podcasts
+Speaking
+Sponsor
+About
+
+About this website and Graham Cluley
+Awards
+Testimonials
+Contributors
+Contributor guidelines
+Recent media appearances
+Contact
+Games
+
+Jacaranda Jim
+
+Reviews of Jacaranda Jim
+
+
+Blox
+Humbug
+
+Reviews of Humbug
+
+
+Wibbling Wilf
+
+Reviews of Wibbling Wilf
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+Return to Content
+
+This week's sponsor: Get trending info on hackers, exploits, and vulnerabilities for FREE with the Recorded Future Cyber Daily.
+
+
+
+
+
+
+
+
+
+Smashing Security podcast #007: 'ASCII art attack'
+
+Three security industry veterans, chatting about computer security and online privacy.
+Graham Cluley  | February 9, 2017 5:04 pm   |  Filed under: Podcast, Privacy, Twitter   2 
+
+54SHARESShare on TwitterShare on FacebookGoogleLinkedinRedditWhatsappBuffer
+
+
+
+Join me and fellow computer security industry veterans Vanja Svajcer and Carole Theriault on the "Smashing Security" podcast, as we have another casual chat about the world of online privacy and computer security.
+
+Audio podcast: iTunes | Google Play | Stitcher | RSS for you nerds.
+Blurb:
+Printers start churning out ASCII art after a vigilante hacker hijacks 160,000 devices, a researcher reveals how you can get Donald Trump to tweet an embarrassing spoof video of himself, and has your smart TV been snooping on you?
+Show notes
+
+Hacker: I made 160,000 printers spew out ASCII art around the world
+ASCII art collection
+ How I hijacked top celebrities tweets including Katy Perry, Shakira…
+Donald Trump's hijacked tweet
+ VIZIO Settlement: Smart TVs should not track your shows without your O.K.
+ Vizio settles FTC lawsuit and agrees to get viewer consent before tracking TV habits
+ LG Smart TVs logging USB filenames and viewing info to LG servers
+
+Hope you enjoy the show, and tell us what you think! You can follow the Smashing Security team at @SmashinSecurity on Twitter.
+54SHARESShare on TwitterShare on FacebookGoogleLinkedinRedditWhatsappBuffer
+
+
+ 
+
+
+ Tags: ASCII art, Privacy, Smart TV, Smashing Security, Twitter, vulnerability Smashing Security audio podcast
+Check out "Smashing Security", the new weekly audio podcast, with Graham Cluley, Vanja Svajcer, and Carole Theriault.
+
+ "Three people having fun in an industry often focused on bad news" • "It's brilliant!" • "The Top Gear of computer security"
+Latest episode:008: I'll give you my Android when you pry it from my cold, dead paws
+ Listen now
+You might also likeSmashing Security podcast #005: ‘Upskirt insecurity’Smashing Security podcast: Using public Wi-FiSmashing Security podcast: Passwords
+
+Subscribe to the free GCHQ newsletter
+
+Over 75,000 people follow Graham Cluley for news and
+advice about computer security and internet privacy. 
+
+
+
+About the author, Graham Cluley
+		Graham Cluley is a veteran of the anti-virus industry having worked for a number of security companies  since the early 1990s when he wrote the first ever version of Dr Solomon's Anti-Virus Toolkit for Windows. Now an independent security analyst, he regularly makes media appearances and gives presentations on the topic of computer security and online privacy.
+
+Follow him on Twitter at @gcluley, Google Plus, Facebook, or drop him an email.				
+
+				View all posts by Graham Cluley → 
+
+
+
+  Follow @gcluley 
+
+
+
+
+ ASCII art, Privacy, Smart TV, Smashing Security, Twitter, vulnerability 
+
+
+
+ Tried-and-true Triada supplants Hummingbad as top mobile malware
+Crossing border security? Here's how you protect your data 
+
+
+
+
+
+Leave a reply
+
+
+
+2 Comments on "Smashing Security podcast #007: 'ASCII art attack'"                    
+
+
+
+
+
+
+Notify of 
+
+
+new follow-up comments
+new replies to my comments
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Email me when someone replies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Email me when someone replies
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sort by:  
+                            newest | 
+                            oldest
+                                                            | most voted
+
+
+
+
+
+
+
+
+
+VisitorBobTo be honest I've long since stopped using my home scanner. A colleague got me onto Scanner Pro some time back (for iOS) and within just under 1 second I've got a nicely scanned document which has all the creases, dark lines etc. removed and the file is automatically converted to PDF (or JPEG) prior to being uploaded, in the background, to my cloud service. I can then access it anywhere – my computer, mobile, tablet, the internet etc. Obviously the cloud upload is optional. It also has OCR built in.
+It's quicker than a conventional flatbed scanner, you can scan massive documents (e.g. A2 paper) and multiple pages are converted and compressed into one single PDF.
+Pro Version (£3.99)
+https://itunes.apple.com/gb/app/scanner-pro-pdf-document-scanner/id333710667?mt=8
+Free Version
+https://itunes.apple.com/gb/app/scanner-app-free-pdf-scanner/id581365763?mt=8
+Other software is available although this is the best in my experience.
+Vote up0Vote down  ReplyFebruary 9, 2017 7:29 pmVisitorfurriephillipsGrey[scale]-Hat Hacker
+Vote up0Vote down  ReplyFebruary 10, 2017 10:50 am
+
+
+
+
+
+
+
+
+
+Stay informed with our free GCHQ newsletter
+
+Over 75,000 people follow Graham Cluley for news and advice about computer security and internet privacy.
+
+
+
+Latest videos
+
+
+
+
+
+
+
+
+
+	  			What happened to the Smashing Security videos?			
+
+	January 25, 2017 
+
+
+
+
+
+
+
+
+
+
+	  			One BILLION Yahoo users put at risk after hack - LIVE STREAM			
+
+	December 15, 2016 
+
+
+
+
+
+
+
+
+
+
+	  			Backups - the best defence against ransomware (and other risks) | Graham Cluley			
+
+	November 30, 2016 
+
+
+
+
+
+
+					Visit my YouTube channel for more videos				
+
+
+
+Public speaking 
+Hire Graham Cluley to speak at your event
+
+Popular recent postsHow to better protect your WhatsApp account with two-step verification (2SV)Cerber ransomware takes special care not to encrypt security product filesCrossing border security? Here's how you protect your dataSenators raise concerns over Donald Trump's smartphone securityMagento stores targeted by self-healing malware that steals credit card detailsSmashing Security podcast: Using public Wi-FiSage 2.0 ransomware wants to be just like Cerber when it grows upLazarus mob possibly behind malware attacks against Polish banksHow to create a robust data backup plan (and make sure it works)Smashing Security podcast #008: 'I'll give you my Android when you pry it from my cold, dead paws'Latest posts...   Login
+No account? Register now.
+This site is protected by Incapsula against DDoS attacks and other internet threats 
+
+
+
+
+
+CategoriesAdobe (126)
+Adobe Flash (74)
+Android (233)
+Apple (382)
+Apple Safari (33)
+Awards (18)
+BlackBerry (19)
+Botnet (102)
+Celebrities (123)
+Clickjacking (32)
+Data loss (849)
+Denial of Service (194)
+Encryption (170)
+Facebook (651)
+Fake anti-virus (36)
+Feed only (90)
+Firefox (38)
+Google (237)
+Google Chrome (28)
+Google Plus (4)
+Guest blog (3237)
+Hacked celebrities (66)
+Internet Explorer (55)
+iOS (225)
+Java (42)
+Law & order (934)
+LinkedIn (31)
+Link list (60)
+Linux (38)
+macOS (129)
+Malware (1841)
+Microsoft (252)
+Mobile (266)
+Naked Security (64)
+Nude Celebrities (44)
+Operating Systems (2)
+Oracle (27)
+PDF (40)
+Phishing (266)
+Podcast (51)
+Privacy (1218)
+Ransomware (131)
+Rogue applications (86)
+Security threats (131)
+Social networks (698)
+Spam (1120)
+Sponsor (65)
+Twitter (347)
+Uncategorized (2)
+Video (307)
+Vulnerability (1215)
+Web Browsers (69)
+Windows (175)
+Windows phone (9)
+Yahoo (63) 
+
+ContributorsGraham Cluley (4715)David Bisson (353)Bob Covello (26)Yasin Soliman (14)Philip Le Riche (5) More...
+Want to write for this site? If you have an article that you’d like to share on grahamcluley.com, check out our contributor guidelines.
+ 
+
+Follow  
+ 
+
+ 
+
+ 
+
+ 
+
+
+Contact Send a tip or story idea
+Hire Graham Cluley to speak at your event
+Sponsorship
+Complaints/Corrections
+Privacy Policy
+
+ 
+
+
+
+
+Copyright © 2017 Cluley Associates Limited. All Rights Reserved.
+Support us: BTC 1HsA79oAvzA2KghvoEDkVAbJFehhCNME2k
+ 
+
+About | Cookies | Terms & ConditionsPowered by WordPress | Hosted by Pressidium
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

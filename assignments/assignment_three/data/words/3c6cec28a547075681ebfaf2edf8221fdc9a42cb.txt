@@ -1,0 +1,407 @@
+
+
+
+
+
+ 
+
+Login
+Contact
+ 
+
+
+Home
+About
+Posts
+
+
+
+
+Posts by Categories
+
+
+
+
+
+Timeline Collection
+
+
+
+
+Hillary Clinton Investigation
+Internet Dragnet
+Disappearing White House Emails
+Exigent Letters
+Anthrax Investigation
+
+
+
+
+Targeted Killing
+Phone Dragnet Orders
+Jeffrey Sterling Materials
+Iran NIE
+
+
+
+
+Warrantless Wiretap Memos
+Torture Tape
+Torture Document Dump
+The Ghorbanifar Meetings
+
+
+
+
+
+Support
+
+Search
+ 
+
+
+
+
+How Hal Martin Stole 75% of NSA’s Hacking Tools: NSA Failed to Implement Required Security Fixes for Three Years after Snowden
+
+
+
+ How Hal Martin Stole 75% of NSA’s Hacking Tools: NSA Failed to Implement Required Security Fixes for Three Years after Snowden  February 8, 2017/4 Comments/in Cybersecurity, emptywheel, Russian hacks /by emptywheelThe other day, Ellen Nakashima reported that Hal Martin, the Booz Allen contractor who has been in custody for months based on allegations he stole terabytes of NSA’s hacking tools, may be indicted this week. The story raises some interesting questions — such as how, absent some proof that Martin leaked this information to a third party, prosecutors intend to distinguish Martin’s hoarding from David Petraeus’ sharing of code word information with his girlfriend Paula Broadwell. One detail Nakashima included — that Martin had stolen “operational plans against ‘a known enemy’ of the United States” — may suggest prosecutors plan to insinuate Martin stole the information to alert that known enemy (especially if the known enemy is Russia).
+All that said, the detail in Nakashima’s story that has attracted the most notice is the claim that Martin stole 75% of NSA’s hacking tools.
+Some U.S. officials said that Martin allegedly made off with more than 75 percent of TAO’s library of hacking tools — an allegation which, if true, would be a stunning breach of security.
+Frankly, this factoid feels a lot like the claim that Edward Snowden stole 1.5 million documents from NSA, a claim invented at least in part because Congress wanted an inflammatory detail they could leak and expand budgets with. That’s especially true given that the 75% number comes from “US officials,” which sometimes include members of Congress or their staffers.
+Still, the stat is pretty impressive: even in the wake of the Snowden leak, a contractor was able to walk out the door, over time, with most of NSA’s most dangerous hacking tools.
+Except it should in no way be a surprise. Consider what the House Intelligence Report on Snowden revealed, which I mentioned here. Buried way back at the end of the report, it describes how in the wake of Snowden’s leaks, NSA compiled a list of security improvements that would have stopped Snowden, which it dubbed, “Secure the Net.” This initiative included the following, among other things:
+
+Imposing two person control for transferring data by removable media (making it harder for one individual to put terabytes of data on a thumb drive and walk out the door with it)
+Reducing the number of privileged and authorized data transfer agents (making it easier to track those who could move terabytes of data around)
+Moving towards continuous evaluation model for background investigations (which might reveal that someone had debt problems, as Martin did)
+
+By July 2014, the report reveals, even some of the most simple changes included in the initiative had not been implemented. On August 22, 2016 — nine days after an entity calling itself Shadow Brokers first offered to auction off what have since been verified as NSA tools — NSA reported that four of the initiatives associated with the Secure the Net remained unfulfilled.
+All the while, according to the prosecutors’ allegations, Martin continued to walk out of NSA with TAO’s hacking tools.
+Parallel to NSA’s own Secure the Net initiative, in the intelligence authorization for 2016 the House directed the DOD Inspector General to assess NSA’s information security. I find it interesting that HPSCI had to order this review and that they asked DOD’s IG, not NSA’s IG, to do it.
+DOD IG issued its report on August 29, 2016, two days after a search of Martin’s home had revealed he had taken terabytes of data and the very day he was arrested. The report revealed that NSA needed to do more than its proposed fixes under the Secure the Net initiative. Among the things it discovered, for example, is that NSA did not consistently secure server racks and other sensitive equipment in data centers, and did not extend two-stage authentication controls to all high risk users.
+So more than three years after Snowden walked out of the NSA with thousands of documents on a thumb drive, DOD Inspector General discovered that NSA wasn’t even securing all its server racks.
+“Recent security breaches at NSA underscore the necessity for the agency to improve its security posture,” The HPSCI report stated dryly, referring obliquely to Martin and (presumably) another case Nakashima has reported on.
+Then the report went on to reveal that CIA didn’t even require a physical token for general or privileged users of its enterprise or mission systems.
+So yes, it is shocking that a contractor managed to walk out the door with 75% of NSA’s hacking tools, whatever that means. But it is also shocking that even the Edward Snowden breach didn’t lead NSA to implement some really basic security procedures.
+
+
+emptywheel
+
+Marcy has been blogging full time since 2007. She’s known for her live-blogging of the Scooter Libby trial, her discovery of the number of times Khalid Sheikh Mohammed was waterboarded, and generally for her weedy analysis of document dumps.
+Marcy Wheeler is an independent journalist writing about national security and civil liberties. She writes as emptywheel at her eponymous blog, publishes at outlets including the Guardian, Salon, and the Progressive, and appears frequently on television and radio. She is the author of Anatomy of Deceit, a primer on the CIA leak investigation, and liveblogged the Scooter Libby trial.
+Marcy has a PhD from the University of Michigan, where she researched the “feuilleton,” a short conversational newspaper form that has proven important in times of heightened censorship. Before and after her time in academics, Marcy provided documentation consulting for corporations in the auto, tech, and energy industries. She lives with her spouse and dog in Grand Rapids, MI.
+
+
+
+
+Tags: Edward Snowden, Hal Martin, Shadow BrokersShare this entryShare on FacebookShare on TwitterShare by Mail
+
+https://www.emptywheel.net/wp-content/uploads/2016/10/National_Security_Agency_headquarters_Fort_Meade_Maryland.jpg
+1498
+1920
+
+emptywheel
+
+https://www.emptywheel.net/wp-content/uploads/2016/07/Logo-Web.png
+
+emptywheel2017-02-08 13:01:082017-02-08 13:08:21How Hal Martin Stole 75% of NSA's Hacking Tools: NSA Failed to Implement Required Security Fixes for Three Years after Snowden
+
+
+
+
+4
+replies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lefty665 says:
+
+
+
+February 8, 2017 at 1:26 pm 
+
+
+
+
+Amazing. The Wash Post stories I have seen have featured Martin’s issue as hording, not spying. There were no hints that he had disclosed classified information to a foreign government. Has that changed?  His issue seems to be mental health not espionage. By the Comey standard he does not seem to have the (un)necessary intent.
+He is at least the second Martin to have been a major NSA security breech. NSA would have done better than they have just by excluding anyone with that last name.
+
+
+
+
+
+
+
+
+
+
+
+
+lefty665 says:
+
+
+
+February 8, 2017 at 2:28 pm 
+
+
+
+
+Makes Clapper and Carter’s push to fire Rogers easier to understand.  Does the S in NSA mean Security or Social?
+
+
+
+
+
+
+
+
+
+
+
+
+SpaceLifeForm says:
+
+
+
+February 8, 2017 at 2:35 pm 
+
+
+
+
+Huge False Flag op going on.
+Shadow Brokers dump.  Old obsolete tools. No bidders.   Better attacks out.
+https://arstechnica.com/security/2017/02/a-rash-of-invisible-fileless-malware-is-infecting-banks-around-the-globe/
+(Of course, windows)
+ 
+But there are those that never wanted NSA to actually tighten up their security.
+ 
+They want the ‘created problems’ to be managed via a corrupt congress.  The true attackers want to legislate pure fascism.
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+Mitchell says:
+
+
+
+February 9, 2017 at 5:38 am 
+
+
+
+
+Not so shocking.
+The rap against the intel agencies has long been the low amount of intelligence. And these days, our bipartisan leaders care first and foremost about privatization, which often, like here, involves, let’s say, maybe not hiring the best qualified for the best pay + benefits and, worse, maybe not vetted so well — the contractors’ employees haven’t undergone extreme vetting for suitability for employment, I bet.
+
+
+
+
+
+
+ Comments are closed.
+
+
+  Resize your Font 
+ (keep clicking for changes)
+A A A Support Emptywheel To support the emptywheel site, choose the option below that works best for you.
+
+Donate via Check
+Donate via PayPal
+Donate via Bitcoin
+Donate via Square Cash
+  Recent Posts 
+
+Open Thread: The Scream
+
+
+Of Spies and Casinos
+
+
+Long Island Iced Tea
+
+
+David Ignatius’ Curious Role in the Mike Flynn Story
+
+
+
+
+Recently Popular
+
+The Three Most Believed Fake News Stories of the Election (Tested by Stanford) Favored Hillary 
+Trump Fulfills Another Campaign Promise: Kills 8-Year Old American Girl 
+Four Details about Surveillance and the Flynn Ouster 
+The Problems with Pompeo: A Willingness to Use Information on Americans Russia Hacked and Shared with Trump 
+
+
+Recent CommentsSpaceLifeForm on Open Thread: The Screamharpie on Of Spies and Casinosharpie on Of Spies and Casinosperson1597 on Open Thread: The Scream Tweets
+tweets from our circlebmaz@bmazRT @BuzzFeedNews: The Strange Case Of The Russian Diplomat Who Got His Head Smashed In On Election Day
+buzzfeed.com/alimwatkins/th… https://t.co…31 minutes ago18 February 2017emptywheel@emptywheelAccording to Fox it is prohibited to get FISA order on citizens, which would surprise a lot of people.
+foxnews.com/politics/2017/…40 minutes ago18 February 2017emptywheel@emptywheelRT @electrospaces: The National SIGINT Requirements List (NSRL) is derived from the National Intelligence Priority Framework (NIPF) - https…45 minutes ago18 February 2017emptywheel@emptywheelSays the VP in a retrograde admin that also belongs on the ash-heap of history. twitter.com/NBCNews/status…1 hour ago18 February 2017emptywheel@emptywheelRT @JoeTrippi: U.S. inquiries into Russian election hacking include three FBI probes reut.rs/2m8PAxw via @Reuters1 hour ago18 February 2017emptywheel@emptywheelRT @BuzzFeedNews: The Strange Case Of The Russian Diplomat Who Got His Head Smashed In On Election Day
+buzzfeed.com/alimwatkins/th… https://t.co…1 hour ago18 February 2017Ed Walker@MasaccioEWIf Trump has another press conference, everyone should shut up. One person asks: what should we write that would make you happy?3 hours ago18 February 2017bmaz@bmazLike a fine tuned machine!
+White House dismisses NSC aide after harsh criticism of Trump politi.co/2lVP1ek3 hours ago18 February 2017RayneToday@raynetodayRT @Pachacutec_: Thread twitter.com/JADubin5/statu…15 hours ago18 February 2017RayneToday@raynetodayRT @JohnWDean: FYI: Vicious attacks on the MSM and judicial branch were made by Nixon behind closed doors (secretly recorded). Trump tweets…16 hours ago18 February 2017RayneToday@raynetodayBless them for trying; we can't translate him, either. twitter.com/W7VOA/status/8…16 hours ago18 February 2017Jim White@JimWhiteGNVIt hurts to miss the first two @GatorsBB games. Following opener in Sydney airport, should be home for Sunday game. #GoGators23 hours ago17 February 2017Jim White@JimWhiteGNVAs the TSS Earnslaw, returns, @McElweeWhite waits to board. pic.twitter.com/LwTk4s27pl2 days ago17 February 2017Jim White@JimWhiteGNVWake up sheeple! pic.twitter.com/V9g2OuRAPL2 days ago17 February 2017Jim White@JimWhiteGNVNot a whale breaching, just a crazy person in an encapsulated jet ski thingy. pic.twitter.com/MLh8xZtOFp2 days ago17 February 2017Jim White@JimWhiteGNVWalter Peak Farm, site of our final lunch in Queenstown. pic.twitter.com/VhTO3gsck42 days ago17 February 2017RayneToday@raynetodayAnd a stopped clock is right twice a day -- useful for a whopping two minutes. twitter.com/Reuters/status…3 days ago16 February 2017Post Tags 
+2016 AM roundup
+Abu Zubaydah
+ACLU
+Afghanistan
+Al-Haramain
+Alberto Gonzales
+Anwar al-Awlaki
+Apple
+AT&T
+Barack Obama
+Bashar al-Assad
+BP Oil Disaster
+Bradley Manning
+Carl Levin
+CIA
+Condi Rice
+David Addington
+David Petraeus
+Dianne Feinstein
+Dick Cheney
+DOJ
+Drones
+Edward Snowden
+EFF
+Eric Holder
+FBI
+FISA
+George Bush
+George Tenet
+Glenn Fine
+Google
+Hamid Karzai
+Hillary Clinton
+Iran
+Iraq
+ISIS
+Jack Goldsmith
+James Clapper
+James Risen
+Jay Bybee
+Jeffrey Sterling
+Jim Comey
+Jim Risen
+John Bates
+John Brennan
+John Conyers
+John Durham
+John Kerry
+John McCain
+John Rizzo
+John Yoo
+Jose Rodriguez
+JP Morgan Chase
+Julian Assange
+Karl Rove
+Keith Alexander
+Khalid Sheikh Mohammed
+Leon Panetta
+Lindsey Graham
+Mark Udall
+Michael Hayden
+Michael Mukasey
+Mike Rogers
+Mitch McConnell
+Mitt Romney
+Najibullah Zazi
+Nancy Pelosi
+NATO
+NSA
+NYPD
+Osama bin Laden
+Pakistan
+Pat Leahy
+Patrick Fitzgerald
+Patrick Leahy
+PCLOB
+Porter Goss
+Rahm Emanuel
+Reggie Walton
+Richard Burr
+Robert Mueller
+Rod Blagojevich
+Ron Wyden
+Russ Feingold
+Sarah Palin
+Scooter Libby
+Section 215
+Sheldon Whitehouse
+Steven Bradbury
+Syria
+Taliban
+Tim Geithner
+Torture
+Umar Farouk Abdulmutallab
+Valerie Plame
+Vaughn Walker
+Verizon
+Volkswagen
+WikiLeaks
+Yahoo 
+
+
+
+
+
+Footer column 1 
+Footer Column 2 
+All Posts
+Posts by Category
+Timeline Collection
+
+ABOUT | CONTACT | SUPPORT | COMMENT POLICY | PRIVACY POLICY | LOGIN
+
+
+
+
+
+Copyright © 2017 emtpywheel. All rights reserved. Developed by CurlyHost.
+
+
+
+
+     The Future of Work Part 4: The Kinds Of Jobs That Are At Risk      Nevertheless, She Persisted    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scroll to top
+
+
+

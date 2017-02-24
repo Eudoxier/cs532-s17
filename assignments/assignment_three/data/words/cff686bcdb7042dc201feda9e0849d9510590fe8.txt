@@ -1,0 +1,814 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu
+
+
+
+
+
+
+
+
+
+
+
+SC US
+SC UK
+
+
+Show Search Bar
+
+
+
+
+
+
+
+
+News
+
+
+ 
+Opinions
+Blogs
+SC Fast Facts
+Reboot 2016
+
+
+
+Cybercrime
+
+
+Ransomware
+Data breaches
+APTs/Cyberespionage
+Malware
+Phishing
+Insider Threats
+
+
+
+Network Security
+
+
+Mobile Security
+Cloud Security
+Privacy & compliance
+Vulnerabilities
+IoT
+Email Security
+
+
+
+Product Reviews
+
+
+Group Tests
+First Looks
+About product reviews
+
+
+
+In Depth
+
+
+Features
+Video
+In Depth
+SC Magazine Archive
+
+
+
+Events
+
+
+Virtual Conferences
+Webcasts
+RiskSec NY 2017
+RiskSec Toronto 2017
+SC Awards 2017
+
+
+
+Whitepapers
+
+
+
+
+
+Log in
+
+Register
+
+
+The Cybersecurity source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Magazine US
+>
+
+
+News
+>
+
+
+David Beckham's emails hacked and released after ransom refusal                
+
+
+
+
+by Danielle Correa
+
+
+
+
+February 07, 2017
+David Beckham's emails hacked and released after ransom refusal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                This article originally appeared on SC Magazine UK.
+
+International football star David Beckham has seen sensitive and embarrassing emails published after a company he works with, Doyen Global, rejected a hacker's ransom demand.
+
+
+
+Beckham refuses to play ball with attackers 
+
+David Beckham's emails were held hostage by hackers, according to UK newspaper the Daily Mirror. The 41-year-old football superstar's representatives reportedly refused to pay a ransom of €1 million (£860,000) and, as a result, had a number of emails published on Friday, initially by website Football Leaks and then by a number of European newspapers. 
+The ‘Beckileaks' came as part of a breach on sports and entertainment agency, Doyen Global, which has worked with a variety of leading sports stars such as Usain Bolt and Xavi Hernandez. 
+In total, 18.6 million emails on Doyen email servers were apparently accessed in 2015 and 2016 before the Beckham emails were handed over to and published by three European newspapers: Der Spiegel, L'Equipe and El Mundo.  
+Doyen Sports, a subsidiary of Doyen Global, was apparently approached by someone last year using the name ‘Artem Lovuzov'. Lovuzov said that the leak was ‘a lot bigger than you imagine', before asking for between €500,000 (£431,000) and €1 million (£862,000) for all the information to be destroyed. 
+When no payment was received, Lovuzov apparently leaked to website Football Leaks which published the emails on Friday. . 
+The hack did not apparently target Beckham specifically, but was the result of a fishing expedition. 
+The emails supposedly contain embarrassing revelations about the former footballer. Chief among the details released is how Beckham hoped that his millions in donations to charities such as UNICEF might secure him a knighthood.  Several expletive laden messages reveal his ire at not being granted an honour, while Welsh opera singer, Katherine Jenkins was granted an OBE. 
+A Beckham's spokesperson has told press that the emails have been doctored and taken out of context to give a “deliberately inaccurate picture”. 
+Mark James, IT security specialist at ESET, told SC Media UK that ransom cases are tough: 
+“Celebrities are always going to be a high-level target when it comes to cyber-criminals and blackmail. In all cases of blackmail there is a chance that even if you do pay the initial payment there is nothing stopping the criminals from asking for more money once you have paid.”
+Portuguese police, who have jurisdiction over the Portugal-headquartered Doyen, have apparently been investigating for 12 months. The Sun newspaper quoted one source as saying, “The cyber-crime unit is involved and they are taking it extremely seriously. It has gone right to the top.”
+Jonathan Sander, VP of product strategy at Lieberman Software, applauded Beckham's decision. He told SC, “Cybercrime powered blackmail is a police matter and it's good that David Beckham treated it that way by going to the authorities. Too many people and organisations, faced with ransomware or more targeted cyber-crime, treat it like an IT issue, not a criminal affair. That hurts them and also hurts the overall community because it robs the authorities of a full view of the activities of the bad guys. There may be electronic fingerprints in one case that's never reported that would solve dozens of others sitting on file.”
+SC contacted Doyen for comment, but did not receive a response in time for publication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Topics:
+
+
+Data Breach
+
+
+Privacy
+
+
+
+
+
+
+
+
+
+
+
+
+                        You must be a registered member of SC Magazine US to post a comment.
+                    
+
+Click here to login
+  | 
+ Click here to register
+
+
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+
+                                    InterContinental Hotels Group announces breach at 12 U.S. properties
+                                
+
+
+BY
+            Robert Abel
+
+                                 Feb 6, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    Cisco: Data breaches costing some businesses 20 percent of revenue
+                                
+
+
+BY
+            Doug Olenick
+
+                                 Feb 2, 2017
+                            
+
+
+
+
+
+
+
+
+
+                                    Acer fined $115K for breach
+                                
+
+
+BY
+            Greg Masters
+
+                                 Feb 1, 2017
+                            
+
+
+
+
+
+
+
+
+
+
+
+Most read on SC
+
+
+Banks worldwide under attack from new malware, report
+2017 SC Awards Honored in the United States
+'Internet of Evil Things' challenges security pros
+Yahoo issues new breach warning; Verizon shaves $300M off its Yahoo offer
+Adobe issues patches, Microsoft's usual Patch Tuesday fixes delayed
+
+
+
+
+
+
+
+
+
+
+Get SC Media delivered to your inbox
+
+
+
+
+
+SC Media Featured White Paper of the Day
+
+
+
+
+
+
+SC Media Newswire
+
+
+
+
+
+
+SC Media Product/Industry Buzz
+
+
+
+
+
+
+I would like to receive relevant information via email from Haymarket Media.
+
+
+
+
+
+
+United States
+United Kingdom
+Canada
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo (DRC)
+Cook Islands
+Costa Rica
+Côte D'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji Islands
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Israel
+Italy
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Korea
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russia
+Rwanda
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and The Grenadines
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia-Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Virgin Islands
+Virgin Islands, British
+Wallis and Futuna
+Western Samoa
+Yemen
+Yugoslavia
+Zambia
+Zimbabwe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SC Media arms cybersecurity professionals with the in-depth, unbiased business and technical information they need to tackle the countless security challenges they face and establish risk management and compliance postures that underpin overall business strategies.
+
+
+User Center
+
+About
+Contact
+Advisory Board
+Meet the team
+Subscribe
+Advertise
+
+
+
+Product Reviews
+
+About/Contact
+FAQ
+Reprints
+
+
+
+Other
+
+Privacy Policy
+Terms & Conditions
+
+
+
+More SC Sites
+
+RiskSec
+SC Whitepaper & Resource Library
+SC Awards
+SC Online Events
+
+
+
+
+
+Follow SC Media
+
+
+
+
+
+
+Copyright © 2016 Haymarket Media, Inc. All Rights Reserved
+This material may not be published, broadcast, rewritten or redistributed in any form without prior authorization.
+Your use of this website constitutes acceptance of Haymarket Media's Privacy Policy and Terms & Conditions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ close
+
+
+
+{{{ form.header }}}
+{{{ form.title }}}
+
+
+
+
+
+{{{error}}}
+
+
+
+
+{{error}}
+
+
+
+
+
+
+
+
+
+
+{{ option.label }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Free Newsletters:
+
+
+
+
+
+
+
+
+{{ field.label }}
+
+
+
+
+
+
+
+
+{{ form.postButtonLabel }}
+
+
+
+
+
+                              By registering you agree with our
+                              Terms And Conditions  |
+                              Privacy Policy
+
+
+
+
+{{{ form.footer }}}
+
+
+Don't have an SC Media account?
+            Sign up for free now »
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

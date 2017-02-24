@@ -1,0 +1,340 @@
+
+
+
+
+
+Infosecurity Group Websites
+
+
+
+
+
+Magazine
+
+Events
+
+
+Infosecurity Europe
+
+
+Infosecurity Leadership Summit
+
+
+Infosecurity Magazine Conferences
+
+
+Infosecurity Netherlands
+
+
+Infosecurity Belgium
+
+
+Infosecurity Russia
+
+
+Infosecurity Mexico
+
+
+Infosecurity Middle East
+
+
+
+
+Leaders Network
+
+
+Insight
+
+
+Infosecurity Webinars
+
+
+Infosecurity Whitepapers
+
+
+Infosecurity Virtual Conferences
+
+
+
+
+
+
+
+
+
+
+
+Our website uses cookies
+
+                    Cookies enable us to provide the best experience possible and help us understand
+                    how visitors use our website.  
+            By browsing Infosecurity Magazine, you agree to our use of cookies.
+                
+Okay, I understand
+Learn more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latest
+
+
+Germany Calls on Parents to Destroy Cayla Dolls
+(ISC)2 Opens Applications for Undergrad Cyber-Scholarships
+Russian Election Hackers Target iPhone, Mac Users
+A New Goverment - Who's Hacking Whom?
+New York State Unveils Strict New Cybersecurity Regulations
+
+
+
+
+
+
+
+
+
+ 
+News
+Topics
+
+
+Features
+
+
+Webinars
+White Papers
+Events & Conferences
+
+
+Directory
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+Infosecurity Magazine Home » News » Majority of Websites Are Vulnerable to Hacking for Hire
+
+
+
+
+
+
+
+
+
+
+8 Feb 2017
+News
+Majority of Websites Are Vulnerable to Hacking for Hire
+
+
+
+
+
+
+
+Tara Seals US/North America News Reporter, Infosecurity MagazineEmail Tara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Two-thirds of websites are vulnerable to hacking-for-hire.
+That’s the word from security firm Rapid7, which has unveiled its latest research paper, highlighting the real-life experiences of dozens of penetration testers throughout Q4 2016. It found that only 33% of client sites had no found vulnerabilities, showing the significant needed improvement on enterprise security.
+Interestingly, size doesn’t seem to matter when it comes to security flaws—all organizations exhibited roughly the same issues in the same proportions.
+“This is almost certainly due to the fact that IT infrastructure pretty much everywhere is built using the same software and hardware components,” said Rapid7, in the report. “Thus, all networks tend to be vulnerable to the same common misconfigurations that have the same vulnerability profiles when patch management isn't firing at 100%. There are certainly differences in the details—especially when it comes to custom-designed web applications—but even those tend to have the same sorts of frameworks and components that power them.”
+Also, shockingly, most organizations that conduct penetration testing exercises have a severe lack of usable, reliable intrusion detection capabilities. More than two-thirds of our pentesters completely avoided detection during the engagement (68.4%).
+“This is especially concerning given that most assessments don't put a premium on stealth; due to constraints in time and scope, pentesters generate an enormous amount of malicious traffic,” the report noted. “In an ideal network, these would be setting off alarm bells everywhere. Most engagements end with recommendations to implement some kind of incident detection and response, regardless of the specific techniques for compromise were used.”
+The loss of control over credentials remains the easiest for attackers to execute, and 46% of engagements resulted in compromised credentials. The most successful ways passwords were discerned include simple manual guessing, network challenge-response traffic, privileged storage and guessable default accounts.
+Of the 86% of engagements where credential theft was in scope, two-factor authentication was simply not a factor. Considering the millions of large-scale breaches in 2016, and the endemic problem of password reuse, this finding was particularly disheartening, the team noted.
+The testers also found that, despite the recent uptick in online industrial espionage, the surveyed organizations seemed the least interested in protecting copyrighted material, digital certificates, source code or trade secrets.
+
+
+
+
+
+
+
+
+
+
+
+Why Not Watch?
+20 Oct 2016Can Good Security Help Drive Greater Business Agility?19 Feb 2015Secure Data in the Cloud – Learn to Combat Cyber Threats to Protect Your Assets4 Apr 2017, 16:00 BST, 11:00 EDTLife of: A Penetration Tester5 Mar 2015How to Build a Next-generation Security Programme
+
+
+
+Related to This Story
+
+
+Active Directory Mismanagement  Leaves Huge Numbers of Orgs Vulnerable
+
+
+Video Interview- Katie Moussouris, HackerOne
+
+
+Intrusion Protection Spending Stays Steady, Monitoring Lags
+
+
+Pen Tester in Bust Up with Aircraft Electronics Firm
+
+
+#BHUSA How to Deliver Professional Human Pen Testing
+
+
+
+
+What’s Hot on Infosecurity Magazine?
+
+Read
+Shared
+Watched
+Editor's Choice
+
+
+
+115 Feb 2017 NewsCyber-Workforce Shortage to Increase to 1.8 Million Positions by 2022217 Feb 2017 NewsNew York State Unveils Strict New Cybersecurity Regulations328 Apr 2015 NewsPorn Site xHamster Crushed by Fresh Malvertising Attack416 Feb 2017 News#RSAC: Security Blogger Awards Winners Announced 517 Feb 2017 NewsGermany Calls on Parents to Destroy Cayla Dolls618 Apr 2016 News3.8M Porn Users Compromised in Naughty America Hack
+
+
+
+121 Nov 2016 NewsFBI: US ATMs Could Be Hacked to Spew Cash218 Nov 2016 NewsUS Government Releases New IoT Security Guidance322 Nov 2016 NewsConficker Still on Top as Malware Jumps 5% in October421 Nov 2016 NewsData Protection Disputes to Soar Over Next Five Years518 Nov 2016 NewsUK Retailers Facing One Million Fraud Attempts Per Day617 Nov 2016 NewsSHA-1 Time Bomb: One Third of Websites Have Yet to Upgrade
+
+
+
+123 Feb 2017, 15:00 GMT, 10:00 EST WebinarHyper-Realistic Simulation - the New Approach to Cybersecurity Training29 Mar 2017, 13:00 EST, 10:00 PST WebinarHow IoT Enabled a DDoS, and How to Avoid Being Part of It32 Mar 2017, 15:00 GMT, 10:00 EST WebinarAutomation, Machine Learning and AI: Saving Security or Job Stealing Digital Overlords?49 Mar 2017, 15:00 GMT, 10:00 EST WebinarMind the Security Gap - Transforming the Effectiveness of End Point Protection57 Jan 2016 WebinarThe ‘Dark’ Web Inside Your Enterprise – Shining a Light on the Hazards of Encrypted Traffic64 Apr 2017, 16:00 BST, 11:00 EDT WebinarLife of: A Penetration Tester
+
+
+
+18 Feb 2017 NewsSentry MBA Tool Used in Attacks on Login Forms213 Feb 2017 News FeatureHelp Save the Youth of Cyber313 Feb 2017 NewsGlobal Banks Hit by Watering Hole Blitz410 Feb 2017 BlogDigesting the Diversity of Data Breaches510 Feb 2017 NewsArby's Gets Roasted in Breach of 300K Payment Cards610 Feb 2017 NewsEast-West Co-operation Stalls Following Kaspersky Lab Arrest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Magazine
+About Infosecurity
+Subscription
+Meet the Team
+Contact Us
+
+
+
+
+Advertisers
+Media Pack
+
+
+Contributors
+Forward Features
+Op-ed
+
+
+
+
+
+Copright © 2017 Reed Exhibitions Ltd.
+Terms and Conditions
+Privacy Policy
+Use of Cookies
+Sitemap
+
+
+
+
+
+
+
+
+
+                Please wait…
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
