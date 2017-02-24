@@ -1,0 +1,124 @@
+% Add `ngerman` to documentclass for German docs
+\documentclass[12pt, a4paper]{article}
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage[utf8]{inputenc}
+
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{minted}
+\usemintedstyle{perldoc}
+
+% inline code
+\newcommand{\code}[1]{\texttt{#1}}
+
+% Uncomment for German
+%\usepackage[ngerman]{babel}
+
+% For generating template dummy text
+\usepackage{lipsum}
+
+\usepackage{myColors}
+\usepackage{myFooter}
+\usepackage{myTitle}
+
+% Libraries outside of template
+\usepackage[T1]{fontenc}
+\usepackage{upquote}
+\AtBeginDocument{%
+    \def\PYZsq{\textquotesingle}%
+}
+
+
+\project{CS 432 Web Science}
+\author{Derek Goddeau}
+\title{Assignment Three}
+\supervisor{Michael L. Nelson}
+
+\doublespace
+\pagestyle{hacker}
+
+\begin{document}
+\maketitle
+
+\newpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+% Download URI HTML %
+%%%%%%%%%%%%%%%%%%%%%
+\section{Download the HTML for the 1000 URIs}
+
+To download the HTML for the URIs the bash script \code{get\_html.sh}
+is used. The \code{fetch()} function does all the work, downloading the
+HTML using \code{wget} and creating a \code{SHA-1} hash of the URI
+to store locally.
+
+\begin{minipage}{\linewidth} % prevent splitting between pages
+\vspace{2em}
+\begin{minted}[fontfamily=tt]{bash}
+fetch() {
+    while read uri; do
+        local hash=$(echo -n "$uri" | sha1sum | cut -d ' ' -f 1)
+        local hash+=".html"
+        wget -O data/raw_html/"$hash" "$uri"
+        if [[ "$?" != 0 ]]; then
+            echo >&2 '[*] Error downloading file'
+            FAILURES=$(expr FAILURES + 1)
+        else
+            echo >&2 '[*] Success'
+        fi
+    done < "$FILE"
+}
+\end{minted}
+\end{minipage}
+
+
+%%%%%%%%%
+% TFIDF %
+%%%%%%%%%
+\section{Calculate TFIDF}
+
+\begin{minipage}{\linewidth} % prevent splitting between pages
+\vspace{2em}
+\begin{minted}[fontfamily=tt]{python}
+def get_num_mementos(link):
+    url = 'http://memgator.cs.odu.edu/timemap/json/http://' + link
+    try:
+        mementos = requests.get(url).json()
+    except ValueError as e:
+        print("No memento for URL: {}".format(link))
+        return 0
+    num_mementos = len(mementos['mementos']['list'])
+    return num_mementos
+
+link_mementos = []
+for link in final_links:
+    link_mementos.append((link, get_num_mementos(link)))
+\end{minted}
+\end{minipage}
+
+\begin{minipage}{\linewidth} % prevent splitting between pages
+\vspace{2em}
+\begin{minted}[fontfamily=tt]{r}
+%%R -i data
+
+    library(plotly);
+
+    p <- plot_ly(x = data, type = "histogram")
+
+    embed_notebook(p)
+    htmlwidgets::saveWidget(as.widget(p), "histogram.html")
+\end{minted}
+\vspace{2em}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%
+% Rank by PageRank %
+%%%%%%%%%%%%%%%%%%%%
+\section{Rank by PageRank}
+
+\end{document}
