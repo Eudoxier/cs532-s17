@@ -1,10 +1,9 @@
 # Assignment Three
+&nbsp;
 
 *   [Assignment Three Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_three.pdf)
-*   Interactive Graphs
-    *   [Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
-*   Jupyter Notebooks
-    *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+*   Jupyter Notebook
+    *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/tfidf.html)
 
 &nbsp;
 ## 1. Download the 1000 URIs from [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)

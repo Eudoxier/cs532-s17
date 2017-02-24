@@ -26,11 +26,19 @@ is updated hourly but the primary repository can be accessed at
     *   Download the TimeMaps for 1000 URIs and display the data using a histogram
     *   Estimate the age of the URIs and display the data using a scatter plot
 
+*   [Assignment Three](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_three)
+
+    *   Tagged `0.3`
+    *   Download the HTML for the 1000 URIs, choose 10 and extract the words
+    *   Calculate the TF-IDF for the 10 and rank them
+    *   Calculate PageRank for the 10 and compare and contrast the methods
+
 &nbsp;
 ## Direct links to reports
 
 *   [Assignment One PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
 *   [Assignment Two PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
+*   [Assignment three PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_three.pdf)
 
 &nbsp;
 ## Direct links to interactive graphs
@@ -44,3 +52,4 @@ is updated hourly but the primary repository can be accessed at
 *   [Bow-Tie Graph Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
 *   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
 *   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
+*   [TF-IDF](http://datenstrom.gitlab.io/cs532-s17/notebooks/tfidf.html)
