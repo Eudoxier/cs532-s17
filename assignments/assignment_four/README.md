@@ -7,7 +7,9 @@
 &nbsp;
 ## 1  Determine if the friendship paradox holds for my Facebook account.
 
+R packages used:
 
+*   igraph
 
 &nbsp;
 # Assignment Description
