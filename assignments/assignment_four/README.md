@@ -7,13 +7,6 @@
   *   [Facebook Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/friends.html)
   *   [Twitter Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers.html)
 
-
-R packages used:
-
-*   igraph
-*   plotly
-
-
 &nbsp;
 ## 1  Determine if the friendship paradox holds for my Facebook account.
 
