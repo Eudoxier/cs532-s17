@@ -4,8 +4,8 @@
 *   [Assignment Four Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_four.pdf)
 *   Jupyter Notebooks
 
-    *   [Facebook Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
-    *   [Twitter Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+  *   [Facebook Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/friends.html)
+  *   [Twitter Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers.html)
 
 
 R packages used:
@@ -17,11 +17,18 @@ R packages used:
 &nbsp;
 ## 1  Determine if the friendship paradox holds for my Facebook account.
 
+Using the R packages `igraph` and `plotly` the following graph was produced.
+
+![Facebook Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/friends.png)
 
 
 &nbsp;
 ## 2  Determine if the friendship paradox holds for your Twitter account.
 
+Using the R packages `igraph` and `plotly` again and the Python package
+`python-twitter` to fetch the data, the following graph was produced.
+
+![Twitter Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers-half.png)
 
 
 &nbsp;
