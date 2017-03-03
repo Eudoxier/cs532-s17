@@ -2,14 +2,27 @@
 &nbsp;
 
 *   [Assignment Four Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_four.pdf)
-*   [Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+*   Jupyter Notebooks
 
-&nbsp;
-## 1  Determine if the friendship paradox holds for my Facebook account.
+    *   [Facebook Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+    *   [Twitter Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+
 
 R packages used:
 
 *   igraph
+*   plotly
+
+
+&nbsp;
+## 1  Determine if the friendship paradox holds for my Facebook account.
+
+
+
+&nbsp;
+## 2  Determine if the friendship paradox holds for your Twitter account.
+
+
 
 &nbsp;
 # Assignment Description
