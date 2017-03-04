@@ -10,19 +10,15 @@
 &nbsp;
 ## 1  Determine if the friendship paradox holds for my Facebook account.
 
-Using the R packages `igraph` and `plotly` the following graph was produced.
-
-![Facebook Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/friends.png)
-
+Using the R packages `igraph` and `plotly` in the Facebook Frienship Paradox
+Jupyter notebook the data and graph for the report is produced.
 
 &nbsp;
 ## 2  Determine if the friendship paradox holds for your Twitter account.
 
 Using the R packages `igraph` and `plotly` again and the Python package
-`python-twitter` to fetch the data, the following graph was produced.
-
-![Twitter Friendship Paradox](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers-half.png)
-
+`python-twitter` to fetch the data in the Twitter Friendship paradox
+Jupyter notebook the data and graph for the report is produced.
 
 &nbsp;
 # Assignment Description
