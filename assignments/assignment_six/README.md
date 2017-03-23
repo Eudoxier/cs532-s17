@@ -7,6 +7,8 @@
 &nbsp;
 ## D3 Graphing
 
+Data is gathered in the Jupyter notebook in the `notebooks` directory.
+
 
 -----------------------------------------------------------------------
 
