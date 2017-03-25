@@ -40,7 +40,7 @@ is updated hourly but the primary repository can be accessed at
   *   Determine if the friendship paradox holds for a Twitter account
 
 &nbsp;
-## Direct links to reports
+### Direct links to reports
 
 1.   [Assignment One PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
 2.   [Assignment Two PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
@@ -48,7 +48,7 @@ is updated hourly but the primary repository can be accessed at
 3.   [Assignment Four PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_four.pdf)
 
 &nbsp;
-## Direct links to interactive graphs
+### Direct links to interactive graphs
 
 *   [Number of Mementos](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
 *   [Mementos vs Time](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
@@ -56,7 +56,7 @@ is updated hourly but the primary repository can be accessed at
 *   [Friendship Paradox with Twitter followers](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers.html)
 
 &nbsp;
-## Direct links to Jupyter Notebooks
+### Direct links to Jupyter Notebooks
 
 *   [Bow-Tie Graph Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
 *   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
@@ -64,3 +64,9 @@ is updated hourly but the primary repository can be accessed at
 *   [TF-IDF](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
 *   [Friendship Paradox Facebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_facebook.html)
 *   [Friendship Paradox Twitter](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_twitter.html)
+
+&nbsp;
+## Todo:
+
+*   Figure out why `jupyter nbconvert --to html` is not collapsing long command output.
+*   Centralize entire requirements installation in project `/`.
