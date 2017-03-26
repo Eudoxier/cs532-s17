@@ -10,3 +10,4 @@ packaging
 appdirs
 jupyter
 jupyterthemes
+altair

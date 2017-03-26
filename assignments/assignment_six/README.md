@@ -7,8 +7,12 @@
 &nbsp;
 ## D3 Graphing
 
-Data is gathered in the Jupyter notebook in the `notebooks` directory.
+Data is gathered in the Jupyter notebook in the `notebooks` directory. To install requirements listed in `notebook-requirements.txt` with `pip` or `pip3` depending on the system. Then install the Python 3 kernel for the notebook and create a `api.keys` file with the proper credentials.
 
+    pip install -r notebook-requirements.txt
+    apt-get install ipython3
+    ipython3 kernel install
+    jupyter-notebook
 
 -----------------------------------------------------------------------
 
