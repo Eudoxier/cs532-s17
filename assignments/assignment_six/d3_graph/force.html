@@ -32,7 +32,7 @@
                             The images are the users Twitter profile images and they will enlarge and show username and real name on hover. Unfortunately the graph is not complete, it is about 24 hours worth of allowed data from the Twitter API. The script is currently running to completion on a server with an uninterruptible power supply, wrapped up in a catch-all exceptions loop. Whenever it finally finished this graph will be updated. Because it is already kind of heavy to run it may get a mod to only graph some random <code>x</code> of the followers.
                             </p>
                             <p>
-                            This was my first time doing anything with javascript and the credit completely goes to the internet in general and <a href="http://mbostock.github.com/d3/ex/force.html">Mike Bostock</a> where the starting point for the <a href="force.js">modified script</a> came from. Still have not gotten the directional arrows to work either. The primary modification was to replace the circles with the profile images and their transformations:
+                            This was my first time doing anything with javascript beyond standard website visuals and interactions and the credit completely goes to the internet in general and <a href="http://mbostock.github.com/d3/ex/force.html">Mike Bostock</a> where the starting point for the <a href="force.js">modified script</a> came from. Still have not gotten the directional arrows to work either. The primary modification was to replace the circles with the profile images and their transformations:
                             </p>
                             <pre><code>var node = vis.selectAll("circle.node")
       .data(json.nodes)

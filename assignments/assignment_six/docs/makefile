@@ -1,4 +1,4 @@
-PROJECT=assignment_four
+PROJECT=assignment_six
 BIBTEX=bibtex
 OUTDIR = ../../../pelican/pdfs/
 TEXDIR = .

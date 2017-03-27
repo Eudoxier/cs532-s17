@@ -13,32 +13,24 @@ is updated hourly but the primary repository can be accessed at
 ## Contents:
 
 1.   [Assignment One](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_one)
-
   *   Tagged `0.1`
   *   Demonstrate `curl` proficiency
   *   Python script to find all PDF links on a web page
   *   Demonstrate understanding of the "bow-tie" graph structure
-
 2.   [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
-
   *   Tagged `0.2`
   *   A Python program to extract unique URIs from Twitter
   *   Download the TimeMaps for 1000 URIs and display the data using a histogram
   *   Estimate the age of the URIs and display the data using a scatter plot
-
 3.   [Assignment Three](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_three)
-
   *   Tagged `0.3`
   *   Download the HTML for the 1000 URIs, choose 10 and extract the words
   *   Calculate the TF-IDF for the 10 and rank them
   *   Calculate PageRank for the 10 and compare and contrast the methods
-
 4.   [Assignment Four](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_four)
-
   *   Tagged `0.4`
   *   Determine if the friendship paradox holds for a Facebook account
   *   Determine if the friendship paradox holds for a Twitter account
-
 6.   [Assignment Six](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_six)
 
 
@@ -49,6 +41,7 @@ is updated hourly but the primary repository can be accessed at
 2.   [Assignment Two PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
 3.   [Assignment Three PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_three.pdf)
 4.   [Assignment Four PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_four.pdf)
+6.   [Assignment Six PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_six.pdf)
 
 &nbsp;
 ### Direct links to interactive graphs
