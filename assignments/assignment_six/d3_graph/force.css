@@ -1,0 +1,33 @@
+h1 { 
+    font-size: 36px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2, h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+circle.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+line.link {
+    stroke: #999;
+    stroke-opacity: .6;
+}
+
+#chart {
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    max-width: 1280;
+    max-height: 720;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}

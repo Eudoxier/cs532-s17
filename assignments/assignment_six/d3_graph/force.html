@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Twitter Followers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+        <link type="text/css" rel="stylesheet" href="force.css"/>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Twitter Followers</a>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">D3 Graph of Twitter Followers</h1>
+							<div id="chart">
+                                <script type="text/javascript" src="force.js"></script>
+                            </div>
+							<p>
+                            The images are the users Twitter profile images and they will enlarge and show username and real name on hover. Unfortunately the graph is not complete, it is about 24 hours worth of allowed data from the Twitter API. The script is currently running to completion on a server with an uninterruptible power supply, wrapped up in a catch-all exceptions loop. Whenever it finally finished this graph will be updated. Because it is already kind of heavy to run it may get a mod to only graph some random <code>x</code> of the followers.
+                            </p>
+                            <p>
+                            This was my first time doing anything with javascript and the credit completely goes to the internet in general and <a href="http://mbostock.github.com/d3/ex/force.html">Mike Bostock</a> where the starting point for the <a href="force.js">modified script</a> came from. Still have not gotten the directional arrows to work either.
+                            </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Derek Goddeau. Some rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

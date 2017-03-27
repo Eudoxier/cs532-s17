@@ -2,17 +2,25 @@
 &nbsp;
 
 *   [Assignment Four Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_six.pdf)
-*   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+*   Notebooks
+
+  *   [D3 Data](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
+  *   [D3 Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
+
+*   [Interactive Graph Page](http://datenstrom.gitlab.io/cs532-s17/d3_twitter_graph/force.html)
 
 &nbsp;
 ## D3 Graphing
 
-Data is gathered in the Jupyter notebook in the `notebooks` directory. To install requirements listed in `notebook-requirements.txt` with `pip` or `pip3` depending on the system. Then install the Python 3 kernel for the notebook and create a `api.keys` file with the proper credentials.
+Data is gathered in the Jupyter notebook `d3_data.ipynb` in the `notebooks` directory. To install requirements listed in `notebook-requirements.txt` with `pip` or `pip3` depending on the system. Then install the Python 3 kernel for the notebook and create a `api.keys` file with the proper credentials.
 
     pip install -r notebook-requirements.txt
     apt-get install ipython3
     ipython3 kernel install
     jupyter-notebook
+
+The graph is prototyped in `d3_graph.ipynb` and then put into a web page for display in the `d3_graph` directory. Note that the graph will not dispaly in the notebook using `jupyter nbconvert` to view it in the notebook it must be ran, this is because in the `%%javascirpt` magic block the `element.append()` command is used to inject the needed `<div>` into the cell for display.
+
 
 -----------------------------------------------------------------------
 
