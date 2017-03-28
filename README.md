@@ -69,3 +69,4 @@ is updated hourly but the primary repository can be accessed at
 
 *   Figure out why `jupyter nbconvert --to html` is not collapsing long command output.
 *   Centralize entire requirements installation in project `/`.
+*   Figure out how to make D3 graphs responsive and work with touchscreens
