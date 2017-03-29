@@ -17,54 +17,43 @@ is updated hourly but the primary repository can be accessed at
   *   Demonstrate `curl` proficiency
   *   Python script to find all PDF links on a web page
   *   Demonstrate understanding of the "bow-tie" graph structure
+  *   [Assignment One Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
+  *   [Bow-Tie Graph Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
 2.   [Assignment Two](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_two)
   *   Tagged `0.2`
   *   A Python program to extract unique URIs from Twitter
   *   Download the TimeMaps for 1000 URIs and display the data using a histogram
   *   Estimate the age of the URIs and display the data using a scatter plot
+  *   [Assignment Two Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
+  *   [Timemap Histogram Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
+  *   [Carbon Dating Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
+  *   [Number of Mementos Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
+  *   [Mementos vs Time Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
 3.   [Assignment Three](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_three)
   *   Tagged `0.3`
   *   Download the HTML for the 1000 URIs, choose 10 and extract the words
   *   Calculate the TF-IDF for the 10 and rank them
   *   Calculate PageRank for the 10 and compare and contrast the methods
+  *   [Assignment Three Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_three.pdf)
+  *   [TF-IDF Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
 4.   [Assignment Four](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_four)
   *   Tagged `0.4`
   *   Determine if the friendship paradox holds for a Facebook account
   *   Determine if the friendship paradox holds for a Twitter account
+  *   [Assignment Four Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_four.pdf)
+  *   [Friendship Paradox Facebook Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_facebook.html)
+  *   [Friendship Paradox Twitter Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_twitter.html)
+  *   [Friendship Paradox with Facebook friends Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/friends.html)
+  *   [Friendship Paradox with Twitter followers Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers.html)
 5.   [Assignment Five](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_five)
+  *   [Karate Club Visual Analysis Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
 6.   [Assignment Six](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_six)
+  *   Create a D3 Graph to visualize twitter followers
+  *   [Assignment Six Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_six.pdf)
+  *   [D3 Data Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
+  *   [D3 Graph Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
+  *   [D3 Twitter Followers Graph](http://datenstrom.gitlab.io/cs532-s17/d3_twitter_graph/force.html)
 
-
-&nbsp;
-### Direct links to reports
-
-1.   [Assignment One PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_one.pdf)
-2.   [Assignment Two PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_two.pdf)
-3.   [Assignment Three PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_three.pdf)
-4.   [Assignment Four PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_four.pdf)
-6.   [Assignment Six PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_six.pdf)
-
-&nbsp;
-### Direct links to interactive graphs
-
-*   [Number of Mementos](http://datenstrom.gitlab.io/cs532-s17/notebooks/histogram.html)
-*   [Mementos vs Time](http://datenstrom.gitlab.io/cs532-s17/notebooks/scatter.html)
-*   [Friendship Paradox with Facebook friends](http://datenstrom.gitlab.io/cs532-s17/notebooks/friends.html)
-*   [Friendship Paradox with Twitter followers](http://datenstrom.gitlab.io/cs532-s17/notebooks/followers.html)
-*   [D3 Twitter Followers](http://datenstrom.gitlab.io/cs532-s17/d3_twitter_graph/force.html)
-
-&nbsp;
-### Direct links to Jupyter Notebooks
-
-*   [Bow-Tie Graph Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/graph_structure.html)
-*   [Timemap Histogram](http://datenstrom.gitlab.io/cs532-s17/notebooks/timemap_histogram.html)
-*   [Carbon Dating](http://datenstrom.gitlab.io/cs532-s17/notebooks/carbon_date.html)
-*   [TF-IDF](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
-*   [Friendship Paradox Facebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_facebook.html)
-*   [Friendship Paradox Twitter](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_twitter.html)
-*   [Karate Club Visual Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
-*   [D3 Data](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
-*   [D3 Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
 
 &nbsp;
 ## Todo:
