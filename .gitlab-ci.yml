@@ -207,6 +207,7 @@ pages:
         - jupyter nbconvert -y --to html assignments/assignment_two/notebooks/*.ipynb
         - jupyter nbconvert -y --to html assignments/assignment_three/notebooks/*.ipynb
         - jupyter nbconvert -y --to html assignments/assignment_four/notebooks/*.ipynb
+        - jupyter nbconvert -y --to html assignments/assignment_five/notebooks/*.ipynb
         - jupyter nbconvert -y --to html assignments/assignment_six/notebooks/*.ipynb
         - mkdir -p public/notebooks/
         - cp assignments/assignment_one/graph_structure/graph_structure.html public/notebooks
@@ -215,6 +216,7 @@ pages:
         - cp assignments/assignment_three/notebooks/*.html public/notebooks
         - cp assignments/assignment_four/notebooks/*.html public/notebooks
         - cp assignments/assignment_four/notebooks/*.png public/notebooks
+        - cp assignments/assignment_five/notebooks/*.png public/notebooks
         - mkdir -p public/d3_twitter_graph
         - cp assignments/assignment_six/notebooks/*.html public/notebooks
         - cp -r assignments/assignment_six/d3_graph/* public/d3_twitter_graph

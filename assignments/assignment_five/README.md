@@ -3,7 +3,7 @@
 
 *   [Assignment Four Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_five.pdf)
 *   Notebooks
-  *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+  *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
 
 &nbsp;
 ## Predicting the result of the Karate Club split
@@ -45,9 +45,10 @@ Useful sources include:
   * [http://igraph.org/python/doc/igraph-pysrc.html#Graph.community_edge_betweenness](http://igraph.org/python/doc/igraph-pysrc.html#Graph.community_edge_betweenness)
 
 
-### 2.  We know the group split in two different groups.  Suppose the
+### 2. What if the group split into more sub-groups.
 
 > (extra credit, 3 points)
 
+We know the group split in two different groups.  Suppose the
 disagreements in the group were more nuanced -- what would the clubs
 look like if they split into groups of 3, 4, and 5?

@@ -31,6 +31,7 @@ is updated hourly but the primary repository can be accessed at
   *   Tagged `0.4`
   *   Determine if the friendship paradox holds for a Facebook account
   *   Determine if the friendship paradox holds for a Twitter account
+5.   [Assignment Five](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_five)
 6.   [Assignment Six](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_six)
 
 
@@ -61,6 +62,7 @@ is updated hourly but the primary repository can be accessed at
 *   [TF-IDF](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
 *   [Friendship Paradox Facebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_facebook.html)
 *   [Friendship Paradox Twitter](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_twitter.html)
+*   [Karate Club (Python)](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
 *   [D3 Data](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
 *   [D3 Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
 
