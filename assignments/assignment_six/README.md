@@ -1,12 +1,10 @@
-# Assignment Four
+# Assignment Six
 &nbsp;
 
-*   [Assignment Four Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_six.pdf)
+*   [Assignment Six Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_six.pdf)
 *   Notebooks
-
   *   [D3 Data](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
   *   [D3 Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
-
 *   [Interactive Graph Page](http://datenstrom.gitlab.io/cs532-s17/d3_twitter_graph/force.html)
 
 &nbsp;

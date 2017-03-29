@@ -62,7 +62,7 @@ is updated hourly but the primary repository can be accessed at
 *   [TF-IDF](http://datenstrom.gitlab.io/cs532-s17/notebooks/TFIDF.html)
 *   [Friendship Paradox Facebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_facebook.html)
 *   [Friendship Paradox Twitter](http://datenstrom.gitlab.io/cs532-s17/notebooks/friendship_paradox_twitter.html)
-*   [Karate Club (Python)](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
+*   [Karate Club Visual Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
 *   [D3 Data](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
 *   [D3 Graph](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
 

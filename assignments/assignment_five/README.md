@@ -1,9 +1,9 @@
 # Assignment Five
 &nbsp;
 
-*   [Assignment Four Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_five.pdf)
+*   [Assignment Five Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_five.pdf)
 *   Notebooks
-  *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
+  *   [Visual Analysis](http://datenstrom.gitlab.io/cs532-s17/notebooks/karate_club.html)
 
 &nbsp;
 ## Predicting the result of the Karate Club split
