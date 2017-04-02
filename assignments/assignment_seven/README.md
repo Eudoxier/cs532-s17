@@ -6,7 +6,11 @@
   *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
 
 &nbsp;
-## 
+## Get the Data
+
+    curl -sSL http://files.grouplens.org/datasets/movielens/ml-100k/u.data > data/u.data
+    curl -sSL http://files.grouplens.org/datasets/movielens/ml-100k/u.item > data/u.item
+    curl -sSL http://files.grouplens.org/datasets/movielens/ml-100k/u.user > data/u.user
 
 -----------------------------------------------------------------------
 

@@ -217,6 +217,7 @@ pages:
         - cp assignments/assignment_four/notebooks/*.html public/notebooks
         - cp assignments/assignment_four/notebooks/*.png public/notebooks
         - cp assignments/assignment_five/notebooks/*.html public/notebooks
+        - cp assignments/assignment_five/notebooks/*.py public/notebooks
         - mkdir -p public/d3_twitter_graph
         - cp assignments/assignment_six/notebooks/*.html public/notebooks
         - cp -r assignments/assignment_six/d3_graph/* public/d3_twitter_graph
