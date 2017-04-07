@@ -209,6 +209,7 @@ pages:
         - jupyter nbconvert -y --to html assignments/assignment_four/notebooks/*.ipynb
         - jupyter nbconvert -y --to html assignments/assignment_five/notebooks/*.ipynb
         - jupyter nbconvert -y --to html assignments/assignment_six/notebooks/*.ipynb
+        - jupyter nbconvert -y --to html assignments/assignment_seven/notebooks/*.ipynb
         - mkdir -p public/notebooks/
         - cp assignments/assignment_one/graph_structure/graph_structure.html public/notebooks
         - cp assignments/assignment_two/notebooks/*.html public/notebooks
@@ -221,6 +222,7 @@ pages:
         - mkdir -p public/d3_twitter_graph
         - cp assignments/assignment_six/notebooks/*.html public/notebooks
         - cp -r assignments/assignment_six/d3_graph/* public/d3_twitter_graph
+        - cp assignments/assignment_seven/notebooks/*.html public/notebooks
     tags:
         - docker
     artifacts:
