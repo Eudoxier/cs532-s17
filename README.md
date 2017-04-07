@@ -53,6 +53,9 @@ is updated hourly but the primary repository can be accessed at
   *   [D3 Data Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_data.html)
   *   [D3 Graph Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/d3_graph.html)
   *   [D3 Twitter Followers Graph](http://datenstrom.gitlab.io/cs532-s17/d3_twitter_graph/force.html)
+7.   [Assignment Seven](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_seven)
+  *   [Assignment Seven Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_seven.pdf)
+  *   [Movie Recommendation Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/movies.html)
 
 
 &nbsp;

@@ -3,7 +3,7 @@
 
 *   [Assignment Seven Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_seven.pdf)
 *   Notebooks
-  *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
+  *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/movies.html)
 
 &nbsp;
 ## Get the Data
