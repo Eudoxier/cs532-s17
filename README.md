@@ -55,7 +55,7 @@ is updated hourly but the primary repository can be accessed at
   *   Use the data to make recommendations
   *   [Assignment Seven Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_seven.pdf)
   *   [Movie Recommendation Jupyter Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/movies.html)
-
+8.  [Assignment Eight](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_eight)
 
 &nbsp;
 ## Todo:
