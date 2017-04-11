@@ -23,8 +23,8 @@ examples, etc.
 
 Start by grabbing 100 blogs; include:
 
-http://f-measure.blogspot.com/
-http://ws-dl.blogspot.com/
+* [http://f-measure.blogspot.com/](http://f-measure.blogspot.com/)
+* [http://ws-dl.blogspot.com/](http://ws-dl.blogspot.com/)
 
 and grab 98 more as per the method shown in class.  Note that this
 method randomly chooses blogs and each student will separately do
