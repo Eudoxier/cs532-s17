@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-""" miner.py
+""" glutton.py
 
-Get links from twitter.
+I eat blog feeds.
 
 """
 
@@ -30,7 +30,7 @@ __author__ = "Derek Goddeau"
 _logger = logging.getLogger(__name__)
 
 
-class Producer():
+class Chef():
     """ Fetches URIs to be consumed.
 
     """
@@ -38,24 +38,30 @@ class Producer():
         self.n_threads = n_threads
         self.fetch_uris = fetch_uris
         self.uri_file = uri_file
-
         self.uris = []
 
     def run(self):
         """ Stack URIs in Queue to be processed.
 
         """
-        queue = Queue()
-        self.uris = self.get_random_uris()
+
+        if not self.fetch_uris:
+            self.read_uris()
+
+        if self.fetch_uris or len(self.uris) != 100:
+            self.get_random_uris()
+            self.write_uris()
 
         if self.n_threads > 1:
             print("[*] Spinning up with {} threads\n".format(self.n_threads))
         else:
             print("[*] Spinning up with {} thread\n".format(self.n_threads))
 
+        queue = Queue()
         for thread_id in range(self.n_threads):
-            consumer = Consumer(thread_id, queue)
-            worker = Thread(target=consumer.run(), args=(thread_id, queue))
+            glutton = Glutton(thread_id, queue)
+            worker = Thread(target=glutton.process_uri,
+                            args=())
             worker.setDaemon(True)
             worker.start()
         for uri in self.uris:
@@ -66,31 +72,63 @@ class Producer():
         """ Fetch n random blog URIs.
 
         """
-        while len(self.uris) < 98:
+
+        _logger.info("Fetching random URIs")
+
+        # Add the two non-random URIs requested
+        non_random_uris = ['http://f-measure.blogspot.com/',
+                           'http://ws-dl.blogspot.com/']
+        self.uris += non_random_uris
+
+        while len(self.uris) < 100:
             try:
                 request_uri = ('http://www.blogger.com/'
-                            'next-blog?navBar=true&blogID=3471633091411211117')
+                               'next-blog?navBar=true&blogID='
+                               '3471633091411211117')
                 response = get_response(request_uri)
                 self.uris.append(response.url)
-            except:
-                _logger.info('[*] Request Failed')
+                self.uris = list(set(self.uris))
+            except requests.exceptions.RequestException as error:
+                _logger.warning('[*] Request Failed\n{}'.format(error))
+
+        for uri in non_random_uris:
+            assert uri in self.uris
+
+    def read_uris(self):
+        _logger.info("Reading URIs from file {}".format(self.uri_file))
+        with open(self.uri_file, 'r') as infile:
+            self.uris = [line.strip() for line in infile]
+
+    def write_uris(self):
+        _logger.info("Writing URIs to {}".format(self.uri_file))
+        with open(self.uri_file, 'w') as outfile:
+            for line in self.uris:
+                outfile.write("{}\n".format(line))
 
 
-class Consumer():
-    """ Process the URIs.
+class Glutton():
+    """ I eat the blog data.
 
     """
     def __init__(self, thread_id, queue):
         self.thread_id = thread_id
         self.queue = queue
 
-    def run(self):
-        """ Process a URI.
+    def process_uri(self):
+        """ Process URIs.
 
         """
-        uri = self.queue.get()
-        print(uri)
-        self.queue.task_done()
+        while True:
+            uri = self.queue.get()
+            _logger.info("Thread {} Processing URI {}".format(self.thread_id,
+                                                              uri))
+            self.queue.task_done()
+
+    def parse_feed(self, uri):
+        """ Parse a blog RSS or Atom feed.
+
+        """
+        pass
 
 
 def get_response(address):

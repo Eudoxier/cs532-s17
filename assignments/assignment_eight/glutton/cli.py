@@ -30,8 +30,12 @@ def main(args):
     args = parse_args(args)
 
     # Get the URIs
-    cook = glutton.Producer(args.threads, args.datafile, args.new)
-    cook.run()
+    try:
+        chef = glutton.Chef(args.threads, args.datafile, args.new)
+        chef.run()
+    except KeyboardInterrupt:
+        _logger.info("Recieved Keyboard Interrupt")
+        raise
 
     _logger.info("All done, shutting down.")
     logging.shutdown()
@@ -87,7 +91,7 @@ def setup_logs():
 
     """
     logging.basicConfig(level=logging.INFO, filename='../main.log',
-                        filemode='w')
+                        filemode='w+')
     _logger.setLevel(logging.INFO)
 
     # create file handler which logs messages
@@ -96,7 +100,7 @@ def setup_logs():
 
     # create console handler with a higher log level
     ch = logging.StreamHandler()
-    ch.setLevel(logging.ERROR)
+    ch.setLevel(logging.INFO)
 
     # add the handlers to the logger
     _logger.addHandler(fh)
@@ -107,6 +111,5 @@ if __name__ == "__main__":
 
     start = time.time()
     main(sys.argv[1:])
-    print("[*] Ran for {} seconds".format(time.time() - start))
-    _logger.info("[*] Ran for {} seconds".format(time.time() - start))
+    #_logger.info("[*] Ran for {} seconds".format(time.time() - start))
     sys.exit(0)
