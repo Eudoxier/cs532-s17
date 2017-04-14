@@ -13,7 +13,7 @@ import sys
 import logging
 import time
 
-import glutton
+from glutton import Chef, Glutton
 
 __author__ = "Derek Goddeau"
 
@@ -30,11 +30,16 @@ def main(args):
 
     _logger.info("Starting main()")
     try:
-        chef = glutton.Chef(args.threads,
-                            args.datafile,
-                            args.feedfile,
-                            args.new)
-        chef.run()
+        # Find the data
+        chef = Chef(args.threads,
+                    args.datafile,
+                    args.feedfile,
+                    args.new)
+        feed_uris = chef.run()
+
+        # Eat the data
+        glutton = Glutton(args.threads, feed_uris, args.out)
+        glutton.run()
     except KeyboardInterrupt:
         _logger.info("Recieved Keyboard Interrupt")
         print("[*] Keyboard Interrupt... Aborting")
@@ -83,6 +88,13 @@ def parse_args(args):
         help="Where to store or read _feed_ URI datafile.",
         action='store')
     parser.add_argument(
+        '-o',
+        '--out',
+        type=str,
+        default='../data/wordcount.dat',
+        help="Where to store the wordcount data.",
+        action='store')
+    parser.add_argument(
         '-n',
         '--new',
         default=False,
@@ -108,8 +120,12 @@ def setup_logs(loglevel=logging.INFO):
     handler to default to ``ERROR``.
 
     """
+    logfile = '../main.log'
+    with open(logfile, 'w') as log:
+        log.write('Init Logger')
+
     logging.basicConfig(level=loglevel, filename='../main.log',
-                        filemode='w+')
+                        filemode='a')
     _logger.setLevel(loglevel)
 
     # create file handler which logs messages

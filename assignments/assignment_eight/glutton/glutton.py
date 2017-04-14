@@ -12,7 +12,7 @@ import re
 import sys
 import logging
 
-from threading import Thread
+from threading import Thread, Lock
 from queue import Queue
 
 try:
@@ -59,30 +59,54 @@ class Chef():
                     print("[*] Fetching new URIs")
 
         if self.fetch_new_uris or len(self.feed_uris) != 100:
-            self.get_random_uris()
+            print("[*] Fetching new blog URIs")
+            self.multitask(self.get_random_uris)
             self.write_blog_uris()
 
-            self.multitask(self.get_feed_uris)
+            #  Because of multiprocessing list by be over 100
+            print("[*] Threads entered {} URIs".format(len(self.blog_uris)))
+            self.blog_uris = self.blog_uris[:100]
+            print("[*] Limited to {} blog URIs".format(len(self.blog_uris)))
+
+            print("[*] Parsing new feed URIs")
+            self.multitask_queue(self.get_feed_uris)
             self.write_feed_uris()
+        else:
+            print("[*] Found correct amount of data")
 
-        glutton = Glutton(self.n_threads, self.feed_uris)
-        glutton.run()
+        return self.feed_uris
 
-    def multitask(self, function, *args, **kwargs):
+    def multitask(self, function):
+        """ Variable function multiprocessing.
+
+        """
+        workers = []
+        for thread_id in range(self.n_threads):
+            worker = Thread(target=function,
+                            args=(thread_id,))
+            worker.setDaemon(True)
+            workers.append(worker)
+            worker.start()
+
+        for worker in workers:
+            worker.join()
+
+    def multitask_queue(self, function):
         """ Variable function multiprocessing.
 
         """
         queue = Queue()
+        lock = Lock()
         for thread_id in range(self.n_threads):
             worker = Thread(target=function,
-                            args=(thread_id, queue, args, kwargs))
+                            args=(thread_id, queue, lock))
             worker.setDaemon(True)
             worker.start()
         for uri in self.blog_uris:
             queue.put(uri)
         queue.join()
 
-    def get_random_uris(self):
+    def get_random_uris(self, thread_id):
         """ Fetch n random blog URIs.
 
         """
@@ -96,14 +120,14 @@ class Chef():
 
         while len(self.blog_uris) < 100:
             try:
-                request_uri = ('http://www.blogger.com/next-blog?navBar=true&bl'
-                               'ogID=3471633091411211117')
+                request_uri = ('https://www.blogger.com/next-blog?navBar=true&'
+                               'blogID=4117341923751897912')
                 response = get_response(request_uri)
                 if response is not None:
                     self.blog_uris.append(response.url)
                     self.blog_uris = list(set(self.blog_uris))
-                    print("[*] Collected {} blog URIs"
-                          .format(len(self.blog_uris)))
+                    print("[*] Thread {} Collected blog URI {}"
+                          .format(thread_id, len(self.blog_uris)))
             except requests.exceptions.RequestException as error:
                 _logger.warning('[*] Request Failed\n{}'.format(error))
 
@@ -128,36 +152,60 @@ class Chef():
             for line in self.blog_uris:
                 outfile.write("{}\n".format(line))
 
-    def get_feed_uris(self):
+    def get_feed_uris(self, thread_id, queue, uri_lock):
         """ Parse feed URIs out of HTML pages.
 
         """
         _logger.info("Getting blog feed URIs")
 
-        for uri in self.blog_uris:
+        while True:
 
-            print("[*] Looking for feed URI for {}...".format(uri))
+            uri = queue.get()
+
             _logger.debug("Getting RSS/Atom feed URI from {}".format(uri))
-            response = get_response(uri)
-            html = response.html
+            response = get_response(uri, tries=10, tolerant=True)
+            if response is None:
+                print("[*] Bad URI {} Aborting".format(uri) + ' <' + '-' * 42)
+                sys.exit(1)
+
+            html = response.text
 
             try:
                 soup = bs(html, 'lxml')
             except RuntimeError as error:
+                print("[*] WARNING: Beautiful soup failed parsing \
+                      {} with error:\n{}".format(uri, error))
                 _logger.warning("[*] BeautifulSoup failed parsing \
-                                file {} with error:\n{}".format(uri, error))
+                                {} with error:\n{}".format(uri, error))
 
-            feed_rss_uri = soup.find('link', type='application/rss+xml')
-            feed_atom_uri = soup.find('link', type='application/atom+xml')
-            if feed_rss_uri is not '':
+            try:
+                feed_rss_uri = soup.find('link',
+                                         type='application/rss+xml')['href']
+                feed_atom_uri = soup.find('link',
+                                          type='application/atom+xml')['href']
+            except TypeError as error:
+                print("[*] LOOK: {} is not NoneType!".format(response))
+                print("[*] LOOK: Neither are {} or {}!"
+                      .format(feed_rss_uri, feed_atom_uri))
+                print("[*] ERROR: {}".format(error))
+
+            if feed_rss_uri != '':
                 _logger.debug("Adding RSS URI {}".format(feed_rss_uri))
                 self.feed_uris.append(feed_rss_uri)
-            elif feed_atom_uri is not '':
+                with uri_lock:
+                    print("[*] Thread {} found feed URI {}"
+                          .format(thread_id, len(self.feed_uris)))
+            elif feed_atom_uri != '':
                 _logger.debug("Adding Atom URI {}".format(feed_atom_uri))
-                self.feed_uris.append(feed_atom_uri)
+                with uri_lock:
+                    self.feed_uris.append(feed_atom_uri)
+                    print("[*] Thread {} found feed URI {}"
+                          .format(thread_id, len(self.feed_uris)))
             else:
                 _logger.warning("Failed to find feed URI for {}".format(uri))
                 print("[*] Failed to find feed URI for {}...".format(uri))
+
+            queue.task_done()
 
     def read_feed_uris(self):
         """ Read feed URIs from file.
@@ -182,10 +230,13 @@ class Glutton():
     """ I eat the blog data.
 
     """
-    def __init__(self, n_threads, uris):
+    def __init__(self, n_threads, uris, outfile):
+        self.outfile = outfile
         self.n_threads = n_threads
         self.uris = uris
         self.uris_processed = 0
+        self.word_counts = {}        #  Number of times a word appears in a blog
+        self.appearances = {}        #  Number of blogs a word appears in
 
     def run(self):
         """ The Gluttons main loop.
@@ -200,7 +251,30 @@ class Glutton():
             _logger.info("[*] Spinning up with {} thread"
                          .format(self.n_threads))
 
-        self.multitask(self.process_uri)
+        #  Process the feeds to get the wordcounts
+        self.multitask(self.process_feed)
+
+        #  stop-word detection
+        wordlist = []
+        for word, blog_count in self.appearences.items():
+            frac = float(blog_count) / len(self.feed_uris)
+            if frac > 0.1 and frac < 0.5:
+                wordlist.append(word)
+
+        print("[*] Saving the data")
+        with open(self.outfile, 'w') as out:
+            out.write('Blog')
+            for word in wordlist:
+                out.write(',{}'.format(word))
+            out.write('\n')
+            for blog, word_count in self.word_counts.items():
+                out.write(blog)
+                for word in wordlist:
+                    if word in word_count:
+                        out.write(',{}'.format(word_count[word]))
+                    else:
+                        out.write(' 0')
+            out.write('\n')
 
     def multitask(self, function, *args, **kwargs):
         """ Variable function multiprocessing.
@@ -216,15 +290,20 @@ class Glutton():
             queue.put(uri)
         queue.join()
 
-    def process_uri(self, thread_id, queue, *args, **kwargs):
-        """ Process URIs.
+    def process_feed(self, thread_id, queue, *args, **kwargs):
+        """ Process a RSS/Atom feed.
 
         """
         while True:
             uri = queue.get()
             _logger.info("Thread {} Processing URI {}".format(thread_id,
                                                               uri))
-            self.get_word_counts(thread_id, uri)
+            (title, word_count) = self.get_word_counts(thread_id, uri)
+            self.word_counts[title] = word_count
+            for word, count in word_count.items():
+                self.appearances.setdefault(word, 0)
+                if count > 1:
+                    self.appearances[word] += 1
 
             self.uris_processed += 1
             print("[*] Processed URI number {}".format(self.uris_processed))
@@ -236,30 +315,46 @@ class Glutton():
         """
         feed_dict = feedparser.parse(uri)
         _logger.debug("{}".format(feed_dict.feed))
-        word_counts = {}
+        word_count = {}
 
-        for entry in feed_dict.entries:
-            _logger.debug("Thread {} Processing blog entry {}"
-                          .format(thread_id, entry.title))
-            if 'summary' in entry:
-                summary = entry.summary
-            else:
-                summary = entry.description
+        page = 1
+        entries = feed_dict.entries
 
-            words = self.get_words(thread_id, uri,
-                                   (entry.title + ' ' + summary))
-            for word in words:
-                _logger.debug("Thread {} found instance of word {} in {}"
-                              .format(thread_id, word, entry.title))
-                word_counts.setdefault(word, 0)
-                word_counts[word] += 1
+        while entries:
+
+            print("[**] Processing page {} for {}"
+                  .format(page, feed_dict.feed.title))
+
+            for entry in entries:
+
+                _logger.debug("Thread {} Processing blog entry {}/100"
+                              .format(thread_id, entry.title))
+                if 'summary' in entry:
+                    summary = entry.summary
+                else:
+                    summary = entry.description
+
+                words = self.get_words(thread_id, uri,
+                                       (entry.title + ' ' + summary))
+                for word in words:
+                    _logger.debug("Found word: {}".format(word))
+                    word_count.setdefault(word, 0)
+                    word_count[word] += 1
+
+            entries = []
+            for link in feed_dict.feed.links:
+                # Get next set of blog entries
+                if link['rel'] == 'next':
+                    feed_dict = feedparser.parse(link['href'])
+                    entries = feed_dict.entries
+                    page += 1
 
         try:
             feed_dict.feed.title
         except AttributeError as error:
             _logger.warning("URI {} has no blog title\n{}".format(uri, error))
 
-        return(getattr(feed_dict.feed, 'title', 'Unknown'), word_counts)
+        return (getattr(feed_dict.feed, 'title', 'Unknown'), word_count)
 
     def get_words(self, thread_id, uri, html):
         """ Parse a HTML document for all visible text
@@ -273,21 +368,25 @@ class Glutton():
             soup = bs(html, 'lxml')
         except RuntimeError as error:
             _logger.warning("[*] BeautifulSoup failed parsing \
-                            file {} with error:\n".format(uri, error))
+                            file {} with error:\n{}".format(uri, error))
 
         [s.extract() for s in soup(
-            ['style', 'script', '[document]', 'head', 'title'])]
+            ['style', 'script', '[document]'])]
         [s.extract() for s in soup() if re.match('<!--.*-->', str(s))]
-        visible_texts = soup.get_text()
+
+        text = (''.join(string.findAll(text=True))
+                for string in soup.findAll())
+        words = [(word.strip()).lower()
+                 for string in text
+                 for word in string.split()]
 
         _logger.debug("[*] Thread {} finished parsing {}"
                       .format(thread_id, uri))
 
-        _logger.debug(visible_texts)
-        return visible_texts
+        return words
 
 
-def get_response(uri, tries=5, tolerant=False):
+def get_response(uri, tries=1, tolerant=False):
     """ Fetch page
 
     """
