@@ -11,6 +11,7 @@ from __future__ import division, print_function, absolute_import
 import re
 import sys
 import logging
+import pickle
 
 from threading import Thread, Lock
 from queue import Queue
@@ -19,7 +20,12 @@ try:
     import feedparser
     import requests
     import validators
+    import progressbar
+    from progressbar import ProgressBar
+    from pandas import DataFrame
     from bs4 import BeautifulSoup as bs
+    import scipy.cluster.hierarchy as hc
+    import matplotlib.pyplot as plt
 except ImportError as error:
     print("[*] Error: {}".format(error))
     print("[*] Please run `pip install -r requrements.txt` "
@@ -43,7 +49,7 @@ class Chef():
         self.feed_uri_file = feed_uri_file
         self.feed_uris = []
 
-    def run(self):
+    def cook(self):
         """ Stack URIs in Queue to be processed.
 
         """
@@ -230,16 +236,22 @@ class Glutton():
     """ I eat the blog data.
 
     """
-    def __init__(self, n_threads, uris, outfile):
+    def __init__(self, n_threads, outfile, pickle_file, new_uris):
         self.outfile = outfile
         self.n_threads = n_threads
-        self.uris = uris
+        self.new_uris = new_uris
+        self.uris = []
         self.uris_processed = 0
-        self.word_counts = {}        #  Number of times a word appears in a blog
-        self.appearances = {}        #  Number of blogs a word appears in
+        self.word_counts = {}       # Number of times a word appears in a blog
+        self.appearances = {}       # Number of blogs a word appears in
+        # Pickle Storage
+        self.word_counts_data = pickle_file
+        self.appearances_data = '../data/appearances.pkl'
 
-    def run(self):
+    def eat(self, uris):
         """ The Gluttons main loop.
+
+        Take all of the cooked up URIs and eat them.
 
         """
         if self.n_threads > 1:
@@ -251,30 +263,55 @@ class Glutton():
             _logger.info("[*] Spinning up with {} thread"
                          .format(self.n_threads))
 
-        #  Process the feeds to get the wordcounts
-        self.multitask(self.process_feed)
+        self.uris = uris
+
+        if not self.new_uris:
+            self.word_counts = get_pickled(self.word_counts_data)
+            self.appearances = get_pickled(self.appearances_data)
+
+        if len(self.word_counts) != 100 or len(self.appearances) != 100:
+
+            print("[*] Could not find correct pickle data.")
+
+            get_data = ask_yes_no("Gather new data overwriting pickle data?")
+            if not get_data:
+                cont = ask_yes_no("Continue anyway?")
+                if not cont:
+                    print("[*] Aborting...")
+                    sys.exit(0)
+            else:
+                # Process the blog feeds to get the word count data
+                self.multitask(self.process_feed)
+
+                # Pickle
+                print("[*] Pickling new data")
+                with open(self.word_counts_data, 'wb') as word_file:
+                    pickle.dump(self.word_counts, word_file)
+                with open(self.appearances_data, 'wb') as appearance_file:
+                    pickle.dump(self.appearances, appearance_file)
 
         #  stop-word detection
         wordlist = []
-        for word, blog_count in self.appearences.items():
-            frac = float(blog_count) / len(self.feed_uris)
+        for word, blog_count in self.appearances.items():
+            frac = float(blog_count) / len(self.uris)
             if frac > 0.1 and frac < 0.5:
                 wordlist.append(word)
 
+        # Save to file
         print("[*] Saving the data")
         with open(self.outfile, 'w') as out:
             out.write('Blog')
             for word in wordlist:
-                out.write(',{}'.format(word))
+                out.write('\t{}'.format(word))
             out.write('\n')
             for blog, word_count in self.word_counts.items():
                 out.write(blog)
                 for word in wordlist:
                     if word in word_count:
-                        out.write(',{}'.format(word_count[word]))
+                        out.write('\t{}'.format(word_count[word]))
                     else:
-                        out.write(' 0')
-            out.write('\n')
+                        out.write('\t0')
+                out.write('\n')
 
     def multitask(self, function, *args, **kwargs):
         """ Variable function multiprocessing.
@@ -378,12 +415,89 @@ class Glutton():
                 for string in soup.findAll())
         words = [(word.strip()).lower()
                  for string in text
-                 for word in string.split()]
+                 for word in string.split()
+                 if word.isalpha()]
+
+        # Remove any empty strings
+        words = list(filter(len, words))
 
         _logger.debug("[*] Thread {} finished parsing {}"
                       .format(thread_id, uri))
 
         return words
+
+
+class Mathematician():
+    """ Does math stuff.
+
+    """
+    def __init__(self, blog_data_file):
+        self.blog_data_file = blog_data_file
+        self.blog_data_dict = self.read_blog_data()
+        self.blog_dataframe = self.create_blog_dataframe()
+
+    def read_blog_data(self):
+        """ Unpickle the blog data back into a dictionary.
+
+        """
+        return get_pickled(self.blog_data_file)
+
+    def create_blog_dataframe(self):
+        """ Transform the blog data from a dictionary into a Pandas dataframe.
+
+        Pandas will create it with blog entries as columns and words
+        as rows so it is also transformed.
+
+        """
+        df = DataFrame(self.blog_data_dict)
+        return df.fillna(0)
+
+
+class Artist():
+    """ Draws things.
+
+    """
+    def __init__(self, ascii_out, jpeg_out):
+        self.ascii_out = ascii_out
+        self.jpeg_out = jpeg_out
+
+    def scipy_dendrogram(self, dataframe):
+        """ Create a dendrogram with SciPy.
+
+        To sketch the dendrogram the matrix is first transposed, then we
+        take the correlation between the resulting transposed matrix
+        rows. It is required that the matrix passed to
+        ``hc.distance.squareform()`` is symmetric and the transposition
+        also allows for that. Then we grab the linkage.
+
+        The resulting sketch is passed to the SciPy dendrogram graphing
+        funciton.
+
+        Do not run this on the given blog data unless you have at least
+        20GB of ram.
+
+        """
+        print("[*] Sketching a dendrogram...\n")
+
+        try:
+            dataframe = dataframe.T
+            corr = dataframe.corr()
+            condensed_corr = hc.distance.squareform(corr)
+            z = hc.linkage(condensed_corr, method='average')
+        except ValueError as error:
+            # ValueError: Distance matrix 'X' diagonal must be zero.
+            print("[*] It blew up again... {}".format(error))
+            sys.exit(1)
+
+        print("[*] Drawing a dendrogram...")
+        dendrogram = hc.dendrogram(z, labels=corr.columns)
+        plt.show()
+
+    def jpeg_dendrogram(self, dataframe):
+        """ Output a JPEG dendrogram.
+
+        """
+        return 1-1
 
 
 def get_response(uri, tries=1, tolerant=False):
@@ -438,3 +552,50 @@ def normalize_uri(uri):
         uri = uri.replace(' ', '%20')
 
     return uri
+
+
+def ask_yes_no(question, default="yes"):
+    """ Ask a yes/no question via input() and return the answer.
+
+    "question" is a string presented to the user.
+    "default" is the presumed most common answer, if the user hits
+        <enter> it must be "yes", "no." If default is None then an
+        answer is required to be enterd by the user.
+
+    returns (bool): True for "yes" and False for "no"
+
+    """
+    valid_answers = {"yes": True, "y": True, "no": False, "n": False}
+
+    if default is None:
+        prompt = ' [y/n] '
+    elif default == 'yes':
+        prompt = ' [Y/n] '
+    elif default == 'no':
+        prompt = ' [y/N] '
+    else:
+        raise ValueError("invalid default answer: {}".format(default))
+
+    while True:
+        print("[*] " + question + prompt, end='')
+        answer = input().lower().strip()
+        if default is not None and answer == '':
+            return valid_answers[default]
+        elif answer in valid_answers:
+            return valid_answers[answer]
+        else:
+            print("[*] Please respond with either ('yes'/'y') or ('no'/'n') ")
+
+
+def get_pickled(pickle_file):
+    """ Retrieve and return pickled data.
+
+    """
+    try:
+        with open(pickle_file, 'rb') as datafile:
+            data = pickle.load(datafile)
+    except FileNotFoundError as error:
+        print("[*] Unable to find saved pickle file with {}".format(error))
+        return None
+
+    return data

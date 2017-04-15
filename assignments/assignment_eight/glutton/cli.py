@@ -13,7 +13,7 @@ import sys
 import logging
 import time
 
-from glutton import Chef, Glutton
+from glutton import Chef, Glutton, Mathematician, Artist
 
 __author__ = "Derek Goddeau"
 
@@ -30,16 +30,28 @@ def main(args):
 
     _logger.info("Starting main()")
     try:
-        # Find the data
+        #  Find the data
         chef = Chef(args.threads,
                     args.datafile,
                     args.feedfile,
                     args.new)
-        feed_uris = chef.run()
+        glutton = Glutton(args.threads,
+                          args.out,
+                          args.pickle,
+                          args.new)
 
-        # Eat the data
-        glutton = Glutton(args.threads, feed_uris, args.out)
-        glutton.run()
+        #  Cook up and eat the data
+        food = chef.cook()
+        glutton.eat(food)
+
+        #  Math the data
+        math_guy = Mathematician(args.pickle)
+
+        #  Draw the data
+        artist = Artist(args.ascii, args.jpeg)
+        artist.ascii_dendrogram(math_guy.blog_dataframe)
+
+        #  Math-Draw the data
     except KeyboardInterrupt:
         _logger.info("Recieved Keyboard Interrupt")
         print("[*] Keyboard Interrupt... Aborting")
@@ -93,6 +105,27 @@ def parse_args(args):
         type=str,
         default='../data/wordcount.dat',
         help="Where to store the wordcount data.",
+        action='store')
+    parser.add_argument(
+        '-p',
+        '--pickle',
+        type=str,
+        default='../data/word_counts.pkl',
+        help="Where to store the pickled word matrix.",
+        action='store')
+    parser.add_argument(
+        '-a',
+        '--ascii',
+        type=str,
+        default='../art/dendrogram.ascii',
+        help="Where to store the ASCII dendrogram.",
+        action='store')
+    parser.add_argument(
+        '-j',
+        '--jpeg',
+        type=str,
+        default='../art/dendrogram.jpeg',
+        help="Where to store the JPEG dendrogram.",
         action='store')
     parser.add_argument(
         '-n',

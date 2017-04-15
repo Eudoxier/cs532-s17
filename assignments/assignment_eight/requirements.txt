@@ -1,3 +1,7 @@
 feedparser
 requests
 validators
+matplotlib
+pandas
+scipy >= 0.19.0
+progressbar2

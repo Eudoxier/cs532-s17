@@ -2,11 +2,25 @@
 &nbsp;
 
 *   [Assignment Eight Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_eight.pdf)
-*   Notebooks
-  *   [Notebook](http://datenstrom.gitlab.io/cs532-s17/notebooks/.html)
 
 &nbsp;
 ## Create a blog-term matrix
+
+See the glutton program, the data is saved in the `data` folder both pickled and in ASCII.
+
+## 2.  Create an ASCII and JPEG dendrogram that clusters (i.e., HAC)
+
+The dendrograms are located in the `art` folder.
+
+## 3.  Cluster the blogs using K-Means, using k=5,10,20.
+
+*  **K = 5:** 5 Iterations
+*  **K = 10:** 7 Iterations
+*  **K = 20:** 3 Iterations
+
+## 4.  Use MDS to create a JPEG of the blogs
+
+This JPEG of the blogs is also located in the `art` folder. It took 3 iterations.
 
 -----------------------------------------------------------------------
 
