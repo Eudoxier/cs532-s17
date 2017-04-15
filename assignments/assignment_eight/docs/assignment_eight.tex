@@ -32,7 +32,9 @@
 
 \usepackage{amsmath}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{verbatim}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \project{CS 432 Web Science}
 \author{Derek Goddeau}
@@ -49,420 +51,92 @@
 
 
 
-%%%%%%%%%%%%
-% Facebook %
-%%%%%%%%%%%%
-\section{Find a substitute you}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create Blog Term Matrix %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Create a blog-term matrix}
 
-Because of the structure of the data I chose to do the entire assignment in R. It is much easier to deal with so many data frames with R as long as there is no need for anything other than data manipulation. After reading each dataset into a data frame with the same name I took a subset of \code{u.user} for users similar to me.
+To create the blog-term matrix I use the first $396$ lines of the \code{glutton.py} program. To get the 98 random blog URIs use the \code{requests} package with a ``next blog" request in a loop. Then I use \code{beautifulsoup} to parse out the RSS or Atom feed URIs out of the resulting page, and I save both to files so they do not need to be fetched again on new runs unless wanted.
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{4em}
-\begin{minted}[fontfamily=tt]{R}
-df <- u.user[ u.user$age == 29
-             & u.user$gender == 'M'
-             & u.user$occupation == 'programmer', ]
-\end{minted}
-\vspace{4em}
-\end{minipage}
-
-\noindent
-This only resulted in two users.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{4em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-    \hline
-      & user.id & age & gender & occupation & zip.code\\
-    \hline
-    45 & 45 & 29 & M & programmer & 50233\\
-    \hline
-    222 & 222 & 29 & M & programmer & 27502\\
-    \hline
-\end{tabular}
-\vspace{4em}
-\end{minipage}
-
-\noindent
-But another try with \code{u.user\$occupation == \textquotesingle scientist\textquotesingle} got one more hit.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{4em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-    \hline
-      & user.id & age & gender & occupation & zip.code\\
-    \hline
-    483 & 483 & 29 & M & scientist & 43212\\
-    \hline
-\end{tabular}
-\vspace{4em}
-\end{minipage}
-
-
-Then for each of the three resulting users I created a list of all of their ratings by subsetting the \code{u.data} data frame and then matching each item ID to each movie ID and keeping the movie names.
+To process each feed i use a while loop that iterates over all blog entries in the page and then attempts to get the next page, if an empty list is returned then the loop exits and returns the gathered data for the blog.
 
 \begin{minipage}{\linewidth} % prevent splitting between pages
 \vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-u45.data <- u.data[ u.data$user.id == 45, ][c("item.id", "rating")]
-u45.data$item.id <- u.item$movie.title[match(u45.data$item.id, 
-                                             u.item$movie.id
-                                            )
-                                      ]
-\end{minted}
-\vspace{2em}
-\end{minipage}
+\begin{minted}[fontfamily=tt]{python}
+while entries:
 
-\noindent
-This resulted in a data frame as like the following table.
+    for entry in entries:
+        .
+        .
+        .
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-        item.id & rating\\
-        \hline
-        Birdcage, The (1996) & 4\\
-        \hline
-        Mystery Science Theater 3000: The Movie (1996) & 5\\
-        \hline
-        Twister (1996) & 4\\
-        \hline
-        Dragonheart (1996) & 3\\
-        \hline
-        Godfather, The (1972) & 5\\
-        \hline
-        Independence Day (ID4) (1996) & 4\\
-        \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-From here I counted each good rate and bad rate for each of the three users. I generated a score for each by subtracting the total number of bad rates from the total number of good rates. None had a good score, but User 45 and User 222 were close and User 222 got disqualified by giving The Fifth Element a bad rating. The chosen substitute me, User 45, ended up with a score of $-3$ with three more ratings I considered bad than good. So not very representative, the biggest outliers were rating Twister a $4$ and Willy Wonka and the Chocolate Factory $2$.
-
-\section{Find top and bottom five correlated users to you}
-
-To find correlations in the data I used the \code{cor()} function throughout. First I gathered a list of data frames for each user's ratings.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-user.list <- list()
-for(n in 1:dim(u.user)) {
-        user.list[[n]] <- u.data[ u.data$user.id == n, ][c("item.id", "rating")]
-}
-\end{minted}
-\vspace{2em}
-\end{minipage}
-
-Then I define the \code{cordf} function which correlates two dataframes passed to it and use \code{sapply()} over the list to compare each user to the subsitute me.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-cordf <- function(df.one, df.two) {
-    df.one <- df.one[ df.one$item.id %in% df.two$item.id, ]
-    df.two <- df.two[ df.two$item.id %in% df.one$item.id, ]
-    df.one <- df.one[order(df.one[,1]), ]
-    df.two <- df.two[order(df.two[,1]), ]
-
-    # pearson is the default
-    cor(df.one$rating, df.two$rating)
-}
-
-cors <- list()
-cors <- sapply(user.list, cordf, df.one=sub.me)
+    entries = []
+    for link in feed_dict.feed.links:
+        if link['rel'] == 'next':
+        feed_dict = feedparser.parse(link['href'])
+        entries = feed_dict.entries
 \end{minted}
 \vspace{2em}
 \end{minipage}
 
 \newpage
-I use the same exact pattern to create a vector of the number of items each correlation calculation was performed with and merge them into a single data frame, and removing substitute me from the data. The \code{cor()} function requires at least three data points to calculate the correlation but there was a large number of ties for most and least correlated, and with only three data points it is possible that some were lucky collisions. I filtered the data frame removing all users that did not have more than $5$ movie ratings in common with substitute me.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-cor.data.filtered <- cor.data[cor.data$incommon > 5, ]
-\end{minted}
-\vspace{2em}
-\end{minipage}
-
 \noindent
-From here the top five correlated users can easily be found using \code{order()}.
+While processing each entry \code{beautifulsoup} is used to get the words from each entry, the code is very similar to code from a previous assignment.
 
 \begin{minipage}{\linewidth} % prevent splitting between pages
 \vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-head(cor.data.filtered[ order(cor.data.filtered[,1], decreasing=TRUE), ])
+\begin{minted}[fontfamily=tt]{python}
+soup = bs(html, 'lxml')
+
+[s.extract() for s in soup(
+['style', 'script', '[document]'])]
+
+text = (''.join(string.findAll(text=True))
+        for string in soup.findAll())
+
+words = [(word.strip()).lower()
+         for string in text
+         for word in string.split()
+         if word.isalpha()]
+
+# Remove any empty strings, just in case
+words = list(filter(len, words))
 \end{minted}
 \vspace{2em}
 \end{minipage}
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
+The data is then pickled and saved so that this step too can be skipped on future runs if desired. But I also dump the data to plain text using code very similar to the PCI code as requested.
+
+\section{Create ASCII and JPEG dendograms}
+
+The last \code{~200} lines of code in \code{glutton.py} were an attempt to use ``real" packages instead of the PCI to complete the rest. It uses \code{pandas} to read the pickled data into a data frame and then attempts to process the data using \code{scipy.cluster.hierarchy}. First I transform the data frame and then get the correlation between the rows, and then condense the matrix. Unfortunately I was unable to get it to work, after eating $\tfrac{3}{4}$ of my 32GB of RAM it throws \code{ValueError: Distance matrix 'X' diagonal must be zero}. Out of time I resorted to following essentially the directions from the slides.
+
+\includegraphics[width=\textwidth, height=\textheight]{../art/blogclust.jpg}
+
+\section{Cluster the blogs using K-Means}
+
+I really wanted to perform this using SciPy also but it just isn't working for me. With the PCI code I got the following.
+
+\begin{table}[h]
 \centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-          & correlation & incommon\\
-        \hline
-        728 & 1.0000000 & 6\\
-        \hline
-        210 & 0.9338430 & 12\\
-        \hline
-        871 & 0.9284767 & 6\\
-        \hline
-        409 & 0.8931977 & 6\\
-        \hline
-        71 & 0.8876254 & 7\\
-        \hline
-        610 & 0.8750000 & 6\\
-        \hline
+\begin{tabular}{|c|c|}
+\hline
+\textbf{K} & \textbf{Iterations} \\ \hline
+5          & 5                   \\ \hline
+10         & 7                   \\ \hline
+20         & 3                   \\ \hline
 \end{tabular}
-\vspace{2em}
-\end{minipage}
+\end{table}
 
+\section{Use MDS to create a JPEG of the blogs}
 
-\newpage
-Also, the least five correlated.
+It only ran for three iterations.
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-head(cor.data.filtered[ order(cor.data.filtered[,1], decreasing=FALSE), ])
-\end{minted}
-\vspace{2em}
-\end{minipage}
+\includegraphics[width=\textwidth]{../art/blogs2d.jpg}
 
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-          & correlation & incommon\\
-        \hline
-        647 & -0.8783101 & 6\\
-        \hline
-        196 & -0.8212037 & 8\\
-        \hline
-        217 & -0.7083333 & 7\\
-        \hline
-        677 & -0.5519432 & 8\\
-        \hline
-        199 & -0.5510141 & 6\\
-        \hline
-        636 & -0.5477226 & 7\\
-        \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
+\section{Blog URIs}
 
+\verbatiminput{../data/uris.dat}
 
-\newpage
-\section{Get your top and bottom 5 recommendations}
-
-To get the top and bottom five recommendations I start by creating a correlation matrix for all of the movies. 
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-# Slice only the genre data
-item.data <- u.item[c(-1:-5)]
-rownames <- rownames(item.data)
-
-# Invert and replace rownames
-t.item.data <- as.data.frame(t(item.data))
-colnames(t.item.data) <- rownames
-item.cors <- cor(t.item.data)
-\end{minted}
-\vspace{2em}
-\end{minipage}
-
-This results in a symmetric matrix so it is true that,
-
-\begin{align*}
-    A\:&=\:A^{\mathrm{T}}\\
-    A_{ij}\:&=\:A_{ji}
-\end{align*}
-
-I then create $6$ helper functions which consist of \code{top.5.items}, \code{top.5.users}, \code{top.5.user.items}, and their bottom counterparts. each one returns only a numeric vector of item or user IDs.
-
-\newpage
-The helper functions are used in the \code{get.ratings} function to return a data frame with item IDs and a score. To calculate the score first the top five most correlated users to substitue me are found using the \code{top.5.users} function and each of their top five movies are found. Then I get the five most correlated movies to each of their favorite movies. The item IDs for each is added to vector including duplicates.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\begin{minted}[fontfamily=tt]{R}
-# Top 5's favorites
-top.users <- top.5.user()
-item.id <- unlist(lapply(top.users, top.5.user.items, target.id=u.id))
-
-# Get movies similar to my top 5 users top 5
-item.id <- append(item.id,
-                      unlist(lapply(unique(item.id), top.5.items, 
-                                    u.id=45, 
-                                    i.cors=item.cors
-                                   )
-                            )
-                     )
-\end{minted}
-\vspace{2em}
-\end{minipage}
-    
-Then I get my top five but only add items similar to the vector. Last the items in the vector are counted and the results returned as a data frame using \code{as.data.frame(table(item.id))}.
-
-\newpage
-Top 5 movie recommendations:
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-    \hline
-      & item.id & Freq.x & Freq.y & total & movie.title\\
-    \hline
-    1 & 159 & 3 & 0 & 3 & Basic Instinct (1992)\\
-    \hline
-    2 & 204 & 3 & 0 & 3 & Back to the Future (1985)\\
-    \hline
-    3 & 291 & 3 & 0 & 3 & Absolute Power (1997)\\
-    \hline
-    4 & 479 & 3 & 0 & 3 & Vertigo (1958)\\
-    \hline
-    5 & 56 & 3 & 0 & 3 & Pulp Fiction (1994)\\
-    \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-Bottom 5 movie recommendations:
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-    \hline
-      & item.id & Freq.x & Freq.y & total & movie.title\\
-    \hline
-    1 & 26 & 3 & 8 & -5 & Brothers McMullen, The (1995)\\
-    \hline
-    2 & 40 & 3 & 8 & -5 & To Wong Foo, Thanks for Everything! (1995)\\
-    \hline
-    3 & 41 & 3 & 8 & -5 & Billy Madison (1995)\\
-    \hline
-    4 & 42 & 3 & 8 & -5 & Clerks (1994)\\
-    \hline
-    5 & 67 & 2 & 6 & -4 & Ace Ventura: Pet Detective (1994)\\
-    \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-
-
-\newpage
-\section{Get films related to favorite and least favorite}
-
-My favorite movie on the list is \emph{The Fifth Elemet} and the most correlated movies to it are:
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-        correlation & title\\
-        \hline
-        1.00000000 & Timecop\\
-        \hline
-        1.00000000 & No Escape\\
-        \hline
-        1.00000000 & Highlander III\\
-        \hline
-        1.00000000 & Barb Wire\\
-        \hline
-        1.00000000 & Demolition Man\\
-        \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-\noindent
-I would say the only one totally out of place is \emph{Barb Wire}. The bottom 5 are:
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-        correlation & title\\
-        \hline
-        -0.204980 & Space Jam\\
-        \hline
-        -0.204980 & Hercules\\
-        \hline
-        -0.177123 & Legends of the Fall\\
-        \hline
-        -0.177123 & Professional, The\\
-        \hline
-        -0.177123 & Bound\\
-        \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-Besides \emph{Space Jam} this is pretty accurate.
-
-\newpage
-\noindent
-My least favorite film from the list is \emph{Mystery Science Theater 3000}:
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-        correlation & title\\
-        \hline
-        1.00000000 & Sleeper\\
-        \hline
-        1.00000000 & Delicatessen\\
-        \hline
-        1.00000000 & Back to the Future\\
-        \hline
-        1.00000000 & Coneheads\\
-        \hline
-        1.00000000 & Junior\\
-        \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-\noindent
-I have no idea about \emph{Sleeper}, \emph{Delicatessen}, or \emph{Junior}, and \emph{Back to the Future} is definetely not similar. \emph{Coneheads} is spot on but that shows how this isn't always a good metric because I do like that movie.
-
-\begin{minipage}{\linewidth} % prevent splitting between pages
-\vspace{2em}
-\centering
-\begin{tabular}{|l|r|r|l|l|l|}
-        \hline
-        correlation & title\\
-        \hline
-        -0.204980 & Diva\\
-        \hline
-        -0.204980 & Pagemaster, The\\
-        \hline
-        -0.177123 & Legends of the Fall\\
-        \hline
-        -0.177123 & Professional, The\\
-        \hline
-        -0.177123 & Bound\\
-        \hline
-\end{tabular}
-\vspace{2em}
-\end{minipage}
-
-I have no idea about \emph{Diva} or \emph{The Pagemaster}, but they do not sound like they are similar.
 
 \end{document}
