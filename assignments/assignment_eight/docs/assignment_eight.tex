@@ -107,6 +107,7 @@ words = list(filter(len, words))
 
 The data is then pickled and saved so that this step too can be skipped on future runs if desired. But I also dump the data to plain text using code very similar to the PCI code as requested.
 
+\newpage
 \section{Create ASCII and JPEG dendograms}
 
 The last \code{~200} lines of code in \code{glutton.py} were an attempt to use ``real" packages instead of the PCI to complete the rest. It uses \code{pandas} to read the pickled data into a data frame and then attempts to process the data using \code{scipy.cluster.hierarchy}. First I transform the data frame and then get the correlation between the rows, and then condense the matrix. Unfortunately I was unable to get it to work, after eating $\tfrac{3}{4}$ of my 32GB of RAM it throws \code{ValueError: Distance matrix 'X' diagonal must be zero}. Out of time I resorted to following essentially the directions from the slides.
@@ -128,12 +129,14 @@ I really wanted to perform this using SciPy also but it just isn't working for m
 \end{tabular}
 \end{table}
 
+\newpage
 \section{Use MDS to create a JPEG of the blogs}
 
 It only ran for three iterations.
 
 \includegraphics[width=\textwidth]{../art/blogs2d.jpg}
 
+\newpage
 \section{Blog URIs}
 
 \verbatiminput{../data/uris.dat}
