@@ -1,0 +1,105 @@
+# Assignment Nine
+&nbsp;
+
+*   [Assignment Nine Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_nine.pdf)
+
+&nbsp;
+
+The feed data is fetched using the code in the `glutton` directory which is very similar to the code from assignment eight. The raw XML data is stored in `data/raw_xml` and the truth values for the data are stored in YAML format in `truth.yml` and the code in `train_validate` processes the data and outputs the tables to `train_validate/tables/`.
+
+-----------------------------------------------------------------------
+
+&nbsp;
+# Assignment #9
+Due: 11:59pm May 1 2017
+
+Support your answer: include all relevant discussion, assumptions,
+examples, etc.
+
+## 1. Choose a blog
+
+Choose a blog or a newsfeed (or something similar with an Atom
+or RSS feed).  Every student should do a unique feed, so please
+"claim" the feed on the class email list (first come, first served).
+It should be on a topic or topics of which you are qualified to
+provide classification training data.  Find something with at least
+100 entries (or items if RSS).
+
+Create between four and eight different categories for the entries
+in the feed:
+
+examples: 
+
+	work, class, family, news, deals
+
+	liberal, conservative, moderate, libertarian
+
+	sports, local, financial, national, international, entertainment
+
+	metal, electronic, ambient, folk, hip-hop, pop
+
+Download and process the pages of the feed as per the week 12 
+class slides.
+
+Be sure to upload the raw data (Atom or RSS) to your github account.
+
+Create a table with 100 rows, like:
+
+title			classification
+-----			--------------
+Ric Ocasek -		80s 
+"Something To Grab 
+For" (forgotten song)	
+
+Weezer - "Pinkerton" 	alternative
+(LP Review)
+
+Schon & Hammer - 	80s
+"No More Lies" 
+(forgotten song)
+
+etc.  This is your "ground truth" (or "gold standard") data.
+
+## 2. Train the Fisher classifier and run it 50/50
+
+Train the Fisher classifier on the first 50 entries (the "training set"),
+then use the classifier to guess the classification of the next 50 entries
+(the "test set").
+
+Create a table with 50 rows, like
+
+title			actual		predicted
+-----			------		---------
+Donnie Iris - 		80s		80s
+"Ah! Leah!" 
+(Forgotten Song)	
+
+Black Sabbath - 	metal		metal
+"Vol. 4" (LP Review)
+
+Catherine Wheel - 	alternative	metal
+"Ferment" (LP Review)
+
+Assess the performance of your classifier in each of your categories
+by computing precision, recall, and F-measure.  Use the "macro-averaged"
+label based method, as per:
+[this post](http://stats.stackexchange.com/questions/21551/how-to-compute-precision-recall-for-multiclass-multilabel-classification)
+
+For example, if you have 5 categories (e.g., 80s, metal,
+alternative, electronic, cover), you will compute 
+precision, recall, and F-measure for each category,
+and then compute the average across the 5 categories.
+
+## 3. Train the Fisher classifier and run it 90/10
+
+Repeat question #2, but use the first 90 entries to train your
+classifier and the last 10 entries for testing.
+
+===================================================================
+========The questions below is for 5 points extra credit===========
+===================================================================
+
+## 4. Train the Fisher classifier and run it 90/10 for each combination
+
+Rerun question 3, but with "10-fold cross validation".  What
+was the change, if any, in precision and recall (and thus F-Measure)?

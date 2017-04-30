@@ -1,0 +1,43 @@
+\ProvidesPackage{myTitle}
+\RequirePackage{graphicx}
+
+% Date formats
+\newcommand{\todayI}{\the\year"~\leadingzero{\month}"~\leadingzero{\day}}    % YYYY-MM-DD
+\newcommand{\todayII}{\the\year\leadingzero{\month}\leadingzero{\day}}       % YYYYMMDD
+\newcommand{\todayIII}{\leadingzero{\day}/\leadingzero{\month}/\the\year}    % DD/MM/YYYY
+\newcommand{\todayIV}{\leadingzero{\day}.\leadingzero{\month}.\the\year}     % DD.MM.YYYY
+\newcommand{\todayV}{\the\day.\the\month.\the\year}                          % D.M.YYYY
+\newcommand{\todayVI}{\the\day.~\monthword{\the\month}. \the\year}           % D. MMM. YYYY
+\newcommand{\todayVII}{\leadingzero{\day}.~\monthword{\the\month}. \the\year}% DD. MMM. YYYY
+
+
+\newcommand*{\project}[1]{\gdef\@project{#1}%
+}
+\newcommand*{\@project}{Assignment One}
+\newcommand*{\supervisor}[1]{\gdef\@supervisor{#1}%
+}
+\newcommand*{\@supervisor}{\texttt{\string\supervisor} currently not set. Please fix this.}
+\renewcommand*{\maketitle}{%
+\begin{titlepage}
+{\raggedleft%
+    \centering
+    \includegraphics[height=180px]{dia/title_page_icon.png}\par
+}\vspace{1cm}
+    \centering
+{\scshape\LARGE Old Dominion University\par}
+\vspace{1cm}
+{\scshape\Large\@project\unskip\strut\par}
+\vspace{1.5cm}
+{\huge\bfseries\@title\unskip\strut\par}
+\vspace{2cm}
+{\Large\itshape\@author\unskip\strut\par}
+\vfill
+Professor\par
+\@supervisor\unskip\strut\par
+
+\vfill
+
+{\large \today\par}
+\end{titlepage}
+}
+\endinput

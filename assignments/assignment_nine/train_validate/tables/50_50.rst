@@ -1,0 +1,67 @@
+=========================================  ===========  =========
+Title                                      Predicted    Actual
+=========================================  ===========  =========
+Jumping to a Buffer                        commands     commands
+Handy Shell Pattern                        off-topic    admin
+Why Ruby is My Favorite Language           off-topic    off-topic
+Vimgrep Without Object Names               off-topic    commands
+Repeat Last Substitution                   commands     commands
+Ignore the Modified Flag                   off-topic    vimrc
+Reader Question: MMM Mode?                 off-topic    off-topic
+Basic Recovery                             admin        commands
+More on Text States                        off-topic    commands
+Grab A Ruler                               off-topic    vimrc
+Indent From Normal Mode                    commands     commands
+Next and Previous Characters               commands     commands
+Converting Tabs to Spaces                  vimrc        vimrc
+AwesomeWM                                  off-topic    off-topic
+Types of Registers                         off-topic    commands
+Reload VIMRC                               admin        commands
+Reformat a Paragraph                       off-topic    commands
+Count Words                                commands     commands
+Recursively Replace Ctrl-M                 off-topic    admin
+Goodbye Daily Vim, Hello Emacs             off-topic    off-topic
+Indent From Insert                         off-topic    commands
+Removing Lines that Don't Match a Pattern  admin        commands
+Diffing From Inside Vim                    commands     commands
+Right = Left                               admin        commands
+Undo Levels                                admin        commands
+Whatprovides                               off-topic    admin
+Watching Memcached Traffic with TCPDump    off-topic    admin
+Generating Mock Userdata                   admin        off-topic
+Shift-Tab'ing                              admin        mappings
+Last Insert                                commands     commands
+Last Directory Visited                     admin        admin
+Swap Characters                            commands     commands
+Modelines                                  off-topic    vimrc
+Recursive Macros                           off-topic    commands
+Jump to Percent of File                    off-topic    commands
+Repeat Last Command Line                   commands     admin
+Wrap Git With Fugitive                     off-topic    plugins
+Vim Cookbook                               off-topic    off-topic
+Vim Gitgutter                              off-topic    plugins
+Finding and Replacing Unicode Characters   commands     admin
+Vim + Cygwin Improvements                  off-topic    admin
+Where I've Been                            off-topic    off-topic
+Vim Sugar                                  off-topic    mappings
+Vim to Postscript                          off-topic    plugins
+CTRL-V for Literal Characters              commands     commands
+Twistem.FM                                 off-topic    off-topic
+Easier Command Line Editing                admin        commands
+Removing Ctrl-M                            off-topic    commands
+Fun With Unicode ٩(●̮̮̃•̃)۶                    off-topic    commands
+SSH Remote Connections via Config          admin        admin
+Sensible Defaults with Vim-Sensible        plugins      plugins
+Share a Screen Session                     off-topic    admin
+The Golden Rules of Recursion              off-topic    off-topic
+bashreduce                                 off-topic    admin
+Insert Mode Shortcuts                      commands     commands
+Yank S-Exp                                 commands     commands
+Change Last, First to First Last           off-topic    commands
+Setting the Filetype                       admin        vimrc
+Gnome Terminal Tips                        off-topic    admin
+Delete to End of Page                      commands     commands
+Insert Register Contents                   commands     commands
+Quick Exits                                commands     commands
+Tab Buffer Browsing                        mappings     mappings
+=========================================  ===========  =========

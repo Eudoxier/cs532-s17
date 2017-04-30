@@ -1,0 +1,17 @@
+==============================  ===========  =========
+Title                           Predicted    Actual
+==============================  ===========  =========
+Share a Screen Session          off-topic    admin
+Insert Mode Shortcuts           commands     commands
+bashreduce                      off-topic    admin
+Goodbye Daily Vim, Hello Emacs  off-topic    off-topic
+Reader Question: MMM Mode?      off-topic    off-topic
+Count Words                     commands     commands
+Setting the Filetype            off-topic    vimrc
+Delete to End of Page           commands     commands
+Twistem.FM                      off-topic    off-topic
+Insert Register Contents        commands     commands
+The Golden Rules of Recursion   off-topic    off-topic
+Tab Buffer Browsing             mappings     mappings
+Recursive Macros                off-topic    commands
+==============================  ===========  =========

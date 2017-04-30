@@ -1,0 +1,22 @@
+\ProvidesPackage{myFooter}
+\RequirePackage{fancyhdr}
+\RequirePackage{lastpage}
+\RequirePackage{xcolor}
+\RequirePackage{myColors}
+
+\footskip=70pt
+\def\logo{\includegraphics[width=2cm]{dia/footer_icon.png}}
+\fancypagestyle{hacker}{
+    \fancyhf{\color{cello}}
+    \fancyfoot[L]{
+    \parbox[b]{\dimexpr\linewidth-2.5cm\relax}{\small \scshape\hfill Derek Goddeau (Datenstrom)\\
+    Page \thepage\ of \pageref{LastPage}\hfill Old Dominion University\\
+    {\color{cello}\rule{\dimexpr\linewidth\relax}{0.4pt}}\\
+    \href{https://datenstrom.gitlab.io/index}{datenstrom.gitlab.io/index}}
+    }
+    \fancyfoot[R]{
+    \parbox[b]{2cm}{\logo}%
+    }
+}
+
+\endinput
