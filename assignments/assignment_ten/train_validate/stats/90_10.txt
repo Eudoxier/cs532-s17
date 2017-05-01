@@ -1,0 +1,35 @@
+Predicted  admin  commands  off-topic  plugins  __all__
+Actual                                                 
+admin          1         0          1        0        2
+commands       1         2          1        0        4
+off-topic      0         0          4        0        4
+plugins        0         0          2        1        3
+__all__        2         2          8        1       13
+
+Classes                                    admin  commands off-topic   plugins
+Population                                    13        13        13        13
+P: Condition positive                          2         4         4         3
+N: Condition negative                         11         9         9        10
+Test outcome positive                          2         2         8         1
+Test outcome negative                         11        11         5        12
+TP: True Positive                              1         2         4         1
+TN: True Negative                             10         9         5        10
+FP: False Positive                             1         0         4         0
+FN: False Negative                             1         2         0         2
+TPR: (Sensitivity, hit rate, recall)         0.5       0.5         1  0.333333
+TNR=SPC: (Specificity)                  0.909091         1  0.555556         1
+PPV: Pos Pred Value (Precision)              0.5         1       0.5         1
+NPV: Neg Pred Value                     0.909091  0.818182         1  0.833333
+FPR: False-out                         0.0909091         0  0.444444         0
+FDR: False Discovery Rate                    0.5         0       0.5         0
+FNR: Miss Rate                               0.5       0.5         0  0.666667
+ACC: Accuracy                           0.846154  0.846154  0.692308  0.846154
+F1 score                                     0.5  0.666667  0.666667       0.5
+MCC: Matthews correlation coefficient   0.409091  0.639602  0.527046  0.527046
+Informedness                            0.409091       0.5  0.555556  0.333333
+Markedness                              0.409091  0.818182       0.5  0.833333
+Prevalence                              0.153846  0.307692  0.307692  0.230769
+LR+: Positive likelihood ratio               5.5       inf      2.25       inf
+LR-: Negative likelihood ratio              0.55       0.5         0  0.666667
+DOR: Diagnostic odds ratio                    10       inf       inf       inf
+FOR: False omission rate               0.0909091  0.181818         0  0.166667

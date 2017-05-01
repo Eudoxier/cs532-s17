@@ -1,0 +1,17 @@
+========================================  ===========  =========
+Title                                     Predicted    Actual
+========================================  ===========  =========
+Unhighlight Current Search                commands     commands
+Vim Cookbook                              off-topic    off-topic
+Right = Left                              admin        commands
+Sensible Defaults with Vim-Sensible       plugins      plugins
+Reload VIMRC                              off-topic    commands
+Finding and Replacing Unicode Characters  admin        admin
+Vim Gitgutter                             off-topic    plugins
+Swap Characters                           commands     commands
+Recursively Replace Ctrl-M                off-topic    admin
+An Introduction to Clojure's Agents       off-topic    off-topic
+Snipmate                                  off-topic    plugins
+Only RSS Vim Tips                         off-topic    off-topic
+The Golden Rules of Recursion             off-topic    off-topic
+========================================  ===========  =========
