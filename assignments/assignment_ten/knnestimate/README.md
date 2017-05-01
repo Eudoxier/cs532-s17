@@ -42,7 +42,7 @@
     >>> for k in [1, 2, 5, 10, 20]:
     ...     numpredict.knnestimate(data, data[blognames.index('Web Science and Digital Libraries Research Group')], k=k)
     ...
-    >>> tabulate(f_measure_table, headers='keys', tablefmt='rst')
+    >>> tabulate(web_science_table, headers='keys', tablefmt='rst')
     =============  =================  =================  ====================  ==============================
     k = 1          k = 2              k = 5              k = 10                k = 20
     =============  =================  =================  ====================  ==============================
