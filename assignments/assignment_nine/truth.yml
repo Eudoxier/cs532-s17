@@ -120,6 +120,6 @@
 "Snipmate": plugins
 "Vim.js": plugins
 "Supertab": plugins
-"Pull Into Ex": command
+"Pull Into Ex": commands
 "Ignore the Modified Flag": vimrc
 "Diffing From Inside Vim": commands

@@ -7,6 +7,8 @@
 
 The feed data is fetched using the code in the `glutton` directory which is very similar to the code from assignment eight. The raw XML data is stored in `data/raw_xml` and the truth values for the data are stored in YAML format in `truth.yml` and the code in `train_validate` processes the data and outputs the tables to `train_validate/tables/`.
 
+For the confusion matrix I used [pandas-ml](https://github.com/pandas-ml/pandas-ml).
+
 -----------------------------------------------------------------------
 
 &nbsp;
