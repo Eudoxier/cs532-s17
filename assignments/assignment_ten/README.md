@@ -4,6 +4,11 @@
 *   [Assignment Ten Report PDF](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_ten.pdf)
 
 &nbsp;
+## Question One
+
+The data is stored in `data/assignment_eight_wordcount.dat` and the code in the `knnestimate` directory. I just walked through it in the interpreter but recorded what I did and the results in `knnestimate/README.md`.
+
+## Question Two
 
 
 -----------------------------------------------------------------------
@@ -26,6 +31,36 @@ Support your answer: include all relevant discussion, assumptions, examples, etc
 for k = {1,2,5,10,20}.
 
 ## 2.  Rerun A9, Q2 but this time using LIBSVM
+
+Assignment Nine Question Two:
+
+>Train the Fisher classifier on the first 50 entries (the "training set"),
+>then use the classifier to guess the classification of the next 50 entries
+>(the "test set").
+>
+>Create a table with 50 rows, like
+>
+>    title			actual		predicted
+>    -----			------		---------
+>    Donnie Iris - 		80s		80s
+>    "Ah! Leah!" 
+>    (Forgotten Song)	
+>
+>    Black Sabbath - 	metal		metal
+>    "Vol. 4" (LP Review)
+>
+>    Catherine Wheel - 	alternative	metal
+>    "Ferment" (LP Review)
+>
+>Assess the performance of your classifier in each of your categories
+>by computing precision, recall, and F-measure.  Use the "macro-averaged"
+>label based method, as per:
+>[this post](http://stats.stackexchange.com/questions/21551/how-to-compute-precision-recall-for-multiclass-multilabel-classification)
+>
+>For example, if you have 5 categories (e.g., 80s, metal,
+>alternative, electronic, cover), you will compute 
+>precision, recall, and F-measure for each category,
+>and then compute the average across the 5 categories.
 
 If you have `n` categories, you'll have to run it `n` times.  For example, if you're classifying music and have the categories:
 
