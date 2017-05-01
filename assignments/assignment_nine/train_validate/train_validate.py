@@ -42,12 +42,12 @@ def run():
     results_90 = single_90_10(fisher, data)
 
     # Print some basic stats to assess the run
-    print("50/50 Split: {}/{} ({}%) Correct"
+    print("[*] 50/50 Split: {}/{} ({}%) Correct"
           .format(results_50['correct'],
                   results_50['total'],
                   results_50['percent']))
 
-    print("90/10 Split: {}/{} ({}%) Correct"
+    print("[*] 90/10 Split: {}/{} ({}%) Correct"
           .format(results_90['correct'],
                   results_90['total'],
                   results_90['percent']))
