@@ -13,7 +13,7 @@ import sys
 import logging
 import time
 
-from glutton import Hungery
+from glutton import Hungry
 
 __author__ = "Derek Goddeau"
 
@@ -30,11 +30,11 @@ def main(args):
 
     _logger.info("Starting main()")
     try:
-        glutton = Hungery(args.threads,
-                          args.out,
-                          args.pickle,
-                          args.new,
-                          args.entries)
+        glutton = Hungry(args.threads,
+                         args.out,
+                         args.pickle,
+                         args.new,
+                         args.entries)
 
         #  Cook up and eat the data
         glutton.eat(args.uris)

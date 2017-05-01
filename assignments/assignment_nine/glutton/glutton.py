@@ -35,7 +35,7 @@ __author__ = "Derek Goddeau"
 _logger = logging.getLogger(__name__)
 
 
-class Hungery():
+class Hungry():
     """ I eat a blog feed.
 
     """
