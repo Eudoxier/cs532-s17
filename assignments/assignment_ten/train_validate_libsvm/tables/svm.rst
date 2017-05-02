@@ -10,7 +10,4 @@ Make Windows Equal Height                  commands     commands
 Jumping to a Buffer                        commands     commands
 Fun With Unicode ٩(●̮̮̃•̃)۶                    commands     commands
 Editor Comparison                          commands     off-topic
-Vim + Eclipse = Eclim                      commands     off-topic
-Vim.js                                     commands     plugins
-Recursively Replace Ctrl-M                 commands     admin
 =========================================  ===========  =========

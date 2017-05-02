@@ -58,9 +58,9 @@ is updated daily but the primary repository can be accessed at
 8.  [Assignment Eight](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_eight)
   *   [Assignment Eight Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_eight.pdf)
 9.  [Assignment Nine](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_nine)
-  *   [Assignment Eight Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_nine.pdf)
-10.  [Assignment Eight](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_ten)
-  *   [Assignment Eight Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_ten.pdf)
+  *   [Assignment Nine Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_nine.pdf)
+10.  [Assignment Ten](https://gitlab.com/datenstrom/cs532-s17/tree/master/assignments/assignment_ten)
+  *   [Assignment Ten Report](http://datenstrom.gitlab.io/cs532-s17/pdfs/assignment_ten.pdf)
 
 &nbsp;
 ## Todo:

@@ -392,32 +392,27 @@ def subplot_cms(cms, title='title'):
     """Confusion matrix subplots.
 
     """
+
     plt.clf()
-    f, axarr = plt.subplots(3, 4)
 
     cmap = 'viridis'
-    plt.figure(figsize=(30, 30))
     plt.title(title)
-    plt.rcParams["axes.labelsize"] = 10
+    plt.figure(figsize=(30, 30))
+    plt.rcParams["axes.labelsize"] = 20
 
-    idx = 0
-    for x in range(2):
-        for y in range(3):
+    dfs = map(ConfusionMatrix.to_dataframe, cms)
+    sns.set(context='notebook')
 
-            if x == 0 and y == 0:
-                continue
-            elif x == 2 and y == 0:
-                continue
-
-
-            c_df = cms[idx].to_dataframe()
-            sns.set(context='notebook')
-            sns.heatmap(c_df,
-                        square=True,
-                        linewidths=2,
-                        linecolor='black',
-                        ax=axarr[x, y])
-            idx += 1
+    y = 0
+    fig, axs = plt.subplots(ncols=3, nrows=3)
+    for df, idx in enumerate(dfs):
+        sns.heatmap(df,
+                    square=True,
+                    linewidths=2,
+                    linecolor='black',
+                    ax=axs[idx % 3][y])
+        if idx % 3 == 0:
+            y += 1
 
     plt.savefig("heatmaps/" + "cross_validation_grid" + ".png",
                 format='png',

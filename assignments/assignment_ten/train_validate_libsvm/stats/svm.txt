@@ -1,63 +1,35 @@
-Predicted  admin  commands  mappings  vimrc  __all__
-Actual                                              
-admin          0         1         0      0        1
-commands       0         8         0      0        8
-mappings       0         1         0      0        1
-vimrc          0         2         0      0        2
-__all__        0        12         0      0       12
+Predicted  admin  commands  plugins  vimrc  __all__
+Actual                                             
+admin          0         2        0      0        2
+commands       0         5        0      0        5
+plugins        0         1        0      0        1
+vimrc          0         1        0      0        1
+__all__        0         9        0      0        9
 
-Classes                                    admin  commands   mappings  \
-Population                                    12        12         12   
-P: Condition positive                          1         8          1   
-N: Condition negative                         11         4         11   
-Test outcome positive                          0        12          0   
-Test outcome negative                         12         0         12   
-TP: True Positive                              0         8          0   
-TN: True Negative                             11         0         11   
-FP: False Positive                             0         4          0   
-FN: False Negative                             1         0          1   
-TPR: (Sensitivity, hit rate, recall)           0         1          0   
-TNR=SPC: (Specificity)                         1         0          1   
-PPV: Pos Pred Value (Precision)              NaN  0.666667        NaN   
-NPV: Neg Pred Value                     0.916667       NaN   0.916667   
-FPR: False-out                                 0         1          0   
-FDR: False Discovery Rate                    NaN  0.333333        NaN   
-FNR: Miss Rate                                 1         0          1   
-ACC: Accuracy                           0.916667  0.666667   0.916667   
-F1 score                                       0       0.8          0   
-MCC: Matthews correlation coefficient        NaN       NaN        NaN   
-Informedness                                   0         0          0   
-Markedness                                   NaN       NaN        NaN   
-Prevalence                             0.0833333  0.666667  0.0833333   
-LR+: Positive likelihood ratio               NaN         1        NaN   
-LR-: Negative likelihood ratio                 1       NaN          1   
-DOR: Diagnostic odds ratio                   NaN       NaN        NaN   
-FOR: False omission rate               0.0833333       NaN  0.0833333   
-
-Classes                                   vimrc  
-Population                                   12  
-P: Condition positive                         2  
-N: Condition negative                        10  
-Test outcome positive                         0  
-Test outcome negative                        12  
-TP: True Positive                             0  
-TN: True Negative                            10  
-FP: False Positive                            0  
-FN: False Negative                            2  
-TPR: (Sensitivity, hit rate, recall)          0  
-TNR=SPC: (Specificity)                        1  
-PPV: Pos Pred Value (Precision)             NaN  
-NPV: Neg Pred Value                    0.833333  
-FPR: False-out                                0  
-FDR: False Discovery Rate                   NaN  
-FNR: Miss Rate                                1  
-ACC: Accuracy                          0.833333  
-F1 score                                      0  
-MCC: Matthews correlation coefficient       NaN  
-Informedness                                  0  
-Markedness                                  NaN  
-Prevalence                             0.166667  
-LR+: Positive likelihood ratio              NaN  
-LR-: Negative likelihood ratio                1  
-DOR: Diagnostic odds ratio                  NaN  
-FOR: False omission rate               0.166667  
+Classes                                   admin  commands   plugins     vimrc
+Population                                    9         9         9         9
+P: Condition positive                         2         5         1         1
+N: Condition negative                         7         4         8         8
+Test outcome positive                         0         9         0         0
+Test outcome negative                         9         0         9         9
+TP: True Positive                             0         5         0         0
+TN: True Negative                             7         0         8         8
+FP: False Positive                            0         4         0         0
+FN: False Negative                            2         0         1         1
+TPR: (Sensitivity, hit rate, recall)          0         1         0         0
+TNR=SPC: (Specificity)                        1         0         1         1
+PPV: Pos Pred Value (Precision)             NaN  0.555556       NaN       NaN
+NPV: Neg Pred Value                    0.777778       NaN  0.888889  0.888889
+FPR: False-out                                0         1         0         0
+FDR: False Discovery Rate                   NaN  0.444444       NaN       NaN
+FNR: Miss Rate                                1         0         1         1
+ACC: Accuracy                          0.777778  0.555556  0.888889  0.888889
+F1 score                                      0  0.714286         0         0
+MCC: Matthews correlation coefficient       NaN       NaN       NaN       NaN
+Informedness                                  0         0         0         0
+Markedness                                  NaN       NaN       NaN       NaN
+Prevalence                             0.222222  0.555556  0.111111  0.111111
+LR+: Positive likelihood ratio              NaN         1       NaN       NaN
+LR-: Negative likelihood ratio                1       NaN         1         1
+DOR: Diagnostic odds ratio                  NaN       NaN       NaN       NaN
+FOR: False omission rate               0.222222       NaN  0.111111  0.111111
