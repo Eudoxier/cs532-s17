@@ -10,6 +10,7 @@ import yaml
 from pandas_ml import ConfusionMatrix
 from tabulate import tabulate
 from sklearn.svm import SVC
+from sklearn.svm import libsvm
 from sklearn import preprocessing
 import numpy as np
 import matplotlib.pyplot as plt
@@ -116,7 +117,7 @@ def train_test(data, training_percent=0.90):
     predicted_str = lable_encoder.inverse_transform(predicted)
     c_matrix = ConfusionMatrix(validation_categories, predicted_str)
 
-    # Cross-Validation
+    # Cross-Validation manual
     cross_results = cross_validation(norm_data, lable_encoder)
 
     results = zip(titles, predicted_str, categories)
