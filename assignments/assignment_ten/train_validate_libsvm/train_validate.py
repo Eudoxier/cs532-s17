@@ -91,23 +91,25 @@ def train_test(data, training_percent=0.90):
     lable_encoder = preprocessing.LabelEncoder()
     lable_encoder.fit(list(set(categories)))
 
-    print("[*] Dividing Data into Training/Testing")
-    training, validation = split_data(data, training_percent)
-
     print("[*] Normalizing Data")
-    norm_training = normalize_data(training, lable_encoder)
-    norm_validation = normalize_data(validation, lable_encoder)
+    norm_data = normalize_data(data, lable_encoder)
+
+    print("[*] Dividing Data into Training/Testing")
+    training, validation = split_data(norm_data, training_percent)
+
+    #norm_training = normalize_data(training, lable_encoder)
+    #norm_validation = normalize_data(validation, lable_encoder)
 
     print("[*] Training...")
-    training_features = norm_training[1]
-    training_classifications = norm_training[2]
+    training_features = training[1]
+    training_classifications = training[2]
     clf.fit(training_features, training_classifications)
 
     print("[*] Testing...")
-    validation_features = norm_validation[1]
+    validation_features = validation[1]
 
     print("[*] Getting Statistics")
-    validation_categories = validation[2]
+    validation_categories = lable_encoder.inverse_transform(validation[2])
     predicted = clf.predict(validation_features)
     predicted_str = lable_encoder.inverse_transform(predicted)
     c_matrix = ConfusionMatrix(validation_categories, predicted_str)

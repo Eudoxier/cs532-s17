@@ -1,34 +1,35 @@
-Predicted  admin  commands  vimrc  __all__
-Actual                                    
-admin          0         1      0        1
-commands       0         7      0        7
-vimrc          0         2      0        2
-__all__        0        10      0       10
+Predicted  admin  commands  off-topic  vimrc  __all__
+Actual                                               
+admin          0         3          0      0        3
+commands       0         3          0      0        3
+off-topic      0         2          0      0        2
+vimrc          0         3          0      0        3
+__all__        0        11          0      0       11
 
-Classes                               admin  commands vimrc
-Population                               10        10    10
-P: Condition positive                     1         7     2
-N: Condition negative                     9         3     8
-Test outcome positive                     0        10     0
-Test outcome negative                    10         0    10
-TP: True Positive                         0         7     0
-TN: True Negative                         9         0     8
-FP: False Positive                        0         3     0
-FN: False Negative                        1         0     2
-TPR: (Sensitivity, hit rate, recall)      0         1     0
-TNR=SPC: (Specificity)                    1         0     1
-PPV: Pos Pred Value (Precision)         NaN       0.7   NaN
-NPV: Neg Pred Value                     0.9       NaN   0.8
-FPR: False-out                            0         1     0
-FDR: False Discovery Rate               NaN       0.3   NaN
-FNR: Miss Rate                            1         0     1
-ACC: Accuracy                           0.9       0.7   0.8
-F1 score                                  0  0.823529     0
-MCC: Matthews correlation coefficient   NaN       NaN   NaN
-Informedness                              0         0     0
-Markedness                              NaN       NaN   NaN
-Prevalence                              0.1       0.7   0.2
-LR+: Positive likelihood ratio          NaN         1   NaN
-LR-: Negative likelihood ratio            1       NaN     1
-DOR: Diagnostic odds ratio              NaN       NaN   NaN
-FOR: False omission rate                0.1       NaN   0.2
+Classes                                   admin  commands off-topic     vimrc
+Population                                   11        11        11        11
+P: Condition positive                         3         3         2         3
+N: Condition negative                         8         8         9         8
+Test outcome positive                         0        11         0         0
+Test outcome negative                        11         0        11        11
+TP: True Positive                             0         3         0         0
+TN: True Negative                             8         0         9         8
+FP: False Positive                            0         8         0         0
+FN: False Negative                            3         0         2         3
+TPR: (Sensitivity, hit rate, recall)          0         1         0         0
+TNR=SPC: (Specificity)                        1         0         1         1
+PPV: Pos Pred Value (Precision)             NaN  0.272727       NaN       NaN
+NPV: Neg Pred Value                    0.727273       NaN  0.818182  0.727273
+FPR: False-out                                0         1         0         0
+FDR: False Discovery Rate                   NaN  0.727273       NaN       NaN
+FNR: Miss Rate                                1         0         1         1
+ACC: Accuracy                          0.727273  0.272727  0.818182  0.727273
+F1 score                                      0  0.428571         0         0
+MCC: Matthews correlation coefficient       NaN       NaN       NaN       NaN
+Informedness                                  0         0         0         0
+Markedness                                  NaN       NaN       NaN       NaN
+Prevalence                             0.272727  0.272727  0.181818  0.272727
+LR+: Positive likelihood ratio              NaN         1       NaN       NaN
+LR-: Negative likelihood ratio                1       NaN         1         1
+DOR: Diagnostic odds ratio                  NaN       NaN       NaN       NaN
+FOR: False omission rate               0.272727       NaN  0.181818  0.272727
