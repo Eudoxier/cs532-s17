@@ -25,3 +25,12 @@ I am not sure how to find the appropriate value for `nu` that NuSVC requires so 
     array([2, 2, 1]...)
     >>> list(le.inverse_transform([2, 2, 1]))
     ['tokyo', 'tokyo', 'paris']
+
+## SVC Cross Validation
+
+The class is instantiated with the keyword argument `probability=True` and
+the `predict_proba` or `predict_log_proba` functions are used. Note that:
+
+>The probability model is created using cross validation, so the results can be slightly different than those obtained by predict. Also, it will produce meaningless results on very small datasets.
+
+It is likely that 100 samples is small.
